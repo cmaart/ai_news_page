@@ -66,7 +66,8 @@ Deploy: Push auf `main` → GitHub Actions baut und deployt auf GitHub Pages
   bereits extrahiert in design-tokens.md.
 - Windows-Umgebung: PowerShell-Quoting beachten, `git add` warnt über CRLF (harmlos).
 
-## Demo-Inhalte
+## Inhalte
 
-Die zwei Artikel unter `src/content/articles/` sind fiktive Demo-Inhalte (Quellen zeigen auf example.org).
-Vor Go-Live ersetzen. Keine echten Institutionen mit erfundenen Zahlen in Demo-Artikeln verwenden.
+Artikel unter `src/content/articles/` stammen aus der AI-News-Pipeline (echte Quellen). Die
+ursprünglichen fiktiven Demo-Artikel sind entfernt. Keine echten Institutionen mit erfundenen
+Zahlen in etwaigen Test-Artikeln verwenden.
