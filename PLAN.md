@@ -34,7 +34,7 @@ Design-Vorlagen: `docs/BELEG Artikelseite.html` + `docs/BELEG Startseite.html` (
 | 22 | Versionen | **Immer aktuellste stable Versionen** (Stand Umsetzung: Astro 7, Zod 4 via astro:content, TS 7). Zod 4: `z.url()` statt `z.string().url()`; `render(entry)` standalone; Slug = `entry.id`. |
 | 23 | Layout-Breite | Abweichend von Vorlage (1080/760/660px): **alle Container max 1024px**, Fließtext zusätzlich auf 72ch Lesebreite begrenzt. Card-Grids fluid (`auto-fill, minmax(280px, 1fr)`). |
 | 24 | Positionierung | Produkt ist **News-Seite** („Nachrichten", „Artikel"), KI-Recherche ist Methode, nicht Produktname. Copy: „Aktuelle Nachrichten" statt „Aktuelle Recherchen"; Disclosure-/Methodik-Labels unverändert. |
-| 25 | Pipeline-Workflow | Zweiter Workflow `.github/workflows/ai-news-research.yml`: stündlich (`cron: "7 * * * *"`) + `workflow_dispatch`, `timeout-minutes: 30`, `concurrency`-Group ohne cancel. Tooling wie `deploy.yml`: **npm** (gepinnt 11.6.2), Node 24, `tsx`-Scripts unter `scripts/ai-news/`. |
+| 25 | Pipeline-Workflow | Zweiter Workflow `.github/workflows/ai-news-research.yml`: alle 30 min (`cron: "7,37 * * * *"`, ursprünglich stündlich) + `workflow_dispatch`, `timeout-minutes: 30`, `concurrency`-Group ohne cancel. Tooling wie `deploy.yml`: **npm** (gepinnt 11.6.2), Node 24, `tsx`-Scripts unter `scripts/ai-news/`. |
 | 26 | Quellen-Registry | **Revidiert Entscheidung 2 teilweise:** `data/ai-news/sources.yaml` als RSS-Registry (discovery-only, ~40 AT-Feeds: ORF/Standard/OTS aktiv, Presse/Kurier/Kleine/profil validation-gated, Boulevard disabled). Artikel-Daten bleiben im MDX-Frontmatter. |
 | 27 | Rolling Memory | `data/ai-news/memory/` (seen-items 30 d, story-memory 90–180 d, source-health, run-history 500 Runs) wird **direkt auf main committet** — nie via PR-Branch (sonst Dedupe-Verlust bei ungemergtem PR). Inbox-/Cluster-JSONs **nicht** ins Git: nur Workflow-Artifacts (7 d, Debugging). Research-/Notes-JSONs als Audit-Beleg committen. |
 | 28 | Recherche-Modell | Erst-Draft aus **RSS-Cluster-Aggregation** (Titel/Summaries mehrerer Portale; kein Artikeltext-Scraping). **Web-Search-Eskalation** (`web_search_20260209`) wenn Story ≥ 3 Portale erreicht oder Update ansteht: Primärquellen (AMS, Statistik Austria, Parlament, OTS-Volltext) aktiv suchen; Medienartikel lesen erlaubt (Verständnis, nie Nachdruck). Nur URLs aus Tool-Results zitieren. Deckel: max 8 Web-Search-Calls/Tag (Env). |
@@ -147,7 +147,7 @@ Stack: Astro 5, MDX, TypeScript strict, npm, Node LTS.
 
 ## AI-News-Pipeline (Entscheidungen 25–36)
 
-Stündlicher Ablauf: RSS-Fetch (nur `enabled`-Feeds, 10 s Timeout, max 50 Items/Feed, URL-Normalisierung,
+Ablauf pro Run (alle 30 min): RSS-Fetch (nur `enabled`-Feeds, 10 s Timeout, max 50 Items/Feed, URL-Normalisierung,
 ID = sha256(sourceId+normalizedUrl)) → Dedupe gegen seen-items → Clustering (Token-Overlap, 48 h-Fenster)
 → regelbasiertes Scoring → Haiku-Triage (max 5) → max 1 Sonnet-Draft/Update → validate + build → Commit/Push
 main (bzw. PR bei sensitiv) → Memory-Update.
@@ -178,9 +178,11 @@ Rate-Limits teilen sich mit der normalen Claude-Code-Nutzung.
 - [x] GitHub Pages aktivieren (Source: GitHub Actions) — passiert automatisch beim ersten Workflow-Lauf (`configure-pages` mit `enablement: true`)
 - [ ] Feedback-Link „Fehler oder fehlende Quelle melden": GitHub-Issue-Template (`korrektur.yml`, vorausgefüllt mit Slug) + Link-Komponente einbauen
 - [ ] Newsletter: Anbieter wählen, Block reaktivieren
-- [ ] **GA4-Property anlegen, Measurement-ID als `PUBLIC_GA_ID` setzen**
+- [ ] **GA4 erst bei fixer Domain aktivieren**: Measurement-ID (`G-…`, nicht Property-ID) als
+  Repo-Variable `PUBLIC_GA_ID` setzen — Code (Consent Mode v2 + Cookie-Banner) ist fertig und
+  ohne Variable deaktiviert. Property 544960890 existiert bereits.
 - [ ] Impressum mit echten Daten (§ 5 ECG, Offenlegung § 25 MedienG — Name/Anschrift Pflicht)
 - [ ] Datenschutzerklärung finalisieren (GA4-Abschnitt, GitHub Pages als Hoster, Widerrufsweg)
-- [ ] Demo-Artikel entfernen/ersetzen
-- [ ] Echte Recherche-Pipeline (Scripts/GitHub Actions) — Design fixiert in Entscheidungen 25–36, Implementierung ausstehend
+- [x] Demo-Artikel entfernen/ersetzen
+- [x] Echte Recherche-Pipeline (Scripts/GitHub Actions) — Design fixiert in Entscheidungen 25–36, implementiert und live
 - [ ] Optional: Über-uns-Seite, Dark Mode, cookielose Analytics-Alternative evaluieren

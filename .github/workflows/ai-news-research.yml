@@ -1,6 +1,6 @@
 # AI-News-Research-Pipeline (PLAN.md Entscheidungen 25–36).
 #
-# Stündlich: RSS-Fetch → Cluster → Score → Haiku-Triage → max 1 Sonnet-Draft/Update.
+# Alle 30 Minuten: RSS-Fetch → Cluster → Score → Haiku-Triage → max 1 Sonnet-Draft/Update.
 # Auto-Publish: validate + build als Gate, dann Commit direkt auf main.
 # Sensitivity high: Artikel auf Branch ai-news/<slug> + PR statt main.
 # Memory (data/ai-news/memory) landet immer auf main — deploy.yml ignoriert
@@ -10,7 +10,7 @@ name: AI News Research
 
 on:
   schedule:
-    - cron: "7 * * * *"
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
