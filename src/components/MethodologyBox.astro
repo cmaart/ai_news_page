@@ -1,6 +1,6 @@
 ---
 import type { ArticleData } from '../lib/articles';
-import { EDITORIAL_REVIEW_LABELS, GENERATION_MODE_LABELS } from '../config/disclosure';
+import { GENERATION_MODE_LABELS } from '../config/disclosure';
 import { formatDate, lastUpdated, STRENGTH_LABELS } from '../lib/articles';
 import { withBase } from '../lib/url';
 
@@ -11,9 +11,10 @@ interface Props {
 const { data } = Astro.props;
 const updated = lastUpdated(data);
 
+// Keine „Redaktionelle Prüfung"-Zeile: es gibt keinen Redaktionsprozess —
+// die Disclosure-Box sagt das explizit, hier würde das Feld einen suggerieren.
 const entries = [
   { label: 'Recherchemodus', value: GENERATION_MODE_LABELS[data.generationMode] },
-  { label: 'Redaktionelle Prüfung', value: EDITORIAL_REVIEW_LABELS[data.editorialReview] },
   { label: 'Quellenlage', value: STRENGTH_LABELS[data.primarySourceStrength] },
   { label: 'Letzte Aktualisierung', value: updated ? formatDate(updated) : '—' },
 ];
