@@ -8,6 +8,8 @@ import { envInt, isoNow, itemId, normalizeUrl } from './util.ts';
 
 const FEED_TIMEOUT_MS = envInt('AI_NEWS_FEED_TIMEOUT_MS', 10_000);
 const MAX_ITEMS_PER_FEED = envInt('AI_NEWS_MAX_ITEMS_PER_FEED', 50);
+// Items mit publishedAt älter als das verwerfen (Items ohne Datum bleiben drin).
+const MAX_ITEM_AGE_HOURS = envInt('AI_NEWS_MAX_ITEM_AGE_HOURS', 72);
 const USER_AGENT = 'neue-nachrichten-research/1.0 (+https://github.com/cmaart/ai_news_page)';
 
 // Backoff für dauerhaft kaputte Feeds: ab 24 Fehlern nur noch jeder 12. Versuch.
@@ -68,10 +70,13 @@ async function fetchFeed(source: SourceDef, health: SourceHealth): Promise<FeedI
     const feed = await parser.parseString(await fetchFeedXml(source.url));
     const fetchedAt = isoNow();
     const items: FeedItem[] = [];
+    const ageCutoff = Date.now() - MAX_ITEM_AGE_HOURS * 3_600_000;
     for (const raw of (feed.items ?? []).slice(0, MAX_ITEMS_PER_FEED)) {
       const title = raw.title?.trim();
       const link = raw.link?.trim();
       if (!title || !link) continue;
+      const published = raw.isoDate ? Date.parse(raw.isoDate) : Number.NaN;
+      if (Number.isFinite(published) && published < ageCutoff) continue;
       items.push({
         id: itemId(source.id, link, title, raw.isoDate ?? raw.pubDate),
         sourceId: source.id,

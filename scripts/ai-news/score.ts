@@ -46,6 +46,26 @@ export function scoreCluster(cluster: Cluster, sourceById: Map<string, SourceDef
     score -= 0.3;
     reasons.push('sport/celebrity/lifestyle penalty');
   }
+
+  // Frische: jüngstes publishedAt im Cluster boostet aktuelle News,
+  // ältere Lagen werden abgestuft (Items ohne Datum zählen neutral).
+  const newest = Math.max(
+    ...cluster.items.map((i) => (i.publishedAt ? Date.parse(i.publishedAt) : Number.NaN)).filter(Number.isFinite),
+    Number.NEGATIVE_INFINITY,
+  );
+  if (Number.isFinite(newest)) {
+    const ageHours = (Date.now() - newest) / 3_600_000;
+    if (ageHours <= 3) {
+      score += 0.1;
+      reasons.push('fresh (<3h)');
+    } else if (ageHours > 48) {
+      score -= 0.2;
+      reasons.push('stale (>48h)');
+    } else if (ageHours > 24) {
+      score -= 0.1;
+      reasons.push('aging (>24h)');
+    }
+  }
   if (portals.size === 1 && types.has('press_release_wire') && !types.has('media')) {
     score -= 0.2;
     reasons.push('press release without second source');
