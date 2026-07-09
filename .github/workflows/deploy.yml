@@ -3,6 +3,10 @@ name: Validate, Build & Deploy
 on:
   push:
     branches: [main, master]
+    # Memory-only-Commits der AI-News-Pipeline lösen keinen Deploy aus;
+    # nach Artikel-Pushes dispatcht ai-news-research.yml diesen Workflow explizit.
+    paths-ignore:
+      - "data/**"
   pull_request:
   workflow_dispatch:
 

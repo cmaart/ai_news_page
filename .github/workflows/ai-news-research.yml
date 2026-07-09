@@ -1,0 +1,129 @@
+# AI-News-Research-Pipeline (PLAN.md Entscheidungen 25–36).
+#
+# Stündlich: RSS-Fetch → Cluster → Score → Haiku-Triage → max 1 Sonnet-Draft/Update.
+# Auto-Publish: validate + build als Gate, dann Commit direkt auf main.
+# Sensitivity high: Artikel auf Branch ai-news/<slug> + PR statt main.
+# Memory (data/ai-news/memory) landet immer auf main — deploy.yml ignoriert
+# data/**-only-Pushes; nach Artikel-Pushes wird deploy.yml explizit dispatcht
+# (Pushes mit GITHUB_TOKEN triggern keine on-push-Workflows).
+name: AI News Research
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry-Run (kein Claude, keine Writes)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: ai-news-research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      AI_NEWS_MAX_TRIAGE: "5"
+      AI_NEWS_MAX_WEB_SEARCH_PER_DAY: "8"
+      AI_NEWS_LOOKBACK_HOURS: "48"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # Gleiche npm-Version wie lokal (siehe deploy.yml).
+      - name: Pin npm version
+        run: npm install -g npm@11.6.2
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run AI news pipeline
+        run: npm run ai-news:run ${{ inputs.dry_run && '-- --dry-run' || '' }}
+
+      - name: Upload debug artifacts (inbox/clusters)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-news-work-${{ github.run_id }}
+          path: data/ai-news/work/
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Read run manifest
+        id: manifest
+        run: |
+          M=data/ai-news/work/run-output.json
+          echo "action=$(jq -r '.action // "none"' $M)" >> "$GITHUB_OUTPUT"
+          echo "slug=$(jq -r '.slug // ""' $M)" >> "$GITHUB_OUTPUT"
+          echo "article=$(jq -r '.articlePath // ""' $M)" >> "$GITHUB_OUTPUT"
+          echo "sensitive=$(jq -r '.sensitive // false' $M)" >> "$GITHUB_OUTPUT"
+
+      # Gate vor jedem Push: Cross-Checks + kompletter Astro-Build.
+      - name: Validate content
+        run: npm run validate
+
+      - name: Build site (smoke test)
+        run: npm run build
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # Sensitiv: Artikel auf eigenen Branch + PR, danach vom main-Working-Tree fernhalten.
+      - name: Create review PR (sensitive article)
+        if: steps.manifest.outputs.sensitive == 'true' && steps.manifest.outputs.article != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLUG: ${{ steps.manifest.outputs.slug }}
+          ARTICLE: ${{ steps.manifest.outputs.article }}
+        run: |
+          BRANCH="ai-news/${SLUG}"
+          git checkout -b "$BRANCH"
+          git add "$ARTICLE" data/ai-news/research data/ai-news/notes || true
+          git commit -m "AI-News-Draft (review): ${SLUG}"
+          git push -f -u origin "$BRANCH"
+          gh label create automated --color 5319e7 --force
+          gh label create news-research --color 0e8a16 --force
+          gh label create needs-review --color d93f0b --force
+          gh pr create --base main --head "$BRANCH" \
+            --title "Review nötig: ${SLUG}" \
+            --label automated --label news-research --label needs-review \
+            --body "Automatisch erzeugter Draft mit sensitivity: high — bitte prüfen. Research-JSON liegt unter data/ai-news/research/." \
+            || echo "PR existiert bereits — Branch aktualisiert."
+          git checkout main
+
+      - name: Commit to main (memory, notes, published articles)
+        run: |
+          git add data/ai-news src/content/articles
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen zu committen."
+            exit 0
+          fi
+          git commit -m "AI news run: ${{ steps.manifest.outputs.action }}${{ steps.manifest.outputs.slug != '' && format(' ({0})', steps.manifest.outputs.slug) || '' }}"
+          git pull --rebase origin main
+          git push origin main
+
+      # GITHUB_TOKEN-Pushes triggern deploy.yml nicht — bei publizierten
+      # Artikeln explizit dispatchen.
+      - name: Trigger deploy
+        if: startsWith(steps.manifest.outputs.action, 'published')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main

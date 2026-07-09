@@ -1,0 +1,513 @@
+version: 1
+updatedAt: "2026-07-09"
+notes:
+  - "RSS feeds are discovery-only. Do not republish feed content."
+  - "Check each provider's usage terms before commercial use."
+  - "APA-OTS is a press release wire, not the same as editorial APA news."
+
+sources:
+  # ORF
+  - id: orf_news
+    name: ORF News
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/news.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.9
+
+  - id: orf_oesterreich
+    name: ORF Österreich
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/oesterreich.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.9
+
+  - id: orf_burgenland
+    name: ORF Burgenland
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/burgenland.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: orf_wien
+    name: ORF Wien
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/wien.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.6
+
+  - id: orf_noe
+    name: ORF Niederösterreich
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/noe.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: orf_ooe
+    name: ORF Oberösterreich
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/ooe.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: orf_salzburg
+    name: ORF Salzburg
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/salzburg.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: orf_steiermark
+    name: ORF Steiermark
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/steiermark.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: orf_kaernten
+    name: ORF Kärnten
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/kaernten.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: orf_tirol
+    name: ORF Tirol
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/tirol.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: orf_vorarlberg
+    name: ORF Vorarlberg
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/vorarlberg.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: orf_science
+    name: ORF Science
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/science.xml
+    usage: discovery_only
+    enabled: true
+    weight: 0.7
+
+  - id: orf_sport
+    name: ORF Sport
+    type: media
+    country: AT
+    language: de
+    url: https://rss.orf.at/sport.xml
+    usage: discovery_only
+    enabled: false
+    weight: 0.2
+
+  # DER STANDARD
+  - id: derstandard_newsroom
+    name: Der Standard Newsroom
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.9
+
+  - id: derstandard_inland
+    name: Der Standard Inland
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/inland
+    usage: discovery_only
+    enabled: true
+    weight: 0.9
+
+  - id: derstandard_international
+    name: Der Standard International
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/international
+    usage: discovery_only
+    enabled: true
+    weight: 0.7
+
+  - id: derstandard_wirtschaft
+    name: Der Standard Wirtschaft
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/wirtschaft
+    usage: discovery_only
+    enabled: true
+    weight: 0.8
+
+  - id: derstandard_web
+    name: Der Standard Web
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/web
+    usage: discovery_only
+    enabled: true
+    weight: 0.6
+
+  - id: derstandard_wissenschaft
+    name: Der Standard Wissenschaft
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/wissenschaft
+    usage: discovery_only
+    enabled: true
+    weight: 0.7
+
+  - id: derstandard_recht
+    name: Der Standard Recht
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/recht
+    usage: discovery_only
+    enabled: true
+    weight: 0.7
+
+  - id: derstandard_gesundheit
+    name: Der Standard Gesundheit
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/gesundheit
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: derstandard_panorama
+    name: Der Standard Panorama
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/panorama
+    usage: discovery_only
+    enabled: true
+    weight: 0.5
+
+  - id: derstandard_live
+    name: Der Standard Live
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/live
+    usage: discovery_only
+    enabled: true
+    weight: 0.6
+
+  - id: derstandard_sport
+    name: Der Standard Sport
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/sport
+    usage: discovery_only
+    enabled: false
+    weight: 0.2
+
+  # APA-OTS (Presseaussendungen, keine redaktionellen Meldungen)
+  - id: apa_ots_all
+    name: APA-OTS Alle Aussendungen
+    type: press_release_wire
+    country: AT
+    language: de
+    url: https://www.ots.at/rss/index
+    usage: discovery_only
+    enabled: true
+    weight: 0.45
+
+  - id: apa_ots_politik
+    name: APA-OTS Politik
+    type: press_release_wire
+    country: AT
+    language: de
+    url: https://www.ots.at/rss/politik
+    usage: discovery_only
+    enabled: true
+    weight: 0.55
+
+  - id: apa_ots_wirtschaft
+    name: APA-OTS Wirtschaft
+    type: press_release_wire
+    country: AT
+    language: de
+    url: https://www.ots.at/rss/wirtschaft
+    usage: discovery_only
+    enabled: true
+    weight: 0.55
+
+  - id: apa_ots_finanzen
+    name: APA-OTS Finanzen
+    type: press_release_wire
+    country: AT
+    language: de
+    url: https://www.ots.at/rss/finanzen
+    usage: discovery_only
+    enabled: true
+    weight: 0.45
+
+  - id: apa_ots_chronik
+    name: APA-OTS Chronik
+    type: press_release_wire
+    country: AT
+    language: de
+    url: https://www.ots.at/rss/chronik
+    usage: discovery_only
+    enabled: true
+    weight: 0.45
+
+  - id: apa_ots_medien
+    name: APA-OTS Medien
+    type: press_release_wire
+    country: AT
+    language: de
+    url: https://www.ots.at/rss/medien
+    usage: discovery_only
+    enabled: true
+    weight: 0.4
+
+  # Die Presse (validation: URLs vor Aktivierung im Betrieb beobachten)
+  - id: diepresse_home
+    name: Die Presse
+    type: media
+    country: AT
+    language: de
+    url: https://www.diepresse.com/rss/
+    usage: discovery_only
+    enabled: true
+    weight: 0.8
+    validation: required
+
+  - id: diepresse_politik
+    name: Die Presse Politik
+    type: media
+    country: AT
+    language: de
+    url: https://www.diepresse.com/rss/Politik
+    usage: discovery_only
+    enabled: true
+    weight: 0.8
+    validation: required
+
+  - id: diepresse_wirtschaft
+    name: Die Presse Wirtschaft
+    type: media
+    country: AT
+    language: de
+    url: https://www.diepresse.com/rss/Wirtschaft
+    usage: discovery_only
+    enabled: true
+    weight: 0.7
+    validation: required
+
+  # Kurier
+  - id: kurier_home
+    name: Kurier
+    type: media
+    country: AT
+    language: de
+    url: https://kurier.at/xml/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.75
+    validation: required
+
+  - id: kurier_politik
+    name: Kurier Politik
+    type: media
+    country: AT
+    language: de
+    url: https://kurier.at/politik/xml/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.75
+    validation: required
+
+  - id: kurier_wirtschaft
+    name: Kurier Wirtschaft
+    type: media
+    country: AT
+    language: de
+    url: https://kurier.at/wirtschaft/xml/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.65
+    validation: required
+
+  - id: kurier_chronik
+    name: Kurier Chronik
+    type: media
+    country: AT
+    language: de
+    url: https://kurier.at/chronik/xml/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.55
+    validation: required
+
+  # Kleine Zeitung
+  - id: kleinezeitung_home
+    name: Kleine Zeitung
+    type: media
+    country: AT
+    language: de
+    url: https://www.kleinezeitung.at/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.65
+    validation: required
+
+  - id: kleinezeitung_oesterreich
+    name: Kleine Zeitung Österreich
+    type: media
+    country: AT
+    language: de
+    url: https://www.kleinezeitung.at/rss/oesterreich
+    usage: discovery_only
+    enabled: true
+    weight: 0.65
+    validation: required
+
+  - id: kleinezeitung_politik
+    name: Kleine Zeitung Politik
+    type: media
+    country: AT
+    language: de
+    url: https://www.kleinezeitung.at/rss/politik
+    usage: discovery_only
+    enabled: true
+    weight: 0.65
+    validation: required
+
+  - id: kleinezeitung_steiermark
+    name: Kleine Zeitung Steiermark
+    type: media
+    country: AT
+    language: de
+    url: https://www.kleinezeitung.at/rss/steiermark
+    usage: discovery_only
+    enabled: true
+    weight: 0.45
+    validation: required
+
+  # profil
+  - id: profil_home
+    name: profil
+    type: media
+    country: AT
+    language: de
+    url: https://www.profil.at/xml/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.75
+    validation: required
+
+  - id: profil_oesterreich
+    name: profil Österreich
+    type: media
+    country: AT
+    language: de
+    url: https://www.profil.at/oesterreich/xml/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.75
+    validation: required
+
+  - id: profil_gesellschaft
+    name: profil Gesellschaft
+    type: media
+    country: AT
+    language: de
+    url: https://www.profil.at/gesellschaft/xml/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.6
+    validation: required
+
+  # Kandidaten: erst validieren, dann aktivieren
+  - id: krone_home
+    name: Kronen Zeitung
+    type: media
+    country: AT
+    language: de
+    url: https://www.krone.at/rss
+    usage: discovery_only
+    enabled: false
+    weight: 0.55
+    validation: required
+
+  - id: oe24_home
+    name: oe24
+    type: media
+    country: AT
+    language: de
+    url: https://www.oe24.at/rss
+    usage: discovery_only
+    enabled: false
+    weight: 0.45
+    validation: required
+
+  - id: heute_home
+    name: Heute
+    type: media
+    country: AT
+    language: de
+    url: https://www.heute.at/rss
+    usage: discovery_only
+    enabled: false
+    weight: 0.45
+    validation: required
+
+  - id: vienna_at
+    name: Vienna.at
+    type: media
+    country: AT
+    language: de
+    url: https://www.vienna.at/rss
+    usage: discovery_only
+    enabled: false
+    weight: 0.35
+    validation: required

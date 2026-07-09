@@ -1,7 +1,8 @@
 # Neue Nachrichten — Plan & Entscheidungslog
 
 Statische, KI-gestützte Recherche-/News-Website. Astro + GitHub Pages. Domain (geplant): `neuenachrichten.at`.
-Ergebnis der Grilling-Session vom 2026-07-09.
+Ergebnis der Grilling-Session vom 2026-07-09. Entscheidungen 25–36: Grilling-Session zur
+AI-News-Pipeline (ebenfalls 2026-07-09), siehe Abschnitt „AI-News-Pipeline".
 
 Design-Vorlagen: `docs/BELEG Artikelseite.html` + `docs/BELEG Startseite.html` (visuelle Referenz) · extrahierte Werte: `docs/design-tokens.md`
 
@@ -33,6 +34,18 @@ Design-Vorlagen: `docs/BELEG Artikelseite.html` + `docs/BELEG Startseite.html` (
 | 22 | Versionen | **Immer aktuellste stable Versionen** (Stand Umsetzung: Astro 7, Zod 4 via astro:content, TS 7). Zod 4: `z.url()` statt `z.string().url()`; `render(entry)` standalone; Slug = `entry.id`. |
 | 23 | Layout-Breite | Abweichend von Vorlage (1080/760/660px): **alle Container max 1024px**, Fließtext zusätzlich auf 72ch Lesebreite begrenzt. Card-Grids fluid (`auto-fill, minmax(280px, 1fr)`). |
 | 24 | Positionierung | Produkt ist **News-Seite** („Nachrichten", „Artikel"), KI-Recherche ist Methode, nicht Produktname. Copy: „Aktuelle Nachrichten" statt „Aktuelle Recherchen"; Disclosure-/Methodik-Labels unverändert. |
+| 25 | Pipeline-Workflow | Zweiter Workflow `.github/workflows/ai-news-research.yml`: stündlich (`cron: "7 * * * *"`) + `workflow_dispatch`, `timeout-minutes: 30`, `concurrency`-Group ohne cancel. Tooling wie `deploy.yml`: **npm** (gepinnt 11.6.2), Node 24, `tsx`-Scripts unter `scripts/ai-news/`. |
+| 26 | Quellen-Registry | **Revidiert Entscheidung 2 teilweise:** `data/ai-news/sources.yaml` als RSS-Registry (discovery-only, ~40 AT-Feeds: ORF/Standard/OTS aktiv, Presse/Kurier/Kleine/profil validation-gated, Boulevard disabled). Artikel-Daten bleiben im MDX-Frontmatter. |
+| 27 | Rolling Memory | `data/ai-news/memory/` (seen-items 30 d, story-memory 90–180 d, source-health, run-history 500 Runs) wird **direkt auf main committet** — nie via PR-Branch (sonst Dedupe-Verlust bei ungemergtem PR). Inbox-/Cluster-JSONs **nicht** ins Git: nur Workflow-Artifacts (7 d, Debugging). Research-/Notes-JSONs als Audit-Beleg committen. |
+| 28 | Recherche-Modell | Erst-Draft aus **RSS-Cluster-Aggregation** (Titel/Summaries mehrerer Portale; kein Artikeltext-Scraping). **Web-Search-Eskalation** (`web_search_20260209`) wenn Story ≥ 3 Portale erreicht oder Update ansteht: Primärquellen (AMS, Statistik Austria, Parlament, OTS-Volltext) aktiv suchen; Medienartikel lesen erlaubt (Verständnis, nie Nachdruck). Nur URLs aus Tool-Results zitieren. Deckel: max 8 Web-Search-Calls/Tag (Env). |
+| 29 | Run-Budget | **Max 1 Story pro Run** (Draft *oder* Update) — top-gescorter Cluster, nur wenn Score > 0,65 (regelbasiertes Scoring vor Claude). Kein Tages-Artikelcap. Max 5 Triage-Calls/Run. Redraft-Sperre 24 h, Update-Throttle 6 h pro Story. |
+| 30 | Auto-Publish | **Site ist vollständig AI-kuratiert.** Pipeline setzt `status: published` + `publishedAt` und committet **direkt auf main** — Gate ist `npm run validate` + `astro build` im Run (fail ⇒ kein Push). **Ausnahme `sensitivity: high`** (personenbezogene Vorwürfe, Gericht, Gesundheit, Minderjährige, …): `status: review`, eigener Branch `ai-news/<slug>` + PR (Labels `automated`, `news-research`, `needs-review`) für menschliches Gate. `deploy.yml` bekommt `paths-ignore: data/**` (Memory-only-Pushes deployen nicht). |
+| 31 | Story-Updates | Bestehende Story ⇒ kein neuer Artikel. Update auch auf `published`: `corrections`-Eintrag `type: update`, `updatedAt`, Quellen ergänzt, Body angepasst — auto-committet (außer sensitiv ⇒ PR). Story-Zuordnung über story-memory. |
+| 32 | Claude-Calls | **Triage:** `claude-haiku-4-5`, Structured Output (`output_config.format`, JSON-Schema), ohne Tools, billig. **Draft/Update:** `claude-sonnet-5`, Structured Output; Web-Search-Tool nur bei Eskalation (E28). Enums (topic/country/status …) im JSON-Schema erzwungen — kein Repair-Prompt-Pfad nötig. Kosten ≈ $1,50–4/Tag. |
+| 33 | Pipeline-Frontmatter | Generierte Artikel nutzen das **bestehende Schema unverändert** — kein `slug`-/`uncertainty`-/`aiDisclosure`-Freitextfeld (Regel 1!). Pflicht: `summary` ≥ 1, `sources` ≥ 1, `claims` mit `sourceIds`-Referenzen, `generationMode: ai_generated`, `editorialReview: none`. |
+| 34 | Slugs | Semantisch mit zeitlichem Qualifier wo sinnvoll (`ams-arbeitslosigkeit-juli-2026`), Script prüft Kollision gegen bestehende Dateien (Suffix `-2`). Kein Datums-Präfix. |
+| 35 | Fehlerverhalten | Feed-Fehler ⇒ source-health + weiter (Auto-Disable nach x Fails). Claude-Fehler ⇒ Error-Note + weiter. validate/build fail ⇒ Job fail **vor** jedem Push. Benachrichtigung: GitHub-Failure-Mail des Scheduled Workflows. |
+| 36 | Claude-Systemprompt-Regeln | Hart im Prompt: keine erfundenen Quellen/URLs/Zitate/Zahlen; keine Primärquellen-Behauptung ohne gelesene Primärquelle; vorsichtige Sprache; sensible Themen konservativ (niedrige confidence, eher Research Note); im Zweifel Note statt Artikel. Verbotene Formulierungen aus CLAUDE.md Regel 2 gelten auch für generierte Texte. |
 
 ## Frontmatter-Schema (Zod, `src/content.config.ts`)
 
@@ -132,6 +145,32 @@ astro.config.mjs                 # site, trailingSlash always, sitemap, mdx
 
 Stack: Astro 5, MDX, TypeScript strict, npm, Node LTS.
 
+## AI-News-Pipeline (Entscheidungen 25–36)
+
+Stündlicher Ablauf: RSS-Fetch (nur `enabled`-Feeds, 10 s Timeout, max 50 Items/Feed, URL-Normalisierung,
+ID = sha256(sourceId+normalizedUrl)) → Dedupe gegen seen-items → Clustering (Token-Overlap, 48 h-Fenster)
+→ regelbasiertes Scoring → Haiku-Triage (max 5) → max 1 Sonnet-Draft/Update → validate + build → Commit/Push
+main (bzw. PR bei sensitiv) → Memory-Update.
+
+```
+.github/workflows/ai-news-research.yml
+scripts/ai-news/{fetch-rss,cluster,score,triage,draft,run}.ts
+data/ai-news/
+  sources.yaml                 # Feed-Registry (E26)
+  memory/                      # auf main committet (E27)
+    seen-items.json  story-memory.json  source-health.json  run-history.jsonl
+  research/YYYY-MM-DD/*.json   # Audit-Beleg pro Draft/Update
+  notes/YYYY-MM-DD/*.json      # Research-/Error-Notes
+```
+
+Secret: `ANTHROPIC_API_KEY` (Repo-Secret) + Spend-Limit in der Anthropic-Console als Notbremse.
+
+**Offene Folge-Punkte (nicht Teil der Pipeline-Implementierung):**
+- Startseite/Themen-Seiten brauchen bei unbegrenztem Artikelvolumen bald Pagination (revidiert E12/E23-Umfeld).
+- Auto-Publish auf öffentlicher URL ohne fertiges Impressum/Datenschutz = presserechtliches Risiko (MedienG) —
+  Go-Live-TODOs vorziehen oder Pipeline erst nach Rechtsseiten scharf schalten.
+- Methodik-Seite an Auto-Publish-Realität anpassen (bisher beschreibt sie Review-Workflow).
+
 ## Go-Live-TODOs
 
 - [ ] Domain `neuenachrichten.at` kaufen; DNS: A-Records auf GitHub-Pages-IPs + CNAME `www`; Custom Domain in Repo-Settings → Pages eintragen (`site`/`base` stellen sich dann automatisch um); `public/robots.txt` Sitemap-URL prüfen
@@ -142,5 +181,5 @@ Stack: Astro 5, MDX, TypeScript strict, npm, Node LTS.
 - [ ] Impressum mit echten Daten (§ 5 ECG, Offenlegung § 25 MedienG — Name/Anschrift Pflicht)
 - [ ] Datenschutzerklärung finalisieren (GA4-Abschnitt, GitHub Pages als Hoster, Widerrufsweg)
 - [ ] Demo-Artikel entfernen/ersetzen
-- [ ] Echte Recherche-Pipeline (Scripts/GitHub Actions, erzeugt MDX via PR) — separates Projekt
+- [ ] Echte Recherche-Pipeline (Scripts/GitHub Actions) — Design fixiert in Entscheidungen 25–36, Implementierung ausstehend
 - [ ] Optional: Über-uns-Seite, Dark Mode, cookielose Analytics-Alternative evaluieren
