@@ -71,6 +71,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
         <a class="story lead" href={withBase(`/artikel/${lead.id}/`)}>
           <div class="eyebrow">
             {TOPIC_LABELS[lead.data.topic]} · {COUNTRY_LABELS[lead.data.country]}
+            {lead.data.publishedAt && <span class="eyebrow__date">· {formatDate(lead.data.publishedAt)}</span>}
             {lead.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
           </div>
           <h2 class="lead__title">{lead.data.title}</h2>
@@ -85,7 +86,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
               Quellen {STRENGTH_LABELS[lead.data.primarySourceStrength]}
             </span>
             <span class="lead__sep">|</span>
-            <span>Risiko {RISK_LABELS[lead.data.framingRisk]}</span>
+            <span>Framing-Risiko {RISK_LABELS[lead.data.framingRisk]}</span>
             {
               leadStats.total > 0 && (
                 <>
@@ -107,13 +108,19 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
                 <a class="story toplist__item" href={withBase(`/artikel/${article.id}/`)}>
                   <div class="eyebrow eyebrow--small">
                     {TOPIC_LABELS[article.data.topic]} · {COUNTRY_LABELS[article.data.country]}
+                    {article.data.publishedAt && (
+                      <span class="eyebrow__date">· {formatDate(article.data.publishedAt)}</span>
+                    )}
                     {article.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
                   </div>
                   <h3 class="toplist__title">{article.data.title}</h3>
                   <div class="metrics">
-                    <span>QS {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
-                    <span>Risk {LEVEL_METER[article.data.framingRisk]}/5</span>
-                    <span>{article.data.sources.filter(isPrimarySource).length} Prim</span>
+                    <span>Quellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
+                    <span>Framing-Risiko {LEVEL_METER[article.data.framingRisk]}/5</span>
+                    <span>
+                      {article.data.sources.filter(isPrimarySource).length}{' '}
+                      {article.data.sources.filter(isPrimarySource).length === 1 ? 'Primärquelle' : 'Primärquellen'}
+                    </span>
                   </div>
                 </a>
               ))
@@ -202,7 +209,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
                 <p class="latest__teaser">{article.data.description}</p>
                 <div class="metrics">
                   {badge && <span class:list={[badge.ok ? 'metrics--ok' : 'metrics--warn']}>{badge.text}</span>}
-                  <span>QS {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
+                  <span>Quellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
                 </div>
               </a>
             );
@@ -575,8 +582,12 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
 
   .latest__date {
     font-family: var(--font-mono);
-    font-size: 10px;
-    color: var(--color-text-ghost);
+    font-size: 11px;
+    color: var(--color-text-faint);
+  }
+
+  .eyebrow__date {
+    color: var(--color-text-faint);
   }
 
   .latest__title {
