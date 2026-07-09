@@ -164,6 +164,8 @@ export interface DraftResult {
     sourceIds: string[];
   }[];
   body: DraftBodySection[];
+  /** Kompakt-Fassung: reiner Fließtext, 2–3 Absätze, keine Überschriften (PLAN.md E37). */
+  bodyKompakt: string;
   /** Nur beim Update: Text für den corrections-Eintrag (type: update). */
   updateNote?: string;
 }

@@ -35,6 +35,54 @@ function fail(file: string, message: string) {
   errors.push(`${file}: ${message}`);
 }
 
+/**
+ * Body-Konvention (PLAN.md E37): beide Textlängen-Varianten in Wrappern,
+ * nichts außerhalb. Kompakt = reiner Fließtext, max 3 Absätze, keine
+ * Überschriften. Standard = ##-Sektionen, kein h1.
+ */
+function checkBodyVariants(file: string, body: string) {
+  const kompakt = [...body.matchAll(/<Kompakt>([\s\S]*?)<\/Kompakt>/g)];
+  const standard = [...body.matchAll(/<Standard>([\s\S]*?)<\/Standard>/g)];
+
+  if (kompakt.length !== 1) {
+    fail(file, `Body braucht genau einen <Kompakt>-Wrapper (gefunden: ${kompakt.length})`);
+  }
+  if (standard.length !== 1) {
+    fail(file, `Body braucht genau einen <Standard>-Wrapper (gefunden: ${standard.length})`);
+  }
+  if (kompakt.length !== 1 || standard.length !== 1) return;
+
+  const outside = body.replace(kompakt[0][0], '').replace(standard[0][0], '').trim();
+  if (outside) {
+    fail(file, `Body enthält Inhalt außerhalb der <Kompakt>/<Standard>-Wrapper: „${outside.slice(0, 60)}…"`);
+  }
+
+  const kompaktText = kompakt[0][1].trim();
+  if (!kompaktText) {
+    fail(file, '<Kompakt>-Variante ist leer');
+  } else {
+    if (/^#{1,6}\s/m.test(kompaktText)) {
+      fail(file, '<Kompakt>-Variante muss reiner Fließtext sein (keine Überschriften)');
+    }
+    const paragraphs = kompaktText.split(/\n\s*\n/).filter((p) => p.trim());
+    if (paragraphs.length > 3) {
+      fail(file, `<Kompakt>-Variante hat ${paragraphs.length} Absätze (maximal 3)`);
+    }
+  }
+
+  const standardText = standard[0][1].trim();
+  if (!standardText) {
+    fail(file, '<Standard>-Variante ist leer');
+  } else {
+    if (!/^##\s/m.test(standardText)) {
+      fail(file, '<Standard>-Variante braucht mindestens eine ##-Überschrift');
+    }
+    if (/^#\s/m.test(standardText)) {
+      fail(file, 'Body darf kein h1 (#) enthalten');
+    }
+  }
+}
+
 function toTime(value: string | Date): number {
   return new Date(value).getTime();
 }
@@ -57,12 +105,17 @@ const slugs = new Map<string, string>();
 for (const file of files) {
   const raw = readFileSync(join(ARTICLES_DIR, file), 'utf8');
   let data: Frontmatter;
+  let body: string;
   try {
-    data = matter(raw).data as Frontmatter;
+    const parsed = matter(raw);
+    data = parsed.data as Frontmatter;
+    body = parsed.content;
   } catch (e) {
     fail(file, `Frontmatter nicht parsebar: ${(e as Error).message}`);
     continue;
   }
+
+  checkBodyVariants(file, body);
 
   const slug = file.replace(/\.mdx$/, '').toLowerCase();
   const existing = slugs.get(slug);

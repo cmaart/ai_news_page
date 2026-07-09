@@ -243,6 +243,21 @@ img {
   padding: 1px 5px;
 }
 
+/* Textlängen-Varianten des Artikel-Bodys (VariantKompakt/VariantStandard).
+   Default (auch ohne JS): standard sichtbar. TextlaengeToggle setzt
+   html[data-textlaenge] vor dem Body-Parsing — kein Aufblitzen. */
+.prose-variante[data-variante='kompakt'] {
+  display: none;
+}
+
+html[data-textlaenge='kompakt'] .prose-variante[data-variante='kompakt'] {
+  display: block;
+}
+
+html[data-textlaenge='kompakt'] .prose-variante[data-variante='standard'] {
+  display: none;
+}
+
 /* Nur für Screenreader */
 .sr-only {
   position: absolute;

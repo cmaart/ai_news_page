@@ -396,8 +396,17 @@ function sanitizeDraft(draft: DraftResult): DraftResult | null {
     .filter((c) => c.sourceIds.length > 0);
   const summary = draft.summary.filter((s) => s.text.trim().length > 0);
   const body = draft.body.filter((b) => b.heading.trim() && b.markdown.trim());
-  if (draft.sources.length === 0 || summary.length === 0 || body.length === 0) return null;
-  return { ...draft, claims, summary, body };
+  // Kompakt-Konvention hart absichern (validate.ts prüft dieselben Regeln):
+  // keine Überschriften-Zeichen, maximal 3 Absätze.
+  const bodyKompakt = (draft.bodyKompakt ?? '')
+    .replace(/^#{1,6}\s+/gm, '')
+    .trim()
+    .split(/\n\s*\n/)
+    .filter((p) => p.trim())
+    .slice(0, 3)
+    .join('\n\n');
+  if (draft.sources.length === 0 || summary.length === 0 || body.length === 0 || !bodyKompakt) return null;
+  return { ...draft, claims, summary, body, bodyKompakt };
 }
 
 main()

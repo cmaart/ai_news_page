@@ -42,6 +42,9 @@ Deploy: Push auf `main` → GitHub Actions baut und deployt auf GitHub Pages
 
 - **Ein Artikel = eine MDX-Datei** in `src/content/articles/`, Dateiname = Slug. Alle strukturierten
   Daten (Quellen, Claims, Korrekturen, Metriken) im Frontmatter; Body nur Fließtext mit `##` (kein `#`).
+- **Zwei Textlängen pro Body** (PLAN.md E37): `<Kompakt>` (reiner Fließtext, 2–3 Absätze, keine
+  Überschriften) + `<Standard>` (`##`-Sektionen), nichts außerhalb der Wrapper — validate.ts erzwingt das.
+  Umschalter `TextlaengeToggle.astro`, Auswahl in `localStorage` (`nn-textlaenge`), Default standard.
 - **Zod-Schema:** [src/content.config.ts](src/content.config.ts) (Zod 4: `z.url()`, nicht `z.string().url()`).
 - **Cross-Checks:** [scripts/validate.ts](scripts/validate.ts) — Quellen-Referenzen, Status-Konsistenz
   (`corrected` ⇔ Korrektur-Eintrag, `retracted` ⇒ `retractionReason`, `updatedAt` = jüngstes Korrektur-Datum).

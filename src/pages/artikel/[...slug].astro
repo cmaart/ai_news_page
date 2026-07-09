@@ -11,6 +11,9 @@ import SourceList from '../../components/SourceList.astro';
 import CorrectionTimeline from '../../components/CorrectionTimeline.astro';
 import RetractionBanner from '../../components/RetractionBanner.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import TextlaengeToggle from '../../components/TextlaengeToggle.astro';
+import VariantKompakt from '../../components/VariantKompakt.astro';
+import VariantStandard from '../../components/VariantStandard.astro';
 import { GENERATION_MODE_LABELS } from '../../config/disclosure';
 import {
   byNewest,
@@ -122,8 +125,9 @@ const jsonLd = {
     </div>
 
     <div class="article-body container-section">
+      <TextlaengeToggle />
       <div class="prose">
-        <Content />
+        <Content components={{ Kompakt: VariantKompakt, Standard: VariantStandard }} />
       </div>
     </div>
 

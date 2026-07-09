@@ -1,0 +1,98 @@
+---
+/**
+ * Segmented Toggle „Kompakt | Standard" für die Textlänge des Artikel-Bodys.
+ * Auswahl liegt in localStorage (nn-textlaenge) und gilt site-weit.
+ * Das Inline-Script muss VOR dem Body im HTML stehen: es setzt
+ * html[data-textlaenge], bevor die Varianten geparst werden (kein Aufblitzen).
+ */
+---
+
+<div class="textlaenge" role="group" aria-label="Textlänge wählen">
+  <span class="textlaenge__label">Textlänge</span>
+  <div class="textlaenge__buttons">
+    <button type="button" data-laenge="kompakt" aria-pressed="false">Kompakt</button>
+    <button type="button" data-laenge="standard" aria-pressed="true">Standard</button>
+  </div>
+</div>
+
+<script is:inline>
+  (() => {
+    const KEY = 'nn-textlaenge';
+    let stored = null;
+    try {
+      stored = localStorage.getItem(KEY);
+    } catch {
+      /* localStorage gesperrt → Default */
+    }
+    const initial = stored === 'kompakt' ? 'kompakt' : 'standard';
+    document.documentElement.dataset.textlaenge = initial;
+
+    const buttons = document.querySelectorAll('.textlaenge [data-laenge]');
+    const markActive = (value) => {
+      buttons.forEach((btn) => btn.setAttribute('aria-pressed', String(btn.dataset.laenge === value)));
+    };
+    markActive(initial);
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const value = btn.dataset.laenge;
+        document.documentElement.dataset.textlaenge = value;
+        markActive(value);
+        try {
+          localStorage.setItem(KEY, value);
+        } catch {
+          /* dann gilt die Wahl nur für diese Seite */
+        }
+      });
+    });
+  })();
+</script>
+
+<style>
+  .textlaenge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .textlaenge__label {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+  }
+
+  .textlaenge__buttons {
+    display: inline-flex;
+    border: 1px solid var(--color-border-soft);
+  }
+
+  .textlaenge__buttons button {
+    appearance: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 5px 12px;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+  }
+
+  .textlaenge__buttons button + button {
+    border-left: 1px solid var(--color-border-soft);
+  }
+
+  .textlaenge__buttons button:hover {
+    color: var(--color-ink);
+  }
+
+  .textlaenge__buttons button[aria-pressed='true'] {
+    background: var(--color-ink);
+    color: var(--color-bg);
+  }
+</style>

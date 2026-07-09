@@ -203,6 +203,7 @@ JSON-Format (alle Felder Pflicht; "note" und "updateNote" dürfen null sein):
   "sources": [{ "id": string, "name": string, "type": "agency" | "media" | "primary" | "official" | "study" | "press_release" | "other", "url": string }],
   "claims": [{ "id": string, "text": string, "status": "supported" | "partial" | "unclear" | "contradicted", "note": string | null, "sourceIds": string[] }],
   "body": [{ "heading": string, "markdown": string }],
+  "bodyKompakt": string,
   "updateNote": string | null
 }
 `.trim();
@@ -221,6 +222,9 @@ Vorgaben:
   unabhängige Medien übereinstimmen — sonst "unclear"/"partial".
 - body: 3–6 Sektionen mit ##-tauglichen Überschriften (z. B. „Was passiert ist“, „Was die Quellen zeigen“,
   „Was unklar bleibt“, „Einordnung“). Reiner Fließtext-Markdown ohne Überschriften-Zeichen im markdown-Feld.
+- bodyKompakt: Kompakt-Fassung desselben Artikels als reiner Fließtext — 2 bis 3 Absätze
+  (durch Leerzeilen getrennt, insgesamt ca. 100–180 Wörter), KEINE Überschriften, keine Listen.
+  Nur Fakten, die auch im body stehen; Quellenlage-Vorbehalte beibehalten.
 - primarySourceStrength ehrlich: ohne gelesene Primärquelle maximal "weak".
 - slugSuggestion: sprechend, kleingeschrieben, mit zeitlichem Qualifier wo sinnvoll
   (z. B. "ams-arbeitslosigkeit-juli-2026").
@@ -229,7 +233,9 @@ Vorgaben:
 
 const UPDATE_TASK = `
 Deine Aufgabe: Aktualisiere den bestehenden Artikel anhand der neuen Quellenlage (Cluster-Items unten).
-- Gib den VOLLSTÄNDIGEN aktualisierten Artikel zurück (alle Felder, kompletter body).
+- Gib den VOLLSTÄNDIGEN aktualisierten Artikel zurück (alle Felder, kompletter body UND bodyKompakt).
+- Der bestehende Body enthält beide Textlängen in <Kompakt>/<Standard>-Wrappern; gib body (Standard-
+  Sektionen) und bodyKompakt getrennt und OHNE Wrapper-Tags zurück. Beide müssen den neuen Stand abbilden.
 - Bestehende korrekte Inhalte beibehalten; Neues integrieren; Überholtes präzisieren.
 - sources: bestehende behalten (IDs stabil lassen), neue ergänzen.
 - updateNote: ein Satz, was sich geändert hat — wird als öffentlicher „Update“-Eintrag angezeigt.
@@ -318,6 +324,7 @@ function assertDraftShape(draft: DraftResult): void {
   if (!Array.isArray(draft.summary) || draft.summary.length === 0) problems.push('summary leer');
   if (!Array.isArray(draft.sources) || draft.sources.length === 0) problems.push('sources leer');
   if (!Array.isArray(draft.body) || draft.body.length === 0) problems.push('body leer');
+  if (typeof draft.bodyKompakt !== 'string' || !draft.bodyKompakt.trim()) problems.push('bodyKompakt leer');
   for (const s of draft.sources ?? []) {
     if (!SOURCE_TYPES.has(s.type)) problems.push(`source type ungültig: ${s.type}`);
   }
