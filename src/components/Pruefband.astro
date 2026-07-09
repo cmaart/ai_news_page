@@ -30,8 +30,8 @@ const confidenceFill = LEVEL_METER[data.confidence];
       {segments.map((s) => <span class:list={{ filled: s <= strengthFill }} />)}
     </div>
   </div>
-  <div class="pruefband__tile">
-    <span class="mono-label">Framing-Risiko</span>
+  <div class="pruefband__tile" title="Wie einseitig gefärbt die Darstellung in den verfügbaren Quellen sein könnte">
+    <span class="mono-label">Einseitigkeit</span>
     <span class="pruefband__value">{RISK_LABELS[data.framingRisk]}</span>
     <div class="meter meter--warn">
       {segments.map((s) => <span class:list={{ filled: s <= riskFill }} />)}
