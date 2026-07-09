@@ -1,16 +1,21 @@
 /**
- * Claude-Calls (PLAN.md E32): Triage auf claude-haiku-4-5, Draft/Update auf
- * claude-sonnet-5 — beide mit Structured Output (output_config.format), damit
- * Enums/Pflichtfelder API-seitig erzwungen sind. Web-Search-Tool nur bei
- * Eskalation (E28): Story ≥ 3 Portale oder Update.
+ * Claude-Calls (PLAN.md E32, revidiert): laufen über headless Claude Code CLI
+ * (`claude -p`) mit CLAUDE_CODE_OAUTH_TOKEN (claude setup-token) statt über
+ * die Messages API — Abrechnung übers Claude-Abo.
+ *
+ * Konsequenz: kein API-seitig erzwungenes JSON-Schema mehr. Stattdessen
+ * strikte JSON-Prompts + Parse mit einem Repair-Versuch + Shape-Validierung.
+ * Triage: claude-haiku-4-5 · Draft/Update: claude-sonnet-5 (+ WebSearch-Tool
+ * bei Eskalation, E28).
  */
-import Anthropic from '@anthropic-ai/sdk';
+import { spawn } from 'node:child_process';
 import type { Cluster, DraftResult, Story, TriageResult } from './types.ts';
 
 const TRIAGE_MODEL = 'claude-haiku-4-5';
 const DRAFT_MODEL = 'claude-sonnet-5';
 
-const client = new Anthropic();
+const TRIAGE_TIMEOUT_MS = 120_000;
+const DRAFT_TIMEOUT_MS = 480_000;
 
 const SHARED_RULES = `
 Du arbeitest für „Neue Nachrichten“, eine statische News-Website (Sprache: Deutsch, de-AT),
@@ -28,24 +33,109 @@ Harte Regeln — keine Ausnahmen:
   konservativ behandeln — keine Schuldzuweisungen, keine Namen von Privatpersonen aus RSS-Titeln,
   confidence niedriger ansetzen, sensitivity ehrlich als "high" markieren.
 - Im Zweifel gegen den Artikel entscheiden.
+
+Antworte AUSSCHLIESSLICH mit einem einzigen validen JSON-Objekt — kein Markdown, keine Code-Fences,
+kein Text davor oder danach.
 `.trim();
+
+// ---------------------------------------------------------------------------
+// Headless-CLI-Aufruf
+// ---------------------------------------------------------------------------
+
+interface ClaudeCliOptions {
+  model: string;
+  systemPrompt: string;
+  allowWebSearch: boolean;
+  timeoutMs: number;
+}
+
+async function runClaude(prompt: string, options: ClaudeCliOptions): Promise<string> {
+  const args = [
+    '-p',
+    '--output-format', 'json',
+    '--model', options.model,
+    '--system-prompt', options.systemPrompt,
+  ];
+  if (options.allowWebSearch) {
+    args.push('--allowedTools', 'WebSearch', '--max-turns', '15');
+  } else {
+    args.push('--max-turns', '2');
+  }
+
+  const stdout = await execClaude(args, prompt, options.timeoutMs);
+  const envelope = JSON.parse(stdout) as { result?: string; is_error?: boolean; subtype?: string };
+  if (envelope.is_error || typeof envelope.result !== 'string') {
+    throw new Error(`Claude-CLI-Fehler (${envelope.subtype ?? 'unbekannt'}): ${stdout.slice(0, 300)}`);
+  }
+  return envelope.result;
+}
+
+function execClaude(args: string[], stdin: string, timeoutMs: number): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const child = spawn('claude', args, {
+      shell: process.platform === 'win32',
+      env: process.env,
+    });
+    let out = '';
+    let err = '';
+    const timer = setTimeout(() => {
+      child.kill('SIGKILL');
+      reject(new Error(`Claude-CLI-Timeout nach ${timeoutMs} ms`));
+    }, timeoutMs);
+
+    child.stdout.on('data', (chunk) => (out += chunk));
+    child.stderr.on('data', (chunk) => (err += chunk));
+    child.on('error', (error) => {
+      clearTimeout(timer);
+      reject(error);
+    });
+    child.on('close', (code) => {
+      clearTimeout(timer);
+      if (code === 0) resolve(out);
+      else reject(new Error(`Claude-CLI Exit ${code}: ${(err || out).slice(0, 300)}`));
+    });
+    child.stdin.write(stdin);
+    child.stdin.end();
+  });
+}
+
+/** JSON aus der Antwort ziehen (Code-Fences tolerieren), 1× Repair-Versuch. */
+async function runClaudeJson<T>(prompt: string, options: ClaudeCliOptions): Promise<T> {
+  const first = await runClaude(prompt, options);
+  try {
+    return extractJson<T>(first);
+  } catch (error) {
+    const repairPrompt = `${prompt}\n\nDeine letzte Antwort war kein valides JSON (${(error as Error).message.slice(0, 120)}). Antworte jetzt AUSSCHLIESSLICH mit dem geforderten JSON-Objekt.`;
+    const second = await runClaude(repairPrompt, options);
+    return extractJson<T>(second);
+  }
+}
+
+function extractJson<T>(text: string): T {
+  const cleaned = text.replace(/^```(?:json)?\s*/m, '').replace(/```\s*$/m, '').trim();
+  const start = cleaned.indexOf('{');
+  const end = cleaned.lastIndexOf('}');
+  if (start === -1 || end <= start) throw new Error('kein JSON-Objekt gefunden');
+  return JSON.parse(cleaned.slice(start, end + 1)) as T;
+}
 
 // ---------------------------------------------------------------------------
 // Triage (Haiku)
 // ---------------------------------------------------------------------------
 
-const TRIAGE_SCHEMA = {
-  type: 'object',
-  additionalProperties: false,
-  required: ['action', 'reason', 'sensitivity', 'possibleClaims', 'missingSources'],
-  properties: {
-    action: { type: 'string', enum: ['ignore', 'monitor', 'research_note', 'draft_article', 'update_story'] },
-    reason: { type: 'string' },
-    sensitivity: { type: 'string', enum: ['low', 'medium', 'high'] },
-    possibleClaims: { type: 'array', items: { type: 'string' } },
-    missingSources: { type: 'array', items: { type: 'string' } },
-  },
-} as const;
+const TRIAGE_FORMAT = `
+JSON-Format (alle Felder Pflicht):
+{
+  "action": "ignore" | "monitor" | "research_note" | "draft_article" | "update_story",
+  "reason": string,
+  "sensitivity": "low" | "medium" | "high",
+  "possibleClaims": string[],
+  "missingSources": string[]
+}
+`.trim();
+
+const TRIAGE_ACTIONS = new Set(['ignore', 'monitor', 'research_note', 'draft_article', 'update_story']);
+const SENSITIVITIES = new Set(['low', 'medium', 'high']);
 
 export async function triageCluster(cluster: Cluster, relatedStory: Story | undefined): Promise<TriageResult> {
   const input = {
@@ -71,96 +161,51 @@ export async function triageCluster(cluster: Cluster, relatedStory: Story | unde
       : null,
   };
 
-  const response = await client.messages.create({
-    model: TRIAGE_MODEL,
-    max_tokens: 1500,
-    system: `${SHARED_RULES}\n\nDeine Aufgabe: Triage eines Nachrichten-Clusters. Entscheide, ob sich ein Artikel lohnt.
+  const systemPrompt = `${SHARED_RULES}\n\nDeine Aufgabe: Triage eines Nachrichten-Clusters. Entscheide, ob sich ein Artikel lohnt.
 - "update_story" nur, wenn relatedStory existiert und die neuen Items substanziell Neues liefern.
 - "draft_article" nur bei ausreichend Substanz und öffentlicher Relevanz für Österreich/EU.
 - Dünne Quellenlage oder reine Presseaussendung ohne Zweitquelle → "research_note" oder "monitor".
-- Reiner Sport/Promi/Lifestyle → "ignore".`,
-    messages: [{ role: 'user', content: JSON.stringify(input) }],
-    output_config: { format: { type: 'json_schema', schema: TRIAGE_SCHEMA } },
-  } as Anthropic.MessageCreateParamsNonStreaming);
+- Reiner Sport/Promi/Lifestyle → "ignore".\n\n${TRIAGE_FORMAT}`;
 
-  return parseJsonResponse<TriageResult>(response);
+  const result = await runClaudeJson<TriageResult>(JSON.stringify(input), {
+    model: TRIAGE_MODEL,
+    systemPrompt,
+    allowWebSearch: false,
+    timeoutMs: TRIAGE_TIMEOUT_MS,
+  });
+
+  if (!TRIAGE_ACTIONS.has(result.action) || !SENSITIVITIES.has(result.sensitivity)) {
+    throw new Error(`Triage-Antwort außerhalb des Schemas: ${JSON.stringify(result).slice(0, 200)}`);
+  }
+  result.possibleClaims ??= [];
+  result.missingSources ??= [];
+  return result;
 }
 
 // ---------------------------------------------------------------------------
 // Draft / Update (Sonnet 5)
 // ---------------------------------------------------------------------------
 
-const SOURCE_TYPE_ENUM = ['agency', 'media', 'primary', 'official', 'study', 'press_release', 'other'];
-
-const DRAFT_SCHEMA = {
-  type: 'object',
-  additionalProperties: false,
-  required: [
-    'slugSuggestion', 'title', 'description', 'topic', 'country', 'confidence',
-    'primarySourceStrength', 'framingRisk', 'sensitivity', 'summary', 'openQuestions',
-    'sources', 'claims', 'body', 'updateNote',
-  ],
-  properties: {
-    slugSuggestion: { type: 'string' },
-    title: { type: 'string' },
-    description: { type: 'string' },
-    topic: { type: 'string', enum: ['politik', 'wirtschaft', 'gesellschaft', 'technologie', 'wissenschaft'] },
-    country: { type: 'string', enum: ['at', 'de', 'eu', 'int'] },
-    confidence: { type: 'string', enum: ['low', 'medium', 'high'] },
-    primarySourceStrength: { type: 'string', enum: ['none', 'weak', 'medium', 'strong'] },
-    framingRisk: { type: 'string', enum: ['low', 'medium', 'high'] },
-    sensitivity: { type: 'string', enum: ['low', 'medium', 'high'] },
-    summary: {
-      type: 'array',
-      items: {
-        type: 'object',
-        additionalProperties: false,
-        required: ['text', 'kind'],
-        properties: { text: { type: 'string' }, kind: { type: 'string', enum: ['fact', 'open'] } },
-      },
-    },
-    openQuestions: { type: 'array', items: { type: 'string' } },
-    sources: {
-      type: 'array',
-      items: {
-        type: 'object',
-        additionalProperties: false,
-        required: ['id', 'name', 'type', 'url'],
-        properties: {
-          id: { type: 'string' },
-          name: { type: 'string' },
-          type: { type: 'string', enum: SOURCE_TYPE_ENUM },
-          url: { type: 'string' },
-        },
-      },
-    },
-    claims: {
-      type: 'array',
-      items: {
-        type: 'object',
-        additionalProperties: false,
-        required: ['id', 'text', 'status', 'note', 'sourceIds'],
-        properties: {
-          id: { type: 'string' },
-          text: { type: 'string' },
-          status: { type: 'string', enum: ['supported', 'partial', 'unclear', 'contradicted'] },
-          note: { type: ['string', 'null'] },
-          sourceIds: { type: 'array', items: { type: 'string' } },
-        },
-      },
-    },
-    body: {
-      type: 'array',
-      items: {
-        type: 'object',
-        additionalProperties: false,
-        required: ['heading', 'markdown'],
-        properties: { heading: { type: 'string' }, markdown: { type: 'string' } },
-      },
-    },
-    updateNote: { type: ['string', 'null'] },
-  },
-} as const;
+const DRAFT_FORMAT = `
+JSON-Format (alle Felder Pflicht; "note" und "updateNote" dürfen null sein):
+{
+  "slugSuggestion": string,
+  "title": string,
+  "description": string,
+  "topic": "politik" | "wirtschaft" | "gesellschaft" | "technologie" | "wissenschaft",
+  "country": "at" | "de" | "eu" | "int",
+  "confidence": "low" | "medium" | "high",
+  "primarySourceStrength": "none" | "weak" | "medium" | "strong",
+  "framingRisk": "low" | "medium" | "high",
+  "sensitivity": "low" | "medium" | "high",
+  "summary": [{ "text": string, "kind": "fact" | "open" }],
+  "openQuestions": string[],
+  "sources": [{ "id": string, "name": string, "type": "agency" | "media" | "primary" | "official" | "study" | "press_release" | "other", "url": string }],
+  "claims": [{ "id": string, "text": string, "status": "supported" | "partial" | "unclear" | "contradicted", "note": string | null, "sourceIds": string[] }],
+  "body": [{ "heading": string, "markdown": string }],
+  "updateNote": string | null
+}
+`.trim();
 
 const DRAFT_TASK = `
 Deine Aufgabe: Erstelle aus dem Nachrichten-Cluster einen vollständigen Artikel für „Neue Nachrichten“.
@@ -192,7 +237,7 @@ Deine Aufgabe: Aktualisiere den bestehenden Artikel anhand der neuen Quellenlage
 `.trim();
 
 const WEB_SEARCH_GUIDANCE = `
-Du hast Zugriff auf Web-Suche. Nutze sie gezielt (max. 6 Suchen):
+Du hast das WebSearch-Tool. Nutze es gezielt (max. 6 Suchen):
 - Suche Primärquellen: Behörden (AMS, Statistik Austria, Ministerien, Parlament), offizielle
   Presseaussendungen (OTS-Volltexte sind frei zugänglich), Studien, Gerichtsdokumente.
 - Medienartikel darfst du zum Verständnis lesen, aber nie nachdrucken — eigenständig formulieren,
@@ -232,52 +277,52 @@ export async function draftOrUpdate(options: {
       : null,
   };
 
-  const system = [
+  const systemPrompt = [
     SHARED_RULES,
     existingArticle ? UPDATE_TASK : DRAFT_TASK,
-    useWebSearch ? WEB_SEARCH_GUIDANCE : 'Du hast KEINE Web-Suche. Arbeite ausschließlich mit den Cluster-Metadaten und kennzeichne die Quellenlage entsprechend vorsichtig (primarySourceStrength maximal "weak", Claims eher "unclear").',
+    useWebSearch
+      ? WEB_SEARCH_GUIDANCE
+      : 'Du hast KEINE Web-Suche. Arbeite ausschließlich mit den Cluster-Metadaten und kennzeichne die Quellenlage entsprechend vorsichtig (primarySourceStrength maximal "weak", Claims eher "unclear").',
+    DRAFT_FORMAT,
   ].join('\n\n');
 
-  const params: Anthropic.MessageCreateParamsNonStreaming = {
+  const draft = await runClaudeJson<DraftResult>(JSON.stringify(input), {
     model: DRAFT_MODEL,
-    max_tokens: 16000,
-    system,
-    messages: [{ role: 'user', content: JSON.stringify(input) }],
-    output_config: { format: { type: 'json_schema', schema: DRAFT_SCHEMA } },
-    ...(useWebSearch
-      ? { tools: [{ type: 'web_search_20260209' as const, name: 'web_search' as const, max_uses: 6 }] }
-      : {}),
-  } as Anthropic.MessageCreateParamsNonStreaming;
+    systemPrompt,
+    allowWebSearch: useWebSearch,
+    timeoutMs: DRAFT_TIMEOUT_MS,
+  });
 
-  let response = await client.messages.create(params);
-
-  // Server-Tool-Loop: bei pause_turn Assistant-Turn anhängen und fortsetzen.
-  let continuations = 0;
-  while (response.stop_reason === 'pause_turn' && continuations < 5) {
-    continuations += 1;
-    response = await client.messages.create({
-      ...params,
-      messages: [...params.messages, { role: 'assistant', content: response.content }],
-    });
-  }
-
-  const webSearchUsed = countWebSearches(response);
-  return { draft: parseJsonResponse<DraftResult>(response), webSearchUsed };
+  assertDraftShape(draft);
+  // CLI liefert keine Suchanzahl — Budget zählt Draft-Calls mit aktivierter Suche.
+  return { draft, webSearchUsed: useWebSearch ? 1 : 0 };
 }
 
-// ---------------------------------------------------------------------------
+const TOPICS = new Set(['politik', 'wirtschaft', 'gesellschaft', 'technologie', 'wissenschaft']);
+const COUNTRIES = new Set(['at', 'de', 'eu', 'int']);
+const LEVELS = new Set(['low', 'medium', 'high']);
+const SOURCE_STRENGTHS = new Set(['none', 'weak', 'medium', 'strong']);
+const SOURCE_TYPES = new Set(['agency', 'media', 'primary', 'official', 'study', 'press_release', 'other']);
+const CLAIM_STATUS = new Set(['supported', 'partial', 'unclear', 'contradicted']);
 
-function parseJsonResponse<T>(response: Anthropic.Message): T {
-  const textBlocks = response.content.filter(
-    (b): b is Anthropic.TextBlock => b.type === 'text',
-  );
-  if (textBlocks.length === 0) {
-    throw new Error(`Claude-Antwort ohne Textblock (stop_reason=${response.stop_reason})`);
+function assertDraftShape(draft: DraftResult): void {
+  const problems: string[] = [];
+  if (!draft.title?.trim()) problems.push('title fehlt');
+  if (!draft.description?.trim()) problems.push('description fehlt');
+  if (!TOPICS.has(draft.topic)) problems.push(`topic ungültig: ${draft.topic}`);
+  if (!COUNTRIES.has(draft.country)) problems.push(`country ungültig: ${draft.country}`);
+  if (!LEVELS.has(draft.confidence)) problems.push(`confidence ungültig: ${draft.confidence}`);
+  if (!SOURCE_STRENGTHS.has(draft.primarySourceStrength)) problems.push(`primarySourceStrength ungültig: ${draft.primarySourceStrength}`);
+  if (!LEVELS.has(draft.framingRisk)) problems.push(`framingRisk ungültig: ${draft.framingRisk}`);
+  if (!LEVELS.has(draft.sensitivity)) problems.push(`sensitivity ungültig: ${draft.sensitivity}`);
+  if (!Array.isArray(draft.summary) || draft.summary.length === 0) problems.push('summary leer');
+  if (!Array.isArray(draft.sources) || draft.sources.length === 0) problems.push('sources leer');
+  if (!Array.isArray(draft.body) || draft.body.length === 0) problems.push('body leer');
+  for (const s of draft.sources ?? []) {
+    if (!SOURCE_TYPES.has(s.type)) problems.push(`source type ungültig: ${s.type}`);
   }
-  return JSON.parse(textBlocks[textBlocks.length - 1].text) as T;
-}
-
-function countWebSearches(response: Anthropic.Message): number {
-  const usage = response.usage as unknown as { server_tool_use?: { web_search_requests?: number } };
-  return usage.server_tool_use?.web_search_requests ?? 0;
+  for (const c of draft.claims ?? []) {
+    if (!CLAIM_STATUS.has(c.status)) problems.push(`claim status ungültig: ${c.status}`);
+  }
+  if (problems.length > 0) throw new Error(`Draft außerhalb des Schemas: ${problems.join('; ')}`);
 }

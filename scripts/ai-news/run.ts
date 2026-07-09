@@ -57,8 +57,8 @@ async function main(): Promise<void> {
   const nowIso = now.toISOString();
   const dateStamp = utcDateStamp(now);
 
-  if (!dryRun && !process.env.ANTHROPIC_API_KEY) {
-    console.error('ANTHROPIC_API_KEY fehlt — Abbruch (für Tests: --dry-run).');
+  if (!dryRun && !process.env.CLAUDE_CODE_OAUTH_TOKEN && !process.env.ANTHROPIC_API_KEY) {
+    console.error('CLAUDE_CODE_OAUTH_TOKEN (claude setup-token) fehlt — Abbruch (für Tests: --dry-run).');
     process.exit(1);
   }
 

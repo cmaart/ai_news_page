@@ -41,7 +41,7 @@ Design-Vorlagen: `docs/BELEG Artikelseite.html` + `docs/BELEG Startseite.html` (
 | 29 | Run-Budget | **Max 1 Story pro Run** (Draft *oder* Update) — top-gescorter Cluster, nur wenn Score > 0,65 (regelbasiertes Scoring vor Claude). Kein Tages-Artikelcap. Max 5 Triage-Calls/Run. Redraft-Sperre 24 h, Update-Throttle 6 h pro Story. |
 | 30 | Auto-Publish | **Site ist vollständig AI-kuratiert.** Pipeline setzt `status: published` + `publishedAt` und committet **direkt auf main** — Gate ist `npm run validate` + `astro build` im Run (fail ⇒ kein Push). **Ausnahme `sensitivity: high`** (personenbezogene Vorwürfe, Gericht, Gesundheit, Minderjährige, …): `status: review`, eigener Branch `ai-news/<slug>` + PR (Labels `automated`, `news-research`, `needs-review`) für menschliches Gate. `deploy.yml` bekommt `paths-ignore: data/**` (Memory-only-Pushes deployen nicht). |
 | 31 | Story-Updates | Bestehende Story ⇒ kein neuer Artikel. Update auch auf `published`: `corrections`-Eintrag `type: update`, `updatedAt`, Quellen ergänzt, Body angepasst — auto-committet (außer sensitiv ⇒ PR). Story-Zuordnung über story-memory. |
-| 32 | Claude-Calls | **Triage:** `claude-haiku-4-5`, Structured Output (`output_config.format`, JSON-Schema), ohne Tools, billig. **Draft/Update:** `claude-sonnet-5`, Structured Output; Web-Search-Tool nur bei Eskalation (E28). Enums (topic/country/status …) im JSON-Schema erzwungen — kein Repair-Prompt-Pfad nötig. Kosten ≈ $1,50–4/Tag. |
+| 32 | Claude-Calls | **Revidiert (2026-07-09):** Calls laufen über **headless Claude Code CLI** (`claude -p`, Secret `CLAUDE_CODE_OAUTH_TOKEN` aus `claude setup-token`) — Abrechnung übers Claude-Abo statt API-Key. **Triage:** `claude-haiku-4-5` ohne Tools. **Draft/Update:** `claude-sonnet-5`, WebSearch-Tool nur bei Eskalation (E28). Kein API-erzwungenes JSON-Schema mehr ⇒ strikte JSON-Prompts + 1 Repair-Versuch + Shape-Validierung in `claude.ts`. |
 | 33 | Pipeline-Frontmatter | Generierte Artikel nutzen das **bestehende Schema unverändert** — kein `slug`-/`uncertainty`-/`aiDisclosure`-Freitextfeld (Regel 1!). Pflicht: `summary` ≥ 1, `sources` ≥ 1, `claims` mit `sourceIds`-Referenzen, `generationMode: ai_generated`, `editorialReview: none`. |
 | 34 | Slugs | Semantisch mit zeitlichem Qualifier wo sinnvoll (`ams-arbeitslosigkeit-juli-2026`), Script prüft Kollision gegen bestehende Dateien (Suffix `-2`). Kein Datums-Präfix. |
 | 35 | Fehlerverhalten | Feed-Fehler ⇒ source-health + weiter (Auto-Disable nach x Fails). Claude-Fehler ⇒ Error-Note + weiter. validate/build fail ⇒ Job fail **vor** jedem Push. Benachrichtigung: GitHub-Failure-Mail des Scheduled Workflows. |
@@ -163,7 +163,8 @@ data/ai-news/
   notes/YYYY-MM-DD/*.json      # Research-/Error-Notes
 ```
 
-Secret: `ANTHROPIC_API_KEY` (Repo-Secret) + Spend-Limit in der Anthropic-Console als Notbremse.
+Secret: `CLAUDE_CODE_OAUTH_TOKEN` (Repo-Secret, aus `claude setup-token`) — Abrechnung übers Claude-Abo,
+Rate-Limits teilen sich mit der normalen Claude-Code-Nutzung.
 
 **Offene Folge-Punkte (nicht Teil der Pipeline-Implementierung):**
 - Startseite/Themen-Seiten brauchen bei unbegrenztem Artikelvolumen bald Pagination (revidiert E12/E23-Umfeld).
