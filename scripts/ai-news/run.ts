@@ -400,7 +400,12 @@ function sanitizeDraft(draft: DraftResult): DraftResult | null {
   return { ...draft, claims, summary, body };
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+main()
+  .then(() => {
+    // Explizit beenden: abgebrochene Feed-Sockets dürfen den Prozess nicht offenhalten.
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });

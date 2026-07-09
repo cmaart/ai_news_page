@@ -14,10 +14,23 @@ const USER_AGENT = 'neue-nachrichten-research/1.0 (+https://github.com/cmaart/ai
 const BACKOFF_AFTER_FAILURES = 24;
 const BACKOFF_RETRY_EVERY = 12;
 
-const parser = new Parser({
-  timeout: FEED_TIMEOUT_MS,
-  headers: { 'User-Agent': USER_AGENT, Accept: 'application/rss+xml, application/xml, text/xml' },
-});
+const parser = new Parser();
+
+/**
+ * Harter Timeout über AbortSignal: deckt DNS, Connect und den kompletten
+ * Body-Download ab. rss-parsers eigener timeout ist nur ein Socket-
+ * Inaktivitäts-Timeout — ein langsam tröpfelnder Server hängt damit den
+ * ganzen Run (Promise.all wartet auf den langsamsten Feed).
+ */
+async function fetchFeedXml(url: string): Promise<string> {
+  const response = await fetch(url, {
+    signal: AbortSignal.timeout(FEED_TIMEOUT_MS),
+    redirect: 'follow',
+    headers: { 'User-Agent': USER_AGENT, Accept: 'application/rss+xml, application/xml, text/xml' },
+  });
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.text();
+}
 
 export interface FetchOutcome {
   items: FeedItem[];
@@ -27,6 +40,7 @@ export interface FetchOutcome {
 
 export async function fetchAllFeeds(sources: SourceDef[], health: SourceHealth): Promise<FetchOutcome> {
   const enabled = sources.filter((s) => s.enabled);
+  console.log(`Fetche ${enabled.length} Feeds (Timeout ${FEED_TIMEOUT_MS} ms) …`);
   const results = await Promise.all(enabled.map((source) => fetchFeed(source, health)));
   const items = results.flat();
   const feedErrors = enabled.filter((s) => health.sources[s.id]?.lastStatus === 'failed').length;
@@ -51,7 +65,7 @@ async function fetchFeed(source: SourceDef, health: SourceHealth): Promise<FeedI
   }
 
   try {
-    const feed = await parser.parseURL(source.url);
+    const feed = await parser.parseString(await fetchFeedXml(source.url));
     const fetchedAt = isoNow();
     const items: FeedItem[] = [];
     for (const raw of (feed.items ?? []).slice(0, MAX_ITEMS_PER_FEED)) {
