@@ -1,0 +1,95 @@
+---
+import type { ArticleData } from '../lib/articles';
+import { EDITORIAL_REVIEW_LABELS, GENERATION_MODE_LABELS } from '../config/disclosure';
+import { formatDate, lastUpdated, STRENGTH_LABELS } from '../lib/articles';
+import { withBase } from '../lib/url';
+
+interface Props {
+  data: ArticleData;
+}
+
+const { data } = Astro.props;
+const updated = lastUpdated(data);
+
+const entries = [
+  { label: 'Recherchemodus', value: GENERATION_MODE_LABELS[data.generationMode] },
+  { label: 'Redaktionelle Prüfung', value: EDITORIAL_REVIEW_LABELS[data.editorialReview] },
+  { label: 'Quellenlage', value: STRENGTH_LABELS[data.primarySourceStrength] },
+  { label: 'Letzte Aktualisierung', value: updated ? formatDate(updated) : '—' },
+];
+---
+
+<aside class="methodology" aria-label="Methodik dieses Artikels">
+  <div class="methodology__header">
+    <span class="methodology__title">Methodik dieses Artikels</span>
+    <a class="methodology__link" href={withBase('/methodik/')}>Wie wir arbeiten →</a>
+  </div>
+  <div class="methodology__body">
+    {
+      entries.map((entry) => (
+        <div class="methodology__entry">
+          <span class="mono-label">{entry.label}</span>
+          <span class="methodology__value">{entry.value}</span>
+        </div>
+      ))
+    }
+  </div>
+</aside>
+
+<style>
+  .methodology {
+    background: var(--color-surface-white);
+    border: 1px solid var(--color-border);
+  }
+
+  .methodology__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    padding: 12px 22px;
+  }
+
+  .methodology__title {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-ink);
+  }
+
+  .methodology__link {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.02em;
+  }
+
+  .methodology__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    padding: 22px;
+  }
+
+  .methodology__entry {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .methodology__value {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--color-ink);
+  }
+
+  @media (max-width: 480px) {
+    .methodology__body {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

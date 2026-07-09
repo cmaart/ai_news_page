@@ -1,0 +1,74 @@
+---
+import type { ArticleData } from '../lib/articles';
+import { formatDate } from '../lib/articles';
+
+interface Props {
+  corrections: ArticleData['corrections'];
+}
+
+const { corrections } = Astro.props;
+const sorted = [...corrections].sort((a, b) => b.date.getTime() - a.date.getTime());
+---
+
+<div class="corrections">
+  {
+    sorted.map((entry) => (
+      <div class="corrections__row">
+        <div class="corrections__meta">
+          <span class="corrections__date">{formatDate(entry.date)}</span>
+          <span class:list={['badge', entry.type === 'correction' ? 'badge--danger' : 'badge--accent']}>
+            {entry.type === 'correction' ? 'Korrektur' : 'Update'}
+          </span>
+        </div>
+        <p class="corrections__text">{entry.text}</p>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .corrections__row {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .corrections__row:last-child {
+    border-bottom: none;
+  }
+
+  .corrections__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .corrections__date {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--color-text-faint);
+  }
+
+  .corrections__text {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 14.5px;
+    line-height: 1.55;
+    color: var(--color-ink-soft);
+  }
+
+  @media (max-width: 720px) {
+    .corrections__row {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    .corrections__meta {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+</style>

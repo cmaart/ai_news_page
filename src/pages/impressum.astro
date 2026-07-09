@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Impressum · Neue Nachrichten" noindex>
+  <section class="page container-section">
+    <h1 class="page__title">Impressum</h1>
+    <div class="prose">
+      <p>
+        <strong>Hinweis:</strong> Platzhalterseite. Vor Go-Live mit echten Daten befüllen
+        (Impressumspflicht § 5 ECG, Offenlegungspflicht § 25 MedienG).
+      </p>
+
+      <h2>Medieninhaber und Herausgeber</h2>
+      <p>
+        TODO: Name / Firma<br />
+        TODO: Anschrift<br />
+        TODO: E-Mail-Adresse
+      </p>
+
+      <h2>Unternehmensgegenstand</h2>
+      <p>TODO: z. B. „Betrieb einer Nachrichten-Website auf Basis KI-gestützter Recherche".</p>
+
+      <h2>Grundlegende Richtung (§ 25 Abs 4 MedienG)</h2>
+      <p>
+        Veröffentlichung von Nachrichtenartikeln zu aktuellen Themen auf Basis KI-gestützter Recherche mit offener
+        Quellenlage. Die Inhalte werden automatisiert erzeugt und sind nicht notwendigerweise menschlich-redaktionell
+        geprüft.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-top: 64px;
+  }
+
+  .page__title {
+    margin: 0 0 24px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+  }
+</style>

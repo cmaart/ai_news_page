@@ -1,0 +1,84 @@
+---
+import type { Source } from '../lib/articles';
+import { isPrimarySource, SOURCE_TYPE_LABELS } from '../lib/articles';
+
+interface Props {
+  sources: Source[];
+}
+
+const { sources } = Astro.props;
+const primary = sources.filter(isPrimarySource);
+const secondary = sources.filter((s) => !isPrimarySource(s));
+
+const groups = [
+  { label: 'Primärquellen', items: primary, tone: 'ok' },
+  { label: 'Sekundärquellen', items: secondary, tone: 'neutral' },
+].filter((g) => g.items.length > 0);
+---
+
+<div class="sources">
+  {
+    groups.map((group) => (
+      <div class="sources__group">
+        <span class="mono-label">{group.label}</span>
+        {group.items.map((source, i) => (
+          <div class="sources__row" id={source.id}>
+            <span class="sources__num">{String(i + 1).padStart(2, '0')}</span>
+            <div>
+              <a class="sources__name" href={source.url} rel="noopener noreferrer" target="_blank">
+                {source.name}
+              </a>
+              <div class="sources__url">{source.url}</div>
+            </div>
+            <span class:list={['badge', { 'badge--ok': group.tone === 'ok' }]}>
+              {SOURCE_TYPE_LABELS[source.type]}
+            </span>
+          </div>
+        ))}
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .sources__group {
+    margin-bottom: 26px;
+  }
+
+  .sources__group:last-child {
+    margin-bottom: 0;
+  }
+
+  .sources__group > .mono-label {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .sources__row {
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    gap: 12px;
+    align-items: center;
+    border-top: 1px solid var(--color-border);
+    padding: 13px 0;
+  }
+
+  .sources__num {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--color-text-faint);
+  }
+
+  .sources__name {
+    font-family: var(--font-serif);
+    font-size: 15px;
+    color: var(--color-ink);
+  }
+
+  .sources__url {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--color-text-faint);
+    word-break: break-all;
+  }
+</style>

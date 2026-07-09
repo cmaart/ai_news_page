@@ -1,0 +1,265 @@
+/* Design-Tokens — exakt aus Vorlage „BELEG Artikelseite.html", siehe docs/design-tokens.md */
+
+:root {
+  /* Grundfarben */
+  --color-bg: #fbfaf7;
+  --color-ink: #1c1b19;
+  --color-ink-soft: #2c2a26;
+  --color-text-muted: #48443d;
+  --color-text-faint: #6e6a63;
+  --color-text-ghost: #8a857c;
+  --color-border: #e4e0d8;
+  --color-border-soft: #d6d1c7;
+  --color-surface: #f4f1ea;
+  --color-surface-white: #fff;
+  --color-meter-neutral: #b4aea2;
+  --color-dark-border: #4a463f;
+  --color-dark-muted: #b4aea2;
+
+  /* Akzentfarben */
+  --accent: oklch(0.5 0.06 205);
+  --accent-hover: oklch(0.42 0.07 205);
+  --accent-border: oklch(0.72 0.04 205);
+  --ok: oklch(0.5 0.07 155);
+  --ok-text: oklch(0.44 0.07 155);
+  --ok-border: oklch(0.72 0.06 155);
+  --warn: oklch(0.62 0.11 70);
+  --warn-alt: oklch(0.62 0.1 70);
+  --warn-text: oklch(0.5 0.1 70);
+  --warn-deep: oklch(0.45 0.09 60);
+  --warn-mid: oklch(0.55 0.1 65);
+  --warn-border: oklch(0.75 0.06 70);
+  --warn-bg: oklch(0.97 0.02 75);
+  --warn-body-text: #3a3428;
+  --danger-text: oklch(0.5 0.1 25);
+  --danger-border: oklch(0.72 0.07 25);
+
+  /* Schriftfamilien */
+  --font-serif: 'Spectral', Georgia, serif;
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+[id] {
+  scroll-margin-top: 80px;
+}
+
+/* Container: zentriert, max 1024px */
+.container-wide {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.container-section {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Sektions-Überschrift (2px-Unterstrich) */
+.section-heading {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.25;
+  border-bottom: 2px solid var(--color-ink);
+  padding-bottom: 12px;
+  margin: 0 0 8px;
+}
+
+/* Mono-Label (Kacheln, Eyebrows in Boxen) */
+.mono-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+}
+
+/* Outline-Badge-Grundform */
+.badge {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid var(--color-border-soft);
+  color: var(--color-text-faint);
+  padding: 3px 8px;
+  white-space: nowrap;
+}
+
+.badge--ok {
+  color: var(--ok-text);
+  border-color: var(--ok-border);
+}
+
+.badge--warn {
+  color: var(--warn-text);
+  border-color: var(--warn-border);
+}
+
+.badge--danger {
+  color: var(--danger-text);
+  border-color: var(--danger-border);
+}
+
+.badge--accent {
+  color: var(--accent);
+  border-color: var(--accent-border);
+}
+
+/* Status-Dot */
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-meter-neutral);
+  flex-shrink: 0;
+}
+
+.dot--ok {
+  background: var(--ok);
+}
+
+.dot--warn {
+  background: var(--warn);
+}
+
+.dot--danger {
+  background: var(--danger-text);
+}
+
+.dot--accent {
+  background: var(--accent);
+}
+
+/* Meter: 5 Segmente à 5px */
+.meter {
+  display: flex;
+  gap: 2px;
+  margin-top: 8px;
+}
+
+.meter span {
+  flex: 1;
+  height: 5px;
+  background: var(--color-border);
+}
+
+.meter span.filled {
+  background: var(--accent);
+}
+
+.meter--warn span.filled {
+  background: var(--warn-alt);
+}
+
+/* Artikel-Fließtext (MDX-Body) — Lesebreite begrenzt, Rest der Seite volle Breite */
+.prose {
+  max-width: 72ch;
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.68;
+  color: var(--color-ink-soft);
+}
+
+.prose p {
+  margin: 0 0 22px;
+}
+
+.prose h2 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+  margin: 38px 0 16px;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 22px;
+  padding-left: 24px;
+}
+
+.prose li {
+  margin-bottom: 8px;
+}
+
+.prose blockquote {
+  margin: 0 0 22px;
+  padding-left: 20px;
+  border-left: 2px solid var(--color-border-soft);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--color-surface);
+  padding: 1px 5px;
+}
+
+/* Nur für Screenreader */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .container-wide,
+  .container-section {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,68 @@
+---
+import type { EditorialReview, GenerationMode } from '../config/disclosure';
+import { disclosureText, EDITORIAL_REVIEW_LABELS, GENERATION_MODE_LABELS } from '../config/disclosure';
+
+interface Props {
+  generationMode: GenerationMode;
+  editorialReview: EditorialReview;
+  note?: string | undefined;
+}
+
+const { generationMode, editorialReview, note } = Astro.props;
+---
+
+<aside class="disclosure" aria-label="Hinweis zur KI-Erstellung">
+  <div class="disclosure__head">
+    <span class="dot dot--accent"></span>
+    <span class="disclosure__label">KI-gestützte Recherche</span>
+    <span class="badge">{GENERATION_MODE_LABELS[generationMode]}</span>
+    <span class:list={['badge', { 'badge--warn': editorialReview === 'none' }]}>
+      {EDITORIAL_REVIEW_LABELS[editorialReview]}
+    </span>
+  </div>
+  <p class="disclosure__text">{disclosureText(generationMode, editorialReview)}</p>
+  {note && <p class="disclosure__text disclosure__note">{note}</p>}
+</aside>
+
+<style>
+  .disclosure {
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    padding: 20px 24px;
+  }
+
+  .disclosure__head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .disclosure__head .dot {
+    width: 9px;
+    height: 9px;
+  }
+
+  .disclosure__label {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-ink);
+    margin-right: auto;
+  }
+
+  .disclosure__text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+  }
+
+  .disclosure__note {
+    margin-top: 8px;
+    font-style: italic;
+  }
+</style>

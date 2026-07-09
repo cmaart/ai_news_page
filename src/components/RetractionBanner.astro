@@ -1,0 +1,60 @@
+---
+interface Props {
+  reason: string;
+}
+
+const { reason } = Astro.props;
+---
+
+<aside class="retraction" role="alert">
+  <div class="retraction__head">
+    <span class="dot dot--danger"></span>
+    <span class="retraction__label">Artikel zurückgezogen</span>
+  </div>
+  <p class="retraction__text">
+    Dieser Artikel wurde zurückgezogen und wird nicht mehr als gültige Recherche geführt. Der Inhalt bleibt aus
+    Transparenzgründen einsehbar, sollte aber nicht mehr zitiert werden.
+  </p>
+  <p class="retraction__reason"><strong>Grund:</strong> {reason}</p>
+</aside>
+
+<style>
+  .retraction {
+    border: 2px solid var(--danger-border);
+    background: var(--color-surface-white);
+    padding: 24px 28px;
+  }
+
+  .retraction__head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .retraction__head .dot {
+    width: 9px;
+    height: 9px;
+  }
+
+  .retraction__label {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--danger-text);
+  }
+
+  .retraction__text,
+  .retraction__reason {
+    margin: 0 0 10px;
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: var(--color-ink-soft);
+  }
+
+  .retraction__reason {
+    margin-bottom: 0;
+  }
+</style>

@@ -1,0 +1,69 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { byNewest, isListed, TOPIC_LABELS, TOPICS } from '../../lib/articles';
+import type { Topic } from '../../lib/articles';
+
+export async function getStaticPaths() {
+  return TOPICS.map((topic) => ({ params: { topic } }));
+}
+
+const { topic } = Astro.params as { topic: Topic };
+const articles = (await getCollection('articles'))
+  .filter(isListed)
+  .filter((a) => a.data.topic === topic)
+  .sort(byNewest);
+---
+
+<BaseLayout title={`${TOPIC_LABELS[topic]} · Neue Nachrichten`}>
+  <section class="topic container-wide">
+    <p class="topic__eyebrow">Thema</p>
+    <h1 class="topic__title">{TOPIC_LABELS[topic]}</h1>
+    {
+      articles.length > 0 ? (
+        <div class="topic__grid">
+          {articles.map((article) => (
+            <ArticleCard article={article} />
+          ))}
+        </div>
+      ) : (
+        <p class="topic__empty">Noch keine veröffentlichten Artikel zu diesem Thema.</p>
+      )
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  .topic {
+    padding-top: 64px;
+  }
+
+  .topic__eyebrow {
+    margin: 0 0 8px;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .topic__title {
+    margin: 0 0 32px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+  }
+
+  .topic__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 32px;
+  }
+
+  .topic__empty {
+    color: var(--color-text-faint);
+  }
+</style>

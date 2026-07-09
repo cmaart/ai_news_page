@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
+
+const hasGa = Boolean(import.meta.env.PUBLIC_GA_ID);
+---
+
+<BaseLayout title="Datenschutz · Neue Nachrichten" noindex>
+  <section class="page container-section">
+    <h1 class="page__title">Datenschutzerklärung</h1>
+    <div class="prose">
+      <p>
+        <strong>Hinweis:</strong> Platzhalterseite. Vor Go-Live finalisieren (Verantwortlicher, Hosting-Abschnitt,
+        Betroffenenrechte, Kontakt).
+      </p>
+
+      <h2>Verantwortlicher</h2>
+      <p>TODO: Name und Kontaktdaten des Verantwortlichen (siehe Impressum).</p>
+
+      <h2>Hosting</h2>
+      <p>
+        Diese Website wird als statische Website über GitHub Pages (GitHub, Inc.) ausgeliefert. Beim Aufruf werden
+        technisch notwendige Daten (z. B. IP-Adresse) durch den Hoster verarbeitet. TODO: Abschnitt vor Go-Live
+        prüfen und vervollständigen.
+      </p>
+
+      <h2>Webanalyse (Google Analytics 4)</h2>
+      <p>
+        Diese Website verwendet Google Analytics 4 — aber nur, wenn du über den Cookie-Banner ausdrücklich
+        eingewilligt hast (Art 6 Abs 1 lit a DSGVO, § 165 TKG 2021). Ohne Einwilligung werden keine Analyse-Cookies
+        gesetzt und keine Daten an Google übertragen (Google Consent Mode v2, Standardzustand: abgelehnt).
+      </p>
+      <p>
+        Deine Einwilligung kannst du jederzeit widerrufen:
+        {
+          hasGa ? (
+            <a href={withBase('/datenschutz/')} data-cookie-settings>
+              Cookie-Einstellungen öffnen
+            </a>
+          ) : (
+            'über den Link „Cookie-Einstellungen" im Footer (derzeit ist keine Analyse aktiv).'
+          )
+        }
+      </p>
+
+      <h2>Deine Rechte</h2>
+      <p>
+        TODO: Betroffenenrechte (Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerspruch)
+        und Beschwerderecht bei der Datenschutzbehörde (dsb.gv.at) ausformulieren.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-top: 64px;
+  }
+
+  .page__title {
+    margin: 0 0 24px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+  }
+</style>

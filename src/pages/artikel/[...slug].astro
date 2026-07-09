@@ -1,0 +1,282 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Pruefband from '../../components/Pruefband.astro';
+import DisclosureBox from '../../components/DisclosureBox.astro';
+import Kurzfazit from '../../components/Kurzfazit.astro';
+import OpenQuestions from '../../components/OpenQuestions.astro';
+import ClaimList from '../../components/ClaimList.astro';
+import MethodologyBox from '../../components/MethodologyBox.astro';
+import SourceList from '../../components/SourceList.astro';
+import CorrectionTimeline from '../../components/CorrectionTimeline.astro';
+import RetractionBanner from '../../components/RetractionBanner.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { GENERATION_MODE_LABELS } from '../../config/disclosure';
+import {
+  byNewest,
+  COUNTRY_LABELS,
+  formatDate,
+  isBuilt,
+  isListed,
+  lastUpdated,
+  TOPIC_LABELS,
+} from '../../lib/articles';
+import { withBase } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.filter(isBuilt).map((article) => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { data } = article;
+const { Content } = await render(article);
+
+const articles = await getCollection('articles');
+const related = articles
+  .filter((a) => a.id !== article.id)
+  .filter(isListed)
+  .sort(byNewest)
+  .slice(0, 3);
+
+const updated = lastUpdated(data);
+const isRetracted = data.status === 'retracted';
+const isArchived = data.status === 'archived';
+
+const statusToCreativeWorkStatus: Record<string, string> = {
+  published: 'Published',
+  corrected: 'Corrected',
+  retracted: 'Retracted',
+  archived: 'Archived',
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: data.title,
+  description: data.description,
+  inLanguage: 'de-AT',
+  ...(data.publishedAt && { datePublished: data.publishedAt.toISOString() }),
+  ...(updated && { dateModified: updated.toISOString() }),
+  creativeWorkStatus: statusToCreativeWorkStatus[data.status] ?? data.status,
+  author: {
+    '@type': 'Organization',
+    name: 'Neue Nachrichten',
+    url: 'https://neuenachrichten.at/',
+  },
+  mainEntityOfPage: new URL(withBase(`/artikel/${article.id}/`), Astro.site).toString(),
+};
+---
+
+<BaseLayout
+  title={`${data.title} · Neue Nachrichten`}
+  description={data.description}
+  jsonLd={jsonLd}
+  ogType="article"
+  noindex={isRetracted || isArchived}
+>
+  <article>
+    <div class="article-head container-section">
+      {
+        isRetracted && data.retractionReason && (
+          <div class="article-head__retraction">
+            <RetractionBanner reason={data.retractionReason} />
+          </div>
+        )
+      }
+
+      <div class="article-head__eyebrow">
+        <a href={withBase(`/themen/${data.topic}/`)}>{TOPIC_LABELS[data.topic]}</a>
+        <span class="article-head__sep">·</span>
+        {COUNTRY_LABELS[data.country]}
+        {isArchived && <span class="badge">Archiviert</span>}
+        {data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+      </div>
+      <h1 class="article-head__title">{data.title}</h1>
+      <p class="article-head__standfirst">{data.description}</p>
+      <div class="article-head__meta">
+        {data.publishedAt && <span>Veröffentlicht {formatDate(data.publishedAt)}</span>}
+        {data.updatedAt && <span>Aktualisiert {formatDate(data.updatedAt)}</span>}
+        <span class="article-head__meta-ai">
+          <span class="dot dot--accent article-head__ai-dot"></span>
+          {GENERATION_MODE_LABELS[data.generationMode]}
+        </span>
+      </div>
+
+      <Pruefband data={data} />
+
+      <div class="article-head__disclosure">
+        <DisclosureBox
+          generationMode={data.generationMode}
+          editorialReview={data.editorialReview}
+          note={data.aiDisclosureNote}
+        />
+      </div>
+
+      <div class="article-head__kurzfazit">
+        <Kurzfazit summary={data.summary} />
+      </div>
+    </div>
+
+    <div class="article-body container-section">
+      <div class="prose">
+        <Content />
+      </div>
+    </div>
+
+    {
+      data.openQuestions.length > 0 && (
+        <section class="article-section container-section" id="unklar">
+          <OpenQuestions questions={data.openQuestions} />
+        </section>
+      )
+    }
+
+    {
+      data.claims.length > 0 && (
+        <section class="article-section container-section">
+          <h2 class="section-heading">Geprüfte Aussagen</h2>
+          <ClaimList claims={data.claims} />
+        </section>
+      )
+    }
+
+    <section class="article-section container-section">
+      <MethodologyBox data={data} />
+    </section>
+
+    <section class="article-section container-section" id="quellen">
+      <h2 class="section-heading">Quellen</h2>
+      <SourceList sources={data.sources} />
+    </section>
+
+    {
+      data.corrections.length > 0 && (
+        <section class="article-section container-section" id="korrekturen">
+          <h2 class="section-heading">Korrekturen &amp; Updates</h2>
+          <CorrectionTimeline corrections={data.corrections} />
+        </section>
+      )
+    }
+
+    {
+      related.length > 0 && (
+        <section class="article-related container-wide">
+          <h2 class="section-heading">Weiterlesen</h2>
+          <div class="article-related__grid">
+            {related.map((a) => (
+              <ArticleCard article={a} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+  </article>
+</BaseLayout>
+
+<style>
+  .article-head {
+    padding-top: 48px;
+  }
+
+  .article-head__retraction {
+    margin-bottom: 32px;
+  }
+
+  .article-head__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 18px;
+  }
+
+  .article-head__eyebrow a {
+    color: var(--accent);
+  }
+
+  .article-head__sep {
+    color: var(--color-border-soft);
+  }
+
+  .article-head__title {
+    margin: 0 0 18px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+  }
+
+  .article-head__standfirst {
+    margin: 0 0 20px;
+    font-family: var(--font-serif);
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+  }
+
+  .article-head__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    color: var(--color-text-faint);
+    margin-bottom: 24px;
+  }
+
+  .article-head__meta-ai {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .article-head__ai-dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  .article-head__disclosure {
+    margin-top: 28px;
+  }
+
+  .article-head__kurzfazit {
+    margin-top: 28px;
+  }
+
+  .article-body {
+    padding-top: 40px;
+  }
+
+  .article-section {
+    margin-top: 48px;
+  }
+
+  .article-related {
+    margin-top: 72px;
+  }
+
+  .article-related__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 32px;
+    margin-top: 24px;
+  }
+
+  @media (max-width: 720px) {
+    .article-head__title {
+      font-size: 32px;
+    }
+  }
+</style>

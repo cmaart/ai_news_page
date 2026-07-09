@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { GLOBAL_DISCLOSURE } from '../config/disclosure';
+import { withBase } from '../lib/url';
+---
+
+<BaseLayout title="Methodik · Neue Nachrichten" description={GLOBAL_DISCLOSURE}>
+  <section class="page container-section">
+    <h1 class="page__title">Methodik</h1>
+
+    <div class="page__disclosure">
+      <span class="dot dot--accent"></span>
+      <p>{GLOBAL_DISCLOSURE}</p>
+    </div>
+
+    <div class="prose">
+      <h2>Wie diese Seite arbeitet</h2>
+      <p>
+        Neue Nachrichten ist eine Nachrichtenseite, deren Artikel auf KI-gestützter Recherche in öffentlich
+        zugänglichen Quellen basieren. Es gibt keine klassische Redaktion. Artikel werden automatisiert recherchiert,
+        strukturiert und formuliert. Eine laufende menschliche Prüfung jedes Artikels findet nicht statt — wo sie
+        stattgefunden hat, ist das am Artikel ausdrücklich gekennzeichnet.
+      </p>
+      <p>
+        Die Seite versucht, Vertrauen nicht durch Perfektionsbehauptungen zu erzeugen, sondern durch Transparenz:
+        Jeder Artikel legt seine Quellen offen, benennt geprüfte und ungeprüfte Aussagen, zeigt Unsicherheiten und
+        dokumentiert Korrekturen.
+      </p>
+
+      <h2>Was jeder Artikel offenlegt</h2>
+      <ul>
+        <li><strong>Quellenstärke</strong> — wie belastbar die Primärquellenlage ist (keine / schwach / mittel / stark).</li>
+        <li><strong>Framing-Risiko</strong> — wie stark die Darstellung in den verfügbaren Quellen gefärbt sein könnte (gering / mittel / hoch).</li>
+        <li><strong>Konfidenz</strong> — wie sicher die Gesamtdarstellung nach vorliegender Quellenlage ist (niedrig / mittel / hoch).</li>
+        <li><strong>Geprüfte Aussagen</strong> — zentrale Behauptungen einzeln, jeweils mit Status: belegt, teilweise belegt, unklar oder widersprochen, mit Verweis auf die Quellen.</li>
+        <li><strong>Was noch unklar ist</strong> — offene Fragen, die die Quellenlage nicht beantwortet.</li>
+        <li><strong>Quellen</strong> — vollständige Liste, gruppiert in Primärquellen (amtliche Dokumente, Studien, Originalaussendungen) und Sekundärquellen (Medien, Agenturen).</li>
+        <li><strong>Korrekturen &amp; Updates</strong> — nachträgliche Änderungen mit Datum und Begründung.</li>
+      </ul>
+
+      <h2>Erstellungs- und Prüfstatus</h2>
+      <p>Jeder Artikel trägt zwei getrennte Kennzeichnungen:</p>
+      <ul>
+        <li>
+          <strong>Recherchemodus:</strong> „Automatisch erstellt" (vollständig automatisiert), „KI-gestützt erstellt"
+          (automatisiert mit menschlicher Steuerung) oder „Manuell geprüft" (nachträglich von einem Menschen geprüft).
+        </li>
+        <li>
+          <strong>Redaktionelle Prüfung:</strong> „Nicht redaktionell geprüft" (Standard), „Stichprobenartig
+          menschlich geprüft" oder „Menschlich geprüft".
+        </li>
+      </ul>
+      <p>
+        Zusätzlich hat jeder Artikel einen Veröffentlichungsstatus: veröffentlicht, korrigiert, zurückgezogen oder
+        archiviert. Zurückgezogene Artikel bleiben aus Transparenzgründen erreichbar, sind aber deutlich als
+        zurückgezogen markiert und werden nirgends mehr verlinkt.
+      </p>
+
+      <h2>Korrekturen</h2>
+      <p>
+        Fehler können vorkommen — gerade bei automatisierter Recherche. Korrekturen werden nicht still eingearbeitet,
+        sondern mit Datum und Text am Artikel dokumentiert und auf der Seite
+        <a href={withBase('/korrekturen/')}>Korrekturen</a> gesammelt. Stellt sich ein Artikel als substanziell falsch heraus,
+        wird er zurückgezogen statt gelöscht.
+      </p>
+
+      <h2>Was diese Seite nicht ist</h2>
+      <p>
+        Diese Seite ist keine amtliche Quelle und keine journalistische Gewissheit. Die Inhalte sind nicht
+        „faktengeprüft" im redaktionellen Sinn — sie dokumentieren eine Quellenlage zu einem Zeitpunkt. Bitte prüfe
+        bei wichtigen Entscheidungen die verlinkten Originalquellen selbst.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-top: 64px;
+  }
+
+  .page__title {
+    margin: 0 0 24px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+  }
+
+  .page__disclosure {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    padding: 18px 22px;
+    margin-bottom: 36px;
+  }
+
+  .page__disclosure .dot {
+    width: 9px;
+    height: 9px;
+    margin-top: 6px;
+  }
+
+  .page__disclosure p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+  }
+</style>

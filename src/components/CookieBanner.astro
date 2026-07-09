@@ -1,0 +1,119 @@
+---
+/**
+ * Minimaler Cookie-Banner für GA4-Opt-in (§ 165 TKG 2021 / DSGVO).
+ * Entscheidung in localStorage ('nn-consent': 'granted' | 'denied').
+ * Widerruf über Footer-Link (data-cookie-settings).
+ * Ohne PUBLIC_GA_ID wird nichts gerendert.
+ */
+const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined;
+import { withBase } from '../lib/url';
+---
+
+{
+  gaId && (
+    <div class="cookie-banner" id="cookie-banner" hidden role="dialog" aria-label="Cookie-Einwilligung">
+      <p class="cookie-banner__text">
+        Wir würden gerne Google Analytics verwenden, um die Nutzung dieser Website anonymisiert auszuwerten. Dafür
+        werden Cookies gesetzt und Daten an Google übertragen. Details in der{' '}
+        <a href={withBase('/datenschutz/')}>Datenschutzerklärung</a>. Ohne Einwilligung werden keine Analyse-Cookies
+        gesetzt.
+      </p>
+      <div class="cookie-banner__actions">
+        <button type="button" class="cookie-banner__btn cookie-banner__btn--accept" id="cookie-accept">
+          Akzeptieren
+        </button>
+        <button type="button" class="cookie-banner__btn" id="cookie-decline">
+          Ablehnen
+        </button>
+      </div>
+    </div>
+  )
+}
+
+{
+  gaId && (
+    <script is:inline>
+      (function () {
+        var banner = document.getElementById('cookie-banner');
+        if (!banner) return;
+
+        function decide(value) {
+          localStorage.setItem('nn-consent', value);
+          banner.hidden = true;
+          if (value === 'granted' && window.__nnLoadGA) window.__nnLoadGA();
+          if (value === 'denied' && window.__nnDenyGA) window.__nnDenyGA();
+        }
+
+        document.getElementById('cookie-accept').addEventListener('click', function () {
+          decide('granted');
+        });
+        document.getElementById('cookie-decline').addEventListener('click', function () {
+          decide('denied');
+        });
+
+        if (!localStorage.getItem('nn-consent')) banner.hidden = false;
+
+        document.querySelectorAll('[data-cookie-settings]').forEach(function (el) {
+          el.addEventListener('click', function (e) {
+            e.preventDefault();
+            banner.hidden = false;
+          });
+        });
+      })();
+    </script>
+  )
+}
+
+<style>
+  .cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    max-width: 380px;
+    z-index: 100;
+    background: var(--color-surface-white);
+    border: 1px solid var(--color-border-soft);
+    box-shadow: 0 4px 24px rgba(28, 27, 25, 0.12);
+    padding: 20px 22px;
+  }
+
+  .cookie-banner__text {
+    margin: 0 0 14px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--color-text-muted);
+  }
+
+  .cookie-banner__actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .cookie-banner__btn {
+    font-family: var(--font-sans);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    cursor: pointer;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-soft);
+    color: var(--color-text-muted);
+  }
+
+  .cookie-banner__btn--accept {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-bg);
+  }
+
+  @media (max-width: 480px) {
+    .cookie-banner {
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      max-width: none;
+    }
+  }
+</style>

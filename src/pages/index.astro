@@ -1,0 +1,657 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import {
+  byNewest,
+  claimStats,
+  COUNTRY_LABELS,
+  formatDate,
+  isListed,
+  isPrimarySource,
+  lastUpdated,
+  LEVEL_METER,
+  RISK_LABELS,
+  STRENGTH_LABELS,
+  STRENGTH_METER,
+  TOPIC_LABELS,
+  TOPICS,
+} from '../lib/articles';
+import type { Article } from '../lib/articles';
+import { withBase } from '../lib/url';
+
+const articles = (await getCollection('articles')).filter(isListed).sort(byNewest);
+const [lead, ...topList] = articles;
+const topStories = topList.slice(0, 4);
+
+const topicCounts = TOPICS.map((topic) => ({
+  topic,
+  count: articles.filter((a) => a.data.topic === topic).length,
+}));
+
+const newestUpdate = articles
+  .map((a) => lastUpdated(a.data))
+  .filter((d): d is Date => Boolean(d))
+  .sort((a, b) => b.getTime() - a.getTime())[0];
+
+const dateline = new Intl.DateTimeFormat('de-AT', {
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'Europe/Vienna',
+}).format(new Date());
+
+function claimBadge(article: Article): { text: string; ok: boolean } | null {
+  const { supported, total } = claimStats(article.data.claims);
+  if (total === 0) return null;
+  const ok = supported / total >= 0.66;
+  return { text: ok ? `● Belegt ${supported}/${total}` : `● Teils belegt ${supported}/${total}`, ok };
+}
+
+const segments = [1, 2, 3, 4, 5];
+const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0 };
+---
+
+<BaseLayout title="Neue Nachrichten — KI-gestützte Recherche mit offener Quellenlage">
+  <h1 class="sr-only">Neue Nachrichten — Nachrichten auf Basis KI-gestützter Recherche mit offener Quellenlage</h1>
+
+  <!-- Masthead-Dateline -->
+  <div class="dateline container-wide">
+    <span>{dateline}</span>
+    <span class="dateline__claim">
+      <i class="dot dot--accent dateline__dot"></i>
+      Jeder Artikel zeigt seine Quellen
+    </span>
+  </div>
+
+  <!-- Lead + Top-Liste -->
+  {
+    lead ? (
+      <section class="top container-wide">
+        <a class="story lead" href={withBase(`/artikel/${lead.id}/`)}>
+          <div class="eyebrow">
+            {TOPIC_LABELS[lead.data.topic]} · {COUNTRY_LABELS[lead.data.country]}
+            {lead.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+          </div>
+          <h2 class="lead__title">{lead.data.title}</h2>
+          <p class="lead__standfirst">{lead.data.description}</p>
+          <div class="lead__metrics">
+            <span class="lead__meter-group">
+              <i class="mini-meter">
+                {segments.map((s) => (
+                  <i class:list={{ filled: s <= STRENGTH_METER[lead.data.primarySourceStrength] }} />
+                ))}
+              </i>
+              Quellen {STRENGTH_LABELS[lead.data.primarySourceStrength]}
+            </span>
+            <span class="lead__sep">|</span>
+            <span>Risiko {RISK_LABELS[lead.data.framingRisk]}</span>
+            {
+              leadStats.total > 0 && (
+                <>
+                  <span class="lead__sep">|</span>
+                  <span>
+                    {leadStats.supported}/{leadStats.total} belegt
+                  </span>
+                </>
+              )
+            }
+          </div>
+        </a>
+
+        <div class="toplist">
+          <div class="toplist__label">Weitere Nachrichten</div>
+          {
+            topStories.length > 0 ? (
+              topStories.map((article) => (
+                <a class="story toplist__item" href={withBase(`/artikel/${article.id}/`)}>
+                  <div class="eyebrow eyebrow--small">
+                    {TOPIC_LABELS[article.data.topic]} · {COUNTRY_LABELS[article.data.country]}
+                    {article.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+                  </div>
+                  <h3 class="toplist__title">{article.data.title}</h3>
+                  <div class="metrics">
+                    <span>QS {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
+                    <span>Risk {LEVEL_METER[article.data.framingRisk]}/5</span>
+                    <span>{article.data.sources.filter(isPrimarySource).length} Prim</span>
+                  </div>
+                </a>
+              ))
+            ) : (
+              <p class="toplist__empty">Noch keine weiteren Artikel.</p>
+            )
+          }
+        </div>
+      </section>
+    ) : (
+      <section class="top container-wide">
+        <p class="toplist__empty">Noch keine veröffentlichten Artikel.</p>
+      </section>
+    )
+  }
+
+  <!-- Wie wir arbeiten (Band) -->
+  <section class="container-wide">
+    <div class="band">
+      <div class="band__label">Wie wir<br />arbeiten</div>
+      <div class="band__steps">
+        <div class="band__step">
+          <div class="band__step-num">01 Sammeln</div>
+          <div class="band__step-text">KI recherchiert in öffentlich zugänglichen Quellen.</div>
+        </div>
+        <div class="band__step">
+          <div class="band__step-num">02 Prüfen</div>
+          <div class="band__step-text">Zentrale Aussagen werden automatisiert gegen Quellen abgeglichen.</div>
+        </div>
+        <div class="band__step">
+          <div class="band__step-num">03 Offenlegen</div>
+          <div class="band__step-text">Quellenlage, Unsicherheiten und Framing-Risiken werden ausgewiesen.</div>
+        </div>
+        <div class="band__step">
+          <div class="band__step-num">04 Korrigieren</div>
+          <div class="band__step-text">Fehler werden dokumentiert korrigiert, nicht still entfernt.</div>
+        </div>
+      </div>
+      <a class="band__link" href={withBase('/methodik/')}>Methodik lesen →</a>
+    </div>
+  </section>
+
+  <!-- Themenbereiche -->
+  <section class="topics container-wide">
+    <div class="section-head">
+      <h2 class="section-head__title">Themenbereiche</h2>
+      <a class="section-head__link" href={withBase('/themen/')}>Alle Themen →</a>
+    </div>
+    <div class="topics__grid">
+      {
+        topicCounts.map(({ topic, count }) => (
+          <a class="topics__cell" href={withBase(`/themen/${topic}/`)}>
+            <div class="topics__name">{TOPIC_LABELS[topic]}</div>
+            <div class="topics__count">{count} Artikel</div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Neueste Artikel -->
+  <section class="latest container-wide">
+    <div class="section-head">
+      <h2 class="section-head__title">Neueste Artikel</h2>
+      {newestUpdate && <span class="section-head__meta">zuletzt aktualisiert {formatDate(newestUpdate)}</span>}
+    </div>
+    {
+      articles.length > 0 ? (
+        <div class="latest__grid">
+          {articles.map((article) => {
+            const badge = claimBadge(article);
+            return (
+              <a class="story latest__cell" href={withBase(`/artikel/${article.id}/`)}>
+                <div class="latest__head">
+                  <span class="eyebrow eyebrow--small">
+                    {TOPIC_LABELS[article.data.topic]} · {COUNTRY_LABELS[article.data.country]}
+                  </span>
+                  {article.data.publishedAt && (
+                    <span class="latest__date">{formatDate(article.data.publishedAt)}</span>
+                  )}
+                </div>
+                <h3 class="latest__title">
+                  {article.data.title}
+                  {article.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+                </h3>
+                <p class="latest__teaser">{article.data.description}</p>
+                <div class="metrics">
+                  {badge && <span class:list={[badge.ok ? 'metrics--ok' : 'metrics--warn']}>{badge.text}</span>}
+                  <span>QS {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      ) : (
+        <p class="toplist__empty">Noch keine veröffentlichten Artikel.</p>
+      )
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  /* Masthead-Dateline */
+  .dateline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--color-border);
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+  }
+
+  .dateline__claim {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .dateline__dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  /* Eyebrows */
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+
+  .eyebrow--small {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    margin-bottom: 8px;
+  }
+
+  /* Story-Hover */
+  .story {
+    display: block;
+    color: inherit;
+  }
+
+  .story:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .story:hover .lead__title,
+  .story:hover .toplist__title,
+  .story:hover .latest__title {
+    color: var(--accent-hover);
+  }
+
+  /* Lead + Top-Liste */
+  .top {
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    gap: 44px;
+    padding-top: 40px;
+  }
+
+  .lead {
+    border-right: 1px solid var(--color-border);
+    padding-right: 44px;
+  }
+
+  .lead__title {
+    margin: 0 0 16px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.14;
+    letter-spacing: -0.015em;
+    color: var(--color-ink);
+    transition: color 0.15s;
+  }
+
+  .lead__standfirst {
+    margin: 0 0 18px;
+    font-family: var(--font-serif);
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+  }
+
+  .lead__metrics {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+  }
+
+  .lead__meter-group {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .lead__sep {
+    color: var(--color-border-soft);
+  }
+
+  .mini-meter {
+    display: inline-flex;
+    gap: 2px;
+  }
+
+  .mini-meter i {
+    width: 9px;
+    height: 5px;
+    background: var(--color-border);
+  }
+
+  .mini-meter i.filled {
+    background: var(--accent);
+  }
+
+  .toplist__label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--color-ink);
+  }
+
+  .toplist__item {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .toplist__item:last-child {
+    border-bottom: none;
+  }
+
+  .toplist__title {
+    margin: 0 0 10px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.25;
+    color: var(--color-ink);
+    transition: color 0.15s;
+  }
+
+  .toplist__empty {
+    color: var(--color-text-faint);
+    font-size: 14px;
+  }
+
+  .metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+  }
+
+  .metrics--ok {
+    color: var(--ok-text);
+  }
+
+  .metrics--warn {
+    color: var(--warn-text);
+  }
+
+  /* Band „Wie wir arbeiten" */
+  .band {
+    margin-top: 44px;
+    background: var(--color-ink);
+    color: var(--color-bg);
+    padding: 30px 36px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .band__label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-dark-muted);
+  }
+
+  .band__steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+  }
+
+  .band__step-num {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: oklch(0.68 0.07 205);
+    margin-bottom: 6px;
+  }
+
+  .band__step-text {
+    font-size: 13px;
+    line-height: 1.45;
+    color: #e7e3db;
+  }
+
+  .band__link {
+    color: var(--color-bg);
+    font-size: 13px;
+    white-space: nowrap;
+    border: 1px solid var(--color-dark-border);
+    padding: 11px 18px;
+  }
+
+  .band__link:hover {
+    color: var(--color-bg);
+    border-color: var(--color-dark-muted);
+    text-decoration: none;
+  }
+
+  /* Sektionskopf */
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    border-bottom: 2px solid var(--color-ink);
+    padding-bottom: 12px;
+  }
+
+  .section-head__title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .section-head__link,
+  .section-head__meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+  }
+
+  .section-head__meta {
+    color: var(--color-text-faint);
+  }
+
+  /* Themenbereiche */
+  .topics {
+    margin-top: 52px;
+  }
+
+  .topics__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .topics__cell {
+    color: inherit;
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+  }
+
+  .topics__cell:nth-child(3n + 1) {
+    padding-left: 0;
+  }
+
+  .topics__cell:nth-child(3n) {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .topics__cell:nth-last-child(-n + 2):nth-child(3n + 1),
+  .topics__cell:nth-last-child(-n + 2):nth-child(3n + 2) {
+    border-bottom: none;
+  }
+
+  .topics__cell:hover {
+    text-decoration: none;
+  }
+
+  .topics__cell:hover .topics__name {
+    color: var(--accent-hover);
+  }
+
+  .topics__name {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .topics__count {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--color-text-faint);
+  }
+
+  /* Neueste Artikel */
+  .latest {
+    margin-top: 52px;
+  }
+
+  .latest__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest__cell {
+    padding: 24px 28px 26px;
+    border-bottom: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+  }
+
+  .latest__cell:nth-child(3n + 1) {
+    padding-left: 0;
+  }
+
+  .latest__cell:nth-child(3n) {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .latest__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 11px;
+  }
+
+  .latest__head .eyebrow--small {
+    margin-bottom: 0;
+  }
+
+  .latest__date {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--color-text-ghost);
+  }
+
+  .latest__title {
+    margin: 0 0 10px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.26;
+    color: var(--color-ink);
+    transition: color 0.15s;
+  }
+
+  .latest__title .badge {
+    margin-left: 8px;
+    vertical-align: 2px;
+  }
+
+  .latest__teaser {
+    margin: 0 0 14px;
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--color-text-faint);
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .top {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+
+    .lead {
+      border-right: none;
+      padding-right: 0;
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: 32px;
+    }
+
+    .band {
+      grid-template-columns: 1fr;
+    }
+
+    .band__steps {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .topics__grid,
+    .latest__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .topics__cell,
+    .latest__cell {
+      border-right: none;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .topics__cell:nth-last-child(-n + 2):nth-child(3n + 2) {
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .topics__cell:last-child,
+    .latest__cell:last-child {
+      border-bottom: none;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .lead__title {
+      font-size: 30px;
+    }
+
+    .dateline {
+      flex-wrap: wrap;
+    }
+  }
+</style>

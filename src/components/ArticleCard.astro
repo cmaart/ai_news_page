@@ -1,0 +1,88 @@
+---
+import type { Article } from '../lib/articles';
+import {
+  claimStats,
+  CONFIDENCE_LABELS,
+  COUNTRY_LABELS,
+  formatDate,
+  STRENGTH_LABELS,
+  TOPIC_LABELS,
+} from '../lib/articles';
+import { withBase } from '../lib/url';
+
+interface Props {
+  article: Article;
+}
+
+const { article } = Astro.props;
+const { data } = article;
+const stats = claimStats(data.claims);
+---
+
+<article class="card">
+  <div class="card__eyebrow">
+    {TOPIC_LABELS[data.topic]} · {COUNTRY_LABELS[data.country]}
+    {data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+  </div>
+  <h3 class="card__title">
+    <a href={withBase(`/artikel/${article.id}/`)}>{data.title}</a>
+  </h3>
+  <p class="card__description">{data.description}</p>
+  <div class="card__metrics">
+    {data.publishedAt && <span>{formatDate(data.publishedAt)}</span>}
+    <span>Konfidenz {CONFIDENCE_LABELS[data.confidence]}</span>
+    <span>Quellen {STRENGTH_LABELS[data.primarySourceStrength]}</span>
+    <span>Claims {stats.supported}/{stats.total}</span>
+  </div>
+</article>
+
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 2px solid var(--color-ink);
+    padding-top: 14px;
+  }
+
+  .card__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .card__title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.28;
+  }
+
+  .card__title a {
+    color: var(--color-ink);
+  }
+
+  .card__description {
+    margin: 0;
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: var(--color-text-muted);
+  }
+
+  .card__metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    margin-top: auto;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--color-text-faint);
+  }
+</style>

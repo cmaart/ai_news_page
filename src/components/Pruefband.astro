@@ -1,0 +1,111 @@
+---
+import type { ArticleData } from '../lib/articles';
+import {
+  CONFIDENCE_LABELS,
+  LEVEL_METER,
+  RISK_LABELS,
+  STRENGTH_LABELS,
+  STRENGTH_METER,
+  claimStats,
+} from '../lib/articles';
+
+interface Props {
+  data: ArticleData;
+}
+
+const { data } = Astro.props;
+const stats = claimStats(data.claims);
+const segments = [1, 2, 3, 4, 5];
+
+const strengthFill = STRENGTH_METER[data.primarySourceStrength];
+const riskFill = LEVEL_METER[data.framingRisk];
+const confidenceFill = LEVEL_METER[data.confidence];
+---
+
+<div class="pruefband">
+  <div class="pruefband__tile">
+    <span class="mono-label">Quellenstärke</span>
+    <span class="pruefband__value">{STRENGTH_LABELS[data.primarySourceStrength]}</span>
+    <div class="meter">
+      {segments.map((s) => <span class:list={{ filled: s <= strengthFill }} />)}
+    </div>
+  </div>
+  <div class="pruefband__tile">
+    <span class="mono-label">Framing-Risiko</span>
+    <span class="pruefband__value">{RISK_LABELS[data.framingRisk]}</span>
+    <div class="meter meter--warn">
+      {segments.map((s) => <span class:list={{ filled: s <= riskFill }} />)}
+    </div>
+  </div>
+  <div class="pruefband__tile">
+    <span class="mono-label">Konfidenz</span>
+    <span class="pruefband__value">{CONFIDENCE_LABELS[data.confidence]}</span>
+    <div class="meter">
+      {segments.map((s) => <span class:list={{ filled: s <= confidenceFill }} />)}
+    </div>
+  </div>
+  <div class="pruefband__tile">
+    <span class="mono-label">Geprüfte Aussagen</span>
+    <span class="pruefband__value">{stats.supported} / {stats.total}</span>
+    <a class="pruefband__link" href="#claims">davon belegt · Details</a>
+  </div>
+</div>
+
+<style>
+  .pruefband {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 2px solid var(--color-ink);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .pruefband__tile {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 16px 18px;
+    border-left: 1px solid var(--color-border);
+  }
+
+  .pruefband__tile:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .pruefband__value {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 19px;
+    color: var(--color-ink);
+  }
+
+  .pruefband__link {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.02em;
+  }
+
+  @media (max-width: 720px) {
+    .pruefband {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .pruefband__tile {
+      border-top: 1px solid var(--color-border);
+      padding-left: 18px;
+    }
+
+    .pruefband__tile:first-child {
+      padding-left: 18px;
+    }
+
+    .pruefband__tile:nth-child(-n + 2) {
+      border-top: none;
+    }
+
+    .pruefband__tile:nth-child(odd) {
+      border-left: none;
+      padding-left: 0;
+    }
+  }
+</style>

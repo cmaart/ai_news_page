@@ -1,0 +1,114 @@
+---
+import type { Claim } from '../lib/articles';
+import { CLAIM_STATUS } from '../lib/articles';
+
+interface Props {
+  claims: Claim[];
+}
+
+const { claims } = Astro.props;
+---
+
+<div class="claims" id="claims">
+  {
+    claims.map((claim) => {
+      const status = CLAIM_STATUS[claim.status];
+      return (
+        <div class="claims__row" id={claim.id}>
+          <div class="claims__status">
+            <span class:list={['dot', `dot--${status.tone === 'neutral' ? 'neutral' : status.tone}`]} />
+            <span class:list={['claims__status-text', `claims__status-text--${status.tone}`]}>{status.label}</span>
+          </div>
+          <div class="claims__body">
+            <p class="claims__text">{claim.text}</p>
+            {claim.note && <p class="claims__note">{claim.note}</p>}
+            <p class="claims__sources">
+              Quellen:{' '}
+              {claim.sourceIds.map((id, i) => (
+                <>
+                  {i > 0 && ', '}
+                  <a href={`#${id}`}>[{id}]</a>
+                </>
+              ))}
+            </p>
+          </div>
+        </div>
+      );
+    })
+  }
+</div>
+
+<style>
+  .claims__row {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .claims__row:last-child {
+    border-bottom: none;
+  }
+
+  .claims__status {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+
+  .claims__status .dot {
+    position: relative;
+    top: 0;
+  }
+
+  .claims__status-text {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+  }
+
+  .claims__status-text--ok {
+    color: var(--ok-text);
+  }
+
+  .claims__status-text--warn {
+    color: var(--warn-text);
+  }
+
+  .claims__status-text--danger {
+    color: var(--danger-text);
+  }
+
+  .claims__text {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--color-ink);
+  }
+
+  .claims__note {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--color-text-faint);
+  }
+
+  .claims__sources {
+    margin: 8px 0 0;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--color-text-faint);
+  }
+
+  @media (max-width: 720px) {
+    .claims__row {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+  }
+</style>

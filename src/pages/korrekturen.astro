@@ -1,0 +1,161 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate } from '../lib/articles';
+import { withBase } from '../lib/url';
+
+const articles = await getCollection('articles');
+
+const entries = articles
+  .filter((a) => ['published', 'corrected', 'retracted', 'archived'].includes(a.data.status))
+  .flatMap((a) =>
+    a.data.corrections.map((c) => ({
+      article: a,
+      date: c.date,
+      type: c.type,
+      text: c.text,
+    })),
+  )
+  .sort((a, b) => b.date.getTime() - a.date.getTime());
+
+const retracted = articles.filter((a) => a.data.status === 'retracted');
+---
+
+<BaseLayout title="Korrekturen · Neue Nachrichten">
+  <section class="page container-section">
+    <h1 class="page__title">Korrekturen &amp; Updates</h1>
+    <p class="page__intro">
+      Fehler werden hier nicht still korrigiert, sondern dokumentiert. Diese Seite listet alle nachträglichen
+      Korrekturen und Updates sowie zurückgezogene Artikel.
+    </p>
+
+    <h2 class="section-heading">Alle Einträge</h2>
+    {
+      entries.length > 0 ? (
+        <div class="log">
+          {entries.map((entry) => (
+            <div class="log__row">
+              <div class="log__meta">
+                <span class="log__date">{formatDate(entry.date)}</span>
+                <span class:list={['badge', entry.type === 'correction' ? 'badge--danger' : 'badge--accent']}>
+                  {entry.type === 'correction' ? 'Korrektur' : 'Update'}
+                </span>
+              </div>
+              <div>
+                <a class="log__article" href={withBase(`/artikel/${entry.article.id}/`)}>
+                  {entry.article.data.title}
+                </a>
+                <p class="log__text">{entry.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p class="page__empty">Bisher keine Korrekturen oder Updates.</p>
+      )
+    }
+
+    <h2 class="section-heading page__retracted-heading">Zurückgezogene Artikel</h2>
+    {
+      retracted.length > 0 ? (
+        <div class="log">
+          {retracted.map((a) => (
+            <div class="log__row">
+              <div class="log__meta">
+                <span class="badge badge--danger">Zurückgezogen</span>
+              </div>
+              <div>
+                <a class="log__article" href={withBase(`/artikel/${a.id}/`)}>
+                  {a.data.title}
+                </a>
+                {a.data.retractionReason && <p class="log__text">{a.data.retractionReason}</p>}
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p class="page__empty">Bisher keine zurückgezogenen Artikel.</p>
+      )
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding-top: 64px;
+  }
+
+  .page__title {
+    margin: 0 0 16px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+  }
+
+  .page__intro {
+    margin: 0 0 40px;
+    max-width: 640px;
+    font-family: var(--font-serif);
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+  }
+
+  .page__empty {
+    color: var(--color-text-faint);
+    font-size: 14px;
+  }
+
+  .page__retracted-heading {
+    margin-top: 56px;
+  }
+
+  .log__row {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .log__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .log__date {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--color-text-faint);
+  }
+
+  .log__article {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--color-ink);
+  }
+
+  .log__text {
+    margin: 6px 0 0;
+    font-family: var(--font-serif);
+    font-size: 14.5px;
+    line-height: 1.55;
+    color: var(--color-ink-soft);
+  }
+
+  @media (max-width: 720px) {
+    .log__row {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    .log__meta {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+</style>

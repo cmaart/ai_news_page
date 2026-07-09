@@ -1,0 +1,73 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { isListed, TOPIC_LABELS, TOPICS } from '../../lib/articles';
+import { withBase } from '../../lib/url';
+
+const articles = (await getCollection('articles')).filter(isListed);
+const counts = new Map(TOPICS.map((t) => [t, articles.filter((a) => a.data.topic === t).length]));
+---
+
+<BaseLayout title="Themen · Neue Nachrichten">
+  <section class="topics container-section">
+    <h1 class="topics__title">Themen</h1>
+    <div class="topics__list">
+      {
+        TOPICS.map((topic) => (
+          <a class="topics__row" href={withBase(`/themen/${topic}/`)}>
+            <span class="topics__name">{TOPIC_LABELS[topic]}</span>
+            <span class="topics__count">{counts.get(topic)} Artikel</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .topics {
+    padding-top: 64px;
+  }
+
+  .topics__title {
+    margin: 0 0 32px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+  }
+
+  .topics__list {
+    border-top: 2px solid var(--color-ink);
+  }
+
+  .topics__row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-ink);
+  }
+
+  .topics__row:hover {
+    text-decoration: none;
+  }
+
+  .topics__row:hover .topics__name {
+    color: var(--accent-hover);
+  }
+
+  .topics__name {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .topics__count {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--color-text-faint);
+  }
+</style>

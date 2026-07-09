@@ -1,0 +1,75 @@
+---
+interface Props {
+  questions: string[];
+}
+
+const { questions } = Astro.props;
+---
+
+<aside class="open-questions" aria-label="Offene Fragen">
+  <div class="open-questions__head">
+    <span class="dot dot--warn"></span>
+    <span class="open-questions__label">Was noch unklar ist</span>
+  </div>
+  <ul class="open-questions__list">
+    {questions.map((q) => <li>{q}</li>)}
+  </ul>
+</aside>
+
+<style>
+  .open-questions {
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-border);
+    padding: 24px 28px;
+  }
+
+  .open-questions__head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .open-questions__head .dot {
+    width: 9px;
+    height: 9px;
+  }
+
+  .open-questions__label {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--warn-deep);
+  }
+
+  .open-questions__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .open-questions__list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-family: var(--font-serif);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--warn-body-text);
+  }
+
+  .open-questions__list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .open-questions__list li::before {
+    content: '?';
+    position: absolute;
+    left: 0;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    color: var(--warn-mid);
+  }
+</style>
