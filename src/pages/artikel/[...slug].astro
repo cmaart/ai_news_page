@@ -271,7 +271,8 @@ const jsonLd = {
     margin-bottom: 24px;
   }
 
-  /* Hero in Original-Ratio — kein Crop auf Dateiebene oder im Layout (E44). */
+  /* Hero fix 16:9 — Ausschnitt nur via object-fit, Datei bleibt ungecroppt (E44).
+     Feste Ratio ist der Layout-Guard: auch ein untaugliches Bild sprengt die Seite nie. */
   .article-hero {
     margin: 0 0 28px;
   }
@@ -279,7 +280,9 @@ const jsonLd = {
   .article-hero :global(img) {
     display: block;
     width: 100%;
+    aspect-ratio: 16 / 9;
     height: auto;
+    object-fit: cover;
   }
 
   .article-hero__caption {
