@@ -117,12 +117,13 @@ jobs:
               # Fehler nur schlucken, wenn wirklich schon ein PR offen ist — sonst
               # Job-Fail (sichtbar), statt den Artikel unsichtbar auf dem Branch
               # liegen zu lassen (passiert z. B. bei fehlender Actions-PR-Permission).
+              BODY=$(printf '%s\n\n%s' \
+                "Automatisch erzeugter Draft mit sensitivity: high — bitte prüfen. Research-JSON: ${RESEARCH}" \
+                "**Zum Publizieren reicht Mergen nicht:** vorher im Frontmatter \`status: review\` → \`status: published\` setzen und \`publishedAt\` ergänzen — \`review\`-Artikel werden nie gebaut.")
               if ! gh pr create --base main --head "$BRANCH" \
                 --title "Review nötig: ${SLUG}" \
                 --label automated --label news-research --label needs-review \
-                --body "Automatisch erzeugter Draft mit sensitivity: high — bitte prüfen. Research-JSON: ${RESEARCH}
-
-**Zum Publizieren reicht Mergen nicht:** vorher im Frontmatter \`status: review\` → \`status: published\` setzen und \`publishedAt\` ergänzen — \`review\`-Artikel werden nie gebaut."; then
+                --body "$BODY"; then
                 if [ "$(gh pr list --head "$BRANCH" --state open --json number --jq 'length')" = "0" ]; then
                   echo "::error::PR-Erstellung fehlgeschlagen für ${SLUG} — Artikel läge sonst unsichtbar auf ${BRANCH}."
                   exit 1
