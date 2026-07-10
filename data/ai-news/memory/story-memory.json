@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T00:16:45.886Z",
+  "updatedAt": "2026-07-10T04:39:28.359Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -101,6 +101,49 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-11T00:13:55.236Z",
       "doNotUpdateBefore": "2026-07-10T06:13:55.236Z"
+    },
+    "miao-ying-come-sit-stay-belvedere-21-juli-2026": {
+      "canonicalTitle": "Miao Ying zeigt KI-Kunst im Belvedere 21: „Come, Sit, Stay“ eröffnet in Wien",
+      "slug": "miao-ying-come-sit-stay-belvedere-21-juli-2026",
+      "firstSeenAt": "2026-07-10T04:35:58.876Z",
+      "lastUpdatedAt": "2026-07-10T04:35:58.876Z",
+      "status": "published",
+      "articlePath": "src/content/articles/miao-ying-come-sit-stay-belvedere-21-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-10/miao-ying-come-sit-stay-belvedere-21-juli-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3361911",
+        "https://www.ots.at/presseaussendung/OTS_20260709_OTS0064/belvedere-21-miao-ying-come-sit-stay"
+      ],
+      "openQuestions": [
+        "Welche konkreten Werke, Medien und Formate umfasst die Ausstellung?",
+        "Wer kuratiert die Schau, und welche kuratorische Perspektive liegt ihr zugrunde?",
+        "Welche biografischen Stationen und welches bisherige Werk prägen Miao Yings künstlerische Praxis?",
+        "Wie positioniert sich die Ausstellung inhaltlich zu aktuellen gesellschaftlichen Debatten über KI?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-11T04:35:58.876Z",
+      "doNotUpdateBefore": "2026-07-10T10:35:58.876Z"
+    },
+    "cluster-20260710-665bc8ed": {
+      "canonicalTitle": "Israel warnte Trump vor iranischem Mordkomplott",
+      "slug": "cluster-20260710-665bc8ed",
+      "firstSeenAt": "2026-07-10T04:35:58.876Z",
+      "lastUpdatedAt": "2026-07-10T04:35:58.876Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000330895/israel-warnte-trump-vor-iranischem-mordkomplott",
+        "https://www.derstandard.at/story/3000000330895/israel-warnte-trump-vor-iranischem-mordkomplott",
+        "https://www.diepresse.com/36398683/israel-warnt-trump-vor-iranischem-mordkomplott",
+        "https://kurier.at/politik/ausland/israel-warnung-trump-iran-mord-toetung/403175357"
+      ],
+      "openQuestions": [
+        "Israelische Sicherheitsbehörde oder offizielle Stellungnahme",
+        "Weiße Haus / US-Administration Bestätigung",
+        "Konkrete Details zum Plan (erkannt, geplante Methode, Zeitrahmen)",
+        "Zeitliche Kontext: wann genau Warnung, wann Plan ausgearbeitet",
+        "Primärbericht aus Israel oder USA (Medienquellen sind sekundär)"
+      ],
+      "sensitivity": "high"
     }
   }
 }
