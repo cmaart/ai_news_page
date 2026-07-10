@@ -1,0 +1,223 @@
+{
+  "cluster": {
+    "id": "cluster-20260710-2601b9b2",
+    "title": "China recovered its first reusable rocket and showed a new way to do it",
+    "items": [
+      {
+        "itemId": "93c5aa824aeb86052d2179cb759ae940e472ab13868235ef4bbf53092e92eb87",
+        "sourceId": "arstechnica",
+        "sourceType": "media",
+        "title": "China recovered its first reusable rocket and showed a new way to do it",
+        "url": "https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it",
+        "summary": "\"Clearly, they admire the work that's being done by SpaceX and are trying to replicate it.\"",
+        "publishedAt": "2026-07-10T21:41:43.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "718cdaecca028ae8d14f5934659f7b1151eb2bbd3dcae912a56b26e1151b60ea",
+        "sourceId": "arstechnica",
+        "sourceType": "media",
+        "title": "OpenAI wants its new tool to do your work for you and with you",
+        "url": "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you",
+        "isNew": false
+      },
+      {
+        "itemId": "4a7e5c98ba2d422389bbb608a57cb678043088f82f17c21d5b7397e0c2dc390a",
+        "sourceId": "theverge",
+        "sourceType": "media",
+        "title": "Xreal&#8217;s new AR glasses are way cheaper and almost just right",
+        "url": "https://www.theverge.com/tech/963465/xreal-a01-plus-xbx-ar-glasses-hands-on",
+        "isNew": false
+      },
+      {
+        "itemId": "71e133599769d5e30802abb6bc5dc1c0e9db0a2751aabba8e04b1cb720b47c64",
+        "sourceId": "theverge",
+        "sourceType": "media",
+        "title": "Doom&#8217;s new expansion shows just what makes id Software special",
+        "url": "https://www.theverge.com/games/963515/doom-the-dark-ages-revelations-review",
+        "isNew": false
+      },
+      {
+        "itemId": "0accc3fb1c3803286af2c7072307a0ce58245ae7bd8f5a0e6996415c1c451e8e",
+        "sourceId": "techcrunch",
+        "sourceType": "media",
+        "title": "OpenAI launches its new family of models with GPT-5.6",
+        "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.725,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Der Cluster ist auf die China Long March 10B Raketenberg-Story zentriert (Item 1 mit ausführlichem Excerpt). Diese Story bietet hohe Substanz: konkrete technische Spezifikationen (7× YF-100K + 1× YF-219 Motoren, ~16t Payload, 63,6m Höhe), Datum des Jungfernflugs (10.7.2026, 12:15 UTC), offizielle chinesische Quellen (CASC, Außenministerium-Sprecherin Mao Ning). Ars Technica ist respektable Quelle mit editorialen Standards. Die Geschichte demonstriert technologischen Fortschritt (neuartige net-catch Fangmethode vs. propulsive landing) und globale Raumfahrt-Dynamiken mit Relevanz für Tech-Publikum in Österreich/EU. Die anderen Cluster-Items (OpenAI-Tools, AR-Brille, Videospiel-Review, GPT-5.6) gehören thematisch nicht zur Haupt-Story. Newsworthiness: 3 (solide Tech-News, global, aber nicht unmittelbar Österreich/EU-spezifisch). Sensitivität: niedrig (reine Technik).",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "possibleClaims": [
+      "China's Long March 10B completed its first successful flight on July 10, 2026",
+      "China recovered the first-stage booster using a novel net-catch system on an offshore vessel",
+      "China is the third entity to recover an orbital-class booster (after SpaceX Falcon 9 in 2015 and Blue Origin New Glenn in November 2025)",
+      "The Long March 10B has a payload capacity of approximately 16 metric tons to low Earth orbit",
+      "The booster uses seven YF-100K kerosene-fueled engines; the upper stage uses one YF-219 methane-fueled engine",
+      "The net-catch approach reduces payload penalty compared to traditional propulsive landing methods"
+    ],
+    "missingSources": [
+      "Independent verification of recovery success (currently reliant on Chinese government sources via Ars Technica reporting)",
+      "Detailed technical comparison of net-catch method versus propulsive landing and tower-catch approaches",
+      "Timeline and cost targets for achieving operational reusability",
+      "Expert assessment of China's progress relative to SpaceX Falcon 9 and Starship development timelines",
+      "Plans for the recovered booster (inspection, refurbishment, relaunch schedule)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "china-long-march-10b-erststart-bergung-juli-2026",
+    "title": "China birgt erstmals Raketenstufe mit Fangnetz – Jungfernflug der Long March 10B",
+    "description": "China hat nach eigenen Angaben und laut mehreren internationalen Fachmedien beim Erststart der Rakete Long March 10B erstmals die erste Stufe mit einem Fangnetz auf einer Plattform im Meer geborgen – ein neuer Ansatz neben SpaceX- und Blue-Origin-Verfahren.",
+    "topic": "wissenschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kernvorgang – Jungfernflug und Bergung der ersten Stufe am 10. Juli 2026 – wird von mehreren voneinander unabhängigen internationalen Fachmedien (etwa SpaceNews, Scientific American) sowie von Chinas staatlicher Nachrichtenagentur Xinhua übereinstimmend berichtet, was nach den Bestätigungskriterien als hinreichend abgesichert gilt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde kein Volltext einer Primärquelle (etwa eine CASC-Originalmitteilung) direkt eingesehen; die Einschätzung stützt sich auf per Web-Suche gelesene Zusammenfassungen von Fachmedien und der chinesischen Staatsagentur Xinhua.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die technische Einordnung stützt sich überwiegend auf chinesische Eigenangaben (CASC/Xinhua) und westliche Fachmedien, die diese referieren; eine unabhängige, kritische Gegenstimme oder externe technische Prüfung liegt in den gesichteten Quellen nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Chinas neue Trägerrakete Long March 10B absolvierte am 10. Juli 2026 ihren Jungfernflug vom Weltraumbahnhof Hainan aus; dabei wurde die erste Stufe erstmals mit einem Fangnetz auf einer Plattform im Meer geborgen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut CASC und mehreren internationalen Fachmedien ist China damit nach den USA (SpaceX, Blue Origin) das zweite Land, dem die kontrollierte Bergung einer orbitalen Raketenstufe gelungen ist – und die weltweit erste Bergung per Fangnetz statt Landebeinen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Rakete nutzt laut übereinstimmenden Berichten sieben Triebwerke des Typs YF-100K in der ersten Stufe und ein YF-219-Methan-Triebwerk in der zweiten Stufe; die Nutzlast liegt im wiederverwendbaren Modus bei rund 16 Tonnen in den niedrigen Erdorbit.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und wann die geborgene Stufe tatsächlich erneut fliegt, ist offen – laut Berichten nannte CASC das Jahresende als Ziel, ohne dass dies unabhängig bestätigt wäre.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine von chinesischen Stellen unabhängige technische Prüfung der Bergung liegt in den vorliegenden Quellen nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wann und ob die geborgene erste Stufe tatsächlich wiederverwendet wird",
+      "Wie sich das Fangnetz-Verfahren wirtschaftlich und technisch gegenüber Landebeinen (SpaceX Falcon 9) oder Turmfang (SpaceX Starship) langfristig schlägt",
+      "Wie stark der Zustand der Stufe nach der Bergung tatsächlich für eine Wiederverwendung ohne aufwendige Überholung geeignet ist",
+      "Welche unabhängigen, nicht-chinesischen technischen Bewertungen des Verfahrens es abseits der bisherigen Medienberichte gibt"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Ars Technica: \"China recovered its first reusable rocket and showed a new way to do it\"",
+        "type": "media",
+        "url": "https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it"
+      },
+      {
+        "id": "src2",
+        "name": "SpaceNews: \"China becomes second country to recover orbital booster with Long March 10B\"",
+        "type": "media",
+        "url": "https://spacenews.com/china-becomes-second-country-to-recover-orbital-booster-with-long-march-10b/"
+      },
+      {
+        "id": "src3",
+        "name": "Scientific American: \"China's Long March 10B rocket successfully launches—and lands—in a global spaceflight milestone\"",
+        "type": "media",
+        "url": "https://www.scientificamerican.com/article/chinas-long-march-10b-rocket-successfully-launches-and-lands-in-a-global-spaceflight-milestone/"
+      },
+      {
+        "id": "src4",
+        "name": "Xinhua: \"Update: China achieves first-ever controlled rocket recovery in Long March-10B maiden flight\"",
+        "type": "official",
+        "url": "https://english.news.cn/20260710/3ad9cf3d515642f0ba3922040b9a28c6/c.html"
+      },
+      {
+        "id": "src5",
+        "name": "South China Morning Post: \"China recovers Long March 10B reusable rocket in maiden launch\"",
+        "type": "media",
+        "url": "https://www.scmp.com/news/china/science/article/3360069/china-recovers-long-march-10b-reusable-rocket-maiden-launch"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Long March 10B absolvierte am 10. Juli 2026 ihren Erststart vom Hainan Commercial Space Launch Site aus, wobei die erste Stufe erstmals mit einem Fangnetz auf einer Plattform im Meer geborgen wurde.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet von CASC/Xinhua sowie mehreren unabhängigen Fachmedien (SpaceNews, Scientific American, SCMP).",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "China ist damit nach den USA (SpaceX, Blue Origin) das zweite Land, dem die kontrollierte Bergung einer orbitalen Raketen-Erststufe gelungen ist; das Fangnetz-Verfahren gilt als weltweit erstes seiner Art bei einer Trägerrakete.",
+        "status": "supported",
+        "note": "Diese Einordnung wird von mehreren unabhängigen Fachmedien explizit so formuliert.",
+        "sourceIds": [
+          "src2",
+          "src3",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Rakete verwendet in der ersten Stufe sieben Kerosin-Triebwerke des Typs YF-100K und in der zweiten Stufe ein Methan-Triebwerk des Typs YF-219; die Nutzlast im wiederverwendbaren Modus liegt bei rund 16 Tonnen in den niedrigen Erdorbit, die Gesamthöhe bei rund 63 Metern.",
+        "status": "supported",
+        "note": "Technische Angaben stimmen zwischen mehreren Fachquellen überein.",
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "CASC will die geborgene erste Stufe noch vor Jahresende 2026 erneut einsetzen.",
+        "status": "partial",
+        "note": "Nur über eine der gesichteten Quellen berichtet, keine unabhängige Bestätigung eines konkreten Termins.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Bergung mittels Fangnetz an vier Landehaken unterscheidet sich grundlegend von SpaceX' Landebein-Verfahren bei Falcon 9 und dem Turmfang bei Starship.",
+        "status": "supported",
+        "note": "Technische Beschreibung des Unterschieds wird von mehreren Fachmedien gleichlautend dargestellt.",
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Am 10. Juli 2026 ist die neue chinesische Trägerrakete Long March 10B vom Weltraumbahnhof Hainan aus zu ihrem Jungfernflug gestartet. Nach Angaben der staatlichen chinesischen Raumfahrtgesellschaft CASC, die von mehreren internationalen Fachmedien aufgegriffen wurden, gelang dabei rund elf Minuten nach dem Start erstmals die kontrollierte Bergung der ersten Raketenstufe: Sie wurde nicht wie bei SpaceX' Falcon 9 auf ausklappbaren Landebeinen abgesetzt, sondern von einem Fangnetz auf einer Plattform im Meer aufgefangen. Vier vergleichsweise leichte \"Landehaken\" an der Stufe dienten dabei als Verbindungspunkte zum Netz."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Mehrere voneinander unabhängige Fachmedien – darunter das auf Raumfahrt spezialisierte Portal SpaceNews und Scientific American – bestätigen den Ablauf übereinstimmend und ordnen ihn als Novum ein: China wird damit nach den USA, wo SpaceX und Blue Origin solche Bergungen bereits beherrschen, zum zweiten Land, dem die kontrollierte Rückgewinnung einer orbitalen Raketenstufe gelingt. Die Fangnetz-Methode wird dabei als weltweit erste ihrer Art bei einer Trägerrakete beschrieben. Zu den technischen Eckdaten, die in mehreren Quellen übereinstimmend genannt werden: Die rund 63 Meter hohe, zweistufige Rakete mit fünf Metern Durchmesser nutzt in der ersten Stufe sieben Triebwerke vom Typ YF-100K mit Kerosin und Flüssigsauerstoff, in der zweiten Stufe ein Methan-Triebwerk vom Typ YF-219. Im wiederverwendbaren Modus soll die Nutzlast in den niedrigen Erdorbit bei rund 16 Tonnen liegen. Laut einem der Berichte kündigte CASC an, die geborgene Stufe noch vor Jahresende erneut fliegen zu lassen – ein Termin, der bislang nicht unabhängig bestätigt ist."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Fangnetz-Lösung wird in der Berichterstattung als eigenständiger technischer Weg neben den etablierten Verfahren von SpaceX (Landebeine bei Falcon 9, Turmfang bei Starship) und Blue Origin (Landebeine bei New Glenn) dargestellt. Beobachter lesen daraus einen Versuch Chinas, im internationalen Wettbewerb um wiederverwendbare Trägerraketen technologisch aufzuschließen, ohne die Verfahren der US-Konkurrenz zu kopieren. Diese Einordnung stützt sich jedoch überwiegend auf chinesische Eigendarstellung über CASC und Xinhua sowie auf westliche Fachmedien, die diese Angaben referieren – eine von chinesischen Stellen unabhängige technische Prüfung der Bergung liegt in den gesichteten Quellen nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, ob und in welchem Zustand die geborgene Stufe tatsächlich für einen erneuten Flug taugt und ob der von CASC genannte Zeitrahmen bis Jahresende realistisch ist. Ebenso unklar ist, wie sich das Fangnetz-Verfahren wirtschaftlich und im Hinblick auf Wartungsaufwand gegenüber den etablierten Landebein- und Turmfang-Methoden langfristig schlägt. Eine unabhängige, nicht auf chinesischen Regierungsangaben beruhende technische Bewertung des Vorgangs liegt bislang nicht vor."
+      }
+    ],
+    "bodyKompakt": "China hat am 10. Juli 2026 beim Jungfernflug seiner neuen Trägerrakete Long March 10B erstmals die erste Raketenstufe geborgen – laut CASC und mehreren internationalen Fachmedien mit einem Fangnetz auf einer Plattform im Meer, statt wie bei SpaceX üblich mit Landebeinen. Übereinstimmenden Berichten zufolge macht das China zum zweiten Land nach den USA, dem die kontrollierte Bergung einer orbitalen Raketenstufe gelingt.\n\nDie rund 63 Meter hohe Rakete nutzt sieben Triebwerke vom Typ YF-100K in der ersten und ein Methan-Triebwerk vom Typ YF-219 in der zweiten Stufe, die Nutzlast im wiederverwendbaren Modus liegt bei rund 16 Tonnen. CASC soll laut einer Quelle eine erneute Nutzung der Stufe noch vor Jahresende anstreben, was bislang nicht unabhängig bestätigt ist.\n\nDie Einordnung als technologischer Fortschritt stützt sich überwiegend auf chinesische Eigenangaben und darauf aufbauende westliche Medienberichte. Eine unabhängige technische Prüfung der Bergung sowie belastbare Angaben zu Wiederverwendbarkeit und Kosten liegen nicht vor.",
+    "updateNote": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-10T22:07:31.115Z"
+}
