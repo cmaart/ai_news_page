@@ -28,5 +28,18 @@ Digital-, IT- und KI-Themen als Gegenstand der Story — Produkte, Software, IT-
 **Wissenschaft** (`topic: wissenschaft`):
 Forschungsergebnisse und Studien außerhalb der Digital-/KI-Welt — Naturwissenschaft, Medizin, Klima, Raumfahrt.
 
+**Pressefoto** (`image`):
+Bild aus dem offiziellen Pressefoto-Angebot einer im Artikel zitierten Institution mit ausdrücklichem Nutzungsrecht. Einzige zulässige Bildquelle der Site. Bilder aus Quell-Artikeln der Medien sind nie mitlizenziert — Quellenangabe ersetzt keine Lizenz.
+_Avoid_: „Bild aus der Quelle", Symbolfoto von Stock-Anbietern
+
+**Symbolbild / Ereignisfoto** (`image.kind`):
+`symbol` = Bild zeigt nicht das berichtete Ereignis selbst (Gebäude, Porträt, Archivbild) — Caption kennzeichnet „(Symbolbild)". `direct` = zeigt das Ereignis; muss aktiv gesetzt werden, Default ist `symbol`.
+
+**Bild-Whitelist**:
+Kuratierte Liste manuell geprüfter Pressefoto-Einträge (`data/ai-news/image-sources.yaml`) — einzige Bildquelle der Pipeline. Aufnahme nur nach menschlicher Prüfung der Nutzungsbedingungen; die Pipeline wählt daraus deterministisch (Keyword-/Domain-Match), nie per KI-Interpretation.
+
+**Bildnachweis**:
+Zentrales, auto-generiertes Verzeichnis aller Bild-Credits (`/bildnachweis`, Footer-Link). Deckt die Attributionspflicht für Teaser-Nutzungen ab; auf der Artikelseite steht der Credit zusätzlich sichtbar unter dem Bild.
+
 **Einseitigkeit** (`framingRisk`):
 Risiko, dass die Darstellung einseitig gefärbt ist, weil die verfügbaren Quellen eine Perspektive dominieren. Rubrik: **gering** = mehrere unabhängige Perspektiven, Gegenseite aus direkt eingesehener Quelle · **mittel** = eine Perspektive dominiert oder Gegenseite nur aus zweiter Hand · **hoch** = nur Darstellung einer Seite, Gegenseite fehlt.

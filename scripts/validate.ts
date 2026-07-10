@@ -6,9 +6,10 @@
  *
  * Aufruf: npm run validate
  */
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
+import { IMAGE_LICENSES } from '../src/config/images.ts';
 
 const ARTICLES_DIR = join(process.cwd(), 'src', 'content', 'articles');
 
@@ -16,6 +17,21 @@ interface Correction {
   date: string | Date;
   type: 'correction' | 'update';
   text: string;
+}
+
+interface ArticleImage {
+  file?: string;
+  alt?: string;
+  caption?: string;
+  kind?: string;
+  credit?: {
+    author?: string;
+    license?: string;
+    sourceUrl?: string;
+    termsUrl?: string;
+    termsQuote?: string;
+    retrievedAt?: string | Date;
+  };
 }
 
 interface Frontmatter {
@@ -28,6 +44,7 @@ interface Frontmatter {
   claims?: { id: string; sourceIds?: string[] }[];
   corrections?: Correction[];
   retractionReason?: string;
+  image?: ArticleImage;
 }
 
 const errors: string[] = [];
@@ -84,6 +101,39 @@ function checkBodyVariants(file: string, body: string) {
   }
 }
 
+/**
+ * Bild-Konsistenz (PLAN.md E44): Datei existiert, Credit vollständig
+ * (Beweissicherung termsUrl + termsQuote + retrievedAt), Lizenz aus der
+ * Allowlist. Feld-/Enum-Validierung macht zusätzlich das Zod-Schema —
+ * hier geht es um Dinge, die vor dem Build auffallen sollen.
+ */
+function checkImage(file: string, image: ArticleImage | undefined) {
+  if (!image) return;
+  if (!image.file) {
+    fail(file, 'image.file fehlt');
+  } else if (!existsSync(join(ARTICLES_DIR, image.file))) {
+    fail(file, `image.file zeigt auf nicht existierende Datei: ${image.file}`);
+  }
+  if (!image.alt?.trim()) fail(file, 'image.alt fehlt');
+  if (!image.caption?.trim()) fail(file, 'image.caption fehlt');
+  if (image.kind !== undefined && image.kind !== 'symbol' && image.kind !== 'direct') {
+    fail(file, `image.kind ungültig: ${image.kind}`);
+  }
+  const credit = image.credit;
+  if (!credit) {
+    fail(file, 'image.credit fehlt (Attribution ist Pflicht, ohne Ausnahme)');
+    return;
+  }
+  if (!credit.author?.trim()) fail(file, 'image.credit.author fehlt');
+  if (!credit.license || !(IMAGE_LICENSES as readonly string[]).includes(credit.license)) {
+    fail(file, `image.credit.license nicht in der Allowlist: ${credit.license}`);
+  }
+  if (!credit.sourceUrl?.trim()) fail(file, 'image.credit.sourceUrl fehlt');
+  if (!credit.termsUrl?.trim()) fail(file, 'image.credit.termsUrl fehlt (Nachweis der Nutzungsbedingungen)');
+  if (!credit.termsQuote?.trim()) fail(file, 'image.credit.termsQuote fehlt (wörtliches Zitat des erlaubenden Satzes)');
+  if (!credit.retrievedAt) fail(file, 'image.credit.retrievedAt fehlt');
+}
+
 function toTime(value: string | Date): number {
   return new Date(value).getTime();
 }
@@ -117,6 +167,7 @@ for (const file of files) {
   }
 
   checkBodyVariants(file, body);
+  checkImage(file, data.image);
 
   const slug = file.replace(/\.mdx$/, '').toLowerCase();
   const existing = slugs.get(slug);

@@ -16,6 +16,7 @@ import { draftOrUpdate, triageCluster } from './claude.ts';
 import { buildClusters } from './cluster.ts';
 import { fetchAllFeeds } from './fetch.ts';
 import { enrichClusterWithFulltext } from './fulltext.ts';
+import { downloadAndProcessImage, selectWhitelistImage } from './image.ts';
 import {
   DATA_DIR,
   appendErrorNote,
@@ -59,6 +60,9 @@ const WEB_SEARCH_MIN_PORTALS = envInt('AI_NEWS_WEB_SEARCH_MIN_PORTALS', 3);
 // research_note trotz hohem Score/Nachrichtenwert ⇒ Draft-Versuch mit erzwungener
 // Web-Suche (Primärquellen aktiv suchen statt Story liegen lassen).
 const ESCALATE_SCORE = envFloat('AI_NEWS_ESCALATE_SCORE', 0.75);
+// Bilder nur für hochrelevante Stories (E44): Bildsuche kostet Web-Turns und
+// trägt das Rechtsrisiko — unterhalb der Schwelle bleibt der Artikel bildlos.
+const IMAGE_MIN_SCORE = envFloat('AI_NEWS_IMAGE_MIN_SCORE', 0.85);
 const BACKLOG_MAX_ENTRIES = envInt('AI_NEWS_BACKLOG_MAX', 24);
 
 const dryRun = process.argv.includes('--dry-run') || process.env.AI_NEWS_DRY_RUN === '1';
@@ -281,6 +285,7 @@ async function main(): Promise<void> {
     const portals = new Set(cluster.items.map((i) => portalOf(i.sourceId)));
     const useWebSearch =
       searchBudget - stats.webSearchCalls > 0 && (escalated || isUpdate || portals.size >= WEB_SEARCH_MIN_PORTALS);
+    const allowImage = entry.score.score >= IMAGE_MIN_SCORE;
 
     try {
       const { draft, webSearchUsed } = await draftOrUpdate({
@@ -302,8 +307,33 @@ async function main(): Promise<void> {
       const slug = isUpdate ? story!.slug : resolveSlug(sanitized.slugSuggestion, sanitized.title);
 
       const existingFm = existingArticle?.frontmatter as
-        | { publishedAt?: string | Date; newsworthiness?: number; corrections?: { date: string | Date; type: 'correction' | 'update'; text: string }[] }
+        | { publishedAt?: string | Date; newsworthiness?: number; corrections?: { date: string | Date; type: 'correction' | 'update'; text: string }[]; image?: Record<string, unknown> }
         | undefined;
+
+      // Bild (E44): Updates behalten das bestehende Bild; sonst deterministisch
+      // aus der kuratierten Whitelist wählen (keine LLM-Bildsuche) und nur für
+      // hochrelevante Stories. Jeder Fehler ⇒ Artikel ohne Bild.
+      let imageFrontmatter = existingFm?.image;
+      let imagePath: string | undefined;
+      if (!imageFrontmatter && allowImage) {
+        const selection = selectWhitelistImage(sanitized);
+        if (selection) {
+          try {
+            const file = await downloadAndProcessImage(slug, selection.image.downloadUrl);
+            imageFrontmatter = {
+              file,
+              alt: selection.image.alt,
+              caption: selection.image.caption,
+              kind: selection.image.kind,
+              credit: { ...selection.image.credit, retrievedAt: nowIso },
+            };
+            imagePath = `src/assets/articles/${slug}/hero.webp`;
+            console.log(`Bild übernommen für ${slug}: Whitelist-Eintrag ${selection.entryId}`);
+          } catch (error) {
+            console.warn(`Bild verworfen für ${slug}: ${(error as Error).message}`);
+          }
+        }
+      }
 
       const articlePath = writeArticle({
         slug,
@@ -321,6 +351,7 @@ async function main(): Promise<void> {
         })),
         updateNote: isUpdate ? (sanitized.updateNote ?? 'Artikel um neue Quellen ergänzt.') : undefined,
         nowIso,
+        image: imageFrontmatter,
       });
 
       const researchPath = join(DATA_DIR, 'research', dateStamp, `${slug}${isUpdate ? `-update-${now.getUTCHours()}00` : ''}.json`);
@@ -328,6 +359,7 @@ async function main(): Promise<void> {
       writeJson(researchPath, {
         // Volltext-Auszüge nie persistieren (Urheberrecht) — nur Discovery-Metadaten.
         cluster: { id: cluster.id, title: cluster.title, items: itemsForPersistence(cluster.items) },
+        clusterScore: entry.score.score,
         triage,
         draft: sanitized,
         webSearchUsed,
@@ -350,7 +382,7 @@ async function main(): Promise<void> {
 
       if (isUpdate) stats.updates += 1;
       else stats.drafts += 1;
-      written.push({ slug, articlePath, researchPath: researchRelPath, sensitive, isUpdate });
+      written.push({ slug, articlePath, researchPath: researchRelPath, ...(imagePath ? { imagePath } : {}), sensitive, isUpdate });
       console.log(`${isUpdate ? 'Update' : 'Draft'} geschrieben: ${articlePath} (${sensitive ? 'review/PR' : 'auto-publish'})`);
     } catch (error) {
       stats.errors += 1;

@@ -1,9 +1,11 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { IMAGE_LICENSES } from './config/images';
 
 const articles = defineCollection({
   loader: glob({ pattern: '**/*.mdx', base: './src/content/articles' }),
-  schema: z.object({
+  schema: ({ image }) =>
+    z.object({
     title: z.string().min(1),
     description: z.string().min(1),
     publishedAt: z.coerce.date().optional(),
@@ -63,6 +65,31 @@ const articles = defineCollection({
       .default([]),
     retractionReason: z.string().optional(),
     aiDisclosureNote: z.string().optional(),
+    /**
+     * Optionales Hero-Bild (PLAN.md E44) — Hero = Teaser, max 1 Bild.
+     * Nur offizielle Pressefotos mit ausdrücklichem Nutzungsrecht; fehlt das
+     * Bild, rendern alle Ansichten den Text-Teaser. Lizenz-Allowlist als Enum
+     * strukturell erzwungen (src/config/images.ts).
+     */
+    image: z
+      .object({
+        file: image(),
+        alt: z.string().min(1),
+        caption: z.string().min(1),
+        /** symbol = zeigt nicht das Ereignis selbst (Caption kennzeichnet), direct = Ereignisfoto. */
+        kind: z.enum(['symbol', 'direct']).default('symbol'),
+        credit: z.object({
+          author: z.string().min(1),
+          license: z.enum(IMAGE_LICENSES),
+          sourceUrl: z.url(),
+          /** Nutzungsbedingungen als Nachweis; bei CC die Seite mit dem Lizenz-Tag. */
+          termsUrl: z.url(),
+          /** Wörtliches Zitat des erlaubenden Satzes zum Abrufzeitpunkt. */
+          termsQuote: z.string().min(1),
+          retrievedAt: z.coerce.date(),
+        }),
+      })
+      .optional(),
   }),
 });
 

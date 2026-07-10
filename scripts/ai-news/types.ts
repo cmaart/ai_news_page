@@ -165,6 +165,26 @@ export interface DraftBodySection {
   markdown: string;
 }
 
+/**
+ * Bild-Kandidat (PLAN.md E44): offizielles Pressefoto mit ausdrücklichem
+ * Nutzungsrecht — kommt aus der kuratierten Whitelist
+ * (data/ai-news/image-sources.yaml) oder einem Backfill-Vorschlag.
+ * termsQuote = wörtliches Zitat des erlaubenden Satzes (Beweissicherung).
+ */
+export interface DraftImage {
+  downloadUrl: string;
+  alt: string;
+  caption: string;
+  kind: 'symbol' | 'direct';
+  credit: {
+    author: string;
+    license: string;
+    sourceUrl: string;
+    termsUrl: string;
+    termsQuote: string;
+  };
+}
+
 export interface DraftResult {
   slugSuggestion: string;
   title: string;
@@ -206,6 +226,8 @@ export interface ManifestArticle {
   /** Repo-relativer Pfad des Research-JSONs — der Workflow committet ihn beim
    *  Review-PR mit auf den Artikel-Branch (nicht auf main). */
   researchPath: string;
+  /** Repo-relativer Pfad des Hero-Bilds (E44) — muss beim Review-PR mit auf den Branch. */
+  imagePath?: string;
   sensitive: boolean;
   isUpdate: boolean;
 }

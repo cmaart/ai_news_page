@@ -1,0 +1,46 @@
+---
+/**
+ * Credit-Zeile eines Artikelbilds (PLAN.md E44): Urheber verlinkt auf die
+ * Fundstelle, Lizenz auf den Lizenztext bzw. die Nutzungsbedingungen.
+ * Wird unter dem Hero und im Bildnachweis gerendert — Attribution ist
+ * Pflicht, ohne Ausnahme.
+ */
+import { licenseHref, licenseLabel } from '../config/images';
+
+interface Props {
+  credit: {
+    author: string;
+    license: string;
+    sourceUrl: string;
+    termsUrl: string;
+  };
+}
+
+const { credit } = Astro.props;
+---
+
+<span class="image-credit">
+  Foto: <a href={credit.sourceUrl} rel="noopener">{credit.author}</a>,
+  <a href={licenseHref(credit.license, credit.termsUrl)} rel="noopener">{licenseLabel(credit.license)}</a>
+</span>
+
+<style>
+  .image-credit {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.02em;
+    color: var(--color-text-faint);
+    white-space: nowrap;
+  }
+
+  .image-credit a {
+    color: var(--color-text-faint);
+    text-decoration: underline;
+    text-decoration-color: var(--color-border-soft);
+    text-underline-offset: 2px;
+  }
+
+  .image-credit a:hover {
+    color: var(--color-text-muted);
+  }
+</style>

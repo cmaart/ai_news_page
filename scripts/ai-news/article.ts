@@ -48,6 +48,8 @@ export interface WriteArticleOptions {
   existingCorrections?: Correction[];
   updateNote?: string;
   nowIso: string;
+  /** Fertiges Frontmatter-image-Objekt (E44); bei Updates ohne neues Bild das bestehende. */
+  image?: Record<string, unknown>;
 }
 
 /**
@@ -98,6 +100,7 @@ export function writeArticle(options: WriteArticleOptions): string {
       sourceIds: c.sourceIds,
     })),
     corrections,
+    ...(options.image ? { image: options.image } : {}),
   });
 
   const standardBody = draft.body
