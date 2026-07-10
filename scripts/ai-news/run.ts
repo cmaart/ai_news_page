@@ -237,7 +237,7 @@ async function main(): Promise<void> {
       const slug = isUpdate ? story!.slug : resolveSlug(sanitized.slugSuggestion, sanitized.title);
 
       const existingFm = existingArticle?.frontmatter as
-        | { publishedAt?: string | Date; corrections?: { date: string | Date; type: 'correction' | 'update'; text: string }[] }
+        | { publishedAt?: string | Date; newsworthiness?: number; corrections?: { date: string | Date; type: 'correction' | 'update'; text: string }[] }
         | undefined;
 
       const articlePath = writeArticle({
@@ -245,6 +245,11 @@ async function main(): Promise<void> {
         draft: sanitized,
         // Update eines published-Artikels bleibt published; sensitiv ⇒ review-PR.
         status: isUpdate && !sensitive ? 'published' : status,
+        // Update-Triage sieht nur inkrementelle Items — große Story nie herabstufen (E38);
+        // Alterung übernimmt der Frische-Decay im Ranking.
+        newsworthiness: isUpdate
+          ? Math.max(Number(existingFm?.newsworthiness ?? 3), triage.newsworthiness)
+          : triage.newsworthiness,
         publishedAt: existingFm?.publishedAt ? new Date(existingFm.publishedAt).toISOString() : undefined,
         existingCorrections: (existingFm?.corrections ?? []).map((c) => ({
           date: new Date(c.date).toISOString(),

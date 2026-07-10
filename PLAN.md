@@ -47,6 +47,7 @@ Design-Vorlagen: `docs/BELEG Artikelseite.html` + `docs/BELEG Startseite.html` (
 | 35 | Fehlerverhalten | Feed-Fehler ⇒ source-health + weiter (Auto-Disable nach x Fails). Claude-Fehler ⇒ Error-Note + weiter. validate/build fail ⇒ Job fail **vor** jedem Push. Benachrichtigung: GitHub-Failure-Mail des Scheduled Workflows. |
 | 36 | Claude-Systemprompt-Regeln | Hart im Prompt: keine erfundenen Quellen/URLs/Zitate/Zahlen; keine Primärquellen-Behauptung ohne gelesene Primärquelle; vorsichtige Sprache; sensible Themen konservativ (niedrige confidence, eher Research Note); im Zweifel Note statt Artikel. Verbotene Formulierungen aus CLAUDE.md Regel 2 gelten auch für generierte Texte. |
 | 37 | Textlängen-Varianten | **Revidiert E18 teilweise:** Jeder Artikel-Body enthält zwei Textlängen in MDX-Wrappern: `<Kompakt>` (reiner Fließtext, 2–3 Absätze, ca. 100–180 Wörter, keine Überschriften, keine Fakten über den Standard-Body hinaus) und `<Standard>` (##-Sektionen wie bisher). Nichts außerhalb der Wrapper. Umschalter „Kompakt \| Standard" (Segmented Toggle, `TextlaengeToggle.astro`) über dem Body; Auswahl site-weit in `localStorage` (`nn-textlaenge`), Default und No-JS-Fallback: standard. Umschalter tauscht **nur** den Fließtext — Kurzfazit, Prüfband, Disclosure, Claims, Quellen bleiben immer sichtbar. Beide Varianten stehen im gebauten HTML (`html[data-textlaenge]`-CSS in `global.css`). Pipeline: Draft **und** Update liefern `bodyKompakt` mit; `validate.ts` erzwingt Wrapper + Kompakt-Regeln hart. |
+| 38 | Relevanz-Ranking Startseite | Aufmacher + „Weitere Nachrichten" sortieren nach `relevanceScore` (`src/lib/articles.ts`): `quality = 0.4·newsworthiness + 0.15·confidence + 0.15·primarySourceStrength + 0.1·Quellenzahl(cap 5) + 0.1·Primär/Sekundär-Mix + 0.1·Belegt-Quote`, multipliziert mit Frische-Decay `0.5^(Alter_Tage/3)` auf Basis `lastUpdated` (Updates frischen auf). Neues Frontmatter-Feld `newsworthiness` (Integer 1–5, Default 3), vergeben von der Haiku-Triage; bei Story-Updates `max(bestehend, neu)` — nie herabstufen, Alterung übernimmt der Decay. „Neueste Artikel"-Grid, Themen-Seiten, RSS und „Weiterlesen" bleiben chronologisch. `score.ts`-Tuning: Event-/Kultur-PR-Penalty −0.15 (bewusst leichter als Sport/Promi −0.3; Trade-off: „eröffnung" trifft auch z. B. Verfahrenseröffnungen), KI/Digital/Cyber/Daten-Keywords eigener Tier +0.05 statt +0.10, Aussendung + genau 1 Medienportal −0.10 statt +0.10 (Bonus erst ab ≥2 Medienportalen). |
 
 ## Frontmatter-Schema (Zod, `src/content.config.ts`)
 
@@ -63,6 +64,7 @@ editorialReview: none | basic | full
 confidence: low | medium | high
 primarySourceStrength: none | weak | medium | strong
 framingRisk: low | medium | high
+newsworthiness: 1..5         # Triage-Nachrichtenwert (E38), Default 3
 summary:                     # Kurzfazit-Bullets
   - text: string
     kind: fact | open        # ✓ vs. ?
@@ -98,6 +100,7 @@ Slug = Dateiname.
 - `corrected` ⇔ ≥ 1 `corrections`-Eintrag mit `type: correction`
 - `retracted` ⇒ `retractionReason` gesetzt
 - `updatedAt` konsistent mit jüngstem `corrections`-Datum
+- `newsworthiness` (falls gesetzt) ganze Zahl 1–5
 - eindeutige Slugs
 
 ## Artikelseiten-Reihenfolge

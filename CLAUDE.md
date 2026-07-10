@@ -3,7 +3,7 @@
 „Neue Nachrichten" — statische News-Website auf Basis KI-gestützter Recherche mit offener Quellenlage.
 Astro 7 · MDX · Vanilla CSS · GitHub Pages. Sprache der Site und aller Inhalte: Deutsch (de-AT).
 
-**Vor Änderungen [PLAN.md](PLAN.md) lesen** — dort stehen alle 24 Architektur-Entscheidungen, das
+**Vor Änderungen [PLAN.md](PLAN.md) lesen** — dort stehen alle 38 Architektur-Entscheidungen, das
 Frontmatter-Schema und die Go-Live-TODOs. Design-Werte der Vorlagen: [docs/design-tokens.md](docs/design-tokens.md).
 
 ## Befehle

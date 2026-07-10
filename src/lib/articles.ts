@@ -80,6 +80,43 @@ export function byNewest(a: Article, b: Article): number {
   return (b.data.publishedAt?.getTime() ?? 0) - (a.data.publishedAt?.getTime() ?? 0);
 }
 
+/** Relevanz-Ranking für Aufmacher + Top-Stories (PLAN.md E38). Deterministisch pro Build. */
+const CONFIDENCE_SCORE: Record<ArticleData['confidence'], number> = { low: 0, medium: 0.5, high: 1 };
+const STRENGTH_SCORE: Record<ArticleData['primarySourceStrength'], number> = { none: 0, weak: 1 / 3, medium: 2 / 3, strong: 1 };
+const RELEVANCE_HALF_LIFE_DAYS = 3;
+// Statische Site: einmal pro Build ausgewertet, damit alle Vergleiche konsistent sind.
+const BUILD_NOW = Date.now();
+
+export function relevanceScore(article: Article, now: number = BUILD_NOW): number {
+  const d = article.data;
+  // updatedAt ?? publishedAt — substanzielle Updates frischen den Score bewusst wieder auf.
+  const ref = lastUpdated(d);
+  if (!ref) return 0;
+
+  const news = (d.newsworthiness - 1) / 4;
+  const { supported, total } = claimStats(d.claims);
+  const supportedRatio = total > 0 ? supported / total : 0;
+  const sourceCount = Math.min(d.sources.length, 5) / 5;
+  const hasPrimary = d.sources.some(isPrimarySource);
+  const hasSecondary = d.sources.some((s) => !isPrimarySource(s));
+  const diversity = hasPrimary && hasSecondary ? 1 : 0.5;
+
+  const quality =
+    0.4 * news +
+    0.15 * CONFIDENCE_SCORE[d.confidence] +
+    0.15 * STRENGTH_SCORE[d.primarySourceStrength] +
+    0.1 * sourceCount +
+    0.1 * diversity +
+    0.1 * supportedRatio;
+
+  const ageDays = Math.max(0, (now - ref.getTime()) / 86_400_000);
+  return quality * Math.pow(0.5, ageDays / RELEVANCE_HALF_LIFE_DAYS);
+}
+
+export function byRelevance(a: Article, b: Article): number {
+  return relevanceScore(b) - relevanceScore(a) || byNewest(a, b) || a.id.localeCompare(b.id);
+}
+
 export function lastUpdated(data: ArticleData): Date | undefined {
   return data.updatedAt ?? data.publishedAt;
 }

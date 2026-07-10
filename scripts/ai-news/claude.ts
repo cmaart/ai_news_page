@@ -129,6 +129,7 @@ JSON-Format (alle Felder Pflicht):
   "action": "ignore" | "monitor" | "research_note" | "draft_article" | "update_story",
   "reason": string,
   "sensitivity": "low" | "medium" | "high",
+  "newsworthiness": 1 | 2 | 3 | 4 | 5,
   "possibleClaims": string[],
   "missingSources": string[]
 }
@@ -165,7 +166,12 @@ export async function triageCluster(cluster: Cluster, relatedStory: Story | unde
 - "update_story" nur, wenn relatedStory existiert und die neuen Items substanziell Neues liefern.
 - "draft_article" nur bei ausreichend Substanz und öffentlicher Relevanz für Österreich/EU.
 - Dünne Quellenlage oder reine Presseaussendung ohne Zweitquelle → "research_note" oder "monitor".
-- Reiner Sport/Promi/Lifestyle → "ignore".\n\n${TRIAGE_FORMAT}`;
+- Reiner Sport/Promi/Lifestyle → "ignore".
+- "newsworthiness" (Nachrichtenwert 1–5, unabhängig von sensitivity):
+  5 = weitreichende Bedeutung für Österreich/EU (Regierungsentscheidung, große Wirtschafts-/Arbeitsmarktlage) ·
+  4 = klare öffentliche Relevanz, viele Betroffene · 3 = solide Nachricht mit begrenzter Reichweite ·
+  2 = Nischenthema, geringe Konsequenzen · 1 = Termin-/Event-Ankündigung, Kultur-/Produkt-PR ohne Nachrichtenwert.
+  Event-/Ausstellungs-/Kultur-Ankündigungen und Presseaussendungen ohne gesellschaftliche Konsequenz: 1–2.\n\n${TRIAGE_FORMAT}`;
 
   const result = await runClaudeJson<TriageResult>(JSON.stringify(input), {
     model: TRIAGE_MODEL,
@@ -179,6 +185,9 @@ export async function triageCluster(cluster: Cluster, relatedStory: Story | unde
   }
   result.possibleClaims ??= [];
   result.missingSources ??= [];
+  // Weiches Feld: coercen und clampen statt Run abbrechen; fehlend/NaN → 3.
+  const news = Math.round(Number(result.newsworthiness));
+  result.newsworthiness = Number.isFinite(news) ? Math.min(5, Math.max(1, news)) : 3;
   return result;
 }
 

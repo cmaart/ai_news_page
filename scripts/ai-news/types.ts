@@ -129,6 +129,8 @@ export interface TriageResult {
   action: 'ignore' | 'monitor' | 'research_note' | 'draft_article' | 'update_story';
   reason: string;
   sensitivity: Sensitivity;
+  /** Nachrichtenwert 1–5 (PLAN.md E38), landet im Artikel-Frontmatter. */
+  newsworthiness: number;
   possibleClaims: string[];
   missingSources: string[];
 }
