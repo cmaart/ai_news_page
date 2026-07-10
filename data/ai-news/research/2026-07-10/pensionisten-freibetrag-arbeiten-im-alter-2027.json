@@ -1,0 +1,184 @@
+{
+  "cluster": {
+    "id": "cluster-20260710-67bf6915",
+    "title": "Pensionisten: Paket zum Arbeiten im Alter auf den Weg gebracht",
+    "items": [
+      {
+        "itemId": "a6d50397818201cb948f4a687809a0fe8c5a98009b6c1aac72c9013da2cba882",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Pensionisten: Paket zum Arbeiten im Alter auf den Weg gebracht",
+        "url": "https://www.kleinezeitung.at/artikel/36582333/paket-zum-arbeiten-im-alter-auf-den-weg-gebracht",
+        "summary": "Ab 2027 soll ein steuerlicher Freibetrag für Menschen gelten, die neben der Alterspension weiterarbeiten. Beschlossen werden sollen die Neuerungen im Herbst.",
+        "publishedAt": "2026-07-10T12:45:48.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "72c417f9effe4aac5f3ad673f551055785e5d0cff48729f3e1daef93da5ae6b4",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Pensionisten: Paket zum Arbeiten im Alter auf den Weg gebracht",
+        "url": "https://www.kleinezeitung.at/artikel/36582333/paket-zum-arbeiten-im-alter-auf-den-weg-gebracht",
+        "summary": "Ab 2027 soll ein steuerlicher Freibetrag für Menschen gelten, die neben der Alterspension weiterarbeiten. Beschlossen werden sollen die Neuerungen im Herbst.",
+        "publishedAt": "2026-07-10T12:45:48.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "3dab515c32cfed1ccb5926dd765ff7e57b335b0360349a3683f3ecb3f834ef4e",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Paket zum Arbeiten im Alter auf den Weg gebracht",
+        "url": "https://orf.at/stories/3435838",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Regierungsbeschluss mit substanzieller Reform: Ab 2027 steuerlicher Aktivitätsfreibetrag (bis 15.000€/Jahr oder 1.250€/Monat) für Pensionisten, die weitarbeiten. Konkrete Zahlen (40/34 Versicherungsjahre, Frauenregelung bis 2033), Zeitpläne (Herbst-Parlamentsbeschluss, 2027/2028-Umsetzung) durch ORF und Kleine Zeitung bestätigt. Klare Relevanz für österreichisches Alterssicherungssystem mit breiter Zielgruppe.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "possibleClaims": [
+      "Ministerrat beschloss Paket zum Arbeiten im Alter per Umlaufbeschluss",
+      "Ab 2027 Aktivitätsfreibetrag von max. 15.000€/Jahr oder bis 1.250€/Monat",
+      "Voraussetzung: 40 Versicherungsjahre (Frauen 34, angleichend bis 2033)",
+      "Betriebliche Altersvorsorge wird gestärkt, Umsetzung 2028",
+      "Parlamentsbeschluss angepeilt nach Sommerpause 2026"
+    ],
+    "missingSources": [
+      "Stellungnahmen von Pensionistenverbänden/Arbeiterkammer",
+      "Wirtschaftliche Szenarioanalyse der Steuerausfälle",
+      "Kritische Bewertungen zu Fairness zwischen Geschlechtern",
+      "Europäischer Kontext: Vergleich mit ähnlichen Regelungen in anderen EU-Ländern"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "pensionisten-freibetrag-arbeiten-im-alter-2027",
+    "title": "Arbeiten neben der Alterspension: Regierung bringt Freibetrags-Paket auf den Weg",
+    "description": "Laut übereinstimmenden Medienberichten hat die Regierung ein Paket zum Arbeiten im Alter auf den Weg gebracht. Ab 2027 soll ein steuerlicher Freibetrag für Zuverdienst neben der Alterspension gelten, ein Parlamentsbeschluss wird für Herbst 2026 erwartet. Details sind bislang nur teilweise belegt.",
+    "topic": "politik",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei Medien (Kleine Zeitung, ORF) berichten übereinstimmend über ein Regierungspaket, doch nur eine der beiden Quellen liefert eine inhaltliche Kurzfassung mit Details – die andere bestätigt nur den Titel. Ein amtliches Dokument oder eine Aussendung der zuständigen Ministerien liegt nicht vor, daher reicht es nur für eine mittlere Einstufung.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine offizielle Quelle wie ein Ministerratsvortrag, eine Regierungsaussendung oder ein Gesetzestext eingesehen, sondern ausschließlich Kurzmeldungen zweier Medien.",
+    "framingRisk": "high",
+    "framingRiskNote": "Die vorliegenden Berichte geben ausschließlich die Darstellung der Regierung wieder; Stellungnahmen von Pensionistenverbänden, Arbeiterkammer, Gewerkschaften oder der Opposition fehlen bislang vollständig.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Laut übereinstimmenden Medienberichten hat die Regierung ein Paket zum \"Arbeiten im Alter\" auf den Weg gebracht.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ab 2027 soll demnach ein steuerlicher Freibetrag für Personen gelten, die neben der Alterspension weiterarbeiten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein Beschluss im Parlament wird laut den Berichten für den Herbst 2026 angepeilt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Konkrete Details zur Höhe des Freibetrags und zu den genauen Anspruchsvoraussetzungen sind bislang nur teilweise durch die vorliegenden Quellen belegt.",
+        "kind": "open"
+      },
+      {
+        "text": "Reaktionen von Sozialpartnern oder Interessenvertretungen liegen bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch fällt der Freibetrag konkret aus, und gilt er einheitlich oder gestaffelt nach Einkommen?",
+      "Welche genauen Anspruchsvoraussetzungen (Versicherungsjahre, unterschiedliche Regelungen für Frauen und Männer) gelten ab wann?",
+      "Wie bewerten Pensionistenverbände, Arbeiterkammer oder Gewerkschaften den Vorschlag?",
+      "Welche budgetären Auswirkungen (Steuermindereinnahmen) werden von der Regierung selbst erwartet?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36582333/paket-zum-arbeiten-im-alter-auf-den-weg-gebracht"
+      },
+      {
+        "id": "src2",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3435838"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Regierung hat ein Paket zum Arbeiten im Alter auf den Weg gebracht.",
+        "status": "supported",
+        "note": "Sowohl Kleine Zeitung als auch ORF führen diese Meldung praktisch wortgleich im Titel.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Ab 2027 soll ein steuerlicher Freibetrag für Menschen gelten, die neben der Alterspension weiterarbeiten.",
+        "status": "partial",
+        "note": "Diese Angabe stammt aus der Kurzfassung der Kleinen Zeitung; der ORF-Beitrag bestätigt nur das Thema über den Titel, nicht diesen Detailpunkt eigenständig.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Neuerungen sollen im Herbst 2026 im Parlament beschlossen werden.",
+        "status": "partial",
+        "note": "Nur in der Kurzfassung eines der beiden Medien enthalten, keine unabhängige Zweitbestätigung mit Details vorliegend.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der geplante Freibetrag soll bis zu 15.000 Euro pro Jahr beziehungsweise 1.250 Euro pro Monat betragen.",
+        "status": "unclear",
+        "note": "Diese konkrete Zahl ist in den vorliegenden Kurzzusammenfassungen der Quellen nicht wörtlich enthalten und konnte anhand des verfügbaren Materials nicht abschließend verifiziert werden.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Voraussetzung für den Freibetrag sind 40 Versicherungsjahre, für Frauen 34 Jahre mit schrittweiser Angleichung bis 2033.",
+        "status": "unclear",
+        "note": "Diese Detailangabe geht über den Inhalt der vorliegenden Kurzmeldungen hinaus und ließ sich ohne Primärquelle nicht bestätigen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut vorliegenden Medienberichten hat die Regierung ein Paket auf den Weg gebracht, das das Arbeiten neben der Alterspension attraktiver machen soll. Kernpunkt ist demnach ein steuerlicher Freibetrag, der ab 2027 für Zuverdienst neben der Pension gelten soll. Die entsprechenden Neuerungen sollen laut einem der beiden vorliegenden Berichte im Herbst beschlossen werden. Über die genaue Konstruktion des Freibetrags, etwaige Einkommensgrenzen oder Staffelungen geben die kurzen Meldungen, die für diesen Artikel vorlagen, keine erschöpfende Auskunft."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Zwei Medien haben zum selben Zeitpunkt über das Thema berichtet: Kleine Zeitung und ORF. Beide führen die Meldung unter praktisch demselben Titel – \"Paket zum Arbeiten im Alter auf den Weg gebracht\" –, was auf eine gemeinsame Ausgangsquelle wie eine Agenturmeldung oder Regierungsaussendung hindeuten könnte, ohne dass dies anhand des vorliegenden Materials eindeutig zu klären ist. Inhaltliche Details – der Freibetrag ab 2027, der Zeitplan für einen Beschluss im Herbst – stammen ausschließlich aus der Kurzfassung der Kleinen Zeitung. Der ORF-Beitrag lag für diesen Artikel nur mit Titel und Link vor, ohne eigenständige inhaltliche Zusammenfassung. Eine Aussendung der zuständigen Ministerien oder ein Gesetzestext wurden nicht eingesehen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt vor allem die konkrete Ausgestaltung des Freibetrags: Höhe, Berechnungsgrundlage und etwaige Ober- oder Untergrenzen sind anhand der vorliegenden Kurzmeldungen nicht abschließend zu verifizieren. Ebenso unklar ist, welche Anspruchsvoraussetzungen – etwa hinsichtlich Versicherungszeiten oder unterschiedlicher Regelungen für Frauen und Männer – im Detail vorgesehen sind und ab welchem Zeitpunkt sie greifen sollen. Auch der genaue parlamentarische Fahrplan über den Herbsttermin hinaus sowie eine mögliche stufenweise Einführung sind aus den vorliegenden Quellen nicht ersichtlich. Stellungnahmen von Pensionistenverbänden, Arbeiterkammer, Gewerkschaften oder der Opposition liegen bislang nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Meldung reiht sich in eine Reihe von Vorhaben ein, mit denen Regierungen in Österreich in den vergangenen Jahren Anreize für längeres Arbeiten im Pensionsalter schaffen wollten. Ob und in welcher Form das nun berichtete Paket tatsächlich Gesetz wird, hängt vom weiteren parlamentarischen Prozess ab, der laut den vorliegenden Berichten erst im Herbst beginnen soll. Bis dahin sind Aussagen über die endgültige Ausgestaltung, mögliche Kosten für den Staatshaushalt und die Wirkung auf die Erwerbsbeteiligung älterer Menschen als vorläufig zu behandeln."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Medienberichten hat die Regierung ein Paket auf den Weg gebracht, das Arbeiten neben der Alterspension steuerlich attraktiver machen soll. Ab 2027 soll dafür ein steuerlicher Freibetrag gelten, ein Beschluss im Parlament wird für den Herbst erwartet. Die Meldung wird von Kleine Zeitung und ORF nahezu wortgleich im Titel wiedergegeben, was auf eine gemeinsame Ausgangsquelle hindeuten könnte, ohne dass dies eindeutig geklärt ist.\n\nInhaltliche Details stammen bislang nur aus einer der beiden Quellen. Wie hoch der Freibetrag konkret ausfällt, welche genauen Anspruchsvoraussetzungen gelten und ab wann etwaige Übergangsregelungen greifen, lässt sich anhand des vorliegenden Materials nicht abschließend verifizieren. Eine amtliche Quelle wurde nicht eingesehen.\n\nStellungnahmen von Pensionistenverbänden, Arbeiterkammer oder Gewerkschaften liegen bislang nicht vor. Ob und in welcher endgültigen Form das Paket Gesetz wird, entscheidet sich erst im weiteren parlamentarischen Verfahren im Herbst.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-10T19:07:31.978Z"
+}
