@@ -97,6 +97,10 @@ export interface RunRecord {
   notes: number;
   webSearchCalls: number;
   errors: number;
+  /** Aus dem Backlog übernommene Cluster (Cap-Überlauf/Fehler voriger Runs). */
+  carriedOver?: number;
+  /** Am Run-Ende in den Backlog geschriebene Cluster. */
+  backlogged?: number;
 }
 
 export interface Cluster {
@@ -115,6 +119,27 @@ export interface ClusterItem {
   summary?: string;
   publishedAt?: string;
   isNew: boolean;
+  /** Vor der Triage abgerufener Volltext-Auszug (nur Beurteilung, nie Nachdruck). */
+  fulltext?: string;
+}
+
+/**
+ * Cap-/Fehler-Überlauf der Triage: Cluster, die über der Schwelle lagen,
+ * aber diesen Run nicht triaged wurden — nächster Run zieht sie wieder in
+ * die Queue, bis sie triaged sind oder aus dem Lookback-Fenster altern.
+ */
+export interface TriageBacklogEntry {
+  clusterId: string;
+  title: string;
+  score: number;
+  items: ClusterItem[];
+  queuedAt: string;
+}
+
+export interface TriageBacklog {
+  version: number;
+  updatedAt: string;
+  entries: TriageBacklogEntry[];
 }
 
 export interface ClusterScore {
@@ -172,9 +197,22 @@ export interface DraftResult {
   updateNote?: string;
 }
 
+export interface ManifestArticle {
+  slug: string;
+  articlePath: string;
+  /** Repo-relativer Pfad des Research-JSONs — der Workflow committet ihn beim
+   *  Review-PR mit auf den Artikel-Branch (nicht auf main). */
+  researchPath: string;
+  sensitive: boolean;
+  isUpdate: boolean;
+}
+
 export interface RunManifest {
   ranAt: string;
+  /** Aggregat: 'published_*' sobald mindestens ein Auto-Publish dabei ist (Deploy-Trigger). */
   action: 'none' | 'published_new' | 'published_update' | 'review_new' | 'review_update';
+  /** Alle Artikel dieses Runs (max AI_NEWS_MAX_ARTICLES_PER_RUN). */
+  articles: ManifestArticle[];
   slug?: string;
   articlePath?: string;
   sensitive: boolean;

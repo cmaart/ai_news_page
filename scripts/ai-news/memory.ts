@@ -5,7 +5,7 @@
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import type { RunRecord, SeenItems, SourceHealth, StoryMemory } from './types.ts';
+import type { RunRecord, SeenItems, SourceHealth, StoryMemory, TriageBacklog } from './types.ts';
 import { hoursAgo, isoNow } from './util.ts';
 
 export const DATA_DIR = join(process.cwd(), 'data', 'ai-news');
@@ -16,6 +16,7 @@ const SEEN_ITEMS_PATH = join(MEMORY_DIR, 'seen-items.json');
 const STORY_MEMORY_PATH = join(MEMORY_DIR, 'story-memory.json');
 const SOURCE_HEALTH_PATH = join(MEMORY_DIR, 'source-health.json');
 const RUN_HISTORY_PATH = join(MEMORY_DIR, 'run-history.jsonl');
+const TRIAGE_BACKLOG_PATH = join(MEMORY_DIR, 'triage-backlog.json');
 
 const SEEN_RETENTION_HOURS = 30 * 24;
 const STORY_RETENTION_HOURS = 180 * 24;
@@ -55,6 +56,18 @@ export function saveStoryMemory(memory: StoryMemory): void {
   }
   memory.updatedAt = isoNow();
   writeJson(STORY_MEMORY_PATH, memory);
+}
+
+export function loadTriageBacklog(): TriageBacklog {
+  return readJson<TriageBacklog>(TRIAGE_BACKLOG_PATH, { version: 1, updatedAt: isoNow(), entries: [] });
+}
+
+/** Retention: Einträge älter als das Lookback-Fenster sind keine News mehr. */
+export function saveTriageBacklog(backlog: TriageBacklog, maxAgeHours: number): void {
+  const cutoff = hoursAgo(maxAgeHours).toISOString();
+  backlog.entries = backlog.entries.filter((e) => e.queuedAt >= cutoff);
+  backlog.updatedAt = isoNow();
+  writeJson(TRIAGE_BACKLOG_PATH, backlog);
 }
 
 export function loadSourceHealth(): SourceHealth {

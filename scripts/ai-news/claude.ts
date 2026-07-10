@@ -149,6 +149,7 @@ export async function triageCluster(cluster: Cluster, relatedStory: Story | unde
         summary: i.summary,
         url: i.url,
         publishedAt: i.publishedAt,
+        fulltextExcerpt: i.fulltext,
       })),
     },
     relatedStory: relatedStory
@@ -163,6 +164,9 @@ export async function triageCluster(cluster: Cluster, relatedStory: Story | unde
   };
 
   const systemPrompt = `${SHARED_RULES}\n\nDeine Aufgabe: Triage eines Nachrichten-Clusters. Entscheide, ob sich ein Artikel lohnt.
+- Einzelne Items können "fulltextExcerpt" enthalten (abgerufener Artikeltext-Auszug). Nutze ihn,
+  um Substanz, Konkretheit und Quellenlage zu beurteilen — er ist Beurteilungsgrundlage, nie
+  Nachdruck-Material. Fehlt er, gilt weiterhin: nur Discovery-Signale.
 - "update_story" nur, wenn relatedStory existiert und die neuen Items substanziell Neues liefern.
 - "draft_article" nur bei ausreichend Substanz und öffentlicher Relevanz für Österreich/EU.
 - Dünne Quellenlage oder reine Presseaussendung ohne Zweitquelle → "research_note" oder "monitor".

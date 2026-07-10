@@ -1,4 +1,4 @@
-# AI-News-Research-Pipeline (PLAN.md Entscheidungen 25–36).
+# AI-News-Research-Pipeline (PLAN.md Entscheidungen 25–36, 39–40).
 #
 # Alle 30 Minuten: RSS-Fetch → Cluster → Score → Haiku-Triage (mit Volltext-
 # Auszügen + Backlog-Carry-over) → max 3 Sonnet-Drafts/Updates pro Run.
@@ -114,11 +114,19 @@ jobs:
             git add "$ARTICLE" "$RESEARCH" || true
             if git commit -m "AI-News-Draft (review): ${SLUG}"; then
               git push -f -u origin "$BRANCH"
-              gh pr create --base main --head "$BRANCH" \
+              # Fehler nur schlucken, wenn wirklich schon ein PR offen ist — sonst
+              # Job-Fail (sichtbar), statt den Artikel unsichtbar auf dem Branch
+              # liegen zu lassen (passiert z. B. bei fehlender Actions-PR-Permission).
+              if ! gh pr create --base main --head "$BRANCH" \
                 --title "Review nötig: ${SLUG}" \
                 --label automated --label news-research --label needs-review \
-                --body "Automatisch erzeugter Draft mit sensitivity: high — bitte prüfen. Research-JSON: ${RESEARCH}" \
-                || echo "PR existiert bereits — Branch aktualisiert."
+                --body "Automatisch erzeugter Draft mit sensitivity: high — bitte prüfen. Research-JSON: ${RESEARCH}"; then
+                if [ "$(gh pr list --head "$BRANCH" --state open --json number --jq 'length')" = "0" ]; then
+                  echo "::error::PR-Erstellung fehlgeschlagen für ${SLUG} — Artikel läge sonst unsichtbar auf ${BRANCH}."
+                  exit 1
+                fi
+                echo "PR existiert bereits — Branch aktualisiert."
+              fi
             else
               echo "Nichts zu committen für ${SLUG}."
             fi

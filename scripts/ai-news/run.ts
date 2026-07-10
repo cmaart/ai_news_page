@@ -15,6 +15,7 @@ import { readExistingArticle, resolveSlug, writeArticle } from './article.ts';
 import { draftOrUpdate, triageCluster } from './claude.ts';
 import { buildClusters } from './cluster.ts';
 import { fetchAllFeeds } from './fetch.ts';
+import { enrichClusterWithFulltext } from './fulltext.ts';
 import {
   DATA_DIR,
   appendErrorNote,
@@ -23,9 +24,11 @@ import {
   loadSeenItems,
   loadSourceHealth,
   loadStoryMemory,
+  loadTriageBacklog,
   saveSeenItems,
   saveSourceHealth,
   saveStoryMemory,
+  saveTriageBacklog,
   webSearchCallsToday,
   writeJson,
   writeWorkFile,
@@ -33,22 +36,30 @@ import {
 import { scoreCluster } from './score.ts';
 import type {
   Cluster,
+  ClusterItem,
   ClusterScore,
   DraftResult,
+  ManifestArticle,
   RunManifest,
   RunRecord,
   SourceRegistry,
   Story,
+  TriageBacklogEntry,
   TriageResult,
 } from './types.ts';
-import { envInt, isoNow, jaccard, portalOf, titleTokens, utcDateStamp } from './util.ts';
+import { envFloat, envInt, isoNow, jaccard, portalOf, titleTokens, utcDateStamp } from './util.ts';
 
 const MAX_TRIAGE_PER_RUN = envInt('AI_NEWS_MAX_TRIAGE', 5);
+const MAX_ARTICLES_PER_RUN = envInt('AI_NEWS_MAX_ARTICLES_PER_RUN', 1);
 const MAX_WEB_SEARCH_PER_DAY = envInt('AI_NEWS_MAX_WEB_SEARCH_PER_DAY', 8);
 const LOOKBACK_HOURS = envInt('AI_NEWS_LOOKBACK_HOURS', 48);
 const REDRAFT_LOCK_HOURS = envInt('AI_NEWS_REDRAFT_LOCK_HOURS', 24);
 const UPDATE_THROTTLE_HOURS = envInt('AI_NEWS_UPDATE_THROTTLE_HOURS', 6);
 const WEB_SEARCH_MIN_PORTALS = envInt('AI_NEWS_WEB_SEARCH_MIN_PORTALS', 3);
+// research_note trotz hohem Score/Nachrichtenwert ⇒ Draft-Versuch mit erzwungener
+// Web-Suche (Primärquellen aktiv suchen statt Story liegen lassen).
+const ESCALATE_SCORE = envFloat('AI_NEWS_ESCALATE_SCORE', 0.75);
+const BACKLOG_MAX_ENTRIES = envInt('AI_NEWS_BACKLOG_MAX', 24);
 
 const dryRun = process.argv.includes('--dry-run') || process.env.AI_NEWS_DRY_RUN === '1';
 
@@ -137,7 +148,7 @@ async function main(): Promise<void> {
     console.log(`  [${score.score}] ${score.recommendedAction} — ${cluster.title} (${cluster.items.length} Items)`);
   }
 
-  let manifest: RunManifest = { ranAt: nowIso, action: 'none', sensitive: false, stats };
+  let manifest: RunManifest = { ranAt: nowIso, action: 'none', articles: [], sensitive: false, stats };
 
   if (dryRun) {
     console.log('Dry-Run — keine Claude-Calls, keine Writes.');
@@ -145,19 +156,54 @@ async function main(): Promise<void> {
     return;
   }
 
-  // Phase 5: Triage (Haiku, max 5) ------------------------------------------
-  const triageCandidates = scored.filter(({ score }) => score.recommendedAction === 'ai_triage');
+  // Phase 5: Triage (Haiku) ---------------------------------------------------
+  // Queue = aktuelle Kandidaten + Backlog voriger Runs (Cap-Überlauf/Triage-Fehler).
+  // Kein Cluster über der Schwelle geht verloren: was nicht triaged wird, landet
+  // wieder im Backlog, bis es triaged ist oder aus dem Lookback-Fenster altert.
+  const backlog = loadTriageBacklog();
+  // queuedAt der Alt-Einträge merken — Retention läuft ab Erst-Einreihung, nicht ab Requeue.
+  const previousQueuedAt = new Map(backlog.entries.map((e) => [e.clusterId, e.queuedAt]));
+  const currentCandidates = scored.filter(({ score }) => score.recommendedAction === 'ai_triage');
+  const carried = backlog.entries
+    .filter((entry) => !coveredByCurrentCandidate(entry, currentCandidates))
+    .map((entry) => ({
+      cluster: {
+        id: entry.clusterId,
+        title: entry.title,
+        tokens: titleTokens(entry.title),
+        items: entry.items,
+      } satisfies Cluster,
+      score: {
+        score: entry.score,
+        recommendedAction: 'ai_triage',
+        reasons: ['carried over from triage backlog'],
+      } satisfies ClusterScore,
+    }));
+
+  const queue = [...currentCandidates, ...carried].sort((a, b) => b.score.score - a.score.score);
+  const toTriage = queue.slice(0, MAX_TRIAGE_PER_RUN);
+  const overflow = queue.slice(MAX_TRIAGE_PER_RUN);
+  const requeue: { cluster: Cluster; score: ClusterScore }[] = [...overflow];
+
+  stats.carriedOver = carried.filter((c) => toTriage.includes(c)).length;
+  if (carried.length > 0) {
+    console.log(`Backlog: ${carried.length} Cluster übernommen, davon ${stats.carriedOver} in dieser Triage.`);
+  }
+
   const triaged: { cluster: Cluster; score: ClusterScore; triage: TriageResult; story?: Story }[] = [];
 
-  for (const { cluster, score } of triageCandidates.slice(0, MAX_TRIAGE_PER_RUN)) {
+  for (const { cluster, score } of toTriage) {
     const story = matchStory(cluster, stories);
+    const fulltexts = await enrichClusterWithFulltext(cluster);
     try {
       const triage = await triageCluster(cluster, story);
       triaged.push({ cluster, score, triage, story });
       stats.aiTriaged += 1;
-      console.log(`Triage [${triage.action}/${triage.sensitivity}] ${cluster.title} — ${triage.reason}`);
+      console.log(`Triage [${triage.action}/${triage.sensitivity}] ${cluster.title} (${fulltexts} Volltexte) — ${triage.reason}`);
     } catch (error) {
       stats.errors += 1;
+      // Fehler ⇒ zurück in den Backlog, nächster Run versucht es erneut.
+      requeue.push({ cluster, score });
       appendErrorNote(dateStamp, `triage-error-${cluster.id}`, {
         type: 'error_note',
         stage: 'triage',
@@ -169,37 +215,50 @@ async function main(): Promise<void> {
     }
   }
 
-  // Phase 6: max 1 Draft/Update (Sonnet) -------------------------------------
+  // Phase 6: Drafts/Updates (Sonnet, max MAX_ARTICLES_PER_RUN) ----------------
   const searchBudget = Math.max(0, MAX_WEB_SEARCH_PER_DAY - webSearchCallsToday(history, dateStamp));
-  let acted = false;
+  const written: ManifestArticle[] = [];
 
   for (const entry of triaged) {
     const { cluster, triage } = entry;
     let story = entry.story;
 
-    // Story existiert ⇒ nie neuer Artikel (E31); ohne Story ist update ein Draft.
+    // Nur Stories mit real existierendem Artikel sind Updates (E31). noted/
+    // monitor-Stories ohne Artikel werden regulär gedraftet — sonst entstünden
+    // Artikel-Slugs aus Cluster-IDs.
+    const hasArticle = !!story?.articlePath;
     let action = triage.action;
-    if (story && action === 'draft_article') action = 'update_story';
-    if (!story && action === 'update_story') action = 'draft_article';
+    if (story && hasArticle && action === 'draft_article') action = 'update_story';
+    if (action === 'update_story' && !hasArticle) action = 'draft_article';
 
+    // research_note trotz hohem Score/Nachrichtenwert ⇒ Draft-Versuch mit
+    // erzwungener Web-Suche: Primärquellen aktiv suchen statt Story liegen lassen.
+    let escalated = false;
     if (action === 'research_note') {
-      appendErrorNote(dateStamp, `note-${cluster.id}`, {
-        type: 'research_note',
-        clusterId: cluster.id,
-        clusterTitle: cluster.title,
-        reason: triage.reason,
-        sensitivity: triage.sensitivity,
-        possibleClaims: triage.possibleClaims,
-        missingSources: triage.missingSources,
-        createdAt: nowIso,
-      });
-      stats.notes += 1;
-      noteStory(stories, cluster, triage, nowIso);
-      continue;
+      escalated =
+        written.length < MAX_ARTICLES_PER_RUN &&
+        searchBudget - stats.webSearchCalls > 0 &&
+        (entry.score.score >= ESCALATE_SCORE || triage.newsworthiness >= 4);
+      if (escalated) {
+        console.log(
+          `Eskalation: research_note → ${hasArticle ? 'Update' : 'Draft'} mit Web-Suche für ${cluster.title} (Score ${entry.score.score}, Nachrichtenwert ${triage.newsworthiness}).`,
+        );
+        action = hasArticle ? 'update_story' : 'draft_article';
+      } else {
+        writeResearchNote(dateStamp, cluster, triage, nowIso);
+        stats.notes += 1;
+        noteStory(stories, cluster, triage, nowIso);
+        continue;
+      }
     }
 
     if (action !== 'draft_article' && action !== 'update_story') continue;
-    if (acted) continue; // max 1 Story pro Run — Rest bleibt monitor.
+    if (written.length >= MAX_ARTICLES_PER_RUN) {
+      // Artikel-Cap erreicht: Cluster zurück in den Backlog, nächster Run
+      // triagt ihn erneut — nichts fällt wegen Cap dauerhaft raus.
+      requeue.push({ cluster, score: entry.score });
+      continue;
+    }
 
     const isUpdate = action === 'update_story' && !!story;
     if (isUpdate && story!.doNotUpdateBefore && story!.doNotUpdateBefore > nowIso) {
@@ -211,10 +270,17 @@ async function main(): Promise<void> {
       if (lockedStory?.doNotRedraftBefore && lockedStory.doNotRedraftBefore > nowIso) continue;
     }
 
-    const portals = new Set(cluster.items.map((i) => portalOf(i.sourceId)));
-    const useWebSearch = searchBudget > 0 && (isUpdate || portals.size >= WEB_SEARCH_MIN_PORTALS);
-
     const existingArticle = isUpdate ? readExistingArticle(story!.slug) : null;
+    if (isUpdate && !existingArticle) {
+      // Artikeldatei liegt nicht auf main — typischerweise offener Review-PR.
+      // Kein Doppel-Draft; Story bleibt liegen, bis der PR entschieden ist.
+      console.log(`Update für ${story!.slug} übersprungen — Artikeldatei nicht auf main (Review-PR offen?).`);
+      continue;
+    }
+
+    const portals = new Set(cluster.items.map((i) => portalOf(i.sourceId)));
+    const useWebSearch =
+      searchBudget - stats.webSearchCalls > 0 && (escalated || isUpdate || portals.size >= WEB_SEARCH_MIN_PORTALS);
 
     try {
       const { draft, webSearchUsed } = await draftOrUpdate({
@@ -261,8 +327,10 @@ async function main(): Promise<void> {
       });
 
       const researchPath = join(DATA_DIR, 'research', dateStamp, `${slug}${isUpdate ? `-update-${now.getUTCHours()}00` : ''}.json`);
+      const researchRelPath = relative(process.cwd(), researchPath).replace(/\\/g, '/');
       writeJson(researchPath, {
-        cluster: { id: cluster.id, title: cluster.title, items: cluster.items },
+        // Volltext-Auszüge nie persistieren (Urheberrecht) — nur Discovery-Metadaten.
+        cluster: { id: cluster.id, title: cluster.title, items: itemsForPersistence(cluster.items) },
         triage,
         draft: sanitized,
         webSearchUsed,
@@ -275,7 +343,7 @@ async function main(): Promise<void> {
         draft: sanitized,
         status: sensitive ? 'review' : 'published',
         articlePath,
-        researchPath: relative(process.cwd(), researchPath).replace(/\\/g, '/'),
+        researchPath: researchRelPath,
         nowIso,
         redraftLockHours: REDRAFT_LOCK_HOURS,
         updateThrottleHours: UPDATE_THROTTLE_HOURS,
@@ -283,19 +351,16 @@ async function main(): Promise<void> {
 
       if (isUpdate) stats.updates += 1;
       else stats.drafts += 1;
-      acted = true;
-
-      manifest = {
-        ranAt: nowIso,
-        action: sensitive ? (isUpdate ? 'review_update' : 'review_new') : isUpdate ? 'published_update' : 'published_new',
-        slug,
-        articlePath,
-        sensitive,
-        stats,
-      };
+      written.push({ slug, articlePath, researchPath: researchRelPath, sensitive, isUpdate });
       console.log(`${isUpdate ? 'Update' : 'Draft'} geschrieben: ${articlePath} (${sensitive ? 'review/PR' : 'auto-publish'})`);
     } catch (error) {
       stats.errors += 1;
+      if (escalated) {
+        // Eskalation gescheitert ⇒ wenigstens die Research-Note festhalten.
+        writeResearchNote(dateStamp, cluster, triage, nowIso);
+        stats.notes += 1;
+        noteStory(stories, cluster, triage, nowIso);
+      }
       appendErrorNote(dateStamp, `draft-error-${cluster.id}`, {
         type: 'error_note',
         stage: isUpdate ? 'update' : 'draft',
@@ -308,7 +373,45 @@ async function main(): Promise<void> {
     }
   }
 
+  if (written.length > 0) {
+    const published = written.filter((a) => !a.sensitive);
+    const hasNew = (list: ManifestArticle[]) => list.some((a) => !a.isUpdate);
+    const primary = published[0] ?? written[0];
+    manifest = {
+      ranAt: nowIso,
+      // Deploy-Trigger hängt an 'published*' — sobald ein Auto-Publish dabei ist.
+      action:
+        published.length > 0
+          ? hasNew(published)
+            ? 'published_new'
+            : 'published_update'
+          : hasNew(written)
+            ? 'review_new'
+            : 'review_update',
+      articles: written,
+      slug: primary.slug,
+      articlePath: primary.articlePath,
+      sensitive: written.some((a) => a.sensitive),
+      stats,
+    };
+  }
+
   // Phase 7: Memory + Manifest -----------------------------------------------
+  backlog.entries = requeue
+    .sort((a, b) => b.score.score - a.score.score)
+    .slice(0, BACKLOG_MAX_ENTRIES)
+    .map(({ cluster, score }) => ({
+      clusterId: cluster.id,
+      title: cluster.title,
+      score: score.score,
+      items: itemsForPersistence(cluster.items),
+      queuedAt: previousQueuedAt.get(cluster.id) ?? nowIso,
+    }));
+  stats.backlogged = backlog.entries.length;
+  if (backlog.entries.length > 0) {
+    console.log(`Backlog gespeichert: ${backlog.entries.length} Cluster für nächsten Run.`);
+  }
+  saveTriageBacklog(backlog, LOOKBACK_HOURS);
   saveSeenItems(seen);
   saveStoryMemory(stories);
   saveSourceHealth(health);
@@ -319,6 +422,36 @@ async function main(): Promise<void> {
 }
 
 // ---------------------------------------------------------------------------
+
+/** Backlog-Eintrag ist obsolet, wenn ein aktueller Kandidat dieselbe Story abdeckt (URL oder Titel). */
+function coveredByCurrentCandidate(
+  entry: TriageBacklogEntry,
+  candidates: { cluster: Cluster }[],
+): boolean {
+  const urls = new Set(entry.items.map((i) => i.url));
+  const tokens = titleTokens(entry.title);
+  return candidates.some(
+    ({ cluster }) => cluster.items.some((i) => urls.has(i.url)) || jaccard(tokens, cluster.tokens) >= 0.5,
+  );
+}
+
+/** Volltext-Auszüge nie nach Git persistieren (Urheberrecht) — Feld strippen. */
+function itemsForPersistence(items: ClusterItem[]): ClusterItem[] {
+  return items.map(({ fulltext: _fulltext, ...rest }) => rest);
+}
+
+function writeResearchNote(dateStamp: string, cluster: Cluster, triage: TriageResult, nowIso: string): void {
+  appendErrorNote(dateStamp, `note-${cluster.id}`, {
+    type: 'research_note',
+    clusterId: cluster.id,
+    clusterTitle: cluster.title,
+    reason: triage.reason,
+    sensitivity: triage.sensitivity,
+    possibleClaims: triage.possibleClaims,
+    missingSources: triage.missingSources,
+    createdAt: nowIso,
+  });
+}
 
 function matchStory(cluster: Cluster, memory: { stories: Record<string, Story> }): Story | undefined {
   const urls = new Set(cluster.items.map((i) => i.url));
