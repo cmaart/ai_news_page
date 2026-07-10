@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T04:39:28.359Z",
+  "updatedAt": "2026-07-10T06:52:17.793Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -128,22 +128,56 @@
       "canonicalTitle": "Israel warnte Trump vor iranischem Mordkomplott",
       "slug": "cluster-20260710-665bc8ed",
       "firstSeenAt": "2026-07-10T04:35:58.876Z",
-      "lastUpdatedAt": "2026-07-10T04:35:58.876Z",
+      "lastUpdatedAt": "2026-07-10T06:47:08.027Z",
       "status": "noted",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000330895/israel-warnte-trump-vor-iranischem-mordkomplott",
-        "https://www.derstandard.at/story/3000000330895/israel-warnte-trump-vor-iranischem-mordkomplott",
         "https://www.diepresse.com/36398683/israel-warnt-trump-vor-iranischem-mordkomplott",
-        "https://kurier.at/politik/ausland/israel-warnung-trump-iran-mord-toetung/403175357"
+        "https://kurier.at/politik/ausland/israel-warnung-trump-iran-mord-toetung/403175357",
+        "https://orf.at/stories/3435784"
       ],
       "openQuestions": [
         "Israelische Sicherheitsbehörde oder offizielle Stellungnahme",
         "Weiße Haus / US-Administration Bestätigung",
         "Konkrete Details zum Plan (erkannt, geplante Methode, Zeitrahmen)",
         "Zeitliche Kontext: wann genau Warnung, wann Plan ausgearbeitet",
-        "Primärbericht aus Israel oder USA (Medienquellen sind sekundär)"
+        "Primärbericht aus Israel oder USA (Medienquellen sind sekundär)",
+        "Israelische Sicherheitsbehörde — offizielle Stellungnahme oder bestätigte Primärquelle",
+        "Weiße Haus / US-Administration — offizielle Bestätigung der Warnung",
+        "Konkrete Details zum angeblichen Plan (Methode, erkannter Status, geplanter Zeitrahmen)",
+        "Zeitlicher Kontext — wann genau Warnung erfolgt, wann Plan ausgearbeitet",
+        "Primärbericht aus Israel oder USA (bisher nur sekundäre Medienberichte)"
       ],
       "sensitivity": "high"
+    },
+    "waldbrand-los-gallardos-andalusien-juli-2026": {
+      "canonicalTitle": "Zwölf Tote bei Waldbrand im spanischen Andalusien",
+      "slug": "waldbrand-los-gallardos-andalusien-juli-2026",
+      "firstSeenAt": "2026-07-10T06:47:08.027Z",
+      "lastUpdatedAt": "2026-07-10T06:47:08.027Z",
+      "status": "review",
+      "articlePath": "src/content/articles/waldbrand-los-gallardos-andalusien-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-10/waldbrand-los-gallardos-andalusien-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3435786",
+        "https://www.diepresse.com/36401562/mindestens-zwoelf-tote-bei-waldbrand-in-suedspanien",
+        "https://orf.at/stories/3435781",
+        "https://www.derstandard.at/story/3000000330890/mindestens-zw246lf-tote-bei-waldbrand-im-s252den-spaniens",
+        "https://www.eldiario.es/andalucia/almeria/12-personas-fallecidas-incendio-gallardos-almeria_1_13370103.html",
+        "https://www.theolivepress.es/spain-news/2026/07/10/breaking-at-least-12-dead-in-almeria-after-worst-ever-andalucia-wildfire-firefighters-find-bodies-inside-burned-out-vehicles/",
+        "https://www.berliner-zeitung.de/article/los-gallardos-zwoelf-tote-bei-waldbrand-in-suedspanien-10184522",
+        "https://www.libertaddigital.com/andalucia/2026-07-10/al-menos-once-personas-muertas-por-el-incendio-de-los-gallardos-almeria-7433523/"
+      ],
+      "openQuestions": [
+        "Wie hoch ist die endgültige, amtlich bestätigte Zahl der Toten und Verletzten?",
+        "Was genau hat den Brand ausgelöst?",
+        "Wie groß ist die betroffene Fläche, und wie viele Gebäude wurden zerstört?",
+        "Handelt es sich tatsächlich um den größten Waldbrand in der Geschichte Spaniens bzw. Andalusiens, oder ist das eine vorläufige Einschätzung?",
+        "Wie viele Menschen sind insgesamt evakuiert, und wann können sie zurückkehren?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-11T06:47:08.027Z",
+      "doNotUpdateBefore": "2026-07-10T12:47:08.027Z"
     }
   }
 }
