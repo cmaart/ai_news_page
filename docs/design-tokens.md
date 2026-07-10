@@ -52,7 +52,7 @@ Fallbacks: `'IBM Plex Sans', system-ui, sans-serif` (Body-Default).
 
 | Element | Font | Size/Weight/Sonstiges |
 |---------|------|----------------------|
-| Logo | Spectral 600 | 21px, letter-spacing .005em |
+| Logo | Spectral 700 | 27px, lh 1.15, letter-spacing .005em — Abweichung von Vorlage (600/21px): Marke prominenter |
 | Header-Tagline | Mono | 10px, ls .04em |
 | Nav-Links | Sans | 13px |
 | Eyebrow (Topic) | Sans 600 | 11px, ls .16em, uppercase |
@@ -81,7 +81,7 @@ Fallbacks: `'IBM Plex Sans', system-ui, sans-serif` (Body-Default).
 ## Layout
 
 - Seitenbreite: Header/Footer/Cards-Grid `max-width: 1080px`; Artikel-Meta/Sektionen `760px`; Body-Fließtext `660px`; alle `padding: 0 40px`
-- Header: sticky, `rgba(251,250,247,0.92)` + `backdrop-filter: blur(8px)`, border-bottom 1px
+- Header: `rgba(251,250,247,0.92)`, border-bottom 1px — Abweichung von Vorlage (sticky + blur): Header scrollt mit, kein `position: sticky`/`backdrop-filter`
 - Prüfband: 4-spaltig, `border-top: 2px solid ink`, `border-bottom: 1px`, Kacheln durch 1px-Border getrennt, Meter = 5 Segmente à 5px Höhe, gap 2px
 - Kurzfazit-Box: `background: surface`, 1px border, padding 26px 30px
 - Claims: Grid `130px 1fr`, gap 20px, 1px Trenner, padding 20px 0
@@ -124,4 +124,4 @@ Fallbacks: `'IBM Plex Sans', system-ui, sans-serif` (Body-Default).
 - Status-Dots: 8px rund (Claims), 9px (Box-Header), 6px (KI-Hinweis in Metazeile)
 - Meter: 5 Segmente, gefüllt = accent (bzw. warn bei Risiko), leer = border-Farbe
 - Badges: outline-Stil (1px Border, Textfarbe = Semantikfarbe), nie gefüllt
-- Anker: Quellen-IDs `#src1…`, Claims `#claims`, `scroll-margin-top: 80px` (sticky Header)
+- Anker: Quellen-IDs `#src1…`, Claims `#claims`, `scroll-margin-top: 16px` (Header nicht mehr sticky, nur Luft)
