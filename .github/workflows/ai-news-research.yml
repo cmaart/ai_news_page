@@ -120,7 +120,9 @@ jobs:
               if ! gh pr create --base main --head "$BRANCH" \
                 --title "Review nötig: ${SLUG}" \
                 --label automated --label news-research --label needs-review \
-                --body "Automatisch erzeugter Draft mit sensitivity: high — bitte prüfen. Research-JSON: ${RESEARCH}"; then
+                --body "Automatisch erzeugter Draft mit sensitivity: high — bitte prüfen. Research-JSON: ${RESEARCH}
+
+**Zum Publizieren reicht Mergen nicht:** vorher im Frontmatter \`status: review\` → \`status: published\` setzen und \`publishedAt\` ergänzen — \`review\`-Artikel werden nie gebaut."; then
                 if [ "$(gh pr list --head "$BRANCH" --state open --json number --jq 'length')" = "0" ]; then
                   echo "::error::PR-Erstellung fehlgeschlagen für ${SLUG} — Artikel läge sonst unsichtbar auf ${BRANCH}."
                   exit 1
