@@ -1,0 +1,162 @@
+{
+  "cluster": {
+    "id": "cluster-20260710-632a91cd",
+    "title": "Neue Biberverordnung geht in Begutachtung",
+    "items": [
+      {
+        "itemId": "74d96e632401ad73aeaf188e27bfc5a67381f6ea39fe0760dd2ee83d97b28794",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Neue Biberverordnung geht in Begutachtung",
+        "url": "https://noe.orf.at/stories/3362093",
+        "summary": "In Niederösterreich geht eine neue Biberverordnung in Begutachtung. Angedacht seien unter anderem rasche Lösungen bei Gefahr im Verzug, ließ Landesrätin Susanne Rosenkranz (FPÖ) am Freitag in einer Aussendung wissen. Die Tötung bleibe jedoch \"Ultima Ratio.",
+        "publishedAt": "2026-07-10T10:18:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e353b910f443a65c024e54774b36913ad5dd75e94f55a5ae62fb52c055251ad5",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Neue Biberverordnung geht in Niederösterreich in Begutachtung",
+        "url": "https://kurier.at/chronik/niederoesterreich/neue-biberverordnung-geht-in-niederoesterreich-in-begutachtung/403175462",
+        "summary": "Rasche Lösungen bei Gefahr im Verzug als eine der Neuerungen. Einheitliche Regelungen für das gesamte Bundesland sollen kommen.",
+        "publishedAt": "2026-07-10T10:16:21.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle Regelungsänderung auf österreichischer Landesebene (Niederösterreich) mit zwei unabhängigen Medienquellen. Fulltext-Excerpts zeigen konkrete Maßnahmen (Gefahr-im-Verzug-Regelung, Vereinheitlichung statt Fleckerlteppich), Kontext (Biberbestand, Landwirte-Conflict) und Quellen-Details. Klare öffentliche Relevanz für Agrarsektor und Naturschutz. Keine primärkritische Lücke, aber Naturschützer-Perspektive nur generisch erwähnt.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "possibleClaims": [
+      "Neue Biberverordnung in Niederösterreich geht in Begutachtung",
+      "Rasche Maßnahmen bei ‚Gefahr im Verzug' sollen künftig ohne vorherigen Sachverständigen-Konsult möglich sein",
+      "Tötung bleibt ‚Ultima Ratio' (letzte Möglichkeit) gemäß EU-Vorgaben",
+      "Biberbestand in Niederösterreich über 9.000 Tiere (günstiger Erhaltungszustand)",
+      "Neue Verordnung soll einheitliche Regelungen im Bundesland schaffen und ‚Biber-Fleckerlteppich' beenden"
+    ],
+    "missingSources": [
+      "Stellungnahmen von Naturschutzorganisationen zur geplanten Verordnung",
+      "Präzise EU-Rechtsrahmen (welche konkrete Richtlinie/Verordnung wird referenziert?)",
+      "Landwirtschaftskammer-Position (erwähnt, aber nicht direkt zitiert)",
+      "Dauer und Prozess der Begutachtungsphase"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "biberverordnung-niederoesterreich-begutachtung-2026",
+    "title": "Niederösterreich schickt neue Biberverordnung in Begutachtung",
+    "description": "Niederösterreich hat laut Landesrätin Susanne Rosenkranz (FPÖ) eine neue Biberverordnung in Begutachtung geschickt. Vorgesehen sind unter anderem raschere Lösungen bei „Gefahr im Verzug“ und einheitliche Regeln für das ganze Bundesland – die Tötung von Bibern soll „Ultima Ratio“ bleiben.",
+    "topic": "politik",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei unabhängige Medien (ORF Niederösterreich, Kurier) berichten übereinstimmend über eine Aussendung der zuständigen Landesrätin zur neuen Verordnung – das erfüllt aus Sicht der Quellenlage die Bestätigungskriterien für den Kernvorgang, Details wie Zeitplan oder genaue Bestandszahlen bleiben aber offen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Weder der Verordnungstext noch die Original-Aussendung des Landes wurden direkt eingesehen, nur Medienberichte darüber.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich ausschließlich auf die Perspektive der Landesrätin aus einer Aussendung; Stellungnahmen von Naturschutzorganisationen oder Landwirtschaftsvertretern werden in den vorliegenden Quellen nicht direkt zitiert.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Niederösterreich schickt laut zwei Medienberichten eine neue Biberverordnung in Begutachtung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Vorgesehen sind unter anderem raschere Lösungen bei akuter Gefahr sowie einheitliche Regeln für das ganze Bundesland.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Tötung von Bibern soll laut Landesrätin Susanne Rosenkranz (FPÖ) weiterhin „Ultima Ratio“ bleiben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie lange die Begutachtung dauert und wie Naturschutzseite sowie Landwirtschaft konkret reagieren, ist aus den vorliegenden Quellen nicht ersichtlich.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lange dauert die Begutachtungsfrist, und welche Stellen sind daran beteiligt?",
+      "Wie reagieren Naturschutzorganisationen auf die geplante Verordnung?",
+      "Auf welche konkrete Rechtsgrundlage (etwa EU-Naturschutzrecht) stützt sich die Ultima-Ratio-Regel?",
+      "Wie hoch ist der aktuelle Biberbestand in Niederösterreich laut offiziellen, überprüfbaren Zahlen?",
+      "Welche bisherigen regionalen Regelungen werden durch die neue, einheitliche Verordnung ersetzt?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Niederösterreich",
+        "type": "media",
+        "url": "https://noe.orf.at/stories/3362093"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/niederoesterreich/neue-biberverordnung-geht-in-niederoesterreich-in-begutachtung/403175462"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Niederösterreich hat eine neue Biberverordnung in Begutachtung geschickt.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen Medien übereinstimmend berichtet, Grundlage ist eine Aussendung der zuständigen Landesrätin.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Verordnung soll rasche Lösungen bei „Gefahr im Verzug“ ermöglichen.",
+        "status": "supported",
+        "note": "Beide Quellen nennen diesen Punkt als zentrale Neuerung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Tötung von Bibern soll laut Landesrätin weiterhin nur „Ultima Ratio“ sein.",
+        "status": "supported",
+        "note": "Direktes Zitat aus der Aussendung der Landesrätin, wie von ORF Niederösterreich wiedergegeben.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die neue Verordnung soll einheitliche Regelungen für ganz Niederösterreich schaffen und bisherige uneinheitliche Praxis ablösen.",
+        "status": "partial",
+        "note": "Explizit von Kurier genannt, im ORF-Bericht nur implizit über die geplanten Neuerungen angedeutet; konkrete bisherige Regelungen werden in keiner der Quellen benannt.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In Niederösterreich geht laut übereinstimmenden Medienberichten eine neue Biberverordnung in Begutachtung. Landesrätin Susanne Rosenkranz (FPÖ) ließ das nach vorliegenden Quellen am Freitag in einer Aussendung wissen. Die Verordnung soll aus mehreren Neuerungen bestehen, von denen zwei Punkte in den Berichten hervorgehoben werden: raschere Handlungsmöglichkeiten bei akuter Gefahr durch Biber sowie eine Vereinheitlichung der bisher offenbar uneinheitlichen Regelungen im Bundesland."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "ORF Niederösterreich und Kurier berichten unabhängig voneinander über dieselbe Aussendung und stimmen in den zentralen Punkten überein. Beide nennen „rasche Lösungen bei Gefahr im Verzug“ als eine der geplanten Neuerungen. Der Kurier ergänzt, dass künftig einheitliche Regelungen für das gesamte Bundesland gelten sollen, was auf eine bislang uneinheitliche Praxis zwischen einzelnen Regionen hindeutet. ORF Niederösterreich zitiert die Landesrätin zudem mit der Aussage, dass die Tötung von Bibern trotz der geplanten Erleichterungen „Ultima Ratio“ bleibe, also nur letztes Mittel sein soll."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Aus den vorliegenden Quellen geht nicht hervor, wie lange die Begutachtungsfrist dauert, welche Stellen konkret eingebunden werden und ab wann die Verordnung in Kraft treten könnte. Ebenso wenig lässt sich aus den Berichten ableiten, auf welcher konkreten Rechtsgrundlage – etwa im Zusammenhang mit europäischem Naturschutzrecht – die Ultima-Ratio-Regel beruht. Angaben zum aktuellen Biberbestand in Niederösterreich oder zu bisherigen, nun offenbar abzulösenden regionalen Regelungen werden in den beiden Berichten nicht mit belastbaren Zahlen oder Details unterlegt. Auch Reaktionen von Naturschutzorganisationen, Landwirtschaftsvertretern oder anderen Betroffenen sind in den vorliegenden Zusammenfassungen nicht enthalten."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Vorgang betrifft einen wiederkehrenden Interessenkonflikt zwischen Landwirtschaft und Naturschutz: Biber gelten in Teilen Niederösterreichs als Verursacher von Schäden an Dämmen, Feldern und Infrastruktur, stehen zugleich aber unter Naturschutz. Eine Verordnung, die rascheres Handeln bei akuter Gefahr ermöglichen, die Tötung aber weiterhin nur als letztes Mittel zulassen soll, lässt sich als Versuch lesen, zwischen diesen Interessen zu vermitteln. Da die vorliegende Berichterstattung ausschließlich auf einer Aussendung der zuständigen Landesrätin beruht, bildet sie vor allem die Position des Landes ab; wie Naturschutzseite und betroffene Landwirte die geplante Neuregelung bewerten, lässt sich aus den vorliegenden Quellen nicht ablesen."
+      }
+    ],
+    "bodyKompakt": "Niederösterreich schickt laut übereinstimmenden Berichten von ORF Niederösterreich und Kurier eine neue Biberverordnung in Begutachtung. Landesrätin Susanne Rosenkranz (FPÖ) kündigte das nach vorliegenden Quellen in einer Aussendung an. Vorgesehen sind unter anderem raschere Lösungen bei „Gefahr im Verzug“ sowie einheitliche Regelungen für das gesamte Bundesland, die bisher offenbar uneinheitliche regionale Praxis ablösen sollen.\n\nLaut ORF Niederösterreich betonte die Landesrätin zugleich, dass die Tötung von Bibern trotz der geplanten Erleichterungen „Ultima Ratio“ bleibe, also nur letztes Mittel sein soll. Damit soll offenbar ein Ausgleich zwischen rascherem Handeln bei akuten Schäden und dem grundsätzlichen Schutzstatus der Tiere hergestellt werden.\n\nOffen bleiben aus den vorliegenden Quellen unter anderem die Dauer der Begutachtungsfrist, die rechtliche Grundlage der Ultima-Ratio-Regel sowie Reaktionen von Naturschutzorganisationen und Landwirtschaft. Die Berichterstattung stützt sich bislang ausschließlich auf die Darstellung des Landes.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-10T10:37:21.821Z"
+}
