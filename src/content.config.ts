@@ -16,6 +16,8 @@ const articles = defineCollection({
     confidence: z.enum(['low', 'medium', 'high']),
     primarySourceStrength: z.enum(['none', 'weak', 'medium', 'strong']),
     framingRisk: z.enum(['low', 'medium', 'high']),
+    /** Nachrichtenwert 1–5, vergeben von der Haiku-Triage (PLAN.md E38). 3 = Default für Bestand. */
+    newsworthiness: z.number().int().min(1).max(5).default(3),
     summary: z
       .array(
         z.object({

@@ -23,6 +23,7 @@ interface Frontmatter {
   status?: string;
   publishedAt?: string | Date;
   updatedAt?: string | Date;
+  newsworthiness?: number;
   sources?: { id: string }[];
   claims?: { id: string; sourceIds?: string[] }[];
   corrections?: Correction[];
@@ -154,6 +155,14 @@ for (const file of files) {
   // published/corrected ⇒ publishedAt gesetzt
   if ((status === 'published' || status === 'corrected') && !data.publishedAt) {
     fail(file, `Status „${status}" erfordert publishedAt`);
+  }
+
+  // newsworthiness (falls gesetzt) ganze Zahl 1–5; Absenz ist legitim (Schema-Default 3)
+  if (
+    data.newsworthiness !== undefined &&
+    (!Number.isInteger(data.newsworthiness) || data.newsworthiness < 1 || data.newsworthiness > 5)
+  ) {
+    fail(file, `newsworthiness muss eine ganze Zahl 1–5 sein (ist: ${data.newsworthiness})`);
   }
 
   // corrected ⇔ mindestens ein corrections-Eintrag mit type: correction

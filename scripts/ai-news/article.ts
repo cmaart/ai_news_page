@@ -44,6 +44,7 @@ export interface WriteArticleOptions {
   slug: string;
   draft: DraftResult;
   status: 'published' | 'review';
+  newsworthiness: number; // 1–5 aus der Triage (PLAN.md E38)
   publishedAt?: string; // bestehendes publishedAt bei Updates
   existingCorrections?: Correction[];
   updateNote?: string;
@@ -52,7 +53,7 @@ export interface WriteArticleOptions {
 
 /** Schreibt den Artikel als MDX; gibt den relativen Pfad zurück. */
 export function writeArticle(options: WriteArticleOptions): string {
-  const { slug, draft, status, existingCorrections = [], updateNote, nowIso } = options;
+  const { slug, draft, status, newsworthiness, existingCorrections = [], updateNote, nowIso } = options;
 
   const corrections: Correction[] = [...existingCorrections];
   if (updateNote) {
@@ -81,6 +82,7 @@ export function writeArticle(options: WriteArticleOptions): string {
     confidence: draft.confidence,
     primarySourceStrength: draft.primarySourceStrength,
     framingRisk: draft.framingRisk,
+    newsworthiness,
     summary: draft.summary,
     openQuestions: draft.openQuestions,
     sources: draft.sources,
