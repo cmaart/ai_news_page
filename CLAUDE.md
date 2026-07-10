@@ -56,6 +56,10 @@ Deploy: Push auf `main` → GitHub Actions baut und deployt auf GitHub Pages
   `CookieBanner.astro`. Ohne Env komplett deaktiviert — lokal ist das der Normalzustand.
 - **Styling:** Design-Tokens in `src/styles/global.css`, komponenten-scoped Styles in den `.astro`-Dateien.
   Kein Tailwind, keine CSS-Frameworks. Fonts self-hosted via `@fontsource` (DSGVO — kein Google-CDN).
+- **Pipeline-Scheduling via Supabase** (PLAN.md E39): pg_cron → Edge Function `trigger-ai-news` →
+  GitHub `workflow_dispatch` (GitHub-`schedule` driftet 1–4 h). Struktur unter `supabase/`
+  (Migrationen + Functions), CLI als devDependency (`npx supabase …`), Setup/Betrieb:
+  [docs/supabase-scheduler.md](docs/supabase-scheduler.md).
 
 ## Bekannte Stolpersteine
 

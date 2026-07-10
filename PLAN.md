@@ -48,6 +48,8 @@ Design-Vorlagen: `docs/BELEG Artikelseite.html` + `docs/BELEG Startseite.html` (
 | 36 | Claude-Systemprompt-Regeln | Hart im Prompt: keine erfundenen Quellen/URLs/Zitate/Zahlen; keine Primärquellen-Behauptung ohne gelesene Primärquelle; vorsichtige Sprache; sensible Themen konservativ (niedrige confidence, eher Research Note); im Zweifel Note statt Artikel. Verbotene Formulierungen aus CLAUDE.md Regel 2 gelten auch für generierte Texte. |
 | 37 | Textlängen-Varianten | **Revidiert E18 teilweise:** Jeder Artikel-Body enthält zwei Textlängen in MDX-Wrappern: `<Kompakt>` (reiner Fließtext, 2–3 Absätze, ca. 100–180 Wörter, keine Überschriften, keine Fakten über den Standard-Body hinaus) und `<Standard>` (##-Sektionen wie bisher). Nichts außerhalb der Wrapper. Umschalter „Kompakt \| Standard" (Segmented Toggle, `TextlaengeToggle.astro`) über dem Body; Auswahl site-weit in `localStorage` (`nn-textlaenge`), Default und No-JS-Fallback: standard. Umschalter tauscht **nur** den Fließtext — Kurzfazit, Prüfband, Disclosure, Claims, Quellen bleiben immer sichtbar. Beide Varianten stehen im gebauten HTML (`html[data-textlaenge]`-CSS in `global.css`). Pipeline: Draft **und** Update liefern `bodyKompakt` mit; `validate.ts` erzwingt Wrapper + Kompakt-Regeln hart. |
 | 38 | Relevanz-Ranking Startseite | Aufmacher + „Weitere Nachrichten" sortieren nach `relevanceScore` (`src/lib/articles.ts`): `quality = 0.4·newsworthiness + 0.15·confidence + 0.15·primarySourceStrength + 0.1·Quellenzahl(cap 5) + 0.1·Primär/Sekundär-Mix + 0.1·Belegt-Quote`, multipliziert mit Frische-Decay `0.5^(Alter_Tage/3)` auf Basis `lastUpdated` (Updates frischen auf). Neues Frontmatter-Feld `newsworthiness` (Integer 1–5, Default 3), vergeben von der Haiku-Triage; bei Story-Updates `max(bestehend, neu)` — nie herabstufen, Alterung übernimmt der Decay. „Neueste Artikel"-Grid, Themen-Seiten, RSS und „Weiterlesen" bleiben chronologisch. `score.ts`-Tuning: Event-/Kultur-PR-Penalty −0.15 (bewusst leichter als Sport/Promi −0.3; Trade-off: „eröffnung" trifft auch z. B. Verfahrenseröffnungen), KI/Digital/Cyber/Daten-Keywords eigener Tier +0.05 statt +0.10, Aussendung + genau 1 Medienportal −0.10 statt +0.10 (Bonus erst ab ≥2 Medienportalen). |
+| 39 | Supabase-Scheduler | **Revidiert E25 teilweise:** GitHub-`schedule` driftet real 1–4 h (best-effort) ⇒ Scheduling via Supabase-Projekt `gmpxplyjbcabliuzhfne`: pg_cron (`7,37 * * * *`) → `net.http_post` → Edge Function `trigger-ai-news` (Auth `withSupabase({ auth: 'secret' })`, `@supabase/server`) → GitHub `workflow_dispatch`. URL + Secret-Key im Vault, GitHub-PAT als Function-Secret. Nach Verifikation `schedule:`-Trigger aus dem Workflow entfernen (Doppel-Läufe). Setup/Betrieb: [docs/supabase-scheduler.md](docs/supabase-scheduler.md). |
+| 40 | Durchsatz-Paket | **Revidiert E28/E29 (2026-07-10):** (a) Max **3** Artikel/Run statt 1 (`AI_NEWS_MAX_ARTICLES_PER_RUN`), Triage-Cap 5→**8** Calls/Run, Web-Search-Deckel 8→**40**/Tag. (b) **Triage-Backlog** (`memory/triage-backlog.json`): Cluster über der Score-Schwelle, die wegen Triage-Cap, Artikel-Cap oder Triage-Fehler nicht behandelt wurden, kommen in den Backlog und werden im nächsten Run wieder in die Queue gemischt (Score-sortiert; Dedupe gegen aktuelle Kandidaten via URL-Überlappung oder Titel-Jaccard ≥ 0,5; Retention 48 h ab Erst-Einreihung; max 24 Einträge) — **kein hoch gescorter Cluster fällt still raus**. (c) **Volltext vor Triage** (`fulltext.ts`): bis zu 2 Artikel-URLs pro Triage-Kandidat (media-Quellen zuerst, max 1 pro Portal, 8 s Timeout, nur ≥ 300 Zeichen, Auszug max 3500 Zeichen) als `fulltextExcerpt` an Haiku — reine Beurteilungsgrundlage, nie Nachdruck, wird **nie persistiert** (research-JSONs und Backlog strippen das Feld — Urheberrecht). (d) **Web-Search-Eskalation:** `research_note` mit Cluster-Score ≥ 0,75 (`AI_NEWS_ESCALATE_SCORE`) oder newsworthiness ≥ 4 wird sofort mit erzwungener Web-Suche gedraftet (Primärquellen aktiv suchen) statt nur notiert; scheitert der Draft, bleibt die Note; sensitivity high ⇒ weiterhin Review-PR. (e) Fixes: Stories ohne `articlePath` (noted/monitor) werden regulär gedraftet statt „geupdatet" (sonst entstünden Cluster-ID-Slugs); Update ohne Artikeldatei auf main (offener Review-PR) wird übersprungen. Manifest führt `articles[]`; Workflow erzeugt pro sensitivem Artikel eigenen Branch + PR (nur Artikeldatei + zugehöriges Research-JSON, Notes/Memory bleiben auf main). |
 
 ## Frontmatter-Schema (Zod, `src/content.config.ts`)
 
@@ -149,12 +151,13 @@ astro.config.mjs                 # site, trailingSlash always, sitemap, mdx
 
 Stack: Astro 5, MDX, TypeScript strict, npm, Node LTS.
 
-## AI-News-Pipeline (Entscheidungen 25–36)
+## AI-News-Pipeline (Entscheidungen 25–36, 39–40)
 
 Ablauf pro Run (alle 30 min): RSS-Fetch (nur `enabled`-Feeds, 10 s Timeout, max 50 Items/Feed, URL-Normalisierung,
 ID = sha256(sourceId+normalizedUrl)) → Dedupe gegen seen-items → Clustering (Token-Overlap, 48 h-Fenster)
-→ regelbasiertes Scoring → Haiku-Triage (max 5) → max 1 Sonnet-Draft/Update → validate + build → Commit/Push
-main (bzw. PR bei sensitiv) → Memory-Update.
+→ regelbasiertes Scoring → Triage-Queue (aktuelle Kandidaten + Backlog, E40) → Volltext-Abruf →
+Haiku-Triage (max 8) → max 3 Sonnet-Drafts/Updates → validate + build → Commit/Push main
+(bzw. PR pro sensitivem Artikel) → Memory-Update inkl. Backlog-Requeue.
 
 ```
 .github/workflows/ai-news-research.yml
@@ -162,7 +165,7 @@ scripts/ai-news/{fetch-rss,cluster,score,triage,draft,run}.ts
 data/ai-news/
   sources.yaml                 # Feed-Registry (E26)
   memory/                      # auf main committet (E27)
-    seen-items.json  story-memory.json  source-health.json  run-history.jsonl
+    seen-items.json  story-memory.json  source-health.json  run-history.jsonl  triage-backlog.json
   research/YYYY-MM-DD/*.json   # Audit-Beleg pro Draft/Update
   notes/YYYY-MM-DD/*.json      # Research-/Error-Notes
 ```
@@ -189,4 +192,5 @@ Rate-Limits teilen sich mit der normalen Claude-Code-Nutzung.
 - [ ] Datenschutzerklärung finalisieren (GA4-Abschnitt, GitHub Pages als Hoster, Widerrufsweg)
 - [x] Demo-Artikel entfernen/ersetzen
 - [x] Echte Recherche-Pipeline (Scripts/GitHub Actions) — Design fixiert in Entscheidungen 25–36, implementiert und live
+- [x] Supabase-Scheduler scharf geschaltet (E39, 2026-07-10): deployed, E2E verifiziert, `schedule:`-Trigger entfernt — Betrieb/Restpunkt (1 Tag beobachten) in [docs/supabase-scheduler.md](docs/supabase-scheduler.md)
 - [ ] Optional: Über-uns-Seite, Dark Mode, cookielose Analytics-Alternative evaluieren
