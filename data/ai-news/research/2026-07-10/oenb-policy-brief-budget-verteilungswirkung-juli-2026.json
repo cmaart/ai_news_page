@@ -1,0 +1,181 @@
+{
+  "cluster": {
+    "id": "cluster-20260710-c9fccdfd",
+    "title": "OeNB zu Budget: Niedrigverdiener und Banken stärker betroffen",
+    "items": [
+      {
+        "itemId": "1dbfcfb4cfd87da175bfa5cdfa4e508f0aa4852ef7295f832d94e4370ce290a6",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "OeNB zu Budget: Niedrigverdiener und Banken stärker betroffen",
+        "url": "https://orf.at/stories/3435799",
+        "publishedAt": "2026-07-10T07:44:07.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "3c93bc052162f6d7dcebe918a742d0bf488d5a86ccece980d07928056527fe20",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Nationalbank analysiert Budget: Familien mit Kindern und Banken stärker betroffen",
+        "url": "https://www.diepresse.com/36411332/nationalbank-analysiert-budget-familien-mit-kindern-und-banken-staerker-betroffen",
+        "summary": "Bei den Unternehmen zahlt vor allem der Bankensektor drauf, heißt es im Policy Brief“ der OeNB. Im Vergleich der Haushaltstypen zeigt sich die größte Belastung bei Familien mit Kindern.",
+        "publishedAt": "2026-07-10T07:28:33.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "79927ae6d57e8b7046cafb3ca1319c6778564f5d48da45b1c9f8ca1528c93980",
+        "sourceId": "diepresse_politik",
+        "sourceType": "media",
+        "title": "Nationalbank analysiert Budget: Familien mit Kindern und Banken stärker betroffen",
+        "url": "https://www.diepresse.com/36411332/nationalbank-analysiert-budget-familien-mit-kindern-und-banken-staerker-betroffen",
+        "summary": "Bei den Unternehmen zahlt vor allem der Bankensektor drauf, heißt es im Policy Brief“ der OeNB. Im Vergleich der Haushaltstypen zeigt sich die größte Belastung bei Familien mit Kindern.",
+        "publishedAt": "2026-07-10T07:28:33.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "fcf33bfae43b068a4097ac2bb9f6dc8aeb9bff375d3a77d735b9769adc37ec39",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "Nationalbank analysiert Budget: Familien mit Kindern und Banken stärker betroffen",
+        "url": "https://www.diepresse.com/36411332/nationalbank-analysiert-budget-familien-mit-kindern-und-banken-staerker-betroffen",
+        "summary": "Bei den Unternehmen zahlt vor allem der Bankensektor drauf, heißt es im Policy Brief“ der OeNB. Im Vergleich der Haushaltstypen zeigt sich die größte Belastung bei Familien mit Kindern.",
+        "publishedAt": "2026-07-10T07:28:33.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "triage": {
+    "action": "draft_article",
+    "reason": "OeNB-Analyse mit hohem Nachrichtenwert und österreichischer Relevanz. Zwei etablierte Medienquellen (ORF, Die Presse) berichten über einen Policy Brief der Nationalbank mit konkreten Erkenntnissen zu Verteilungseffekten der Budgetmaßnahmen. Substanzielle Claims zu Betroffenheit von Niedrigverdienern, Familien mit Kindern, Pensionisten und dem Bankensektor. Tagesaktuelle Berichterstattung zur gerade beschlossenen Budgetkonsolidierung. Ausreichend Material und Quellentiefe für einen Artikel mit öffentlichem Interesse.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "possibleClaims": [
+      "Budgetkonsolidierungsmaßnahmen treffen Niedrigverdiener besonders",
+      "Familien mit Kindern sind bei den Haushaltstypen am stärksten belastet",
+      "Arbeitslosenversicherungsbeiträge für geringe Einkommen erhöht; trifft oft Zweitverdiener in Teilzeit",
+      "Bankensektor zahlt durch Bankenabgabe drauf (Steuerbelastung Finanzsektor +1,3% Bruttowertschöpfung)",
+      "Alleinerziehende und Pensionisten durch Sozialleistungskürzungen besonders betroffen",
+      "OeNB bewertet Sparmaßnahmen als relativ wachstumsschonend",
+      "Defizitverfahren 2028 bleibt wahrscheinlich offen trotz Konsolidierungsmaßnahmen"
+    ],
+    "missingSources": [
+      "Primärtext des OeNB Policy Brief (wird erwähnt, nicht direkt verlinkt)",
+      "Stellungnahmen von betroffenen Interessenvertretungen (Gewerkschaften, Pensionistenverbände, Bankenverband)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "oenb-policy-brief-budget-verteilungswirkung-juli-2026",
+    "title": "OeNB-Analyse zum Sparbudget: Banken und je nach Quelle Familien oder Niedrigverdiener stärker belastet",
+    "description": "Ein Policy Brief der Oesterreichischen Nationalbank zur Budgetkonsolidierung wird von ORF und Die Presse unterschiedlich akzentuiert: Beide Medien nennen den Bankensektor als stärker betroffen, bei den Haushalten spricht Die Presse von Familien mit Kindern, der ORF-Titel von Niedrigverdienern. Der Primärtext liegt nicht vor.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "low",
+    "primarySourceStrength": "weak",
+    "framingRisk": "high",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "ORF und Die Presse berichten übereinstimmend über einen Policy Brief der Oesterreichischen Nationalbank (OeNB) zu Verteilungswirkungen der aktuellen Budgetkonsolidierung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei den Unternehmen wird laut beiden Quellen vor allem der Bankensektor stärker belastet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei den Haushaltstypen unterscheiden sich die Schwerpunkte: Die Presse nennt Familien mit Kindern als am stärksten betroffen, der ORF-Titel stellt stattdessen Niedrigverdiener heraus.",
+        "kind": "open"
+      },
+      {
+        "text": "Der vollständige Policy Brief liegt nicht vor, weshalb konkrete Kennzahlen und die Methodik der OeNB-Analyse nicht überprüfbar sind.",
+        "kind": "open"
+      },
+      {
+        "text": "Stellungnahmen betroffener Interessenvertretungen wie Gewerkschaften, Pensionistenverbänden oder des Bankenverbands sind bislang nicht bekannt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche genauen Kennzahlen und welche Methodik liegen dem OeNB-Policy-Brief zugrunde?",
+      "Ist die größte Belastung bei den Haushaltstypen tatsächlich bei Familien mit Kindern oder bei Niedrigverdienern zu verorten – oder handelt es sich um unterschiedliche, nicht direkt vergleichbare Kategorien?",
+      "Wie fallen die konkreten Effekte für Pensionistinnen und Pensionisten sowie Alleinerziehende aus, die in der Berichterstattung bislang nur am Rande erwähnt werden?",
+      "Wie reagieren Bankensektor, Gewerkschaften und Sozialverbände auf die Analyse?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3435799"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36411332/nationalbank-analysiert-budget-familien-mit-kindern-und-banken-staerker-betroffen"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die OeNB hat einen Policy Brief veröffentlicht, der die Verteilungswirkungen der aktuellen Budgetkonsolidierung analysiert.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen Medien (ORF, Die Presse) übereinstimmend berichtet, Primärtext des Policy Brief wurde jedoch nicht eingesehen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Unter den Unternehmen ist laut der OeNB-Analyse vor allem der Bankensektor stärker von der Budgetkonsolidierung betroffen.",
+        "status": "partial",
+        "note": "Beide Quellen nennen den Bankensektor, vermutlich im Zusammenhang mit einer Bankenabgabe – ohne Primärtext bleibt unklar, über welchen Mechanismus und in welchem Ausmaß.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Beim Vergleich der Haushaltstypen zeigt sich laut Die Presse die größte Belastung bei Familien mit Kindern.",
+        "status": "partial",
+        "note": "Nur bei Die Presse so berichtet; ohne Primärtext nicht unabhängig bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der ORF stellt in seiner Titelgebung stattdessen Niedrigverdiener als besonders betroffene Gruppe heraus.",
+        "status": "unclear",
+        "note": "Titel-Ebene, kein Volltext eingesehen; ob dies dieselbe oder eine andere Analysedimension als 'Familien mit Kindern' betrifft, ist offen.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Oesterreichische Nationalbank (OeNB) hat laut übereinstimmender Berichterstattung von ORF und Die Presse einen sogenannten Policy Brief vorgelegt, der die Verteilungswirkungen der zuletzt beschlossenen Budgetkonsolidierung untersucht. Im Kern geht es darum, welche Haushaltstypen und welche Wirtschaftssektoren durch die Sparmaßnahmen des Bundes stärker oder schwächer belastet werden. Beide Medien berichten am selben Tag, jeweils mit leicht unterschiedlicher Schwerpunktsetzung in der Überschrift."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Bei den Unternehmen zahlt laut beiden Berichten vor allem der Bankensektor drauf – ein Hinweis, der in ähnlicher Formulierung sowohl bei ORF als auch bei Die Presse auftaucht und daher als übereinstimmend gelten kann, auch wenn beide Artikel offenbar auf dieselbe OeNB-Veröffentlichung zurückgehen und keine zwei redaktionell unabhängigen Analysen darstellen. Bei den Haushaltstypen setzt Die Presse den Schwerpunkt auf Familien mit Kindern als am stärksten betroffene Gruppe. Der ORF wiederum stellt in seinem Artikeltitel Niedrigverdiener in den Vordergrund. Ob damit zwei unterschiedliche Auswertungsdimensionen derselben OeNB-Analyse gemeint sind – etwa Einkommensklasse versus Haushaltstyp – oder ob eine Quelle den Schwerpunkt der Analyse präziser wiedergibt, lässt sich aus den vorliegenden Kurztexten nicht klären."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Der Policy Brief selbst liegt nicht als Primärquelle vor, sodass weder die genaue Methodik noch konkrete Kennzahlen zur Belastung einzelner Gruppen überprüft werden können. Unklar ist auch, wie sich die in Vorberichten zu diesem Themenkomplex kursierenden Hinweise auf Pensionistinnen und Pensionisten, Alleinerziehende oder Zweitverdienerinnen in Teilzeit zur aktuellen OeNB-Analyse verhalten – in den hier ausgewerteten Kurztexten von ORF und Die Presse werden diese Gruppen nicht explizit genannt. Stellungnahmen von Gewerkschaften, Pensionistenverbänden oder dem Bankensektor selbst liegen bislang nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Dass eine Notenbank Verteilungswirkungen von Budgetmaßnahmen analysiert, ist ein für die wirtschaftspolitische Debatte relevanter Vorgang, insbesondere im Kontext einer laufenden Budgetkonsolidierung. Die unterschiedliche Schwerpunktsetzung von ORF und Die Presse in der Berichterstattung – Niedrigverdiener versus Familien mit Kindern – zeigt, wie stark schon die Titelwahl die Wahrnehmung einer komplexen Analyse prägen kann. Ohne Einsicht in den vollständigen Policy Brief bleibt es bei einer vorsichtigen Einordnung: Die Grundaussage, dass Bankensektor und bestimmte Haushaltsgruppen stärker betroffen sind, gilt als von zwei Medien wiedergegeben, nicht aber als eigenständig verifiziert."
+      }
+    ],
+    "bodyKompakt": "Die Oesterreichische Nationalbank (OeNB) hat laut ORF und Die Presse einen Policy Brief zu den Verteilungswirkungen der aktuellen Budgetkonsolidierung veröffentlicht. Beide Medien berichten übereinstimmend, dass unter den Unternehmen vor allem der Bankensektor stärker belastet wird.\n\nBei den Haushaltstypen setzen die Berichte unterschiedliche Schwerpunkte: Die Presse nennt Familien mit Kindern als am stärksten betroffene Gruppe, der ORF-Titel stellt stattdessen Niedrigverdiener heraus. Ob beide Angaben unterschiedliche Auswertungsdimensionen derselben Analyse beschreiben oder ob eine Quelle den Kern der OeNB-Aussage präziser trifft, lässt sich aus den vorliegenden Kurztexten nicht klären.\n\nDer vollständige Policy Brief liegt nicht vor, Kennzahlen und Methodik sind daher nicht überprüfbar. Auch Hinweise auf Pensionistinnen, Alleinerziehende oder Zweitverdienerinnen in Teilzeit, die im weiteren Umfeld dieses Themas kursieren, werden in den ausgewerteten Artikeln nicht belegt. Stellungnahmen von Gewerkschaften, Pensionistenverbänden oder dem Bankensektor stehen bislang aus.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-10T07:57:30.944Z"
+}
