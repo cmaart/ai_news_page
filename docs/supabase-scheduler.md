@@ -13,9 +13,10 @@ Projekt: `gmpxplyjbcabliuzhfne` · https://gmpxplyjbcabliuzhfne.supabase.co
 | --- | --- |
 | `supabase/config.toml` | CLI-Konfiguration; `[functions.trigger-ai-news] verify_jwt = false` (Auth macht der Function-Code) |
 | `supabase/migrations/20260710063014_setup_ai_news_cron.sql` | Aktiviert `pg_cron` + `pg_net`, legt Cron-Job `trigger-ai-news-research` an (`7,37 * * * *`) |
+| `supabase/migrations/20260710105445_ai_news_cron_hourly.sql` | Reduziert den Cron-Job auf stündlich (`7 * * * *`) |
 | `supabase/functions/trigger-ai-news/index.ts` | Edge Function: ruft GitHub `workflow_dispatch` für `ai-news-research.yml` auf. Auth: `withSupabase({ auth: 'secret' })` (npm-Paket `@supabase/server`) — nur Secret-API-Keys des Projekts kommen durch, die Function ist nicht öffentlich auslösbar |
 
-Ablauf zur Laufzeit: pg_cron führt alle 30 min `net.http_post` aus (URL + Secret-Key aus dem
+Ablauf zur Laufzeit: pg_cron führt stündlich `net.http_post` aus (URL + Secret-Key aus dem
 **Vault**), die Edge Function schickt mit dem GitHub-PAT den Dispatch, GitHub startet den Workflow.
 
 ## Deployment (einmalig)
@@ -88,7 +89,7 @@ select id, status_code, error_msg from net._http_response order by id desc limit
 - [x] `schedule:`-Trigger aus `.github/workflows/ai-news-research.yml` entfernt (sonst
       Doppel-Läufe: GitHub-Cron **und** Supabase feuern; die `concurrency`-Group fängt nur
       zeitgleiche Läufe ab, nicht versetzte). `workflow_dispatch` bleibt.
-- [ ] Einen Tag `run-history.jsonl` beobachten: Läufe sollten stabil bei :07/:37 liegen.
+- [ ] Einen Tag `run-history.jsonl` beobachten: Läufe sollten stabil bei :07 liegen.
 
 ## Betrieb / Stolpersteine
 
