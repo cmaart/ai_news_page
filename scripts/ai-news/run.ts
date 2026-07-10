@@ -299,7 +299,6 @@ async function main(): Promise<void> {
       }
 
       const sensitive = triage.sensitivity === 'high' || sanitized.sensitivity === 'high';
-      const status: 'published' | 'review' = sensitive ? 'review' : 'published';
       const slug = isUpdate ? story!.slug : resolveSlug(sanitized.slugSuggestion, sanitized.title);
 
       const existingFm = existingArticle?.frontmatter as
@@ -309,8 +308,6 @@ async function main(): Promise<void> {
       const articlePath = writeArticle({
         slug,
         draft: sanitized,
-        // Update eines published-Artikels bleibt published; sensitiv ⇒ review-PR.
-        status: isUpdate && !sensitive ? 'published' : status,
         // Update-Triage sieht nur inkrementelle Items — große Story nie herabstufen (E38);
         // Alterung übernimmt der Frische-Decay im Ranking.
         newsworthiness: isUpdate
@@ -341,6 +338,8 @@ async function main(): Promise<void> {
         slug,
         cluster,
         draft: sanitized,
+        // 'review' = PR offen (Artikel-Frontmatter steht trotzdem schon auf
+        // published — Merge allein publiziert, PLAN.md E30).
         status: sensitive ? 'review' : 'published',
         articlePath,
         researchPath: researchRelPath,

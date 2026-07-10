@@ -6,7 +6,10 @@
 # trigger-ai-news → workflow_dispatch. Kein schedule:-Trigger mehr — GitHub-Cron
 # driftete 1–4 h. Siehe docs/supabase-scheduler.md.
 # Auto-Publish: validate + build als Gate, dann Commit direkt auf main.
-# Sensitivity high: Artikel auf Branch ai-news/<slug> + PR statt main.
+# Sensitivity high: Artikel auf Branch ai-news/<slug> + PR statt main —
+# Frontmatter steht bereits auf status: published, Merge allein publiziert
+# (Deploy läuft über den on-push-Trigger von deploy.yml, da der Merge mit
+# User-Token gepusht wird).
 # Memory (data/ai-news/memory) landet immer auf main — deploy.yml ignoriert
 # data/**-only-Pushes; nach Artikel-Pushes wird deploy.yml explizit dispatcht
 # (Pushes mit GITHUB_TOKEN triggern keine on-push-Workflows).
@@ -119,7 +122,7 @@ jobs:
               # liegen zu lassen (passiert z. B. bei fehlender Actions-PR-Permission).
               BODY=$(printf '%s\n\n%s' \
                 "Automatisch erzeugter Draft mit sensitivity: high — bitte prüfen. Research-JSON: ${RESEARCH}" \
-                "**Zum Publizieren reicht Mergen nicht:** vorher im Frontmatter \`status: review\` → \`status: published\` setzen und \`publishedAt\` ergänzen — \`review\`-Artikel werden nie gebaut.")
+                "**Merge = Publish:** Frontmatter steht bereits auf \`status: published\` inkl. \`publishedAt\` — nach dem Merge deployt der Push auf main automatisch. Bei Ablehnung PR einfach schließen.")
               if ! gh pr create --base main --head "$BRANCH" \
                 --title "Review nötig: ${SLUG}" \
                 --label automated --label news-research --label needs-review \

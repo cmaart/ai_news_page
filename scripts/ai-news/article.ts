@@ -43,7 +43,6 @@ export function readExistingArticle(slug: string): { frontmatter: Record<string,
 export interface WriteArticleOptions {
   slug: string;
   draft: DraftResult;
-  status: 'published' | 'review';
   newsworthiness: number; // 1–5 aus der Triage (PLAN.md E38)
   publishedAt?: string; // bestehendes publishedAt bei Updates
   existingCorrections?: Correction[];
@@ -51,9 +50,14 @@ export interface WriteArticleOptions {
   nowIso: string;
 }
 
-/** Schreibt den Artikel als MDX; gibt den relativen Pfad zurück. */
+/**
+ * Schreibt den Artikel als MDX; gibt den relativen Pfad zurück.
+ * Immer `status: published` + `publishedAt` — auch sensitive Artikel, die auf
+ * einen PR-Branch gehen: das menschliche Gate ist der PR-Review, der Merge
+ * allein publiziert (PLAN.md E30).
+ */
 export function writeArticle(options: WriteArticleOptions): string {
-  const { slug, draft, status, newsworthiness, existingCorrections = [], updateNote, nowIso } = options;
+  const { slug, draft, newsworthiness, existingCorrections = [], updateNote, nowIso } = options;
 
   const corrections: Correction[] = [...existingCorrections];
   if (updateNote) {
@@ -63,11 +67,8 @@ export function writeArticle(options: WriteArticleOptions): string {
   const frontmatter: Record<string, unknown> = {
     title: draft.title,
     description: draft.description,
+    publishedAt: options.publishedAt ?? nowIso,
   };
-
-  if (status === 'published') {
-    frontmatter.publishedAt = options.publishedAt ?? nowIso;
-  }
   if (corrections.length > 0) {
     // validate.ts verlangt updatedAt === jüngstes corrections-Datum.
     frontmatter.updatedAt = corrections.map((c) => c.date).sort().at(-1);
@@ -76,7 +77,7 @@ export function writeArticle(options: WriteArticleOptions): string {
   Object.assign(frontmatter, {
     topic: draft.topic,
     country: draft.country,
-    status,
+    status: 'published',
     generationMode: 'ai_generated',
     editorialReview: 'none',
     confidence: draft.confidence,
