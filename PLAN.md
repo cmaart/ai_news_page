@@ -184,7 +184,7 @@ Rate-Limits teilen sich mit der normalen Claude-Code-Nutzung.
 
 ## Go-Live-TODOs
 
-- [ ] Domain `neuenachrichten.at` kaufen; DNS: A-Records auf GitHub-Pages-IPs + CNAME `www`; Custom Domain in Repo-Settings → Pages eintragen (`site`/`base` stellen sich dann automatisch um); `public/robots.txt` Sitemap-URL prüfen
+- [x] Domain `neuenachrichten.at` live (2026-07-10): registriert via helloly, 4× A-Record auf GitHub-Pages-IPs + CNAME `www` → `cmaart.github.io`, Custom Domain in Pages gesetzt, Zertifikat ausgestellt, `https_enforced` aktiv; robots.txt-Sitemap-URL passte bereits
 - [x] GitHub Pages aktivieren (Source: GitHub Actions) — passiert automatisch beim ersten Workflow-Lauf (`configure-pages` mit `enablement: true`)
 - [ ] Feedback-Link „Fehler oder fehlende Quelle melden": GitHub-Issue-Template (`korrektur.yml`, vorausgefüllt mit Slug) + Link-Komponente einbauen
 - [ ] Newsletter: Anbieter wählen, Block reaktivieren
