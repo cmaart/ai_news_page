@@ -23,12 +23,16 @@ const confidenceFill = LEVEL_METER[data.confidence];
 ---
 
 <div class="pruefband">
-  <div class="pruefband__tile">
-    <span class="mono-label">Quellenstärke</span>
+  <div class="pruefband__tile" title="Wie belastbar die Primärquellenlage ist — amtliche Dokumente, Studien, Originalaussendungen">
+    <span class="mono-label">Primärquellen</span>
     <span class="pruefband__value">{STRENGTH_LABELS[data.primarySourceStrength]}</span>
     <div class="meter">
       {segments.map((s) => <span class:list={{ filled: s <= strengthFill }} />)}
     </div>
+    <details class="pruefband__why">
+      <summary>Warum?</summary>
+      <p>{data.sourceStrengthNote}</p>
+    </details>
   </div>
   <div class="pruefband__tile" title="Wie einseitig gefärbt die Darstellung in den verfügbaren Quellen sein könnte">
     <span class="mono-label">Einseitigkeit</span>
@@ -36,13 +40,21 @@ const confidenceFill = LEVEL_METER[data.confidence];
     <div class="meter meter--warn">
       {segments.map((s) => <span class:list={{ filled: s <= riskFill }} />)}
     </div>
+    <details class="pruefband__why">
+      <summary>Warum?</summary>
+      <p>{data.framingRiskNote}</p>
+    </details>
   </div>
-  <div class="pruefband__tile">
+  <div class="pruefband__tile" title="Wie sicher die Gesamtdarstellung nach vorliegender Quellenlage ist">
     <span class="mono-label">Konfidenz</span>
     <span class="pruefband__value">{CONFIDENCE_LABELS[data.confidence]}</span>
     <div class="meter">
       {segments.map((s) => <span class:list={{ filled: s <= confidenceFill }} />)}
     </div>
+    <details class="pruefband__why">
+      <summary>Warum?</summary>
+      <p>{data.confidenceNote}</p>
+    </details>
   </div>
   <div class="pruefband__tile">
     <span class="mono-label">Geprüfte Aussagen</span>
@@ -83,6 +95,21 @@ const confidenceFill = LEVEL_METER[data.confidence];
     font-family: var(--font-mono);
     font-size: 10px;
     letter-spacing: 0.02em;
+  }
+
+  .pruefband__why summary {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    color: var(--color-text-faint);
+    cursor: pointer;
+  }
+
+  .pruefband__why p {
+    margin: 4px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--color-text-muted);
   }
 
   @media (max-width: 720px) {

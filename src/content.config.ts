@@ -14,8 +14,12 @@ const articles = defineCollection({
     generationMode: z.enum(['ai_generated', 'ai_assisted', 'manually_reviewed']),
     editorialReview: z.enum(['none', 'basic', 'full']),
     confidence: z.enum(['low', 'medium', 'high']),
+    /** Ein-Satz-Begründung je Metrik, Pflicht (PLAN.md E41) — Anzeige aufklappbar im Prüfband. */
+    confidenceNote: z.string().min(1),
     primarySourceStrength: z.enum(['none', 'weak', 'medium', 'strong']),
+    sourceStrengthNote: z.string().min(1),
     framingRisk: z.enum(['low', 'medium', 'high']),
+    framingRiskNote: z.string().min(1),
     /** Nachrichtenwert 1–5, vergeben von der Haiku-Triage (PLAN.md E38). 3 = Default für Bestand. */
     newsworthiness: z.number().int().min(1).max(5).default(3),
     summary: z

@@ -31,7 +31,8 @@ Harte Regeln — keine Ausnahmen:
 - Sensible Themen (Kriminalität, personenbezogene Vorwürfe, Gesundheit, Migration, Krieg, Wahlen,
   Gerichtsverfahren, Minderjährige, Selbstschädigung, Finanz-/Anlageberatung, medizinische Aussagen):
   konservativ behandeln — keine Schuldzuweisungen, keine Namen von Privatpersonen aus RSS-Titeln,
-  confidence niedriger ansetzen, sensitivity ehrlich als "high" markieren.
+  Claims konservativer einstufen (eher "partial"/"unclear"), sensitivity ehrlich als "high" markieren.
+  Sensibilität drosselt NICHT die confidence — die misst ausschließlich die Quellenlage (E41).
 - Im Zweifel gegen den Artikel entscheiden.
 
 Antworte AUSSCHLIESSLICH mit einem einzigen validen JSON-Objekt — kein Markdown, keine Code-Fences,
@@ -208,8 +209,11 @@ JSON-Format (alle Felder Pflicht; "note" und "updateNote" dürfen null sein):
   "topic": "politik" | "wirtschaft" | "gesellschaft" | "technologie" | "wissenschaft",
   "country": "at" | "de" | "eu" | "int",
   "confidence": "low" | "medium" | "high",
+  "confidenceNote": string,
   "primarySourceStrength": "none" | "weak" | "medium" | "strong",
+  "sourceStrengthNote": string,
   "framingRisk": "low" | "medium" | "high",
+  "framingRiskNote": string,
   "sensitivity": "low" | "medium" | "high",
   "summary": [{ "text": string, "kind": "fact" | "open" }],
   "openQuestions": string[],
@@ -242,6 +246,21 @@ Vorgaben:
 - slugSuggestion: sprechend, kleingeschrieben, mit zeitlichem Qualifier wo sinnvoll
   (z. B. "ams-arbeitslosigkeit-juli-2026").
 - updateNote: null bei neuem Artikel.
+
+Metrik-Regeln (E41) — confidence, primarySourceStrength und framingRisk nach diesen Rubriken vergeben,
+jeweils mit einem Begründungssatz (confidenceNote/sourceStrengthNote/framingRiskNote, Pflicht,
+lesertauglich, ohne Fachjargon):
+- confidence ist REIN epistemisch: Wie sicher ist die Gesamtdarstellung nach vorliegender Quellenlage?
+  Ein Ereignis gilt als bestätigt, wenn (a) die handelnde Institution es selbst verkündet
+  (eigene Aussendung, Dokument, Urteil), oder (b) eine APA-Agenturmeldung es trägt, oder
+  (c) zwei voneinander unabhängige Quellen es berichten. Mehrere Portale, die erkennbar dieselbe
+  Agenturmeldung wiedergeben, zählen als EINE Quelle. Themen-Sensibilität senkt confidence nicht.
+- OTS ist KEINE APA-Agenturmeldung, sondern ungeprüfte Presseaussendung des Absenders:
+  Institution verkündet eigenes Handeln ⇒ zählt wie (a); Behauptung über Dritte ⇒ nur eine
+  Parteistimme — treibt framingRisk nach oben, nicht confidence.
+- framingRisk-Rubrik: "low" = mehrere unabhängige Perspektiven, Gegenseite aus direkt eingesehener
+  Quelle · "medium" = eine Perspektive dominiert die Quellenlage ODER Gegenseite nur aus zweiter
+  Hand · "high" = nur Darstellung einer Seite, Gegenseite fehlt.
 `.trim();
 
 const UPDATE_TASK = `
@@ -333,6 +352,9 @@ function assertDraftShape(draft: DraftResult): void {
   if (!LEVELS.has(draft.confidence)) problems.push(`confidence ungültig: ${draft.confidence}`);
   if (!SOURCE_STRENGTHS.has(draft.primarySourceStrength)) problems.push(`primarySourceStrength ungültig: ${draft.primarySourceStrength}`);
   if (!LEVELS.has(draft.framingRisk)) problems.push(`framingRisk ungültig: ${draft.framingRisk}`);
+  if (!draft.confidenceNote?.trim()) problems.push('confidenceNote fehlt');
+  if (!draft.sourceStrengthNote?.trim()) problems.push('sourceStrengthNote fehlt');
+  if (!draft.framingRiskNote?.trim()) problems.push('framingRiskNote fehlt');
   if (!LEVELS.has(draft.sensitivity)) problems.push(`sensitivity ungültig: ${draft.sensitivity}`);
   if (!Array.isArray(draft.summary) || draft.summary.length === 0) problems.push('summary leer');
   if (!Array.isArray(draft.sources) || draft.sources.length === 0) problems.push('sources leer');

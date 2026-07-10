@@ -172,8 +172,11 @@ export interface DraftResult {
   topic: 'politik' | 'wirtschaft' | 'gesellschaft' | 'technologie' | 'wissenschaft';
   country: 'at' | 'de' | 'eu' | 'int';
   confidence: 'low' | 'medium' | 'high';
+  confidenceNote: string;
   primarySourceStrength: 'none' | 'weak' | 'medium' | 'strong';
+  sourceStrengthNote: string;
   framingRisk: 'low' | 'medium' | 'high';
+  framingRiskNote: string;
   sensitivity: Sensitivity;
   summary: { text: string; kind: 'fact' | 'open' }[];
   openQuestions: string[];

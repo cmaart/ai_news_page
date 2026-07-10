@@ -31,7 +31,7 @@ const stats = claimStats(data.claims);
   <div class="card__metrics">
     {data.publishedAt && <span>{formatDate(data.publishedAt)}</span>}
     <span>Konfidenz {CONFIDENCE_LABELS[data.confidence]}</span>
-    <span>Quellen {STRENGTH_LABELS[data.primarySourceStrength]}</span>
+    <span>Primärquellen {STRENGTH_LABELS[data.primarySourceStrength]}</span>
     <span>Claims {stats.supported}/{stats.total}</span>
   </div>
 </article>

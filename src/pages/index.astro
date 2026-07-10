@@ -86,7 +86,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
                   <i class:list={{ filled: s <= STRENGTH_METER[lead.data.primarySourceStrength] }} />
                 ))}
               </i>
-              Quellen {STRENGTH_LABELS[lead.data.primarySourceStrength]}
+              Primärquellen {STRENGTH_LABELS[lead.data.primarySourceStrength]}
             </span>
             <span class="lead__sep">|</span>
             <span title="Wie einseitig gefärbt die Darstellung in den verfügbaren Quellen sein könnte">
@@ -120,7 +120,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
                   </div>
                   <h3 class="toplist__title">{article.data.title}</h3>
                   <div class="metrics">
-                    <span>Quellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
+                    <span>Primärquellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
                     <span title="Wie einseitig gefärbt die Darstellung in den verfügbaren Quellen sein könnte">
                       Einseitigkeit {LEVEL_METER[article.data.framingRisk]}/5
                     </span>
@@ -216,7 +216,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
                 <p class="latest__teaser">{article.data.description}</p>
                 <div class="metrics">
                   {badge && <span class:list={[badge.ok ? 'metrics--ok' : 'metrics--warn']}>{badge.text}</span>}
-                  <span>Quellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
+                  <span>Primärquellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
                 </div>
               </a>
             );
