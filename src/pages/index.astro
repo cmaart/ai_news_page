@@ -9,7 +9,6 @@ import {
   formatDate,
   isListed,
   isPrimarySource,
-  lastUpdated,
   LEVEL_METER,
   RISK_LABELS,
   STRENGTH_LABELS,
@@ -21,20 +20,17 @@ import type { Article } from '../lib/articles';
 import { withBase } from '../lib/url';
 
 const articles = (await getCollection('articles')).filter(isListed).sort(byNewest);
-// Aufmacher + „Weitere Nachrichten" nach Relevanz (E38); „Neueste Artikel" bleibt chronologisch.
+// Aufmacher + „Weitere Nachrichten" nach Relevanz (E38); Ressort-Sektionen bleiben chronologisch.
 const ranked = [...articles].sort(byRelevance);
 const [lead, ...topList] = ranked;
 const topStories = topList.slice(0, 4);
 
-const topicCounts = TOPICS.map((topic) => ({
-  topic,
-  count: articles.filter((a) => a.data.topic === topic).length,
-}));
-
-const newestUpdate = articles
-  .map((a) => lastUpdated(a.data))
-  .filter((d): d is Date => Boolean(d))
-  .sort((a, b) => b.getTime() - a.getTime())[0];
+// Ressort-Sektionen: chronologisch je Thema (E38), leere Ressorts entfallen.
+const RESSORT_LIMIT = 3;
+const ressorts = TOPICS.map((topic) => {
+  const items = articles.filter((a) => a.data.topic === topic); // articles ist bereits byNewest sortiert
+  return { topic, label: TOPIC_LABELS[topic], items: items.slice(0, RESSORT_LIMIT), total: items.length };
+}).filter((r) => r.total > 0);
 
 const dateline = new Intl.DateTimeFormat('de-AT', {
   weekday: 'long',
@@ -144,6 +140,46 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     )
   }
 
+  <!-- Ressort-Sektionen (chronologisch, E38) -->
+  {
+    ressorts.map(({ topic, label, items, total }) => (
+      <section class="ressort container-wide">
+        <div class="section-head">
+          <h2 class="section-head__title">
+            <a class="section-head__topic" href={withBase(`/themen/${topic}/`)}>{label}</a>
+          </h2>
+          <a class="section-head__link" href={withBase(`/themen/${topic}/`)}>
+            {total === 1 ? `Alle Artikel in ${label}` : `Alle ${total} Artikel in ${label}`} →
+          </a>
+        </div>
+        <div class="ressort__grid">
+          {items.map((article) => {
+            const badge = claimBadge(article);
+            return (
+              <a class="story ressort__cell" href={withBase(`/artikel/${article.id}/`)}>
+                <div class="ressort__head">
+                  <span class="eyebrow eyebrow--small">{COUNTRY_LABELS[article.data.country]}</span>
+                  {article.data.publishedAt && (
+                    <span class="ressort__date">{formatDate(article.data.publishedAt)}</span>
+                  )}
+                </div>
+                <h3 class="ressort__title">
+                  {article.data.title}
+                  {article.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+                </h3>
+                <p class="ressort__teaser">{article.data.description}</p>
+                <div class="metrics">
+                  {badge && <span class:list={[badge.ok ? 'metrics--ok' : 'metrics--warn']}>{badge.text}</span>}
+                  <span>Primärquellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    ))
+  }
+
   <!-- Wie wir arbeiten (Band) -->
   <section class="container-wide">
     <div class="band">
@@ -168,64 +204,6 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
       </div>
       <a class="band__link" href={withBase('/methodik/')}>Methodik lesen →</a>
     </div>
-  </section>
-
-  <!-- Themenbereiche -->
-  <section class="topics container-wide">
-    <div class="section-head">
-      <h2 class="section-head__title">Themenbereiche</h2>
-      <a class="section-head__link" href={withBase('/themen/')}>Alle Themen →</a>
-    </div>
-    <div class="topics__grid">
-      {
-        topicCounts.map(({ topic, count }) => (
-          <a class="topics__cell" href={withBase(`/themen/${topic}/`)}>
-            <div class="topics__name">{TOPIC_LABELS[topic]}</div>
-            <div class="topics__count">{count} Artikel</div>
-          </a>
-        ))
-      }
-    </div>
-  </section>
-
-  <!-- Neueste Artikel -->
-  <section class="latest container-wide">
-    <div class="section-head">
-      <h2 class="section-head__title">Neueste Artikel</h2>
-      {newestUpdate && <span class="section-head__meta">zuletzt aktualisiert {formatDate(newestUpdate)}</span>}
-    </div>
-    {
-      articles.length > 0 ? (
-        <div class="latest__grid">
-          {articles.map((article) => {
-            const badge = claimBadge(article);
-            return (
-              <a class="story latest__cell" href={withBase(`/artikel/${article.id}/`)}>
-                <div class="latest__head">
-                  <span class="eyebrow eyebrow--small">
-                    {TOPIC_LABELS[article.data.topic]} · {COUNTRY_LABELS[article.data.country]}
-                  </span>
-                  {article.data.publishedAt && (
-                    <span class="latest__date">{formatDate(article.data.publishedAt)}</span>
-                  )}
-                </div>
-                <h3 class="latest__title">
-                  {article.data.title}
-                  {article.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
-                </h3>
-                <p class="latest__teaser">{article.data.description}</p>
-                <div class="metrics">
-                  {badge && <span class:list={[badge.ok ? 'metrics--ok' : 'metrics--warn']}>{badge.text}</span>}
-                  <span>Primärquellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
-                </div>
-              </a>
-            );
-          })}
-        </div>
-      ) : (
-        <p class="toplist__empty">Noch keine veröffentlichten Artikel.</p>
-      )
-    }
   </section>
 </BaseLayout>
 
@@ -290,7 +268,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
 
   .story:hover .lead__title,
   .story:hover .toplist__title,
-  .story:hover .latest__title {
+  .story:hover .ressort__title {
     color: var(--accent-hover);
   }
 
@@ -418,7 +396,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
 
   /* Band „Wie wir arbeiten" */
   .band {
-    margin-top: 44px;
+    margin-top: 64px;
     background: var(--color-ink);
     color: var(--color-bg);
     padding: 30px 36px;
@@ -498,84 +476,44 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     color: var(--color-text-faint);
   }
 
-  /* Themenbereiche */
-  .topics {
-    margin-top: 52px;
-  }
-
-  .topics__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .topics__cell {
+  .section-head__topic {
     color: inherit;
-    padding: 20px 24px;
-    border-bottom: 1px solid var(--color-border);
-    border-right: 1px solid var(--color-border);
   }
 
-  .topics__cell:nth-child(3n + 1) {
-    padding-left: 0;
-  }
-
-  .topics__cell:nth-child(3n) {
-    border-right: none;
-    padding-right: 0;
-  }
-
-  .topics__cell:nth-last-child(-n + 2):nth-child(3n + 1),
-  .topics__cell:nth-last-child(-n + 2):nth-child(3n + 2) {
-    border-bottom: none;
-  }
-
-  .topics__cell:hover {
+  .section-head__topic:hover {
+    color: var(--accent-hover);
     text-decoration: none;
   }
 
-  .topics__cell:hover .topics__name {
-    color: var(--accent-hover);
-  }
-
-  .topics__name {
-    font-family: var(--font-serif);
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-
-  .topics__count {
-    font-family: var(--font-mono);
-    font-size: 10.5px;
-    color: var(--color-text-faint);
-  }
-
-  /* Neueste Artikel */
-  .latest {
+  /* Ressort-Sektionen */
+  .ressort {
     margin-top: 52px;
   }
 
-  .latest__grid {
+  .ressort__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .latest__cell {
+  .ressort__cell {
     padding: 24px 28px 26px;
-    border-bottom: 1px solid var(--color-border);
     border-right: 1px solid var(--color-border);
   }
 
-  .latest__cell:nth-child(3n + 1) {
+  .ressort__cell:nth-child(3n + 1) {
     padding-left: 0;
   }
 
-  .latest__cell:nth-child(3n) {
+  .ressort__cell:nth-child(3n),
+  .ressort__cell:last-child {
     border-right: none;
+  }
+
+  .ressort__cell:nth-child(3n) {
     padding-right: 0;
   }
 
-  .latest__head {
+  .ressort__head {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -583,11 +521,11 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     margin-bottom: 11px;
   }
 
-  .latest__head .eyebrow--small {
+  .ressort__head .eyebrow--small {
     margin-bottom: 0;
   }
 
-  .latest__date {
+  .ressort__date {
     font-family: var(--font-mono);
     font-size: 11px;
     color: var(--color-text-faint);
@@ -597,7 +535,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     color: var(--color-text-faint);
   }
 
-  .latest__title {
+  .ressort__title {
     margin: 0 0 10px;
     font-family: var(--font-serif);
     font-weight: 600;
@@ -607,12 +545,12 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     transition: color 0.15s;
   }
 
-  .latest__title .badge {
+  .ressort__title .badge {
     margin-left: 8px;
     vertical-align: 2px;
   }
 
-  .latest__teaser {
+  .ressort__teaser {
     margin: 0 0 14px;
     font-size: 13.5px;
     line-height: 1.5;
@@ -641,24 +579,18 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
       grid-template-columns: 1fr 1fr;
     }
 
-    .topics__grid,
-    .latest__grid {
+    .ressort__grid {
       grid-template-columns: 1fr;
     }
 
-    .topics__cell,
-    .latest__cell {
+    .ressort__cell {
       border-right: none;
+      border-bottom: 1px solid var(--color-border);
       padding-left: 0;
       padding-right: 0;
     }
 
-    .topics__cell:nth-last-child(-n + 2):nth-child(3n + 2) {
-      border-bottom: 1px solid var(--color-border);
-    }
-
-    .topics__cell:last-child,
-    .latest__cell:last-child {
+    .ressort__cell:last-child {
       border-bottom: none;
     }
   }
