@@ -116,6 +116,12 @@ jobs:
             git checkout -b "$BRANCH"
             git add "$ARTICLE" "$RESEARCH" || true
             if git commit -m "AI-News-Draft (review): ${SLUG}"; then
+              # Auf aktuellen Remote-Stand rebasen: wurde main während des Runs
+              # aktualisiert (z. B. Workflow-Datei geändert), lehnt GitHub den
+              # Push eines Branches mit veralteter Workflow-Datei sonst ab
+              # (GITHUB_TOKEN hat nie workflows-Permission).
+              git fetch origin main
+              git rebase origin/main
               git push -f -u origin "$BRANCH"
               # Fehler nur schlucken, wenn wirklich schon ein PR offen ist — sonst
               # Job-Fail (sichtbar), statt den Artikel unsichtbar auf dem Branch
