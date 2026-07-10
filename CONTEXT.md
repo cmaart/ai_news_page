@@ -22,5 +22,11 @@ Wie heikel das Thema ist (Suizid, Kriminalität, Gesundheit …). Steuert konser
 Wie belastbar die Primärquellenlage ist (amtliche Dokumente, Studien, Originalaussendungen). Medien-Renommee zählt nicht — ORF/derStandard sind Sekundärquellen.
 _Avoid_: Quellenstärke (suggeriert Gesamtqualität aller Quellen)
 
+**Technologie** (`topic: technologie`):
+Digital-, IT- und KI-Themen als Gegenstand der Story — Produkte, Software, IT-Sicherheit, KI-Forschung (KI-Paper zählen hierher, nicht zu Wissenschaft). Dominiert aber ein politischer oder wirtschaftlicher Kontext (AI-Act-Strafe, Cyberangriff auf Ministerium, Quartalszahlen eines Tech-Konzerns), gewinnt der Kontext: Politik bzw. Wirtschaft.
+
+**Wissenschaft** (`topic: wissenschaft`):
+Forschungsergebnisse und Studien außerhalb der Digital-/KI-Welt — Naturwissenschaft, Medizin, Klima, Raumfahrt.
+
 **Einseitigkeit** (`framingRisk`):
 Risiko, dass die Darstellung einseitig gefärbt ist, weil die verfügbaren Quellen eine Perspektive dominieren. Rubrik: **gering** = mehrere unabhängige Perspektiven, Gegenseite aus direkt eingesehener Quelle · **mittel** = eine Perspektive dominiert oder Gegenseite nur aus zweiter Hand · **hoch** = nur Darstellung einer Seite, Gegenseite fehlt.

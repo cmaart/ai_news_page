@@ -230,6 +230,11 @@ Deine Aufgabe: Erstelle aus dem Nachrichten-Cluster einen vollständigen Artikel
 
 Vorgaben:
 - Sprache Deutsch (de-AT), nüchtern-präziser Ton wie eine gute Nachrichtenagentur mit offener Quellenlage.
+- topic: Digital-/IT-/KI-Themen als Gegenstand der Story → "technologie" (KI-Forschung und KI-Paper
+  zählen hierher, nicht zu "wissenschaft"). Dominiert aber ein politischer oder wirtschaftlicher
+  Kontext (z. B. Regulierungsstrafe, Cyberangriff auf eine Behörde, Quartalszahlen eines Tech-Konzerns),
+  gewinnt der Kontext → "politik" bzw. "wirtschaft". "wissenschaft" = Forschung außerhalb der
+  Digital-Welt (Naturwissenschaft, Medizin, Klima, Raumfahrt).
 - summary: 3–5 Kurzfazit-Bullets; kind "fact" nur für Belegtes, "open" für Offenes.
 - sources: alle tatsächlich verwendeten Quellen mit korrekten IDs (src1, src2, …). Cluster-Items sind
   type "media" bzw. "press_release"; nur per Web-Suche gelesene offizielle Quellen dürfen
