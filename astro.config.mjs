@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import sitemapNews from './scripts/sitemap-news.mjs';
 
 // Im CI liefert actions/configure-pages SITE_URL/BASE_PATH: auf GitHub Pages
 // ohne Custom Domain https://cmaart.github.io + /ai_news_page, mit Custom
@@ -13,5 +14,6 @@ export default defineConfig({
   site,
   base,
   trailingSlash: 'always',
-  integrations: [mdx(), sitemap()],
+  // sitemapNews muss nach sitemap() laufen (bearbeitet deren Output im Build-Ordner).
+  integrations: [mdx(), sitemap(), sitemapNews()],
 });
