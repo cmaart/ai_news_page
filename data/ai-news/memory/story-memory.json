@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T09:13:48.879Z",
+  "updatedAt": "2026-07-10T09:42:05.549Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -250,6 +250,53 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-11T09:07:22.567Z",
       "doNotUpdateBefore": "2026-07-10T15:07:22.567Z"
+    },
+    "sandbichler-khm-kuendigung-juli-2026": {
+      "canonicalTitle": "KHM-Direktorin Sandbichler per Jahresende gekündigt – Streit um Schloss Ambras spitzt sich zu",
+      "slug": "sandbichler-khm-kuendigung-juli-2026",
+      "firstSeenAt": "2026-07-10T09:37:21.980Z",
+      "lastUpdatedAt": "2026-07-10T09:37:21.980Z",
+      "status": "review",
+      "articlePath": "src/content/articles/sandbichler-khm-kuendigung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-10/sandbichler-khm-kuendigung-juli-2026.json",
+      "sourceUrls": [
+        "https://tirol.orf.at/stories/3362077",
+        "https://kurier.at/kultur/khm-causa-veronika-sandbichler-per-jahresende-gekuendigt/403175435",
+        "https://www.derstandard.at/story/3000000330955/khm-causa-veronika-sandbichler-per-jahresende-gek252ndigt",
+        "https://www.ots.at/presseaussendung/OTS_20260710_OTS0045/stellungnahme-dr-veronika-sandbichler-khm-museumsverband",
+        "https://wien.orf.at/stories/3357891/",
+        "https://www.tt.com/artikel/30937882/naechste-runde-im-konflikt-um-schloss-ambras-khm-chef-kuendigt-direktorin",
+        "https://www.derstandard.at/story/3000000324223/nach-vorwuerfen-khm-kuratorium-spricht-geschaeftsfuehrung-vertrauen-aus"
+      ],
+      "openQuestions": [
+        "Ist das Gutachten von Sieglinde Gahleitner öffentlich einsehbar oder wird es zumindest anonymisiert veröffentlicht?",
+        "Wie geht der arbeitsrechtliche Streit weiter, kommt es zu einem Gerichtsverfahren?",
+        "Wie hoch und von wem initiiert war die kolportierte Abfindungsforderung tatsächlich?",
+        "Wann und mit welchem Zeitplan wird die Leitung von Schloss Ambras neu ausgeschrieben?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-11T09:37:21.980Z",
+      "doNotUpdateBefore": "2026-07-10T15:37:21.980Z"
+    },
+    "cluster-20260710-1f6504fa": {
+      "canonicalTitle": "\"Abnehmen im Liegen\" klappt nicht: Oberösterreicherin erhält 1000 Euro zurück",
+      "slug": "cluster-20260710-1f6504fa",
+      "firstSeenAt": "2026-07-10T09:37:21.980Z",
+      "lastUpdatedAt": "2026-07-10T09:37:21.980Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/36430452/abnehmen-im-liegen-klappt-nicht-rueckzahlung-erreicht",
+        "https://www.kleinezeitung.at/artikel/36430452/abnehmen-im-liegen-klappt-nicht-rueckzahlung-erreicht",
+        "https://kurier.at/wirtschaft/kein-erfolg-mit-abnehmen-im-liegen-unternehmen-zahlte-geld-zurueck/403175430",
+        "https://kurier.at/wirtschaft/kein-erfolg-mit-abnehmen-im-liegen-unternehmen-zahlte-geld-zurueck/403175430"
+      ],
+      "openQuestions": [
+        "Ernährungswissenschaftliche oder medizinische Bewertung der spezifischen Werbeversprechen",
+        "Weitere dokumentierte Fälle oder Statistiken zu betrügerischen Abnehm-Angeboten bei österreichischen Konsumentenschutzstellen",
+        "Name des Franchiseunternehmens und dessen offizielle Stellungnahme",
+        "Unabhängige wissenschaftliche Verifizierung der beworbenen Behandlungsmethode"
+      ],
+      "sensitivity": "low"
     }
   }
 }
