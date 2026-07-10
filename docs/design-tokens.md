@@ -108,6 +108,17 @@ Fallbacks: `'IBM Plex Sans', system-ui, sans-serif` (Body-Default).
 - Story-Hover: Titel → accent-hover (transition .15s)
 - Vorlage-Breite 1140px → bei uns 1024px (Entscheidung 23); Newsletter-Block + Archiv-Button + „Über uns" nicht übernommen; Methodik-Band-Texte neu formuliert (Vorlage behauptet menschliche Redaktion)
 
+## Cookie-Banner (aus „BELEG CookieBanner.html")
+
+- Bottom-Bar fixed: bg `#FBFAF7`, `border-top: 2px solid ink`, Schatten `0 -8px 28px rgba(28,27,25,0.08)`; Inner padding 26px 40px
+- Haupt-Grid `1fr auto`, gap 40px; Textspalte max 640px; Aktionsspalte column, gap 9px, min-width 200px
+- Eyebrow: 7px-Dot accent + Mono 10px uppercase ls .14em `#6E6A63` („Cookies & Statistik"); Titel Spectral 600 19px lh1.35; Copy 13.5px lh1.6 `#48443d`
+- Buttons: primär gefüllt ink/bg 13px 600 padding 12px 20px; sekundär outline 1px ink; Details-Toggle Mono 11px underline `#6E6A63`
+- Details: border-top 1px, 2 Spalten mit 1px-Trenner (padding 16px 24px); Kategorie-Name Spectral 600 15px; „immer aktiv"-Badge Mono 9px uppercase ok-text/ok-border; Kategorie-Copy 12.5px `#6E6A63`
+- Toggle-Switch: Track 38×22px radius 11, aktiv accent (Notwendig: ok + opacity .55), inaktiv `#D6D1C7`; Knob 16px weiß, left 3px→19px, transition .18s
+- „Auswahl speichern": gefüllt, padding 11px 22px, rechtsbündig
+- Abweichungen: Inner-Breite 1024px statt 1140px (Entscheidung 23); Floating-⚙-Reopen-Button nicht übernommen (Wiederöffnen über Footer-Link „Cookie-Einstellungen"); Texte angepasst (Sie→du, „Recherchen"→„Artikel", Notwendig-Beschreibung auf localStorage-Realität statt „Session/Sicherheit"); mobile <720px einspaltig, max-height 85vh scrollbar
+
 ## Muster
 
 - Status-Dots: 8px rund (Claims), 9px (Box-Header), 6px (KI-Hinweis in Metazeile)
