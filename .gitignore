@@ -17,5 +17,8 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
+# Playwright-MCP-Sessionartefakte (Screenshots/Snapshots)
+.playwright-mcp/
+
 # AI-News-Pipeline: Debug-Output + Run-Manifest (nur Workflow-Artifact)
 data/ai-news/work/
