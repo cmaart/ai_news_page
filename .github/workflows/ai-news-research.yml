@@ -44,6 +44,8 @@ jobs:
       AI_NEWS_MAX_ARTICLES_PER_RUN: "3"
       AI_NEWS_MAX_WEB_SEARCH_PER_DAY: "40"
       AI_NEWS_LOOKBACK_HOURS: "48"
+      # Bildsuche nur für hochrelevante Stories (Cluster-Score, PLAN.md E44).
+      AI_NEWS_IMAGE_MIN_SCORE: "0.85"
 
     steps:
       - uses: actions/checkout@v4
@@ -112,9 +114,11 @@ jobs:
             SLUG=$(echo "$entry" | jq -r '.slug')
             ARTICLE=$(echo "$entry" | jq -r '.articlePath')
             RESEARCH=$(echo "$entry" | jq -r '.researchPath')
+            IMAGE=$(echo "$entry" | jq -r '.imagePath // empty')
             BRANCH="ai-news/${SLUG}"
             git checkout -b "$BRANCH"
             git add "$ARTICLE" "$RESEARCH" || true
+            if [ -n "$IMAGE" ]; then git add "$IMAGE" || true; fi
             if git commit -m "AI-News-Draft (review): ${SLUG}"; then
               # Auf aktuellen Remote-Stand rebasen: wurde main während des Runs
               # aktualisiert (z. B. Workflow-Datei geändert), lehnt GitHub den
@@ -148,7 +152,7 @@ jobs:
 
       - name: Commit to main (memory, notes, published articles)
         run: |
-          git add data/ai-news src/content/articles
+          git add data/ai-news src/content/articles src/assets/articles
           if git diff --cached --quiet; then
             echo "Keine Änderungen zu committen."
             exit 0

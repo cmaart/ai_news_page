@@ -1,0 +1,168 @@
+---
+/**
+ * Zentrales Bildquellenverzeichnis (PLAN.md E44): listet jedes verwendete
+ * Artikelbild mit Urheber, Lizenz und Fundstelle. Deckt die Attributionspflicht
+ * für Teaser-Nutzungen ab (Startseite/Themen-Seiten zeigen Bilder ohne
+ * Credit-Overlay); auf der Artikelseite steht der Credit zusätzlich unter dem Bild.
+ */
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ImageCredit from '../components/ImageCredit.astro';
+import { byNewest, formatDate, isBuilt } from '../lib/articles';
+import { withBase } from '../lib/url';
+
+// Alle gebauten Artikel — auch retracted/archived sind per Direkt-URL
+// erreichbar und zeigen dort ihr Bild, also gehören sie ins Verzeichnis.
+const articles = (await getCollection('articles')).filter(isBuilt).filter((a) => a.data.image).sort(byNewest);
+---
+
+<BaseLayout
+  title="Bildnachweis · Neue Nachrichten"
+  description="Herkunft, Urheber und Lizenz aller auf Neue Nachrichten verwendeten Bilder."
+>
+  <div class="container-section">
+    <h1 class="page-title">Bildnachweis</h1>
+    <p class="page-intro">
+      Alle Bilder auf dieser Website stammen aus offiziellen Pressefoto-Angeboten der jeweils im Artikel
+      zitierten Institutionen und werden ausschließlich mit ausdrücklichem Nutzungsrecht verwendet —
+      Urheber, Lizenz und Fundstelle sind hier je Bild dokumentiert. Artikel ohne ein solches Bild
+      erscheinen bewusst ohne Bebilderung.
+    </p>
+
+    {
+      articles.length === 0 ? (
+        <p class="credits-empty">Derzeit werden keine Bilder verwendet.</p>
+      ) : (
+        <ul class="credits">
+          {articles.map(({ id, data }) => {
+            const image = data.image!;
+            return (
+              <li class="credits__item">
+                <a class="credits__thumb" href={withBase(`/artikel/${id}/`)} tabindex="-1" aria-hidden="true">
+                  <Image src={image.file} alt="" widths={[240, 480]} sizes="200px" />
+                </a>
+                <div class="credits__body">
+                  <a class="credits__article" href={withBase(`/artikel/${id}/`)}>
+                    {data.title}
+                  </a>
+                  <p class="credits__caption">
+                    {image.caption}
+                    {image.kind === 'symbol' && ' (Symbolbild)'}
+                  </p>
+                  <div class="credits__meta">
+                    <ImageCredit credit={image.credit} />
+                    <span class="credits__links">
+                      <a href={image.credit.termsUrl} rel="noopener">
+                        Nutzungsbedingungen
+                      </a>
+                      · abgerufen {formatDate(image.credit.retrievedAt)}
+                    </span>
+                  </div>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      )
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .page-title {
+    margin: 48px 0 16px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.01em;
+  }
+
+  .page-intro {
+    margin: 0 0 40px;
+    max-width: 640px;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--color-text-muted);
+  }
+
+  .credits {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .credits__item {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 24px;
+    padding: 20px 0;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .credits__thumb {
+    display: block;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+  }
+
+  .credits__thumb :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .credits__article {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.3;
+    color: var(--color-ink);
+  }
+
+  .credits__caption {
+    margin: 6px 0 10px;
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+  }
+
+  .credits__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    align-items: baseline;
+  }
+
+  .credits__links {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--color-text-faint);
+  }
+
+  .credits__links a {
+    color: var(--color-text-faint);
+    text-decoration: underline;
+    text-decoration-color: var(--color-border-soft);
+    text-underline-offset: 2px;
+  }
+
+  .credits-empty {
+    color: var(--color-text-faint);
+    font-size: 14px;
+  }
+
+  @media (max-width: 720px) {
+    .credits__item {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .credits__thumb {
+      max-width: 280px;
+    }
+  }
+</style>

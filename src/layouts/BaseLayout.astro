@@ -22,10 +22,12 @@ interface Props {
   /** Zusätzliche strukturierte Daten (JSON-LD) der Seite. */
   jsonLd?: Record<string, unknown>;
   ogType?: 'website' | 'article';
+  /** Absolute URL des Vorschaubilds (Artikel-Hero, E44). */
+  ogImage?: string;
   noindex?: boolean;
 }
 
-const { title, description = SITE_CLAIM, jsonLd, ogType = 'website', noindex = false } = Astro.props;
+const { title, description = SITE_CLAIM, jsonLd, ogType = 'website', ogImage, noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const hasGa = Boolean(import.meta.env.PUBLIC_GA_ID);
 const year = new Date().getFullYear();
@@ -49,6 +51,8 @@ const year = new Date().getFullYear();
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="Neue Nachrichten" />
     <meta property="og:locale" content="de_AT" />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    {ogImage && <meta name="twitter:card" content="summary_large_image" />}
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
     <Analytics />
   </head>
@@ -85,6 +89,7 @@ const year = new Date().getFullYear();
           <span class="site-footer__label">Transparenz</span>
           <a href={withBase('/methodik/')}>Methodik</a>
           <a href={withBase('/korrekturen/')}>Korrekturen</a>
+          <a href={withBase('/bildnachweis/')}>Bildnachweis</a>
           <a href={withBase('/rss.xml')}>RSS-Feed</a>
         </div>
         <div class="site-footer__col">

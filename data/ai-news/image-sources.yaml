@@ -1,0 +1,102 @@
+# Bild-Whitelist (PLAN.md E44, revidiert): kuratierte, manuell geprüfte
+# Pressefoto-Einträge — die Pipeline wählt Bilder deterministisch aus dieser
+# Liste, ohne LLM-Bildsuche. Jeder Eintrag wurde einmalig von einem Menschen
+# verifiziert: Nutzungsbedingungen gelesen, erlaubender Satz wörtlich als
+# termsQuote gesichert, Bild-URL geprüft.
+#
+# Matching (scripts/ai-news/image.ts): Reihenfolge = Priorität, erster Treffer
+# gewinnt — spezifische Einträge (Personen) vor generischen (Institutionen).
+# Ein Eintrag passt, wenn ein titleKeyword in Titel/Description des Drafts
+# vorkommt ODER eine Draft-Quelle auf einer der sourceDomains liegt; optionale
+# topics schränken zusätzlich ein (z. B. Parlamentsfotos nur für politische
+# Berichterstattung — so verlangen es die Nutzungsbedingungen).
+#
+# Neue Einträge: Kandidaten aus Run-Notes/Recherche übernehmen, Terms selbst
+# lesen, Zitat + Abrufdatum dokumentieren, dann hier eintragen.
+version: 1
+updatedAt: 2026-07-10
+sources:
+  - id: bka-portrait-stocker
+    name: BKA-Fotoservice — Porträt Bundeskanzler Stocker
+    vettedAt: 2026-07-10
+    titleKeywords: ["Stocker"]
+    topics: [politik]
+    image:
+      downloadUrl: https://fotoservice.bundeskanzleramt.at/.imaging/mte/bcisa-bka-fotoservice/orig-with-metadata/dam/bka-fotoservice/portraits_bundesregierung/Job_0010_1.jpg/jcr:content/Job_0010_1.jpg
+      alt: Offizielles Porträt von Bundeskanzler Christian Stocker
+      caption: Bundeskanzler Christian Stocker (offizielles Porträt, Bundeskanzleramt)
+      kind: symbol
+      credit:
+        author: BKA/Andy Wenzel
+        license: press_permission
+        sourceUrl: https://fotoservice.bundeskanzleramt.at/bka/portraits_bundesregierung/Job_0010_1.jpg.html
+        termsUrl: https://fotoservice.bundeskanzleramt.at/nutzungsbedingungen.html
+        termsQuote: "erteilt der Bund die nicht übertragbare, nicht ausschließliche, zeitlich und räumlich unbeschränkte Bewilligung das Bildmaterial des Fotoservice, an dem dem Bund die Rechte zustehen, kostenfrei zu nicht kommerziellen Zwecken, zu redaktionellen Zwecken von Medien und zu Zwecken im Bereich der politischen Bildung zu vervielfältigen, zu verbreiten, zu senden, öffentlich vorzuführen oder im Internet zur Verfügung zu stellen."
+
+  - id: bka-portrait-schellhorn
+    name: BKA-Fotoservice — Porträt Staatssekretär Schellhorn
+    vettedAt: 2026-07-10
+    titleKeywords: ["Schellhorn"]
+    image:
+      downloadUrl: "https://fotoservice.bundeskanzleramt.at/.imaging/mte/bcisa-bka-fotoservice/orig-with-metadata/dam/bka-fotoservice/portraits_bundesregierung/Job_0190-Kopie.jpg/jcr:content/Job_0190%20Kopie.jpg"
+      alt: Offizielles Porträt von Staatssekretär Josef Schellhorn
+      caption: Staatssekretär Josef (Sepp) Schellhorn (offizielles Porträt, Bundeskanzleramt-Fotoservice)
+      kind: symbol
+      credit:
+        author: BKA/Andy Wenzel
+        license: press_permission
+        sourceUrl: https://fotoservice.bundeskanzleramt.at/bka/portraits_bundesregierung/Job_0190-Kopie.jpg.html
+        termsUrl: https://fotoservice.bundeskanzleramt.at/nutzungsbedingungen.html
+        termsQuote: "erteilt der Bund die nicht übertragbare, nicht ausschließliche, zeitlich und räumlich unbeschränkte Bewilligung das Bildmaterial des Fotoservice, an dem dem Bund die Rechte zustehen, kostenfrei zu nicht kommerziellen Zwecken, zu redaktionellen Zwecken von Medien und zu Zwecken im Bereich der politischen Bildung zu vervielfältigen, zu verbreiten, zu senden, öffentlich vorzuführen oder im Internet zur Verfügung zu stellen."
+
+  - id: parlament-plenarsaal
+    name: Parlamentsdirektion — Plenarsaal des Nationalrats
+    vettedAt: 2026-07-10
+    titleKeywords: ["Nationalrat", "Parlament", "Bundesrat"]
+    sourceDomains: ["parlament.gv.at"]
+    topics: [politik]
+    image:
+      downloadUrl: https://www.parlament.gv.at/dokument/bild/201891/20189128_800.jpg
+      alt: Blick in den Plenarsaal des Nationalrats während einer Sitzung
+      caption: Blick in den Plenarsaal des Nationalrats (Aufnahme aus der 91. Sitzung, Juli 2026)
+      kind: symbol
+      credit:
+        author: © Parlamentsdirektion / Bernadette Sattler-Remling
+        license: press_permission
+        sourceUrl: https://www.parlament.gv.at/aktuelles/mediathek/fotos/1945566
+        termsUrl: https://www.parlament.gv.at/services/hilfe/nutzungsbedingungen
+        termsQuote: "Die Parlamentsdirektion gestattet hiermit, unentgeltlich die Inhalte unter Einhaltung dieser Nutzungsbedingungen auf alle Arten im Sinne des Urheberrechtsgesetzes (UrhG) für bestimmte, gestattete Nutzungszwecke (siehe unten) zu nutzen bzw. zu verwerten […] Inhalte dürfen ausschließlich für folgende Zwecke genutzt bzw. verwertet werden: für politische Berichterstattung"
+
+  - id: oenb-hauptgebaeude
+    name: OeNB — Hauptgebäude
+    vettedAt: 2026-07-10
+    titleKeywords: ["Nationalbank", "OeNB"]
+    sourceDomains: ["oenb.at"]
+    image:
+      downloadUrl: "https://www.oenb.at/dam/jcr:9839f942-9da7-4215-804a-2ee0fac244b4/hauptgebauede-frontal-1-web.JPG"
+      alt: Frontalansicht des Hauptgebäudes der Oesterreichischen Nationalbank am Otto-Wagner-Platz in Wien
+      caption: Das Hauptgebäude der Oesterreichischen Nationalbank (OeNB) am Otto-Wagner-Platz in Wien
+      kind: symbol
+      credit:
+        author: © OeNB/Niesner
+        license: press_permission
+        sourceUrl: https://www.oenb.at/Presse/Fotos/Gebaeude/OeNB-Hauptgeb-ude.html
+        termsUrl: https://www.oenb.at/Presse/Fotos.html
+        termsQuote: "Die Nutzung des Bildmaterials für Pressezwecke sowie für private nicht kommerzielle Zwecke ist kostenlos. Voraussetzung für die Nutzung ist die Verwendung einer dem jeweiligen Medium angepassten, sichtbaren Quellenangabe in der Form © OeNB."
+
+  - id: khm-schloss-ambras
+    name: KHM-Museumsverband — Schloss Ambras
+    vettedAt: 2026-07-10
+    titleKeywords: ["Schloss Ambras", "KHM"]
+    sourceDomains: ["khm.at", "schlossambras-innsbruck.at"]
+    image:
+      downloadUrl: https://www.schlossambras-innsbruck.at/fileadmin/fotos/aussen/Schloss_Ambras_Innsbruck_Hochschloss.jpg
+      alt: Außenansicht des Hochschlosses von Schloss Ambras in Innsbruck
+      caption: Schloss Ambras Innsbruck, Teil des KHM-Museumsverbands
+      kind: symbol
+      credit:
+        author: © KHM-Museumsverband
+        license: press_permission
+        sourceUrl: https://www.schlossambras-innsbruck.at/presse/schloss-ambras-innsbruck
+        termsUrl: https://www.khm.at/museum/presse
+        termsQuote: "In unserem Pressebereich stehen Ihnen Pressetexte und Pressebilder für die aktuelle Berichterstattung kostenlos zum Download zur Verfügung."

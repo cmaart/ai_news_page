@@ -1,6 +1,8 @@
 ---
 import { getCollection, render } from 'astro:content';
+import { Image, getImage } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ImageCredit from '../../components/ImageCredit.astro';
 import Pruefband from '../../components/Pruefband.astro';
 import DisclosureBox from '../../components/DisclosureBox.astro';
 import Kurzfazit from '../../components/Kurzfazit.astro';
@@ -56,12 +58,19 @@ const statusToCreativeWorkStatus: Record<string, string> = {
   archived: 'Archived',
 };
 
+// OG-/JSON-LD-Bild: gebaute Asset-URL absolut auflösen (E44).
+const ogImage = data.image
+  ? await getImage({ src: data.image.file, width: 1200, format: 'jpeg' })
+  : null;
+const ogImageUrl = ogImage ? new URL(ogImage.src, Astro.site).toString() : undefined;
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: data.title,
   description: data.description,
   inLanguage: 'de-AT',
+  ...(ogImageUrl && { image: [ogImageUrl] }),
   ...(data.publishedAt && { datePublished: data.publishedAt.toISOString() }),
   ...(updated && { dateModified: updated.toISOString() }),
   creativeWorkStatus: statusToCreativeWorkStatus[data.status] ?? data.status,
@@ -79,6 +88,7 @@ const jsonLd = {
   description={data.description}
   jsonLd={jsonLd}
   ogType="article"
+  ogImage={ogImageUrl}
   noindex={isRetracted || isArchived}
 >
   <article>
@@ -108,6 +118,27 @@ const jsonLd = {
           {GENERATION_MODE_LABELS[data.generationMode]}
         </span>
       </div>
+
+      {
+        data.image && (
+          <figure class="article-hero">
+            <Image
+              src={data.image.file}
+              alt={data.image.alt}
+              widths={[640, 960, 1280, 1600]}
+              sizes="(max-width: 1024px) 100vw, 1024px"
+              loading="eager"
+            />
+            <figcaption class="article-hero__caption">
+              <span class="article-hero__text">
+                {data.image.caption}
+                {data.image.kind === 'symbol' && ' (Symbolbild)'}
+              </span>
+              <ImageCredit credit={data.image.credit} />
+            </figcaption>
+          </figure>
+        )
+      }
 
       <Pruefband data={data} />
 
@@ -238,6 +269,33 @@ const jsonLd = {
     letter-spacing: 0.02em;
     color: var(--color-text-faint);
     margin-bottom: 24px;
+  }
+
+  /* Hero in Original-Ratio — kein Crop auf Dateiebene oder im Layout (E44). */
+  .article-hero {
+    margin: 0 0 28px;
+  }
+
+  .article-hero :global(img) {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .article-hero__caption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4px 16px;
+    padding-top: 8px;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 10px;
+  }
+
+  .article-hero__text {
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--color-text-muted);
   }
 
   .article-head__meta-ai {
