@@ -1,0 +1,178 @@
+{
+  "cluster": {
+    "id": "cluster-20260711-7b44e165",
+    "title": "Verletzte bei Raketenangriff auf Kiew",
+    "items": [
+      {
+        "itemId": "d6f66494a85d8969ad7ce3fec7fac2938cafd58a6ea71d50f4b3a525ae561aef",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Verletzte bei Raketenangriff auf Kiew",
+        "url": "https://orf.at/stories/3435894",
+        "publishedAt": "2026-07-11T05:10:07.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "9d9b9533234d534a285da036d18a9b84a9ff3c0a4a0700b94539efde9550bb71",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Mindestens zehn Verletzte bei Raketenangriff auf Kyjiw",
+        "url": "https://www.derstandard.at/jetzt/livebericht/3000000331018/mindestens-zehn-verletzte-bei-raketenangriff-auf-kyjiw",
+        "summary": "Die ukrainische Hauptstadt Kyjiw ist in der Nacht auf Samstag erneut unter Raketenbeschuss geraten. US-Senatoren kündigen neue Russland-Sanktionen an",
+        "publishedAt": "2026-07-11T06:01:16.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "6ac82d647e04cafd009297c7619bc9d87cb0c66c76bc01a345a8b331b6aaf361",
+        "sourceId": "derstandard_live",
+        "sourceType": "media",
+        "title": "Mindestens zehn Verletzte bei Raketenangriff auf Kyjiw",
+        "url": "https://www.derstandard.at/jetzt/livebericht/3000000331018/mindestens-zehn-verletzte-bei-raketenangriff-auf-kyjiw",
+        "summary": "Die ukrainische Hauptstadt Kyjiw ist in der Nacht auf Samstag erneut unter Raketenbeschuss geraten. US-Senatoren kündigen neue Russland-Sanktionen an",
+        "publishedAt": "2026-07-11T06:01:16.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Breaking news from multiple reputable Austrian/German sources (ORF, Der Standard) confirms an active military incident in Kyiv with specific details: named officials (Mayor Klitschko, Military Governor Tkatschenko), casualty figures (6–10 injured), identified locations and damage. Direct EU security relevance (Ukraine, active conflict). Sufficient substance and source diversity for a 300–500 word article; however, handle with conservative language (quote officials directly, avoid interpretation), mark high sensitivity, note source limitations (casualty discrepancy, no Russian perspective, incomplete international reaction detail).",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "possibleClaims": [
+      "Kyiv wurde in der Nacht zum 11. Juli 2026 mit ballistischen Raketen angegriffen",
+      "Mindestens 6–10 Menschen wurden nach ukrainischen Behördenangaben verletzt",
+      "Mehrere Stadtbezirke waren betroffen; Brände in mindestens zwei Bezirken (Ost- und Westteil)",
+      "Ein Bürogebäude im Westen und mindestens ein unbewohntes Gebäude wurden beschädigt",
+      "Ukrainische Militärgouverneur und Bürgermeister forderten Anwohner auf, Schutzräume aufzusuchen"
+    ],
+    "missingSources": [
+      "Endzahl der Verletzten (ORF: 6, Der Standard: 10 – Quelle der Diskrepanz unklar)",
+      "Offizielle Gesamtschadensaufstellung",
+      "Russische Bestätigung oder Stellungnahme",
+      "Konkrete Details zu US-Senatoren-Sanktionsplänen (in Der Standard erwähnt, aber nicht ausgeführt)",
+      "Breitere Analyse: Eskalationsmuster, internationale Reaktion über US hinaus"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "raketenangriff-kiew-juli-2026",
+    "title": "Raketenangriff auf Kiew: Mehrere Verletzte, Zahlen widersprüchlich",
+    "description": "In der Nacht auf Samstag wurde Kiew laut ukrainischen Medien und österreichischen Quellen erneut mit Raketen beschossen. Berichte zu Verletztenzahlen und Schäden weichen voneinander ab, eine russische Stellungnahme liegt nicht vor.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige österreichische Medien (ORF und Der Standard) berichten übereinstimmend über einen Raketenangriff auf Kiew mit Verletzten in der Nacht auf Samstag; damit gilt das Kernereignis als bestätigt. Die genaue Zahl der Verletzten und weitere Details unterscheiden sich zwischen den Quellen, was die Gesamtsicherheit einschränkt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Primärquelle (etwa eine offizielle Mitteilung der Stadt Kiew oder der ukrainischen Militärverwaltung) direkt eingesehen, sondern nur Kurzangaben aus zwei Medienberichten ausgewertet.",
+    "framingRisk": "high",
+    "framingRiskNote": "Die vorliegenden Quellen geben ausschließlich ukrainische bzw. westliche Perspektiven wieder; eine russische Stellungnahme oder Gegendarstellung fehlt vollständig.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Kiew wurde laut ORF und Der Standard in der Nacht auf Samstag, den 11. Juli 2026, erneut mit Raketen beschossen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Standard berichtet von mindestens zehn Verletzten; die genaue, übereinstimmende Opferzahl ist aus den vorliegenden Quellen nicht ableitbar.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Standard erwähnt zudem angekündigte neue US-Sanktionen gegen Russland, ohne nähere Details zu nennen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleibt, welche Stadtteile konkret betroffen waren, welches Ausmaß etwaige Schäden hatten und wie sich die Zahlenabweichungen erklären.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine russische Reaktion oder Bestätigung des Angriffs liegt in den ausgewerteten Quellen nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie erklärt sich die Diskrepanz zwischen den berichteten Verletztenzahlen?",
+      "Welche konkreten Schäden an Gebäuden oder Infrastruktur wurden amtlich bestätigt?",
+      "Was genau beinhalten die von Der Standard erwähnten neuen US-Sanktionen gegen Russland?",
+      "Gibt es eine russische Stellungnahme zu dem Vorfall?",
+      "Wie hat sich die Lage seit den ersten Berichten am frühen Morgen weiterentwickelt?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF, „Verletzte bei Raketenangriff auf Kiew“",
+        "type": "media",
+        "url": "https://orf.at/stories/3435894"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard, „Mindestens zehn Verletzte bei Raketenangriff auf Kyjiw“",
+        "type": "media",
+        "url": "https://www.derstandard.at/jetzt/livebericht/3000000331018/mindestens-zehn-verletzte-bei-raketenangriff-auf-kyjiw"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die ukrainische Hauptstadt Kiew wurde in der Nacht auf Samstag, den 11. Juli 2026, mit Raketen beschossen.",
+        "status": "supported",
+        "note": "Wird von zwei unabhängigen österreichischen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Bei dem Angriff wurden mehrere Menschen verletzt, laut Der Standard mindestens zehn.",
+        "status": "partial",
+        "note": "ORF berichtet ebenfalls von Verletzten, nennt in der vorliegenden Kurzfassung aber keine eigene Zahl; eine übereinstimmende, verifizierte Gesamtzahl liegt nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "US-Senatoren haben im Zusammenhang mit dem Angriff neue Sanktionen gegen Russland angekündigt.",
+        "status": "unclear",
+        "note": "Nur in der Kurzzusammenfassung von Der Standard erwähnt, ohne nähere Angaben zu Inhalt, Umfang oder Zeitpunkt der Ankündigung.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Es kam zu Schäden an Gebäuden und in mehreren Stadtteilen, örtliche Behörden riefen zur Nutzung von Schutzräumen auf.",
+        "status": "unclear",
+        "note": "Diese Details liegen als mögliche Berichtselemente vor, sind aber durch die eingesehenen Kurzquellen nicht im Detail belegt und daher konservativ als unklar eingestuft.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die ukrainische Hauptstadt Kiew ist laut übereinstimmenden Berichten von ORF und Der Standard in der Nacht auf Samstag, den 11. Juli 2026, erneut unter Raketenbeschuss geraten. Beide Quellen berichten von Verletzten, wobei Der Standard von mindestens zehn Betroffenen spricht. Eine von beiden Medien unabhängig bestätigte, einheitliche Opferzahl liegt derzeit nicht vor. Zum Zeitpunkt der Berichterstattung waren die Vorgänge offenbar noch im Gange beziehungsweise erst wenige Stunden alt, was die Kurzfassung der Meldungen erklären dürfte."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "ORF und Der Standard sind zwei voneinander unabhängige österreichische Medien, die den Angriff jeweils eigenständig aufgegriffen haben. Der Standard ergänzt in seiner Zusammenfassung, dass US-Senatoren im Zusammenhang mit der Lage neue Sanktionen gegen Russland angekündigt hätten. Nähere Angaben dazu – etwa Umfang, betroffene Bereiche oder ein Zeitpunkt für ein mögliches Inkrafttreten – werden in der vorliegenden Kurzfassung nicht genannt. Angaben zu möglichen betroffenen Stadtteilen, Bränden oder beschädigten Gebäuden liegen als Anhaltspunkte vor, konnten aus den eingesehenen Quellenauszügen aber nicht im Detail nachvollzogen werden."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Ungeklärt ist vor allem die genaue Zahl der Verletzten: Während Der Standard von mindestens zehn Betroffenen ausgeht, lässt sich aus den vorliegenden Kurzangaben nicht abschließend feststellen, ob die andere Quelle eine niedrigere oder abweichende Zahl nennt. Ebenso offen ist das tatsächliche Ausmaß etwaiger Sachschäden, die genauen betroffenen Stadtteile sowie der konkrete Inhalt der angekündigten neuen US-Sanktionen. Eine Stellungnahme oder Bestätigung von russischer Seite liegt in den ausgewerteten Quellen nicht vor, sodass die Darstellung derzeit ausschließlich auf ukrainischen beziehungsweise westlichen Angaben beruht."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Vorfall reiht sich in eine Serie wiederkehrender Raketenangriffe auf Kiew im Zuge des russischen Angriffskriegs gegen die Ukraine ein. Angesichts der Kriegssituation, der Betroffenheit von Zivilpersonen und der bislang lückenhaften, teils widersprüchlichen Faktenlage ist bei der Einordnung besondere Zurückhaltung geboten. Konkrete Opferzahlen, Schadensausmaße und internationale Reaktionen sollten erst als gesichert gelten, wenn sie durch weitere, im Idealfall auch amtliche oder international unabhängige Quellen bestätigt werden. Diese Darstellung beruht auf Kurzangaben zweier Medienquellen und wurde nicht anhand einer eingesehenen Primärquelle überprüft."
+      }
+    ],
+    "bodyKompakt": "Die ukrainische Hauptstadt Kiew ist laut ORF und Der Standard in der Nacht auf Samstag, den 11. Juli 2026, erneut mit Raketen beschossen worden. Beide Medien berichten von Verletzten, Der Standard nennt eine Zahl von mindestens zehn Betroffenen; eine übereinstimmende, verifizierte Gesamtzahl liegt aus den vorliegenden Quellen nicht vor. Der Standard erwähnt zudem angekündigte neue US-Sanktionen gegen Russland, ohne diese näher auszuführen.\n\nOffen bleiben insbesondere das genaue Ausmaß möglicher Sachschäden, die betroffenen Stadtteile sowie die Gründe für abweichende Verletztenzahlen zwischen den Berichten. Eine russische Stellungnahme zu dem Angriff liegt nicht vor, sodass die Darstellung bislang ausschließlich auf ukrainischen beziehungsweise westlichen Quellen beruht.\n\nAngesichts der Kriegssituation und der bislang lückenhaften Quellenlage ist bei dieser Meldung besondere Zurückhaltung geboten. Die Angaben stammen aus Kurzzusammenfassungen zweier Medien und wurden nicht anhand einer eingesehenen Primärquelle überprüft; weitere Bestätigungen stehen aus.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-11T06:07:25.846Z"
+}
