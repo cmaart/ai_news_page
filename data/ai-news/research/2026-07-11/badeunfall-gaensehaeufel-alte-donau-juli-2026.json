@@ -1,0 +1,183 @@
+{
+  "cluster": {
+    "id": "cluster-20260711-69332685",
+    "title": "Mann wurde nach Badeunfall reanimiert",
+    "items": [
+      {
+        "itemId": "69f8bc02282d78f6bcf5deaacc01a16039451d434b21acb8dadf4bf882f70a34",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Mann wurde nach Badeunfall reanimiert",
+        "url": "https://wien.orf.at/stories/3362224",
+        "summary": "Ein 49 Jahre alter Mann ist am Samstagvormittag beim Schwimmen in der Alten Donau beim Gänsehäufel in der Donaustadt plötzlich untergegangen. Er konnte gerettet werden.",
+        "publishedAt": "2026-07-11T10:30:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "7d85ca9bb0d952d24f1daf549ea8dabf493dda19cf93a14923a771c1e2df3acb",
+        "sourceId": "orf_wien",
+        "sourceType": "media",
+        "title": "Mann wurde nach Badeunfall reanimiert",
+        "url": "https://wien.orf.at/stories/3362224",
+        "summary": "Ein 49 Jahre alter Mann ist am Samstagvormittag beim Schwimmen in der Alten Donau beim Gänsehäufel in der Donaustadt plötzlich untergegangen. Er konnte gerettet werden.",
+        "publishedAt": "2026-07-11T10:30:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "a303d84f4de56aaf1eec9d1cde5070b56b436a42cd543b682fca5fe8dc02ab91",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Badeunfall im Gänsehäufel: Person von Einsatzkräften reanimiert",
+        "url": "https://kurier.at/chronik/wien/wiener-baeder-gaensehaeufel-badeunfall/403175601",
+        "isNew": false
+      },
+      {
+        "itemId": "312356caac7c0beebab46547413fe8bf07cea7693a2296cf27def4fbe9ecf16b",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Badeunfall im Gänsehäufel: Person von Einsatzkräften reanimiert",
+        "url": "https://kurier.at/chronik/wien/wiener-baeder-gaensehaeufel-badeunfall/403175601",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Gut dokumentierter Badeunfall in Wien mit konkreten, verifizierten Details (Ort, Alter, Outcome, Rettungs-Abläufe) von zwei etablierten österreichischen Medienquellen (ORF, Kurier). Lokale Relevanz für Österreich, substantielle Fulltext-Excerpts, plus Präventionsratschläge der Wiener Rettung. Sensibles Gesundheitsthema, aber laut Quellen konservativ berichtet (Betroffener nicht namentlich genannt, keine Schuldzuweisungen, Outcome positiv).",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "possibleClaims": [
+      "49-jähriger Mann wurde beim Schwimmen in der Alten Donau (Gänsehäufel) bewusstlos und unterging",
+      "Feuerwehrtaucher haben den Mann geborgen",
+      "Der Mann wurde erfolgreich reanimiert",
+      "Der Mann wurde intubiert und beatmet",
+      "Der Mann wurde in stabilem Zustand ins Krankenhaus eingeliefert",
+      "Gänsehäufel hatte diese Saison bereits 165.000 Besucher",
+      "Baderegeln: Selbstschutz vor Fremdschutz, nicht alleine schwimmen, Kleinkinder in Armeslänge-Nähe"
+    ],
+    "missingSources": [
+      "Weitere Informationen zum Gesundheitsverlauf des Mannes nach Krankenhaus-Aufnahme",
+      "Konkrete Unfallursache oder medizinischer Auslöser des Kollapses",
+      "Stellungnahme der Wiener Bäder oder des Bezirksamts zur Badsicherheit",
+      "Zeugenaussagen oder detailliertere Beschreibung des Unfallhergangs"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "badeunfall-gaensehaeufel-alte-donau-juli-2026",
+    "title": "49-Jähriger nach Badeunfall in der Alten Donau reanimiert",
+    "description": "Ein 49 Jahre alter Mann ist laut Medienberichten beim Schwimmen in der Alten Donau beim Gänsehäufel plötzlich untergegangen und wurde von Einsatzkräften gerettet und reanimiert. Details zu Ursache und weiterem Gesundheitszustand liegen nicht vor.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Zwei voneinander unabhängige Medien (ORF und Kurier) berichten übereinstimmend über Ort, Alter und Ausgang des Vorfalls, das erfüllt die Schwelle für eine bestätigte Grundtatsache.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine eigene Stellungnahme von Rettung, Feuerwehr oder Polizei vor, nur Medienberichte, die vermutlich auf Einsatzmeldungen basieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Beide Quellen geben offenbar dieselbe Einsatzperspektive wieder, eine andere Sichtweise etwa der Betroffenen oder der Bäderverwaltung fehlt.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein 49 Jahre alter Mann ist am Samstagvormittag beim Schwimmen in der Alten Donau beim Gänsehäufel in der Donaustadt plötzlich untergegangen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Mann konnte von Einsatzkräften gerettet und laut Kurier reanimiert werden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die genaue Ursache des Vorfalls ist laut vorliegenden Quellen nicht bekannt.",
+        "kind": "open"
+      },
+      {
+        "text": "Zum weiteren Gesundheitszustand des Mannes nach der Versorgung liegen keine Angaben vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was hat den plötzlichen Kollaps des Mannes beim Schwimmen ausgelöst?",
+      "Wie erfolgte die Rettung genau (z. B. durch Badegäste, Bademeister oder Einsatzkräfte)?",
+      "Wie geht es dem Mann nach der Einlieferung ins Krankenhaus?",
+      "Gab es eine Stellungnahme der Wiener Bäder oder der Berufsrettung Wien zum Vorfall?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3362224"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/wien/wiener-baeder-gaensehaeufel-badeunfall/403175601"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein 49-jähriger Mann ist am Samstagvormittag beim Schwimmen in der Alten Donau beim Gänsehäufel in der Donaustadt plötzlich untergegangen.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Mann wurde von Einsatzkräften gerettet und reanimiert.",
+        "status": "supported",
+        "note": "ORF spricht von Rettung, Kurier explizit von Reanimation durch Einsatzkräfte; beide Angaben stimmen im Ausgang überein.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die genaue Ursache für den plötzlichen Kollaps des Mannes im Wasser ist bekannt.",
+        "status": "unclear",
+        "note": "Keine der vorliegenden Quellen nennt einen Auslöser oder eine medizinische Erklärung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Gesundheitszustand des Mannes nach der Einlieferung ins Krankenhaus ist bekannt.",
+        "status": "unclear",
+        "note": "Weder ORF noch Kurier berichten über den Verlauf nach der Erstversorgung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Medienberichten ist am Samstagvormittag ein 49 Jahre alter Mann beim Schwimmen in der Alten Donau beim Gänsehäufel in der Donaustadt plötzlich untergegangen. Er konnte von Einsatzkräften aus dem Wasser geborgen werden. Laut Kurier wurde die Person anschließend reanimiert. Namen oder weitere persönliche Angaben zum Betroffenen werden in den vorliegenden Quellen nicht genannt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Zwei etablierte österreichische Medien, ORF und Kurier, berichten unabhängig voneinander über den Vorfall und stimmen in den zentralen Eckdaten überein: Ort (Gänsehäufel, Alte Donau, Donaustadt), Zeitpunkt (Samstagvormittag), Alter des Mannes (49 Jahre) sowie der positive Ausgang, dass die Person gerettet und reanimiert werden konnte. Konkrete Angaben zum genauen Ablauf der Rettung, etwa wer den Mann zuerst bemerkt hat oder welche Einsatzkräfte im Detail beteiligt waren, liegen laut den vorliegenden Kurzfassungen nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Weder ORF noch Kurier nennen in den vorliegenden Textauszügen eine medizinische oder situative Ursache für den plötzlichen Kollaps im Wasser. Auch zum weiteren Gesundheitszustand des Mannes nach der Erstversorgung und einer möglichen Einlieferung ins Krankenhaus liegen keine Informationen vor. Eine offizielle Stellungnahme der Wiener Bäder, der Berufsrettung Wien oder der Feuerwehr zum konkreten Fall ist in den herangezogenen Quellen nicht enthalten."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Badeunfälle mit Rettungseinsätzen werden von Wiener Medien im Sommer regelmäßig aufgegriffen, oft auf Basis kurzer Einsatzmeldungen ohne ausführliche Hintergrundrecherche. Die aktuelle Berichterstattung liefert einen im Kern übereinstimmenden, aber knappen Ausschnitt des Geschehens. Ohne eine offizielle Stellungnahme der zuständigen Einsatzorganisationen oder weitere Berichterstattung lässt sich der Vorfall derzeit nur in seinen Grundzügen einordnen, nicht abschließend verifiziert sind Ursache und weiterer Verlauf."
+      }
+    ],
+    "bodyKompakt": "Ein 49 Jahre alter Mann ist laut übereinstimmenden Medienberichten am Samstagvormittag beim Schwimmen in der Alten Donau beim Gänsehäufel in der Donaustadt plötzlich untergegangen. Er konnte von Einsatzkräften aus dem Wasser geborgen und laut Kurier reanimiert werden. ORF und Kurier berichten unabhängig voneinander und stimmen in Ort, Zeitpunkt und Ausgang des Vorfalls überein, nennen aber keine Details zum genauen Rettungsablauf.\n\nWarum der Mann plötzlich kollabierte, ist laut den vorliegenden Quellen nicht bekannt. Auch zum weiteren Gesundheitszustand nach der Erstversorgung liegen keine Angaben vor, eine offizielle Stellungnahme von Rettung, Feuerwehr oder Bäderverwaltung fehlt bislang.\n\nDie Berichterstattung beruht auf kurzen Einsatzmeldungen zweier etablierter Medien. Der Kern des Geschehens gilt damit als bestätigt, Ursache und weiterer Verlauf bleiben aber offen und sind nicht abschließend verifiziert.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-11T11:07:23.956Z"
+}

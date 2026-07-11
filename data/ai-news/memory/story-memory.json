@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T10:21:31.652Z",
+  "updatedAt": "2026-07-11T11:22:30.593Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1030,7 +1030,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T09:07:25.442Z",
-      "doNotUpdateBefore": "2026-07-11T15:07:25.442Z"
+      "doNotUpdateBefore": "2026-07-11T15:07:25.442Z",
+      "echoPublishers": {
+        "kurier": "2026-07-11T11:07:23.956Z"
+      }
     },
     "israel-warnung-iranischer-mordkomplott-trump-juli-2026": {
       "canonicalTitle": "Israel warnt vor iranischem Mordkomplott gegen Trump – Details bleiben unklar",
@@ -1108,6 +1111,69 @@
         "Informationen zur Auswahl der 17 vorherigen Projekte"
       ],
       "sensitivity": "low"
+    },
+    "badeunfall-gaensehaeufel-alte-donau-juli-2026": {
+      "canonicalTitle": "49-Jähriger nach Badeunfall in der Alten Donau reanimiert",
+      "slug": "badeunfall-gaensehaeufel-alte-donau-juli-2026",
+      "firstSeenAt": "2026-07-11T11:07:23.956Z",
+      "lastUpdatedAt": "2026-07-11T11:07:23.956Z",
+      "status": "published",
+      "articlePath": "src/content/articles/badeunfall-gaensehaeufel-alte-donau-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/badeunfall-gaensehaeufel-alte-donau-juli-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3362224",
+        "https://kurier.at/chronik/wien/wiener-baeder-gaensehaeufel-badeunfall/403175601"
+      ],
+      "openQuestions": [
+        "Was hat den plötzlichen Kollaps des Mannes beim Schwimmen ausgelöst?",
+        "Wie erfolgte die Rettung genau (z. B. durch Badegäste, Bademeister oder Einsatzkräfte)?",
+        "Wie geht es dem Mann nach der Einlieferung ins Krankenhaus?",
+        "Gab es eine Stellungnahme der Wiener Bäder oder der Berufsrettung Wien zum Vorfall?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T11:07:23.956Z",
+      "doNotUpdateBefore": "2026-07-11T17:07:23.956Z"
+    },
+    "cluster-20260711-ea9f02e5": {
+      "canonicalTitle": "„Explosionsartiger Stuhlgang“: Parasit befällt Hunderte in den USA",
+      "slug": "cluster-20260711-ea9f02e5",
+      "firstSeenAt": "2026-07-11T11:07:23.956Z",
+      "lastUpdatedAt": "2026-07-11T11:07:23.956Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.diepresse.com/36698768/explosionsartiger-stuhlgang-parasit-befaellt-hunderte-in-den-usa",
+        "https://www.derstandard.at/story/3000000331049/parasit-sorgt-bei-hunderten-us-buergern-in-31-bundesstaaten-fuer-explosionsartigen-stuhlgang",
+        "https://www.derstandard.at/story/3000000331049/parasit-sorgt-bei-hunderten-us-buergern-in-31-bundesstaaten-fuer-explosionsartigen-stuhlgang"
+      ],
+      "openQuestions": [
+        "CDC-Pressemitteilung oder offizielle Fallzahlen",
+        "Caitlin Rivers Newsletter (Johns Hopkins)",
+        "Österreichische/EU-Behördenreaktion oder Warenwarnung",
+        "Lebensmittelimport-Kontrollen oder Rückverfolgung kontaminierter Produkte"
+      ],
+      "sensitivity": "medium"
+    },
+    "evp-weber-europaeische-armee-afd-warnung-juli-2026": {
+      "canonicalTitle": "EVP-Chef Weber fordert europäische Armee und warnt vor AfD-Einfluss auf Bundeswehr",
+      "slug": "evp-weber-europaeische-armee-afd-warnung-juli-2026",
+      "firstSeenAt": "2026-07-11T11:07:23.956Z",
+      "lastUpdatedAt": "2026-07-11T11:07:23.956Z",
+      "status": "published",
+      "articlePath": "src/content/articles/evp-weber-europaeische-armee-afd-warnung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/evp-weber-europaeische-armee-afd-warnung-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3435917",
+        "https://kurier.at/politik/ausland/evp-chef-weber-warnt-vor-kontrolle-der-bundeswehr-durch-afd/403175602"
+      ],
+      "openQuestions": [
+        "Wie reagiert die AfD auf Webers Vorwurf, sich auf NS-nahe militärische Traditionen zu berufen?",
+        "Welche konkreten Schritte plant die EVP zum Aufbau einer europäischen Armee bzw. eines Verteidigungsbinnenmarkts?",
+        "Wie bewerten unabhängige Verteidigungsexperten die Machbarkeit und Kosteneffizienz einer europäischen Armee?",
+        "Wie positionieren sich die deutsche Bundesregierung und EU-Institutionen zu Webers Aussagen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T11:07:23.956Z",
+      "doNotUpdateBefore": "2026-07-11T17:07:23.956Z"
     }
   }
 }
