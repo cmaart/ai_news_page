@@ -34,7 +34,7 @@ const MIN_SOURCE_WIDTH = 800;
 const MIN_ASPECT_RATIO = 1.2;
 
 /** Agentur-Kennungen im Credit ⇒ Foto ist fast sicher fremdlizenziert — kein Bild. */
-const AGENCY_MARKERS = /\b(apa|getty|reuters|afp|dpa|picture alliance|epa|ap photo|imago|keystone)\b/i;
+export const AGENCY_MARKERS = /\b(apa|getty|reuters|afp|dpa|picture alliance|epa|ap photo|imago|keystone)\b/i;
 
 export interface ImageWhitelistEntry {
   id: string;
@@ -80,7 +80,7 @@ export function selectWhitelistImage(draft: {
 
   for (const entry of loadImageWhitelist()) {
     if (entry.topics && !entry.topics.includes(draft.topic)) continue;
-    const keywordHit = (entry.titleKeywords ?? []).some((k) => haystack.includes(k.toLowerCase()));
+    const keywordHit = (entry.titleKeywords ?? []).some((k) => keywordMatches(haystack, k));
     const domainHit = (entry.sourceDomains ?? []).some((d) =>
       hosts.some((h) => h === d.toLowerCase() || h.endsWith(`.${d.toLowerCase()}`)),
     );
@@ -93,6 +93,17 @@ export function selectWhitelistImage(draft: {
     return { entryId: entry.id, image };
   }
   return null;
+}
+
+/**
+ * Keyword-Match auf Wortgrenzen statt Substring — „Meta" darf nicht in
+ * „Metadaten" treffen (relevant seit den Tech-Whitelist-Einträgen, E48).
+ * Unicode-Grenzen, weil \b bei Umlauten versagt („KI-Förderung").
+ */
+function keywordMatches(haystack: string, keyword: string): boolean {
+  const escaped = keyword.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  if (!escaped) return false;
+  return new RegExp(`(?<![\\p{L}\\p{N}])${escaped}(?![\\p{L}\\p{N}])`, 'iu').test(haystack);
 }
 
 /**

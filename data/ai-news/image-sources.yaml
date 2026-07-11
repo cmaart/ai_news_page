@@ -11,10 +11,20 @@
 # topics schränken zusätzlich ein (z. B. Parlamentsfotos nur für politische
 # Berichterstattung — so verlangen es die Nutzungsbedingungen).
 #
-# Neue Einträge: Kandidaten aus Run-Notes/Recherche übernehmen, Terms selbst
-# lesen, Zitat + Abrufdatum dokumentieren, dann hier eintragen.
+# Neue Einträge (E48-Workflow): Der Quellen-Scan der Pipeline sammelt
+# Bild-Kandidaten in data/ai-news/image-candidates.json (auch im Actions-Run-
+# Summary sichtbar) — „possibly-open"-Einträge zuerst prüfen; „blocked" sind
+# Agentur-/Stockfotos und tabu (Lizenz gilt nur dem Quell-Medium). Der Weg zum
+# Eintrag bleibt immer manuell: offizielle Presse-/Newsroom-Seite der
+# INSTITUTION aufsuchen (nie das Bild des Quell-Mediums übernehmen), Terms
+# selbst lesen, erlaubenden Satz wörtlich als termsQuote + Abrufdatum sichern,
+# dann hier eintragen; danach optional Backfill
+# (backfill-proposals-from-whitelist.ts → backfill-images.ts).
 # Bild-Anforderungen: QUERFORMAT (Ratio >= 1,2) und >= 800 px Breite — Hochformat-
 # Porträts sprengen den 16:9-Hero; die Pipeline lehnt sie hart ab (image.ts).
+# Hinweis zu topics bei Firmen-Einträgen: dort meist Relevanz-Guard (Symbolbild
+# nur für passende Ressorts), nicht zwingend eine Terms-Einschränkung wie beim
+# Parlament — der YAML-Kommentar am Eintrag sagt, was gilt.
 version: 1
 updatedAt: 2026-07-10
 sources:
