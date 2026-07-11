@@ -41,5 +41,9 @@ Kuratierte Liste manuell geprüfter Pressefoto-Einträge (`data/ai-news/image-so
 **Bildnachweis**:
 Zentrales, auto-generiertes Verzeichnis aller Bild-Credits (`/bildnachweis`, Footer-Link). Deckt die Attributionspflicht für Teaser-Nutzungen ab; auf der Artikelseite steht der Credit zusätzlich sichtbar unter dem Bild.
 
+**Resonanz** (`resonance`):
+Beobachtetes Medienecho zu einem bereits publizierten Artikel: wie breit greifen unabhängige Quellen die Story nach Publikation weiter auf. Reine Beobachtung mit Messzeitpunkt, kein Urteil — ergänzt den Nachrichtenwert (`newsworthiness`, intrinsisches Triage-Urteil), ersetzt ihn nie und verändert ihn nicht. Agentur-Syndikation (mehrere Portale, derselbe Agenturtext) ist keine Resonanz. Resonanz klingt ab: ohne frisches Echo verliert sie ihren Einfluss von selbst.
+_Avoid_: Relevanz (= errechneter Ranking-Score), Nachrichtenwert, Reichweite (wir messen Berichterstattung, nicht Publikum)
+
 **Einseitigkeit** (`framingRisk`):
 Risiko, dass die Darstellung einseitig gefärbt ist, weil die verfügbaren Quellen eine Perspektive dominieren. Rubrik: **gering** = mehrere unabhängige Perspektiven, Gegenseite aus direkt eingesehener Quelle · **mittel** = eine Perspektive dominiert oder Gegenseite nur aus zweiter Hand · **hoch** = nur Darstellung einer Seite, Gegenseite fehlt.

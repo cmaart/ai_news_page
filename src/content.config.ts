@@ -24,6 +24,18 @@ const articles = defineCollection({
     framingRiskNote: z.string().min(1),
     /** Nachrichtenwert 1–5, vergeben von der Haiku-Triage (PLAN.md E38). 3 = Default für Bestand. */
     newsworthiness: z.number().int().min(1).max(5).default(3),
+    /**
+     * Beobachtetes Medienecho nach Publikation (PLAN.md E46, Glossar: CONTEXT.md).
+     * Level 1 = neutral und wird nie geschrieben; der Ranking-Einfluss klingt
+     * über measuredAt von selbst ab (Halbwertszeit 1 Tag).
+     */
+    resonance: z
+      .object({
+        level: z.number().int().min(2).max(5),
+        measuredAt: z.coerce.date(),
+        source: z.enum(['zaehlung', 'triage']),
+      })
+      .optional(),
     summary: z
       .array(
         z.object({

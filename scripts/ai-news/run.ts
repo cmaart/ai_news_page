@@ -11,7 +11,7 @@
 import { readFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { parse } from 'yaml';
-import { readExistingArticle, resolveSlug, writeArticle } from './article.ts';
+import { patchArticleResonance, readExistingArticle, resolveSlug, writeArticle } from './article.ts';
 import { draftOrUpdate, triageCluster } from './claude.ts';
 import { buildClusters } from './cluster.ts';
 import { fetchAllFeeds } from './fetch.ts';
@@ -48,7 +48,7 @@ import type {
   TriageBacklogEntry,
   TriageResult,
 } from './types.ts';
-import { envFloat, envInt, isoNow, jaccard, portalOf, titleTokens, utcDateStamp } from './util.ts';
+import { envFloat, envInt, hoursAgo, isoNow, jaccard, portalOf, titleTokens, utcDateStamp } from './util.ts';
 
 const MAX_TRIAGE_PER_RUN = envInt('AI_NEWS_MAX_TRIAGE', 5);
 const MAX_ARTICLES_PER_RUN = envInt('AI_NEWS_MAX_ARTICLES_PER_RUN', 1);
@@ -64,6 +64,21 @@ const ESCALATE_SCORE = envFloat('AI_NEWS_ESCALATE_SCORE', 0.75);
 // trägt das Rechtsrisiko — unterhalb der Schwelle bleibt der Artikel bildlos.
 const IMAGE_MIN_SCORE = envFloat('AI_NEWS_IMAGE_MIN_SCORE', 0.85);
 const BACKLOG_MAX_ENTRIES = envInt('AI_NEWS_BACKLOG_MAX', 24);
+// Resonanz (E46): Messfenster der Publisher-Zählung; Haiku-Override-TTL ist
+// bewusst identisch — Syndikations-Items fallen zeitgleich aus dem Fenster.
+const RESONANCE_WINDOW_HOURS = envInt('AI_NEWS_RESONANCE_WINDOW_HOURS', 24);
+const RESONANCE_TRIAGE_TTL_HOURS = RESONANCE_WINDOW_HOURS;
+// Gleiches Level erneut schreiben, wenn die Messung so alt ist, dass der Decay
+// eine anhaltende Welle sonst fälschlich abklingen ließe (max 2 Commits/Tag).
+const RESONANCE_REFRESH_HOURS = 12;
+// Ab diesem deterministischen Level bekommt der Echo-Cluster Triage-Priorität.
+const RESONANCE_PRIORITY_LEVEL = 4;
+
+/** Mapping distinkte Publisher (24 h) → Resonanz-Level (E46): 0–1→1 · 2→2 · 3→3 · 4→4 · ≥5→5. */
+function resonanceLevelFor(publisherCount: number): number {
+  if (publisherCount >= 5) return 5;
+  return publisherCount >= 2 ? publisherCount : 1;
+}
 
 const dryRun = process.argv.includes('--dry-run') || process.env.AI_NEWS_DRY_RUN === '1';
 
@@ -160,6 +175,46 @@ async function main(): Promise<void> {
     return;
   }
 
+  // Phase 4.5: Resonanz-Zählung (E46) ----------------------------------------
+  // Deterministisch, ohne LLM: neue Items, die auf eine Story mit publiziertem
+  // Artikel matchen, füllen ein rollierendes Publisher-Fenster im Story-Memory.
+  // Läuft VOR der Draft-Phase, damit Updates das gepatchte Frontmatter mitnehmen.
+  for (const { cluster } of scored) {
+    const story = matchStory(cluster, stories);
+    if (!story?.articlePath) continue;
+    const hits = (story.echoPublishers ??= {});
+    for (const item of cluster.items) {
+      if (item.isNew) hits[portalOf(item.sourceId)] = nowIso;
+    }
+  }
+  // Fenster ausdünnen + deterministisches Level je Story bestimmen — auch für
+  // Stories ohne Cluster-Match diesen Run (deren Welle klingt gerade ab).
+  const echoWindowCutoff = hoursAgo(RESONANCE_WINDOW_HOURS, now).toISOString();
+  const detResonance = new Map<string, number>(); // slug → Level aus der Zählung
+  for (const story of Object.values(stories.stories)) {
+    if (!story.articlePath || !story.echoPublishers) continue;
+    for (const [publisher, at] of Object.entries(story.echoPublishers)) {
+      if (at < echoWindowCutoff) delete story.echoPublishers[publisher];
+    }
+    detResonance.set(story.slug, resonanceLevelFor(Object.keys(story.echoPublishers).length));
+  }
+
+  // Haiku-Override gilt noch? Dann überschreibt die Zählung nicht (TTL, E46).
+  const triageTtlCutoff = hoursAgo(RESONANCE_TRIAGE_TTL_HOURS, now).toISOString();
+  const triageTtlActive = (story: Story): boolean =>
+    story.resonanceSource === 'triage' && !!story.resonanceMeasuredAt && story.resonanceMeasuredAt > triageTtlCutoff;
+
+  // Echo-Cluster ab Schwellwert priorisiert in die Triage, damit Haiku die
+  // Zählung zeitnah qualifiziert (Syndikation vs. echte Welle).
+  const echoPriorityClusterIds = new Set<string>();
+  for (const { cluster } of scored) {
+    const story = matchStory(cluster, stories);
+    if (!story?.articlePath) continue;
+    if ((detResonance.get(story.slug) ?? 1) >= RESONANCE_PRIORITY_LEVEL && !triageTtlActive(story)) {
+      echoPriorityClusterIds.add(cluster.id);
+    }
+  }
+
   // Phase 5: Triage (Haiku) ---------------------------------------------------
   // Queue = aktuelle Kandidaten + Backlog voriger Runs (Cap-Überlauf/Triage-Fehler).
   // Kein Cluster über der Schwelle geht verloren: was nicht triaged wird, landet
@@ -184,7 +239,17 @@ async function main(): Promise<void> {
       } satisfies ClusterScore,
     }));
 
-  const queue = [...currentCandidates, ...carried].sort((a, b) => b.score.score - a.score.score);
+  // Echo-Cluster über der Prioritäts-Schwelle kommen auch dann in die Queue,
+  // wenn das regelbasierte Scoring sie nicht zur Triage empfohlen hat (E46) —
+  // sonst bekäme Haiku reine Echo-Wellen nie zu sehen.
+  const queuedIds = new Set([...currentCandidates, ...carried].map((e) => e.cluster.id));
+  const echoExtras = scored.filter(
+    ({ cluster }) => echoPriorityClusterIds.has(cluster.id) && !queuedIds.has(cluster.id),
+  );
+  const queue = [...currentCandidates, ...carried, ...echoExtras].sort((a, b) => {
+    const prio = Number(echoPriorityClusterIds.has(b.cluster.id)) - Number(echoPriorityClusterIds.has(a.cluster.id));
+    return prio || b.score.score - a.score.score;
+  });
   const toTriage = queue.slice(0, MAX_TRIAGE_PER_RUN);
   const overflow = queue.slice(MAX_TRIAGE_PER_RUN);
   const requeue: { cluster: Cluster; score: ClusterScore }[] = [...overflow];
@@ -200,7 +265,11 @@ async function main(): Promise<void> {
     const story = matchStory(cluster, stories);
     const fulltexts = await enrichClusterWithFulltext(cluster);
     try {
-      const triage = await triageCluster(cluster, story);
+      const triage = await triageCluster(
+        cluster,
+        story,
+        story?.articlePath ? { publishers24h: Object.keys(story.echoPublishers ?? {}).length } : undefined,
+      );
       triaged.push({ cluster, score, triage, story });
       stats.aiTriaged += 1;
       console.log(`Triage [${triage.action}/${triage.sensitivity}] ${cluster.title} (${fulltexts} Volltexte) — ${triage.reason}`);
@@ -218,6 +287,56 @@ async function main(): Promise<void> {
       });
     }
   }
+
+  // Phase 5.5: Resonanz auflösen + Frontmatter patchen (E46) ------------------
+  // Haiku-Urteil (falls dieser Run eines lieferte) schlägt die Zählung in beide
+  // Richtungen; sonst gilt die Zählung — außer ein früheres Haiku-Urteil ist
+  // noch in der TTL. Geschrieben wird mit Hysterese: nur bei Level-Änderung
+  // oder wenn dasselbe Level ≥ 2 länger als RESONANCE_REFRESH_HOURS steht.
+  const triageResonance = new Map<string, number>();
+  for (const t of triaged) {
+    if (t.story?.articlePath && typeof t.triage.resonance === 'number') {
+      triageResonance.set(t.story.slug, t.triage.resonance);
+    }
+  }
+
+  let resonanceUpdates = 0;
+  for (const [slug, detLevel] of detResonance) {
+    const story = stories.stories[slug];
+    if (!story) continue;
+
+    const override = triageResonance.get(slug);
+    let level: number;
+    let source: 'zaehlung' | 'triage';
+    if (override !== undefined) {
+      level = override;
+      source = 'triage';
+    } else if (triageTtlActive(story)) {
+      continue; // Haiku-Urteil hält noch — Zählung überschreibt nicht.
+    } else {
+      level = detLevel;
+      source = 'zaehlung';
+    }
+
+    const storedLevel = story.resonanceLevel ?? 1;
+    const stale =
+      !story.resonanceMeasuredAt || story.resonanceMeasuredAt < hoursAgo(RESONANCE_REFRESH_HOURS, now).toISOString();
+    if (level === storedLevel && !(level >= 2 && stale)) continue;
+
+    story.resonanceLevel = level;
+    story.resonanceSource = source;
+    story.resonanceMeasuredAt = nowIso;
+
+    // Level 1 steht nie im Frontmatter — Abklingen erledigt der Decay über
+    // measuredAt, das Feld bleibt als letzter Messstand stehen.
+    if (level >= 2) {
+      if (patchArticleResonance(slug, { level, measuredAt: nowIso, source })) {
+        resonanceUpdates += 1;
+        console.log(`Resonanz: ${slug} → Level ${level} (${source})`);
+      }
+    }
+  }
+  stats.resonanceUpdates = resonanceUpdates;
 
   // Phase 6: Drafts/Updates (Sonnet, max MAX_ARTICLES_PER_RUN) ----------------
   const searchBudget = Math.max(0, MAX_WEB_SEARCH_PER_DAY - webSearchCallsToday(history, dateStamp));
@@ -306,7 +425,7 @@ async function main(): Promise<void> {
       const slug = isUpdate ? story!.slug : resolveSlug(sanitized.slugSuggestion, sanitized.title);
 
       const existingFm = existingArticle?.frontmatter as
-        | { publishedAt?: string | Date; newsworthiness?: number; corrections?: { date: string | Date; type: 'correction' | 'update'; text: string }[]; image?: Record<string, unknown> }
+        | { publishedAt?: string | Date; newsworthiness?: number; corrections?: { date: string | Date; type: 'correction' | 'update'; text: string }[]; image?: Record<string, unknown>; resonance?: Record<string, unknown> }
         | undefined;
 
       // Bild (E44): Updates behalten das bestehende Bild; sonst deterministisch
@@ -351,6 +470,9 @@ async function main(): Promise<void> {
         updateNote: isUpdate ? (sanitized.updateNote ?? 'Artikel um neue Quellen ergänzt.') : undefined,
         nowIso,
         image: imageFrontmatter,
+        // Resonanz (E46) übersteht das Update unverändert — Phase 5.5 hat sie
+        // vor der Draft-Phase gesetzt, readExistingArticle liest den Stand.
+        resonance: existingFm?.resonance,
       });
 
       const researchPath = join(DATA_DIR, 'research', dateStamp, `${slug}${isUpdate ? `-update-${now.getUTCHours()}00` : ''}.json`);
@@ -410,6 +532,9 @@ async function main(): Promise<void> {
       articlePath: primary.articlePath,
       stats,
     };
+  } else if (resonanceUpdates > 0) {
+    // Nur resonance-Frontmatter geändert — braucht trotzdem Commit + Deploy (E46).
+    manifest = { ranAt: nowIso, action: 'resonance_update', articles: [], stats };
   }
 
   // Phase 7: Memory + Manifest -----------------------------------------------
@@ -536,6 +661,12 @@ function upsertStory(
     sensitivity: draft.sensitivity,
     doNotRedraftBefore: new Date(Date.parse(nowIso) + options.redraftLockHours * 3_600_000).toISOString(),
     doNotUpdateBefore: new Date(Date.parse(nowIso) + options.updateThrottleHours * 3_600_000).toISOString(),
+    // Resonanz-Zustand (E46) übersteht Drafts/Updates — sonst ginge das
+    // Messfenster bei jedem Story-Update verloren.
+    ...(previous?.echoPublishers ? { echoPublishers: previous.echoPublishers } : {}),
+    ...(previous?.resonanceLevel !== undefined ? { resonanceLevel: previous.resonanceLevel } : {}),
+    ...(previous?.resonanceSource ? { resonanceSource: previous.resonanceSource } : {}),
+    ...(previous?.resonanceMeasuredAt ? { resonanceMeasuredAt: previous.resonanceMeasuredAt } : {}),
   };
   memory.stories[slug] = story;
   return story;

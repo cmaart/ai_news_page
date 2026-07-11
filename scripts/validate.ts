@@ -40,6 +40,7 @@ interface Frontmatter {
   publishedAt?: string | Date;
   updatedAt?: string | Date;
   newsworthiness?: number;
+  resonance?: { level?: number; measuredAt?: string | Date; source?: string };
   sources?: { id: string }[];
   claims?: { id: string; sourceIds?: string[] }[];
   corrections?: Correction[];
@@ -214,6 +215,28 @@ for (const file of files) {
     (!Number.isInteger(data.newsworthiness) || data.newsworthiness < 1 || data.newsworthiness > 5)
   ) {
     fail(file, `newsworthiness muss eine ganze Zahl 1–5 sein (ist: ${data.newsworthiness})`);
+  }
+
+  // resonance (E46, falls gesetzt): Level 2–5, Messzeitpunkt plausibel, Quelle bekannt
+  if (data.resonance) {
+    const r = data.resonance;
+    if (!Number.isInteger(r.level) || (r.level as number) < 2 || (r.level as number) > 5) {
+      fail(file, `resonance.level muss eine ganze Zahl 2–5 sein (ist: ${r.level}) — Level 1 wird nie geschrieben`);
+    }
+    if (!r.measuredAt || Number.isNaN(toTime(r.measuredAt))) {
+      fail(file, 'resonance.measuredAt fehlt oder ist kein Datum');
+    } else {
+      if (data.publishedAt && toTime(r.measuredAt) < toTime(data.publishedAt)) {
+        fail(file, 'resonance.measuredAt liegt vor publishedAt');
+      }
+      // Toleranz für Uhren-Versatz zwischen Pipeline-Runner und Validierung.
+      if (toTime(r.measuredAt) > Date.now() + 3_600_000) {
+        fail(file, 'resonance.measuredAt liegt in der Zukunft');
+      }
+    }
+    if (r.source !== 'zaehlung' && r.source !== 'triage') {
+      fail(file, `resonance.source muss "zaehlung" oder "triage" sein (ist: ${r.source})`);
+    }
   }
 
   // corrected ⇔ mindestens ein corrections-Eintrag mit type: correction

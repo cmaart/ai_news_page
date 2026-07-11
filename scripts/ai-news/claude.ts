@@ -131,6 +131,7 @@ JSON-Format (alle Felder Pflicht):
   "reason": string,
   "sensitivity": "low" | "medium" | "high",
   "newsworthiness": 1 | 2 | 3 | 4 | 5,
+  "resonance": 1 | 2 | 3 | 4 | 5 | null,
   "possibleClaims": string[],
   "missingSources": string[]
 }
@@ -139,7 +140,11 @@ JSON-Format (alle Felder Pflicht):
 const TRIAGE_ACTIONS = new Set(['ignore', 'monitor', 'research_note', 'draft_article', 'update_story']);
 const SENSITIVITIES = new Set(['low', 'medium', 'high']);
 
-export async function triageCluster(cluster: Cluster, relatedStory: Story | undefined): Promise<TriageResult> {
+export async function triageCluster(
+  cluster: Cluster,
+  relatedStory: Story | undefined,
+  echo?: { publishers24h: number },
+): Promise<TriageResult> {
   const input = {
     cluster: {
       title: cluster.title,
@@ -158,6 +163,9 @@ export async function triageCluster(cluster: Cluster, relatedStory: Story | unde
           slug: relatedStory.slug,
           canonicalTitle: relatedStory.canonicalTitle,
           status: relatedStory.status,
+          hasPublishedArticle: !!relatedStory.articlePath,
+          /** Deterministisch gezählte distinkte Portale mit Folge-Items in den letzten 24 h (E46). */
+          echoPublishers24h: echo?.publishers24h ?? 0,
           openQuestions: relatedStory.openQuestions,
           knownSourceUrls: relatedStory.sourceUrls,
         }
@@ -176,7 +184,15 @@ export async function triageCluster(cluster: Cluster, relatedStory: Story | unde
   5 = weitreichende Bedeutung für Österreich/EU (Regierungsentscheidung, große Wirtschafts-/Arbeitsmarktlage) ·
   4 = klare öffentliche Relevanz, viele Betroffene · 3 = solide Nachricht mit begrenzter Reichweite ·
   2 = Nischenthema, geringe Konsequenzen · 1 = Termin-/Event-Ankündigung, Kultur-/Produkt-PR ohne Nachrichtenwert.
-  Event-/Ausstellungs-/Kultur-Ankündigungen und Presseaussendungen ohne gesellschaftliche Konsequenz: 1–2.\n\n${TRIAGE_FORMAT}`;
+  Event-/Ausstellungs-/Kultur-Ankündigungen und Presseaussendungen ohne gesellschaftliche Konsequenz: 1–2.
+- "resonance" (beobachtetes Medienecho, E46) NUR wenn relatedStory existiert und hasPublishedArticle true ist,
+  sonst null. Beurteile die Qualität des Echos auf den bereits publizierten Artikel anhand der neuen Items:
+  1 = kein nennenswertes Echo ODER reine Agentur-Syndikation (mehrere Portale mit erkennbar demselben
+  Agenturtext zählen als EIN Echo) · 3 = mehrere unabhängige, eigenständige Folgeberichte ·
+  5 = Story dominiert die Nachrichtenlage (breite unabhängige Berichterstattung, Reaktionen, Analysen).
+  "echoPublishers24h" ist die rohe deterministische Portal-Zählung — korrigiere sie nach unten, wenn das
+  Echo nur Syndikation ist, und nach oben, wenn eigenständige Reaktionen/Analysen dazukommen.
+  resonance ist reine Beobachtung des Echos — unabhängig von newsworthiness und sensitivity.\n\n${TRIAGE_FORMAT}`;
 
   const result = await runClaudeJson<TriageResult>(JSON.stringify(input), {
     model: TRIAGE_MODEL,
@@ -193,6 +209,13 @@ export async function triageCluster(cluster: Cluster, relatedStory: Story | unde
   // Weiches Feld: coercen und clampen statt Run abbrechen; fehlend/NaN → 3.
   const news = Math.round(Number(result.newsworthiness));
   result.newsworthiness = Number.isFinite(news) ? Math.min(5, Math.max(1, news)) : 3;
+  // resonance ebenso weich: nur übernehmen, wenn eine Story mit Artikel dranhängt (E46).
+  if (result.resonance != null && relatedStory?.articlePath) {
+    const res = Math.round(Number(result.resonance));
+    result.resonance = Number.isFinite(res) ? Math.min(5, Math.max(1, res)) : null;
+  } else {
+    result.resonance = null;
+  }
   return result;
 }
 

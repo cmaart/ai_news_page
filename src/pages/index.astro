@@ -8,6 +8,7 @@ import {
   claimStats,
   COUNTRY_LABELS,
   formatDate,
+  hasBroadEcho,
   isListed,
   isPrimarySource,
   LEVEL_METER,
@@ -86,6 +87,11 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
             {TOPIC_LABELS[lead.data.topic]} · {COUNTRY_LABELS[lead.data.country]}
             {lead.data.publishedAt && <span class="eyebrow__date">· {formatDate(lead.data.publishedAt)}</span>}
             {lead.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+            {hasBroadEcho(lead) && (
+              <span class="badge badge--accent" title="Viele unabhängige Medien berichten derzeit über diese Story — das beeinflusst die Reihung, nicht die Verlässlichkeit">
+                Breites Echo
+              </span>
+            )}
           </div>
           <h2 class="lead__title">{lead.data.title}</h2>
           <p class="lead__standfirst">{lead.data.description}</p>
@@ -128,6 +134,11 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
                         <span class="eyebrow__date">· {formatDate(article.data.publishedAt)}</span>
                       )}
                       {article.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+                      {hasBroadEcho(article) && (
+                        <span class="badge badge--accent" title="Viele unabhängige Medien berichten derzeit über diese Story — das beeinflusst die Reihung, nicht die Verlässlichkeit">
+                          Breites Echo
+                        </span>
+                      )}
                     </div>
                     <h3 class="toplist__title">{article.data.title}</h3>
                     <div class="metrics">

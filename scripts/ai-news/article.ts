@@ -50,6 +50,8 @@ export interface WriteArticleOptions {
   nowIso: string;
   /** Fertiges Frontmatter-image-Objekt (E44); bei Updates ohne neues Bild das bestehende. */
   image?: Record<string, unknown>;
+  /** Bestehendes resonance-Objekt (E46) — bei Updates unverändert durchreichen. */
+  resonance?: Record<string, unknown>;
 }
 
 /**
@@ -88,6 +90,7 @@ export function writeArticle(options: WriteArticleOptions): string {
     framingRisk: draft.framingRisk,
     framingRiskNote: draft.framingRiskNote,
     newsworthiness,
+    ...(options.resonance ? { resonance: options.resonance } : {}),
     summary: draft.summary,
     openQuestions: draft.openQuestions,
     sources: draft.sources,
@@ -115,6 +118,25 @@ export function writeArticle(options: WriteArticleOptions): string {
   const path = join(ARTICLES_DIR, `${slug}.mdx`);
   writeFileSync(path, mdx, 'utf8');
   return `src/content/articles/${slug}.mdx`;
+}
+
+/**
+ * Setzt nur das resonance-Frontmatter (E46) eines bestehenden Artikels neu —
+ * Body und alle übrigen Felder bleiben inhaltlich unverändert (Roundtrip über
+ * gray-matter + yaml, wie beim regulären Schreiben). Gibt false zurück, wenn
+ * die Artikeldatei nicht existiert.
+ */
+export function patchArticleResonance(
+  slug: string,
+  resonance: { level: number; measuredAt: string; source: 'zaehlung' | 'triage' },
+): boolean {
+  const path = join(ARTICLES_DIR, `${slug}.mdx`);
+  if (!existsSync(path)) return false;
+  const parsed = matter(readFileSync(path, 'utf8'));
+  const frontmatter = { ...(parsed.data as Record<string, unknown>), resonance };
+  const yamlText = stringify(frontmatter, { lineWidth: 0 }).trimEnd();
+  writeFileSync(path, `---\n${yamlText}\n---\n\n${parsed.content.trim()}\n`, 'utf8');
+  return true;
 }
 
 export function listExistingSlugs(): Set<string> {

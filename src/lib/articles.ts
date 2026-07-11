@@ -84,6 +84,12 @@ export function byNewest(a: Article, b: Article): number {
 const CONFIDENCE_SCORE: Record<ArticleData['confidence'], number> = { low: 0, medium: 0.5, high: 1 };
 const STRENGTH_SCORE: Record<ArticleData['primarySourceStrength'], number> = { none: 0, weak: 1 / 3, medium: 2 / 3, strong: 1 };
 const RELEVANCE_HALF_LIFE_DAYS = 3;
+// Resonanz (E46): Medienecho hebt additiv — volle Welle (Level 5, frisch) ≈ +3,5
+// Newsworthiness-Stufen. Kalibriert an echten Scores: muss den Quality-Abstand
+// eines News-3/weak-Artikels zu einem gleichtags erschienenen News-5-Aufmacher
+// (~0,33) überbrücken. Eigener, kürzerer Decay: Welle ebbt binnen Tagen ab.
+const RESONANCE_WEIGHT = 0.35;
+const RESONANCE_HALF_LIFE_DAYS = 1;
 // Statische Site: einmal pro Build ausgewertet, damit alle Vergleiche konsistent sind.
 const BUILD_NOW = Date.now();
 
@@ -110,7 +116,22 @@ export function relevanceScore(article: Article, now: number = BUILD_NOW): numbe
     0.1 * supportedRatio;
 
   const ageDays = Math.max(0, (now - ref.getTime()) / 86_400_000);
-  return quality * Math.pow(0.5, ageDays / RELEVANCE_HALF_LIFE_DAYS);
+  const base = quality * Math.pow(0.5, ageDays / RELEVANCE_HALF_LIFE_DAYS);
+
+  // Resonanz (E46): additiv, damit eine Welle auch Artikel mit schwacher
+  // Quellenlage in den Aufmacher heben kann — bewusste Entscheidung, die
+  // Metriken stehen sichtbar daneben.
+  if (!d.resonance) return base;
+  const resonanceAgeDays = Math.max(0, (now - d.resonance.measuredAt.getTime()) / 86_400_000);
+  const echo =
+    RESONANCE_WEIGHT * ((d.resonance.level - 1) / 4) * Math.pow(0.5, resonanceAgeDays / RESONANCE_HALF_LIFE_DAYS);
+  return base + echo;
+}
+
+/** Badge „Breites Echo" (E46): starkes, frisch gemessenes Medienecho. */
+export function hasBroadEcho(article: Article, now: number = BUILD_NOW): boolean {
+  const r = article.data.resonance;
+  return !!r && r.level >= 4 && now - r.measuredAt.getTime() < 48 * 3_600_000;
 }
 
 export function byRelevance(a: Article, b: Article): number {

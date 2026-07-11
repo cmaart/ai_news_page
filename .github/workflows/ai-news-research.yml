@@ -104,9 +104,10 @@ jobs:
           git push origin main
 
       # GITHUB_TOKEN-Pushes triggern deploy.yml nicht — bei publizierten
-      # Artikeln explizit dispatchen.
+      # Artikeln und Resonanz-Änderungen (E46, Ranking-Wirkung braucht Build)
+      # explizit dispatchen.
       - name: Trigger deploy
-        if: startsWith(steps.manifest.outputs.action, 'published')
+        if: startsWith(steps.manifest.outputs.action, 'published') || steps.manifest.outputs.action == 'resonance_update'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run deploy.yml --ref main

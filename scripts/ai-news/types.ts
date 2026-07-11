@@ -65,6 +65,17 @@ export interface Story {
   sensitivity?: 'low' | 'medium' | 'high';
   doNotRedraftBefore?: string;
   doNotUpdateBefore?: string;
+  /**
+   * Resonanz-Zählung (E46): Publisher-Kürzel (portalOf) → Zeitpunkt des letzten
+   * neuen Story-Matches. Rollierendes Fenster (AI_NEWS_RESONANCE_WINDOW_HOURS),
+   * alte Einträge werden pro Run ausgedünnt.
+   */
+  echoPublishers?: Record<string, string>;
+  /** Zuletzt festgestelltes Resonanz-Level (1–5; 1 = neutral, steht nie im Frontmatter). */
+  resonanceLevel?: number;
+  /** Wer zuletzt gemessen hat — Haiku-Urteil (triage) hält 24 h gegen die Zählung (E46). */
+  resonanceSource?: 'zaehlung' | 'triage';
+  resonanceMeasuredAt?: string;
 }
 
 export interface StoryMemory {
@@ -102,6 +113,8 @@ export interface RunRecord {
   carriedOver?: number;
   /** Am Run-Ende in den Backlog geschriebene Cluster. */
   backlogged?: number;
+  /** Artikel, deren resonance-Frontmatter dieser Run geändert hat (E46). */
+  resonanceUpdates?: number;
 }
 
 export interface Cluster {
@@ -157,6 +170,12 @@ export interface TriageResult {
   sensitivity: Sensitivity;
   /** Nachrichtenwert 1–5 (PLAN.md E38), landet im Artikel-Frontmatter. */
   newsworthiness: number;
+  /**
+   * Resonanz-Urteil 1–5 (E46), nur wenn relatedStory einen publizierten Artikel
+   * hat — beurteilt Echo-Qualität (Agentur-Syndikation zählt als EIN Echo) und
+   * überschreibt die deterministische Zählung für 24 h. Sonst null/fehlend.
+   */
+  resonance?: number | null;
   possibleClaims: string[];
   missingSources: string[];
 }
@@ -233,8 +252,12 @@ export interface ManifestArticle {
 
 export interface RunManifest {
   ranAt: string;
-  /** 'published_new' sobald mindestens ein neuer Artikel dabei ist (Deploy-Trigger). */
-  action: 'none' | 'published_new' | 'published_update';
+  /**
+   * 'published_new' sobald mindestens ein neuer Artikel dabei ist;
+   * 'resonance_update' wenn nur resonance-Frontmatter geändert wurde —
+   * beides Deploy-Trigger (E46).
+   */
+  action: 'none' | 'published_new' | 'published_update' | 'resonance_update';
   /** Alle Artikel dieses Runs (max AI_NEWS_MAX_ARTICLES_PER_RUN). */
   articles: ManifestArticle[];
   slug?: string;
