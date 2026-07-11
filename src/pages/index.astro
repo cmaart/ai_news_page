@@ -121,24 +121,31 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
             topStories.length > 0 ? (
               topStories.map((article) => (
                 <a class="story toplist__item" href={withBase(`/artikel/${article.id}/`)}>
-                  <div class="eyebrow eyebrow--small">
-                    {TOPIC_LABELS[article.data.topic]} · {COUNTRY_LABELS[article.data.country]}
-                    {article.data.publishedAt && (
-                      <span class="eyebrow__date">· {formatDate(article.data.publishedAt)}</span>
-                    )}
-                    {article.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+                  <div class="toplist__body">
+                    <div class="eyebrow eyebrow--small">
+                      {TOPIC_LABELS[article.data.topic]} · {COUNTRY_LABELS[article.data.country]}
+                      {article.data.publishedAt && (
+                        <span class="eyebrow__date">· {formatDate(article.data.publishedAt)}</span>
+                      )}
+                      {article.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+                    </div>
+                    <h3 class="toplist__title">{article.data.title}</h3>
+                    <div class="metrics">
+                      <span>Primärquellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
+                      <span title="Wie einseitig gefärbt die Darstellung in den verfügbaren Quellen sein könnte">
+                        Einseitigkeit {LEVEL_METER[article.data.framingRisk]}/5
+                      </span>
+                      <span>
+                        {article.data.sources.filter(isPrimarySource).length}{' '}
+                        {article.data.sources.filter(isPrimarySource).length === 1 ? 'Primärquelle' : 'Primärquellen'}
+                      </span>
+                    </div>
                   </div>
-                  <h3 class="toplist__title">{article.data.title}</h3>
-                  <div class="metrics">
-                    <span>Primärquellen {STRENGTH_METER[article.data.primarySourceStrength]}/5</span>
-                    <span title="Wie einseitig gefärbt die Darstellung in den verfügbaren Quellen sein könnte">
-                      Einseitigkeit {LEVEL_METER[article.data.framingRisk]}/5
-                    </span>
-                    <span>
-                      {article.data.sources.filter(isPrimarySource).length}{' '}
-                      {article.data.sources.filter(isPrimarySource).length === 1 ? 'Primärquelle' : 'Primärquellen'}
-                    </span>
-                  </div>
+                  {article.data.image && (
+                    <div class="toplist__thumb">
+                      <Image src={article.data.image.file} alt="" widths={[80, 160]} sizes="74px" />
+                    </div>
+                  )}
                 </a>
               ))
             ) : (
@@ -309,19 +316,22 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     padding-right: 44px;
   }
 
-  /* Teaser-Ausschnitt nur via object-fit — Datei bleibt ungecroppt (E44). */
+  /* Teaser-Ausschnitt nur via object-fit — Datei bleibt ungecroppt (E44).
+     Feste Höhen + Hairline-Border exakt nach Vorlage (BELEG Startseite). */
   .lead__media,
   .ressort__media {
-    aspect-ratio: 3 / 2;
     overflow: hidden;
+    border: 1px solid var(--color-border);
   }
 
   .lead__media {
-    margin-bottom: 18px;
+    height: 300px;
+    margin-bottom: 22px;
   }
 
   .ressort__media {
-    margin-bottom: 14px;
+    height: 134px;
+    margin-bottom: 16px;
   }
 
   .lead__media :global(img),
@@ -399,12 +409,35 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
   }
 
   .toplist__item {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
     padding: 18px 0;
     border-bottom: 1px solid var(--color-border);
   }
 
   .toplist__item:last-child {
     border-bottom: none;
+  }
+
+  .toplist__body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .toplist__thumb {
+    flex: none;
+    width: 74px;
+    height: 74px;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+  }
+
+  .toplist__thumb :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .toplist__title {

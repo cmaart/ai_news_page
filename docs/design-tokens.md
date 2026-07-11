@@ -106,6 +106,11 @@ Fallbacks: `'IBM Plex Sans', system-ui, sans-serif` (Body-Default).
 - Themen-Grid: 3-spaltig ohne gap, Zellen padding 20px 24px, Hairline-Border rechts/unten (erste Spalte pl 0, letzte pr 0 + kein border-right); Name Spectral 600 18px, Count Mono 10.5px
 - Neueste-Grid: 3-spaltig ohne gap, Zellen padding 24px 28px 26px, gleiche Border-Logik; Kopfzeile Eyebrow 10px + Datum Mono 10px `#9a948a`; H3 19px lh1.26; Teaser 13.5px `#6E6A63`; Metriken Mono 9.5px mit farbigem `● BELEGT x/y` (ok) / `● TEILS BELEGT` (warn)
 - Story-Hover: Titel → accent-hover (transition .15s)
+- Bild-Slots (bedingt — nur wenn Artikel ein Bild hat, sonst entfällt der Slot ersatzlos):
+  Lead height 300px, margin-bottom 22px; Grid-Karten height 134px, margin-bottom 16px (über der Eyebrow-Zeile);
+  Top-Listen-Thumbnails 74×74px rechts neben Text (flex, gap 16px, align-items flex-start);
+  alle mit `border: 1px solid #E4E0D8`, Ausschnitt via `object-fit: cover` (E44 — Datei bleibt ungecroppt).
+  Caption-Chip im Vorlagen-Platzhalter ist Platzhalter-Annotation, wird nicht übernommen.
 - Vorlage-Breite 1140px → bei uns 1024px (Entscheidung 23); Newsletter-Block + Archiv-Button + „Über uns" nicht übernommen; Methodik-Band-Texte neu formuliert (Vorlage behauptet menschliche Redaktion)
 
 ## Cookie-Banner (aus „BELEG CookieBanner.html")
