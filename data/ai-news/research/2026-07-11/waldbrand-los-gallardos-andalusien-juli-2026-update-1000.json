@@ -1,0 +1,428 @@
+{
+  "cluster": {
+    "id": "cluster-20260711-bc9909a1",
+    "title": "Waldbrand in Spanien: Löschbedingungen bessern sich",
+    "items": [
+      {
+        "itemId": "a6a247c71afd3eb42a607fd32927e50c650fcc8f61e12979557f21eee8e5d1fa",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Waldbrand in Spanien: Löschbedingungen bessern sich",
+        "url": "https://orf.at/stories/3435920",
+        "publishedAt": "2026-07-11T09:33:38.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "25a6a9f49c15f7cbaf747b5dd03c5c7e09be1505db57d2da562feacb7c594269",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Schon zwölf Tote bei Waldbrand in Spanien",
+        "url": "https://orf.at/stories/3435786",
+        "isNew": false
+      },
+      {
+        "itemId": "16ee2aef43a369a1a1f189cc58b734fe92406b8ed0a67a5f75b8aa41c497b7e2",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "„Weg wurde für sie zur Falle“: Viele Urlauber unter den zwölf Toten des  Waldbrandes in Spanien vermutet [premium]",
+        "url": "https://www.diepresse.com/36407528/weg-wurde-fuer-sie-zur-falle-viele-urlauber-unter-den-zwoelf-toten-des-waldbrandes-in-spanien-vermutet",
+        "isNew": false
+      },
+      {
+        "itemId": "8b7fc70c4d3b9cd4133e219493da8d31c898f9a0bd1fc0b5ac81a3e47b186b35",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Spanien: „Weg wurde für sie zur Falle“: Viele Urlauber unter den zwölf Toten des Waldbrandes vermutet",
+        "url": "https://www.kleinezeitung.at/artikel/36438080/weg-wurde-fuer-sie-zur-falle-viele-urlauber-unter-den-zwoelf-toten-des",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Relatierte Story ist veröffentlicht (hasPublishedArticle: true). Der neue ORF-Bericht (11.07., 09:33 Uhr) liefert aktuelle Updates zur Verbesserung der Löschbedingungen und zum Übergang in den Angriffsmodus. Die Presse (10.07., 12:43 Uhr) trägt substanzielle Hintergrundinformationen zu Opferdynamik, Fluchtfehlern und Gelände-Schwierigkeiten bei — dies rechtfertigt ein Update. Quellenlage ist solide (ORF + Presse mit Fulltext-Auszügen), aber Echo ist dünn (echoPublishers24h: 1, hauptsächlich Syndikation). Zahlenunstimmigkeiten (6.600 vs. 3.150 Hektar) und ausstehende Amtsbestätigungen erfordern vorsichtige Behandlung.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 1,
+    "possibleClaims": [
+      "Mindestens 12 Tote bei Waldbrand im Südosten Spaniens (Los Gallardos, Almería)",
+      "19 Menschen gelten als vermisst (Die Presse, 10.07.)",
+      "6.600 Hektar Wald betroffen (ORF) versus 3.150 Hektar (Die Presse) – Diskrepanz zu klären",
+      "Tote überwiegend Ausländer, vermutlich überwiegend britische Touristen und Residenten",
+      "Vier Leichen in ausgebranntem Auto gefunden; Lenkrad auf rechter Seite deutet auf britische Fahrzeuge",
+      "Vermutliche Ursache: gerissene Stromleitung, die in ausgetrocknete Vegetation fiel (nicht amtlich bestätigt)",
+      "Fluchtdynamik: Opfer weichen von Evakuierungsroute ab, nehmen trockenes Flussbett – werden von Flammen eingekesselt",
+      "Löschbedingungen verbessern sich (11.07.); erstmals Angriffsmodus statt defensiver Einsatz möglich",
+      "Schwieriges Gelände (Schluchten, tiefe Flussbetten, steile Hänge) behindert Rettungs- und Löscharbeiten",
+      "Brand gilt bereits als tödlichstes Feuer in Andalusien seit Beginn der Aufzeichnungen"
+    ],
+    "missingSources": [
+      "Offizielle Behördenbestätigung der finalen Todesfallzahl",
+      "Amtliche Bestätigung der Brandursache (bisher nur Hypothese der gestürzten Stromleitung)",
+      "Offizielle Bestätigung der Nationalitäten und Identitäten der Todesopfer",
+      "Auflösung der Flächenunstimmigkeit: 6.600 vs. 3.150 Hektar",
+      "Stellungnahmen der Generalidad de Andalucía zur Gesamtbilanz (Brand-Klassifizierung)",
+      "Aktuelle Evakuierungsummern und Rückkehr-Zeitplan"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "waldbrand-los-gallardos-andalusien-juli-2026",
+    "title": "Waldbrand in Andalusien: Löschbedingungen bessern sich – zwölf Tote, Vermisste weiter ungeklärt",
+    "description": "Nach dem verheerenden Waldbrand bei Los Gallardos in der Provinz Almería verbessern sich laut ORF-Berichten vom 11. Juli die Löschbedingungen; ein Übergang zu offensiveren Löschmaßnahmen gilt als möglich. Weiterhin gelten laut Notdienst und Medien mindestens zwölf Menschen als tot und je nach Quelle 19 bis 23 als vermisst, ein Großteil davon Urlauber und ausländische Anwohner. Zur betroffenen Fläche kursieren stark schwankende Angaben zwischen rund 3.150 und 6.600 Hektar; Ursache, endgültiges Ausmaß und die Identität der Opfer bleiben offen.",
+    "topic": "gesellschaft",
+    "country": "eu",
+    "confidence": "medium",
+    "confidenceNote": "Mehrere voneinander unabhängige österreichische, deutsche, spanische und internationale Medien berichten inzwischen seit über einem Tag übereinstimmend von zwölf Toten und einer Verbesserung der Löschbedingungen. Zahlen zu Vermissten (19 bis 23), Evakuierten (600 bis 1.405) und betroffener Fläche (rund 3.150 bis 6.600 Hektar) bleiben jedoch uneinheitlich und teils schwer vergleichbar, da sie zu unterschiedlichen Zeitpunkten des andauernden Einsatzes erhoben wurden.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Weiterhin keine amtliche Originalquelle (Junta de Andalucía, Notdienst 112 direkt oder Einsatzleitung) eingesehen; alle Angaben – inklusive Zitate von Regionalrat Antonio Sanz, Aussagen des Bürgermeisters zu den Nationalitäten der Opfer und Angaben zu Staatstrauer und Autopsien – stammen ausschließlich aus Medienberichten.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Angaben zur Nationalität der Todesopfer (überwiegend britisch/belgisch) stammen von Medien und einem zitierten Bürgermeister, während laut einem Bericht die amtliche Identifizierung der Opfer trotz abgeschlossener Autopsien noch aussteht. Die Einordnung als historisch folgenschwerster Brand der Region wird weiterhin nicht durch eine neutrale, vergleichende amtliche Quelle bestätigt. Emotionale Details (Fluchtroute als „Falle“, eingekesselte Urlauber) werden bewusst zurückhaltend wiedergegeben.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Bei einem Waldbrand in Los Gallardos (Provinz Almería, Andalusien) sind laut Notdienst 112 weiterhin mindestens zwölf Menschen ums Leben gekommen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut ORF-Berichten vom 11. Juli haben sich die Löschbedingungen über Nacht verbessert; ein Übergang von defensiven zu offensiveren Löschmaßnahmen gilt als möglich, der Brand ist aber weiterhin nicht vollständig eingedämmt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Je nach Quelle werden zwischen 19 und 23 Menschen weiterhin vermisst.",
+        "kind": "open"
+      },
+      {
+        "text": "Laut mehreren Medienberichten und Aussagen des Bürgermeisters ist der Großteil der Todesopfer ausländischer Staatsangehörigkeit, vor allem britisch und belgisch; eine amtliche Identifizierung der Opfer steht laut einem Bericht trotz abgeschlossener Autopsien noch aus.",
+        "kind": "open"
+      },
+      {
+        "text": "Zur betroffenen Fläche kursieren stark schwankende Angaben zwischen rund 3.150 und 6.600 Hektar, teils erhoben zu unterschiedlichen Zeitpunkten des andauernden Einsatzes.",
+        "kind": "open"
+      },
+      {
+        "text": "Als Arbeitshypothese gilt ein sogenannter Grabenbrand, ausgelöst durch eine gerissene Stromleitung; begünstigt durch Windböen von bis zu 50 km/h soll sich das Feuer laut einem Bericht binnen zwei Stunden über rund 15 Kilometer ausgebreitet haben.",
+        "kind": "open"
+      },
+      {
+        "text": "Mehrere Todesopfer wurden in Fahrzeugen gefunden, die von den Flammen eingeschlossen wurden; weitere sollen laut einem Bericht beim Versuch, zu Fuß über ein trockenes Flussbett zu fliehen, von den Flammen eingeholt worden sein.",
+        "kind": "open"
+      },
+      {
+        "text": "Die Region Andalusien hat laut Medienberichten drei Tage offizielle Trauer verhängt.",
+        "kind": "fact"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch ist die endgültige, amtlich bestätigte Zahl der Toten und Verletzten?",
+      "Wie viele der derzeit als vermisst gemeldeten Personen (19 bis 23, je nach Quelle) sind tatsächlich ums Leben gekommen bzw. lediglich unauffindbar, aber wohlauf?",
+      "Was genau hat den Brand ausgelöst – wird die Hypothese der gerissenen Stromleitung amtlich bestätigt?",
+      "Wie groß ist die betroffene Fläche tatsächlich, angesichts stark schwankender Angaben zwischen rund 3.150 und 6.600 Hektar?",
+      "Handelt es sich tatsächlich um den größten Waldbrand in der Geschichte Spaniens bzw. Andalusiens, oder ist das eine vorläufige Einschätzung?",
+      "Wie viele Menschen sind insgesamt evakuiert, und wann können sie zurückkehren?",
+      "Welche Nationalitäten haben die Todesopfer tatsächlich, und wird dies nach Abschluss der Identifizierung amtlich bestätigt?",
+      "Wird der Brand in den kommenden Tagen amtlich als eingedämmt gemeldet, nachdem sich die Löschbedingungen laut Medien verbessert haben?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF – „Schon zwölf Tote bei Waldbrand in Spanien“",
+        "type": "media",
+        "url": "https://orf.at/stories/3435786"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse – „Mindestens zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://www.diepresse.com/36401562/mindestens-zwoelf-tote-bei-waldbrand-in-suedspanien"
+      },
+      {
+        "id": "src3",
+        "name": "Der Standard – „Mindestens zwölf Tote bei Waldbrand im Süden Spaniens“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000330890/mindestens-zw246lf-tote-bei-waldbrand-im-s252den-spaniens"
+      },
+      {
+        "id": "src4",
+        "name": "eldiario.es – „Al menos 12 personas fallecidas por el incendio de Los Gallardos, Almería“",
+        "type": "media",
+        "url": "https://www.eldiario.es/andalucia/almeria/12-personas-fallecidas-incendio-gallardos-almeria_1_13370103.html"
+      },
+      {
+        "id": "src5",
+        "name": "The Olive Press – „12 dead in Almeria in 'worst ever Andalucia wildfire'“",
+        "type": "media",
+        "url": "https://www.theolivepress.es/spain-news/2026/07/10/breaking-at-least-12-dead-in-almeria-after-worst-ever-andalucia-wildfire-firefighters-find-bodies-inside-burned-out-vehicles/"
+      },
+      {
+        "id": "src6",
+        "name": "Berliner Zeitung – „Los Gallardos: Zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://www.berliner-zeitung.de/article/los-gallardos-zwoelf-tote-bei-waldbrand-in-suedspanien-10184522"
+      },
+      {
+        "id": "src7",
+        "name": "Libertad Digital – „Al menos once personas muertas y ocho heridos ... por el incendio de Los Gallardos“",
+        "type": "media",
+        "url": "https://www.libertaddigital.com/andalucia/2026-07-10/al-menos-once-personas-muertas-por-el-incendio-de-los-gallardos-almeria-7433523/"
+      },
+      {
+        "id": "src8",
+        "name": "ORF – „Zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://orf.at/stories/3435781"
+      },
+      {
+        "id": "src9",
+        "name": "Der Standard – „Zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331017/zwoelf-tote-bei-waldbrand-bei-suedspanien"
+      },
+      {
+        "id": "src10",
+        "name": "Kleine Zeitung – „Von Flammen eingeschlossen: Zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36398675/sechs-tote-bei-waldbrand-in-suedspanien"
+      },
+      {
+        "id": "src11",
+        "name": "eldiario.es – „Última hora del incendio en Almería: 12 muertos, 8 heridos y 23 desaparecidos en el fuego en Los Gallardos“",
+        "type": "media",
+        "url": "https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html"
+      },
+      {
+        "id": "src12",
+        "name": "El Español – „Incendio forestal de Los Gallardos, Almería: Moreno confirma 12 víctimas mortales y 23 desaparecidos“",
+        "type": "media",
+        "url": "https://www.elespanol.com/espana/andalucia/20260710/incendio-forestal-gallardos-almeria-andalucia-ultima-hora-fuego-muertos-desaparecidos/1003744316760_10.html"
+      },
+      {
+        "id": "src13",
+        "name": "Libertad Digital – „Antonio Sanz revela cómo quedaron atrapadas las víctimas del incendio de Los Gallardos: 'Acabaron en una ratonera'“",
+        "type": "media",
+        "url": "https://www.libertaddigital.com/espana/2026-07-10/antonio-sanz-revela-como-quedaron-atrapadas-las-victimas-del-incendio-de-los-gallardos-acabaron-en-una-ratonera-7433587/"
+      },
+      {
+        "id": "src14",
+        "name": "ORF – „Waldbrände und Trockenheit: Extreme Hitze hat Europa erneut im Griff“",
+        "type": "media",
+        "url": "https://orf.at/stories/3435808/"
+      },
+      {
+        "id": "src15",
+        "name": "ORF – „Waldbrand in Spanien: Löschbedingungen bessern sich“",
+        "type": "media",
+        "url": "https://orf.at/stories/3435920"
+      },
+      {
+        "id": "src16",
+        "name": "Die Presse – „‚Weg wurde für sie zur Falle‘: Viele Urlauber unter den zwölf Toten des Waldbrandes in Spanien vermutet“",
+        "type": "media",
+        "url": "https://www.diepresse.com/36407528/weg-wurde-fuer-sie-zur-falle-viele-urlauber-unter-den-zwoelf-toten-des-waldbrandes-in-spanien-vermutet"
+      },
+      {
+        "id": "src17",
+        "name": "Kleine Zeitung – „‚Weg wurde für sie zur Falle‘: Viele Urlauber unter den zwölf Toten des Waldbrandes vermutet“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36438080/weg-wurde-fuer-sie-zur-falle-viele-urlauber-unter-den-zwoelf-toten-des"
+      },
+      {
+        "id": "src18",
+        "name": "El Español – „Los fallecidos en el incendio de Los Gallardos son casi todos 'británicos o belgas' que buscaron salida entre las llamas“",
+        "type": "media",
+        "url": "https://www.elespanol.com/espana/andalucia/20260710/fallecidos-gallardos-extranjeros-britanicos-belgas-buscaron-salida-llamas/1003744316926_0.html"
+      },
+      {
+        "id": "src19",
+        "name": "El Español – „‚Quisieron huir y han muerto familias enteras en los coches‘: el terror de los 600 desalojados por el incendio de Los Gallardos“",
+        "type": "media",
+        "url": "https://www.elespanol.com/espana/andalucia/20260711/quisieron-huir-muerto-familias-enteras-coches-terror-desalojados-incendio-gallardos-dl/1003744317854_0.html"
+      },
+      {
+        "id": "src20",
+        "name": "RTÉ – „Slight improvement in battle to contain Spain wildfires“",
+        "type": "media",
+        "url": "https://www.rte.ie/news/world/2026/0711/1582864-spain-wildfire/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Bei einem Waldbrand in der Gemeinde Los Gallardos (Provinz Almería, Andalusien) sind laut Notdienst 112 mindestens zwölf Menschen ums Leben gekommen.",
+        "status": "supported",
+        "note": "Übereinstimmend von zahlreichen unabhängigen österreichischen, spanischen und internationalen Medien über mehr als einen Tag hinweg berichtet, unter Berufung auf den regionalen Notdienst 112 und den Regionalpräsidenten Juanma Moreno; keine eigene Primärquelle gelesen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6",
+          "src11",
+          "src12",
+          "src16",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Nach Angaben mehrerer Medien haben sich die Löschbedingungen in der Nacht auf den 11. Juli verbessert; ein Übergang von defensiven zu offensiveren Löschmaßnahmen soll erstmals seit Ausbruch möglich sein, unterstützt durch zusätzliche Löschflugzeuge tagsüber.",
+        "status": "partial",
+        "note": "Beruht auf ORF- und internationalen Medienberichten (u. a. RTÉ) unter Berufung auf den Einsatzstab; keine eigene amtliche Lagebestätigung eingesehen. Der Brand gilt weiterhin nicht als vollständig eingedämmt.",
+        "sourceIds": [
+          "src15",
+          "src20"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Nach Behördenangaben werden weiterhin Menschen vermisst; die genannte Zahl schwankt je nach Bericht zwischen 19 und 23. Ein Teil der Vermissten könnte unversehrt, aber schlicht unauffindbar an anderen Orten sein.",
+        "status": "partial",
+        "note": "Die Zahl 23 stammt aus mehreren spanischen Medienberichten unter Berufung auf Regierungschef Moreno, ein internationaler Bericht (RTÉ) nennt hingegen 19; keine einheitliche amtliche Bestätigung, keine eigene Primärquelle geprüft.",
+        "sourceIds": [
+          "src11",
+          "src12",
+          "src20"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Der Großteil der Todesopfer soll laut mehreren Medienberichten und Aussagen des Bürgermeisters der Gemeinde ausländischer Staatsangehörigkeit sein – vor allem britische und belgische Staatsangehörige, teils langjährige Anwohner der Region. Eine amtliche, vollständige Identifizierung der Opfer liegt bislang nicht vor.",
+        "status": "partial",
+        "note": "Beruht auf Aussagen des Bürgermeisters und Medienberichten (u. a. El Español); laut einem Bericht sind die Autopsien der zwölf Todesopfer zwar abgeschlossen, eine offizielle Identifizierung stand aber noch aus. Bewusst konservativ formuliert, keine Namen von Privatpersonen genannt, da personenbezogene Angaben zu Todesopfern betroffen sind.",
+        "sourceIds": [
+          "src11",
+          "src12",
+          "src18",
+          "src19"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Es soll sich um den bislang folgenschwersten Waldbrand in der Geschichte der Region handeln – Berichte schwanken zwischen „größter Brand in Spaniens Geschichte“ und „schwerste Folgen in Andalusiens Geschichte“.",
+        "status": "unclear",
+        "note": "Formulierungen variieren zwischen Medien und dem zitierten Regionalrat Antonio Sanz; keine amtliche, vergleichende Bestätigung dieser historischen Einordnung vorhanden.",
+        "sourceIds": [
+          "src2",
+          "src4",
+          "src5",
+          "src6",
+          "src13",
+          "src16",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Zahl der vorsorglich evakuierten Personen wird in verschiedenen Berichten sehr unterschiedlich beziffert – von rund 600 bis 700 in früheren Meldungen bis zu 1.405 in einer späteren, auf Regionalrat Antonio Sanz gestützten Angabe, nachdem die Evakuierungszonen ausgeweitet worden waren.",
+        "status": "partial",
+        "note": "Die genaue Zahl der Evakuierten variiert je nach Quelle und Berichtszeitpunkt stark; von mehreren unabhängigen Medien übereinstimmend als vorläufig und im Zeitverlauf ansteigend berichtet.",
+        "sourceIds": [
+          "src2",
+          "src6",
+          "src11",
+          "src12",
+          "src19"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Mehrere Todesopfer wurden leblos in Fahrzeugen gefunden, die von den Flammen eingeschlossen worden waren – darunter laut einem Medienbericht vier Personen in einem Fahrzeug mit rechtsgesteuertem Lenkrad, was auf ein britisches Fahrzeug hindeutet; weitere Opfer sollen ihr Fahrzeug verlassen haben und beim Versuch, zu Fuß über ein trockenes Flussbett zu fliehen, von den Flammen eingeholt worden sein. Nach Angaben des Regionalrats Antonio Sanz hatten die Betroffenen eine nicht koordinierte Fluchtroute gewählt, die zu einer „Falle“ wurde.",
+        "status": "partial",
+        "note": "Die Kernaussage (Auffinden von Toten in Fahrzeugen, unkoordinierte Fluchtroute) wird von mehreren unabhängigen Medien übereinstimmend berichtet. Die genaue Aufteilung (vier Personen in einem Fahrzeug, weitere entlang eines Flussbettes) stammt bislang vor allem aus einem Medienbericht (El Español) und wurde nicht durch eine zweite, unabhängige Quelle mit denselben Details bestätigt.",
+        "sourceIds": [
+          "src2",
+          "src4",
+          "src5",
+          "src6",
+          "src13",
+          "src19"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Als erste Hypothese der Behörden gilt weiterhin ein sogenannter „Grabenbrand“ (incendio de cuneta), ausgelöst durch eine auf trockene Vegetation gestürzte bzw. zwischen zwei Strommasten gerissene Stromleitung. Laut einem Medienbericht sollen Windböen von bis zu 50 km/h dazu beigetragen haben, dass sich das Feuer binnen zwei Stunden über rund 15 Kilometer ausbreitete.",
+        "status": "partial",
+        "note": "Wird von mehreren spanischen Medien als vorläufige, aber noch nicht amtlich bestätigte Arbeitshypothese der Ermittler wiedergegeben; keine offizielle Untersuchungsbestätigung eingesehen. Detailangaben zu Windgeschwindigkeit und Ausbreitungstempo stammen aus einem einzelnen Bericht.",
+        "sourceIds": [
+          "src5",
+          "src11",
+          "src18"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Laut dem andalusischen Regionalrat Antonio Sanz hatten die Opfer bei dichtem Rauch improvisierte Fluchtrouten abseits der offiziellen Evakuierungsstrecke gewählt. Los Gallardos liegt zudem in bergigem, von Schluchten und Flussbetten durchzogenem Gelände mit laut einem Medienbericht nur zwei Fernstraßen-Ausfahrten, was die Fluchtmöglichkeiten zusätzlich einschränkte.",
+        "status": "partial",
+        "note": "Zitat des Regionalrats und geografische Einordnung, wiedergegeben von mehreren spanischen Medienquellen; keine unabhängige, behördliche Zweitquelle mit denselben Details geprüft.",
+        "sourceIds": [
+          "src4",
+          "src7",
+          "src13",
+          "src19"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Die vom Feuer betroffene Fläche wird in verschiedenen Berichten sehr unterschiedlich beziffert: frühe Schätzungen sprachen von rund 3.150 bis 3.800 Hektar, ein Bericht des Regionalrats Antonio Sanz nannte rund 4.000 Hektar, neuere Meldungen vom 11. Juli sprechen von bis zu 6.600 Hektar.",
+        "status": "unclear",
+        "note": "Die Angaben stammen aus unterschiedlichen Medienberichten zu verschiedenen Zeitpunkten des andauernden Löscheinsatzes und sind daher nicht direkt vergleichbar; eine konsolidierte amtliche Zahl der Junta de Andalucía wurde nicht eingesehen. Die Diskrepanz hat sich mit dem neuen Bericht eher vergrößert als aufgelöst.",
+        "sourceIds": [
+          "src11",
+          "src12",
+          "src15",
+          "src20"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Der Brand fällt laut Medienberichten in eine Phase außergewöhnlicher Hitze in Europa; die Weltorganisation für Meteorologie (WMO) wird mit der Aussage zitiert, Europa erwärme sich mehr als doppelt so schnell wie der weltweite Durchschnitt, Hitzewellen im Mai und Juni 2026 hätten Teile Westeuropas ausgetrocknet.",
+        "status": "partial",
+        "note": "Klimaeinordnung stammt aus einem Medienbericht, der sich auf WMO- und Copernicus-Daten beruft; keine eigene Primärquelle der WMO eingesehen, daher als Kontext und nicht als eigenständig verifizierte Tatsache behandelt.",
+        "sourceIds": [
+          "src14"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Die Regionalregierung von Andalusien hat laut einem Medienbericht drei Tage offizielle Trauer verhängt, von Freitag, den 10. Juli, bis Sonntag, den 12. Juli 2026.",
+        "status": "partial",
+        "note": "Angabe stammt aus einem Medienbericht mit Bezug auf die Junta de Andalucía; keine eigene amtliche Pressemitteilung der Regionalregierung eingesehen.",
+        "sourceIds": [
+          "src12"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "Laut einem Medienbericht wurden die Autopsien der zwölf Todesopfer abgeschlossen, eine amtliche Identifizierung der Opfer stand zum Zeitpunkt der Berichterstattung aber noch aus.",
+        "status": "partial",
+        "note": "Wichtige Einschränkung für alle Angaben zur Nationalität der Opfer: Solange keine amtliche Identifizierung vorliegt, sind Aussagen zu britischen, belgischen oder anderen Staatsangehörigkeiten als vorläufige Einschätzungen von Anwohnenden bzw. Lokalpolitikern zu verstehen, nicht als bestätigte Fakten.",
+        "sourceIds": [
+          "src12"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In der Gemeinde Los Gallardos in der andalusischen Provinz Almería, rund 300 Kilometer nordöstlich von Málaga, ist am Donnerstagnachmittag ein Waldbrand ausgebrochen, der sich rasch auf umliegende Ortschaften ausgeweitet hat. Nach übereinstimmenden Berichten mehrerer österreichischer, spanischer und internationaler Medien kamen dabei mindestens zwölf Menschen ums Leben – diese Zahl hat sich seit Freitagnacht nicht mehr verändert. Neu ist, dass laut ORF-Berichten vom 11. Juli sich die Löschbedingungen über Nacht verbessert haben: Erstmals seit Ausbruch soll ein Übergang von rein defensiven zu offensiveren Löschmaßnahmen möglich sein, unterstützt durch zusätzliche Löschflugzeuge, die tagsüber zum Einsatz kommen sollen. Der Brand gilt damit aber weiterhin nicht als eingedämmt. Weiterhin gelten laut Behördenangaben je nach Bericht zwischen 19 und 23 Menschen als vermisst – unklar bleibt, ob darunter weitere Todesopfer sind oder Personen, die lediglich unauffindbar, aber unversehrt sind. Mehrere Ortschaften, darunter Wohngebiete und ein Touristenkomplex, mussten evakuiert werden, betroffen war unter anderem auch die Nachbargemeinde Bédar."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Laut Berichten spanischer und internationaler Medien, die sich auf Angaben des Notdienstes 112 und der andalusischen Regionalregierung stützen, wurden mehrere Todesopfer leblos in Fahrzeugen gefunden, die von den Flammen eingeschlossen worden waren. Ein Bericht schildert, dass vier Personen in einem Fahrzeug mit rechtsgesteuertem Lenkrad gefunden wurden, was auf ein britisches Fahrzeug hindeutet, während weitere Opfer ihr Auto verlassen und versucht haben sollen, zu Fuß über ein trockenes Flussbett zu fliehen, wo sie von den Flammen eingeholt wurden. Der zuständige Regionalrat Antonio Sanz wird mit den Worten zitiert, es handle sich um eine „Tragödie ohne Beispiel“; die Betroffenen seien bei ihrem Fluchtversuch über eine nicht koordinierte Route in eine regelrechte „Falle“ geraten – begünstigt auch durch die geografische Lage der Gemeinde in bergigem, von Schluchten und trockenen Flussbetten durchzogenem Gelände mit laut einem Bericht nur zwei Fernstraßen-Ausfahrten. Die Zahl der vorsorglich Evakuierten schwankt je nach Bericht und Zeitpunkt stark zwischen rund 600 und 1.405 Personen; sie wurden unter anderem in Los Gallardos, Garrucha und Mojácar sowie im Sportzentrum von Garrucha untergebracht. Von den Verletzten gelten weiterhin acht Personen als betroffen, vier davon schwer. Rund 150 Feuerwehrleute des regionalen Löschplans Infoca sowie Kräfte der militärischen Notfalleinheit UME sind im Einsatz, tagsüber sollen zusätzlich rund elf Löschflugzeuge eingesetzt werden. Nach Aussagen des Bürgermeisters der Gemeinde und mehrerer Medienberichte soll der Großteil der Todesopfer ausländischer Staatsangehörigkeit sein, vor allem britisch und belgisch, teils langjährige Anwohner der Region – eine amtliche Bestätigung dazu fehlt bislang, laut einem Bericht sind die Autopsien der zwölf Opfer zwar abgeschlossen, eine offizielle Identifizierung stand aber noch aus. Als Arbeitshypothese der Ermittler gilt weiterhin ein sogenannter „Grabenbrand“, ausgelöst durch eine gerissene Stromleitung; ein Bericht nennt Windböen von bis zu 50 km/h, die zur raschen Ausbreitung über rund 15 Kilometer binnen zwei Stunden beigetragen haben sollen. Zur betroffenen Fläche kursieren weiterhin stark schwankende Angaben zwischen rund 3.150 und 6.600 Hektar. Laut Medienberichten hat die Region Andalusien zudem drei Tage offizielle Trauer verhängt, von Freitag bis Sonntag."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Eine offizielle, abschließende Zahl der Toten und Vermissten liegt weiterhin nicht vor. Die Angaben zu den Vermissten schwanken zwischen 19 und 23 Personen, und es bleibt offen, wie viele davon noch am Leben sind. Die genaue Brandursache ist trotz der zunehmend übereinstimmenden Hypothese einer gerissenen Stromleitung nicht amtlich bestätigt. Zur betroffenen Fläche liegen so unterschiedliche Angaben vor (rund 3.150 bis 6.600 Hektar), dass eine verlässliche Einschätzung derzeit nicht möglich ist – die Diskrepanz hat sich mit neueren Berichten eher vergrößert als geklärt, teils weil Zahlen zu unterschiedlichen Zeitpunkten des andauernden Einsatzes erhoben wurden. Uneinheitlich bleibt zudem die Einordnung des Brandes als historisches Ausmaß. Auch die genaue Zahl der Evakuierten, die Zahl zerstörter Gebäude und der voraussichtliche Zeitpunkt der vollständigen Eindämmung sind nicht konsolidiert bekannt. Zur Nationalität der Todesopfer gibt es bislang nur mediale, keine amtlich bestätigten Angaben; laut einem Bericht sind die Autopsien zwar abgeschlossen, die Identifizierung der Opfer stand aber noch aus. Dieser Artikel benennt daher bewusst keine Einzelpersonen und behandelt Angaben zu Staatsangehörigkeiten als vorläufig."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Waldbrand bei Los Gallardos reiht sich in eine Serie von Sommerbränden in Südeuropa ein, die in den vergangenen Jahren durch Hitzeperioden und Trockenheit begünstigt wurden. Laut Medienberichten, die sich auf Daten der Weltorganisation für Meteorologie (WMO) und des Copernicus-Klimawandeldienstes berufen, erwärmt sich Europa mehr als doppelt so schnell wie der weltweite Durchschnitt; Hitzewellen im Mai und Juni 2026 hätten weite Teile Westeuropas ausgetrocknet und damit die Waldbrandgefahr erhöht. Diese Einordnung wurde nicht anhand einer eigenen Primärquelle der WMO überprüft und wird hier als Kontext, nicht als eigenständig verifizierte Tatsache wiedergegeben. Die seit Freitag stabile Opferzahl von zwölf Toten bei gleichzeitig weiterhin schwankenden Zahlen zu Vermissten, Evakuierten und betroffener Fläche zeigt, dass sich die akute Lage zwar stabilisiert, das Gesamtbild aber weiterhin nicht konsolidiert ist – die am 11. Juli gemeldete Verbesserung der Löschbedingungen deutet auf eine mögliche Wende im Einsatz hin, ersetzt aber keine amtliche Bilanz. Dieser Artikel beruht weiterhin ausschließlich auf Medienberichten, die sich ihrerseits auf Angaben von Notdienst, Regionalregierung, einen zitierten Regionalrat und den Bürgermeister der Gemeinde stützen; eine eigene Prüfung amtlicher Primärquellen der Junta de Andalucía war zum Zeitpunkt der Aktualisierung nicht möglich. Angesichts der Zahl der Todesopfer, der weiterhin unklaren Zahl der Vermissten, der noch ausstehenden amtlichen Identifizierung und der medial kolportierten Nationalitäten der Opfer ist besondere Zurückhaltung bei Zuschreibungen von Verantwortung, bei der historischen Einordnung und bei personenbezogenen Angaben geboten."
+      }
+    ],
+    "bodyKompakt": "Bei einem Waldbrand in der Gemeinde Los Gallardos in der andalusischen Provinz Almería sind laut übereinstimmenden Medienberichten weiterhin mindestens zwölf Menschen ums Leben gekommen. Neu ist laut ORF-Berichten vom 11. Juli, dass sich die Löschbedingungen über Nacht verbessert haben: Erstmals seit Ausbruch soll ein Übergang zu offensiveren Löschmaßnahmen möglich sein, unterstützt durch zusätzliche Löschflugzeuge – der Brand gilt aber weiterhin nicht als eingedämmt. Je nach Quelle werden zwischen 19 und 23 Menschen weiterhin vermisst; unklar bleibt, ob darunter weitere Todesopfer sind. Mehrere Opfer wurden laut Notdienst 112 leblos in Fahrzeugen gefunden, darunter laut einem Bericht vier Personen in einem Fahrzeug mit rechtsgesteuertem Lenkrad (Hinweis auf ein britisches Fahrzeug); weitere sollen beim Fluchtversuch zu Fuß über ein trockenes Flussbett von den Flammen eingeholt worden sein. Nach Aussagen des Bürgermeisters und mehrerer Medien soll der Großteil der Toten ausländischer Staatsangehörigkeit sein, vor allem britisch und belgisch – eine amtliche Identifizierung steht laut einem Bericht trotz abgeschlossener Autopsien aber noch aus.\n\nDer andalusische Regionalrat Antonio Sanz sprach erneut von einer „Tragödie ohne Beispiel“ und schilderte, die Opfer seien über eine nicht koordinierte Fluchtroute in eine „Falle“ geraten – begünstigt durch das bergige Gelände der Gemeinde mit laut einem Bericht nur zwei Fernstraßen-Ausfahrten. Die Zahl der Evakuierten schwankt je nach Quelle zwischen rund 600 und 1.405. Als Ursache gilt weiterhin die Arbeitshypothese eines „Grabenbrandes“, ausgelöst durch eine gerissene Stromleitung, begünstigt laut einem Bericht durch Windböen bis 50 km/h. Zur betroffenen Fläche kursieren stark schwankende Angaben zwischen rund 3.150 und 6.600 Hektar. Die Region Andalusien hat laut Medienberichten drei Tage offizielle Trauer verhängt. Der Brand fällt zudem in eine Phase außergewöhnlicher Hitze in Europa, die laut Medienberichten unter Berufung auf WMO-Daten mit dem überdurchschnittlich schnellen Erwärmungstrend des Kontinents in Verbindung gebracht wird.\n\nOffen bleiben die endgültige Zahl der Toten und Vermissten, die genaue Brandursache, die tatsächliche betroffene Fläche, das historische Ausmaß des Brandes sowie die amtliche Identifizierung und Nationalität der Opfer. Eigene Primärquellen der Behörden wurden weiterhin nicht ausgewertet; die Angaben stammen aus Medienberichten mit Bezug auf Notdienst, Regionalregierung, einen zitierten Regionalrat und den Bürgermeister der Gemeinde.",
+    "updateNote": "Aktualisiert: Laut ORF verbessern sich die Löschbedingungen seit 11. Juli, ein Übergang zu offensiveren Löschmaßnahmen gilt als möglich; neue Details zur Fluchtdynamik von Urlaubern (rechtsgesteuertes Fahrzeug, trockenes Flussbett), zu Nationalität und noch ausstehender Identifizierung der Opfer, zu offizieller Staatstrauer sowie zur weiterhin stark schwankenden Flächenangabe (3.150 bis 6.600 Hektar) ergänzt."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-11T10:07:28.043Z"
+}
