@@ -17,6 +17,7 @@ import { buildClusters } from './cluster.ts';
 import { fetchAllFeeds } from './fetch.ts';
 import { enrichClusterWithFulltext } from './fulltext.ts';
 import { downloadAndProcessImage, selectWhitelistImage } from './image.ts';
+import { scanAndReportImageCandidates } from './image-scan.ts';
 import {
   DATA_DIR,
   appendErrorNote,
@@ -502,6 +503,17 @@ async function main(): Promise<void> {
       else stats.drafts += 1;
       written.push({ slug, articlePath, researchPath: researchRelPath, ...(imagePath ? { imagePath } : {}), isUpdate });
       console.log(`${isUpdate ? 'Update' : 'Draft'} geschrieben: ${articlePath} (auto-publish)`);
+
+      // Bild-Kandidaten-Scan (E48): neue Artikel ohne Whitelist-Bild — reine
+      // Recherche-Vorarbeit für die Whitelist-Pflege, nie Auto-Attach. Bewusst
+      // ohne Score-Gate (der Scan attached nichts, das Gate würde das Register
+      // aushungern). Die Funktion wirft nie — ein Scan-Fehler darf nicht als
+      // Draft-Fehler in die Eskalations-Fallbacks laufen.
+      if (!isUpdate && !imageFrontmatter && process.env.AI_NEWS_IMAGE_SCAN !== '0') {
+        stats.imageCandidates =
+          (stats.imageCandidates ?? 0) +
+          (await scanAndReportImageCandidates({ slug, title: sanitized.title, sources: sanitized.sources, nowIso }));
+      }
     } catch (error) {
       stats.errors += 1;
       if (escalated) {

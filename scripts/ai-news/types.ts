@@ -115,6 +115,8 @@ export interface RunRecord {
   backlogged?: number;
   /** Artikel, deren resonance-Frontmatter dieser Run geändert hat (E46). */
   resonanceUpdates?: number;
+  /** Gefundene Bild-Kandidaten des Quellen-Scans (E48, proposal-only). */
+  imageCandidates?: number;
 }
 
 export interface Cluster {
