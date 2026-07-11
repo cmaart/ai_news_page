@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T18:09:55.941Z",
+  "updatedAt": "2026-07-11T19:13:15.854Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1402,11 +1402,13 @@
       "doNotRedraftBefore": "2026-07-12T14:07:32.545Z",
       "doNotUpdateBefore": "2026-07-11T20:07:32.545Z",
       "echoPublishers": {
-        "derstandard": "2026-07-11T15:07:25.182Z"
+        "derstandard": "2026-07-11T15:07:25.182Z",
+        "orf": "2026-07-11T19:07:27.203Z",
+        "kleinezeitung": "2026-07-11T19:07:27.203Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-11T15:07:25.182Z"
+      "resonanceMeasuredAt": "2026-07-11T19:07:27.203Z"
     },
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter nach Air-Force-One-Bericht vor Grand Jury vorgeladen",
@@ -1558,6 +1560,52 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T18:07:25.431Z",
       "doNotUpdateBefore": "2026-07-12T00:07:25.431Z"
+    },
+    "venezuela-erdbeben-todesopfer-juli-2026": {
+      "canonicalTitle": "Venezuela: Zahl der Erdbeben-Toten laut Berichten auf über 4.300 gestiegen",
+      "slug": "venezuela-erdbeben-todesopfer-juli-2026",
+      "firstSeenAt": "2026-07-11T19:07:27.203Z",
+      "lastUpdatedAt": "2026-07-11T19:07:27.203Z",
+      "status": "published",
+      "articlePath": "src/content/articles/venezuela-erdbeben-todesopfer-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/venezuela-erdbeben-todesopfer-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3435956",
+        "https://www.derstandard.at/story/3000000331036/zahl-der-erdbeben-toten-in-venezuela-auf-252ber-4000-gestiegen",
+        "https://www.derstandard.at/story/3000000330523/3685-todesopfer-bestaetigt-zahl-der-toten-nach-erdbeben-in-venezuela-steigt-weiter",
+        "https://www.derstandard.at/jetzt/livebericht/3000000329866/dekrainische-tankstellen-an"
+      ],
+      "openQuestions": [
+        "Wie hoch ist die Zahl der Vermissten tatsächlich, und auf welcher Datengrundlage beruht sie?",
+        "Bestätigen internationale Organisationen (UNO, Rotes Kreuz/IFRC, andere Hilfsorganisationen) die von venezolanischen Stellen genannten Zahlen unabhängig?",
+        "Wie stellt sich die aktuelle humanitäre Versorgungslage in den betroffenen Regionen dar?",
+        "Welche offiziellen venezolanischen Stellen haben die Zahlen zuletzt bestätigt, und liegt eine direkte, überprüfbare Quelle dafür vor?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T19:07:27.203Z",
+      "doNotUpdateBefore": "2026-07-12T01:07:27.203Z"
+    },
+    "deutschland-klimaziel-2045-verschiebung-forderungen-juli-2026": {
+      "canonicalTitle": "Forderungen aus Wirtschaft und Gewerkschaften: Deutsches Klimaziel 2045 soll verschoben werden",
+      "slug": "deutschland-klimaziel-2045-verschiebung-forderungen-juli-2026",
+      "firstSeenAt": "2026-07-11T19:07:27.203Z",
+      "lastUpdatedAt": "2026-07-11T19:07:27.203Z",
+      "status": "published",
+      "articlePath": "src/content/articles/deutschland-klimaziel-2045-verschiebung-forderungen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/deutschland-klimaziel-2045-verschiebung-forderungen-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331091/forderungen-nach-verschiebung-des-deutschen-klimaziels-2045",
+        "https://orf.at/stories/3435918"
+      ],
+      "openQuestions": [
+        "Welche konkreten Akteure stehen hinter der Forderung, und mit welcher Argumentation im Einzelnen?",
+        "Auf welchen Zeitpunkt genau soll das Ziel verschoben werden – etwa auf das EU-weite Ziel 2050?",
+        "Wie positioniert sich die deutsche Bundesregierung offiziell zu der Forderung?",
+        "Gibt es eine unabhängige wissenschaftliche Einschätzung zu den klimapolitischen Auswirkungen einer Verschiebung?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-12T19:07:27.203Z",
+      "doNotUpdateBefore": "2026-07-12T01:07:27.203Z"
     }
   }
 }
