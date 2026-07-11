@@ -26,7 +26,7 @@
 # nur für passende Ressorts), nicht zwingend eine Terms-Einschränkung wie beim
 # Parlament — der YAML-Kommentar am Eintrag sagt, was gilt.
 version: 1
-updatedAt: 2026-07-10
+updatedAt: 2026-07-11
 sources:
   - id: bka-stocker
     name: BKA-Fotoservice — Bundeskanzler Stocker (Querformat)
@@ -112,3 +112,85 @@ sources:
         sourceUrl: https://www.schlossambras-innsbruck.at/presse/schloss-ambras-innsbruck
         termsUrl: https://www.khm.at/museum/presse
         termsQuote: "In unserem Pressebereich stehen Ihnen Pressetexte und Pressebilder für die aktuelle Berichterstattung kostenlos zum Download zur Verfügung."
+
+  # --- Tech/KI (E48) — topics hier als Relevanz-Guard (Symbolbild nur für
+  # passende Ressorts), keine Terms-Einschränkung. ---
+
+  - id: google-campus
+    name: Google Image Library — Campus Mountain View
+    vettedAt: 2026-07-11
+    titleKeywords: ["Google", "Gemini", "DeepMind", "Alphabet"]
+    sourceDomains: ["blog.google", "deepmind.google"]
+    topics: [technologie, wirtschaft, wissenschaft]
+    image:
+      downloadUrl: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Wide-view-of-Google-campus.original.jpg
+      alt: Innenhof des Google-Campus in Mountain View mit Sitzbereichen und Sonnenschirmen
+      caption: Der Google-Hauptcampus in Mountain View, Kalifornien
+      kind: symbol
+      credit:
+        # Terms schreiben die Credit-Formulierung „Source: Google" exakt vor.
+        author: "Source: Google"
+        license: press_permission
+        sourceUrl: https://blog.google/image-library/
+        termsUrl: https://blog.google/image-library/
+        termsQuote: "Images on this page may be used for publication with credit: 'Source: Google.'"
+
+  - id: microsoft-campus
+    name: Microsoft News Center Image Gallery — Campus Redmond
+    vettedAt: 2026-07-11
+    titleKeywords: ["Microsoft", "Copilot", "Azure"]
+    sourceDomains: ["microsoft.com"]
+    topics: [technologie, wirtschaft]
+    image:
+      downloadUrl: https://msftstories.thesourcemediaassets.com/2014/12/452292672.jpg
+      alt: Bürogebäude auf dem Microsoft-Campus in Redmond mit Microsoft-Logo-Schild im Vordergrund
+      caption: Bürogebäude auf dem Microsoft-Campus in Redmond, Washington
+      kind: symbol
+      credit:
+        # Fotograf laut EXIF; Verbreitung über Microsofts eigene News-Center-Galerie.
+        author: Microsoft / Stephen Brashear
+        license: press_permission
+        sourceUrl: https://news.microsoft.com/microsoft-news-center-photos/
+        termsUrl: https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions
+        termsQuote: "Images found on the News Center may be used for editorial purposes only by the press and/or industry analysts."
+
+  - id: tu-wien-freihaus
+    # Terms erlauben Nutzung nur „im Zusammenhang mit der Berichterstattung über
+    # die TU Wien" — die engen titleKeywords erzwingen genau das; Resize/
+    # Formatwandlung sind laut Terms ausdrücklich zulässige Größenveränderungen.
+    name: TU Wien Fotodownload — Freihaus über den Dächern Wiens
+    vettedAt: 2026-07-11
+    titleKeywords: ["TU Wien", "Technische Universität Wien"]
+    sourceDomains: ["tuwien.at"]
+    topics: [wissenschaft, technologie]
+    image:
+      downloadUrl: https://www.tuwien.at/fileadmin/Assets/services/Fotodownload/Gebaeude/Freihaus/freihaus_luftaufnahme1_c_tu_wien.jpg
+      alt: Blick über die Dächer Wiens mit dem Freihaus-Gebäude der TU Wien und der Karlskirche
+      caption: Das Freihaus der TU Wien (Bildmitte) über den Dächern Wiens, links die Karlskirche
+      kind: symbol
+      credit:
+        author: © TU Wien
+        license: press_permission
+        sourceUrl: https://www.tuwien.at/tu-wien/organisation/zentrale-bereiche/kommunikation/pr-und-marketing/fotodownload/gebaeude
+        termsUrl: https://www.tuwien.at/tu-wien/organisation/zentrale-bereiche/kommunikation/pr-und-marketing/fotodownload/nutzungsbedingungen
+        termsQuote: "die Fotos kostenlos unter Angabe des jeweiligen Copyrights (siehe Punkt 3) für journalistische oder nicht kommerzielle Zwecke im Zusammenhang mit der Berichterstattung über die TU Wien in Print und/oder Online-Medien zu verwenden."
+
+# Vetting-Protokoll Tech/KI (2026-07-11, E48) — geprüft und NICHT aufgenommen:
+#   NVIDIA     — Media-Assets hinter Presse-Login, keine veröffentlichte
+#                redaktionelle Freigabe; Brand-Guidelines untersagen sogar
+#                Fremd-Artwork („This includes editorial imagery.").
+#   Meta       — Media Gallery (meta.com/media-gallery) ohne jede Lizenz-/
+#                Terms-Angabe; Brand Center ist reine Marketing-Guideline.
+#                ⇒ Meta-Artikel bleiben bildlos, bis Meta Terms publiziert.
+#   OpenAI     — Brand-/Press-Seiten für Crawler gesperrt (403), keine
+#                verifizierbare Freigabe auffindbar.
+#   Anthropic  — Assets nur via Brandfolder (login-gated), keine öffentlichen
+#                Nutzungsbedingungen.
+#   AIT        — Pressefoto-Portal ohne auffindbare Terms — erst nach
+#                schriftlicher Bestätigung aufnehmen.
+# Vielversprechend, aber offen (Portale sind JS-Apps — Download-URL + Terms
+# einmalig manuell im Browser sichern, dann eintragen):
+#   EU-Kommission Audiovisual (audiovisual.ec.europa.eu, CC BY 4.0 laut
+#   commission.europa.eu/legal-notice_en; Berlaymont-Motive P-045618, P-061404),
+#   EU-Parlament Multimedia Centre (multimedia.europarl.europa.eu),
+#   JKU Linz (jku.at/presse, „honorarfreie Fotos", Credits je Foto beachten).
