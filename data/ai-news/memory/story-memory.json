@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T08:18:36.942Z",
+  "updatedAt": "2026-07-11T09:22:34.900Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -533,10 +533,10 @@
       "canonicalTitle": "Meta startet mit Muse Spark 1.1 erstmals kommerzielle KI-API zu Kampfpreisen",
       "slug": "meta-muse-spark-1-1-api-preiskampf-juli-2026",
       "firstSeenAt": "2026-07-10T14:07:26.847Z",
-      "lastUpdatedAt": "2026-07-10T14:07:26.847Z",
+      "lastUpdatedAt": "2026-07-11T09:07:25.442Z",
       "status": "published",
       "articlePath": "src/content/articles/meta-muse-spark-1-1-api-preiskampf-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-10/meta-muse-spark-1-1-api-preiskampf-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-11/meta-muse-spark-1-1-api-preiskampf-juli-2026-update-900.json",
       "sourceUrls": [
         "https://www.heise.de/news/Muse-Spark-1-1-Meta-will-mit-Kampfpreisen-OpenAI-und-Anthropic-unterbieten-11360357.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "https://the-decoder.de/neues-modell-und-api-meta-kickt-mit-muse-spark-1-1-die-ki-preiskaempfe-aufs-naechste-level",
@@ -544,17 +544,28 @@
         "https://www.heise.de/news/Muse-Spark-1-1-Meta-will-mit-Kampfpreisen-OpenAI-und-Anthropic-unterbieten-11360357.html",
         "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
         "https://www.bloomberg.com/news/articles/2026-07-09/meta-starts-charging-for-ai-with-muse-spark-1-1-agentic-model",
-        "https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html"
+        "https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html",
+        "https://the-decoder.de/metas-muse-spark-1-1-schlaegt-glm-5-2-beim-coding-und-ist-dabei-etwas-guenstiger",
+        "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1.1",
+        "https://artificialanalysis.ai/articles/muse-spark-1-1-everything-you-need-to-know",
+        "https://finance.yahoo.com/technology/ai/articles/mark-zuckerberg-spending-hundreds-billions-140000237.html"
       ],
       "openQuestions": [
-        "Wie schneidet Muse Spark 1.1 in unabhängigen, nachvollziehbaren Benchmarks tatsächlich gegenüber GPT- und Claude-Modellen ab?",
+        "Wie lässt sich das uneinheitliche Bild bei den Coding-Teilindizes zwischen Muse Spark 1.1 und GLM-5.2 erklären — hängt es an unterschiedlichen Testharnischen (etwa Opencode vs. andere Auswertungen)?",
         "Wie reagieren OpenAI, Anthropic und Google auf Metas Preisoffensive?",
         "Ist die aggressive Preisgestaltung für Meta langfristig wirtschaftlich tragfähig oder eine verlustbringende Marktanteils-Strategie?",
-        "Wann und in welchen Ländern außerhalb der USA wird die API verfügbar sein?"
+        "Wann und in welchen Ländern außerhalb der USA wird die API verfügbar sein?",
+        "Wie belastbar sind die von Artificial Analysis geschätzten Kostenwerte pro Aufgabe im praktischen Einsatz, jenseits standardisierter Benchmark-Läufe?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-11T14:07:26.847Z",
-      "doNotUpdateBefore": "2026-07-10T20:07:26.847Z"
+      "doNotRedraftBefore": "2026-07-12T09:07:25.442Z",
+      "doNotUpdateBefore": "2026-07-11T15:07:25.442Z",
+      "echoPublishers": {
+        "thedecoder": "2026-07-11T09:07:25.442Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-11T09:07:25.442Z"
     },
     "mehrwertsteuersenkung-lebensmittel-ak-kritik-juli-2026": {
       "canonicalTitle": "Mehrwertsteuersenkung bei Lebensmitteln: AK-Präsident Heinzle übt Kritik",
@@ -731,26 +742,42 @@
       "canonicalTitle": "NEOS schließen Abgeordneten Veit Dengler aus Klub und Partei aus",
       "slug": "neos-dengler-ausschluss-juli-2026",
       "firstSeenAt": "2026-07-10T18:07:26.458Z",
-      "lastUpdatedAt": "2026-07-10T18:07:26.458Z",
-      "status": "review",
+      "lastUpdatedAt": "2026-07-11T09:07:25.442Z",
+      "status": "published",
       "articlePath": "src/content/articles/neos-dengler-ausschluss-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-10/neos-dengler-ausschluss-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-11/neos-dengler-ausschluss-juli-2026-update-900.json",
       "sourceUrls": [
         "https://orf.at/stories/3435881",
         "https://www.derstandard.at/story/3000000331028/neos-schliessen-veit-dengler-aus-klub-und-partei-aus",
         "https://www.ots.at/presseaussendung/OTS_20260710_OTS0130/neos-schliessen-veit-dengler-aus-klub-und-partei-aus",
-        "https://www.sn.at/politik/innenpolitik/neos-mandatar-schert-beim-budget-aus-koalition-aus-art-661547"
+        "https://www.sn.at/politik/innenpolitik/neos-mandatar-schert-beim-budget-aus-koalition-aus-art-661547",
+        "https://www.kleinezeitung.at/artikel/36693094/ich-weiss-nicht-warum-die-neos-in-der-regierung-sitzen",
+        "https://www.diepresse.com/36680259/neos-schliessen-mitbegruender-veit-dengler-aus-klub-und-partei-aus",
+        "https://kurier.at/politik/inland/veit-dengler-neos-ausgeschlossen-oesterreich-parlament/403175573",
+        "https://www.kleinezeitung.at/artikel/36680073/neos-schliessen-veit-dengler-aus-klub-und-partei-aus",
+        "https://www.diepresse.com/36680259/interne-sitzung-mitgeschnitten-neos-schliessen-mitgruender-veit-dengler-aus",
+        "https://www.diepresse.com/36680259/parteigeld-streit-interne-sitzung-mitgeschnitten-neos-schliessen-mitgruender-veit-dengler-aus",
+        "https://www.diepresse.com/36680259/parteigeld-streit-interne-sitzung-mitgeschnitten-neos-schliessen-ihren-gruender-veit-dengler-aus",
+        "https://www.sn.at/politik/innenpolitik/neos-gruender-veit-dengler-rechnet-nach-rauswurf-mit-partei-ab-abgeordnete-zu-stimmvieh-degradiert-art-661643",
+        "https://www.ots.at/presseaussendung/OTS_20260710_OTS0131/fpoe-schnedlitz-neos-zerstoeren-fuer-zwei-posten-oesterreich-und-die-eigene-partei"
       ],
       "openQuestions": [
-        "Was war der konkrete Auslöser (\"Vorfall\") in der vertraulichen Klubsitzung?",
-        "Wie reagiert Veit Dengler auf den Ausschluss aus Klub und Partei?",
+        "Wie reagiert die NEOS-Spitze (insbesondere Beate Meinl-Reisinger) offiziell auf Denglers Vorwurf der „Message-Control“ und autoritären Parteiführung?",
         "Bleibt Dengler als partei- und klubloser Abgeordneter im Nationalrat, oder legt er sein Mandat zurück?",
-        "Besteht ein Zusammenhang zwischen dem Ausschluss und Denglers vorherigem Vorstoß zur Halbierung der Parteienförderung?",
-        "Werden von NEOS oder von Dengler weitere Schritte – etwa rechtlicher Art – gesetzt?"
+        "Kommt es tatsächlich zu rechtlichen Schritten – von NEOS gegen Dengler oder von Dengler gegen seinen Ausschluss – und mit welchem Ergebnis?",
+        "Was genau enthielt das von Dengler eingereichte Dossier zur Parteienförderung, und wie ist die Partei bislang damit umgegangen?",
+        "Gibt es unabhängige Zeug:innen-Aussagen zur vertraulichen Sitzung, die entweder Denglers oder NEOS' Version stützen?",
+        "Besteht ein direkter ursächlicher Zusammenhang zwischen Denglers Budget-Alleingang und dem späteren Ausschluss, oder sind dies laut NEOS zwei getrennte Vorgänge?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-11T18:07:26.458Z",
-      "doNotUpdateBefore": "2026-07-11T00:07:26.458Z"
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-12T09:07:25.442Z",
+      "doNotUpdateBefore": "2026-07-11T15:07:25.442Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-11T09:07:25.442Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-11T09:07:25.442Z"
     },
     "widdecombe-mordermittlungen-festnahme-juli-2026": {
       "canonicalTitle": "Mordermittlungen nach Tod von Ann Widdecombe: 26-Jähriger festgenommen",
@@ -772,7 +799,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-11T18:07:26.458Z",
-      "doNotUpdateBefore": "2026-07-11T00:07:26.458Z"
+      "doNotUpdateBefore": "2026-07-11T00:07:26.458Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-11T09:07:25.442Z"
+      }
     },
     "rechnungshof-oevp-parteispenden-2023": {
       "canonicalTitle": "Rechnungshof ortet unzulässige Spenden und Mängel im ÖVP-Rechenschaftsbericht 2023",
@@ -872,11 +902,12 @@
       "echoPublishers": {
         "thedecoder": "2026-07-11T06:28:44.592Z",
         "diepresse": "2026-07-11T08:07:22.735Z",
-        "futurezone": "2026-07-11T08:07:22.735Z"
+        "futurezone": "2026-07-11T08:07:22.735Z",
+        "heise": "2026-07-11T09:07:25.442Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-11T08:07:22.735Z"
+      "resonanceMeasuredAt": "2026-07-11T09:07:25.442Z"
     },
     "raketenangriff-kiew-juli-2026": {
       "canonicalTitle": "Raketenangriff auf Kiew: Mehrere Verletzte, Zahlen widersprüchlich",
@@ -935,7 +966,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T08:07:22.735Z",
-      "doNotUpdateBefore": "2026-07-11T14:07:22.735Z"
+      "doNotUpdateBefore": "2026-07-11T14:07:22.735Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-11T09:07:25.442Z"
+      }
     },
     "ice-schuss-houston-lorenzo-salgado-araujo-juli-2026": {
       "canonicalTitle": "Houston: Von ICE-Beamten erschossener Mann soll laut Kongressabgeordneter nicht Ziel des Einsatzes gewesen sein",
@@ -982,6 +1016,30 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-12T08:07:22.735Z",
       "doNotUpdateBefore": "2026-07-11T14:07:22.735Z"
+    },
+    "hebamme-wien-neuer-gutachter-verfahren-juli-2026": {
+      "canonicalTitle": "Neuer Gutachter im Verfahren gegen Wiener Hebamme bestellt",
+      "slug": "hebamme-wien-neuer-gutachter-verfahren-juli-2026",
+      "firstSeenAt": "2026-07-11T09:07:25.442Z",
+      "lastUpdatedAt": "2026-07-11T09:07:25.442Z",
+      "status": "published",
+      "articlePath": "src/content/articles/hebamme-wien-neuer-gutachter-verfahren-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/hebamme-wien-neuer-gutachter-verfahren-juli-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3362220",
+        "https://www.kleinezeitung.at/artikel/36685424/neuer-gutachter-fuer-prozess-gegen-wiener-hebamme-bestellt",
+        "https://www.derstandard.at/story/3000000331039/strafverfahren-gegen-wiener-hebamme-neuer-gutachter-bestellt",
+        "https://www.vol.at/neuer-gutachter-in-verfahren-gegen-wiener-hebamme-bestellt/10316351",
+        "https://wien.orf.at/stories/3345625/"
+      ],
+      "openQuestions": [
+        "Wann liegt das neue Gutachten vor, und wann beginnt die Neuauflage des Prozesses?",
+        "Welche konkreten Fragen soll der neu beauftragte Gutachter beziehungsweise die neue Gutachterin klären?",
+        "Wie positionieren sich die Hebamme bzw. ihre Verteidigung aktuell zur neuerlichen Verzögerung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T09:07:25.442Z",
+      "doNotUpdateBefore": "2026-07-11T15:07:25.442Z"
     }
   }
 }
