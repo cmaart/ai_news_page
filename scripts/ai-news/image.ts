@@ -28,6 +28,10 @@ const MAX_DOWNLOAD_BYTES = 30 * 1024 * 1024;
 const MAX_WIDTH = 1600;
 const WEBP_QUALITY = 80;
 const DOWNLOAD_TIMEOUT_MS = 30_000;
+// Hero-Eignung (E44): Hochformat/quadratische Bilder sprengen das Layout,
+// zu schmale werden im 1024px-Container unscharf hochskaliert — hart ablehnen.
+const MIN_SOURCE_WIDTH = 800;
+const MIN_ASPECT_RATIO = 1.2;
 
 /** Agentur-Kennungen im Credit ⇒ Foto ist fast sicher fremdlizenziert — kein Bild. */
 const AGENCY_MARKERS = /\b(apa|getty|reuters|afp|dpa|picture alliance|epa|ap photo|imago|keystone)\b/i;
@@ -174,11 +178,21 @@ export async function downloadAndProcessImage(slug: string, downloadUrl: string)
   }
 
   // rotate() wendet die EXIF-Orientierung an; resize ohne Crop.
-  const webp = await sharp(buffer)
+  const { data: webp, info } = await sharp(buffer)
     .rotate()
     .resize({ width: MAX_WIDTH, withoutEnlargement: true })
     .webp({ quality: WEBP_QUALITY })
-    .toBuffer();
+    .toBuffer({ resolveWithObject: true });
+
+  // Eignungs-Guard nach EXIF-Rotation/Resize (Ratio bleibt beim Resize gleich).
+  if (info.width < MIN_SOURCE_WIDTH) {
+    throw new Error(`Bild zu schmal für den Hero: ${info.width}px (< ${MIN_SOURCE_WIDTH}px)`);
+  }
+  if (info.width / info.height < MIN_ASPECT_RATIO) {
+    throw new Error(
+      `Bild ist Hoch-/Quadratformat (${info.width}×${info.height}) — als Hero ungeeignet (Ratio < ${MIN_ASPECT_RATIO})`,
+    );
+  }
 
   const dir = join(ASSETS_DIR, slug);
   mkdirSync(dir, { recursive: true });

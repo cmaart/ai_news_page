@@ -3,7 +3,7 @@
  *
  * Ablauf pro Run: RSS-Fetch → Dedupe (seen-items) → Clustering → Scoring →
  * Haiku-Triage (max 5) → max 1 Sonnet-Draft/-Update → MDX + Research-JSON →
- * Memory-Update → Manifest für den Workflow (Commit/PR passiert dort).
+ * Memory-Update → Manifest für den Workflow (Commit passiert dort).
  *
  * Aufruf: npm run ai-news:run [-- --dry-run]
  *   --dry-run: Fetch/Cluster/Score + Report, keine Claude-Calls, keine Writes.
@@ -152,7 +152,7 @@ async function main(): Promise<void> {
     console.log(`  [${score.score}] ${score.recommendedAction} — ${cluster.title} (${cluster.items.length} Items)`);
   }
 
-  let manifest: RunManifest = { ranAt: nowIso, action: 'none', articles: [], sensitive: false, stats };
+  let manifest: RunManifest = { ranAt: nowIso, action: 'none', articles: [], stats };
 
   if (dryRun) {
     console.log('Dry-Run — keine Claude-Calls, keine Writes.');
@@ -276,9 +276,9 @@ async function main(): Promise<void> {
 
     const existingArticle = isUpdate ? readExistingArticle(story!.slug) : null;
     if (isUpdate && !existingArticle) {
-      // Artikeldatei liegt nicht auf main — typischerweise offener Review-PR.
-      // Kein Doppel-Draft; Story bleibt liegen, bis der PR entschieden ist.
-      console.log(`Update für ${story!.slug} übersprungen — Artikeldatei nicht auf main (Review-PR offen?).`);
+      // Artikeldatei liegt nicht auf main (z. B. Altbestand aus früherem
+      // Review-PR-Flow oder manuell entfernt) — kein Doppel-Draft.
+      console.log(`Update für ${story!.slug} übersprungen — Artikeldatei nicht auf main.`);
       continue;
     }
 
@@ -303,7 +303,6 @@ async function main(): Promise<void> {
         throw new Error('Draft unbrauchbar: keine gültigen Quellen oder leerer Body.');
       }
 
-      const sensitive = triage.sensitivity === 'high' || sanitized.sensitivity === 'high';
       const slug = isUpdate ? story!.slug : resolveSlug(sanitized.slugSuggestion, sanitized.title);
 
       const existingFm = existingArticle?.frontmatter as
@@ -370,9 +369,6 @@ async function main(): Promise<void> {
         slug,
         cluster,
         draft: sanitized,
-        // 'review' = PR offen (Artikel-Frontmatter steht trotzdem schon auf
-        // published — Merge allein publiziert, PLAN.md E30).
-        status: sensitive ? 'review' : 'published',
         articlePath,
         researchPath: researchRelPath,
         nowIso,
@@ -382,8 +378,8 @@ async function main(): Promise<void> {
 
       if (isUpdate) stats.updates += 1;
       else stats.drafts += 1;
-      written.push({ slug, articlePath, researchPath: researchRelPath, ...(imagePath ? { imagePath } : {}), sensitive, isUpdate });
-      console.log(`${isUpdate ? 'Update' : 'Draft'} geschrieben: ${articlePath} (${sensitive ? 'review/PR' : 'auto-publish'})`);
+      written.push({ slug, articlePath, researchPath: researchRelPath, ...(imagePath ? { imagePath } : {}), isUpdate });
+      console.log(`${isUpdate ? 'Update' : 'Draft'} geschrieben: ${articlePath} (auto-publish)`);
     } catch (error) {
       stats.errors += 1;
       if (escalated) {
@@ -405,24 +401,13 @@ async function main(): Promise<void> {
   }
 
   if (written.length > 0) {
-    const published = written.filter((a) => !a.sensitive);
-    const hasNew = (list: ManifestArticle[]) => list.some((a) => !a.isUpdate);
-    const primary = published[0] ?? written[0];
+    const primary = written[0];
     manifest = {
       ranAt: nowIso,
-      // Deploy-Trigger hängt an 'published*' — sobald ein Auto-Publish dabei ist.
-      action:
-        published.length > 0
-          ? hasNew(published)
-            ? 'published_new'
-            : 'published_update'
-          : hasNew(written)
-            ? 'review_new'
-            : 'review_update',
+      action: written.some((a) => !a.isUpdate) ? 'published_new' : 'published_update',
       articles: written,
       slug: primary.slug,
       articlePath: primary.articlePath,
-      sensitive: written.some((a) => a.sensitive),
       stats,
     };
   }
@@ -521,7 +506,6 @@ function upsertStory(
     slug: string;
     cluster: Cluster;
     draft: DraftResult;
-    status: 'published' | 'review';
     articlePath: string;
     researchPath: string;
     nowIso: string;
@@ -529,7 +513,7 @@ function upsertStory(
     updateThrottleHours: number;
   },
 ): Story {
-  const { slug, cluster, draft, status, articlePath, researchPath, nowIso } = options;
+  const { slug, cluster, draft, articlePath, researchPath, nowIso } = options;
   const previous = memory.stories[slug] ?? matchStory(cluster, memory);
   if (previous && previous.slug !== slug) delete memory.stories[previous.slug];
 
@@ -538,7 +522,7 @@ function upsertStory(
     slug,
     firstSeenAt: previous?.firstSeenAt ?? nowIso,
     lastUpdatedAt: nowIso,
-    status,
+    status: 'published',
     articlePath,
     researchPath,
     sourceUrls: [

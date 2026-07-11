@@ -9,7 +9,9 @@
  * des restlichen Frontmatters). Artikel mit bestehendem Bild werden
  * übersprungen.
  *
- * Aufruf: npx tsx scripts/ai-news/backfill-images.ts <vorschlaege.json>
+ * Aufruf: npx tsx scripts/ai-news/backfill-images.ts <vorschlaege.json> [--replace]
+ *   --replace: bestehendes Bild ersetzen statt überspringen (setzt voraus,
+ *   dass `image:` der letzte Frontmatter-Key ist — so schreibt es dieses Skript).
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -30,6 +32,7 @@ if (!inputPath) {
   process.exit(1);
 }
 
+const replaceMode = process.argv.includes('--replace');
 const proposals = JSON.parse(readFileSync(inputPath, 'utf8')) as Proposal[];
 const nowIso = new Date().toISOString();
 let applied = 0;
@@ -54,9 +57,19 @@ for (const proposal of proposals) {
   }
 
   if ((matter(raw).data as { image?: unknown }).image) {
-    console.log(`— ${slug}: hat bereits ein Bild — übersprungen`);
-    skipped += 1;
-    continue;
+    if (!replaceMode) {
+      console.log(`— ${slug}: hat bereits ein Bild — übersprungen`);
+      skipped += 1;
+      continue;
+    }
+    // Bestehenden image-Block entfernen (letzter Frontmatter-Key, siehe Kopfkommentar).
+    const stripped = raw.replace(/\r?\nimage:\r?\n[\s\S]*?(\r?\n---\r?\n)/, '$1');
+    if (stripped === raw) {
+      console.error(`✗ ${slug}: bestehender image-Block nicht am Frontmatter-Ende — manuell ersetzen`);
+      skipped += 1;
+      continue;
+    }
+    raw = stripped;
   }
 
   const image = sanitizeDraftImage(proposal.image);

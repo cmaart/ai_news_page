@@ -56,6 +56,7 @@ export interface Story {
   slug: string;
   firstSeenAt: string;
   lastUpdatedAt: string;
+  /** 'review' wird nicht mehr geschrieben (Review-PR-Flow entfernt) — nur Legacy-Einträge. */
   status: 'monitor' | 'noted' | 'published' | 'review';
   articlePath?: string;
   researchPath?: string;
@@ -223,23 +224,20 @@ export interface DraftResult {
 export interface ManifestArticle {
   slug: string;
   articlePath: string;
-  /** Repo-relativer Pfad des Research-JSONs — der Workflow committet ihn beim
-   *  Review-PR mit auf den Artikel-Branch (nicht auf main). */
+  /** Repo-relativer Pfad des Research-JSONs (Audit-Beleg, wird mit committet). */
   researchPath: string;
-  /** Repo-relativer Pfad des Hero-Bilds (E44) — muss beim Review-PR mit auf den Branch. */
+  /** Repo-relativer Pfad des Hero-Bilds (E44). */
   imagePath?: string;
-  sensitive: boolean;
   isUpdate: boolean;
 }
 
 export interface RunManifest {
   ranAt: string;
-  /** Aggregat: 'published_*' sobald mindestens ein Auto-Publish dabei ist (Deploy-Trigger). */
-  action: 'none' | 'published_new' | 'published_update' | 'review_new' | 'review_update';
+  /** 'published_new' sobald mindestens ein neuer Artikel dabei ist (Deploy-Trigger). */
+  action: 'none' | 'published_new' | 'published_update';
   /** Alle Artikel dieses Runs (max AI_NEWS_MAX_ARTICLES_PER_RUN). */
   articles: ManifestArticle[];
   slug?: string;
   articlePath?: string;
-  sensitive: boolean;
   stats: RunRecord;
 }

@@ -5,11 +5,8 @@
 # Scheduling kommt von außen (E39): Supabase pg_cron → Edge Function
 # trigger-ai-news → workflow_dispatch. Kein schedule:-Trigger mehr — GitHub-Cron
 # driftete 1–4 h. Siehe docs/supabase-scheduler.md.
-# Auto-Publish: validate + build als Gate, dann Commit direkt auf main.
-# Sensitivity high: Artikel auf Branch ai-news/<slug> + PR statt main —
-# Frontmatter steht bereits auf status: published, Merge allein publiziert
-# (Deploy läuft über den on-push-Trigger von deploy.yml, da der Merge mit
-# User-Token gepusht wird).
+# Auto-Publish: validate + build als Gate, dann Commit direkt auf main —
+# gilt für alle Artikel, auch sensitivity high (kein Review-PR mehr).
 # Memory (data/ai-news/memory) landet immer auf main — deploy.yml ignoriert
 # data/**-only-Pushes; nach Artikel-Pushes wird deploy.yml explizit dispatcht
 # (Pushes mit GITHUB_TOKEN triggern keine on-push-Workflows).
@@ -25,7 +22,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
   actions: write
 
 concurrency:
@@ -82,9 +78,7 @@ jobs:
         run: |
           M=data/ai-news/work/run-output.json
           echo "action=$(jq -r '.action // "none"' $M)" >> "$GITHUB_OUTPUT"
-          echo "published_slugs=$(jq -r '[.articles[]? | select(.sensitive | not) | .slug] | join(", ")' $M)" >> "$GITHUB_OUTPUT"
-          echo "has_sensitive=$(jq -r '[.articles[]? | select(.sensitive)] | length > 0' $M)" >> "$GITHUB_OUTPUT"
-          echo "sensitive_articles=$(jq -c '[.articles[]? | select(.sensitive)]' $M)" >> "$GITHUB_OUTPUT"
+          echo "published_slugs=$(jq -r '[.articles[]? | .slug] | join(", ")' $M)" >> "$GITHUB_OUTPUT"
 
       # Gate vor jedem Push: Cross-Checks + kompletter Astro-Build.
       - name: Validate content
@@ -97,58 +91,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-      # Sensitiv: jeder Artikel auf eigenen Branch + PR (nur Artikel + sein
-      # Research-JSON), danach vom main-Working-Tree fernhalten. Notes/Memory
-      # bleiben im Working Tree und gehen im nächsten Step auf main.
-      - name: Create review PRs (sensitive articles)
-        if: steps.manifest.outputs.has_sensitive == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          ARTICLES: ${{ steps.manifest.outputs.sensitive_articles }}
-        run: |
-          gh label create automated --color 5319e7 --force
-          gh label create news-research --color 0e8a16 --force
-          gh label create needs-review --color d93f0b --force
-          echo "$ARTICLES" | jq -c '.[]' | while read -r entry; do
-            SLUG=$(echo "$entry" | jq -r '.slug')
-            ARTICLE=$(echo "$entry" | jq -r '.articlePath')
-            RESEARCH=$(echo "$entry" | jq -r '.researchPath')
-            IMAGE=$(echo "$entry" | jq -r '.imagePath // empty')
-            BRANCH="ai-news/${SLUG}"
-            git checkout -b "$BRANCH"
-            git add "$ARTICLE" "$RESEARCH" || true
-            if [ -n "$IMAGE" ]; then git add "$IMAGE" || true; fi
-            if git commit -m "AI-News-Draft (review): ${SLUG}"; then
-              # Auf aktuellen Remote-Stand rebasen: wurde main während des Runs
-              # aktualisiert (z. B. Workflow-Datei geändert), lehnt GitHub den
-              # Push eines Branches mit veralteter Workflow-Datei sonst ab
-              # (GITHUB_TOKEN hat nie workflows-Permission). --autostash, weil
-              # Memory/Notes für den main-Commit-Step noch unstaged im Tree liegen.
-              git fetch origin main
-              git rebase --autostash origin/main
-              git push -f -u origin "$BRANCH"
-              # Fehler nur schlucken, wenn wirklich schon ein PR offen ist — sonst
-              # Job-Fail (sichtbar), statt den Artikel unsichtbar auf dem Branch
-              # liegen zu lassen (passiert z. B. bei fehlender Actions-PR-Permission).
-              BODY=$(printf '%s\n\n%s' \
-                "Automatisch erzeugter Draft mit sensitivity: high — bitte prüfen. Research-JSON: ${RESEARCH}" \
-                "**Merge = Publish:** Frontmatter steht bereits auf \`status: published\` inkl. \`publishedAt\` — nach dem Merge deployt der Push auf main automatisch. Bei Ablehnung PR einfach schließen.")
-              if ! gh pr create --base main --head "$BRANCH" \
-                --title "Review nötig: ${SLUG}" \
-                --label automated --label news-research --label needs-review \
-                --body "$BODY"; then
-                if [ "$(gh pr list --head "$BRANCH" --state open --json number --jq 'length')" = "0" ]; then
-                  echo "::error::PR-Erstellung fehlgeschlagen für ${SLUG} — Artikel läge sonst unsichtbar auf ${BRANCH}."
-                  exit 1
-                fi
-                echo "PR existiert bereits — Branch aktualisiert."
-              fi
-            else
-              echo "Nichts zu committen für ${SLUG}."
-            fi
-            git checkout main
-          done
 
       - name: Commit to main (memory, notes, published articles)
         run: |

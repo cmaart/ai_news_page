@@ -54,9 +54,8 @@ export interface WriteArticleOptions {
 
 /**
  * Schreibt den Artikel als MDX; gibt den relativen Pfad zurück.
- * Immer `status: published` + `publishedAt` — auch sensitive Artikel, die auf
- * einen PR-Branch gehen: das menschliche Gate ist der PR-Review, der Merge
- * allein publiziert (PLAN.md E30).
+ * Immer `status: published` + `publishedAt` — alle Artikel gehen direkt auf
+ * main, auch sensitivity high (PLAN.md E30, revidiert 2026-07-11).
  */
 export function writeArticle(options: WriteArticleOptions): string {
   const { slug, draft, newsworthiness, existingCorrections = [], updateNote, nowIso } = options;
