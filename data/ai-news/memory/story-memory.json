@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T12:22:34.552Z",
+  "updatedAt": "2026-07-11T13:16:31.951Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -758,11 +758,11 @@
       "doNotUpdateBefore": "2026-07-11T15:07:25.442Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-11T09:07:25.442Z",
-        "diepresse": "2026-07-11T12:07:24.330Z"
+        "diepresse": "2026-07-11T13:07:28.606Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-11T12:07:24.330Z"
+      "resonanceMeasuredAt": "2026-07-11T13:07:28.606Z"
     },
     "widdecombe-mordermittlungen-festnahme-juli-2026": {
       "canonicalTitle": "Mordermittlungen nach Tod von Ann Widdecombe: 26-Jähriger festgenommen",
@@ -1248,6 +1248,71 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T12:07:24.330Z",
       "doNotUpdateBefore": "2026-07-11T18:07:24.330Z"
+    },
+    "darecations-adrenalin-reisetrend-2026": {
+      "canonicalTitle": "Adrenalin statt Erholung: Der Trend zu riskanten „Darecations“",
+      "slug": "darecations-adrenalin-reisetrend-2026",
+      "firstSeenAt": "2026-07-11T13:07:28.606Z",
+      "lastUpdatedAt": "2026-07-11T13:07:28.606Z",
+      "status": "published",
+      "articlePath": "src/content/articles/darecations-adrenalin-reisetrend-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/darecations-adrenalin-reisetrend-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3431643",
+        "https://kurier.at/kolumnen/wir-schauen-fern/ewige-suche/403175098"
+      ],
+      "openQuestions": [
+        "Wie belastbar sind die zitierten SportsCover- und Pinterest-Zahlen, und liegen ihnen öffentlich einsehbare Primärquellen zugrunde?",
+        "Gibt es für Österreich eigene Erhebungen zu Extremtourismus, oder bleibt es bei anekdotischer Evidenz?",
+        "Welchen tatsächlichen Anteil haben „Darecations“ am gesamten Reiseverhalten im Vergleich zu klassischen Urlaubsformen?",
+        "Was genau meint die Psychologin Job mit der Rolle der Adoleszenz in diesem Zusammenhang – das Zitat im Ausgangsbericht bricht an dieser Stelle ab?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-12T13:07:28.606Z",
+      "doNotUpdateBefore": "2026-07-11T19:07:28.606Z"
+    },
+    "paragleitunfaelle-tirol-juli-2026": {
+      "canonicalTitle": "Tirol: 28-Jährige stirbt bei Paragleitunfall im Stubaital, zweiter Absturz am Achensee",
+      "slug": "paragleitunfaelle-tirol-juli-2026",
+      "firstSeenAt": "2026-07-11T13:07:28.606Z",
+      "lastUpdatedAt": "2026-07-11T13:07:28.606Z",
+      "status": "published",
+      "articlePath": "src/content/articles/paragleitunfaelle-tirol-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/paragleitunfaelle-tirol-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36711891/28-jaehrige-starb-in-tirol-beim-paragleiten",
+        "https://www.kleinezeitung.at/artikel/36686386/paragleiter-bei-sturz-in-tiroler-achensee-verletzt"
+      ],
+      "openQuestions": [
+        "Was war die konkrete Unfallursache beim tödlichen Absturz im Stubaital?",
+        "Wie schwer wurde der 24-jährige Paragleiter am Achensee tatsächlich verletzt und wie ist sein aktueller Zustand?",
+        "Laufen behördliche Ermittlungen zu einem oder beiden Vorfällen, und mit welchem Ergebnis?",
+        "Spielten Witterungs- oder Windverhältnisse bei einem der beiden Unfälle eine Rolle?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T13:07:28.606Z",
+      "doNotUpdateBefore": "2026-07-11T19:07:28.606Z"
+    },
+    "innsbruck-wohnungslosigkeit-erhebung-oktober-2025": {
+      "canonicalTitle": "Erste umfassende Zählung: 1.246 Menschen in Innsbruck als wohnungslos erfasst",
+      "slug": "innsbruck-wohnungslosigkeit-erhebung-oktober-2025",
+      "firstSeenAt": "2026-07-11T13:07:28.606Z",
+      "lastUpdatedAt": "2026-07-11T13:07:28.606Z",
+      "status": "published",
+      "articlePath": "src/content/articles/innsbruck-wohnungslosigkeit-erhebung-oktober-2025.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/innsbruck-wohnungslosigkeit-erhebung-oktober-2025.json",
+      "sourceUrls": [
+        "https://tirol.orf.at/stories/3362067"
+      ],
+      "openQuestions": [
+        "Welche konkreten Vergleichszahlen gibt es für Salzburg und andere österreichische Städte?",
+        "Ist die zugrundeliegende EU-Studie bzw. eine mögliche Auswertung der Österreichischen Akademie der Wissenschaften öffentlich zugänglich?",
+        "Wie wurde methodisch gezählt (Stichtagserhebung, Einbezug von Einrichtungen, Dunkelfeld)?",
+        "Gibt es eine Stellungnahme der Stadt Innsbruck oder des Landes Tirol zu den Ursachen und geplanten Maßnahmen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T13:07:28.606Z",
+      "doNotUpdateBefore": "2026-07-11T19:07:28.606Z"
     }
   }
 }

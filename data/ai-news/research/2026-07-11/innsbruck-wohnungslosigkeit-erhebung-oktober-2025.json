@@ -1,0 +1,160 @@
+{
+  "cluster": {
+    "id": "cluster-20260711-5bb07b56",
+    "title": "1.246 Menschen in Innsbruck wohnungslos",
+    "items": [
+      {
+        "itemId": "f9beb4b600979f9dc48acf6edc847ae9e3ea1da13ef5588e18d4b350376c1560",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "1.246 Menschen in Innsbruck wohnungslos",
+        "url": "https://tirol.orf.at/stories/3362067",
+        "summary": "Erstmals liegt für Innsbruck eine umfassende Erhebung zur Wohnungslosigkeit vor. Im Rahmen einer EU-weiten Zählung wurden am Stichtag 6. Oktober 2025 insgesamt 1.246 wohnungslose Erwachsene sowie 133 Kinder erfasst. Das sind deutlich mehr als beispielweise in Salzburg.",
+        "publishedAt": "2026-07-11T10:33:37.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "eb4436a643070fe1ac8ccb4542a81bda752779e5c62707e3a401259138b49f06",
+        "sourceId": "orf_tirol",
+        "sourceType": "media",
+        "title": "1.246 Menschen in Innsbruck wohnungslos",
+        "url": "https://tirol.orf.at/stories/3362067",
+        "summary": "Erstmals liegt für Innsbruck eine umfassende Erhebung zur Wohnungslosigkeit vor. Im Rahmen einer EU-weiten Zählung wurden am Stichtag 6. Oktober 2025 insgesamt 1.246 wohnungslose Erwachsene sowie 133 Kinder erfasst. Das sind deutlich mehr als beispielweise in Salzburg.",
+        "publishedAt": "2026-07-11T10:33:37.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.65,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Erste EU-weite Erhebung zur Wohnungslosigkeit in Innsbruck mit konkreten, disaggregierten Daten (1.246 Erwachsene + 133 Kinder, Stichtag 6. Oktober 2025) ist substanziell und von klarer öffentlicher Relevanz für Österreich. Quellenlage transparent (EU-Studie European Homelessness Counts, Österreichische Akademie der Wissenschaften, Verein für Obdachlose). Sensible Themen (Wohnungslosigkeit, Migration, Sucht) erfordern vorsichtige Formulierung – vorliegende ORF-Behandlung ist sachlich und politisch ausgewogen. Vergleich zu Salzburg angedeutet, aber konkrete Zahlen fehlen.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "possibleClaims": [
+      "1.246 Menschen waren am 6. Oktober 2025 in Innsbruck wohnungslos",
+      "133 Kinder waren in Begleitung wohnungsloser Erwachsener",
+      "Etwa 74 % der Wohnungslosen sind Männer",
+      "Über 42 % kamen vorübergehend bei Verwandten oder Freunden unter",
+      "14 % lebten im öffentlichen Raum (175 Menschen)",
+      "Etwa 37 % aller Wohnungslosen sind zwischen 18 und 29 Jahre alt",
+      "Ein Drittel hatte österreichische Staatsbürgerschaft, 46 % kamen aus Nicht-EU-Staaten",
+      "Häufigste Auslöser: finanzielle Schwierigkeiten, Mietverhältnis-Auflösung, familiäre Konflikte, Sucht, Migration"
+    ],
+    "missingSources": [
+      "Konkrete Vergleichszahlen für Salzburg (erwähnt, aber nicht beziffert)",
+      "Direkter Zugriff auf EU-Studie oder ÖAW-Publikation (implizit vorhanden, aber URL-Referenz fehlt)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "innsbruck-wohnungslosigkeit-erhebung-oktober-2025",
+    "title": "Erste umfassende Zählung: 1.246 Menschen in Innsbruck als wohnungslos erfasst",
+    "description": "Laut einem ORF-Bericht wurden am Stichtag 6. Oktober 2025 im Rahmen einer EU-weiten Zählung in Innsbruck 1.246 wohnungslose Erwachsene und 133 Kinder registriert. Es ist die erste derartige Erhebung für die Tiroler Landeshauptstadt – zentrale Details bleiben quellenseitig offen.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Die Kernzahlen stammen aus einem einzelnen, aber etablierten Medienbericht (ORF); es liegt weder eine Bestätigung durch die zählende Institution selbst noch eine zweite unabhängige Quelle oder eine APA-Meldung vor, weshalb die Einstufung nicht höher ausfällt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die zugrundeliegende EU-weite Zählung bzw. eine mögliche Studie der Österreichischen Akademie der Wissenschaften wurde nicht direkt eingesehen, sondern nur über den ORF-Bericht referenziert.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es liegt nur die Darstellung eines einzelnen Medienberichts vor; eine Stellungnahme der Stadt Innsbruck, des Landes Tirol oder von Betroffenenorganisationen aus erster Hand fehlt, wodurch eine Perspektive die Quellenlage dominiert.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut einem ORF-Bericht wurden am Stichtag 6. Oktober 2025 in Innsbruck 1.246 wohnungslose Erwachsene sowie 133 Kinder erfasst.",
+        "kind": "fact"
+      },
+      {
+        "text": "Es handelt sich laut Bericht um die erste umfassende Erhebung dieser Art für Innsbruck, durchgeführt im Rahmen einer EU-weiten Zählung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Innsbruck weist laut Bericht deutlich mehr Wohnungslose auf als etwa Salzburg – konkrete Vergleichszahlen werden im vorliegenden Material aber nicht genannt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen ist, welche Institution die Zählung im Detail durchgeführt hat und ob die zugrundeliegende Studie öffentlich einsehbar ist.",
+        "kind": "open"
+      },
+      {
+        "text": "Demografische Details wie Geschlechterverteilung, Altersstruktur, Staatsbürgerschaft oder Auslöser der Wohnungslosigkeit sind bislang nicht unabhängig verifiziert.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche konkreten Vergleichszahlen gibt es für Salzburg und andere österreichische Städte?",
+      "Ist die zugrundeliegende EU-Studie bzw. eine mögliche Auswertung der Österreichischen Akademie der Wissenschaften öffentlich zugänglich?",
+      "Wie wurde methodisch gezählt (Stichtagserhebung, Einbezug von Einrichtungen, Dunkelfeld)?",
+      "Gibt es eine Stellungnahme der Stadt Innsbruck oder des Landes Tirol zu den Ursachen und geplanten Maßnahmen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Tirol / ORF Österreich: „1.246 Menschen in Innsbruck wohnungslos“",
+        "type": "media",
+        "url": "https://tirol.orf.at/stories/3362067"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Am Stichtag 6. Oktober 2025 wurden in Innsbruck im Rahmen einer EU-weiten Zählung 1.246 wohnungslose Erwachsene sowie 133 Kinder erfasst.",
+        "status": "partial",
+        "note": "Zahl stammt aus einem einzelnen Medienbericht; eine Bestätigung durch die zählende Institution oder eine zweite unabhängige Quelle liegt nicht vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Innsbruck weist damit deutlich mehr wohnungslose Menschen auf als etwa Salzburg.",
+        "status": "unclear",
+        "note": "Der Vergleich wird im Bericht angedeutet, aber ohne konkrete Zahlen für Salzburg belegt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Etwa drei Viertel der erfassten wohnungslosen Personen sind männlich.",
+        "status": "unclear",
+        "note": "Dieser Wert liegt nur als nicht unabhängig bestätigte Angabe vor; im ausgewerteten Kurzmaterial selbst wird er nicht genannt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Als häufigste Auslöser der Wohnungslosigkeit werden unter anderem finanzielle Schwierigkeiten, die Auflösung von Mietverhältnissen, familiäre Konflikte, Suchterkrankungen und Migration genannt.",
+        "status": "unclear",
+        "note": "Nicht abschließend verifiziert; ohne Einsicht in die Primärquelle lässt sich diese Kategorisierung nicht bestätigen.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut einem Bericht des ORF liegt für Innsbruck erstmals eine umfassende Erhebung zur Wohnungslosigkeit vor. Im Rahmen einer EU-weiten Zählung wurden demnach am Stichtag 6. Oktober 2025 insgesamt 1.246 wohnungslose Erwachsene sowie 133 Kinder in der Tiroler Landeshauptstadt erfasst. Der Bericht ordnet diese Zahl als deutlich höher ein als vergleichbare Werte etwa in Salzburg, ohne dafür jedoch konkrete Gegenzahlen zu nennen. Es handelt sich nach vorliegenden Angaben um die erste derartige systematische Zählung für Innsbruck."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die verfügbaren Angaben stammen aus einem einzelnen Medienbericht, der offenbar auf einer Auswertung im Kontext der europaweiten Initiative „European Homelessness Counts“ beruht. Neben den Gesamtzahlen werden dem Bericht zufolge auch demografische Aufschlüsselungen genannt – etwa zum Geschlechterverhältnis, zur Altersstruktur, zur Staatsbürgerschaft sowie zu möglichen Auslösern wie finanziellen Problemen, aufgelösten Mietverhältnissen, familiären Konflikten, Suchterkrankungen oder Migration. Diese Detailwerte liegen der Redaktion nur als Randinformationen vor und konnten nicht anhand einer eingesehenen Primärquelle – etwa der zugrundeliegenden Studie oder einer möglichen Auswertung der Österreichischen Akademie der Wissenschaften – überprüft werden."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, welche Institution die Zählung konkret organisiert und ausgewertet hat und ob die zugrundeliegenden Daten öffentlich zugänglich sind. Auch die im Bericht angedeutete Vergleichszahl zu Salzburg wird nicht beziffert, sodass sich das Ausmaß des Unterschieds nicht einordnen lässt. Die genannten demografischen Anteile und Ursachen der Wohnungslosigkeit sind nicht unabhängig bestätigt und sollten als vorläufig behandelt werden, bis eine Primärquelle vorliegt oder weitere Medien berichten."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Da es sich um ein sensibles gesellschaftliches Thema mit Bezug zu sozialer Notlage und Migration handelt, ist bei der Bewertung besondere Zurückhaltung geboten. Die vorliegende Quellenlage – ein einzelner, wenn auch etablierter Medienbericht – erlaubt keine abschließende Einschätzung der Ursachen oder politischen Konsequenzen der erhobenen Zahlen. Weitere Berichterstattung oder eine öffentlich zugängliche Fassung der zugrundeliegenden Studie wären nötig, um die Angaben unabhängig zu bestätigen."
+      }
+    ],
+    "bodyKompakt": "Laut einem Bericht des ORF liegt für Innsbruck erstmals eine umfassende Erhebung zur Wohnungslosigkeit vor. Im Rahmen einer EU-weiten Zählung wurden am Stichtag 6. Oktober 2025 insgesamt 1.246 wohnungslose Erwachsene sowie 133 Kinder erfasst. Der Bericht ordnet diesen Wert als deutlich höher ein als vergleichbare Zahlen etwa in Salzburg, nennt dafür aber keine konkreten Vergleichswerte.\n\nDem Bericht zufolge liegen auch demografische Aufschlüsselungen vor – etwa zu Geschlecht, Alter, Staatsbürgerschaft und möglichen Auslösern wie finanziellen Problemen, aufgelösten Mietverhältnissen, familiären Konflikten, Sucht oder Migration. Diese Detailangaben stammen jedoch aus einem einzelnen Medienbericht und konnten nicht anhand einer eingesehenen Primärquelle überprüft werden.\n\nOffen bleiben unter anderem die genaue Vergleichszahl für Salzburg, die verantwortliche Institution der Zählung sowie die Zugänglichkeit der zugrundeliegenden Studie. Angesichts der sensiblen Thematik sind die Angaben vorläufig und nicht abschließend verifiziert zu behandeln.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-11T13:07:28.606Z"
+}
