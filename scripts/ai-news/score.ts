@@ -18,8 +18,10 @@ const TECH_KEYWORDS = /\b(ki|künstliche intelligenz|digital|cyber|daten)\b/i;
 // Chronik-/Blaulicht-Signale (E47, Wielandpark-Lehre): bewusst eng gehalten —
 // nur Begriffe schwerer Ereignisse, damit Boulevard-Kleinmeldungen nicht
 // pauschal geboostet werden (LOW_VALUE-Penalty bleibt unabhängig aktiv).
+// Sabotage-/Anschlags-Begriffe ergänzt (Bahnsabotage-Lehre): die Köln-Story
+// stand ohne Keyword-Treffer bei 0.55 und kam nie zur Triage.
 const CHRONIK_KEYWORDS =
-  /\b(polizei|festnahme|festgenommen|ermittlungen?|tatverdächtig\w*|messerangriff\w*|messerattacke\w*|messerstich\w*|lebensgefährlich\w*|schwer verletzt\w*|schwerverletzt\w*|amoklauf\w*|brandstiftung|wega)\b/i;
+  /\b(polizei|festnahme|festgenommen|ermittlungen?|tatverdächtig\w*|messerangriff\w*|messerattacke\w*|messerstich\w*|lebensgefährlich\w*|schwer verletzt\w*|schwerverletzt\w*|amoklauf\w*|brandstiftung|wega|sabotage\w*|anschlag|anschläge\w*|brandanschlag\w*|bekennerschreiben|terror\w*|extremist\w*)\b/i;
 
 const LOW_VALUE_KEYWORDS =
   /\b(promi|star|royal|adel|dschungelcamp|song contest|horoskop|rezept|gewinnspiel|fußball|bundesliga|champions league|ski|tennis|formel|olympia|match|spielbericht)\b/i;

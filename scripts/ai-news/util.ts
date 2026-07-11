@@ -88,17 +88,44 @@ export function titleTokens(title: string): Set<string> {
   return tokens;
 }
 
+// Komposita-tolerantes Token-Matching (Bahnsabotage-Lehre): deutsche Komposita
+// wie „Sabotageverdacht" vs. „Sabotage" oder „Deutschland" vs. „deutsch"
+// zerlegen sonst dieselbe Story in Ein-Portal-Cluster, die den Diversitäts-
+// Bonus verlieren. Präfix-Match nur ab 6 Zeichen des kürzeren Tokens, damit
+// kurze Stämme („brand" vs. „brandanschlag") keine False-Merges erzeugen.
+const MIN_PREFIX_MATCH = 6;
+
+export function tokensMatch(a: string, b: string): boolean {
+  if (a === b) return true;
+  const [short, long] = a.length <= b.length ? [a, b] : [b, a];
+  return short.length >= MIN_PREFIX_MATCH && long.startsWith(short);
+}
+
+function fuzzyIntersection(a: Set<string>, b: Set<string>): number {
+  let n = 0;
+  for (const tokenA of a) {
+    if (b.has(tokenA)) {
+      n++;
+      continue;
+    }
+    for (const tokenB of b) {
+      if (tokensMatch(tokenA, tokenB)) {
+        n++;
+        break;
+      }
+    }
+  }
+  return n;
+}
+
 export function jaccard(a: Set<string>, b: Set<string>): number {
   if (a.size === 0 || b.size === 0) return 0;
-  let intersection = 0;
-  for (const token of a) if (b.has(token)) intersection++;
+  const intersection = fuzzyIntersection(a, b);
   return intersection / (a.size + b.size - intersection);
 }
 
 export function overlapCount(a: Set<string>, b: Set<string>): number {
-  let n = 0;
-  for (const token of a) if (b.has(token)) n++;
-  return n;
+  return fuzzyIntersection(a, b);
 }
 
 export function slugify(input: string): string {
