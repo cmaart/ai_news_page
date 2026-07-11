@@ -1,6 +1,6 @@
 /**
- * Phase 4: Regelbasiertes Scoring vor jedem Claude-Call (PLAN.md E29).
- * score > 0.65 → ai_triage · 0.45–0.65 → monitor · sonst ignore.
+ * Phase 4: Regelbasiertes Scoring vor jedem Claude-Call (PLAN.md E29, E47).
+ * score ≥ 0.65 → ai_triage · 0.45–<0.65 → monitor · sonst ignore.
  */
 import type { Cluster, ClusterScore, SourceDef } from './types.ts';
 import { envFloat, normalizeTitle, portalOf } from './util.ts';
@@ -14,6 +14,12 @@ const RELEVANT_KEYWORDS =
 // Tech-Begriffe geben nur einen halben Bonus: „KI" allein macht z. B. eine
 // Ausstellungs-PR nicht nachrichtenrelevant (Miao-Ying-Lehre, PLAN.md E38).
 const TECH_KEYWORDS = /\b(ki|künstliche intelligenz|digital|cyber|daten)\b/i;
+
+// Chronik-/Blaulicht-Signale (E47, Wielandpark-Lehre): bewusst eng gehalten —
+// nur Begriffe schwerer Ereignisse, damit Boulevard-Kleinmeldungen nicht
+// pauschal geboostet werden (LOW_VALUE-Penalty bleibt unabhängig aktiv).
+const CHRONIK_KEYWORDS =
+  /\b(polizei|festnahme|festgenommen|ermittlungen?|tatverdächtig\w*|messerangriff\w*|messerattacke\w*|messerstich\w*|lebensgefährlich\w*|schwer verletzt\w*|schwerverletzt\w*|amoklauf\w*|brandstiftung|wega)\b/i;
 
 const LOW_VALUE_KEYWORDS =
   /\b(promi|star|royal|adel|dschungelcamp|song contest|horoskop|rezept|gewinnspiel|fußball|bundesliga|champions league|ski|tennis|formel|olympia|match|spielbericht)\b/i;
@@ -53,6 +59,9 @@ export function scoreCluster(cluster: Cluster, sourceById: Map<string, SourceDef
   if (RELEVANT_KEYWORDS.test(text)) {
     score += 0.1;
     reasons.push('relevant topic keywords');
+  } else if (CHRONIK_KEYWORDS.test(text)) {
+    score += 0.1;
+    reasons.push('chronik/blaulicht keywords');
   } else if (TECH_KEYWORDS.test(text)) {
     score += 0.05;
     reasons.push('tech keywords');
@@ -95,6 +104,8 @@ export function scoreCluster(cluster: Cluster, sourceById: Map<string, SourceDef
   }
 
   score = Math.max(0, Math.min(1, score));
-  const recommendedAction = score > TRIAGE_THRESHOLD ? 'ai_triage' : score >= MONITOR_THRESHOLD ? 'monitor' : 'ignore';
+  // Inklusive Schwelle (E47): das Presse+Standard-Fragment der Wielandpark-Story
+  // stand exakt bei 0.65 und fiel an der strikten Schwelle knapp durch.
+  const recommendedAction = score >= TRIAGE_THRESHOLD ? 'ai_triage' : score >= MONITOR_THRESHOLD ? 'monitor' : 'ignore';
   return { score: Number(score.toFixed(3)), recommendedAction, reasons };
 }
