@@ -1,0 +1,171 @@
+{
+  "cluster": {
+    "id": "cluster-20260711-ed48e245",
+    "title": "Japan meldet erfolgreichen Test einer wiederverwendbaren Rakete",
+    "items": [
+      {
+        "itemId": "98462d22ff6e961a7ec5683ea12f48239fc34242a70a7e916edca52001c5a2f1",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Japan meldet erfolgreichen Test einer wiederverwendbaren Rakete",
+        "url": "https://www.diepresse.com/36692366/japan-meldet-erfolgreichen-test-einer-wiederverwendbaren-rakete",
+        "summary": "Der Flug dauerte laut Jaxa etwa 40 Sekunden, die Rakete stieg dabei auf eine Höhe von rund zehn Metern. Die Entwicklung wiederverwendbarer Raketen soll die Kosten in der Raumfahrt deutlich senken.",
+        "publishedAt": "2026-07-11T07:26:54.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "18231f63e442f7f1896422b99d2324dc45fe3ad9ff8bae198fe5db7db440be89",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Japan meldet erfolgreichen Test einer wiederverwendbaren Rakete",
+        "url": "https://kurier.at/politik/ausland/japan-jaxa-test-wiederverwendbare-rakete-ruestung/403175580",
+        "isNew": false
+      },
+      {
+        "itemId": "96607a3a51b50d1519e14e23acc38c7ad6991e5d386d17c5bad41c3afcd7712b",
+        "sourceId": "kurier_politik",
+        "sourceType": "media",
+        "title": "Japan meldet erfolgreichen Test einer wiederverwendbaren Rakete",
+        "url": "https://kurier.at/politik/ausland/japan-jaxa-test-wiederverwendbare-rakete-ruestung/403175580",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.65,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Genuine technology milestone with international significance and adequate source material (named JAXA official + context on Chinese/Honda parallel efforts). Substantial enough for publication. Falls under tech/space-industry news relevant to EU/global context, not merely PR or event-announcement.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "possibleClaims": [
+      "JAXA tested reusable rocket prototype successfully",
+      "Test flight lasted approximately 40 seconds, reached ~10 meters altitude",
+      "Project lead Takashi Ito confirmed 'problem-free' start and landing",
+      "Reusable rocket development aims to reduce space industry costs",
+      "Japan seeks to catch up with SpaceX and Blue Origin",
+      "Honda subsidiary achieved successful reusable rocket test in June 2025",
+      "China retrieved reusable Long March 10B booster stage same week"
+    ],
+    "missingSources": [
+      "Direct JAXA press release or technical documentation (single source is news account citing named official)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "japan-jaxa-test-wiederverwendbare-rakete-juli-2026",
+    "title": "Japan meldet Test einer wiederverwendbaren Rakete – Details bislang dünn belegt",
+    "description": "Laut japanischen Medienberichten hat die Raumfahrtagentur Jaxa einen kurzen Testflug einer teilweise wiederverwendbaren Rakete absolviert. Flugdauer und Höhe sind gering, eine unabhängige Bestätigung der Details steht aus.",
+    "topic": "wissenschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei österreichische Portale berichten mit identischem Titel und praktisch gleichem Wortlaut – das deutet auf eine gemeinsame Agentur- oder Zulieferquelle statt auf zwei unabhängige Recherchen hin, weshalb die Einstufung nicht höher ausfällt.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine Jaxa-Aussendung oder sonstige Primärquelle eingesehen, sondern ausschließlich Kurzmeldungen zweier Medienportale.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung folgt erkennbar der Erfolgsmeldung der Agentur Jaxa; eine unabhängige technische Einordnung oder Gegenstimme liegt nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Laut vorliegenden Medienberichten hat die japanische Raumfahrtagentur Jaxa einen Testflug einer teilweise wiederverwendbaren Rakete durchgeführt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Flug soll rund 40 Sekunden gedauert und eine Höhe von etwa zehn Metern erreicht haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ziel der Entwicklung ist laut den Berichten, die Kosten in der Raumfahrt deutlich zu senken.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und wie Japan damit zu Anbietern wie SpaceX oder Blue Origin aufschließen könnte, bleibt offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine Bestätigung durch eine offizielle Jaxa-Mitteilung oder weitere unabhängige Quellen liegt bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Liegt eine offizielle technische Dokumentation oder Aussendung der Jaxa zu diesem Test vor?",
+      "Wie ordnet sich der Test im Vergleich zu parallelen Projekten (etwa in China oder bei einer Honda-Tochter) tatsächlich ein?",
+      "Welche nächsten Testschritte plant die Jaxa, und in welchem Zeitraum?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36692366/japan-meldet-erfolgreichen-test-einer-wiederverwendbaren-rakete"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/japan-jaxa-test-wiederverwendbare-rakete-ruestung/403175580"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die japanische Raumfahrtagentur Jaxa hat einen Testflug einer teilweise wiederverwendbaren Rakete durchgeführt.",
+        "status": "partial",
+        "note": "Beide vorliegenden Quellen geben denselben Sachverhalt in nahezu identischem Wortlaut wieder, was auf eine gemeinsame Ursprungsquelle hindeutet – keine unabhängige Zweitbestätigung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Testflug dauerte rund 40 Sekunden und erreichte eine Höhe von etwa zehn Metern.",
+        "status": "partial",
+        "note": "Die Angabe stammt laut Bericht von der Jaxa selbst, wurde aber nicht anhand einer eingesehenen Primärquelle geprüft.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Entwicklung wiederverwendbarer Raketen soll die Kosten in der Raumfahrt deutlich senken.",
+        "status": "unclear",
+        "note": "Allgemeine Zielsetzung laut Berichterstattung, ohne belegte Zahlen oder Berechnungen dazu.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Japan will mit dem Projekt zu internationalen Anbietern wiederverwendbarer Raketensysteme aufschließen.",
+        "status": "unclear",
+        "note": "Diese Einordnung ist plausibel, aber in den vorliegenden Kurzmeldungen nicht mit Details oder Zitaten belegt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Kurzmeldungen österreichischer Medien hat die japanische Raumfahrtagentur Jaxa einen Testflug einer teilweise wiederverwendbaren Rakete durchgeführt. Der Flug soll rund 40 Sekunden gedauert und eine Höhe von etwa zehn Metern erreicht haben – ein für Raketentests kurzer und niedriger Hüpfer, wie er in frühen Entwicklungsphasen solcher Systeme üblich ist. Die Berichte ordnen den Test als Teil eines längerfristigen Programms ein, mit dem Japan die Kosten in der Raumfahrt senken möchte."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die vorliegenden Berichte von Die Presse und Kurier tragen denselben Titel und geben den Sachverhalt in sehr ähnlichem Wortlaut wieder. Das spricht dafür, dass beide Portale auf dieselbe zugrunde liegende Meldung zurückgreifen, statt eigenständig zu recherchieren. Eine offizielle Jaxa-Mitteilung oder sonstige Primärquelle wurde für diesen Artikel nicht eingesehen; die genannten Zahlen zu Flugdauer und Höhe werden den Berichten zufolge von der Agentur selbst stammen, konnten aber nicht unabhängig geprüft werden."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie der Test technisch im Detail ablief, welche Komponente der Rakete tatsächlich wiederverwendbar getestet wurde und welche nächsten Schritte die Jaxa plant. Auch der Vergleich zu parallelen Entwicklungen – etwa Berichten über einen Test einer Honda-Tochter oder über die Rückholung einer wiederverwendbaren Trägerstufe in China – lässt sich aus den vorliegenden Kurzmeldungen nicht abschließend einordnen, da hierzu keine eingesehenen Quellen vorliegen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Entwicklung wiederverwendbarer Raketen gilt international als Weg, Startkosten zu senken, wie es Anbieter wie SpaceX seit Jahren vormachen. Dass Japan in diesem Bereich aktiv wird, ist an sich plausibel und fügt sich in eine breitere Konkurrenz zwischen Raumfahrtnationen ein. Angesichts der dünnen, auf eine einzige erkennbare Ursprungsmeldung zurückgehenden Quellenlage lässt sich der Stellenwert dieses konkreten Tests für das japanische Programm derzeit aber nicht abschließend bewerten."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Kurzmeldungen österreichischer Medien hat die japanische Raumfahrtagentur Jaxa einen Testflug einer teilweise wiederverwendbaren Rakete durchgeführt. Der Flug soll rund 40 Sekunden gedauert und eine Höhe von etwa zehn Metern erreicht haben. Ziel des Programms ist laut Berichten, die Kosten in der Raumfahrt zu senken.\n\nDie vorliegenden Berichte von Die Presse und Kurier sind im Wortlaut nahezu identisch, was auf eine gemeinsame Ursprungsquelle hindeutet statt auf zwei unabhängige Recherchen. Eine offizielle Jaxa-Mitteilung wurde für diesen Artikel nicht eingesehen, weshalb die genannten Zahlen nicht unabhängig geprüft werden konnten.\n\nOffen bleiben technische Details des Tests, die weiteren Programmschritte sowie die tatsächliche Einordnung im Vergleich zu parallelen Projekten etwa in China oder bei einer Honda-Tochter. Die Quellenlage erlaubt derzeit keine abschließende Bewertung des Stellenwerts dieses Tests.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-11T08:07:22.735Z"
+}

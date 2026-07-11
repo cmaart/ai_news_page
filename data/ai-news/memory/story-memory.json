@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T07:09:33.194Z",
+  "updatedAt": "2026-07-11T08:18:36.942Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -870,8 +870,13 @@
       "doNotRedraftBefore": "2026-07-12T06:07:25.846Z",
       "doNotUpdateBefore": "2026-07-11T12:07:25.846Z",
       "echoPublishers": {
-        "thedecoder": "2026-07-11T06:28:44.592Z"
-      }
+        "thedecoder": "2026-07-11T06:28:44.592Z",
+        "diepresse": "2026-07-11T08:07:22.735Z",
+        "futurezone": "2026-07-11T08:07:22.735Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-11T08:07:22.735Z"
     },
     "raketenangriff-kiew-juli-2026": {
       "canonicalTitle": "Raketenangriff auf Kiew: Mehrere Verletzte, Zahlen widersprüchlich",
@@ -901,6 +906,82 @@
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-11T06:28:44.592Z"
+    },
+    "geiselnahme-berlin-supermarkt-juli-2026": {
+      "canonicalTitle": "Geiselnahme in Berliner Supermarkt nach zwölf Stunden beendet",
+      "slug": "geiselnahme-berlin-supermarkt-juli-2026",
+      "firstSeenAt": "2026-07-11T08:07:22.735Z",
+      "lastUpdatedAt": "2026-07-11T08:07:22.735Z",
+      "status": "published",
+      "articlePath": "src/content/articles/geiselnahme-berlin-supermarkt-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/geiselnahme-berlin-supermarkt-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3435907",
+        "https://www.diepresse.com/36688353/polizei-beendet-geiselnahme-in-berliner-supermarkt",
+        "https://orf.at/stories/3435891",
+        "https://kurier.at/chronik/welt/geisel-berlin-supermarkt-scharfschuetzen/403175578",
+        "https://www.derstandard.at/story/3000000331033/geiselnahme-in-berliner-supermarkt-gro223einsatz-der-polizei",
+        "https://www.kleinezeitung.at/artikel/36682625/grosseinsatz-der-berliner-polizei-nach-geiselnahme",
+        "https://www.diepresse.com/36688353/geiselnahme-in-berliner-supermarkt-loest-grosseinsatz-der-polizei-aus",
+        "https://www.t-online.de/nachrichten/panorama/id_101338452/berlin-geiselnahme-in-rewe-markt-grosseinsatz-der-polizei.html",
+        "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_101338622/geiseldrama-in-berlin-frau-seit-11-stunden-in-gewalt-von-mann-.html"
+      ],
+      "openQuestions": [
+        "Was war das Motiv des Täters?",
+        "Welche konkreten Forderungen stellte er während der Geiselnahme?",
+        "In welcher gesundheitlichen und psychischen Verfassung befindet sich die befreite Frau?",
+        "Welche strafrechtlichen Schritte folgen gegen den Täter?",
+        "Wurde tatsächlich ein Messer als Tatwaffe verwendet, und kam es zu einem Waffeneinsatz der Polizei?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T08:07:22.735Z",
+      "doNotUpdateBefore": "2026-07-11T14:07:22.735Z"
+    },
+    "ice-schuss-houston-lorenzo-salgado-araujo-juli-2026": {
+      "canonicalTitle": "Houston: Von ICE-Beamten erschossener Mann soll laut Kongressabgeordneter nicht Ziel des Einsatzes gewesen sein",
+      "slug": "ice-schuss-houston-lorenzo-salgado-araujo-juli-2026",
+      "firstSeenAt": "2026-07-11T08:07:22.735Z",
+      "lastUpdatedAt": "2026-07-11T08:07:22.735Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ice-schuss-houston-lorenzo-salgado-araujo-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/ice-schuss-houston-lorenzo-salgado-araujo-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331041/kongressabgeordnete-get246teter-mann-gar-nicht-ziel-des-ice-einsatzes",
+        "https://www.derstandard.at/story/3000000330524/ice-beamter-erschoss-bei-einsatz-autofahrer-in-houston",
+        "https://orf.at/stories/3435823"
+      ],
+      "openQuestions": [
+        "Ist unabhängig geklärt, ob Salgado Araujo versuchte, einen Beamten mit dem Fahrzeug anzufahren, oder ob dies nur die ICE-Darstellung ist?",
+        "Wer waren die tatsächlich gesuchten Personen des Einsatzes?",
+        "Existieren Körperkamera- oder Dashcam-Aufnahmen, die den Vorfall dokumentieren?",
+        "Wird das US-Heimatschutzministerium einen abschließenden Ermittlungsbericht veröffentlichen?",
+        "Kündigt Mexikos Regierung tatsächlich rechtliche Schritte an, und mit welchem Ergebnis?",
+        "Wird die Identität und Diensthistorie des schießenden Beamten offiziell bestätigt?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T08:07:22.735Z",
+      "doNotUpdateBefore": "2026-07-11T14:07:22.735Z"
+    },
+    "japan-jaxa-test-wiederverwendbare-rakete-juli-2026": {
+      "canonicalTitle": "Japan meldet Test einer wiederverwendbaren Rakete – Details bislang dünn belegt",
+      "slug": "japan-jaxa-test-wiederverwendbare-rakete-juli-2026",
+      "firstSeenAt": "2026-07-11T08:07:22.735Z",
+      "lastUpdatedAt": "2026-07-11T08:07:22.735Z",
+      "status": "published",
+      "articlePath": "src/content/articles/japan-jaxa-test-wiederverwendbare-rakete-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/japan-jaxa-test-wiederverwendbare-rakete-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36692366/japan-meldet-erfolgreichen-test-einer-wiederverwendbaren-rakete",
+        "https://kurier.at/politik/ausland/japan-jaxa-test-wiederverwendbare-rakete-ruestung/403175580"
+      ],
+      "openQuestions": [
+        "Liegt eine offizielle technische Dokumentation oder Aussendung der Jaxa zu diesem Test vor?",
+        "Wie ordnet sich der Test im Vergleich zu parallelen Projekten (etwa in China oder bei einer Honda-Tochter) tatsächlich ein?",
+        "Welche nächsten Testschritte plant die Jaxa, und in welchem Zeitraum?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-12T08:07:22.735Z",
+      "doNotUpdateBefore": "2026-07-11T14:07:22.735Z"
     }
   }
 }
