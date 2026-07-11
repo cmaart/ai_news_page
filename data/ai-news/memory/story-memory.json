@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T15:18:46.724Z",
+  "updatedAt": "2026-07-11T16:14:57.241Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -125,13 +125,13 @@
       "doNotUpdateBefore": "2026-07-10T10:35:58.876Z"
     },
     "waldbrand-los-gallardos-andalusien-juli-2026": {
-      "canonicalTitle": "Waldbrand in Andalusien: Löschbedingungen bessern sich – zwölf Tote, Vermisste weiter ungeklärt",
+      "canonicalTitle": "Waldbrand in Andalusien: Zwölf Tote, rund 6.600 Hektar verbrannt – Streit um ausgebliebenes Alarmsystem",
       "slug": "waldbrand-los-gallardos-andalusien-juli-2026",
       "firstSeenAt": "2026-07-10T06:47:08.027Z",
-      "lastUpdatedAt": "2026-07-11T10:07:28.043Z",
+      "lastUpdatedAt": "2026-07-11T16:07:28.362Z",
       "status": "published",
       "articlePath": "src/content/articles/waldbrand-los-gallardos-andalusien-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-11/waldbrand-los-gallardos-andalusien-juli-2026-update-1000.json",
+      "researchPath": "data/ai-news/research/2026-07-11/waldbrand-los-gallardos-andalusien-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://orf.at/stories/3435786",
         "https://www.diepresse.com/36401562/mindestens-zwoelf-tote-bei-waldbrand-in-suedspanien",
@@ -153,24 +153,34 @@
         "https://www.kleinezeitung.at/artikel/36438080/weg-wurde-fuer-sie-zur-falle-viele-urlauber-unter-den-zwoelf-toten-des",
         "https://www.elespanol.com/espana/andalucia/20260710/fallecidos-gallardos-extranjeros-britanicos-belgas-buscaron-salida-llamas/1003744316926_0.html",
         "https://www.elespanol.com/espana/andalucia/20260711/quisieron-huir-muerto-familias-enteras-coches-terror-desalojados-incendio-gallardos-dl/1003744317854_0.html",
-        "https://www.rte.ie/news/world/2026/0711/1582864-spain-wildfire/"
+        "https://www.rte.ie/news/world/2026/0711/1582864-spain-wildfire/",
+        "https://kurier.at/politik/ausland/waldbrand-spanien-tote-vermisste-loeschung-flammen-andalusien/403175649",
+        "https://www.elespanol.com/espana/andalucia/20260711/psoe-reprocha-no-utilizara-es-alert-incendio-almeria-juanma-moreno-replica-inutil/1003744317778_0.html",
+        "https://www.vozpopuli.com/espana/andalucia/el-fuego-devora-almeria-12-muertos-23-desaparecidos-y-mas-de-3200-hectareas-calcinadas-en-los-gallardos.html",
+        "https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-almeria-fuego-evoluciona-relativamente-arrasar-5-000-hectareas_133_13373062.html",
+        "https://www.ceutatv.com/articulo/sociedad/doce-fallecidos-23-desaparecidos-incendio-gallardos-activo-arrasar-miles-hectareas/20260711120534248939.html"
       ],
       "openQuestions": [
         "Wie hoch ist die endgültige, amtlich bestätigte Zahl der Toten und Verletzten?",
-        "Wie viele der derzeit als vermisst gemeldeten Personen (19 bis 23, je nach Quelle) sind tatsächlich ums Leben gekommen bzw. lediglich unauffindbar, aber wohlauf?",
-        "Was genau hat den Brand ausgelöst – wird die Hypothese der gerissenen Stromleitung amtlich bestätigt?",
-        "Wie groß ist die betroffene Fläche tatsächlich, angesichts stark schwankender Angaben zwischen rund 3.150 und 6.600 Hektar?",
+        "Wie viele der derzeit als vermisst gemeldeten Personen (überwiegend mit 23 beziffert) sind tatsächlich ums Leben gekommen bzw. lediglich unauffindbar, aber wohlauf?",
+        "Was genau hat den Brand ausgelöst – wird die vom Regierungschef genannte Hypothese der gerissenen Stromleitung amtlich bestätigt?",
+        "Wie groß ist die betroffene Fläche tatsächlich, angesichts weiterhin schwankender Angaben zwischen rund 5.000 und 6.600 Hektar?",
         "Handelt es sich tatsächlich um den größten Waldbrand in der Geschichte Spaniens bzw. Andalusiens, oder ist das eine vorläufige Einschätzung?",
-        "Wie viele Menschen sind insgesamt evakuiert, und wann können sie zurückkehren?",
+        "Hätte eine Aktivierung des ES-Alert-Warnsystems Menschenleben retten können, und wird der politische Streit darüber Konsequenzen haben?",
         "Welche Nationalitäten haben die Todesopfer tatsächlich, und wird dies nach Abschluss der Identifizierung amtlich bestätigt?",
-        "Wird der Brand in den kommenden Tagen amtlich als eingedämmt gemeldet, nachdem sich die Löschbedingungen laut Medien verbessert haben?"
+        "Welche amtlichen Angaben wird Ministerpräsident Sánchez bei seinem angekündigten Besuch machen?",
+        "Wird der Brand in den kommenden Tagen amtlich als eingedämmt gemeldet, nachdem sich die Löschbedingungen laut Medien mehrfach verbessert haben?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-12T10:07:28.043Z",
-      "doNotUpdateBefore": "2026-07-11T16:07:28.043Z",
+      "doNotRedraftBefore": "2026-07-12T16:07:28.362Z",
+      "doNotUpdateBefore": "2026-07-11T22:07:28.362Z",
       "echoPublishers": {
-        "orf": "2026-07-11T10:07:28.043Z"
-      }
+        "orf": "2026-07-11T10:07:28.043Z",
+        "kurier": "2026-07-11T16:07:28.362Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-11T16:07:28.362Z"
     },
     "oenb-policy-brief-budget-verteilungswirkung-juli-2026": {
       "canonicalTitle": "OeNB-Analyse zum Sparbudget: Banken und je nach Quelle Familien oder Niedrigverdiener stärker belastet",
@@ -1254,9 +1264,9 @@
       "echoPublishers": {
         "kleinezeitung": "2026-07-11T15:07:25.182Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-11T15:07:25.182Z"
+      "resonanceMeasuredAt": "2026-07-11T16:07:28.362Z"
     },
     "darecations-adrenalin-reisetrend-2026": {
       "canonicalTitle": "Adrenalin statt Erholung: Der Trend zu riskanten „Darecations“",
@@ -1501,6 +1511,28 @@
         "Positionen weiterer Neos-Abgeordneter"
       ],
       "sensitivity": "medium"
+    },
+    "jan-voelker-identitaetspolitik-interview-juli-2026": {
+      "canonicalTitle": "Philosoph Jan Völker: „Die Identitätspolitik hat viel zerstört“",
+      "slug": "jan-voelker-identitaetspolitik-interview-juli-2026",
+      "firstSeenAt": "2026-07-11T16:07:28.362Z",
+      "lastUpdatedAt": "2026-07-11T16:07:28.362Z",
+      "status": "published",
+      "articlePath": "src/content/articles/jan-voelker-identitaetspolitik-interview-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/jan-voelker-identitaetspolitik-interview-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000330909/philosoph-jan-voelker-die-identitaetspolitik-hat-viel-zerstoert"
+      ],
+      "openQuestions": [
+        "Was genau meint Völker mit „Ambivalenz fördern“, und wie begründet er das im vollständigen Interview?",
+        "Wie ist das Buch „Ein Weltall des Kapitals“ (2025) inhaltlich einzuordnen, und wie wurde es in Fachkreisen rezipiert?",
+        "Gibt es Gegenstimmen aus der Identitätspolitik-Debatte, die Völkers Position widersprechen?",
+        "Wie reagieren Kolleginnen und Kollegen an der Universität für angewandte Kunst Wien oder andere Philosophinnen und Philosophen auf seine Thesen?",
+        "Welchen akademischen Werdegang und welche weiteren Publikationen hat Völker vorzuweisen?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-12T16:07:28.362Z",
+      "doNotUpdateBefore": "2026-07-11T22:07:28.362Z"
     }
   }
 }
