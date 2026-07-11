@@ -39,19 +39,51 @@ const GERMAN_STOPWORDS = new Set([
   'müssen', 'muessen', 'will', 'wollen', 'laut', 'wegen', 'trotz', 'nach', 'seit', 'live',
 ]);
 
+// Zahlwörter → Ziffern, damit „Zwölfjähriger" und „12-Jähriger" bzw. „drei Tote"
+// und „3 Tote" beim Clustering matchen (E47). „ein/eins" bewusst ausgenommen
+// (Artikel-Ambiguität). Lookarounds statt \b, weil \b in JS ASCII-basiert ist
+// und sonst z. B. „dreißig" → „3ßig" zerlegen würde.
+const NUMBER_WORDS: Record<string, string> = {
+  zwei: '2', drei: '3', vier: '4', fünf: '5', fuenf: '5', sechs: '6', sieben: '7',
+  acht: '8', neun: '9', zehn: '10', elf: '11', zwölf: '12', zwoelf: '12',
+};
+const NUMBER_WORD_RE = new RegExp(
+  `(?<![\\p{L}\\p{N}])(${Object.keys(NUMBER_WORDS).join('|')})(?=jährig|jaehrig|[^\\p{L}\\p{N}]|$)`,
+  'gu',
+);
+
 export function normalizeTitle(title: string): string {
   return title
     .toLowerCase()
     .replace(/[„"“”‚'’«»–—-]/g, ' ')
     .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(NUMBER_WORD_RE, (word) => NUMBER_WORDS[word])
+    .replace(/(?<![\p{L}\p{N}])(\d+)\s+(jährig|jaehrig)/gu, '$1$2')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+// Leichtes Suffix-Stemming, damit Flexionsformen („verletzt"/„verletzte",
+// „Jugendliche"/„Jugendlichen") beim Cluster-Matching zusammenfallen (E47).
+// Mindest-Stammlänge 4 verhindert Zerstörung kurzer Wörter („Wien", „Haus").
+const STEM_SUFFIXES = ['ern', 'em', 'en', 'er', 'es', 'e', 'n', 's'];
+
+function stemToken(token: string): string {
+  if (/^\d+$/.test(token)) return token;
+  for (const suffix of STEM_SUFFIXES) {
+    if (token.length - suffix.length >= 4 && token.endsWith(suffix)) {
+      return token.slice(0, -suffix.length);
+    }
+  }
+  return token;
 }
 
 export function titleTokens(title: string): Set<string> {
   const tokens = new Set<string>();
   for (const token of normalizeTitle(title).split(' ')) {
-    if (token.length > 2 && !GERMAN_STOPWORDS.has(token)) tokens.add(token);
+    // Kurze Zahl-Tokens („3", „50") bewusst NICHT behalten: Beträge/Prozente
+    // sind portalsübergreifend zu häufig und erzeugen False-Merges.
+    if (token.length > 2 && !GERMAN_STOPWORDS.has(token)) tokens.add(stemToken(token));
   }
   return tokens;
 }
