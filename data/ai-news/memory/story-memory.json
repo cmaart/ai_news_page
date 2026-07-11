@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T13:16:31.951Z",
+  "updatedAt": "2026-07-11T14:16:56.850Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -220,7 +220,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-11T16:07:27.990Z",
-      "doNotUpdateBefore": "2026-07-10T22:07:27.990Z"
+      "doNotUpdateBefore": "2026-07-10T22:07:27.990Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-11T14:07:32.545Z"
+      }
     },
     "china-raketenstufe-seilfang-juli-2026": {
       "canonicalTitle": "China meldet erstmals Auffangen einer Raketenstufe auf See",
@@ -1313,6 +1316,72 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T13:07:28.606Z",
       "doNotUpdateBefore": "2026-07-11T19:07:28.606Z"
+    },
+    "ebola-kongo-us-buerger-infiziert-juli-2026": {
+      "canonicalTitle": "Weiterer US-Bürger infiziert sich im Kongo mit Ebola",
+      "slug": "ebola-kongo-us-buerger-infiziert-juli-2026",
+      "firstSeenAt": "2026-07-11T14:07:32.545Z",
+      "lastUpdatedAt": "2026-07-11T14:07:32.545Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ebola-kongo-us-buerger-infiziert-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/ebola-kongo-us-buerger-infiziert-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331054/weiterer-us-b252rger-infizierte-sich-im-kongo-mit-ebola",
+        "https://www.diepresse.com/36700014/weiterer-us-buerger-infiziert-sich-im-kongo-mit-ebola"
+      ],
+      "openQuestions": [
+        "Welche humanitäre Organisation ist konkret betroffen und wie ist der Gesundheitszustand der infizierten Person?",
+        "Liegt eine offizielle Stellungnahme einer Gesundheitsbehörde (z. B. CDC, WHO, kongolesisches Gesundheitsministerium) vor, die den Fall bestätigt?",
+        "Wie viele Fälle bei internationalen Helferinnen und Helfern gibt es insgesamt im laufenden Ausbruch?",
+        "Wie hat sich die Fallzahl-Entwicklung im Kongo seit Ausbruchsbeginn tatsächlich verifizierbar entwickelt?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T14:07:32.545Z",
+      "doNotUpdateBefore": "2026-07-11T20:07:32.545Z"
+    },
+    "klagenfurt-ermittlungen-mordversuch-juli-2026": {
+      "canonicalTitle": "Klagenfurt: Ermittlungen wegen Mordversuchs an Vermieter-Mitarbeiterin",
+      "slug": "klagenfurt-ermittlungen-mordversuch-juli-2026",
+      "firstSeenAt": "2026-07-11T14:07:32.545Z",
+      "lastUpdatedAt": "2026-07-11T14:07:32.545Z",
+      "status": "published",
+      "articlePath": "src/content/articles/klagenfurt-ermittlungen-mordversuch-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/klagenfurt-ermittlungen-mordversuch-juli-2026.json",
+      "sourceUrls": [
+        "https://kaernten.orf.at/stories/3362230"
+      ],
+      "openQuestions": [
+        "Liegt eine eigene Aussendung der Polizei oder der Staatsanwaltschaft Klagenfurt vor, die die Angaben bestätigt?",
+        "Welches Motiv wird dem Beschuldigten konkret zugeschrieben, etwa im Zusammenhang mit einem Streit um die Mietwohnung?",
+        "In welchem Umfang wurden bei einer möglichen Durchsuchung Gegenstände sichergestellt?",
+        "Gibt es eine Stellungnahme des Beschuldigten, seiner Verteidigung oder des betroffenen Vermieters?",
+        "Wie ist der aktuelle Verfahrensstand, etwa Haft, Anklage oder ein etwaiges Gutachten?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T14:07:32.545Z",
+      "doNotUpdateBefore": "2026-07-11T20:07:32.545Z"
+    },
+    "taifun-bavi-evakuierungen-china-philippinen-juli-2026": {
+      "canonicalTitle": "Taifun „Bavi“: Hunderttausende Evakuierungen in China, mindestens 17 Tote auf den Philippinen",
+      "slug": "taifun-bavi-evakuierungen-china-philippinen-juli-2026",
+      "firstSeenAt": "2026-07-11T14:07:32.545Z",
+      "lastUpdatedAt": "2026-07-11T14:07:32.545Z",
+      "status": "published",
+      "articlePath": "src/content/articles/taifun-bavi-evakuierungen-china-philippinen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/taifun-bavi-evakuierungen-china-philippinen-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36697026/hunderttausende-menschen-in-china-wegen-taifun-bavi-evakuiert",
+        "https://kurier.at/chronik/welt/china-taiwan-philippinen-evakurierung-tote-taifun-bavi/403175600"
+      ],
+      "openQuestions": [
+        "Werden die von chinesischen Staatsmedien genannten Evakuiertenzahlen durch weitere, unabhängige Quellen bestätigt?",
+        "Wie hoch ist der tatsächliche Sachschaden in den betroffenen Regionen?",
+        "Steigt die Zahl der Todesopfer auf den Philippinen im Zuge weiterer Erhebungen noch an?",
+        "Wann und mit welcher Intensität erreicht der Taifun tatsächlich Festlandchina?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T14:07:32.545Z",
+      "doNotUpdateBefore": "2026-07-11T20:07:32.545Z"
     }
   }
 }
