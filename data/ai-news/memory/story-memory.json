@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-11T11:22:30.593Z",
+  "updatedAt": "2026-07-11T12:22:34.552Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -757,11 +757,12 @@
       "doNotRedraftBefore": "2026-07-12T09:07:25.442Z",
       "doNotUpdateBefore": "2026-07-11T15:07:25.442Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-11T09:07:25.442Z"
+        "kleinezeitung": "2026-07-11T09:07:25.442Z",
+        "diepresse": "2026-07-11T12:07:24.330Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-11T09:07:25.442Z"
+      "resonanceMeasuredAt": "2026-07-11T12:07:24.330Z"
     },
     "widdecombe-mordermittlungen-festnahme-juli-2026": {
       "canonicalTitle": "Mordermittlungen nach Tod von Ann Widdecombe: 26-Jähriger festgenommen",
@@ -1064,7 +1065,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T10:07:28.043Z",
-      "doNotUpdateBefore": "2026-07-11T16:07:28.043Z"
+      "doNotUpdateBefore": "2026-07-11T16:07:28.043Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-11T12:07:24.330Z"
+      }
     },
     "usa-iran-hormuz-ultimatum-atomdeal-juli-2026": {
       "canonicalTitle": "USA verlangen laut Berichten Bekenntnis Irans zu freier Hormuz-Schifffahrt – Zweifel am Atomdeal wachsen",
@@ -1174,6 +1178,76 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T11:07:23.956Z",
       "doNotUpdateBefore": "2026-07-11T17:07:23.956Z"
+    },
+    "gordie-howe-bruecke-maut-einigung-juli-2026": {
+      "canonicalTitle": "Gordie-Howe-Brücke: USA und Kanada einigen sich nach Trump-Blockade auf Mautanteil",
+      "slug": "gordie-howe-bruecke-maut-einigung-juli-2026",
+      "firstSeenAt": "2026-07-11T12:07:24.330Z",
+      "lastUpdatedAt": "2026-07-11T12:07:24.330Z",
+      "status": "published",
+      "articlePath": "src/content/articles/gordie-howe-bruecke-maut-einigung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/gordie-howe-bruecke-maut-einigung-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36701916/bruecken-streit-beendet-kanada-hat-sie-bezahlt-aber-trump-setzt-besseren-deal-durch",
+        "https://www.ots.at/presseaussendung/OTS_20260710_OTS0018/bikinifigur-im-liegen-ak-oberoesterreich-setzt-rueckzahlung-des-bezahlten-betrags-fuer-fragwuerdige-abnehm-methode-durch",
+        "https://www.derstandard.at/story/3000000331040/usa-und-kanada-einigen-sich-im-streit-um-neue-br252cke",
+        "https://www.diepresse.com/36701916/usa-und-kanada-einigen-sich-im-streit-um-neue-bruecke",
+        "https://www.theglobeandmail.com/canada/article-gordie-howe-bridge-set-to-open-late-july-after-canada-us-reach-deal/",
+        "https://www.detroitnews.com/story/news/politics/2026/07/10/gordie-howe-bridge-will-open-soon-gop-senate-hopeful-mike-rogers/90880995007/",
+        "https://www.benzinga.com/news/politics/26/07/60402931/us-went-from-no-revenue-to-half-of-all-tolls-on-the-4-7-billion-canada-bridge-trump-tried-to-stop-and-it-opens-july-27-report"
+      ],
+      "openQuestions": [
+        "Wie sehen die genauen Vertragsbedingungen aus, insbesondere Laufzeit und Eskalationsmechanismen des Wirtschaftsfonds?",
+        "Welche Rolle spielten die von Trump genannten Streitpunkte (u. a. Zölle auf Milchprodukte, Alkoholbeschränkungen, China-Handelspolitik) tatsächlich in den Verhandlungen?",
+        "Wie bewertet die kanadische Öffentlichkeit bzw. Opposition die Einigung, angesichts dessen, dass Kanada den Bau allein finanzierte?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-12T12:07:24.330Z",
+      "doNotUpdateBefore": "2026-07-11T18:07:24.330Z"
+    },
+    "cluster-20260711-df6a6119": {
+      "canonicalTitle": "Trump-Regierung weicht Artenschutzgesetz auf",
+      "slug": "cluster-20260711-df6a6119",
+      "firstSeenAt": "2026-07-11T12:07:24.330Z",
+      "lastUpdatedAt": "2026-07-11T12:07:24.330Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://kurier.at/politik/ausland/trump-regierung-artenschutzgesetz-aufweichung-naturschuetzer/403175619",
+        "https://kurier.at/politik/ausland/trump-regierung-artenschutzgesetz-aufweichung-naturschuetzer/403175619",
+        "https://orf.at/stories/3435893"
+      ],
+      "openQuestions": [
+        "Unabhängige Expert*innen-Analysen der konkre ten Regeländerungen",
+        "Wissenschaftliche Einschätzung der ökologischen Auswirkungen",
+        "Europäische/österreichische Regierungsreaktionen oder Stellungnahmen",
+        "Detaillierte juristische Analyse der neuen ‚Schädigungs'-Definition",
+        "Einschätzungen anderer Naturschutzorganisationen (derzeit nur Earthjustice)"
+      ],
+      "sensitivity": "low"
+    },
+    "ukraine-angriff-russische-tanker-asowsches-meer-juli-2026": {
+      "canonicalTitle": "Ukraine soll laut Berichten russische Tanker im Asowschen Meer angegriffen haben",
+      "slug": "ukraine-angriff-russische-tanker-asowsches-meer-juli-2026",
+      "firstSeenAt": "2026-07-11T12:07:24.330Z",
+      "lastUpdatedAt": "2026-07-11T12:07:24.330Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ukraine-angriff-russische-tanker-asowsches-meer-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-11/ukraine-angriff-russische-tanker-asowsches-meer-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36697517/ukraine-attackierte-21-russische-tanker-im-asowschen-meer",
+        "https://www.derstandard.at/jetzt/livebericht/3000000330671/ukraine-g-russische-tanker-zusagen-fuer-selenskyj-bei-nato-gipfel",
+        "https://www.derstandard.at/jetzt/livebericht/3000000330052/moskau-meldet-einnahme-von-kostjantyniwka-in-der-ostukraine"
+      ],
+      "openQuestions": [
+        "Wie viele Schiffe wurden tatsächlich getroffen und in welchem Ausmaß beschädigt?",
+        "Ist die russische Angabe von mindestens einem Toten unabhängig verifizierbar?",
+        "Welche Auswirkungen hat der Angriff mittelfristig auf Russlands Treibstoffversorgung?",
+        "Besteht ein Zusammenhang zwischen den Vorwürfen zu Nord Stream und dem aktuellen Angriff, oder sind das getrennte Stränge der Berichterstattung?",
+        "Wie viele Drohnen bzw. Raketen kamen auf beiden Seiten tatsächlich zum Einsatz?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-12T12:07:24.330Z",
+      "doNotUpdateBefore": "2026-07-11T18:07:24.330Z"
     }
   }
 }
