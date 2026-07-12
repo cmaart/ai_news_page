@@ -1,0 +1,158 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-0bcbe8ad",
+    "title": "Mondspitze: Wanderin ohne Bergschuhe und Licht gerettet",
+    "items": [
+      {
+        "itemId": "576048e84ae33a9c6a52496c62d0c90e6d39f4826b565ea72e1866d42a66ab30",
+        "sourceId": "kleinezeitung_oesterreich",
+        "sourceType": "media",
+        "title": "Mondspitze: Wanderin ohne Bergschuhe und Licht gerettet",
+        "url": "https://www.kleinezeitung.at/artikel/36754743/wanderin-in-vorarlberg-aus-bergnot-gerettet",
+        "summary": "Samstag Nacht kam der Hilferuf vom Gipfel der 1.967 Meter hohen Mondspitze im Bezirk Bludenz.",
+        "publishedAt": "2026-07-12T07:17:31.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "0d31cdc1c0e53c7a76bae35e00031eac7c33c85c8711baa3099cdef7c1325182",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Wanderin von Mondspitze gerettet",
+        "url": "https://vorarlberg.orf.at/stories/3362299",
+        "isNew": false
+      },
+      {
+        "itemId": "be70148dc8c0a975b2ac6763eba932e69698dffd487bdf327754f8fa10427632",
+        "sourceId": "orf_vorarlberg",
+        "sourceType": "media",
+        "title": "Wanderin von Mondspitze gerettet",
+        "url": "https://vorarlberg.orf.at/stories/3362299",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Lokal-regionale Rettungsgeschichte mit konkreten Details und zwei unabhängigen österreichischen Quellen (Kleine Zeitung, ORF). Wanderin ohne angemessene Ausrüstung (Straßenschuhe, kein Licht) auf 1.967 m Mondspitze in Bergnot geraten, per Notruf gerettet. Substanz für kurzen Artikel vorhanden (Zeitverlauf, Ort, Rettung gelang, wohlauf); harmlose Outcome reduziert Sensibilität. Für österreichische News-Seite regional relevant (Vorarlberg, Bergwandern, Rettungseinsatz). Keine Konsequenzen/Verwicklungen über Rettung hinaus.",
+    "sensitivity": "low",
+    "newsworthiness": 2,
+    "resonance": null,
+    "possibleClaims": [
+      "29-jährige Deutsche auf Mondspitze (1.967 m, Bezirk Bludenz) ohne Taschenlampe, Bergschuhe, nur kurze Hose",
+      "Wanderung start gegen 14 Uhr vom Wanderparkplatz Tschengla, ca. 6 Stunden Aufstieg, Gipfel gegen 20 Uhr",
+      "Nach Sonnenuntergang in Dunkelheit festgesessen, Hilferuf gegen 22:30 Uhr (Notruf 112)",
+      "Bergrettung rückte aus, Frau um Mitternacht wohlauf am Gipfelkreuz angetroffen",
+      "Bergung zu Fuß und mit Einsatzfahrzeug durchgeführt"
+    ],
+    "missingSources": [
+      "Primäre Polizeibericht-URL oder Originalquelle (nur via Medienberichterstattung verfügbar)",
+      "Reaktion/Statement der Wanderin selbst",
+      "Details der Rettungsoperation (Dauer, Techniken, involvierte Kräfte konkret)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "mondspitze-wanderin-bergrettung-juli-2026",
+    "title": "Wanderin ohne Bergschuhe und Licht von der Mondspitze gerettet",
+    "description": "In der Nacht auf Samstag wurde eine Wanderin vom Gipfel der 1.967 Meter hohen Mondspitze im Bezirk Bludenz gerettet. Laut einem Medienbericht war sie ohne geeignetes Schuhwerk und ohne Licht unterwegs — viele Details des Einsatzes bleiben in den vorliegenden Kurzmeldungen offen.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Dass die Rettung stattgefunden hat, bestätigen zwei unabhängig voneinander berichtende österreichische Medien; viele Einzelheiten des Vorfalls stützen sich aber nur auf eine einzige Quelle oder sind gar nicht belegt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine gelesene Primärquelle wie ein Polizei- oder Bergrettungsbericht vor, sondern nur kurze Medienmeldungen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es gibt zur Rettung selbst keine widersprüchlichen Perspektiven, aber weder Polizei noch Bergrettung kommen in den vorliegenden Quellen direkt zu Wort — die Darstellung stützt sich ausschließlich auf zweite Hand aus der Medienberichterstattung.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Eine Wanderin wurde in der Nacht auf Samstag vom Gipfel der 1.967 Meter hohen Mondspitze im Bezirk Bludenz (Vorarlberg) gerettet, nachdem ein Hilferuf eingegangen war.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut einem der vorliegenden Berichte war die Frau ohne geeignetes Bergschuhwerk und ohne Licht unterwegs.",
+        "kind": "fact"
+      },
+      {
+        "text": "Details zu Alter, Herkunft, genauer Route und Zeitablauf der Wanderung sind über die vorliegenden Kurzmeldungen hinaus nicht verifiziert.",
+        "kind": "open"
+      },
+      {
+        "text": "Der konkrete Ablauf des Rettungseinsatzes (beteiligte Kräfte, Dauer, eingesetzte Mittel) ist nicht im Detail bekannt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wer genau war die geretteten Wanderin, und stammen die kursierenden Angaben zu Alter und Herkunft aus einer verifizierten Quelle?",
+      "Wie lief der Rettungseinsatz konkret ab, welche Einsatzkräfte waren beteiligt und wie lange dauerte er?",
+      "Blieb die Frau unverletzt, oder gab es gesundheitliche Folgen durch die Nacht am Berg?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36754743/wanderin-in-vorarlberg-aus-bergnot-gerettet"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Vorarlberg",
+        "type": "media",
+        "url": "https://vorarlberg.orf.at/stories/3362299"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Eine Wanderin wurde von der 1.967 Meter hohen Mondspitze im Bezirk Bludenz gerettet, nachdem in der Nacht auf Samstag ein Hilferuf vom Gipfel eingegangen war.",
+        "status": "supported",
+        "note": "Beide vorliegenden, voneinander unabhängigen Medienberichte bestätigen die Rettung als solche.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Frau war laut Berichten ohne Bergschuhe und ohne Licht unterwegs.",
+        "status": "partial",
+        "note": "Dieses Detail nennt nur die Kleine Zeitung explizit im Titel; der ORF-Bericht bestätigt lediglich die Rettung, nicht eigenständig die Ausrüstungsdetails.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Weitere kursierende Angaben wie Alter, Herkunft, exakte Aufstiegsroute und Uhrzeiten der Wanderin sind anhand der vorliegenden Kurzmeldungen nicht bestätigt.",
+        "status": "unclear",
+        "note": "Diese Details lassen sich aus den hier vorliegenden Titeln und der Kurzzusammenfassung nicht ableiten und wurden nicht anhand einer Primärquelle wie Polizei- oder Bergrettungsbericht überprüft.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In der Nacht auf Samstag ist am Gipfel der Mondspitze, einem 1.967 Meter hohen Berg im Bezirk Bludenz in Vorarlberg, ein Hilferuf eingegangen. Eine Wanderin steckte dort fest und musste gerettet werden. Laut einem der vorliegenden Berichte war sie dabei ohne geeignetes Bergschuhwerk und ohne Licht unterwegs — Ausrüstungsmängel, die bei einem Aufstieg auf einen knapp 2.000 Meter hohen Gipfel offenkundig zum Problem wurden, sobald es dunkel wurde. Die Rettung ist den vorliegenden Quellen zufolge gelungen."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Zwei österreichische Medien berichten unabhängig voneinander über den Vorfall: die Kleine Zeitung und der ORF Vorarlberg. Beide bestätigen im Kern dieselbe Geschichte — eine Frau wurde von der Mondspitze gerettet. Nur die Kleine Zeitung nennt im Titel explizit, dass der Wanderin Bergschuhe und Licht fehlten; der ORF-Bericht beschränkt sich in der schlagzeilenartigen Kurzfassung auf die Tatsache der Rettung selbst, ohne diese Details eigenständig zu bestätigen oder zu widersprechen. Eine dritte, als eigenständig gelistete ORF-Meldung verweist auf dieselbe Quelle und liefert keine zusätzliche Bestätigung."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Die vorliegenden Kurzmeldungen enthalten keine Angaben zu Alter, Herkunft oder Identität der Wanderin, zur genauen Route des Aufstiegs, zu Start- und Rettungszeitpunkt oder zum konkreten Ablauf des Einsatzes. Auch ist nicht bekannt, welche Einsatzkräfte im Detail beteiligt waren, wie lange die Rettung dauerte und ob die Frau unverletzt blieb. Sollten zu diesen Punkten im Umlauf befindliche Zusatzdetails kursieren, sind sie anhand der hier herangezogenen Quellen nicht nachvollziehbar und werden entsprechend nicht als gesichert dargestellt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Rettungseinsätze wegen unzureichender Ausrüstung sind in den Alpen kein seltenes Thema in der Regionalberichterstattung, ohne dass daraus in diesem Fall auf eine generelle Häufung oder Statistik geschlossen werden kann — dafür liegen keine belastbaren Daten vor. Der Vorfall bei der Mondspitze wird hier ausschließlich anhand zweier kurzer Medienberichte eingeordnet; eine Stellungnahme von Polizei oder Bergrettung liegt nicht vor, ebenso wenig eine Einschätzung der betroffenen Wanderin selbst."
+      }
+    ],
+    "bodyKompakt": "In der Nacht auf Samstag wurde eine Wanderin vom Gipfel der 1.967 Meter hohen Mondspitze im Bezirk Bludenz (Vorarlberg) gerettet, nachdem von dort ein Hilferuf eingegangen war. Laut einem der vorliegenden Berichte war sie ohne geeignetes Bergschuhwerk und ohne Licht unterwegs — ein Problem, das mit einsetzender Dunkelheit offenbar akut wurde. Die Rettung gelang, so berichten es zwei österreichische Medien unabhängig voneinander.\n\nDie Kleine Zeitung und der ORF Vorarlberg bestätigen übereinstimmend, dass die Frau gerettet wurde; das Detail zu fehlenden Bergschuhen und Licht nennt jedoch nur eine der beiden Quellen explizit. Angaben zu Alter, Herkunft, genauer Route oder Zeitablauf lassen sich aus den vorliegenden Kurzmeldungen nicht ableiten.\n\nOffen bleiben daher zentrale Fragen: wie der Einsatz im Detail ablief, welche Kräfte beteiligt waren und ob die Wanderin unverletzt blieb. Eine Stellungnahme von Polizei, Bergrettung oder der betroffenen Person selbst liegt nicht vor.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T08:07:24.366Z"
+}

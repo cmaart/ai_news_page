@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T07:16:43.498Z",
+  "updatedAt": "2026-07-12T08:17:51.065Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -904,8 +904,6 @@
       "doNotRedraftBefore": "2026-07-12T06:07:25.846Z",
       "doNotUpdateBefore": "2026-07-11T12:07:25.846Z",
       "echoPublishers": {
-        "diepresse": "2026-07-11T08:07:22.735Z",
-        "futurezone": "2026-07-11T08:07:22.735Z",
         "heise": "2026-07-11T09:07:25.442Z",
         "golem": "2026-07-11T10:07:28.043Z"
       },
@@ -1728,7 +1726,11 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T07:07:28.557Z",
-      "doNotUpdateBefore": "2026-07-12T13:07:28.557Z"
+      "doNotUpdateBefore": "2026-07-12T13:07:28.557Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-12T08:07:24.366Z",
+        "kurier": "2026-07-12T08:07:24.366Z"
+      }
     },
     "nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026": {
       "canonicalTitle": "SPÖ-Auswertung: 179 Gesetzesbeschlüsse seit Regierungsantritt, breite Oppositionszustimmung reklamiert",
@@ -1773,6 +1775,79 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-13T07:07:28.557Z",
       "doNotUpdateBefore": "2026-07-12T13:07:28.557Z"
+    },
+    "israel-siedler-festnahme-cnn-team-westjordanland-juli-2026": {
+      "canonicalTitle": "Israel: Vier Siedler nach mutmaßlichem Angriff auf CNN-Team im Westjordanland festgenommen",
+      "slug": "israel-siedler-festnahme-cnn-team-westjordanland-juli-2026",
+      "firstSeenAt": "2026-07-12T08:07:24.366Z",
+      "lastUpdatedAt": "2026-07-12T08:07:24.366Z",
+      "status": "published",
+      "articlePath": "src/content/articles/israel-siedler-festnahme-cnn-team-westjordanland-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/israel-siedler-festnahme-cnn-team-westjordanland-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36753752/israel-nimmt-vier-siedler-nach-angriff-auf-cnn-team-fest",
+        "https://orf.at/stories/3435962"
+      ],
+      "openQuestions": [
+        "Wie ist der Ermittlungs- und Anklagestand gegen die vier festgenommenen Verdächtigen?",
+        "Wie äußern sich die Festgenommenen bzw. ihre rechtliche Vertretung zu den Vorwürfen?",
+        "Wie reagiert die israelische Regierung offiziell auf den Vorfall?",
+        "Lässt sich der von Ro Khanna geschilderte separate Vorfall unabhängig bestätigen, und was entgegnet die israelische Armee im Detail?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T08:07:24.366Z",
+      "doNotUpdateBefore": "2026-07-12T14:07:24.366Z"
+    },
+    "mondspitze-wanderin-bergrettung-juli-2026": {
+      "canonicalTitle": "Wanderin ohne Bergschuhe und Licht von der Mondspitze gerettet",
+      "slug": "mondspitze-wanderin-bergrettung-juli-2026",
+      "firstSeenAt": "2026-07-12T08:07:24.366Z",
+      "lastUpdatedAt": "2026-07-12T08:07:24.366Z",
+      "status": "published",
+      "articlePath": "src/content/articles/mondspitze-wanderin-bergrettung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/mondspitze-wanderin-bergrettung-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/36754743/wanderin-in-vorarlberg-aus-bergnot-gerettet",
+        "https://vorarlberg.orf.at/stories/3362299"
+      ],
+      "openQuestions": [
+        "Wer genau war die geretteten Wanderin, und stammen die kursierenden Angaben zu Alter und Herkunft aus einer verifizierten Quelle?",
+        "Wie lief der Rettungseinsatz konkret ab, welche Einsatzkräfte waren beteiligt und wie lange dauerte er?",
+        "Blieb die Frau unverletzt, oder gab es gesundheitliche Folgen durch die Nacht am Berg?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-13T08:07:24.366Z",
+      "doNotUpdateBefore": "2026-07-12T14:07:24.366Z"
+    },
+    "albanien-proteste-kushner-bauprojekt-kanye-west-juli-2026": {
+      "canonicalTitle": "Albanien: Proteste gegen Kushner-Bauprojekt und Millionen-Ausgaben für Kanye-West-Konzert",
+      "slug": "albanien-proteste-kushner-bauprojekt-kanye-west-juli-2026",
+      "firstSeenAt": "2026-07-12T08:07:24.366Z",
+      "lastUpdatedAt": "2026-07-12T08:07:24.366Z",
+      "status": "published",
+      "articlePath": "src/content/articles/albanien-proteste-kushner-bauprojekt-kanye-west-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/albanien-proteste-kushner-bauprojekt-kanye-west-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/ausland/proteste-bauprojekt-trump-albanien-kanye-west/403175663",
+        "https://www.kleinezeitung.at/artikel/36749850/proteste-gegen-bauprojekt-von-trump-familie-in-albanien",
+        "https://orf.at/stories/3435849",
+        "https://orf.at/stories/3435965",
+        "https://www.euronews.com/my-europe/2026/06/02/protests-against-luxury-resort-in-albania-linked-to-jared-jushner-now-in-second-day",
+        "https://www.telepolis.de/article/Kushners-Milliardenprojekt-Albaniens-Kueste-wird-zum-geopolitischen-Schauplatz-11341734.html",
+        "https://orf.at/stories/3435313/",
+        "https://www.nbcnews.com/world/europe/albanias-pm-defends-456-million-public-funding-kanye-west-concert-rcna353520",
+        "https://balkaninsight.com/2026/07/10/cancel-it-state-cash-for-kanye-west-show-sparks-outrage-in-albania/bi/",
+        "https://euronews.al/en/kanye-west-welcomed-by-edi-rama-albanian-pm-shares-footage-of-meeting/"
+      ],
+      "openQuestions": [
+        "Wie viele Menschen tatsächlich an den Protesten teilnehmen, ist unabhängig nicht verifiziert.",
+        "Ob und wie das Bauprojekt an Umweltauflagen angepasst werden könnte, ist offen.",
+        "Reaktionen von Jared Kushner, Ivanka Trump oder internationalen Naturschutzorganisationen liegen bislang nicht vor.",
+        "Wie sich die Protestbewegung und die Position von Ministerpräsident Rama weiterentwickeln, ist unklar."
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T08:07:24.366Z",
+      "doNotUpdateBefore": "2026-07-12T14:07:24.366Z"
     }
   }
 }

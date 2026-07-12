@@ -1,0 +1,166 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-4d1f05ba",
+    "title": "Israel nimmt vier Siedler nach Angriff auf CNN-Team fest",
+    "items": [
+      {
+        "itemId": "dcb700a79ff22eada0926fb1e3052c71f4577e9876f24194cf91211de305528a",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Israel nimmt vier Siedler nach Angriff auf CNN-Team fest",
+        "url": "https://www.diepresse.com/36753752/israel-nimmt-vier-siedler-nach-angriff-auf-cnn-team-fest",
+        "summary": "Die Siedler sollen Journalisten im Westjordanland mit Holz- und Metallstangen sowie Steinen bedroht haben.",
+        "publishedAt": "2026-07-12T07:12:17.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "a0f9104b5238baf565ef804d28ef5a138fa107a00118c47be4e0d132205b9cf7",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Israelische Siedler nach Angriff auf CNN-Team festgenommen",
+        "url": "https://orf.at/stories/3435962",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Überfall auf Journalisten mit Festnahmen und offizieller Bestätigung durch israelische Polizei und CNN; paralleler Incident mit US-Abgeordnetem Khanna verstärkt Muster; internationale Relevanz für Pressefreiheit. Genug Primärquellen und Substanz für Artikel.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "possibleClaims": [
+      "Vier israelische Siedler blockierten Straße mit Fahrzeug und attackierten CNN-Team mit Holz- und Metallstangen sowie Steinen",
+      "Ein Siedler versuchte mit Messer in die Reifen des CNN-Fahrzeugs zu stechen",
+      "Siedler kletterten auf anderes Journalisten-Fahrzeug und zerstörten Windschutzscheibe",
+      "Israelische Polizei nahm vier Verdächtige fest und sicherte Schlagstöcke und Messer",
+      "US-Abgeordneter Ro Khanna berichtete von ähnlichem Incident mit Siedlern eine Woche zuvor",
+      "Khanna gab an, dass israelische Soldaten sich ‚auf die Seite der Siedler stellten'",
+      "Israelische Armee bestritt Involvement im Khanna-Incident"
+    ],
+    "missingSources": [
+      "Direkte Stellungnahme der festgenommenen Siedler oder ihrer Anwälte",
+      "Offizielle Reaktion der israelischen Regierung (nicht nur Polizei/Militär)",
+      "Palästinensische Behördenaussage oder Zivilgesellschaftliche Reaktion",
+      "Vollständiger New-York-Times-Bericht zu Khanna-Incident (nur erwähnt, nicht gelesen)",
+      "Reaktionen von Pressefreiheitsorganisationen (Reporter ohne Grenzen, CPJ)",
+      "Ermittlungsstand und genaue Anklage-/Verfahrensverlauf gegen die Verhafteten"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "israel-siedler-festnahme-cnn-team-westjordanland-juli-2026",
+    "title": "Israel: Vier Siedler nach mutmaßlichem Angriff auf CNN-Team im Westjordanland festgenommen",
+    "description": "Laut Medienberichten hat die israelische Polizei vier Siedler festgenommen, die ein CNN-Team im Westjordanland mit Stangen und Steinen bedroht haben sollen. Zentrale Details und ein zweiter berichteter Vorfall sind bislang nicht unabhängig verifiziert.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei Medien (Die Presse, ORF) berichten übereinstimmend über die Festnahme, es ist aber nicht erkennbar, ob sie unabhängig voneinander recherchiert haben oder auf dieselbe Nachrichtenlage zurückgreifen; weitere Details sind unbestätigt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt eingesehene Polizei-, Gerichts- oder CNN-Stellungnahme vor, sondern nur zwei sekundäre Medienberichte.",
+    "framingRisk": "high",
+    "framingRiskNote": "Es fehlt jede Stellungnahme der Betroffenen auf Siedler-Seite, der israelischen Regierung oder palästinensischer Stellen; die Darstellung stützt sich allein auf die berichtenden Medien.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Israelische Polizei nahm laut Medienberichten vier Siedler nach einem Angriff auf ein CNN-Team im Westjordanland fest.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Angreifer sollen das Team mit Holz- und Metallstangen sowie Steinen bedroht haben; Schlagstöcke und Messer seien sichergestellt worden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein separat berichteter Vorfall mit dem US-Abgeordneten Ro Khanna und einer bestrittenen Beteiligung israelischer Soldaten lässt sich unabhängig nicht überprüfen.",
+        "kind": "open"
+      },
+      {
+        "text": "Stellungnahmen der Festgenommenen, der israelischen Regierung und palästinensischer Stellen liegen bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie ist der Ermittlungs- und Anklagestand gegen die vier festgenommenen Verdächtigen?",
+      "Wie äußern sich die Festgenommenen bzw. ihre rechtliche Vertretung zu den Vorwürfen?",
+      "Wie reagiert die israelische Regierung offiziell auf den Vorfall?",
+      "Lässt sich der von Ro Khanna geschilderte separate Vorfall unabhängig bestätigen, und was entgegnet die israelische Armee im Detail?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36753752/israel-nimmt-vier-siedler-nach-angriff-auf-cnn-team-fest"
+      },
+      {
+        "id": "src2",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3435962"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die israelische Polizei nahm vier Siedler nach einem Angriff auf ein CNN-Team im Westjordanland fest.",
+        "status": "partial",
+        "note": "Von zwei Medien berichtet, aber unklar, ob unabhängig voneinander recherchiert oder auf gemeinsamer Quelle beruhend.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Angreifer sollen das Journalisten-Team mit Holz- und Metallstangen sowie Steinen bedroht haben.",
+        "status": "partial",
+        "note": "Beschreibung stammt aus Medienberichten, keine unabhängige Bestätigung durch Polizei- oder Gerichtsdokumente eingesehen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Bei der Festnahme wurden Schlagstöcke und Messer sichergestellt.",
+        "status": "unclear",
+        "note": "Detail nur in einer der beiden Kurzmeldungen erwähnt, nicht durch eine zweite Quelle bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Ein separater, rund eine Woche zuvor berichteter Vorfall mit dem US-Abgeordneten Ro Khanna soll eine Beteiligung israelischer Soldaten auf Seiten der Siedler gezeigt haben, was die israelische Armee bestreitet.",
+        "status": "unclear",
+        "note": "Zwei widersprüchliche Darstellungen (Khanna vs. israelische Armee), keine davon unabhängig geprüft.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Berichten von Die Presse und ORF hat die israelische Polizei vier israelische Siedler festgenommen, nachdem diese im Westjordanland ein Team des US-Senders CNN attackiert haben sollen. Die Gruppe soll ein Fahrzeug der Journalistinnen und Journalisten blockiert und sie mit Holz- und Metallstangen sowie Steinen bedroht haben. Nach den vorliegenden Berichten wurden bei der Festnahme Schlagstöcke und Messer sichergestellt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die beiden verfügbaren Quellen stimmen im Kern überein: Es kam zu einem Angriff auf ein CNN-Team, und die israelische Polizei nahm vier Verdächtige fest. Ob beide Redaktionen unabhängig voneinander recherchiert haben oder sich auf dieselbe Nachrichtenlage stützen, lässt sich anhand der vorliegenden Kurzmeldungen nicht feststellen. Weitere kursierende Details, etwa ein Messerangriff auf die Reifen des CNN-Fahrzeugs oder eine zerstörte Windschutzscheibe an einem zweiten Journalisten-Fahrzeug, sind mit den hier vorliegenden Quellenangaben nicht abschließend verifizierbar."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist der weitere Ermittlungs- und Anklagestand gegen die vier Festgenommenen ebenso wie deren eigene Darstellung oder jene ihrer Vertretung. Eine Stellungnahme der israelischen Regierung jenseits von Polizei und Militär liegt nicht vor, ebenso wenig eine palästinensische Reaktion. Zusätzlich wird ein separater, rund eine Woche zuvor liegender Vorfall genannt, in den der US-Kongressabgeordnete Ro Khanna verwickelt gewesen sein soll: Er habe berichtet, israelische Soldaten hätten sich dabei auf die Seite von Siedlern gestellt, was die israelische Armee zurückgewiesen habe. Dieser zweite Vorfall ist anhand der vorliegenden Quellen nicht unabhängig überprüfbar und wird hier nur als Kontext benannt, nicht als gesicherter Sachverhalt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in wiederkehrende Berichte über Spannungen zwischen israelischen Siedlern, Journalistinnen und Journalisten sowie dem israelischen Sicherheitsapparat im Westjordanland ein. Für eine ausgewogene Einordnung fehlen bislang Stimmen der Betroffenen auf Siedler-Seite, eine offizielle Regierungsreaktion sowie unabhängige Berichte etwa von Pressefreiheitsorganisationen. Bis diese vorliegen, stützt sich die Darstellung vorwiegend auf die Perspektive der berichtenden Medien."
+      }
+    ],
+    "bodyKompakt": "Israelische Polizei hat laut übereinstimmenden Berichten von Die Presse und ORF vier israelische Siedler festgenommen, nachdem diese im Westjordanland ein Team des US-Senders CNN attackiert haben sollen. Die Gruppe soll ein Fahrzeug blockiert und die Journalistinnen und Journalisten mit Holz- und Metallstangen sowie Steinen bedroht haben; bei der Festnahme seien Schlagstöcke und Messer sichergestellt worden.\n\nOb beide Medien unabhängig voneinander recherchiert haben oder auf dieselbe Nachrichtenlage zurückgreifen, lässt sich anhand der vorliegenden Kurzmeldungen nicht feststellen. Einzelne kursierende Details, etwa zu einem beschädigten zweiten Fahrzeug, sind damit nicht abschließend verifizierbar. Offen bleiben zudem der Ermittlungsstand, eine Stellungnahme der Festgenommenen sowie eine offizielle Reaktion der israelischen Regierung.\n\nIm Zusammenhang mit dem Fall wird zudem ein separater, älterer Vorfall genannt, in den der US-Abgeordnete Ro Khanna verwickelt gewesen sein soll und den die israelische Armee bestreitet. Dieser lässt sich unabhängig bislang nicht überprüfen.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T08:07:24.366Z"
+}
