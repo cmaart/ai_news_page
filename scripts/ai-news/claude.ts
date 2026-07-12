@@ -289,6 +289,14 @@ lesertauglich, ohne Fachjargon):
 - framingRisk-Rubrik: "low" = mehrere unabhängige Perspektiven, Gegenseite aus direkt eingesehener
   Quelle · "medium" = eine Perspektive dominiert die Quellenlage ODER Gegenseite nur aus zweiter
   Hand · "high" = nur Darstellung einer Seite, Gegenseite fehlt.
+- WICHTIG: Wenige Items im Cluster sind ein Artefakt des Clusterings, KEIN Beleg für Zweifel am
+  Ereignis. Ein prominenter öffentlicher Vorgang (Rücktritt, Ausschluss, offizielle Verlautbarung)
+  ist meist breit berichtet, auch wenn dieser Cluster nur ein Portal enthält. Steht dir Web-Suche
+  zur Verfügung, korroboriere solche Vorgänge aktiv über die offizielle Aussendung der handelnden
+  Institution UND unabhängige Outlets, BEVOR du "low"/"partial" vergibst. Ohne Web-Suche bleibt die
+  vorsichtige Einstufung — formuliere die Vorbehalte dann aber als „in diesem Cluster nur ein Medium
+  vorliegend“, nicht als „nur ein Medium berichtet“ (die Aussage über die reale Berichtslage kennst
+  du nicht). Behaupte nie eine Primärquellenprüfung, die du nicht durchgeführt hast.
 `.trim();
 
 const UPDATE_TASK = `

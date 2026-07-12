@@ -403,8 +403,19 @@ async function main(): Promise<void> {
     }
 
     const portals = new Set(cluster.items.map((i) => portalOf(i.sourceId)));
+    // Hochwertiger, aber portalarmer Draft: Titel-Clustering zersplittert breit
+    // berichtete Ereignisse in mehrere Cluster, sodass ein real gut belegtes
+    // Ereignis als Einzel-Portal-Cluster erscheint. Ohne Web-Suche leitet das
+    // Modell daraus eine irreführend pessimistische Quellenlage ab. Deshalb auch
+    // frische Drafts unterhalb der Portal-Schwelle aktiv korroborieren, wenn sie
+    // hohen Nachrichtenwert/Score haben (im Rahmen des Suchbudgets).
+    const highValueThinDraft =
+      !isUpdate &&
+      portals.size < WEB_SEARCH_MIN_PORTALS &&
+      (entry.score.score >= ESCALATE_SCORE || triage.newsworthiness >= 4);
     const useWebSearch =
-      searchBudget - stats.webSearchCalls > 0 && (escalated || isUpdate || portals.size >= WEB_SEARCH_MIN_PORTALS);
+      searchBudget - stats.webSearchCalls > 0 &&
+      (escalated || isUpdate || portals.size >= WEB_SEARCH_MIN_PORTALS || highValueThinDraft);
     const allowImage = entry.score.score >= IMAGE_MIN_SCORE;
 
     try {
@@ -424,6 +435,15 @@ async function main(): Promise<void> {
       }
 
       const slug = isUpdate ? story!.slug : resolveSlug(sanitized.slugSuggestion, sanitized.title);
+
+      // Publish-Guard: Ein frischer Draft, der sich selbst als schwächste
+      // Quellenlage einstuft (confidence „low" UND primarySourceStrength „none"),
+      // geht NICHT live, sondern als „review" zurück — entspricht der Draft-Regel
+      // „dünne Quellenlage ⇒ research_note/monitor" und verhindert, dass ein
+      // fragmentierter Einzel-Portal-Cluster ein real belegtes Ereignis
+      // irreführend pessimistisch publiziert (siehe Marchetti/Dengler).
+      const heldForReview =
+        !isUpdate && sanitized.confidence === 'low' && sanitized.primarySourceStrength === 'none';
 
       const existingFm = existingArticle?.frontmatter as
         | { publishedAt?: string | Date; newsworthiness?: number; corrections?: { date: string | Date; type: 'correction' | 'update'; text: string }[]; image?: Record<string, unknown>; resonance?: Record<string, unknown> }
@@ -474,6 +494,7 @@ async function main(): Promise<void> {
         // Resonanz (E46) übersteht das Update unverändert — Phase 5.5 hat sie
         // vor der Draft-Phase gesetzt, readExistingArticle liest den Stand.
         resonance: existingFm?.resonance,
+        ...(heldForReview ? { status: 'review' as const } : {}),
       });
 
       const researchPath = join(DATA_DIR, 'research', dateStamp, `${slug}${isUpdate ? `-update-${now.getUTCHours()}00` : ''}.json`);
@@ -502,7 +523,9 @@ async function main(): Promise<void> {
       if (isUpdate) stats.updates += 1;
       else stats.drafts += 1;
       written.push({ slug, articlePath, researchPath: researchRelPath, ...(imagePath ? { imagePath } : {}), isUpdate });
-      console.log(`${isUpdate ? 'Update' : 'Draft'} geschrieben: ${articlePath} (auto-publish)`);
+      console.log(
+        `${isUpdate ? 'Update' : 'Draft'} geschrieben: ${articlePath} (${heldForReview ? 'review — dünne Quellenlage, nicht auto-publiziert' : 'auto-publish'})`,
+      );
 
       // Bild-Kandidaten-Scan (E48): neue Artikel ohne Whitelist-Bild — reine
       // Recherche-Vorarbeit für die Whitelist-Pflege, nie Auto-Attach. Bewusst

@@ -1,6 +1,15 @@
 /**
  * Phase 3: Clustering per Titel-Token-Overlap (Jaccard), 48h-Fenster.
  * Kein Embedding — pragmatisch für v1 (PLAN.md E25ff).
+ *
+ * BEKANNTE GRENZE / Follow-up: Rein titelbasiertes Clustering merged dasselbe
+ * real-weltliche Ereignis nicht, wenn Outlets es unterschiedlich betiteln (z. B.
+ * „X schließen Y aus“ vs. „Wie Ys Abgang auf die Koalition wirkt“). Dann zerfällt
+ * ein breit berichtetes Ereignis in mehrere Cluster, von denen einer nur ein
+ * Portal enthält — was in der Draft-Phase zu einer irreführend pessimistischen
+ * Quellenlage-Bewertung führt. Abgefedert wird das derzeit in run.ts (Web-Suche
+ * für hochwertige Low-Portal-Drafts erzwingen + Publish-Guard). Der tiefere Fix
+ * wäre entity-/embedding-basiertes Merging; bewusst zurückgestellt (Über-Merge-Risiko).
  */
 import type { Cluster, ClusterItem, FeedItem, SeenItems } from './types.ts';
 import { envFloat, hoursAgo, jaccard, overlapCount, sha256, titleTokens, utcDateStamp } from './util.ts';

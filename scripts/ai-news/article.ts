@@ -52,12 +52,21 @@ export interface WriteArticleOptions {
   image?: Record<string, unknown>;
   /** Bestehendes resonance-Objekt (E46) — bei Updates unverändert durchreichen. */
   resonance?: Record<string, unknown>;
+  /**
+   * Artikel-Status. Default `published` (Auto-Publish). Der Publish-Guard in
+   * run.ts setzt `review`, wenn ein frischer Draft sich selbst als schwächste
+   * Quellenlage einstuft — solche Artikel werden nicht gebaut/gelistet, bis ein
+   * Folgelauf sie mit Web-Suche anreichert.
+   */
+  status?: 'published' | 'review';
 }
 
 /**
  * Schreibt den Artikel als MDX; gibt den relativen Pfad zurück.
- * Immer `status: published` + `publishedAt` — alle Artikel gehen direkt auf
- * main, auch sensitivity high (PLAN.md E30, revidiert 2026-07-11).
+ * Default `status: published` + `publishedAt` — Artikel gehen direkt auf main,
+ * auch sensitivity high (PLAN.md E30, revidiert 2026-07-11). Ausnahme: Der
+ * Publish-Guard kann `status: review` erzwingen (dünne Quellenlage), dann wird
+ * der Artikel geschrieben, aber nicht gebaut/gelistet.
  */
 export function writeArticle(options: WriteArticleOptions): string {
   const { slug, draft, newsworthiness, existingCorrections = [], updateNote, nowIso } = options;
@@ -80,7 +89,7 @@ export function writeArticle(options: WriteArticleOptions): string {
   Object.assign(frontmatter, {
     topic: draft.topic,
     country: draft.country,
-    status: 'published',
+    status: options.status ?? 'published',
     generationMode: 'ai_generated',
     editorialReview: 'none',
     confidence: draft.confidence,
