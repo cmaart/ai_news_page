@@ -91,9 +91,11 @@ export function titleTokens(title: string): Set<string> {
 // Komposita-tolerantes Token-Matching (Bahnsabotage-Lehre): deutsche Komposita
 // wie „Sabotageverdacht" vs. „Sabotage" oder „Deutschland" vs. „deutsch"
 // zerlegen sonst dieselbe Story in Ein-Portal-Cluster, die den Diversitäts-
-// Bonus verlieren. Präfix-Match nur ab 6 Zeichen des kürzeren Tokens, damit
-// kurze Stämme („brand" vs. „brandanschlag") keine False-Merges erzeugen.
-const MIN_PREFIX_MATCH = 6;
+// Bonus verlieren. Präfix-Match nur ab 7 Zeichen des kürzeren Tokens
+// („sabotag" und „deutsch" haben genau 7); kürzere Stämme wie „sozial" oder
+// „brand" erzeugen im Korpus messbar False-Merges („Sozialbudget",
+// „Brandanschlag" zu fremden Stories).
+const MIN_PREFIX_MATCH = 7;
 
 export function tokensMatch(a: string, b: string): boolean {
   if (a === b) return true;
@@ -118,9 +120,15 @@ function fuzzyIntersection(a: Set<string>, b: Set<string>): number {
   return n;
 }
 
+// jaccard bleibt bewusst EXAKT: der Jaccard-Pfad (≥ 0.3) greift bei kurzen
+// Titeln, wo ein einzelner Fuzzy-Treffer auf ein Allerweltswort („Wirtschaft",
+// „Gesundheit") schon 1/3 ergäbe — im Korpus-Audit die Hauptquelle falscher
+// Merges. Fuzzy zählt nur im Overlap-Pfad (≥ 3 Tokens, siehe overlapCount),
+// wo ein Einzeltreffer nie allein entscheidet.
 export function jaccard(a: Set<string>, b: Set<string>): number {
   if (a.size === 0 || b.size === 0) return 0;
-  const intersection = fuzzyIntersection(a, b);
+  let intersection = 0;
+  for (const token of a) if (b.has(token)) intersection++;
   return intersection / (a.size + b.size - intersection);
 }
 
