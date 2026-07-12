@@ -1,0 +1,181 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-7cd7c5e7",
+    "title": "Vier Menschen sterben bei erneuten russischen Angriffen auf die Ukraine",
+    "items": [
+      {
+        "itemId": "fffa26e35b7ba219c1e49085ac5be6aa021960f19f93dc23324c6845efa8ac0c",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Vier Menschen sterben bei erneuten russischen Angriffen auf die Ukraine",
+        "url": "https://www.diepresse.com/36755608/vier-menschen-sterben-bei-erneuten-russischen-angriffen-auf-die-ukraine",
+        "summary": "Die Ukraine hat innerhalb einer Woche fast 100 Schiffe angegriffen und damit den Druck auf Russlands Logistik deutlich erhöht.",
+        "publishedAt": "2026-07-12T12:06:24.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "50342dc3f7a20863d976efc7a3e4d30da4e8b993448698b842343fd206da7725",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Ukraine-Krieg: Ukrainischer Angriff auf 21 russische Tanker",
+        "url": "https://www.kleinezeitung.at/artikel/36700138/ukrainischer-angriff-auf-21-russische-tanker",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.65,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Solide Quellenlage mit offiziellem Bezug zu österreichischer Außenpolitik (Bundeskanzler Stocker erwartet zu Paris-Koalitionstreffen). Konkrete Angaben: 4 Todesfälle mit Ort/Zeit, offizielle Quellen (Militärgouverneure Olexandr Gandscha, Jaroslaw Tschanko), ~100 attackierte Schiffe in einer Woche, ukrainische Raffinerie-Drohnenangriffe 800 km hinter der Front. Geopolitisch relevante Dimension (ukrainische Logistikstrategie gegen russische Treibstoffversorgung) für EU/Österreich-Leserschaft. Nicht reine Presseaussendung — Fulltext-Excerpt zeigt eigenständige Recherche mit konkretem Kontext (Trump-Patriot-Ankündigung, Asowsches-Meer-Kampagne).",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "possibleClaims": [
+      "Vier Menschen sterben bei erneuten russischen Angriffen auf die Ukraine",
+      "Ukraine hat innerhalb einer Woche fast 100 Schiffe im Asowschen Meer angegriffen",
+      "Ukrainische Drohnen treffen Raffinerie in Samara, 800 Kilometer von der Front entfernt",
+      "Bundeskanzler Christian Stocker wird zum Paris-Treffen der Koalition der Willigen erwartet",
+      "USA erlauben Ukraine, Patriot-Systeme in Lizenz selbst herzustellen"
+    ],
+    "missingSources": [
+      "Unabhängige Bestätigung der ukrainischen Schadenszahlen (außer Militärgouverneure + Generalstab)",
+      "Offizielle russische Reaktion/Schadenseinschätzung",
+      "Detaillierte Analyse der Auswirkungen auf russische Treibstoffversorgung (nur ein Militäranalyst zitiert)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "ukraine-russland-angriffe-tanker-juli-2026",
+    "title": "Vier Tote bei russischen Angriffen auf die Ukraine – Kiew intensiviert Schläge gegen russische Tanker",
+    "description": "Laut vorliegenden Medienberichten sind bei erneuten russischen Angriffen auf die Ukraine vier Menschen gestorben, während die Ukraine ihre Attacken auf russische Öltanker und Raffinerien ausgeweitet haben soll. Die Quellenlage stützt sich bislang auf einzelne Medienberichte ohne unabhängige Bestätigung.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "low",
+    "confidenceNote": "Die zentralen Angaben – vier Todesopfer, die Zahl der angegriffenen Schiffe, der Raffinerie-Angriff – stammen jeweils nur aus einer Quelle; es liegt weder eine offizielle Bestätigung noch eine Agenturmeldung noch eine zweite unabhängige Quelle für dieselben Details vor.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurden keine offiziellen Dokumente, Aussendungen oder Primärquellen eingesehen, sondern ausschließlich zwei Medienartikel als Cluster-Metadaten ausgewertet.",
+    "framingRisk": "high",
+    "framingRiskNote": "Die verfügbaren Angaben stammen erkennbar überwiegend aus ukrainischen Militär- und Regierungsquellen; eine russische Reaktion oder Gegendarstellung liegt in den vorliegenden Quellen nicht vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut Berichten sind bei jüngsten russischen Angriffen auf die Ukraine vier Menschen ums Leben gekommen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Ukraine soll innerhalb einer Woche fast 100 Schiffe angegriffen und dabei unter anderem 21 russische Tanker attackiert haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Berichten zufolge trafen ukrainische Drohnen auch eine Raffinerie in Samara, rund 800 Kilometer von der Front entfernt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und mit welcher Rolle Österreichs Bundeskanzler bei einem geplanten Pariser Koalitionstreffen tatsächlich auftritt, ist offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine unabhängige oder russische Bestätigung der genannten Zahlen und Ziele fehlt bislang.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wo genau und unter welchen Umständen kamen die vier Menschen ums Leben, und liegen dazu unabhängig bestätigte Angaben vor?",
+      "Wie belastbar ist die Zahl von knapp 100 angegriffenen Schiffen innerhalb einer Woche – gibt es dazu eine Quelle jenseits ukrainischer Stellen?",
+      "Wie reagiert die russische Seite auf die Angaben zu Tankerangriffen und dem Raffinerie-Treffer in Samara?",
+      "Bestätigt sich die erwartete Teilnahme von Bundeskanzler Stocker am Pariser Treffen der „Koalition der Willigen“, und was wären deren konkrete Inhalte?",
+      "Welche Reichweite und Bedeutung hat eine mögliche Lizenzproduktion von Patriot-Systemen in der Ukraine tatsächlich?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36755608/vier-menschen-sterben-bei-erneuten-russischen-angriffen-auf-die-ukraine"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36700138/ukrainischer-angriff-auf-21-russische-tanker"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Bei erneuten russischen Angriffen auf die Ukraine sind vier Menschen gestorben.",
+        "status": "unclear",
+        "note": "Die Angabe stammt nur aus einer Medienquelle; eine zweite unabhängige Bestätigung oder offizielle Quelle liegt nicht vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Ukraine hat innerhalb einer Woche fast 100 Schiffe im Bereich des Asowschen Meeres angegriffen.",
+        "status": "partial",
+        "note": "Die konkrete Zahl nennt nur eine Quelle; eine zweite Quelle berichtet ergänzend, aber nicht deckungsgleich, über einen Tankerangriff.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Ukraine griff 21 russische Tanker an.",
+        "status": "partial",
+        "note": "Nur eine Quelle nennt diese konkrete Zahl; eine unabhängige Bestätigung fehlt, auch wenn eine zweite Quelle das übergeordnete Geschehen thematisiert.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Ukrainische Drohnen trafen eine Raffinerie in Samara, rund 800 Kilometer von der Front entfernt.",
+        "status": "unclear",
+        "note": "Diese Angabe liegt nur in verdichteter Form vor; eine Primärquelle oder zweite unabhängige Bestätigung wurde nicht eingesehen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Bundeskanzler Christian Stocker wird bei einem Pariser Treffen der „Koalition der Willigen“ erwartet.",
+        "status": "unclear",
+        "note": "Es handelt sich um eine Erwartungsangabe ohne offizielle Bestätigung durch das Bundeskanzleramt oder eine zweite Quelle.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Die USA sollen der Ukraine erlauben, Patriot-Luftabwehrsysteme in Lizenz selbst herzustellen.",
+        "status": "unclear",
+        "note": "Diese Angabe ist nur knapp erwähnt und konnte nicht anhand einer offiziellen US- oder ukrainischen Quelle geprüft werden.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut vorliegenden Medienberichten sind bei erneuten russischen Angriffen auf die Ukraine vier Menschen gestorben. Genaue Umstände, Ort und Zeitpunkt der einzelnen Vorfälle lassen sich aus den verfügbaren Kurzangaben nicht abschließend nachvollziehen. Parallel dazu berichten die Quellen, dass die Ukraine ihre eigenen Angriffe auf russische Schifffahrt und Öl-Infrastruktur ausgeweitet habe: Die Rede ist von knapp 100 angegriffenen Schiffen innerhalb einer Woche im Raum des Asowschen Meeres sowie von einem gesonderten Angriff auf 21 russische Tanker. Ergänzend wird ein Drohnenangriff auf eine Raffinerie in Samara erwähnt, die rund 800 Kilometer von der Front entfernt liegen soll."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die beiden herangezogenen Medienberichte decken das Geschehen aus unterschiedlichen Blickwinkeln ab: Ein Bericht fokussiert auf die russischen Angriffe und deren Opfer, ein zweiter auf die ukrainische Offensive gegen russische Tanker. Beide Artikel ergänzen sich thematisch, ohne dass die jeweils genannten Zahlen – etwa die knapp 100 angegriffenen Schiffe versus die 21 Tanker – deckungsgleich sind oder sich gegenseitig unabhängig bestätigen. Eine der beiden Quellen verweist zudem auf einen politischen Kontext: die erwartete Teilnahme des österreichischen Bundeskanzlers an einem Treffen der sogenannten „Koalition der Willigen“ in Paris sowie auf eine Ankündigung zur möglichen Lizenzproduktion von Patriot-Systemen in der Ukraine. Für keinen dieser Punkte liegt eine zweite, unabhängige Bestätigung vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie belastbar die genannten Opfer- und Schadenszahlen sind, da sie erkennbar überwiegend aus ukrainischen offiziellen Stellen stammen. Eine russische Reaktion, Gegendarstellung oder eigene Schadensbilanz liegt in den vorliegenden Quellen nicht vor. Auch die genaue Reichweite und Bedeutung der angeblichen Angriffe auf russische Treibstoff- und Raffinerie-Infrastruktur lässt sich mangels unabhängiger Einschätzung nicht einordnen. Ebenso unklar ist, ob und in welcher konkreten Form Bundeskanzler Stocker beim Pariser Treffen tatsächlich auftritt und welche Beschlüsse dort zu erwarten wären."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der vorliegende Nachrichtencluster zeigt ein Muster, das im Ukraine-Krieg wiederkehrend auftritt: parallel zu russischen Angriffen mit zivilen Opfern meldet die ukrainische Seite eigene Erfolge gegen russische Logistik- und Energieinfrastruktur. Da beide Elemente hier im Wesentlichen auf ukrainischen Angaben beruhen und keine russische oder sonst unabhängige Gegenperspektive vorliegt, ist bei der Einordnung Zurückhaltung geboten. Die politische Nebenlinie rund um ein mögliches Pariser Koalitionstreffen und eine Patriot-Lizenzproduktion ist als zusätzlicher, bislang unbestätigter Kontext zu verstehen und nicht als eigenständig belegtes Ereignis."
+      }
+    ],
+    "bodyKompakt": "Laut vorliegenden Medienberichten sind bei erneuten russischen Angriffen auf die Ukraine vier Menschen gestorben. Genaue Umstände dazu sind aus den verfügbaren Kurzangaben nicht abschließend nachvollziehbar. Parallel dazu soll die Ukraine ihre Angriffe auf russische Schifffahrt ausgeweitet haben: Berichtet wird von knapp 100 angegriffenen Schiffen innerhalb einer Woche sowie von einem gesonderten Angriff auf 21 russische Tanker, dazu ein Drohnenangriff auf eine Raffinerie in Samara, rund 800 Kilometer von der Front entfernt.\n\nDie beiden ausgewerteten Quellen ergänzen sich thematisch, ohne dass sich die genannten Zahlen gegenseitig unabhängig bestätigen. Erwähnt wird zudem eine mögliche Teilnahme des österreichischen Bundeskanzlers an einem Pariser Treffen der „Koalition der Willigen“ sowie eine Ankündigung zur Lizenzproduktion von Patriot-Systemen – beides bislang nicht unabhängig bestätigt.\n\nEine russische Reaktion oder Gegendarstellung liegt in den vorliegenden Quellen nicht vor, ebenso fehlt eine unabhängige Prüfung der genannten Opfer- und Schadenszahlen. Die Angaben sind daher als vorläufig und nicht abschließend verifiziert zu betrachten.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T18:07:23.579Z"
+}

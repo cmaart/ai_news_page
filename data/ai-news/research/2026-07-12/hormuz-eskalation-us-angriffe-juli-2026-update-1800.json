@@ -1,0 +1,277 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-c781028a",
+    "title": "Neue Eskalation in Straße von Hormuz: Iranischer Soldat laut Behörden getötet",
+    "items": [
+      {
+        "itemId": "bd592a4c7d388ea81c049754b2d06a742fb9eea7992d90fc03f91e589c42a32c",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Neue Eskalation in Straße von Hormuz: Iranischer Soldat laut Behörden getötet",
+        "url": "https://www.diepresse.com/36751573/neue-eskalation-in-strasse-von-hormuz-iranischer-soldat-laut-behoerden-getoetet",
+        "summary": "Der Iran wirft den USA nach der bereits dritten Angriffswelle diese Woche Vertragsbruch vor und reagiert mit Angriffen auf Verbündete.",
+        "publishedAt": "2026-07-12T11:38:58.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "18c71f4cd9d0e7263ea4609a35e98296a4e266ea54bba957d4389024ec9fba9d",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Neue Eskalation in Straße von Hormuz: US-Angriffe und brennendes Schiff",
+        "url": "https://www.diepresse.com/36751573/neue-eskalation-in-strasse-von-hormuz-us-angriffe-und-brennendes-schiff",
+        "isNew": false
+      },
+      {
+        "itemId": "302467d549a60ea9ded0bbb2dcb9933f0579bf80ec3926420b98846a500cd9b6",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Eskalation in Straße von Hormus: US-Angriffe und brennendes Schiff",
+        "url": "https://kurier.at/politik/ausland/strasse-hormus-us-angriffe-brennendes-schiff/403175660",
+        "isNew": false
+      },
+      {
+        "itemId": "4160d0367c769dab861a09967b7b9b691af49950c14870416e8ec15365204752",
+        "sourceId": "kurier_politik",
+        "sourceType": "media",
+        "title": "Eskalation in Straße von Hormus: US-Angriffe und brennendes Schiff",
+        "url": "https://kurier.at/politik/ausland/strasse-hormus-us-angriffe-brennendes-schiff/403175660",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.65,
+  "triage": {
+    "action": "update_story",
+    "reason": "RelatedStory existiert (published, slug: hormuz-eskalation-us-angriffe-juli-2026). Neue Items stammen weitgehend von bekannten Quellen (DiePresse, Kurier in knownSourceUrls), aber mit aktuellerem Zeitstempel (12.07.2026 14:57 und 07:15). Die fulltextAuszüge liefern substanziell aktualisierte Details: bestätigte Todesfälle (Marinesoldat + Behördenleiter), vermisstes indisches Besatzungsmitglied, konkrete Schiffsnamen (GFS Galaxy), spezifizierte Angriffszahl (>300 Ziele über 3 Nächte). Diese Details sollten in den bestehenden Artikel einfließen. Resonance bislang schwach (echoPublishers24h: 1); weitere Folgeberichte unabhängiger Quellen könnten Newsworthiness validieren.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 1,
+    "possibleClaims": [
+      "Iranischer Marinesoldat im Hafen Jask getötet",
+      "Leiter der Telekommunikationsbehörde auf Insel Qeshm getötet",
+      "US-Militär attackierte über 300 Ziele in drei aufeinanderfolgenden Nächten",
+      "Containerschiff GFS Galaxy angegriffen; indisches Besatzungsmitglied wird vermisst",
+      "Weiteres Containerschiff östlich des Oman beschädigt und in Brand",
+      "Trump erklärt Waffenruhe für beendet aufgrund iranischer Zusage-Nicht-Einhaltung",
+      "Iran kündigt Schließung der Straße von Hormuz an bis zum ‚Ende der US-Einmischung'",
+      "Iranische Revolutionsgarden führten Angriffe auf US-Militärbasen in Golfstaaten und Jordanien durch",
+      "Iran wirft USA Vertragsbruch vor über Schiffsrouten-Vereinbarung"
+    ],
+    "missingSources": [
+      "Unabhängige Verifizierung der Angriffszahl (>300) durch nicht-kriegsbeteiligte Quelle",
+      "Offizielles Bestätigung der gemeldeten Todesfälle durch Drittquellen",
+      "Update zum Schicksal des vermissten indischen Besatzungsmitglieds",
+      "EU- und österreichische offizielle Reaktion zur Hormuz-Sperrung und Energiesicherheit",
+      "Text und Geltungsbereich der behaupteten US-Iran-Vereinbarung zur Schiffsroute"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "hormuz-eskalation-us-angriffe-juli-2026",
+    "title": "Straße von Hormuz: Iran meldet getöteten Soldaten, US-Militär greift laut Centcom über 300 Ziele an",
+    "description": "Nach der dritten US-Angriffswelle binnen einer Woche meldet der Iran einen getöteten Marinesoldaten, ein Containerschiff wurde beschädigt und ein indisches Besatzungsmitglied gilt weiter als vermisst. Der Iran erklärte die Straße von Hormuz für gesperrt; die Zahlen zu Zielen und Opfern stammen weiterhin überwiegend von den Konfliktparteien selbst, das Kernereignis wird aber inzwischen von zahlreichen unabhängigen internationalen Medien übereinstimmend berichtet.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Das Kernereignis – eine dritte US-Angriffswelle, ein getöteter iranischer Soldat, ein beschädigtes Containerschiff mit einem vermissten Besatzungsmitglied sowie die iranische Ankündigung einer Sperrung der Straße von Hormuz – wird inzwischen von zahlreichen voneinander unabhängigen Medien aus mehreren Ländern (u. a. Österreich, Deutschland, Indien) übereinstimmend berichtet. Die konkrete Zahl von über 300 angegriffenen Zielen stammt jedoch weiterhin ausschließlich vom US-Militär (Centcom) selbst und wurde von keiner unbeteiligten Stelle unabhängig verifiziert; auch Angaben zu iranischen Opfern beruhen bislang auf iranischen Staatsmedien.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Nach wie vor liegt keine selbst eingesehene Primärquelle vor – keine CENTCOM-Mitteilung im Volltext, keine offizielle IRGC-Erklärung, keine Stellungnahme der Reederei des Schiffs „GFS Galaxy“ oder der indischen Botschaft in Oman. Die Angaben stammen ausschließlich aus Medienberichten, wenn auch inzwischen aus einer deutlich breiteren, international unabhängigen Quellenbasis als zuvor.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Beide Konfliktparteien kommen in der Berichterstattung zu Wort (US-Angaben zu Zielen, iranische Darstellung von Vertragsbruch und Vergeltung), eine unabhängige Einordnung etwa durch die UNO, die EU oder neutrale Beobachter fehlt weiterhin. Die Berichte über den vermissten indischen Seemann und die Rettungsaktion stammen teils aus indischen Medien und wirken weniger stark von den Kriegsparteien geprägt.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut zahlreichen, voneinander unabhängigen Medienberichten hat das US-Militär binnen einer Woche eine dritte Angriffswelle gegen iranische Ziele geflogen; laut US-Militär (Centcom) wurden dabei über drei Nächte hinweg mehr als 300 Ziele angegriffen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Iranische Staatsmedien melden einen getöteten Marinesoldaten im Hafen Jask; Explosionen wurden laut Berichten auch in Bandar Abbas, Sirik und auf der Insel Qeshm gemeldet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Containerschiff „GFS Galaxy“ wurde laut Berichten getroffen und im Maschinenraum beschädigt; von elf indischen Besatzungsmitgliedern wurden zehn gerettet, eines gilt weiterhin als vermisst.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Iran erklärte die Straße von Hormuz laut Berichten für gesperrt „bis zum Ende der US-Einmischung“ und wirft den USA vor, eine zuvor vereinbarte Waffenruhe gebrochen zu haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Unabhängig verifizierte Zahlen zu Zielen, Schäden und Opfern auf beiden Seiten liegen weiterhin nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob die Sperrung der Meerenge tatsächlich durchgesetzt wird und welche Folgen dies für Energiepreise und Lieferketten in Europa hätte, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie viele Ziele wurden tatsächlich getroffen und mit welchem Schaden – unabhängig von den Angaben der Konfliktparteien?",
+      "Was ist aus dem vermissten indischen Besatzungsmitglied der „GFS Galaxy“ geworden, laufen Such- und Rettungsmaßnahmen noch?",
+      "Wie viele Menschen wurden auf iranischer Seite tatsächlich getötet oder verletzt, und lassen sich die Angaben iranischer Staatsmedien unabhängig bestätigen?",
+      "Wird die Straße von Hormuz faktisch gesperrt, und welche Folgen hätte das für Energiepreise und Lieferketten in Europa und Österreich?",
+      "Wie positionieren sich EU und österreichische Regierung zu den Auswirkungen auf die Energiesicherheit?",
+      "Was genau war Inhalt der von iranischer Seite behaupteten Vereinbarung, deren Bruch den USA vorgeworfen wird?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36751573/neue-eskalation-in-strasse-von-hormuz-us-angriffe-und-brennendes-schiff"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/strasse-hormus-us-angriffe-brennendes-schiff/403175660"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse (aktualisiert)",
+        "type": "media",
+        "url": "https://www.diepresse.com/36751573/neue-eskalation-in-strasse-von-hormuz-iranischer-soldat-laut-behoerden-getoetet"
+      },
+      {
+        "id": "src4",
+        "name": "Salzburger Nachrichten (SN.at)",
+        "type": "media",
+        "url": "https://www.sn.at/politik/weltpolitik/iran-krieg-eskaliert-erneut-iranischer-soldat-getoetet-art-661726"
+      },
+      {
+        "id": "src5",
+        "name": "Tiroler Tageszeitung",
+        "type": "media",
+        "url": "https://www.tt.com/artikel/30937996/iran-krieg-eskaliert-erneut-iranischer-soldat-getoetet"
+      },
+      {
+        "id": "src6",
+        "name": "Tiroler Tageszeitung",
+        "type": "media",
+        "url": "https://www.tt.com/artikel/30938011/eskalation-in-strasse-von-hormuz-us-angriffe-und-brennendes-schiff"
+      },
+      {
+        "id": "src7",
+        "name": "Nachrichten.at",
+        "type": "media",
+        "url": "https://www.nachrichten.at/politik/aussenpolitik/eskalation-in-strasse-von-hormus-us-angriffe-und-ein-brennendes-schiff;art391,4191126"
+      },
+      {
+        "id": "src8",
+        "name": "Tagesspiegel",
+        "type": "media",
+        "url": "https://tagesspiegel.de/internationales/liveblog/strasse-von-hormus-fur-uns-wichtiger-als-atombomben-teheran-greift-schiffe-an--usa-attackieren-140-ziele-im-iran-10586281.html"
+      },
+      {
+        "id": "src9",
+        "name": "The Week (Indien)",
+        "type": "media",
+        "url": "https://www.theweek.in/news/middle-east/2026/07/12/one-indian-missing-after-iran-attack-ship-in-strait-of-hormuz.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Das US-Militär hat binnen einer Woche eine dritte Angriffswelle gegen iranische Ziele geflogen.",
+        "status": "partial",
+        "note": "Wird inzwischen von mehreren voneinander unabhängigen österreichischen und internationalen Medien übereinstimmend berichtet; eine eingesehene Primärquelle (etwa eine CENTCOM-Mitteilung im Volltext) liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Laut US-Militär (Centcom) wurden über drei aufeinanderfolgende Nächte hinweg mehr als 300 Ziele im Iran angegriffen.",
+        "status": "unclear",
+        "note": "Zahl stammt ausschließlich vom US-Militär selbst; keine unabhängige Verifizierung durch Dritte verfügbar.",
+        "sourceIds": [
+          "src2",
+          "src6",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die iranischen Revolutionsgarden griffen als Reaktion US-Stützpunkte und Ziele in Golfstaaten sowie in Jordanien an, in mehreren Golfstaaten wurde Luftalarm ausgelöst.",
+        "status": "partial",
+        "note": "Von mehreren Medien berichtet, Ursprung der Angaben unklar, keine Bestätigung durch betroffene Staaten selbst vorliegend.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Das Containerschiff GFS Galaxy wurde getroffen und im Maschinenraum beschädigt; von elf indischen Besatzungsmitgliedern wurden zehn gerettet, eines gilt als vermisst, die Suche dauert laut Berichten an.",
+        "status": "partial",
+        "note": "Wird von mehreren voneinander unabhängigen Medien, darunter indischen Zeitungen, übereinstimmend berichtet; eine Bestätigung durch die Reederei oder eine abschließende Klärung des Schicksals des Vermissten liegt nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src6",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Der Iran kündigte an, die Straße von Hormuz bis zu einer Kursänderung der USA gesperrt zu halten.",
+        "status": "unclear",
+        "note": "Ankündigung ist bislang nur über Medienberichte und iranische Stellen bekannt; ob und wie die Sperre faktisch durchgesetzt wird, ist offen.",
+        "sourceIds": [
+          "src2",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Ein iranischer Marinesoldat wurde bei US-Angriffen auf den Hafen Jask getötet.",
+        "status": "partial",
+        "note": "Meldung geht ursprünglich auf iranische Staatsmedien zurück und wird von österreichischen Medien übernommen; Identität und genaue Umstände sind unabhängig nicht überprüft, Name der Person wird hier bewusst nicht genannt.",
+        "sourceIds": [
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "US-Präsident Trump erklärte laut Berichten eine zuvor vereinbarte Waffenruhe für gescheitert, nachdem der Iran ein Schiff angegriffen habe, und ordnete die neuen Angriffe an.",
+        "status": "partial",
+        "note": "Aussage wird laut Medienberichten Trump zugeschrieben; eine im Volltext eingesehene Erklärung des Weißen Hauses liegt nicht vor.",
+        "sourceIds": [
+          "src8"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Berichten mehrerer österreichischer und internationaler Medien hat sich die Lage in der Straße von Hormuz seit der Nacht auf den 12. Juli 2026 weiter zugespitzt. Das US-Militär soll binnen einer Woche bereits zum dritten Mal Angriffe gegen iranische Ziele geflogen haben, laut US-Angaben wurden über drei aufeinanderfolgende Nächte hinweg mehr als 300 Ziele betrachtet. Der Iran wirft den USA vor, eine zuvor vereinbarte Waffenruhe gebrochen zu haben, und reagierte laut Berichten mit Angriffen der Revolutionsgarden auf mit den USA verbündete Ziele in Golfstaaten sowie in Jordanien."
+      },
+      {
+        "heading": "Was seit dem letzten Stand neu dazugekommen ist",
+        "markdown": "Iranische Staatsmedien melden einen getöteten Marinesoldaten im Hafen Jask im Süden Irans; die Meldung wurde von österreichischen Medien übernommen, ohne dass Identität oder Umstände unabhängig überprüft werden konnten. Laut Berichten wurden zudem Explosionen in Bandar Abbas, Sirik und auf der Insel Qeshm gemeldet. Beim zuvor gemeldeten Containerschiff handelt es sich laut mehreren, voneinander unabhängigen Medienberichten – darunter auch indische Zeitungen – um die „GFS Galaxy“, die im Maschinenraum getroffen wurde. Von elf indischen Besatzungsmitgliedern wurden demnach zehn gerettet, ein Besatzungsmitglied gilt weiterhin als vermisst; die indische Botschaft in Oman soll die Suche koordinieren. US-Präsident Trump erklärte laut Berichten eine zuvor bestehende Waffenruhe für beendet, nachdem der Iran ein Schiff angegriffen habe, und ordnete die neuen Angriffe an. Der Iran erklärte die Straße von Hormuz für gesperrt, „bis zum Ende der US-Einmischung“ in der Region."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Anders als beim ersten Berichtsstand liegt inzwischen eine deutlich breitere, international unabhängige Quellenbasis vor: Neben Die Presse und Kurier berichten unter anderem Salzburger Nachrichten, Tiroler Tageszeitung, Nachrichten.at, Tagesspiegel sowie indische Medien übereinstimmend über die zentralen Ereignisse – die Angriffswelle, den getöteten Soldaten, das beschädigte Schiff und die angekündigte Sperrung der Meerenge. Das erhöht die Plausibilität des Kerngeschehens deutlich. Die konkrete Zielzahl von über 300 stammt jedoch weiterhin ausschließlich vom US-Militär (Centcom) selbst, und Opferangaben auf iranischer Seite beruhen bislang auf iranischen Staatsmedien – beides sind unmittelbar am Konflikt beteiligte Stellen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Unabhängig verifizierte Zahlen zu Zielen, Schäden und Opfern auf beiden Seiten liegen weiterhin nicht vor. Auch der von iranischer Seite behauptete „Vertragsbruch“ der USA ist inhaltlich nicht näher belegt; welche Vereinbarung genau gemeint ist, geht aus den vorliegenden Berichten nicht hervor, auch wenn von einer zuvor bestehenden Waffenruhe die Rede ist. Der weitere Verlauf der Such- und Rettungsmaßnahmen für das vermisste Besatzungsmitglied der „GFS Galaxy“ ist ebenso offen wie eine mögliche Stellungnahme von EU oder österreichischer Regierung zu den Folgen für die Energiesicherheit. Auch bleibt unklar, ob die angekündigte Sperre der Meerenge faktisch bereits umgesetzt wird."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Straße von Hormuz gilt als eine der wichtigsten Verkehrsadern für den weltweiten Öl- und Flüssiggastransport; eine anhaltende Sperrung oder weitere Eskalation hätte damit potenziell direkte Auswirkungen auf Energiepreise und Lieferketten auch in Europa und Österreich. Zwar wird das Kerngeschehen inzwischen von einer breiten, international unabhängigen Medienlandschaft übereinstimmend beschrieben, doch die konkreten Zahlen zu Zielen, Schäden und Opfern stammen nach wie vor überwiegend von den unmittelbar beteiligten Konfliktparteien selbst. Angesichts der Dynamik der Lage ist von weiteren, teils widersprüchlichen Meldungen in den kommenden Tagen auszugehen; eine abschließende Bewertung ist zum jetzigen Zeitpunkt nicht möglich."
+      }
+    ],
+    "bodyKompakt": "Laut einer inzwischen deutlich breiteren, international unabhängigen Quellenlage hat sich die Eskalation in der Straße von Hormuz weiter zugespitzt: Das US-Militär soll binnen einer Woche bereits zum dritten Mal Angriffe gegen iranische Ziele geflogen haben, laut Centcom wurden über drei Nächte hinweg mehr als 300 Ziele betrachtet. Iranische Staatsmedien melden einen getöteten Marinesoldaten im Hafen Jask, zudem wurden Explosionen in Bandar Abbas, Sirik und auf Qeshm gemeldet. Der Iran wirft den USA vor, eine zuvor bestehende Waffenruhe gebrochen zu haben, und reagierte laut Berichten mit Angriffen der Revolutionsgarden auf verbündete Ziele in Golfstaaten und Jordanien.\n\nDas zuvor gemeldete Containerschiff ist laut mehreren, auch indischen Medien die „GFS Galaxy“: Sie wurde im Maschinenraum getroffen, zehn von elf indischen Besatzungsmitgliedern wurden gerettet, eines gilt weiterhin als vermisst, die Suche soll andauern. US-Präsident Trump erklärte laut Berichten die Waffenruhe für beendet, der Iran wiederum erklärte die Straße von Hormuz für gesperrt „bis zum Ende der US-Einmischung“.\n\nDas Kerngeschehen gilt durch die breite, unabhängige Medienberichterstattung als plausibler als zuvor, doch die konkreten Zahlen zu Zielen, Schäden und Opfern stammen weiterhin überwiegend von den Konfliktparteien selbst und sind unabhängig nicht bestätigt. Eine abschließende Einordnung ist angesichts der laufenden Dynamik derzeit nicht möglich.",
+    "updateNote": "Aktualisiert: Iran meldet einen getöteten Marinesoldaten im Hafen Jask, das beschädigte Containerschiff wurde als „GFS Galaxy“ identifiziert (ein indisches Besatzungsmitglied weiter vermisst), Trump erklärte laut Berichten eine Waffenruhe für beendet, und das Kerngeschehen wird nun von deutlich mehr unabhängigen internationalen Medien übereinstimmend berichtet."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-12T18:07:23.579Z"
+}

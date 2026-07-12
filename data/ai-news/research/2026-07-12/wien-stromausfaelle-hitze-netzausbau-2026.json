@@ -1,0 +1,181 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-5ef9b544",
+    "title": "Hohe Temperaturen: Stromausfälle haben nicht immer mit Hitze zu tun [premium]",
+    "items": [
+      {
+        "itemId": "84ca86a195f7c9d57973a96135cf48f7fdbec7e84b720b3d052a33f2d36f37b3",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Hohe Temperaturen: Stromausfälle haben nicht immer mit Hitze zu tun [premium]",
+        "url": "https://www.diepresse.com/36782151/hohe-temperaturen-stromausfaelle-haben-nicht-immer-mit-hitze-zu-tun",
+        "summary": "Heiße Tage belasten beschädigte Stromkabel zusätzlich, sind aber selten die alleinige Ursache für Ausfälle. Der Netzausbau müsse mit dem Ausbau der Erneuerbaren Schritt halten.",
+        "publishedAt": "2026-07-12T17:35:06.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "ede14b0cca0fc7fffa86bd77bce31acb626ba40d440ad9a7a612b1b7a2bc34de",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Stromausfälle haben mit Hitze zu tun",
+        "url": "https://wien.orf.at/stories/3362233",
+        "isNew": false
+      },
+      {
+        "itemId": "03de666dc595819ff6e3a1ec73043e690ce6c78ef5db4bbe58d04bcfd25b99c2",
+        "sourceId": "orf_wien",
+        "sourceType": "media",
+        "title": "Stromausfälle haben mit Hitze zu tun",
+        "url": "https://wien.orf.at/stories/3362233",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Mehrere österreichische Medienquellen (Die Presse, ORF Wien/Österreich) mit ausführlichen Fulltext-Excerpts. Interview mit Gerhard Fida, CEO Wiener Netze, enthält konkrete Fakten: Stromausfallstatistik (~14 Min/Jahr in Wien), Dauer (60–90 Min), Ursachenerklärung (Vorschäden + Hitze), Rechnungshof-Kritik zum Netzausbau, Investitionsbedarf bis 2030 (13–24 Mrd. EUR). Ländervergleich Steiermark. Klare Relevanz für österreichische Leserschaft. Substanz und Quellenlage ausreichend für sachlich fundierten Artikel.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "possibleClaims": [
+      "Hitze verursacht Stromausfälle nicht als alleinige Ursache; Vorschäden an Kabeln sind entscheidend",
+      "Ausgetrockneter Boden bei Hitze leitet Wärme schlechter ab und belastet Kabel zusätzlich",
+      "Stromausfallstatistik Wien: ca. 14 Minuten pro Jahr durchschnittlich",
+      "Ausfallsdauer in Wien in der Regel 60–90 Minuten",
+      "Zahl der Stromausfälle in Wien trotz häufigerer Hitzewellen langfristig nicht wesentlich gestiegen",
+      "Rechnungshof kritisiert: Netzausbau hinkt Ausbau erneuerbarer Energien hinterher",
+      "Investitionsbedarf österreichische Verteilernetze bis 2030: 13–24 Milliarden Euro",
+      "Wiener Netze investiert 315 Millionen Euro jährlich 2025–2029 für Netzausbau"
+    ],
+    "missingSources": [
+      "Rechnungshof-Bericht (Titel, Publikationsdatum) nicht direkt verlinkt",
+      "E-Control- und AIT-Studien zu Investitionsbedarfen nicht direkt referenziert"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "wien-stromausfaelle-hitze-netzausbau-2026",
+    "title": "Stromausfälle bei Hitze: Wiener Netze verweisen auf Vorschäden statt allein auf die Temperatur",
+    "description": "Laut einem Interview mit Wiener-Netze-Chef Gerhard Fida sind hohe Temperaturen selten alleinige Ursache für Stromausfälle – entscheidend seien meist Vorschäden an Kabeln. Berichte nennen zudem Kritik des Rechnungshofs am Tempo des Netzausbaus. Primärquellen wurden nicht eingesehen.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige österreichische Medien (Die Presse, ORF) berichten über das Thema Stromausfälle und Hitze, was die grundsätzliche Einordnung stützt; die konkreten Zahlen (Ausfalldauer, Investitionssummen) stammen aber offenbar nur aus einer Quelle und sind daher weniger gesichert.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Weder der zitierte Rechnungshof-Bericht noch eine Aussendung der Wiener Netze selbst wurden eingesehen – alle Angaben stammen aus Medienberichten, die ein Interview wiedergeben.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die zentrale Einordnung stammt aus einem Interview mit dem Wiener-Netze-Chef, also einer Partei mit eigenem Interesse an der Darstellung; die Kritik des Rechnungshofs wird nur indirekt über die Medien wiedergegeben, nicht aus erster Hand.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Laut einem Interview mit Wiener-Netze-Chef Gerhard Fida sind hohe Temperaturen bei Stromausfällen meist nicht die alleinige Ursache – oft liegen bereits Vorschäden an Kabeln vor.",
+        "kind": "fact"
+      },
+      {
+        "text": "Berichten zufolge liegt die durchschnittliche Ausfallzeit in Wien bei rund 14 Minuten pro Jahr, einzelne Ausfälle dauern demnach meist 60 bis 90 Minuten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Rechnungshof soll kritisiert haben, dass der Netzausbau dem Ausbau erneuerbarer Energien hinterherhinkt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob andere Netzbetreiber, etwa in der Steiermark, die Einschätzung der Wiener Netze teilen, bleibt aus den vorliegenden Quellen offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Die Schlagzeilen von Die Presse und ORF zum Zusammenhang zwischen Hitze und Stromausfällen wirken auf den ersten Blick widersprüchlich formuliert – ob dies inhaltliche Unterschiede oder nur Formulierungsvarianten sind, ist unklar.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was steht wörtlich im zitierten Rechnungshof-Bericht, und wann wurde er veröffentlicht?",
+      "Bestätigen andere Netzbetreiber außerhalb Wiens die Darstellung, dass Hitze selten alleinige Ausfallursache ist?",
+      "Warum unterscheiden sich die Schlagzeilen von Die Presse und ORF in der Kernaussage zum Verhältnis von Hitze und Stromausfällen?",
+      "Wie belastbar sind die genannten Investitionssummen (13–24 Mrd. Euro bzw. 315 Mio. Euro jährlich), und aus welcher Studie stammen sie genau?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36782151/hohe-temperaturen-stromausfaelle-haben-nicht-immer-mit-hitze-zu-tun"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Wien/Österreich",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3362233"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Hohe Temperaturen sind laut Wiener-Netze-Chef Gerhard Fida selten die alleinige Ursache für Stromausfälle – entscheidend seien meist bereits vorhandene Schäden an Kabeln, die durch Hitze zusätzlich belastet werden.",
+        "status": "partial",
+        "note": "Aussage stammt aus einem Interview mit dem Chef des betroffenen Netzbetreibers, nicht aus unabhängiger Prüfung; nur eine Quelle liegt dazu vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die durchschnittliche Stromausfallzeit in Wien liegt bei rund 14 Minuten pro Jahr, einzelne Ausfälle dauern in der Regel 60 bis 90 Minuten.",
+        "status": "unclear",
+        "note": "Zahl wird nur in einer Quelle genannt und konnte nicht anhand einer Primärquelle wie einer Netzstatistik überprüft werden.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Rechnungshof kritisiert, dass der Ausbau der Stromnetze mit dem Ausbau erneuerbarer Energien nicht Schritt hält.",
+        "status": "unclear",
+        "note": "Der Rechnungshof-Bericht selbst wurde nicht eingesehen, die Kritik wird nur über einen Medienbericht wiedergegeben.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Für die österreichischen Verteilernetze wird bis 2030 ein Investitionsbedarf von 13 bis 24 Milliarden Euro angegeben.",
+        "status": "unclear",
+        "note": "Herkunft der Schätzung (z. B. E-Control oder Branchenstudie) ist aus den vorliegenden Quellen nicht klar erkennbar.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Wiener Netze wollen von 2025 bis 2029 jährlich rund 315 Millionen Euro in den Netzausbau investieren.",
+        "status": "unclear",
+        "note": "Zahl stammt aus einer einzelnen Medienquelle und wurde nicht anhand einer Unternehmensaussendung gegengeprüft.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Angesichts anhaltend hoher Temperaturen in Österreich hat sich Die Presse laut vorliegenden Quellen in einem Interview mit Gerhard Fida, dem Vorstandsvorsitzenden der Wiener Netze, dem Zusammenhang zwischen Hitze und Stromausfällen gewidmet. Der Grundtenor: Hitze allein sei selten der auslösende Faktor für Ausfälle im Stromnetz. Auch ORF Wien und ORF Österreich griffen das Thema unter einer ähnlichen, aber nicht identischen Überschrift auf. Da beide ORF-Regionalseiten auf denselben Artikel verlinken, handelt es sich inhaltlich um eine gemeinsame Quelle und nicht um zwei unabhängige Berichte."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Laut dem Bericht der Presse liegt die eigentliche Schwachstelle meist nicht in der Hitze selbst, sondern in bereits vorhandenen Vorschäden an Stromkabeln, die durch hohe Temperaturen zusätzlich beansprucht werden. Ausgetrockneter Boden soll demnach Wärme schlechter ableiten und Kabel so stärker belasten. Genannt werden zudem Kennzahlen zur Ausfallsicherheit in Wien – ein Schnitt von rund 14 Minuten Ausfallzeit pro Jahr sowie eine typische Ausfalldauer von 60 bis 90 Minuten pro Vorfall. Diese Werte stammen jedoch aus einer einzigen, nicht unabhängig geprüften Quelle. Ergänzend wird über Kritik des Rechnungshofs berichtet, wonach der Netzausbau dem Tempo des Ausbaus erneuerbarer Energien nicht folgen könne, samt Investitionsschätzungen für die österreichischen Verteilernetze bis 2030 sowie für das Wiener Netz konkret bis 2029."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Der zugrunde liegende Rechnungshof-Bericht wurde nicht direkt eingesehen, weder Titel noch genaues Publikationsdatum sind aus den vorliegenden Quellen ersichtlich. Auch die Herkunft der genannten Investitionssummen – 13 bis 24 Milliarden Euro für die österreichischen Verteilernetze insgesamt sowie rund 315 Millionen Euro jährlich allein bei den Wiener Netzen – lässt sich anhand der Kurzangaben nicht auf eine konkrete Studie zurückführen. Zudem fällt auf, dass die Presse-Schlagzeile die Aussage enthält, Stromausfälle hätten „nicht immer“ mit Hitze zu tun, während die ORF-Überschrift „Stromausfälle haben mit Hitze zu tun“ lautet – ein Unterschied, der aus den vorliegenden Kurzinformationen nicht auflösbar ist. Ob es sich um unterschiedliche Akzentuierungen derselben Fakten oder um inhaltlich abweichende Einschätzungen handelt, bleibt offen. Auch fehlt ein Vergleich mit der Sichtweise anderer Netzbetreiber außerhalb Wiens, etwa in der Steiermark, die im Rahmen der Recherche als möglicher Vergleichspunkt genannt wurde."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Debatte fügt sich in eine größere, in Österreich wiederkehrende Diskussion ein: Mit dem Ausbau von Photovoltaik- und Windkraftanlagen steigen die Anforderungen an die Verteilernetze, während die Investitionszyklen für Kabel- und Leitungserneuerung oft länger dauern als politische und energiewirtschaftliche Zielvorgaben. Dass ein Netzbetreiber selbst betont, Vorschäden und nicht die Hitze seien die Hauptursache für Ausfälle, kann sowohl eine sachliche Einordnung als auch eine Form der Verantwortungsabwägung gegenüber Kritik am eigenen Investitionstempo sein. Ohne Einsicht in den Rechnungshof-Bericht und ohne Stellungnahmen weiterer Netzbetreiber lässt sich diese Frage aus den vorliegenden Quellen nicht abschließend beurteilen."
+      }
+    ],
+    "bodyKompakt": "Laut einem Interview mit Wiener-Netze-Chef Gerhard Fida, über das Die Presse und ORF berichten, sind hohe Temperaturen selten die alleinige Ursache für Stromausfälle. Entscheidend seien meist bereits vorhandene Vorschäden an Kabeln, die durch Hitze und ausgetrockneten, schlechter wärmeableitenden Boden zusätzlich belastet werden. Genannt werden zudem Kennzahlen zur Ausfallsicherheit in Wien – rund 14 Minuten Ausfallzeit im Jahresschnitt, einzelne Ausfälle meist 60 bis 90 Minuten.\n\nBerichten zufolge kritisiert der Rechnungshof außerdem, dass der Netzausbau dem Tempo des Ausbaus erneuerbarer Energien nicht folgen könne. Genannt werden ein Investitionsbedarf von 13 bis 24 Milliarden Euro für die österreichischen Verteilernetze bis 2030 sowie rund 315 Millionen Euro jährlich, die die Wiener Netze von 2025 bis 2029 investieren wollen.\n\nDiese Zahlen stammen aus einer einzelnen Medienquelle und wurden nicht anhand von Primärquellen wie dem Rechnungshof-Bericht selbst überprüft. Auch eine auffällige Diskrepanz zwischen den Schlagzeilen von Die Presse und ORF zum Verhältnis von Hitze und Stromausfällen bleibt ungeklärt.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T18:07:23.579Z"
+}

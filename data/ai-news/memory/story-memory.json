@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T17:14:14.807Z",
+  "updatedAt": "2026-07-12T18:20:34.425Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1135,9 +1135,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T11:07:23.956Z",
       "doNotUpdateBefore": "2026-07-11T17:07:23.956Z",
-      "echoPublishers": {
-        "orf": "2026-07-11T17:07:24.084Z"
-      }
+      "echoPublishers": {}
     },
     "cluster-20260711-ea9f02e5": {
       "canonicalTitle": "„Explosionsartiger Stuhlgang“: Parasit befällt Hunderte in den USA",
@@ -1978,27 +1976,35 @@
       "doNotUpdateBefore": "2026-07-12T17:07:29.032Z"
     },
     "hormuz-eskalation-us-angriffe-juli-2026": {
-      "canonicalTitle": "Straße von Hormuz: Dritte US-Angriffswelle binnen einer Woche, Schiff in Brand",
+      "canonicalTitle": "Straße von Hormuz: Iran meldet getöteten Soldaten, US-Militär greift laut Centcom über 300 Ziele an",
       "slug": "hormuz-eskalation-us-angriffe-juli-2026",
       "firstSeenAt": "2026-07-12T11:07:29.032Z",
-      "lastUpdatedAt": "2026-07-12T11:07:29.032Z",
+      "lastUpdatedAt": "2026-07-12T18:07:23.579Z",
       "status": "published",
       "articlePath": "src/content/articles/hormuz-eskalation-us-angriffe-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-12/hormuz-eskalation-us-angriffe-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-12/hormuz-eskalation-us-angriffe-juli-2026-update-1800.json",
       "sourceUrls": [
         "https://www.diepresse.com/36751573/neue-eskalation-in-strasse-von-hormuz-us-angriffe-und-brennendes-schiff",
-        "https://kurier.at/politik/ausland/strasse-hormus-us-angriffe-brennendes-schiff/403175660"
+        "https://kurier.at/politik/ausland/strasse-hormus-us-angriffe-brennendes-schiff/403175660",
+        "https://www.diepresse.com/36751573/neue-eskalation-in-strasse-von-hormuz-iranischer-soldat-laut-behoerden-getoetet",
+        "https://www.sn.at/politik/weltpolitik/iran-krieg-eskaliert-erneut-iranischer-soldat-getoetet-art-661726",
+        "https://www.tt.com/artikel/30937996/iran-krieg-eskaliert-erneut-iranischer-soldat-getoetet",
+        "https://www.tt.com/artikel/30938011/eskalation-in-strasse-von-hormuz-us-angriffe-und-brennendes-schiff",
+        "https://www.nachrichten.at/politik/aussenpolitik/eskalation-in-strasse-von-hormus-us-angriffe-und-ein-brennendes-schiff;art391,4191126",
+        "https://tagesspiegel.de/internationales/liveblog/strasse-von-hormus-fur-uns-wichtiger-als-atombomben-teheran-greift-schiffe-an--usa-attackieren-140-ziele-im-iran-10586281.html",
+        "https://www.theweek.in/news/middle-east/2026/07/12/one-indian-missing-after-iran-attack-ship-in-strait-of-hormuz.html"
       ],
       "openQuestions": [
         "Wie viele Ziele wurden tatsächlich getroffen und mit welchem Schaden – unabhängig von den Angaben der Konfliktparteien?",
-        "Was genau ist der von Iran behauptete 'Vertragsbruch' der USA, und existiert eine überprüfbare Vereinbarung dazu?",
-        "Wie geht es dem als vermisst gemeldeten indischen Besatzungsmitglied, laufen Such- und Rettungsmaßnahmen?",
-        "Wird die Straße von Hormuz faktisch gesperrt, und welche Folgen hätte das für Energiepreise und Lieferketten in Europa?",
-        "Wie positionieren sich EU und österreichische Regierung zu den Auswirkungen auf die Energiesicherheit?"
+        "Was ist aus dem vermissten indischen Besatzungsmitglied der „GFS Galaxy“ geworden, laufen Such- und Rettungsmaßnahmen noch?",
+        "Wie viele Menschen wurden auf iranischer Seite tatsächlich getötet oder verletzt, und lassen sich die Angaben iranischer Staatsmedien unabhängig bestätigen?",
+        "Wird die Straße von Hormuz faktisch gesperrt, und welche Folgen hätte das für Energiepreise und Lieferketten in Europa und Österreich?",
+        "Wie positionieren sich EU und österreichische Regierung zu den Auswirkungen auf die Energiesicherheit?",
+        "Was genau war Inhalt der von iranischer Seite behaupteten Vereinbarung, deren Bruch den USA vorgeworfen wird?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-13T11:07:29.032Z",
-      "doNotUpdateBefore": "2026-07-12T17:07:29.032Z",
+      "doNotRedraftBefore": "2026-07-13T18:07:23.579Z",
+      "doNotUpdateBefore": "2026-07-13T00:07:23.579Z",
       "echoPublishers": {
         "diepresse": "2026-07-12T12:07:23.768Z"
       }
@@ -2329,6 +2335,51 @@
         "Konkrete Fallbeispiele aus Österreich/EU"
       ],
       "sensitivity": "low"
+    },
+    "wien-stromausfaelle-hitze-netzausbau-2026": {
+      "canonicalTitle": "Stromausfälle bei Hitze: Wiener Netze verweisen auf Vorschäden statt allein auf die Temperatur",
+      "slug": "wien-stromausfaelle-hitze-netzausbau-2026",
+      "firstSeenAt": "2026-07-12T18:07:23.579Z",
+      "lastUpdatedAt": "2026-07-12T18:07:23.579Z",
+      "status": "published",
+      "articlePath": "src/content/articles/wien-stromausfaelle-hitze-netzausbau-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/wien-stromausfaelle-hitze-netzausbau-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36782151/hohe-temperaturen-stromausfaelle-haben-nicht-immer-mit-hitze-zu-tun",
+        "https://wien.orf.at/stories/3362233"
+      ],
+      "openQuestions": [
+        "Was steht wörtlich im zitierten Rechnungshof-Bericht, und wann wurde er veröffentlicht?",
+        "Bestätigen andere Netzbetreiber außerhalb Wiens die Darstellung, dass Hitze selten alleinige Ausfallursache ist?",
+        "Warum unterscheiden sich die Schlagzeilen von Die Presse und ORF in der Kernaussage zum Verhältnis von Hitze und Stromausfällen?",
+        "Wie belastbar sind die genannten Investitionssummen (13–24 Mrd. Euro bzw. 315 Mio. Euro jährlich), und aus welcher Studie stammen sie genau?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-13T18:07:23.579Z",
+      "doNotUpdateBefore": "2026-07-13T00:07:23.579Z"
+    },
+    "ukraine-russland-angriffe-tanker-juli-2026": {
+      "canonicalTitle": "Vier Tote bei russischen Angriffen auf die Ukraine – Kiew intensiviert Schläge gegen russische Tanker",
+      "slug": "ukraine-russland-angriffe-tanker-juli-2026",
+      "firstSeenAt": "2026-07-12T18:07:23.579Z",
+      "lastUpdatedAt": "2026-07-12T18:07:23.579Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ukraine-russland-angriffe-tanker-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/ukraine-russland-angriffe-tanker-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36755608/vier-menschen-sterben-bei-erneuten-russischen-angriffen-auf-die-ukraine",
+        "https://www.kleinezeitung.at/artikel/36700138/ukrainischer-angriff-auf-21-russische-tanker"
+      ],
+      "openQuestions": [
+        "Wo genau und unter welchen Umständen kamen die vier Menschen ums Leben, und liegen dazu unabhängig bestätigte Angaben vor?",
+        "Wie belastbar ist die Zahl von knapp 100 angegriffenen Schiffen innerhalb einer Woche – gibt es dazu eine Quelle jenseits ukrainischer Stellen?",
+        "Wie reagiert die russische Seite auf die Angaben zu Tankerangriffen und dem Raffinerie-Treffer in Samara?",
+        "Bestätigt sich die erwartete Teilnahme von Bundeskanzler Stocker am Pariser Treffen der „Koalition der Willigen“, und was wären deren konkrete Inhalte?",
+        "Welche Reichweite und Bedeutung hat eine mögliche Lizenzproduktion von Patriot-Systemen in der Ukraine tatsächlich?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T18:07:23.579Z",
+      "doNotUpdateBefore": "2026-07-13T00:07:23.579Z"
     }
   }
 }
