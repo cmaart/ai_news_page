@@ -28,7 +28,8 @@ const [lead, ...topList] = ranked;
 const topStories = topList.slice(0, 4);
 
 // Ressort-Sektionen: chronologisch je Thema (E38), leere Ressorts entfallen.
-const RESSORT_LIMIT = 3;
+// Höheres Limit als früher (3), damit der horizontale Karten-Track (Paging) etwas zum Blättern hat.
+const RESSORT_LIMIT = 9;
 const ressorts = TOPICS.map((topic) => {
   const items = articles.filter((a) => a.data.topic === topic); // articles ist bereits byNewest sortiert
   return { topic, label: TOPIC_LABELS[topic], items: items.slice(0, RESSORT_LIMIT), total: items.length };
@@ -180,11 +181,21 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
           <h2 class="section-head__title">
             <a class="section-head__topic" href={withBase(`/themen/${topic}/`)}>{label}</a>
           </h2>
-          <a class="section-head__link" href={withBase(`/themen/${topic}/`)}>
-            {total === 1 ? `Alle Artikel in ${label}` : `Alle ${total} Artikel in ${label}`} →
-          </a>
+          <div class="section-head__actions">
+            <a class="section-head__link" href={withBase(`/themen/${topic}/`)}>
+              {total === 1 ? `Alle Artikel in ${label}` : `Alle ${total} Artikel in ${label}`} →
+            </a>
+            <div class="ressort__pager" aria-hidden="true">
+              <button type="button" class="ressort__pager-btn" data-ressort-prev aria-label="Zurück" disabled>
+                ‹
+              </button>
+              <button type="button" class="ressort__pager-btn" data-ressort-next aria-label="Weiter">
+                ›
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="ressort__grid">
+        <div class="ressort__track" data-ressort-track tabindex="0" role="group" aria-label={`Artikel in ${label} – horizontal scrollbar`}>
           {items.map((article) => {
             const badge = claimBadge(article);
             return (
@@ -581,27 +592,75 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     margin-top: 52px;
   }
 
-  .ressort__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  /* Horizontaler Karten-Track mit Scroll-Snap-Paging (ersetzt das frühere 3er-Raster). */
+  .ressort__track {
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 0;
+    scrollbar-width: none; /* Firefox: Scrollbar aus; Affordance über Peek + Pager */
+    overscroll-behavior-x: contain;
+  }
+
+  .ressort__track::-webkit-scrollbar {
+    display: none;
   }
 
   .ressort__cell {
+    flex: 0 0 calc(100% / 3); /* 3 Karten sichtbar auf Desktop */
+    scroll-snap-align: start;
     padding: 24px 28px 26px;
     border-right: 1px solid var(--color-border);
   }
 
-  .ressort__cell:nth-child(3n + 1) {
+  /* Erste Karte bündig zur Container-/Sektionskopf-Kante. */
+  .ressort__cell:first-child {
     padding-left: 0;
   }
 
-  .ressort__cell:nth-child(3n),
   .ressort__cell:last-child {
     border-right: none;
   }
 
-  .ressort__cell:nth-child(3n) {
-    padding-right: 0;
+  /* Pager-Buttons im Sektionskopf */
+  .section-head__actions {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+  }
+
+  .ressort__pager {
+    display: inline-flex;
+    gap: 4px;
+    align-self: center;
+  }
+
+  .ressort__pager-btn {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-family: var(--font-serif);
+    font-size: 18px;
+    line-height: 1;
+    color: var(--color-ink);
+    background: transparent;
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s, opacity 0.15s;
+  }
+
+  .ressort__pager-btn:hover:not(:disabled) {
+    border-color: var(--color-ink);
+    color: var(--accent-hover);
+  }
+
+  .ressort__pager-btn:disabled {
+    opacity: 0.35;
+    cursor: default;
   }
 
   .ressort__head {
@@ -670,19 +729,9 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
       grid-template-columns: 1fr 1fr;
     }
 
-    .ressort__grid {
-      grid-template-columns: 1fr;
-    }
-
+    /* Track bleibt horizontal — nur schmalere Karten, sodass die nächste durchlugt. */
     .ressort__cell {
-      border-right: none;
-      border-bottom: 1px solid var(--color-border);
-      padding-left: 0;
-      padding-right: 0;
-    }
-
-    .ressort__cell:last-child {
-      border-bottom: none;
+      flex-basis: 62%;
     }
   }
 
@@ -694,5 +743,54 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     .dateline {
       flex-wrap: wrap;
     }
+
+    .ressort__cell {
+      flex-basis: 82%;
+    }
+  }
+
+  /* Button-Scroll ohne Animation, wenn Nutzer reduzierte Bewegung wünscht (Script liest denselben MQ). */
+  @media (prefers-reduced-motion: reduce) {
+    .ressort__pager-btn {
+      transition: none;
+    }
   }
 </style>
+
+<script>
+  // Ressort-Karten-Track: Vor/Zurück-Pager als Progressive Enhancement.
+  // Ohne JS bleibt natives Scrollen/Wischen + Scroll-Snap voll funktionsfähig.
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  document.querySelectorAll<HTMLElement>('[data-ressort-track]').forEach((track) => {
+    const section = track.closest('.ressort');
+    const prev = section?.querySelector<HTMLButtonElement>('[data-ressort-prev]');
+    const next = section?.querySelector<HTMLButtonElement>('[data-ressort-next]');
+    const pager = section?.querySelector<HTMLElement>('.ressort__pager');
+    if (!prev || !next || !pager) return;
+
+    const hasOverflow = () => track.scrollWidth - track.clientWidth > 1;
+
+    const sync = () => {
+      const overflow = hasOverflow();
+      // Pager erst einblenden (aria + sichtbar), wenn es wirklich etwas zu blättern gibt.
+      pager.toggleAttribute('aria-hidden', !overflow);
+      pager.style.display = overflow ? '' : 'none';
+      prev.disabled = !overflow || track.scrollLeft <= 0;
+      next.disabled = !overflow || track.scrollLeft + track.clientWidth >= track.scrollWidth - 1;
+    };
+
+    const page = (direction: number) => {
+      track.scrollBy({
+        left: direction * track.clientWidth * 0.9,
+        behavior: reduceMotion.matches ? 'auto' : 'smooth',
+      });
+    };
+
+    prev.addEventListener('click', () => page(-1));
+    next.addEventListener('click', () => page(1));
+    track.addEventListener('scroll', sync, { passive: true });
+    window.addEventListener('resize', sync);
+    sync();
+  });
+</script>
