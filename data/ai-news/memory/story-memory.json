@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T14:08:55.451Z",
+  "updatedAt": "2026-07-12T15:21:58.445Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -236,9 +236,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-11T16:07:27.990Z",
       "doNotUpdateBefore": "2026-07-10T22:07:27.990Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-11T14:07:32.545Z"
-      }
+      "echoPublishers": {}
     },
     "china-raketenstufe-seilfang-juli-2026": {
       "canonicalTitle": "China meldet erstmals Auffangen einer Raketenstufe auf See",
@@ -773,7 +771,7 @@
       "doNotRedraftBefore": "2026-07-12T09:07:25.442Z",
       "doNotUpdateBefore": "2026-07-11T15:07:25.442Z",
       "echoPublishers": {
-        "diepresse": "2026-07-12T14:07:23.873Z",
+        "diepresse": "2026-07-12T15:07:30.256Z",
         "derstandard": "2026-07-12T09:07:28.176Z",
         "apa": "2026-07-12T09:07:28.176Z"
       },
@@ -1252,9 +1250,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T12:07:24.330Z",
       "doNotUpdateBefore": "2026-07-11T18:07:24.330Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-11T15:07:25.182Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-11T16:07:28.362Z"
@@ -2073,7 +2069,10 @@
       "echoPublishers": {
         "orf": "2026-07-12T14:07:23.873Z",
         "diepresse": "2026-07-12T14:07:23.873Z"
-      }
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-12T15:07:30.256Z"
     },
     "jugendliche-attacke-ehepaar-kurpark-oberlaa-wien-juli-2026": {
       "canonicalTitle": "Ehepaar im Kurpark Oberlaa attackiert: Drei Jugendliche im Visier der Ermittlungen",
@@ -2120,6 +2119,77 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T13:07:28.466Z",
       "doNotUpdateBefore": "2026-07-12T19:07:28.466Z"
+    },
+    "rosenkranz-sicherheitsueberpruefung-parlamentsmitarbeiter-juli-2026": {
+      "canonicalTitle": "„Bin kein Diktator“: Rosenkranz offen für Sicherheitsüberprüfung von Parlamentsmitarbeitern",
+      "slug": "rosenkranz-sicherheitsueberpruefung-parlamentsmitarbeiter-juli-2026",
+      "firstSeenAt": "2026-07-12T15:07:30.256Z",
+      "lastUpdatedAt": "2026-07-12T15:07:30.256Z",
+      "status": "published",
+      "articlePath": "src/content/articles/rosenkranz-sicherheitsueberpruefung-parlamentsmitarbeiter-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/rosenkranz-sicherheitsueberpruefung-parlamentsmitarbeiter-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36777058/bin-kein-diktator-rosenkranz-offen-fuer-ueberpruefung-von-parlamentsmitarbeitern",
+        "https://orf.at/stories/3436007",
+        "https://www.derstandard.at/story/3000000331138/nationalrat-f252r-rosenkranz-220berpr252fung-von-mitarbeitern-denkbar",
+        "https://kurier.at/politik/inland/walter-rosenkranz-fpoe-identitaere-rechtsextrem-gewalttaetig/403175701",
+        "https://www.ots.at/presseaussendung/OTS_20260712_OTS0021/hammer-zu-rosenkranz-opferrolle-statt-selbstkritik",
+        "https://www.profil.at/oesterreich/fpoe-ns-wiederbetaetigung-rechtsextremismus-rosenkranz-oberlechner/403175442",
+        "https://orf.at/stories/3432081"
+      ],
+      "openQuestions": [
+        "Wann und mit welchem Ergebnis entscheidet die Präsidialkonferenz über eine Sicherheitsüberprüfung parlamentarischer Mitarbeiter?",
+        "Wie viele parlamentarische Mitarbeiter sind nach Einschätzung der Sicherheitsbehörden tatsächlich der Identitären-Bewegung zuzurechnen?",
+        "Welche konkreten Kriterien und Verfahren würde eine solche Überprüfung umfassen?",
+        "Wie ist der Stand der strafrechtlichen Verfahren im Zusammenhang mit den berichteten Vorfällen im Umfeld der Debatte?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T15:07:30.256Z",
+      "doNotUpdateBefore": "2026-07-12T21:07:30.256Z"
+    },
+    "wolf-abschuss-steiermark-soelk-juli-2026": {
+      "canonicalTitle": "Erster zum Abschuss freigegebener Wolf in der Steiermark erlegt",
+      "slug": "wolf-abschuss-steiermark-soelk-juli-2026",
+      "firstSeenAt": "2026-07-12T15:07:30.256Z",
+      "lastUpdatedAt": "2026-07-12T15:07:30.256Z",
+      "status": "published",
+      "articlePath": "src/content/articles/wolf-abschuss-steiermark-soelk-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/wolf-abschuss-steiermark-soelk-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331131/erster-zum-abschuss-freigegebener-wolf-in-der-steiermark-erlegt",
+        "https://www.kleinezeitung.at/artikel/36761729/zum-abschuss-freigegebener-wolf-wurde-erlegt"
+      ],
+      "openQuestions": [
+        "Bestätigt die DNA-Analyse der Universität für Bodenkultur, dass es sich um das zum Abschuss freigegebene Tier handelt?",
+        "Wie positionieren sich Tierschutzorganisationen wie VIER PFOTEN oder der Verein gegen Tierfabriken zu diesem Abschuss?",
+        "Welche Kriterien und welcher Prozess lagen der Abschussfreigabe konkret zugrunde?",
+        "Wie schätzen unabhängige Wildbiologie-Expertinnen und -Experten die Wirksamkeit solcher Abschüsse zum Schutz von Nutztieren ein?",
+        "Ist die im Cluster genannte Zahl von zwölf in Kärnten seit Jahresbeginn 2026 getöteten Wölfen durch weitere Quellen bestätigbar?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-13T15:07:30.256Z",
+      "doNotUpdateBefore": "2026-07-12T21:07:30.256Z"
+    },
+    "syrien-parlament-erste-sitzung-juli-2026": {
+      "canonicalTitle": "Syrien: Parlament tagt erstmals seit Sturz von Baschar al-Assad",
+      "slug": "syrien-parlament-erste-sitzung-juli-2026",
+      "firstSeenAt": "2026-07-12T15:07:30.256Z",
+      "lastUpdatedAt": "2026-07-12T15:07:30.256Z",
+      "status": "published",
+      "articlePath": "src/content/articles/syrien-parlament-erste-sitzung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/syrien-parlament-erste-sitzung-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436010"
+      ],
+      "openQuestions": [
+        "Wie genau lautete Scharaas Rede im Wortlaut, und welche weiteren Aussagen enthielt sie?",
+        "Was steht konkret in der vorläufigen Verfassungserklärung von 2025 zu den Befugnissen des Parlaments?",
+        "Wer sind die namentlich nicht genannten Kritiker, und worauf genau stützt sich ihre Kritik an der Regierungskontrolle?",
+        "Wie bewerten unabhängige Wahlbeobachter oder Verfassungsexperten den Auswahlmechanismus der Abgeordneten?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T15:07:30.256Z",
+      "doNotUpdateBefore": "2026-07-12T21:07:30.256Z"
     }
   }
 }
