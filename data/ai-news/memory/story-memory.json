@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T16:18:55.189Z",
+  "updatedAt": "2026-07-12T17:14:14.807Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2104,7 +2104,13 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T13:07:28.466Z",
-      "doNotUpdateBefore": "2026-07-12T19:07:28.466Z"
+      "doNotUpdateBefore": "2026-07-12T19:07:28.466Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-12T17:07:23.108Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-12T17:07:23.108Z"
     },
     "mann-attackiert-mutter-wien-juli-2026": {
       "canonicalTitle": "Wien: Mann soll eigene Mutter attackiert haben – Festnahme und Waffenfund laut Medienberichten",
@@ -2263,6 +2269,66 @@
         "Aussage von Behörden (Feuerwehr, Polizei) zu ermitteltem 'Verdacht'"
       ],
       "sensitivity": "high"
+    },
+    "cluster-20260712-0b08231d": {
+      "canonicalTitle": "Jugendlicher über Monate lang erpresst",
+      "slug": "cluster-20260712-0b08231d",
+      "firstSeenAt": "2026-07-12T17:07:23.108Z",
+      "lastUpdatedAt": "2026-07-12T17:07:23.108Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://ooe.orf.at/stories/3362350",
+        "https://ooe.orf.at/stories/3362350"
+      ],
+      "openQuestions": [
+        "Offizielle Polizeimitteilung (Original-Quelle)",
+        "Stellungnahme der Verdächtigen oder ihrer Rechtsanwälte",
+        "Äußerung des Opfers oder seiner Familie (unabhängig von ORF)",
+        "Reaktion von Schulleitung oder Sozialamt",
+        "Zeitungsartikel oder Rechercheberichte aus Lokalmedien beyond ORF (Zweitmeinung)"
+      ],
+      "sensitivity": "high"
+    },
+    "iran-krieg-strasse-von-hormuz-eskalation-juli-2026": {
+      "canonicalTitle": "Iran-Krieg: Teheran beansprucht laut Medienberichten Kontrolle über Straße von Hormuz",
+      "slug": "iran-krieg-strasse-von-hormuz-eskalation-juli-2026",
+      "firstSeenAt": "2026-07-12T17:07:23.108Z",
+      "lastUpdatedAt": "2026-07-12T17:07:23.108Z",
+      "status": "published",
+      "articlePath": "src/content/articles/iran-krieg-strasse-von-hormuz-eskalation-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/iran-krieg-strasse-von-hormuz-eskalation-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36763155/neue-bombardements-im-iran-krieg-teheran-beansprucht-kontrolle-ueber-strasse-von-hormuz",
+        "https://www.kleinezeitung.at/artikel/36099006/drei-szenarien-fuer-die-strasse-von-hormuz"
+      ],
+      "openQuestions": [
+        "Worauf genau stützt sich der iranische Kontrollanspruch über die Straße von Hormuz, und existiert eine überprüfbare Grundsatzeinigung vom 17. Juni?",
+        "Wie viele Schiffe waren tatsächlich betroffen, und wie schwer sind etwaige Schäden laut neutralen maritimen Registern oder US-Navy-Angaben?",
+        "Gibt es namentliche Stellungnahmen von Pentagon oder State Department, statt paraphrasierter Wiedergaben?",
+        "Welche der von der Kleinen Zeitung angekündigten drei Szenarien hält die Redaktion für am wahrscheinlichsten, und auf welcher Grundlage?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T17:07:23.108Z",
+      "doNotUpdateBefore": "2026-07-12T23:07:23.108Z"
+    },
+    "cluster-20260712-b9665225": {
+      "canonicalTitle": "Sanieren ist angesagt! Die Zukunft ist bereits gebaut",
+      "slug": "cluster-20260712-b9665225",
+      "firstSeenAt": "2026-07-12T17:07:23.108Z",
+      "lastUpdatedAt": "2026-07-12T17:07:23.108Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000330947/sanieren-ist-angesagt-die-zukunft-ist-bereits-gebaut"
+      ],
+      "openQuestions": [
+        "EU-Statistik zum Gebäudebestand (Alter, energetische Klasse) – Eurostat oder EU-Gebäudebericht",
+        "Österreichische Gebäudebestands-Zahlen und Sanierungsquoten – Statistik Austria oder Bundesministerien",
+        "EU-Richtlinien zur Gebäudesanierung und energetische Standards (z. B. Green Deal, EPBD)",
+        "Energetische Renovierungs-Ziele und Förderprogramme (Österreich/EU)",
+        "Expert*innenstimmen (Architektur, Baustoff-Industrie, Klima)",
+        "Konkrete Fallbeispiele aus Österreich/EU"
+      ],
+      "sensitivity": "low"
     }
   }
 }

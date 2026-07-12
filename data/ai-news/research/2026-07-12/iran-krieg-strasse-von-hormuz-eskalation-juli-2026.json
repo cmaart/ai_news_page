@@ -1,0 +1,164 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-a242d645",
+    "title": "Neue Bombardements im Iran-Krieg: Teheran beansprucht Kontrolle über Straße von Hormuz [premium]",
+    "items": [
+      {
+        "itemId": "51433d7902947d1187a6069ed1d29b994cf0edda760594e9003d3c1e95ac37ed",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Neue Bombardements im Iran-Krieg: Teheran beansprucht Kontrolle über Straße von Hormuz [premium]",
+        "url": "https://www.diepresse.com/36763155/neue-bombardements-im-iran-krieg-teheran-beansprucht-kontrolle-ueber-strasse-von-hormuz",
+        "summary": "Das Regime sieht sich in der Auseinandersetzung um die Meerenge am längeren Hebel. Washington wertet die Angriffe als Hinweis auf einen Machtkampf in Teheran.",
+        "publishedAt": "2026-07-12T12:14:05.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "816f1fbdb1e87d74dfa713e58db009252763ddd776521595cef90ffc031540a6",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Iran-Krieg flammt wieder auf: Drei Szenarien für die Straße von Hormuz",
+        "url": "https://www.kleinezeitung.at/artikel/36099006/drei-szenarien-fuer-die-strasse-von-hormuz",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.65,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle Berichterstattung mit ausführlichem Fulltext-Detail (Die Presse-Korrespondent Thomas Seibert) zu eskalierendem Iran-USA-Konflikt um Straße von Hormuz. Konkrete militärische Aktionen dokumentiert (Angriffe auf Schiffe, Bombardements, Raketen), diplomatische Aktivitäten (Araghchi-Besuch in Maskat), mehrere Interpretationsebenen (Trump-Ölpreis-Strategie, US-Machtkampf-These, iranische Gegenposition). Kleine Zeitung mit eigenständigen Szenarien-Ansatz. Globale Relevanz mit direkter EU/Österreich-Auswirkung (Ölpreise, Schifffahrt). Keine bloße Presseaussendung oder Agentur-Syndikation.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "possibleClaims": [
+      "Grundsatzeinigung vom 17. Juni erklärt Iran zur Ordnungsmacht an Straße von Hormuz",
+      "Route entlang omanischer Küste verstößt gegen vereinbarte Transitwege",
+      "Trump-Strategie: Ölpreise senken vor November-Kongresswahlen",
+      "Machtkampf zwischen Zivilisten und Hardlinern in iranischer Führung (US-Deutung)",
+      "Koordinierte diplomatisch-militärische Strategie des Iran (iranische Gegenposition)",
+      "Amerikanische Gegenangriffe bislang wirkungslos"
+    ],
+    "missingSources": [
+      "Direktquelltext der Grundsatzeinigung vom 17. Juni 2026",
+      "Verifizierung der Schiff-Angriffsdaten durch neutrale maritime Register/US-Navy-Statement",
+      "Namentliche Stellungnahmen von Pentagon/State Department statt paraphrasierter Regierungsvertreter",
+      "Unabhängige Schadensberichte der betroffenen Schiffe"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "iran-krieg-strasse-von-hormuz-eskalation-juli-2026",
+    "title": "Iran-Krieg: Teheran beansprucht laut Medienberichten Kontrolle über Straße von Hormuz",
+    "description": "Laut zwei österreichischen Medienberichten kam es zu neuen Bombardements im Iran-Krieg, Teheran soll Kontrolle über die Straße von Hormuz beanspruchen. Washington deutet dies als Hinweis auf einen internen Machtkampf – die Quellenlage ist dünn und unabhängig nicht bestätigt.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "low",
+    "confidenceNote": "Es liegen nur zwei Medienberichte vor, von denen einer lediglich mit Titel ohne Zusammenfassung erfasst ist; es gibt keine Agenturmeldung, keine amtliche Bestätigung und keine zwei unabhängig deckungsgleichen Vollberichte, daher eine niedrige Gesamtsicherheit.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine amtliche Erklärung, kein Dokument und keine Aussendung von iranischer oder US-Seite eingesehen, sondern nur Kurzfassungen zweier Medienbeiträge.",
+    "framingRisk": "high",
+    "framingRiskNote": "Beide Beiträge stammen aus demselben, US-nahen medialen Umfeld und geben vor allem die Deutung Washingtons wieder; eine direkt eingesehene iranische Position oder Gegenrede fehlt vollständig.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut Berichten österreichischer Medien kam es im Rahmen des andauernden Iran-Kriegs zu neuen Bombardements rund um die Straße von Hormuz.",
+        "kind": "fact"
+      },
+      {
+        "text": "Teheran soll den Berichten zufolge Kontrolle über die Meerenge beanspruchen, während Washington die Angriffe als Hinweis auf einen internen Machtkampf in der iranischen Führung deutet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und worauf sich eine angebliche Grundsatzeinigung vom 17. Juni stützt, ist unabhängig nicht verifiziert.",
+        "kind": "open"
+      },
+      {
+        "text": "Zahl, Ziele und Ausmaß der gemeldeten Angriffe auf Schiffe sind derzeit nicht durch neutrale Quellen bestätigt.",
+        "kind": "open"
+      },
+      {
+        "text": "Die iranische Gegenposition zu einer angeblich koordinierten diplomatisch-militärischen Strategie liegt nicht aus erster Hand vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Worauf genau stützt sich der iranische Kontrollanspruch über die Straße von Hormuz, und existiert eine überprüfbare Grundsatzeinigung vom 17. Juni?",
+      "Wie viele Schiffe waren tatsächlich betroffen, und wie schwer sind etwaige Schäden laut neutralen maritimen Registern oder US-Navy-Angaben?",
+      "Gibt es namentliche Stellungnahmen von Pentagon oder State Department, statt paraphrasierter Wiedergaben?",
+      "Welche der von der Kleinen Zeitung angekündigten drei Szenarien hält die Redaktion für am wahrscheinlichsten, und auf welcher Grundlage?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse: „Neue Bombardements im Iran-Krieg: Teheran beansprucht Kontrolle über Straße von Hormuz“",
+        "type": "media",
+        "url": "https://www.diepresse.com/36763155/neue-bombardements-im-iran-krieg-teheran-beansprucht-kontrolle-ueber-strasse-von-hormuz"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung: „Iran-Krieg flammt wieder auf: Drei Szenarien für die Straße von Hormuz“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36099006/drei-szenarien-fuer-die-strasse-von-hormuz"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Iran beansprucht Kontrolle über die Straße von Hormuz.",
+        "status": "unclear",
+        "note": "Nur aus paraphrasierter Medienberichterstattung ersichtlich, keine direkte iranische Erklärung eingesehen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Es kam zu neuen Bombardements im Rahmen des Iran-Kriegs.",
+        "status": "partial",
+        "note": "Von einem Medium berichtet, aber ohne unabhängige Bestätigung von Ort, Ziel und Ausmaß der Angriffe.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Washington wertet die jüngsten Angriffe als Hinweis auf einen Machtkampf innerhalb der iranischen Führung.",
+        "status": "unclear",
+        "note": "Reine Interpretation laut Medienbericht, keine namentlich zitierte Quelle aus Regierungskreisen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Es kursieren mehrere unterschiedliche Szenarien für die weitere Entwicklung an der Straße von Hormuz.",
+        "status": "unclear",
+        "note": "Nur aus dem Titel des Kleine-Zeitung-Beitrags ersichtlich, der Inhalt der Szenarien selbst liegt für diese Zusammenfassung nicht vor.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut Berichten der Tageszeitung Die Presse ist es im Rahmen des andauernden Iran-Kriegs zu neuen Bombardements gekommen. Das iranische Regime beansprucht demnach Kontrolle über die Straße von Hormuz, eine der wichtigsten Meerengen für den globalen Öltransport. Parallel berichtet die Kleine Zeitung über eine mögliche erneute Eskalation rund um die Meerenge und stellt laut Titel drei mögliche Szenarien für die weitere Entwicklung in Aussicht. Aus den vorliegenden Kurzfassungen geht hervor, dass Washington die jüngsten Angriffe als Hinweis auf interne Machtkämpfe innerhalb der iranischen Führung wertet, während sich Teheran in der Auseinandersetzung um die Meerenge selbst im Vorteil sieht."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Beitrag der Presse ist als Premium-Inhalt gekennzeichnet; für diese Zusammenfassung liegen nur Titel und eine kurze Zusammenfassung vor, nicht der vollständige Text. Der Beitrag der Kleinen Zeitung ist ausschließlich mit Titel und URL erfasst, ohne eigene Zusammenfassung. Beide Beiträge stammen von etablierten österreichischen Medien, sind jedoch keine Agenturmeldungen und keine amtlichen Verlautbarungen iranischer oder US-amerikanischer Stellen. Eine eigenständige Prüfung der zugrunde liegenden Fakten - etwa genauer Angriffsziele, der Zahl betroffener Schiffe oder wörtlicher Aussagen von Regierungsvertretern - war im Rahmen dieser Zusammenstellung nicht möglich."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Unklar bleibt insbesondere, worauf sich der von iranischer Seite beanspruchte Kontrollanspruch über die Meerenge konkret stützt und ob dem tatsächlich eine Grundsatzeinigung vom 17. Juni zugrunde liegt, wie in Teilen der Berichterstattung angedeutet wird. Ebenso wenig lässt sich derzeit unabhängig verifizieren, wie viele Schiffe von den jüngsten Angriffen betroffen waren und wie schwer etwaige Schäden ausfielen. Namentlich zitierte Stellungnahmen von Pentagon oder State Department liegen nicht vor; die Einschätzung eines Machtkampfs in Teheran ist eine Deutung Washingtons, keine bestätigte Tatsache. Auch die iranische Gegenposition - eine angeblich koordinierte diplomatisch-militärische Strategie - ist bislang nicht durch eine direkt eingesehene eigene Quelle belegt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Straße von Hormuz zählt zu den wichtigsten Schifffahrtsrouten für den weltweiten Öltransport, weshalb eine Eskalation potenziell auch auf Ölpreise und internationale Lieferketten wirkt - mit indirekter Relevanz auch für Österreich und die EU. Angesichts der aktiven militärischen Auseinandersetzung, der grundsätzlichen Sensibilität eines Kriegsthemas und der Tatsache, dass bislang nur eine begrenzte, nicht primärquellengestützte Berichterstattung vorliegt, ist bei allen Einschätzungen zu Ursachen, Absichten und Kräfteverhältnissen größte Zurückhaltung angebracht."
+      }
+    ],
+    "bodyKompakt": "Laut Berichten österreichischer Medien kam es im Rahmen des andauernden Iran-Kriegs zu neuen Bombardements. Das iranische Regime soll dabei Kontrolle über die Straße von Hormuz beanspruchen, eine zentrale Route für den weltweiten Öltransport. Washington deutet die Angriffe laut vorliegenden Quellen als Hinweis auf einen internen Machtkampf in der iranischen Führung, während sich Teheran in der Auseinandersetzung selbst im Vorteil sieht.\n\nFür diese Zusammenfassung liegen nur ein Kurzbericht der Presse (als Premium-Inhalt gekennzeichnet, ohne vollständigen Text) sowie der bloße Titel eines Beitrags der Kleinen Zeitung vor, der auf drei mögliche Szenarien für die weitere Entwicklung verweist. Eine amtliche Bestätigung, eine Agenturmeldung oder eine direkt eingesehene iranische beziehungsweise US-amerikanische Stellungnahme fehlt bislang.\n\nUnklar bleiben insbesondere die genaue Grundlage des iranischen Kontrollanspruchs, das tatsächliche Ausmaß der gemeldeten Angriffe auf Schiffe sowie die Frage, ob es sich beim vermuteten Machtkampf in Teheran um mehr als eine Interpretation Washingtons handelt. Angesichts der Kriegssituation und der dünnen, unabhängig nicht bestätigten Quellenlage ist bei dieser Einschätzung besondere Vorsicht geboten.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T17:07:23.108Z"
+}
