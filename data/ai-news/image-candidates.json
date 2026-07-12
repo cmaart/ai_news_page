@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T18:07:23.579Z",
+  "updatedAt": "2026-07-12T20:07:27.396Z",
   "articles": {
     "sabotageverdacht-bahnstrecke-koeln-duesseldorf-juli-2026": {
       "title": "Bahnstrecke Köln–Düsseldorf nach Brand gesperrt: Gruppe „Kommando Angry Birds“ bekennt sich",
@@ -1254,6 +1254,41 @@
           "sourceUrl": "https://www.kleinezeitung.at/artikel/36700138/ukrainischer-angriff-auf-21-russische-tanker",
           "imageUrl": "https://img.kleinezeitung.at/public/service/j1prei-1500x500.jpg/alternates/ORIGINAL/j1prei-1500x500.jpg",
           "origin": "json-ld",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        }
+      ]
+    },
+    "frankreich-atomreaktoren-hitze-juli-2026": {
+      "title": "Hitzewelle in Frankreich: Drei Atomreaktoren vorübergehend abgeschaltet",
+      "scannedAt": "2026-07-12T20:07:27.396Z",
+      "candidates": [
+        {
+          "sourceUrl": "https://orf.at/stories/3436025",
+          "imageUrl": "https://ibs.orf.at/news?image=https%3A%2F%2Fassets.orf.at%2Fmims%2F2026%2F29%2F53%2Fcrops%2Fw%3D1200%2Ch%3D630%2Cq%3D75%2F3110885_master_1205053_klima_frankreich_hitze_afp.jpg%3Fs%3D597c1f39d9532764d5c4864753d4dc73d7f504de",
+          "origin": "og:image",
+          "classification": "blocked",
+          "reason": "Agentur-Kennung: afp"
+        },
+        {
+          "sourceUrl": "https://orf.at/stories/3436025",
+          "imageUrl": "https://ibs.orf.at/news?image=https%3A%2F%2Fassets.orf.at%2Fmims%2F2026%2F29%2F53%2Fcrops%2Fw%3D1200%2Ch%3D627%2Cq%3D75%2F3110885_master_1205053_klima_frankreich_hitze_afp.jpg%3Fs%3D9c0dcd18c29d0f7af2370175d8b3192afaf876e6",
+          "origin": "json-ld",
+          "classification": "blocked",
+          "reason": "Agentur-Kennung: afp"
+        },
+        {
+          "sourceUrl": "https://www.derstandard.at/story/3000000331153/hitze-in-frankreich-drei-atomreaktoren-heruntergefahren",
+          "imageUrl": "https://i.ds.at/mUNvtA/rs:fill:1200:600/plain/lido-images/2026/07/12/ab86f54c-238a-498b-8acb-e626309480f5.jpg",
+          "origin": "og:image",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        },
+        {
+          "sourceUrl": "https://www.derstandard.at/story/3000000331153/hitze-in-frankreich-drei-atomreaktoren-heruntergefahren",
+          "imageUrl": "https://i.ds.at/SS7Ktw/rs:fill:600:0/plain/lido-images/2026/07/12/ab86f54c-238a-498b-8acb-e626309480f5.jpg",
+          "origin": "figure",
+          "creditText": "Frankreich erlebt erneut eine Hitzewelle.",
           "classification": "unknown",
           "reason": "kein Lizenz-/Credit-Hinweis gefunden"
         }

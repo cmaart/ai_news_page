@@ -1,0 +1,157 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-4d435a64",
+    "title": "Frankreich schaltet erste Atomreaktoren ab",
+    "items": [
+      {
+        "itemId": "275f34b5f73bb824f3e21bd3eaa6929adabf568c98d4214a64a4881d2926ff00",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Frankreich schaltet erste Atomreaktoren ab",
+        "url": "https://orf.at/stories/3436025",
+        "summary": "In Frankreich sind wegen der starken Hitze am Sonntag drei Atomreaktoren vorübergehend heruntergefahren und sieben weitere gedrosselt worden. Das wurde am Sonntag bekannt. Frankreich erlebt derzeit die dritte Hitzewelle in nur zwei Monaten.",
+        "publishedAt": "2026-07-12T20:05:53.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "1dd964315acd95a858792e17bf472090aa91caa806d7fb961938df22fb41b0d6",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Hitze in Frankreich: Drei Atomreaktoren heruntergefahren",
+        "url": "https://www.derstandard.at/story/3000000331153/hitze-in-frankreich-drei-atomreaktoren-heruntergefahren",
+        "isNew": false
+      },
+      {
+        "itemId": "b6a376b7c0bea6f3ec454862cce0c68fcdb6c79c034e718dca5a053cefc22f4f",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Hitze in Frankreich: Drei Atomreaktoren heruntergefahren",
+        "url": "https://www.derstandard.at/story/3000000331153/hitze-in-frankreich-drei-atomreaktoren-heruntergefahren",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle Nachricht mit klarer EU-Relevanz (Energiesicherheit, Klimafolgen). Konkrete Fakten belegt durch EDF, Meteo France, ASNR und mehrere unabhängige österreichische/deutschsprachige Quellen (ORF, Der Standard). Sachlich und quellenbasiert darstellbar.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "possibleClaims": [
+      "Frankreich hat wegen Hitze am 12. Juli 2026 drei Atomreaktoren abgeschaltet (Golfech, Bugey, Chooz)",
+      "Sieben weitere Reaktoren wurden gleichzeitig gedrosselt",
+      "Grund: Einhaltung von Kühlwasser-Ableitungsvorschriften zum Schutz von Flussökosystemen",
+      "Frankreich erlebt die dritte Hitzewelle in zwei Monaten",
+      "26 Millionen Menschen (in 37 Departements) waren unter höchster Hitzewarnstufe",
+      "Temperaturen teilweise um 40°C in Frankreich",
+      "Tour de France hat zum ersten Mal eine Etappe wegen Hitze gekürzt (um 30 km)",
+      "Frankreich verfügt über 57 Atomreaktoren, die rund 70 Prozent des Stroms produzieren",
+      "Alle französischen Reaktoren nutzen Fluss- oder Meerwasser zur Kühlung"
+    ],
+    "missingSources": [
+      "Spezifische Temperaturmessungen an einzelnen Orten",
+      "Auswirkungen auf französische Stromversorgung und -preise",
+      "Auswirkungen auf europäischen Strommarkt / österreichische Energieversorgung",
+      "Einschätzungen von Energieexperten zu langfristigen Folgen",
+      "Prognose zur Dauer der Einschränkungen",
+      "Detaillierter Vergleich mit früheren Drosselungen im Juni"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "frankreich-atomreaktoren-hitze-juli-2026",
+    "title": "Hitzewelle in Frankreich: Drei Atomreaktoren vorübergehend abgeschaltet",
+    "description": "Laut ORF und Der Standard hat Frankreich am Sonntag wegen anhaltender Hitze drei Atomreaktoren heruntergefahren und sieben weitere gedrosselt – Details zu Standorten, Gründen und Folgen sind aus den vorliegenden Kurzmeldungen nicht ersichtlich.",
+    "topic": "wissenschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "ORF und Der Standard berichten übereinstimmend über Abschaltung und Drosselung, doch beide Berichte könnten auf derselben zugrunde liegenden Agenturmeldung beruhen; eine offizielle Bestätigung durch den Betreiber EDF oder die französische Atomaufsicht liegt nicht vor, daher nur mittlere Sicherheit.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Primärquelle wie eine Mitteilung von EDF oder der französischen Atomaufsichtsbehörde eingesehen, sondern nur zwei Medienkurzmeldungen mit begrenztem Detailgrad.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es liegt im Wesentlichen nur eine Darstellung vor – die Berichterstattung über die Maßnahme selbst; eine Einordnung durch den Kraftwerksbetreiber, die Aufsichtsbehörde oder unabhängige Energieexpertinnen und -experten fehlt in den vorliegenden Quellen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Laut ORF und Der Standard hat Frankreich am Sonntag, dem 12. Juli 2026, wegen der Hitze drei Atomreaktoren vorübergehend heruntergefahren und sieben weitere gedrosselt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut ORF ist dies bereits die dritte Hitzewelle in Frankreich innerhalb von nur zwei Monaten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Welche Reaktorstandorte konkret betroffen sind und aus welchem genauen Grund die Maßnahme erfolgte, geht aus den vorliegenden Kurzmeldungen nicht hervor.",
+        "kind": "open"
+      },
+      {
+        "text": "Auswirkungen auf die französische und europäische Stromversorgung sind bislang nicht belegt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche Kraftwerksstandorte sind konkret von Abschaltung bzw. Drosselung betroffen?",
+      "Aus welchem genauen technischen oder regulatorischen Grund wurde die Maßnahme angeordnet?",
+      "Wie wirkt sich dies auf die Stromversorgung in Frankreich und im europäischen Verbundnetz aus?",
+      "Wie lange sollen die Einschränkungen voraussichtlich andauern?",
+      "Gibt es eine offizielle Stellungnahme von EDF oder der französischen Atomaufsichtsbehörde?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3436025"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331153/hitze-in-frankreich-drei-atomreaktoren-heruntergefahren"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Frankreich hat am Sonntag, dem 12. Juli 2026, wegen anhaltender Hitze drei Atomreaktoren vorübergehend abgeschaltet und sieben weitere gedrosselt.",
+        "status": "partial",
+        "note": "Zwei Medien stimmen in den Kernzahlen überein, könnten aber dieselbe Agenturmeldung wiedergeben; eine offizielle Bestätigung fehlt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Es handelt sich um bereits die dritte Hitzewelle in Frankreich innerhalb von zwei Monaten.",
+        "status": "partial",
+        "note": "Diese Einordnung stammt nur aus der ORF-Kurzmeldung und ist durch keine zweite Quelle im Cluster bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Frankreich hat laut übereinstimmenden Berichten von ORF und Der Standard am Sonntag, dem 12. Juli 2026, wegen anhaltender Hitze drei Atomreaktoren vorübergehend heruntergefahren; sieben weitere Reaktoren wurden gedrosselt. Beide Medien beziehen sich auf Meldungen vom Wochenende. Laut ORF ist es bereits die dritte Hitzewelle in Frankreich innerhalb von nur zwei Monaten."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "ORF und Der Standard stimmen in den Kernzahlen überein: drei abgeschaltete und sieben gedrosselte Reaktoren. Die beiden Berichte könnten jedoch auf derselben zugrunde liegenden Agenturmeldung beruhen – eine unabhängige Zweitquelle, etwa eine offizielle Mitteilung des Betreibers EDF oder der französischen Atomaufsichtsbehörde, liegt in den vorliegenden Kurzmeldungen nicht vor. Welche Kraftwerksstandorte konkret betroffen sind, welche technischen oder regulatorischen Vorgaben die Maßnahme ausgelöst haben und wie lange die Einschränkungen andauern sollen, geht aus den vorliegenden Titeln und der kurzen Zusammenfassung nicht hervor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, welche Reaktorstandorte konkret betroffen sind und wie hoch die gemessenen Temperaturen an den jeweiligen Standorten waren. Ebenso unklar bleiben die Folgen der Maßnahme für die französische Stromversorgung sowie für den europäischen Strommarkt, einschließlich möglicher Rückwirkungen auf die österreichische Energieversorgung. Eine Einordnung durch Energie- oder Klimaexpertinnen und -experten liegt in den vorliegenden Quellen nicht vor, ebenso wenig eine Stellungnahme des Kraftwerksbetreibers EDF oder der französischen Atomaufsichtsbehörde."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Wiederkehrende Hitzewellen erhöhen erfahrungsgemäß den Druck auf Frankreichs Atomkraftwerke, da diese zur Kühlung auf Fluss- oder Meerwasser angewiesen sind; ähnliche Drosselungen wurden in der Vergangenheit wiederholt gemeldet. Ob im vorliegenden Fall dieselben oder andere Gründe ausschlaggebend waren, lässt sich anhand der aktuell vorliegenden Kurzmeldungen nicht abschließend verifizieren. Die von ORF berichtete Häufung – die dritte Hitzewelle innerhalb von zwei Monaten – deutet auf eine wiederkehrende Belastung der Infrastruktur hin, ohne dass sich daraus in den vorliegenden Quellen weitergehende Schlüsse zu Ursache oder Dauer ziehen lassen."
+      }
+    ],
+    "bodyKompakt": "Frankreich hat laut übereinstimmenden Berichten von ORF und Der Standard am Sonntag, dem 12. Juli 2026, wegen anhaltender Hitze drei Atomreaktoren vorübergehend abgeschaltet und sieben weitere gedrosselt. Laut ORF ist es bereits die dritte Hitzewelle in Frankreich innerhalb von zwei Monaten.\n\nDie beiden Quellen stimmen in den Kernzahlen überein, dürften aber auf derselben zugrunde liegenden Meldung beruhen; eine offizielle Stellungnahme des Betreibers EDF oder der französischen Atomaufsichtsbehörde liegt nicht vor. Welche Kraftwerke konkret betroffen sind und aus welchem genauen technischen oder regulatorischen Grund die Maßnahme erfolgte, ist den vorliegenden Kurzmeldungen nicht zu entnehmen.\n\nOffen bleiben zudem die Auswirkungen auf die französische und europäische Stromversorgung sowie die Dauer der Einschränkungen. Wiederkehrende Hitzewellen erhöhen erfahrungsgemäß den Druck auf die kühlwasserabhängigen Reaktoren, eine abschließende Einordnung des aktuellen Falls ist derzeit aber nicht möglich.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T20:07:27.396Z"
+}

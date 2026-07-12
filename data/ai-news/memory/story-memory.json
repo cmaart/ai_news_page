@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T19:10:19.816Z",
+  "updatedAt": "2026-07-12T20:10:14.558Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2379,6 +2379,29 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T18:07:23.579Z",
       "doNotUpdateBefore": "2026-07-13T00:07:23.579Z"
+    },
+    "frankreich-atomreaktoren-hitze-juli-2026": {
+      "canonicalTitle": "Hitzewelle in Frankreich: Drei Atomreaktoren vorübergehend abgeschaltet",
+      "slug": "frankreich-atomreaktoren-hitze-juli-2026",
+      "firstSeenAt": "2026-07-12T20:07:27.396Z",
+      "lastUpdatedAt": "2026-07-12T20:07:27.396Z",
+      "status": "published",
+      "articlePath": "src/content/articles/frankreich-atomreaktoren-hitze-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/frankreich-atomreaktoren-hitze-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436025",
+        "https://www.derstandard.at/story/3000000331153/hitze-in-frankreich-drei-atomreaktoren-heruntergefahren"
+      ],
+      "openQuestions": [
+        "Welche Kraftwerksstandorte sind konkret von Abschaltung bzw. Drosselung betroffen?",
+        "Aus welchem genauen technischen oder regulatorischen Grund wurde die Maßnahme angeordnet?",
+        "Wie wirkt sich dies auf die Stromversorgung in Frankreich und im europäischen Verbundnetz aus?",
+        "Wie lange sollen die Einschränkungen voraussichtlich andauern?",
+        "Gibt es eine offizielle Stellungnahme von EDF oder der französischen Atomaufsichtsbehörde?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-13T20:07:27.396Z",
+      "doNotUpdateBefore": "2026-07-13T02:07:27.396Z"
     }
   }
 }
