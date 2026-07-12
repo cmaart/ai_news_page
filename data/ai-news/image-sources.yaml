@@ -26,7 +26,7 @@
 # nur für passende Ressorts), nicht zwingend eine Terms-Einschränkung wie beim
 # Parlament — der YAML-Kommentar am Eintrag sagt, was gilt.
 version: 1
-updatedAt: 2026-07-11
+updatedAt: 2026-07-12
 sources:
   - id: bka-stocker
     name: BKA-Fotoservice — Bundeskanzler Stocker (Querformat)
@@ -113,6 +113,81 @@ sources:
         termsUrl: https://www.khm.at/museum/presse
         termsQuote: "In unserem Pressebereich stehen Ihnen Pressetexte und Pressebilder für die aktuelle Berichterstattung kostenlos zum Download zur Verfügung."
 
+  # --- Weitere österreichische Institutionen (E44, vetted 2026-07-12).
+  # burgenland-landtag vor rechnungshof-gebaeude, damit Landes-Artikel, die den
+  # RH nur erwähnen, das Landtags-Motiv bekommen (Reihenfolge = Priorität). ---
+
+  - id: burgenland-landtag
+    name: Landesmedienservice Burgenland — Landtagssitzungssaal Eisenstadt
+    vettedAt: 2026-07-12
+    titleKeywords: ["Burgenland", "Burgenländischer Landtag"]
+    topics: [politik]
+    image:
+      downloadUrl: https://www.burgenland.at/fileadmin/user_upload/Bilder/Aktuelle_Meldungen/2023/03_Maerz/100_Jahre_Landesfeuerwehr_006.jpg
+      alt: Der Sitzungssaal des Burgenländischen Landtags im Landhaus Eisenstadt während einer Festsitzung
+      caption: Der Landtagssitzungssaal im Landhaus Eisenstadt (Symbolbild)
+      kind: symbol
+      credit:
+        author: Landesmedienservice Burgenland
+        license: press_permission
+        sourceUrl: https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/festsitzung-anlaesslich-100-jahre-burgenlaendischer-feuerwehrverband/
+        termsUrl: https://www.burgenland.at/nutzungsbedingungen/
+        termsQuote: "Die Nutzung kann kostenfrei sowie zu nicht kommerziellen bzw. zu redaktionellen Zwecken von Medien und für Zwecke im Bereich der politischen Bildung erfolgen."
+
+  - id: rechnungshof-gebaeude
+    name: Rechnungshof Österreich — Amtsgebäude Wien
+    vettedAt: 2026-07-12
+    titleKeywords: ["Rechnungshof"]
+    sourceDomains: ["rechnungshof.gv.at"]
+    topics: [politik]
+    image:
+      downloadUrl: https://www.rechnungshof.gv.at/rh/home/fragen-medien/fragen-medien_1/Rechnungshof_Oesterreich_Gebaeude.jpg
+      alt: Amtsgebäude des Rechnungshofs Österreich in Wien mit Schriftzug in den Fensterfronten
+      caption: Der Sitz des Rechnungshofs Österreich in Wien
+      kind: symbol
+      credit:
+        author: Rechnungshof Österreich/Achim Bieniek
+        license: press_permission
+        sourceUrl: https://www.rechnungshof.gv.at/rh/home/fragen-medien/fragen-medien_1/Pressebilder.html
+        termsUrl: https://www.rechnungshof.gv.at/rh/home/fragen-medien/fragen-medien_1/Pressebilder.html
+        termsQuote: "Die Verwendung ist für die Berichterstattung über den Rechnungshof Österreich gestattet."
+
+  # WIFO/JKU: topics als Relevanz-Guard. WIFO-Foto ist ein Personenbild des
+  # Direktors (öffentliche Person, Wirtschaftsberichterstattung — kein § 78-Konflikt).
+  - id: wifo-felbermayr
+    name: WIFO — Direktor Gabriel Felbermayr
+    vettedAt: 2026-07-12
+    titleKeywords: ["WIFO", "Felbermayr", "Wirtschaftsforschungsinstitut"]
+    topics: [wirtschaft]
+    image:
+      downloadUrl: https://www.wifo.ac.at/wp-content/uploads/2024/03/GabrielFelbermayr_cAlexanderMueller_highres_2.jpg
+      alt: WIFO-Direktor Gabriel Felbermayr neben einem WIFO-Banner
+      caption: WIFO-Direktor Gabriel Felbermayr (Symbolbild)
+      kind: symbol
+      credit:
+        author: © WIFO/Alexander Müller
+        license: press_permission
+        sourceUrl: https://www.wifo.ac.at/en/gabriel-felbermayr/
+        termsUrl: https://www.wifo.ac.at/en/latest-news/press/press-photos/
+        termsQuote: "These photos may be used royalty-free for press purposes if the copyright is acknowledged."
+
+  - id: jku-campus
+    name: JKU Linz — Campus (TeichWerk)
+    vettedAt: 2026-07-12
+    titleKeywords: ["JKU", "Johannes Kepler Universität"]
+    topics: [wissenschaft, technologie]
+    image:
+      downloadUrl: https://www.jku.at/fileadmin/marketing/Presse_Savoy/TW.jpg
+      alt: Das TeichWerk am Campus der Johannes Kepler Universität Linz mit Steg über den Uni-Teich
+      caption: "Campus der JKU Linz: das TeichWerk am Uni-Teich (Symbolbild)"
+      kind: symbol
+      credit:
+        author: © JKU
+        license: press_permission
+        sourceUrl: https://www.jku.at/presse/
+        termsUrl: https://www.jku.at/presse/
+        termsQuote: "Sie brauchen honorarfreie Fotos zur Bebilderung eines Berichts über die JKU? Dann nutzen Sie folgende Fotos oder kontaktieren Sie uns"
+
   # --- Tech/KI (E48) — topics hier als Relevanz-Guard (Symbolbild nur für
   # passende Ressorts), keine Terms-Einschränkung. ---
 
@@ -154,6 +229,24 @@ sources:
         termsUrl: https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions
         termsQuote: "Images found on the News Center may be used for editorial purposes only by the press and/or industry analysts."
 
+  - id: vw-markenhochhaus
+    name: Volkswagen Newsroom — Markenhochhaus Wolfsburg
+    vettedAt: 2026-07-12
+    titleKeywords: ["Volkswagen", "VW"]
+    sourceDomains: ["volkswagen-newsroom.com"]
+    topics: [wirtschaft]
+    image:
+      downloadUrl: "https://uploads.vw-mms.de/system/production/images/vwn/030/298/images/139d18e6c0d11c49194f116208e6d4faea1ef837/DB2019AL02092_large.jpg?1674577155"
+      alt: Das Markenhochhaus im Volkswagen-Werk Wolfsburg mit dem Volkswagen-Logo an der Fassade
+      caption: Das Markenhochhaus am Volkswagen-Stammsitz in Wolfsburg (Archivbild 2019, Symbolbild)
+      kind: symbol
+      credit:
+        author: Volkswagen AG
+        license: press_permission
+        sourceUrl: https://www.volkswagen-newsroom.com/en/images/detail/markenhochaus-brand-tower-new-volkswagen-logo-30298
+        termsUrl: https://www.volkswagen-newsroom.com/en/terms-of-service-35
+        termsQuote: "may be used for editorial purposes on social media and websites, or, in the case of journalists, influencers and media enterprise employees, may be used as a source for their own editorial coverage."
+
   - id: tu-wien-freihaus
     # Terms erlauben Nutzung nur „im Zusammenhang mit der Berichterstattung über
     # die TU Wien" — die engen titleKeywords erzwingen genau das; Resize/
@@ -175,6 +268,149 @@ sources:
         termsUrl: https://www.tuwien.at/tu-wien/organisation/zentrale-bereiche/kommunikation/pr-und-marketing/fotodownload/nutzungsbedingungen
         termsQuote: "die Fotos kostenlos unter Angabe des jeweiligen Copyrights (siehe Punkt 3) für journalistische oder nicht kommerzielle Zwecke im Zusammenhang mit der Berichterstattung über die TU Wien in Print und/oder Online-Medien zu verwenden."
 
+  # --- Internationale Institutionen (E44, vetted 2026-07-12) — Gebäude-/Setting-
+  # Symbolbilder offizieller Presse-/Multimedia-Angebote. topics als Relevanz-Guard. ---
+
+  - id: eu-kommission-berlaymont
+    name: Europäische Kommission — Berlaymont-Gebäude Brüssel
+    vettedAt: 2026-07-12
+    titleKeywords: ["EU-Kommission", "Europäische Kommission", "EU-Verfahren"]
+    sourceDomains: ["ec.europa.eu"]
+    topics: [politik, wirtschaft]
+    image:
+      downloadUrl: https://ec.europa.eu/avservices/repository/photo/06/14/04/P-061404_00-16_01-ORIGINAL-319040.jpg
+      alt: Eingang des Berlaymont-Gebäudes der Europäischen Kommission in Brüssel mit den Flaggen der Mitgliedstaaten
+      caption: Das Berlaymont-Gebäude, Sitz der Europäischen Kommission in Brüssel (Symbolbild)
+      kind: symbol
+      credit:
+        author: © European Union, 2023 / Lukasz Kobus
+        license: CC BY 4.0
+        sourceUrl: https://audiovisual.ec.europa.eu/en/reportage/P-061404
+        termsUrl: https://commission.europa.eu/legal-notice_en
+        termsQuote: "Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence."
+
+  - id: eu-parlament-plenarsaal
+    name: Europäisches Parlament — Plenarsaal Straßburg
+    vettedAt: 2026-07-12
+    titleKeywords: ["Europaparlament", "EU-Parlament", "Europäisches Parlament", "EVP"]
+    topics: [politik]
+    image:
+      downloadUrl: https://live.staticflickr.com/65535/52978455835_9d7b5d7d58_o.jpg
+      alt: Der voll besetzte Plenarsaal des Europäischen Parlaments in Straßburg
+      caption: Plenarsaal des Europäischen Parlaments in Straßburg (Symbolbild)
+      kind: symbol
+      credit:
+        author: "© European Union 2023 – Source: EP"
+        license: CC BY 4.0
+        sourceUrl: https://www.flickr.com/photos/european_parliament/52978455835/
+        termsUrl: https://www.europarl.europa.eu/legal-notice/en/
+        termsQuote: "the reuse (reproduction or use) of textual data and multimedia items which are the property of the European Union […] is authorised, for personal use or for further non-commercial or commercial dissemination"
+
+  - id: ezb-hauptgebaeude
+    name: Europäische Zentralbank — Hauptgebäude Frankfurt
+    vettedAt: 2026-07-12
+    titleKeywords: ["EZB", "Europäische Zentralbank", "Lagarde"]
+    sourceDomains: ["ecb.europa.eu"]
+    image:
+      downloadUrl: https://www.ecb.europa.eu/press/contacts/html/press_photos/Buildings.jpg
+      alt: Das Hauptgebäude der Europäischen Zentralbank in Frankfurt am Main von unten fotografiert
+      caption: Das Hauptgebäude der Europäischen Zentralbank in Frankfurt (Symbolbild)
+      kind: symbol
+      credit:
+        author: © European Central Bank / Bernd Hartung
+        license: press_permission
+        sourceUrl: https://www.ecb.europa.eu/press/contacts/html/press_photos.en.html
+        termsUrl: https://www.ecb.europa.eu/press/contacts/html/press_photos.en.html
+        termsQuote: "You are free to download and use the photos available on the page. Please ensure that the ECB is explicitly cited as the source, and that the images are not altered or distorted."
+
+  - id: nato-hauptquartier
+    # Terms verlangen zusätzlich Credit „NATO" und „objective and balanced content".
+    name: NATO — Hauptquartier Brüssel
+    vettedAt: 2026-07-12
+    titleKeywords: ["NATO"]
+    topics: [politik]
+    image:
+      downloadUrl: "https://s7g10.scene7.com/is/image/ncia/20251003_hq-drone-photos_0006?wid=2000&fmt=jpg&qlt=90"
+      alt: Luftaufnahme des NATO-Hauptquartiers in Brüssel mit den Flaggen der Mitgliedstaaten
+      caption: Das NATO-Hauptquartier in Brüssel (Symbolbild)
+      kind: symbol
+      credit:
+        author: NATO
+        license: press_permission
+        sourceUrl: https://www.nato.int/en/multimedia/multimedia/photos/general/nato-headquarters
+        termsUrl: https://www.nato.int/en/about-us/official-texts-and-resources/use-of-nato-content-and-brand
+        termsQuote: "Photos, videos and articles are released under the legally recognized terms of 'Fair Use' to members of the press, academia, non-profits and the general public."
+
+  - id: whitehouse-gebaeude
+    name: The White House — Nordansicht Washington
+    vettedAt: 2026-07-12
+    titleKeywords: ["Weißes Haus", "White House", "Trump"]
+    topics: [politik]
+    image:
+      downloadUrl: https://www.whitehouse.gov/wp-content/uploads/2026/01/F20200403AH-0220.jpg
+      alt: Das Weiße Haus in Washington, D.C., Ansicht der Nordseite mit Springbrunnen und Blumenbeeten
+      caption: Das Weiße Haus in Washington (Symbolbild)
+      kind: symbol
+      credit:
+        author: Official White House Photo by Andrea Hanks
+        license: Public Domain
+        sourceUrl: https://www.whitehouse.gov/visit/
+        termsUrl: https://www.whitehouse.gov/copyright/
+        termsQuote: "Pursuant to federal law, government-produced materials appearing on this site are not copyright protected."
+
+  - id: pentagon-luftaufnahme
+    # Bewusst enge Keywords: KEIN Iran/Hormus/Angriff — Konflikt-/Opferkontexte
+    # werden nicht mit US-Militärmotiven bebildert.
+    name: US-Verteidigungsministerium (DVIDS) — Pentagon Luftaufnahme
+    vettedAt: 2026-07-12
+    titleKeywords: ["Pentagon", "US-Militär", "US-Verteidigungsministerium"]
+    topics: [politik]
+    image:
+      downloadUrl: https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2305/7799386/2000w_q95.jpg
+      alt: Luftaufnahme des Pentagons in Washington, D.C., bei Sonnenuntergang
+      caption: Das Pentagon aus der Luft (Archivbild 2023, Symbolbild)
+      kind: symbol
+      credit:
+        author: DoD photo by U.S. Navy Petty Officer 2nd Class Alexander Kubitza
+        license: Public Domain
+        sourceUrl: https://www.dvidshub.net/image/7799386/pentagon-aerial-photos
+        termsUrl: https://www.dvidshub.net/about/copyright
+        termsQuote: "DoW VI that are works of authorship prepared by U.S. Government employees as part of their official duties are not eligible for copyright protection in the United States."
+
+  - id: nasa-mission-control
+    name: NASA — Mission Control Center Houston
+    vettedAt: 2026-07-12
+    titleKeywords: ["NASA"]
+    topics: [wissenschaft, technologie]
+    image:
+      downloadUrl: https://images-assets.nasa.gov/image/NHQ20260115_admin_0003/NHQ20260115_admin_0003~large.jpg
+      alt: Mitarbeiterinnen und Mitarbeiter im Mission Control Center des Johnson Space Center in Houston
+      caption: Im Mission Control Center der NASA in Houston (Symbolbild)
+      kind: symbol
+      credit:
+        author: NASA/John Kraus
+        license: Public Domain
+        sourceUrl: https://images.nasa.gov/details/NHQ20260115_admin_0003
+        termsUrl: https://www.nasa.gov/nasa-brand-center/images-and-media/
+        termsQuote: "News outlets, schools, and text-book authors may use NASA content without needing explicit permission, subject to compliance with these guidelines."
+
+  - id: esa-esoc
+    name: ESA — Hauptkontrollraum ESOC Darmstadt
+    vettedAt: 2026-07-12
+    titleKeywords: ["ESA", "European Space Agency", "ESOC"]
+    topics: [wissenschaft, technologie]
+    image:
+      downloadUrl: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2012/05/esoc_main_control_room/11632218-4-eng-GB/ESOC_Main_Control_Room.jpg
+      alt: Der Hauptkontrollraum des ESA-Satellitenkontrollzentrums ESOC in Darmstadt mit Konsolenreihen
+      caption: Hauptkontrollraum des European Space Operations Centre (ESOC) in Darmstadt (Symbolbild)
+      kind: symbol
+      credit:
+        author: ESA/J. Mai
+        license: CC BY-SA 3.0 IGO
+        sourceUrl: https://www.esa.int/ESA_Multimedia/Images/2012/05/ESOC_Main_Control_Room
+        termsUrl: https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website
+        termsQuote: "Images and videos available on the ESA Website can be used, reproduced, broadcasted and publicly performed for educational, editorial or informational purposes […] free of charge and without requesting a separate authorisation from ESA"
+
 # Vetting-Protokoll Tech/KI (2026-07-11, E48) — geprüft und NICHT aufgenommen:
 #   NVIDIA     — Media-Assets hinter Presse-Login, keine veröffentlichte
 #                redaktionelle Freigabe; Brand-Guidelines untersagen sogar
@@ -188,9 +424,30 @@ sources:
 #                Nutzungsbedingungen.
 #   AIT        — Pressefoto-Portal ohne auffindbare Terms — erst nach
 #                schriftlicher Bestätigung aufnehmen.
-# Vielversprechend, aber offen (Portale sind JS-Apps — Download-URL + Terms
-# einmalig manuell im Browser sichern, dann eintragen):
-#   EU-Kommission Audiovisual (audiovisual.ec.europa.eu, CC BY 4.0 laut
-#   commission.europa.eu/legal-notice_en; Berlaymont-Motive P-045618, P-061404),
-#   EU-Parlament Multimedia Centre (multimedia.europarl.europa.eu),
-#   JKU Linz (jku.at/presse, „honorarfreie Fotos", Credits je Foto beachten).
+# Erweiterung 2026-07-12 (E44/E48) — aufgenommen: österr. Institutionen
+# (Burgenland-Landtag, Rechnungshof, WIFO, JKU), EU-Institutionen (Kommission
+# Berlaymont, EU-Parlament Plenarsaal, EZB, NATO), US/international (White House,
+# Pentagon/DVIDS, NASA, ESA) sowie Volkswagen. Die zuvor offenen Leads
+# EU-Kommission, EU-Parlament und JKU sind damit erledigt.
+#
+# Geprüft und NICHT aufgenommen (2026-07-12):
+#   Kremlin        — Foto-Freigabe CC BY 4.0 belegt (en.kremlin.ru/about/
+#                    copyrights), ABER kremlin.ru liefert Bilder NUR über http
+#                    (https ⇒ Connection reset); sanitizeDraftImage erzwingt
+#                    https — technisch nicht aufnehmbar.
+#   president.gov.ua — Lizenz CC BY-NC-ND (NC/ND ausgeschlossen). ⇒ Ukraine-
+#                    Artikel bleiben bildlos, bis eine offene Quelle gefunden ist.
+#   UN Photo       — Nur mit vorheriger schriftlicher Genehmigung, kein Ablegen
+#                    in Asset-Datenbanken — für statisches Self-Hosting untauglich.
+#   BMWKMS         — Fotoservice auf Picdrop umgezogen (signierte, ablaufende
+#                    URLs, keine stabile downloadUrl) — erst nach Klärung.
+#   Amazon/Apple   — keine öffentliche, zitierbare Terms-Seite (Apple nur per
+#                    Download-„Image Use Agreement", keine stabile URL).
+#   BMF/BMI/BMLV/IHS/OÖ/NÖ — kein Pressefoto-Angebot mit publizierten Terms.
+#
+# Vielversprechend, aber offen (Portale blocken Bots / erst noch zu sichern):
+#   Europäischer Rat/Consilium (newsroom.consilium.europa.eu; Legal-Notice 403),
+#   EU-Parlament Multimedia Centre (multimedia.europarl.europa.eu, AWS-WAF-
+#   Challenge — daher EP-Foto vorerst über den offiziellen EP-Flickr-Kanal),
+#   BMLUK Fotoservice (bmluk.gv.at, nur reine ©BMLUK-Credits, keine APA-Alben),
+#   Stadt Wien/PID (presse.wien.gv.at, Rathaus-Motive — bei Bedarf ergänzen).
