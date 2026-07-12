@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T09:14:58.765Z",
+  "updatedAt": "2026-07-12T10:18:05.140Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1400,11 +1400,12 @@
       "echoPublishers": {
         "derstandard": "2026-07-12T06:07:23.718Z",
         "orf": "2026-07-12T06:07:23.718Z",
-        "kleinezeitung": "2026-07-11T19:07:27.203Z"
+        "kleinezeitung": "2026-07-11T19:07:27.203Z",
+        "diepresse": "2026-07-12T10:07:25.258Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-11T19:07:27.203Z"
+      "resonanceMeasuredAt": "2026-07-12T10:07:25.258Z"
     },
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter nach Air-Force-One-Bericht vor Grand Jury vorgeladen",
@@ -1723,11 +1724,12 @@
       "doNotUpdateBefore": "2026-07-12T13:07:28.557Z",
       "echoPublishers": {
         "derstandard": "2026-07-12T08:07:24.366Z",
-        "kurier": "2026-07-12T08:07:24.366Z"
+        "kurier": "2026-07-12T08:07:24.366Z",
+        "orf": "2026-07-12T10:07:25.258Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-12T09:07:28.176Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-12T10:07:25.258Z"
     },
     "nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026": {
       "canonicalTitle": "SPÖ-Auswertung: 179 Gesetzesbeschlüsse seit Regierungsantritt, breite Oppositionszustimmung reklamiert",
@@ -1771,7 +1773,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-13T07:07:28.557Z",
-      "doNotUpdateBefore": "2026-07-12T13:07:28.557Z"
+      "doNotUpdateBefore": "2026-07-12T13:07:28.557Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-12T10:07:25.258Z"
+      }
     },
     "israel-siedler-festnahme-cnn-team-westjordanland-juli-2026": {
       "canonicalTitle": "Israel: Vier Siedler nach mutmaßlichem Angriff auf CNN-Team im Westjordanland festgenommen",
@@ -1910,7 +1915,55 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-13T09:07:28.176Z",
-      "doNotUpdateBefore": "2026-07-12T15:07:28.176Z"
+      "doNotUpdateBefore": "2026-07-12T15:07:28.176Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-12T10:07:25.258Z"
+      }
+    },
+    "traktor-unfall-innviertel-juli-2026": {
+      "canonicalTitle": "Innviertel: 66-Jähriger nach Einklemmen durch Traktor mit Rettungshubschrauber ins Spital geflogen",
+      "slug": "traktor-unfall-innviertel-juli-2026",
+      "firstSeenAt": "2026-07-12T10:07:25.258Z",
+      "lastUpdatedAt": "2026-07-12T10:07:25.258Z",
+      "status": "published",
+      "articlePath": "src/content/articles/traktor-unfall-innviertel-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/traktor-unfall-innviertel-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/oberoesterreich/66-jaehriger-im-innviertel-von-traktor-eingeklemmt/403175680",
+        "https://ooe.orf.at/stories/3362306"
+      ],
+      "openQuestions": [
+        "Wie schwer wurde der 66-Jährige verletzt?",
+        "Was war die genaue Unfallursache und an welchem konkreten Ort im Innviertel geschah der Unfall?",
+        "Handelte es sich um einen privaten oder landwirtschaftlichen Betrieb, und ermittelt eine Behörde (z. B. Arbeitsinspektorat)?",
+        "Wurde der Mann von seiner Ehefrau selbst befreit oder erst durch Einsatzkräfte?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T10:07:25.258Z",
+      "doNotUpdateBefore": "2026-07-12T16:07:25.258Z"
+    },
+    "vw-blume-werksschliessungen-juli-2026": {
+      "canonicalTitle": "VW-Chef Blume stellt \"intelligentere Lösungen\" statt Werksschließungen in Aussicht",
+      "slug": "vw-blume-werksschliessungen-juli-2026",
+      "firstSeenAt": "2026-07-12T10:07:25.258Z",
+      "lastUpdatedAt": "2026-07-12T10:07:25.258Z",
+      "status": "published",
+      "articlePath": "src/content/articles/vw-blume-werksschliessungen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/vw-blume-werksschliessungen-juli-2026.json",
+      "sourceUrls": [
+        "https://www.heise.de/news/VW-Chef-Intelligentere-Loesungen-als-Werksschliessungen-11361870.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://orf.at/stories/3435966"
+      ],
+      "openQuestions": [
+        "Wie viele Arbeitsplätze sind tatsächlich gefährdet – Berichte nennen unterschiedliche Größenordnungen zwischen rund 100.000 und 120.000?",
+        "Welche konkreten Werke stehen zur Disposition und in welchem Zeitrahmen?",
+        "Was meint Blume konkret mit \"intelligenteren Lösungen\" – Kurzarbeit, Kapazitätsverlagerung, Investitionsverzicht oder etwas anderes?",
+        "Wie positionieren sich Betriebsrat, IG Metall und der VW-Aufsichtsrat zu den kursierenden Plänen?",
+        "Liegt eine offizielle VW-Stellungnahme oder Investor-Relations-Bestätigung zu den genannten Kosten- und Kapazitätszahlen vor?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T10:07:25.258Z",
+      "doNotUpdateBefore": "2026-07-12T16:07:25.258Z"
     }
   }
 }

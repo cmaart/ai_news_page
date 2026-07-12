@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T09:07:28.176Z",
+  "updatedAt": "2026-07-12T10:07:25.258Z",
   "articles": {
     "sabotageverdacht-bahnstrecke-koeln-duesseldorf-juli-2026": {
       "title": "Bahnstrecke Köln–Düsseldorf nach Brand gesperrt: Gruppe „Kommando Angry Birds“ bekennt sich",
@@ -534,6 +534,82 @@
           "sourceUrl": "https://www.kleinezeitung.at/artikel/36757193/850-radar-wegen-neuer-vorschriften-in-italien-abgeschaltet",
           "imageUrl": "https://img.kleinezeitung.at/public/service/j1prei-1500x500.jpg/alternates/ORIGINAL/j1prei-1500x500.jpg",
           "origin": "json-ld",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        }
+      ]
+    },
+    "traktor-unfall-innviertel-juli-2026": {
+      "title": "Innviertel: 66-Jähriger nach Einklemmen durch Traktor mit Rettungshubschrauber ins Spital geflogen",
+      "scannedAt": "2026-07-12T10:07:25.258Z",
+      "candidates": [
+        {
+          "sourceUrl": "https://kurier.at/chronik/oberoesterreich/66-jaehriger-im-innviertel-von-traktor-eingeklemmt/403175680",
+          "imageUrl": "https://image.kurier.at/images/facebook/8982200/46-212900027.jpg?versionId=81ca9a0e6993",
+          "origin": "og:image",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        },
+        {
+          "sourceUrl": "https://kurier.at/chronik/oberoesterreich/66-jaehriger-im-innviertel-von-traktor-eingeklemmt/403175680",
+          "imageUrl": "https://image.kurier.at/images/cfs_landscape_1232w_693h/8982200/46-212900027.jpg",
+          "origin": "json-ld",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        },
+        {
+          "sourceUrl": "https://kurier.at/chronik/oberoesterreich/66-jaehriger-im-innviertel-von-traktor-eingeklemmt/403175680",
+          "imageUrl": "https://image.kurier.at/images/cfs_square_1232/8982200/46-212900027.jpg",
+          "origin": "json-ld",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        },
+        {
+          "sourceUrl": "https://kurier.at/chronik/oberoesterreich/66-jaehriger-im-innviertel-von-traktor-eingeklemmt/403175680",
+          "imageUrl": "https://image.kurier.at/images/cfs_landscape_616w_347h/8982200/46-212900027.jpg?versionId=81ca9a0e6993",
+          "origin": "figure",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        },
+        {
+          "sourceUrl": "https://ooe.orf.at/stories/3362306",
+          "imageUrl": "https://ibs.orf.at/ooe?image=https%3A%2F%2Foekastatic.orf.at%2Fmims%2F2026%2F22%2F69%2Fcrops%2Fw%3D1200%2Ch%3D627%2Cq%3D75%2F3053960_master_1181969_a7v04987.jpg%3Fs%3Ddb34e42109c48a9182903cd6e91996be03228446",
+          "origin": "og:image",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        }
+      ]
+    },
+    "vw-blume-werksschliessungen-juli-2026": {
+      "title": "VW-Chef Blume stellt \"intelligentere Lösungen\" statt Werksschließungen in Aussicht",
+      "scannedAt": "2026-07-12T10:07:25.258Z",
+      "candidates": [
+        {
+          "sourceUrl": "https://www.heise.de/news/VW-Chef-Intelligentere-Loesungen-als-Werksschliessungen-11361870.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+          "imageUrl": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/1/1/5/3/8/2/shutterstock_2515362835-b104434c46ec42bf.jpg",
+          "origin": "og:image",
+          "classification": "blocked",
+          "reason": "Stock-Kennung: shutterstock"
+        },
+        {
+          "sourceUrl": "https://www.heise.de/news/VW-Chef-Intelligentere-Loesungen-als-Werksschliessungen-11361870.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+          "imageUrl": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/1/1/5/3/8/2/shutterstock_2515362835-51eca2f1ecdb8746.jpeg?force_format=avif%2Cwebp%2Cjpeg&org_if_sml=1&q=30&width=1920",
+          "origin": "json-ld",
+          "classification": "blocked",
+          "reason": "Stock-Kennung: shutterstock"
+        },
+        {
+          "sourceUrl": "https://www.heise.de/news/VW-Chef-Intelligentere-Loesungen-als-Werksschliessungen-11361870.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+          "imageUrl": "https://heise.cloudimg.io/width/610/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/1/1/5/3/8/2/shutterstock_2515362835-51eca2f1ecdb8746.jpeg",
+          "origin": "figure",
+          "creditText": "(Bild: Aerovista Luchtfotografie/Shutterstock.com)",
+          "classification": "blocked",
+          "reason": "Stock-Kennung: shutterstock"
+        },
+        {
+          "sourceUrl": "https://orf.at/stories/3435966",
+          "imageUrl": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "origin": "og:image",
           "classification": "unknown",
           "reason": "kein Lizenz-/Credit-Hinweis gefunden"
         }
