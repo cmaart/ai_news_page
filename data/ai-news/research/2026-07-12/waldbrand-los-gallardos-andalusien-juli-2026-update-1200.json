@@ -1,0 +1,589 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-e4c500fb",
+    "title": "Lage stabilisiert sich nach verheerendem Waldbrand in Spanien",
+    "items": [
+      {
+        "itemId": "b7017de87879034e1cdf7fc507cb77362698b2ae9ebc7e0b43b5b41d255987a4",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Lage stabilisiert sich nach verheerendem Waldbrand in Spanien",
+        "url": "https://www.derstandard.at/story/3000000331123/lage-stabilisiert-sich-nach-verheerendem-waldbrand-in-spanien",
+        "summary": "Nachdem mindestens zwölf Menschen im Süden des Landes durch das Feuer verstorben sind, habe sich die Lage inzwischen stabilisiert",
+        "publishedAt": "2026-07-12T11:15:15.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "25a6a9f49c15f7cbaf747b5dd03c5c7e09be1505db57d2da562feacb7c594269",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Schon zwölf Tote bei Waldbrand in Spanien",
+        "url": "https://orf.at/stories/3435786",
+        "isNew": false
+      },
+      {
+        "itemId": "16ee2aef43a369a1a1f189cc58b734fe92406b8ed0a67a5f75b8aa41c497b7e2",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "„Weg wurde für sie zur Falle“: Viele Urlauber unter den zwölf Toten des  Waldbrandes in Spanien vermutet [premium]",
+        "url": "https://www.diepresse.com/36407528/weg-wurde-fuer-sie-zur-falle-viele-urlauber-unter-den-zwoelf-toten-des-waldbrandes-in-spanien-vermutet",
+        "isNew": false
+      },
+      {
+        "itemId": "8b7fc70c4d3b9cd4133e219493da8d31c898f9a0bd1fc0b5ac81a3e47b186b35",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Spanien: „Weg wurde für sie zur Falle“: Viele Urlauber unter den zwölf Toten des Waldbrandes vermutet",
+        "url": "https://www.kleinezeitung.at/artikel/36438080/weg-wurde-fuer-sie-zur-falle-viele-urlauber-unter-den-zwoelf-toten-des",
+        "isNew": false
+      },
+      {
+        "itemId": "7aaa1f9ba3f7238aacedd3f36a13142f9be8f78305c79f0a79f8100eabe68865",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Waldbrand in Spanien: zwölf Tote und eine Fläche von 9.400 Fußballfeldern zerstört",
+        "url": "https://kurier.at/politik/ausland/waldbrand-spanien-tote-vermisste-loeschung-flammen-andalusien/403175649",
+        "isNew": false
+      },
+      {
+        "itemId": "60dd6edc62d975298d3dc992cca5639223115cccda83e945600769867412400b",
+        "sourceId": "kurier_politik",
+        "sourceType": "media",
+        "title": "Waldbrand in Spanien: zwölf Tote und eine Fläche von 9.400 Fußballfeldern zerstört",
+        "url": "https://kurier.at/politik/ausland/waldbrand-spanien-tote-vermisste-loeschung-flammen-andalusien/403175649",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Relatedstory existiert und ist bereits veröffentlicht (hasPublishedArticle: true). Die neuen Items liefern substanziell Neues: Lageupdate zur Stabilisierung (schwächere Winde, höhere Luftfeuchtigkeit begünstigen Löscharbeiten), konkrete Zahlen (1.000+ evakuiert, 10 verletzt, 20+ vermisst), Ursachen-Hypothese (gerissene Stromleitung – unbestätigt), Urlauber-Perspektive (britische Touristen unter Opfern vermutet), Flächenangabe (9.400 Fußballfelder/ca. 6.600 ha). Die Fulltextexcerpts zeigen solide recherchierte Berichte von führenden österreichischen Medien (ORF, DER STANDARD) und beantworten Teile der openQuestions (z.B. zur Lageeindämmung). Update rechtfertigt sich als Folgebericht mit neuer Lageentwicklung.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 1,
+    "possibleClaims": [
+      "Die Lage rund um den Waldbrand in Andalusien hat sich stabilisiert",
+      "Mindestens zwölf Menschen sind ums Leben gekommen",
+      "Etwa zehn Menschen wurden verletzt",
+      "Über 1.000 Menschen wurden evakuiert oder in Notzelte gebracht",
+      "Der Wind hat nachgelassen und die Luftfeuchtigkeit ist gestiegen",
+      "Der Brand könnte durch eine abgerissene Stromleitung ausgelöst worden sein",
+      "Einige Opfer werden als britische Touristinnen und Touristen vermutet",
+      "Behörden zufolge handelt es sich überwiegend um ausländische Staatsbürgerinnen und -bürger",
+      "Etwa 150 Feuerwehrleute waren in der Brandbekämpfung eingesetzt",
+      "Der Brand zerstörte eine Fläche von etwa 9.400 Fußballfeldern (6.600 ha)"
+    ],
+    "missingSources": [
+      "Amtliche Bestätigung der Stromleitung-Hypothese (ORF-Excerpt: Berichte nicht bestätigt)",
+      "Endgültige, amtlich bestätigte Todeszahl und Zahl der tatsächlich Vermissten vs. Toten",
+      "Offizielle Identifizierung und Nationalitäten der Opfer",
+      "Amtliche Erklärung zur Nichtnutzung des ES-Alert-Warnsystems",
+      "Bestätigung, ob es tatsächlich der größte Waldbrand in Andalusiens Geschichte ist",
+      "Datum und Ergebnisse des angekündigten Besuchs von Ministerpräsident Sánchez"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "waldbrand-los-gallardos-andalusien-juli-2026",
+    "title": "Waldbrand in Andalusien: Lage stabilisiert sich, weiterhin zwölf Tote – Zahl amtlicher Vermisstenmeldungen sinkt auf acht",
+    "description": "Beim Waldbrand bei Los Gallardos in der Provinz Almería bleibt es laut übereinstimmenden Medienberichten vom 12. Juli bei zwölf Toten. Regierungschef Juanma Moreno und mehrere unabhängige Medien melden eine Stabilisierung der Lage dank schwächerer Winde und höherer Luftfeuchtigkeit. Bei der Guardia Civil sind acht Personen offiziell als vermisst gemeldet, während weiterhin 23 informelle Vermisstenmeldungen von Angehörigen kursieren. Die betroffene Fläche wird nun mit rund 6.600 bis über 7.000 Hektar beziffert, rund 600 Evakuierte konnten bereits zurückkehren. Mehrere Medien ordnen den Brand als tödlichsten Waldbrand Spaniens im 21. Jahrhundert ein.",
+    "topic": "gesellschaft",
+    "country": "eu",
+    "confidence": "medium",
+    "confidenceNote": "Die Stabilisierung der Lage wird inzwischen von mehreren unabhängigen deutschsprachigen und spanischen Medien übereinstimmend unter Berufung auf Regierungschef Juanma Moreno gemeldet, ebenso die Aufteilung zwischen acht amtlich bei der Guardia Civil gemeldeten Vermissten und 23 informellen Vermisstmeldungen von Angehörigen. Zahlen zu Evakuierten, betroffener Fläche und zur historischen Einordnung bleiben jedoch je nach Quelle uneinheitlich (rund 6.600 bis über 7.000 Hektar), die Todeszahl von zwölf ist seit Tagen unverändert.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Weiterhin keine amtliche Originalquelle (Junta de Andalucía, Notdienst 112 direkt, Guardia Civil, Ermittlungsbehörde) eingesehen; alle Angaben – inklusive der Stabilisierungsmeldung von Regierungschef Juanma Moreno, der Vermissten-Aufteilung und der historischen Einordnung als tödlichster Waldbrand des Jahrhunderts – stammen ausschließlich aus Medienberichten, die ihrerseits offizielle Stellen zitieren oder Vergleiche zu früheren Bränden ziehen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Einordnung als tödlichster Waldbrand Spaniens im 21. Jahrhundert bzw. zweittödlichster seit 1998 stammt aus Medienvergleichen, nicht aus einer amtlichen, historisch geprüften Quelle, und wird hier bewusst als vorläufige mediale Einschätzung gekennzeichnet. Der politische Streit um das ES-Alert-System zwischen der Regierungspartei PSOE und der andalusischen Regionalregierung wird weiterhin neutral und ohne Parteinahme wiedergegeben. Angaben zur Nationalität der Todesopfer stammen weiterhin von Medien und einem zitierten Bürgermeister, eine amtliche Identifizierung steht aus.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Bei einem Waldbrand in Los Gallardos (Provinz Almería, Andalusien) sind laut Notdienst 112 weiterhin mindestens zwölf Menschen ums Leben gekommen – die Zahl ist seit Freitagnacht unverändert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Regierungschef Juanma Moreno und mehrere unabhängige Medien melden inzwischen eine Stabilisierung der Lage, begünstigt durch schwächere Winde und höhere Luftfeuchtigkeit; rund 500 Einsatzkräfte und rund 32 Luftfahrzeuge sind im Einsatz.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei der Guardia Civil sind acht Personen offiziell als vermisst gemeldet; daneben kursieren weiterhin 23 informelle Vermisstmeldungen von Angehörigen und Bekannten, bei denen unklar ist, wie viele davon lediglich unauffindbar, aber wohlauf sind.",
+        "kind": "open"
+      },
+      {
+        "text": "Rund 600 zuvor evakuierte Menschen konnten laut Berichten bereits in mehrere Ortschaften zurückkehren; rund 1.000 weitere bleiben vorerst bei Verwandten oder in Hotels untergebracht.",
+        "kind": "fact"
+      },
+      {
+        "text": "Zur betroffenen Fläche wird zunehmend eine Zahl von rund 6.600 bis über 7.000 Hektar (Umfang rund 40 Kilometer) genannt, während frühere Berichte niedrigere Werte nannten.",
+        "kind": "open"
+      },
+      {
+        "text": "Mehrere Medien ordnen den Brand inzwischen als tödlichsten Waldbrand Spaniens im 21. Jahrhundert ein – und als zweittödlichsten in der spanischen Geschichte hinter dem Brand von La Gomera 1998 mit 20 Toten.",
+        "kind": "open"
+      },
+      {
+        "text": "Regierungschef Moreno nennt als mutmaßliche Ursache weiterhin eine zwischen zwei Punkten in einem Straßengraben gerissene Stromleitung – eine amtliche Bestätigung der Ursache fehlt weiterhin.",
+        "kind": "open"
+      },
+      {
+        "text": "Ein politischer Streit zwischen der spanischen Regierungspartei PSOE und der andalusischen Regionalregierung um das nicht ausgelöste Handy-Warnsystem ES-Alert dauert an; Ministerpräsident Pedro Sánchez soll laut einem Bericht am Montag die Region besuchen.",
+        "kind": "open"
+      },
+      {
+        "text": "Die amtliche Identifizierung der Opfer steht weiterhin aus; ein Großteil der Toten soll ausländischer Staatsangehörigkeit sein, vor allem britisch und belgisch.",
+        "kind": "fact"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch ist die endgültige, amtlich bestätigte Zahl der Toten und Verletzten?",
+      "Wie viele der 23 informell gemeldeten Vermissten sind tatsächlich ums Leben gekommen bzw. lediglich unauffindbar, aber wohlauf – und wie verhält sich dazu die Zahl von acht amtlichen Vermisstmeldungen bei der Guardia Civil?",
+      "Was genau hat den Brand ausgelöst – wird die von Regierungschef Moreno genannte Hypothese der gerissenen Stromleitung amtlich bestätigt?",
+      "Wie groß ist die betroffene Fläche tatsächlich, angesichts weiterhin schwankender Angaben zwischen rund 6.600 und über 7.000 Hektar?",
+      "Handelt es sich tatsächlich um den tödlichsten Waldbrand Spaniens im 21. Jahrhundert bzw. den zweittödlichsten der spanischen Geschichte, oder ist das eine vorläufige mediale Einschätzung ohne amtliche Grundlage?",
+      "Hätte eine Aktivierung des ES-Alert-Warnsystems Menschenleben retten können, und wird der politische Streit darüber Konsequenzen haben?",
+      "Welche Nationalitäten haben die Todesopfer tatsächlich, und wird dies nach Abschluss der Identifizierung amtlich bestätigt?",
+      "Welche amtlichen Angaben wird Ministerpräsident Sánchez bei seinem angekündigten Besuch am Montag machen?",
+      "Wird der Brand in den kommenden Tagen amtlich als vollständig kontrolliert bzw. gelöscht gemeldet, nachdem Regierungschef Moreno bereits eine Stabilisierung gemeldet hat?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF – „Schon zwölf Tote bei Waldbrand in Spanien“",
+        "type": "media",
+        "url": "https://orf.at/stories/3435786"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse – „Mindestens zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://www.diepresse.com/36401562/mindestens-zwoelf-tote-bei-waldbrand-in-suedspanien"
+      },
+      {
+        "id": "src3",
+        "name": "Der Standard – „Mindestens zwölf Tote bei Waldbrand im Süden Spaniens“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000330890/mindestens-zw246lf-tote-bei-waldbrand-im-s252den-spaniens"
+      },
+      {
+        "id": "src4",
+        "name": "eldiario.es – „Al menos 12 personas fallecidas por el incendio de Los Gallardos, Almería“",
+        "type": "media",
+        "url": "https://www.eldiario.es/andalucia/almeria/12-personas-fallecidas-incendio-gallardos-almeria_1_13370103.html"
+      },
+      {
+        "id": "src5",
+        "name": "The Olive Press – „12 dead in Almeria in 'worst ever Andalucia wildfire'“",
+        "type": "media",
+        "url": "https://www.theolivepress.es/spain-news/2026/07/10/breaking-at-least-12-dead-in-almeria-after-worst-ever-andalucia-wildfire-firefighters-find-bodies-inside-burned-out-vehicles/"
+      },
+      {
+        "id": "src6",
+        "name": "Berliner Zeitung – „Los Gallardos: Zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://www.berliner-zeitung.de/article/los-gallardos-zwoelf-tote-bei-waldbrand-in-suedspanien-10184522"
+      },
+      {
+        "id": "src7",
+        "name": "Libertad Digital – „Al menos once personas muertas y ocho heridos ... por el incendio de Los Gallardos“",
+        "type": "media",
+        "url": "https://www.libertaddigital.com/andalucia/2026-07-10/al-menos-once-personas-muertas-por-el-incendio-de-los-gallardos-almeria-7433523/"
+      },
+      {
+        "id": "src8",
+        "name": "ORF – „Zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://orf.at/stories/3435781"
+      },
+      {
+        "id": "src9",
+        "name": "Der Standard – „Zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331017/zwoelf-tote-bei-waldbrand-bei-suedspanien"
+      },
+      {
+        "id": "src10",
+        "name": "Kleine Zeitung – „Von Flammen eingeschlossen: Zwölf Tote bei Waldbrand in Südspanien“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36398675/sechs-tote-bei-waldbrand-in-suedspanien"
+      },
+      {
+        "id": "src11",
+        "name": "eldiario.es – „Última hora del incendio en Almería: 12 muertos, 8 heridos y 23 desaparecidos en el fuego en Los Gallardos“",
+        "type": "media",
+        "url": "https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html"
+      },
+      {
+        "id": "src12",
+        "name": "El Español – „Incendio forestal de Los Gallardos, Almería: Moreno confirma 12 víctimas mortales y 23 desaparecidos“",
+        "type": "media",
+        "url": "https://www.elespanol.com/espana/andalucia/20260710/incendio-forestal-gallardos-almeria-andalucia-ultima-hora-fuego-muertos-desaparecidos/1003744316760_10.html"
+      },
+      {
+        "id": "src13",
+        "name": "Libertad Digital – „Antonio Sanz revela cómo quedaron atrapadas las víctimas del incendio de Los Gallardos: 'Acabaron en una ratonera'“",
+        "type": "media",
+        "url": "https://www.libertaddigital.com/espana/2026-07-10/antonio-sanz-revela-como-quedaron-atrapadas-las-victimas-del-incendio-de-los-gallardos-acabaron-en-una-ratonera-7433587/"
+      },
+      {
+        "id": "src14",
+        "name": "ORF – „Waldbrände und Trockenheit: Extreme Hitze hat Europa erneut im Griff“",
+        "type": "media",
+        "url": "https://orf.at/stories/3435808/"
+      },
+      {
+        "id": "src15",
+        "name": "ORF – „Waldbrand in Spanien: Löschbedingungen bessern sich“",
+        "type": "media",
+        "url": "https://orf.at/stories/3435920"
+      },
+      {
+        "id": "src16",
+        "name": "Die Presse – „‚Weg wurde für sie zur Falle‘: Viele Urlauber unter den zwölf Toten des Waldbrandes in Spanien vermutet“",
+        "type": "media",
+        "url": "https://www.diepresse.com/36407528/weg-wurde-fuer-sie-zur-falle-viele-urlauber-unter-den-zwoelf-toten-des-waldbrandes-in-spanien-vermutet"
+      },
+      {
+        "id": "src17",
+        "name": "Kleine Zeitung – „‚Weg wurde für sie zur Falle‘: Viele Urlauber unter den zwölf Toten des Waldbrandes vermutet“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36438080/weg-wurde-fuer-sie-zur-falle-viele-urlauber-unter-den-zwoelf-toten-des"
+      },
+      {
+        "id": "src18",
+        "name": "El Español – „Los fallecidos en el incendio de Los Gallardos son casi todos 'británicos o belgas' que buscaron salida entre las llamas“",
+        "type": "media",
+        "url": "https://www.elespanol.com/espana/andalucia/20260710/fallecidos-gallardos-extranjeros-britanicos-belgas-buscaron-salida-llamas/1003744316926_0.html"
+      },
+      {
+        "id": "src19",
+        "name": "El Español – „‚Quisieron huir y han muerto familias enteras en los coches‘: el terror de los 600 desalojados por el incendio de Los Gallardos“",
+        "type": "media",
+        "url": "https://www.elespanol.com/espana/andalucia/20260711/quisieron-huir-muerto-familias-enteras-coches-terror-desalojados-incendio-gallardos-dl/1003744317854_0.html"
+      },
+      {
+        "id": "src20",
+        "name": "RTÉ – „Slight improvement in battle to contain Spain wildfires“",
+        "type": "media",
+        "url": "https://www.rte.ie/news/world/2026/0711/1582864-spain-wildfire/"
+      },
+      {
+        "id": "src21",
+        "name": "Kurier – „Waldbrand in Spanien: zwölf Tote und eine Fläche von 9.400 Fußballfeldern zerstört“",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/waldbrand-spanien-tote-vermisste-loeschung-flammen-andalusien/403175649"
+      },
+      {
+        "id": "src22",
+        "name": "El Español – „El PSOE reprocha que no se utilizara Es-Alert en el incendio de Almería y Juanma Moreno replica que habría sido inútil“",
+        "type": "media",
+        "url": "https://www.elespanol.com/espana/andalucia/20260711/psoe-reprocha-no-utilizara-es-alert-incendio-almeria-juanma-moreno-replica-inutil/1003744317778_0.html"
+      },
+      {
+        "id": "src23",
+        "name": "Vozpopuli – „El fuego devora Almería: 12 muertos, 23 desaparecidos y más de 3.200 hectáreas calcinadas en Los Gallardos“",
+        "type": "media",
+        "url": "https://www.vozpopuli.com/espana/andalucia/el-fuego-devora-almeria-12-muertos-23-desaparecidos-y-mas-de-3200-hectareas-calcinadas-en-los-gallardos.html"
+      },
+      {
+        "id": "src24",
+        "name": "eldiario.es – „Última hora del incendio de Almería: Sánchez visitará este lunes la zona del incendio“",
+        "type": "media",
+        "url": "https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-almeria-fuego-evoluciona-relativamente-arrasar-5-000-hectareas_133_13373062.html"
+      },
+      {
+        "id": "src25",
+        "name": "Ceutatv – „Doce fallecidos y 23 desaparecidos en el incendio de Los Gallardos, activo tras arrasar miles de hectáreas“",
+        "type": "media",
+        "url": "https://www.ceutatv.com/articulo/sociedad/doce-fallecidos-23-desaparecidos-incendio-gallardos-activo-arrasar-miles-hectareas/20260711120534248939.html"
+      },
+      {
+        "id": "src26",
+        "name": "t-online – „Schwerer Waldbrand in Spanien breitet sich nicht weiter aus“",
+        "type": "media",
+        "url": "https://www.t-online.de/nachrichten/panorama/ungluecke/id_101339372/schwerer-waldbrand-in-spanien-breitet-sich-nicht-weiter-aus.html"
+      },
+      {
+        "id": "src27",
+        "name": "Der Standard – „Lage stabilisiert sich nach verheerendem Waldbrand in Spanien“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331123/lage-stabilisiert-sich-nach-verheerendem-waldbrand-in-spanien"
+      },
+      {
+        "id": "src28",
+        "name": "Última Hora – „El incendio de Los Gallardos, estabilizado“",
+        "type": "media",
+        "url": "https://www.ultimahora.es/sucesos/ultimas/2026/07/12/2668681/incendio-gallardos-estabilizado.html"
+      },
+      {
+        "id": "src29",
+        "name": "OKDiario – „Última hora del incendio forestal en Los Gallardos (Almería), en directo“",
+        "type": "media",
+        "url": "https://okdiario.com/andalucia/ultima-hora-del-incendio-forestal-gallardos-almeria-directo-mueren-11-personas-menos-8-resultan-heridas-18966751"
+      },
+      {
+        "id": "src30",
+        "name": "Telecinco – „Incendio en Los Gallardos, Almería: la Junta tiene esperanzas de que el fuego 'se pueda estabilizar pronto'“",
+        "type": "media",
+        "url": "https://www.telecinco.es/noticias/andalucia/20260710/ultima-hora-muertos-incendio-los-gallardos-almeria-directo_19_019677810.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Bei einem Waldbrand in der Gemeinde Los Gallardos (Provinz Almería, Andalusien) sind laut Notdienst 112 mindestens zwölf Menschen ums Leben gekommen.",
+        "status": "supported",
+        "note": "Übereinstimmend von zahlreichen unabhängigen österreichischen, spanischen und internationalen Medien über mehr als zwei Tage hinweg berichtet, unter Berufung auf den regionalen Notdienst 112 und den Regionalpräsidenten Juanma Moreno; keine eigene Primärquelle gelesen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6",
+          "src11",
+          "src12",
+          "src16",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Regierungschef Juanma Moreno und mehrere unabhängige deutschsprachige sowie spanische Medien melden am 12. Juli eine Stabilisierung der Lage: Der Brand breitet sich nicht mehr weiter aus, begünstigt durch deutlich schwächere Winde und höhere Luftfeuchtigkeit. Rund 500 Feuerwehrleute, Soldaten und weitere Einsatzkräfte sowie rund 32 Luftfahrzeuge sind im Einsatz.",
+        "status": "supported",
+        "note": "Die Stabilisierungsmeldung wird inzwischen von mehreren unabhängigen Quellen (u. a. t-online, Der Standard, Última Hora) übereinstimmend unter Berufung auf Regierungschef Moreno wiedergegeben. Eine vollständige Löschung bzw. amtliche Einstufung als 'kontrolliert' wurde damit aber noch nicht gemeldet; keine eigene amtliche Lagebestätigung eingesehen.",
+        "sourceIds": [
+          "src15",
+          "src20",
+          "src24",
+          "src26",
+          "src27",
+          "src28"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Nach Angaben mehrerer Medien vom 12. Juli sind bei der Guardia Civil acht Personen offiziell als vermisst gemeldet. Daneben kursiert weiterhin die Zahl von 23 Personen, die von Angehörigen und Bekannten als vorübergehend unauffindbar gemeldet wurden. Ein Teil dieser 23 könnte unversehrt, aber schlicht unauffindbar an anderen Orten sein.",
+        "status": "partial",
+        "note": "Die Unterscheidung zwischen acht amtlichen Vermisstmeldungen bei der Guardia Civil und 23 informellen Meldungen durch Angehörige wird durch t-online unter Berufung auf spanische Behördenangaben wiedergegeben; eine amtliche, abschließende Bestätigung beider Zahlen sowie deren Verhältnis zueinander fehlt weiterhin, keine eigene Primärquelle geprüft.",
+        "sourceIds": [
+          "src11",
+          "src12",
+          "src20",
+          "src23",
+          "src25",
+          "src26"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Der Großteil der Todesopfer soll laut mehreren Medienberichten und Aussagen des Bürgermeisters der Gemeinde ausländischer Staatsangehörigkeit sein – vor allem britische und belgische Staatsangehörige, teils langjährige Anwohner der Region. Eine amtliche, vollständige Identifizierung der Opfer liegt bislang nicht vor.",
+        "status": "partial",
+        "note": "Beruht auf Aussagen des Bürgermeisters und Medienberichten (u. a. El Español, Die Presse, Kleine Zeitung); laut einem Bericht sind die Autopsien der zwölf Todesopfer zwar abgeschlossen, eine offizielle Identifizierung stand aber noch aus. Bewusst konservativ formuliert, keine Namen von Privatpersonen genannt, da personenbezogene Angaben zu Todesopfern betroffen sind.",
+        "sourceIds": [
+          "src11",
+          "src12",
+          "src18",
+          "src19",
+          "src16",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Es soll sich um den bislang folgenschwersten Waldbrand in der Geschichte der Region handeln – frühere Berichte schwankten zwischen „größter Brand in Spaniens Geschichte“ und „schwerste Folgen in Andalusiens Geschichte“; neuere Medienvergleiche ordnen ihn nun spezifischer ein (siehe claim16).",
+        "status": "unclear",
+        "note": "Formulierungen variieren zwischen Medien und dem zitierten Regionalrat Antonio Sanz; keine amtliche, vergleichende Bestätigung dieser historischen Einordnung vorhanden.",
+        "sourceIds": [
+          "src2",
+          "src4",
+          "src5",
+          "src6",
+          "src13",
+          "src16",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Zahl der evakuierten Personen wurde in früheren Berichten unterschiedlich beziffert (rund 600 bis 1.448). Nach Berichten vom 12. Juli konnten inzwischen rund 600 der zuvor evakuierten Menschen in mehrere Ortschaften zurückkehren, während rund 1.000 weitere vorerst bei Verwandten oder in Hotels untergebracht bleiben.",
+        "status": "partial",
+        "note": "Die Rückkehr von rund 600 Personen und der verbleibende Bestand von rund 1.000 werden von t-online unter Berufung auf Angaben vor Ort berichtet; eine amtliche Erstquelle der Junta de Andalucía wurde nicht direkt eingesehen, frühere Gesamtzahlen (1.405–1.448) stammen aus separaten Berichten vom 11. Juli.",
+        "sourceIds": [
+          "src2",
+          "src6",
+          "src11",
+          "src12",
+          "src19",
+          "src23",
+          "src25",
+          "src26"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Mehrere Todesopfer wurden leblos in Fahrzeugen gefunden, die von den Flammen eingeschlossen worden waren – darunter laut einem Medienbericht vier Personen in einem Fahrzeug mit rechtsgesteuertem Lenkrad, was auf ein britisches Fahrzeug hindeutet; weitere Opfer sollen ihr Fahrzeug verlassen haben und beim Versuch, zu Fuß über ein trockenes Flussbett zu fliehen, von den Flammen eingeholt worden sein. Nach Angaben des Regionalrats Antonio Sanz hatten die Betroffenen eine nicht koordinierte Fluchtroute gewählt, die zu einer „Falle“ wurde.",
+        "status": "partial",
+        "note": "Die Kernaussage (Auffinden von Toten in Fahrzeugen, unkoordinierte Fluchtroute) wird von mehreren unabhängigen Medien übereinstimmend berichtet, darunter Die Presse und Kleine Zeitung. Die genaue Aufteilung (vier Personen in einem Fahrzeug, weitere entlang eines Flussbettes) stammt bislang vor allem aus einem Medienbericht (El Español) und wurde nicht durch eine zweite, unabhängige Quelle mit denselben Details bestätigt.",
+        "sourceIds": [
+          "src2",
+          "src4",
+          "src5",
+          "src6",
+          "src13",
+          "src19",
+          "src16",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Als Ursache gilt weiterhin die Arbeitshypothese eines „Grabenbrandes“: Nach Angaben des andalusischen Regierungschefs Juanma Moreno, wiedergegeben von mehreren spanischen Medien, sei eine Stromleitung zwischen zwei Punkten in einem Straßengraben gerissen, wodurch das Feuer auf beiden Straßenseiten gleichzeitig ausgebrochen sei. Begünstigt durch Windböen von bis zu 50 km/h soll sich das Feuer binnen zwei Stunden über rund 15 Kilometer ausgebreitet haben.",
+        "status": "partial",
+        "note": "Wird direkt vom Regierungschef der Region öffentlich als Hypothese genannt (laut mehreren spanischen Medien), aber weiterhin keine amtliche, abgeschlossene Ursachenermittlung eingesehen. Detailangaben zu Windgeschwindigkeit und Ausbreitungstempo stammen aus einem einzelnen Bericht.",
+        "sourceIds": [
+          "src5",
+          "src11",
+          "src18",
+          "src23",
+          "src25"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Laut dem andalusischen Regionalrat Antonio Sanz hatten die Opfer bei dichtem Rauch improvisierte Fluchtrouten abseits der offiziellen Evakuierungsstrecke gewählt. Los Gallardos liegt zudem in bergigem, von Schluchten und Flussbetten durchzogenem Gelände mit laut einem Medienbericht nur zwei Fernstraßen-Ausfahrten, was die Fluchtmöglichkeiten zusätzlich einschränkte.",
+        "status": "partial",
+        "note": "Zitat des Regionalrats und geografische Einordnung, wiedergegeben von mehreren spanischen Medienquellen; keine unabhängige, behördliche Zweitquelle mit denselben Details geprüft.",
+        "sourceIds": [
+          "src4",
+          "src7",
+          "src13",
+          "src19"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Zur betroffenen Fläche kursieren weiterhin unterschiedliche Angaben: Berichte vom 12. Juli beziffern die verbrannte Fläche auf rund 6.600 bis über 7.000 Hektar bei einem Umfang von rund 40 Kilometern – laut Kurier umgerechnet rund 9.400 Fußballfelder für den 6.600-Hektar-Wert –, während frühere Meldungen niedrigere Werte von rund 3.150 bis 5.000 Hektar genannt hatten.",
+        "status": "unclear",
+        "note": "Die Angabe von rund 6.600 bis 7.000 Hektar wird mittlerweile von mehreren Quellen (u. a. Última Hora, Telecinco) wiederholt und dürfte sich als vorläufiger Referenzwert etablieren, eine amtlich konsolidierte, einheitliche Zahl der Junta de Andalucía liegt aber weiterhin nicht vor.",
+        "sourceIds": [
+          "src11",
+          "src12",
+          "src15",
+          "src20",
+          "src21",
+          "src24",
+          "src28",
+          "src29"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Der Brand fällt laut Medienberichten in eine Phase außergewöhnlicher Hitze in Europa; die Weltorganisation für Meteorologie (WMO) wird mit der Aussage zitiert, Europa erwärme sich mehr als doppelt so schnell wie der weltweite Durchschnitt, Hitzewellen im Mai und Juni 2026 hätten Teile Westeuropas ausgetrocknet.",
+        "status": "partial",
+        "note": "Klimaeinordnung stammt aus einem Medienbericht, der sich auf WMO- und Copernicus-Daten beruft; keine eigene Primärquelle der WMO eingesehen, daher als Kontext und nicht als eigenständig verifizierte Tatsache behandelt.",
+        "sourceIds": [
+          "src14"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Die Regionalregierung von Andalusien hat laut einem Medienbericht drei Tage offizielle Trauer verhängt, von Freitag, den 10. Juli, bis Sonntag, den 12. Juli 2026.",
+        "status": "partial",
+        "note": "Angabe stammt aus einem Medienbericht mit Bezug auf die Junta de Andalucía; keine eigene amtliche Pressemitteilung der Regionalregierung eingesehen.",
+        "sourceIds": [
+          "src12"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "Laut einem Medienbericht wurden die Autopsien der zwölf Todesopfer abgeschlossen, eine amtliche Identifizierung der Opfer stand zum Zeitpunkt der Berichterstattung aber noch aus.",
+        "status": "partial",
+        "note": "Wichtige Einschränkung für alle Angaben zur Nationalität der Opfer: Solange keine amtliche Identifizierung vorliegt, sind Aussagen zu britischen, belgischen oder anderen Staatsangehörigkeiten als vorläufige Einschätzungen von Anwohnenden bzw. Lokalpolitikern zu verstehen, nicht als bestätigte Fakten.",
+        "sourceIds": [
+          "src12"
+        ]
+      },
+      {
+        "id": "claim14",
+        "text": "Nach der Katastrophe ist ein politischer Streit um das nicht ausgelöste Notfall-Warnsystem ES-Alert entbrannt: Die spanische Regierungspartei PSOE wirft der andalusischen Regionalregierung vor, das Handy-Warnsystem während des Brandes nicht aktiviert zu haben; der andalusische Regierungschef Juanma Moreno verteidigt die Entscheidung mit dem Hinweis, eine Aktivierung hätte aufgrund unterschiedlicher Lagen vor Ort und fehlender Netzabdeckung zusätzliche Verwirrung gestiftet.",
+        "status": "unclear",
+        "note": "Wird bislang nur durch einen Medienbericht (El Español) wiedergegeben, der beide Seiten des politischen Schlagabtauschs zitiert. Keine eigene Prüfung der technischen Entscheidungsgrundlage oder amtlicher Protokolle. Bewusst neutral formuliert, um keine Seite dieses politischen Streits vorzuverurteilen; ob ein früherer Alarm Leben hätte retten können, bleibt offen.",
+        "sourceIds": [
+          "src22"
+        ]
+      },
+      {
+        "id": "claim15",
+        "text": "Der spanische Ministerpräsident Pedro Sánchez soll laut einem Medienbericht am Montag, den 13. Juli, die Brandregion besuchen.",
+        "status": "partial",
+        "note": "Ankündigung stammt aus einem einzelnen Medienbericht (eldiario.es); ob der Besuch wie angekündigt stattfindet und welche amtlichen Aussagen dabei getroffen werden, ist zum Zeitpunkt der Aktualisierung (12. Juli) noch offen, da der angekündigte Termin in der Zukunft liegt.",
+        "sourceIds": [
+          "src24"
+        ]
+      },
+      {
+        "id": "claim16",
+        "text": "Mehrere Medien ordnen den Brand von Los Gallardos inzwischen als tödlichsten Waldbrand Spaniens im 21. Jahrhundert ein und als zweittödlichsten in der spanischen Geschichte insgesamt – hinter einem Waldbrand auf La Gomera 1998 mit 20 Toten.",
+        "status": "unclear",
+        "note": "Diese historische Einordnung stammt aus Medienvergleichen (u. a. OKDiario) und wurde nicht anhand einer amtlichen, historisch geprüften Quelle verifiziert. Sie wird hier bewusst als vorläufige mediale Einschätzung und nicht als feststehende Tatsache wiedergegeben.",
+        "sourceIds": [
+          "src29"
+        ]
+      },
+      {
+        "id": "claim17",
+        "text": "Die Zahl der eingesetzten Einsatzkräfte wird in aktuelleren Berichten deutlich höher angegeben als zu Beginn: Statt rund 150 Feuerwehrleuten und 11 Löschflugzeugen ist nun von rund 500 Feuerwehrleuten, Soldaten und weiteren Rettungskräften sowie rund 32 Luftfahrzeugen die Rede.",
+        "status": "partial",
+        "note": "Die höheren Zahlen stammen aus aktuelleren Berichten (u. a. t-online, Última Hora) vom 12. Juli und dürften eine im Zeitverlauf aufgestockte Einsatzstärke widerspiegeln; keine amtliche Gesamtübersicht der eingesetzten Kräfte eingesehen.",
+        "sourceIds": [
+          "src26",
+          "src28"
+        ]
+      }
+    ],
+    "corrections": [
+      {
+        "date": "2026-07-10T16:07:27.990Z",
+        "type": "update",
+        "text": "Artikel aktualisiert: Bis zu 23 Vermisste gemeldet, Großteil der Opfer laut Berichten ausländische Staatsangehörige, Brandfläche auf rund 3.800 Hektar beziffert, Hypothese zur Brandursache (gestürzte Stromleitung) präzisiert, Klimakontext zu Europas Erwärmung ergänzt."
+      },
+      {
+        "date": "2026-07-11T10:07:28.043Z",
+        "type": "update",
+        "text": "Aktualisiert: Laut ORF verbessern sich die Löschbedingungen seit 11. Juli, ein Übergang zu offensiveren Löschmaßnahmen gilt als möglich; neue Details zur Fluchtdynamik von Urlaubern (rechtsgesteuertes Fahrzeug, trockenes Flussbett), zu Nationalität und noch ausstehender Identifizierung der Opfer, zu offizieller Staatstrauer sowie zur weiterhin stark schwankenden Flächenangabe (3.150 bis 6.600 Hektar) ergänzt."
+      },
+      {
+        "date": "2026-07-11T16:07:28.362Z",
+        "type": "update",
+        "text": "Aktualisiert: Betroffene Fläche wird zunehmend häufiger mit rund 6.600 Hektar (laut Kurier rund 9.400 Fußballfelder) beziffert, bleibt aber weiterhin uneinheitlich; ein politischer Streit zwischen der spanischen Regierungspartei PSOE und der andalusischen Regionalregierung um das nicht ausgelöste ES-Alert-Warnsystem sowie ein angekündigter Besuch von Ministerpräsident Sánchez wurden ergänzt, die Angaben zur mutmaßlichen Brandursache durch ein Zitat von Regierungschef Moreno präzisiert."
+      },
+      {
+        "date": "2026-07-12T13:00:00.000Z",
+        "type": "update",
+        "text": "Aktualisiert: Regierungschef Moreno und mehrere unabhängige Medien melden eine Stabilisierung der Lage (schwächere Winde, höhere Luftfeuchtigkeit, rund 500 Einsatzkräfte, rund 32 Luftfahrzeuge); die Vermisstenzahl wird nun präzisiert (acht amtliche Meldungen bei der Guardia Civil gegenüber 23 informellen Meldungen von Angehörigen), rund 600 Evakuierte konnten zurückkehren, die betroffene Fläche wird mit rund 6.600 bis über 7.000 Hektar beziffert, und mehrere Medien ordnen den Brand als tödlichsten Waldbrand Spaniens im 21. Jahrhundert ein."
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In der Gemeinde Los Gallardos in der andalusischen Provinz Almería, rund 300 Kilometer nordöstlich von Málaga, ist am Donnerstagnachmittag ein Waldbrand ausgebrochen, der sich rasch auf umliegende Ortschaften ausgeweitet hat. Nach übereinstimmenden Berichten mehrerer österreichischer, spanischer und internationaler Medien kamen dabei mindestens zwölf Menschen ums Leben – diese Zahl hat sich seit Freitagnacht nicht mehr verändert. Nach Angaben von Regierungschef Juanma Moreno und mehreren unabhängigen Medien vom 12. Juli hat sich die Lage inzwischen stabilisiert: Der Brand breitet sich nicht mehr weiter aus, begünstigt durch deutlich schwächere Winde und höhere Luftfeuchtigkeit. Rund 500 Feuerwehrleute, Soldaten und weitere Einsatzkräfte sowie rund 32 Luftfahrzeuge sind im Gebiet rund um Los Gallardos und die Nachbargemeinde Bédar im Einsatz. Eine amtliche Meldung, dass der Brand vollständig gelöscht oder als „kontrolliert“ eingestuft ist, liegt aber weiterhin nicht vor."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Laut Berichten spanischer und internationaler Medien, die sich auf Angaben des Notdienstes 112 und der andalusischen Regionalregierung stützen, wurden mehrere Todesopfer leblos in Fahrzeugen gefunden, die von den Flammen eingeschlossen worden waren. Ein Bericht schildert, dass vier Personen in einem Fahrzeug mit rechtsgesteuertem Lenkrad gefunden wurden, was auf ein britisches Fahrzeug hindeutet, während weitere Opfer ihr Auto verlassen und versucht haben sollen, zu Fuß über ein trockenes Flussbett zu fliehen, wo sie von den Flammen eingeholt wurden. Der zuständige Regionalrat Antonio Sanz wird mit den Worten zitiert, es handle sich um eine „Tragödie ohne Beispiel“; die Betroffenen seien bei ihrem Fluchtversuch über eine nicht koordinierte Route in eine regelrechte „Falle“ geraten – begünstigt auch durch die geografische Lage der Gemeinde in bergigem, von Schluchten und trockenen Flussbetten durchzogenem Gelände mit laut einem Bericht nur zwei Fernstraßen-Ausfahrten.\n\nZur Zahl der Vermissten liegt inzwischen eine wichtige Präzisierung vor: Nach Berichten vom 12. Juli sind bei der Guardia Civil acht Personen offiziell als vermisst gemeldet, während weiterhin 23 Personen von Angehörigen und Bekannten als vorübergehend unauffindbar gemeldet wurden – ein Teil davon könnte unversehrt, aber schlicht unauffindbar an einem anderen Ort sein. Bei den Evakuierungen zeichnet sich ebenfalls eine Entspannung ab: Rund 600 der zuvor evakuierten Menschen konnten laut Berichten bereits nach Los Castaños, Almócaizar, Alfaix und zu einem Campingplatz in Los Gallardos zurückkehren, während rund 1.000 weitere vorerst bei Verwandten oder in Hotels untergebracht bleiben und ebenfalls bald zurückkehren sollen.\n\nZur Brandursache wird weiterhin der andalusische Regierungschef Juanma Moreno mit seiner Hypothese zitiert: Eine Stromleitung sei zwischen zwei Punkten in einem Straßengraben gerissen, wodurch das Feuer gleichzeitig auf beiden Straßenseiten ausgebrochen sei – begünstigt durch Windböen von bis zu 50 km/h, die zur raschen Ausbreitung über rund 15 Kilometer binnen zwei Stunden beigetragen haben sollen. Eine amtliche, abgeschlossene Ursachenermittlung liegt weiterhin nicht vor. Zur betroffenen Fläche kursieren weiterhin unterschiedliche Zahlen: Berichte vom 12. Juli nennen einen Umfang von rund 40 Kilometern bei einer verbrannten Fläche von rund 6.600 bis über 7.000 Hektar – laut Kurier umgerechnet rund 9.400 Fußballfelder für den niedrigeren Wert. Der politische Streit um das Handy-Warnsystem ES-Alert zwischen der Regierungspartei PSOE und der andalusischen Regionalregierung dauert weiter an, ohne dass neue Details bekannt wurden; Ministerpräsident Pedro Sánchez soll laut einem Bericht am Montag, den 13. Juli, die Brandregion besuchen. Mehrere Medien ordnen den Brand inzwischen als tödlichsten Waldbrand Spaniens im 21. Jahrhundert und als zweittödlichsten der spanischen Geschichte insgesamt ein – hinter einem Brand auf La Gomera 1998 mit 20 Toten. Nach Aussagen des Bürgermeisters der Gemeinde und mehrerer Medienberichte soll der Großteil der Todesopfer weiterhin ausländischer Staatsangehörigkeit sein, vor allem britisch und belgisch – eine amtliche Bestätigung dazu fehlt bislang, laut einem Bericht sind die Autopsien der zwölf Opfer zwar abgeschlossen, eine offizielle Identifizierung stand aber noch aus."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Eine offizielle, abschließende Zahl der Toten und Vermissten liegt weiterhin nicht vor; die neue Unterscheidung zwischen acht amtlichen Vermisstmeldungen bei der Guardia Civil und 23 informellen Meldungen durch Angehörige schafft zwar mehr Klarheit, lässt aber offen, wie viele der 23 tatsächlich noch unauffindbar sind. Die genaue Brandursache ist trotz der von Regierungschef Moreno genannten Hypothese einer gerissenen Stromleitung nicht amtlich bestätigt. Zur betroffenen Fläche liegen weiterhin so unterschiedliche Angaben vor (rund 6.600 bis über 7.000 Hektar, teils darunter), dass eine verlässliche Einschätzung derzeit nicht möglich ist. Die Einordnung als tödlichster Waldbrand Spaniens im 21. Jahrhundert bzw. zweittödlichster der Geschichte stammt aus Medienvergleichen und nicht aus einer amtlichen, historisch geprüften Quelle – dieser Artikel gibt sie daher bewusst als vorläufige mediale Einschätzung wieder. Der politische Streit um das ES-Alert-System bleibt ungelöst; ob eine frühere Alarmierung Menschenleben hätte retten können, ist offen und wird hier bewusst nicht bewertet. Zur Nationalität der Todesopfer gibt es weiterhin nur mediale, keine amtlich bestätigten Angaben; laut einem Bericht sind die Autopsien zwar abgeschlossen, die Identifizierung der Opfer stand aber noch aus. Dieser Artikel benennt daher bewusst keine Einzelpersonen und behandelt Angaben zu Staatsangehörigkeiten als vorläufig. Ob der angekündigte Besuch von Ministerpräsident Sánchez am Montag stattfindet und welche amtlichen Aussagen dabei getroffen werden, ist ebenfalls noch offen, da der Termin zum Zeitpunkt dieser Aktualisierung in der Zukunft liegt. Auch die amtliche Einstufung des Brandes als „vollständig kontrolliert“ oder „gelöscht“ steht trotz der gemeldeten Stabilisierung noch aus."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Waldbrand bei Los Gallardos reiht sich in eine Serie von Sommerbränden in Südeuropa ein, die in den vergangenen Jahren durch Hitzeperioden und Trockenheit begünstigt wurden. Laut Medienberichten, die sich auf Daten der Weltorganisation für Meteorologie (WMO) und des Copernicus-Klimawandeldienstes berufen, erwärmt sich Europa mehr als doppelt so schnell wie der weltweite Durchschnitt; Hitzewellen im Mai und Juni 2026 hätten weite Teile Westeuropas ausgetrocknet und damit die Waldbrandgefahr erhöht. Diese Einordnung wurde nicht anhand einer eigenen Primärquelle der WMO überprüft und wird hier als Kontext, nicht als eigenständig verifizierte Tatsache wiedergegeben. Die seit Freitag stabile Opferzahl von zwölf Toten bei einer sich nun deutlicher gliedernden, aber weiterhin nicht amtlich konsolidierten Zahl an Vermissten, Evakuierten und betroffener Fläche zeigt, dass sich die akute Lage laut mehreren unabhängigen Quellen tatsächlich stabilisiert, das Gesamtbild aber weiterhin unvollständig bleibt. Die neu hinzukommende, medial verbreitete Einordnung als tödlichster Waldbrand Spaniens im 21. Jahrhundert verleiht dem Ereignis eine historische Dimension, die aber – mangels amtlicher, vergleichender Quelle – vorerst als mediale Einschätzung und nicht als gesicherte Tatsache zu behandeln ist. Der anhaltende politische Streit um das nicht ausgelöste ES-Alert-Warnsystem markiert den Übergang von der akuten Notfallphase zu einer politischen Aufarbeitung der Krisenreaktion; dieser Artikel gibt beide Positionen – Kritik der PSOE und Verteidigung durch Regierungschef Moreno – bewusst neutral wieder, ohne eine Seite vorzuverurteilen oder eine Kausalität zwischen ausgebliebenem Alarm und den Todesfällen zu behaupten. Dieser Artikel beruht weiterhin ausschließlich auf Medienberichten, die sich ihrerseits auf Angaben von Notdienst, Regionalregierung, Guardia Civil, einen zitierten Regionalrat und den Bürgermeister der Gemeinde stützen; eine eigene Prüfung amtlicher Primärquellen der Junta de Andalucía war zum Zeitpunkt der Aktualisierung nicht möglich. Angesichts der Zahl der Todesopfer, der weiterhin unklaren Zahl der Vermissten, der noch ausstehenden amtlichen Identifizierung, der medial kolportierten Nationalitäten der Opfer, der historischen Einordnung und des politischen Streits ist besondere Zurückhaltung bei Zuschreibungen von Verantwortung und bei personenbezogenen Angaben geboten."
+      }
+    ],
+    "bodyKompakt": "Bei einem Waldbrand in der Gemeinde Los Gallardos in der andalusischen Provinz Almería sind laut übereinstimmenden Medienberichten weiterhin mindestens zwölf Menschen ums Leben gekommen. Regierungschef Juanma Moreno und mehrere unabhängige Medien melden am 12. Juli eine Stabilisierung der Lage: Der Brand breitet sich nicht mehr weiter aus, begünstigt durch schwächere Winde und höhere Luftfeuchtigkeit, rund 500 Einsatzkräfte und rund 32 Luftfahrzeuge sind im Einsatz. Zur Zahl der Vermissten liegt nun eine Präzisierung vor: Bei der Guardia Civil sind acht Personen offiziell als vermisst gemeldet, während weiterhin 23 informelle Vermisstmeldungen von Angehörigen kursieren – unklar bleibt, wie viele davon lediglich unauffindbar, aber wohlauf sind. Rund 600 zuvor evakuierte Menschen konnten bereits zurückkehren, rund 1.000 weitere bleiben vorerst bei Verwandten oder in Hotels. Zur betroffenen Fläche wird nun eine Zahl von rund 6.600 bis über 7.000 Hektar bei einem Umfang von rund 40 Kilometern genannt – laut Kurier umgerechnet rund 9.400 Fußballfelder für den niedrigeren Wert.\n\nMehrere Opfer wurden laut Notdienst 112 leblos in Fahrzeugen gefunden, darunter laut einem Bericht vier Personen in einem Fahrzeug mit rechtsgesteuertem Lenkrad; weitere sollen beim Fluchtversuch über ein trockenes Flussbett von den Flammen eingeholt worden sein. Nach Aussagen des Bürgermeisters und mehrerer Medien soll der Großteil der Toten ausländischer Staatsangehörigkeit sein, vor allem britisch und belgisch – eine amtliche Identifizierung steht trotz abgeschlossener Autopsien noch aus. Regierungschef Moreno nennt als mutmaßliche Ursache weiterhin eine zwischen zwei Punkten in einem Straßengraben gerissene Stromleitung, begünstigt durch Windböen bis 50 km/h; eine amtliche Bestätigung fehlt weiterhin. Der politische Streit zwischen der Regierungspartei PSOE und der andalusischen Regionalregierung um das nicht ausgelöste ES-Alert-Warnsystem dauert an, Ministerpräsident Pedro Sánchez soll am Montag die Region besuchen. Mehrere Medien ordnen den Brand inzwischen als tödlichsten Waldbrand Spaniens im 21. Jahrhundert ein – als zweittödlichsten der spanischen Geschichte hinter einem Brand auf La Gomera 1998 mit 20 Toten.\n\nOffen bleiben die endgültige Zahl der Toten und Vermissten, die genaue Brandursache, die tatsächliche betroffene Fläche, die amtliche Bestätigung der historischen Einordnung, mögliche Konsequenzen aus dem ES-Alert-Streit sowie die amtliche Identifizierung und Nationalität der Opfer. Auch eine amtliche Einstufung als „vollständig kontrolliert“ oder „gelöscht“ steht trotz gemeldeter Stabilisierung noch aus. Eigene Primärquellen der Behörden wurden weiterhin nicht ausgewertet; die Angaben stammen aus Medienberichten mit Bezug auf Notdienst, Regionalregierung, Guardia Civil, einen zitierten Regionalrat, den Bürgermeister der Gemeinde sowie den Regierungschef selbst.",
+    "updateNote": "Regierungschef Moreno und mehrere unabhängige Medien melden eine Stabilisierung der Lage (schwächere Winde, höhere Luftfeuchtigkeit, rund 500 Einsatzkräfte); die Vermisstenzahl wurde präzisiert (acht amtliche Meldungen bei der Guardia Civil gegenüber 23 informellen Meldungen), rund 600 Evakuierte konnten zurückkehren, die betroffene Fläche wird nun mit rund 6.600 bis über 7.000 Hektar beziffert, und mehrere Medien ordnen den Brand als tödlichsten Waldbrand Spaniens im 21. Jahrhundert ein."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-12T12:07:23.768Z"
+}
