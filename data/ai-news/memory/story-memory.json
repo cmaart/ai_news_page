@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T12:20:19.757Z",
+  "updatedAt": "2026-07-12T13:17:50.722Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1069,9 +1069,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T10:07:28.043Z",
       "doNotUpdateBefore": "2026-07-11T16:07:28.043Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-11T12:07:24.330Z"
-      }
+      "echoPublishers": {}
     },
     "usa-iran-hormuz-ultimatum-atomdeal-juli-2026": {
       "canonicalTitle": "USA verlangen laut Berichten Bekenntnis Irans zu freier Hormuz-Schifffahrt – Zweifel am Atomdeal wachsen",
@@ -1536,7 +1534,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T18:07:25.431Z",
-      "doNotUpdateBefore": "2026-07-12T00:07:25.431Z"
+      "doNotUpdateBefore": "2026-07-12T00:07:25.431Z",
+      "echoPublishers": {
+        "heise": "2026-07-12T13:07:28.466Z"
+      }
     },
     "venezuela-erdbeben-todesopfer-juli-2026": {
       "canonicalTitle": "Venezuela: Zahl der Erdbeben-Toten laut Berichten auf über 4.300 gestiegen",
@@ -1705,7 +1706,8 @@
       "echoPublishers": {
         "derstandard": "2026-07-12T08:07:24.366Z",
         "kurier": "2026-07-12T08:07:24.366Z",
-        "orf": "2026-07-12T10:07:25.258Z"
+        "orf": "2026-07-12T10:07:25.258Z",
+        "diepresse": "2026-07-12T13:07:28.466Z"
       },
       "resonanceLevel": 1,
       "resonanceSource": "triage",
@@ -2042,7 +2044,78 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T12:07:23.768Z",
-      "doNotUpdateBefore": "2026-07-12T18:07:23.768Z"
+      "doNotUpdateBefore": "2026-07-12T18:07:23.768Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-12T13:07:28.466Z"
+      }
+    },
+    "wien-autodiebstahl-probefahrt-juli-2026": {
+      "canonicalTitle": "17-Jähriger soll bei Probefahrt Pkw gestohlen und Mann niedergefahren haben",
+      "slug": "wien-autodiebstahl-probefahrt-juli-2026",
+      "firstSeenAt": "2026-07-12T13:07:28.466Z",
+      "lastUpdatedAt": "2026-07-12T13:07:28.466Z",
+      "status": "published",
+      "articlePath": "src/content/articles/wien-autodiebstahl-probefahrt-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/wien-autodiebstahl-probefahrt-juli-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3362346",
+        "https://kurier.at/chronik/wien/autodiebstahl-pkw-probefahrt-festnahme/403175687"
+      ],
+      "openQuestions": [
+        "Wie kam der Kontakt zwischen dem Jugendlichen und dem Fahrzeugbesitzer für die Probefahrt zustande?",
+        "Wie schwer sind die Verletzungen des 21-Jährigen tatsächlich und wie ist sein aktueller Zustand?",
+        "Welche strafrechtlichen Schritte werden gegen den 17-Jährigen eingeleitet, auch mit Blick auf sein Alter?",
+        "Gibt es frühere polizeiliche Auffälligkeiten des Jugendlichen, wie es in einzelnen Kurzmeldungen angedeutet wird, und lassen sich diese bestätigen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T13:07:28.466Z",
+      "doNotUpdateBefore": "2026-07-12T19:07:28.466Z"
+    },
+    "jugendliche-attacke-ehepaar-kurpark-oberlaa-wien-juli-2026": {
+      "canonicalTitle": "Ehepaar im Kurpark Oberlaa attackiert: Drei Jugendliche im Visier der Ermittlungen",
+      "slug": "jugendliche-attacke-ehepaar-kurpark-oberlaa-wien-juli-2026",
+      "firstSeenAt": "2026-07-12T13:07:28.466Z",
+      "lastUpdatedAt": "2026-07-12T13:07:28.466Z",
+      "status": "published",
+      "articlePath": "src/content/articles/jugendliche-attacke-ehepaar-kurpark-oberlaa-wien-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/jugendliche-attacke-ehepaar-kurpark-oberlaa-wien-juli-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3362343",
+        "https://www.derstandard.at/story/3000000331128/ehepaar-attackiert-und-ausgeraubt-drei-jugendliche-festgenommen"
+      ],
+      "openQuestions": [
+        "Wie genau kam es zur Eskalation zwischen den Jugendlichen und dem Ehepaar?",
+        "Fand tatsächlich ein Raub statt, und wie wurden die Verdächtigen festgenommen?",
+        "Wie ist der aktuelle Gesundheitszustand des verletzten 53-Jährigen?",
+        "Gibt es eine offizielle Stellungnahme der Polizei Wien zu dem Vorfall?",
+        "Welchen rechtlichen Status haben die Anzeigen gegen die Jugendlichen im weiteren Verfahren?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T13:07:28.466Z",
+      "doNotUpdateBefore": "2026-07-12T19:07:28.466Z"
+    },
+    "mann-attackiert-mutter-wien-juli-2026": {
+      "canonicalTitle": "Wien: Mann soll eigene Mutter attackiert haben – Festnahme und Waffenfund laut Medienberichten",
+      "slug": "mann-attackiert-mutter-wien-juli-2026",
+      "firstSeenAt": "2026-07-12T13:07:28.466Z",
+      "lastUpdatedAt": "2026-07-12T13:07:28.466Z",
+      "status": "published",
+      "articlePath": "src/content/articles/mann-attackiert-mutter-wien-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/mann-attackiert-mutter-wien-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36768035/mann-attackiert-eigene-mutter-in-der-wiener-innenstadt",
+        "https://wien.orf.at/stories/3362341"
+      ],
+      "openQuestions": [
+        "Was war der genaue Ablauf und das Motiv des mutmaßlichen Angriffs?",
+        "Wie schwer wurde die Mutter laut offiziellen Angaben verletzt?",
+        "Unter welchen Umständen und wo genau wurden die Schusswaffen sichergestellt, und waren sie legal registriert?",
+        "Welche strafrechtlichen Vorwürfe werden konkret erhoben, und wie ist der aktuelle Verfahrensstand?",
+        "Liegt eine offizielle Stellungnahme von Polizei oder Staatsanwaltschaft Wien vor?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T13:07:28.466Z",
+      "doNotUpdateBefore": "2026-07-12T19:07:28.466Z"
     }
   }
 }

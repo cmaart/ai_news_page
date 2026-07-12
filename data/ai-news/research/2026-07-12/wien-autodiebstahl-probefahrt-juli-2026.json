@@ -1,0 +1,177 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-50ab698c",
+    "title": "17-Jähriger Autodieb fuhr Mann nieder",
+    "items": [
+      {
+        "itemId": "6f7cceaeac8849ac75fe5a15f8a5727f217c3d8b2c780ce674a437e42c6e0bf8",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "17-Jähriger Autodieb fuhr Mann nieder",
+        "url": "https://wien.orf.at/stories/3362346",
+        "summary": "Ein 17-Jähriger hat am Samstagabend bei einer Probefahrt einen Pkw gestohlen und auf der Flucht einen 21-jährigen Mann niedergefahren und schwer verletzt. Der Jugendliche wurde wenig später von der Polizei festgenommen.",
+        "publishedAt": "2026-07-12T13:02:04.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "cbb065421074a1866c95dc6b1af91dcbf3a2f8172e7b62137abd69b483541c7b",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Pkw bei Probefahrt gestohlen: 17-Jähriger fuhr jungen Mann nieder",
+        "url": "https://kurier.at/chronik/wien/autodiebstahl-pkw-probefahrt-festnahme/403175687",
+        "isNew": false
+      },
+      {
+        "itemId": "8769955c60ba3ba9e5ea1d162ecf965bbd447f22f2c06315d641b9925fff83af",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Pkw bei Probefahrt gestohlen: 17-Jähriger fuhr jungen Mann nieder",
+        "url": "https://kurier.at/chronik/wien/autodiebstahl-pkw-probefahrt-festnahme/403175687",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Klare Quellenlage mit zwei etablierten österreichischen Medienunternehmen (ORF Wien, Kurier) und ausführlichen Volltextexcerpten. Lokales Verbrechen mit dokumentierten Fakten: Autodiebstahl über Willhaben, Flucht mit Überfahrung, schwere Verletzung eines Zeugen. Trotz hoher Sensibilität (Minderjährige, Körperverletzung) ausreichend belegt für KI-Artikel mit konservativer Behandlung und ohne Schuldzuweisungen über die polizeilichen Feststellungen hinaus.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "possibleClaims": [
+      "17-Jähriger stahl Pkw bei arrangierter Probefahrt über Willhaben-Plattform in Rudolfsheim-Fünfhaus",
+      "Täter forderte Fahrzeugbesitzer auf auszusteigen und beschleunigte dann mit dem Auto",
+      "Täter fuhr auf Flucht einen 21-jährigen Zeugen nieder, der zum Anhalten aufgefordert hatte",
+      "Opfer erlitt Hämatome am ganzen Körper, Kopfverletzungen und Brüche",
+      "Täter besitzt keinen gültigen Führerschein",
+      "Täter ist bereits mehrfach vorbestraft und lebt in betreuter Einrichtung",
+      "Täter stellte sich der Polizei nach Kontaktaufnahme via Willhaben-Handynummer"
+    ],
+    "missingSources": [
+      "Aktuelle Krankenhauszustand und Aussage des Opfers",
+      "Detaillierte Aufschlüsselung bisheriger Vorstrafen des Täters",
+      "Aussage oder Reaktion des Fahrzeugbesitzers",
+      "Formale Anklagepunkte und voraussichtliche strafrechtliche Konsequenzen",
+      "Einschätzung von Justizexperten oder Opferhilfe zu ähnlichen Fällen",
+      "Sicherheitsempfehlungen für Privatverkäufe über Onlineplattformen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "wien-autodiebstahl-probefahrt-juli-2026",
+    "title": "17-Jähriger soll bei Probefahrt Pkw gestohlen und Mann niedergefahren haben",
+    "description": "Laut ORF Wien und Kurier soll ein 17-Jähriger in Wien am Samstagabend bei einer vereinbarten Probefahrt ein Auto gestohlen und auf der Flucht einen 21-jährigen Mann schwer verletzt haben. Er wurde den Berichten zufolge festgenommen.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige Medien (ORF Wien und Kurier) berichten übereinstimmend über den Kernvorfall, was den Ablauf grundsätzlich stützt – eine Polizei- oder Justizquelle wurde jedoch nicht direkt eingesehen, und Detailangaben wie Alter des Opfers oder Festnahme stammen nur aus einer der beiden Quellen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt eingesehene Polizeimeldung, Anklageschrift oder sonstige Primärquelle vor, sondern nur zwei Kurzmeldungen etablierter Medien.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich ausschließlich auf medienseitig wiedergegebene Polizeiangaben; weder eine Stellungnahme des Jugendlichen noch des mutmaßlichen Opfers oder der Polizei selbst liegt vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut ORF Wien und Kurier soll ein 17-Jähriger am Samstagabend in Wien im Zuge einer vereinbarten Probefahrt einen Pkw gestohlen haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Auf der Flucht soll er laut ORF-Bericht einen 21-jährigen Mann, der ihn zum Anhalten aufgefordert hatte, niedergefahren und schwer verletzt haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Jugendliche wurde den Berichten zufolge kurz darauf von der Polizei festgenommen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Genaue Tatumstände, etwaige Anklagepunkte und der Gesundheitszustand des Verletzten sind aus den vorliegenden Kurzmeldungen nicht ersichtlich.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine Stellungnahme von Polizei, Justiz oder den Beteiligten liegt bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie kam der Kontakt zwischen dem Jugendlichen und dem Fahrzeugbesitzer für die Probefahrt zustande?",
+      "Wie schwer sind die Verletzungen des 21-Jährigen tatsächlich und wie ist sein aktueller Zustand?",
+      "Welche strafrechtlichen Schritte werden gegen den 17-Jährigen eingeleitet, auch mit Blick auf sein Alter?",
+      "Gibt es frühere polizeiliche Auffälligkeiten des Jugendlichen, wie es in einzelnen Kurzmeldungen angedeutet wird, und lassen sich diese bestätigen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3362346"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/wien/autodiebstahl-pkw-probefahrt-festnahme/403175687"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein 17-Jähriger soll am Samstagabend im Rahmen einer vereinbarten Probefahrt einen Pkw gestohlen haben.",
+        "status": "partial",
+        "note": "Kernaussage wird in Titel und Zusammenfassung beider unabhängiger Medien übereinstimmend wiedergegeben, eine Primärquelle wurde aber nicht eingesehen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Auf der Flucht soll der Jugendliche einen 21-jährigen Mann niedergefahren und schwer verletzt haben.",
+        "status": "partial",
+        "note": "Das genaue Alter des Opfers und der Schweregrad der Verletzung stammen nur aus der ORF-Zusammenfassung; der Kurier-Titel bestätigt lediglich, dass ein ‚junger Mann‘ niedergefahren wurde.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Jugendliche wurde wenig später von der Polizei festgenommen.",
+        "status": "unclear",
+        "note": "Diese Angabe findet sich nur in der ORF-Kurzzusammenfassung und wird durch keine zweite Quelle oder Primärquelle bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Vorfall ereignete sich in Wien.",
+        "status": "supported",
+        "note": "Beide Quellen ordnen den Vorfall über ihre Ressort- bzw. Regionalzuordnung (ORF Wien, Kurier Chronik Wien) eindeutig Wien zu.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Kurzmeldungen von ORF Wien und Kurier soll ein 17-Jähriger am Samstagabend in Wien im Zuge einer vereinbarten Probefahrt einen Pkw gestohlen haben. Auf der Flucht soll er, den vorliegenden Angaben zufolge, einen jungen Mann niedergefahren haben, der ihn zuvor zum Anhalten aufgefordert hatte. Der ORF-Bericht nennt das Opfer einen 21-Jährigen, der dabei schwer verletzt worden sei. Der Jugendliche sei wenig später von der Polizei festgenommen worden. Diese Darstellung entspricht dem, was in beiden Kurzmeldungen wiedergegeben wird, wobei Details wie Alter des Opfers und die Festnahme nur aus einer der beiden Quellen hervorgehen."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Zum Cluster liegen zwei redaktionell unabhängige Medienhäuser vor: ORF Wien mit einer kurzen Zusammenfassung sowie der Kurier, dessen Artikel unter zwei verschiedenen Rubriken (Startseite und Chronik) auf dieselbe URL verweist und damit inhaltlich als eine einzige Quelle zu werten ist. Beide Titel stimmen im Kern überein: Autodiebstahl bei einer Probefahrt, ein 17-Jähriger als Täter, ein niedergefahrener junger Mann. Damit ist der grobe Ablauf durch zwei unabhängige Redaktionen gedeckt. Feinere Details – etwa das genaue Alter des Opfers, der Schweregrad der Verletzungen oder die rasche Festnahme – stammen jedoch ausschließlich aus der ORF-Zusammenfassung und wurden nicht durch eine zweite Quelle oder eine direkt eingesehene Polizeimeldung bestätigt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie der Kontakt zwischen dem Jugendlichen und dem Fahrzeugbesitzer für die Probefahrt überhaupt zustande kam – etwaige Angaben zu einer Online-Plattform sind nicht Teil der hier ausgewerteten Kurzmeldungen und werden daher nicht übernommen. Ebenso unklar ist der aktuelle Gesundheitszustand des verletzten Mannes, der genaue Umfang seiner Verletzungen sowie mögliche frühere polizeiliche Auffälligkeiten des Jugendlichen. Welche strafrechtlichen Schritte gegen den 17-Jährigen eingeleitet werden und wie sich sein Jugendalter darauf auswirkt, ist aus den vorliegenden Quellen nicht ersichtlich. Eine Stellungnahme der Polizei, der Justiz, des Fahrzeugbesitzers oder des Opfers liegt bislang nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Es handelt sich um einen Vorfall mit einem minderjährigen Verdächtigen und einer mutmaßlichen schweren Körperverletzung – ein sensibler Themenbereich, in dem persönliche Vorwürfe und noch nicht rechtskräftig festgestellte Sachverhalte besondere Zurückhaltung erfordern. Dieser Artikel verzichtet bewusst auf Namen von Privatpersonen und auf über die vorliegenden Kurzmeldungen hinausgehende Zuschreibungen von Schuld oder Vorgeschichte. Die Darstellung stützt sich auf zwei unabhängige, aber jeweils knappe Medienberichte; eine Einschätzung von Polizei, Justiz oder Opferhilfe liegt nicht vor, sodass Einzelheiten des Falls als nicht abschließend verifiziert gelten müssen."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Kurzmeldungen von ORF Wien und Kurier soll ein 17-Jähriger am Samstagabend in Wien bei einer vereinbarten Probefahrt einen Pkw gestohlen haben. Auf der Flucht soll er einen jungen Mann niedergefahren haben, der ihn zuvor zum Anhalten aufgefordert hatte – laut ORF-Bericht ein 21-Jähriger, der dabei schwer verletzt wurde. Der Jugendliche wurde den Angaben zufolge kurz darauf von der Polizei festgenommen.\n\nDer grobe Ablauf wird von zwei unabhängigen Medien getragen, einzelne Details wie das genaue Alter des Opfers oder die Festnahme stammen jedoch nur aus einer der beiden Quellen. Eine Polizei- oder Justizquelle wurde nicht direkt eingesehen.\n\nOffen bleiben unter anderem der Gesundheitszustand des Verletzten, die genauen Tatumstände und mögliche strafrechtliche Konsequenzen für den Jugendlichen. Angesichts der Sensibilität des Falls – minderjähriger Verdächtiger, mutmaßliche schwere Körperverletzung – verzichtet dieser Bericht auf Namen und auf Bewertungen, die über die vorliegenden Kurzmeldungen hinausgehen.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T13:07:28.466Z"
+}

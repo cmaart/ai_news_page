@@ -1,0 +1,170 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-fc5d1ebf",
+    "title": "Mann attackiert eigene Mutter in der Wiener Innenstadt",
+    "items": [
+      {
+        "itemId": "31cff088aee1d1f8627d09779b5cd053e5a318f73697e5a69d2949e49ce41a48",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Mann attackiert eigene Mutter in der Wiener Innenstadt",
+        "url": "https://www.diepresse.com/36768035/mann-attackiert-eigene-mutter-in-der-wiener-innenstadt",
+        "summary": "Ein 36-Jähriger hat in Wien seine Mutter angegriffen und ist von der Polizei festgenommen worden. Bei dem Mann wurden zudem zahlreiche Schusswaffen sichergestellt, die Ermittlungen zu den Hintergründen laufen.",
+        "publishedAt": "2026-07-12T12:41:25.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "7f040c83af3770ca57254cb0b3193a94c732ecfffd677e33848e9098ab82288c",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Mann griff eigene Mutter an",
+        "url": "https://wien.orf.at/stories/3362341",
+        "isNew": false
+      },
+      {
+        "itemId": "3e4146cdfeeb1361831209c06cfb770f2b751c63c7eb38f3cf7869d3f406499d",
+        "sourceId": "orf_wien",
+        "sourceType": "media",
+        "title": "Mann griff eigene Mutter an",
+        "url": "https://wien.orf.at/stories/3362341",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Aktuelle Nachricht aus Wien mit öffentlicher Sicherheitsrelevanz (Gewalt, Waffenbeschlagnahme, COBRA-Einsatz). Zwei etablierte österreichische Nachrichtenquellen (ORF, Die Presse) berichten konsistent auf Grundlage von Polizeiauskünften. Substanz und Konkretheit (Daten, Namen, Handlungsablauf, Konsequenzen) sind vorhanden. Hochsensibles Thema erfordert vorsichtige Behandlung: Fokus auf verifizierte Fakten aus Polizeimeldungen, keine Schuldzuweisungen (Verdacht, nicht Schuld), keine unnötigen personenbezogenen Details.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "possibleClaims": [
+      "Ein 36-Jähriger attackierte am 12. Juli 2026 seine 64-jährige Mutter in der Wiener Innenstadt",
+      "Der Mann bedrohte die Mutter mit Mord und soll bereits mehrfach zuvor gewalttätig gegen sie geworden sein",
+      "Bei Hausdurchsuchungen wurden mehrere nicht registrierte Schusswaffen (darunter Langwaffen) und große Mengen Munition sichergestellt",
+      "Das COBRA-Einsatzkommando unterstützte die Hausdurchsuchungen mit Polizeidiensthündin",
+      "Der Mann wurde in Justizanstalt eingeliefert; Betretungs-, Annäherungs- und vorläufiges Waffenverbot verhängt",
+      "Ermittlungen laufen wegen fortgesetzter Gewaltausübung, gefährlicher Drohung und Verstößen gegen das Waffengesetz"
+    ],
+    "missingSources": [
+      "Detaillierte aktuelle Stellungnahme der Staatsanwaltschaft Wien (über die Anordnung hinaus)",
+      "Hintergründe zur Beschaffung und zum Motiv der Waffenlagerung",
+      "Verfahrensstand oder Timeline zur Gerichtsverhandlung",
+      "Kontext: Bekannte psychische Erkrankungen oder Vorstrafen (soweit öffentlich)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "mann-attackiert-mutter-wien-juli-2026",
+    "title": "Wien: Mann soll eigene Mutter attackiert haben – Festnahme und Waffenfund laut Medienberichten",
+    "description": "In der Wiener Innenstadt soll ein 36-Jähriger seine Mutter angegriffen haben. Laut Die Presse wurde der Mann von der Polizei festgenommen, zudem seien Schusswaffen sichergestellt worden. Die Hintergründe sind laut vorliegenden Quellen noch nicht abschließend geklärt.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige Medien (Die Presse, ORF) berichten übereinstimmend über den Kernvorfall – einen Angriff des Mannes auf seine Mutter –, das erfüllt die Zwei-Quellen-Schwelle für dieses Grundfaktum; Details wie Festnahme und Waffenfund stammen bislang jedoch nur aus einer Quelle.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine selbst eingesehene Polizei- oder Justizmitteilung vor, sondern ausschließlich zwei kurze Medienberichte ohne zitierte Originalquelle.",
+    "framingRisk": "high",
+    "framingRiskNote": "Es liegt ausschließlich polizeinahe Medienberichterstattung vor; eine Stellungnahme des Beschuldigten, seines Umfelds oder weiterer Perspektiven fehlt vollständig.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein 36-jähriger Mann soll in der Wiener Innenstadt seine Mutter angegriffen haben, berichten Die Presse und ORF übereinstimmend.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Die Presse wurde der Mann von der Polizei festgenommen; diese Angabe ist bislang nur durch eine Quelle belegt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei dem Mann sollen laut Die Presse zudem zahlreiche Schusswaffen sichergestellt worden sein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die genauen Umstände, das Motiv und der Zusammenhang zwischen Angriff und Waffenfund sind offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was war der genaue Ablauf und das Motiv des mutmaßlichen Angriffs?",
+      "Wie schwer wurde die Mutter laut offiziellen Angaben verletzt?",
+      "Unter welchen Umständen und wo genau wurden die Schusswaffen sichergestellt, und waren sie legal registriert?",
+      "Welche strafrechtlichen Vorwürfe werden konkret erhoben, und wie ist der aktuelle Verfahrensstand?",
+      "Liegt eine offizielle Stellungnahme von Polizei oder Staatsanwaltschaft Wien vor?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36768035/mann-attackiert-eigene-mutter-in-der-wiener-innenstadt"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3362341"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein 36-jähriger Mann soll in der Wiener Innenstadt seine Mutter angegriffen haben.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet von zwei unabhängigen Medien, jedoch ohne Zitat einer Polizei- oder Justizmitteilung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Mann wurde im Zusammenhang mit dem Vorfall von der Polizei festgenommen.",
+        "status": "partial",
+        "note": "Bislang nur durch einen Bericht (Die Presse) belegt, nicht unabhängig durch eine zweite Quelle bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Bei dem Mann wurden zahlreiche Schusswaffen sichergestellt.",
+        "status": "partial",
+        "note": "Nur eine Quelle nennt diese Angabe; Anzahl, Art und Fundumstände der Waffen sind nicht näher beschrieben.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Zu den Hintergründen der Tat und des Waffenfunds laufen Ermittlungen.",
+        "status": "unclear",
+        "note": "Allgemeine Formulierung ohne Angaben zu zuständiger Behörde, Ermittlungsstand oder erhobenen Vorwürfen.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In der Wiener Innenstadt soll ein 36-jähriger Mann seine eigene Mutter angegriffen haben. Das berichten sowohl die Tageszeitung Die Presse als auch der ORF unter weitgehend übereinstimmenden Überschriften. Laut Die Presse wurde der Mann im Zuge des Vorfalls von der Polizei festgenommen. Zudem seien bei ihm zahlreiche Schusswaffen sichergestellt worden, zu deren Hintergrund die Ermittlungen laut diesem Bericht noch andauern. Der ORF bestätigt in seiner knappen Meldung im Kern denselben Vorfall, führt die Details zu Festnahme und Waffenfund in der vorliegenden Kurzfassung jedoch nicht weiter aus."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Für die Kernaussage – ein Mann soll seine Mutter angegriffen haben – liegen zwei redaktionell unabhängige Medien vor, die den Vorfall übereinstimmend aufgreifen. Das erfüllt aus Sicht der Quellenlage die Schwelle, diesen Grundvorgang als vergleichsweise gut abgesichert zu betrachten. Für die weiterführenden Details – Festnahme durch die Polizei, Zahl und Art der sichergestellten Schusswaffen – liegt bislang jedoch nur ein einziger Bericht vor. Eine eigene Einsichtnahme in eine Polizei- oder Justizmitteilung fand im Rahmen dieser Recherche nicht statt, sodass diese Angaben als unabhängig unbestätigte Einzelquelle gekennzeichnet werden müssen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleiben zentrale Fragen: der genaue Tathergang und ein mögliches Motiv, das Ausmaß etwaiger Verletzungen der Mutter, die Umstände des Waffenfundes sowie die Frage, ob und welche strafrechtlichen Vorwürfe konkret erhoben wurden. Auch der aktuelle Stand des Verfahrens – etwa ob der Mann in Untersuchungshaft angehalten wird oder welche vorläufigen Maßnahmen gegebenenfalls verhängt wurden – lässt sich aus den vorliegenden Kurzmeldungen nicht abschließend beurteilen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Es handelt sich um eine noch junge, sich entwickelnde Meldung zu einem hochsensiblen Thema aus dem Bereich häusliche Gewalt und Kriminalität. Die vorliegenden Angaben stammen ausschließlich aus zwei kurzen Medienberichten ohne eigene Einsichtnahme in Polizei- oder Gerichtsunterlagen; eine Schuldfeststellung ist damit nicht verbunden, es gilt die Unschuldsvermutung. Dieser Artikel wurde KI-gestützt erstellt und verzichtet bewusst auf die Nennung persönlicher Details, die über die vorliegenden Kurzmeldungen hinausgehen."
+      }
+    ],
+    "bodyKompakt": "In der Wiener Innenstadt soll ein 36-jähriger Mann seine eigene Mutter angegriffen haben. Das berichten sowohl Die Presse als auch der ORF weitgehend übereinstimmend. Laut Die Presse wurde der Mann im Zuge des Vorfalls von der Polizei festgenommen, zudem seien bei ihm zahlreiche Schusswaffen sichergestellt worden; die Ermittlungen zu den Hintergründen laufen demnach noch. Der ORF bestätigt in seiner knappen Meldung den Kernvorfall, führt Festnahme und Waffenfund in der vorliegenden Kurzfassung aber nicht weiter aus.\n\nFür den Grundvorgang liegen damit zwei unabhängige Medien vor, für die weiterführenden Details zu Festnahme und Waffen bislang jedoch nur eine einzige Quelle. Eine eigene Einsichtnahme in Polizei- oder Justizunterlagen fand nicht statt. Offen bleiben Motiv, Verletzungsgrad der Mutter, genaue Fundumstände der Waffen sowie der aktuelle Verfahrensstand. Es gilt die Unschuldsvermutung; personenbezogene Details über die vorliegenden Kurzmeldungen hinaus werden hier bewusst nicht genannt.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T13:07:28.466Z"
+}
