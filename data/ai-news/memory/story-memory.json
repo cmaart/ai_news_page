@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T08:17:51.065Z",
+  "updatedAt": "2026-07-12T09:14:58.765Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -557,12 +557,10 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-12T09:07:25.442Z",
       "doNotUpdateBefore": "2026-07-11T15:07:25.442Z",
-      "echoPublishers": {
-        "thedecoder": "2026-07-11T09:07:25.442Z"
-      },
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-11T09:07:25.442Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-12T09:07:28.176Z"
     },
     "mehrwertsteuersenkung-lebensmittel-ak-kritik-juli-2026": {
       "canonicalTitle": "Mehrwertsteuersenkung bei Lebensmitteln: AK-Präsident Heinzle übt Kritik",
@@ -770,8 +768,9 @@
       "doNotRedraftBefore": "2026-07-12T09:07:25.442Z",
       "doNotUpdateBefore": "2026-07-11T15:07:25.442Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-11T09:07:25.442Z",
-        "diepresse": "2026-07-11T13:07:28.606Z"
+        "diepresse": "2026-07-11T13:07:28.606Z",
+        "derstandard": "2026-07-12T09:07:28.176Z",
+        "apa": "2026-07-12T09:07:28.176Z"
       },
       "resonanceLevel": 1,
       "resonanceSource": "triage",
@@ -804,9 +803,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-11T18:07:26.458Z",
       "doNotUpdateBefore": "2026-07-11T00:07:26.458Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-11T09:07:25.442Z"
-      }
+      "echoPublishers": {}
     },
     "rechnungshof-oevp-parteispenden-2023": {
       "canonicalTitle": "Rechnungshof ortet unzulässige Spenden und Mängel im ÖVP-Rechenschaftsbericht 2023",
@@ -904,7 +901,6 @@
       "doNotRedraftBefore": "2026-07-12T06:07:25.846Z",
       "doNotUpdateBefore": "2026-07-11T12:07:25.846Z",
       "echoPublishers": {
-        "heise": "2026-07-11T09:07:25.442Z",
         "golem": "2026-07-11T10:07:28.043Z"
       },
       "resonanceLevel": 3,
@@ -967,9 +963,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T08:07:22.735Z",
       "doNotUpdateBefore": "2026-07-11T14:07:22.735Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-11T09:07:25.442Z"
-      }
+      "echoPublishers": {}
     },
     "ice-schuss-houston-lorenzo-salgado-araujo-juli-2026": {
       "canonicalTitle": "Houston: Von ICE-Beamten erschossener Mann soll laut Kongressabgeordneter nicht Ziel des Einsatzes gewesen sein",
@@ -1730,7 +1724,10 @@
       "echoPublishers": {
         "derstandard": "2026-07-12T08:07:24.366Z",
         "kurier": "2026-07-12T08:07:24.366Z"
-      }
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-12T09:07:28.176Z"
     },
     "nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026": {
       "canonicalTitle": "SPÖ-Auswertung: 179 Gesetzesbeschlüsse seit Regierungsantritt, breite Oppositionszustimmung reklamiert",
@@ -1848,6 +1845,72 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T08:07:24.366Z",
       "doNotUpdateBefore": "2026-07-12T14:07:24.366Z"
+    },
+    "cluster-20260712-7a926379": {
+      "canonicalTitle": "Batterien sollen den Energiemarkt revolutionieren. Scheitert der Boom an der Regulierung?",
+      "slug": "cluster-20260712-7a926379",
+      "firstSeenAt": "2026-07-12T09:07:28.176Z",
+      "lastUpdatedAt": "2026-07-12T09:07:28.176Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000330907/batterien-sollen-den-energiemarkt-revolutionieren-scheitert-der-boom-an-der-regulierung",
+        "https://www.derstandard.at/story/3000000330907/batterien-sollen-den-energiemarkt-revolutionieren-scheitert-der-boom-an-der-regulierung"
+      ],
+      "openQuestions": [
+        "Konkrete Regelungsvorhaben (Behörden, Zeitrahmen, betroffene Länder/EU-Ebene)",
+        "Batteriespeicher-Industrie (Verbände, Unternehmen, Kapazitätszahlen)",
+        "Energieregulierungsbehörden (E-Control, BMK, ACER, EBA)",
+        "Experten für Energiemarktdesign",
+        "Zahlen zu Speicherkapazität, Investitionsvölumen, Kostenschätzungen",
+        "Erneuerbare-Energie-Verbände",
+        "Verbraucherschutz-Organisationen"
+      ],
+      "sensitivity": "low"
+    },
+    "ro-khanna-westjordanland-festgehalten-juli-2026": {
+      "canonicalTitle": "US-Demokrat Ro Khanna im Westjordanland von israelischen Kräften festgehalten",
+      "slug": "ro-khanna-westjordanland-festgehalten-juli-2026",
+      "firstSeenAt": "2026-07-12T09:07:28.176Z",
+      "lastUpdatedAt": "2026-07-12T09:07:28.176Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ro-khanna-westjordanland-festgehalten-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/ro-khanna-westjordanland-festgehalten-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331108/demokratischer-us-politiker-im-westjordanland-von-israel-festgehalten"
+      ],
+      "openQuestions": [
+        "Wer genau hat Ro Khanna festgehalten — Polizei, Militär oder eine andere Stelle?",
+        "Wie lange dauerte die Festhaltung, und aus welchem konkreten Anlass erfolgte sie?",
+        "Warum hielt sich Khanna im Westjordanland auf — im Rahmen einer Delegation oder eines eigenständigen Besuchs?",
+        "Gibt es eine offizielle Reaktion des US-Außenministeriums oder der US-Botschaft in Israel?",
+        "Wie stellt sich der gemeldete Angriff auf das CNN-Team aus israelischer Sicht dar?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T09:07:28.176Z",
+      "doNotUpdateBefore": "2026-07-12T15:07:28.176Z"
+    },
+    "italien-radarfallen-abschaltung-typgenehmigung-juli-2026": {
+      "canonicalTitle": "Italien schaltet 850 Radarfallen ab: Neue Zulassungspflicht für Geschwindigkeitsmessgeräte",
+      "slug": "italien-radarfallen-abschaltung-typgenehmigung-juli-2026",
+      "firstSeenAt": "2026-07-12T09:07:28.176Z",
+      "lastUpdatedAt": "2026-07-12T09:07:28.176Z",
+      "status": "published",
+      "articlePath": "src/content/articles/italien-radarfallen-abschaltung-typgenehmigung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/italien-radarfallen-abschaltung-typgenehmigung-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36757832/neue-vorschriften-fuer-radarfallen-in-italien-850-geraete-abgeschaltet",
+        "https://www.kleinezeitung.at/artikel/36757193/850-radar-wegen-neuer-vorschriften-in-italien-abgeschaltet"
+      ],
+      "openQuestions": [
+        "Wie viele Radaranlagen sind in Italien insgesamt im Einsatz, und welchen Anteil machen die 850 abgeschalteten Geräte daran aus?",
+        "Auf welche konkreten Entscheidungen des italienischen Kassationsgerichts stützt sich die neue Zulassungspflicht?",
+        "Gibt es eine offizielle Stellungnahme des italienischen Verkehrsministeriums zum Dekret und seiner Umsetzung?",
+        "Wie reagieren italienische Gemeinden, Städte oder Autofahrer-Verbände auf die Abschaltungen?",
+        "Bis wann könnten die betroffenen Geräte nachgerüstet und wieder in Betrieb genommen werden?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-13T09:07:28.176Z",
+      "doNotUpdateBefore": "2026-07-12T15:07:28.176Z"
     }
   }
 }
