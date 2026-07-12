@@ -173,7 +173,9 @@ function isHttpsUrl(value: unknown): value is string {
 export async function downloadAndProcessImage(slug: string, downloadUrl: string): Promise<string> {
   const response = await fetch(downloadUrl, {
     signal: AbortSignal.timeout(DOWNLOAD_TIMEOUT_MS),
-    headers: { 'user-agent': 'NeueNachrichten/1.0 (+https://neuenachrichten.at; Bildabruf für Artikel)' },
+    // UA rein ASCII halten — Nicht-ASCII-Header (früher „für") lösen bei
+    // manchen Origins (z. B. rechnungshof.gv.at WAF) HTTP 500 aus.
+    headers: { 'user-agent': 'NeueNachrichten/1.0 (+https://neuenachrichten.at; Bildabruf fuer Artikel)' },
     redirect: 'follow',
   });
   if (!response.ok) throw new Error(`Bild-Download fehlgeschlagen: HTTP ${response.status} für ${downloadUrl}`);

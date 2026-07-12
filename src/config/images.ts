@@ -19,6 +19,7 @@ export const IMAGE_LICENSES = [
   'CC BY-SA 3.0',
   'CC BY-SA 3.0 AT',
   'CC BY-SA 3.0 DE',
+  'CC BY-SA 3.0 IGO',
   'CC BY-SA 4.0',
   'press_permission',
 ] as const;
@@ -39,6 +40,7 @@ export const LICENSE_URLS: Record<string, string> = {
   'CC BY-SA 3.0': 'https://creativecommons.org/licenses/by-sa/3.0/',
   'CC BY-SA 3.0 AT': 'https://creativecommons.org/licenses/by-sa/3.0/at/',
   'CC BY-SA 3.0 DE': 'https://creativecommons.org/licenses/by-sa/3.0/de/',
+  'CC BY-SA 3.0 IGO': 'https://creativecommons.org/licenses/by-sa/3.0/igo/',
   'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/',
 };
 
