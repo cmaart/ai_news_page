@@ -105,6 +105,7 @@ Fallbacks: `'IBM Plex Sans', system-ui, sans-serif` (Body-Default).
 - Sektionskopf: Spectral 600 22px + Mono-11px-Link rechts, 2px border-bottom ink
 - Themen-Grid: 3-spaltig ohne gap, Zellen padding 20px 24px, Hairline-Border rechts/unten (erste Spalte pl 0, letzte pr 0 + kein border-right); Name Spectral 600 18px, Count Mono 10.5px
 - Neueste-Grid: 3-spaltig ohne gap, Zellen padding 24px 28px 26px, gleiche Border-Logik; Kopfzeile Eyebrow 10px + Datum Mono 10px `#9a948a`; H3 19px lh1.26; Teaser 13.5px `#6E6A63`; Metriken Mono 9.5px mit farbigem `● BELEGT x/y` (ok) / `● TEILS BELEGT` (warn)
+- Ressort-Karten (Startseite): bewusste Abweichung von der BELEG-Vorlage (nur visuell bindend, Regel 4) — statt festem 3er-Raster ein horizontaler Scroll-Snap-Track (`overflow-x`, `scroll-snap-type: x mandatory`), Karten `flex: 0 0 calc(100%/3)` (3 sichtbar Desktop), 62% ≤900px / 82% ≤720px (Peek der nächsten Karte); Hairline-Trenner rechts je Karte (erste Karte pl 0, letzte ohne Border). Vor/Zurück-Pager (`‹`/`›`, 30×30, 1px border) im Sektionskopf rechts, reine Progressive Enhancement (ohne JS bleibt natives Wischen/Snap); `RESSORT_LIMIT = 9` Karten je Kategorie
 - Story-Hover: Titel → accent-hover (transition .15s)
 - Bild-Slots (bedingt — nur wenn Artikel ein Bild hat, sonst entfällt der Slot ersatzlos):
   Lead height 300px, margin-bottom 22px; Grid-Karten height 134px, margin-bottom 16px (über der Eyebrow-Zeile);
