@@ -1,0 +1,170 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-f83def40",
+    "title": "Neue Festnahme nach Mord an britischer Ex-Ministerin",
+    "items": [
+      {
+        "itemId": "2809c1f42eca74034bd49fa2e00acfbc51a84e72eb8de0ff62d8c862e84c2dbb",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Neue Festnahme nach Mord an britischer Ex-Ministerin",
+        "url": "https://orf.at/stories/3435967",
+        "publishedAt": "2026-07-12T05:40:28.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "dd6b1d4fe7ab35796b927586c09a7c029c3724485f2f4e39b39138c2d203e279",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Widdecombe: Neue Festnahme im Mordfall von britischer Ex-Ministerin",
+        "url": "https://www.kleinezeitung.at/artikel/36749221/neue-festnahme-im-mordfall-von-britischer-ex-ministerin",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Ausreichende Substanz (zwei österreichische Medienquellen mit konkreten Fakten und Polizeimitteilungen) und EU-Relevanz (europäische Ex-Ministerin, Brexit-Aktivistin, europäische Abgeordnete). Wird bereits breit berichtet. Hochgradig sensibles Kriminalfall-Thema mit laufenden Ermittlungen – vorsichtige Formulierung ohne Schuldzuweisungen erforderlich.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "possibleClaims": [
+      "Ein 28-jähriger britischer Mann wurde unter Mordverdacht verhaftet",
+      "Ann Widdecombe war britische Ex-Ministerin und Abgeordnete",
+      "Sie war Brexit-Aktivistin und europäische Abgeordnete",
+      "Sie wechselte zur Brexit-Party und später Reform UK",
+      "Die Polizei schließt terroristischen Hintergrund aus",
+      "Bislang keine Hinweise auf politisch motivierte Tat",
+      "Sie trat in britischen TV-Shows auf (Strictly Come Dancing, Celebrity Big Brother)",
+      "Sie vertrat streng konservative Positionen"
+    ],
+    "missingSources": [
+      "Offizielle ausführliche Polizeiberichte",
+      "Stellungnahmen von Familie oder Parteikolleg*innen",
+      "Aussagen des Verdächtigen oder seines Anwalts",
+      "Weitere Ermittlungsergebnisse oder Motiv-Analysen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "festnahme-mordfall-ann-widdecombe-juli-2026",
+    "title": "Mordfall an britischer Ex-Ministerin: Berichte über neue Festnahme",
+    "description": "Laut österreichischen Medienberichten wurde im Mordfall an der britischen Ex-Politikerin Ann Widdecombe eine weitere Person festgenommen. Zentrale Details zu Hintergrund und Motiv sind nicht abschließend verifiziert.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige österreichische Medien (ORF, Kleine Zeitung) berichten übereinstimmend über die Festnahme, eine offizielle Polizei- oder Gerichtsquelle wurde von uns nicht eingesehen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt eingesehene Polizeimitteilung, Gerichtsunterlage oder sonstige Primärquelle vor, nur Medienberichte, die sich offenbar auf britische Ermittlerangaben stützen.",
+    "framingRisk": "high",
+    "framingRiskNote": "Verfügbar ist bislang nur die Darstellung über Polizei- bzw. Medienangaben; Stellungnahmen des Festgenommenen, seiner Vertretung oder des Umfelds der Betroffenen fehlen vollständig.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut ORF und Kleine Zeitung wurde im Mordfall an der britischen Ex-Politikerin Ann Widdecombe eine weitere Person festgenommen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Berichten zufolge handelt es sich um einen 28-jährigen britischen Mann, der unter Mordverdacht steht.",
+        "kind": "fact"
+      },
+      {
+        "text": "Widdecombe war britische Ex-Ministerin, ehemalige Abgeordnete und später auch für Brexit Party bzw. Reform UK aktiv.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob es einen politischen oder terroristischen Hintergrund gibt, ist nach vorliegenden Quellen nicht abschließend geklärt.",
+        "kind": "open"
+      },
+      {
+        "text": "Unklar bleibt zudem, in welchem Verhältnis diese Festnahme zu einem möglichen früheren Ermittlungsstand steht.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was ist der Ermittlungsstand vor dieser Festnahme – gab es bereits andere Verdächtige oder Festnahmen?",
+      "Welches Motiv wird von den Ermittlungsbehörden in Betracht gezogen?",
+      "In welchem Verhältnis steht der Festgenommene zur getöteten Politikerin?",
+      "Gibt es eine offizielle Stellungnahme der britischen Polizei, die diese Angaben bestätigt?",
+      "Wie äußern sich Angehörige, Partei oder Rechtsvertretung des Festgenommenen zu dem Fall?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3435967"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36749221/neue-festnahme-im-mordfall-von-britischer-ex-ministerin"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Im Mordfall an der britischen Ex-Politikerin Ann Widdecombe wurde eine weitere Person festgenommen.",
+        "status": "supported",
+        "note": "Wird von zwei unabhängigen österreichischen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Beim Festgenommenen soll es sich um einen 28-jährigen britischen Mann handeln, der unter Mordverdacht steht.",
+        "status": "partial",
+        "note": "Detail laut vorliegender Quellenlage, keine direkt eingesehene Polizeimitteilung zur Bestätigung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Ann Widdecombe war britische Ex-Ministerin, ehemalige Abgeordnete und zeitweise für Brexit Party bzw. Reform UK aktiv.",
+        "status": "partial",
+        "note": "Biografische Angabe aus der Berichterstattung, nicht durch eigene Primärquellenprüfung verifiziert.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Nach bisherigen Angaben gibt es keine Hinweise auf einen terroristischen oder politisch motivierten Hintergrund der Tat.",
+        "status": "unclear",
+        "note": "Ergibt sich nur aus Sekundärangaben in der Berichterstattung, keine offizielle Bestätigung eingesehen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Berichten von ORF.at und Kleine Zeitung wurde im Mordfall an der britischen Ex-Politikerin Ann Widdecombe eine weitere Person festgenommen. Die Formulierung „neue Festnahme“ in beiden Berichten deutet darauf hin, dass es sich um einen laufenden Ermittlungsvorgang handelt, in dem bereits zuvor Schritte gesetzt worden sein dürften. Konkrete Details zum Ablauf der Festnahme selbst liegen aus den vorliegenden Kurzmeldungen nicht vor."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Den Berichten zufolge soll es sich beim Festgenommenen um einen 28-jährigen britischen Mann handeln, der unter dem Verdacht des Mordes steht – ein Verdacht, keine gerichtlich festgestellte Schuld. Widdecombe wird in den Quellen als britische Ex-Ministerin und ehemalige Abgeordnete beschrieben, die im Zuge des Brexit als Aktivistin auftrat, zeitweise für die Brexit Party und später für Reform UK aktiv war und auch durch Fernsehauftritte einer breiteren Öffentlichkeit bekannt war. Diese Einordnung erklärt die europapolitische Dimension des Falls, auch wenn es sich um ein innerbritisches Ereignis handelt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt nach der vorliegenden Quellenlage, in welchem Verhältnis der Festgenommene zur getöteten Politikerin stand und welches Motiv die Ermittlungsbehörden in Betracht ziehen. Hinweise darauf, dass ein terroristischer oder politisch motivierter Hintergrund ausgeschlossen werde, finden sich zwar sinngemäß in der Berichterstattung, konnten aber nicht anhand einer direkt eingesehenen Polizeimitteilung nachvollzogen werden. Auch fehlen Stellungnahmen des Festgenommenen, einer Verteidigung oder des persönlichen bzw. politischen Umfelds von Widdecombe vollständig."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Es handelt sich um ein laufendes Ermittlungsverfahren zu einer schweren Straftat gegen eine öffentlich bekannte Person – ein Bereich, in dem Angaben zu Verdächtigen grundsätzlich unter Unschuldsvermutung stehen und sich rasch ändern können. Da bislang keine britische Polizeibehörde oder Justizstelle direkt als Quelle herangezogen werden konnte, stützt sich diese Darstellung ausschließlich auf zwei österreichische Medienberichte. Weitere Entwicklungen, etwa offizielle Stellungnahmen oder Gerichtstermine, sollten abgewartet werden, bevor Details zu Motiv oder Tatzusammenhang als gesichert gelten."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Berichten von ORF.at und Kleine Zeitung wurde im Mordfall an der britischen Ex-Politikerin Ann Widdecombe eine weitere Person festgenommen. Den Quellen zufolge handelt es sich um einen 28-jährigen britischen Mann, der unter Mordverdacht steht – ein Verdacht, keine festgestellte Schuld. Widdecombe wird als britische Ex-Ministerin und ehemalige Abgeordnete beschrieben, die als Brexit-Aktivistin auftrat und zeitweise für Brexit Party bzw. Reform UK aktiv war.\n\nOffen bleibt, in welchem Verhältnis der Festgenommene zur getöteten Politikerin stand und welches Motiv die Ermittlungen verfolgen. Angaben, wonach ein terroristischer oder politisch motivierter Hintergrund derzeit nicht im Vordergrund stehe, lassen sich anhand einer eigenen Primärquelle nicht bestätigen. Stellungnahmen des Festgenommenen, seiner Vertretung oder des Umfelds fehlen bislang.\n\nDa keine britische Polizei- oder Justizquelle direkt eingesehen wurde, stützt sich diese Darstellung ausschließlich auf zwei österreichische Medienberichte. Weitere offizielle Angaben bleiben abzuwarten, bevor Details als gesichert gelten können.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T06:07:23.718Z"
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T05:31:23.510Z",
+  "updatedAt": "2026-07-12T06:18:44.200Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1381,29 +1381,36 @@
       "doNotUpdateBefore": "2026-07-11T20:07:32.545Z"
     },
     "taifun-bavi-evakuierungen-china-philippinen-juli-2026": {
-      "canonicalTitle": "Taifun „Bavi“: Hunderttausende Evakuierungen in China, mindestens 17 Tote auf den Philippinen",
+      "canonicalTitle": "Taifun „Bavi“ trifft Festlandchina: rund 1,7 Millionen evakuiert, mindestens 17 Tote auf den Philippinen",
       "slug": "taifun-bavi-evakuierungen-china-philippinen-juli-2026",
       "firstSeenAt": "2026-07-11T14:07:32.545Z",
-      "lastUpdatedAt": "2026-07-11T14:07:32.545Z",
+      "lastUpdatedAt": "2026-07-12T06:07:23.718Z",
       "status": "published",
       "articlePath": "src/content/articles/taifun-bavi-evakuierungen-china-philippinen-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-11/taifun-bavi-evakuierungen-china-philippinen-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-12/taifun-bavi-evakuierungen-china-philippinen-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.diepresse.com/36697026/hunderttausende-menschen-in-china-wegen-taifun-bavi-evakuiert",
-        "https://kurier.at/chronik/welt/china-taiwan-philippinen-evakurierung-tote-taifun-bavi/403175600"
+        "https://kurier.at/chronik/welt/china-taiwan-philippinen-evakurierung-tote-taifun-bavi/403175600",
+        "https://orf.at/stories/3435969",
+        "https://www.derstandard.at/story/3000000331097/nach-taifun-bavi-in-china-gro223einsatz-f252r-rettungskr228fte",
+        "https://www.derstandard.at/story/3000000331082/taifun-in-china-fast-zwei-millionen-menschen-m252ssen-h228user-verlassen",
+        "https://www.srf.ch/news/international/taifun-bavi-china-evakuiert-fast-zwei-millionen-menschen-wegen-sturms",
+        "https://www.pbs.org/newshour/world/typhoon-bavi-makes-landfall-in-eastern-china-as-more-than-1-million-are-evacuated",
+        "https://www.aljazeera.com/news/2026/7/11/hundreds-of-thousands-evacuated-as-typhoon-bavi-barrels-towards-china"
       ],
       "openQuestions": [
-        "Werden die von chinesischen Staatsmedien genannten Evakuiertenzahlen durch weitere, unabhängige Quellen bestätigt?",
-        "Wie hoch ist der tatsächliche Sachschaden in den betroffenen Regionen?",
-        "Steigt die Zahl der Todesopfer auf den Philippinen im Zuge weiterer Erhebungen noch an?",
-        "Wann und mit welcher Intensität erreicht der Taifun tatsächlich Festlandchina?"
+        "Wie hoch ist die exakte Zahl der Verletzten in Taiwan — Berichte schwanken zwischen 113 und 134?",
+        "Gibt es Todesopfer in Festlandchina selbst durch Taifun „Bavi“, und wenn ja, wie viele?",
+        "Wie hoch ist der tatsächliche Sachschaden in den betroffenen Regionen Chinas und Taiwans?",
+        "Steigt die Zahl der Todesopfer oder Vermissten auf den Philippinen im Zuge weiterer Erhebungen noch an?",
+        "Werden die von chinesischen Behörden bzw. Staatsmedien genannten Evakuierungszahlen durch eine unabhängige, nicht-staatliche Quelle bestätigt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-12T14:07:32.545Z",
-      "doNotUpdateBefore": "2026-07-11T20:07:32.545Z",
+      "doNotRedraftBefore": "2026-07-13T06:07:23.718Z",
+      "doNotUpdateBefore": "2026-07-12T12:07:23.718Z",
       "echoPublishers": {
-        "derstandard": "2026-07-11T15:07:25.182Z",
-        "orf": "2026-07-11T19:07:27.203Z",
+        "derstandard": "2026-07-12T06:07:23.718Z",
+        "orf": "2026-07-12T06:07:23.718Z",
         "kleinezeitung": "2026-07-11T19:07:27.203Z"
       },
       "resonanceLevel": 1,
@@ -1633,6 +1640,70 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T05:28:46.494Z",
       "doNotUpdateBefore": "2026-07-12T11:28:46.494Z"
+    },
+    "festnahme-mordfall-ann-widdecombe-juli-2026": {
+      "canonicalTitle": "Mordfall an britischer Ex-Ministerin: Berichte über neue Festnahme",
+      "slug": "festnahme-mordfall-ann-widdecombe-juli-2026",
+      "firstSeenAt": "2026-07-12T06:07:23.718Z",
+      "lastUpdatedAt": "2026-07-12T06:07:23.718Z",
+      "status": "published",
+      "articlePath": "src/content/articles/festnahme-mordfall-ann-widdecombe-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/festnahme-mordfall-ann-widdecombe-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3435967",
+        "https://www.kleinezeitung.at/artikel/36749221/neue-festnahme-im-mordfall-von-britischer-ex-ministerin"
+      ],
+      "openQuestions": [
+        "Was ist der Ermittlungsstand vor dieser Festnahme – gab es bereits andere Verdächtige oder Festnahmen?",
+        "Welches Motiv wird von den Ermittlungsbehörden in Betracht gezogen?",
+        "In welchem Verhältnis steht der Festgenommene zur getöteten Politikerin?",
+        "Gibt es eine offizielle Stellungnahme der britischen Polizei, die diese Angaben bestätigt?",
+        "Wie äußern sich Angehörige, Partei oder Rechtsvertretung des Festgenommenen zu dem Fall?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T06:07:23.718Z",
+      "doNotUpdateBefore": "2026-07-12T12:07:23.718Z"
+    },
+    "usa-iran-luftangriffe-strasse-von-hormus-juli-2026": {
+      "canonicalTitle": "USA greifen Iran erneut an – Teheran meldet Sperre der Straße von Hormus und Gegenschläge",
+      "slug": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
+      "firstSeenAt": "2026-07-12T06:07:23.718Z",
+      "lastUpdatedAt": "2026-07-12T06:07:23.718Z",
+      "status": "published",
+      "articlePath": "src/content/articles/usa-iran-luftangriffe-strasse-von-hormus-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/usa-iran-luftangriffe-strasse-von-hormus-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
+        "https://orf.at/stories/3435963"
+      ],
+      "openQuestions": [
+        "Wie viele Ziele wurden bei den US-Angriffen tatsächlich getroffen, und mit welchem Ausmaß an Schäden?",
+        "Gibt es bestätigte Opferzahlen auf iranischer oder US-Seite?",
+        "Ist die Straße von Hormus faktisch für Schiffsverkehr gesperrt oder handelt es sich um eine politische Ankündigung?",
+        "Haben iranische Revolutionsgarden tatsächlich US-Stützpunkte in Golfstaaten und Jordanien sowie die Vereinigten Arabischen Emirate angegriffen?",
+        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die Eskalation?",
+        "Welche Auswirkungen zeigen sich bereits auf Ölpreise und Schifffahrtsversicherungen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T06:07:23.718Z",
+      "doNotUpdateBefore": "2026-07-12T12:07:23.718Z"
+    },
+    "cluster-20260712-e331177f": {
+      "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
+      "slug": "cluster-20260712-e331177f",
+      "firstSeenAt": "2026-07-12T06:07:23.718Z",
+      "lastUpdatedAt": "2026-07-12T06:07:23.718Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331008/geschichtsvergessen-in-graz-heisse-luft-mit-sebastian-kurz"
+      ],
+      "openQuestions": [
+        "Konkrete Äußerung oder Handlung Kurz, auf die sich 'Geschichtsvergessen' bezieht",
+        "Vollständiger Kontext des 'Polit-Bebens' (ursprüngliche Berichterstattung im Blatt 'Österreich')",
+        "Quelle zur Marchetti-Ablöse und deren Begründung",
+        "Sekundär-Quellen zu Kurz' aktuellem Status oder Vermögensaufbau"
+      ],
+      "sensitivity": "medium"
     }
   }
 }
