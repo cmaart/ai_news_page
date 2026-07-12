@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T10:18:05.140Z",
+  "updatedAt": "2026-07-12T11:14:39.520Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -175,7 +175,6 @@
       "doNotRedraftBefore": "2026-07-12T16:07:28.362Z",
       "doNotUpdateBefore": "2026-07-11T22:07:28.362Z",
       "echoPublishers": {
-        "orf": "2026-07-11T10:07:28.043Z",
         "kurier": "2026-07-11T16:07:28.362Z"
       },
       "resonanceLevel": 3,
@@ -900,12 +899,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T06:07:25.846Z",
       "doNotUpdateBefore": "2026-07-11T12:07:25.846Z",
-      "echoPublishers": {
-        "golem": "2026-07-11T10:07:28.043Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-11T10:07:28.043Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-12T11:07:29.032Z"
     },
     "raketenangriff-kiew-juli-2026": {
       "canonicalTitle": "Raketenangriff auf Kiew: Mehrere Verletzte, Zahlen widersprüchlich",
@@ -1034,9 +1031,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T09:07:25.442Z",
       "doNotUpdateBefore": "2026-07-11T15:07:25.442Z",
-      "echoPublishers": {
-        "kurier": "2026-07-11T11:07:23.956Z"
-      }
+      "echoPublishers": {}
     },
     "israel-warnung-iranischer-mordkomplott-trump-juli-2026": {
       "canonicalTitle": "Israel warnt vor iranischem Mordkomplott gegen Trump – Details bleiben unklar",
@@ -1918,7 +1913,10 @@
       "doNotUpdateBefore": "2026-07-12T15:07:28.176Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-12T10:07:25.258Z"
-      }
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-12T11:07:29.032Z"
     },
     "traktor-unfall-innviertel-juli-2026": {
       "canonicalTitle": "Innviertel: 66-Jähriger nach Einklemmen durch Traktor mit Rettungshubschrauber ins Spital geflogen",
@@ -1964,6 +1962,51 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T10:07:25.258Z",
       "doNotUpdateBefore": "2026-07-12T16:07:25.258Z"
+    },
+    "pflegebonus-zweckwidmung-ankuendigung-juli-2026": {
+      "canonicalTitle": "Schumann kündigt gesetzliche Zweckwidmung des Pflegebonus an",
+      "slug": "pflegebonus-zweckwidmung-ankuendigung-juli-2026",
+      "firstSeenAt": "2026-07-12T11:07:29.032Z",
+      "lastUpdatedAt": "2026-07-12T11:07:29.032Z",
+      "status": "published",
+      "articlePath": "src/content/articles/pflegebonus-zweckwidmung-ankuendigung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/pflegebonus-zweckwidmung-ankuendigung-juli-2026.json",
+      "sourceUrls": [
+        "https://salzburg.orf.at/stories/3362327",
+        "https://kurier.at/politik/inland/korinna-schumann-pressestunde-pflegebonus-gesundheitsreform/403175681"
+      ],
+      "openQuestions": [
+        "Wann und in welcher Form soll der Gesetzesentwurf zur Zweckwidmung des Pflegebonus vorgelegt werden?",
+        "Gilt die geplante Zweckwidmung bundesweit einheitlich oder mit Spielraum für die Länder?",
+        "Wie reagieren die Salzburger Landesregierung, andere Bundesländer und Gewerkschaften wie ÖGB oder vida konkret auf die Ankündigung?",
+        "Wie ist die langfristige Finanzierung des Bonus über laufende Bund-Länder-Vereinbarungen hinaus gesichert?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-13T11:07:29.032Z",
+      "doNotUpdateBefore": "2026-07-12T17:07:29.032Z"
+    },
+    "hormuz-eskalation-us-angriffe-juli-2026": {
+      "canonicalTitle": "Straße von Hormuz: Dritte US-Angriffswelle binnen einer Woche, Schiff in Brand",
+      "slug": "hormuz-eskalation-us-angriffe-juli-2026",
+      "firstSeenAt": "2026-07-12T11:07:29.032Z",
+      "lastUpdatedAt": "2026-07-12T11:07:29.032Z",
+      "status": "published",
+      "articlePath": "src/content/articles/hormuz-eskalation-us-angriffe-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/hormuz-eskalation-us-angriffe-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36751573/neue-eskalation-in-strasse-von-hormuz-us-angriffe-und-brennendes-schiff",
+        "https://kurier.at/politik/ausland/strasse-hormus-us-angriffe-brennendes-schiff/403175660"
+      ],
+      "openQuestions": [
+        "Wie viele Ziele wurden tatsächlich getroffen und mit welchem Schaden – unabhängig von den Angaben der Konfliktparteien?",
+        "Was genau ist der von Iran behauptete 'Vertragsbruch' der USA, und existiert eine überprüfbare Vereinbarung dazu?",
+        "Wie geht es dem als vermisst gemeldeten indischen Besatzungsmitglied, laufen Such- und Rettungsmaßnahmen?",
+        "Wird die Straße von Hormuz faktisch gesperrt, und welche Folgen hätte das für Energiepreise und Lieferketten in Europa?",
+        "Wie positionieren sich EU und österreichische Regierung zu den Auswirkungen auf die Energiesicherheit?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T11:07:29.032Z",
+      "doNotUpdateBefore": "2026-07-12T17:07:29.032Z"
     }
   }
 }
