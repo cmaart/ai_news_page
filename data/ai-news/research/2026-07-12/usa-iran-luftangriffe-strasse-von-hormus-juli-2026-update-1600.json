@@ -1,0 +1,290 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-386dbc93",
+    "title": "USA widersprechen Iran bei Straße von Hormus",
+    "items": [
+      {
+        "itemId": "0eee7f1b72d71984a1eb75f7a5fb4eb094294e27cca6d25c22683b515b53b580",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "USA widersprechen Iran bei Straße von Hormus",
+        "url": "https://orf.at/stories/3436011",
+        "summary": "Trotz der Verkündung des Iran, die Straße von Hormus bis auf Weiteres zu schließen, fließt der Schiffsverkehr durch die für den Welthandel wichtige Meerenge nach Angaben der US-Armee weiterhin. Mit ihren jüngsten Angriffen hätten die USA aus Sicht von Präsident Donald Trump dem Iran zudem einen schweren Schlag versetzt.",
+        "publishedAt": "2026-07-12T15:40:16.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "2850182aa9687e760386177eed03add865bf930af70b2a932cb6bac3141c19a8",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Iran schließt Straße von Hormus: US-Angriffe auf Iran",
+        "url": "https://orf.at/stories/3435963",
+        "isNew": false
+      },
+      {
+        "itemId": "a73afcf0f11a4921cbc485e724d1aa420fd30ff577249d63bf8dd1e837a0537e",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "USA greifen Iran an – Teheran schließt Straße von Hormus und reagiert mit Gegenschlägen",
+        "url": "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
+        "isNew": false
+      },
+      {
+        "itemId": "9ffd4a7c8f1bfdbc1572e4c4d7a479c406143c2dc98c47b54a25336fc55ab5bd",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "USA greifen Iran an – Teheran schließt Straße von Hormus und reagiert mit Gegenschlägen",
+        "url": "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "update_story",
+    "reason": "relatedStory existiert (published, hasPublishedArticle true). Neue Items liefern substanziell zusätzliche Details: ORF-Fulltext mit Trump-Zitaten zum gescheiterten Deal, Rahmenabkommen-Kontext, Iran-Reaktionen; Der Standard erwähnt diskrepante Angriffszahl (300 statt 140 Ziele, möglicherweise drei Tage vs. ein Tag). Diskrepanz in Angriffszahlen und erweiterte Quellenlage (ORF + Der Standard) rechtfertigen Update. Recherche sollte Zahlenunterschied klären (zeitliche Auswertung?), faktischen Status der Straße überprüfen, österreichische/EU-Reaktion recherchieren, Ölmarkt-Effekte dokumentieren.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 1,
+    "possibleClaims": [
+      "USA griffen am Sonntag rund 140 militärische Ziele im Iran an",
+      "US-Militär attackierte in drei Nächten mehr als 300 Ziele (Diskrepanz zu ORF-Angaben)",
+      "Straße von Hormus ist faktisch offen für Schiffsverkehr (USA-Position)",
+      "Iran erklärte Straße für gesperrt bis auf Weiteres (Iran-Position)",
+      "Ein iranischer Soldat wurde getötet",
+      "Rahmenabkommen von Juni 2026 sah 60-Tage-Verhandlungsfrist vor",
+      "Trump behauptet, Iran brach Verhandlungen unmotiviert ab",
+      "Iran wirft USA Vertragsbruch vor"
+    ],
+    "missingSources": [
+      "Verifizierung der Angriffszahldiskrepanz (140 vs. 300) – eine oder beide Seiten unklar?",
+      "Dokumentierte Quellen zum Rahmenabkommen vom Juni 2026",
+      "Neutrale Verifizierung des faktischen Status der Straße von Hormus (Schifffahrts-Tracking, neutrale Beobachter)",
+      "Bestätigte Opferzahlen auf iranischer und US-Seite",
+      "Offizielle Reaktion österreichischer Regierung und EU-Institutionen",
+      "Quantifizierbare Auswirkungen auf Ölpreise und Schifffahrtsversicherungen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
+    "title": "USA greifen Iran erneut an – Washington widerspricht Teherans Sperre der Straße von Hormus",
+    "description": "Laut ORF widerspricht das US-Militär der iranischen Ankündigung, die Straße von Hormus gesperrt zu haben – der Schiffsverkehr laufe weiter. Internationale Medien berichten zudem von einem angegriffenen Frachtschiff, unterschiedlichen Zahlen zu getroffenen Zielen und einem Streit über ein Rahmenabkommen. Zentrale Details bleiben nicht unabhängig verifiziert.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Der Grundvorgang – erneute US-Luftangriffe, iranische Sperr-Ankündigung für die Straße von Hormus und wechselseitige Vergeltungsschläge – wird inzwischen von mehreren voneinander unabhängigen Medien aus Österreich (ORF, Der Standard) und international (u. a. CNN, NPR, ZDF) übereinstimmend berichtet, was die Kerndarstellung stützt. Einzelheiten wie die genaue Zahl getroffener Ziele, das Ausmaß der Gegenschläge und der faktische Status der Meerenge unterscheiden sich jedoch je nach Quelle und sind nicht einheitlich rekonstruierbar.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde weiterhin keine offizielle Erklärung des US-Zentralkommandos (Centcom), des Pentagon, des Weißen Hauses oder iranischer Stellen im Original eingesehen. Aussagen, die Trump oder dem US-Militär zugeschrieben werden, stammen ausschließlich aus der Wiedergabe durch internationale Medien, nicht aus direkt geprüften Primärdokumenten oder Original-Statements.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung beruht weiterhin ausschließlich auf Medienberichten ohne direkt zitierte Original-Stellungnahmen beider Konfliktparteien; zudem widersprechen sich Angaben zur Zahl der Angriffsziele und zum tatsächlichen Status der Straße von Hormus je nach Quelle, was die Einordnung erschwert.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut ORF widerspricht das US-Militär der iranischen Ankündigung, die Straße von Hormus sei bis auf Weiteres gesperrt: Der Schiffsverkehr laufe demnach weiterhin.",
+        "kind": "fact"
+      },
+      {
+        "text": "US-Präsident Trump sieht den Iran durch die jüngsten Angriffe schwer getroffen; laut internationalen Medienberichten wurden bei der jüngsten Angriffswelle am Wochenende rund 140 Ziele im Iran attackiert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Andere Berichte, darunter Der Standard, sprechen von kumulativ mehr als 300 getroffenen Zielen über mehrere Tage – die Zahlen lassen sich aus den vorliegenden Quellen nicht zweifelsfrei zusammenführen.",
+        "kind": "open"
+      },
+      {
+        "text": "Auslöser der jüngsten Eskalation sollen Angriffe auf Handelsschiffe in der Straße von Hormus gewesen sein, darunter ein unter zyprischer Flagge fahrendes Containerschiff mit einem vermissten Besatzungsmitglied.",
+        "kind": "fact"
+      },
+      {
+        "text": "Dem Streit um die Meerenge liegt laut internationalen Berichten eine unterschiedliche Auslegung eines im Juni 2026 vereinbarten Rahmenabkommens zugrunde; Oman vermittelt mit einem Vorschlag zur Aufteilung der Route, bisher ohne Durchbruch.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie stark der Schiffsverkehr tatsächlich beeinträchtigt ist und wie sich die Position der USA („Verkehr läuft weiter“) mit Berichten über deutlich gesunkene Schiffszahlen vereinbaren lässt, bleibt offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lassen sich die unterschiedlichen Angaben zu getroffenen Zielen (rund 140 in der jüngsten Angriffswelle vs. kumulativ mehr als 300 über mehrere Tage) zweifelsfrei zusammenführen?",
+      "Gibt es bestätigte Opferzahlen auf iranischer oder US-Seite?",
+      "Ist die Straße von Hormus tatsächlich uneingeschränkt befahrbar, oder handelt es sich – wie die gesunkenen Schiffszahlen nahelegen – nur um eine teilweise Öffnung?",
+      "Was ist der aktuelle Zustand des angegriffenen Containerschiffs und seines vermissten Besatzungsmitglieds?",
+      "Wird der omanische Vermittlungsvorschlag zur Aufteilung in eine freie südliche und eine genehmigungspflichtige nördliche Route von beiden Seiten angenommen?",
+      "Wie reagieren EU-Institutionen und die österreichische Regierung auf die Eskalation?",
+      "Welche konkreten Auswirkungen zeigen sich auf Ölpreise und Schifffahrtsversicherungen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff"
+      },
+      {
+        "id": "src2",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3435963"
+      },
+      {
+        "id": "src3",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3436011"
+      },
+      {
+        "id": "src4",
+        "name": "CNN",
+        "type": "media",
+        "url": "https://www.cnn.com/2026/07/11/world/live-news/iran-war-trump"
+      },
+      {
+        "id": "src5",
+        "name": "NPR",
+        "type": "media",
+        "url": "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz-gulf"
+      },
+      {
+        "id": "src6",
+        "name": "ZDFheute",
+        "type": "media",
+        "url": "https://www.zdfheute.de/politik/ausland/strasse-hormus-schiffsverkehr-einbruch-100.html"
+      },
+      {
+        "id": "src7",
+        "name": "CNBC",
+        "type": "media",
+        "url": "https://www.cnbc.com/2026/07/10/us-iran-war-strikes-strait-of-hormuz-technical-talks-progress-.html"
+      },
+      {
+        "id": "src8",
+        "name": "Nachrichten.at (OÖN)",
+        "type": "media",
+        "url": "https://www.nachrichten.at/politik/aussenpolitik/eskalation-in-strasse-von-hormus-us-angriffe-und-ein-brennendes-schiff;art391,4191126"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die US-Streitkräfte haben in der Nacht auf Sonntag (12. Juli 2026) erneut Luftangriffe auf Ziele im Iran geflogen.",
+        "status": "supported",
+        "note": "Wird inzwischen von österreichischen Medien (Der Standard, ORF) und internationalen Medien (CNN, NPR) übereinstimmend als dritte Angriffswelle innerhalb einer Woche beschrieben. Eine offizielle Bestätigung durch ein direkt eingesehenes US- oder iranisches Originaldokument liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Iran hat als Reaktion auf die Angriffe die Straße von Hormus erneut gesperrt.",
+        "status": "supported",
+        "note": "Von mehreren unabhängigen Quellen übereinstimmend gemeldet, laut Berichten mit der Formulierung, die Straße sei „bis auf Weiteres“ geschlossen. Die USA bestreiten laut ORF jedoch, dass diese Sperre den Schiffsverkehr faktisch unterbindet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Teheran hat mit Gegenschlägen auf die US-Angriffe reagiert, unter anderem sollen iranische Revolutionsgarden Ziele in Jordanien (Prince Hassan Air Base) sowie laut anderen Berichten in Golfstaaten angegriffen haben.",
+        "status": "partial",
+        "note": "Mehrere Sekundärquellen nennen konkretere Details (z. B. angebliche Zerstörung eines Kommandozentrums und Hangars für Drohnen in Jordanien), die Angaben zu betroffenen Ländern (Jordanien vs. zusätzlich Kuwait/Bahrain) variieren jedoch zwischen den Berichten und sind nicht durch eine gemeinsame Primärquelle belegt.",
+        "sourceIds": [
+          "src1",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Ein unter zyprischer Flagge fahrendes Containerschiff soll im Bereich der Straße von Hormus beschossen worden sein und in Brand geraten sein; von elf indischen Besatzungsmitgliedern seien zehn gerettet worden, eines werde vermisst.",
+        "status": "partial",
+        "note": "Dieser Vorfall wird inzwischen von mehreren voneinander unabhängigen Sekundärquellen mit übereinstimmenden Details (Schiffsname, Besatzungszahlen) beschrieben, was die Einschätzung gegenüber der vorherigen Fassung stützt. Eine unabhängig geprüfte Primärquelle (z. B. Reederei- oder Behördenstatement) liegt aber nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src5",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Bei der jüngsten Angriffswelle am Wochenende sollen die USA rund 140 Ziele im Iran getroffen haben (u. a. Raketen- und Drohnenstellungen, Marineeinrichtungen, Munitionslager, Kommunikationsnetze, Küstenüberwachung).",
+        "status": "partial",
+        "note": "Diese Zahl wird von internationalen Medien unter Berufung auf US-Militärangaben genannt; eine direkt eingesehene Original-Erklärung des US-Zentralkommandos liegt hier nicht vor.",
+        "sourceIds": [
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Andere Berichte, darunter Der Standard, sprechen von insgesamt mehr als 300 getroffenen Zielen.",
+        "status": "unclear",
+        "note": "Die Diskrepanz zur Zahl von rund 140 Zielen lässt sich mit den vorliegenden Quellen nicht abschließend auflösen. Naheliegend, aber nicht belegt, ist, dass sich die höhere Zahl auf mehrere Angriffswellen über mehrere Tage summiert, während die niedrigere Zahl nur die jüngste einzelne Welle beschreibt.",
+        "sourceIds": [
+          "src1",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Das US-Militär erklärt laut ORF, der Schiffsverkehr durch die Straße von Hormus laufe trotz der iranischen Sperr-Ankündigung weiter; zugleich berichten andere Quellen von einem deutlichen Rückgang der Schiffszahlen (etwa sechs Frachtschiffe an einem Tag gegenüber 21 am Vortag).",
+        "status": "partial",
+        "note": "Beide Angaben schließen sich nicht zwingend aus – die Meerenge könnte formal passierbar sein, während die tatsächliche Nutzung stark zurückgeht –, doch eine Quelle, die beide Aspekte gemeinsam einordnet, liegt hier nicht vor.",
+        "sourceIds": [
+          "src3",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Dem Konflikt um die Straße von Hormus liegt ein Streit über die Auslegung eines im Juni 2026 vereinbarten Rahmenabkommens zugrunde (u. a. eine Klausel zu einer 60-tägigen, gebührenfreien Durchfahrtsregelung); Oman vermittelt mit einem Vorschlag zur Aufteilung in eine freie südliche und eine genehmigungspflichtige nördliche Route, Gespräche in Maskat sollen ohne Durchbruch geendet haben.",
+        "status": "partial",
+        "note": "Diese Einordnung stützt sich auf mehrere internationale Sekundärquellen, nicht auf den Wortlaut des Abkommens selbst, der hier nicht eingesehen wurde.",
+        "sourceIds": [
+          "src7",
+          "src6"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was neu ist",
+        "markdown": "Laut einem neuen ORF-Bericht widerspricht das US-Militär der iranischen Darstellung, die Straße von Hormus sei gesperrt: Der Schiffsverkehr durch die für den Welthandel zentrale Meerenge laufe demnach weiterhin. US-Präsident Donald Trump wird zudem mit der Einschätzung zitiert, die jüngsten Angriffe hätten dem Iran einen schweren Schlag versetzt. Damit tritt zu den bereits gemeldeten US-Luftangriffen und der iranischen Sperr-Ankündigung ein direkter Widerspruch zwischen den beiden Positionen hinzu."
+      },
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Nach Angaben von Der Standard und ORF haben die USA in der Nacht auf Sonntag erneut Luftangriffe auf Ziele im Iran geflogen – nach vorliegender internationaler Berichterstattung (u. a. CNN, NPR) handelt es sich um die dritte Angriffswelle innerhalb einer Woche. Ausgelöst wurde die jüngste Eskalation demnach durch Angriffe auf Handelsschiffe in der Straße von Hormus: Mehrere Quellen beschreiben ein unter zyprischer Flagge fahrendes Containerschiff, das beschossen wurde, in Brand geriet und dessen Besatzung – nach übereinstimmenden Angaben elf indische Staatsangehörige – bis auf ein vermisstes Mitglied gerettet werden konnte. Iran erklärte daraufhin die Straße von Hormus für „bis auf Weiteres“ gesperrt und reagierte laut Berichten mit Gegenschlägen, unter anderem auf einen US-Stützpunkt in Jordanien."
+      },
+      {
+        "heading": "Widerspruch zwischen Washington und Teheran",
+        "markdown": "Die neueste ORF-Meldung stellt der iranischen Sperr-Ankündigung die US-Position gegenüber: Das US-Militär gibt an, der Schiffsverkehr fließe trotz der Ankündigung weiter durch die Meerenge. Gleichzeitig berichten andere Quellen (ZDFheute) von einem deutlichen Rückgang der tatsächlichen Schiffszahlen – etwa sechs Frachtschiffe an einem Tag gegenüber 21 am Vortag. Beide Angaben widersprechen sich nicht zwangsläufig: Die Straße könnte formal passierbar sein, während sich die tatsächliche Nutzung wegen der Gefahrenlage stark verringert. Eine Quelle, die beide Aspekte gemeinsam einordnet, liegt hier jedoch nicht vor, weshalb der genaue Grad der Beeinträchtigung offen bleibt."
+      },
+      {
+        "heading": "Unterschiedliche Zahlen zu getroffenen Zielen",
+        "markdown": "Internationale Medien (CNN, NPR) beziffern die Zahl der bei der jüngsten Angriffswelle getroffenen Ziele auf rund 140 – darunter Raketen- und Drohnenstellungen, Marineeinrichtungen, Munitionslager, Kommunikationsnetze und Küstenüberwachungsanlagen. Der Standard spricht hingegen von mehr als 300 getroffenen Zielen. Diese Diskrepanz lässt sich mit den vorliegenden Quellen nicht zweifelsfrei auflösen; naheliegend, aber nicht belegt, ist, dass sich die höhere Zahl auf mehrere Angriffswellen über mehrere Tage summiert, während sich die niedrigere Zahl nur auf die jüngste einzelne Welle bezieht. Eine gemeinsame, unabhängig geprüfte Quelle, die beide Angaben rekonstruiert, liegt hier nicht vor."
+      },
+      {
+        "heading": "Der Streit um ein Rahmenabkommen",
+        "markdown": "Laut internationaler Berichterstattung (u. a. CNBC) geht der aktuelle Konflikt auch auf eine unterschiedliche Auslegung eines im Juni 2026 vereinbarten Rahmenabkommens zurück. Eine darin enthaltene Klausel soll Iran verpflichten, für 60 Tage die gebührenfreie und sichere Durchfahrt von Handelsschiffen durch die Straße von Hormus zu gewährleisten. Iranische Stellen sollen daraus ein Mitspracherecht über die Verkehrssteuerung in der Meerenge ableiten, während die USA dies als reine Nichtbehinderungspflicht Irans verstehen. Der vermittelnde Golfstaat Oman soll einen Kompromiss vorgeschlagen haben, wonach die südliche Route frei passierbar bliebe, während die nördliche, näher an der iranischen Küste gelegene Route einer iranischen Genehmigung bedürfte. Gespräche dazu in der omanischen Hauptstadt Maskat sollen am Samstag ohne Durchbruch geendet haben. Diese Einordnung stützt sich ausschließlich auf internationale Sekundärquellen; der Wortlaut des Abkommens selbst wurde hier nicht eingesehen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt insbesondere, wie sich die widersprüchlichen Zahlen zu getroffenen Zielen (rund 140 versus mehr als 300) zusammenführen lassen. Unklar sind zudem mögliche Opferzahlen auf iranischer oder US-Seite, der genaue Status und Verbleib des vermissten Besatzungsmitglieds des angegriffenen Containerschiffs sowie das tatsächliche Ausmaß der iranischen Gegenschläge – Angaben zu betroffenen Ländern und Zielen variieren zwischen den Quellen. Auch wie sich die US-Position „Verkehr läuft weiter“ mit Berichten über deutlich gesunkene Schiffszahlen im Detail vereinbaren lässt, ist nicht abschließend geklärt. Ob der omanische Vermittlungsvorschlag zur Aufteilung der Route von beiden Seiten angenommen wird, sowie Reaktionen von EU-Institutionen und der österreichischen Regierung, sind bislang nicht Teil der vorliegenden Berichte."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Straße von Hormus gilt als eine der neuralgischsten Punkte der globalen Energieversorgung, da ein erheblicher Teil des weltweit seewärts transportierten Öls diese Route passiert. Der öffentlich ausgetragene Widerspruch zwischen der US-Position („Verkehr läuft weiter“) und der iranischen Sperr-Ankündigung – kombiniert mit Berichten über spürbar gesunkene Schiffszahlen – zeigt, wie unübersichtlich die Lage aktuell ist. Auch die unterschiedlichen Zielzahlen und die diplomatischen Bemühungen Omans verdeutlichen, dass zentrale Fakten je nach Quelle variieren. Angesichts der Schnelllebigkeit der Kriegsberichterstattung, der weiterhin fehlenden Primärquellen und der Tragweite möglicher Eskalationsschritte ist bei dieser Meldung besondere Zurückhaltung geboten: Einzelheiten zu Zielen, Opfern und dem tatsächlichen Zustand der Meerenge können sich in den kommenden Stunden noch ändern oder revidiert werden."
+      }
+    ],
+    "bodyKompakt": "Laut einem neuen ORF-Bericht widerspricht das US-Militär der iranischen Darstellung, die Straße von Hormus sei gesperrt: Der Schiffsverkehr laufe demnach weiterhin, während Präsident Trump von einem schweren Schlag gegen den Iran spricht. Zugleich haben die USA in der Nacht auf Sonntag laut Der Standard und ORF erneut Luftangriffe auf Ziele im Iran geflogen – nach internationaler Berichterstattung (CNN, NPR) die dritte Angriffswelle innerhalb einer Woche. Auslöser sollen Angriffe auf Handelsschiffe gewesen sein, darunter ein beschossenes und brennendes Containerschiff mit einem vermissten Besatzungsmitglied. Iran erklärte die Meerenge daraufhin für „bis auf Weiteres“ gesperrt und reagierte mit Gegenschlägen, unter anderem auf einen US-Stützpunkt in Jordanien.\n\nZu Details bestehen weiterhin Widersprüche: Während ein Teil der Berichte von rund 140 getroffenen Zielen bei der jüngsten Angriffswelle spricht, nennt Der Standard eine kumulative Zahl von mehr als 300 – eine Zusammenführung beider Angaben ist mit den vorliegenden Quellen nicht möglich. Auch die US-Aussage, der Schiffsverkehr laufe weiter, steht neben Berichten über einen deutlichen Rückgang der tatsächlichen Schiffszahlen. Hintergrund des Streits um die Meerenge ist laut internationalen Quellen ein im Juni 2026 geschlossenes Rahmenabkommen, dessen Auslegung zwischen den USA und Iran umstritten ist; der vermittelnde Golfstaat Oman soll eine Aufteilung in eine freie südliche und eine genehmigungspflichtige nördliche Route vorgeschlagen haben, Gespräche dazu endeten zuletzt ohne Durchbruch.\n\nOffen bleiben bestätigte Opferzahlen, der genaue Status des vermissten Besatzungsmitglieds, das tatsächliche Ausmaß der iranischen Gegenschläge sowie Reaktionen von EU und österreichischer Regierung. Da sich die gesamte Darstellung weiterhin ausschließlich auf Medienberichte ohne eingesehene Primärquellen von US- oder iranischer Seite stützt und sich einzelne Zahlen widersprechen, ist bei dieser Meldung besondere Zurückhaltung geboten.",
+    "updateNote": "Neue ORF-Meldung: Das US-Militär widerspricht der iranischen Sperr-Ankündigung für die Straße von Hormus und meldet weiterlaufenden Schiffsverkehr; zusätzliche internationale Berichterstattung liefert Details zum angegriffenen Containerschiff, zu widersprüchlichen Zahlen getroffener Ziele (rund 140 vs. über 300) und zum zugrunde liegenden Rahmenabkommen samt omanischer Vermittlung."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-12T16:07:30.894Z"
+}
