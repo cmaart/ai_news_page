@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-12T06:18:44.200Z",
+  "updatedAt": "2026-07-12T07:16:43.498Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -904,7 +904,6 @@
       "doNotRedraftBefore": "2026-07-12T06:07:25.846Z",
       "doNotUpdateBefore": "2026-07-11T12:07:25.846Z",
       "echoPublishers": {
-        "thedecoder": "2026-07-11T06:28:44.592Z",
         "diepresse": "2026-07-11T08:07:22.735Z",
         "futurezone": "2026-07-11T08:07:22.735Z",
         "heise": "2026-07-11T09:07:25.442Z",
@@ -936,12 +935,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T06:07:25.846Z",
       "doNotUpdateBefore": "2026-07-11T12:07:25.846Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-11T06:28:44.592Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-11T06:28:44.592Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-12T07:07:28.557Z"
     },
     "geiselnahme-berlin-supermarkt-juli-2026": {
       "canonicalTitle": "Geiselnahme in Berliner Supermarkt nach zwölf Stunden beendet",
@@ -1662,7 +1659,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T06:07:23.718Z",
-      "doNotUpdateBefore": "2026-07-12T12:07:23.718Z"
+      "doNotUpdateBefore": "2026-07-12T12:07:23.718Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-12T07:07:28.557Z"
+      }
     },
     "usa-iran-luftangriffe-strasse-von-hormus-juli-2026": {
       "canonicalTitle": "USA greifen Iran erneut an – Teheran meldet Sperre der Straße von Hormus und Gegenschläge",
@@ -1704,6 +1704,75 @@
         "Sekundär-Quellen zu Kurz' aktuellem Status oder Vermögensaufbau"
       ],
       "sensitivity": "medium"
+    },
+    "lindsey-graham-us-senator-gestorben-juli-2026": {
+      "canonicalTitle": "US-Senator Lindsey Graham im Alter von 71 Jahren gestorben",
+      "slug": "lindsey-graham-us-senator-gestorben-juli-2026",
+      "firstSeenAt": "2026-07-12T07:07:28.557Z",
+      "lastUpdatedAt": "2026-07-12T07:07:28.557Z",
+      "status": "published",
+      "articlePath": "src/content/articles/lindsey-graham-us-senator-gestorben-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/lindsey-graham-us-senator-gestorben-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3435976",
+        "https://www.diepresse.com/36752830/us-senator-lindsey-graham-gestorben",
+        "https://www.kleinezeitung.at/artikel/36752520/us-senator-lindsey-graham-ist-tot",
+        "https://www.nbcnews.com/politics/politics-news/sen-lindsey-graham-dies-71-brief-sudden-illness-rcna552722",
+        "https://www.washingtonpost.com/politics/2026/07/12/lindsey-graham-longtime-south-carolina-senator-dies-71/"
+      ],
+      "openQuestions": [
+        "Welche medizinische Ursache lag der von Grahams Büro genannten „plötzlichen Erkrankung“ zugrunde?",
+        "Wie und wann wird die Nachfolge für Grahams Senatssitz aus South Carolina geregelt?",
+        "Welche Auswirkungen hat der Tod auf die Mehrheitsverhältnisse und laufende Ausschussarbeit im US-Senat?",
+        "Wie wirkt sich der Todesfall auf die für November 2026 angesetzte Senatswahl in South Carolina aus?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-13T07:07:28.557Z",
+      "doNotUpdateBefore": "2026-07-12T13:07:28.557Z"
+    },
+    "nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026": {
+      "canonicalTitle": "SPÖ-Auswertung: 179 Gesetzesbeschlüsse seit Regierungsantritt, breite Oppositionszustimmung reklamiert",
+      "slug": "nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026",
+      "firstSeenAt": "2026-07-12T07:07:28.557Z",
+      "lastUpdatedAt": "2026-07-12T07:07:28.557Z",
+      "status": "published",
+      "articlePath": "src/content/articles/nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3435970",
+        "https://www.diepresse.com/36752798/nationalrat-179-gesetzesbeschluesse-seit-regierungsantritt"
+      ],
+      "openQuestions": [
+        "Wie hat die SPÖ methodisch gezählt (welche Beschlüsse fließen ein, welcher Zeitraum genau)?",
+        "Wie reagieren ÖVP und NEOS als Koalitionspartner sowie FPÖ und Grüne als Opposition auf diese Selbstdarstellung?",
+        "Lassen sich die Zahlen anhand der Parlamentsdokumentation unabhängig nachvollziehen?",
+        "Wie ordnet sich die Bilanz im Vergleich zu früheren Regierungsperioden objektiv ein?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-13T07:07:28.557Z",
+      "doNotUpdateBefore": "2026-07-12T13:07:28.557Z"
+    },
+    "vw-fabrikschliessungen-blume-juli-2026": {
+      "canonicalTitle": "Volkswagen-Chef Blume: Fabrikschließungen sollen vermieden werden",
+      "slug": "vw-fabrikschliessungen-blume-juli-2026",
+      "firstSeenAt": "2026-07-12T07:07:28.557Z",
+      "lastUpdatedAt": "2026-07-12T07:07:28.557Z",
+      "status": "published",
+      "articlePath": "src/content/articles/vw-fabrikschliessungen-blume-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-12/vw-fabrikschliessungen-blume-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331102/volkswagen-chef-will-fabrikschlie223ungen-vermeiden",
+        "https://kurier.at/wirtschaft/volkswagen-chef-will-fabrikschliessungen-vermeiden/403175659"
+      ],
+      "openQuestions": [
+        "Wie belastbar sind die kursierenden Zahlen zu möglichen Werksschließungen und Stellenabbau tatsächlich?",
+        "Wie reagieren Betriebsrat und IG Metall auf die Aussagen des Konzernchefs?",
+        "Liegt inzwischen eine offizielle Stellungnahme oder Pressemitteilung von Volkswagen vor?",
+        "Auf welches Interview beziehen sich die Berichte konkret, und was wurde dort wortgleich gesagt?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-13T07:07:28.557Z",
+      "doNotUpdateBefore": "2026-07-12T13:07:28.557Z"
     }
   }
 }
