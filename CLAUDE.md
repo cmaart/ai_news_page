@@ -16,7 +16,7 @@ npm run validate   # Content-Cross-Checks (vor jedem Commit mit Artikel-Änderun
 ```
 
 Deploy: Push auf `main` → GitHub Actions baut und deployt auf GitHub Pages
-(live: https://cmaart.github.io/ai_news_page/). PRs werden nur validiert+gebaut.
+(live: https://neuenachrichten.at/). PRs werden nur validiert+gebaut.
 
 ## Unverhandelbare Regeln
 

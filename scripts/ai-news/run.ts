@@ -16,6 +16,7 @@ import { draftOrUpdate, triageCluster } from './claude.ts';
 import { buildClusters } from './cluster.ts';
 import { fetchAllFeeds } from './fetch.ts';
 import { enrichClusterWithFulltext } from './fulltext.ts';
+import { selectCommonsImage } from './commons.ts';
 import { downloadAndProcessImage, selectWhitelistImage } from './image.ts';
 import { scanAndReportImageCandidates } from './image-scan.ts';
 import {
@@ -429,9 +430,10 @@ async function main(): Promise<void> {
         | { publishedAt?: string | Date; newsworthiness?: number; corrections?: { date: string | Date; type: 'correction' | 'update'; text: string }[]; image?: Record<string, unknown>; resonance?: Record<string, unknown> }
         | undefined;
 
-      // Bild (E44): Updates behalten das bestehende Bild; sonst deterministisch
-      // aus der kuratierten Whitelist wählen (keine LLM-Bildsuche) und nur für
-      // hochrelevante Stories. Jeder Fehler ⇒ Artikel ohne Bild.
+      // Bild: Updates behalten das bestehende Bild; sonst zuerst deterministisch
+      // aus der kuratierten Whitelist (E44), bei Miss als Fallback ein Commons-
+      // Symbolbild (E49). Beides nur für hochrelevante Stories. Jeder Fehler ⇒
+      // Artikel ohne Bild.
       let imageFrontmatter = existingFm?.image;
       let imagePath: string | undefined;
       if (!imageFrontmatter && allowImage) {
@@ -450,6 +452,33 @@ async function main(): Promise<void> {
             console.log(`Bild übernommen für ${slug}: Whitelist-Eintrag ${selection.entryId}`);
           } catch (error) {
             console.warn(`Bild verworfen für ${slug}: ${(error as Error).message}`);
+          }
+        }
+      }
+
+      // Commons-Fallback (E49): nur wenn kein Whitelist-Bild gefunden wurde.
+      // Sensitivity-/Framing-Gate: bei heiklen Stories (Verbrechen/Opfer/Kinder,
+      // § 78 UrhG) KEIN automatisches Symbolbild — Restrisiko dort zu hoch.
+      const commonsOk =
+        process.env.AI_NEWS_COMMONS !== '0' &&
+        sanitized.sensitivity !== 'high' &&
+        sanitized.framingRisk !== 'high';
+      if (!imageFrontmatter && allowImage && commonsOk) {
+        const commons = await selectCommonsImage(sanitized);
+        if (commons) {
+          try {
+            const file = await downloadAndProcessImage(slug, commons.image.downloadUrl);
+            imageFrontmatter = {
+              file,
+              alt: commons.image.alt,
+              caption: commons.image.caption,
+              kind: 'symbol',
+              credit: { ...commons.image.credit, retrievedAt: nowIso },
+            };
+            imagePath = `src/assets/articles/${slug}/hero.webp`;
+            console.log(`Commons-Symbolbild (${commons.match}) übernommen für ${slug}: ${commons.fileTitle}`);
+          } catch (error) {
+            console.warn(`Commons-Bild verworfen für ${slug}: ${(error as Error).message}`);
           }
         }
       }
