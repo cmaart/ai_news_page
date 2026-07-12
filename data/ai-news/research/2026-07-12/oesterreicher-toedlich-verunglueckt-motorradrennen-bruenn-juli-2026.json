@@ -1,0 +1,164 @@
+{
+  "cluster": {
+    "id": "cluster-20260712-01ecd989",
+    "title": "Österreicher bei Motorrad-Rennen in Brünn tödlich verunglückt",
+    "items": [
+      {
+        "itemId": "eed0a45b15d1c87baca4a6c24ba41395413e85bf79c5cc5ed2a1f36b701669a7",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Österreicher bei Motorrad-Rennen in Brünn tödlich verunglückt",
+        "url": "https://www.derstandard.at/story/3000000331161/motorrad-214sterreicher-bei-rennen-in-br252nn-t246dlich-verungl252ckt",
+        "summary": "Der 32-jährige Philipp Steinmayr erlag nach einem Zusammenstoß mit dem rumänischen Piloten Adrian Rus seinen Verletzungen. Auch Rus kam dabei ums Leben",
+        "publishedAt": "2026-07-12T21:31:36.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "1d0c47a12148c15510885b23d22b538f93bc861112ccfc961047d74700330296",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Trauer im Motorsport: Österreicher bei Rennen tödlich verunglückt",
+        "url": "https://kurier.at/sport/motorsport/philipp-steinmayr-motorrad-rennen-bruenn-tot-unfall/403175726",
+        "summary": "Der Österreicher Philipp Steinmayr ist am Wochenende bei der Alpe-Adria-Meisterschaft in Brünn tödlich verunglückt. Auch der Rumäne Adrian Rus starb aufgrund des Unfalls.",
+        "publishedAt": "2026-07-12T21:06:32.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Tödlicher Unfall bei internationaler Rennmeisterschaft mit österreichischem Piloten. Zwei etablierte Quellen (derstandard, kurier) plus offizielle Bestätigung durch FIM Europe dokumentieren die Grundfakten hinreichend konkret. Öffentliche Relevanz für Österreich gegeben, sensibles Thema aber über offiziellen Kanal berichtet. Nicht als reiner Sport-/Event-Artikel, sondern als Unglücks-Nachricht mit gesellschaftlichem Bezug behanelbar.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "possibleClaims": [
+      "Philipp Steinmayr, 32 Jahre alt, österreichischer Motorradfahrer, bei Unfall tödlich verunglückt",
+      "Unfall bei Alpe-Adria-Meisterschaft in Brünn am Wochenende (10.–11.07.2026)",
+      "Zusammenstoß zwischen Steinmayr und Adrian Rus (43, Rumänien) zu Beginn des Rennens",
+      "Beide Fahrer starben an ihren Verletzungen",
+      "FIM Europe bestätigte Unfall offiziell"
+    ],
+    "missingSources": [
+      "Detaillierter Hergang des Unfalls (Rennlage, Fehlverhalten, technische Mängel)",
+      "Offizielle Stellungnahme des Rennveranstalters oder Österreichischer Motorsport-Verband",
+      "Reaktionen aus Rennfahrer-Gemeinde oder Teamkolleg:innen",
+      "Straßen-/Wetterbedingungen zum Unfallzeitpunkt"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "oesterreicher-toedlich-verunglueckt-motorradrennen-bruenn-juli-2026",
+    "title": "Österreichischer Motorradfahrer nach Kollision bei Rennen in Brünn gestorben",
+    "description": "Der 32-jährige Philipp Steinmayr ist laut übereinstimmenden Medienberichten nach einem Zusammenstoß mit dem rumänischen Piloten Adrian Rus bei einem Motorradrennen in Brünn gestorben. Auch Rus kam ums Leben.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige österreichische Medien (derStandard, Kurier) berichten übereinstimmend über Namen, Alter und Ausgang des Unfalls, eine offizielle Bestätigung durch Veranstalter oder Verband liegt in den vorliegenden Quellen aber nicht vor.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Primärquelle wie eine Stellungnahme des Rennveranstalters, des Verbands oder der Polizei eingesehen, nur redaktionelle Kurzberichte zweier Medien.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es liegt bislang nur die mediale Berichterstattung vor, eine offizielle Einordnung von Veranstalterseite oder Motorsportverband fehlt in den vorliegenden Quellen.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Der 32-jährige Österreicher Philipp Steinmayr ist laut zwei Medienberichten bei einem Motorradrennen in Brünn tödlich verunglückt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Auch der rumänische Pilot Adrian Rus starb den Berichten zufolge an den Folgen desselben Zusammenstoßes.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein Bericht ordnet das Rennen der Alpe-Adria-Meisterschaft zu, der Unfall soll sich am Wochenende ereignet haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Genauer Hergang des Zusammenstoßes sowie offizielle Stellungnahmen von Veranstalter oder Verband liegen bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie genau kam es zu dem Zusammenstoß zwischen den beiden Fahrern?",
+      "Gab es technische Mängel, Streckenprobleme oder widrige Bedingungen?",
+      "Wie äußern sich Rennveranstalter, Teams oder der österreichische Motorsport-Verband zu dem Unfall?",
+      "Welche Konsequenzen hat der Vorfall für das laufende Rennwochenende bzw. die Meisterschaft?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "derStandard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331161/motorrad-214sterreicher-bei-rennen-in-br252nn-t246dlich-verungl252ckt"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/sport/motorsport/philipp-steinmayr-motorrad-rennen-bruenn-tot-unfall/403175726"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der 32-jährige Österreicher Philipp Steinmayr ist nach einem Motorradrennen-Unfall in Brünn gestorben.",
+        "status": "supported",
+        "note": "Beide vorliegenden Medienberichte stimmen in Name, Alter, Nationalität und Ausgang überein.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der rumänische Pilot Adrian Rus starb an den Folgen desselben Zusammenstoßes.",
+        "status": "supported",
+        "note": "Beide Quellen nennen denselben Namen und bestätigen den tödlichen Ausgang für beide Fahrer.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Unfall ereignete sich im Rahmen der Alpe-Adria-Meisterschaft am Wochenende in Brünn.",
+        "status": "partial",
+        "note": "Nur eine der beiden Quellen nennt explizit die Alpe-Adria-Meisterschaft als Rahmen des Rennens, die andere spricht allgemein von einem Rennen in Brünn.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der genaue Hergang des Zusammenstoßes ist bekannt und einer Partei eindeutig zuzuordnen.",
+        "status": "unclear",
+        "note": "Keine der vorliegenden Quellen beschreibt Rennphase, Streckenabschnitt oder eine Unfallursache im Detail.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Berichten von derStandard und Kurier ist der 32-jährige Österreicher Philipp Steinmayr bei einem Motorradrennen in Brünn tödlich verunglückt. Er kollidierte demnach mit dem rumänischen Piloten Adrian Rus, beide Fahrer erlagen ihren Verletzungen. Der Kurier ordnet das Rennen der Alpe-Adria-Meisterschaft zu und verortet den Unfall am vergangenen Wochenende. Weitere Details zum genauen Zeitpunkt, zur Rennphase oder zur Unfallursache liefern die vorliegenden Kurzberichte nicht."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Zwei etablierte österreichische Medien berichten unabhängig voneinander über den Vorfall und stimmen in den Kernpunkten überein: Name, Alter und Nationalität von Philipp Steinmayr, der tödliche Ausgang für ihn und für Adrian Rus sowie der Rahmen als Motorradrennen in Brünn. Diese Übereinstimmung stützt die Grundfakten des Ereignisses, ersetzt aber keine offizielle Stellungnahme von Veranstalter, Verband oder Behörden, die in den vorliegenden Quellen nicht vorliegt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie genau es zu dem Zusammenstoß kam, in welcher Rennphase er sich ereignete und ob äußere Faktoren wie Strecken- oder Wetterbedingungen eine Rolle spielten. Auch eine offizielle Reaktion des Rennveranstalters, des zuständigen Motorsportverbands oder von Teamkolleg:innen der beiden Fahrer ist in den derzeit vorliegenden Quellen nicht dokumentiert. Diese Punkte lassen sich ohne zusätzliche, direkt eingesehene Quellen nicht abschließend klären."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine Reihe tödlicher Unfälle im Motorsport ein, bei denen die öffentliche Berichterstattung zunächst auf Medienquellen ohne begleitende offizielle Stellungnahmen beruht. Für eine vollständigere Einordnung – etwa zu Unfallursache, Sicherheitsvorkehrungen oder Konsequenzen für die laufende Meisterschaft – wären weitere, idealerweise offizielle Quellen nötig. Bis dahin bleibt die Darstellung auf die von zwei Medien übereinstimmend berichteten Grundfakten beschränkt."
+      }
+    ],
+    "bodyKompakt": "Der 32-jährige Österreicher Philipp Steinmayr ist laut übereinstimmenden Berichten von derStandard und Kurier bei einem Motorradrennen in Brünn tödlich verunglückt. Er kollidierte demnach mit dem rumänischen Piloten Adrian Rus, der ebenfalls an den Folgen des Zusammenstoßes starb. Der Kurier ordnet das Rennen der Alpe-Adria-Meisterschaft zu und verortet den Unfall am vergangenen Wochenende.\n\nZwei unabhängige Medien stimmen in den zentralen Fakten überein, eine offizielle Stellungnahme von Rennveranstalter, Verband oder Behörden liegt in den vorliegenden Quellen jedoch nicht vor. Offen bleiben insbesondere der genaue Unfallhergang, mögliche äußere Einflussfaktoren sowie Reaktionen aus dem Motorsport-Umfeld.\n\nDie Darstellung stützt sich derzeit ausschließlich auf mediale Kurzberichte. Für eine vollständigere Einordnung des Vorfalls wären weitere, insbesondere offizielle Quellen erforderlich.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-12T22:07:23.925Z"
+}
