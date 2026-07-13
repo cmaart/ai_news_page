@@ -1,0 +1,524 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-7a0ef1dc",
+    "title": "US-Militär: Neue Angriffe auf den Iran",
+    "items": [
+      {
+        "itemId": "ef9463062a6a499e2f3c9d8f46bffb042fb7dd03ae87fd7361dfb1a8cf00f17f",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "US-Militär: Neue Angriffe auf den Iran",
+        "url": "https://orf.at/stories/3436131",
+        "publishedAt": "2026-07-13T21:39:09.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "2850182aa9687e760386177eed03add865bf930af70b2a932cb6bac3141c19a8",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Iran schließt Straße von Hormus: US-Angriffe auf Iran",
+        "url": "https://orf.at/stories/3435963",
+        "isNew": false
+      },
+      {
+        "itemId": "a73afcf0f11a4921cbc485e724d1aa420fd30ff577249d63bf8dd1e837a0537e",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "USA greifen Iran an – Teheran schließt Straße von Hormus und reagiert mit Gegenschlägen",
+        "url": "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
+        "isNew": false
+      },
+      {
+        "itemId": "9ffd4a7c8f1bfdbc1572e4c4d7a479c406143c2dc98c47b54a25336fc55ab5bd",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "USA greifen Iran an – Teheran schließt Straße von Hormus und reagiert mit Gegenschlägen",
+        "url": "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
+        "isNew": false
+      },
+      {
+        "itemId": "0eee7f1b72d71984a1eb75f7a5fb4eb094294e27cca6d25c22683b515b53b580",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "USA widersprechen Iran bei Straße von Hormus",
+        "url": "https://orf.at/stories/3436011",
+        "isNew": false
+      },
+      {
+        "itemId": "ac38a4cf0eff67e1601fbe4212e42c5736b18444f0dfadff21a452988093c954",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "US-Militär meldet neue Angriffe auf Iran",
+        "url": "https://orf.at/stories/3436031",
+        "isNew": false
+      },
+      {
+        "itemId": "8719299045a2f232598caf3a380a91005fcf8c7c66f27c3d2d2d2668b926fcbd",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Angriffswelle gegen Iran laut US-Militär abgeschlossen",
+        "url": "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an",
+        "isNew": false
+      },
+      {
+        "itemId": "d33a2c7735e5733061330d44865bf3e80674c4b2e6a87bb8fe4625a98d9b9bfb",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Jüngste Angriffswelle gegen Iran laut US-Militär abgeschlossen",
+        "url": "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster liefert substantielle neue Entwicklungen zu einer bereits publizierten Story (dritte Angriffswelle in Folge, Trump-Ankündigung weiterer Attacken, Bestätigung eines iranischen Todesfalles, US-Gegendarstellung zur Straße von Hormus). Dies sind keine eigenständigen Ereignisse mit neuer Schlagzeile, sondern inkrementelle Details und Reaktionen auf die bestehende Iran-Eskalation. Die Kandidaten-Story 'Iran-Krieg spitzt sich zu: Vierte US-Angriffswelle, Guterres warnt vor Eskalation an der Straße von Hormus' hat breite Reichweite (erwähnt UN), echoPublishers24h=3, und viele offene Fragen, die die neuen Items potenziell beantworten (Opferzahlen, Gegennarrative, Angriffswellen-Zählung). ORF und Der Standard berichten eigenständig (unterschiedliche Überschriften, nicht reine Agentur-Syndikation), daher Resonance=3. Nach E53 gilt Standard-Update für Bezüge zu publizierten Stories.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 3,
+    "relatedSlug": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
+    "possibleClaims": [
+      "Das US-Militär hat in der dritten Nacht in Folge iranische Ziele angegriffen.",
+      "Trump kündigte weitere Angriffe auf den Iran an.",
+      "Ein iranischer Marinesoldat wurde beim Angriff auf den Hafen Jask getötet.",
+      "Der Iran schloss die Straße von Hormus (Gegenbehauptung: USA bestreiten vollständige Sperrung).",
+      "Die jüngste US-Angriffswelle wurde nach eigenen Angaben abgeschlossen.",
+      "US-Militär behauptet, die iranische Fähigkeit zu Angriffen auf Zivilisten und Handelsschiffe eingeschränkt zu haben."
+    ],
+    "missingSources": [
+      "Unabhängige Verifizierung der gemeldeten Angriffsziele (Satellitenbilder, OSINT-Analyse)",
+      "Bestätigung der Opferzahlen und Schäden durch unbeteiligte Quellen",
+      "Informationen zu potenziellen zivilen Opfern oder Schäden an ziviler Infrastruktur",
+      "Aktueller Status und unabhängige Messung des Schiffverkehrs durch die Straße von Hormus",
+      "Offizielle Reaktion von EU-Institutionen und österreichischer Regierung auf die Eskalation",
+      "Unabhängige Überprüfung der US-Gegenposition zur tatsächlichen Schließung der Route"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
+    "title": "Iran-Krieg: US-Militär erklärt weitere Angriffswelle für beendet, meldet dann neue Attacken – iranischer Marinesoldat getötet",
+    "description": "Laut mehreren internationalen Medien hat das US-Zentralkommando eine weitere Angriffswelle gegen Ziele im Iran nach eigenen Angaben für abgeschlossen erklärt – darunter erstmals eingesetzte „Seedrohnen“ –, kurz darauf jedoch bereits neue Angriffe gemeldet. Iranische Nachrichtenagenturen berichten vom Tod eines Marinesoldaten im Hafen Jask, während das US-Zentralkommando der iranischen Sperrung der Straße von Hormus offiziell widerspricht. Trump kündigte weitere Attacken an. Zentrale Zahlen und Ereignisabfolgen bleiben zwischen den Quellen weiterhin nicht vollständig deckungsgleich.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Der Grundvorgang – eine fortgesetzte Serie von US-Angriffswellen gegen Ziele im Iran, iranische Gegenschläge auf US-Stützpunkte in der Golfregion, der Streit um die Straße von Hormus sowie nun auch ein gemeldeter iranischer Todesfall – wird von einer breiten Zahl voneinander unabhängiger österreichischer (ORF, Der Standard, Kurier, Kleine Zeitung, Die Presse) und internationaler Medien (u. a. Al Jazeera, Bloomberg, CNBC, Handelsblatt, t-online, Tiroler Tageszeitung, ZDF) übereinstimmend berichtet. Einzelheiten – genaue Zählung der Angriffswellen, exakte Ziel- und Opferzahlen, Reichweite der iranischen Gegenschläge (Golfstaaten) – variieren aber weiterhin je nach Quelle und Berichtszeitpunkt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Weiterhin liegt keine im Original eingesehene Erklärung des US-Zentralkommandos (Centcom), des Pentagon, des Weißen Hauses, der iranischen Streitkräfte oder der iranischen Nachrichtenagenturen Mehr/Tasnim vor. Auch die von Centcom über die Plattform X verbreiteten Aussagen zur Straße von Hormus sowie Trumps Ankündigungen wurden hier nur über die mediale Wiedergabe erfasst, nicht anhand des Original-Postings oder einer Pressemitteilung geprüft.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich weiterhin ausschließlich auf Medienberichte ohne direkt zitierte Originalerklärungen aller Konfliktparteien. Die Abfolge „Angriffswelle abgeschlossen“ gefolgt von Meldungen über bereits neue Angriffe zeigt, wie schnelllebig und uneinheitlich die Berichtslage ist; Zahlen zu Zielen, Opfern und der Reichweite iranischer Gegenschläge (etwa ob auch Oman und Katar betroffen waren) weichen je nach Quelle ab, was das Risiko einer verfrühten Zusammenfassung als „abgeschlossenen“ Sachstand birgt.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Das US-Zentralkommando (Centcom) griff nach eigenen Angaben in der Nacht auf Montag erneut Dutzende Ziele an mehreren Standorten im Iran an – darunter Luftabwehrsysteme, Küstenradarstationen sowie Raketen- und Drohnenfähigkeiten und kleine Boote; laut Centcom kamen dabei erstmals auch unbemannte „Seedrohnen“ zum Einsatz.",
+        "kind": "fact"
+      },
+      {
+        "text": "Diese Angriffswelle wurde von US-Seite nach eigenen Angaben in der Folge für abgeschlossen erklärt; kurz danach berichteten ORF und weitere internationale Medien jedoch bereits über neue US-Angriffe auf den Iran.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut iranischen Nachrichtenagenturen (Mehr, Tasnim) wurde bei einem Angriff auf den Hafen Jask im Süden Irans ein iranischer Marinesoldat getötet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das US-Zentralkommando widersprach über die Plattform X der iranischen Ankündigung, die Straße von Hormus bleibe gesperrt: Der Schiffsverkehr fließe weiter, der Iran kontrolliere die Meerenge nicht, die Route sei offen für alle Schiffe mit legalem Transitanspruch.",
+        "kind": "fact"
+      },
+      {
+        "text": "Präsident Trump kündigte laut Berichten weitere Angriffe an – sowohl für denselben Abend als auch für den Folgetag – und drohte, die stark befestigte Tunnelanlage im Kuh-e-Kolang-Gebirge („Pickaxe Mountain“) zu zerstören.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob die zuvor gemeldeten rund 140 an einem Tag getroffenen Ziele und die kumulativ über drei Nächte genannten mehr als 300 Ziele denselben Sachverhalt beschreiben, wie neuere Berichte nahelegen, oder ob weiterhin echte Widersprüche bestehen, lässt sich nicht abschließend klären.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie viele US-Angriffswellen hat es seit dem Wiederaufflammen der Kämpfe in der Nacht auf Mittwoch inzwischen tatsächlich gegeben, und wie ordnet sich die als „abgeschlossen“ gemeldete Welle im Vergleich zu den danach gemeldeten neuen Angriffen ein?",
+      "Wird der Tod des iranischen Marinesoldaten im Hafen Jask von unabhängigen, nicht-iranischen Stellen bestätigt?",
+      "Gibt es weitere bestätigte Opferzahlen auf iranischer, US- oder verbündeter Seite, etwa in Bahrain, Kuwait, Jordanien oder – laut einzelnen internationalen Berichten – auch in Oman und Katar?",
+      "Trifft es zu, dass iranische Gegenschläge auch Ziele in Oman und Katar erfasst haben, wie einzelne internationale Berichte nahelegen, oder beschränkten sie sich wie in früheren Berichten auf Bahrain, Kuwait und Jordanien?",
+      "Wie stark ist der Schiffsverkehr durch die Straße von Hormus tatsächlich zurückgegangen – und wessen Darstellung (US-Angabe „Verkehr fließt“ vs. iranische Sperr-Ankündigung) ist zutreffender?",
+      "Was ist der aktuelle Zustand des zuvor angegriffenen Containerschiffs und seines vermissten Besatzungsmitglieds?",
+      "Setzt Trump seine Drohung gegen die Tunnelanlage im Kuh-e-Kolang-Gebirge tatsächlich um, und mit welchen Folgen?",
+      "Wird der omanische Vermittlungsvorschlag zur Aufteilung der Route von beiden Seiten angenommen, und finden die abgebrochenen Gespräche in Maskat eine Fortsetzung?",
+      "Wie reagieren EU-Institutionen und die österreichische Regierung auf die fortgesetzte Eskalation und Guterres' Warnung?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff"
+      },
+      {
+        "id": "src2",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3435963"
+      },
+      {
+        "id": "src3",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3436011"
+      },
+      {
+        "id": "src4",
+        "name": "CNN",
+        "type": "media",
+        "url": "https://www.cnn.com/2026/07/11/world/live-news/iran-war-trump"
+      },
+      {
+        "id": "src5",
+        "name": "NPR",
+        "type": "media",
+        "url": "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz-gulf"
+      },
+      {
+        "id": "src6",
+        "name": "ZDFheute",
+        "type": "media",
+        "url": "https://www.zdfheute.de/politik/ausland/strasse-hormus-schiffsverkehr-einbruch-100.html"
+      },
+      {
+        "id": "src7",
+        "name": "CNBC",
+        "type": "media",
+        "url": "https://www.cnbc.com/2026/07/10/us-iran-war-strikes-strait-of-hormuz-technical-talks-progress-.html"
+      },
+      {
+        "id": "src8",
+        "name": "Nachrichten.at (OÖN)",
+        "type": "media",
+        "url": "https://www.nachrichten.at/politik/aussenpolitik/eskalation-in-strasse-von-hormus-us-angriffe-und-ein-brennendes-schiff;art391,4191126"
+      },
+      {
+        "id": "src9",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36797469/erhebliche-eskalation-usa-attackieren-iran-erneut-guterres-besorgt"
+      },
+      {
+        "id": "src10",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/iran-usa-krieg-strasse-von-hormus-schiffe-inder-waffenstillstand-trump/403175714"
+      },
+      {
+        "id": "src11",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/36846899/die-usa-schlittern-im-iran-wieder-in-den-krieg"
+      },
+      {
+        "id": "src12",
+        "name": "Tagesspiegel",
+        "type": "media",
+        "url": "https://www.tagesspiegel.de/internationales/liveblog/teheran-erklart-strasse-von-hormus-fur-gesperrt-usa-greifen-in-der-nacht-140-ziele-im-iran-an-10586281.html"
+      },
+      {
+        "id": "src13",
+        "name": "t-online",
+        "type": "media",
+        "url": "https://www.t-online.de/nachrichten/ausland/id_101316904/revolutionsgarden-ziele-in-kuwait-und-bahrain-angegriffen.html"
+      },
+      {
+        "id": "src14",
+        "name": "watson.ch",
+        "type": "media",
+        "url": "https://www.watson.ch/international/analyse/110215029-usa-und-iran-uneinig-was-das-fuer-die-strasse-von-hormus-bedeutet"
+      },
+      {
+        "id": "src15",
+        "name": "Bloomberg",
+        "type": "media",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-09/iran-krieg-hormus-schiffsverkehr-kommt-fast-zum-erliegen-olpreis-nahe-80"
+      },
+      {
+        "id": "src16",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36763155/neue-bombardements-im-iran-krieg-teheran-beansprucht-kontrolle-ueber-strasse-von-hormuz"
+      },
+      {
+        "id": "src17",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3436131"
+      },
+      {
+        "id": "src18",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3436031"
+      },
+      {
+        "id": "src19",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an"
+      },
+      {
+        "id": "src20",
+        "name": "Tiroler Tageszeitung",
+        "type": "media",
+        "url": "https://www.tt.com/artikel/30938058/iran-krieg-eskaliert-erneut-iranischer-soldat-getoetet"
+      },
+      {
+        "id": "src21",
+        "name": "Handelsblatt",
+        "type": "media",
+        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-angriffswelle-gegen-iran-laut-us-militaer-abgeschlossen/100136895.html"
+      },
+      {
+        "id": "src22",
+        "name": "t-online",
+        "type": "media",
+        "url": "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101339960/strasse-von-hormus-zu-iran-meldet-us-angriffe-und-widerspricht-trump.html"
+      },
+      {
+        "id": "src23",
+        "name": "Al Jazeera",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/7/13/us-and-iran-trade-strikes-as-ceasefire-comes-under-growing-strain"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die US-Streitkräfte haben in der Nacht auf Sonntag (12. Juli 2026) erneut Luftangriffe auf Ziele im Iran geflogen – nach weiteren, seither erschienenen Berichten war dies Teil einer fortgesetzten Serie, die inzwischen mehrere Angriffswellen seit dem Wiederaufflammen der Kämpfe in der Nacht auf Mittwoch umfasst.",
+        "status": "supported",
+        "note": "Wird von österreichischen (Der Standard, ORF, Die Presse, Kurier, Kleine Zeitung) und internationalen Medien (CNN, NPR, ZDF, Tagesspiegel, Al Jazeera) übereinstimmend als fortgesetzte Angriffsserie beschrieben. Die genaue Zählung der Wellen variiert weiterhin zwischen Berichten; eine offizielle Bestätigung durch ein direkt eingesehenes US- oder iranisches Originaldokument liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Iran hat als Reaktion auf die Angriffe die Straße von Hormus erneut gesperrt; US-Präsident Trump widersprach dem laut Berichten mit den Worten, die Meerenge sei offen.",
+        "status": "supported",
+        "note": "Von mehreren unabhängigen Quellen übereinstimmend gemeldet, inklusive eines Trump zugeschriebenen wörtlichen Widerspruchs. Inzwischen ergänzt durch eine offizielle Gegendarstellung des US-Zentralkommandos selbst (siehe claim17). Weder die iranische Sperr-Erklärung noch Trumps Zitat wurden hier anhand einer Primärquelle geprüft.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src5",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Teheran hat mit Gegenschlägen auf die US-Angriffe reagiert: Iranische Revolutionsgarden sollen laut mehreren internationalen Berichten konkret den Stützpunkt Bandar Salman (Sitz der US-5.-Flotte) in Bahrain, die Ali-Al-Salem-Luftwaffenbasis in Kuwait sowie eine Basis in Jordanien angegriffen haben; einzelne Berichte nennen zudem den Abschuss einer US-Aufklärungsdrohne (MQ-9).",
+        "status": "partial",
+        "note": "Mehrere voneinander unabhängige Sekundärquellen nennen konkrete Stützpunktnamen. Neuere internationale Berichte (u. a. Al Jazeera) nennen im Zusammenhang mit der jüngsten Angriffswelle zusätzlich auch Ziele in Oman und Katar – dies ist mit den vorliegenden deutschsprachigen Quellen nicht abschließend gegengeprüft. Eine gemeinsame, unabhängig geprüfte Primärquelle liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src8",
+          "src13",
+          "src23"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Ein unter zyprischer Flagge fahrendes Containerschiff soll im Bereich der Straße von Hormus beschossen worden sein und in Brand geraten sein; von elf indischen Besatzungsmitgliedern seien zehn gerettet worden, eines werde vermisst.",
+        "status": "partial",
+        "note": "Wird von mehreren voneinander unabhängigen Sekundärquellen mit übereinstimmenden Details beschrieben. Eine unabhängig geprüfte Primärquelle liegt nicht vor; neuere Berichte zum Status des vermissten Besatzungsmitglieds wurden weiterhin nicht gefunden.",
+        "sourceIds": [
+          "src1",
+          "src5",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Bei einer der Angriffswellen sollen die USA am Sonntag rund 140 Ziele im Iran getroffen haben (u. a. Raketen- und Drohnenstellungen, Marineeinrichtungen, Munitionslager, Kommunikationsnetze, Luftabwehr- und Küstenüberwachungsanlagen) – dies laut Trump im Anschluss an einen iranischen Angriff auf ein Schiff in der Straße von Hormus.",
+        "status": "supported",
+        "note": "Diese Zahl wird von mehreren internationalen Medien (CNN, NPR, Tagesspiegel, ZDF, ORF) übereinstimmend unter Berufung auf US-Angaben genannt; eine direkt eingesehene Original-Erklärung des US-Zentralkommandos liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src3",
+          "src4",
+          "src5",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Andere Berichte, darunter Der Standard und die Tiroler Tageszeitung, sprechen von insgesamt mehr als 300 in drei aufeinanderfolgenden Nächten getroffenen Zielen.",
+        "status": "partial",
+        "note": "Neuere, voneinander unabhängige Berichte deuten darauf hin, dass die rund 140 an einem einzelnen Tag (Sonntag) genannten Ziele und die kumulativ über drei Nächte genannten mehr als 300 Ziele denselben, sich ergänzenden Sachverhalt beschreiben könnten, statt einander zu widersprechen. Eine Quelle, die beide Zahlen gemeinsam und anhand einer geprüften Primärquelle einordnet, liegt weiterhin nicht vor, weshalb hier weiter Zurückhaltung geboten ist.",
+        "sourceIds": [
+          "src1",
+          "src4",
+          "src5",
+          "src20"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Zum tatsächlichen Rückgang des Schiffsverkehrs durch die Straße von Hormus kursieren stark divergierende Zahlen: Berichte nennen je nach Tag und Quelle etwa zwei bis sechs Schiffe, teils rund 14, teils rund 21, gegenüber einem Durchschnitt von etwa 34 und einem Höchstwert von rund 59 Schiffen täglich in den drei Wochen nach der vorläufigen Wiedereröffnungs-Einigung; zugleich erklärt das US-Zentralkommando, der Verkehr fließe trotz iranischer Sperr-Ankündigung weiter.",
+        "status": "unclear",
+        "note": "Die Zahlen stammen aus verschiedenen Berichten zu unterschiedlichen Tagen und lassen sich nicht zu einem konsistenten Bild zusammenführen. Die neue, explizite Gegendarstellung des US-Zentralkommandos („der Verkehr fließt“) steht der iranischen Sperr-Behauptung direkt entgegen, ohne dass eine unabhängige Messung beide Seiten auflöst.",
+        "sourceIds": [
+          "src3",
+          "src6",
+          "src15"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Dem Konflikt um die Straße von Hormus liegt ein Streit über die Auslegung eines im Juni 2026 vereinbarten Rahmenabkommens (MoU) zugrunde, das laut Berichten einen 60-tägigen Waffenstillstand und eine gebührenfreie Durchfahrtsregelung vorsah; Trump erklärte diesen Waffenstillstand laut Berichten für beendet. Oman vermittelt mit einem Vorschlag zur Aufteilung in eine freie südliche und eine genehmigungspflichtige nördliche Route, Gespräche in Maskat sollen ohne Durchbruch geendet haben.",
+        "status": "partial",
+        "note": "Diese Einordnung stützt sich auf mehrere internationale Sekundärquellen. Der Wortlaut des Abkommens selbst wurde nicht eingesehen, und ob die Gespräche in Maskat inzwischen fortgesetzt wurden, ist nicht bekannt.",
+        "sourceIds": [
+          "src7",
+          "src6",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "UN-Generalsekretär António Guterres zeigte sich laut Berichten „zutiefst besorgt“ über die „erhebliche Eskalation“ und warnte, eine Rückkehr zu umfassenden Kampfhandlungen hätte katastrophale Folgen für die Sicherheit der Region und die Weltwirtschaft; er rief beide Seiten zu unverzüglichen Verhandlungen auf.",
+        "status": "supported",
+        "note": "Die Aussage wird von mehreren Medien übereinstimmend wiedergegeben. Eine direkt eingesehene offizielle Erklärung oder Pressemitteilung des UN-Generalsekretariats liegt hier nicht vor, nur die mediale Wiedergabe.",
+        "sourceIds": [
+          "src9"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Berichten zufolge stieg der Ölpreis (Brent) im Zuge der Eskalation zeitweise auf über 79 US-Dollar je Barrel, nachdem er zuvor bereits um mehr als 5 Prozent zugelegt hatte; WTI wurde nahe 74 US-Dollar gehandelt.",
+        "status": "partial",
+        "note": "Die Angabe stammt aus einer einzelnen Quelle (Bloomberg) zu einem bestimmten Berichtszeitpunkt; andere Angaben zu späteren Tagen wurden nicht unabhängig gegengeprüft.",
+        "sourceIds": [
+          "src15"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Die Presse berichtete unter der Überschrift, Teheran beanspruche die Kontrolle über die Straße von Hormus; der zugehörige Artikel liegt hier nur als Titel/Kurzfassung vor (Bezahlschranke), der volle Inhalt wurde nicht gelesen.",
+        "status": "unclear",
+        "note": "Da nur Titel und URL aus dem RSS-Feed vorliegen und der Artikeltext nicht eingesehen wurde, kann diese Behauptung hier nicht inhaltlich geprüft oder näher ausgeführt werden.",
+        "sourceIds": [
+          "src16"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "Bei einem Angriff auf den Hafen Jask im Süden Irans wurde laut iranischen Nachrichtenagenturen (Mehr, Tasnim) ein iranischer Marinesoldat getötet.",
+        "status": "partial",
+        "note": "Die Meldung stammt ausschließlich aus staatlich beeinflussten iranischen Nachrichtenagenturen, wiedergegeben über österreichische und weitere Medien; eine unabhängige, nicht-iranische Bestätigung von Identität, Umständen oder Zahl der Getöteten liegt nicht vor. Aus Sensibilitätsgründen wird kein Name genannt.",
+        "sourceIds": [
+          "src20"
+        ]
+      },
+      {
+        "id": "claim14",
+        "text": "Das US-Zentralkommando (Centcom) griff nach eigenen Angaben in der Nacht auf Montag Dutzende Ziele an mehreren Standorten im Iran an – darunter militärische Luftabwehrsysteme, Küstenradarstationen, Raketen- und Drohnenfähigkeiten sowie kleine Boote; eingesetzt worden seien Kampfjets, Schiffe, unbemannte Flugdrohnen und laut Centcom erstmals auch unbemannte Seedrohnen.",
+        "status": "partial",
+        "note": "Wird von mehreren voneinander unabhängigen internationalen Medien unter Berufung auf Centcom-Angaben übereinstimmend beschrieben; eine direkt eingesehene Original-Erklärung des US-Zentralkommandos liegt nicht vor.",
+        "sourceIds": [
+          "src18",
+          "src19",
+          "src21",
+          "src23"
+        ]
+      },
+      {
+        "id": "claim15",
+        "text": "Diese jüngste Angriffswelle wurde von US-Seite nach eigenen Angaben in der Folge für abgeschlossen erklärt; kurz darauf berichteten ORF und weitere Medien jedoch bereits über neue US-Angriffe auf den Iran.",
+        "status": "partial",
+        "note": "Die Abfolge „für abgeschlossen erklärt“ und kurz danach „neue Angriffe gemeldet“ stammt aus zeitlich versetzter Medienberichterstattung; ob es sich um eine neue, fünfte Welle oder eine Fortsetzung/Korrektur der vorherigen Meldung handelt, ist mit den vorliegenden Quellen nicht abschließend zu klären.",
+        "sourceIds": [
+          "src17",
+          "src19",
+          "src21"
+        ]
+      },
+      {
+        "id": "claim16",
+        "text": "Iran reagierte auf die jüngste US-Angriffswelle laut Berichten mit weiteren Explosionen und Angriffen an der Südküste, unter anderem in der Hafenstadt Bandar Abbas und nahe der Insel Ghesm.",
+        "status": "unclear",
+        "note": "Die Angabe stammt aus internationaler Sekundärberichterstattung unter Berufung auf die iranische Nachrichtenagentur Tasnim; eine unabhängige Bestätigung der genannten Orte und des Ausmaßes liegt nicht vor.",
+        "sourceIds": [
+          "src21"
+        ]
+      },
+      {
+        "id": "claim17",
+        "text": "Das US-Zentralkommando erklärte über die Plattform X, der Schiffsverkehr durch die Straße von Hormus fließe weiter, der Iran kontrolliere die Meerenge nicht, und die Route sei offen für alle Schiffe, die sie legal passieren wollten – ein direkter Widerspruch zur iranischen Ankündigung, wonach die Straße bis auf Weiteres und bis zum Ende der US-Interventionen in der Region für alle Schiffe gesperrt bleibe.",
+        "status": "partial",
+        "note": "Beruht auf ORF- und t-online-Berichterstattung über ein Centcom-Posting auf X; das Original-Posting selbst wurde hier nicht eingesehen.",
+        "sourceIds": [
+          "src3",
+          "src22"
+        ]
+      },
+      {
+        "id": "claim18",
+        "text": "Präsident Trump kündigte laut Berichten in einem Radio-Interview weitere Angriffe an – sowohl für denselben Abend als auch für den Folgetag – und drohte, die stark befestigte Tunnelanlage im Kuh-e-Kolang-Gebirge (von US-Seite „Pickaxe Mountain“ genannt) zu zerstören.",
+        "status": "partial",
+        "note": "Die Zitate stammen aus internationaler Medienberichterstattung über ein Radio-Interview; der Wortlaut wurde nicht anhand einer Original-Aufzeichnung oder eines Transkripts geprüft.",
+        "sourceIds": [
+          "src12"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was neu ist",
+        "markdown": "Das US-Zentralkommando (Centcom) griff nach eigenen Angaben in der Nacht auf Montag erneut Dutzende Ziele an mehreren Standorten im Iran an – darunter militärische Luftabwehrsysteme, Küstenradarstationen sowie Raketen- und Drohnenfähigkeiten und kleine Boote. Eingesetzt worden seien laut Centcom Kampfjets, Kriegsschiffe, unbemannte Flugdrohnen und erstmals auch unbemannte „Seedrohnen“. Diese Angriffswelle wurde von US-Seite nach eigenen Angaben in der Folge für abgeschlossen erklärt – kurz danach berichteten ORF und weitere internationale Medien jedoch bereits wieder über neue US-Angriffe auf den Iran. Neu ist zudem eine Meldung iranischer Nachrichtenagenturen (Mehr, Tasnim), wonach bei einem Angriff auf den Hafen Jask im Süden Irans ein iranischer Marinesoldat getötet wurde. Außerdem widersprach das US-Zentralkommando über die Plattform X ausdrücklich der iranischen Ankündigung, die Straße von Hormus bleibe gesperrt, und Präsident Trump kündigte laut Berichten weitere Angriffe an."
+      },
+      {
+        "heading": "Was bisher geschah",
+        "markdown": "Nach Angaben von Der Standard und ORF flogen die USA bereits in der Nacht auf Sonntag Luftangriffe auf Ziele im Iran; ausgelöst wurde die jüngste Eskalation demnach durch Angriffe auf Handelsschiffe in der Straße von Hormus, darunter ein unter zyprischer Flagge fahrendes Containerschiff, das beschossen wurde, in Brand geriet und dessen Besatzung – nach übereinstimmenden Angaben elf indische Staatsangehörige – bis auf ein vermisstes Mitglied gerettet werden konnte. Iran erklärte daraufhin die Straße von Hormus erneut für gesperrt. UN-Generalsekretär António Guterres zeigte sich laut Berichten „zutiefst besorgt“ über die „erhebliche Eskalation“ und warnte vor katastrophalen Folgen einer Rückkehr zu umfassenden Kampfhandlungen. Iranische Revolutionsgarden reagierten mit Gegenschlägen auf US-Stützpunkte, laut mehreren Berichten konkret auf Bandar Salman (Sitz der 5. US-Flotte) in Bahrain, die Ali-Al-Salem-Basis in Kuwait sowie eine Basis in Jordanien."
+      },
+      {
+        "heading": "Eine „abgeschlossene“ Angriffswelle – und dann doch neue Angriffe",
+        "markdown": "Laut mehreren internationalen Medien (u. a. Handelsblatt) erklärte das US-Zentralkommando eine weitere Angriffswelle gegen den Iran nach eigenen Angaben für abgeschlossen. Getroffen worden seien Dutzende Ziele an mehreren Standorten, darunter Luftabwehrsysteme, Küstenradarstationen sowie Raketen- und Drohnenfähigkeiten. Erstmals kamen dabei laut Centcom neben Kampfjets, Kriegsschiffen und unbemannten Flugdrohnen auch unbemannte „Seedrohnen“ zum Einsatz. Ziel sei es laut US-Angaben, die Fähigkeit des Iran zu schwächen, zivile Seeleute und Handelsschiffe in der Straße von Hormus anzugreifen. Iran meldete als Reaktion nach Angaben der Nachrichtenagentur Tasnim weitere Explosionen an der Südküste, unter anderem in der Hafenstadt Bandar Abbas und nahe der Insel Ghesm. Bemerkenswert: Nur kurze Zeit nach der Meldung, die Angriffswelle sei abgeschlossen, berichteten ORF und weitere Medien bereits wieder über neue US-Angriffe auf den Iran. Ob es sich dabei um eine eigenständige, weitere Welle handelt oder um eine Fortsetzung bzw. Korrektur der vorherigen Einschätzung, lässt sich mit den vorliegenden Quellen nicht abschließend klären."
+      },
+      {
+        "heading": "Getöteter Marinesoldat und iranische Gegenschläge",
+        "markdown": "Laut iranischen Nachrichtenagenturen (Mehr, Tasnim), wiedergegeben unter anderem von der Tiroler Tageszeitung, wurde bei einem Angriff auf den Hafen Jask im Süden Irans ein iranischer Marinesoldat getötet. Diese Angabe stammt ausschließlich aus staatlich beeinflussten iranischen Quellen; eine unabhängige, nicht-iranische Bestätigung der Umstände liegt nicht vor, weshalb sie hier zurückhaltend als Meldung und nicht als gesicherter Fakt eingeordnet wird. Auf die jüngste US-Angriffswelle reagierten iranische Revolutionsgarden laut Berichten erneut mit Angriffen auf US-Stützpunkte in der Golfregion. Während frühere Berichte konkret Bahrain, Kuwait und Jordanien nannten, sprechen neuere internationale Berichte (u. a. Al Jazeera) im Zusammenhang mit der jüngsten Eskalationsrunde auch von Zielen in Oman und Katar – dies ist mit den vorliegenden deutschsprachigen Quellen nicht abschließend gegengeprüft und wird hier bewusst als offene Frage markiert."
+      },
+      {
+        "heading": "Widerspruch zwischen Washington und Teheran zur Straße von Hormus",
+        "markdown": "Die Positionen der beiden Seiten bleiben unvereinbar. Laut ORF erklärte das US-Zentralkommando über die Plattform X ausdrücklich, der Schiffsverkehr fließe weiter, der Iran kontrolliere die Meerenge nicht, und die Straße von Hormus sei offen für alle Schiffe, die diese internationale Route legal passieren wollten; die US-Streitkräfte stünden bereit, dies sicherzustellen. Dem steht die iranische Position gegenüber, wonach die Revolutionsgarden die Straße von Hormus „bis auf Weiteres und bis zum Ende der US-Interventionen in der Region“ für alle Schiffe gesperrt hätten. Präsident Trump wird zudem mit dem knappen Widerspruch zitiert, die Meerenge sei „offen“. Beide Positionen wurden hier nur über mediale Wiedergabe erfasst, nicht anhand von Original-Statements geprüft."
+      },
+      {
+        "heading": "Zahlen zu getroffenen Zielen: Widerspruch oder Ergänzung?",
+        "markdown": "Internationale Medien beziffern die Zahl der am Sonntag getroffenen Ziele auf rund 140 – darunter Raketen- und Drohnenstellungen, Marineeinrichtungen, Munitionslager, Kommunikationsnetze, Luftabwehr- und Küstenüberwachungsanlagen; dies laut Trump im Anschluss an einen iranischen Angriff auf ein Schiff in der Straße von Hormus. Der Standard und die Tiroler Tageszeitung sprechen hingegen von insgesamt mehr als 300 in drei aufeinanderfolgenden Nächten getroffenen Zielen. Anders als in der vorherigen Fassung dieses Artikels dargestellt, deuten neuere, voneinander unabhängige Berichte darauf hin, dass diese beiden Zahlen einander nicht zwingend widersprechen: Die rund 140 Ziele könnten sich auf einen einzelnen Tag (Sonntag) beziehen, während die mehr als 300 Ziele die kumulierte Summe über drei Nächte abbilden. Eine Quelle, die beide Zahlen gemeinsam anhand einer geprüften Primärquelle einordnet, liegt weiterhin nicht vor, weshalb hier Zurückhaltung geboten bleibt."
+      },
+      {
+        "heading": "Trumps Ankündigung weiterer Angriffe",
+        "markdown": "Laut Berichten kündigte Trump in einem Radio-Interview an, den Iran sowohl am selben Abend als auch am Folgetag „hart“ zu treffen. Zudem drohte er, die stark befestigte Tunnelanlage im Kuh-e-Kolang-Gebirge zu zerstören, die von US-Seite unter dem Namen „Pickaxe Mountain“ bekannt ist. Diese Ankündigungen wurden hier nur über mediale Wiedergabe erfasst; ob und in welcher Form sie umgesetzt wurden, ist nicht Teil der vorliegenden Berichte."
+      },
+      {
+        "heading": "Ölpreise und Schifffahrt unter Druck",
+        "markdown": "Berichten zufolge reagierten die Ölmärkte deutlich auf die Eskalation: Der Brent-Preis soll zeitweise auf über 79 US-Dollar je Barrel gestiegen sein, nachdem er zuvor bereits um mehr als fünf Prozent zugelegt hatte; WTI wird nahe 74 US-Dollar angegeben. Zum Schiffsverkehr durch die Straße von Hormus kursieren weiterhin stark voneinander abweichende Zahlen: Je nach Quelle und Erhebungstag ist von rund zwei bis sechs Schiffen, von etwa 14 oder rund 21 Schiffen die Rede – gegenüber einem Durchschnitt von rund 34 und einem Höchstwert von etwa 59 Schiffen täglich in den Wochen nach der vorläufigen Wiedereröffnungs-Einigung im Juni. Diese Zahlen lassen sich nicht zu einem einheitlichen Bild zusammenführen, stehen aber der neuen, expliziten US-Gegendarstellung gegenüber, wonach der Verkehr trotz iranischer Sperr-Ankündigung weiter fließe."
+      },
+      {
+        "heading": "Der Streit um das Rahmenabkommen",
+        "markdown": "Laut internationaler Berichterstattung geht der Konflikt auch auf eine unterschiedliche Auslegung eines im Juni 2026 vereinbarten Rahmenabkommens (Memorandum of Understanding) zurück, das einen 60-tägigen Waffenstillstand und eine gebührenfreie, sichere Durchfahrt von Handelsschiffen vorsah. Trump erklärte diesen Waffenstillstand laut Berichten für beendet. Der vermittelnde Golfstaat Oman soll einen Kompromiss vorgeschlagen haben, wonach die südliche Route frei passierbar bliebe, während die nördliche, näher an der iranischen Küste gelegene Route einer iranischen Genehmigung bedürfte; Gespräche dazu in Maskat sollen zuletzt ohne Durchbruch geendet haben. Der Wortlaut des Abkommens selbst wurde hier nicht eingesehen, und ob die Gespräche inzwischen fortgesetzt wurden, ist nicht bekannt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, ob die zuvor gemeldete Angriffswelle tatsächlich abgeschlossen war oder ob es sich bei den danach gemeldeten neuen Angriffen um eine eigenständige, weitere Welle handelt. Unklar ist zudem, ob der Tod des iranischen Marinesoldaten im Hafen Jask unabhängig bestätigt wird, ob iranische Gegenschläge tatsächlich auch Ziele in Oman und Katar erfassten, und wie viele weitere Opfer es auf iranischer, US- oder verbündeter Seite gegeben haben könnte. Ebenso offen sind der Status des vermissten Besatzungsmitglieds des zuvor angegriffenen Containerschiffs, das tatsächliche Ausmaß des Schiffsverkehrsrückgangs in der Straße von Hormus sowie die Frage, ob Trumps Drohung gegen die Tunnelanlage im Kuh-e-Kolang-Gebirge umgesetzt wird. Auch die Reaktionen von EU-Institutionen und der österreichischen Regierung auf die fortgesetzte Eskalation sind bislang nicht Teil der vorliegenden Berichte."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Straße von Hormus gilt als einer der neuralgischsten Punkte der globalen Energieversorgung, da ein erheblicher Teil des weltweit seewärts transportierten Öls diese Route passiert. Dass eine als „abgeschlossen“ gemeldete US-Angriffswelle innerhalb kurzer Zeit von Meldungen über bereits neue Angriffe abgelöst wird, zeigt, wie schnelllebig und uneinheitlich die Berichtslage bleibt – und wie wenig belastbar Momentaufnahmen in diesem Konflikt derzeit sind. Die nun gemeldete direkte Gegendarstellung des US-Zentralkommandos zur iranischen Sperrung der Straße von Hormus sowie der erste konkret gemeldete Todesfall auf iranischer Seite unterstreichen die Tragweite der Eskalation. Angesichts fehlender Primärquellen von allen beteiligten Seiten, teils widersprüchlicher, teils sich ergänzender Sekundärquellen und der Möglichkeit weiterer, bereits angekündigter Angriffe ist bei dieser Meldung besondere Zurückhaltung geboten: Einzelheiten zu Zielen, Opfern und dem tatsächlichen Zustand der Meerenge können sich in den kommenden Stunden erneut ändern."
+      }
+    ],
+    "bodyKompakt": "Das US-Zentralkommando hat nach eigenen Angaben in der Nacht auf Montag erneut Dutzende Ziele im Iran angegriffen – Luftabwehrsysteme, Küstenradarstationen sowie Raketen- und Drohnenfähigkeiten –, wobei laut Centcom erstmals auch unbemannte „Seedrohnen“ zum Einsatz kamen. Diese Angriffswelle wurde von US-Seite in der Folge für abgeschlossen erklärt, kurz danach berichteten ORF und weitere Medien jedoch bereits über neue US-Angriffe auf den Iran. Laut iranischen Nachrichtenagenturen (Mehr, Tasnim) wurde bei einem Angriff auf den Hafen Jask ein iranischer Marinesoldat getötet – eine Angabe, die bislang nur aus staatlich beeinflussten iranischen Quellen stammt und nicht unabhängig bestätigt ist. Zugleich widersprach das US-Zentralkommando über die Plattform X ausdrücklich der iranischen Ankündigung, die Straße von Hormus bleibe gesperrt: Der Verkehr fließe weiter, der Iran kontrolliere die Meerenge nicht. Präsident Trump kündigte laut Berichten weitere Angriffe an und drohte, eine Tunnelanlage im Kuh-e-Kolang-Gebirge zu zerstören.\n\nZu den bereits zuvor gemeldeten iranischen Gegenschlägen auf US-Stützpunkte in Bahrain, Kuwait und Jordanien kommen nun laut einzelnen internationalen Berichten – nicht abschließend gegengeprüft – auch Ziele in Oman und Katar hinzu. Neuere Berichte legen zudem nahe, dass die zuvor widersprüchlich wirkenden Zahlen zu getroffenen Zielen (rund 140 an einem Tag versus mehr als 300 kumuliert über drei Nächte) sich möglicherweise ergänzen statt zu widersprechen. Beim Schiffsverkehr durch die Straße von Hormus bleiben die Angaben weiterhin uneinheitlich, während Ölpreise laut Berichten deutlich gestiegen sind, mit Brent zeitweise über 79 US-Dollar. Hintergrund bleibt ein im Juni 2026 vereinbartes Rahmenabkommen samt omanischem Vermittlungsvorschlag; Gespräche in Maskat endeten zuletzt ohne Durchbruch.\n\nOffen bleiben unabhängig bestätigte Opferzahlen, der genaue Ablauf und die Zählung der Angriffswellen, der Status des zuvor gemeldeten vermissten Besatzungsmitglieds sowie Reaktionen von EU und österreichischer Regierung. Da sich die gesamte Darstellung weiterhin ausschließlich auf Medienberichte ohne eingesehene Primärquellen von US-, iranischer oder UN-Seite stützt und sich die Lage weiter beschleunigt, ist bei dieser Meldung besondere Zurückhaltung geboten.",
+    "updateNote": "Neue Berichte dokumentieren eine von den USA für abgeschlossen erklärte, dann aber von weiteren Angriffen abgelöste Angriffswelle mit erstmals eingesetzten „Seedrohnen“, einen laut iranischen Agenturen getöteten Marinesoldaten im Hafen Jask, eine direkte Gegendarstellung des US-Zentralkommandos zur iranischen Sperrung der Straße von Hormus sowie Trumps Ankündigung weiterer Angriffe."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-13T22:07:26.937Z"
+}

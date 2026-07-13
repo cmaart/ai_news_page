@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T20:23:27.117Z",
+  "updatedAt": "2026-07-13T22:19:52.208Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -781,12 +781,11 @@
       "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
       "doNotUpdateBefore": "2026-07-13T12:07:23.920Z",
       "echoPublishers": {
-        "derstandard": "2026-07-13T06:07:23.920Z",
-        "kurier": "2026-07-12T21:07:27.634Z"
+        "derstandard": "2026-07-13T06:07:23.920Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-13T16:07:28.921Z"
+      "resonanceMeasuredAt": "2026-07-13T22:07:26.937Z"
     },
     "widdecombe-mordermittlungen-festnahme-juli-2026": {
       "canonicalTitle": "Mordermittlungen nach Tod von Ann Widdecombe: 26-Jähriger festgenommen",
@@ -1658,13 +1657,13 @@
       "resonanceMeasuredAt": "2026-07-13T16:07:28.921Z"
     },
     "usa-iran-luftangriffe-strasse-von-hormus-juli-2026": {
-      "canonicalTitle": "Iran-Krieg spitzt sich zu: Vierte US-Angriffswelle, Guterres warnt vor Eskalation an der Straße von Hormus",
+      "canonicalTitle": "Iran-Krieg: US-Militär erklärt weitere Angriffswelle für beendet, meldet dann neue Attacken – iranischer Marinesoldat getötet",
       "slug": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
       "firstSeenAt": "2026-07-12T06:07:23.718Z",
-      "lastUpdatedAt": "2026-07-13T10:50:31.638Z",
+      "lastUpdatedAt": "2026-07-13T22:07:26.937Z",
       "status": "published",
       "articlePath": "src/content/articles/usa-iran-luftangriffe-strasse-von-hormus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-1000.json",
+      "researchPath": "data/ai-news/research/2026-07-13/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
         "https://orf.at/stories/3435963",
@@ -1686,24 +1685,33 @@
         "https://www.tagesspiegel.de/internationales/liveblog/teheran-erklart-strasse-von-hormus-fur-gesperrt-usa-greifen-in-der-nacht-140-ziele-im-iran-an-10586281.html",
         "https://www.t-online.de/nachrichten/ausland/id_101316904/revolutionsgarden-ziele-in-kuwait-und-bahrain-angegriffen.html",
         "https://www.watson.ch/international/analyse/110215029-usa-und-iran-uneinig-was-das-fuer-die-strasse-von-hormus-bedeutet",
-        "https://www.bloomberg.com/news/articles/2026-07-09/iran-krieg-hormus-schiffsverkehr-kommt-fast-zum-erliegen-olpreis-nahe-80"
+        "https://www.bloomberg.com/news/articles/2026-07-09/iran-krieg-hormus-schiffsverkehr-kommt-fast-zum-erliegen-olpreis-nahe-80",
+        "https://orf.at/stories/3436131",
+        "https://orf.at/stories/3436031",
+        "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an",
+        "https://www.tt.com/artikel/30938058/iran-krieg-eskaliert-erneut-iranischer-soldat-getoetet",
+        "https://www.handelsblatt.com/politik/international/iran-krieg-angriffswelle-gegen-iran-laut-us-militaer-abgeschlossen/100136895.html",
+        "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101339960/strasse-von-hormus-zu-iran-meldet-us-angriffe-und-widerspricht-trump.html",
+        "https://www.aljazeera.com/news/2026/7/13/us-and-iran-trade-strikes-as-ceasefire-comes-under-growing-strain"
       ],
       "openQuestions": [
-        "Wie lassen sich die unterschiedlichen Angaben zu getroffenen Zielen (rund 140 in der jüngsten Welle vs. kumulativ mehr als 300) zweifelsfrei zusammenführen?",
-        "Wie viele US-Angriffswellen hat es seit Mittwoch tatsächlich gegeben, und decken sich die Zählungen verschiedener Medien?",
-        "Wie stark ist der Schiffsverkehr durch die Straße von Hormus tatsächlich zurückgegangen – Angaben reichen von nahezu vollständigem Erliegen bis zu einzelnen zweistelligen Schiffszahlen pro Tag?",
-        "Gibt es bestätigte Opferzahlen auf iranischer, US- oder verbündeter Seite, etwa in Bahrain, Kuwait oder Jordanien?",
-        "Was ist der aktuelle Zustand des angegriffenen Containerschiffs und seines vermissten Besatzungsmitglieds?",
+        "Wie viele US-Angriffswellen hat es seit dem Wiederaufflammen der Kämpfe in der Nacht auf Mittwoch inzwischen tatsächlich gegeben, und wie ordnet sich die als „abgeschlossen“ gemeldete Welle im Vergleich zu den danach gemeldeten neuen Angriffen ein?",
+        "Wird der Tod des iranischen Marinesoldaten im Hafen Jask von unabhängigen, nicht-iranischen Stellen bestätigt?",
+        "Gibt es weitere bestätigte Opferzahlen auf iranischer, US- oder verbündeter Seite, etwa in Bahrain, Kuwait, Jordanien oder – laut einzelnen internationalen Berichten – auch in Oman und Katar?",
+        "Trifft es zu, dass iranische Gegenschläge auch Ziele in Oman und Katar erfasst haben, wie einzelne internationale Berichte nahelegen, oder beschränkten sie sich wie in früheren Berichten auf Bahrain, Kuwait und Jordanien?",
+        "Wie stark ist der Schiffsverkehr durch die Straße von Hormus tatsächlich zurückgegangen – und wessen Darstellung (US-Angabe „Verkehr fließt“ vs. iranische Sperr-Ankündigung) ist zutreffender?",
+        "Was ist der aktuelle Zustand des zuvor angegriffenen Containerschiffs und seines vermissten Besatzungsmitglieds?",
+        "Setzt Trump seine Drohung gegen die Tunnelanlage im Kuh-e-Kolang-Gebirge tatsächlich um, und mit welchen Folgen?",
         "Wird der omanische Vermittlungsvorschlag zur Aufteilung der Route von beiden Seiten angenommen, und finden die abgebrochenen Gespräche in Maskat eine Fortsetzung?",
-        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die Eskalation und Guterres' Warnung?",
-        "Welche konkreten, unabhängig geprüften Auswirkungen zeigen sich auf Ölpreise, Frachtraten und Schifffahrtsversicherungen?"
+        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die fortgesetzte Eskalation und Guterres' Warnung?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T10:50:31.638Z",
-      "doNotUpdateBefore": "2026-07-13T16:50:31.638Z",
+      "doNotRedraftBefore": "2026-07-14T22:07:26.937Z",
+      "doNotUpdateBefore": "2026-07-14T04:07:26.937Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-13T10:50:31.638Z",
-        "diepresse": "2026-07-13T14:07:29.118Z"
+        "diepresse": "2026-07-13T14:07:29.118Z",
+        "orf": "2026-07-13T22:07:26.937Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -3674,7 +3682,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-14T20:07:31.882Z",
-      "doNotUpdateBefore": "2026-07-14T02:07:31.882Z"
+      "doNotUpdateBefore": "2026-07-14T02:07:31.882Z",
+      "echoPublishers": {
+        "arstechnica": "2026-07-13T22:07:26.937Z"
+      }
     },
     "usa-internationaler-strafgerichtshof-druck-verbuendete-juli-2026": {
       "canonicalTitle": "USA verschärfen Kurs gegen Internationalen Strafgerichtshof",
@@ -3696,7 +3707,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T20:07:31.882Z",
-      "doNotUpdateBefore": "2026-07-14T02:07:31.882Z"
+      "doNotUpdateBefore": "2026-07-14T02:07:31.882Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-13T22:07:26.937Z"
+      }
     },
     "eu-sanktionen-israelische-siedlungen-westjordanland-juli-2026": {
       "canonicalTitle": "EU-Außenminister beraten über mögliche Sanktionen gegen israelische Siedlungspolitik",
@@ -3721,6 +3735,52 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T20:07:31.882Z",
       "doNotUpdateBefore": "2026-07-14T02:07:31.882Z"
+    },
+    "ukraine-franzoesische-raketen-lizenz-juli-2026": {
+      "canonicalTitle": "Ukraine soll laut Berichten französische Raketen produzieren dürfen",
+      "slug": "ukraine-franzoesische-raketen-lizenz-juli-2026",
+      "firstSeenAt": "2026-07-13T22:07:26.937Z",
+      "lastUpdatedAt": "2026-07-13T22:07:26.937Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ukraine-franzoesische-raketen-lizenz-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/ukraine-franzoesische-raketen-lizenz-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436130",
+        "https://www.derstandard.at/story/3000000330762/wie-schnell-kann-die-ukraine-patriot-raketen-produzieren"
+      ],
+      "openQuestions": [
+        "Gibt es ein offizielles Statement Frankreichs oder der Ukraine zu einer Produktionslizenz?",
+        "Welchen konkreten Umfang und Zeitplan hat eine solche Lizenz?",
+        "Wie verhält sich eine mögliche eigene Patriot- bzw. Flugabwehrraketen-Produktion der Ukraine dazu?",
+        "Haben Russland, die NATO oder andere Staaten reagiert?",
+        "Sind die in Zusammenhang genannten Zusatzdetails (Kampfjet-Beschaffung, mehrstaatliche Koalition) zutreffend?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T22:07:26.937Z",
+      "doNotUpdateBefore": "2026-07-14T04:07:26.937Z"
+    },
+    "trump-irs-steuerdeal-urteil-juli-2026": {
+      "canonicalTitle": "US-Richterin kippt Steuervergleich zwischen Trump und der Steuerbehörde IRS",
+      "slug": "trump-irs-steuerdeal-urteil-juli-2026",
+      "firstSeenAt": "2026-07-13T22:07:26.937Z",
+      "lastUpdatedAt": "2026-07-13T22:07:26.937Z",
+      "status": "published",
+      "articlePath": "src/content/articles/trump-irs-steuerdeal-urteil-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/trump-irs-steuerdeal-urteil-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436127"
+      ],
+      "openQuestions": [
+        "Wie lautet die vollständige juristische Begründung der Richterin?",
+        "Gibt es eine offizielle Stellungnahme des US-Justizministeriums?",
+        "Welche genauen Bedingungen enthielt der ursprüngliche Vergleich?",
+        "Wie schätzen unabhängige Rechtsexperten die Tragweite des Urteils ein?",
+        "Wird gegen die Entscheidung Berufung eingelegt und in welchem Zeitrahmen?",
+        "Wie reagieren Trump-nahe Akteure im Justizministerium auf das Urteil?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T22:07:26.937Z",
+      "doNotUpdateBefore": "2026-07-14T04:07:26.937Z"
     }
   }
 }

@@ -1,0 +1,159 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-21a8c8ae",
+    "title": "Ukraine darf französische Raketen produzieren",
+    "items": [
+      {
+        "itemId": "d188c57fa89e00b6ce2a6f63834c5599d25419e75d94606f87e6a61df4548190",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Ukraine darf französische Raketen produzieren",
+        "url": "https://orf.at/stories/3436130",
+        "publishedAt": "2026-07-13T21:27:32.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "9fc185c71c367668bc22579a176889174df2024f0e51a2461a140523f6a8d579",
+        "sourceId": "derstandard_web",
+        "sourceType": "media",
+        "title": "Wie schnell kann die Ukraine Patriot-Raketen produzieren?",
+        "url": "https://www.derstandard.at/story/3000000330762/wie-schnell-kann-die-ukraine-patriot-raketen-produzieren",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Geopolitisch relevante Entwicklung mit konkreten Beschlüssen: Frankreich erteilt der Ukraine erstmals Lizenzen zur Rüstungsproduktion (Marschflugkörper, Präzisionsbomben, Flugabwehrraketen). 16 Rafale-Jets bis 2029. 10 europäische Staaten (DE, FR, GB, DK, IT, NL, NO, ES, SE + Ukraine) bilden Koalition für integrierte Raketenabwehr. Macron-Selenskyj-Treffen dokumentiert. Quellenlage ist solide (ORF-Fulltext mit Agenturverben; Der Standard mit Trump-Zusatz). Relevanz für Österreich/EU-Sicherheitsarchitektur und europäische Außenpolitik klar. Konkrete Details vorhanden (Typ, Anzahl, Timeline). Keine verwandten publizierten Artikel.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Frankreich erteilt der Ukraine erstmals Lizenzen zur Rüstungsproduktion",
+      "Ukraine bestellt 16 französische Rafale-Kampfjets (einsatzbereit bis 2029)",
+      "10 europäische Staaten (DE, FR, GB, DK, IT, NL, NO, ES, SE + Ukraine) vereinbaren Koalition für integrierte Raketenabwehr",
+      "Trump kündigte Lizenz für Patriot-Abfangraketen-Eigenproduktion an",
+      "Ukraine hat eigene Rakete entwickelt mit günstiger Massenproduktion"
+    ],
+    "missingSources": [
+      "Direktes Macron-Statement oder Communiqué des Treffens",
+      "Wortlaut der Koalitions-Erklärung",
+      "Vollständiges Trump-Zitat mit Kontext und Datum",
+      "Technische Spezifikationen der ukrainischen Rakete",
+      "Kosten und Budget der Investitionen",
+      "Zeitplan und Umsetzungsschritte für Lizenzvergabe",
+      "Reaktionen Russlands, der NATO oder Dritter"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "ukraine-franzoesische-raketen-lizenz-juli-2026",
+    "title": "Ukraine soll laut Berichten französische Raketen produzieren dürfen",
+    "description": "ORF und Der Standard berichten von einer möglichen französischen Lizenz zur Raketenproduktion in der Ukraine sowie von offenen Fragen zu einer eigenen Flugabwehr-Fertigung. Details und Hintergründe sind anhand der vorliegenden Kurzmeldungen nicht abschließend verifizierbar.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "low",
+    "confidenceNote": "Es liegen nur zwei Medien-Kurzmeldungen (Titel/URL) ohne gelesenen Volltext und ohne offizielle Bestätigung durch Frankreich, die Ukraine oder eine Agentur vor, zudem behandeln beide Titel nicht exakt dieselbe Einzelaussage.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine Primärquelle wie eine offizielle Mitteilung, ein Communiqué oder eine Agenturmeldung eingesehen, sondern nur zwei Medientitel als Diskovery-Signale.",
+    "framingRisk": "high",
+    "framingRiskNote": "Die vorliegenden Titel spiegeln ausschließlich die Perspektive westlicher bzw. ukrainischer Berichterstattung; Stellungnahmen Russlands, der NATO oder unabhängiger Militärexperten fehlen vollständig.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut ORF soll die Ukraine eine Lizenz erhalten, um Raketen französischer Bauart selbst zu produzieren.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Standard wirft in einem Beitrag die Frage auf, wie schnell die Ukraine Patriot-artige Raketen fertigen könnte – ohne dass daraus eine bestätigte Antwort hervorgeht.",
+        "kind": "fact"
+      },
+      {
+        "text": "Angaben zu Umfang, Zeitplan und rechtlichem Rahmen der Lizenz sind anhand der vorliegenden Kurzmeldungen nicht überprüfbar.",
+        "kind": "open"
+      },
+      {
+        "text": "Reaktionen Russlands, der NATO oder weiterer Staaten liegen nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Weitere im Umfeld kursierende Details – etwa zu Kampfjet-Beschaffungen oder einer mehrstaatlichen Abwehr-Koalition – lassen sich derzeit nicht bestätigen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Gibt es ein offizielles Statement Frankreichs oder der Ukraine zu einer Produktionslizenz?",
+      "Welchen konkreten Umfang und Zeitplan hat eine solche Lizenz?",
+      "Wie verhält sich eine mögliche eigene Patriot- bzw. Flugabwehrraketen-Produktion der Ukraine dazu?",
+      "Haben Russland, die NATO oder andere Staaten reagiert?",
+      "Sind die in Zusammenhang genannten Zusatzdetails (Kampfjet-Beschaffung, mehrstaatliche Koalition) zutreffend?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3436130"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000330762/wie-schnell-kann-die-ukraine-patriot-raketen-produzieren"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Frankreich erteilt der Ukraine laut ORF-Bericht erstmals eine Lizenz zur eigenen Produktion französischer Raketen.",
+        "status": "partial",
+        "note": "Nur eine Medienquelle auf Titel-Ebene verfügbar, kein gelesener Volltext und keine offizielle Bestätigung.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Berichten zufolge steht die Frage im Raum, wie schnell die Ukraine Patriot-artige Raketen in Eigenproduktion herstellen könnte.",
+        "status": "unclear",
+        "note": "Der Standard formuliert dies laut Titel als offene Frage, nicht als bestätigte Tatsache; eine Antwort liegt uns nicht vor.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Im Umfeld dieser Berichterstattung kursieren weitere Details – etwa zu einer möglichen Beschaffung französischer Kampfjets oder einer mehrstaatlichen Raketenabwehr-Koalition europäischer Länder.",
+        "status": "unclear",
+        "note": "Diese Punkte lassen sich anhand der vorliegenden Kurzmeldungen nicht verifizieren und werden hier bewusst nicht als Fakten dargestellt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut einem Bericht von ORF.at soll die Ukraine künftig die Möglichkeit erhalten, Raketen französischer Bauart selbst zu produzieren. Parallel dazu stellt Der Standard in einem eigenen Beitrag die Frage, wie schnell die Ukraine Patriot-artige Flugabwehrraketen in Eigenfertigung herstellen könnte. Beide Beiträge fallen in den größeren Kontext westlicher Unterstützung für die ukrainische Rüstungsproduktion inmitten des andauernden russischen Angriffskriegs. Die genauen Umstände, Bedingungen und der zeitliche Rahmen einer solchen Lizenzvergabe sind auf Basis der vorliegenden Kurzmeldungen jedoch nicht im Detail nachvollziehbar."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Für diesen Artikel standen ausschließlich die Titel, URLs und – im Fall von ORF – ein Veröffentlichungszeitpunkt der beiden Beiträge zur Verfügung, nicht deren vollständiger Inhalt. Der ORF-Titel legt nahe, dass es eine Genehmigung oder Lizenz für die Ukraine zur Produktion französischer Raketen gibt. Der Titel des Standard-Beitrags ist als Frage formuliert und bezieht sich auf das Tempo einer möglichen Patriot-Eigenproduktion – ein Aspekt, der nicht deckungsgleich mit der ORF-Meldung ist, sondern einen verwandten, aber eigenständigen Strang derselben größeren Entwicklung rund um ukrainische Rüstungsfertigung darstellt. Eine inhaltliche Prüfung der Volltexte oder ein Abgleich mit offiziellen Stellungnahmen fand nicht statt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, in welchem konkreten rechtlichen und zeitlichen Rahmen eine französische Lizenz für die Ukraine stehen würde, welche Raketentypen genau betroffen wären und wer die Vereinbarung auf welcher Ebene getroffen haben soll. Ebenso unklar ist der Stand einer etwaigen eigenen Patriot- oder Flugabwehrraketen-Produktion der Ukraine. Zusätzlich kursieren im Umfeld dieses Themenkomplexes weitere Details – etwa zu einer möglichen Beschaffung französischer Kampfjets oder einer Koalition mehrerer europäischer Staaten für eine integrierte Raketenabwehr –, die sich anhand der vorliegenden Kurzmeldungen nicht bestätigen lassen und daher hier nicht als gesichert dargestellt werden. Auch Reaktionen Russlands, der NATO oder anderer betroffener Akteure liegen nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Meldungen zu Rüstungskooperationen im Kontext des Kriegs in der Ukraine sind ein sensibles Themenfeld, in dem einzelne Berichte oft nur Ausschnitte einer größeren, sich schnell verändernden Lage abbilden. Da für diesen Artikel keine Primärquelle wie eine offizielle Erklärung, ein Vertragstext oder eine Agenturmeldung vorlag, sondern lediglich zwei Medientitel als Diskovery-Signale, ist die Einordnung entsprechend vorsichtig zu lesen. Weitere Berichterstattung mit Einsicht in offizielle Quellen und Reaktionen weiterer Akteure wäre nötig, um die genannten Punkte zu bestätigen oder zu präzisieren."
+      }
+    ],
+    "bodyKompakt": "Laut einem Bericht von ORF.at soll die Ukraine künftig Raketen französischer Bauart selbst produzieren dürfen. Der Standard wirft in einem eigenen Beitrag zudem die Frage auf, wie schnell die Ukraine Patriot-artige Flugabwehrraketen in Eigenfertigung herstellen könnte. Beide Beiträge stehen im Kontext westlicher Unterstützung für die ukrainische Rüstungsproduktion während des andauernden russischen Angriffskriegs.\n\nFür diesen Artikel lagen nur die Titel und URLs der beiden Beiträge vor, keine gelesenen Volltexte und keine offizielle Bestätigung durch Frankreich, die Ukraine oder eine Nachrichtenagentur. Details zu Umfang, Zeitplan und rechtlichem Rahmen einer möglichen Lizenz sowie weitere im Umfeld genannte Punkte – etwa zu Kampfjet-Beschaffungen oder einer mehrstaatlichen Raketenabwehr-Koalition – lassen sich daher nicht bestätigen.\n\nReaktionen Russlands, der NATO oder anderer Akteure liegen ebenfalls nicht vor. Die Darstellung bleibt entsprechend vorläufig und stützt sich ausschließlich auf die vorliegende, eingeschränkte Quellenlage.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-13T22:07:26.937Z"
+}
