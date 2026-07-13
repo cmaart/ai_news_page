@@ -178,8 +178,31 @@ export interface TriageResult {
    * überschreibt die deterministische Zählung für 24 h. Sonst null/fehlend.
    */
   resonance?: number | null;
+  /**
+   * Slug einer verwandten, bereits publizierten Story (PLAN.md E53), falls dieser
+   * Cluster eine solche fortsetzt. Bei action 'update_story' = die zu aktualisierende
+   * Story; bei 'draft_article' = die Story, auf die der neue Delta-Artikel verweist.
+   * null/fehlend, wenn kein Bezug zu einem der vorgelegten relatedStories besteht.
+   */
+  relatedSlug?: string | null;
   possibleClaims: string[];
   missingSources: string[];
+}
+
+/**
+ * Verwandte publizierte Story (PLAN.md E53), der Haiku-Triage als Kandidat
+ * vorgelegt — von findRelatedStories (High-Recall) gefunden. Nur Kontext für
+ * die Update-vs-Delta-Entscheidung; die strenge matchStory-Logik (Resonanz,
+ * Dedup) bleibt davon unberührt.
+ */
+export interface RelatedCandidate {
+  slug: string;
+  canonicalTitle: string;
+  status: Story['status'];
+  hasPublishedArticle: boolean;
+  openQuestions: string[];
+  /** Deterministisch gezählte Portale mit Folge-Items in 24 h (E46) — nur für die Echo-Story gesetzt. */
+  echoPublishers24h?: number;
 }
 
 export interface DraftBodySection {

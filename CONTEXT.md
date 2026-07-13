@@ -53,3 +53,10 @@ _Avoid_: Relevanz (= errechneter Ranking-Score), Nachrichtenwert, Reichweite (wi
 
 **Einseitigkeit** (`framingRisk`):
 Risiko, dass die Darstellung einseitig gefärbt ist, weil die verfügbaren Quellen eine Perspektive dominieren. Rubrik: **gering** = mehrere unabhängige Perspektiven, Gegenseite aus direkt eingesehener Quelle · **mittel** = eine Perspektive dominiert oder Gegenseite nur aus zweiter Hand · **hoch** = nur Darstellung einer Seite, Gegenseite fehlt.
+
+**Verwandte Story** (Follow-up, E53):
+Ein neuer Nachrichten-Cluster, der dieselbe Story fortsetzt wie ein bereits publizierter Artikel (neue Wendung, Reaktion, Detail). Von der Pipeline über `findRelatedStories` (High-Recall, geteilte Eigennamen) als Kandidat erkannt und der Haiku-Triage vorgelegt; nicht zu verwechseln mit dem strengen `matchStory`, das nur Resonanz-Zählung, Dedup und das Update-Target speist. Die Haiku-Triage entscheidet dann: inkrementelles Detail am selben Ereignis → Update des Bestands-Artikels (Default); eigenständige neue Wendung mit eigener Schlagzeile-Rechtfertigung → Delta-Artikel.
+
+**Delta-Artikel** (`relatedSlugs`, E53):
+Eigenständiger Artikel zu einer neuen Wendung einer bereits publizierten Story — bewusst NICHT als Update in den Bestands-Artikel gefaltet, sondern die Ausnahme (Default ist Update). Er erzählt das bereits Berichtete NICHT nach: er eröffnet mit der neuen Entwicklung, setzt die Vorgeschichte voraus (max. ein Absatz mit Verweis) und verlinkt bidirektional über `relatedSlugs` auf den Bestands-Artikel. Zweck: eine echte neue Entwicklung mit eigener Schlagzeile abbilden, ohne die Story in redundante, konkurrierende URLs zu zerfasern.
+_Avoid_: Zweitartikel, Duplikat (ein Delta-Artikel wiederholt gerade nichts); Update (das ist die Alternative dazu)

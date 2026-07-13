@@ -45,6 +45,13 @@ const articles = defineCollection({
       )
       .min(1),
     openQuestions: z.array(z.string().min(1)).default([]),
+    /**
+     * Verwandte Artikel derselben Story (PLAN.md E53) — Slugs (= Dateiname
+     * ohne .mdx). Bidirektional gepflegt (Delta-Artikel patcht den Bestand
+     * zurück), im Layout via withBase gerendert. validate.ts prüft Existenz
+     * und verbietet Self-Links.
+     */
+    relatedSlugs: z.array(z.string().min(1)).default([]),
     sources: z
       .array(
         z.object({
