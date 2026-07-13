@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T10:16:54.114Z",
+  "updatedAt": "2026-07-13T11:03:22.006Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1397,7 +1397,6 @@
       "doNotRedraftBefore": "2026-07-14T08:07:26.141Z",
       "doNotUpdateBefore": "2026-07-13T14:07:26.141Z",
       "echoPublishers": {
-        "diepresse": "2026-07-12T10:07:25.258Z",
         "derstandard": "2026-07-13T08:07:26.141Z"
       },
       "resonanceLevel": 2,
@@ -1644,13 +1643,13 @@
       "echoPublishers": {}
     },
     "usa-iran-luftangriffe-strasse-von-hormus-juli-2026": {
-      "canonicalTitle": "USA greifen Iran erneut an – Washington widerspricht Teherans Sperre der Straße von Hormus",
+      "canonicalTitle": "Iran-Krieg spitzt sich zu: Vierte US-Angriffswelle, Guterres warnt vor Eskalation an der Straße von Hormus",
       "slug": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
       "firstSeenAt": "2026-07-12T06:07:23.718Z",
-      "lastUpdatedAt": "2026-07-12T16:07:30.894Z",
+      "lastUpdatedAt": "2026-07-13T10:50:31.638Z",
       "status": "published",
       "articlePath": "src/content/articles/usa-iran-luftangriffe-strasse-von-hormus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-12/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-1600.json",
+      "researchPath": "data/ai-news/research/2026-07-13/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-1000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
         "https://orf.at/stories/3435963",
@@ -1659,23 +1658,41 @@
         "https://www.npr.org/2026/07/11/g-s1-133212/us-iran-vessel-attack-strait-hormuz-gulf",
         "https://www.zdfheute.de/politik/ausland/strasse-hormus-schiffsverkehr-einbruch-100.html",
         "https://www.cnbc.com/2026/07/10/us-iran-war-strikes-strait-of-hormuz-technical-talks-progress-.html",
-        "https://www.nachrichten.at/politik/aussenpolitik/eskalation-in-strasse-von-hormus-us-angriffe-und-ein-brennendes-schiff;art391,4191126"
+        "https://www.nachrichten.at/politik/aussenpolitik/eskalation-in-strasse-von-hormus-us-angriffe-und-ein-brennendes-schiff;art391,4191126",
+        "https://www.kleinezeitung.at/artikel/36846899/die-usa-schlittern-im-iran-wieder-in-den-krieg",
+        "https://www.kleinezeitung.at/artikel/36099006/drei-szenarien-fuer-die-strasse-von-hormuz",
+        "https://www.kleinezeitung.at/artikel/36042111/usa-fliegen-neue-angriffe-auf-den-iran",
+        "https://www.diepresse.com/36751573/neue-eskalation-in-strasse-von-hormuz-us-angriffe-und-brennendes-schiff",
+        "https://kurier.at/politik/ausland/strasse-hormus-us-angriffe-brennendes-schiff/403175660",
+        "https://www.diepresse.com/36751573/neue-eskalation-in-strasse-von-hormuz-iranischer-soldat-laut-behoerden-getoetet",
+        "https://www.diepresse.com/36763155/neue-bombardements-im-iran-krieg-teheran-beansprucht-kontrolle-ueber-strasse-von-hormuz",
+        "https://kurier.at/politik/ausland/iran-usa-krieg-strasse-von-hormus-schiffe-inder-waffenstillstand-trump/403175714",
+        "https://www.diepresse.com/36797469/erhebliche-eskalation-usa-attackieren-iran-erneut-guterres-besorgt",
+        "https://www.tagesspiegel.de/internationales/liveblog/teheran-erklart-strasse-von-hormus-fur-gesperrt-usa-greifen-in-der-nacht-140-ziele-im-iran-an-10586281.html",
+        "https://www.t-online.de/nachrichten/ausland/id_101316904/revolutionsgarden-ziele-in-kuwait-und-bahrain-angegriffen.html",
+        "https://www.watson.ch/international/analyse/110215029-usa-und-iran-uneinig-was-das-fuer-die-strasse-von-hormus-bedeutet",
+        "https://www.bloomberg.com/news/articles/2026-07-09/iran-krieg-hormus-schiffsverkehr-kommt-fast-zum-erliegen-olpreis-nahe-80"
       ],
       "openQuestions": [
-        "Wie lassen sich die unterschiedlichen Angaben zu getroffenen Zielen (rund 140 in der jüngsten Angriffswelle vs. kumulativ mehr als 300 über mehrere Tage) zweifelsfrei zusammenführen?",
-        "Gibt es bestätigte Opferzahlen auf iranischer oder US-Seite?",
-        "Ist die Straße von Hormus tatsächlich uneingeschränkt befahrbar, oder handelt es sich – wie die gesunkenen Schiffszahlen nahelegen – nur um eine teilweise Öffnung?",
+        "Wie lassen sich die unterschiedlichen Angaben zu getroffenen Zielen (rund 140 in der jüngsten Welle vs. kumulativ mehr als 300) zweifelsfrei zusammenführen?",
+        "Wie viele US-Angriffswellen hat es seit Mittwoch tatsächlich gegeben, und decken sich die Zählungen verschiedener Medien?",
+        "Wie stark ist der Schiffsverkehr durch die Straße von Hormus tatsächlich zurückgegangen – Angaben reichen von nahezu vollständigem Erliegen bis zu einzelnen zweistelligen Schiffszahlen pro Tag?",
+        "Gibt es bestätigte Opferzahlen auf iranischer, US- oder verbündeter Seite, etwa in Bahrain, Kuwait oder Jordanien?",
         "Was ist der aktuelle Zustand des angegriffenen Containerschiffs und seines vermissten Besatzungsmitglieds?",
-        "Wird der omanische Vermittlungsvorschlag zur Aufteilung in eine freie südliche und eine genehmigungspflichtige nördliche Route von beiden Seiten angenommen?",
-        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die Eskalation?",
-        "Welche konkreten Auswirkungen zeigen sich auf Ölpreise und Schifffahrtsversicherungen?"
+        "Wird der omanische Vermittlungsvorschlag zur Aufteilung der Route von beiden Seiten angenommen, und finden die abgebrochenen Gespräche in Maskat eine Fortsetzung?",
+        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die Eskalation und Guterres' Warnung?",
+        "Welche konkreten, unabhängig geprüften Auswirkungen zeigen sich auf Ölpreise, Frachtraten und Schifffahrtsversicherungen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-13T16:07:30.894Z",
-      "doNotUpdateBefore": "2026-07-12T22:07:30.894Z",
+      "doNotRedraftBefore": "2026-07-14T10:50:31.638Z",
+      "doNotUpdateBefore": "2026-07-13T16:50:31.638Z",
       "echoPublishers": {
-        "orf": "2026-07-12T16:07:30.894Z"
-      }
+        "orf": "2026-07-12T16:07:30.894Z",
+        "kleinezeitung": "2026-07-13T10:50:31.638Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-13T10:50:31.638Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -1719,7 +1736,6 @@
       "doNotRedraftBefore": "2026-07-13T07:07:28.557Z",
       "doNotUpdateBefore": "2026-07-12T13:07:28.557Z",
       "echoPublishers": {
-        "orf": "2026-07-12T10:07:25.258Z",
         "diepresse": "2026-07-12T13:07:28.466Z"
       },
       "resonanceLevel": 1,
@@ -1769,9 +1785,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-13T07:07:28.557Z",
       "doNotUpdateBefore": "2026-07-12T13:07:28.557Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-12T10:07:25.258Z"
-      }
+      "echoPublishers": {}
     },
     "israel-siedler-festnahme-cnn-team-westjordanland-juli-2026": {
       "canonicalTitle": "Israel: Vier Siedler nach mutmaßlichem Angriff auf CNN-Team im Westjordanland festgenommen",
@@ -1911,9 +1925,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-13T09:07:28.176Z",
       "doNotUpdateBefore": "2026-07-12T15:07:28.176Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-12T10:07:25.258Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 2,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-12T11:07:29.032Z"
@@ -2772,7 +2784,8 @@
       "doNotRedraftBefore": "2026-07-14T08:07:26.141Z",
       "doNotUpdateBefore": "2026-07-13T14:07:26.141Z",
       "echoPublishers": {
-        "kurier": "2026-07-13T10:01:08.091Z"
+        "kurier": "2026-07-13T10:01:08.091Z",
+        "futurezone": "2026-07-13T10:50:31.638Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "triage",
@@ -2939,6 +2952,73 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-14T10:01:08.091Z",
       "doNotUpdateBefore": "2026-07-13T16:01:08.091Z"
+    },
+    "fpoe-ultimatum-karner-papier-pilnacek-ausschuss-juli-2026": {
+      "canonicalTitle": "FPÖ setzt Innenminister Karner Ultimatum wegen Vorbereitungspapier im Pilnacek-Ausschuss",
+      "slug": "fpoe-ultimatum-karner-papier-pilnacek-ausschuss-juli-2026",
+      "firstSeenAt": "2026-07-13T10:50:31.638Z",
+      "lastUpdatedAt": "2026-07-13T10:50:31.638Z",
+      "status": "published",
+      "articlePath": "src/content/articles/fpoe-ultimatum-karner-papier-pilnacek-ausschuss-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/fpoe-ultimatum-karner-papier-pilnacek-ausschuss-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436067",
+        "https://www.kleinezeitung.at/artikel/36892398/fpoe-praesentierte-geleaktes-papier-aus-dem-innenministerium",
+        "https://www.ots.at/presseaussendung/OTS_20260713_OTS0066/fpoe-hafenecker-geheimes-maulkorb-papier-enthuellt-oevp-innenminister-sabotiert-u-ausschuss-mit-steuergeld",
+        "https://www.sn.at/politik/innenpolitik/fpoe-schiesst-sich-auf-karner-papier-zu-u-ausschuss-ein-art-661884",
+        "https://www.parlament.gv.at/aktuelles/pk/jahr_2026/pk0705"
+      ],
+      "openQuestions": [
+        "Wird das Innenministerium das Papier bis zum gesetzten Ultimatum offiziell an den U-Ausschuss übermitteln?",
+        "Wie reagieren Innenminister Karner und das Innenministerium auf die Vorwürfe der FPÖ?",
+        "Sind Echtheit und vollständiger Inhalt des Papiers unabhängig verifizierbar?",
+        "Ist die von der FPÖ kritisierte Beauftragung einer Anwaltskanzlei zur Vorbereitung von Polizeizeugen üblich oder tatsächlich problematisch?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T10:50:31.638Z",
+      "doNotUpdateBefore": "2026-07-13T16:50:31.638Z"
+    },
+    "fussgaenger-koestendorf-gueterzug-unfall-juli-2026": {
+      "canonicalTitle": "Fußgänger bei Köstendorf von Güterzug erfasst und verletzt",
+      "slug": "fussgaenger-koestendorf-gueterzug-unfall-juli-2026",
+      "firstSeenAt": "2026-07-13T10:50:31.638Z",
+      "lastUpdatedAt": "2026-07-13T10:50:31.638Z",
+      "status": "published",
+      "articlePath": "src/content/articles/fussgaenger-koestendorf-gueterzug-unfall-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/fussgaenger-koestendorf-gueterzug-unfall-juli-2026.json",
+      "sourceUrls": [
+        "https://salzburg.orf.at/stories/3362461",
+        "https://kurier.at/chronik/salzburg/oebb-wetsbahnstrecke-unfall-polzei-rettung/403175807"
+      ],
+      "openQuestions": [
+        "Wie kam es konkret zu dem Zusammenstoß mit dem Güterzug?",
+        "Wie schwer wurde der 22-Jährige verletzt und wie ist sein aktueller Zustand?",
+        "Gibt es eine offizielle Stellungnahme der Polizei oder der ÖBB zu dem Vorfall?",
+        "Waren weitere Personen oder Umstände (z. B. Sichtverhältnisse, Bahnübergang) beteiligt?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T10:50:31.638Z",
+      "doNotUpdateBefore": "2026-07-13T16:50:31.638Z"
+    },
+    "cluster-20260713-732233ed": {
+      "canonicalTitle": "300 US-Dollar mehr allein für die Teile: iPhone 18 Pro Max könnte teuer werden",
+      "slug": "cluster-20260713-732233ed",
+      "firstSeenAt": "2026-07-13T10:50:31.638Z",
+      "lastUpdatedAt": "2026-07-13T10:50:31.638Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.heise.de/news/300-US-Dollar-mehr-allein-fuer-die-Teile-iPhone-18-Pro-Max-koennte-teuer-werden-11362056.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://futurezone.at/produkte/3-design-veraenderungen-iphone-18-pro-dicke-gewicht-farben/403175419",
+        "https://www.golem.de/news/apple-speicherpreise-treiben-preis-fuer-iphone-18-pro-max-2607-210773.html"
+      ],
+      "openQuestions": [
+        "Primäre Bestätigung von Apple (iPhone-Ankündigung/Preiskommentar)",
+        "Zweite unabhängige BoM-Analyse zur Cross-Validierung",
+        "Identifizierung spezifischer neuer optischer Kamera-Funktionen",
+        "Verifikation der Speicherpreis-Inflation durch Halbleiter-Hersteller",
+        "Verifizierung des Rollout-Datums (September-Gerücht)"
+      ],
+      "sensitivity": "low"
     }
   }
 }

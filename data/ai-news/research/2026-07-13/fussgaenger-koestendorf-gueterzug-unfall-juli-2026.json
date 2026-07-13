@@ -1,0 +1,179 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-3ddb048d",
+    "title": "Fußgänger von Güterzug erfasst",
+    "items": [
+      {
+        "itemId": "18952ed88ecf007ad0a8486075310cc99ce7ef836b793e1573ad8367fd6a66d2",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Fußgänger von Güterzug erfasst",
+        "url": "https://salzburg.orf.at/stories/3362461",
+        "summary": "Ein Fußgänger ist in der Nacht auf Montag bei Köstendorf (Flachgau) von einem Güterzug erfasst worden. Die Polizei geht von einem Unfall aus. Wie es dazu gekommen ist, ist noch unklar. Der 22-Jährige wurde unbestimmten Grades verletzt und ins Uniklinikum Salzburg gebracht.",
+        "publishedAt": "2026-07-13T10:41:39.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "fb5990f8ce4329c0da4074e8905dbdade9e76689e9d1de6ff9f4f6912e381d27",
+        "sourceId": "orf_salzburg",
+        "sourceType": "media",
+        "title": "Fußgänger von Güterzug erfasst",
+        "url": "https://salzburg.orf.at/stories/3362461",
+        "summary": "In Köstendorf (Flachgau) ist in der Nacht auf Montag ein Fußgänger von einem Güterzug erfasst worden. Die Polizei geht von einem Unfall aus. Wie es dazu gekommen ist, ist noch unklar. Der 22-Jährige wurde unbestimmten Grades verletzt und ins Uniklinikum Salzburg gebracht.",
+        "publishedAt": "2026-07-13T10:41:39.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "1c38e09406983bdd928992fa3ebacbed813dc04293700fe77ec30615cf2cb1b4",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Salzburg: Fußgänger auf Westbahn von Güterzug erfasst",
+        "url": "https://kurier.at/chronik/salzburg/oebb-wetsbahnstrecke-unfall-polzei-rettung/403175807",
+        "summary": "Güterzug erfasste Fußgänger auf Westbahnstrecke: 22-Jähriger nahe der Bahnhaltestelle Köstendorf-Weng verletzt.",
+        "publishedAt": "2026-07-13T10:01:30.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "a835524ea55766fcd87985034e1807ffb6efe9bce8f9cd4202e302f602a978e2",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Salzburg: Fußgänger auf Westbahn von Güterzug erfasst",
+        "url": "https://kurier.at/chronik/salzburg/oebb-wetsbahnstrecke-unfall-polzei-rettung/403175807",
+        "summary": "Güterzug erfasste Fußgänger auf Westbahnstrecke: 22-Jähriger nahe der Bahnhaltestelle Köstendorf-Weng verletzt.",
+        "publishedAt": "2026-07-13T10:01:30.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzieller Verkehrsunfall mit guter Quellenlage (ORF mit detailliertem Volltext, Kurier-Bestätigung). Konkretes Ereignis in Salzburg mit dokumentierten Details (Opfer-Alter, Verletzungsgrad, Einsatzkräfte, vermutete Ursache). Öffentliche Relevanz für Österreich gegeben (Bahninfrastruktur, Notfalleinsatz), lokale geografische Reichweite. Quellen erlauben KI-gestützte Recherche ohne Fakten-Erfindung.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "possibleClaims": [
+      "22-Jähriger Ungar von Güterzug erfasst bei Köstendorf-Weng (Flachgau)",
+      "Unfall ereignete sich Sonntag/Nacht auf Montag gegen 22:00–22:30 Uhr auf Westbahnstrecke",
+      "Opfer schwer verletzt, Hubschrauber-Transport ins Uniklinikum Salzburg",
+      "Polizei vermutet Sogwirkung des vorbeifahrenden Zuges als mögliche Ursache",
+      "Großaufgebot Feuerwehr, Rettung, Polizei, ÖBB-Notfallmanagement im Einsatz"
+    ],
+    "missingSources": [
+      "Aktueller Gesundheitszustand und medizinische Prognose des Opfers",
+      "Abschließende polizeiliche Ermittlungsergebnisse zur Unfallursache",
+      "Aussage oder Update vom Opfer selbst (falls ethisch/möglich)",
+      "Infrastruktur- oder Sicherheitsmassnahmen der ÖBB als Reaktion",
+      "Justizielle oder versicherungsrechtliche Folgen (falls zutreffend)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "fussgaenger-koestendorf-gueterzug-unfall-juli-2026",
+    "title": "Fußgänger bei Köstendorf von Güterzug erfasst und verletzt",
+    "description": "Ein 22-Jähriger ist in der Nacht auf Montag bei Köstendorf im Flachgau von einem Güterzug erfasst und verletzt worden. Die Polizei geht von einem Unfall aus, die genauen Umstände sind laut vorliegenden Quellen noch unklar.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige Medien (ORF Salzburg und Kurier) berichten übereinstimmend über den Kernvorfall, was die Grunddarstellung stützt, doch eine offizielle Polizei- oder ÖBB-Aussendung liegt nicht direkt vor.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Primärquelle wie eine Polizeimeldung oder ÖBB-Stellungnahme direkt eingesehen, sondern ausschließlich Medienberichte, die sich mutmaßlich auf Polizeiangaben stützen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Beide Quellen geben dieselbe, offenbar von der Polizei stammende Darstellung wieder; eine zusätzliche Perspektive etwa von ÖBB, Rettungskräften oder Betroffenen fehlt bislang.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein 22-Jähriger wurde in der Nacht auf Montag bei Köstendorf (Flachgau) von einem Güterzug erfasst.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Polizei geht von einem Unfall aus, der Ablauf ist laut vorliegenden Quellen noch nicht geklärt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Verletzte wurde ins Uniklinikum Salzburg gebracht, der Verletzungsgrad ist nicht näher beziffert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie genau es zu dem Unfall auf der Westbahnstrecke kam, bleibt offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie kam es konkret zu dem Zusammenstoß mit dem Güterzug?",
+      "Wie schwer wurde der 22-Jährige verletzt und wie ist sein aktueller Zustand?",
+      "Gibt es eine offizielle Stellungnahme der Polizei oder der ÖBB zu dem Vorfall?",
+      "Waren weitere Personen oder Umstände (z. B. Sichtverhältnisse, Bahnübergang) beteiligt?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Salzburg",
+        "type": "media",
+        "url": "https://salzburg.orf.at/stories/3362461"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/salzburg/oebb-wetsbahnstrecke-unfall-polzei-rettung/403175807"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein 22-jähriger Fußgänger wurde in der Nacht auf Montag bei Köstendorf (Flachgau) auf der Westbahnstrecke von einem Güterzug erfasst.",
+        "status": "supported",
+        "note": "Zwei unabhängige Medien (ORF, Kurier) berichten übereinstimmend über Ort, Zeitpunkt und Grundgeschehen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Polizei geht von einem Unfall aus, die genauen Umstände sind noch unklar.",
+        "status": "supported",
+        "note": "Diese Einschätzung wird von ORF Salzburg explizit berichtet.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Verletzte wurde ins Uniklinikum Salzburg gebracht.",
+        "status": "supported",
+        "note": "Von ORF Salzburg berichtet, keine widersprechenden Angaben.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der genaue Verletzungsgrad des 22-Jährigen ist bestimmbar bzw. bereits bekannt.",
+        "status": "unclear",
+        "note": "ORF Salzburg spricht von 'unbestimmten Grades verletzt' — eine genauere Einstufung liegt nicht vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In der Nacht auf Montag ist bei Köstendorf im Flachgau ein Fußgänger von einem Güterzug erfasst worden. Nach übereinstimmenden Medienberichten ereignete sich der Vorfall auf der Westbahnstrecke in der Nähe der Bahnhaltestelle Köstendorf-Weng. Der 22-Jährige wurde dabei verletzt und in das Uniklinikum Salzburg gebracht. Die Polizei geht laut vorliegenden Quellen von einem Unfall aus, wie es genau dazu kam, ist nicht abschließend verifiziert."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "ORF Salzburg und der Kurier berichten unabhängig voneinander über den Vorfall und stimmen in den Kernpunkten überein: Ort (Köstendorf im Flachgau, Westbahnstrecke), Zeitpunkt (Nacht auf Montag), Alter des Betroffenen (22 Jahre) sowie die Einlieferung ins Uniklinikum Salzburg. Diese Übereinstimmung zweier unabhängiger Medien stützt die Grunddarstellung. Eine direkt eingesehene Polizei- oder ÖBB-Meldung liegt jedoch nicht vor, weshalb Details zur Unfallursache und zum genauen Gesundheitszustand des Verletzten offen bleiben."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Wie es zu dem Zusammenstoß kam, ist laut den vorliegenden Quellen noch nicht geklärt. Auch der genaue Verletzungsgrad des 22-Jährigen wird von ORF Salzburg lediglich als 'unbestimmten Grades' beschrieben, eine medizinische Einschätzung oder ein Update zum Zustand des Betroffenen liegt nicht vor. Ebenso fehlen offizielle Stellungnahmen der Polizei oder der ÖBB zu möglichen Ursachen oder etwaigen Konsequenzen für den Bahnbetrieb."
+      }
+    ],
+    "bodyKompakt": "In der Nacht auf Montag ist bei Köstendorf im Flachgau ein Fußgänger von einem Güterzug erfasst worden. Nach übereinstimmenden Berichten von ORF Salzburg und Kurier ereignete sich der Vorfall auf der Westbahnstrecke nahe der Bahnhaltestelle Köstendorf-Weng. Der Betroffene, ein 22-Jähriger, wurde verletzt und ins Uniklinikum Salzburg gebracht. Die Polizei geht laut vorliegenden Quellen von einem Unfall aus.\n\nWie genau es zu dem Zusammenstoß kam, ist bislang nicht geklärt. Auch der Verletzungsgrad wird nur als 'unbestimmten Grades' beschrieben, eine genauere medizinische Einschätzung liegt nicht vor. Eine direkt eingesehene Polizei- oder ÖBB-Stellungnahme fehlt bislang, weshalb Ursache und weitere Folgen des Vorfalls nicht abschließend verifiziert werden können.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-13T10:50:31.638Z"
+}
