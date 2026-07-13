@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T06:20:48.685Z",
+  "updatedAt": "2026-07-13T07:17:06.526Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2561,7 +2561,8 @@
       "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
       "echoPublishers": {
         "derstandard": "2026-07-13T05:07:25.520Z",
-        "kurier": "2026-07-13T06:07:23.920Z"
+        "kurier": "2026-07-13T06:07:23.920Z",
+        "orf": "2026-07-13T07:07:24.730Z"
       }
     },
     "florentina-holzinger-bodensee-performance-juli-2026": {
@@ -2650,7 +2651,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
-      "doNotUpdateBefore": "2026-07-13T12:07:23.920Z"
+      "doNotUpdateBefore": "2026-07-13T12:07:23.920Z",
+      "echoPublishers": {
+        "kurier": "2026-07-13T07:07:24.730Z"
+      }
     },
     "us-iran-eskalation-strasse-von-hormuz-juli-2026": {
       "canonicalTitle": "„Erhebliche Eskalation“: US-Militär greift erneut Ziele im Iran an",
@@ -2678,6 +2682,71 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
       "doNotUpdateBefore": "2026-07-13T12:07:23.920Z"
+    },
+    "borkenkaefer-kaernten-klagenfurt-brennpunkt-juli-2026": {
+      "canonicalTitle": "Borkenkäfer in Kärnten: Einige Bezirke entspannt, Klagenfurt und Unterkärnten im Blick",
+      "slug": "borkenkaefer-kaernten-klagenfurt-brennpunkt-juli-2026",
+      "firstSeenAt": "2026-07-13T07:07:24.730Z",
+      "lastUpdatedAt": "2026-07-13T07:07:24.730Z",
+      "status": "published",
+      "articlePath": "src/content/articles/borkenkaefer-kaernten-klagenfurt-brennpunkt-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/borkenkaefer-kaernten-klagenfurt-brennpunkt-juli-2026.json",
+      "sourceUrls": [
+        "https://kaernten.orf.at/stories/3362207"
+      ],
+      "openQuestions": [
+        "Wie groß sind die tatsächlich betroffenen Flächen bzw. Schadholzmengen in den genannten Bezirken?",
+        "Auf welcher Datengrundlage (Dashboard, Monitoring, Modellrechnung) beruht die BOKU-Einschätzung genau?",
+        "Wie reagieren Waldbesitzer:innen, Forstwirtschaft und Landesstellen auf die Prognose für Klagenfurt und Unterkärnten?",
+        "Bestätigt sich die erwartete Entwicklung in den kommenden Wochen, oder bleibt sie eine reine Prognose?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-14T07:07:24.730Z",
+      "doNotUpdateBefore": "2026-07-13T13:07:24.730Z"
+    },
+    "vermoegenskonzentration-oesterreich-elite-netzwerke-juli-2026": {
+      "canonicalTitle": "Vermögenskonzentration in Österreich: Bericht wirft Licht auf Netzwerke der Superreichen",
+      "slug": "vermoegenskonzentration-oesterreich-elite-netzwerke-juli-2026",
+      "firstSeenAt": "2026-07-13T07:07:24.730Z",
+      "lastUpdatedAt": "2026-07-13T07:07:24.730Z",
+      "status": "published",
+      "articlePath": "src/content/articles/vermoegenskonzentration-oesterreich-elite-netzwerke-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/vermoegenskonzentration-oesterreich-elite-netzwerke-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000330791/die-netzwerke-der-superreichen-mit-welchen-strategien-sie-in-oesterreich-vermoegen-ansammeln"
+      ],
+      "openQuestions": [
+        "Welche konkreten Strategien (etwa Stiftungskonstruktionen, Firmenbeteiligungen, Erbschaften) beschreibt der Bericht im Detail?",
+        "Auf welche Datenquelle stützt sich die Analyse genau – etwa eine EZB-Erhebung oder nationale Vermögensstatistiken?",
+        "Welchen exakten Rang nimmt Österreich im EU-Vergleich ein, und wie wird dieser Rang methodisch ermittelt?",
+        "Welche konkreten Ergebnisse liefert die genannte Forschungsarbeit von Stephan Pühringer und seinem Team?",
+        "Wie wird die behauptete Überschneidung von ökonomischer und politischer Elite im Bericht belegt?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-14T07:07:24.730Z",
+      "doNotUpdateBefore": "2026-07-13T13:07:24.730Z"
+    },
+    "salzburg-obdachlose-studie-hilfsangebote-juli-2026": {
+      "canonicalTitle": "Salzburg: Studie sieht über 100 Obdachlose ohne Kontakt zu Hilfsangeboten",
+      "slug": "salzburg-obdachlose-studie-hilfsangebote-juli-2026",
+      "firstSeenAt": "2026-07-13T07:07:24.730Z",
+      "lastUpdatedAt": "2026-07-13T07:07:24.730Z",
+      "status": "published",
+      "articlePath": "src/content/articles/salzburg-obdachlose-studie-hilfsangebote-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/salzburg-obdachlose-studie-hilfsangebote-juli-2026.json",
+      "sourceUrls": [
+        "https://salzburg.orf.at/stories/3362368"
+      ],
+      "openQuestions": [
+        "Wer hat die Studie in Auftrag gegeben und mit welcher Methodik wurden die rund 100 Personen erfasst?",
+        "In welchem Zeitraum wurde die Erhebung durchgeführt?",
+        "Wie viele der genannten Personen sind tatsächlich minderjährig, wie viele Frauen – gibt es eine belastbare Aufschlüsselung?",
+        "Existieren vergleichbare Daten aus anderen österreichischen Bundesländern?",
+        "Welche konkreten finanziellen oder personellen Mittel fehlen für kombinierte Notwohn- und Beratungsangebote?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T07:07:24.730Z",
+      "doNotUpdateBefore": "2026-07-13T13:07:24.730Z"
     }
   }
 }

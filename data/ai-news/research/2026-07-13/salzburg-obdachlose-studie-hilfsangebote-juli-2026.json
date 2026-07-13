@@ -1,0 +1,162 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-17047c3b",
+    "title": "Zu wenige Obdachlose nehmen Hilfsangebote an",
+    "items": [
+      {
+        "itemId": "e58517c8956aa1d7bb3379d1d9110877d2cd73421fda674e82e2baa420cd9979",
+        "sourceId": "orf_salzburg",
+        "sourceType": "media",
+        "title": "Zu wenige Obdachlose nehmen Hilfsangebote an",
+        "url": "https://salzburg.orf.at/stories/3362368",
+        "summary": "In Salzburg gibt es mehr als 100 obdachlose Menschen, die noch nie um Hilfe gebeten haben, wie eine neue Studie jetzt erhoben hat. Diese Menschen haben Angebote, wie etwa eine Notschlafstelle noch nie in Anspruch genommen. Viele von ihnen sind Minderjährige und Frauen.",
+        "publishedAt": "2026-07-13T04:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "df010cea4395e8c0e4fca6ac58e2149ab5fb983cc2186e70b25911ddc8fb2070",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Zu wenige Obdachlose nehmen Hilfsangebote an",
+        "url": "https://salzburg.orf.at/stories/3362368",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.65,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Salzburg-Studie zeigt konkrete Versorgungslücke bei Obdachlosigkeit: 107 bisher unbekannte Personen (viele Minderjährige, Frauen) haben keine Hilfsstrukturen genutzt. Sachlich recherchiert mit Primärquellen (Caritas, VinziDach, Forum Wohnungslosenhilfe). Bezug zu EU-Ziel 2030. Ausreichend Substanz und gesellschaftliche Relevanz für ganz Österreich vorhanden. Zwei ORF-Items (eine Agentur-Syndikation zwischen Salzburg und Österreich).",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "possibleClaims": [
+      "In Salzburg wurden 107 akut obdachlose Menschen von Streetwork-Teams angetroffen, die bisher in keiner Beratungs- oder Versorgungsstruktur aufgeschienen sind.",
+      "Viele der bislang unbekannten Obdachlosen sind Minderjährige oder Frauen.",
+      "Obdachlosigkeit in der Kindheit hat lebenslanges Nachwirken.",
+      "Vulnerable Gruppen (Frauen, Menschen mit psychischen Erkrankungen, Menschen mit Migrationshintergrund) benötigen zielgerichtete, innovative Angebote, um erreicht zu werden.",
+      "Ein Konzept für kombinierte Notwohnen- und Beratungsstellen existiert, scheitert aber an Räumlichkeiten und Personalmitteln."
+    ],
+    "missingSources": [
+      "Details zur Studie selbst (Auftraggeber, Methodik, Zeitrahmen der Datenerhebung)",
+      "Publikation oder Volltext der Studie",
+      "Daten zu Obdachlosigkeit aus anderen österreichischen Bundesländern (Vergleichbarkeit)",
+      "Konkrete Zahl der finanziellen Lücke oder geplanten Investitionen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "salzburg-obdachlose-studie-hilfsangebote-juli-2026",
+    "title": "Salzburg: Studie sieht über 100 Obdachlose ohne Kontakt zu Hilfsangeboten",
+    "description": "Laut einem ORF-Bericht hat eine neue Studie in Salzburg mehr als 100 obdachlose Menschen erfasst, die bislang keine Hilfsangebote wie Notschlafstellen genutzt haben – viele davon minderjährig oder weiblich. Details zur Studie selbst liegen bisher kaum vor.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "low",
+    "confidenceNote": "Es liegt bislang nur ein einzelner Medienbericht vor, der zweifach syndiziert erscheint – das reicht nach den Bestätigungskriterien nicht für eine höhere Einstufung.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die zugrunde liegende Studie selbst wurde nicht eingesehen, sondern nur über die Zusammenfassung eines Medienberichts referenziert.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich erkennbar auf die Perspektive von Hilfsorganisationen, wie sie im Bericht wiedergegeben wird; eine unabhängige zweite Quelle oder Gegenstimme liegt nicht vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut einem ORF-Bericht hat eine neue Studie in Salzburg mehr als 100 obdachlose Menschen identifiziert, die noch nie ein Hilfsangebot wie eine Notschlafstelle in Anspruch genommen haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein erheblicher Teil dieser bislang nicht erfassten Personen soll laut Bericht minderjährig oder weiblich sein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Auftraggeber, Methodik und Erhebungszeitraum der Studie sind aus den vorliegenden Quellen nicht ersichtlich.",
+        "kind": "open"
+      },
+      {
+        "text": "Unklar bleibt, wie sich die Situation in anderen Bundesländern darstellt und welche konkreten Mittel für zielgerichtete Angebote fehlen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wer hat die Studie in Auftrag gegeben und mit welcher Methodik wurden die rund 100 Personen erfasst?",
+      "In welchem Zeitraum wurde die Erhebung durchgeführt?",
+      "Wie viele der genannten Personen sind tatsächlich minderjährig, wie viele Frauen – gibt es eine belastbare Aufschlüsselung?",
+      "Existieren vergleichbare Daten aus anderen österreichischen Bundesländern?",
+      "Welche konkreten finanziellen oder personellen Mittel fehlen für kombinierte Notwohn- und Beratungsangebote?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Salzburg",
+        "type": "media",
+        "url": "https://salzburg.orf.at/stories/3362368"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Österreich (Syndizierung)",
+        "type": "media",
+        "url": "https://salzburg.orf.at/stories/3362368"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "In Salzburg wurden mehr als 100 obdachlose Menschen erfasst, die bislang keine Hilfsangebote wie etwa eine Notschlafstelle in Anspruch genommen haben.",
+        "status": "partial",
+        "note": "Die Zahl stammt aus einer Studie, die nur über einen Medienbericht bekannt ist; Methodik und Quelle der Studie selbst liegen nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Unter den bislang nicht erfassten obdachlosen Menschen sind laut Bericht viele Minderjährige und Frauen.",
+        "status": "partial",
+        "note": "Es fehlt eine belastbare zahlenmäßige Aufschlüsselung nach Alter und Geschlecht; die Angabe stammt allein aus der Berichtszusammenfassung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Es gibt Überlegungen zu kombinierten Notwohn- und Beratungsangeboten, deren Umsetzung an Räumlichkeiten und Personalressourcen scheitert.",
+        "status": "unclear",
+        "note": "Diese Angabe liegt nur als Hinweis aus der Themenaufbereitung vor und konnte nicht anhand einer eigenständig eingesehenen Quelle nachvollzogen werden.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Obdachlosigkeit im Kindesalter hat nach Einschätzung von Fachleuten langfristige Auswirkungen auf Betroffene.",
+        "status": "unclear",
+        "note": "Diese Aussage ist plausibel und wird im Themenkontext genannt, lässt sich mit den vorliegenden Quellen aber nicht eigenständig verifizieren.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut einem Bericht von ORF Salzburg hat eine neue Studie in Salzburg mehr als 100 obdachlose Menschen identifiziert, die bislang in keiner bekannten Hilfsstruktur aufgeschienen sind. Diese Personen sollen Angebote wie eine Notschlafstelle noch nie genutzt haben – sie waren demnach für Beratungs- und Versorgungsstellen bislang unsichtbar. Ein erheblicher Teil dieser Gruppe soll laut dem Bericht minderjährig oder weiblich sein. Der Beitrag wurde sowohl regional für Salzburg als auch überregional auf ORF Österreich veröffentlicht, es handelt sich dabei erkennbar um dieselbe Meldung."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die vorliegende Quellenlage stützt sich auf einen einzelnen Medienbeitrag, der zweifach erschienen ist. Eigenständig eingesehen wurde weder die Studie selbst noch eine Stellungnahme der genannten Hilfsorganisationen. Die zentrale Zahl – mehr als 100 bislang nicht erfasste obdachlose Menschen – lässt sich damit nur als Wiedergabe aus dem Bericht einordnen, nicht als eigenständig geprüfte Angabe. Eine zweite, unabhängige Berichterstattung zum selben Sachverhalt liegt bislang nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wer die Studie in Auftrag gegeben hat, mit welcher Methodik die genannte Personengruppe erfasst wurde und über welchen Zeitraum sich die Erhebung erstreckte. Auch eine genaue Aufschlüsselung, wie viele der betroffenen Menschen tatsächlich minderjährig sind und wie viele Frauen, liegt nicht vor. Unklar ist zudem, ob und wie sich die Lage in anderen österreichischen Bundesländern vergleichen lässt, sowie welche konkreten finanziellen oder personellen Mittel für zielgerichtete, kombinierte Notwohn- und Beratungsangebote fehlen würden."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Das Thema berührt mehrere besonders sensible Bereiche gleichzeitig – Obdachlosigkeit, Minderjährige und die Situation von Frauen in prekären Lebenslagen. Da aus den vorliegenden Quellen weder die Studie noch Stellungnahmen der beteiligten Institutionen eigenständig einsehbar waren, ist eine abschließende Einordnung der genannten Zahlen und Zusammenhänge derzeit nicht möglich. Die Angaben sollten bis zu einer Bestätigung durch weitere unabhängige Quellen oder die Publikation der Studie selbst als vorläufig behandelt werden."
+      }
+    ],
+    "bodyKompakt": "Laut einem Bericht von ORF Salzburg hat eine neue Studie in Salzburg mehr als 100 obdachlose Menschen identifiziert, die bislang keine Hilfsangebote wie eine Notschlafstelle genutzt haben. Ein erheblicher Teil dieser Gruppe soll minderjährig oder weiblich sein. Die Meldung wurde sowohl regional für Salzburg als auch überregional auf ORF Österreich veröffentlicht und geht erkennbar auf denselben Beitrag zurück.\n\nDie Quellenlage besteht bislang aus diesem einen Medienbeitrag. Weder die zugrunde liegende Studie noch Stellungnahmen der genannten Hilfsorganisationen wurden eigenständig eingesehen. Offen bleiben daher Auftraggeber, Methodik und Erhebungszeitraum der Studie sowie eine genaue Aufschlüsselung nach Alter und Geschlecht.\n\nAngesichts der besonderen Sensibilität des Themas – Obdachlosigkeit, Minderjährige, Frauen in prekären Lagen – sollten die genannten Zahlen bis zu einer Bestätigung durch weitere unabhängige Quellen oder die Studie selbst als vorläufig gelten.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-13T07:07:24.730Z"
+}
