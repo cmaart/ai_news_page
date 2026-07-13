@@ -1,5 +1,5 @@
 version: 1
-updatedAt: "2026-07-09"
+updatedAt: "2026-07-13"
 notes:
   - "RSS feeds are discovery-only. Do not republish feed content."
   - "Check each provider's usage terms before commercial use."
@@ -134,7 +134,7 @@ sources:
     language: de
     url: https://rss.orf.at/sport.xml
     usage: discovery_only
-    enabled: false
+    enabled: true
     weight: 0.2
 
   # DER STANDARD
@@ -245,8 +245,18 @@ sources:
     language: de
     url: https://www.derstandard.at/rss/sport
     usage: discovery_only
-    enabled: false
+    enabled: true
     weight: 0.2
+
+  - id: derstandard_kultur
+    name: Der Standard Kultur
+    type: media
+    country: AT
+    language: de
+    url: https://www.derstandard.at/rss/kultur
+    usage: discovery_only
+    enabled: true
+    weight: 0.7
 
   # APA-OTS (Presseaussendungen, keine redaktionellen Meldungen)
   - id: apa_ots_all
@@ -343,6 +353,17 @@ sources:
     weight: 0.7
     validation: required
 
+  - id: diepresse_kultur
+    name: Die Presse Kultur
+    type: media
+    country: AT
+    language: de
+    url: https://www.diepresse.com/rss/Kultur
+    usage: discovery_only
+    enabled: true
+    weight: 0.7
+    validation: required
+
   # Kurier
   - id: kurier_home
     name: Kurier
@@ -383,6 +404,17 @@ sources:
     country: AT
     language: de
     url: https://kurier.at/chronik/xml/rss
+    usage: discovery_only
+    enabled: true
+    weight: 0.55
+    validation: required
+
+  - id: kurier_kultur
+    name: Kurier Kultur
+    type: media
+    country: AT
+    language: de
+    url: https://kurier.at/kultur/xml/rss
     usage: discovery_only
     enabled: true
     weight: 0.55
