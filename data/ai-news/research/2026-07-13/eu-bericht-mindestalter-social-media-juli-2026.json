@@ -1,0 +1,198 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-37ae52f9",
+    "title": "Social-Media-Verbot: Könnte ein EU-Bericht den Weg ebnen?",
+    "items": [
+      {
+        "itemId": "127a833821c0f3e95bceb6a7946b584baa86b23ee536aa27999401cb841f40f0",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Social-Media-Verbot: Könnte ein EU-Bericht den Weg ebnen?",
+        "url": "https://www.heise.de/news/Social-Media-Verbot-Koennte-ein-EU-Bericht-den-Weg-ebnen-11362196.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "summary": "Experten überreichen Ursula von der Leyen heute einen Bericht zu einem möglichen Mindestalter für soziale Netzwerke. Das könnte die deutsche Debatte prägen.",
+        "publishedAt": "2026-07-13T07:17:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "44fa76afd264d7bb986b17c3e54a45e08b042a3b51ef17b8e3090566e2a81078",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Jugendliche und Social Media: \"Verbote haben noch nie funktioniert\"",
+        "url": "https://www.derstandard.at/story/3000000330491/jugendliche-und-social-media-verbote-haben-noch-nie-funktioniert",
+        "isNew": false
+      },
+      {
+        "itemId": "0bd09c049caa4e37a6be953ad19142efa2e6b445edf8fbc1161432c6e0f97b91",
+        "sourceId": "derstandard_wissenschaft",
+        "sourceType": "media",
+        "title": "Jugendliche und Social Media: \"Verbote haben noch nie funktioniert\"",
+        "url": "https://www.derstandard.at/story/3000000330491/jugendliche-und-social-media-verbote-haben-noch-nie-funktioniert",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Hochrangige EU-Nachricht mit österreichischer Relevanz: Ein Expertengremium übergibt der Kommissionspräsidentin heute einen Bericht zu Mindestaltern für Social Media. Der Heise-Artikel bietet ausreichende Substanz – konkrete Fragen, Kontextualisierung (Australien-Vorbild, nationale Gesetze in Österreich/Frankreich/Spanien), Rechtsfragen zu EU-Kompetenzen, Zeitrahmen (Gesetzesvorschlag Herbst 2026). Der Standard-Artikel ist zu dünn (nur Cybermobbing-Anekdote hinter Paywall). Der Bericht selbst sollte heute noch abrufbar sein, was einen recherchierten Artikel ermöglicht, der Heise-Kontext + Bericht + österreichische Reaktionen kombiniert.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "possibleClaims": [
+      "Ein Expertengremium übergibt der EU-Kommissionspräsidentin einen Bericht zu Mindestaltern für Social Media",
+      "Große Online-Plattformen sollen als 'Türsteher' verpflichtet werden, Altersgrenzen durchzusetzen",
+      "Australien führte im Dezember 2024 ein Social-Media-Verbot für unter 16-Jährige ein",
+      "Die EU-Kommission plant einen Gesetzesvorschlag für spätestens Herbst 2026",
+      "Österreich, Frankreich und Spanien planen nationale Gesetze; andere EU-Staaten sind skeptisch",
+      "Nationale Gesetze müssen mit EU-Digitalrecht kompatibel sein (französischer Entwurf wurde beanstandet)"
+    ],
+    "missingSources": [
+      "Der Bericht selbst (wird heute übergeben, sollte aber auf EU-Website verfügbar sein)",
+      "Namen und Perspektiven einzelner Experten aus dem Gremium",
+      "Stellungnahmen österreichischer Regierungspolitiker (Familie, Digitalisierung)",
+      "Reaktionen der großen Plattformen (Meta, TikTok, Snapchat, Snapchat)",
+      "Kinderrechts- und Verbraucherschutzorganisationen (UNICEF Austria, SOS Kinderdorf, Saferinternet.at)",
+      "Detaillierte Empfehlungen des Berichts (nur in Fragen skizziert)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "eu-bericht-mindestalter-social-media-juli-2026",
+    "title": "Social-Media-Mindestalter: Expertenbericht an von der Leyen könnte EU-Debatte anschieben",
+    "description": "Laut einem Heise-Bericht übergibt ein Expertengremium der EU-Kommissionspräsidentin heute einen Bericht zu möglichen Alterspflichten für soziale Netzwerke. Ein Gesetzesvorschlag ist laut Quelle für Herbst 2026 im Gespräch – Details, Reaktionen und Gegenstimmen sind noch offen.",
+    "topic": "politik",
+    "country": "eu",
+    "confidence": "low",
+    "confidenceNote": "Die zentrale Behauptung – die heutige Übergabe des Berichts an von der Leyen – stützt sich in diesem Cluster auf eine einzelne Medienquelle (Heise); weder eine offizielle EU-Mitteilung noch eine zweite unabhängige Quelle liegt vor, daher niedrige Zuverlässigkeit der Gesamtdarstellung.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Primärquelle (etwa der Bericht selbst oder eine EU-Kommissionsmitteilung) eingesehen, sondern ausschließlich Zusammenfassungen aus dem Nachrichten-Cluster verwendet.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Der Cluster liefert zwar eine informierende Perspektive (Heise, mit Kontext zu Vorbildern und Rechtsfragen) und einen skeptischen Gegenpol zu Verboten (Der Standard), aber weder eine Stellungnahme der EU-Kommission noch der betroffenen Plattformen oder österreichischer Politik liegt vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut einem Heise-Bericht übergibt ein Expertengremium der EU-Kommissionspräsidentin Ursula von der Leyen heute einen Bericht zu einem möglichen Mindestalter für soziale Netzwerke.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Bericht soll laut Quelle unter anderem vorschlagen, große Plattformen als 'Türsteher' zur Altersprüfung zu verpflichten – Details sind nicht abschließend verifiziert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als Vorbild wird laut Bericht Australiens Social-Media-Verbot für unter 16-Jährige (eingeführt Ende 2024) genannt; ein EU-Gesetzesvorschlag wird für spätestens Herbst 2026 als möglich beschrieben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein Der-Standard-Artikel stellt dem gegenüber, dass laut Jugendlichen Verbote 'noch nie funktioniert' hätten – der volle Inhalt dieser Einschätzung liegt hier nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Offen sind Reaktionen der EU-Kommission, der Plattformen, der österreichischen Regierung sowie der genaue Wortlaut der Berichtsempfehlungen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was genau steht im übergebenen Expertenbericht – liegt er mittlerweile öffentlich vor?",
+      "Wer sitzt in dem Expertengremium, und mit welcher fachlichen Perspektive?",
+      "Wie reagieren EU-Kommission und Mitgliedstaaten, insbesondere Österreich, auf den Bericht?",
+      "Wie positionieren sich die betroffenen Plattformen (Meta, TikTok, Snapchat u.a.) zu möglichen Alterspflichten?",
+      "Welche Argumente führen Jugendliche und Jugendorganisationen gegen Verbote konkret an?",
+      "Wie verträgt sich ein mögliches EU-Gesetz mit bereits beanstandeten nationalen Entwürfen wie dem französischen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "heise online: 'Social-Media-Verbot: Könnte ein EU-Bericht den Weg ebnen?'",
+        "type": "media",
+        "url": "https://www.heise.de/news/Social-Media-Verbot-Koennte-ein-EU-Bericht-den-Weg-ebnen-11362196.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard: 'Jugendliche und Social Media: \"Verbote haben noch nie funktioniert\"'",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000330491/jugendliche-und-social-media-verbote-haben-noch-nie-funktioniert"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein Expertengremium übergibt der EU-Kommissionspräsidentin Ursula von der Leyen heute einen Bericht zu Mindestaltersgrenzen für soziale Netzwerke.",
+        "status": "unclear",
+        "note": "Nur eine Medienquelle (Heise) berichtet über die heutige Übergabe; eine offizielle EU-Bestätigung oder zweite unabhängige Quelle liegt in diesem Cluster nicht vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Bericht soll vorschlagen, große Online-Plattformen als 'Türsteher' zur Durchsetzung von Altersgrenzen zu verpflichten.",
+        "status": "unclear",
+        "note": "Diese Angabe basiert allein auf der Zusammenfassung von Heise; der Berichtstext selbst wurde nicht eingesehen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Australien hat im Dezember 2024 ein Social-Media-Verbot für unter 16-Jährige eingeführt.",
+        "status": "partial",
+        "note": "Wird von Heise als Kontext-Fakt genannt, aber in diesem Cluster nicht durch eine zweite Quelle oder eine Primärquelle bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die EU-Kommission plant einen Gesetzesvorschlag zum Thema spätestens für Herbst 2026.",
+        "status": "unclear",
+        "note": "Zeitangabe stammt allein aus dem Heise-Artikel und betrifft eine noch nicht abgeschlossene politische Planung.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Österreich, Frankreich und Spanien planen eigene nationale Gesetze zu Mindestaltersgrenzen, während andere EU-Staaten dem Vorhaben skeptisch gegenüberstehen.",
+        "status": "unclear",
+        "note": "Einzelquellenangabe ohne Bestätigung durch offizielle Stellen der genannten Länder.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Jugendliche äußern sich laut Der-Standard-Berichterstattung skeptisch gegenüber Social-Media-Verboten.",
+        "status": "unclear",
+        "note": "Der volle Artikelinhalt liegt hier nicht vor (laut Triage teils hinter einer Bezahlschranke); nur der Titel ist als Signal verfügbar.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut einem Bericht von heise online übergibt ein Expertengremium der EU-Kommissionspräsidentin Ursula von der Leyen heute einen Bericht zu einem möglichen Mindestalter für die Nutzung sozialer Netzwerke. Der Zeitpunkt fällt in eine Phase, in der mehrere EU-Staaten – darunter laut Quelle Österreich, Frankreich und Spanien – bereits eigene nationale Regelungen zu Alterspflichten auf sozialen Plattformen diskutieren oder vorbereiten. Ob und wie der Bericht heute öffentlich einsehbar wird, ist aus den vorliegenden Cluster-Daten nicht abschließend zu klären."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Heise-Artikel skizziert laut vorliegender Zusammenfassung mehrere mögliche Stoßrichtungen des Berichts: Große Online-Plattformen könnten demnach als eine Art 'Türsteher' verpflichtet werden, Altersgrenzen technisch durchzusetzen. Als internationales Vorbild wird Australien genannt, das im Dezember 2024 ein Verbot sozialer Netzwerke für unter 16-Jährige eingeführt haben soll. Laut Quelle wird ein EU-weiter Gesetzesvorschlag spätestens für Herbst 2026 für möglich gehalten. Zugleich wird auf rechtliche Spannungsfelder verwiesen: Nationale Alleingänge müssten mit bestehendem EU-Digitalrecht vereinbar sein, ein französischer Gesetzesentwurf sei in diesem Zusammenhang bereits beanstandet worden. Diese Angaben stammen ausschließlich aus einer einzelnen Medienquelle und wurden nicht anhand einer Primärquelle überprüft."
+      },
+      {
+        "heading": "Gegenstimmen und offene Fragen",
+        "markdown": "Ein zweiter Artikel, von Der Standard, greift mit dem Titel 'Jugendliche und Social Media: \"Verbote haben noch nie funktioniert\"' eine kritische Perspektive auf: Demnach äußern sich Jugendliche selbst skeptisch gegenüber Verbotslösungen. Der volle Inhalt dieses Artikels liegt in diesem Cluster jedoch nicht vor, teils weil er nur eingeschränkt zugänglich ist. Damit bleibt unklar, welche konkreten Argumente vorgebracht werden und wie repräsentativ diese Position ist."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Aus den vorliegenden Daten lässt sich nicht sagen, wer im Expertengremium sitzt, wie die Empfehlungen im Detail lauten oder wie die EU-Kommission, einzelne Mitgliedstaaten, die österreichische Regierung oder die betroffenen Plattformen (etwa Meta, TikTok oder Snapchat) auf den Bericht reagieren. Auch Einschätzungen von Kinderrechts- oder Verbraucherschutzorganisationen fehlen in diesem Cluster vollständig. Diese Lücken sind bei einem Thema, das Minderjährige direkt betrifft, besonders relevant."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Dieser Artikel wurde KI-gestützt auf Basis von Kurzzusammenfassungen zweier Medienquellen erstellt, ohne dass eine Primärquelle wie der Bericht selbst oder eine offizielle EU-Mitteilung eingesehen wurde. Die zentrale Behauptung – die heutige Übergabe des Berichts – stützt sich auf eine einzelne Quelle, weshalb die Gesamtdarstellung als wenig gesichert gilt. Gerade weil das Thema Minderjährige, Grundrechtsfragen und mögliche staatliche Verbote berührt, sollte die weitere Berichterstattung abgewartet werden, bevor konkrete Bewertungen vorgenommen werden."
+      }
+    ],
+    "bodyKompakt": "Laut einem Bericht von heise online übergibt heute ein Expertengremium der EU-Kommissionspräsidentin Ursula von der Leyen einen Bericht zu einem möglichen Mindestalter für soziale Netzwerke. Skizziert werden laut Quelle etwa Pflichten für Plattformen als 'Türsteher' bei der Alterskontrolle, Australiens Verbot für unter 16-Jährige als Vorbild sowie ein möglicher EU-Gesetzesvorschlag bis Herbst 2026. Auch nationale Initiativen in Österreich, Frankreich und Spanien werden erwähnt, ebenso rechtliche Konflikte mit EU-Digitalrecht.\n\nEin zweiter Artikel von Der Standard bringt eine skeptische Gegenstimme ein: Jugendliche selbst sollen Verbote für wenig wirksam halten. Welche Argumente dahinterstehen, bleibt hier aber offen, da der vollständige Artikelinhalt nicht vorliegt.\n\nDie zentrale Behauptung der heutigen Berichtsübergabe stützt sich in diesem Cluster auf nur eine Medienquelle, eine Primärquelle wurde nicht eingesehen. Reaktionen von EU-Kommission, Plattformen, österreichischer Politik sowie Details der Berichtsempfehlungen sind offen. Angesichts der Betroffenheit Minderjähriger ist besondere Zurückhaltung bei der Bewertung angebracht.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-13T08:07:26.141Z"
+}
