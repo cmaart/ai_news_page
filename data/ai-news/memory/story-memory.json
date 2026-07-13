@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T09:22:01.974Z",
+  "updatedAt": "2026-07-13T10:16:54.114Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -712,7 +712,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-11T17:07:27.587Z",
-      "doNotUpdateBefore": "2026-07-10T23:07:27.587Z"
+      "doNotUpdateBefore": "2026-07-10T23:07:27.587Z",
+      "echoPublishers": {
+        "apa": "2026-07-13T10:01:08.091Z"
+      }
     },
     "ooe-landtag-jahresbilanz-2025-2026": {
       "canonicalTitle": "Oö. Landtag zieht Bilanz: Großteil der Beschlüsse einstimmig gefasst",
@@ -779,12 +782,11 @@
       "echoPublishers": {
         "diepresse": "2026-07-12T15:07:30.256Z",
         "derstandard": "2026-07-13T06:07:23.920Z",
-        "apa": "2026-07-12T09:07:28.176Z",
         "kurier": "2026-07-12T21:07:27.634Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-12T22:07:23.925Z"
+      "resonanceMeasuredAt": "2026-07-13T10:01:08.091Z"
     },
     "widdecombe-mordermittlungen-festnahme-juli-2026": {
       "canonicalTitle": "Mordermittlungen nach Tod von Ann Widdecombe: 26-Jähriger festgenommen",
@@ -2414,9 +2416,9 @@
       "echoPublishers": {
         "kurier": "2026-07-13T09:07:27.406Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T09:07:27.406Z"
+      "resonanceMeasuredAt": "2026-07-13T10:01:08.091Z"
     },
     "bangkok-bar-brand-tote-juli-2026": {
       "canonicalTitle": "Brand in Bangkok-Bar: Mindestens 27 Tote, Fluchtwege durch fehlende Notausgänge blockiert",
@@ -2768,7 +2770,13 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T08:07:26.141Z",
-      "doNotUpdateBefore": "2026-07-13T14:07:26.141Z"
+      "doNotUpdateBefore": "2026-07-13T14:07:26.141Z",
+      "echoPublishers": {
+        "kurier": "2026-07-13T10:01:08.091Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-13T10:01:08.091Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -2843,6 +2851,94 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T09:07:27.406Z",
       "doNotUpdateBefore": "2026-07-13T15:07:27.406Z"
+    },
+    "marterbauer-krebsdiagnose-juli-2026": {
+      "canonicalTitle": "Finanzminister Marterbauer gibt Krebserkrankung bekannt",
+      "slug": "marterbauer-krebsdiagnose-juli-2026",
+      "firstSeenAt": "2026-07-13T10:01:08.091Z",
+      "lastUpdatedAt": "2026-07-13T10:01:08.091Z",
+      "status": "published",
+      "articlePath": "src/content/articles/marterbauer-krebsdiagnose-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/marterbauer-krebsdiagnose-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331232/finanzminister-marterbauer-an-krebs-erkrankt",
+        "https://www.diepresse.com/36868859/finanzminister-markus-marterbauer-hat-krebs",
+        "https://kurier.at/politik/inland/finanzminister-markus-marterbauer-spoe-krebs-erkrankung/403175789",
+        "https://www.nachrichten.at/politik/innenpolitik/krebsdiagnose-fuer-finanzminister-markus-marterbauer;art385,4191489",
+        "https://www.sn.at/politik/innenpolitik/finanzminister-marterbauer-ist-an-krebs-erkrankt-art-661885"
+      ],
+      "openQuestions": [
+        "Wie wird die Vertretung im Finanzministerium während der Behandlungsphasen konkret geregelt?",
+        "Wie lange wird die Therapie voraussichtlich dauern?",
+        "Gibt es offizielle Reaktionen von Koalitionspartnern oder anderen Fraktionen im Parlament?",
+        "Liegt eine unabhängige medizinische Einordnung zur Prognose bei dieser Lymphom-Diagnose vor?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T10:01:08.091Z",
+      "doNotUpdateBefore": "2026-07-13T16:01:08.091Z"
+    },
+    "eu-mindestalter-social-media-expertenbericht-juli-2026": {
+      "canonicalTitle": "EU-Expertengremium empfiehlt gestuftes Mindestalter für Social Media",
+      "slug": "eu-mindestalter-social-media-expertenbericht-juli-2026",
+      "firstSeenAt": "2026-07-13T10:01:08.091Z",
+      "lastUpdatedAt": "2026-07-13T10:01:08.091Z",
+      "status": "published",
+      "articlePath": "src/content/articles/eu-mindestalter-social-media-expertenbericht-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/eu-mindestalter-social-media-expertenbericht-juli-2026.json",
+      "sourceUrls": [
+        "https://www.heise.de/news/Social-Media-EU-Expertenkommission-fordert-Mindestalter-mit-Ausnahmen-11362606.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://orf.at/stories/3436049",
+        "https://www.derstandard.at/story/3000000331208/eu-kommissionspraesidentin-von-der-leyen-will-social-media-mindestalter",
+        "https://www.heise.de/news/Social-Media-EU-Expertenkommission-fordert-Mindestalter-mit-Ausnahmen-11362606.html",
+        "https://www.zdfheute.de/politik/ausland/social-media-verbot-mindestalter-eu-bericht-100.html",
+        "https://www.bloomberg.com/news/articles/2026-07-13/eu-to-present-plan-to-restrict-children-s-access-to-social-media",
+        "https://www.rte.ie/news/europe/2026/0713/1583074-eu-social-media/",
+        "https://www.sn.at/politik/weltpolitik/bis-zu-welchem-alter-sollen-instagram-tiktok-und-co-in-der-eu-verboten-werden-das-schlagen-experten-vor-art-661878",
+        "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1361",
+        "https://www.bundeskanzleramt.gv.at/bundeskanzleramt/nachrichten-der-bundesregierung/2026/03/bundesregierung-setzt-mindestalter-fuer-social-media-fest.html"
+      ],
+      "openQuestions": [
+        "Wie lauten die exakten Altersgrenzen des vorgeschlagenen Stufenmodells im Originalbericht?",
+        "Welche technischen Mechanismen zur datenschutzkonformen Altersverifikation sind konkret vorgesehen?",
+        "Wie reagieren Meta, TikTok, Google und andere betroffene Plattformen auf die Empfehlungen?",
+        "Welche Mitgliedstaaten schließen sich der EU-weiten Initiative in welcher Form an?",
+        "Wie sieht der genaue Zeitplan und das Verfahren für den angekündigten Gesetzesvorschlag aus?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T10:01:08.091Z",
+      "doNotUpdateBefore": "2026-07-13T16:01:08.091Z"
+    },
+    "neos-dengler-parteiausschluss-vertrauensbruch-juli-2026": {
+      "canonicalTitle": "NEOS: Meinl-Reisinger bedauert „Vertrauensbruch“ nach Ausschluss von Veit Dengler",
+      "slug": "neos-dengler-parteiausschluss-vertrauensbruch-juli-2026",
+      "firstSeenAt": "2026-07-13T10:01:08.091Z",
+      "lastUpdatedAt": "2026-07-13T10:01:08.091Z",
+      "status": "published",
+      "articlePath": "src/content/articles/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436057",
+        "https://www.diepresse.com/36871425/autoritaere-fuehrung-meinl-reisinger-weist-vorwurf-zurueck-und-bedauert-denglers-vertrauensbruch",
+        "https://www.kleinezeitung.at/artikel/36880468/meinl-reisinger-bedauert-vertrauensbruch-denglers",
+        "https://kurier.at/politik/inland/veit-dengler-neos-autokratische-fuehrung-parteiausschluss/403175607",
+        "https://www.diepresse.com/36710045/dengler-beklagt-nach-partei-ausschluss-autoritaere-fuehrung-der-neos",
+        "https://www.derstandard.at/story/3000000331073/rauswurf-denglers-zeigt-fuehrungsschwaeche-von-neoschefin-meinl-resinger",
+        "https://www.derstandard.at/story/3000000331073/rauswurf-denglers-zeigt-fuehrungsschwaeche-von-neoschefin-meinl-reisinger",
+        "https://www.diepresse.com/36769419/abgehobene-wiener-bubble-dengler-teilt-gegen-neos-und-meinl-reisinger-aus",
+        "https://www.derstandard.at/story/3000000330989/nationalrat-neos-mandatar-fordert-zu-nein-zu-budgetkapitel-auf",
+        "https://www.tt.com/artikel/30937936/einstimmig-neos-schliessen-ihren-mitbegruender-veit-dengler-aus-klub-und-partei-aus",
+        "https://www.oe24.at/a/neos-beben-nach-dengler-rauswurf-900099323"
+      ],
+      "openQuestions": [
+        "Was genau in der vertraulichen Klubsitzung besprochen wurde, ist öffentlich nicht dokumentiert.",
+        "Wie andere NEOS-Abgeordnete den Ausschluss und Meinl-Reisingers Führungsstil beurteilen, ist bislang kaum bekannt.",
+        "Ob Denglers Andeutung eines „eigentlichen“ Grundes hinter dem offiziellen Ausschlussanlass zutrifft, bleibt unbelegt.",
+        "Eine ausführliche, direkt eingesehene Stellungnahme Denglers liegt nicht vor.",
+        "Welche Auswirkungen der Streit auf den parlamentarischen Alltag und die Geschlossenheit der NEOS hat, lässt sich derzeit nicht abschließend einschätzen."
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-14T10:01:08.091Z",
+      "doNotUpdateBefore": "2026-07-13T16:01:08.091Z"
     }
   }
 }
