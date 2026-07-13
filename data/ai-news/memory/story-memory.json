@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T05:18:01.327Z",
+  "updatedAt": "2026-07-13T06:20:48.685Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -739,10 +739,10 @@
       "canonicalTitle": "NEOS schließen Abgeordneten Veit Dengler aus Klub und Partei aus",
       "slug": "neos-dengler-ausschluss-juli-2026",
       "firstSeenAt": "2026-07-10T18:07:26.458Z",
-      "lastUpdatedAt": "2026-07-12T21:07:27.634Z",
+      "lastUpdatedAt": "2026-07-13T06:07:23.920Z",
       "status": "published",
       "articlePath": "src/content/articles/neos-dengler-ausschluss-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-12/neos-dengler-ausschluss-juli-2026-update-2100.json",
+      "researchPath": "data/ai-news/research/2026-07-13/neos-dengler-ausschluss-juli-2026-update-600.json",
       "sourceUrls": [
         "https://orf.at/stories/3435881",
         "https://www.derstandard.at/story/3000000331028/neos-schliessen-veit-dengler-aus-klub-und-partei-aus",
@@ -760,10 +760,12 @@
         "https://kurier.at/politik/inland/veit-dengler-neos-zib-2-kritik/403175724",
         "https://www.diepresse.com/36769479/veit-dengler-gegen-die-neos-das-wahre-problem-der-pinken",
         "https://www.diepresse.com/36769479/dengler-gegen-die-neos-das-wahre-problem-der-pinken",
-        "https://orf.at/stories/3435927/"
+        "https://orf.at/stories/3435927/",
+        "https://www.derstandard.at/story/3000000331165/parteiausschluss-war-vorbereitet-veit-dengler-ueber-hierarchische-neos-und-redeverbote"
       ],
       "openQuestions": [
-        "Nimmt Parteichefin Beate Meinl-Reisinger persönlich zu Denglers Vorwürfen der „autoritären Führung“ und des angeblich langfristig geplanten Ausschlusses Stellung?",
+        "Nimmt Parteichefin Beate Meinl-Reisinger persönlich zu Denglers Vorwürfen der „autoritären Führung“, des angeblichen „Redeverbots“ und des angeblich langfristig geplanten Ausschlusses Stellung?",
+        "Gibt es eine unabhängige Bestätigung oder ein Dementi von NEOS dazu, dass Denglers Zugang zu Partei-IT-Systemen bereits kurz nach seinem Auszug aus dem Plenarsaal gesperrt wurde?",
         "Plant Dengler tatsächlich die Gründung einer neuen Partei, oder ist seine Aussage „Ich kann Parteien aufbauen“ nur eine Verteidigung seiner bisherigen Rolle?",
         "Bleibt Dengler als partei- und klubloser Abgeordneter im Nationalrat, oder legt er sein Mandat zurück?",
         "Kommt es tatsächlich zu rechtlichen Schritten – von NEOS gegen Dengler oder von Dengler gegen seinen Ausschluss – und mit welchem Ergebnis?",
@@ -772,11 +774,11 @@
         "Besteht ein direkter ursächlicher Zusammenhang zwischen Denglers Budget-Alleingang und dem späteren Ausschluss, oder sind dies laut NEOS zwei getrennte Vorgänge?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-13T21:07:27.634Z",
-      "doNotUpdateBefore": "2026-07-13T03:07:27.634Z",
+      "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
+      "doNotUpdateBefore": "2026-07-13T12:07:23.920Z",
       "echoPublishers": {
         "diepresse": "2026-07-12T15:07:30.256Z",
-        "derstandard": "2026-07-12T09:07:28.176Z",
+        "derstandard": "2026-07-13T06:07:23.920Z",
         "apa": "2026-07-12T09:07:28.176Z",
         "kurier": "2026-07-12T21:07:27.634Z"
       },
@@ -1410,8 +1412,6 @@
       "doNotRedraftBefore": "2026-07-13T06:07:23.718Z",
       "doNotUpdateBefore": "2026-07-12T12:07:23.718Z",
       "echoPublishers": {
-        "derstandard": "2026-07-12T06:07:23.718Z",
-        "orf": "2026-07-12T06:07:23.718Z",
         "diepresse": "2026-07-12T10:07:25.258Z"
       },
       "resonanceLevel": 3,
@@ -2560,7 +2560,8 @@
       "doNotRedraftBefore": "2026-07-14T04:07:29.333Z",
       "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
       "echoPublishers": {
-        "derstandard": "2026-07-13T05:07:25.520Z"
+        "derstandard": "2026-07-13T05:07:25.520Z",
+        "kurier": "2026-07-13T06:07:23.920Z"
       }
     },
     "florentina-holzinger-bodensee-performance-juli-2026": {
@@ -2623,7 +2624,60 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T05:07:25.520Z",
-      "doNotUpdateBefore": "2026-07-13T11:07:25.520Z"
+      "doNotUpdateBefore": "2026-07-13T11:07:25.520Z",
+      "echoPublishers": {
+        "orf": "2026-07-13T06:07:23.920Z"
+      }
+    },
+    "vcoe-fahrradunfaelle-senioren-2025": {
+      "canonicalTitle": "VCÖ-Analyse: Mehrheit der tödlichen Fahrradunfälle 2025 betraf Menschen über 65",
+      "slug": "vcoe-fahrradunfaelle-senioren-2025",
+      "firstSeenAt": "2026-07-13T06:07:23.920Z",
+      "lastUpdatedAt": "2026-07-13T06:07:23.920Z",
+      "status": "published",
+      "articlePath": "src/content/articles/vcoe-fahrradunfaelle-senioren-2025.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/vcoe-fahrradunfaelle-senioren-2025.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331173/mehrheit-der-opfer-von-toedlichen-fahrradunfaellen-im-seniorenalter",
+        "https://www.diepresse.com/36798092/toedliche-fahrradunfaelle-mehrheit-der-opfer-im-seniorenalter",
+        "https://kurier.at/chronik/oesterreich/fahrradunfaelle-mehrheit-opfer-senioren-e-bikes/403175732"
+      ],
+      "openQuestions": [
+        "Welche Rolle spielt der wachsende E-Bike-Anteil unter älteren Radfahrenden bei den Unfallzahlen konkret?",
+        "Wie verteilen sich die Unfälle regional auf Bundesländer und Straßentypen (Ortsgebiet vs. Freiland)?",
+        "Wie reagieren Verkehrsministerium, Länder und Straßenerhalter auf die VCÖ-Forderungen nach Radwegausbau und Tempo 30?",
+        "Ist die in Medienberichten genannte Bevölkerungsprognose (plus 470.000 Seniorinnen und Senioren bis 2035) durch eine offizielle Statistik-Austria-Prognose gedeckt?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
+      "doNotUpdateBefore": "2026-07-13T12:07:23.920Z"
+    },
+    "us-iran-eskalation-strasse-von-hormuz-juli-2026": {
+      "canonicalTitle": "„Erhebliche Eskalation“: US-Militär greift erneut Ziele im Iran an",
+      "slug": "us-iran-eskalation-strasse-von-hormuz-juli-2026",
+      "firstSeenAt": "2026-07-13T06:07:23.920Z",
+      "lastUpdatedAt": "2026-07-13T06:07:23.920Z",
+      "status": "published",
+      "articlePath": "src/content/articles/us-iran-eskalation-strasse-von-hormuz-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/us-iran-eskalation-strasse-von-hormuz-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/36797456/us-militaer-greift-weitere-ziele-im-iran-an",
+        "https://www.diepresse.com/36797469/erhebliche-eskalation-usa-attackieren-iran-erneut-guterres-besorgt",
+        "https://kurier.at/politik/ausland/us-militaer-angriffe-iran-strasse-von-hormus/403175727",
+        "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4538814/us-forces-complete-another-round-of-strikes-against-iran/",
+        "https://news.un.org/en/story/2026/07/1167923",
+        "https://www.aljazeera.com/news/2026/7/12/us-launches-new-wave-of-strikes-against-iran-aimed-at-degrading-military",
+        "https://www.cnn.com/2026/07/11/world/live-news/iran-war-trump"
+      ],
+      "openQuestions": [
+        "Wie viele Angriffswellen es in den vergangenen Tagen tatsächlich gab und in welcher zeitlichen Abfolge.",
+        "Welches Schadensausmaß und welche Opferzahlen auf iranischer wie auf US-/Golfstaaten-Seite tatsächlich vorliegen.",
+        "Ob und wann neue Verhandlungen zwischen den USA und Iran zustande kommen.",
+        "Wie stark sich die Lage auf den globalen Schiffsverkehr durch die Straße von Hormuz und auf die Energiepreise weiter auswirkt."
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
+      "doNotUpdateBefore": "2026-07-13T12:07:23.920Z"
     }
   }
 }
