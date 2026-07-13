@@ -53,6 +53,28 @@ const relatedStoryArticles = (data.relatedSlugs ?? [])
   .map((slug) => articles.find((a) => a.id === slug))
   .filter((a): a is (typeof articles)[number] => !!a && isListed(a) && a.id !== article.id);
 
+// Der Bezug ist gerichtet: ein älterer verwandter Artikel ist „Vorgeschichte",
+// ein jüngerer eine „Weitere Entwicklung". Richtung aus publishedAt ableiten
+// (fehlt eines der Daten, als Vorgeschichte behandeln — der häufigere Fall).
+const relatedGroups = [
+  {
+    label: 'Vorgeschichte',
+    items: relatedStoryArticles.filter((a) => {
+      const t = a.data.publishedAt?.getTime();
+      const cur = data.publishedAt?.getTime();
+      return t != null && cur != null ? t < cur : true;
+    }),
+  },
+  {
+    label: 'Weitere Entwicklung',
+    items: relatedStoryArticles.filter((a) => {
+      const t = a.data.publishedAt?.getTime();
+      const cur = data.publishedAt?.getTime();
+      return t != null && cur != null ? t >= cur : false;
+    }),
+  },
+].filter((g) => g.items.length > 0);
+
 const updated = lastUpdated(data);
 const isRetracted = data.status === 'retracted';
 const isArchived = data.status === 'archived';
@@ -118,18 +140,18 @@ const jsonLd = {
       <p class="article-head__standfirst">{data.description}</p>
 
       {
-        relatedStoryArticles.length > 0 && (
+        relatedGroups.map((group) => (
           <aside class="article-head__vorgeschichte">
-            <span class="article-head__vorgeschichte-label">Vorgeschichte</span>
+            <span class="article-head__vorgeschichte-label">{group.label}</span>
             <ul class="article-head__vorgeschichte-list">
-              {relatedStoryArticles.map((a) => (
+              {group.items.map((a) => (
                 <li>
                   <a href={withBase(`/artikel/${a.id}/`)}>{a.data.title}</a>
                 </li>
               ))}
             </ul>
           </aside>
-        )
+        ))
       }
       <div class="article-head__meta">
         {data.publishedAt && <span>Veröffentlicht {formatDate(data.publishedAt)}</span>}
