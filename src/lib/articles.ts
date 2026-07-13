@@ -85,6 +85,11 @@ export function byNewest(a: Article, b: Article): number {
 /** Relevanz-Ranking für Aufmacher + Top-Stories (PLAN.md E38). Deterministisch pro Build. */
 const CONFIDENCE_SCORE: Record<ArticleData['confidence'], number> = { low: 0, medium: 0.5, high: 1 };
 const STRENGTH_SCORE: Record<ArticleData['primarySourceStrength'], number> = { none: 0, weak: 1 / 3, medium: 2 / 3, strong: 1 };
+// Geografische Nähe (E52): dämpft die Basis-Qualität multiplikativ, damit ein
+// reines Auslandsereignis die AT-Leserschaft nicht allein über hohe
+// Newsworthiness in den Aufmacher drängt. Wirkt NUR auf `base` — Medienecho
+// (E46) bleibt unberührt, damit eine breite Welle eine Story weiter heben kann.
+const PROXIMITY_SCORE: Record<ArticleData['country'], number> = { at: 1, de: 0.85, eu: 0.75, int: 0.5 };
 const RELEVANCE_HALF_LIFE_DAYS = 3;
 // Resonanz (E46): Medienecho hebt additiv — volle Welle (Level 5, frisch) ≈ +3,5
 // Newsworthiness-Stufen. Kalibriert an echten Scores: muss den Quality-Abstand
@@ -118,7 +123,7 @@ export function relevanceScore(article: Article, now: number = BUILD_NOW): numbe
     0.1 * supportedRatio;
 
   const ageDays = Math.max(0, (now - ref.getTime()) / 86_400_000);
-  const base = quality * Math.pow(0.5, ageDays / RELEVANCE_HALF_LIFE_DAYS);
+  const base = quality * Math.pow(0.5, ageDays / RELEVANCE_HALF_LIFE_DAYS) * PROXIMITY_SCORE[d.country];
 
   // Resonanz (E46): additiv, damit eine Welle auch Artikel mit schwacher
   // Quellenlage in den Aufmacher heben kann — bewusste Entscheidung, die
