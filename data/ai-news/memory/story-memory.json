@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T13:17:59.204Z",
+  "updatedAt": "2026-07-13T14:21:48.622Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1700,7 +1700,8 @@
       "doNotUpdateBefore": "2026-07-13T16:50:31.638Z",
       "echoPublishers": {
         "orf": "2026-07-12T16:07:30.894Z",
-        "kleinezeitung": "2026-07-13T10:50:31.638Z"
+        "kleinezeitung": "2026-07-13T10:50:31.638Z",
+        "diepresse": "2026-07-13T14:07:29.118Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -2112,13 +2113,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T13:07:28.466Z",
       "doNotUpdateBefore": "2026-07-12T19:07:28.466Z",
-      "echoPublishers": {
-        "orf": "2026-07-12T14:07:23.873Z",
-        "diepresse": "2026-07-12T14:07:23.873Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-13T04:07:29.333Z"
+      "resonanceMeasuredAt": "2026-07-13T14:07:29.118Z"
     },
     "jugendliche-attacke-ehepaar-kurpark-oberlaa-wien-juli-2026": {
       "canonicalTitle": "Ehepaar im Kurpark Oberlaa attackiert: Drei Jugendliche im Visier der Ermittlungen",
@@ -2493,11 +2491,11 @@
         "derstandard": "2026-07-13T04:07:29.333Z",
         "diepresse": "2026-07-13T12:07:33.353Z",
         "kleinezeitung": "2026-07-13T05:07:25.520Z",
-        "kurier": "2026-07-13T13:08:17.233Z"
+        "kurier": "2026-07-13T14:07:29.118Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T13:08:17.233Z"
+      "resonanceMeasuredAt": "2026-07-13T14:07:29.118Z"
     },
     "oesterreicher-toedlich-verunglueckt-motorradrennen-bruenn-juli-2026": {
       "canonicalTitle": "Österreichischer Motorradfahrer nach Kollision bei Rennen in Brünn gestorben",
@@ -2790,31 +2788,39 @@
       "doNotUpdateBefore": "2026-07-13T13:07:24.730Z"
     },
     "eu-bericht-mindestalter-social-media-juli-2026": {
-      "canonicalTitle": "Social-Media-Mindestalter: Expertenbericht an von der Leyen könnte EU-Debatte anschieben",
+      "canonicalTitle": "Social-Media-Mindestalter: EU-Expertenbericht liegt vor, Österreichs eigener Entwurf lässt weiter auf sich warten",
       "slug": "eu-bericht-mindestalter-social-media-juli-2026",
       "firstSeenAt": "2026-07-13T08:07:26.141Z",
-      "lastUpdatedAt": "2026-07-13T08:07:26.141Z",
+      "lastUpdatedAt": "2026-07-13T14:07:29.118Z",
       "status": "published",
       "articlePath": "src/content/articles/eu-bericht-mindestalter-social-media-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/eu-bericht-mindestalter-social-media-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-13/eu-bericht-mindestalter-social-media-juli-2026-update-1400.json",
       "sourceUrls": [
         "https://www.heise.de/news/Social-Media-Verbot-Koennte-ein-EU-Bericht-den-Weg-ebnen-11362196.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://www.derstandard.at/story/3000000330491/jugendliche-und-social-media-verbote-haben-noch-nie-funktioniert"
+        "https://www.derstandard.at/story/3000000330491/jugendliche-und-social-media-verbote-haben-noch-nie-funktioniert",
+        "https://www.derstandard.at/story/3000000331277/trotz-eu-vorstosses-oesterreichs-entwurf-fuer-ein-social-media-verbot-soll-demnaechst-vorliegen",
+        "https://kurier.at/politik/ausland/eu-experten-empfehlen-social-media-mindestalter-von-13-jahren/403175785",
+        "https://futurezone.at/netzpolitik/eu-experten-studie-13-jahre-social-media-verbot/403175804",
+        "https://www.bundeskanzleramt.gv.at/bundeskanzleramt/nachrichten-der-bundesregierung/2026/03/bundesregierung-setzt-mindestalter-fuer-social-media-fest.html",
+        "https://www.zdfheute.de/politik/ausland/social-media-verbot-mindestalter-eu-bericht-100.html",
+        "https://www.heise.de/news/Social-Media-EU-Expertenkommission-fordert-Mindestalter-mit-Ausnahmen-11362606.html"
       ],
       "openQuestions": [
-        "Was genau steht im übergebenen Expertenbericht – liegt er mittlerweile öffentlich vor?",
-        "Wer sitzt in dem Expertengremium, und mit welcher fachlichen Perspektive?",
-        "Wie reagieren EU-Kommission und Mitgliedstaaten, insbesondere Österreich, auf den Bericht?",
-        "Wie positionieren sich die betroffenen Plattformen (Meta, TikTok, Snapchat u.a.) zu möglichen Alterspflichten?",
-        "Welche Argumente führen Jugendliche und Jugendorganisationen gegen Verbote konkret an?",
-        "Wie verträgt sich ein mögliches EU-Gesetz mit bereits beanstandeten nationalen Entwürfen wie dem französischen?"
+        "Welche konkreten Streitpunkte verzögern den österreichischen Gesetzesentwurf, und wann genau soll er nun vorliegen?",
+        "Hält der ursprünglich für September 2026 geplante Termin des Inkrafttretens in Österreich noch, oder verschiebt sich dieser durch die Verzögerung?",
+        "Wie sieht die konkrete technische Altersverifikation in Österreich aus, und wie verhält sie sich zur europäischen EUDI-Wallet, die laut Berichten ab 2027 verfügbar sein soll?",
+        "Was steht im vollständigen Text des EU-Expertenberichts, und liegt er inzwischen öffentlich vor?",
+        "Wie reagieren die EU-Kommission insgesamt, andere Mitgliedstaaten sowie die betroffenen Plattformen (Meta, TikTok, Snapchat u. a.) auf die Empfehlungen?",
+        "Welche konkreten Argumente führen Jugendliche und Jugendorganisationen gegen Verbotslösungen an, und wie repräsentativ ist diese Position?",
+        "Wie verträgt sich ein mögliches künftiges EU-Gesetz mit bereits bestehenden oder geplanten nationalen Alleingängen wie dem österreichischen oder dem beanstandeten französischen Entwurf?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T08:07:26.141Z",
-      "doNotUpdateBefore": "2026-07-13T14:07:26.141Z",
+      "doNotRedraftBefore": "2026-07-14T14:07:29.118Z",
+      "doNotUpdateBefore": "2026-07-13T20:07:29.118Z",
       "echoPublishers": {
         "kurier": "2026-07-13T10:01:08.091Z",
-        "futurezone": "2026-07-13T10:50:31.638Z"
+        "futurezone": "2026-07-13T10:50:31.638Z",
+        "derstandard": "2026-07-13T14:07:29.118Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "triage",
@@ -3330,6 +3336,57 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-14T13:08:17.233Z",
       "doNotUpdateBefore": "2026-07-13T19:08:17.233Z"
+    },
+    "bvt-konvolut-neue-anklage-ott-weiss-juli-2026": {
+      "canonicalTitle": "„BVT-Konvolut“: Neue Anklage gegen Egisto Ott und Martin Weiss",
+      "slug": "bvt-konvolut-neue-anklage-ott-weiss-juli-2026",
+      "firstSeenAt": "2026-07-13T14:07:29.118Z",
+      "lastUpdatedAt": "2026-07-13T14:07:29.118Z",
+      "status": "published",
+      "articlePath": "src/content/articles/bvt-konvolut-neue-anklage-ott-weiss-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/bvt-konvolut-neue-anklage-ott-weiss-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436093",
+        "https://www.derstandard.at/story/3000000331309/weitere-anklage-gegen-ex-bvt-chefinspektor-egisto-ott",
+        "https://www.diepresse.com/37025583/weitere-anklage-gegen-egisto-ott",
+        "https://kurier.at/politik/inland/egisto-ott-bvt-neue-anklage/403175859",
+        "https://orf.at/stories/3430894/",
+        "https://www.puls24.at/news/politik/ex-bvt-mitarbeiter-setzte-sich-nach-dubai-ab-verfahren-abgebrochen/324559"
+      ],
+      "openQuestions": [
+        "Wie positionieren sich Egisto Ott und Martin Weiss bzw. deren Verteidigung zur neuen Anklage?",
+        "Wann wird ein Prozesstermin zu diesem neuen Anklagepunkt angesetzt?",
+        "Wie belastbar ist der im Konvolut erhobene Vorwurf zu Reisepassrohlingen aus Nordkorea unabhängig von der Anklage?",
+        "Kommt es angesichts des fehlenden Auslieferungsabkommens je zu einer Überstellung von Martin Weiss aus Dubai?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T14:07:29.118Z",
+      "doNotUpdateBefore": "2026-07-13T20:07:29.118Z"
+    },
+    "waffenschmuggler-wien-festnahme-juli-2026": {
+      "canonicalTitle": "Mutmaßlicher Waffenschmuggler in Wien-Penzing festgenommen",
+      "slug": "waffenschmuggler-wien-festnahme-juli-2026",
+      "firstSeenAt": "2026-07-13T14:07:29.118Z",
+      "lastUpdatedAt": "2026-07-13T14:07:29.118Z",
+      "status": "published",
+      "articlePath": "src/content/articles/waffenschmuggler-wien-festnahme-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/waffenschmuggler-wien-festnahme-juli-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3362485",
+        "https://www.derstandard.at/story/3000000331308/internationaler-waffenschmuggler-in-wien-festgenommen",
+        "https://www.diepresse.com/37013047/internationaler-waffenschmuggler-in-wien-festgenommen",
+        "https://www.sn.at/panorama/oesterreich/waffenschmuggler-in-wien-festgenommen-art-661950",
+        "https://www.oesterreich.gv.at/de/Gesetzliche-Neuerungen/Bundesgesetzblatt/Waffengesetz",
+        "https://www.wko.at/arge-zivile-sicherheit/update-waffengesetznovelle"
+      ],
+      "openQuestions": [
+        "Wie äußert sich der Verdächtige zu den Vorwürfen bzw. bestreitet er sie?",
+        "In welche Länder wurden die Waffenteile laut Ermittlungen tatsächlich verschickt?",
+        "Wie viele vergleichbare Fälle gab es vor der Gesetzesnovelle, und lässt sich die behauptete Wirksamkeit der Neuregelung unabhängig belegen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T14:07:29.118Z",
+      "doNotUpdateBefore": "2026-07-13T20:07:29.118Z"
     }
   }
 }
