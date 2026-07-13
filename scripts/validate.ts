@@ -46,6 +46,7 @@ interface Frontmatter {
   corrections?: Correction[];
   retractionReason?: string;
   image?: ArticleImage;
+  relatedSlugs?: string[];
 }
 
 const errors: string[] = [];
@@ -153,6 +154,9 @@ if (files.length === 0) {
 }
 
 const slugs = new Map<string, string>();
+// Alle vorhandenen Slugs (= Dateiname ohne .mdx) für den relatedSlugs-Check (E53).
+const allSlugs = new Set(files.map((f) => f.replace(/\.mdx$/, '')));
+const relatedBySlug = new Map<string, string[]>();
 
 for (const file of files) {
   const raw = readFileSync(join(ARTICLES_DIR, file), 'utf8');
@@ -177,6 +181,8 @@ for (const file of files) {
   } else {
     slugs.set(slug, file);
   }
+
+  if (Array.isArray(data.relatedSlugs)) relatedBySlug.set(file.replace(/\.mdx$/, ''), data.relatedSlugs);
 
   const sources = data.sources ?? [];
   const claims = data.claims ?? [];
@@ -267,6 +273,24 @@ for (const file of files) {
     }
   } else if (data.updatedAt) {
     fail(file, 'updatedAt gesetzt, aber keine corrections-Einträge vorhanden');
+  }
+}
+
+// relatedSlugs-Cross-Check (E53): Ziel existiert, kein Self-Link; fehlende
+// Reziprozität ist nur eine Warnung (manuelle/Legacy-Artikel dürfen einseitig sein).
+for (const [slug, targets] of relatedBySlug) {
+  for (const target of targets) {
+    if (target === slug) {
+      fail(`${slug}.mdx`, `relatedSlugs enthält Self-Link „${target}"`);
+      continue;
+    }
+    if (!allSlugs.has(target)) {
+      fail(`${slug}.mdx`, `relatedSlugs verweist auf nicht existierenden Artikel „${target}"`);
+      continue;
+    }
+    if (!relatedBySlug.get(target)?.includes(slug)) {
+      console.warn(`  ⚠ ${slug}.mdx: relatedSlugs → „${target}" ist nicht reziprok (${target} verweist nicht zurück)`);
+    }
   }
 }
 

@@ -47,6 +47,12 @@ const related = articles
   .sort(byNewest)
   .slice(0, 3);
 
+// Verwandte Artikel derselben Story (E53) — bidirektional gepflegte relatedSlugs;
+// nur gebaute, nicht zurückgezogene Artikel verlinken.
+const relatedStoryArticles = (data.relatedSlugs ?? [])
+  .map((slug) => articles.find((a) => a.id === slug))
+  .filter((a): a is (typeof articles)[number] => !!a && isListed(a) && a.id !== article.id);
+
 const updated = lastUpdated(data);
 const isRetracted = data.status === 'retracted';
 const isArchived = data.status === 'archived';
@@ -110,6 +116,21 @@ const jsonLd = {
       </div>
       <h1 class="article-head__title">{data.title}</h1>
       <p class="article-head__standfirst">{data.description}</p>
+
+      {
+        relatedStoryArticles.length > 0 && (
+          <aside class="article-head__vorgeschichte">
+            <span class="article-head__vorgeschichte-label">Vorgeschichte</span>
+            <ul class="article-head__vorgeschichte-list">
+              {relatedStoryArticles.map((a) => (
+                <li>
+                  <a href={withBase(`/artikel/${a.id}/`)}>{a.data.title}</a>
+                </li>
+              ))}
+            </ul>
+          </aside>
+        )
+      }
       <div class="article-head__meta">
         {data.publishedAt && <span>Veröffentlicht {formatDate(data.publishedAt)}</span>}
         {data.updatedAt && <span>Aktualisiert {formatDate(data.updatedAt)}</span>}
@@ -257,6 +278,39 @@ const jsonLd = {
     font-size: 20px;
     line-height: 1.5;
     color: var(--color-text-muted);
+  }
+
+  .article-head__vorgeschichte {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 12px;
+    margin: 0 0 20px;
+    padding: 12px 16px;
+    border-left: 3px solid var(--accent);
+    background: var(--color-bg-subtle, rgba(0, 0, 0, 0.03));
+  }
+
+  .article-head__vorgeschichte-label {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .article-head__vorgeschichte-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: var(--font-serif);
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .article-head__vorgeschichte-list li + li {
+    margin-top: 4px;
   }
 
   .article-head__meta {

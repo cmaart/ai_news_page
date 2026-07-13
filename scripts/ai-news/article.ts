@@ -52,6 +52,8 @@ export interface WriteArticleOptions {
   image?: Record<string, unknown>;
   /** Bestehendes resonance-Objekt (E46) — bei Updates unverändert durchreichen. */
   resonance?: Record<string, unknown>;
+  /** Verwandte Artikel derselben Story (E53) — Slugs; leer = kein Feld im Frontmatter. */
+  relatedSlugs?: string[];
 }
 
 /**
@@ -93,6 +95,7 @@ export function writeArticle(options: WriteArticleOptions): string {
     ...(options.resonance ? { resonance: options.resonance } : {}),
     summary: draft.summary,
     openQuestions: draft.openQuestions,
+    ...(options.relatedSlugs && options.relatedSlugs.length > 0 ? { relatedSlugs: options.relatedSlugs } : {}),
     sources: draft.sources,
     claims: draft.claims.map((c) => ({
       id: c.id,
@@ -134,6 +137,25 @@ export function patchArticleResonance(
   if (!existsSync(path)) return false;
   const parsed = matter(readFileSync(path, 'utf8'));
   const frontmatter = { ...(parsed.data as Record<string, unknown>), resonance };
+  const yamlText = stringify(frontmatter, { lineWidth: 0 }).trimEnd();
+  writeFileSync(path, `---\n${yamlText}\n---\n\n${parsed.content.trim()}\n`, 'utf8');
+  return true;
+}
+
+/**
+ * Fügt dem bestehenden Artikel `slug` einen relatedSlugs-Rückverweis auf
+ * `relatedSlug` hinzu (E53, bidirektionaler Cross-Link — analog
+ * patchArticleResonance). Idempotent: schon vorhandene Verweise bleiben, Body
+ * und übrige Felder unverändert. Gibt false zurück, wenn die Datei fehlt.
+ */
+export function patchArticleRelated(slug: string, relatedSlug: string): boolean {
+  const path = join(ARTICLES_DIR, `${slug}.mdx`);
+  if (!existsSync(path)) return false;
+  const parsed = matter(readFileSync(path, 'utf8'));
+  const data = parsed.data as Record<string, unknown>;
+  const existing = Array.isArray(data.relatedSlugs) ? (data.relatedSlugs as string[]) : [];
+  if (existing.includes(relatedSlug) || relatedSlug === slug) return true;
+  const frontmatter = { ...data, relatedSlugs: [...existing, relatedSlug] };
   const yamlText = stringify(frontmatter, { lineWidth: 0 }).trimEnd();
   writeFileSync(path, `---\n${yamlText}\n---\n\n${parsed.content.trim()}\n`, 'utf8');
   return true;
