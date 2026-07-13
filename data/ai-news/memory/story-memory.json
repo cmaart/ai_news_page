@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T04:18:16.433Z",
+  "updatedAt": "2026-07-13T05:18:01.327Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -997,25 +997,39 @@
       "doNotUpdateBefore": "2026-07-11T14:07:22.735Z"
     },
     "japan-jaxa-test-wiederverwendbare-rakete-juli-2026": {
-      "canonicalTitle": "Japan meldet Test einer wiederverwendbaren Rakete – Details bislang dünn belegt",
+      "canonicalTitle": "Japan meldet Test einer wiederverwendbaren Rakete – erste Details nun breiter bestätigt",
       "slug": "japan-jaxa-test-wiederverwendbare-rakete-juli-2026",
       "firstSeenAt": "2026-07-11T08:07:22.735Z",
-      "lastUpdatedAt": "2026-07-11T08:07:22.735Z",
+      "lastUpdatedAt": "2026-07-13T05:07:25.520Z",
       "status": "published",
       "articlePath": "src/content/articles/japan-jaxa-test-wiederverwendbare-rakete-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-11/japan-jaxa-test-wiederverwendbare-rakete-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-13/japan-jaxa-test-wiederverwendbare-rakete-juli-2026-update-500.json",
       "sourceUrls": [
         "https://www.diepresse.com/36692366/japan-meldet-erfolgreichen-test-einer-wiederverwendbaren-rakete",
-        "https://kurier.at/politik/ausland/japan-jaxa-test-wiederverwendbare-rakete-ruestung/403175580"
+        "https://kurier.at/politik/ausland/japan-jaxa-test-wiederverwendbare-rakete-ruestung/403175580",
+        "https://www.heise.de/news/Auch-Japans-Weltraumagentur-testet-erfolgreich-wiederverwendbare-Rakete-11362074.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Auch-Japans-Weltraumagentur-testet-erfolgreich-wiederverwendbare-Rakete-11362074.html",
+        "https://www.nikkei.com/article/DGXZQOSG099XC0Z00C26A7000000/",
+        "https://www.dlr.de/en/irs/research-transfer/missions-and-projects/callisto",
+        "https://cnes.fr/en/projects/callisto",
+        "https://europeanspaceflight.com/cnes-call-reveals-inaugural-callisto-flight-test-pushed-to-2027/",
+        "https://www.heise.de/en/news/Honda-successfully-launches-and-lands-reusable-rocket-10452527.html"
       ],
       "openQuestions": [
-        "Liegt eine offizielle technische Dokumentation oder Aussendung der Jaxa zu diesem Test vor?",
-        "Wie ordnet sich der Test im Vergleich zu parallelen Projekten (etwa in China oder bei einer Honda-Tochter) tatsächlich ein?",
-        "Welche nächsten Testschritte plant die Jaxa, und in welchem Zeitraum?"
+        "Liegt eine offizielle technische Dokumentation oder Pressemitteilung der Jaxa zum RV-X-Test vor, die die berichteten Werte bestätigt?",
+        "Welche nächsten Testschritte plant die Jaxa mit RV-X, und in welchem Zeitraum?",
+        "Wie verhält sich das RV-X-Programm konkret zum separaten Callisto-Vorhaben mit DLR und CNES, dessen Erstflug laut CNES nun 2027 stattfinden soll?",
+        "Wie ist der frühere Test einer Honda-Tochter (rund 271 Meter Höhe, rund 37 Zentimeter Landegenauigkeit) technisch und zeitlich einzuordnen im Vergleich zum aktuellen Jaxa-Test?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-12T08:07:22.735Z",
-      "doNotUpdateBefore": "2026-07-11T14:07:22.735Z"
+      "doNotRedraftBefore": "2026-07-14T05:07:25.520Z",
+      "doNotUpdateBefore": "2026-07-13T11:07:25.520Z",
+      "echoPublishers": {
+        "heise": "2026-07-13T05:07:25.520Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-13T05:07:25.520Z"
     },
     "hebamme-wien-neuer-gutachter-verfahren-juli-2026": {
       "canonicalTitle": "Neuer Gutachter im Verfahren gegen Wiener Hebamme bestellt",
@@ -2446,8 +2460,12 @@
       "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
       "echoPublishers": {
         "derstandard": "2026-07-13T04:07:29.333Z",
-        "diepresse": "2026-07-13T04:07:29.333Z"
-      }
+        "diepresse": "2026-07-13T04:07:29.333Z",
+        "kleinezeitung": "2026-07-13T05:07:25.520Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-13T05:07:25.520Z"
     },
     "oesterreicher-toedlich-verunglueckt-motorradrennen-bruenn-juli-2026": {
       "canonicalTitle": "Österreichischer Motorradfahrer nach Kollision bei Rennen in Brünn gestorben",
@@ -2515,7 +2533,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T04:07:29.333Z",
-      "doNotUpdateBefore": "2026-07-13T10:07:29.333Z"
+      "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-13T05:07:25.520Z"
+      }
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -2537,7 +2558,72 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T04:07:29.333Z",
-      "doNotUpdateBefore": "2026-07-13T10:07:29.333Z"
+      "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-13T05:07:25.520Z"
+      }
+    },
+    "florentina-holzinger-bodensee-performance-juli-2026": {
+      "canonicalTitle": "Helikopter, Glocke, Schlagzeug: Florentina Holzinger bespielt den Bodensee",
+      "slug": "florentina-holzinger-bodensee-performance-juli-2026",
+      "firstSeenAt": "2026-07-13T05:07:25.520Z",
+      "lastUpdatedAt": "2026-07-13T05:07:25.520Z",
+      "status": "published",
+      "articlePath": "src/content/articles/florentina-holzinger-bodensee-performance-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/florentina-holzinger-bodensee-performance-juli-2026.json",
+      "sourceUrls": [
+        "https://www.profil.at/dasfruehstueck/haut-und-hubschrauber-wie-florentina-holzinger-den-bodensee-rockte/403175560",
+        "https://www.derstandard.at/story/3000000331119/florentina-holzinger-und-ihre-schwestern-auf-tauchgang-im-bodensee"
+      ],
+      "openQuestions": [
+        "Wie viele Zuschauerinnen und Zuschauer die Performance tatsächlich verfolgten",
+        "Ob und wie das Kunsthaus Bregenz die Aktion offiziell kommentiert oder bestätigt hat",
+        "Welche Genehmigungen (Luftraum, Naturschutz, See-Nutzung) für Helikoptereinsatz und Glockenbergung vorlagen",
+        "Ob Angaben zu Holzingers aktueller Galerievertretung, einer geplanten Einzelausstellung oder einem Ranking als „einflussreichste Künstlerin“ zutreffen – diese Angaben liegen der Redaktion nur als unbestätigte Zusatzinformation vor und werden im Artikel nicht behauptet"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-14T05:07:25.520Z",
+      "doNotUpdateBefore": "2026-07-13T11:07:25.520Z"
+    },
+    "cluster-20260713-aa93c9aa": {
+      "canonicalTitle": "Montag: YouTube mit DuckDuckGo ohne Werbung, Copilot mit Microsoft-eigener KI",
+      "slug": "cluster-20260713-aa93c9aa",
+      "firstSeenAt": "2026-07-13T05:07:25.520Z",
+      "lastUpdatedAt": "2026-07-13T05:07:25.520Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.heise.de/news/Montag-YouTube-mit-DuckDuckGo-ohne-Werbung-Copilot-mit-Microsoft-eigener-KI-11362070.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://futurezone.at/digital-life/duckduckgo-browser-update-blockt-automatisch-youtube-werbung-filterliste/403175143",
+        "https://www.heise.de/news/DuckDuckGo-Browser-blockiert-jetzt-YouTube-Werbung-11361974.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+      ],
+      "openQuestions": [
+        "Microsoft-Ankündigung oder Blog-Eintrag zu MAI-Modellen und deren Integration in Office",
+        "DuckDuckGo offizielle Feature-Ankündigung mit technischen Spezifikationen",
+        "SK Hynix Börsengang-Prospekt, Kursverlauf, CEO-Statement original",
+        "Quelle für ‚Kosteneinsparung' als Grund für Microsoft-Modellwechsel"
+      ],
+      "sensitivity": "low"
+    },
+    "e-scooter-diebstahl-magdalensberg-festnahme-juli-2026": {
+      "canonicalTitle": "Kärnten: Polizei fasst vier mutmaßliche E-Scooter-Diebe in Magdalensberg",
+      "slug": "e-scooter-diebstahl-magdalensberg-festnahme-juli-2026",
+      "firstSeenAt": "2026-07-13T05:07:25.520Z",
+      "lastUpdatedAt": "2026-07-13T05:07:25.520Z",
+      "status": "published",
+      "articlePath": "src/content/articles/e-scooter-diebstahl-magdalensberg-festnahme-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/e-scooter-diebstahl-magdalensberg-festnahme-juli-2026.json",
+      "sourceUrls": [
+        "https://kaernten.orf.at/stories/3362386"
+      ],
+      "openQuestions": [
+        "Wie viele E-Scooter und welche weiteren Gegenstände genau gestohlen wurden.",
+        "In welchem Zeitraum sich die mutmaßlichen Diebstähle ereigneten.",
+        "Welchen weiteren Verlauf das Ermittlungsverfahren gegen die vier Männer nimmt und ob Anklage erhoben wird.",
+        "Ob es eine offizielle Stellungnahme der Polizei oder anderer Behörden gibt, die über den vorliegenden Medienbericht hinausgeht."
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T05:07:25.520Z",
+      "doNotUpdateBefore": "2026-07-13T11:07:25.520Z"
     }
   }
 }

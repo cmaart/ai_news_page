@@ -1,0 +1,258 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-dddeafdc",
+    "title": "Auch Japans Weltraumagentur testet erfolgreich wiederverwendbare Rakete",
+    "items": [
+      {
+        "itemId": "658dfcb8d9860aae61cbd7f77ba02d6e6310073f7be950cfb2cf142b478cda50",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Auch Japans Weltraumagentur testet erfolgreich wiederverwendbare Rakete",
+        "url": "https://www.heise.de/news/Auch-Japans-Weltraumagentur-testet-erfolgreich-wiederverwendbare-Rakete-11362074.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "summary": "Nur einen Tag nach einem erfolgreichen Test in China hat auch in Japan eine Rakete abgehoben und ist wieder gelandet. Der Hüpfer war aber viel kleiner.",
+        "publishedAt": "2026-07-13T04:56:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "18231f63e442f7f1896422b99d2324dc45fe3ad9ff8bae198fe5db7db440be89",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Japan meldet erfolgreichen Test einer wiederverwendbaren Rakete",
+        "url": "https://kurier.at/politik/ausland/japan-jaxa-test-wiederverwendbare-rakete-ruestung/403175580",
+        "isNew": false
+      },
+      {
+        "itemId": "96607a3a51b50d1519e14e23acc38c7ad6991e5d386d17c5bad41c3afcd7712b",
+        "sourceId": "kurier_politik",
+        "sourceType": "media",
+        "title": "Japan meldet erfolgreichen Test einer wiederverwendbaren Rakete",
+        "url": "https://kurier.at/politik/ausland/japan-jaxa-test-wiederverwendbare-rakete-ruestung/403175580",
+        "isNew": false
+      },
+      {
+        "itemId": "98462d22ff6e961a7ec5683ea12f48239fc34242a70a7e916edca52001c5a2f1",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Japan meldet erfolgreichen Test einer wiederverwendbaren Rakete",
+        "url": "https://www.diepresse.com/36692366/japan-meldet-erfolgreichen-test-einer-wiederverwendbaren-rakete",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "update_story",
+    "reason": "Relatedstor existiert mit published-Status. Neue Items erweitern Quellenlage (heise + diepresse zusätzlich zu kurier) und bringen Analyskontext: Heise liefert Einordnung zu SpaceX-Timelines, Honda-Vorgeschichte und internationale Beteiligung. Die Basis-Fakten (10m Höhe, 40 Sekunden) sind konsistent mit vorliegenden Quellen, weitere konkrete Details fehlen. Resonance niedrig (Echo noch unter 3 Quellen), aber Update rechtfertigt sich durch zusätzliche Perspektive.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": 2,
+    "possibleClaims": [
+      "JAXA testete erfolgreich wiederverwendbare Rakete auf Noshiro-Testgelände",
+      "Testflug erreichte ca. 10 Meter Höhe, dauerte ca. 40 Sekunden",
+      "Deutsche und französische Forschungseinrichtungen sind am Projekt beteiligt",
+      "Japan liegt 13+ Jahre hinter SpaceX-Entwicklungszeitplan zurück",
+      "Honda-Tochter führte vorherigen erfolgreichen Test Juni 2025 durch",
+      "Wiederverwendbare Raketen sollen Raumfahrtkosten senken"
+    ],
+    "missingSources": [
+      "Offizielle JAXA-Pressemitteilung oder technische Dokumentation (nur zitiert, nicht verlinkt)",
+      "Japan Times vollständiger Artikel (als Primärquelle zitiert)",
+      "Detaillierte technische Spezifikationen des Prototyps",
+      "Geplante nächste Testschritte und Zeitplan der JAXA",
+      "Konkrete Rollen der deutschen und französischen Institutionen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "japan-jaxa-test-wiederverwendbare-rakete-juli-2026",
+    "title": "Japan meldet Test einer wiederverwendbaren Rakete – erste Details nun breiter bestätigt",
+    "description": "Mehrere japanische und deutschsprachige Medien berichten übereinstimmend, dass die Raumfahrtagentur Jaxa mit dem Prototyp „RV-X“ einen kurzen Testflug absolviert hat. Deutsche und französische Institutionen sind laut vorliegenden Quellen an einem verwandten, separaten Projekt namens Callisto beteiligt – eine offizielle Jaxa-Mitteilung wurde weiterhin nicht eingesehen.",
+    "topic": "wissenschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Die Kernfakten (Testort, Flughöhe, Flugdauer) werden inzwischen von mehreren voneinander unabhängigen japanischen Medien (u. a. Nikkei, sowie Berichte, die sich auf NHK/Kyodo/Sankei stützen) und zusätzlich von deutschsprachigen Portalen (Heise, Kurier, Die Presse) übereinstimmend wiedergegeben, was die Einstufung gegenüber der Vorversion stützt. Eine direkte Jaxa-Mitteilung wurde weiterhin nicht eingesehen, weshalb die Einstufung bei „medium“ und nicht höher bleibt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt weiterhin keine selbst eingesehene Jaxa-Pressemitteilung vor. Gestärkt wird die Quellenlage aber durch mehrere unabhängige, seriöse Medien in Japan und Europa sowie durch offizielle Projektseiten von DLR und CNES zum separaten Callisto-Vorhaben, die die Beteiligung Deutschlands und Frankreichs an einem verwandten Programm unabhängig bestätigen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Berichterstattung folgt weiterhin dem Erfolgsrahmen der Agentur bzw. rahmt den Test als „Wettrennen gegen SpaceX“, ohne dass eine unabhängige technische Einordnung oder kritische Gegenstimme vorliegt.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Laut mehreren unabhängigen japanischen und deutschsprachigen Medienberichten hat die japanische Raumfahrtagentur Jaxa mit dem Prototyp „RV-X“ einen Testflug einer teilweise wiederverwendbaren Rakete auf dem Testgelände Noshiro (Präfektur Akita) durchgeführt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Flug dauerte den Berichten zufolge rund 40 Sekunden, erreichte eine Höhe von etwa 11 Metern und umfasste eine seitliche Bewegung von rund 16 Metern, bevor das Fahrzeug aufrecht landete.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Projekt wird laut Berichten gemeinsam von Jaxa und Mitsubishi Heavy Industries entwickelt und dient der Erprobung von Landetechnologien für künftige wiederverwendbare Erststufen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Deutsche (DLR) und französische (CNES) Institutionen sind laut offiziellen Projektseiten an einem separaten, aber thematisch verwandten Vorhaben namens Callisto beteiligt, dessen Erstflug laut einer CNES-Ausschreibung von 2026 auf 2027 verschoben wurde.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und in welchem Zeitrahmen Japan mit dem RV-X-Programm zu etablierten Anbietern wiederverwendbarer Raketen aufschließen könnte, bleibt offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine offizielle Jaxa-Mitteilung oder technische Dokumentation zum Test wurde bislang nicht eingesehen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Liegt eine offizielle technische Dokumentation oder Pressemitteilung der Jaxa zum RV-X-Test vor, die die berichteten Werte bestätigt?",
+      "Welche nächsten Testschritte plant die Jaxa mit RV-X, und in welchem Zeitraum?",
+      "Wie verhält sich das RV-X-Programm konkret zum separaten Callisto-Vorhaben mit DLR und CNES, dessen Erstflug laut CNES nun 2027 stattfinden soll?",
+      "Wie ist der frühere Test einer Honda-Tochter (rund 271 Meter Höhe, rund 37 Zentimeter Landegenauigkeit) technisch und zeitlich einzuordnen im Vergleich zum aktuellen Jaxa-Test?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36692366/japan-meldet-erfolgreichen-test-einer-wiederverwendbaren-rakete"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/japan-jaxa-test-wiederverwendbare-rakete-ruestung/403175580"
+      },
+      {
+        "id": "src3",
+        "name": "Heise Online",
+        "type": "media",
+        "url": "https://www.heise.de/news/Auch-Japans-Weltraumagentur-testet-erfolgreich-wiederverwendbare-Rakete-11362074.html"
+      },
+      {
+        "id": "src4",
+        "name": "Nikkei",
+        "type": "media",
+        "url": "https://www.nikkei.com/article/DGXZQOSG099XC0Z00C26A7000000/"
+      },
+      {
+        "id": "src5",
+        "name": "DLR – Projektseite Callisto",
+        "type": "official",
+        "url": "https://www.dlr.de/en/irs/research-transfer/missions-and-projects/callisto"
+      },
+      {
+        "id": "src6",
+        "name": "CNES – Projektseite Callisto",
+        "type": "official",
+        "url": "https://cnes.fr/en/projects/callisto"
+      },
+      {
+        "id": "src7",
+        "name": "European Spaceflight",
+        "type": "media",
+        "url": "https://europeanspaceflight.com/cnes-call-reveals-inaugural-callisto-flight-test-pushed-to-2027/"
+      },
+      {
+        "id": "src8",
+        "name": "Heise Online (Honda-Testbericht)",
+        "type": "media",
+        "url": "https://www.heise.de/en/news/Honda-successfully-launches-and-lands-reusable-rocket-10452527.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die japanische Raumfahrtagentur Jaxa hat mit dem Prototyp „RV-X“ auf dem Testgelände Noshiro einen Testflug einer teilweise wiederverwendbaren Rakete durchgeführt.",
+        "status": "supported",
+        "note": "Der Kernsachverhalt wird inzwischen von mehreren voneinander unabhängigen Medien in Japan (u. a. Nikkei) und im deutschsprachigen Raum (Heise, Kurier, Die Presse) übereinstimmend wiedergegeben. Eine direkt eingesehene Jaxa-Mitteilung fehlt weiterhin.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Testflug dauerte rund 40 Sekunden, erreichte eine Höhe von etwa 11 Metern und umfasste eine seitliche Bewegung von rund 16 Metern vor der Landung.",
+        "status": "partial",
+        "note": "Übereinstimmend in mehreren Medien berichtet; frühere Kurzmeldungen nannten teils rund 10 statt 11 Meter. Ohne eingesehene Primärquelle bleibt die exakte Angabe nicht unabhängig geprüft, die Größenordnung gilt aber als plausibel bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Entwicklung wiederverwendbarer Raketen soll die Kosten in der Raumfahrt deutlich senken.",
+        "status": "unclear",
+        "note": "Allgemeine, plausible Zielsetzung laut Berichterstattung, ohne belegte Zahlen oder Berechnungen dazu.",
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Japan will mit dem Programm zu internationalen Anbietern wiederverwendbarer Raketensysteme wie SpaceX aufschließen.",
+        "status": "unclear",
+        "note": "Plausible Einordnung, aber konkrete Zeitangaben (etwa zu einem Rückstand von mehreren Jahren) stammen aus einzelnen Medienberichten und wurden nicht eigenständig verifiziert.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Der Prototyp „RV-X“ wird gemeinsam von Jaxa und Mitsubishi Heavy Industries entwickelt und diente der Erprobung von Landetechnologie sowie Betriebsabläufen nach der Landung.",
+        "status": "supported",
+        "note": "Detail, das in der vorherigen Artikelversion fehlte; von mehreren japanischen Medienberichten unabhängig wiedergegeben.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Deutsche (DLR) und französische (CNES) Institutionen sind an einem separaten, aber thematisch verwandten Jaxa-Kooperationsprojekt namens Callisto beteiligt, dessen erster Flugtest laut einer CNES-Ausschreibung von 2026 auf 2027 verschoben wurde.",
+        "status": "supported",
+        "note": "Bestätigt durch offizielle Projektseiten von DLR und CNES sowie einen Medienbericht zur Terminverschiebung. Callisto ist ein eigenständiges Vorhaben und nicht identisch mit dem aktuell gemeldeten RV-X-Test – eine Vermischung beider Projekte in Kurzmeldungen ist möglich und wird hier bewusst getrennt dargestellt.",
+        "sourceIds": [
+          "src5",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Ein von Honda R&D betriebener Raketenprototyp erreichte bei einem früheren, separaten Test rund 271 Meter Höhe und landete mit einer Abweichung von etwa 37 Zentimetern vom Zielpunkt.",
+        "status": "partial",
+        "note": "Stammt aus einem älteren Medienbericht zu einem eigenständigen, früheren Test; dient hier nur dem Vergleich und wurde nicht durch eine Jaxa- oder Honda-Primärquelle geprüft.",
+        "sourceIds": [
+          "src8"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut mehreren unabhängigen japanischen und deutschsprachigen Medienberichten hat die japanische Raumfahrtagentur Jaxa mit dem Prototyp „RV-X“ einen Testflug einer teilweise wiederverwendbaren Rakete auf dem Testgelände Noshiro in der Präfektur Akita durchgeführt. Das Fahrzeug soll rund 11 Meter aufgestiegen sein, sich seitlich um etwa 16 Meter bewegt und danach senkrecht wieder gelandet haben – bei einer Gesamtflugdauer von rund 40 Sekunden. Berichten zufolge wird der etwa 7,3 Meter hohe Prototyp gemeinsam von Jaxa und dem Industriekonzern Mitsubishi Heavy Industries entwickelt und diente vor allem der Erprobung von Landetechnologie sowie von Abläufen nach der Landung."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Anders als bei der ursprünglichen Artikelversion, in der lediglich zwei österreichische Portale mit nahezu identischem Wortlaut vorlagen, wird der Kernsachverhalt inzwischen von mehreren voneinander unabhängigen Quellen gestützt: japanischen Wirtschafts- und Nachrichtenmedien wie Nikkei sowie zusätzlich von Heise, Kurier und Die Presse im deutschsprachigen Raum. Das deutet auf eine breitere, nicht nur auf eine einzelne Ursprungsmeldung zurückgehende Berichterstattung hin. Eine offizielle Jaxa-Pressemitteilung oder technische Dokumentation wurde für diesen Artikel dennoch nicht direkt eingesehen, weshalb die genannten Zahlen als von der Agentur stammend, aber nicht selbst geprüft gelten. Zusätzlich zeigen offizielle Projektseiten der deutschen Raumfahrtagentur DLR und der französischen CNES, dass Deutschland und Frankreich tatsächlich an einem Jaxa-Kooperationsprojekt beteiligt sind – allerdings an einem separaten Vorhaben namens Callisto, dessen Erstflug laut einer CNES-Ausschreibung erst 2027 stattfinden soll. Dieses Projekt ist nicht identisch mit dem nun gemeldeten RV-X-Test, auch wenn manche Kurzmeldungen beide Vorhaben in einem Atemzug nennen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, welche konkreten nächsten Testschritte die Jaxa mit RV-X plant und in welchem Zeitraum diese erfolgen sollen. Auch der genaue Zusammenhang zwischen dem aktuellen RV-X-Test und dem separaten Callisto-Programm mit deutscher und französischer Beteiligung lässt sich aus den vorliegenden Kurzmeldungen nicht abschließend klären, da eine offizielle Jaxa-Einordnung fehlt. Ebenso bleibt unklar, wie belastbar die häufig genannte Einordnung ist, Japan liege mehrere Jahre hinter der Entwicklung von SpaceX zurück – eine konkrete Jahresangabe dazu wurde nicht unabhängig verifiziert. Zum Vergleich wird in einzelnen Berichten ein früherer, eigenständiger Test einer Honda-Tochter angeführt, bei dem ein Prototyp rund 271 Meter Höhe erreicht und mit etwa 37 Zentimetern Abweichung gelandet sein soll; auch diese Angabe stammt aus einem älteren Medienbericht und wurde nicht anhand einer Primärquelle geprüft."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Entwicklung wiederverwendbarer Raketen gilt international als Weg, Startkosten zu senken, wie es Anbieter wie SpaceX seit einigen Jahren vormachen. Dass sowohl staatliche Programme wie das der Jaxa als auch private japanische Akteure wie eine Honda-Tochter in diesem Bereich aktiv sind, fügt sich in eine breitere Konkurrenz zwischen Raumfahrtnationen und -unternehmen ein. Die inzwischen breitere, unabhängige Medienberichterstattung stützt die grundlegenden Eckdaten des RV-X-Tests deutlich stärker als noch in der Vorversion dieses Artikels. Der Stellenwert des Tests für das langfristige japanische Programm – insbesondere im Verhältnis zum internationalen Kooperationsprojekt Callisto und zu etablierten Anbietern – lässt sich mangels offizieller Jaxa-Einordnung aber weiterhin nicht abschließend bewerten."
+      }
+    ],
+    "bodyKompakt": "Laut mehreren unabhängigen japanischen und deutschsprachigen Medienberichten hat die japanische Raumfahrtagentur Jaxa mit dem Prototyp „RV-X“ einen Testflug einer teilweise wiederverwendbaren Rakete auf dem Testgelände Noshiro in der Präfektur Akita durchgeführt. Das Fahrzeug erreichte demnach rund 11 Meter Höhe, bewegte sich seitlich um etwa 16 Meter und landete nach rund 40 Sekunden Flugzeit senkrecht. Das Projekt wird Berichten zufolge gemeinsam von Jaxa und Mitsubishi Heavy Industries entwickelt.\n\nAnders als in der ursprünglichen Fassung dieses Artikels stützen den Kernsachverhalt inzwischen mehrere voneinander unabhängige Quellen, darunter japanische Medien wie Nikkei sowie Heise, Kurier und Die Presse im deutschsprachigen Raum. Eine offizielle Jaxa-Mitteilung wurde dennoch nicht eingesehen. Offizielle Projektseiten von DLR und CNES bestätigen zudem eine deutsch-französische Beteiligung an einem Jaxa-Kooperationsprojekt – allerdings am separaten Vorhaben Callisto, dessen Erstflug laut einer CNES-Ausschreibung erst 2027 stattfinden soll, und nicht am aktuell gemeldeten RV-X-Test.\n\nOffen bleiben die weiteren Testschritte der Jaxa, der genaue Zusammenhang zwischen RV-X und Callisto sowie die Belastbarkeit von Vergleichen zu SpaceX oder zu einem früheren Test einer Honda-Tochter, der rund 271 Meter Höhe erreicht haben soll. Diese Vergleichszahlen stammen aus älteren Medienberichten und wurden nicht anhand einer Primärquelle geprüft. Der langfristige Stellenwert des aktuellen Tests bleibt daher trotz breiterer Quellenlage nicht abschließend bewertbar.",
+    "updateNote": "Neue, von den bisherigen zwei Kurzmeldungen unabhängige Berichte (u. a. Heise, Nikkei) bestätigen die Eckdaten und liefern erstmals Details zum Prototyp „RV-X“ und zur Beteiligung von Mitsubishi Heavy Industries; zusätzlich wird die – von der aktuellen Testmeldung zu unterscheidende – deutsch-französische Beteiligung am separaten Callisto-Projekt eingeordnet."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-13T05:07:25.520Z"
+}

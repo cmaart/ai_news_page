@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T04:18:16.413Z",
+  "updatedAt": "2026-07-13T05:18:01.311Z",
   "entries": [
     {
       "clusterId": "cluster-20260713-17047c3b",
@@ -8,14 +8,22 @@
       "score": 0.65,
       "items": [
         {
-          "itemId": "df010cea4395e8c0e4fca6ac58e2149ab5fb983cc2186e70b25911ddc8fb2070",
-          "sourceId": "orf_oesterreich",
+          "itemId": "e58517c8956aa1d7bb3379d1d9110877d2cd73421fda674e82e2baa420cd9979",
+          "sourceId": "orf_salzburg",
           "sourceType": "media",
           "title": "Zu wenige Obdachlose nehmen Hilfsangebote an",
           "url": "https://salzburg.orf.at/stories/3362368",
           "summary": "In Salzburg gibt es mehr als 100 obdachlose Menschen, die noch nie um Hilfe gebeten haben, wie eine neue Studie jetzt erhoben hat. Diese Menschen haben Angebote, wie etwa eine Notschlafstelle noch nie in Anspruch genommen. Viele von ihnen sind Minderjährige und Frauen.",
           "publishedAt": "2026-07-13T04:00:00.000Z",
           "isNew": true
+        },
+        {
+          "itemId": "df010cea4395e8c0e4fca6ac58e2149ab5fb983cc2186e70b25911ddc8fb2070",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Zu wenige Obdachlose nehmen Hilfsangebote an",
+          "url": "https://salzburg.orf.at/stories/3362368",
+          "isNew": false
         }
       ],
       "queuedAt": "2026-07-13T04:07:29.333Z"
@@ -99,6 +107,24 @@
         }
       ],
       "queuedAt": "2026-07-13T04:07:29.333Z"
+    },
+    {
+      "clusterId": "cluster-20260713-29c362f8",
+      "title": "Flugzeugwrack nach tödlichem Absturz geborgen",
+      "score": 0.65,
+      "items": [
+        {
+          "itemId": "216a34f4cd2439b86d0e14a32a1ca032c015fab520a974193ae1b661bfd26f63",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Flugzeugwrack nach tödlichem Absturz geborgen",
+          "url": "https://noe.orf.at/stories/3362383",
+          "summary": "Nach dem tödlichen Absturz eines Kleinflugzeuges bei Gaming (Bezirk Scheibbs) ist am Sonntagabend das Wrack geborgen worden. Beim Unfall kamen zwei Insassen ums Leben, zwei weitere Personen wurden schwer verletzt. Die Unglücksursache wird noch ermittelt.",
+          "publishedAt": "2026-07-13T05:03:23.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-07-13T05:07:25.520Z"
     }
   ]
 }
