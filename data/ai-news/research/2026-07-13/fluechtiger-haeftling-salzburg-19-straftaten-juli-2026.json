@@ -1,0 +1,183 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-928e89ef",
+    "title": "Flüchtiger Häftling begeht in Salzburg gleich 19 Straftaten",
+    "items": [
+      {
+        "itemId": "cdc466148d4063526042099c9864b4ef4b4403ddb01d074cca8181c230e617d2",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Flüchtiger Häftling begeht in Salzburg gleich 19 Straftaten",
+        "url": "https://www.diepresse.com/36866145/fluechtiger-haeftling-begeht-in-salzburg-gleich-19-straftaten",
+        "summary": "Der Mann ist im April von einem bewilligten Haftfreigang nicht mehr in die Justizanstalt in Puch zurückgekehrt.",
+        "publishedAt": "2026-07-13T09:26:33.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "9f492099560db5ef3276b4ae7a9e03961c7acb3da0e1e35277f6571ff16373f8",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Flüchtiger Häftling: 19 Straftaten während Freigangs",
+        "url": "https://salzburg.orf.at/stories/3362412",
+        "isNew": false
+      },
+      {
+        "itemId": "14e9f4a65be265493ebf416ea8a1005ec89e08f69b9c384cf1e9f12333ef01f2",
+        "sourceId": "orf_salzburg",
+        "sourceType": "media",
+        "title": "Flüchtiger Häftling: 19 Straftaten während Freigang",
+        "url": "https://salzburg.orf.at/stories/3362412",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Österreich-relevante Kriminalgeschichte mit zwei unabhängigen Quellen (Die Presse, ORF) und ausreichender Substanz. Konkrete Details: 37-jähriger Häftling aus Tennengau, Flucht während genehmigtem Haftfreigang (16. April), 19 Straftaten über dreimonatigen Zeitraum (April–Juni), Festnahme Mitte Juni, Geständnis, quantifizierter Schaden (€5.000). Nachrichtenwert liegt in Sicherheits- und Justiz-Diskurs (Haftfreigang-Praxis, Rückfälligkeit). Keine bestehende Story zum Fortführen; eigenständige Erststory mit ausreichender Lokalität (Salzburg) und öffentlicher Relevanz.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "37-jähriger Mann floh am 16. April 2026 während genehmigten Haftfreigangs aus Justizanstalt Puch-Urstein",
+      "Mann beging während dreimonatiger Flucht insgesamt 19 Straftaten",
+      "Straftaten umfassen Betrug über Internet-Verkaufsplattform, Diebstahl von Trinkgeldkassen, Übernachtung in Beherbergungsbetrieben ohne Bezahlung, versuchten Einbruchsdiebstahl",
+      "Festnahme Mitte Juni 2026, Mann gestand Ermittlungen",
+      "Geschätzter Gesamtschaden gut 5.000 Euro"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme Justizministerium oder Anstalt Puch zu Haftfreigang-Sicherheitsmaßnahmen",
+      "Name/Details der Internet-Verkaufsplattform, über die betrogen wurde",
+      "Spezifische Angaben zu betroffenen Betrieben oder Anzahl Geschädigter",
+      "Laufender Verfahrensstatus und zu erwartende rechtliche Konsequenzen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "fluechtiger-haeftling-salzburg-19-straftaten-juli-2026",
+    "title": "Salzburg: Häftling flüchtete aus Haftfreigang und beging laut Berichten 19 Straftaten",
+    "description": "Ein Mann kehrte im April 2026 nicht aus einem bewilligten Haftfreigang in eine Justizanstalt bei Salzburg zurück. Laut übereinstimmenden Medienberichten soll er während der rund dreimonatigen Flucht 19 Straftaten begangen haben, bevor er Mitte Juni festgenommen wurde.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei redaktionell voneinander unabhängige Medien (Die Presse, ORF Salzburg) berichten übereinstimmend über die Flucht aus dem Haftfreigang und die Zahl von 19 Straftaten, das gilt daher als überwiegend gesichert – eine offizielle Bestätigung durch Justizanstalt oder Justizministerium liegt uns aber nicht vor, weshalb Einzeldetails vorsichtig eingestuft werden.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine Primärquelle eingesehen – weder eine Aussendung der Justizanstalt noch des Justizministeriums oder der Polizei liegt uns vor, nur die Kurztexte zweier Medien.",
+    "framingRisk": "high",
+    "framingRiskNote": "Vorliegend ist ausschließlich die berichtende Perspektive der Medien über den Vorfall, eine Stellungnahme der Justizanstalt oder des Justizministeriums zur Sicherheitspraxis beim Haftfreigang fehlt vollständig.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein Mann kehrte laut übereinstimmenden Berichten im April 2026 nicht aus einem bewilligten Haftfreigang in eine Justizanstalt im Salzburger Raum (Puch) zurück.",
+        "kind": "fact"
+      },
+      {
+        "text": "Während der Flucht soll er laut den vorliegenden Quellen 19 Straftaten begangen haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Details zu Festnahmezeitpunkt, Geständnis und Schadenshöhe sind in den uns vorliegenden Kurztexten nicht abschließend nachvollziehbar und werden daher vorsichtig behandelt.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine offizielle Stellungnahme von Justizanstalt oder Justizministerium zur Sicherheitspraxis beim Haftfreigang liegt nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lautet die offizielle Darstellung der Justizanstalt bzw. des Justizministeriums zur Freigang-Genehmigung und deren Sicherheitsvorkehrungen?",
+      "Wie viele Betriebe bzw. Personen waren konkret von den mutmaßlichen Straftaten betroffen?",
+      "Über welche Verkaufsplattform soll der Betrug abgewickelt worden sein?",
+      "Welcher rechtliche Status (U-Haft, Anklage, Verfahrensstand) besteht aktuell?",
+      "Wie hoch ist der tatsächliche Gesamtschaden, und ist die kolportierte Summe von rund 5.000 Euro belastbar?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36866145/fluechtiger-haeftling-begeht-in-salzburg-gleich-19-straftaten"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Salzburg",
+        "type": "media",
+        "url": "https://salzburg.orf.at/stories/3362412"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein Mann kehrte im April 2026 von einem bewilligten Haftfreigang nicht mehr in die Justizanstalt in Puch zurück.",
+        "status": "supported",
+        "note": "Von beiden vorliegenden Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Während der anschließenden Flucht soll der Mann 19 Straftaten begangen haben.",
+        "status": "supported",
+        "note": "Zahl 19 wird in den Titeln beider unabhängiger Quellen genannt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Mann wurde Mitte Juni 2026 festgenommen und hat die Vorwürfe im Rahmen der Ermittlungen gestanden.",
+        "status": "unclear",
+        "note": "Festnahmezeitpunkt und Geständnis sind in den uns vorliegenden Kurztexten der Quellen nicht direkt nachvollziehbar, daher konservativ als unklar eingestuft.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der durch die Straftaten verursachte Gesamtschaden wird auf rund 5.000 Euro geschätzt.",
+        "status": "unclear",
+        "note": "Konkrete Schadenssumme ist in den vorliegenden Kurztexten nicht ausgewiesen, daher nicht abschließend verifizierbar.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Zu den mutmaßlichen Taten zählen unter anderem Betrug über eine Online-Verkaufsplattform, Diebstahl von Trinkgeldkassen und unbezahlte Übernachtungen in Beherbergungsbetrieben.",
+        "status": "unclear",
+        "note": "Diese Detailangaben stammen nicht aus den uns direkt vorliegenden Kurztexten und sind daher vorsichtig als unklar eingestuft.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Berichten von Die Presse und ORF Salzburg ist ein Häftling im April 2026 von einem bewilligten Haftfreigang nicht mehr in die Justizanstalt in Puch bei Salzburg zurückgekehrt. Statt zurückzukehren, blieb der Mann demnach über mehrere Wochen untergetaucht. In dieser Zeit soll er nach übereinstimmender Darstellung beider Quellen insgesamt 19 Straftaten begangen haben. Namen von Beteiligten werden hier bewusst nicht genannt, da es sich um eine strafrechtliche Angelegenheit mit personenbezogenen Vorwürfen handelt, zu der bislang kein rechtskräftiges Urteil vorliegt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Sowohl Die Presse als auch ORF Salzburg titeln übereinstimmend auf die Zahl von 19 Straftaten während des Freigangs und stützen damit den Kern der Geschichte auf zwei redaktionell getrennte Medien. Das erfüllt aus unserer Sicht die Schwelle für eine überwiegend gesicherte Grundaussage, auch wenn keine der beiden Quellen eine offizielle Stellungnahme der Justizanstalt oder des Justizministeriums zitiert. Weiterführende Details – etwa zum genauen Festnahmezeitpunkt, einem möglichen Geständnis oder der Schadenshöhe – liegen uns aus den verfügbaren Kurztexten nicht in einer Form vor, die wir als eigenständig bestätigt einstufen können."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt insbesondere, wie die Justizanstalt oder das Justizministerium die Genehmigung des Haftfreigangs und die begleitenden Sicherheitsvorkehrungen im Nachhinein bewerten – eine solche Stellungnahme liegt uns nicht vor. Ebenso unklar ist der genaue Verfahrensstand, die Zahl und Art der konkret betroffenen Betriebe oder Personen sowie die Plattform, über die ein mutmaßlicher Online-Betrug abgewickelt worden sein soll. Auch die kolportierte Schadenssumme von rund 5.000 Euro lässt sich anhand der vorliegenden Quellen nicht unabhängig verifizieren."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine wiederkehrende öffentliche Debatte über die Praxis des Haftfreigangs in Österreich ein, ohne dass an dieser Stelle eine Bewertung dieser Praxis vorgenommen werden kann. Da ausschließlich Medienberichte ohne institutionelle Gegenstimme vorliegen, ist die Darstellung einseitig geprägt, was bei der Einordnung berücksichtigt werden sollte. Für eine belastbarere Bewertung wären eine offizielle Stellungnahme der zuständigen Justizbehörden sowie Informationen zum weiteren Verfahrensverlauf notwendig."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Berichten von Die Presse und ORF Salzburg ist ein Häftling im April 2026 von einem bewilligten Haftfreigang nicht mehr in eine Justizanstalt in Puch bei Salzburg zurückgekehrt. In der folgenden Zeit soll er nach Angaben beider Quellen insgesamt 19 Straftaten begangen haben. Namen werden hier bewusst nicht genannt, da es sich um eine strafrechtliche Angelegenheit mit personenbezogenen Vorwürfen ohne rechtskräftiges Urteil handelt.\n\nDa zwei redaktionell unabhängige Medien den Kern der Geschichte übereinstimmend darstellen, gilt dieser als überwiegend gesichert. Details wie ein möglicher Festnahmezeitpunkt, ein Geständnis oder eine konkrete Schadenssumme lassen sich anhand der vorliegenden Kurztexte jedoch nicht unabhängig bestätigen und werden daher vorsichtig als unklar eingestuft.\n\nOffen bleibt vor allem eine Stellungnahme der Justizanstalt oder des Justizministeriums zur Genehmigungspraxis und den Sicherheitsvorkehrungen beim Haftfreigang. Auch der weitere Verfahrensstand und Details zu den mutmaßlich betroffenen Betrieben sind bislang nicht bekannt.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-13T14:51:23.955Z"
+}

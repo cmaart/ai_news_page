@@ -1,0 +1,174 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-f9fdb7c0",
+    "title": "Vierjährige aus heißem Auto befreit",
+    "items": [
+      {
+        "itemId": "152276e23475e1ccc33fc055c26f61896e0203d086b4d7cc950640a5b9856d99",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Vierjährige aus heißem Auto befreit",
+        "url": "https://ooe.orf.at/stories/3362510",
+        "summary": "In Aspach (Bezirk Braunau) hat die Polizei am Montag ein vierjähriges Kind aus einem überhitzten Fahrzeug gerettet. Als die Einsatzkräfte eintrafen, war das stark verschwitzte Mädchen angeschnallt und konnte sich nicht selbst befreien. Die Mutter wird bei der Behörde angezeigt.",
+        "publishedAt": "2026-07-13T14:50:09.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "672efdf9921c143d589d71e711958043b573889e72e10abfdae9c60dfc0ec771",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Vierjährige im Innviertel aus heißem Auto befreit",
+        "url": "https://www.derstandard.at/story/3000000331317/vierj228hrige-im-innviertel-aus-hei223em-auto-befreit",
+        "summary": "Das Mächen war angeschnallt und stark verschwitzt. Seine Mutter hatte in der Zwischenzeit jemanden besucht",
+        "publishedAt": "2026-07-13T14:47:00.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Österreichisches Polizeieinsatz-Event mit dokumentierter regionaler Relevanz (Aspach, Braunau, Oberösterreich). Zweifach quellenbestätigt durch ORF und Der Standard mit konsistenten Informationen. Ausreichend substanziert (Zeitpunkt, Örtlichkeit, Handlungsverlauf, Behördenschritte). Kindersicherheit und Elternverantwortung sind öffentliche Belange. Hohe Sensibilität wegen betroffenem Minderjährigen und laufendem Behördenverfahren gegen Privatperson erfordert faktische, nicht-sensationalistische Darstellung (kein Blame, keine Schuldzuweisung — nur Behördenbericht). Newsworthiness 3: solide regionale Nachricht mit begrenztem geografischem und systemischem Scope.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Vierjähriges Mädchen am Montag in Aspach aus überhitztem Fahrzeug befreit",
+      "Kind war angeschnallt und stark verschwitzt",
+      "Mutter (40 Jahre, aus Tirol) befand sich zum Zeitpunkt in nahegelegenem Wohnhaus",
+      "Laut Polizei: Bei 27°C Außentemperatur kann Fahzeuginnenraum in 45 Minuten über 50°C erreichen",
+      "Genaue Dauer der Verweildauer des Kindes im Auto unbekannt",
+      "Kind unmittelbar nach Befreiung mit Flüssigkeit versorgt",
+      "Mutter wird bei Bezirksbehörde angezeigt",
+      "Zuständige Behörde wird über etwaige juristische Konsequenzen entscheiden"
+    ],
+    "missingSources": [
+      "Ärztliche oder medizinische Bewertung des Kindes nach dem Einsatz",
+      "Tatsächliche Innen- und Außentemperaturmessung (nur theoretisch)",
+      "Exakte Verweildauer und Uhrzeitangabe des Vorfalls",
+      "Direkte Aussage der Mutter (nur Polizeiparaphrase vorhanden)",
+      "Identität und Kontext der besuchten Person im Wohnhaus",
+      "Nachfolgeinformationen zum Behördenverfahren und Konsequenzen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "vierjaehrige-aspach-heisses-auto-juli-2026",
+    "title": "Vierjähriges Mädchen in Aspach aus überhitztem Auto befreit",
+    "description": "In Aspach im Bezirk Braunau hat die Polizei laut übereinstimmenden Medienberichten ein vierjähriges Mädchen aus einem überhitzten Fahrzeug befreit. Die Mutter wird angezeigt, zentrale Details des Vorfalls sind offen.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei redaktionell unabhängige Medien (ORF Oberösterreich, Der Standard) berichten übereinstimmend über Ort, Tag und Kernablauf des Vorfalls, das lässt den Grundvorgang als bestätigt gelten – Detailfragen bleiben aber nur einfach oder gar nicht belegt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt eingesehene Polizeimeldung oder sonstige Primärquelle vor, nur zwei Medienberichte, die vermutlich auf einer Polizeiauskunft basieren.",
+    "framingRisk": "high",
+    "framingRiskNote": "Es ist ausschließlich die Perspektive der Einsatzkräfte über die Medien wiedergegeben, eine Stellungnahme der betroffenen Mutter fehlt vollständig.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein vierjähriges Mädchen wurde laut Polizei am Montag in Aspach (Bezirk Braunau) aus einem überhitzten Auto befreit.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut übereinstimmenden Berichten war das Kind angeschnallt, stark verschwitzt und konnte sich nicht selbst befreien.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Mutter befand sich der Berichterstattung zufolge zu diesem Zeitpunkt bei einem Besuch in der Nähe.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Mutter wird laut ORF bei der Bezirksbehörde angezeigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie lange das Kind im Fahrzeug eingeschlossen war und wie es ihm danach gesundheitlich ging, bleibt in den vorliegenden Quellen offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lange befand sich das Kind tatsächlich im Fahrzeug?",
+      "Wie hoch war die Innentemperatur im Auto zum Zeitpunkt der Rettung?",
+      "Wie geht es dem Kind gesundheitlich nach dem Einsatz?",
+      "Welche rechtlichen Konsequenzen zieht die Anzeige gegen die Mutter nach sich?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Oberösterreich",
+        "type": "media",
+        "url": "https://ooe.orf.at/stories/3362510"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard (Panorama)",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331317/vierj228hrige-im-innviertel-aus-hei223em-auto-befreit"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein vierjähriges Mädchen wurde am Montag in Aspach (Bezirk Braunau, Innviertel) von der Polizei aus einem überhitzten Fahrzeug befreit.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen Medien mit übereinstimmenden Kerndaten berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das Kind war zum Zeitpunkt der Rettung angeschnallt, stark verschwitzt und konnte sich nicht selbst befreien.",
+        "status": "supported",
+        "note": "Beide Berichte stimmen in dieser Beschreibung überein.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Mutter hatte sich in der Zwischenzeit an einem anderen Ort aufgehalten, laut Der Standard bei einem Besuch.",
+        "status": "partial",
+        "note": "ORF nennt keine näheren Angaben zum Aufenthaltsort der Mutter, Der Standard spricht von einem Besuch – Details bleiben ungenau.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Mutter wird bei der Bezirksbehörde angezeigt.",
+        "status": "partial",
+        "note": "Nur im ORF-Bericht explizit genannt, keine zweite unabhängige Bestätigung in den vorliegenden Quellen.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Medienberichten hat die Polizei am Montag in Aspach im Bezirk Braunau ein vierjähriges Mädchen aus einem überhitzten Auto befreit. Das Kind war demnach angeschnallt, konnte sich nicht selbst aus dem Fahrzeug befreien und war laut den vorliegenden Berichten stark verschwitzt, als die Einsatzkräfte eintrafen. Der Standard berichtet zudem, die Mutter habe sich in der Zwischenzeit bei einem Besuch in der Nähe aufgehalten."
+      },
+      {
+        "heading": "Was die Quellenlage zeigt",
+        "markdown": "Zwei redaktionell voneinander unabhängige Medien – ORF Oberösterreich und Der Standard – berichten mit übereinstimmenden Kerndaten zu Ort, Tag und Ablauf des Einsatzes. Das spricht dafür, dass der Grundvorgang der Rettung so stattgefunden hat, wie berichtet. Eine direkt eingesehene Polizeimeldung oder andere Primärquelle liegt für diesen Artikel jedoch nicht vor, weshalb die Einordnung an dieser Stelle vorsichtig bleibt. Laut ORF wird die Mutter bei der Bezirksbehörde angezeigt; diese Angabe findet sich in der vorliegenden Zusammenfassung von Der Standard nicht wiederholt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Aus den vorliegenden Quellen geht nicht hervor, wie lange sich das Kind tatsächlich im Fahrzeug befand, wie hoch die Innentemperatur zum Zeitpunkt der Rettung war oder in welchem gesundheitlichen Zustand sich das Mädchen nach dem Einsatz befand. Auch der genaue Kontext des Besuchs der Mutter sowie der weitere Verlauf des angekündigten Behördenverfahrens sind nicht dokumentiert. Eine Stellungnahme der betroffenen Mutter liegt in den verfügbaren Berichten nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Es handelt sich um einen regional begrenzten, aber öffentlich relevanten Vorfall rund um Kindersicherheit und elterliche Aufsichtspflicht. Da ein minderjähriges Kind und ein laufendes Behördenverfahren gegen eine Privatperson betroffen sind, wird hier bewusst auf Namen, Mutmaßungen zu Schuld sowie auf nicht belegte Detailangaben verzichtet. Die Einschätzung stützt sich ausschließlich auf die Zusammenfassungen zweier Medien und wurde nicht anhand einer Primärquelle wie einer Polizeimeldung überprüft."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Medienberichten hat die Polizei am Montag in Aspach im Bezirk Braunau ein vierjähriges Mädchen aus einem überhitzten Auto befreit. Das Kind war angeschnallt, konnte sich nicht selbst befreien und war den Berichten zufolge stark verschwitzt. Der Standard berichtet, die Mutter habe sich zu diesem Zeitpunkt bei einem Besuch in der Nähe aufgehalten; laut ORF wird sie bei der Bezirksbehörde angezeigt.\n\nZwei voneinander unabhängige Medien stimmen in den Kerndaten zu Ort, Tag und Ablauf überein, was den Grundvorgang plausibel erscheinen lässt. Eine direkt eingesehene Polizeimeldung oder andere Primärquelle liegt für diesen Artikel jedoch nicht vor, ebenso wenig eine Stellungnahme der Mutter.\n\nOffen bleiben unter anderem die genaue Dauer, die tatsächliche Temperatur im Fahrzeug, der gesundheitliche Zustand des Kindes nach der Rettung sowie der weitere Verlauf des angekündigten Behördenverfahrens. Angesichts der Betroffenheit eines minderjährigen Kindes und einer laufenden behördlichen Prüfung wird hier bewusst zurückhaltend und ohne Namensnennung berichtet.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-13T14:51:23.955Z"
+}

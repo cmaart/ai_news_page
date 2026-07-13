@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T14:21:48.622Z",
+  "updatedAt": "2026-07-13T15:02:14.910Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -666,7 +666,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-11T15:07:24.443Z",
-      "doNotUpdateBefore": "2026-07-10T21:07:24.443Z"
+      "doNotUpdateBefore": "2026-07-10T21:07:24.443Z",
+      "echoPublishers": {
+        "techcrunch": "2026-07-13T14:51:23.955Z"
+      }
     },
     "google-rechenzentrum-kronstorf-ausbau-2026": {
       "canonicalTitle": "Google-Rechenzentrum in Kronstorf: Wirbel um deutlich größeren Ausbau als geplant",
@@ -2493,9 +2496,9 @@
         "kleinezeitung": "2026-07-13T05:07:25.520Z",
         "kurier": "2026-07-13T14:07:29.118Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T14:07:29.118Z"
+      "resonanceMeasuredAt": "2026-07-13T14:51:23.955Z"
     },
     "oesterreicher-toedlich-verunglueckt-motorradrennen-bruenn-juli-2026": {
       "canonicalTitle": "Österreichischer Motorradfahrer nach Kollision bei Rennen in Brünn gestorben",
@@ -2818,13 +2821,13 @@
       "doNotRedraftBefore": "2026-07-14T14:07:29.118Z",
       "doNotUpdateBefore": "2026-07-13T20:07:29.118Z",
       "echoPublishers": {
-        "kurier": "2026-07-13T10:01:08.091Z",
+        "kurier": "2026-07-13T14:51:23.955Z",
         "futurezone": "2026-07-13T10:50:31.638Z",
         "derstandard": "2026-07-13T14:07:29.118Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T10:01:08.091Z"
+      "resonanceMeasuredAt": "2026-07-13T14:51:23.955Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -3387,6 +3390,73 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T14:07:29.118Z",
       "doNotUpdateBefore": "2026-07-13T20:07:29.118Z"
+    },
+    "vierjaehrige-aspach-heisses-auto-juli-2026": {
+      "canonicalTitle": "Vierjähriges Mädchen in Aspach aus überhitztem Auto befreit",
+      "slug": "vierjaehrige-aspach-heisses-auto-juli-2026",
+      "firstSeenAt": "2026-07-13T14:51:23.955Z",
+      "lastUpdatedAt": "2026-07-13T14:51:23.955Z",
+      "status": "published",
+      "articlePath": "src/content/articles/vierjaehrige-aspach-heisses-auto-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/vierjaehrige-aspach-heisses-auto-juli-2026.json",
+      "sourceUrls": [
+        "https://ooe.orf.at/stories/3362510",
+        "https://www.derstandard.at/story/3000000331317/vierj228hrige-im-innviertel-aus-hei223em-auto-befreit"
+      ],
+      "openQuestions": [
+        "Wie lange befand sich das Kind tatsächlich im Fahrzeug?",
+        "Wie hoch war die Innentemperatur im Auto zum Zeitpunkt der Rettung?",
+        "Wie geht es dem Kind gesundheitlich nach dem Einsatz?",
+        "Welche rechtlichen Konsequenzen zieht die Anzeige gegen die Mutter nach sich?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T14:51:23.955Z",
+      "doNotUpdateBefore": "2026-07-13T20:51:23.955Z"
+    },
+    "hattmannsdorfer-neutralitaetsparagraf-ruestungsexporte-juli-2026": {
+      "canonicalTitle": "Hattmannsdorfer will Neutralitätsparagraf für Rüstungsexporte klären",
+      "slug": "hattmannsdorfer-neutralitaetsparagraf-ruestungsexporte-juli-2026",
+      "firstSeenAt": "2026-07-13T14:51:23.955Z",
+      "lastUpdatedAt": "2026-07-13T14:51:23.955Z",
+      "status": "published",
+      "articlePath": "src/content/articles/hattmannsdorfer-neutralitaetsparagraf-ruestungsexporte-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/hattmannsdorfer-neutralitaetsparagraf-ruestungsexporte-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/inland/hattmannsdorfer-will-ruestungsboom-fuer-heimische-industrie-nutzen/403175885",
+        "https://orf.at/stories/3436090"
+      ],
+      "openQuestions": [
+        "Wie genau soll der Neutralitätsparagraf geändert oder klargestellt werden, und wie lautet der Gesetzentwurf im Detail?",
+        "Wie reagieren SPÖ und NEOS auf den ihnen laut Bericht bereits übermittelten Entwurf?",
+        "Sind die berichteten Export- und Beschaffungszahlen (u. a. zu Dual-Use-Lieferungen und einem möglichen Flugzeug-Ankauf) unabhängig bestätigt?",
+        "Welche Position vertreten Friedensorganisationen oder neutralitätspolitisch kritische Stimmen zu dem Vorhaben?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T14:51:23.955Z",
+      "doNotUpdateBefore": "2026-07-13T20:51:23.955Z"
+    },
+    "fluechtiger-haeftling-salzburg-19-straftaten-juli-2026": {
+      "canonicalTitle": "Salzburg: Häftling flüchtete aus Haftfreigang und beging laut Berichten 19 Straftaten",
+      "slug": "fluechtiger-haeftling-salzburg-19-straftaten-juli-2026",
+      "firstSeenAt": "2026-07-13T14:51:23.955Z",
+      "lastUpdatedAt": "2026-07-13T14:51:23.955Z",
+      "status": "published",
+      "articlePath": "src/content/articles/fluechtiger-haeftling-salzburg-19-straftaten-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/fluechtiger-haeftling-salzburg-19-straftaten-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36866145/fluechtiger-haeftling-begeht-in-salzburg-gleich-19-straftaten",
+        "https://salzburg.orf.at/stories/3362412"
+      ],
+      "openQuestions": [
+        "Wie lautet die offizielle Darstellung der Justizanstalt bzw. des Justizministeriums zur Freigang-Genehmigung und deren Sicherheitsvorkehrungen?",
+        "Wie viele Betriebe bzw. Personen waren konkret von den mutmaßlichen Straftaten betroffen?",
+        "Über welche Verkaufsplattform soll der Betrug abgewickelt worden sein?",
+        "Welcher rechtliche Status (U-Haft, Anklage, Verfahrensstand) besteht aktuell?",
+        "Wie hoch ist der tatsächliche Gesamtschaden, und ist die kolportierte Summe von rund 5.000 Euro belastbar?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T14:51:23.955Z",
+      "doNotUpdateBefore": "2026-07-13T20:51:23.955Z"
     }
   }
 }
