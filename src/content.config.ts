@@ -10,7 +10,7 @@ const articles = defineCollection({
     description: z.string().min(1),
     publishedAt: z.coerce.date().optional(),
     updatedAt: z.coerce.date().optional(),
-    topic: z.enum(['politik', 'wirtschaft', 'gesellschaft', 'technologie', 'wissenschaft']),
+    topic: z.enum(['politik', 'wirtschaft', 'gesellschaft', 'technologie', 'wissenschaft', 'sport', 'kultur']),
     country: z.enum(['at', 'de', 'eu', 'int']),
     status: z.enum(['draft', 'review', 'published', 'corrected', 'retracted', 'archived']),
     generationMode: z.enum(['ai_generated', 'ai_assisted', 'manually_reviewed']),

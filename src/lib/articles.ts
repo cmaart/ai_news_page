@@ -5,7 +5,7 @@ export type ArticleData = Article['data'];
 export type Source = ArticleData['sources'][number];
 export type Claim = ArticleData['claims'][number];
 
-export const TOPICS = ['politik', 'wirtschaft', 'gesellschaft', 'technologie', 'wissenschaft'] as const;
+export const TOPICS = ['politik', 'wirtschaft', 'gesellschaft', 'technologie', 'wissenschaft', 'sport', 'kultur'] as const;
 export type Topic = (typeof TOPICS)[number];
 
 export const TOPIC_LABELS: Record<Topic, string> = {
@@ -14,6 +14,8 @@ export const TOPIC_LABELS: Record<Topic, string> = {
   gesellschaft: 'Gesellschaft',
   technologie: 'Technologie',
   wissenschaft: 'Wissenschaft',
+  sport: 'Sport',
+  kultur: 'Kultur',
 };
 
 export const COUNTRY_LABELS: Record<ArticleData['country'], string> = {

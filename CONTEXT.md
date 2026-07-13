@@ -28,6 +28,12 @@ Digital-, IT- und KI-Themen als Gegenstand der Story — Produkte, Software, IT-
 **Wissenschaft** (`topic: wissenschaft`):
 Forschungsergebnisse und Studien außerhalb der Digital-/KI-Welt — Naturwissenschaft, Medizin, Klima, Raumfahrt.
 
+**Sport** (`topic: sport`):
+Sport als Gegenstand der Story — Ergebnisse, Transfers, Events, Sportler als Person des öffentlichen Lebens. Dominiert aber Unglück, Kriminalität oder Politik (tödlicher Rennunfall, Doping-Ermittlung, Sport-Boykott als Staatsakt), gewinnt der Kontext: meist Gesellschaft bzw. Politik. Hinweis: Das regelbasierte Scoring belegt Sport-Signale derzeit mit einem Malus (Boulevard-Schutz), Sport-Cluster erreichen die Triage-Schwelle daher kaum — bewusst offener Restpunkt (siehe PLAN.md Go-Live-TODOs).
+
+**Kultur** (`topic: kultur`):
+Musik, Film, Theater, Kunst, Literatur, Kulturbetrieb und -institutionen — absorbiert Musik (keine eigene Musik-Kategorie). Reines Kulturereignis oder -betrieb: Kultur; die gesellschaftliche Debatte drumherum: Gesellschaft. Medienethik/-verfahren (z. B. Presserats-Rüge) bleibt Gesellschaft.
+
 **Pressefoto** (`image`):
 Bild aus dem offiziellen Pressefoto-Angebot einer im Artikel zitierten Institution mit ausdrücklichem Nutzungsrecht. Einzige zulässige Bildquelle der Site. Bilder aus Quell-Artikeln der Medien sind nie mitlizenziert — Quellenangabe ersetzt keine Lizenz.
 _Avoid_: „Bild aus der Quelle", Symbolfoto von Stock-Anbietern

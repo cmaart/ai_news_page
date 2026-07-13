@@ -211,7 +211,7 @@ export interface DraftResult {
   slugSuggestion: string;
   title: string;
   description: string;
-  topic: 'politik' | 'wirtschaft' | 'gesellschaft' | 'technologie' | 'wissenschaft';
+  topic: 'politik' | 'wirtschaft' | 'gesellschaft' | 'technologie' | 'wissenschaft' | 'sport' | 'kultur';
   country: 'at' | 'de' | 'eu' | 'int';
   confidence: 'low' | 'medium' | 'high';
   confidenceNote: string;

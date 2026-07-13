@@ -229,7 +229,7 @@ JSON-Format (alle Felder Pflicht; "note" und "updateNote" dürfen null sein):
   "slugSuggestion": string,
   "title": string,
   "description": string,
-  "topic": "politik" | "wirtschaft" | "gesellschaft" | "technologie" | "wissenschaft",
+  "topic": "politik" | "wirtschaft" | "gesellschaft" | "technologie" | "wissenschaft" | "sport" | "kultur",
   "country": "at" | "de" | "eu" | "int",
   "confidence": "low" | "medium" | "high",
   "confidenceNote": string,
@@ -258,6 +258,11 @@ Vorgaben:
   Kontext (z. B. Regulierungsstrafe, Cyberangriff auf eine Behörde, Quartalszahlen eines Tech-Konzerns),
   gewinnt der Kontext → "politik" bzw. "wirtschaft". "wissenschaft" = Forschung außerhalb der
   Digital-Welt (Naturwissenschaft, Medizin, Klima, Raumfahrt).
+  "sport" = Sport als Gegenstand (Ergebnisse, Transfers, Events, Sportler als Person des öffentlichen
+  Lebens). Dominiert aber Unglück, Kriminalität oder Politik (tödlicher Rennunfall, Doping-Ermittlung,
+  Sport-Boykott als Staatsakt), gewinnt der Kontext → altes Ressort (meist "gesellschaft" bzw. "politik").
+  "kultur" = Musik, Film, Theater, Kunst, Literatur, Kulturbetrieb und -institutionen (absorbiert Musik).
+  Reines Kulturereignis/-betrieb → "kultur"; gesellschaftliche Debatte drumherum → "gesellschaft".
 - summary: 3–5 Kurzfazit-Bullets; kind "fact" nur für Belegtes, "open" für Offenes.
 - sources: alle tatsächlich verwendeten Quellen mit korrekten IDs (src1, src2, …). Cluster-Items sind
   type "media" bzw. "press_release"; nur per Web-Suche gelesene offizielle Quellen dürfen
@@ -364,7 +369,7 @@ export async function draftOrUpdate(options: {
   return { draft, webSearchUsed: useWebSearch ? 1 : 0 };
 }
 
-const TOPICS = new Set(['politik', 'wirtschaft', 'gesellschaft', 'technologie', 'wissenschaft']);
+const TOPICS = new Set(['politik', 'wirtschaft', 'gesellschaft', 'technologie', 'wissenschaft', 'sport', 'kultur']);
 const COUNTRIES = new Set(['at', 'de', 'eu', 'int']);
 const LEVELS = new Set(['low', 'medium', 'high']);
 const SOURCE_STRENGTHS = new Set(['none', 'weak', 'medium', 'strong']);
