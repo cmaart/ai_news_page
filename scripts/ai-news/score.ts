@@ -32,6 +32,15 @@ const LOW_VALUE_KEYWORDS =
 const EVENT_PR_KEYWORDS =
   /ausstellung|vernissage|biennale|uraufführung|buchpräsentation|saisonprogramm|spielplan|eröffnung|\b(museum|museal|galerie|festival|konzert|premiere|lesung|jubiläum|eröffnet)|\bgalas?\b|tag der offenen tür/i;
 
+// Große Sport-/Kultur-Ereignisse (E50): heben den LOW_VALUE/EVENT_PR-Malus additiv
+// wieder an — aber nur so weit, dass ein Treffer die Triage-Schwelle erst ZUSAMMEN
+// mit breiter Berichterstattung (≥2 Portale) + Frische reißt. Routine (Spielbericht,
+// Ligaspiel, Einzelkonzert, Promi) fehlt diese Deckung und bleibt trotz Bonus unter
+// der Schwelle. Bewusst eng: Championship-/Titel-/Weltrekord-Ebene, große Kulturpreise
+// + Flaggschiff-Festivals — nicht jede Sportart, nicht jedes Konzert.
+const MAJOR_EVENT_KEYWORDS =
+  /\b(weltmeister\w*|europameister\w*|weltcup|weltrekord\w*|olympi\w*|medaille\w*|meistertitel|grand slam|nobelpreis\w*|welturaufführung|berlinale|viennale|oscars?|grammys?)\b|salzburger festspiele|bregenzer festspiele|goldene[rn]? (löwe|palme)/i;
+
 const NUMBER_SIGNAL = /\b\d+([.,]\d+)?\s*(prozent|%|euro|millionen|milliarden|mrd|mio)\b/i;
 
 export function scoreCluster(cluster: Cluster, sourceById: Map<string, SourceDef>): ClusterScore {
@@ -79,6 +88,11 @@ export function scoreCluster(cluster: Cluster, sourceById: Map<string, SourceDef
   if (EVENT_PR_KEYWORDS.test(text)) {
     score -= 0.15;
     reasons.push('event/culture announcement penalty');
+  }
+  // Nach dem Malus: großes Sport-/Kultur-Ereignis hebt additiv wieder an (E50).
+  if (MAJOR_EVENT_KEYWORDS.test(text)) {
+    score += 0.2;
+    reasons.push('major sport/culture event');
   }
 
   // Frische: jüngstes publishedAt im Cluster boostet aktuelle News,
