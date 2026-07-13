@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T08:23:36.706Z",
+  "updatedAt": "2026-07-13T09:22:01.974Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1113,29 +1113,6 @@
       "doNotRedraftBefore": "2026-07-12T10:07:28.043Z",
       "doNotUpdateBefore": "2026-07-11T16:07:28.043Z"
     },
-    "cluster-20260711-45322a25": {
-      "canonicalTitle": "Regierung stellt 7,72 Millionen Euro für Österreichs Schutzhütten und alpine Wege zur Verfügung",
-      "slug": "cluster-20260711-45322a25",
-      "firstSeenAt": "2026-07-11T10:07:28.043Z",
-      "lastUpdatedAt": "2026-07-11T10:07:28.043Z",
-      "status": "noted",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000331048/bund-stellt-772-millionen-euro-f252r-alpine-infrastruktur-bereit",
-        "https://www.derstandard.at/story/3000000331048/bund-stellt-772-millionen-euro-f252r-alpine-infrastruktur-bereit",
-        "https://www.ots.at/presseaussendung/OTS_20260711_OTS0002/zehetnertotschnig-772-millionen-euro-fuer-oesterreichs-alpine-infrastruktur",
-        "https://www.ots.at/presseaussendung/OTS_20260711_OTS0002/zehetnertotschnig-772-millionen-euro-fuer-oesterreichs-alpine-infrastruktur",
-        "https://www.ots.at/presseaussendung/OTS_20260711_OTS0002/zehetnertotschnig-772-millionen-euro-fuer-oesterreichs-alpine-infrastruktur"
-      ],
-      "openQuestions": [
-        "Reaktionen alpiner Vereine oder Schutzhüttenbetreiber zum Fördervolumen",
-        "Detaillierte Förderkriterien und Antragsverfahren des neuen Calls",
-        "Vergleich mit Vorjahresbudgets und bisherigem Mitteleinsatz",
-        "Analyse: Deckt das Volumen den erforderlichen Sanierungsbedarf?",
-        "Medienecho oder kritische Stimmen aus Verbänden",
-        "Informationen zur Auswahl der 17 vorherigen Projekte"
-      ],
-      "sensitivity": "low"
-    },
     "badeunfall-gaensehaeufel-alte-donau-juli-2026": {
       "canonicalTitle": "49-Jähriger nach Badeunfall in der Alten Donau reanimiert",
       "slug": "badeunfall-gaensehaeufel-alte-donau-juli-2026",
@@ -1561,11 +1538,11 @@
       "doNotUpdateBefore": "2026-07-13T14:07:26.141Z",
       "echoPublishers": {
         "heise": "2026-07-12T13:07:28.466Z",
-        "kurier": "2026-07-13T08:07:26.141Z"
+        "kurier": "2026-07-13T09:07:27.406Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T08:07:26.141Z"
+      "resonanceMeasuredAt": "2026-07-13T09:07:27.406Z"
     },
     "venezuela-erdbeben-todesopfer-juli-2026": {
       "canonicalTitle": "Venezuela: Zahl der Erdbeben-Toten laut Berichten auf über 4.300 gestiegen",
@@ -2433,7 +2410,13 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-13T20:07:27.396Z",
-      "doNotUpdateBefore": "2026-07-13T02:07:27.396Z"
+      "doNotUpdateBefore": "2026-07-13T02:07:27.396Z",
+      "echoPublishers": {
+        "kurier": "2026-07-13T09:07:27.406Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-13T09:07:27.406Z"
     },
     "bangkok-bar-brand-tote-juli-2026": {
       "canonicalTitle": "Brand in Bangkok-Bar: Mindestens 27 Tote, Fluchtwege durch fehlende Notausgänge blockiert",
@@ -2786,6 +2769,80 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T08:07:26.141Z",
       "doNotUpdateBefore": "2026-07-13T14:07:26.141Z"
+    },
+    "pflegebonus-gesetzliche-absicherung-juli-2026": {
+      "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
+      "slug": "pflegebonus-gesetzliche-absicherung-juli-2026",
+      "firstSeenAt": "2026-07-13T09:07:27.406Z",
+      "lastUpdatedAt": "2026-07-13T09:07:27.406Z",
+      "status": "published",
+      "articlePath": "src/content/articles/pflegebonus-gesetzliche-absicherung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/pflegebonus-gesetzliche-absicherung-juli-2026.json",
+      "sourceUrls": [
+        "https://www.ots.at/presseaussendung/OTS_20260713_OTS0052/fsg-younion-ad-pflegebonus-gesetzliche-absicherung-heisst-respekt-fairness-sicherheit-fuer-alle-beschaeftigten",
+        "https://www.derstandard.at/story/3000000331121/pflege-schumann-k252ndigt-gesetzliche-absicherung-des-pflegebonus-an",
+        "https://www.ots.at/presseaussendung/OTS_20260712_OTS0019/younion-gesetzliche-verankerung-des-pflegebonus-guter-schritt",
+        "https://www.diepresse.com/36766134/pflege-schumann-kuendigt-gesetzliche-absicherung-des-pflegebonus-an",
+        "https://orf.at/stories/3435988/",
+        "https://www.ots.at/presseaussendung/OTS_20260712_OTS0013/goed-gesundheitsgewerkschaft-pflegebonus-wird-gesetzlich-abgesichert-ein-wichtiger-erfolg-fuer-180000-beschaeftigte",
+        "https://www.ots.at/presseaussendung/OTS_20260712_OTS0015/oegb-begruesst-verbesserungen-beim-pflegebonus"
+      ],
+      "openQuestions": [
+        "Wann und in welcher Form wird der Gesetzesentwurf zur Zweckbindung dem Parlament vorgelegt?",
+        "Wie hoch fällt das Budgetvolumen der Maßnahme konkret aus?",
+        "Wie wird die Finanzierung des Pflegebonus über das Jahr 2028 hinaus, wenn der aktuelle Finanzausgleich ausläuft, sichergestellt?",
+        "Wie positionieren sich die einzelnen Bundesländer zur geplanten Zweckbindung der Bundesmittel?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-14T09:07:27.406Z",
+      "doNotUpdateBefore": "2026-07-13T15:07:27.406Z"
+    },
+    "alpine-infrastruktur-foerderung-2026": {
+      "canonicalTitle": "Bund startet Fördercall über 5 Millionen Euro für Schutzhütten und Wanderwege",
+      "slug": "alpine-infrastruktur-foerderung-2026",
+      "firstSeenAt": "2026-07-11T10:07:28.043Z",
+      "lastUpdatedAt": "2026-07-13T09:07:27.406Z",
+      "status": "published",
+      "articlePath": "src/content/articles/alpine-infrastruktur-foerderung-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/alpine-infrastruktur-foerderung-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331048/bund-stellt-772-millionen-euro-f252r-alpine-infrastruktur-bereit",
+        "https://www.ots.at/presseaussendung/OTS_20260711_OTS0002/zehetnertotschnig-772-millionen-euro-fuer-oesterreichs-alpine-infrastruktur",
+        "https://kurier.at/chronik/oesterreich/lotto-siebenfachjackpot-84-millionen-6-aus-45-oesterreich/403175767",
+        "https://www.sn.at/panorama/oesterreich/bund-gibt-772-millionen-euro-fuer-alpine-infrastruktur-art-661677",
+        "https://www.vol.at/alpenverein-will-mehr-bundesmittel-fuer-alpine-infrastruktur/10244171"
+      ],
+      "openQuestions": [
+        "Wie genau lauten die Förderkriterien, die Antragsfrist und das Auswahlverfahren des neuen Fördercalls?",
+        "Wie hat sich das Fördervolumen in den einzelnen Vorjahren konkret entwickelt?",
+        "Wie reagieren alpine Vereine und Schutzhüttenbetreiber auf den nun gestarteten Fördercall speziell?",
+        "Wie groß ist der aktuelle Sanierungsbedarf bei den rund 430 Schutzhütten und mehr als 50.000 Kilometern Wegen österreichweit?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-14T09:07:27.406Z",
+      "doNotUpdateBefore": "2026-07-13T15:07:27.406Z"
+    },
+    "tirol-umfrage-oevp-fpoe-gleichauf-juli-2026": {
+      "canonicalTitle": "Umfrage sieht ÖVP und FPÖ in Tirol bei je 29 Prozent gleichauf",
+      "slug": "tirol-umfrage-oevp-fpoe-gleichauf-juli-2026",
+      "firstSeenAt": "2026-07-13T09:07:27.406Z",
+      "lastUpdatedAt": "2026-07-13T09:07:27.406Z",
+      "status": "published",
+      "articlePath": "src/content/articles/tirol-umfrage-oevp-fpoe-gleichauf-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/tirol-umfrage-oevp-fpoe-gleichauf-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36835466/ex-aequo-29-prozent-oevp-und-fpoe-in-tirol-gleichauf",
+        "https://tirol.orf.at/stories/3361881"
+      ],
+      "openQuestions": [
+        "Wie genau lauten die von der Umfrage ausgewiesenen Werte für SPÖ, Grüne und weitere Parteien?",
+        "Wie hoch ist die tatsächliche statistische Schwankungsbreite der Erhebung und wie wurde sie im Detail methodisch umgesetzt?",
+        "Wie reagieren die betroffenen Parteien inhaltlich auf die Umfragewerte, über die Bestätigung des Wahltermins hinaus?",
+        "Gibt es weitere, davon unabhängige Umfragen zu Tirol, die die Tendenz stützen oder ihr widersprechen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T09:07:27.406Z",
+      "doNotUpdateBefore": "2026-07-13T15:07:27.406Z"
     }
   }
 }
