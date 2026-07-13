@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T11:03:22.006Z",
+  "updatedAt": "2026-07-13T11:20:41.470Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2404,29 +2404,36 @@
       "doNotUpdateBefore": "2026-07-13T00:07:23.579Z"
     },
     "frankreich-atomreaktoren-hitze-juli-2026": {
-      "canonicalTitle": "Hitzewelle in Frankreich: Drei Atomreaktoren vorübergehend abgeschaltet",
+      "canonicalTitle": "Hitzewelle in Frankreich: Atomreaktoren in Golfech, Bugey und Chooz abgeschaltet – ASNR lockert Kühlwasser-Grenzwerte",
       "slug": "frankreich-atomreaktoren-hitze-juli-2026",
       "firstSeenAt": "2026-07-12T20:07:27.396Z",
-      "lastUpdatedAt": "2026-07-12T20:07:27.396Z",
+      "lastUpdatedAt": "2026-07-13T11:07:28.452Z",
       "status": "published",
       "articlePath": "src/content/articles/frankreich-atomreaktoren-hitze-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-12/frankreich-atomreaktoren-hitze-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-13/frankreich-atomreaktoren-hitze-juli-2026-update-1100.json",
       "sourceUrls": [
         "https://orf.at/stories/3436025",
-        "https://www.derstandard.at/story/3000000331153/hitze-in-frankreich-drei-atomreaktoren-heruntergefahren"
+        "https://www.derstandard.at/story/3000000331153/hitze-in-frankreich-drei-atomreaktoren-heruntergefahren",
+        "https://kurier.at/politik/ausland/frankreich-atomkraft-hitzewelle-strom-reaktor-abschaltung/403175779",
+        "https://kurier.at/chronik/welt/hitze-frankreich-atomreaktoren-abschaltung-waldbraende-paris/403175765",
+        "https://www.asnr.fr/actualites/canicule-lasnr-modifie-temporairement-les-prescriptions-applicables-aux-rejets",
+        "https://www.asnr.fr/actualites/lasnr-fait-le-point-sur-les-consequences-des-canicules-et-secheresses-sur-les-centrales",
+        "https://lenergeek.com/2026/07/13/reacteurs-nucleaires-canicule-edf-met-arret-3/",
+        "https://www.generation-nt.com/actualites/centrale-nucleaire-golfech-reacteur-arret-canicule-temperature-garonne-2078407"
       ],
       "openQuestions": [
-        "Welche Kraftwerksstandorte sind konkret von Abschaltung bzw. Drosselung betroffen?",
-        "Aus welchem genauen technischen oder regulatorischen Grund wurde die Maßnahme angeordnet?",
-        "Wie wirkt sich dies auf die Stromversorgung in Frankreich und im europäischen Verbundnetz aus?",
-        "Wie lange sollen die Einschränkungen voraussichtlich andauern?",
-        "Gibt es eine offizielle Stellungnahme von EDF oder der französischen Atomaufsichtsbehörde?"
+        "Wie hoch ist der tatsächliche Gesamtumfang der ausgefallenen bzw. gedrosselten Leistung – die Angaben in den Quellen reichen von rund 9,2 GW bis rund 10.000 MW bei unterschiedlicher Anzahl genannter Reaktorblöcke?",
+        "Liegt eine offizielle Gesamtübersicht des Betreibers EDF zu allen betroffenen Reaktorstandorten vor, nicht nur zu Bugey?",
+        "Welche Auswirkungen hat die Situation auf den europäischen Strommarkt, die Strompreise und die Versorgungssicherheit, auch mit Blick auf Österreich?",
+        "Wie ordnet sich dieser Vorfall im Vergleich zu früheren, hitzebedingten Abschaltungen französischer Atomkraftwerke ein?",
+        "Bis wann genau sollen die Einschränkungen andauern, und wann ist mit einem Wiederhochfahren der Reaktoren zu rechnen?",
+        "Wie wirkt sich die geänderte Genehmigung der ASNR für Bugey konkret auf die Gewässerökologie der Rhône aus?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-13T20:07:27.396Z",
-      "doNotUpdateBefore": "2026-07-13T02:07:27.396Z",
+      "doNotRedraftBefore": "2026-07-14T11:07:28.452Z",
+      "doNotUpdateBefore": "2026-07-13T17:07:28.452Z",
       "echoPublishers": {
-        "kurier": "2026-07-13T09:07:27.406Z"
+        "kurier": "2026-07-13T11:07:28.452Z"
       },
       "resonanceLevel": 1,
       "resonanceSource": "triage",
@@ -3017,6 +3024,70 @@
         "Identifizierung spezifischer neuer optischer Kamera-Funktionen",
         "Verifikation der Speicherpreis-Inflation durch Halbleiter-Hersteller",
         "Verifizierung des Rollout-Datums (September-Gerücht)"
+      ],
+      "sensitivity": "low"
+    },
+    "irakisches-ehepaar-voelkermord-urteil-muenchen-juli-2026": {
+      "canonicalTitle": "Oberlandesgericht München verurteilt irakisches Ehepaar wegen Völkermords an jesidischen Mädchen",
+      "slug": "irakisches-ehepaar-voelkermord-urteil-muenchen-juli-2026",
+      "firstSeenAt": "2026-07-13T11:07:28.452Z",
+      "lastUpdatedAt": "2026-07-13T11:07:28.452Z",
+      "status": "published",
+      "articlePath": "src/content/articles/irakisches-ehepaar-voelkermord-urteil-muenchen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/irakisches-ehepaar-voelkermord-urteil-muenchen-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331215/irakisches-ehepaar-wegen-v246lkermordes-in-deutschland-verurteilt",
+        "https://www.diepresse.com/36838629/maedchen-versklavt-irakisches-ehepaar-wegen-voelkermordes-in-deutschland-verurteilt"
+      ],
+      "openQuestions": [
+        "Ist das Urteil des Oberlandesgerichts München bereits rechtskräftig, oder ist eine Revision zu erwarten?",
+        "Welche konkreten Tathandlungen legte das Gericht dem Vorwurf des Völkermords zugrunde?",
+        "Wie und wann kam es zur Festnahme und Anklage des Ehepaares in Deutschland?",
+        "Welche Unterstützung erhalten die betroffenen jesidischen Mädchen heute, und gibt es Reaktionen von Opfer- oder Menschenrechtsorganisationen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T11:07:28.452Z",
+      "doNotUpdateBefore": "2026-07-13T17:07:28.452Z"
+    },
+    "paul-achleitner-interview-ki-fuehrung-trump-juli-2026": {
+      "canonicalTitle": "Investor Paul Achleitner spricht über Führung, Trump und die Zukunft der KI",
+      "slug": "paul-achleitner-interview-ki-fuehrung-trump-juli-2026",
+      "firstSeenAt": "2026-07-13T11:07:28.452Z",
+      "lastUpdatedAt": "2026-07-13T11:07:28.452Z",
+      "status": "published",
+      "articlePath": "src/content/articles/paul-achleitner-interview-ki-fuehrung-trump-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/paul-achleitner-interview-ki-fuehrung-trump-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/36809917/ich-habe-mir-das-recht-verdient-nicht-mehr-mit-arschloechern",
+        "https://www.diepresse.com/36545440/paul-achleitner-ich-habe-mir-das-recht-verdient-nicht-mehr-mit-arschloechern-zusammenzuarbeiten"
+      ],
+      "openQuestions": [
+        "Welche genauen Aussagen zu Large und Small Language Models trifft Achleitner im Originalinterview?",
+        "In welchem Kontext und wann soll die kolportierte Anekdote über Eric Schmidt stattgefunden haben?",
+        "Auf welche Daten oder Vergleiche stützt Achleitner seine Einschätzung zu europäischen Rechenkapazitäten gegenüber den USA und China?",
+        "Handelt es sich bei den Kleine-Zeitung- und Die-Presse-Fassungen um ein und dasselbe Interview oder um zwei getrennt geführte Gespräche?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T11:07:28.452Z",
+      "doNotUpdateBefore": "2026-07-13T17:07:28.452Z"
+    },
+    "cluster-20260713-d3d8d503": {
+      "canonicalTitle": "Netflix hat eine Idee gegen Nutzerschwund: lineares Fernsehen",
+      "slug": "cluster-20260713-d3d8d503",
+      "firstSeenAt": "2026-07-13T11:07:28.452Z",
+      "lastUpdatedAt": "2026-07-13T11:07:28.452Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331112/netflix-hat-eine-idee-gegen-nutzerschwund-lineares-fernsehen",
+        "https://futurezone.at/digital-life/netflix-lineares-fernsehen-externe-angebote-nutzerbindung/403175371",
+        "https://www.derstandard.at/story/3000000331112/netflix-hat-eine-idee-gegen-nutzerschwund-lineares-fernsehen"
+      ],
+      "openQuestions": [
+        "Offizielle Netflix-Ankündigung oder Pressemitteilung",
+        "Konkrete Details: Rollout-Zeitpunkt, betroffene Märkte/Länder, Inhaltsangebot",
+        "Netflix-Geschäftsbericht oder verifizierte Nutzerzahlen zum angesprochenen Nutzerschwund",
+        "Expertenkommentare zum strategischen Wandel",
+        "Technische Implementierungsdetails des geplanten linearen Angebots"
       ],
       "sensitivity": "low"
     }
