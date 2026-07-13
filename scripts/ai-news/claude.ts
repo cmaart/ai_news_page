@@ -179,12 +179,18 @@ export async function triageCluster(
 - "update_story" nur, wenn relatedStory existiert und die neuen Items substanziell Neues liefern.
 - "draft_article" nur bei ausreichend Substanz und öffentlicher Relevanz für Österreich/EU.
 - Dünne Quellenlage oder reine Presseaussendung ohne Zweitquelle → "research_note" oder "monitor".
-- Reiner Sport/Promi/Lifestyle → "ignore".
+- Routine-Sport (Spielberichte, Ligaspiele, einzelne Etappen/Matches, Transfers), reiner Promi/Lifestyle → "ignore".
+- AUSNAHME Großereignisse: Sport-Titel-/Championship-Ebene (WM/EM/Weltcup, Olympia-Titel oder -Medaille,
+  Grand-Slam-Titel wie Wimbledon-/French-Open-Finale, Weltrekord, Meistertitel) und große Kulturereignisse
+  (Nobelpreis, Berlinale, Viennale, Salzburger/Bregenzer Festspiele, Oscar, Grammy, Goldener Löwe/Palme)
+  rechtfertigen "draft_article" auch OHNE direkten Österreich-Bezug — sofern die Berichterstattung breit ist
+  (≥2 unabhängige Portale). Hier zählt globale Bedeutung als Relevanz; nicht auf Österreich/EU einengen.
 - "newsworthiness" (Nachrichtenwert 1–5, unabhängig von sensitivity):
   5 = weitreichende Bedeutung für Österreich/EU (Regierungsentscheidung, große Wirtschafts-/Arbeitsmarktlage) ·
   4 = klare öffentliche Relevanz, viele Betroffene · 3 = solide Nachricht mit begrenzter Reichweite ·
   2 = Nischenthema, geringe Konsequenzen · 1 = Termin-/Event-Ankündigung, Kultur-/Produkt-PR ohne Nachrichtenwert.
   Event-/Ausstellungs-/Kultur-Ankündigungen und Presseaussendungen ohne gesellschaftliche Konsequenz: 1–2.
+  Sport-/Kultur-Großereignisse (siehe Ausnahme oben): mindestens 3, bei weltweiter Dominanz 4.
 - "resonance" (beobachtetes Medienecho, E46) NUR wenn relatedStory existiert und hasPublishedArticle true ist,
   sonst null. Beurteile die Qualität des Echos auf den bereits publizierten Artikel anhand der neuen Items:
   1 = kein nennenswertes Echo ODER reine Agentur-Syndikation (mehrere Portale mit erkennbar demselben
