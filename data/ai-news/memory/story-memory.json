@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T11:20:41.470Z",
+  "updatedAt": "2026-07-13T12:19:19.030Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -179,9 +179,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T12:07:23.768Z",
       "doNotUpdateBefore": "2026-07-12T18:07:23.768Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-12T12:07:23.768Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-12T12:07:23.768Z"
@@ -1926,9 +1924,9 @@
       "doNotRedraftBefore": "2026-07-13T09:07:28.176Z",
       "doNotUpdateBefore": "2026-07-12T15:07:28.176Z",
       "echoPublishers": {},
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-12T11:07:29.032Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-13T12:07:33.353Z"
     },
     "traktor-unfall-innviertel-juli-2026": {
       "canonicalTitle": "Innviertel: 66-Jähriger nach Einklemmen durch Traktor mit Rettungshubschrauber ins Spital geflogen",
@@ -2027,9 +2025,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T18:07:23.579Z",
       "doNotUpdateBefore": "2026-07-13T00:07:23.579Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-12T12:07:23.768Z"
-      }
+      "echoPublishers": {}
     },
     "kleinflugzeug-absturz-gaming-juli-2026": {
       "canonicalTitle": "Kleinflugzeug in Gaming abgestürzt: Zwei Tote, zwei Schwerverletzte",
@@ -2476,12 +2472,12 @@
       "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
       "echoPublishers": {
         "derstandard": "2026-07-13T04:07:29.333Z",
-        "diepresse": "2026-07-13T04:07:29.333Z",
+        "diepresse": "2026-07-13T12:07:33.353Z",
         "kleinezeitung": "2026-07-13T05:07:25.520Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T05:07:25.520Z"
+      "resonanceMeasuredAt": "2026-07-13T12:07:33.353Z"
     },
     "oesterreicher-toedlich-verunglueckt-motorradrennen-bruenn-juli-2026": {
       "canonicalTitle": "Österreichischer Motorradfahrer nach Kollision bei Rennen in Brünn gestorben",
@@ -2848,7 +2844,15 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-14T09:07:27.406Z",
-      "doNotUpdateBefore": "2026-07-13T15:07:27.406Z"
+      "doNotUpdateBefore": "2026-07-13T15:07:27.406Z",
+      "echoPublishers": {
+        "orf": "2026-07-13T12:07:33.353Z",
+        "derstandard": "2026-07-13T12:07:33.353Z",
+        "diepresse": "2026-07-13T12:07:33.353Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-13T12:07:33.353Z"
     },
     "tirol-umfrage-oevp-fpoe-gleichauf-juli-2026": {
       "canonicalTitle": "Umfrage sieht ÖVP und FPÖ in Tirol bei je 29 Prozent gleichauf",
@@ -3047,7 +3051,13 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T11:07:28.452Z",
-      "doNotUpdateBefore": "2026-07-13T17:07:28.452Z"
+      "doNotUpdateBefore": "2026-07-13T17:07:28.452Z",
+      "echoPublishers": {
+        "kurier": "2026-07-13T12:07:33.353Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-13T12:07:33.353Z"
     },
     "paul-achleitner-interview-ki-fuehrung-trump-juli-2026": {
       "canonicalTitle": "Investor Paul Achleitner spricht über Führung, Trump und die Zukunft der KI",
@@ -3090,6 +3100,103 @@
         "Technische Implementierungsdetails des geplanten linearen Angebots"
       ],
       "sensitivity": "low"
+    },
+    "muehlberger-tour-of-austria-sieg-2026": {
+      "canonicalTitle": "Mühlberger gewinnt Tour of Austria: Erster Heimsieg seit 2013",
+      "slug": "muehlberger-tour-of-austria-sieg-2026",
+      "firstSeenAt": "2026-07-13T12:07:33.353Z",
+      "lastUpdatedAt": "2026-07-13T12:07:33.353Z",
+      "status": "published",
+      "articlePath": "src/content/articles/muehlberger-tour-of-austria-sieg-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/muehlberger-tour-of-austria-sieg-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/36810482/zwei-steirer-waren-beim-tour-sieg-an-muehlbergers-seite",
+        "https://www.derstandard.at/story/3000000331085/tour-of-austria-gregor-muehlberger-behauptet-klare-fuehrung-vor-dem-finaltag",
+        "https://noe.orf.at/stories/3362351",
+        "https://www.diepresse.com/36777095/radsport-muehlberger-fixiert-ersten-heimsieg-bei-tour-of-austria-seit-2013",
+        "https://www.derstandard.at/story/3000000331144/gregor-muehlberger-fixiert-bei-der-tour-of-austria-ersten-heimsieg-seit-13-jahren",
+        "https://www.kleinezeitung.at/artikel/36775808/gregor-muehlberger-schreibt-mit-gesamtsieg-geschichte",
+        "https://kurier.at/sport/tour-of-austria-2026-gregor-muehlberger/403175707",
+        "https://sport.orf.at/stories/3160043/",
+        "https://www.dolomitenstadt.at/2026/07/12/gregor-muehlberger-gewinnt-75-tour-of-austria/",
+        "https://cyclingaustria.at/news/strasse/rueckblick-auf-die-75-lidl-tour-of-austria",
+        "https://austria-forum.org/af/AustriaWiki/Gregor_M%C3%BChlberger",
+        "https://www.der-ybbstaler.at/b/interview-mit-gregor-muehlberger/"
+      ],
+      "openQuestions": [
+        "Wie hoch war der exakte, unabhängig verifizierte Zeitabstand zum Zweit- und Drittplatzierten der Gesamtwertung?",
+        "Wer genau sind die von der Kleinen Zeitung erwähnten zwei Steirer im Umfeld des Nationalteams, und welche Rolle hatten sie beim Sieg?",
+        "Ist die Rückkehr der Tour of Austria 2027 in die Steiermark bereits offiziell fixiert oder bislang nur eine Erwartung bzw. Ankündigung?",
+        "Liegt ein direktes, im Volltext geprüftes Zitat von Gregor Mühlberger zu seinem Sieg vor?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-14T12:07:33.353Z",
+      "doNotUpdateBefore": "2026-07-13T18:07:33.353Z"
+    },
+    "eu-sanktionen-russland-cyberangriffe-juli-2026": {
+      "canonicalTitle": "EU verhängt Sanktionen gegen Russland wegen Cyberangriffen – Großbritannien zieht mit",
+      "slug": "eu-sanktionen-russland-cyberangriffe-juli-2026",
+      "firstSeenAt": "2026-07-13T12:07:33.353Z",
+      "lastUpdatedAt": "2026-07-13T12:07:33.353Z",
+      "status": "published",
+      "articlePath": "src/content/articles/eu-sanktionen-russland-cyberangriffe-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/eu-sanktionen-russland-cyberangriffe-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331279/eu-verhaengt-neue-sanktionen-gegen-russland-wegen-cyberangriffen",
+        "https://orf.at/stories/3436062"
+      ],
+      "openQuestions": [
+        "Welche konkreten Cyberangriffe werden den sanktionierten Personen und Organisationen zur Last gelegt?",
+        "Welche Länder waren nach EU-Angaben tatsächlich betroffen, und in welchem Ausmaß?",
+        "Wie sieht die britische Sanktionsliste im Detail aus, und deckt sie sich mit jener der EU?",
+        "Gibt es eine Reaktion russischer Stellen auf die Vorwürfe?",
+        "Wann und in welcher Form wird die EU eine offizielle, vollständige Liste veröffentlichen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T12:07:33.353Z",
+      "doNotUpdateBefore": "2026-07-13T18:07:33.353Z"
+    },
+    "tuk-tuk-unfall-kilb-melk-juli-2026": {
+      "canonicalTitle": "Alko-Lenker soll Tuk-Tuk in Niederösterreich gerammt haben – 18-Jähriger lebensgefährlich verletzt",
+      "slug": "tuk-tuk-unfall-kilb-melk-juli-2026",
+      "firstSeenAt": "2026-07-13T12:07:33.353Z",
+      "lastUpdatedAt": "2026-07-13T12:07:33.353Z",
+      "status": "published",
+      "articlePath": "src/content/articles/tuk-tuk-unfall-kilb-melk-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/tuk-tuk-unfall-kilb-melk-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/niederoesterreich/melk-kilb-verkehrsunfall-hubschraubereinsatz-tuk-tuk-lebensgefahr/403175820",
+        "https://vorarlberg.orf.at/stories/3362296"
+      ],
+      "openQuestions": [
+        "Wie ist der aktuelle Gesundheitszustand des lebensgefährlich verletzten 18-Jährigen?",
+        "Wurden tatsächlich weitere Personen verletzt, und wenn ja, wie schwer?",
+        "Ist der Vorwurf der Alkoholisierung durch einen offiziellen Alkomattest oder eine Blutprobe bestätigt?",
+        "Wurde der geflüchtete Lenker mittlerweile ausgeforscht bzw. angehalten?",
+        "Welche strafrechtlichen Schritte werden gegen den Lenker eingeleitet?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T12:07:33.353Z",
+      "doNotUpdateBefore": "2026-07-13T18:07:33.353Z"
+    },
+    "cluster-20260713-64fb6a32": {
+      "canonicalTitle": "Schule in Horn: 50.000 Euro Schaden nach Vandalismus",
+      "slug": "cluster-20260713-64fb6a32",
+      "firstSeenAt": "2026-07-13T12:07:33.353Z",
+      "lastUpdatedAt": "2026-07-13T12:07:33.353Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://kurier.at/chronik/niederoesterreich/horn-brg-sachbeschaedigung-vandalismus-50000-euro-schaden/403175823",
+        "https://kurier.at/chronik/niederoesterreich/horn-brg-sachbeschaedigung-vandalismus-50000-euro-schaden/403175823",
+        "https://wien.orf.at/stories/3362113"
+      ],
+      "openQuestions": [
+        "Unabhängige Bestätigung durch Schulleitung oder Schulöffentlichkeit",
+        "Weitere Lokal-Medien mit eigenständiger Berichterstattung",
+        "Kontext zu ähnlichen Vorfällen an österreichischen Schulen",
+        "Überprüfung, ob weitere Ermittlungsergebnisse seit 13.07. vorliegen"
+      ],
+      "sensitivity": "high"
     }
   }
 }
