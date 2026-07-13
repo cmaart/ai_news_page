@@ -100,8 +100,30 @@ jobs:
             exit 0
           fi
           git commit -m "AI news run: ${{ steps.manifest.outputs.action }}${{ steps.manifest.outputs.published_slugs != '' && format(' ({0})', steps.manifest.outputs.published_slugs) || '' }}"
-          git pull --rebase origin main
-          git push origin main
+          # Push mit Rebase-Retry. Ein konkurrierender Run (z. B. manueller Dispatch
+          # neben dem Scheduler) kann zwischen fetch und push auf main schreiben.
+          # Sauberer Rebase → push; wird der Push wegen eines Races abgelehnt, erneut
+          # versuchen. Scheitert der Rebase selbst an einer inhaltlichen Überschneidung
+          # (add/add desselben Artikel-Slugs oder kollidierende Memory-JSONs), hat der
+          # andere Run diese Story bereits publiziert — diesen Run überspringen statt
+          # hart zu failen (self-healing: der nächste Run greift eindeutige Stories
+          # erneut auf, seen-items wurde ja nicht gepusht).
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "::warning::Rebase-Konflikt mit konkurrierendem Run — Inhalte überlappen, dieser Run wird übersprungen."
+              exit 0
+            fi
+            if git push origin main; then
+              echo "Push erfolgreich (Versuch $attempt)."
+              exit 0
+            fi
+            echo "Push abgelehnt (Race mit konkurrierendem Run) — neuer Versuch $((attempt + 1))."
+            sleep $((RANDOM % 5 + 2))
+          done
+          echo "::error::Push nach 5 Versuchen fehlgeschlagen."
+          exit 1
 
       # GITHUB_TOKEN-Pushes triggern deploy.yml nicht — bei publizierten
       # Artikeln und Resonanz-Änderungen (E46, Ranking-Wirkung braucht Build)
