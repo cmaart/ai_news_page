@@ -185,23 +185,23 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
           <h2 class="section-head__title">
             <a class="section-head__topic" href={withBase(`/themen/${topic}/`)}>{label}</a>
           </h2>
-          <div class="section-head__actions">
-            <a class="section-head__link" href={withBase(`/themen/${topic}/`)}>
-              {total === 1 ? `Alle Artikel in ${label}` : `Alle ${total} Artikel in ${label}`} →
-            </a>
-            {rest.length > 0 && (
-              <div class="ressort__pager" aria-hidden="true">
-                <button type="button" class="ressort__pager-btn" data-ressort-prev aria-label="Zurück" disabled>
-                  ‹
-                </button>
-                <button type="button" class="ressort__pager-btn" data-ressort-next aria-label="Weiter">
-                  ›
-                </button>
-              </div>
-            )}
-          </div>
+          <a class="section-head__link" href={withBase(`/themen/${topic}/`)}>
+            {total === 1 ? `Alle Artikel in ${label}` : `Alle ${total} Artikel in ${label}`} →
+          </a>
         </div>
         {aufmacher && <Aufmacher article={aufmacher} />}
+        {rest.length > 0 && (
+          <div class="ressort__pager-row">
+            <div class="ressort__pager" aria-hidden="true">
+              <button type="button" class="ressort__pager-btn" data-ressort-prev aria-label="Zurück" disabled>
+                ‹
+              </button>
+              <button type="button" class="ressort__pager-btn" data-ressort-next aria-label="Weiter">
+                ›
+              </button>
+            </div>
+          </div>
+        )}
         {rest.length > 0 && (
         <div class="ressort__track" data-ressort-track tabindex="0" role="group" aria-label={`Weitere Artikel in ${label} – horizontal scrollbar`}>
           {rest.map((article) => {
@@ -607,9 +607,9 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
   }
 
   /* Horizontaler Karten-Track mit Scroll-Snap-Paging (ersetzt das frühere 3er-Raster).
-     Sitzt unter dem Ressort-Aufmacher (E51) → Abstand nach oben. */
+     Sitzt direkt unter der Pager-Zeile → kleiner Abstand nach oben. */
   .ressort__track {
-    margin-top: 30px;
+    margin-top: 12px;
     display: flex;
     gap: 0;
     overflow-x: auto;
@@ -635,15 +635,18 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     padding-left: 0;
   }
 
+  /* Letzte Karte am rechten Rand ausrichten: bei `mandatory` liegt sonst ihr Start-Snap-Punkt
+     hinter dem maximalen scrollLeft und der Browser schnappt zurück → letzte Karte unerreichbar. */
   .ressort__cell:last-child {
     border-right: none;
+    scroll-snap-align: end;
   }
 
-  /* Pager-Buttons im Sektionskopf */
-  .section-head__actions {
+  /* Pager-Zeile sitzt direkt über dem Track (unter dem Aufmacher), rechtsbündig. */
+  .ressort__pager-row {
     display: flex;
-    align-items: baseline;
-    gap: 16px;
+    justify-content: flex-end;
+    margin-top: 26px;
   }
 
   .ressort__pager {
@@ -748,6 +751,10 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     /* Track bleibt horizontal — nur schmalere Karten, sodass die nächste durchlugt. */
     .ressort__cell {
       flex-basis: 62%;
+      /* Jeder Wisch stoppt an genau einem Snap-Punkt → keine Karte wird per Finger übersprungen
+         (mandatory-Fling könnte sonst Zwischen-Karten auslassen). Nur mobil, damit Desktop
+         weiterhin ~eine Seite pro Klick blättert. */
+      scroll-snap-stop: always;
     }
   }
 
