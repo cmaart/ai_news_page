@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T15:02:14.910Z",
+  "updatedAt": "2026-07-13T16:21:22.424Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -781,13 +781,12 @@
       "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
       "doNotUpdateBefore": "2026-07-13T12:07:23.920Z",
       "echoPublishers": {
-        "diepresse": "2026-07-12T15:07:30.256Z",
         "derstandard": "2026-07-13T06:07:23.920Z",
         "kurier": "2026-07-12T21:07:27.634Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-13T10:01:08.091Z"
+      "resonanceMeasuredAt": "2026-07-13T16:07:28.921Z"
     },
     "widdecombe-mordermittlungen-festnahme-juli-2026": {
       "canonicalTitle": "Mordermittlungen nach Tod von Ann Widdecombe: 26-Jähriger festgenommen",
@@ -1651,11 +1650,12 @@
       "doNotRedraftBefore": "2026-07-14T13:08:17.233Z",
       "doNotUpdateBefore": "2026-07-13T19:08:17.233Z",
       "echoPublishers": {
-        "derstandard": "2026-07-13T13:08:17.233Z"
+        "derstandard": "2026-07-13T13:08:17.233Z",
+        "orf": "2026-07-13T16:07:28.921Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T13:08:17.233Z"
+      "resonanceMeasuredAt": "2026-07-13T16:07:28.921Z"
     },
     "usa-iran-luftangriffe-strasse-von-hormus-juli-2026": {
       "canonicalTitle": "Iran-Krieg spitzt sich zu: Vierte US-Angriffswelle, Guterres warnt vor Eskalation an der Straße von Hormus",
@@ -3028,7 +3028,13 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T10:50:31.638Z",
-      "doNotUpdateBefore": "2026-07-13T16:50:31.638Z"
+      "doNotUpdateBefore": "2026-07-13T16:50:31.638Z",
+      "echoPublishers": {
+        "kurier": "2026-07-13T16:07:28.921Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-13T16:07:28.921Z"
     },
     "fussgaenger-koestendorf-gueterzug-unfall-juli-2026": {
       "canonicalTitle": "Fußgänger bei Köstendorf von Güterzug erfasst und verletzt",
@@ -3411,7 +3417,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T14:51:23.955Z",
-      "doNotUpdateBefore": "2026-07-13T20:51:23.955Z"
+      "doNotUpdateBefore": "2026-07-13T20:51:23.955Z",
+      "echoPublishers": {
+        "orf": "2026-07-13T16:07:28.921Z"
+      }
     },
     "hattmannsdorfer-neutralitaetsparagraf-ruestungsexporte-juli-2026": {
       "canonicalTitle": "Hattmannsdorfer will Neutralitätsparagraf für Rüstungsexporte klären",
@@ -3457,6 +3466,86 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T14:51:23.955Z",
       "doNotUpdateBefore": "2026-07-13T20:51:23.955Z"
+    },
+    "ice-toedlicher-einsatz-biddeford-maine-juli-2026": {
+      "canonicalTitle": "Maine: Erneut Toter bei ICE-Einsatz – zweiter tödlicher Vorfall binnen einer Woche",
+      "slug": "ice-toedlicher-einsatz-biddeford-maine-juli-2026",
+      "firstSeenAt": "2026-07-13T16:07:28.921Z",
+      "lastUpdatedAt": "2026-07-13T16:07:28.921Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ice-toedlicher-einsatz-biddeford-maine-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/ice-toedlicher-einsatz-biddeford-maine-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331321/erneut-toter-bei-einsatz-von-us-einwanderungsbeh246rde-ice",
+        "https://www.diepresse.com/37070039/erneut-toter-bei-einsatz-von-us-einwanderungsbehoerde-ice",
+        "https://kurier.at/politik/ausland/ice-usa-trump-einwanderung-tote-erschossen/403175909",
+        "https://orf.at/stories/3436099",
+        "https://www.cbsnews.com/news/maine-shooting-ice-biddeford/",
+        "https://www.cnn.com/2026/07/13/us/ice-shooting-maine",
+        "https://www.wbur.org/news/2026/07/13/maine-immigration-agents-shooting-death-biddeford-fecteau",
+        "https://www.bangordailynews.com/2026/07/13/politics/state-politics/biddeford-maine-ice-shooting-investigation/",
+        "https://www.houstonpublicmedia.org/articles/news/politics/immigration/2026/07/10/556770/ice-shooting-houston-lorenzo-salgado-araujo-passengers-dispute-dhs-account/",
+        "https://www.cnn.com/2026/07/09/us/lorenzo-salgado-araujo-houston-ice-shooting",
+        "https://www.pbs.org/newshour/politics/what-to-know-about-the-fatal-shooting-of-lorenzo-salgado-araujo-by-ice"
+      ],
+      "openQuestions": [
+        "Wer ist die in Biddeford getötete Person, und war sie Ziel des ICE-Einsatzes?",
+        "Was zeigen die laufenden Ermittlungen von Bundespolizei FBI und Maine State Police zum Vorfall in Biddeford?",
+        "Gibt es unabhängige Video- oder Tonaufnahmen, die die Notwehr-Darstellung der Behörde stützen oder widerlegen?",
+        "Wie geht die Untersuchung der DHS-Generalinspektion und der Staatsanwaltschaft von Harris County zum Houston-Fall aus?",
+        "Wird die Zahl von mindestens elf tödlichen ICE-/Grenzschutz-Vorfällen seit Amtsantritt der zweiten Trump-Regierung offiziell bestätigt?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T16:07:28.921Z",
+      "doNotUpdateBefore": "2026-07-13T22:07:28.921Z"
+    },
+    "eu-foerderstopp-biennale-venedig-russland-juli-2026": {
+      "canonicalTitle": "EU stoppt Millionen-Förderung für Biennale Venedig wegen russischer Teilnahme",
+      "slug": "eu-foerderstopp-biennale-venedig-russland-juli-2026",
+      "firstSeenAt": "2026-07-13T16:07:28.921Z",
+      "lastUpdatedAt": "2026-07-13T16:07:28.921Z",
+      "status": "published",
+      "articlePath": "src/content/articles/eu-foerderstopp-biennale-venedig-russland-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/eu-foerderstopp-biennale-venedig-russland-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436109",
+        "https://www.derstandard.at/story/3000000331322/eu-stoppt-finanzierung-der-biennale-wegen-russischer-teilnahme",
+        "https://www.diepresse.com/37077372/eu-stoppt-finanzierung-der-biennale-in-venedig-wegen-russland",
+        "https://ec.europa.eu/commission/presscorner/detail/en/STATEMENT_26_590",
+        "https://www.euronews.com/culture/2026/07/12/venice-biennale-russian-pavilion-eu-commission-confirms-funding-withdrawal"
+      ],
+      "openQuestions": [
+        "Wie reagiert die Fondazione Biennale offiziell auf den nun vollzogenen bzw. finalisierten Förderstopp?",
+        "Ist die Maßnahme bereits rechtlich abgeschlossen oder handelt es sich weiterhin um eine Empfehlung an die zuständige EU-Agentur (EACEA)?",
+        "Welche konkreten Auswirkungen hat der Wegfall der Mittel auf die laufende Ausstellung und beteiligte Künstlerinnen und Künstler?",
+        "Wie positioniert sich Russland offiziell zu der Entscheidung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T16:07:28.921Z",
+      "doNotUpdateBefore": "2026-07-13T22:07:28.921Z"
+    },
+    "asyl-syrer-rueckkehr-oesterreich-juli-2026": {
+      "canonicalTitle": "Asyl: Laut Berichten kehrte bislang nur ein Bruchteil der Syrerinnen und Syrer aus Österreich heim",
+      "slug": "asyl-syrer-rueckkehr-oesterreich-juli-2026",
+      "firstSeenAt": "2026-07-13T16:07:28.921Z",
+      "lastUpdatedAt": "2026-07-13T16:07:28.921Z",
+      "status": "published",
+      "articlePath": "src/content/articles/asyl-syrer-rueckkehr-oesterreich-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-13/asyl-syrer-rueckkehr-oesterreich-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/36965270/so-viele-syrer-kehrten-seit-dem-assad-sturz-heim",
+        "https://www.diepresse.com/36803720/nur-ein-bruchteil-so-viele-syrer-kehrten-heim-seit-dem-assad-sturz"
+      ],
+      "openQuestions": [
+        "Wie stellt sich die aktuelle Sicherheitslage und der Wiederaufbau-Fortschritt in Syrien als Kontext für Rückkehrentscheidungen dar?",
+        "Welche Motivationen und Reintegrationserfahrungen berichten die bereits zurückgekehrten Personen selbst?",
+        "Wie schneidet Österreich im Vergleich zu anderen EU-Ländern wie Deutschland oder Schweden bei den Rückkehrquoten syrischer Flüchtlinge ab?",
+        "Wie schätzen unabhängige Expertinnen und Experten die Erfolgsaussichten und Kosteneffizienz der neuen Förderprogramme ein?",
+        "Wie ist der genaue Status der rund 130.000 seit 2015 asylsuchenden Syrerinnen und Syrer verteilt – anerkannt, im Verfahren oder ohne Status?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-14T16:07:28.921Z",
+      "doNotUpdateBefore": "2026-07-13T22:07:28.921Z"
     }
   }
 }
