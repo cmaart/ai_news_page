@@ -2,7 +2,8 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { byNewest, isListed, TOPIC_LABELS, TOPICS } from '../../lib/articles';
+import Aufmacher from '../../components/Aufmacher.astro';
+import { byNewest, byRelevance, isListed, TOPIC_LABELS, TOPICS } from '../../lib/articles';
 import type { Topic } from '../../lib/articles';
 
 export async function getStaticPaths() {
@@ -14,6 +15,9 @@ const articles = (await getCollection('articles'))
   .filter(isListed)
   .filter((a) => a.data.topic === topic)
   .sort(byNewest);
+// Aufmacher = relevantester Artikel des Themas (E51); Grid darunter = übrige, chronologisch.
+const [aufmacher] = [...articles].sort(byRelevance);
+const rest = articles.filter((a) => a.id !== aufmacher?.id);
 ---
 
 <BaseLayout title={`${TOPIC_LABELS[topic]} · Neue Nachrichten`}>
@@ -21,12 +25,17 @@ const articles = (await getCollection('articles'))
     <p class="topic__eyebrow">Thema</p>
     <h1 class="topic__title">{TOPIC_LABELS[topic]}</h1>
     {
-      articles.length > 0 ? (
-        <div class="topic__grid">
-          {articles.map((article) => (
-            <ArticleCard article={article} />
-          ))}
-        </div>
+      aufmacher ? (
+        <>
+          <Aufmacher article={aufmacher} eager />
+          {rest.length > 0 && (
+            <div class="topic__grid">
+              {rest.map((article) => (
+                <ArticleCard article={article} />
+              ))}
+            </div>
+          )}
+        </>
       ) : (
         <p class="topic__empty">Noch keine veröffentlichten Artikel zu diesem Thema.</p>
       )
@@ -58,6 +67,7 @@ const articles = (await getCollection('articles'))
   }
 
   .topic__grid {
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 32px;

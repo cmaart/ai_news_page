@@ -1,0 +1,210 @@
+---
+import { Image } from 'astro:assets';
+import type { Article } from '../lib/articles';
+import {
+  claimStats,
+  COUNTRY_LABELS,
+  formatDate,
+  hasBroadEcho,
+  LEVEL_METER,
+  RISK_LABELS,
+  STRENGTH_LABELS,
+  STRENGTH_METER,
+} from '../lib/articles';
+import { withBase } from '../lib/url';
+
+interface Props {
+  article: Article;
+  /** Bild eager laden (nur für Aufmacher above the fold, z. B. Themenseiten-Kopf). */
+  eager?: boolean;
+}
+
+const { article, eager = false } = Astro.props;
+const { data } = article;
+const stats = claimStats(data.claims);
+const segments = [1, 2, 3, 4, 5];
+---
+
+<a class="aufmacher story" href={withBase(`/artikel/${article.id}/`)}>
+  {
+    data.image && (
+      <div class="aufmacher__media">
+        <Image
+          src={data.image.file}
+          alt={data.image.alt}
+          widths={[640, 960, 1280]}
+          sizes="(max-width: 900px) 100vw, 560px"
+          loading={eager ? 'eager' : 'lazy'}
+        />
+      </div>
+    )
+  }
+  <div class="aufmacher__body">
+    <div class="eyebrow">
+      {COUNTRY_LABELS[data.country]}
+      {data.publishedAt && <span class="eyebrow__date">· {formatDate(data.publishedAt)}</span>}
+      {data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+      {hasBroadEcho(article) && (
+        <span class="badge badge--accent" title="Viele unabhängige Medien berichten derzeit über diese Story — das beeinflusst die Reihung, nicht die Verlässlichkeit">
+          Breites Echo
+        </span>
+      )}
+    </div>
+    <h3 class="aufmacher__title">{data.title}</h3>
+    <p class="aufmacher__standfirst">{data.description}</p>
+    <div class="aufmacher__metrics">
+      <span class="aufmacher__meter-group">
+        <i class="mini-meter">
+          {segments.map((s) => (
+            <i class:list={{ filled: s <= STRENGTH_METER[data.primarySourceStrength] }} />
+          ))}
+        </i>
+        Primärquellen {STRENGTH_LABELS[data.primarySourceStrength]}
+      </span>
+      <span class="aufmacher__sep">|</span>
+      <span title="Wie einseitig gefärbt die Darstellung in den verfügbaren Quellen sein könnte">
+        Einseitigkeit {RISK_LABELS[data.framingRisk]}
+      </span>
+      {
+        stats.total > 0 && (
+          <>
+            <span class="aufmacher__sep">|</span>
+            <span>
+              {stats.supported}/{stats.total} belegt
+            </span>
+          </>
+        )
+      }
+    </div>
+  </div>
+</a>
+
+<style>
+  /* Voll-breiter Aufmacher (Ressort-Sektionen + Themenseiten). Optik = Startseiten-Lead,
+     aber Bild links / Text rechts, damit die Karte auf voller Breite nicht zu hoch wird. */
+  .aufmacher {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: 36px;
+    align-items: center;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--color-border);
+    color: inherit;
+  }
+
+  .aufmacher:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .aufmacher:hover .aufmacher__title {
+    color: var(--accent-hover);
+  }
+
+  /* Bild ungecroppt auf Dateiebene — Ausschnitt nur via object-fit (E44). */
+  .aufmacher__media {
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    aspect-ratio: 16 / 9;
+  }
+
+  .aufmacher__media :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .aufmacher__body {
+    min-width: 0;
+  }
+
+  .aufmacher__title {
+    margin: 0 0 16px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.16;
+    letter-spacing: -0.015em;
+    color: var(--color-ink);
+    transition: color 0.15s;
+  }
+
+  .aufmacher__standfirst {
+    margin: 0 0 18px;
+    font-family: var(--font-serif);
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+  }
+
+  .aufmacher__metrics {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--color-text-faint);
+  }
+
+  .aufmacher__meter-group {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .aufmacher__sep {
+    color: var(--color-border-soft);
+  }
+
+  .mini-meter {
+    display: inline-flex;
+    gap: 2px;
+  }
+
+  .mini-meter i {
+    width: 9px;
+    height: 5px;
+    background: var(--color-border);
+  }
+
+  .mini-meter i.filled {
+    background: var(--accent);
+  }
+
+  .eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+
+  .eyebrow__date {
+    color: var(--color-text-faint);
+  }
+
+  /* Ohne Bild: Text nutzt die volle Breite. */
+  .aufmacher:not(:has(.aufmacher__media)) {
+    grid-template-columns: 1fr;
+  }
+
+  @media (max-width: 720px) {
+    .aufmacher {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .aufmacher__title {
+      font-size: 27px;
+    }
+  }
+</style>

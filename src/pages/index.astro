@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import { Image } from 'astro:assets';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Aufmacher from '../components/Aufmacher.astro';
 import {
   byNewest,
   byRelevance,
@@ -27,12 +28,15 @@ const ranked = [...articles].sort(byRelevance);
 const [lead, ...topList] = ranked;
 const topStories = topList.slice(0, 4);
 
-// Ressort-Sektionen: chronologisch je Thema (E38), leere Ressorts entfallen.
+// Ressort-Sektionen (E51, revidiert E42): je Thema ein Relevanz-Aufmacher oben, Rest chronologisch.
 // Höheres Limit als früher (3), damit der horizontale Karten-Track (Paging) etwas zum Blättern hat.
 const RESSORT_LIMIT = 9;
 const ressorts = TOPICS.map((topic) => {
   const items = articles.filter((a) => a.data.topic === topic); // articles ist bereits byNewest sortiert
-  return { topic, label: TOPIC_LABELS[topic], items: items.slice(0, RESSORT_LIMIT), total: items.length };
+  // Aufmacher = relevantester Artikel des Themas; Track darunter = übrige, chronologisch (Aufmacher entfernt).
+  const [aufmacher] = [...items].sort(byRelevance);
+  const rest = items.filter((a) => a.id !== aufmacher?.id).slice(0, RESSORT_LIMIT);
+  return { topic, label: TOPIC_LABELS[topic], aufmacher, rest, total: items.length };
 }).filter((r) => r.total > 0);
 
 const dateline = new Intl.DateTimeFormat('de-AT', {
@@ -175,7 +179,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
 
   <!-- Ressort-Sektionen (chronologisch, E38) -->
   {
-    ressorts.map(({ topic, label, items, total }) => (
+    ressorts.map(({ topic, label, aufmacher, rest, total }) => (
       <section class="ressort container-wide">
         <div class="section-head">
           <h2 class="section-head__title">
@@ -185,18 +189,22 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
             <a class="section-head__link" href={withBase(`/themen/${topic}/`)}>
               {total === 1 ? `Alle Artikel in ${label}` : `Alle ${total} Artikel in ${label}`} →
             </a>
-            <div class="ressort__pager" aria-hidden="true">
-              <button type="button" class="ressort__pager-btn" data-ressort-prev aria-label="Zurück" disabled>
-                ‹
-              </button>
-              <button type="button" class="ressort__pager-btn" data-ressort-next aria-label="Weiter">
-                ›
-              </button>
-            </div>
+            {rest.length > 0 && (
+              <div class="ressort__pager" aria-hidden="true">
+                <button type="button" class="ressort__pager-btn" data-ressort-prev aria-label="Zurück" disabled>
+                  ‹
+                </button>
+                <button type="button" class="ressort__pager-btn" data-ressort-next aria-label="Weiter">
+                  ›
+                </button>
+              </div>
+            )}
           </div>
         </div>
-        <div class="ressort__track" data-ressort-track tabindex="0" role="group" aria-label={`Artikel in ${label} – horizontal scrollbar`}>
-          {items.map((article) => {
+        {aufmacher && <Aufmacher article={aufmacher} />}
+        {rest.length > 0 && (
+        <div class="ressort__track" data-ressort-track tabindex="0" role="group" aria-label={`Weitere Artikel in ${label} – horizontal scrollbar`}>
+          {rest.map((article) => {
             const badge = claimBadge(article);
             return (
               <a class="story ressort__cell" href={withBase(`/artikel/${article.id}/`)}>
@@ -229,6 +237,7 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
             );
           })}
         </div>
+        )}
       </section>
     ))
   }
@@ -592,8 +601,15 @@ const leadStats = lead ? claimStats(lead.data.claims) : { supported: 0, total: 0
     margin-top: 52px;
   }
 
-  /* Horizontaler Karten-Track mit Scroll-Snap-Paging (ersetzt das frühere 3er-Raster). */
+  /* Aufmacher (E51) sitzt direkt unter der Sektionskopf-Trennlinie → Luft nach oben. */
+  .ressort > :global(.aufmacher) {
+    margin-top: 26px;
+  }
+
+  /* Horizontaler Karten-Track mit Scroll-Snap-Paging (ersetzt das frühere 3er-Raster).
+     Sitzt unter dem Ressort-Aufmacher (E51) → Abstand nach oben. */
   .ressort__track {
+    margin-top: 30px;
     display: flex;
     gap: 0;
     overflow-x: auto;
