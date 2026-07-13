@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T03:07:28.746Z",
+  "updatedAt": "2026-07-13T04:07:29.333Z",
   "articles": {
     "sabotageverdacht-bahnstrecke-koeln-duesseldorf-juli-2026": {
       "title": "Bahnstrecke Köln–Düsseldorf nach Brand gesperrt: Gruppe „Kommando Angry Birds“ bekennt sich",
@@ -1442,6 +1442,76 @@
           "sourceUrl": "https://burgenland.orf.at/stories/3361786",
           "imageUrl": "https://ibs.orf.at/bgl?image=https%3A%2F%2Foekastatic.orf.at%2Fmims%2F2026%2F28%2F19%2Fcrops%2Fw%3D1200%2Ch%3D627%2Cq%3D75%2F3106324_master_1203119_bahn1.jpg%3Fs%3D5c39c477fae25272898c9eb2bcabecf43be3fd97",
           "origin": "og:image",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        }
+      ]
+    },
+    "us-angriffswelle-iran-juli-2026": {
+      "title": "US-Militär erklärt neue Angriffswelle gegen Iran für abgeschlossen",
+      "scannedAt": "2026-07-13T04:07:29.333Z",
+      "candidates": [
+        {
+          "sourceUrl": "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an",
+          "imageUrl": "https://i.ds.at/9-pnBQ/rs:fill:1200:600/plain/lido-images/2026/07/13/7612ec82-34a0-4268-ad49-b53996a5016a.jpg",
+          "origin": "og:image",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        },
+        {
+          "sourceUrl": "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an",
+          "imageUrl": "https://i.ds.at/fceAQA/rs:fill:600:0/plain/lido-images/2026/07/13/7612ec82-34a0-4268-ad49-b53996a5016a.jpg",
+          "origin": "figure",
+          "creditText": "Das iranische Staatsfernsehen berichtete von mehreren Explosionen in der Nähe der Stadt Sirik sowie westlich von Bandar Abbas.",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        },
+        {
+          "sourceUrl": "https://orf.at/stories/3436031",
+          "imageUrl": "https://orf.at/mojo/1_4_1/storyserver//news/common/images/og-fallback-news.png",
+          "origin": "og:image",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        }
+      ]
+    },
+    "europa-uebersterblichkeit-hitze-juni-2026": {
+      "title": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
+      "scannedAt": "2026-07-13T04:07:29.333Z",
+      "candidates": [
+        {
+          "sourceUrl": "https://www.diepresse.com/36797471/10000-zusaetzliche-tote-in-europa-schwierig-wert-mit-etwas-anderem-als-der-extremen-hitze-zu-erklaeren",
+          "imageUrl": "https://img.diepresse.com/public/incoming/oi75pr-imago-images-0861379495/alternates/WEBP_WIDE_1200/imago%20images%200861379495",
+          "origin": "og:image",
+          "classification": "blocked",
+          "reason": "Agentur-Kennung: imago"
+        },
+        {
+          "sourceUrl": "https://www.diepresse.com/36797471/10000-zusaetzliche-tote-in-europa-schwierig-wert-mit-etwas-anderem-als-der-extremen-hitze-zu-erklaeren",
+          "imageUrl": "https://img.diepresse.com/public/incoming/oi75pr-imago-images-0861379495/alternates/ORIGINAL/imago%20images%200861379495",
+          "origin": "json-ld",
+          "classification": "blocked",
+          "reason": "Agentur-Kennung: imago"
+        },
+        {
+          "sourceUrl": "https://www.diepresse.com/36797471/10000-zusaetzliche-tote-in-europa-schwierig-wert-mit-etwas-anderem-als-der-extremen-hitze-zu-erklaeren",
+          "imageUrl": "https://img.diepresse.com/public/incoming/oi75pr-imago-images-0861379495/alternates/WEBP_LANDSCAPE_600/imago%20images%200861379495",
+          "origin": "figure",
+          "creditText": "Überall, wo es Abkühlung gibt, herrscht derzeit Hochbetrieb Imago / Frank Hoermann / Sven Simon",
+          "classification": "blocked",
+          "reason": "Agentur-Kennung: imago"
+        },
+        {
+          "sourceUrl": "https://orf.at/stories/3435808",
+          "imageUrl": "https://ibs.orf.at/news?image=https%3A%2F%2Fassets.orf.at%2Fmims%2F2026%2F28%2F38%2Fcrops%2Fw%3D1200%2Ch%3D630%2Cq%3D75%2F3108261_master_1203938_klima_hitze_waldbraende_europa_ap.jpg%3Fs%3Daacf06606f08186b481f573a7dc633056859c2b6",
+          "origin": "og:image",
+          "classification": "unknown",
+          "reason": "kein Lizenz-/Credit-Hinweis gefunden"
+        },
+        {
+          "sourceUrl": "https://orf.at/stories/3435808",
+          "imageUrl": "https://ibs.orf.at/news?image=https%3A%2F%2Fassets.orf.at%2Fmims%2F2026%2F28%2F38%2Fcrops%2Fw%3D1200%2Ch%3D627%2Cq%3D75%2F3108261_master_1203938_klima_hitze_waldbraende_europa_ap.jpg%3Fs%3D91f98eb7f6143f453b5bc27c9e8730e428d21f80",
+          "origin": "json-ld",
           "classification": "unknown",
           "reason": "kein Lizenz-/Credit-Hinweis gefunden"
         }

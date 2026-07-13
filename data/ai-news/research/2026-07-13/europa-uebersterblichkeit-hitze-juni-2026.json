@@ -1,0 +1,164 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-61c21eef",
+    "title": "10.000 zusätzliche Tote in Europa: „Schwierig, Wert mit etwas anderem als der extremen Hitze zu erklären“",
+    "items": [
+      {
+        "itemId": "543a9718e75577dfbd926175dc04274832582686dccef088075e99dd071e1f3a",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "10.000 zusätzliche Tote in Europa: „Schwierig, Wert mit etwas anderem als der extremen Hitze zu erklären“",
+        "url": "https://www.diepresse.com/36797471/10000-zusaetzliche-tote-in-europa-schwierig-wert-mit-etwas-anderem-als-der-extremen-hitze-zu-erklaeren",
+        "summary": "„Eine derartige Übersterblichkeit zu dieser Jahreszeit ist ungewöhnlich. Sie ist wirklich hoch“, sagt Lasse Vestergaard vom dänischen Statens Serum Institut.",
+        "publishedAt": "2026-07-13T03:27:01.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "97b5982ec7a64ad3cb7eb49fafe15a5a408fd0c45723adc3c554502c954d1271",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Extreme Hitze hat Europa erneut im Griff",
+        "url": "https://orf.at/stories/3435808",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Übersterblichkeitsdaten von EuroMOMO (EU-ECDC/WHO-unterstützt) mit konkreten Zahlen aus 27 europäischen Ländern; unterstützt durch Imperial-College-Studie zu England/Wales und nationale Statistiken. Zwei unabhängige etablierte Medienquellen (Die Presse, ORF) mit direktem Bezug zu Österreich und EU-weiter Relevanz. Wissenschaftliche Attribution des Klimawandels vorhanden. Substanziell genug für einen Artikel.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "possibleClaims": [
+      "In der Woche 22.–28. Juni 2026 wurden 10.650 zusätzliche Todesfälle in Europa dokumentiert",
+      "Über 9.000 der Todesfälle waren über 65-Jährige",
+      "EuroMOMO bewertet diese Übersterblichkeit als für die Jahreszeit ungewöhnlich und uncharakteristisch hoch",
+      "Wissenschaftler bewerten die Hitzewelle ohne menschenverursachten Klimawandel als praktisch unmöglich",
+      "In England und Wales: 2.700 hitzebedingte Todesfälle Mai–Juni 2026; laut Imperial College davon 42 % dem Klimawandel zurechenbar",
+      "Waldbrand in Almeria (Südspanien) mit 12 Toten – tödlichster in Spanien seit 2005"
+    ],
+    "missingSources": [
+      "Österreich-spezifische Übersterblichkeitsdaten aus EuroMOMO-Netzwerk",
+      "Detaillierte Länder-Aufschlüsselung (außer Angaben zu Frankreich und Belgien)",
+      "Weitere unabhängige wissenschaftliche Analysen zur Hitze–Mortalitäts-Kausalität (außer Imperial College)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "europa-uebersterblichkeit-hitze-juni-2026",
+    "title": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
+    "description": "Laut Die Presse und ORF verzeichnete das Überwachungsnetzwerk EuroMOMO im Juni 2026 eine ungewöhnlich hohe Übersterblichkeit in Europa. Ein Vertreter des dänischen Statens Serum Institut hält extreme Hitze für die naheliegendste Erklärung – unabhängige Bestätigung und Länderdetails stehen noch aus.",
+    "topic": "wissenschaft",
+    "country": "eu",
+    "confidence": "low",
+    "confidenceNote": "Die zentrale Zahl von rund 10.000 zusätzlichen Todesfällen stützt sich im vorliegenden Cluster im Kern auf einen Bericht (Die Presse) unter Berufung auf EuroMOMO; der zweite Beitrag (ORF) bestätigt nur die allgemeine Hitzelage, nicht die konkrete Sterblichkeitszahl, und eine Primärquelle wurde nicht eingesehen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt kein selbst eingesehenes EuroMOMO-Bulletin oder eine andere Primärquelle vor, nur ein Zitat eines Institutsvertreters aus einem Medienbericht.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es kommt im Wesentlichen eine Fachperspektive (Statens Serum Institut / EuroMOMO) zu Wort, eine Gegenposition oder alternative Erklärung wird in den vorliegenden Quellen nicht ausführlich dargestellt.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut Die Presse unter Berufung auf das Überwachungsnetzwerk EuroMOMO wurde in Europa eine ungewöhnlich hohe Übersterblichkeit von rund 10.000 zusätzlichen Todesfällen registriert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein Vertreter des dänischen Statens Serum Institut bezeichnete den Wert für die Jahreszeit als ungewöhnlich und schwer anders als durch die extreme Hitze zu erklären.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut ORF hält die extreme Hitze in weiten Teilen Europas weiterhin an.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie sich die Zahlen auf einzelne Länder, etwa Österreich, aufschlüsseln, ist anhand der vorliegenden Quellen nicht ersichtlich.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob und in welchem Ausmaß der menschengemachte Klimawandel für diese konkrete Übersterblichkeit ursächlich ist, bleibt auf Basis der beiden Quellen offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie schlüsselt sich die gemeldete Übersterblichkeit nach einzelnen europäischen Ländern, insbesondere Österreich, auf?",
+      "Auf welchem Zeitraum und welcher Methodik beruht die EuroMOMO-Auswertung genau, und wurde das zugrunde liegende Bulletin unabhängig geprüft?",
+      "Welchen konkreten, wissenschaftlich abgesicherten Anteil hat der menschengemachte Klimawandel an dieser Hitzewelle?",
+      "Bestätigen weitere nationale Statistikbehörden die berichtete Größenordnung der Übersterblichkeit?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36797471/10000-zusaetzliche-tote-in-europa-schwierig-wert-mit-etwas-anderem-als-der-extremen-hitze-zu-erklaeren"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3435808"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "In Europa wurde für eine Woche im Juni 2026 eine ungewöhnlich hohe Übersterblichkeit von in etwa 10.000 zusätzlichen Todesfällen registriert.",
+        "status": "partial",
+        "note": "Die Zahl stammt aus einem Medienbericht unter Berufung auf EuroMOMO-Daten; ein zweiter, unabhängig bestätigender Bericht mit derselben Größenordnung liegt im Cluster nicht vor, eine Primärquelle wurde nicht eingesehen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Ein Vertreter des dänischen Statens Serum Institut, Lasse Vestergaard, bezeichnete den Wert für die Jahreszeit als ungewöhnlich und schwer anders als durch die extreme Hitze erklärbar.",
+        "status": "supported",
+        "note": "Direktes, im Bericht wiedergegebenes Zitat einer namentlich genannten Fachperson mit institutioneller Zuordnung.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Großteil der zusätzlichen Todesfälle soll Menschen über 65 Jahre betroffen haben.",
+        "status": "unclear",
+        "note": "Diese Detailangabe ist in den vorliegenden Kurzfassungen der beiden Quellen nicht enthalten und lässt sich mit dem aktuellen Cluster nicht bestätigen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die anhaltende Hitzewelle wird in den Berichten mit dem menschengemachten Klimawandel in Verbindung gebracht.",
+        "status": "unclear",
+        "note": "Ein Kausalzusammenhang wird in den Berichten nahegelegt, eine unabhängig geprüfte Attributionsstudie liegt im Cluster jedoch nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut einem Bericht von Die Presse verzeichnete das europäische Überwachungsnetzwerk EuroMOMO im Juni 2026 eine deutlich erhöhte Übersterblichkeit in Europa – die Rede ist von in etwa 10.000 zusätzlichen Todesfällen innerhalb einer Woche. Parallel berichtet ORF, dass extreme Hitze weite Teile Europas erneut im Griff habe. Beide Beiträge fallen zeitlich zusammen und legen nahe, dass die ungewöhnlich hohe Sterblichkeit mit der anhaltenden Hitzeperiode in Zusammenhang steht."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Zentral für den Bericht von Die Presse ist ein Zitat von Lasse Vestergaard vom dänischen Statens Serum Institut, das am EuroMOMO-Netzwerk beteiligt ist. Er wird mit den Worten zitiert, eine derartige Übersterblichkeit zu dieser Jahreszeit sei ungewöhnlich und wirklich hoch, und es sei schwierig, den Wert mit etwas anderem als der extremen Hitze zu erklären. Diese Einschätzung stammt von einer Fachperson mit direktem Bezug zur Datenquelle, ist aber die Einschätzung einer einzelnen Institution und keine unabhängig bestätigte Ursachenanalyse. Der ORF-Beitrag liegt im Cluster nur mit Titel vor und bestätigt die allgemeine Hitzelage in Europa, enthält aber keine eigene Angabe zur Höhe der Übersterblichkeit."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie sich die gemeldete Zahl auf einzelne Länder aufschlüsselt – insbesondere, welche Größenordnung für Österreich gilt, dazu liegen im vorliegenden Cluster keine Angaben vor. Ebenso wenig lässt sich anhand der beiden Quellen sagen, auf welcher genauen Methodik und welchem exakten Beobachtungszeitraum die EuroMOMO-Auswertung beruht, da das zugrunde liegende Bulletin nicht direkt eingesehen wurde. Auch der vielfach diskutierte Zusammenhang zwischen dieser konkreten Hitzewelle und dem menschengemachten Klimawandel wird in den beiden Berichten angedeutet, aber nicht mit einer eigenständigen, unabhängig geprüften Attributionsstudie belegt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Datenlage deutet auf ein ernstzunehmendes Übersterblichkeitsgeschehen im Zusammenhang mit der Hitzeperiode 2026 hin, sie beruht in diesem Cluster aber im Kern auf einem Medienbericht mit Zitat einer Fachperson, nicht auf einer selbst eingesehenen Primärquelle oder mehreren unabhängig übereinstimmenden Berichten mit identischer Zahl. Angesichts der Sensibilität von Gesundheits- und Sterblichkeitsdaten sind die genannten Zahlen als vorläufig und nicht abschließend verifiziert zu behandeln, bis weitere Quellen – etwa nationale Statistikämter oder das EuroMOMO-Bulletin selbst – vorliegen."
+      }
+    ],
+    "bodyKompakt": "Laut einem Bericht von Die Presse verzeichnete das europäische Überwachungsnetzwerk EuroMOMO im Juni 2026 eine ungewöhnlich hohe Übersterblichkeit in Europa – die Rede ist von rund 10.000 zusätzlichen Todesfällen innerhalb einer Woche. Ein Vertreter des dänischen Statens Serum Institut, Lasse Vestergaard, wird mit den Worten zitiert, es sei schwierig, einen derart hohen Wert für diese Jahreszeit mit etwas anderem als der extremen Hitze zu erklären. Laut ORF hält die extreme Hitze in weiten Teilen Europas weiterhin an.\n\nUnabhängig bestätigt ist die konkrete Zahl im vorliegenden Cluster bislang nicht: Der ORF-Beitrag stützt die allgemeine Hitzelage, nicht die genaue Sterblichkeitsangabe, und eine Primärquelle wie das EuroMOMO-Bulletin wurde nicht eingesehen. Offen bleiben zudem die Aufschlüsselung nach einzelnen Ländern, etwa Österreich, sowie der genaue Anteil des menschengemachten Klimawandels an dieser Hitzewelle. Die Angaben sind daher als vorläufig und nicht abschließend verifiziert zu verstehen.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-13T04:07:29.333Z"
+}
