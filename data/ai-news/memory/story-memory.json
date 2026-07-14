@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T18:23:58.556Z",
+  "updatedAt": "2026-07-14T20:22:07.820Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1567,9 +1567,9 @@
       "echoPublishers": {
         "derstandard": "2026-07-14T12:07:26.601Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T14:07:34.240Z"
+      "resonanceMeasuredAt": "2026-07-14T20:07:26.223Z"
     },
     "venezuela-erdbeben-todesopfer-juli-2026": {
       "canonicalTitle": "Venezuela: Zahl der Erdbeben-Toten laut Berichten auf über 4.300 gestiegen",
@@ -1744,7 +1744,7 @@
       "echoPublishers": {
         "kleinezeitung": "2026-07-14T04:07:24.946Z",
         "diepresse": "2026-07-14T14:07:34.240Z",
-        "orf": "2026-07-13T22:07:26.937Z",
+        "orf": "2026-07-14T20:07:26.223Z",
         "derstandard": "2026-07-14T06:07:24.044Z"
       },
       "resonanceLevel": 3,
@@ -3960,7 +3960,8 @@
       "doNotUpdateBefore": "2026-07-14T16:07:30.428Z",
       "echoPublishers": {
         "apa": "2026-07-14T18:07:25.047Z",
-        "golem": "2026-07-14T12:07:26.601Z"
+        "golem": "2026-07-14T12:07:26.601Z",
+        "arstechnica": "2026-07-14T20:07:26.223Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -4066,27 +4067,37 @@
       "doNotUpdateBefore": "2026-07-14T14:07:30.083Z"
     },
     "us-zollrueckzahlungen-supreme-court-juli-2026": {
-      "canonicalTitle": "USA zahlen laut Medienberichten Milliarden Dollar an Zollgebühren zurück",
+      "canonicalTitle": "USA zahlten laut Medienberichten rund 81 Milliarden Dollar an Zollgebühren zurück",
       "slug": "us-zollrueckzahlungen-supreme-court-juli-2026",
       "firstSeenAt": "2026-07-14T08:07:30.083Z",
-      "lastUpdatedAt": "2026-07-14T08:07:30.083Z",
+      "lastUpdatedAt": "2026-07-14T20:07:26.223Z",
       "status": "published",
       "articlePath": "src/content/articles/us-zollrueckzahlungen-supreme-court-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/us-zollrueckzahlungen-supreme-court-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-14/us-zollrueckzahlungen-supreme-court-juli-2026-update-2000.json",
       "sourceUrls": [
         "https://orf.at/stories/3436146",
-        "https://www.derstandard.at/story/3000000331347/us-regierung-zahlt-milliarden-an-zollgeb252hren-an-unternehmen-zur252ck"
+        "https://www.derstandard.at/story/3000000331347/us-regierung-zahlt-milliarden-an-zollgeb252hren-an-unternehmen-zur252ck",
+        "https://www.kleinezeitung.at/artikel/37357650/us-regierung-muss-81-milliarden-us-dollar-zollgeld-zurueckzahlen",
+        "https://orf.at/stories/3436149",
+        "https://www.cbo.gov/system/files/2026-07/61982-MBR.pdf",
+        "https://budgetmodel.wharton.upenn.edu/p/2026-02-20-supreme-court-tariff-ruling/"
       ],
       "openQuestions": [
-        "An welchem genauen Datum erging das zugrundeliegende Supreme-Court-Urteil, und wie lautet seine Begründung im Detail?",
-        "Wie verhält sich die genannte Rückzahlungssumme zu vergleichbaren Zeiträumen der Vorjahre?",
-        "Gibt es eine offizielle Stellungnahme des US-Finanzministeriums, des Supreme Court oder der US-Regierung zu dem Vorgang?",
-        "Welche konkreten Zollaufschläge sind von dem Urteil betroffen, und welche Folgen hat das für laufende Zollpolitik, auch mit Blick auf EU-Exporteure?",
-        "Sind alle Medienberichte auf dieselbe Ausgangsquelle (etwa eine internationale Agenturmeldung) zurückzuführen, oder handelt es sich um unabhängige Recherchen?"
+        "Wie hoch sind die insgesamt noch ausstehenden Rückzahlungsverpflichtungen der US-Regierung, und bis wann sollen sie beglichen sein?",
+        "Welche konkreten Zollaufschläge bzw. Handelspartner sind von den Rückzahlungen im Detail betroffen?",
+        "Gibt es eine offizielle Stellungnahme des US-Finanzministeriums oder des Weißen Hauses zu Umfang und Umgang mit den Rückzahlungen?",
+        "Wie reagieren betroffene Unternehmen, die EU oder andere Handelspartner auf das Urteil und dessen finanzielle Folgen?",
+        "Welche Auswirkungen hat das Urteil auf die künftige US-Zollpolitik, insbesondere auf laufende oder geplante Zollmaßnahmen gegenüber der EU?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-15T08:07:30.083Z",
-      "doNotUpdateBefore": "2026-07-14T14:07:30.083Z"
+      "doNotRedraftBefore": "2026-07-15T20:07:26.223Z",
+      "doNotUpdateBefore": "2026-07-15T02:07:26.223Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-14T20:07:26.223Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-14T20:07:26.223Z"
     },
     "ukraine-raffinerien-angriff-russland-juli-2026": {
       "canonicalTitle": "Ukraine greift laut Berichten zwei russische Raffinerien an – Russland attackiert Kiew mit Raketen",
@@ -4166,10 +4177,10 @@
       "canonicalTitle": "Nach Messerattacke an Schule in Schongau: Ermittler prüfen Hinweise auf extremistisches Motiv",
       "slug": "schongau-messerattacke-schule-extremistisches-motiv-juli-2026",
       "firstSeenAt": "2026-07-14T12:07:26.601Z",
-      "lastUpdatedAt": "2026-07-14T12:07:26.601Z",
+      "lastUpdatedAt": "2026-07-14T20:07:26.223Z",
       "status": "published",
       "articlePath": "src/content/articles/schongau-messerattacke-schule-extremistisches-motiv-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/schongau-messerattacke-schule-extremistisches-motiv-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-14/schongau-messerattacke-schule-extremistisches-motiv-juli-2026-update-2000.json",
       "sourceUrls": [
         "https://orf.at/stories/3436179",
         "https://www.derstandard.at/story/3000000331454/hinweise-auf-extremistisches-motiv-nach-gewalt-an-schule-im-bayerischen-schu",
@@ -4177,24 +4188,31 @@
         "https://www.rhein-zeitung.de/deutschland-welt/hinweise-auf-extremistisches-motiv-nach-angriff-in-schongau_arid-4140546.html",
         "https://web.de/magazine/panorama/verbrechen-vermisste/messerattacke-schongau-brisante-hinweise-beschaeftigen-ermittler-42489512",
         "https://www.tt.com/artikel/30937912/nach-angriff-in-schongau-ermittler-pruefen-bekennerschreiben-und-moeglichen-livestream",
-        "https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/muenchen/spezial_3.php"
+        "https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/muenchen/spezial_3.php",
+        "https://www.tagesspiegel.de/politik/angriff-auf-schuler-in-schongau-ermittler-haben-nach-messerattacke-verdacht-auf-extremistisches-motiv-bei-16-jahrigem-15836980.html",
+        "https://www.20min.ch/story/schongau-d-messerstecherei-an-gymi-manifest-voller-hass-aufgetaucht-103602865",
+        "https://www.infranken.de/bayern/amoktat-in-schongau-schreiben-mit-hinweisen-auf-extremismus-art-6377087",
+        "https://www.nzz.ch/panorama/mehrere-verletzte-an-einem-gymnasium-in-bayern-laut-polizei-gibt-es-hinweise-auf-eine-amoktat-ld.10014654",
+        "https://www.zdfheute.de/panorama/kriminalitaet/schongau-gymnasium-gewalttat-extremismusverdacht-100.html"
       ],
       "openQuestions": [
-        "Welchen genauen Inhalt hat das mutmaßlich vom Verdächtigen stammende Schreiben?",
-        "Wurde tatsächlich ein Livestream der Tat vorbereitet, oder wird dies nur geprüft?",
-        "Welche konkrete extremistische Ausrichtung (etwa ideologisch, religiös motiviert oder anders) wird vermutet?",
-        "Wie ist der aktuelle Gesundheitszustand der beiden verletzten Mädchen?",
-        "Welche Konsequenzen zieht die Schule (Sicherheitsmaßnahmen, psychologische Betreuung) aus dem Vorfall?"
+        "Welchen genauen Inhalt hat das mutmaßlich vom Verdächtigen stammende Schreiben, und ist die Urheberschaft zweifelsfrei geklärt?",
+        "Wurde tatsächlich ein Livestream der Tat vorbereitet, oder wird dies weiterhin nur als eine von mehreren Hypothesen geprüft?",
+        "Welche konkrete extremistische Ausrichtung wird vermutet – die Generalstaatsanwaltschaft München hat dazu bislang nichts mitgeteilt?",
+        "Stammt die verwendete Pistole tatsächlich aus dem Darknet, oder wurde sie – wie ebenfalls berichtet – möglicherweise mit einem 3D-Drucker hergestellt?",
+        "Wie ist der weitere Gesundheitszustand der beiden verletzten Mädchen nach der ersten Entwarnung?",
+        "Welche Konsequenzen zieht die Schule (Sicherheitsmaßnahmen, psychologische Betreuung) aus dem Vorfall?",
+        "Warum führten die 2025 gegen den Verdächtigen laufenden Verfahren wegen Drohungen und Amokverherrlichung nicht zu einer Unterbindung der Tat?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-15T12:07:26.601Z",
-      "doNotUpdateBefore": "2026-07-14T18:07:26.601Z",
+      "doNotRedraftBefore": "2026-07-15T20:07:26.223Z",
+      "doNotUpdateBefore": "2026-07-15T02:07:26.223Z",
       "echoPublishers": {
         "kurier": "2026-07-14T14:07:34.240Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T18:07:25.047Z"
+      "resonanceMeasuredAt": "2026-07-14T20:07:26.223Z"
     },
     "persmanhof-bildungscamp-turnersee-2026": {
       "canonicalTitle": "Antifaschistisches Bildungscamp 2026 nicht mehr am Peršmanhof, sondern am Turnersee",
@@ -4378,6 +4396,30 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T18:07:25.047Z",
       "doNotUpdateBefore": "2026-07-15T00:07:25.047Z"
+    },
+    "gaza-israel-angriffe-neun-tote-juli-2026": {
+      "canonicalTitle": "Gazastreifen: Laut Behörden mindestens neun Tote bei israelischen Angriffen",
+      "slug": "gaza-israel-angriffe-neun-tote-juli-2026",
+      "firstSeenAt": "2026-07-14T20:07:26.223Z",
+      "lastUpdatedAt": "2026-07-14T20:07:26.223Z",
+      "status": "published",
+      "articlePath": "src/content/articles/gaza-israel-angriffe-neun-tote-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/gaza-israel-angriffe-neun-tote-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331491/beh246rden-mindestens-neun-tote-bei-israel-angriffen-im-gazastreifen",
+        "https://www.diepresse.com/37280780/mindestens-neun-tote-bei-israelischen-angriffen-im-gazastreifen",
+        "https://orf.at/stories/3436181",
+        "https://www.arabnews.com/node/2650833/middle-east",
+        "https://www.al-monitor.com/originals/2026/07/israeli-fire-kills-nine-gaza-including-10-year-old-officials-say"
+      ],
+      "openQuestions": [
+        "Wird sich das israelische Militär zu den Vorfällen in Rafah und Jabalia äußern?",
+        "Wie lassen sich die von palästinensischen bzw. Hamas-nahen Stellen genannten Opferzahlen unabhängig verifizieren?",
+        "Welches konkrete Ziel verfolgte der israelische Angriff in Khan Younis nach israelischen Angaben?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T20:07:26.223Z",
+      "doNotUpdateBefore": "2026-07-15T02:07:26.223Z"
     }
   }
 }

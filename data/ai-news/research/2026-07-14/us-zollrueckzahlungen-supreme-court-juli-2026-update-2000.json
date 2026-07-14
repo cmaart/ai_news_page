@@ -1,0 +1,235 @@
+{
+  "cluster": {
+    "id": "cluster-20260714-eba3879c",
+    "title": "Rechtswidrige Zölle: US-Regierung zahlte 81 Milliarden US-Dollar zurück",
+    "items": [
+      {
+        "itemId": "999350101754d46bb10be2126388fc60e15204e479565f8b487e818fa85fd9f0",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Rechtswidrige Zölle: US-Regierung zahlte 81 Milliarden US-Dollar zurück",
+        "url": "https://www.kleinezeitung.at/artikel/37357650/us-regierung-muss-81-milliarden-us-dollar-zollgeld-zurueckzahlen",
+        "summary": "Die rechtswidrig verhängten Zölle wurden nach dem Urteil des Höchstgerichts wieder erstattet. Insgesamt steigen die Zolleinnahmen aber weiter.",
+        "publishedAt": "2026-07-14T16:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "884c8b7ecdcb9a9b9e7027e11bd8555ccbc9128756d7ac164ce39124990bd1b1",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "US-Regierung zahlt Milliarden an Zollgebühren zurück",
+        "url": "https://orf.at/stories/3436146",
+        "isNew": false
+      },
+      {
+        "itemId": "a10190eabe26067e8d88ff3f07069de6eeda8a8a42fa0c96357b542c32dba199",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "US-Regierung zahlt Milliarden an Zollgebühren an Unternehmen zurück",
+        "url": "https://www.derstandard.at/story/3000000331347/us-regierung-zahlt-milliarden-an-zollgeb252hren-an-unternehmen-zur252ck",
+        "isNew": false
+      },
+      {
+        "itemId": "98f40a1dbcd540838520f436ef5a2bd7ebe5e8ad39f5711ea29bb2f433ff4d98",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "USA zahlen Zölle in Milliardenhöhe zurück",
+        "url": "https://orf.at/stories/3436149",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.9,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster substantialisiert die bestehende Story ‚us-zollrueckzahlungen-supreme-court-juli-2026' mit finalen Rückzahlungszahlen (81 Mrd. USD für das bisherige Steuerjahr, nur 5 Mrd. im Vorjahr) und offiziellem US-Finanzministerium-Statement. Mehrere unabhängige österreichische Medienquellen (ORF, Kleine Zeitung, Der Standard) berichten eigenständig auf Basis dieser neuen Mitteilung. Keine neue eigenständige Wendung oder neuer Hauptakteur — inkrementelle Präzisierung und zeitliche Kontextualisierung einer bereits publizierten Story.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": 3,
+    "relatedSlug": "us-zollrueckzahlungen-supreme-court-juli-2026",
+    "possibleClaims": [
+      "US-Regierung zahlte 81 Milliarden Dollar an rechtswidrig verhängten Zöllen zurück",
+      "Supreme Court entschied im Februar 2026, dass Präsident Trump seine Befugnisse bei Zollaufschlägen überschritten hatte",
+      "Im bisherigen Steuerjahr (seit Oktober 2025) wurden 81 Milliarden Dollar zurückgezahlt; im gesamten Vorjahr nur 5 Milliarden",
+      "Meiste Rückzahlungen erfolgten in Mai und Juni 2026",
+      "US-Finanzministerium bestätigte, dass die allermeisten Rückzahlungen auf das Supreme-Court-Urteil zurückgehen",
+      "Bundesrichterin kippte zusätzlich Trumps Steuerdeal mit der IRS"
+    ],
+    "missingSources": [
+      "Genaues Urteilsdatum des Supreme Court (nur ‚Februar' angegeben)",
+      "Offizielle Pressemitteilung oder Stellungnahme des US-Finanzministeriums zum Rückzahlungsumfang",
+      "Detaillierte Begründung des Supreme-Court-Urteils",
+      "Spezifische Zollaufschläge/Länder, die von den Rückzahlungen betroffen sind",
+      "Stellungnahmen von EU-Institutionen oder europäischen Exporteuren zur Auswirkung"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "us-zollrueckzahlungen-supreme-court-juli-2026",
+    "title": "USA zahlten laut Medienberichten rund 81 Milliarden Dollar an Zollgebühren zurück",
+    "description": "ORF, Der Standard und Kleine Zeitung berichten übereinstimmend, dass die US-Regierung seit Oktober 2025 rund 81 Milliarden Dollar an unrechtmäßig erhobenen Zöllen zurückgezahlt hat – ausgelöst durch ein Supreme-Court-Urteil vom 20. Februar 2026. Laut Budgetdaten steigen die Netto-Zolleinnahmen trotzdem weiter.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Vier voneinander unabhängige österreichische Medien (ORF mit zwei Meldungen, Der Standard, Kleine Zeitung) berichten übereinstimmend über Höhe und Zeitrahmen der Rückzahlungen. Ergänzend liegen Angaben aus einem offiziellen US-Haushaltsbericht (Congressional Budget Office) sowie einer spezialisierten Analyse zum Supreme-Court-Urteil vor. Eine Stellungnahme des US-Finanzministeriums selbst, der Wortlaut des Urteils oder Reaktionen der US-Regierung wurden nicht im Volltext eingesehen, daher bleibt die Einstufung bei „medium“ statt „high“.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Zusätzlich zu den vier Medienberichten wurde ein Bericht des Congressional Budget Office (CBO), einer offiziellen, überparteilichen US-Haushaltsbehörde, sowie eine Analyse des Penn Wharton Budget Model zum Supreme-Court-Urteil recherchiert. Diese Dokumente wurden über Suchergebnisse identifiziert, aber nicht vollständig im Original-Volltext geprüft – die genannten Zahlen stammen daher aus mehreren übereinstimmenden Sekundärquellen, die sich auf diese offiziellen Daten berufen. Der Wortlaut des Supreme-Court-Urteils selbst und eine direkte Aussendung des US-Finanzministeriums liegen weiterhin nicht vor.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Quellenlage bildet vor allem die budgetäre Konsequenz aus US-Sicht ab (Rückzahlungssumme, Netto-Zolleinnahmen). Stellungnahmen der US-Regierung, betroffener Unternehmen oder der EU zu den wirtschaftlichen und politischen Folgen fehlen weiterhin, was die Einordnung tendenziell auf die fiskalische Dimension verengt.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Laut übereinstimmenden Berichten von ORF, Der Standard und Kleine Zeitung hat die US-Regierung seit Oktober 2025 rund 81 Milliarden Dollar an Zollgebühren an Unternehmen zurückgezahlt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Im Vergleichszeitraum des Vorjahres waren es nur rund 5 Milliarden Dollar; der Großteil der aktuellen Rückzahlungen erfolgte laut Berichten unter Bezug auf US-Haushaltsdaten in Mai und Juni 2026.",
+        "kind": "fact"
+      },
+      {
+        "text": "Auslöser ist ein Urteil des Supreme Court vom 20. Februar 2026, wonach das Notstandsgesetz IEEPA den Präsidenten nicht dazu ermächtigt, breite „reziproke“ Importzölle zu verhängen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Trotz der Rückzahlungen sind die Netto-Zolleinnahmen der USA in den ersten neun Monaten des laufenden Steuerjahres laut Budgetdaten auf rund 163 Milliarden Dollar gestiegen – etwa 55 Milliarden bzw. rund 51 Prozent mehr als im Vorjahreszeitraum.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie hoch die insgesamt noch ausstehenden Rückzahlungsverpflichtungen sind und wie die US-Regierung, betroffene Unternehmen oder die EU den Vorgang bewerten, geht aus den vorliegenden Quellen nicht hervor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch sind die insgesamt noch ausstehenden Rückzahlungsverpflichtungen der US-Regierung, und bis wann sollen sie beglichen sein?",
+      "Welche konkreten Zollaufschläge bzw. Handelspartner sind von den Rückzahlungen im Detail betroffen?",
+      "Gibt es eine offizielle Stellungnahme des US-Finanzministeriums oder des Weißen Hauses zu Umfang und Umgang mit den Rückzahlungen?",
+      "Wie reagieren betroffene Unternehmen, die EU oder andere Handelspartner auf das Urteil und dessen finanzielle Folgen?",
+      "Welche Auswirkungen hat das Urteil auf die künftige US-Zollpolitik, insbesondere auf laufende oder geplante Zollmaßnahmen gegenüber der EU?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard – Wirtschaft",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331347/us-regierung-zahlt-milliarden-an-zollgeb252hren-an-unternehmen-zur252ck"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3436146"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/37357650/us-regierung-muss-81-milliarden-us-dollar-zollgeld-zurueckzahlen"
+      },
+      {
+        "id": "src4",
+        "name": "ORF.at (zweite Meldung)",
+        "type": "media",
+        "url": "https://orf.at/stories/3436149"
+      },
+      {
+        "id": "src5",
+        "name": "Congressional Budget Office – Monthly Budget Review, Juni 2026",
+        "type": "official",
+        "url": "https://www.cbo.gov/system/files/2026-07/61982-MBR.pdf"
+      },
+      {
+        "id": "src6",
+        "name": "Penn Wharton Budget Model – Analyse zum Supreme-Court-Zollurteil",
+        "type": "study",
+        "url": "https://budgetmodel.wharton.upenn.edu/p/2026-02-20-supreme-court-tariff-ruling/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die US-Regierung hat im laufenden Steuerjahr (seit Oktober 2025) bis Ende Juni 2026 rund 81 Milliarden Dollar an Zöllen an Unternehmen zurückgezahlt.",
+        "status": "supported",
+        "note": "Die Summe von rund 81 Milliarden Dollar wird inzwischen übereinstimmend von vier unabhängigen österreichischen Medienquellen (Der Standard, ORF zweimal, Kleine Zeitung) sowie durch Berichte, die sich auf US-Haushaltsdaten (CBO) berufen, genannt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Im Vergleichszeitraum des Vorjahres (Oktober 2024 bis Juni 2025) wurden nur rund 5 Milliarden Dollar an Zöllen zurückgezahlt.",
+        "status": "partial",
+        "note": "Diese Vergleichszahl stammt aus Sekundärberichten, die sich auf CBO-Haushaltsdaten stützen; eine direkte Einsicht in den CBO-Bericht im Volltext liegt nicht vor.",
+        "sourceIds": [
+          "src3",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Grundlage der Rückzahlungen ist ein Urteil des Supreme Court vom 20. Februar 2026, wonach der International Emergency Economic Powers Act (IEEPA) den Präsidenten nicht dazu ermächtigt, breite „reziproke“ Importzölle zu verhängen.",
+        "status": "partial",
+        "note": "Datum, Rechtsgrundlage (IEEPA) und Charakter der Entscheidung stammen aus einer spezialisierten Wirtschaftsanalyse, nicht aus dem Urteil selbst oder einer Gerichtsmitteilung. Die österreichischen Medienquellen nennen als Auslöser nur allgemein ein „Urteil des Supreme Court“.",
+        "sourceIds": [
+          "src1",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der überwiegende Teil der Rückzahlungen erfolgte in den Monaten Mai und Juni 2026.",
+        "status": "partial",
+        "note": "Diese zeitliche Einordnung stammt aus Berichten, die sich auf US-Haushaltsdaten berufen; eine eigenständige Prüfung der monatlichen Aufschlüsselung liegt nicht vor.",
+        "sourceIds": [
+          "src5"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Trotz der Rückzahlungen sind die Netto-Zolleinnahmen der USA in den ersten neun Monaten des laufenden Steuerjahres auf rund 163 Milliarden Dollar gestiegen, etwa 55 Milliarden Dollar bzw. rund 51 Prozent mehr als im Vorjahreszeitraum.",
+        "status": "partial",
+        "note": "Diese Zahl wird von der Kleinen Zeitung sinngemäß aufgegriffen („insgesamt steigen die Zolleinnahmen aber weiter“) und durch Berichte gestützt, die sich auf CBO-Haushaltsdaten berufen; der CBO-Bericht selbst wurde nicht im Volltext geprüft.",
+        "sourceIds": [
+          "src3",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "ORF, Der Standard und Kleine Zeitung berichteten am 14. Juli 2026 mit insgesamt vier separaten Meldungen unabhängig voneinander über den Vorgang.",
+        "status": "supported",
+        "note": "Die vier Artikel unterscheiden sich in Titel, Uhrzeit und Detailtiefe, decken aber denselben Grundvorgang ab.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Berichten von ORF, Der Standard und Kleine Zeitung hat die US-Regierung im laufenden Steuerjahr – das im Oktober 2025 begann – rund 81 Milliarden Dollar an Zollgebühren an Unternehmen zurückgezahlt. Im Vergleichszeitraum des Vorjahres waren es laut denselben Berichten nur rund 5 Milliarden Dollar. Der überwiegende Teil der aktuellen Rückzahlungen soll in den Monaten Mai und Juni 2026 erfolgt sein. Auslöser ist ein Urteil des Supreme Court, wonach die Regierung bei der Verhängung breiter Zollaufschläge ihre Kompetenzen überschritten habe: Betroffene Unternehmen erhalten die zu Unrecht eingehobenen Zölle demnach zurückerstattet."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Berichterstattung stützt sich inzwischen auf vier unabhängige Meldungen von drei österreichischen Medienhäusern, die Höhe und Zeitraum der Rückzahlungen übereinstimmend darstellen. Ergänzend wurde recherchiert: Eine Analyse des Penn Wharton Budget Model ordnet das zugrundeliegende Urteil zeitlich und rechtlich ein – demnach entschied der Supreme Court am 20. Februar 2026 mit einer 6:3-Mehrheit, dass der International Emergency Economic Powers Act (IEEPA) den Präsidenten nicht ausdrücklich zur Verhängung pauschaler „reziproker“ Importzölle ermächtigt. Zudem verweisen mehrere Berichte auf Daten des Congressional Budget Office (CBO), einer überparteilichen US-Haushaltsbehörde, wonach die Netto-Zolleinnahmen der USA in den ersten neun Monaten des Steuerjahres trotz der Rückzahlungen auf rund 163 Milliarden Dollar gestiegen sind – rund 55 Milliarden Dollar bzw. etwa 51 Prozent mehr als im Vorjahreszeitraum. Wichtig zur Einordnung: Weder der Wortlaut des Supreme-Court-Urteils noch der CBO-Bericht selbst noch eine Stellungnahme des US-Finanzministeriums wurden im Volltext eingesehen – die genannten Detailzahlen stammen aus Sekundärquellen, die sich auf diese offiziellen Stellen berufen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie hoch die insgesamt noch ausstehenden Rückzahlungsverpflichtungen der US-Regierung sind – frühere Schätzungen rund um den Zeitpunkt des Urteils gingen von deutlich höheren Gesamtsummen inklusive Zinsen und Verwaltungskosten aus, was auf noch nicht abgeschlossene Zahlungen hindeuten könnte, ohne dass dies aus den vorliegenden Quellen abschließend bestätigt werden kann. Ebenso fehlen genaue Angaben dazu, welche konkreten Zollaufschläge und Handelspartner im Detail betroffen sind, sowie Stellungnahmen der US-Regierung, des Weißen Hauses, betroffener Unternehmen oder der EU zu den wirtschaftlichen und politischen Folgen des Urteils. Auch die Frage, wie sich das Urteil auf laufende oder künftige US-Zollmaßnahmen – etwa gegenüber der EU – auswirkt, lässt sich aus den vorliegenden Kurzberichten nicht beantworten."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Vorgang markiert eine gerichtliche Beschränkung der Zollpolitik der laufenden US-Administration, die in den vergangenen Jahren wiederholt breite Aufschläge auf Importe verhängt hatte. Bemerkenswert ist, dass die Rückzahlungen an die betroffenen Unternehmen die insgesamt eingenommenen Zollgelder der USA nicht sinken lassen: Laut den herangezogenen Budgetdaten sind die Netto-Zolleinnahmen im selben Zeitraum sogar deutlich gestiegen, was darauf hindeutet, dass die US-Regierung parallel andere, rechtlich unangefochtene Zollinstrumente verstärkt genutzt haben dürfte. Für europäische und österreichische Exportunternehmen könnte das Urteil mittelbar relevant sein – etwa als Präzedenzfall für künftige rechtliche Angriffe auf US-Zollmaßnahmen –, doch eine belastbare Einschätzung der Auswirkungen auf den transatlantischen Handel ist mangels Stellungnahmen von EU-Institutionen oder Handelsvertretungen weiterhin nicht möglich. Die Einordnung bleibt vorläufig und nicht abschließend verifiziert."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Berichten von ORF, Der Standard und Kleine Zeitung hat die US-Regierung im laufenden Steuerjahr – seit Oktober 2025 – rund 81 Milliarden Dollar an Zollgebühren an Unternehmen zurückgezahlt, verglichen mit nur rund 5 Milliarden Dollar im Vergleichszeitraum des Vorjahres. Der Großteil der Rückzahlungen soll in Mai und Juni 2026 erfolgt sein. Auslöser ist ein Urteil des Supreme Court vom 20. Februar 2026, wonach der Präsident laut Berichten und einer ergänzend recherchierten Wirtschaftsanalyse mit dem Notstandsgesetz IEEPA nicht befugt war, breite „reziproke“ Importzölle zu verhängen.\n\nTrotz der Rückzahlungen sind die Netto-Zolleinnahmen der USA in den ersten neun Monaten des Steuerjahres laut Berichten, die sich auf Daten des Congressional Budget Office berufen, auf rund 163 Milliarden Dollar gestiegen – etwa 55 Milliarden Dollar bzw. rund 51 Prozent mehr als im Vorjahr. Das deutet darauf hin, dass die Regierung parallel andere Zollinstrumente verstärkt genutzt hat. Weder das Urteil noch der CBO-Bericht noch eine Stellungnahme des US-Finanzministeriums wurden im Volltext eingesehen; die Zahlen stammen aus mehreren übereinstimmenden Sekundärquellen.\n\nOffen bleiben die Höhe noch ausstehender Rückzahlungsverpflichtungen, die betroffenen Zollaufschläge im Detail sowie Reaktionen der US-Regierung, betroffener Unternehmen oder der EU. Für europäische Exporteure könnte das Urteil als Präzedenzfall mittelbar relevant sein, eine abschließende Einordnung der Folgen für den transatlantischen Handel ist auf Basis der aktuellen Quellenlage aber nicht möglich.",
+    "updateNote": "Ergänzt um die von mehreren Medien nun übereinstimmend genannte Rückzahlungssumme (81 Mrd. Dollar seit Oktober 2025 statt Rückzahlungen nur eines Vorjahreszeitraums), Datum und Rechtsgrundlage des Supreme-Court-Urteils (20. Februar 2026, IEEPA) sowie um Angaben zu parallel steigenden Netto-Zolleinnahmen, recherchiert über eine offizielle US-Haushaltsquelle (CBO) und eine spezialisierte Wirtschaftsanalyse."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-14T20:07:26.223Z"
+}
