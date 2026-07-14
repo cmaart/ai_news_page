@@ -72,3 +72,21 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Push-Discovery NACH dem Deploy: meldet frisch publizierte Artikel-URLs aus
+  # der Live-Sitemap an IndexNow (Bing/Yandex/Seznam/Naver — nicht Google).
+  # Best-effort: darf den Deploy nicht rot färben, auch wenn der Ping scheitert.
+  indexnow:
+    if: github.event_name != 'pull_request'
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Ping IndexNow with freshly published URLs
+        continue-on-error: true
+        env:
+          INDEXNOW_KEY: 4aef5c41ae5d19ab546da6bac6b9d5d5
+        run: node scripts/indexnow-ping.mjs
