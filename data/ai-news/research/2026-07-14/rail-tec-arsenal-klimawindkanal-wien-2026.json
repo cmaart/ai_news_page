@@ -1,0 +1,155 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-a3d841cc",
+    "title": "Weltmeister aus Wien: Der Klimawindkanal und seine Wettermacher [premium]",
+    "items": [
+      {
+        "itemId": "b651307ab776a5aa74e9c0cea87aa3f08b79bec088f8e8a57b2221ce6c79076d",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Weltmeister aus Wien: Der Klimawindkanal und seine Wettermacher [premium]",
+        "url": "https://www.diepresse.com/36512816/weltmeister-aus-wien-der-klimawindkanal-und-seine-wettermacher",
+        "summary": "Von der Straßenbahn bis zum Helikopter: In Floridsdorf simuliert das Rail Tec Arsenal als eines der weltweit führenden Institute brütende Hitze bis eisige Kälte. Für Reisende sind die Erkenntnisse mitunter lebenswichtig.",
+        "publishedAt": "2026-07-13T17:55:00.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzieller Feature-Artikel über die Rail Tec Arsenal in Wien, ein weltweit führendes Forschungsinstitut. Detaillierte Berichterstattung mit konkreten Fakten (Größe des Windkanals, technische Fähigkeiten, Personen, Datumsangaben), von etabliertem österreichischem Medium Die Presse. Klare Relevanz für Österreich ohne sensible Themen oder unbelegte Claims.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Rail Tec Arsenal betreibt den größten Klimawindkanal der Welt",
+      "RTA kann 2-Millimeter-Regentropfen in zwei Beschleunigungsstufen beschleunigen",
+      "NASA konnte ähnliche Tropfen-Beschleunigung bei freezing rain nicht erreichen",
+      "Windgeschwindigkeiten bis 300 km/h im großen Kanal, bis 120 km/h im kleinen erreichbar",
+      "Hermann Ferschitz ist Geschäftsführer und einer der Masterminds der RTA",
+      "RTA beherbergt zwei Wellensittiche seit etwa 10 Jahren"
+    ],
+    "missingSources": [
+      "Offizielle Rail Tec Arsenal Website oder Statements zur Bestätigung der technischen Spezifikationen",
+      "NASA-Bestätigung der anekdotischen Aussage von Jimmy Kenyon",
+      "Unabhängige Quellen zur Verifizierung des Weltmeister-Status unter den Klimawindkanälen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "rail-tec-arsenal-klimawindkanal-wien-2026",
+    "title": "Weltmeister aus Wien? Klimawindkanal des Rail Tec Arsenal simuliert Extremwetter für Bahn und Helikopter",
+    "description": "Ein Feature der Tageszeitung „Die Presse“ porträtiert das Rail Tec Arsenal in Wien-Floridsdorf, das mit einem Klimawindkanal Hitze, Kälte und Regen für Fahrzeugtests simuliert. Die Angaben stammen aus einer einzigen Quelle und sind bislang nicht unabhängig bestätigt.",
+    "topic": "wissenschaft",
+    "country": "at",
+    "confidence": "low",
+    "confidenceNote": "Es liegt nur ein einziger Medienbericht (Premium-Artikel von „Die Presse“) vor; weder eine zweite unabhängige Quelle noch eine Agenturmeldung noch eine offizielle Stellungnahme des Rail Tec Arsenal bestätigen die Angaben.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Primärquelle (z. B. RTA-Website, offizielle Unternehmensangaben, NASA-Stellungnahme) eingesehen, sondern nur die Darstellung eines einzelnen Medienberichts verwendet.",
+    "framingRisk": "high",
+    "framingRiskNote": "Der Bericht zeichnet ein einseitig positives Porträt des Instituts ohne erkennbare Gegenposition, kritische Einordnung oder zweite Perspektive – etwa zu Auftraggebern, Kosten oder Interessenlagen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Die Tageszeitung „Die Presse“ berichtet über das Rail Tec Arsenal (RTA) in Wien-Floridsdorf, das laut Artikel Extremwetter von großer Hitze bis starker Kälte für Fahrzeugtests simuliert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Getestet werden dem Bericht zufolge Fahrzeuge von der Straßenbahn bis zum Helikopter.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Artikel ordnet das RTA als eines der weltweit führenden Institute dieser Art ein („Weltmeister“) – eine unabhängige Bestätigung dieses Status liegt nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Genannte technische Details wie Regentropfen-Simulation, Windgeschwindigkeiten und ein NASA-Vergleich stammen aus nur einer Quelle und sind nicht gegengeprüft.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Ist der im Artikel transportierte „Weltmeister“-Status des Klimawindkanals durch unabhängige Rankings oder Fachquellen belegbar?",
+      "Lässt sich die im Bericht wiedergegebene NASA-Anekdote zur Tropfen-Beschleunigung bei gefrierendem Regen von der NASA oder anderer Seite bestätigen?",
+      "Welche exakten technischen Kennzahlen (Windgeschwindigkeiten, Kanalgröße) bestätigt das Rail Tec Arsenal selbst?",
+      "Wer sind die Auftraggeber der Testanlage, und gibt es wirtschaftliche Interessen, die im Artikel nicht thematisiert werden?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36512816/weltmeister-aus-wien-der-klimawindkanal-und-seine-wettermacher"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Das Rail Tec Arsenal in Wien-Floridsdorf betreibt einen Klimawindkanal, der Extremtemperaturen von großer Hitze bis starker Kälte simuliert und dabei Fahrzeuge von der Straßenbahn bis zum Helikopter testet.",
+        "status": "partial",
+        "note": "Beruht auf einem einzelnen Medienbericht, ohne eigene Bestätigung durch das Institut oder eine zweite Quelle.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das RTA zählt laut dem Bericht zu den weltweit führenden Instituten für Klimasimulation im Verkehrsbereich („Weltmeister“).",
+        "status": "unclear",
+        "note": "Superlative Einordnung des Artikels, keine unabhängige Rangliste oder externe Bestätigung vorhanden.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Anlage kann laut Bericht rund zwei Millimeter große Regentropfen in zwei Beschleunigungsstufen auf realistische Fallgeschwindigkeit bringen, was der NASA bei gefrierendem Regen nicht in gleicher Form gelungen sein soll.",
+        "status": "unclear",
+        "note": "Technische Einzelangabe und NASA-Vergleich stammen aus nur einer Quelle und sind nicht gegengeprüft.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Im großen Kanal sollen Windgeschwindigkeiten bis 300 km/h, im kleineren Kanal bis 120 km/h erreichbar sein.",
+        "status": "unclear",
+        "note": "Nur durch die eine vorliegende Quelle belegt, keine technische Zweitquelle verfügbar.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Hermann Ferschitz wird im Bericht als Geschäftsführer und einer der maßgeblichen Köpfe des Rail Tec Arsenal genannt.",
+        "status": "unclear",
+        "note": "Namensnennung stammt aus einer einzigen Medienquelle, eine offizielle Bestätigung der Funktion liegt nicht vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was laut Bericht passiert",
+        "markdown": "Die Tageszeitung „Die Presse“ berichtet in einem Feature-Artikel über das Rail Tec Arsenal (RTA) in Wien-Floridsdorf. Dort simuliert laut dem Bericht ein Klimawindkanal Wetterextreme von brütender Hitze bis eisiger Kälte. Getestet werden dabei Fahrzeuge unterschiedlichster Art – von der Straßenbahn bis zum Helikopter. Der Artikel beschreibt das RTA als eines der weltweit führenden Institute auf diesem Gebiet und ordnet die dort gewonnenen Erkenntnisse als für Reisende mitunter lebenswichtig ein."
+      },
+      {
+        "heading": "Was die Quelle an Details nennt",
+        "markdown": "Laut dem Bericht ist die Anlage in der Lage, Regentropfen von rund zwei Millimetern Durchmesser in zwei Beschleunigungsstufen auf realistische Fallgeschwindigkeiten zu bringen – eine technische Leistung, die laut einer im Artikel wiedergegebenen Aussage selbst der US-Raumfahrtbehörde NASA bei der Simulation von gefrierendem Regen nicht in gleicher Form gelungen sei. Im großen Kanal sollen demnach Windgeschwindigkeiten bis zu 300 km/h, im kleineren Kanal bis zu 120 km/h erreichbar sein. Als Geschäftsführer und einer der maßgeblichen Köpfe hinter der Anlage nennt der Artikel Hermann Ferschitz. Als Kuriosum erwähnt der Bericht zudem zwei Wellensittiche, die seit rund zehn Jahren am Institut leben sollen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Alle genannten Angaben stammen ausschließlich aus einem einzigen Medienbericht; eine Bestätigung durch das Rail Tec Arsenal selbst, durch die NASA oder durch weitere unabhängige Quellen liegt nicht vor. Insbesondere der im Titel transportierte „Weltmeister“-Status unter Klimawindkanälen ist eine Einordnung des Artikels, keine extern verifizierte Kennzahl. Auch die wiedergegebene NASA-Anekdote zur Tropfen-Beschleunigung bei gefrierendem Regen lässt sich anhand der vorliegenden Quellenlage nicht gegenprüfen. Da der Artikel als Premium-Inhalt gekennzeichnet ist, war zudem nur ein eingeschränkter Ausschnitt zugänglich."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Bericht liest sich als positiv gerahmtes Porträt eines heimischen Test- und Forschungsbetriebs, ohne erkennbare Gegenposition oder kritische Nachfrage – etwa zu Kosten, Auftraggebern oder möglichen Interessenkonstellationen rund um die Anlage. Die Existenz und grobe Funktionsweise des Klimawindkanals in Floridsdorf erscheint plausibel und wird von der Quelle konkret beschrieben. Die superlativischen Einordnungen und einzelnen technischen Kennzahlen sind bislang aber nur einfach belegt und sollten bis zu einer Zweitquelle mit Vorsicht behandelt werden."
+      }
+    ],
+    "bodyKompakt": "Die Tageszeitung „Die Presse“ beschreibt in einem Feature das Rail Tec Arsenal (RTA) in Wien-Floridsdorf, wo ein Klimawindkanal Wetterextreme von brütender Hitze bis eisiger Kälte simuliert. Getestet werden dabei Fahrzeuge von der Straßenbahn bis zum Helikopter; der Artikel ordnet das RTA als eines der weltweit führenden Institute dieser Art ein.\n\nLaut Bericht kann die Anlage rund zwei Millimeter große Regentropfen in zwei Stufen auf realistische Fallgeschwindigkeiten beschleunigen – eine Leistung, die selbst der NASA bei gefrierendem Regen nicht in gleicher Form gelungen sein soll. Im großen Kanal sind demnach Windgeschwindigkeiten bis 300 km/h möglich, im kleineren bis 120 km/h. Als Geschäftsführer nennt der Artikel Hermann Ferschitz.\n\nAlle Angaben stammen aus einer einzigen, teils kostenpflichtigen Quelle. Der „Weltmeister“-Status, die NASA-Anekdote und weitere technische Details sind bislang nicht unabhängig bestätigt und sollten entsprechend vorsichtig gelesen werden.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-14T02:07:31.268Z"
+}
