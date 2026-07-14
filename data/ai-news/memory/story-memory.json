@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T10:24:26.997Z",
+  "updatedAt": "2026-07-14T12:20:54.851Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1144,8 +1144,12 @@
       "doNotRedraftBefore": "2026-07-12T11:07:23.956Z",
       "doNotUpdateBefore": "2026-07-11T17:07:23.956Z",
       "echoPublishers": {
-        "orf": "2026-07-14T10:07:30.428Z"
-      }
+        "orf": "2026-07-14T10:07:30.428Z",
+        "kurier": "2026-07-14T12:07:26.601Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-14T12:07:26.601Z"
     },
     "cluster-20260711-ea9f02e5": {
       "canonicalTitle": "„Explosionsartiger Stuhlgang“: Parasit befällt Hunderte in den USA",
@@ -1555,7 +1559,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T08:07:26.141Z",
       "doNotUpdateBefore": "2026-07-13T14:07:26.141Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "derstandard": "2026-07-14T12:07:26.601Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-13T09:07:27.406Z"
@@ -2482,9 +2488,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-14T11:07:28.452Z",
       "doNotUpdateBefore": "2026-07-13T17:07:28.452Z",
-      "echoPublishers": {
-        "kurier": "2026-07-13T11:07:28.452Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-13T10:01:08.091Z"
@@ -2857,7 +2861,6 @@
       "doNotUpdateBefore": "2026-07-13T20:07:29.118Z",
       "echoPublishers": {
         "kurier": "2026-07-13T14:51:23.955Z",
-        "futurezone": "2026-07-13T10:50:31.638Z",
         "derstandard": "2026-07-13T14:07:29.118Z"
       },
       "resonanceLevel": 3,
@@ -3037,9 +3040,9 @@
         "derstandard": "2026-07-13T12:39:26.737Z",
         "profil": "2026-07-14T06:07:24.044Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T10:07:30.428Z"
+      "resonanceMeasuredAt": "2026-07-14T12:07:26.601Z"
     },
     "fpoe-ultimatum-karner-papier-pilnacek-ausschuss-juli-2026": {
       "canonicalTitle": "FPÖ setzt Innenminister Karner Ultimatum wegen Vorbereitungspapier im Pilnacek-Ausschuss",
@@ -3973,7 +3976,7 @@
       "doNotUpdateBefore": "2026-07-14T16:07:30.428Z",
       "echoPublishers": {
         "apa": "2026-07-14T10:07:30.428Z",
-        "golem": "2026-07-14T10:07:30.428Z"
+        "golem": "2026-07-14T12:07:26.601Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -4174,6 +4177,87 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T10:07:30.428Z",
       "doNotUpdateBefore": "2026-07-14T16:07:30.428Z"
+    },
+    "schongau-messerattacke-schule-extremistisches-motiv-juli-2026": {
+      "canonicalTitle": "Nach Messerattacke an Schule in Schongau: Ermittler prüfen Hinweise auf extremistisches Motiv",
+      "slug": "schongau-messerattacke-schule-extremistisches-motiv-juli-2026",
+      "firstSeenAt": "2026-07-14T12:07:26.601Z",
+      "lastUpdatedAt": "2026-07-14T12:07:26.601Z",
+      "status": "published",
+      "articlePath": "src/content/articles/schongau-messerattacke-schule-extremistisches-motiv-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/schongau-messerattacke-schule-extremistisches-motiv-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436179",
+        "https://www.derstandard.at/story/3000000331454/hinweise-auf-extremistisches-motiv-nach-gewalt-an-schule-im-bayerischen-schu",
+        "https://kurier.at/chronik/welt/bayern-schongau-hinweise-extremistisches-motiv-gewalt-schule/403176069",
+        "https://www.rhein-zeitung.de/deutschland-welt/hinweise-auf-extremistisches-motiv-nach-angriff-in-schongau_arid-4140546.html",
+        "https://web.de/magazine/panorama/verbrechen-vermisste/messerattacke-schongau-brisante-hinweise-beschaeftigen-ermittler-42489512",
+        "https://www.tt.com/artikel/30937912/nach-angriff-in-schongau-ermittler-pruefen-bekennerschreiben-und-moeglichen-livestream",
+        "https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/muenchen/spezial_3.php"
+      ],
+      "openQuestions": [
+        "Welchen genauen Inhalt hat das mutmaßlich vom Verdächtigen stammende Schreiben?",
+        "Wurde tatsächlich ein Livestream der Tat vorbereitet, oder wird dies nur geprüft?",
+        "Welche konkrete extremistische Ausrichtung (etwa ideologisch, religiös motiviert oder anders) wird vermutet?",
+        "Wie ist der aktuelle Gesundheitszustand der beiden verletzten Mädchen?",
+        "Welche Konsequenzen zieht die Schule (Sicherheitsmaßnahmen, psychologische Betreuung) aus dem Vorfall?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T12:07:26.601Z",
+      "doNotUpdateBefore": "2026-07-14T18:07:26.601Z"
+    },
+    "persmanhof-bildungscamp-turnersee-2026": {
+      "canonicalTitle": "Antifaschistisches Bildungscamp 2026 nicht mehr am Peršmanhof, sondern am Turnersee",
+      "slug": "persmanhof-bildungscamp-turnersee-2026",
+      "firstSeenAt": "2026-07-14T12:07:26.601Z",
+      "lastUpdatedAt": "2026-07-14T12:07:26.601Z",
+      "status": "published",
+      "articlePath": "src/content/articles/persmanhof-bildungscamp-turnersee-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/persmanhof-bildungscamp-turnersee-2026.json",
+      "sourceUrls": [
+        "https://kaernten.orf.at/stories/3362641",
+        "https://www.derstandard.at/story/3000000331434/antifaschistisches-bildungscamp-heuer-nicht-am-per353manhof",
+        "https://kurier.at/chronik/kaernten/kaernten-persmanhof-polizei-antifaschistisches-bildungscamp/403176049",
+        "https://orf.at/stories/3409310/",
+        "https://www.profil.at/oesterreich/gerhard-karner-persmanhof-polizeieinsatz-antifa-camp/403132102",
+        "https://www.trend.at/news/kommission-persmanhof-einsatz-war-rechtswidrig"
+      ],
+      "openQuestions": [
+        "Wie begründen die Organisatoren selbst den Wechsel vom Peršmanhof zum Turnersee?",
+        "Wann und mit welchem Ergebnis werden die Ermittlungen der Staatsanwaltschaft Graz abgeschlossen?",
+        "Welche weiteren Details enthält der vollständige, rund 100-seitige Kommissionsbericht?",
+        "Wie haben die Volksgruppe der Kärntner Slowenen bzw. slowenische Stellen auf den Fall reagiert?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T12:07:26.601Z",
+      "doNotUpdateBefore": "2026-07-14T18:07:26.601Z"
+    },
+    "tigerangriff-doelzig-pfleger-gestorben-juli-2026": {
+      "canonicalTitle": "Pfleger stirbt zwei Monate nach Tigerangriff bei Leipzig – Ermittlungen wegen fahrlässiger Tötung",
+      "slug": "tigerangriff-doelzig-pfleger-gestorben-juli-2026",
+      "firstSeenAt": "2026-07-14T12:07:26.601Z",
+      "lastUpdatedAt": "2026-07-14T12:07:26.601Z",
+      "status": "published",
+      "articlePath": "src/content/articles/tigerangriff-doelzig-pfleger-gestorben-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/tigerangriff-doelzig-pfleger-gestorben-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331441/pfleger-zwei-monate-nach-tigerangriff-nahe-leipzig-gestorben",
+        "https://www.diepresse.com/37190017/pfleger-stirbt-zwei-monate-nach-tigerangriff",
+        "https://kurier.at/politik/ausland/leipzig-pfleger-tiger-angriff-gestorben/403176062",
+        "https://www.nordkurier.de/panorama/pfleger-stirbt-nach-tigerangriff-nahe-leipzig-ermittlungen-4717971",
+        "https://www.tagesanzeiger.ch/tigerangriff-nahe-leipzig-pfleger-stirbt-zwei-monate-spaeter-636080215757",
+        "https://www.diesachsen.de/umwelt/tiger-halterin-nach-ausbruch-habe-nichts-falsch-gemacht-3137071",
+        "https://www.rhein-zeitung.de/deutschland-welt/pfleger-stirbt-nach-tigerangriff-nahe-leipzig-ermittlungen_arid-4140532.html"
+      ],
+      "openQuestions": [
+        "Bestätigt eine Obduktion den unmittelbaren Kausalzusammenhang zwischen dem Tigerangriff und dem Tod des Mannes?",
+        "Wird gegen die Betreiberin der Anlage Anklage erhoben, und mit welchem Ergebnis?",
+        "Was geschieht mit der Anlage und den verbliebenen Tieren?",
+        "Welche konkreten behördlichen Versäumnisse gab es gegebenenfalls vor dem Ausbruch?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T12:07:26.601Z",
+      "doNotUpdateBefore": "2026-07-14T18:07:26.601Z"
     }
   }
 }
