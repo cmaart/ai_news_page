@@ -1,0 +1,158 @@
+{
+  "cluster": {
+    "id": "cluster-20260714-126f7976",
+    "title": "US-Regierung zahlt Milliarden an Zollgebühren zurück",
+    "items": [
+      {
+        "itemId": "884c8b7ecdcb9a9b9e7027e11bd8555ccbc9128756d7ac164ce39124990bd1b1",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "US-Regierung zahlt Milliarden an Zollgebühren zurück",
+        "url": "https://orf.at/stories/3436146",
+        "publishedAt": "2026-07-14T06:43:30.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "a10190eabe26067e8d88ff3f07069de6eeda8a8a42fa0c96357b542c32dba199",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "US-Regierung zahlt Milliarden an Zollgebühren an Unternehmen zurück",
+        "url": "https://www.derstandard.at/story/3000000331347/us-regierung-zahlt-milliarden-an-zollgeb252hren-an-unternehmen-zur252ck",
+        "summary": "Aufgrund eines Urteils des Supreme Court musste die US-Regierung im bisherigen Steuerjahr 81 Milliarden Dollar an Unternehmen zurückzahlen",
+        "publishedAt": "2026-07-14T07:02:51.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Zwei unabhängige österreichische Medien (ORF, Der Standard) berichten substantiell über ein US-Gerichtsurteil und dessen finanzielle Konsequenz (81 Mrd. Dollar Rückzahlungen). Konkrete, verifizierbare Fakten vorhanden (Zahlen, Zeitstempel, Urteilsbezug). Indirekte Relevanz für Österreich/EU über Handelspolitik. Der angegebene relatedSlug (Netzausbau) ist thematisch unrelated und wird ignoriert.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "US-Regierung zahlte im Steuerjahr 2025–2026 insgesamt 81 Milliarden Dollar an Zollgebührenrückzahlungen",
+      "Supreme Court entschied im Februar 2026, dass Trump bei Zollaufschlägen seine Zuständigkeiten überschritten hat",
+      "Rückzahlungen waren 16-fach höher als im Vorjahr (81 Mrd. vs. 5 Mrd. Dollar)",
+      "Schwerpunkt der Rückzahlungen lag in Mai und Juni 2026",
+      "US-Bundesrichterin kippte Trumps Steuerdeal mit der IRS und bezeichnete es als Hinterzimmerdeal"
+    ],
+    "missingSources": [
+      "Primäre Quelle: Offizielle Pressemitteilung des US-Finanzministeriums (nur via Medienberichterstattung)",
+      "Rechtliche Quellen: Auszug oder Linkung des Supreme-Court-Urteils vom Februar",
+      "Kontext: Stellungnahmen von EU/österreichischen Handelsverbänden zu Auswirkungen auf europäische Exporte"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "us-zollrueckzahlungen-supreme-court-juli-2026",
+    "title": "USA zahlen laut Medienberichten Milliarden Dollar an Zollgebühren zurück",
+    "description": "ORF und Der Standard berichten übereinstimmend, dass die US-Regierung im laufenden Steuerjahr Milliarden Dollar an Unternehmen zurückzahlt – Auslöser soll ein Supreme-Court-Urteil zu Trumps Zollaufschlägen sein. Eine Primärquelle liegt bislang nicht vor.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige österreichische Medien (ORF, Der Standard) berichten übereinstimmend über den Grundvorgang, was ihn nach der Rubrik als bestätigt gelten lässt – die genaue Rückzahlungssumme und der rechtliche Hintergrund stammen aber nur aus einer der beiden Quellen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt weder das Supreme-Court-Urteil noch eine Aussendung des US-Finanzministeriums vor, sondern ausschließlich Berichterstattung zweier Medien.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die vorliegenden Quellen schildern nur die finanzielle Konsequenz aus US-Sicht; eine Einordnung durch die US-Regierung, betroffene Unternehmen oder EU-Stellen fehlt.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "ORF und Der Standard berichten, dass die US-Regierung im laufenden Steuerjahr Milliarden Dollar an Zollgebühren an Unternehmen zurückgezahlt hat.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Standard beziffert die Rückzahlungen mit rund 81 Milliarden Dollar.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als Auslöser wird ein Urteil des Supreme Court genannt, wonach die Regierung bei Zollaufschlägen ihre Zuständigkeiten überschritten habe.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wann genau das Urteil erging und wie die betroffenen Zollaufschläge einzuordnen sind, geht aus den vorliegenden Kurzberichten nicht hervor.",
+        "kind": "open"
+      },
+      {
+        "text": "Reaktionen der US-Regierung, betroffener Unternehmen oder der EU liegen bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "An welchem genauen Datum erging das zugrundeliegende Supreme-Court-Urteil, und wie lautet seine Begründung im Detail?",
+      "Wie verhält sich die genannte Rückzahlungssumme zu vergleichbaren Zeiträumen der Vorjahre?",
+      "Gibt es eine offizielle Stellungnahme des US-Finanzministeriums, des Supreme Court oder der US-Regierung zu dem Vorgang?",
+      "Welche konkreten Zollaufschläge sind von dem Urteil betroffen, und welche Folgen hat das für laufende Zollpolitik, auch mit Blick auf EU-Exporteure?",
+      "Sind alle Medienberichte auf dieselbe Ausgangsquelle (etwa eine internationale Agenturmeldung) zurückzuführen, oder handelt es sich um unabhängige Recherchen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard – Wirtschaft",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331347/us-regierung-zahlt-milliarden-an-zollgeb252hren-an-unternehmen-zur252ck"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3436146"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die US-Regierung hat im laufenden Steuerjahr rund 81 Milliarden Dollar an Zollgebühren an Unternehmen zurückgezahlt.",
+        "status": "partial",
+        "note": "Die konkrete Summe von 81 Milliarden Dollar nennt nur Der Standard; ORF bestätigt in der Überschrift lediglich Rückzahlungen in Milliardenhöhe, ohne eine Zahl zu nennen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Grundlage der Rückzahlungen ist ein Urteil des Supreme Court, wonach die US-Regierung bei Zollaufschlägen ihre Zuständigkeiten überschritten hat.",
+        "status": "partial",
+        "note": "Der rechtliche Hintergrund wird nur in der Zusammenfassung von Der Standard genannt; eine Primärquelle zum Urteil liegt nicht vor, Datum und genauer Wortlaut der Entscheidung sind nicht bekannt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "ORF und Der Standard berichteten am 14. Juli 2026 unabhängig voneinander über den Vorgang.",
+        "status": "supported",
+        "note": "Beide Artikel sind mit unterschiedlichen Uhrzeiten am selben Tag erschienen und unterscheiden sich in Titel und Detailtiefe.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Berichten von ORF und Der Standard hat die US-Regierung im laufenden Steuerjahr Milliarden Dollar an Zollgebühren an Unternehmen zurückgezahlt. Der Standard nennt dazu eine konkrete Summe von rund 81 Milliarden Dollar. Als Auslöser wird ein Urteil des Supreme Court angeführt, dem zufolge die Regierung bei der Verhängung von Zollaufschlägen ihre Kompetenzen überschritten habe – betroffene Unternehmen erhalten demnach die zu Unrecht eingehobenen Zölle zurückerstattet."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die vorliegende Berichterstattung stützt sich auf zwei unabhängige österreichische Medien, die den Kernvorgang – erhebliche Zollrückzahlungen der US-Regierung an Unternehmen – übereinstimmend darstellen. Die genaue Höhe der Summe sowie der Verweis auf das Supreme-Court-Urteil stammen allerdings nur aus der Zusammenfassung von Der Standard, während ORF in der Überschrift lediglich allgemein von Rückzahlungen in Milliardenhöhe spricht. Eine Primärquelle – etwa eine Aussendung des US-Finanzministeriums, der Wortlaut des Urteils oder Reaktionen der US-Regierung – liegt für diesen Artikel nicht vor, wurde also nicht eingesehen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Aus den vorliegenden Kurzmeldungen geht nicht hervor, wann genau das Supreme-Court-Urteil erging, welche konkreten Zollaufschläge davon betroffen sind und wie sich die Rückzahlungssumme zu vergangenen Steuerjahren verhält. Ebenso fehlen Stellungnahmen der US-Regierung, betroffener Unternehmen oder internationaler Handelspartner wie der EU. Ohne Einsicht in die Gerichtsentscheidung oder offizielle Finanzdaten lässt sich weder die genaue Tragweite des Urteils noch dessen Auswirkung auf künftige US-Zollpolitik abschließend einordnen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Vorgang berührt die international vieldiskutierte Zollpolitik der laufenden US-Administration, die in der Vergangenheit wiederholt Aufschläge auf Importe verhängt hatte. Sollte sich die berichtete gerichtliche Beschränkung dieser Praxis bestätigen, könnte dies auch für europäische und österreichische Exportunternehmen mittelbar relevant sein – etwa mit Blick auf künftige Zollrisiken im US-Geschäft. Da hierzu jedoch weder eine Primärquelle noch Stellungnahmen von EU- oder österreichischen Handelsvertretungen vorliegen, bleibt diese Einordnung vorläufig und nicht abschließend verifiziert."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Berichten von ORF und Der Standard hat die US-Regierung im laufenden Steuerjahr Milliarden Dollar an Zollgebühren an Unternehmen zurückgezahlt. Der Standard beziffert die Summe mit rund 81 Milliarden Dollar und nennt als Auslöser ein Urteil des Supreme Court, wonach die Regierung bei Zollaufschlägen ihre Zuständigkeiten überschritten habe. ORF bestätigt in der Überschrift den grundsätzlichen Vorgang, nennt aber keine konkrete Summe oder rechtliche Begründung.\n\nEine Primärquelle wie das Urteil selbst oder eine Aussendung des US-Finanzministeriums liegt nicht vor. Offen bleiben daher das genaue Datum der Entscheidung, die betroffenen Zollaufschläge im Detail sowie ein Vergleich zu früheren Steuerjahren. Auch Reaktionen der US-Regierung, betroffener Unternehmen oder der EU sind aus den vorliegenden Kurzberichten nicht ersichtlich.\n\nFür europäische und österreichische Handelsakteure könnte der Vorgang mittelbar relevant sein, sollte sich die gerichtliche Beschränkung der US-Zollpolitik bestätigen. Eine abschließende Einordnung ist auf Basis der aktuellen Quellenlage jedoch nicht möglich.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-14T08:07:30.083Z"
+}

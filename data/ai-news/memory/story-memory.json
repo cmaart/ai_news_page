@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T06:26:08.351Z",
+  "updatedAt": "2026-07-14T08:21:29.578Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -783,7 +783,9 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
       "doNotUpdateBefore": "2026-07-13T12:07:23.920Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "apa": "2026-07-14T08:07:30.083Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-13T22:07:26.937Z"
@@ -1350,7 +1352,10 @@
         "orf": "2026-07-14T06:07:24.044Z",
         "derstandard": "2026-07-14T06:07:24.044Z",
         "diepresse": "2026-07-14T06:07:24.044Z"
-      }
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-14T08:07:30.083Z"
     },
     "klagenfurt-ermittlungen-mordversuch-juli-2026": {
       "canonicalTitle": "Klagenfurt: Ermittlungen wegen Mordversuchs an Vermieter-Mitarbeiterin",
@@ -1408,12 +1413,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T08:07:26.141Z",
       "doNotUpdateBefore": "2026-07-13T14:07:26.141Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-13T08:07:26.141Z"
-      },
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T08:07:26.141Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-14T08:07:30.083Z"
     },
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter nach Air-Force-One-Bericht vor Grand Jury vorgeladen",
@@ -2533,9 +2536,9 @@
         "diepresse": "2026-07-13T12:07:33.353Z",
         "kurier": "2026-07-14T06:07:24.044Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
+      "resonanceMeasuredAt": "2026-07-14T08:07:30.083Z"
     },
     "oesterreicher-toedlich-verunglueckt-motorradrennen-bruenn-juli-2026": {
       "canonicalTitle": "Österreichischer Motorradfahrer nach Kollision bei Rennen in Brünn gestorben",
@@ -2630,9 +2633,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T04:07:29.333Z",
       "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
-      "echoPublishers": {
-        "orf": "2026-07-13T07:07:24.730Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
@@ -2725,9 +2726,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
       "doNotUpdateBefore": "2026-07-13T12:07:23.920Z",
-      "echoPublishers": {
-        "kurier": "2026-07-13T07:07:24.730Z"
-      }
+      "echoPublishers": {}
     },
     "us-iran-eskalation-strasse-von-hormuz-juli-2026": {
       "canonicalTitle": "„Erhebliche Eskalation“: US-Militär greift erneut Ziele im Iran an",
@@ -3033,9 +3032,9 @@
         "derstandard": "2026-07-13T12:39:26.737Z",
         "profil": "2026-07-14T06:07:24.044Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
+      "resonanceMeasuredAt": "2026-07-14T08:07:30.083Z"
     },
     "fpoe-ultimatum-karner-papier-pilnacek-ausschuss-juli-2026": {
       "canonicalTitle": "FPÖ setzt Innenminister Karner Ultimatum wegen Vorbereitungspapier im Pilnacek-Ausschuss",
@@ -3952,7 +3951,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-15T04:07:24.946Z",
-      "doNotUpdateBefore": "2026-07-14T10:07:24.946Z"
+      "doNotUpdateBefore": "2026-07-14T10:07:24.946Z",
+      "echoPublishers": {
+        "apa": "2026-07-14T08:07:30.083Z"
+      }
     },
     "opernsommer-2026-tosca-st-margarethen-madama-butterfly-gars": {
       "canonicalTitle": "Puccini unter freiem Himmel: „Tosca“ eröffnet in St. Margarethen, „Madama Butterfly“ sorgt in Gars für Tenor-Drama",
@@ -4023,7 +4025,103 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T06:07:24.044Z",
-      "doNotUpdateBefore": "2026-07-14T12:07:24.044Z"
+      "doNotUpdateBefore": "2026-07-14T12:07:24.044Z",
+      "echoPublishers": {
+        "kurier": "2026-07-14T08:07:30.083Z"
+      }
+    },
+    "burgenland-zentrales-bettenmanagement-pflege-juli-2026": {
+      "canonicalTitle": "Burgenland führt zentrales Bettenmanagement für Pflegeplätze ein",
+      "slug": "burgenland-zentrales-bettenmanagement-pflege-juli-2026",
+      "firstSeenAt": "2026-07-14T08:07:30.083Z",
+      "lastUpdatedAt": "2026-07-14T08:07:30.083Z",
+      "status": "published",
+      "articlePath": "src/content/articles/burgenland-zentrales-bettenmanagement-pflege-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/burgenland-zentrales-bettenmanagement-pflege-juli-2026.json",
+      "sourceUrls": [
+        "https://burgenland.orf.at/stories/3362579",
+        "https://www.derstandard.at/story/3000000331351/pflege-burgenland-f252hrt-zentrales-bettenmanagement-ein",
+        "https://kurier.at/chronik/burgenland/pflege-burgenland-bettenmanagement-altersheim/403175957",
+        "https://burgenland.orf.at/stories/3358517/"
+      ],
+      "openQuestions": [
+        "Wann genau und über welche technische Plattform wird das zentrale Bettenmanagement umgesetzt?",
+        "Welche Kosten entstehen für Einrichtung und laufenden Betrieb, und wer trägt sie?",
+        "Wie reagieren private Pflegebetreiber im Burgenland auf die stärkere Rolle des Landes bei der Bettenvergabe?",
+        "Welche Position vertreten Pflegeverbände und Patienten- bzw. Angehörigenvertretungen zu dem neuen System?",
+        "Wie ist der aktuelle Stand des Ermittlungsverfahrens gegen die Betreiberin des Seniorenhauses Rudersdorf?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T08:07:30.083Z",
+      "doNotUpdateBefore": "2026-07-14T14:07:30.083Z"
+    },
+    "us-zollrueckzahlungen-supreme-court-juli-2026": {
+      "canonicalTitle": "USA zahlen laut Medienberichten Milliarden Dollar an Zollgebühren zurück",
+      "slug": "us-zollrueckzahlungen-supreme-court-juli-2026",
+      "firstSeenAt": "2026-07-14T08:07:30.083Z",
+      "lastUpdatedAt": "2026-07-14T08:07:30.083Z",
+      "status": "published",
+      "articlePath": "src/content/articles/us-zollrueckzahlungen-supreme-court-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/us-zollrueckzahlungen-supreme-court-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436146",
+        "https://www.derstandard.at/story/3000000331347/us-regierung-zahlt-milliarden-an-zollgeb252hren-an-unternehmen-zur252ck"
+      ],
+      "openQuestions": [
+        "An welchem genauen Datum erging das zugrundeliegende Supreme-Court-Urteil, und wie lautet seine Begründung im Detail?",
+        "Wie verhält sich die genannte Rückzahlungssumme zu vergleichbaren Zeiträumen der Vorjahre?",
+        "Gibt es eine offizielle Stellungnahme des US-Finanzministeriums, des Supreme Court oder der US-Regierung zu dem Vorgang?",
+        "Welche konkreten Zollaufschläge sind von dem Urteil betroffen, und welche Folgen hat das für laufende Zollpolitik, auch mit Blick auf EU-Exporteure?",
+        "Sind alle Medienberichte auf dieselbe Ausgangsquelle (etwa eine internationale Agenturmeldung) zurückzuführen, oder handelt es sich um unabhängige Recherchen?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-15T08:07:30.083Z",
+      "doNotUpdateBefore": "2026-07-14T14:07:30.083Z"
+    },
+    "ukraine-raffinerien-angriff-russland-juli-2026": {
+      "canonicalTitle": "Ukraine greift laut Berichten zwei russische Raffinerien an – Russland attackiert Kiew mit Raketen",
+      "slug": "ukraine-raffinerien-angriff-russland-juli-2026",
+      "firstSeenAt": "2026-07-14T08:07:30.083Z",
+      "lastUpdatedAt": "2026-07-14T08:07:30.083Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ukraine-raffinerien-angriff-russland-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/ukraine-raffinerien-angriff-russland-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/37091078/ukraine-greift-zwei-raffinerien-in-russland-an",
+        "https://kurier.at/politik/ausland/ukraine-russland-attacken-raffinerien/403175997",
+        "https://orf.at/stories/3435972",
+        "https://orf.at/stories/3436070"
+      ],
+      "openQuestions": [
+        "Wie schwer wurden die Raffinerien in Krasnodar und Baschkortostan tatsächlich beschädigt?",
+        "Gibt es eine offizielle russische Stellungnahme zu den Angriffen?",
+        "Welche technischen Daten hat die von Selenskyj angekündigte neue Flugabwehrrakete?",
+        "Wie belastbar ist der NGO-Vorwurf gezielter Angriffe auf medizinisches Personal, und welche Belege liegen dafür vor?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T08:07:30.083Z",
+      "doNotUpdateBefore": "2026-07-14T14:07:30.083Z"
+    },
+    "cluster-20260714-6d1e2cbe": {
+      "canonicalTitle": "K�nstliche Intelligenz: Claude 3 kann festgelegten Prinzipien folgen",
+      "slug": "cluster-20260714-6d1e2cbe",
+      "firstSeenAt": "2026-07-14T08:07:30.083Z",
+      "lastUpdatedAt": "2026-07-14T08:07:30.083Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.golem.de/news/kuenstliche-intelligenz-claude-3-kann-festgelegten-prinzipien-folgen-2607-210834.html",
+        "https://www.golem.de/news/kuenstliche-intelligenz-oekonomen-warnen-vor-drastischen-folgen-durch-kuenstliche-intelligenz-2607-210832.html",
+        "https://www.golem.de/news/kuenstliche-intelligenz-anthropic-spendiert-claude-code-einen-eingebauten-browser-2607-210775.html",
+        "https://the-decoder.de/claude-code-bekommt-integrierten-browser-direkt-in-der-desktop-app",
+        "https://www.heise.de/news/Claude-Code-auf-dem-Desktop-bekommt-einen-eingebauten-Browser-11362078.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://the-decoder.de/claude-fable-5-bleibt-doch-im-abo-anthropic-gibt-abo-nutzern-mehr-zeit"
+      ],
+      "openQuestions": [
+        "Anthropic-Originalstudie/Publikation zur Claude 3 Alignment-Studie",
+        "Identität und Konsortium der 200 Wissenschaftler; deren konkrete Forderungen",
+        "Offizielle Anthropic-Dokumentation oder Announcement zu Claude Code Browser"
+      ],
+      "sensitivity": "medium"
     }
   }
 }
