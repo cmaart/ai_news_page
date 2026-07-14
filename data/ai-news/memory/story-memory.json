@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T20:22:07.820Z",
+  "updatedAt": "2026-07-14T22:25:37.941Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -787,9 +787,9 @@
         "apa": "2026-07-14T08:07:30.083Z",
         "diepresse": "2026-07-14T18:07:25.047Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T18:07:25.047Z"
+      "resonanceMeasuredAt": "2026-07-14T22:07:26.045Z"
     },
     "widdecombe-mordermittlungen-festnahme-juli-2026": {
       "canonicalTitle": "Mordermittlungen nach Tod von Ann Widdecombe: 26-Jähriger festgenommen",
@@ -1360,7 +1360,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-14T08:07:30.083Z"
+      "resonanceMeasuredAt": "2026-07-14T22:07:26.045Z"
     },
     "klagenfurt-ermittlungen-mordversuch-juli-2026": {
       "canonicalTitle": "Klagenfurt: Ermittlungen wegen Mordversuchs an Vermieter-Mitarbeiterin",
@@ -1678,13 +1678,13 @@
       "resonanceMeasuredAt": "2026-07-13T16:07:28.921Z"
     },
     "usa-iran-luftangriffe-strasse-von-hormus-juli-2026": {
-      "canonicalTitle": "Iran-Krieg: Iran attackiert zwei Öltanker – ein Toter –, USA fliegen dritte Angriffsnacht, Trump will Straße von Hormus „übernehmen“",
+      "canonicalTitle": "Iran-Krieg: Trump zieht Hormus-Gebühr zurück, neue US-Angriffe auf Buschehr, Iran attackiert Öltanker – ein Toter",
       "slug": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
       "firstSeenAt": "2026-07-12T06:07:23.718Z",
-      "lastUpdatedAt": "2026-07-14T06:07:24.044Z",
+      "lastUpdatedAt": "2026-07-14T22:07:26.045Z",
       "status": "published",
       "articlePath": "src/content/articles/usa-iran-luftangriffe-strasse-von-hormus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-600.json",
+      "researchPath": "data/ai-news/research/2026-07-14/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
         "https://orf.at/stories/3435963",
@@ -1725,31 +1725,45 @@
         "https://www.cnn.com/2026/07/13/economy/trump-hormuz-fee",
         "https://www.theweek.in/news/middle-east/2026/07/14/uae-oil-tankers-hit-by-iranian-missiles-hormuz.html",
         "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
-        "https://edition.cnn.com/2026/07/13/world/live-news/iran-war-trump"
+        "https://edition.cnn.com/2026/07/13/world/live-news/iran-war-trump",
+        "https://www.kleinezeitung.at/artikel/37370549/trump-rueckt-von-hormuz-gebuehr-ab",
+        "https://www.kleinezeitung.at/artikel/37086128/us-armee-startet-neue-angriffe-auf-den-iran",
+        "https://www.diepresse.com/37121378/trump-droht-mit-grossem-fettem-angriff-auf-irans-atomanlage",
+        "https://www.berliner-zeitung.de/article/trump-kippt-hormus-gebuehr-golfstaaten-milliarden-10199122",
+        "https://www.bloomberg.com/news/articles/2026-07-14/trump-backs-off-20-fee-for-strait-of-hormuz-shipments",
+        "https://www.vol.at/trump-rueckt-von-hormuz-gebuehr-ab/10324295",
+        "https://www.sn.at/politik/weltpolitik/trump-rueckt-von-hormuz-gebuehr-ab-art-662175",
+        "https://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz",
+        "https://www.t-online.de/nachrichten/ausland/usa/id_101342602/iran-krieg-der-usa-trump-droht-mit-schlag-gegen-atomanlage-im-iran.html",
+        "https://finanzmarktwelt.de/trump-20-prozent-hormus-gebuehr-ersetzt-395014/"
       ],
       "openQuestions": [
         "Wird der Tod des indischen Besatzungsmitglieds sowie das Ausmaß der Verletzungen durch weitere, von der Reederei oder indischen Behörden unabhängig bestätigte Angaben untermauert?",
         "Wie reagieren die Vereinigten Arabischen Emirate konkret auf den Tanker-Angriff – welche „Reaktion“ behalten sie sich vor?",
-        "Setzt die US-Regierung Trumps Ankündigung, die Straße von Hormus zu „übernehmen“ und eine 20-Prozent-Gebühr zu erheben, tatsächlich rechtlich und praktisch um, und wie reagieren die namentlich genannten Golfstaaten (Saudi-Arabien, Katar, VAE, Kuwait, Bahrain) darauf?",
-        "Wie viele US-Angriffswellen hat es seit dem Wiederaufflammen der Kämpfe inzwischen tatsächlich gegeben, und wie ordnet sich die jüngste, dritte Nacht mit Seedrohnen-Einsatz im Vergleich zu vorherigen Wellen ein?",
+        "Welche Golfstaaten haben sich zu welchen Investitionssummen in den USA verpflichtet, und bestätigen deren Regierungen dies unabhängig von Trumps Angaben?",
+        "Bleibt die von den USA angekündigte Seeblockade gegen Schiffe mit Bezug zu iranischen Häfen trotz der zurückgezogenen Gebühr tatsächlich in Kraft, und wie wird sie konkret durchgesetzt?",
+        "Wurde die nukleare Anlage in Buschehr durch die Angriffe vom 14. Juli tatsächlich beschädigt, und gibt es dazu eine unabhängige Einschätzung der IAEA?",
+        "Wird der iranische Gesetzentwurf zur dauerhaften Kontrolle der Straße von Hormus vom Parlament verabschiedet, und welche praktischen Folgen hätte das?",
+        "Wie viele US-Angriffswellen hat es seit dem Wiederaufflammen der Kämpfe inzwischen tatsächlich gegeben, und wie ordnet sich die jüngste Welle mit Seedrohnen-Einsatz im Vergleich zu vorherigen ein?",
         "Wird der Tod des iranischen Marinesoldaten im Hafen Jask von unabhängigen, nicht-iranischen Stellen bestätigt?",
         "Gibt es weitere bestätigte Opferzahlen auf iranischer, US- oder verbündeter Seite, etwa in Bahrain, Kuwait, Jordanien, Oman oder Katar?",
-        "Wie stark ist der Schiffsverkehr durch die Straße von Hormus nach dem neuen Tanker-Angriff tatsächlich zurückgegangen – und wessen Darstellung (US-Angabe „Verkehr fließt“ vs. iranische Sperr-Ankündigung) ist zutreffender?",
-        "Was ist der aktuelle Zustand des zuvor angegriffenen, unter zyprischer Flagge fahrenden Containerschiffs und seines vermissten Besatzungsmitglieds – handelt es sich dabei um einen anderen Vorfall als den neuen Angriff auf die Tanker Mombasa und Al Bahiyah?",
-        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die fortgesetzte Eskalation, den neuen Todesfall und Trumps Hormus-Ankündigung?"
+        "Wie stark ist der Schiffsverkehr durch die Straße von Hormus nach dem neuen Tanker-Angriff tatsächlich zurückgegangen?",
+        "Was ist der aktuelle Zustand des zuvor angegriffenen, unter zyprischer Flagge fahrenden Containerschiffs und seines vermissten Besatzungsmitglieds?",
+        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die fortgesetzte Eskalation, die Angriffe nahe der Atomanlage Buschehr und Trumps wechselnde Hormus-Ankündigungen?",
+        "Plant Präsident Trump den angekündigten Angriff auf die unterirdische Anlage im Berg Kuh-e Kolang („Pickaxe Mountain“) tatsächlich, und was ergibt eine unabhängige IAEA-Prüfung der dortigen Bauarbeiten?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-15T06:07:24.044Z",
-      "doNotUpdateBefore": "2026-07-14T12:07:24.044Z",
+      "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
+      "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-14T04:07:24.946Z",
+        "kleinezeitung": "2026-07-14T22:07:26.045Z",
         "diepresse": "2026-07-14T14:07:34.240Z",
         "orf": "2026-07-14T20:07:26.223Z",
         "derstandard": "2026-07-14T06:07:24.044Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
+      "resonanceMeasuredAt": "2026-07-14T22:07:26.045Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -1769,13 +1783,13 @@
       "sensitivity": "medium"
     },
     "lindsey-graham-us-senator-gestorben-juli-2026": {
-      "canonicalTitle": "US-Senator Lindsey Graham gestorben: Schwester übernimmt Senatssitz",
+      "canonicalTitle": "US-Senator Lindsey Graham gestorben: Schwester als Nachfolgerin vereidigt",
       "slug": "lindsey-graham-us-senator-gestorben-juli-2026",
       "firstSeenAt": "2026-07-12T07:07:28.557Z",
-      "lastUpdatedAt": "2026-07-14T04:07:24.946Z",
+      "lastUpdatedAt": "2026-07-14T22:07:26.045Z",
       "status": "published",
       "articlePath": "src/content/articles/lindsey-graham-us-senator-gestorben-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/lindsey-graham-us-senator-gestorben-juli-2026-update-400.json",
+      "researchPath": "data/ai-news/research/2026-07-14/lindsey-graham-us-senator-gestorben-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://orf.at/stories/3435976",
         "https://www.diepresse.com/36752830/us-senator-lindsey-graham-gestorben",
@@ -1787,21 +1801,32 @@
         "https://kurier.at/politik/ausland/republikanischer-us-senator-lindsey-graham-71-jaehrig-gestorben/403175675",
         "https://orf.at/stories/3435979",
         "https://www.nbcnews.com/politics/2026-election/trump-lindsey-graham-sister-darline-mcmaster-appoint-senate-term-rcna587302",
-        "https://www.washingtonpost.com/politics/2026/07/13/trump-recommends-lindsey-grahams-sister-serve-rest-his-senate-term/"
+        "https://www.washingtonpost.com/politics/2026/07/13/trump-recommends-lindsey-grahams-sister-serve-rest-his-senate-term/",
+        "https://kurier.at/politik/ausland/darline-graham-nordone-lindsey-graham-senator-usa/403176148",
+        "https://www.derstandard.at/story/3000000331333/schwester-des-gestorbenen-us-senators-graham-252bernimmt-amt",
+        "https://www.derstandard.at/story/3000000331346/der-job-bleibt-in-der-familie-schwester-von-lindsey-graham-uebernimmt-dessen-amt",
+        "https://www.derstandard.at/story/3000000331427/lindsey-grahams-schwester-ist-ploetzlich-senatorin",
+        "https://www.kleinezeitung.at/artikel/37329479/schwester-uebernimmt-amt-von-trumps-lieblings-senator",
+        "https://thehill.com/homenews/5967990-darline-nordone-lindsey-graham-senator-oath/",
+        "https://www.washingtonpost.com/politics/2026/07/13/darline-graham-nordone-has-little-political-history-beyond-praising-her-brother/",
+        "https://www.forbes.com/sites/zacharyfolk/2026/07/12/lindsey-graham-died-from-cardiovascular-disease-preliminary-report-says/",
+        "https://www.foxcarolina.com/2026/07/12/medical-examiner-releases-preliminary-findings-into-sen-grahams-death/"
       ],
       "openQuestions": [
-        "Welche medizinische Ursache lag der von Grahams Büro genannten „plötzlichen Erkrankung“ zugrunde?",
+        "Welche endgültige Diagnose ergibt der finale Autopsie- und Toxikologiebericht zur vorläufig als Aortendissektion genannten Todesursache?",
         "Wird Darline Graham Nordone bei der Kongress-Zwischenwahl am 3. November 2026 selbst für den Sitz kandidieren, oder tritt sie nur als Übergangslösung auf?",
         "Welche Auswirkungen hat der Tod auf die Mehrheitsverhältnisse und laufende Ausschussarbeit im US-Senat, etwa im Haushaltsausschuss?",
-        "Wie verlief die offizielle Vereidigung Nordones, und liegt der Wortlaut der Ernennungserklärung von Gouverneur McMaster öffentlich vor?"
+        "Liegt der Wortlaut der offiziellen Ernennungserklärung von Gouverneur McMaster mittlerweile öffentlich vor?",
+        "Welche genauen Positionen und Zeiträume umfasst Nordones langjährige Laufbahn im Staatsdienst South Carolinas?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-15T04:07:24.946Z",
-      "doNotUpdateBefore": "2026-07-14T10:07:24.946Z",
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
+      "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
       "echoPublishers": {
         "orf": "2026-07-14T04:07:24.946Z",
         "derstandard": "2026-07-14T18:07:25.047Z",
-        "kleinezeitung": "2026-07-14T18:07:25.047Z"
+        "kleinezeitung": "2026-07-14T18:07:25.047Z",
+        "kurier": "2026-07-14T22:07:26.045Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
@@ -2998,13 +3023,13 @@
       "doNotUpdateBefore": "2026-07-13T16:01:08.091Z"
     },
     "neos-dengler-parteiausschluss-vertrauensbruch-juli-2026": {
-      "canonicalTitle": "NEOS: Meinl-Reisinger bedauert „Vertrauensbruch“ nach Ausschluss von Veit Dengler",
+      "canonicalTitle": "NEOS-Affäre Dengler: Meinl-Reisinger weist Vorwürfe zurück, FPÖ fordert ihren Rücktritt",
       "slug": "neos-dengler-parteiausschluss-vertrauensbruch-juli-2026",
       "firstSeenAt": "2026-07-13T10:01:08.091Z",
-      "lastUpdatedAt": "2026-07-13T10:01:08.091Z",
+      "lastUpdatedAt": "2026-07-14T22:07:26.045Z",
       "status": "published",
       "articlePath": "src/content/articles/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-14/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://orf.at/stories/3436057",
         "https://www.diepresse.com/36871425/autoritaere-fuehrung-meinl-reisinger-weist-vorwurf-zurueck-und-bedauert-denglers-vertrauensbruch",
@@ -3016,18 +3041,22 @@
         "https://www.diepresse.com/36769419/abgehobene-wiener-bubble-dengler-teilt-gegen-neos-und-meinl-reisinger-aus",
         "https://www.derstandard.at/story/3000000330989/nationalrat-neos-mandatar-fordert-zu-nein-zu-budgetkapitel-auf",
         "https://www.tt.com/artikel/30937936/einstimmig-neos-schliessen-ihren-mitbegruender-veit-dengler-aus-klub-und-partei-aus",
-        "https://www.oe24.at/a/neos-beben-nach-dengler-rauswurf-900099323"
+        "https://www.oe24.at/a/neos-beben-nach-dengler-rauswurf-900099323",
+        "https://www.diepresse.com/37274563/wie-autoritaer-fuehrt-beate-meinl-reisinger-die-neos",
+        "https://kurier.at/politik/inland/veit-dengler-neos-fpoe-kritik/403175708",
+        "https://www.derstandard.at/story/3000000331281/neos-chefin-meinl-reisinger-bedauert-vertrauensbruch-denglers",
+        "https://www.profil.at/podcasts/meinl-reisinger-gegen-die-frechen-maenner-was-bei-den-neos-los-ist/403175871",
+        "https://www.ots.at/presseaussendung/OTS_20260712_OTS0012/fpoe-schnedlitz-neos-schaffen-freie-meinungsaeusserung-innerhalb-der-partei-ab"
       ],
       "openQuestions": [
-        "Was genau in der vertraulichen Klubsitzung besprochen wurde, ist öffentlich nicht dokumentiert.",
         "Wie andere NEOS-Abgeordnete den Ausschluss und Meinl-Reisingers Führungsstil beurteilen, ist bislang kaum bekannt.",
-        "Ob Denglers Andeutung eines „eigentlichen“ Grundes hinter dem offiziellen Ausschlussanlass zutrifft, bleibt unbelegt.",
-        "Eine ausführliche, direkt eingesehene Stellungnahme Denglers liegt nicht vor.",
-        "Welche Auswirkungen der Streit auf den parlamentarischen Alltag und die Geschlossenheit der NEOS hat, lässt sich derzeit nicht abschließend einschätzen."
+        "Ob Meinl-Reisingers Stellungnahme den innerparteilichen Konflikt beruhigt oder Dengler zu einer weiteren Replik veranlasst, ist offen.",
+        "Wie sich die FPÖ-Rücktrittsforderung politisch auswirkt – etwa auf das Verhältnis der NEOS zu den Koalitionspartnern – lässt sich derzeit nicht abschätzen.",
+        "Welche Auswirkungen der öffentlich ausgetragene Streit auf den parlamentarischen Alltag und die Geschlossenheit der NEOS hat, lässt sich nicht abschließend einschätzen."
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-14T10:01:08.091Z",
-      "doNotUpdateBefore": "2026-07-13T16:01:08.091Z",
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
+      "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
       "echoPublishers": {
         "profil": "2026-07-14T06:07:24.044Z",
         "diepresse": "2026-07-14T18:07:25.047Z"
