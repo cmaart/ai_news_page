@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T08:21:29.578Z",
+  "updatedAt": "2026-07-14T10:24:26.997Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -717,9 +717,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-15T02:07:31.268Z",
       "doNotUpdateBefore": "2026-07-14T08:07:31.268Z",
-      "echoPublishers": {
-        "apa": "2026-07-13T10:01:08.091Z"
-      }
+      "echoPublishers": {}
     },
     "ooe-landtag-jahresbilanz-2025-2026": {
       "canonicalTitle": "Oö. Landtag zieht Bilanz: Großteil der Beschlüsse einstimmig gefasst",
@@ -1145,7 +1143,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T11:07:23.956Z",
       "doNotUpdateBefore": "2026-07-11T17:07:23.956Z",
-      "echoPublishers": {}
+      "echoPublishers": {
+        "orf": "2026-07-14T10:07:30.428Z"
+      }
     },
     "cluster-20260711-ea9f02e5": {
       "canonicalTitle": "„Explosionsartiger Stuhlgang“: Parasit befällt Hunderte in den USA",
@@ -1555,9 +1555,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T08:07:26.141Z",
       "doNotUpdateBefore": "2026-07-13T14:07:26.141Z",
-      "echoPublishers": {
-        "kurier": "2026-07-13T09:07:27.406Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-13T09:07:27.406Z"
@@ -1794,7 +1792,7 @@
       "doNotUpdateBefore": "2026-07-14T10:07:24.946Z",
       "echoPublishers": {
         "orf": "2026-07-14T04:07:24.946Z",
-        "derstandard": "2026-07-14T06:07:24.044Z"
+        "derstandard": "2026-07-14T10:07:30.428Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
@@ -2492,13 +2490,13 @@
       "resonanceMeasuredAt": "2026-07-13T10:01:08.091Z"
     },
     "bangkok-bar-brand-tote-juli-2026": {
-      "canonicalTitle": "Brand in Bangkok-Bar: Kurzschluss in Klimaanlage und blockierte Notausgänge als mögliche Ursachen, Polizei ermittelt wegen Fahrlässigkeit",
+      "canonicalTitle": "Brand in Bangkok-Bar: Zahl der Toten laut Medienberichten auf bis zu 32 gestiegen, Ermittler finden weitere Sicherheitsmängel",
       "slug": "bangkok-bar-brand-tote-juli-2026",
       "firstSeenAt": "2026-07-12T21:07:27.634Z",
-      "lastUpdatedAt": "2026-07-13T12:39:26.737Z",
+      "lastUpdatedAt": "2026-07-14T10:07:30.428Z",
       "status": "published",
       "articlePath": "src/content/articles/bangkok-bar-brand-tote-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/bangkok-bar-brand-tote-juli-2026-update-1200.json",
+      "researchPath": "data/ai-news/research/2026-07-14/bangkok-bar-brand-tote-juli-2026-update-1000.json",
       "sourceUrls": [
         "https://orf.at/stories/3436030",
         "https://kurier.at/chronik/welt/bangkok-feuer-brand-bar-na-ladprao-tote/403175725",
@@ -2518,27 +2516,34 @@
         "https://www.diepresse.com/36958180/27-tote-und-viele-verletzte-bei-feuer-in-pub-in-bangkok",
         "https://www.cbc.ca/news/world/thailand-bangkok-club-fire-9.7267808",
         "https://www.khaosodenglish.com/featured/2026/07/13/bangkok-pub-fire-kills-27-as-obstructed-exits-come-under-scrutiny/",
-        "https://www.bangkokpost.com/thailand/general/3285332/pub-fire-investigators-focus-on-poorly-maintained-exits"
+        "https://www.bangkokpost.com/thailand/general/3285332/pub-fire-investigators-focus-on-poorly-maintained-exits",
+        "https://kurier.at/chronik/welt/maengel-feuer-bangkok-bar-pub-thailand/403175940",
+        "https://orf.at/stories/3436135/",
+        "https://www.tagesanzeiger.ch/brand-in-bangkok-32-tote-nach-feuer-in-pub-689597731173",
+        "https://www.srf.ch/news/international/brandkatastrophe-in-bangkok-schwere-sicherheitsmaengel-in-lokal-zahl-der-todesopfer-steigt",
+        "https://www.irishtimes.com/world/asia-pacific/2026/07/14/bangkok-bar-fire-death-toll-reaches-30-negligence-investigated-as-primary-theory/"
       ],
       "openQuestions": [
-        "Wird die inzwischen von den meisten Medien – nun auch dem Kurier – genannte Zahl von 27 Toten offiziell von thailändischen Behörden bestätigt?",
-        "Wie viele Menschen wurden tatsächlich verletzt, und wie viele davon schwer bzw. kritisch (Angaben schwanken zwischen 63 und 73 Verletzten, 18 bis 25 Schwerverletzten)?",
+        "Wird eine einheitliche, offiziell von thailändischen Behörden bestätigte Zahl der Toten vorgelegt – Angaben schwanken derzeit zwischen 27 und 32?",
+        "Wie viele Menschen wurden tatsächlich verletzt, und wie viele davon schwer bzw. kritisch (Angaben schwanken zwischen rund 63 und über 70 Verletzten)?",
         "Bestätigt die noch ausstehende forensische Untersuchung den Kurzschluss in der Deckenklimaanlage als tatsächliche Brandursache?",
+        "Trifft der Verdacht zu, dass eine Ausgangstür aus Angst vor Zechprellerei verriegelt wurde, und wird dies dem Betreiber zur Last gelegt?",
         "Werden gegen den Lokalbetreiber oder andere Verantwortliche strafrechtliche Schritte wegen Fahrlässigkeit eingeleitet?",
-        "Wie ist zu erklären, dass die Aprilkontrolle funktionierende Notausgänge bestätigte, diese aber zum Zeitpunkt des Brands blockiert waren?",
+        "Wie ist zu erklären, dass die Aprilkontrolle funktionierende Notausgänge bestätigte, diese aber zum Zeitpunkt des Brands blockiert bzw. verriegelt waren?",
+        "Wurden im Bereich der Bühne tatsächlich unerlaubte bauliche Umbauten vorgenommen, wie von Ermittlern geprüft wird?",
         "Gibt es unter den Opfern oder Verletzten ausländische Staatsangehörige, etwa aus Österreich oder der EU?",
         "Wird die Abgabe von DNA-Proben durch Angehörige von weiteren Quellen bestätigt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T12:39:26.737Z",
-      "doNotUpdateBefore": "2026-07-13T18:39:26.737Z",
+      "doNotRedraftBefore": "2026-07-15T10:07:30.428Z",
+      "doNotUpdateBefore": "2026-07-14T16:07:30.428Z",
       "echoPublishers": {
         "diepresse": "2026-07-13T12:07:33.353Z",
         "kurier": "2026-07-14T06:07:24.044Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T08:07:30.083Z"
+      "resonanceMeasuredAt": "2026-07-14T10:07:30.428Z"
     },
     "oesterreicher-toedlich-verunglueckt-motorradrennen-bruenn-juli-2026": {
       "canonicalTitle": "Österreichischer Motorradfahrer nach Kollision bei Rennen in Brünn gestorben",
@@ -3032,9 +3037,9 @@
         "derstandard": "2026-07-13T12:39:26.737Z",
         "profil": "2026-07-14T06:07:24.044Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T08:07:30.083Z"
+      "resonanceMeasuredAt": "2026-07-14T10:07:30.428Z"
     },
     "fpoe-ultimatum-karner-papier-pilnacek-ausschuss-juli-2026": {
       "canonicalTitle": "FPÖ setzt Innenminister Karner Ultimatum wegen Vorbereitungspapier im Pilnacek-Ausschuss",
@@ -3552,7 +3557,13 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T06:07:24.044Z",
-      "doNotUpdateBefore": "2026-07-14T12:07:24.044Z"
+      "doNotUpdateBefore": "2026-07-14T12:07:24.044Z",
+      "echoPublishers": {
+        "orf": "2026-07-14T10:07:30.428Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-14T10:07:30.428Z"
     },
     "eu-foerderstopp-biennale-venedig-russland-juli-2026": {
       "canonicalTitle": "EU stoppt Millionen-Förderung für Biennale Venedig wegen russischer Teilnahme",
@@ -3922,13 +3933,13 @@
       "doNotUpdateBefore": "2026-07-14T08:07:31.268Z"
     },
     "addiko-bank-uebernahmekampf-rbi-nlb-juli-2026": {
-      "canonicalTitle": "Bieterkampf um Addiko Bank: NLB bietet 40 Prozent mehr als RBI und senkt Annahmehürde",
+      "canonicalTitle": "Bieterkampf um Addiko Bank: RBI hält bei rund 51 Prozent, NLB beantragt Fristverlängerung",
       "slug": "addiko-bank-uebernahmekampf-rbi-nlb-juli-2026",
       "firstSeenAt": "2026-07-14T04:07:24.946Z",
-      "lastUpdatedAt": "2026-07-14T04:07:24.946Z",
+      "lastUpdatedAt": "2026-07-14T10:07:30.428Z",
       "status": "published",
       "articlePath": "src/content/articles/addiko-bank-uebernahmekampf-rbi-nlb-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/addiko-bank-uebernahmekampf-rbi-nlb-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-14/addiko-bank-uebernahmekampf-rbi-nlb-juli-2026-update-1000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331218/uebernahmekampf-um-wiener-addiko-bank-wie-eine-slowenische-bank-die-rbi-noch-ausstechen-will",
         "https://www.ots.at/presseaussendung/EQS_20260709_EQS0013/eqs-adhoc-raiffeisen-bank-international-ag-rbi-lowers-the-minimum-acceptance-threshold-to-more-than-55-in-the-voluntary-public-tender-offer-for-all-addiko-shares",
@@ -3941,20 +3952,32 @@
         "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-nlb-erhoeht-im-bieterkampf-um-addiko-bank-ihr-angebot-auf-37-euro/100233632.html",
         "https://www.trend.at/news/nlb-senkt-schwelle-fur-addiko-ubernahmeangebot-auf-uber",
         "https://www.trend.at/news/addiko-rbi-senkt-mindestannahmequote-auf-uber-55-prozent",
-        "https://en.wikipedia.org/wiki/Addiko_Bank"
+        "https://en.wikipedia.org/wiki/Addiko_Bank",
+        "https://www.ots.at/presseaussendung/EQS_20260714_EQS0004/eqs-adhoc-semperit-ag-holding-operating-earnings-in-q2-2026-significantly-above-the-prior-year-figure-full-year-earnings-forecast-raised",
+        "https://www.ots.at/presseaussendung/EQS_20260714_EQS0003/eqs-adhoc-semperit-ag-holding-operatives-ergebnis-im-q2-2026-deutlich-ueber-vorjahreswert-ergebnisprognose-fuer-gesamtjahr-erhoeht",
+        "https://www.theverge.com/tech/964972/google-pixel-11-colors-rumor",
+        "https://www.ots.at/presseaussendung/EQS_20260714_EQS0002/eqs-news-rbi-on-the-interim-status-of-acceptances-of-the-voluntary-public-tender-offer-for-all-addiko-shares-as-of-13-july-2026",
+        "https://www.ots.at/presseaussendung/EQS_20260714_EQS0001/eqs-news-rbi-zum-zwischenstand-der-annahme-des-freiwilligen-oeffentlichen-uebernahmeangebots-fuer-saemtliche-addiko-aktien-zum-13-juli-2026",
+        "https://boerse-social.com/2026/07/14/rbiaddiko_-_nach_wie_vor_keine_rucktrittserklarungen",
+        "https://www.nachrichten.at/wirtschaft/bieterkampf-um-addiko-slowenische-nlb-zieht-nach;art15,4191468"
       ],
       "openQuestions": [
         "Wer gewinnt den Bieterkampf um Addiko – RBI oder NLB?",
-        "Wie positionieren sich große Addiko-Aktionäre zu den beiden Angeboten?",
-        "Gibt es eine direkte, offizielle Stellungnahme der NLB zu ihrer Angebotsstrategie?",
-        "Welche Rolle spielt die österreichische Übernahmekommission im weiteren Verfahren?"
+        "Genehmigt die Übernahmekommission die von NLB beantragte Verlängerung ihrer Annahmefrist?",
+        "Wie positionieren sich große Addiko-Aktionäre – etwa die Alta Group d.o.o. – abschließend zu den beiden Angeboten?",
+        "Gibt es eine direkte, offizielle Stellungnahme der NLB zu ihrer Angebotsstrategie und zur Fristverlängerung?",
+        "Was genau enthält die Stellungnahme des Addiko-Vorstands, die Berichten zufolge zum NLB-Angebot veröffentlicht wurde?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-15T04:07:24.946Z",
-      "doNotUpdateBefore": "2026-07-14T10:07:24.946Z",
+      "doNotRedraftBefore": "2026-07-15T10:07:30.428Z",
+      "doNotUpdateBefore": "2026-07-14T16:07:30.428Z",
       "echoPublishers": {
-        "apa": "2026-07-14T08:07:30.083Z"
-      }
+        "apa": "2026-07-14T10:07:30.428Z",
+        "golem": "2026-07-14T10:07:30.428Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-14T10:07:30.428Z"
     },
     "opernsommer-2026-tosca-st-margarethen-madama-butterfly-gars": {
       "canonicalTitle": "Puccini unter freiem Himmel: „Tosca“ eröffnet in St. Margarethen, „Madama Butterfly“ sorgt in Gars für Tenor-Drama",
@@ -4100,7 +4123,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T08:07:30.083Z",
-      "doNotUpdateBefore": "2026-07-14T14:07:30.083Z"
+      "doNotUpdateBefore": "2026-07-14T14:07:30.083Z",
+      "echoPublishers": {
+        "kurier": "2026-07-14T10:07:30.428Z"
+      }
     },
     "cluster-20260714-6d1e2cbe": {
       "canonicalTitle": "K�nstliche Intelligenz: Claude 3 kann festgelegten Prinzipien folgen",
@@ -4122,6 +4148,32 @@
         "Offizielle Anthropic-Dokumentation oder Announcement zu Claude Code Browser"
       ],
       "sensitivity": "medium"
+    },
+    "hipp-erpressung-u-haft-verlaengert-juli-2026": {
+      "canonicalTitle": "Hipp-Erpressungsfall: U-Haft für Verdächtigen bis 14. September verlängert",
+      "slug": "hipp-erpressung-u-haft-verlaengert-juli-2026",
+      "firstSeenAt": "2026-07-14T10:07:30.428Z",
+      "lastUpdatedAt": "2026-07-14T10:07:30.428Z",
+      "status": "published",
+      "articlePath": "src/content/articles/hipp-erpressung-u-haft-verlaengert-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/hipp-erpressung-u-haft-verlaengert-juli-2026.json",
+      "sourceUrls": [
+        "https://burgenland.orf.at/stories/3362600",
+        "https://www.derstandard.at/story/3000000331388/hipp-r252ckruf-u-haft-f252r-verd228chtigen-bis-14-september-verl228ngert",
+        "https://www.diepresse.com/24852471/nach-hipp-rueckruf-u-haft-fuer-verdaechtigen-bis-14-september-verlaengert",
+        "https://kurier.at/chronik/burgenland/hipp-erpressung-gift-u-haft-verdaechtiger/403176009",
+        "https://www.sn.at/panorama/oesterreich/hipp-rueckruf-u-haft-fuer-verdaechtigen-verlaengert-art-656787",
+        "https://www.tt.com/artikel/30934277/rattengift-erpressung-bei-hipp-verdaechtiger-bleibt-in-u-haft"
+      ],
+      "openQuestions": [
+        "Wo befindet sich das zweite, in einer Spar-Filiale verkaufte präparierte Glas?",
+        "Was zeigt das laut einem Bericht noch ausständige Gutachten zum sichergestellten Rattengift im Detail?",
+        "Wie begründete der Verteidiger seinen Enthaftungsantrag konkret?",
+        "Welche Beweise stützen aus Sicht des Gerichts genau die angenommene Flucht- und Tatbegehungsgefahr?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T10:07:30.428Z",
+      "doNotUpdateBefore": "2026-07-14T16:07:30.428Z"
     }
   }
 }
