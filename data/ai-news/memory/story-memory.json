@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T04:19:33.431Z",
+  "updatedAt": "2026-07-14T06:26:08.351Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -783,9 +783,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
       "doNotUpdateBefore": "2026-07-13T12:07:23.920Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-13T06:07:23.920Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-13T22:07:26.937Z"
@@ -1000,7 +998,14 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T08:07:22.735Z",
-      "doNotUpdateBefore": "2026-07-11T14:07:22.735Z"
+      "doNotUpdateBefore": "2026-07-11T14:07:22.735Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-14T06:07:24.044Z",
+        "diepresse": "2026-07-14T06:07:24.044Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
     },
     "japan-jaxa-test-wiederverwendbare-rakete-juli-2026": {
       "canonicalTitle": "Japan meldet Test einer wiederverwendbaren Rakete – erste Details nun breiter bestätigt",
@@ -1031,7 +1036,6 @@
       "doNotRedraftBefore": "2026-07-14T05:07:25.520Z",
       "doNotUpdateBefore": "2026-07-13T11:07:25.520Z",
       "echoPublishers": {
-        "heise": "2026-07-13T05:07:25.520Z",
         "golem": "2026-07-13T12:39:26.737Z"
       },
       "resonanceLevel": 1,
@@ -1341,7 +1345,12 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T14:07:32.545Z",
-      "doNotUpdateBefore": "2026-07-11T20:07:32.545Z"
+      "doNotUpdateBefore": "2026-07-11T20:07:32.545Z",
+      "echoPublishers": {
+        "orf": "2026-07-14T06:07:24.044Z",
+        "derstandard": "2026-07-14T06:07:24.044Z",
+        "diepresse": "2026-07-14T06:07:24.044Z"
+      }
     },
     "klagenfurt-ermittlungen-mordversuch-juli-2026": {
       "canonicalTitle": "Klagenfurt: Ermittlungen wegen Mordversuchs an Vermieter-Mitarbeiterin",
@@ -1660,13 +1669,13 @@
       "resonanceMeasuredAt": "2026-07-13T16:07:28.921Z"
     },
     "usa-iran-luftangriffe-strasse-von-hormus-juli-2026": {
-      "canonicalTitle": "Iran-Krieg: US-Militär erklärt weitere Angriffswelle für beendet, meldet dann neue Attacken – iranischer Marinesoldat getötet",
+      "canonicalTitle": "Iran-Krieg: Iran attackiert zwei Öltanker – ein Toter –, USA fliegen dritte Angriffsnacht, Trump will Straße von Hormus „übernehmen“",
       "slug": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
       "firstSeenAt": "2026-07-12T06:07:23.718Z",
-      "lastUpdatedAt": "2026-07-13T22:07:26.937Z",
+      "lastUpdatedAt": "2026-07-14T06:07:24.044Z",
       "status": "published",
       "articlePath": "src/content/articles/usa-iran-luftangriffe-strasse-von-hormus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-2200.json",
+      "researchPath": "data/ai-news/research/2026-07-14/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
         "https://orf.at/stories/3435963",
@@ -1695,30 +1704,43 @@
         "https://www.tt.com/artikel/30938058/iran-krieg-eskaliert-erneut-iranischer-soldat-getoetet",
         "https://www.handelsblatt.com/politik/international/iran-krieg-angriffswelle-gegen-iran-laut-us-militaer-abgeschlossen/100136895.html",
         "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101339960/strasse-von-hormus-zu-iran-meldet-us-angriffe-und-widerspricht-trump.html",
-        "https://www.aljazeera.com/news/2026/7/13/us-and-iran-trade-strikes-as-ceasefire-comes-under-growing-strain"
+        "https://www.aljazeera.com/news/2026/7/13/us-and-iran-trade-strikes-as-ceasefire-comes-under-growing-strain",
+        "https://www.derstandard.at/story/3000000331328/neue-us-angriffe-iran-attackiert-zwei-214ltanker",
+        "https://www.diepresse.com/37087046/ein-herbst-der-radikalisierung-iran-attackiert-oeltanker-in-strasse-von-hormuz",
+        "https://www.diepresse.com/37087156/neue-us-angriffe-iran-attackiert-zwei-oeltanker",
+        "https://www.diepresse.com/36800414/nun-will-trump-die-kontrolle-ueber-die-strasse-von-hormuz-und-geld-dafuer",
+        "https://www.kleinezeitung.at/artikel/37039993/trump-will-strasse-von-hormuz-uebernehmen-und-geld-fuer-deren-schutz",
+        "https://www.diepresse.com/36803828/so-viel-hat-russland-am-iran-krieg-verdient-und-so-viel-verliert-es-nun-durch-ukrainische-drohnen",
+        "https://www.diepresse.com/36844688/deutschland-steuert-auf-einen-herbst-der-radikalisierung-zu",
+        "https://www.cbsnews.com/news/trump-iran-war-us-guardian-strait-of-hormuz-get-paid/",
+        "https://www.cnn.com/2026/07/13/economy/trump-hormuz-fee",
+        "https://www.theweek.in/news/middle-east/2026/07/14/uae-oil-tankers-hit-by-iranian-missiles-hormuz.html",
+        "https://www.militarytimes.com/news/your-military/2026/07/13/sea-drones-strike-iranian-port-in-combat-first-for-us-navy/",
+        "https://edition.cnn.com/2026/07/13/world/live-news/iran-war-trump"
       ],
       "openQuestions": [
-        "Wie viele US-Angriffswellen hat es seit dem Wiederaufflammen der Kämpfe in der Nacht auf Mittwoch inzwischen tatsächlich gegeben, und wie ordnet sich die als „abgeschlossen“ gemeldete Welle im Vergleich zu den danach gemeldeten neuen Angriffen ein?",
+        "Wird der Tod des indischen Besatzungsmitglieds sowie das Ausmaß der Verletzungen durch weitere, von der Reederei oder indischen Behörden unabhängig bestätigte Angaben untermauert?",
+        "Wie reagieren die Vereinigten Arabischen Emirate konkret auf den Tanker-Angriff – welche „Reaktion“ behalten sie sich vor?",
+        "Setzt die US-Regierung Trumps Ankündigung, die Straße von Hormus zu „übernehmen“ und eine 20-Prozent-Gebühr zu erheben, tatsächlich rechtlich und praktisch um, und wie reagieren die namentlich genannten Golfstaaten (Saudi-Arabien, Katar, VAE, Kuwait, Bahrain) darauf?",
+        "Wie viele US-Angriffswellen hat es seit dem Wiederaufflammen der Kämpfe inzwischen tatsächlich gegeben, und wie ordnet sich die jüngste, dritte Nacht mit Seedrohnen-Einsatz im Vergleich zu vorherigen Wellen ein?",
         "Wird der Tod des iranischen Marinesoldaten im Hafen Jask von unabhängigen, nicht-iranischen Stellen bestätigt?",
-        "Gibt es weitere bestätigte Opferzahlen auf iranischer, US- oder verbündeter Seite, etwa in Bahrain, Kuwait, Jordanien oder – laut einzelnen internationalen Berichten – auch in Oman und Katar?",
-        "Trifft es zu, dass iranische Gegenschläge auch Ziele in Oman und Katar erfasst haben, wie einzelne internationale Berichte nahelegen, oder beschränkten sie sich wie in früheren Berichten auf Bahrain, Kuwait und Jordanien?",
-        "Wie stark ist der Schiffsverkehr durch die Straße von Hormus tatsächlich zurückgegangen – und wessen Darstellung (US-Angabe „Verkehr fließt“ vs. iranische Sperr-Ankündigung) ist zutreffender?",
-        "Was ist der aktuelle Zustand des zuvor angegriffenen Containerschiffs und seines vermissten Besatzungsmitglieds?",
-        "Setzt Trump seine Drohung gegen die Tunnelanlage im Kuh-e-Kolang-Gebirge tatsächlich um, und mit welchen Folgen?",
-        "Wird der omanische Vermittlungsvorschlag zur Aufteilung der Route von beiden Seiten angenommen, und finden die abgebrochenen Gespräche in Maskat eine Fortsetzung?",
-        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die fortgesetzte Eskalation und Guterres' Warnung?"
+        "Gibt es weitere bestätigte Opferzahlen auf iranischer, US- oder verbündeter Seite, etwa in Bahrain, Kuwait, Jordanien, Oman oder Katar?",
+        "Wie stark ist der Schiffsverkehr durch die Straße von Hormus nach dem neuen Tanker-Angriff tatsächlich zurückgegangen – und wessen Darstellung (US-Angabe „Verkehr fließt“ vs. iranische Sperr-Ankündigung) ist zutreffender?",
+        "Was ist der aktuelle Zustand des zuvor angegriffenen, unter zyprischer Flagge fahrenden Containerschiffs und seines vermissten Besatzungsmitglieds – handelt es sich dabei um einen anderen Vorfall als den neuen Angriff auf die Tanker Mombasa und Al Bahiyah?",
+        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die fortgesetzte Eskalation, den neuen Todesfall und Trumps Hormus-Ankündigung?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T22:07:26.937Z",
-      "doNotUpdateBefore": "2026-07-14T04:07:26.937Z",
+      "doNotRedraftBefore": "2026-07-15T06:07:24.044Z",
+      "doNotUpdateBefore": "2026-07-14T12:07:24.044Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-14T04:07:24.946Z",
-        "diepresse": "2026-07-13T14:07:29.118Z",
-        "orf": "2026-07-13T22:07:26.937Z"
+        "diepresse": "2026-07-14T06:07:24.044Z",
+        "orf": "2026-07-13T22:07:26.937Z",
+        "derstandard": "2026-07-14T06:07:24.044Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T10:50:31.638Z"
+      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -1768,11 +1790,12 @@
       "doNotRedraftBefore": "2026-07-15T04:07:24.946Z",
       "doNotUpdateBefore": "2026-07-14T10:07:24.946Z",
       "echoPublishers": {
-        "orf": "2026-07-14T04:07:24.946Z"
+        "orf": "2026-07-14T04:07:24.946Z",
+        "derstandard": "2026-07-14T06:07:24.044Z"
       },
-      "resonanceLevel": 1,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-12T10:07:25.258Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
     },
     "nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026": {
       "canonicalTitle": "SPÖ-Auswertung: 179 Gesetzesbeschlüsse seit Regierungsantritt, breite Oppositionszustimmung reklamiert",
@@ -2507,14 +2530,12 @@
       "doNotRedraftBefore": "2026-07-14T12:39:26.737Z",
       "doNotUpdateBefore": "2026-07-13T18:39:26.737Z",
       "echoPublishers": {
-        "derstandard": "2026-07-13T04:07:29.333Z",
         "diepresse": "2026-07-13T12:07:33.353Z",
-        "kleinezeitung": "2026-07-13T05:07:25.520Z",
-        "kurier": "2026-07-13T14:07:29.118Z"
+        "kurier": "2026-07-14T06:07:24.044Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T14:51:23.955Z"
+      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
     },
     "oesterreicher-toedlich-verunglueckt-motorradrennen-bruenn-juli-2026": {
       "canonicalTitle": "Österreichischer Motorradfahrer nach Kollision bei Rennen in Brünn gestorben",
@@ -2586,9 +2607,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T04:07:29.333Z",
       "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-13T05:07:25.520Z"
-      }
+      "echoPublishers": {}
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -2612,13 +2631,11 @@
       "doNotRedraftBefore": "2026-07-14T04:07:29.333Z",
       "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
       "echoPublishers": {
-        "derstandard": "2026-07-13T05:07:25.520Z",
-        "kurier": "2026-07-13T06:07:23.920Z",
         "orf": "2026-07-13T07:07:24.730Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-13T20:07:31.882Z"
+      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
     },
     "florentina-holzinger-bodensee-performance-juli-2026": {
       "canonicalTitle": "Helikopter, Glocke, Schlagzeug: Florentina Holzinger bespielt den Bodensee",
@@ -2684,9 +2701,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T05:07:25.520Z",
       "doNotUpdateBefore": "2026-07-13T11:07:25.520Z",
-      "echoPublishers": {
-        "orf": "2026-07-13T06:07:23.920Z"
-      }
+      "echoPublishers": {}
     },
     "vcoe-fahrradunfaelle-senioren-2025": {
       "canonicalTitle": "VCÖ-Analyse: Mehrheit der tödlichen Fahrradunfälle 2025 betraf Menschen über 65",
@@ -3015,11 +3030,12 @@
       "doNotRedraftBefore": "2026-07-14T10:01:08.091Z",
       "doNotUpdateBefore": "2026-07-13T16:01:08.091Z",
       "echoPublishers": {
-        "derstandard": "2026-07-13T12:39:26.737Z"
+        "derstandard": "2026-07-13T12:39:26.737Z",
+        "profil": "2026-07-14T06:07:24.044Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-13T12:39:26.737Z"
+      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
     },
     "fpoe-ultimatum-karner-papier-pilnacek-ausschuss-juli-2026": {
       "canonicalTitle": "FPÖ setzt Innenminister Karner Ultimatum wegen Vorbereitungspapier im Pilnacek-Ausschuss",
@@ -3499,13 +3515,13 @@
       "doNotUpdateBefore": "2026-07-13T20:51:23.955Z"
     },
     "ice-toedlicher-einsatz-biddeford-maine-juli-2026": {
-      "canonicalTitle": "Maine: Erneut Toter bei ICE-Einsatz – zweiter tödlicher Vorfall binnen einer Woche",
+      "canonicalTitle": "Maine: ICE-Beamter nach tödlichem Einsatz in Biddeford freigestellt – Opfer laut Senator nicht Ziel der Fahndung",
       "slug": "ice-toedlicher-einsatz-biddeford-maine-juli-2026",
       "firstSeenAt": "2026-07-13T16:07:28.921Z",
-      "lastUpdatedAt": "2026-07-13T16:07:28.921Z",
+      "lastUpdatedAt": "2026-07-14T06:07:24.044Z",
       "status": "published",
       "articlePath": "src/content/articles/ice-toedlicher-einsatz-biddeford-maine-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/ice-toedlicher-einsatz-biddeford-maine-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-14/ice-toedlicher-einsatz-biddeford-maine-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331321/erneut-toter-bei-einsatz-von-us-einwanderungsbeh246rde-ice",
         "https://www.diepresse.com/37070039/erneut-toter-bei-einsatz-von-us-einwanderungsbehoerde-ice",
@@ -3517,18 +3533,27 @@
         "https://www.bangordailynews.com/2026/07/13/politics/state-politics/biddeford-maine-ice-shooting-investigation/",
         "https://www.houstonpublicmedia.org/articles/news/politics/immigration/2026/07/10/556770/ice-shooting-houston-lorenzo-salgado-araujo-passengers-dispute-dhs-account/",
         "https://www.cnn.com/2026/07/09/us/lorenzo-salgado-araujo-houston-ice-shooting",
-        "https://www.pbs.org/newshour/politics/what-to-know-about-the-fatal-shooting-of-lorenzo-salgado-araujo-by-ice"
+        "https://www.pbs.org/newshour/politics/what-to-know-about-the-fatal-shooting-of-lorenzo-salgado-araujo-by-ice",
+        "https://www.derstandard.at/story/3000000331337/erneut-toter-bei-einsatz-von-us-einwanderungsbeh246rde-ice",
+        "https://www.diepresse.com/37088280/erneut-toter-bei-ice-einsatz-in-den-usa",
+        "https://www.derstandard.at/story/3000000331041/kongressabgeordnete-get246teter-mann-gar-nicht-ziel-des-ice-einsatzes",
+        "https://www.nbcnews.com/news/us-news/biddeford-maine-ice-investigation-fatal-shooting-rcna587279",
+        "https://www.wgbh.org/news/local/2026-07-13/developing-26-year-old-colombian-man-dead-in-ice-shooting-in-biddeford",
+        "https://www.washingtonpost.com/immigration/2026/07/13/federal-officers-involved-fatal-shooting-biddeford-maine-governor-says/",
+        "https://www.pressherald.com/2026/07/13/what-susan-collins-angus-king-and-maine-officials-are-saying-about-the-deadly-biddeford-shooting/",
+        "https://www.bangordailynews.com/2026/07/13/politics/washington/victim-of-biddeford-shooting-was-not-target-of-ice-warrant-angus-kings-office-says/"
       ],
       "openQuestions": [
-        "Wer ist die in Biddeford getötete Person, und war sie Ziel des ICE-Einsatzes?",
-        "Was zeigen die laufenden Ermittlungen von Bundespolizei FBI und Maine State Police zum Vorfall in Biddeford?",
-        "Gibt es unabhängige Video- oder Tonaufnahmen, die die Notwehr-Darstellung der Behörde stützen oder widerlegen?",
-        "Wie geht die Untersuchung der DHS-Generalinspektion und der Staatsanwaltschaft von Harris County zum Houston-Fall aus?",
-        "Wird die Zahl von mindestens elf tödlichen ICE-/Grenzschutz-Vorfällen seit Amtsantritt der zweiten Trump-Regierung offiziell bestätigt?"
+        "Zu welchem Ergebnis kommen die Ermittlungen der DHS-Generalinspektion (Büro Boston) und des FBI zum Vorfall in Biddeford?",
+        "Warum nannte das Heimatschutzministerium zunächst eine falsche Zielperson, und wie kam es zur Korrektur nach rund drei Stunden?",
+        "Wie lautet der vollständige Name des schießenden Beamten, und welche dienstlichen bzw. strafrechtlichen Konsequenzen hat der Vorfall für ihn?",
+        "Gibt es unabhängige Video- oder Tonaufnahmen des Einsatzes, die Zeugenangaben oder Behördendarstellung stützen oder widerlegen?",
+        "Wie geht die Untersuchung der DHS-Generalinspektion und der Staatsanwaltschaft von Harris County zum separaten Houston-Fall aus?",
+        "Wird die von einer Maine-Politikerin genannte Zahl von mindestens elf tödlichen ICE-/Grenzschutz-Vorfällen seit Amtsantritt der zweiten Trump-Regierung offiziell bestätigt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T16:07:28.921Z",
-      "doNotUpdateBefore": "2026-07-13T22:07:28.921Z"
+      "doNotRedraftBefore": "2026-07-15T06:07:24.044Z",
+      "doNotUpdateBefore": "2026-07-14T12:07:24.044Z"
     },
     "eu-foerderstopp-biennale-venedig-russland-juli-2026": {
       "canonicalTitle": "EU stoppt Millionen-Förderung für Biennale Venedig wegen russischer Teilnahme",
@@ -3972,6 +3997,33 @@
         "Kontext zur Identität und aktuellen Situation der behandelten Überlebenden"
       ],
       "sensitivity": "high"
+    },
+    "ebola-usa-einreisesperre-eigene-buerger-juli-2026": {
+      "canonicalTitle": "Ebola-Ausbruch: USA verhängen Einreisesperre auch für eigene Bürger aus DR Kongo",
+      "slug": "ebola-usa-einreisesperre-eigene-buerger-juli-2026",
+      "firstSeenAt": "2026-07-14T06:07:24.044Z",
+      "lastUpdatedAt": "2026-07-14T06:07:24.044Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ebola-usa-einreisesperre-eigene-buerger-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/ebola-usa-einreisesperre-eigene-buerger-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436134",
+        "https://www.derstandard.at/story/3000000331329/ebola-usa-verh228ngen-einreisesperre-f252r-eigene-b252rger-aus-dr-kongo",
+        "https://www.diepresse.com/37087290/usa-stoppen-einreise-eigener-buerger-aus-ebola-gebiet-im-kongo",
+        "https://www.derstandard.at/story/3000000331054/weiterer-us-b252rger-infizierte-sich-im-kongo-mit-ebola",
+        "https://www.cdc.gov/port-health/legal-authorities/evdorder.html",
+        "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+      ],
+      "openQuestions": [
+        "Liegt ein offizieller, von einer US-Bundesbehörde veröffentlichter Wortlaut der Anordnung zur Reisebeschränkung für US-Bürger vor?",
+        "Wie viele US-Bürger sind tatsächlich unmittelbar betroffen, und wie werden sie während der Wartezeit im Drittstaat versorgt?",
+        "Wie geht es dem nach Deutschland ausgeflogenen infizierten US-Bürger gesundheitlich weiter?",
+        "Wird die Maßnahme rechtlich angefochten, verlängert oder von anderen Staaten in ähnlicher Form übernommen?",
+        "Wie bewerten WHO oder kongolesische Gesundheitsbehörden die US-Maßnahme im Verhältnis zur tatsächlichen Ausbreitungsdynamik?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T06:07:24.044Z",
+      "doNotUpdateBefore": "2026-07-14T12:07:24.044Z"
     }
   }
 }
