@@ -1,0 +1,180 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-9608d86d",
+    "title": "\"Nicht für den Anspruch der Armee geeignet\": Schweizer Militär mustert Microsoft aus",
+    "items": [
+      {
+        "itemId": "61131acafc978d778682bef307a364b291ccc3487afec1b3e889050bedfca406",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "\"Nicht für den Anspruch der Armee geeignet\": Schweizer Militär mustert Microsoft aus",
+        "url": "https://www.derstandard.at/story/3000000331258/nicht-fuer-den-anspruch-der-armee-geeignet-schweizer-militaer-mustert-microsoft-aus",
+        "summary": "Sorgen hätten der Organisation besonders der US-amerikanische Cloud Act bereitet",
+        "publishedAt": "2026-07-13T19:15:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e9ab0d0f27855bc531aa2dfdf15172618e709b5c58ee3bc108cf99b33cea58ac",
+        "sourceId": "derstandard_web",
+        "sourceType": "media",
+        "title": "\"Nicht für den Anspruch der Armee geeignet\": Schweizer Militär mustert Microsoft aus",
+        "url": "https://www.derstandard.at/story/3000000331258/nicht-fuer-den-anspruch-der-armee-geeignet-schweizer-militaer-mustert-microsoft-aus",
+        "summary": "Sorgen hätten der Organisation besonders der US-amerikanische Cloud Act bereitet",
+        "publishedAt": "2026-07-13T19:15:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "05f04d7b70f80c8fbbd1946b7d1296676e16004108a138e1bdd2b85bc3523bf8",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Schweizer Militär verlässt Microsoft-Cloud",
+        "url": "https://www.heise.de/news/Schweizer-Armee-bricht-mit-Microsoft-Kommando-Cyber-setzt-auf-Open-Source-11361475.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle Story mit breiter Relevanz für Österreich/EU-Sicherheitskontext. Schweizer Militär bricht konkret mit Microsoft wegen Souveränität und US Cloud Act — Präzedenzfall für digitale Autonomie. 2 unabhängige, eigenständige Quellen (derstandard.at + heise.de) mit differenzierter Tiefe (Cloud-Zwang, geopolitische Risiken, OpenDesk-Migration bis Oktober, Zitate vom Kommandoleiter Simon Müller). Volltexte zeigen Recherche-Substanz und technische Kontextualisierung. Keine bestehende Story zu aktualisieren.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Schweizer Militär (Kommando Cyber) migriert Microsoft-Anwendungen bis Oktober zu OpenDesk",
+      "US Cloud Act ist Hauptgrund für Sicherheitsbedenken",
+      "Microsoft zwingt Kunden zunehmend in Cloud-Infrastruktur (strategischer Kehrtwende)",
+      "Sensible militärische Daten könnten über Microsoft-Cloud an US-Geheimdienste (NSA) gelangen",
+      "Kommandoleiter Simon Müller: Office 365 ist für höchste militärische Vertraulichkeits-Ansprüche nicht geeignet",
+      "Schweiz behält sensible Daten bislang in staatlichen Rechenzentren (bisheriges Modell)",
+      "OpenDesk als Open-Source-Alternative respektiert Schweizer Rechtslage besser"
+    ],
+    "missingSources": [
+      "Offizielles Statement oder Reaktion von Microsoft",
+      "Föderales Schweizer Regierungsstatement (Kontext/Unterstützung)",
+      "Technische Spezifikationen/Roadmap von OpenDesk",
+      "Kostenschätzung der Migration",
+      "Timeline oder Pläne für andere Schweizer Behörden (über Militär hinaus)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "schweizer-militaer-microsoft-cloud-ausstieg-juli-2026",
+    "title": "Schweizer Militär trennt sich laut Berichten von Microsoft-Cloud-Diensten",
+    "description": "Zwei unabhängige Medienberichte zufolge steigt das Schweizer Militär aus der Nutzung von Microsoft-Cloud-Diensten aus – als Grund werden Sorgen um den US-amerikanischen Cloud Act genannt. Details zu Zeitplan und Alternativen sind bislang nicht abschließend verifiziert.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei redaktionell unabhängige Medien (derstandard.at und heise.de) berichten übereinstimmend über den Kernvorgang, es liegt aber keine offizielle Verlautbarung der Schweizer Armee oder von Microsoft vor, die selbst gelesen wurde.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Original-Erklärung des Schweizer Militärs, von Microsoft oder von OpenDesk eingesehen – die Darstellung stützt sich ausschließlich auf zwei Medienberichte.",
+    "framingRisk": "high",
+    "framingRiskNote": "Es liegt bislang nur die Darstellung schweizerischer/deutscher Medien zum Schritt des Militärs vor; eine Reaktion oder Stellungnahme von Microsoft fehlt vollständig.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Laut zwei unabhängigen Medienberichten beendet das Schweizer Militär die Nutzung von Microsoft-Cloud-Diensten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als zentraler Grund werden Bedenken wegen des US-amerikanischen Cloud Act genannt, der US-Behörden potenziellen Zugriff auf bei US-Anbietern gespeicherte Daten ermöglichen kann.",
+        "kind": "fact"
+      },
+      {
+        "text": "Berichten zufolge soll die betroffene Einheit auf Open-Source-Alternativen umsteigen, Details dazu sind aber nicht abschließend verifiziert.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine Stellungnahme von Microsoft zu dem Schritt liegt nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Genauer Zeitplan der Migration sowie das Ausmaß der Umstellung bei anderen Schweizer Behörden bleiben offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Gibt es eine offizielle Stellungnahme des Schweizer Militärs oder des Verteidigungsdepartements zum Ausstieg?",
+      "Wie reagiert Microsoft auf die Entscheidung, und bestätigt der Konzern die genannten Gründe?",
+      "Welcher konkrete Zeitplan gilt für die Migration zu Open-Source-Alternativen?",
+      "Betrifft der Schritt nur eine einzelne Einheit oder das gesamte Schweizer Militär bzw. weitere Behörden?",
+      "Welche Kosten sind mit der Umstellung verbunden?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331258/nicht-fuer-den-anspruch-der-armee-geeignet-schweizer-militaer-mustert-microsoft-aus"
+      },
+      {
+        "id": "src2",
+        "name": "heise online",
+        "type": "media",
+        "url": "https://www.heise.de/news/Schweizer-Armee-bricht-mit-Microsoft-Kommando-Cyber-setzt-auf-Open-Source-11361475.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Das Schweizer Militär beendet die Nutzung von Microsoft-Cloud-Diensten.",
+        "status": "supported",
+        "note": "Wird von zwei redaktionell unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Als Grund für den Schritt werden Sorgen um den US-amerikanischen Cloud Act genannt.",
+        "status": "partial",
+        "note": "Explizit nur in der Kurzzusammenfassung von Der Standard genannt; ob heise.de dieselbe Begründung anführt, ist aus den vorliegenden Metadaten nicht ersichtlich.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die betroffene Einheit soll auf Open-Source-Lösungen umsteigen.",
+        "status": "unclear",
+        "note": "Ergibt sich aus Titel/URL des heise-Berichts, ist aber nicht durch eine gelesene Primärquelle oder eine zweite unabhängige Bestätigung abgesichert.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Es existiert ein konkreter Zeitplan für die Migration sowie eine namentliche Stellungnahme einer verantwortlichen Person.",
+        "status": "unclear",
+        "note": "Solche Details werden in Recherchehinweisen erwähnt, sind aber in den vorliegenden Kurzfassungen der Cluster-Quellen nicht enthalten und wurden nicht durch Primärquellen bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Berichten von derstandard.at und heise.de beendet das Schweizer Militär die Nutzung von Microsoft-Cloud-Diensten. Der Standard titelt, Microsoft sei \"nicht für den Anspruch der Armee geeignet\", heise.de spricht von einem Bruch mit Microsoft. Beide Berichte erschienen unabhängig voneinander am 13. Juli 2026 und beziehen sich erkennbar auf denselben Vorgang, ohne dass es sich um denselben Agenturtext handelt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Standard nennt als zentralen Beweggrund Sorgen wegen des US-amerikanischen Cloud Act – eines US-Gesetzes, das US-Behörden unter bestimmten Voraussetzungen Zugriff auf Daten ermöglichen kann, die bei US-Cloud-Anbietern wie Microsoft gespeichert sind, unabhängig davon, wo die Server physisch stehen. Für eine Institution mit hohem Vertraulichkeitsanspruch wie ein Militär ist das laut den vorliegenden Kurztexten ein naheliegendes Sicherheitsbedenken. heise.de deutet im Berichtstitel zusätzlich an, dass die betroffene Einheit stattdessen auf Open-Source-Lösungen setzen dürfte. Beide Aspekte – der Cloud-Act-Bezug und die Open-Source-Orientierung – lassen sich aus den vorliegenden Kurzzusammenfassungen und Titeln jedoch nur teilweise gegenseitig bestätigen, da uns keine vollständigen Artikeltexte oder Primärquellen vorliegen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, welchen genauen Zeitplan die Migration hat, welche konkrete(n) Einheit(en) des Schweizer Militärs betroffen sind und ob der Schritt auf einzelne Anwendungen oder die gesamte Microsoft-Nutzung zielt. Auch eine Stellungnahme von Microsoft selbst liegt bislang nicht vor – die Darstellung stützt sich ausschließlich auf die Berichterstattung zweier Medien, nicht auf eine eingesehene offizielle Verlautbarung des Schweizer Verteidigungsapparats. Ebenfalls unklar ist, ob und wie sich der Schritt auf andere Schweizer Behörden oder auf vergleichbare Diskussionen in anderen Ländern auswirken könnte."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Sollte sich der Vorgang wie berichtet bestätigen, würde er in eine breitere, seit Jahren geführte Debatte über digitale Souveränität europäischer Staaten gegenüber US-Cloud-Anbietern passen. Diskussionen über den Cloud Act und vergleichbare Rechtsinstrumente sind in Verwaltung und Sicherheitsbehörden mehrerer Länder ein wiederkehrendes Thema. Für eine abschließende Einordnung – etwa ob es sich um einen Einzelfall oder einen Trend handelt – fehlen jedoch weitere unabhängige Bestätigungen und eine Reaktion der betroffenen Unternehmen."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Berichten von derstandard.at und heise.de beendet das Schweizer Militär die Nutzung von Microsoft-Cloud-Diensten. Der Standard nennt als Hauptgrund Sorgen wegen des US-amerikanischen Cloud Act, der US-Behörden unter bestimmten Umständen Zugriff auf bei US-Anbietern gespeicherte Daten ermöglichen kann – für eine Institution mit hohem Vertraulichkeitsanspruch ein naheliegendes Sicherheitsbedenken. heise.de deutet zusätzlich an, dass die betroffene Einheit auf Open-Source-Lösungen umsteigen könnte.\n\nOffen bleiben zentrale Details: der genaue Zeitplan der Migration, das Ausmaß der Umstellung sowie mögliche Auswirkungen auf andere Schweizer Behörden. Eine Stellungnahme von Microsoft liegt bislang nicht vor, ebenso wenig eine eingesehene offizielle Verlautbarung des Schweizer Militärs selbst.\n\nSollte sich der Schritt wie berichtet bestätigen, würde er in die längere Debatte über digitale Souveränität europäischer und anderer Staaten gegenüber US-Cloud-Anbietern passen. Für eine abschließende Einordnung fehlen jedoch weitere unabhängige Bestätigungen und eine Reaktion der Gegenseite.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-14T00:07:25.083Z"
+}

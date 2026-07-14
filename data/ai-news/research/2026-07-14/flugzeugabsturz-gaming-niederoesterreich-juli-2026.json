@@ -1,0 +1,180 @@
+{
+  "cluster": {
+    "id": "cluster-20260713-73331c1d",
+    "title": "Tödlicher Absturz in Niederösterreich: Flugzeugwrack sichergestellt",
+    "items": [
+      {
+        "itemId": "d6d1b38387d454f3b400e7e439ff66e935744232356534a70ea5c5cc8a5a2f73",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Tödlicher Absturz in Niederösterreich: Flugzeugwrack sichergestellt",
+        "url": "https://www.diepresse.com/36818720/toedlicher-absturz-in-niederoesterreich-flugzeugwrack-sichergestellt",
+        "summary": "Bei dem Absturz waren der 47-jährige Pilot und eine gleichaltrige Frau ums Leben gekommen. Eine 15-Jährige und ein 41-Jähriger erlitten schwere Verletzungen.",
+        "publishedAt": "2026-07-13T07:54:58.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "216a34f4cd2439b86d0e14a32a1ca032c015fab520a974193ae1b661bfd26f63",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Flugzeugwrack nach tödlichem Absturz geborgen",
+        "url": "https://noe.orf.at/stories/3362383",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Bedeutsamer Verkehrsunfall mit Todesfolgen und schweren Verletzungen in Niederösterreich, von zwei unabhängigen, seriösen österreichischen Medien (Die Presse, ORF) mit Fulltextquellen dokumentiert. Klare Relevanz für Österreich, ausreichend Substanz vorhanden: Opferzahlen, Verletzungsgrad, Bergungsstatus, Ermittlungsstand, beteiligte Behörden. Keine bestehende verwandte Story vorhanden.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Bei Absturz eines Piper-Kleinflugzeugs (einmotorig, viersitzig) bei Gaming, Bezirk Scheibbs, am 13. Juli 2026 starben zwei Insassen: ein 47-jähriger Pilot und eine 47-jährige Passagierin",
+      "Zwei weitere Insassen (15-Jährige Nichte, 41-jähriger Onkel) erlitten schwere Verletzungen",
+      "Flugzeugwrack wurde am Sonntagabend mittels Hubschrauber aus steilem Waldgelände geborgen",
+      "Flugdatenschreiber wurde sichergestellt",
+      "Staatsanwaltschaft St. Pölten bestellte Sachverständigen für technische Ursachenforschung",
+      "Obduktion des 47-jährigen Piloten angeordnet",
+      "Landeskriminalamt Niederösterreich und Sicherheitsuntersuchungsstelle des Bundes führen Ermittlungen",
+      "Laut Kurier-Bericht (zitiert in ORF-Artikel): Pilot soll vor Absturz über Funk Totalausfall des Motors und Öldruckverlust gemeldet haben (Polizei bestätigt das noch nicht)"
+    ],
+    "missingSources": [
+      "Polizeiliche Bestätigung des angeblichen Motorausfalls/Öldruckverlusts",
+      "Endgültige Unfallursache (noch unter Ermittlung)",
+      "Aktueller medizinischer Status der 15-Jährigen (ORF berichtet von möglicher Spitalentlassung am Montag)",
+      "Aktueller intensivmedizinischer Status des 41-Jährigen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "flugzeugabsturz-gaming-niederoesterreich-juli-2026",
+    "title": "Tödlicher Flugzeugabsturz bei Gaming: Wrack geborgen, Ursache weiter unklar",
+    "description": "Nach dem tödlichen Absturz eines Kleinflugzeugs im Bezirk Scheibbs ist das Wrack geborgen, die Ermittlungen laufen – ein möglicher Motorausfall des Piloten ist bislang nicht polizeilich bestätigt.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei Todesopfer, zwei Schwerverletzte sowie Ort und Zeitpunkt des Absturzes werden von zwei unabhängigen Medien (Die Presse, ORF) übereinstimmend berichtet und gelten damit als abgesichert; die vermutete Unfallursache stützt sich dagegen nur auf eine einzelne, amtlich nicht bestätigte Angabe, daher insgesamt mittlere Sicherheit.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Aussendung der Staatsanwaltschaft, kein Ermittlungsbericht und keine sonstige Behördenquelle direkt eingesehen, sondern ausschließlich zwei Medienberichte ausgewertet.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Beide Quellen berichten im gleichen Duktus ohne Gegendarstellung, und die Behauptung eines Motorausfalls stammt aus nur einer, nicht amtlich bestätigten Quelle, was die Einseitigkeit leicht erhöht.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Bei einem Flugzeugabsturz nahe Gaming im Bezirk Scheibbs (NÖ) kamen am 13. Juli 2026 zwei Menschen ums Leben, zwei weitere wurden schwer verletzt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Betroffen war eine einmotorige, viersitzige Piper-Maschine; das Wrack wurde am Sonntagabend per Hubschrauber aus steilem Waldgelände geborgen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Staatsanwaltschaft St. Pölten, Landeskriminalamt NÖ und die Sicherheitsuntersuchungsstelle des Bundes ermitteln zur Ursache, eine Obduktion des Piloten ist angeordnet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein laut ORF vom Kurier zitierter Funkspruch über einen Motorausfall des Piloten ist polizeilich nicht bestätigt.",
+        "kind": "open"
+      },
+      {
+        "text": "Der aktuelle Gesundheitszustand der beiden Verletzten sowie die endgültige Unfallursache sind offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wird der von Kurier zitierte Funkspruch über Motorausfall und Öldruckverlust polizeilich bestätigt?",
+      "Zu welchem Ergebnis kommt das technische Sachverständigengutachten zur Unfallursache?",
+      "Wie ist der aktuelle Gesundheitszustand der 15-jährigen Verletzten – laut ORF war eine Spitalsentlassung möglich?",
+      "Wie ist der aktuelle Gesundheitszustand des 41-jährigen Verletzten?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/36818720/toedlicher-absturz-in-niederoesterreich-flugzeugwrack-sichergestellt"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Niederösterreich",
+        "type": "media",
+        "url": "https://noe.orf.at/stories/3362383"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Am 13. Juli 2026 stürzte eine einmotorige, viersitzige Piper-Maschine bei Gaming im Bezirk Scheibbs ab; dabei kamen der 47-jährige Pilot und eine gleichaltrige Frau ums Leben.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Eine 15-Jährige und ein 41-Jähriger, die ebenfalls an Bord waren, erlitten schwere Verletzungen.",
+        "status": "supported",
+        "note": "Von beiden Quellen übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Das Flugzeugwrack wurde am Sonntagabend per Hubschrauber aus steilem Waldgelände geborgen.",
+        "status": "supported",
+        "note": "Von beiden Medien berichtet; Details zur genauen Bergungslogistik nicht eigenständig verifiziert.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Staatsanwaltschaft St. Pölten bestellte einen Sachverständigen zur technischen Ursachenklärung und ordnete eine Obduktion des Piloten an; Landeskriminalamt NÖ und die Sicherheitsuntersuchungsstelle des Bundes ermitteln.",
+        "status": "partial",
+        "note": "Angaben stammen aus den vorliegenden Medienberichten, keine eigene Einsicht in Behördenunterlagen möglich.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Der Pilot soll laut einem vom ORF zitierten Kurier-Bericht vor dem Absturz per Funk einen Totalausfall des Motors und einen Öldruckverlust gemeldet haben.",
+        "status": "unclear",
+        "note": "Einzelquellen-Angabe aus zweiter Hand, von der Polizei bislang nicht bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Bei einem Flugzeugabsturz nahe Gaming im niederösterreichischen Bezirk Scheibbs sind laut übereinstimmenden Berichten von Die Presse und ORF am 13. Juli 2026 zwei Menschen ums Leben gekommen. Betroffen war eine einmotorige, viersitzige Piper-Maschine. Getötet wurden der 47-jährige Pilot und eine gleichaltrige Frau. Zwei weitere Insassen – laut Berichten eine 15-jährige Nichte und ein 41-jähriger Onkel – erlitten schwere Verletzungen. Namen der Beteiligten werden hier bewusst nicht genannt."
+      },
+      {
+        "heading": "Bergung und Ermittlungen",
+        "markdown": "Das Wrack der Maschine lag nach dem Absturz in steilem Waldgelände und wurde laut ORF am Sonntagabend per Hubschrauber geborgen. Der Flugdatenschreiber wurde sichergestellt und soll Aufschluss über den Ablauf des Fluges geben. Die Staatsanwaltschaft St. Pölten hat laut vorliegenden Quellen einen Sachverständigen mit der technischen Ursachenklärung beauftragt, zudem wurde eine Obduktion des Piloten angeordnet. Ermittlungen führen das Landeskriminalamt Niederösterreich und die Sicherheitsuntersuchungsstelle des Bundes, die für die unabhängige Untersuchung von Luftfahrt-Unfällen zuständig ist. Diese Angaben stammen aus den vorliegenden Medienberichten und sind nicht durch eine eigene Einsicht in Behördenunterlagen ergänzt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Der ORF zitiert einen Bericht des Kurier, wonach der Pilot vor dem Absturz per Funk einen Totalausfall des Motors sowie einen Öldruckverlust gemeldet habe. Eine polizeiliche Bestätigung dieser Darstellung liegt laut den vorliegenden Quellen nicht vor, weshalb die Angabe als nicht abschließend verifiziert einzustufen ist. Ebenso offen ist der aktuelle Gesundheitszustand der beiden Verletzten: Laut ORF war für die 15-Jährige unter Umständen bereits am Montag eine Spitalsentlassung möglich, eine Bestätigung dazu fehlt in den vorliegenden Berichten ebenso wie ein aktueller Status zum 41-Jährigen. Die endgültige Unfallursache wird erst das Ergebnis der behördlichen Untersuchung zeigen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Ermittlungen zu Kleinflugzeug-Abstürzen ziehen sich in Österreich erfahrungsgemäß über Wochen bis Monate, da technische Gutachten und die Auswertung von Flugdatenschreibern Zeit benötigen. Bis zum Abschluss der Untersuchung durch die Sicherheitsuntersuchungsstelle und die Staatsanwaltschaft bleibt die Ursache offen; Spekulationen über technisches Versagen oder menschliches Fehlverhalten sind zum jetzigen Zeitpunkt nicht seriös möglich. Dieser Artikel beruht ausschließlich auf zwei Medienberichten (Die Presse, ORF Niederösterreich) und wurde nicht durch eigene Einsicht in Behördenunterlagen ergänzt."
+      }
+    ],
+    "bodyKompakt": "Bei einem Flugzeugabsturz nahe Gaming im Bezirk Scheibbs (Niederösterreich) sind am 13. Juli 2026 laut übereinstimmenden Berichten von Die Presse und ORF zwei Menschen ums Leben gekommen: der 47-jährige Pilot einer einmotorigen, viersitzigen Piper-Maschine und eine gleichaltrige Frau. Zwei weitere Insassen, eine 15-Jährige und ein 41-Jähriger, wurden schwer verletzt.\n\nDas Wrack lag in steilem Waldgelände und wurde am Sonntagabend per Hubschrauber geborgen, der Flugdatenschreiber sichergestellt. Die Staatsanwaltschaft St. Pölten bestellte laut Berichten einen Sachverständigen zur technischen Ursachenklärung und ordnete eine Obduktion des Piloten an; Landeskriminalamt Niederösterreich und die Sicherheitsuntersuchungsstelle des Bundes ermitteln.\n\nEin vom ORF zitierter Kurier-Bericht, wonach der Pilot vor dem Absturz einen Motorausfall und Öldruckverlust gemeldet habe, ist polizeilich nicht bestätigt. Auch der aktuelle Gesundheitszustand der beiden Verletzten sowie die endgültige Unfallursache sind nicht abschließend geklärt.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-14T00:07:25.083Z"
+}

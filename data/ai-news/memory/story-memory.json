@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-13T22:19:52.208Z",
+  "updatedAt": "2026-07-14T00:19:11.331Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3192,27 +3192,42 @@
       "resonanceMeasuredAt": "2026-07-13T12:39:26.737Z"
     },
     "eu-sanktionen-russland-cyberangriffe-juli-2026": {
-      "canonicalTitle": "EU verhängt Sanktionen gegen Russland wegen Cyberangriffen – Großbritannien zieht mit",
+      "canonicalTitle": "EU und Großbritannien sanktionieren russische Cyberakteure – Angriff auf polnisches Stromnetz im Fokus",
       "slug": "eu-sanktionen-russland-cyberangriffe-juli-2026",
       "firstSeenAt": "2026-07-13T12:07:33.353Z",
-      "lastUpdatedAt": "2026-07-13T12:07:33.353Z",
+      "lastUpdatedAt": "2026-07-14T00:07:25.083Z",
       "status": "published",
       "articlePath": "src/content/articles/eu-sanktionen-russland-cyberangriffe-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/eu-sanktionen-russland-cyberangriffe-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-14/eu-sanktionen-russland-cyberangriffe-juli-2026-update-000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331279/eu-verhaengt-neue-sanktionen-gegen-russland-wegen-cyberangriffen",
-        "https://orf.at/stories/3436062"
+        "https://orf.at/stories/3436062",
+        "https://www.derstandard.at/jetzt/livebericht/3000000331151/eu-aussenminister-diskutieren-ueber-weitere-russland-sanktionen",
+        "https://www.heise.de/news/EU-sanktioniert-Russland-wegen-schwerer-Cyberangriffe-und-Sabotage-11363377.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/EU-sanktioniert-Russland-wegen-schwerer-Cyberangriffe-und-Sabotage-11363377.html",
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/07/13/cyber-russia-statement-by-the-high-representative-on-behalf-of-the-european-union-denouncing-russia-s-malicious-cyber-ecosystem-targeting-the-eu-its-member-states-and-international-partners/",
+        "https://www.gov.uk/government/news/uk-and-eu-strike-russian-cyber-networks-with-new-sanctions",
+        "https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package",
+        "https://www.cbsnews.com/news/france-russia-eu-sabotage-espionage-attacks-sanctions/",
+        "https://aa.com.tr/en/europe/germany-summons-russian-ambassador-over-cyberattacks-targeting-eu-countries/3996487",
+        "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/"
       ],
       "openQuestions": [
-        "Welche konkreten Cyberangriffe werden den sanktionierten Personen und Organisationen zur Last gelegt?",
-        "Welche Länder waren nach EU-Angaben tatsächlich betroffen, und in welchem Ausmaß?",
-        "Wie sieht die britische Sanktionsliste im Detail aus, und deckt sie sich mit jener der EU?",
-        "Gibt es eine Reaktion russischer Stellen auf die Vorwürfe?",
-        "Wann und in welcher Form wird die EU eine offizielle, vollständige Liste veröffentlichen?"
+        "Wie reagiert Russland offiziell auf die Vorwürfe und die verhängten Sanktionen?",
+        "Welche technischen Belege stützen konkret die Zurechnung des Angriffs auf das polnische Stromnetz zum FSB-„Zentrum 16\"?",
+        "Setzen weitere EU-Mitgliedstaaten neben Frankreich zusätzlich zu den EU-Sanktionen eigene nationale Maßnahmen um, und wie sehen diese aus?",
+        "Welche konkreten Rollen hatten die einzelnen namentlich genannten GRU-Offiziere und die erwähnte Firma bei der Anwerbung von Hackern?",
+        "War Österreich als Standort betroffener Institutionen konkret Ziel von Angriffen, oder wird das Land nur allgemein in der Liste der von der Gruppe „Turla\" seit 2010 betroffenen Staaten genannt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T12:07:33.353Z",
-      "doNotUpdateBefore": "2026-07-13T18:07:33.353Z"
+      "doNotRedraftBefore": "2026-07-15T00:07:25.083Z",
+      "doNotUpdateBefore": "2026-07-14T06:07:25.083Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-14T00:07:25.083Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-14T00:07:25.083Z"
     },
     "tuk-tuk-unfall-kilb-melk-juli-2026": {
       "canonicalTitle": "Alko-Lenker soll Tuk-Tuk in Niederösterreich gerammt haben – 18-Jähriger lebensgefährlich verletzt",
@@ -3781,6 +3796,52 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-14T22:07:26.937Z",
       "doNotUpdateBefore": "2026-07-14T04:07:26.937Z"
+    },
+    "flugzeugabsturz-gaming-niederoesterreich-juli-2026": {
+      "canonicalTitle": "Tödlicher Flugzeugabsturz bei Gaming: Wrack geborgen, Ursache weiter unklar",
+      "slug": "flugzeugabsturz-gaming-niederoesterreich-juli-2026",
+      "firstSeenAt": "2026-07-14T00:07:25.083Z",
+      "lastUpdatedAt": "2026-07-14T00:07:25.083Z",
+      "status": "published",
+      "articlePath": "src/content/articles/flugzeugabsturz-gaming-niederoesterreich-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/flugzeugabsturz-gaming-niederoesterreich-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/36818720/toedlicher-absturz-in-niederoesterreich-flugzeugwrack-sichergestellt",
+        "https://noe.orf.at/stories/3362383"
+      ],
+      "openQuestions": [
+        "Wird der von Kurier zitierte Funkspruch über Motorausfall und Öldruckverlust polizeilich bestätigt?",
+        "Zu welchem Ergebnis kommt das technische Sachverständigengutachten zur Unfallursache?",
+        "Wie ist der aktuelle Gesundheitszustand der 15-jährigen Verletzten – laut ORF war eine Spitalsentlassung möglich?",
+        "Wie ist der aktuelle Gesundheitszustand des 41-jährigen Verletzten?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-15T00:07:25.083Z",
+      "doNotUpdateBefore": "2026-07-14T06:07:25.083Z"
+    },
+    "schweizer-militaer-microsoft-cloud-ausstieg-juli-2026": {
+      "canonicalTitle": "Schweizer Militär trennt sich laut Berichten von Microsoft-Cloud-Diensten",
+      "slug": "schweizer-militaer-microsoft-cloud-ausstieg-juli-2026",
+      "firstSeenAt": "2026-07-14T00:07:25.083Z",
+      "lastUpdatedAt": "2026-07-14T00:07:25.083Z",
+      "status": "published",
+      "articlePath": "src/content/articles/schweizer-militaer-microsoft-cloud-ausstieg-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-14/schweizer-militaer-microsoft-cloud-ausstieg-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331258/nicht-fuer-den-anspruch-der-armee-geeignet-schweizer-militaer-mustert-microsoft-aus",
+        "https://www.heise.de/news/Schweizer-Armee-bricht-mit-Microsoft-Kommando-Cyber-setzt-auf-Open-Source-11361475.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Schweizer-Armee-bricht-mit-Microsoft-Kommando-Cyber-setzt-auf-Open-Source-11361475.html"
+      ],
+      "openQuestions": [
+        "Gibt es eine offizielle Stellungnahme des Schweizer Militärs oder des Verteidigungsdepartements zum Ausstieg?",
+        "Wie reagiert Microsoft auf die Entscheidung, und bestätigt der Konzern die genannten Gründe?",
+        "Welcher konkrete Zeitplan gilt für die Migration zu Open-Source-Alternativen?",
+        "Betrifft der Schritt nur eine einzelne Einheit oder das gesamte Schweizer Militär bzw. weitere Behörden?",
+        "Welche Kosten sind mit der Umstellung verbunden?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-15T00:07:25.083Z",
+      "doNotUpdateBefore": "2026-07-14T06:07:25.083Z"
     }
   }
 }
