@@ -19,7 +19,12 @@ const RUN_HISTORY_PATH = join(MEMORY_DIR, 'run-history.jsonl');
 const TRIAGE_BACKLOG_PATH = join(MEMORY_DIR, 'triage-backlog.json');
 
 const SEEN_RETENTION_HOURS = 30 * 24;
-const STORY_RETENTION_HOURS = 180 * 24;
+// E54: 180 d → 30 d. story-memory ist reines Working-Set (Dedup via matchStory,
+// Resonanz-24-h-Fenster, Redraft-/Update-Throttles, noted/monitor-Watch-List).
+// Backlinks/Delta-Bezüge kommen jetzt aus dem permanenten Artikel-Index auf der
+// Platte (article.ts loadArticleIndex) — jeden Alters, unabhängig von dieser
+// Retention. Die Platten-Suche backstoppt auch Dedup jenseits von 30 d.
+const STORY_RETENTION_HOURS = 30 * 24;
 const RUN_HISTORY_MAX = 500;
 
 function readJson<T>(path: string, fallback: T): T {

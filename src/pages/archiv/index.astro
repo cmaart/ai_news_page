@@ -1,0 +1,194 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { byNewest, formatDate, isListed, COUNTRY_LABELS, TOPIC_LABELS, TOPICS } from '../../lib/articles';
+import type { Article } from '../../lib/articles';
+import { withBase } from '../../lib/url';
+
+// Archiv (E54): alle gelisteten Artikel — auch die aus den Startseiten-/Themen-Listen
+// gefallenen. Bleiben `published` + indexiert; hier die Browse-Heimat, gruppiert
+// Monat → Topic.
+const articles = (await getCollection('articles')).filter(isListed).sort(byNewest);
+
+// Monatsschlüssel in Wiener Zeit (YYYY-MM), konsistent mit dem angezeigten Label.
+const keyFmt = new Intl.DateTimeFormat('en-CA', { year: 'numeric', month: '2-digit', timeZone: 'Europe/Vienna' });
+const labelFmt = new Intl.DateTimeFormat('de-AT', { month: 'long', year: 'numeric', timeZone: 'Europe/Vienna' });
+
+interface MonthBucket {
+  key: string;
+  label: string;
+  items: Article[];
+}
+
+const months: MonthBucket[] = [];
+const byKey = new Map<string, MonthBucket>();
+for (const article of articles) {
+  const ref = article.data.publishedAt ?? article.data.updatedAt;
+  if (!ref) continue;
+  const key = keyFmt.format(ref).slice(0, 7);
+  let bucket = byKey.get(key);
+  if (!bucket) {
+    bucket = { key, label: labelFmt.format(ref), items: [] };
+    byKey.set(key, bucket);
+    months.push(bucket);
+  }
+  bucket.items.push(article);
+}
+
+// Pro Monat nach Topic (TOPICS-Reihenfolge) untergruppieren, leere Topics entfallen.
+const grouped = months.map((month) => ({
+  ...month,
+  topics: TOPICS.map((topic) => ({
+    topic,
+    label: TOPIC_LABELS[topic],
+    items: month.items.filter((a) => a.data.topic === topic),
+  })).filter((t) => t.items.length > 0),
+}));
+---
+
+<BaseLayout title="Archiv · Neue Nachrichten">
+  <section class="archive container-section">
+    <h1 class="archive__title">Archiv</h1>
+    <p class="archive__intro">
+      Alle bisher veröffentlichten Artikel, chronologisch nach Monat. Ältere Meldungen erscheinen nicht mehr auf der
+      Startseite, bleiben hier und über ihre Direkt-URL erreichbar — jeweils mit ausgewiesener Quellenlage.
+    </p>
+
+    {
+      grouped.length === 0 ? (
+        <p class="archive__empty">Noch keine Artikel im Archiv.</p>
+      ) : (
+        grouped.map((month) => (
+          <div class="archive__month">
+            <h2 class="archive__month-label">{month.label}</h2>
+            {month.topics.map((group) => (
+              <div class="archive__group">
+                <a class="archive__group-label" href={withBase(`/themen/${group.topic}/`)}>
+                  {group.label}
+                </a>
+                <ul class="archive__list">
+                  {group.items.map((article) => (
+                    <li class="archive__row">
+                      <a class="archive__link" href={withBase(`/artikel/${article.id}/`)}>
+                        {article.data.title}
+                      </a>
+                      <span class="archive__meta">
+                        {COUNTRY_LABELS[article.data.country]}
+                        {article.data.publishedAt && <> · {formatDate(article.data.publishedAt)}</>}
+                        {article.data.status === 'corrected' && <span class="badge badge--danger">Korrigiert</span>}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        ))
+      )
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  .archive {
+    padding-top: 64px;
+  }
+
+  .archive__title {
+    margin: 0 0 16px;
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+  }
+
+  .archive__intro {
+    margin: 0 0 40px;
+    max-width: 52ch;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+  }
+
+  .archive__empty {
+    color: var(--color-text-faint);
+    font-size: 14px;
+  }
+
+  .archive__month {
+    margin-bottom: 48px;
+  }
+
+  .archive__month-label {
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-ink);
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .archive__group {
+    margin-bottom: 24px;
+  }
+
+  .archive__group-label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .archive__group-label:hover {
+    color: var(--accent-hover);
+    text-decoration: none;
+  }
+
+  .archive__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .archive__row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .archive__link {
+    font-family: var(--font-serif);
+    font-size: 17px;
+    line-height: 1.3;
+    color: var(--color-ink);
+  }
+
+  .archive__link:hover {
+    color: var(--accent-hover);
+  }
+
+  .archive__meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--color-text-faint);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 640px) {
+    .archive__row {
+      flex-direction: column;
+      gap: 4px;
+    }
+  }
+</style>

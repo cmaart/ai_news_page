@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Aufmacher from '../../components/Aufmacher.astro';
-import { byNewest, byRelevance, isListed, TOPIC_LABELS, TOPICS } from '../../lib/articles';
+import { byNewest, byRelevance, isFresh, TOPIC_LABELS, TOPICS } from '../../lib/articles';
 import type { Topic } from '../../lib/articles';
 
 export async function getStaticPaths() {
@@ -11,8 +11,9 @@ export async function getStaticPaths() {
 }
 
 const { topic } = Astro.params as { topic: Topic };
+// Alters-Archiv (E54): Themen-Seite zeigt nur frische Artikel; Älteres über /archiv/.
 const articles = (await getCollection('articles'))
-  .filter(isListed)
+  .filter(isFresh)
   .filter((a) => a.data.topic === topic)
   .sort(byNewest);
 // Aufmacher = relevantester Artikel des Themas (E51); Grid darunter = übrige, chronologisch.

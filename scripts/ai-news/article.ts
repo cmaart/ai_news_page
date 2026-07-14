@@ -168,3 +168,53 @@ export function listExistingSlugs(): Set<string> {
     return new Set();
   }
 }
+
+/**
+ * Leichtgewichtiger Index aller Artikel auf der Platte (E54): Titel + Datum +
+ * Kontext, aus dem Frontmatter gelesen. Die Artikel sind der permanente Bestand
+ * (auch archivierte bleiben liegen), deshalb speist dieser Index den
+ * Verwandte-Stories-Finder (Backlinks jeden Alters) — unabhängig von der
+ * kurzlebigen story-memory-Retention.
+ */
+export interface ArticleIndexEntry {
+  slug: string;
+  title: string;
+  status: string;
+  publishedAt?: string;
+  updatedAt?: string;
+  summary: { text: string; kind: 'fact' | 'open' }[];
+  openQuestions: string[];
+}
+
+function toIso(value: unknown): string | undefined {
+  if (!value) return undefined;
+  const d = new Date(value as string | Date);
+  return Number.isNaN(d.getTime()) ? undefined : d.toISOString();
+}
+
+export function loadArticleIndex(): ArticleIndexEntry[] {
+  let files: string[];
+  try {
+    files = readdirSync(ARTICLES_DIR).filter((f) => f.endsWith('.mdx'));
+  } catch {
+    return [];
+  }
+  const index: ArticleIndexEntry[] = [];
+  for (const file of files) {
+    try {
+      const fm = matter(readFileSync(join(ARTICLES_DIR, file), 'utf8')).data as Record<string, unknown>;
+      index.push({
+        slug: file.replace(/\.mdx$/, ''),
+        title: String(fm.title ?? ''),
+        status: String(fm.status ?? 'published'),
+        publishedAt: toIso(fm.publishedAt),
+        updatedAt: toIso(fm.updatedAt),
+        summary: (fm.summary as { text: string; kind: 'fact' | 'open' }[]) ?? [],
+        openQuestions: (fm.openQuestions as string[]) ?? [],
+      });
+    } catch {
+      // Defekte Datei überspringen — nie den Run daran scheitern lassen.
+    }
+  }
+  return index;
+}

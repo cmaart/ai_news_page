@@ -10,7 +10,7 @@ import {
   COUNTRY_LABELS,
   formatDate,
   hasBroadEcho,
-  isListed,
+  isFresh,
   isPrimarySource,
   LEVEL_METER,
   RISK_LABELS,
@@ -22,7 +22,9 @@ import {
 import type { Article } from '../lib/articles';
 import { withBase } from '../lib/url';
 
-const articles = (await getCollection('articles')).filter(isListed).sort(byNewest);
+// Alters-Archiv (E54): Startseite zeigt nur frische Artikel (harter Cap, kein Floor);
+// Älteres bleibt indexiert und über /archiv/, Themen-Direktlinks + Suche erreichbar.
+const articles = (await getCollection('articles')).filter(isFresh).sort(byNewest);
 // Aufmacher + „Weitere Nachrichten" nach Relevanz (E38); Ressort-Sektionen bleiben chronologisch.
 const ranked = [...articles].sort(byRelevance);
 const [lead, ...topList] = ranked;

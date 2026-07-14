@@ -11,7 +11,15 @@
 import { readFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { parse } from 'yaml';
-import { patchArticleRelated, patchArticleResonance, readExistingArticle, resolveSlug, writeArticle } from './article.ts';
+import {
+  loadArticleIndex,
+  patchArticleRelated,
+  patchArticleResonance,
+  readExistingArticle,
+  resolveSlug,
+  writeArticle,
+} from './article.ts';
+import type { ArticleIndexEntry } from './article.ts';
 import { draftOrUpdate, triageCluster } from './claude.ts';
 import { buildClusters } from './cluster.ts';
 import { fetchAllFeeds } from './fetch.ts';
@@ -65,6 +73,15 @@ const WEB_SEARCH_MIN_PORTALS = envInt('AI_NEWS_WEB_SEARCH_MIN_PORTALS', 3);
 // getrennt vom strengen matchStory (Resonanz/Dedup dürfen keine Falsch-Treffer erben).
 const RELATED_MIN_OVERLAP = envInt('AI_NEWS_RELATED_MIN_OVERLAP', 2);
 const RELATED_MAX_CANDIDATES = envInt('AI_NEWS_RELATED_MAX_CANDIDATES', 3);
+// Recency-Gewicht der Kandidaten (E54): additiver Boost 0..1 auf den Overlap,
+// damit ein frischer, echt verwandter Artikel nicht von alten Zufalls-Overlaps
+// aus den Kandidaten-Slots verdrängt wird (Halbwertszeit in Tagen).
+const RELATED_RECENCY_HALF_LIFE_DAYS = envInt('AI_NEWS_RELATED_RECENCY_HALF_LIFE_DAYS', 14);
+// Alters-Archiv/-Gate (E54): geteiltes Frischefenster mit dem Frontend
+// (articles.ts, FRESH_WINDOW_DAYS). Follow-ups auf Stories jenseits dieses
+// Fensters werden Delta-Artikel statt In-Place-Updates.
+const FRESH_WINDOW_DAYS = envInt('AI_NEWS_FRESH_WINDOW_DAYS', 14);
+const FRESH_WINDOW_MS = FRESH_WINDOW_DAYS * 86_400_000;
 // research_note trotz hohem Score/Nachrichtenwert ⇒ Draft-Versuch mit erzwungener
 // Web-Suche (Primärquellen aktiv suchen statt Story liegen lassen).
 const ESCALATE_SCORE = envFloat('AI_NEWS_ESCALATE_SCORE', 0.75);
@@ -104,6 +121,10 @@ async function main(): Promise<void> {
   const sourceById = new Map(registry.sources.map((s) => [s.id, s]));
   const seen = loadSeenItems();
   const stories = loadStoryMemory();
+  // Permanenter Artikel-Index (E54): speist den Verwandte-Stories-Finder
+  // (Backlinks jeden Alters) + das Alters-Gate — unabhängig von story-memory.
+  const articleIndex = loadArticleIndex();
+  const articleBySlug = new Map(articleIndex.map((e) => [e.slug, e]));
   const health = loadSourceHealth();
   const history = loadRunHistory();
 
@@ -277,7 +298,7 @@ async function main(): Promise<void> {
 
   for (const { cluster, score } of toTriage) {
     const story = matchStory(cluster, stories);
-    const relatedCandidates = findRelatedStories(cluster, stories, story);
+    const relatedCandidates = findRelatedStories(cluster, articleIndex, story?.slug, now);
     const fulltexts = await enrichClusterWithFulltext(cluster);
     try {
       const triage = await triageCluster(
@@ -363,17 +384,28 @@ async function main(): Promise<void> {
     const { cluster, triage } = entry;
     let story = entry.story; // strenger Match (Resonanz/Dedup)
 
-    // E53: Haiku kann eine verwandte publizierte Story benannt haben (relatedSlug),
-    // die matchStory (streng) nicht fand — entweder Update-Ziel oder Bezugsartikel
-    // eines Delta-Artikels. relatedSlug ist bereits gegen die Kandidaten validiert.
-    const relatedStory = triage.relatedSlug ? stories.stories[triage.relatedSlug] : undefined;
-    const relatedArticleFile = relatedStory?.articlePath ? readExistingArticle(relatedStory.slug) : null;
-    const relatedHasArticle = !!relatedArticleFile;
+    // E53/E54: Haiku kann eine verwandte publizierte Story benannt haben (relatedSlug) —
+    // Update-Ziel oder Bezugsartikel eines Delta-Artikels. Der Bezugsartikel wird über
+    // den permanenten Artikel-Index aufgelöst (Delta-Backlinks jeden Alters), NICHT über
+    // die kurzlebige story-memory. relatedSlug ist bereits gegen die Kandidaten validiert.
+    let relatedEntry = triage.relatedSlug ? articleBySlug.get(triage.relatedSlug) : undefined;
+    let relatedHasArticle = !!relatedEntry;
+    // Update-Ziel muss eine noch gemerkte Story sein (Throttle/Resonanz/Upsert): Haiku-Slug
+    // in memory, sonst der strenge Match. Nur Stories mit Artikel sind Update-fähig (E31).
+    const relatedStoryMem = triage.relatedSlug ? stories.stories[triage.relatedSlug] : undefined;
+    let updateTarget: Story | undefined =
+      relatedHasArticle && relatedStoryMem?.articlePath ? relatedStoryMem : story?.articlePath ? story : undefined;
 
-    // Update-Ziel: bevorzugt die von Haiku benannte Story, sonst der strenge Match.
-    // Nur Stories mit real existierendem Artikel sind Update-fähig (E31).
-    const updateTarget: Story | undefined =
-      relatedHasArticle && relatedStory ? relatedStory : story?.articlePath ? story : undefined;
+    // Alters-Gate (E54): Ein Update-Ziel jenseits des Frischefensters wird NICHT mehr
+    // in-place aktualisiert — die neue Entwicklung wird ein eigenständiger Delta-Artikel
+    // mit Rückverweis. Die Altstory behält ihr Datum → sauberes Archiv, der neue Artikel
+    // ist frisch + indexiert. Ein Fenster teilt sich mit dem Frontend-Archiv (articles.ts).
+    if (updateTarget && articleOlderThanFreshWindow(updateTarget.slug, articleBySlug, now)) {
+      if (!relatedEntry) relatedEntry = articleBySlug.get(updateTarget.slug);
+      relatedHasArticle = !!relatedEntry;
+      console.log(`Alters-Gate (E54): ${updateTarget.slug} ≥ ${FRESH_WINDOW_DAYS} d alt → Delta statt Update.`);
+      updateTarget = undefined;
+    }
 
     let action = triage.action;
 
@@ -451,14 +483,15 @@ async function main(): Promise<void> {
         existingArticle: existingArticle
           ? { slug: updateStory!.slug, frontmatterYaml: existingArticle.frontmatterYaml, body: existingArticle.body }
           : undefined,
-        // E53: Delta-Draft bekommt den Bezugsartikel als „bereits berichtet"-Kontext.
+        // E53/E54: Delta-Draft bekommt den Bezugsartikel als „bereits berichtet"-Kontext,
+        // aufgelöst aus dem permanenten Artikel-Index (jeden Alters).
         relatedArticle:
-          isDelta && relatedArticleFile && relatedStory
+          isDelta && relatedEntry
             ? {
-                slug: relatedStory.slug,
-                title: String(relatedArticleFile.frontmatter.title ?? relatedStory.canonicalTitle),
-                summary: (relatedArticleFile.frontmatter.summary as { text: string; kind: 'fact' | 'open' }[]) ?? [],
-                openQuestions: (relatedArticleFile.frontmatter.openQuestions as string[]) ?? [],
+                slug: relatedEntry.slug,
+                title: relatedEntry.title,
+                summary: relatedEntry.summary,
+                openQuestions: relatedEntry.openQuestions,
               }
             : undefined,
         useWebSearch,
@@ -551,13 +584,13 @@ async function main(): Promise<void> {
         resonance: existingFm?.resonance,
         // E53: Delta-Artikel verweist auf den Bezugsartikel; Updates behalten
         // bestehende relatedSlugs (writeArticle baut das Frontmatter sonst neu).
-        relatedSlugs: isDelta && relatedStory ? [relatedStory.slug] : existingFm?.relatedSlugs,
+        relatedSlugs: isDelta && relatedEntry ? [relatedEntry.slug] : existingFm?.relatedSlugs,
       });
 
       // E53: Delta-Artikel bidirektional verlinken — Bezugsartikel bekommt den
       // Rückverweis (analog patchArticleResonance).
-      if (isDelta && relatedStory && patchArticleRelated(relatedStory.slug, slug)) {
-        console.log(`Delta-Artikel ${slug} ↔ ${relatedStory.slug} verlinkt.`);
+      if (isDelta && relatedEntry && patchArticleRelated(relatedEntry.slug, slug)) {
+        console.log(`Delta-Artikel ${slug} ↔ ${relatedEntry.slug} verlinkt.`);
       }
 
       const researchPath = join(DATA_DIR, 'research', dateStamp, `${slug}${isUpdate ? `-update-${now.getUTCHours()}00` : ''}.json`);
@@ -694,34 +727,55 @@ function writeResearchNote(dateStamp: string, cluster: Cluster, triage: TriageRe
 }
 
 /**
- * High-Recall-Kandidaten für die Update-vs-Delta-Entscheidung (E53): publizierte
- * Stories mit Artikel, deren Titel genug markante Tokens mit dem Cluster teilen
- * (fuzzy overlap, komposita-tolerant). Der strenge matchStory-Treffer wird IMMER
- * als Kandidat aufgenommen (auch bei geringem Titel-Overlap — er matchte über URL
- * oder Jaccard). Die eigentliche Präzision liefert danach die Haiku-Triage.
+ * High-Recall-Kandidaten für die Update-vs-Delta-Entscheidung (E53, revidiert E54):
+ * publizierte Artikel aus dem permanenten Platten-Index (jeden Alters — story-memory
+ * vergisst nach 30 d), deren Titel genug markante Tokens mit dem Cluster teilen (fuzzy
+ * overlap, komposita-tolerant). Recency-gewichtet: ein additiver Boost 0..1 verhindert,
+ * dass ein frischer, echt verwandter Artikel von alten Zufalls-Overlaps aus den Slots
+ * verdrängt wird — hebt aber keinen schwachen über einen deutlich stärkeren alten Match.
+ * Der strenge matchStory-Treffer (strictSlug) wird IMMER aufgenommen. Präzision liefert
+ * danach die Haiku-Triage.
  */
 function findRelatedStories(
   cluster: Cluster,
-  memory: { stories: Record<string, Story> },
-  strict: Story | undefined,
+  articleIndex: ArticleIndexEntry[],
+  strictSlug: string | undefined,
+  now: Date,
 ): RelatedCandidate[] {
   const clusterTokens = titleTokens(cluster.title);
-  const scored: { story: Story; overlap: number }[] = [];
-  for (const story of Object.values(memory.stories)) {
-    if (story.status !== 'published' || !story.articlePath) continue;
-    const overlap = overlapCount(clusterTokens, titleTokens(story.canonicalTitle));
-    const isStrict = strict?.slug === story.slug;
+  const nowMs = now.getTime();
+  const scored: { entry: ArticleIndexEntry; rank: number }[] = [];
+  for (const entry of articleIndex) {
+    if (entry.status !== 'published') continue;
+    const overlap = overlapCount(clusterTokens, titleTokens(entry.title));
+    const isStrict = strictSlug === entry.slug;
     if (overlap < RELATED_MIN_OVERLAP && !isStrict) continue;
-    scored.push({ story, overlap: isStrict ? Number.MAX_SAFE_INTEGER : overlap });
+    const ref = entry.updatedAt ?? entry.publishedAt;
+    const ageDays = ref ? Math.max(0, (nowMs - Date.parse(ref)) / 86_400_000) : 3650;
+    const recencyBoost = Math.pow(0.5, ageDays / RELATED_RECENCY_HALF_LIFE_DAYS); // 0..1
+    const rank = isStrict ? Number.MAX_SAFE_INTEGER : overlap + recencyBoost;
+    scored.push({ entry, rank });
   }
-  scored.sort((a, b) => b.overlap - a.overlap);
-  return scored.slice(0, RELATED_MAX_CANDIDATES).map(({ story }) => ({
-    slug: story.slug,
-    canonicalTitle: story.canonicalTitle,
-    status: story.status,
-    hasPublishedArticle: !!story.articlePath,
-    openQuestions: story.openQuestions,
+  scored.sort((a, b) => b.rank - a.rank);
+  return scored.slice(0, RELATED_MAX_CANDIDATES).map(({ entry }) => ({
+    slug: entry.slug,
+    canonicalTitle: entry.title,
+    status: 'published',
+    hasPublishedArticle: true,
+    openQuestions: entry.openQuestions,
   }));
+}
+
+/** Alters-Gate (E54): Artikel jenseits des Frischefensters (Basis lastUpdated) — dann Delta statt Update. */
+function articleOlderThanFreshWindow(
+  slug: string,
+  articleBySlug: Map<string, ArticleIndexEntry>,
+  now: Date,
+): boolean {
+  const entry = articleBySlug.get(slug);
+  const ref = entry?.updatedAt ?? entry?.publishedAt;
+  if (!ref) return false;
+  return now.getTime() - Date.parse(ref) >= FRESH_WINDOW_MS;
 }
 
 function matchStory(cluster: Cluster, memory: { stories: Record<string, Story> }): Story | undefined {

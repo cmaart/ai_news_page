@@ -1,10 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { isListed, TOPIC_LABELS, TOPICS } from '../../lib/articles';
+import { isFresh, TOPIC_LABELS, TOPICS } from '../../lib/articles';
 import { withBase } from '../../lib/url';
 
-const articles = (await getCollection('articles')).filter(isListed);
+// Zählung deckt sich mit den Themen-Seiten: nur frische Artikel (E54).
+const articles = (await getCollection('articles')).filter(isFresh);
 const counts = new Map(TOPICS.map((t) => [t, articles.filter((a) => a.data.topic === t).length]));
 ---
 

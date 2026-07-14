@@ -78,6 +78,24 @@ export function isBuilt(article: Article): boolean {
   return isListed(article) || article.data.status === 'retracted' || article.data.status === 'archived';
 }
 
+// Alters-Archiv (E54): Nach diesem Fenster fällt ein Artikel aus den Listen
+// (Startseite, Themen, RSS) — bleibt aber `published`, gebaut und indexiert
+// (Direkt-URL, Sitemap, /archiv/). KEIN noindex, keine Statusänderung. Ein
+// Konstante teilt sich mit dem Pipeline-Alters-Gate (run.ts, AI_NEWS_FRESH_WINDOW_DAYS).
+export const FRESH_WINDOW_DAYS = Number(process.env.AI_NEWS_FRESH_WINDOW_DAYS) || 14;
+const FRESH_WINDOW_MS = FRESH_WINDOW_DAYS * 86_400_000;
+
+/**
+ * Aktuell genug für die Listen-Oberflächen (E54): gelistet UND jünger als das
+ * Frischefenster. Basis ist `lastUpdated` (updatedAt ?? publishedAt) — ein
+ * substanzielles Update innerhalb des Fensters hält den Artikel frisch.
+ */
+export function isFresh(article: Article, now: number = BUILD_NOW): boolean {
+  if (!isListed(article)) return false;
+  const ref = lastUpdated(article.data);
+  return !!ref && now - ref.getTime() < FRESH_WINDOW_MS;
+}
+
 export function byNewest(a: Article, b: Article): number {
   return (b.data.publishedAt?.getTime() ?? 0) - (a.data.publishedAt?.getTime() ?? 0);
 }
