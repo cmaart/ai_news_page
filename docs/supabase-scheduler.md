@@ -14,10 +14,11 @@ Projekt: `gmpxplyjbcabliuzhfne` · https://gmpxplyjbcabliuzhfne.supabase.co
 | `supabase/config.toml` | CLI-Konfiguration; `[functions.trigger-ai-news] verify_jwt = false` (Auth macht der Function-Code) |
 | `supabase/migrations/20260710063014_setup_ai_news_cron.sql` | Aktiviert `pg_cron` + `pg_net`, legt Cron-Job `trigger-ai-news-research` an (`7,37 * * * *`) |
 | `supabase/migrations/20260710105445_ai_news_cron_hourly.sql` | Reduziert den Cron-Job auf stündlich (`7 * * * *`) |
+| `supabase/migrations/20260713130000_ai_news_cron_every_2h.sql` | Reduziert den Cron-Job auf alle 2 Stunden (`7 */2 * * *`) |
 | `supabase/migrations/20260711100000_daily_site_rebuild_cron.sql` | Cron-Job `trigger-daily-site-rebuild` (`19 5 * * *`): dispatcht täglich `deploy.yml`, damit der Resonanz-Decay im Ranking auch ohne Content-Pushes sichtbar wird (E46) |
 | `supabase/functions/trigger-ai-news/index.ts` | Edge Function: ruft GitHub `workflow_dispatch` auf — Default `ai-news-research.yml`, per Body-Parameter `{"workflow": "deploy.yml"}` übersteuerbar (strikte Allowlist im Code). Auth: `withSupabase({ auth: 'secret' })` (npm-Paket `@supabase/server`) — nur Secret-API-Keys des Projekts kommen durch, die Function ist nicht öffentlich auslösbar |
 
-Ablauf zur Laufzeit: pg_cron führt stündlich `net.http_post` aus (URL + Secret-Key aus dem
+Ablauf zur Laufzeit: pg_cron führt alle 2 Stunden `net.http_post` aus (URL + Secret-Key aus dem
 **Vault**), die Edge Function schickt mit dem GitHub-PAT den Dispatch, GitHub startet den Workflow.
 
 ## Deployment (einmalig)

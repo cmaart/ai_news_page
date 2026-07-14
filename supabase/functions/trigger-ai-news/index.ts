@@ -1,5 +1,5 @@
 // Startet einen GitHub-Actions-Workflow per workflow_dispatch.
-// Aufrufer: pg_cron-Jobs `trigger-ai-news-research` (stündlich, Pipeline) und
+// Aufrufer: pg_cron-Jobs `trigger-ai-news-research` (alle 2 h, Pipeline) und
 // `trigger-daily-site-rebuild` (täglich, deploy.yml — Resonanz-Decay braucht
 // Builds auch ohne Content-Pushes, PLAN.md E46). Der Ziel-Workflow kommt
 // optional aus dem Request-Body ({"workflow": "deploy.yml"}), strikt gegen
