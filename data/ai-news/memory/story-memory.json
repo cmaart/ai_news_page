@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T06:30:26.478Z",
+  "updatedAt": "2026-07-15T08:20:45.457Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1446,7 +1446,8 @@
       "doNotRedraftBefore": "2026-07-12T15:07:25.182Z",
       "doNotUpdateBefore": "2026-07-11T21:07:25.182Z",
       "echoPublishers": {
-        "diepresse": "2026-07-14T14:07:34.240Z"
+        "diepresse": "2026-07-14T14:07:34.240Z",
+        "apa": "2026-07-15T08:07:27.506Z"
       }
     },
     "kuba-zweiter-blackout-juli-2026": {
@@ -1589,8 +1590,12 @@
       "doNotRedraftBefore": "2026-07-12T19:07:27.203Z",
       "doNotUpdateBefore": "2026-07-12T01:07:27.203Z",
       "echoPublishers": {
-        "derstandard": "2026-07-15T06:07:27.992Z"
-      }
+        "derstandard": "2026-07-15T08:07:27.506Z",
+        "kurier": "2026-07-15T08:07:27.506Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-15T08:07:27.506Z"
     },
     "deutschland-klimaziel-2045-verschiebung-forderungen-juli-2026": {
       "canonicalTitle": "Forderungen aus Wirtschaft und Gewerkschaften: Deutsches Klimaziel 2045 soll verschoben werden",
@@ -4430,27 +4435,38 @@
       "canonicalTitle": "Vorwürfe gegen Chef des Wiener Marktamts: Sexismus, Rassismus, Mobbing",
       "slug": "vorwuerfe-marktamt-chef-kutheil-juli-2026",
       "firstSeenAt": "2026-07-14T18:07:25.047Z",
-      "lastUpdatedAt": "2026-07-14T18:07:25.047Z",
+      "lastUpdatedAt": "2026-07-15T08:07:27.506Z",
       "status": "published",
       "articlePath": "src/content/articles/vorwuerfe-marktamt-chef-kutheil-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/vorwuerfe-marktamt-chef-kutheil-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-15/vorwuerfe-marktamt-chef-kutheil-juli-2026-update-800.json",
       "sourceUrls": [
         "https://wien.orf.at/stories/3362673",
         "https://www.ots.at/presseaussendung/OTS_20260714_OTS0099/fpoe-nepp-zu-den-erschuetternden-vorwuerfen-gegen-marktamt-chef-sima-traegt-volle-verantwortung",
         "https://kurier.at/chronik/wien/andreas-kutheil-wiener-marktamt-vorwuerfe-mobbing-sexismus-rassismus/403176146",
         "https://www.meinbezirk.at/wien/c-lokales/schwere-vorwuerfe-gegen-wiener-marktamt-chef-kutheil_a8798544",
-        "https://presse.wien.gv.at/2018/01/31/andreas-kutheil-ist-neuer-direktor-der-ma-59-marktamt"
+        "https://presse.wien.gv.at/2018/01/31/andreas-kutheil-ist-neuer-direktor-der-ma-59-marktamt",
+        "https://www.derstandard.at/story/3000000331529/mitarbeiter-erheben-rassismus-misogynie-und-mobbing-vorwuerfe-gegen-wiener-marktamt-chef",
+        "https://www.ots.at/presseaussendung/OTS_20260715_OTS0033/gruene-wienprack-zu-mobbing-sexismus-rassismusvorwuerfen-gegen-leitung-der-ma59-unabhaengige-untersuchung-dringend-notwendig"
       ],
       "openQuestions": [
         "Wie fällt das Ergebnis der Prüfung durch die Interne Revision der Stadt Wien aus?",
+        "Wird tatsächlich ein Disziplinarverfahren gegen Andreas Kutheil eingeleitet?",
         "Wird sich Andreas Kutheil selbst öffentlich zu den Vorwürfen äußern?",
-        "Wie reagiert die zuständige Stadträtin Ulli Sima (SPÖ) konkret auf die Vorwürfe und die Kritik der FPÖ?",
+        "Wie reagieren die aktuell zuständige Vizebürgermeisterin Bettina Emmerling (NEOS) und die frühere zuständige Stadträtin Ulli Sima (SPÖ) offiziell auf die Vorwürfe und die Kritik von FPÖ und Grünen?",
         "Welche Details enthält der vollständige, kostenpflichtige „Falter“-Bericht, die über die bisher zugänglichen Auszüge hinausgehen?",
+        "Betreffen die Vorwürfe auch Kutheils Stellvertreter in einem eigenständigen Verfahren, oder wird nur gegen Kutheil selbst ermittelt?",
         "Zieht die Stadt Wien vor Abschluss der Prüfung bereits personelle oder organisatorische Konsequenzen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-15T18:07:25.047Z",
-      "doNotUpdateBefore": "2026-07-15T00:07:25.047Z"
+      "doNotRedraftBefore": "2026-07-16T08:07:27.506Z",
+      "doNotUpdateBefore": "2026-07-15T14:07:27.506Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-15T08:07:27.506Z",
+        "apa": "2026-07-15T08:07:27.506Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-15T08:07:27.506Z"
     },
     "gaza-israel-angriffe-neun-tote-juli-2026": {
       "canonicalTitle": "Gazastreifen: Laut Behörden mindestens neun Tote bei israelischen Angriffen",
@@ -4652,6 +4668,56 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-16T06:07:27.992Z",
       "doNotUpdateBefore": "2026-07-15T12:07:27.992Z"
+    },
+    "flugzeugabsturz-gaming-15-jaehrige-befragt-juli-2026": {
+      "canonicalTitle": "Flugzeugabsturz in Gaming: 15-Jährige berichtet laut Ermittlern von mehreren Motoraussetzern",
+      "slug": "flugzeugabsturz-gaming-15-jaehrige-befragt-juli-2026",
+      "firstSeenAt": "2026-07-15T08:07:27.506Z",
+      "lastUpdatedAt": "2026-07-15T08:07:27.506Z",
+      "status": "published",
+      "articlePath": "src/content/articles/flugzeugabsturz-gaming-15-jaehrige-befragt-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/flugzeugabsturz-gaming-15-jaehrige-befragt-juli-2026.json",
+      "sourceUrls": [
+        "https://noe.orf.at/stories/3362760",
+        "https://www.kleinezeitung.at/artikel/37393129/flugzeugabsturz-in-noe-wohl-durch-defekt-ausgeloest",
+        "https://kurier.at/chronik/niederoesterreich/absturz-piper-flugzeug-absturzursache/403176053",
+        "https://noe.orf.at/stories/3362531/",
+        "https://www.sn.at/panorama/oesterreich/flugzeugabsturz-in-noe-wohl-durch-defekt-ausgeloest-art-662227",
+        "https://www.heute.at/s/letzter-funkspruch-enthuellt-drama-vor-flugzeug-absturz-120222677"
+      ],
+      "openQuestions": [
+        "Welche technische Ursache dem mutmaßlichen Motorausfall konkret zugrunde liegt, ist bislang nicht abschließend geklärt.",
+        "Wie der aktuelle Gesundheitszustand des schwer verletzten 41-Jährigen ist, wurde in den gesichteten Quellen nicht einheitlich aktualisiert.",
+        "Wann der offizielle Abschlussbericht der Sicherheitsuntersuchungsstelle des Bundes vorliegen wird, ist offen.",
+        "Zur Identität der zweiten getöteten Person liegen in den gesichteten Quellen keine über Alter und Geschlecht hinausgehenden, verifizierten Angaben vor."
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-16T08:07:27.506Z",
+      "doNotUpdateBefore": "2026-07-15T14:07:27.506Z"
+    },
+    "traktorunfall-satteins-vorarlberg-vater-tochter-tot-juli-2026": {
+      "canonicalTitle": "Traktorunfall in Vorarlberg: Vater und sechsjährige Tochter sterben, zweite Tochter verletzt",
+      "slug": "traktorunfall-satteins-vorarlberg-vater-tochter-tot-juli-2026",
+      "firstSeenAt": "2026-07-15T08:07:27.506Z",
+      "lastUpdatedAt": "2026-07-15T08:07:27.506Z",
+      "status": "published",
+      "articlePath": "src/content/articles/traktorunfall-satteins-vorarlberg-vater-tochter-tot-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/traktorunfall-satteins-vorarlberg-vater-tochter-tot-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/vorarlberg/traktorunfall-in-vorarlberg-lenker-und-sechsjaehrige-tochter-tot/403176179",
+        "https://vorarlberg.orf.at/stories/3362731",
+        "https://www.derstandard.at/story/3000000331516/traktorunfall-in-vorarlberg-lenker-und-sechsj228hrige-tochter-tot",
+        "https://www.diepresse.com/37380444/traktorunfall-in-vorarlberg-lenker-und-sechsjaehrige-tochter-tot",
+        "https://www.kleinezeitung.at/artikel/37380438/traktorunfall-in-vorarlberg-mit-zwei-toten"
+      ],
+      "openQuestions": [
+        "Wie ist die genaue Unfallursache (z. B. technisches Versagen, Geländebeschaffenheit) zu erklären?",
+        "Wie lange dauerte es konkret, bis der Unfall bemerkt und der Notruf abgesetzt wurde?",
+        "In welchem gesundheitlichen Zustand befindet sich die verletzte Vierjährige?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-16T08:07:27.506Z",
+      "doNotUpdateBefore": "2026-07-15T14:07:27.506Z"
     }
   }
 }
