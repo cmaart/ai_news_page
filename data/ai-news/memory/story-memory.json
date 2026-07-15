@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T18:20:06.570Z",
+  "updatedAt": "2026-07-15T20:20:16.555Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1760,7 +1760,7 @@
       "echoPublishers": {
         "kleinezeitung": "2026-07-15T04:07:24.790Z",
         "diepresse": "2026-07-15T18:07:30.161Z",
-        "orf": "2026-07-15T06:07:27.992Z",
+        "orf": "2026-07-15T20:07:27.471Z",
         "kurier": "2026-07-15T12:07:30.734Z"
       },
       "resonanceLevel": 3,
@@ -4057,7 +4057,7 @@
       "doNotRedraftBefore": "2026-07-16T02:07:27.786Z",
       "doNotUpdateBefore": "2026-07-15T08:07:27.786Z",
       "echoPublishers": {
-        "apa": "2026-07-15T18:07:30.161Z",
+        "apa": "2026-07-15T20:07:27.471Z",
         "arstechnica": "2026-07-15T00:07:34.045Z",
         "techcrunch": "2026-07-15T14:07:30.789Z"
       },
@@ -4188,12 +4188,10 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-15T20:07:26.223Z",
       "doNotUpdateBefore": "2026-07-15T02:07:26.223Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-14T20:07:26.223Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T20:07:26.223Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-15T20:07:27.471Z"
     },
     "ukraine-raffinerien-angriff-russland-juli-2026": {
       "canonicalTitle": "Ukraine greift laut Berichten russische Raffinerien an – Russland attackiert Kiew mit Raketen, laut Behörden mehrere Tote",
@@ -5002,6 +5000,86 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-16T18:07:30.161Z",
       "doNotUpdateBefore": "2026-07-16T00:07:30.161Z"
+    },
+    "ukraine-verteidigungsminister-fedorow-ruecktritt-juli-2026": {
+      "canonicalTitle": "Ukraine: Verteidigungsminister Fedorow geht, Regierungsumbau unter Selenskyj läuft weiter",
+      "slug": "ukraine-verteidigungsminister-fedorow-ruecktritt-juli-2026",
+      "firstSeenAt": "2026-07-15T20:07:27.471Z",
+      "lastUpdatedAt": "2026-07-15T20:07:27.471Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ukraine-verteidigungsminister-fedorow-ruecktritt-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/ukraine-verteidigungsminister-fedorow-ruecktritt-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436311",
+        "https://www.diepresse.com/37654455/ukrainischer-verteidigungsminister-fedorow-erklaert-seinen-ruecktritt",
+        "https://kurier.at/politik/ausland/ukrainischer-verteidigungsminister-fedorow-erklaert-seinen-ruecktritt/403176372",
+        "https://kyivindependent.com/utterly-baffling-soldiers-activists-slam-fedorovs-removal-as-defense-minister/",
+        "https://www.euronews.com/my-europe/2026/07/15/zelenskyy-dismisses-ukraines-popular-defence-minister-mykhailo-fedorov",
+        "https://www.pravda.com.ua/eng/articles/2026/07/13/8043869/",
+        "https://kyivindependent.com/naftogaz-ceo-koretskyi-likely-to-become-ukraines-next-prime-minister-sources-say/"
+      ],
+      "openQuestions": [
+        "Was sind die tatsächlichen Gründe für Fedorows Abgang – freiwilliger Rücktritt oder Ablöse wegen interner Konflikte?",
+        "Wer übernimmt das Verteidigungsministerium als Nachfolge?",
+        "Bestätigt das Parlament Serhij Korezkyj wie erwartet am Donnerstag als Ministerpräsidenten?",
+        "Welche Funktion wird Fedorow künftig in der ukrainischen Regierung oder Verwaltung ausüben?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-16T20:07:27.471Z",
+      "doNotUpdateBefore": "2026-07-16T02:07:27.471Z"
+    },
+    "ferienverlegung-hitze-wallner-schwierig-juli-2026": {
+      "canonicalTitle": "Hitzebedingte Ferienverlegung: Wallner sieht Umsetzung „schwierig“",
+      "slug": "ferienverlegung-hitze-wallner-schwierig-juli-2026",
+      "firstSeenAt": "2026-07-15T20:07:27.471Z",
+      "lastUpdatedAt": "2026-07-15T20:07:27.471Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ferienverlegung-hitze-wallner-schwierig-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/ferienverlegung-hitze-wallner-schwierig-juli-2026.json",
+      "sourceUrls": [
+        "https://vorarlberg.orf.at/stories/3362814",
+        "https://www.derstandard.at/story/3000000331608/hitzebedingte-ferienverlegung-fuer-landeshauptmann-wallner-schwierig",
+        "https://kurier.at/chronik/oesterreich/hitze-ferienverlegung-wallner-schwierig-sommer/403176276",
+        "https://wien.orf.at/stories/3359823/",
+        "https://www.derstandard.at/story/3000000328612/wiener-bildungsstadtraetin-emmerling-will-sommerferien-vorverlegen",
+        "https://www.news.at/politik/regierung-bei-sommerferien-vorverlegung-diskussionsbereit",
+        "https://www.vol.at/hitze-ferienverlegung-fuer-wallner-schwierig/10326140"
+      ],
+      "openQuestions": [
+        "Wann und in welcher konkreten Form könnte eine Ferienverlegung beschlossen werden?",
+        "Wie positionieren sich die übrigen Landeshauptleute im Detail – reicht die vielzitierte „Offenheit“ für einen Konsens?",
+        "Welche wissenschaftliche Grundlage stützt die Annahme, dass Schulgebäude ab Mitte August besser durchgelüftet werden können?",
+        "Wie sollen kurzfristige Betreuungsprobleme für Eltern bei einer Vorverlegung gelöst werden?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-16T20:07:27.471Z",
+      "doNotUpdateBefore": "2026-07-16T02:07:27.471Z"
+    },
+    "stuibenfall-polizeischuelerin-toedlicher-sturz-juli-2026": {
+      "canonicalTitle": "34-jährige Polizeischülerin stirbt nach Sturz in Tiroler Wasserfall",
+      "slug": "stuibenfall-polizeischuelerin-toedlicher-sturz-juli-2026",
+      "firstSeenAt": "2026-07-15T20:07:27.471Z",
+      "lastUpdatedAt": "2026-07-15T20:07:27.471Z",
+      "status": "published",
+      "articlePath": "src/content/articles/stuibenfall-polizeischuelerin-toedlicher-sturz-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/stuibenfall-polizeischuelerin-toedlicher-sturz-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331666/sturz-in-tiroler-wasserfall-polizeisch252lerin-noch-nicht-gefunden",
+        "https://www.kleinezeitung.at/artikel/37627067/polizeischuelerin-stuerzte-offenbar-in-wasserfall",
+        "https://www.diepresse.com/37649137/polizeischuelerin-nach-sturz-in-tiroler-wasserfall-tot-aufgefunden",
+        "https://tirol.orf.at/stories/3362838/",
+        "https://www.tt.com/artikel/30938223/tragoedie-am-stuibenfall-polizeischuelerin-nach-stundenlanger-suche-tot-aufgefunden",
+        "https://www.salzburg24.at/news/oesterreich/polizeischuelerin-stuerzt-am-stuibenfall-klettersteig-in-wasserfall-und-stirbt-suchaktion-im-oetztal-endet-tragisch-art-331960"
+      ],
+      "openQuestions": [
+        "Wie genau kam es zu dem Sturz beim Überqueren der Seilbrücke?",
+        "Welche Sicherheitsvorkehrungen galten bei dieser Alpinausbildung der Polizei?",
+        "Werden die Ermittlungen tatsächlich von einer anderen Landespolizeidirektion geführt, und mit welchem Ergebnis?",
+        "Gibt es infolge des Unfalls Konsequenzen für künftige Ausbildungen am Stuibenfall-Klettersteig?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-16T20:07:27.471Z",
+      "doNotUpdateBefore": "2026-07-16T02:07:27.471Z"
     }
   }
 }
