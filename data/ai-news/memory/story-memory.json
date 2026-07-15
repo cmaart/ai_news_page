@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T14:20:02.347Z",
+  "updatedAt": "2026-07-15T16:23:17.399Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1451,12 +1451,11 @@
       "doNotRedraftBefore": "2026-07-12T15:07:25.182Z",
       "doNotUpdateBefore": "2026-07-11T21:07:25.182Z",
       "echoPublishers": {
-        "diepresse": "2026-07-14T14:07:34.240Z",
         "apa": "2026-07-15T08:07:27.506Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-15T10:07:41.799Z"
+      "resonanceMeasuredAt": "2026-07-15T16:07:31.742Z"
     },
     "kuba-zweiter-blackout-juli-2026": {
       "canonicalTitle": "Kuba: Zweiter inselweiter Stromausfall binnen einer Woche",
@@ -1769,9 +1768,9 @@
         "orf": "2026-07-15T06:07:27.992Z",
         "kurier": "2026-07-15T12:07:30.734Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T14:07:30.789Z"
+      "resonanceMeasuredAt": "2026-07-15T16:07:31.742Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -2050,9 +2049,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T10:07:25.258Z",
       "doNotUpdateBefore": "2026-07-12T16:07:25.258Z",
-      "echoPublishers": {
-        "orf": "2026-07-14T14:07:34.240Z"
-      }
+      "echoPublishers": {}
     },
     "vw-blume-werksschliessungen-juli-2026": {
       "canonicalTitle": "VW-Chef Blume stellt \"intelligentere Lösungen\" statt Werksschließungen in Aussicht",
@@ -2552,13 +2549,13 @@
       "resonanceMeasuredAt": "2026-07-13T10:01:08.091Z"
     },
     "bangkok-bar-brand-tote-juli-2026": {
-      "canonicalTitle": "Brand in Bangkok-Bar: Zahl der Toten laut Medienberichten auf bis zu 32 gestiegen, Ermittler finden weitere Sicherheitsmängel",
+      "canonicalTitle": "Brand in Bangkok-Bar: Zahl der Toten laut Medienberichten auf bis zu 33 gestiegen, Behörden ordnen landesweite Sicherheitskontrollen an",
       "slug": "bangkok-bar-brand-tote-juli-2026",
       "firstSeenAt": "2026-07-12T21:07:27.634Z",
-      "lastUpdatedAt": "2026-07-14T10:07:30.428Z",
+      "lastUpdatedAt": "2026-07-15T16:07:31.742Z",
       "status": "published",
       "articlePath": "src/content/articles/bangkok-bar-brand-tote-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/bangkok-bar-brand-tote-juli-2026-update-1000.json",
+      "researchPath": "data/ai-news/research/2026-07-15/bangkok-bar-brand-tote-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://orf.at/stories/3436030",
         "https://kurier.at/chronik/welt/bangkok-feuer-brand-bar-na-ladprao-tote/403175725",
@@ -2583,23 +2580,36 @@
         "https://orf.at/stories/3436135/",
         "https://www.tagesanzeiger.ch/brand-in-bangkok-32-tote-nach-feuer-in-pub-689597731173",
         "https://www.srf.ch/news/international/brandkatastrophe-in-bangkok-schwere-sicherheitsmaengel-in-lokal-zahl-der-todesopfer-steigt",
-        "https://www.irishtimes.com/world/asia-pacific/2026/07/14/bangkok-bar-fire-death-toll-reaches-30-negligence-investigated-as-primary-theory/"
+        "https://www.irishtimes.com/world/asia-pacific/2026/07/14/bangkok-bar-fire-death-toll-reaches-30-negligence-investigated-as-primary-theory/",
+        "https://orf.at/stories/3436284",
+        "https://www.derstandard.at/story/3000000331528/zahl-der-toten-nach-pub-brand-in-bangkok-auf-30-gestiegen",
+        "https://www.derstandard.at/story/3000000331539/zahl-der-erdbeben-toten-in-venezuela-auf-mehr-als-4700-gestiegen",
+        "https://kurier.at/chronik/welt/bangkok-pub-brand-zahl-der-toten-gestiegen/403176159",
+        "https://english.news.cn/20260714/7bd0508fb8434633afaa3e18df1ebbf3/c.html",
+        "https://www.bangkokpost.com/thailand/general/3285909/fire-spurs-venue-law-rethink",
+        "https://www.anews.com.tr/world/2026/07/15/bangkok-bar-fire-toll-rises-to-32-as-pm-vows-venue-overhaul",
+        "https://www.npr.org/2026/07/14/g-s1-133425/death-toll-bangkok-fire",
+        "https://thethaiger.com/news/bangkok/31st-death-reported-in-bangkok-pub-fire-venues-licence-revoked"
       ],
       "openQuestions": [
-        "Wird eine einheitliche, offiziell von thailändischen Behörden bestätigte Zahl der Toten vorgelegt – Angaben schwanken derzeit zwischen 27 und 32?",
-        "Wie viele Menschen wurden tatsächlich verletzt, und wie viele davon schwer bzw. kritisch (Angaben schwanken zwischen rund 63 und über 70 Verletzten)?",
+        "Wird eine einheitliche, offiziell von thailändischen Behörden bestätigte Zahl der Toten vorgelegt – Angaben schwanken derzeit zwischen 27 und 33?",
+        "Wie viele Menschen wurden tatsächlich verletzt, und wie viele davon schwer bzw. kritisch (Angaben schwanken zwischen rund 63 und über 70 Verletzten, 15 bis 25 Schwerverletzten)?",
         "Bestätigt die noch ausstehende forensische Untersuchung den Kurzschluss in der Deckenklimaanlage als tatsächliche Brandursache?",
         "Trifft der Verdacht zu, dass eine Ausgangstür aus Angst vor Zechprellerei verriegelt wurde, und wird dies dem Betreiber zur Last gelegt?",
         "Werden gegen den Lokalbetreiber oder andere Verantwortliche strafrechtliche Schritte wegen Fahrlässigkeit eingeleitet?",
         "Wie ist zu erklären, dass die Aprilkontrolle funktionierende Notausgänge bestätigte, diese aber zum Zeitpunkt des Brands blockiert bzw. verriegelt waren?",
         "Wurden im Bereich der Bühne tatsächlich unerlaubte bauliche Umbauten vorgenommen, wie von Ermittlern geprüft wird?",
         "Gibt es unter den Opfern oder Verletzten ausländische Staatsangehörige, etwa aus Österreich oder der EU?",
-        "Wird die Abgabe von DNA-Proben durch Angehörige von weiteren Quellen bestätigt?"
+        "Welche Ergebnisse bringt die landesweite 30-Tage-Sicherheitskontrolle aller Unterhaltungslokale, und wie viele Betriebe werden geschlossen?",
+        "Wird der dauerhafte Entzug der Betriebslizenz des Lokals sowie das Verbot künftiger Unterhaltungsbetriebe am Standort von weiteren, unabhängigen Quellen bestätigt?",
+        "Führt die Debatte um die Regulierungslücke (Betrieb unter Restaurant- statt Unterhaltungslokal-Lizenz) zu einer Gesetzesänderung, wie von Regierungsvertretern in Aussicht gestellt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-15T10:07:30.428Z",
-      "doNotUpdateBefore": "2026-07-14T16:07:30.428Z",
-      "echoPublishers": {},
+      "doNotRedraftBefore": "2026-07-16T16:07:31.742Z",
+      "doNotUpdateBefore": "2026-07-15T22:07:31.742Z",
+      "echoPublishers": {
+        "orf": "2026-07-15T16:07:31.742Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-15T10:07:41.799Z"
@@ -2922,7 +2932,9 @@
       "echoPublishers": {
         "orf": "2026-07-15T10:07:41.799Z",
         "diepresse": "2026-07-15T12:07:30.734Z",
-        "kleinezeitung": "2026-07-15T12:07:30.734Z"
+        "kleinezeitung": "2026-07-15T12:07:30.734Z",
+        "derstandard": "2026-07-15T16:07:31.742Z",
+        "futurezone": "2026-07-15T16:07:31.742Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -4299,9 +4311,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T20:07:26.223Z",
       "doNotUpdateBefore": "2026-07-15T02:07:26.223Z",
-      "echoPublishers": {
-        "kurier": "2026-07-14T14:07:34.240Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-14T20:07:26.223Z"
@@ -4915,6 +4925,56 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T14:07:30.789Z",
       "doNotUpdateBefore": "2026-07-15T20:07:30.789Z"
+    },
+    "stripe-advent-paypal-uebernahmeangebot-juli-2026": {
+      "canonicalTitle": "Stripe und Advent bieten laut Reuters rund 53,4 Milliarden Dollar für PayPal",
+      "slug": "stripe-advent-paypal-uebernahmeangebot-juli-2026",
+      "firstSeenAt": "2026-07-15T16:07:31.742Z",
+      "lastUpdatedAt": "2026-07-15T16:07:31.742Z",
+      "status": "published",
+      "articlePath": "src/content/articles/stripe-advent-paypal-uebernahmeangebot-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/stripe-advent-paypal-uebernahmeangebot-juli-2026.json",
+      "sourceUrls": [
+        "https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b",
+        "https://www.diepresse.com/37381354/50-milliarden-fuer-paypal-stripe-und-advent-international-legen-kaufangebot",
+        "https://www.heise.de/news/PayPal-Uebernahme-Stripe-und-Advent-wollen-60-50-US-Dollar-pro-Aktie-bezahlen-11365050.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/PayPal-Uebernahme-Stripe-und-Advent-wollen-60-50-US-Dollar-pro-Aktie-bezahlen-11365050.html",
+        "https://www.cnbc.com/2026/07/15/stripe-advent-offer-to-buy-paypal-for-more-than-53-billion-reuters.html",
+        "https://finance.yahoo.com/markets/stocks/articles/exclusive-stripe-advent-offer-buy-032515585.html"
+      ],
+      "openQuestions": [
+        "Wie reagiert der PayPal-Verwaltungsrat konkret auf das Angebot, und kommt es zu Verhandlungen?",
+        "Welche Banken stehen hinter der rund 50-Milliarden-Dollar-Fremdfinanzierung, und zu welchen Bedingungen?",
+        "Wie würden Kartell- bzw. Wettbewerbsbehörden auf einen Zusammenschluss zweier großer Zahlungsdienstleister reagieren?",
+        "Gibt es konkurrierende Angebote anderer Investoren für PayPal?",
+        "Trifft es zu, dass dem aktuellen Angebot bereits im Februar und April erste, informelle Kontakte vorausgingen?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-16T16:07:31.742Z",
+      "doNotUpdateBefore": "2026-07-15T22:07:31.742Z"
+    },
+    "ubisoft-barcelona-kuendigungen-streik-juli-2026": {
+      "canonicalTitle": "Ubisoft Barcelona: Nach Verkaufserfolg von „Black Flag Resynced“ 51 Kündigungen – Belegschaft laut Bericht im Streik",
+      "slug": "ubisoft-barcelona-kuendigungen-streik-juli-2026",
+      "firstSeenAt": "2026-07-15T16:07:31.742Z",
+      "lastUpdatedAt": "2026-07-15T16:07:31.742Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ubisoft-barcelona-kuendigungen-streik-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/ubisoft-barcelona-kuendigungen-streik-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331467/ubisoft-bedankt-sich-fuer-den-erfolg-von-black-flag-mit-kuendigungen",
+        "https://www.heise.de/news/Ubisoft-Barcelona-Streik-gegen-51-Kuendigungen-nach-Black-Flag-Erfolg-11365242.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Ubisoft-Barcelona-Streik-gegen-51-Kuendigungen-nach-Black-Flag-Erfolg-11365242.html"
+      ],
+      "openQuestions": [
+        "Gibt es eine offizielle Stellungnahme von Ubisoft zu Zeitplan und Begründung der Kündigungen?",
+        "Wie viele Stellen sind unternehmensweit bei Ubisoft insgesamt betroffen, und stimmen kolportierte Zahlen zu weiteren Studios?",
+        "Welche Organisation koordiniert den berichteten Streik konkret, und mit welchen Forderungen?",
+        "Gibt es Aussagen oder Zahlen von den unmittelbar betroffenen Mitarbeiterinnen und Mitarbeitern?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-16T16:07:31.742Z",
+      "doNotUpdateBefore": "2026-07-15T22:07:31.742Z"
     }
   }
 }
