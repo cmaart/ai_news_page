@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T20:20:16.555Z",
+  "updatedAt": "2026-07-15T22:26:09.181Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -784,9 +784,9 @@
       "doNotRedraftBefore": "2026-07-15T18:07:25.047Z",
       "doNotUpdateBefore": "2026-07-15T00:07:25.047Z",
       "echoPublishers": {},
-      "resonanceLevel": 4,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T22:07:26.045Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-15T22:07:29.036Z"
     },
     "widdecombe-mordermittlungen-festnahme-juli-2026": {
       "canonicalTitle": "Mordermittlungen nach Tod von Ann Widdecombe: 26-Jähriger festgenommen",
@@ -1595,7 +1595,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-15T08:07:27.506Z"
+      "resonanceMeasuredAt": "2026-07-15T22:07:29.036Z"
     },
     "deutschland-klimaziel-2045-verschiebung-forderungen-juli-2026": {
       "canonicalTitle": "Forderungen aus Wirtschaft und Gewerkschaften: Deutsches Klimaziel 2045 soll verschoben werden",
@@ -1680,13 +1680,13 @@
       "resonanceMeasuredAt": "2026-07-13T16:07:28.921Z"
     },
     "usa-iran-luftangriffe-strasse-von-hormus-juli-2026": {
-      "canonicalTitle": "Iran-Krieg: Trump zieht Hormus-Gebühr zurück, neue US-Angriffe auf Buschehr, Iran attackiert Öltanker – ein Toter",
+      "canonicalTitle": "Iran-Krieg: Neue US-Angriffswellen auf Chabahar und Bandar Abbas, Iran meldet über 30 tote Zivilisten, Trump droht mit Kraftwerks-Angriffen",
       "slug": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
       "firstSeenAt": "2026-07-12T06:07:23.718Z",
-      "lastUpdatedAt": "2026-07-14T22:07:26.045Z",
+      "lastUpdatedAt": "2026-07-15T22:07:29.036Z",
       "status": "published",
       "articlePath": "src/content/articles/usa-iran-luftangriffe-strasse-von-hormus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-2200.json",
+      "researchPath": "data/ai-news/research/2026-07-15/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
         "https://orf.at/stories/3435963",
@@ -1737,35 +1737,51 @@
         "https://www.sn.at/politik/weltpolitik/trump-rueckt-von-hormuz-gebuehr-ab-art-662175",
         "https://www.euronews.com/2026/07/14/us-strikes-bushehr-as-irans-parliament-tables-bill-to-control-hormuz",
         "https://www.t-online.de/nachrichten/ausland/usa/id_101342602/iran-krieg-der-usa-trump-droht-mit-schlag-gegen-atomanlage-im-iran.html",
-        "https://finanzmarktwelt.de/trump-20-prozent-hormus-gebuehr-ersetzt-395014/"
+        "https://finanzmarktwelt.de/trump-20-prozent-hormus-gebuehr-ersetzt-395014/",
+        "https://www.diepresse.com/37654830/us-militaer-verkuendet-start-neuer-angriffswelle-auf-den-iran",
+        "https://orf.at/stories/3436219",
+        "https://www.cnn.com/2026/07/15/world/live-news/iran-war-trump",
+        "https://www.haaretz.com/israel-news/israel-security/2026-07-15/ty-article-live/trump-threatens-to-attack-iranian-power-plants-bridges/0000019f-6383-d0b9-ab9f-73fb65c70000",
+        "https://www.aljazeera.com/news/2026/7/15/iran-says-peace-deal-voided-fighting-existential-war-after-us-attacks",
+        "https://www.aljazeera.com/news/2026/7/15/mapping-the-latest-us-strikes-across-iran",
+        "https://www.aljazeera.com/news/2026/7/15/us-attacks-iran-as-irgc-claims-strikes-on-us-military-sites-in-gulf",
+        "https://www.cnbc.com/2026/07/15/trump-iran-hormuz-strikes-power-plants-targeted.html",
+        "https://www.washingtonpost.com/world/2026/07/15/us-hits-dozens-iranian-targets-trump-demands-renewed-negotiations/",
+        "https://www.stripes.com/theaters/middle_east/2026-07-15/trump-iran-power-plant-war-22270571.html",
+        "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-media-reports-attacks-chabahar-and-explosions-iranshahr",
+        "https://prod.iranwire.com/en/news/154982-us-airstrike-hits-irans-bampur-army-barracks-leaving-dozens-of-casualties/",
+        "https://www.washingtontimes.com/news/2026/jul/15/iran-threatens-halt-energy-exports-us-reimposes-blockade-intensifies/",
+        "https://www.pbs.org/newshour/world/u-s-reimposes-blockade-and-steps-up-strikes-as-iran-threatens-to-halt-all-energy-exports-from-the-region"
       ],
       "openQuestions": [
-        "Wird der Tod des indischen Besatzungsmitglieds sowie das Ausmaß der Verletzungen durch weitere, von der Reederei oder indischen Behörden unabhängig bestätigte Angaben untermauert?",
+        "Wird der Tod des indischen Besatzungsmitglieds sowie das Ausmaß der Verletzungen durch weitere, unabhängig bestätigte Angaben untermauert?",
         "Wie reagieren die Vereinigten Arabischen Emirate konkret auf den Tanker-Angriff – welche „Reaktion“ behalten sie sich vor?",
         "Welche Golfstaaten haben sich zu welchen Investitionssummen in den USA verpflichtet, und bestätigen deren Regierungen dies unabhängig von Trumps Angaben?",
-        "Bleibt die von den USA angekündigte Seeblockade gegen Schiffe mit Bezug zu iranischen Häfen trotz der zurückgezogenen Gebühr tatsächlich in Kraft, und wie wird sie konkret durchgesetzt?",
         "Wurde die nukleare Anlage in Buschehr durch die Angriffe vom 14. Juli tatsächlich beschädigt, und gibt es dazu eine unabhängige Einschätzung der IAEA?",
         "Wird der iranische Gesetzentwurf zur dauerhaften Kontrolle der Straße von Hormus vom Parlament verabschiedet, und welche praktischen Folgen hätte das?",
-        "Wie viele US-Angriffswellen hat es seit dem Wiederaufflammen der Kämpfe inzwischen tatsächlich gegeben, und wie ordnet sich die jüngste Welle mit Seedrohnen-Einsatz im Vergleich zu vorherigen ein?",
+        "Wie viele US-Angriffswellen hat es seit dem Wiederaufflammen der Kämpfe inzwischen tatsächlich gegeben, und wie ordnen sich die Wellen vom 15. Juli in diese Zählung ein?",
         "Wird der Tod des iranischen Marinesoldaten im Hafen Jask von unabhängigen, nicht-iranischen Stellen bestätigt?",
-        "Gibt es weitere bestätigte Opferzahlen auf iranischer, US- oder verbündeter Seite, etwa in Bahrain, Kuwait, Jordanien, Oman oder Katar?",
-        "Wie stark ist der Schiffsverkehr durch die Straße von Hormus nach dem neuen Tanker-Angriff tatsächlich zurückgegangen?",
+        "Bestätigt eine unabhängige, nicht-iranische Stelle die von der Armee genannten sieben Toten und mehr als 260 Verletzten in Bampur sowie die von der Regierungssprecherin genannte Zahl von über 30 getöteten Zivilisten – und wie verhalten sich beide Zahlen zueinander?",
+        "Ist das im Juni vereinbarte Waffenstillstands-Rahmenabkommen durch Irans Erklärung tatsächlich endgültig hinfällig, oder kommt es – wie bereits zuvor – zu neuen Vermittlungsversuchen, etwa durch Oman?",
+        "Setzt Präsident Trump seine Drohung, kommende Woche iranische Kraftwerke und Brücken anzugreifen, tatsächlich um, und wie reagiert Iran darauf?",
+        "Wie stark ist der Schiffsverkehr durch die Straße von Hormus nach dem neuen Tanker-Angriff und der erneuten US-Blockade tatsächlich zurückgegangen?",
         "Was ist der aktuelle Zustand des zuvor angegriffenen, unter zyprischer Flagge fahrenden Containerschiffs und seines vermissten Besatzungsmitglieds?",
-        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die fortgesetzte Eskalation, die Angriffe nahe der Atomanlage Buschehr und Trumps wechselnde Hormus-Ankündigungen?",
-        "Plant Präsident Trump den angekündigten Angriff auf die unterirdische Anlage im Berg Kuh-e Kolang („Pickaxe Mountain“) tatsächlich, und was ergibt eine unabhängige IAEA-Prüfung der dortigen Bauarbeiten?"
+        "Wie reagieren EU-Institutionen und die österreichische Regierung auf die fortgesetzte Eskalation, die gemeldeten Opferzahlen und Trumps Drohungen?",
+        "Plant Präsident Trump den angekündigten Angriff auf die unterirdische Anlage im Berg Kuh-e Kolang („Pickaxe Mountain“) weiterhin, und was ergibt eine unabhängige IAEA-Prüfung der dortigen Bauarbeiten?",
+        "Setzt Iran die angedrohte Einstellung sämtlicher Energieexporte aus der Region tatsächlich um, und welche Folgen hätte das für globale Energiemärkte?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
-      "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
+      "doNotRedraftBefore": "2026-07-16T22:07:29.036Z",
+      "doNotUpdateBefore": "2026-07-16T04:07:29.036Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-15T04:07:24.790Z",
-        "diepresse": "2026-07-15T18:07:30.161Z",
+        "diepresse": "2026-07-15T22:07:29.036Z",
         "orf": "2026-07-15T20:07:27.471Z",
         "kurier": "2026-07-15T12:07:30.734Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T18:07:30.161Z"
+      "resonanceMeasuredAt": "2026-07-15T22:07:29.036Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -1825,7 +1841,6 @@
       "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
       "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
       "echoPublishers": {
-        "kurier": "2026-07-14T22:07:26.045Z",
         "diepresse": "2026-07-15T04:07:24.790Z"
       },
       "resonanceLevel": 3,
@@ -2499,7 +2514,7 @@
       "doNotRedraftBefore": "2026-07-16T06:07:27.992Z",
       "doNotUpdateBefore": "2026-07-15T12:07:27.992Z",
       "echoPublishers": {
-        "orf": "2026-07-15T06:07:27.992Z",
+        "orf": "2026-07-15T22:07:29.036Z",
         "derstandard": "2026-07-15T06:07:27.992Z",
         "kurier": "2026-07-15T06:07:27.992Z"
       },
@@ -3820,9 +3835,9 @@
         "derstandard": "2026-07-15T10:07:41.799Z",
         "kurier": "2026-07-15T12:07:30.734Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T14:07:30.789Z"
+      "resonanceMeasuredAt": "2026-07-15T22:07:29.036Z"
     },
     "usa-internationaler-strafgerichtshof-druck-verbuendete-juli-2026": {
       "canonicalTitle": "USA verschärfen Kurs gegen Internationalen Strafgerichtshof",
@@ -4476,10 +4491,10 @@
       "canonicalTitle": "Vorwürfe gegen Chef des Wiener Marktamts: Sexismus, Rassismus, Mobbing",
       "slug": "vorwuerfe-marktamt-chef-kutheil-juli-2026",
       "firstSeenAt": "2026-07-14T18:07:25.047Z",
-      "lastUpdatedAt": "2026-07-15T08:07:27.506Z",
+      "lastUpdatedAt": "2026-07-15T22:07:29.036Z",
       "status": "published",
       "articlePath": "src/content/articles/vorwuerfe-marktamt-chef-kutheil-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-15/vorwuerfe-marktamt-chef-kutheil-juli-2026-update-800.json",
+      "researchPath": "data/ai-news/research/2026-07-15/vorwuerfe-marktamt-chef-kutheil-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://wien.orf.at/stories/3362673",
         "https://www.ots.at/presseaussendung/OTS_20260714_OTS0099/fpoe-nepp-zu-den-erschuetternden-vorwuerfen-gegen-marktamt-chef-sima-traegt-volle-verantwortung",
@@ -4487,27 +4502,33 @@
         "https://www.meinbezirk.at/wien/c-lokales/schwere-vorwuerfe-gegen-wiener-marktamt-chef-kutheil_a8798544",
         "https://presse.wien.gv.at/2018/01/31/andreas-kutheil-ist-neuer-direktor-der-ma-59-marktamt",
         "https://www.derstandard.at/story/3000000331529/mitarbeiter-erheben-rassismus-misogynie-und-mobbing-vorwuerfe-gegen-wiener-marktamt-chef",
-        "https://www.ots.at/presseaussendung/OTS_20260715_OTS0033/gruene-wienprack-zu-mobbing-sexismus-rassismusvorwuerfen-gegen-leitung-der-ma59-unabhaengige-untersuchung-dringend-notwendig"
+        "https://www.ots.at/presseaussendung/OTS_20260715_OTS0033/gruene-wienprack-zu-mobbing-sexismus-rassismusvorwuerfen-gegen-leitung-der-ma59-unabhaengige-untersuchung-dringend-notwendig",
+        "https://kurier.at/chronik/oesterreich/zib2-katharina-koerber-risack-arbeitsrecht-mobbing-diskriminierung-dienstgeber/403176375",
+        "https://www.diepresse.com/37609421/affaere-um-wiener-marktamt-weitet-sich-aus-vorwuerfe-auch-gegen-stellvertreter",
+        "https://orf.at/stories/3436307/",
+        "https://www.heute.at/s/causa-kutheil-arbeitsrechtlerin-warnt-alle-betroffenen-120224128"
       ],
       "openQuestions": [
         "Wie fällt das Ergebnis der Prüfung durch die Interne Revision der Stadt Wien aus?",
         "Wird tatsächlich ein Disziplinarverfahren gegen Andreas Kutheil eingeleitet?",
         "Wird sich Andreas Kutheil selbst öffentlich zu den Vorwürfen äußern?",
-        "Wie reagieren die aktuell zuständige Vizebürgermeisterin Bettina Emmerling (NEOS) und die frühere zuständige Stadträtin Ulli Sima (SPÖ) offiziell auf die Vorwürfe und die Kritik von FPÖ und Grünen?",
+        "Wie reagieren die aktuell zuständige Vizebürgermeisterin Bettina Emmerling (NEOS) und die frühere zuständige Stadträtin Ulli Sima (SPÖ) offiziell auf die Vorwürfe, die Kritik von FPÖ und Grünen sowie die Einschätzung der Arbeitsrechtsexpertin Körber-Risak?",
         "Welche Details enthält der vollständige, kostenpflichtige „Falter“-Bericht, die über die bisher zugänglichen Auszüge hinausgehen?",
-        "Betreffen die Vorwürfe auch Kutheils Stellvertreter in einem eigenständigen Verfahren, oder wird nur gegen Kutheil selbst ermittelt?",
-        "Zieht die Stadt Wien vor Abschluss der Prüfung bereits personelle oder organisatorische Konsequenzen?"
+        "Welche konkreten neuen Vorwürfe erhebt der Bericht der „Presse“ gegen Kutheils Stellvertreter, und wird gegen ihn ein eigenständiges Verfahren geführt?",
+        "Zieht die Stadt Wien vor Abschluss der Prüfung bereits personelle oder organisatorische Konsequenzen?",
+        "Werden Betroffene, wie von Körber-Risak angeregt, tatsächlich rechtliche Schritte (Arbeiterkammer, Gleichbehandlungsanwaltschaft, Gerichte) einleiten?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-16T08:07:27.506Z",
-      "doNotUpdateBefore": "2026-07-15T14:07:27.506Z",
+      "doNotRedraftBefore": "2026-07-16T22:07:29.036Z",
+      "doNotUpdateBefore": "2026-07-16T04:07:29.036Z",
       "echoPublishers": {
         "derstandard": "2026-07-15T08:07:27.506Z",
-        "apa": "2026-07-15T10:07:41.799Z"
+        "apa": "2026-07-15T10:07:41.799Z",
+        "kurier": "2026-07-15T22:07:29.036Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T08:07:27.506Z"
+      "resonanceMeasuredAt": "2026-07-15T22:07:29.036Z"
     },
     "gaza-israel-angriffe-neun-tote-juli-2026": {
       "canonicalTitle": "Gazastreifen: Laut Behörden mindestens neun Tote bei israelischen Angriffen",
@@ -5080,6 +5101,48 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T20:07:27.471Z",
       "doNotUpdateBefore": "2026-07-16T02:07:27.471Z"
+    },
+    "argentinien-england-wm-halbfinale-comeback-juli-2026": {
+      "canonicalTitle": "Argentinien dreht Rückstand gegen England und zieht laut Berichten ins WM-Finale ein",
+      "slug": "argentinien-england-wm-halbfinale-comeback-juli-2026",
+      "firstSeenAt": "2026-07-15T22:07:29.036Z",
+      "lastUpdatedAt": "2026-07-15T22:07:29.036Z",
+      "status": "published",
+      "articlePath": "src/content/articles/argentinien-england-wm-halbfinale-comeback-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/argentinien-england-wm-halbfinale-comeback-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331668/messi-schl228gt-tuchel-argentinien-st252rmt-ins-finale",
+        "https://www.diepresse.com/37384835/live-ab-21-uhr-england-gegen-argentinien",
+        "https://www.diepresse.com/37384835/england-oder-argentinien-wer-folgt-spanien-ins-wm-finale"
+      ],
+      "openQuestions": [
+        "Wie lautete der exakte Endstand des Spiels?",
+        "In welchen Minuten fielen die einzelnen Tore genau?",
+        "Wer ist der Finalgegner Argentiniens und wann findet das Endspiel statt?",
+        "Gibt es offizielle FIFA-Statistiken oder Stimmen der Trainer und Spieler zur Partie?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-16T22:07:29.036Z",
+      "doNotUpdateBefore": "2026-07-16T04:07:29.036Z"
+    },
+    "cluster-20260715-88f5f82e": {
+      "canonicalTitle": "Nobelpreisträger Hassabis schlägt unabhängige Organisation zur KI-Regulierung vor",
+      "slug": "cluster-20260715-88f5f82e",
+      "firstSeenAt": "2026-07-15T22:07:29.036Z",
+      "lastUpdatedAt": "2026-07-15T22:07:29.036Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331545/nobelpreistraeger-hassabis-schlaegt-unabhaengige-organisation-zur-ki-regulierung-vor",
+        "https://www.derstandard.at/story/3000000331545/nobelpreistraeger-hassabis-schlaegt-unabhaengige-organisation-zur-ki-regulierung-vor"
+      ],
+      "openQuestions": [
+        "Primärquelle: Volltext der Rede, des Statements oder des Interviews von Demis Hassabis",
+        "Kontext: Wo, wann und in welchem Zusammenhang wurde der Vorschlag geäußert?",
+        "Details des Vorschlags: Testkriterien, Governance-Struktur, Timeline, Anwendungsbereich",
+        "Zweitquelle: Unabhängiger Bericht von einem anderen Medien-Outlet",
+        "Reaktionen: Stellungnahmen von EU-Regulierern, anderen KI-Führungsleuten oder Fachexperten"
+      ],
+      "sensitivity": "low"
     }
   }
 }

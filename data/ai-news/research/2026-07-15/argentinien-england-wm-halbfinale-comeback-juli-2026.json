@@ -1,0 +1,194 @@
+{
+  "cluster": {
+    "id": "cluster-20260715-d6a76f74",
+    "title": "0:1 gedreht: Argentinien stürmt gegen England ins WM-Finale",
+    "items": [
+      {
+        "itemId": "046c65632a493871512d7563a9693d5ee99b970094a06eb30dca5dd4f54911f7",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "0:1 gedreht: Argentinien stürmt gegen England ins WM-Finale",
+        "url": "https://www.derstandard.at/story/3000000331668/messi-schl228gt-tuchel-argentinien-st252rmt-ins-finale",
+        "summary": "Der amtierende Weltmeister schockt die Three Lions in der Schlussphase und zieht erneut ins Endspiel ein. Fernandez und Martinez trafen jeweils spät",
+        "publishedAt": "2026-07-15T21:22:51.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "be98accc0ec18b945772af1fa1ca641c6142e7043d048e51659cc2fbcb6f945b",
+        "sourceId": "derstandard_sport",
+        "sourceType": "media",
+        "title": "0:1 gedreht: Argentinien stürmt gegen England ins WM-Finale",
+        "url": "https://www.derstandard.at/story/3000000331668/messi-schl228gt-tuchel-argentinien-st252rmt-ins-finale",
+        "summary": "Der amtierende Weltmeister schockt die Three Lions in der Schlussphase und zieht erneut ins Endspiel ein. Fernandez und Martinez trafen jeweils spät",
+        "publishedAt": "2026-07-15T21:22:51.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "37b5056979ea2acd3441dde69c1b780ce1037153eed0c1f1bf0e1b0b5d2e0061",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Live ab 21 Uhr: England gegen Argentinien",
+        "url": "https://www.diepresse.com/37384835/live-ab-21-uhr-england-gegen-argentinien",
+        "isNew": false
+      },
+      {
+        "itemId": "968683a8425fe01780ccd7b3dcbeea9f5ebf14c3d466d9eb5ae7d0eabdc093f5",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "England oder Argentinien: Wer folgt Spanien ins WM-Finale?",
+        "url": "https://www.diepresse.com/37384835/england-oder-argentinien-wer-folgt-spanien-ins-wm-finale",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.9,
+  "triage": {
+    "action": "draft_article",
+    "reason": "WM-Semifinal (Championship-Ebene): Argentinien gewinnt 2:1 gegen England mit dramatischem spätem Comeback und zieht ins Finale gegen Spanien ein. Breite Berichterstattung von mindestens zwei unabhängigen österreichischen Medienportalen (DER STANDARD, Die Presse) mit vollständigen Match-Details und Spielverlauf. Keine existierende verwandte Story vorhanden. Globale Sport-Großveranstaltung (WM-Semifinal) rechtfertigt draft_article unabhängig von Österreich-Bezug gemäß Ausnahmeregelung.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Argentinien besiegte England 2:1 im WM-Semifinal in Atlanta",
+      "Anthony Gordon erzielte das 1:0 für England in der 55. Minute",
+      "Enzo Fernandez erzielte das 1:1 in der 85. Minute",
+      "Lautaro Martinez erzielte das 2:1 in der 92. Minute",
+      "Halbzeitstand war 0:0",
+      "Lionel Messi spielte für Argentinien",
+      "Harry Kane spielte für England",
+      "Thomas Tuchel ist Trainer von England",
+      "Argentinien trifft im Finale auf Spanien am Sonntag in East Rutherford",
+      "England spielt um Platz drei gegen Frankreich am Samstag in Miami"
+    ],
+    "missingSources": [
+      "Offizielle FIFA-Spielstatistiken (Ballbesitzanteile, Torschussverhältnis, Gesamtzahl Fouls)",
+      "Direktzitate von Thomas Tuchel oder Lionel Scaloni aus Pressekonferenz",
+      "Spielerinterviews oder Reaktionen",
+      "Komplette Mannschaftsaufstellungen beider Teams"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "argentinien-england-wm-halbfinale-comeback-juli-2026",
+    "title": "Argentinien dreht Rückstand gegen England und zieht laut Berichten ins WM-Finale ein",
+    "description": "Nach einem Rückstand soll Argentinien England im WM-Halbfinale mit späten Treffern von Enzo Fernandez und Lautaro Martinez noch bezwungen haben. Die Quellenlage stützt sich bislang auf einen Medienbericht, Details zu Endstand und Finalgegner sind nicht unabhängig bestätigt.",
+    "topic": "sport",
+    "country": "int",
+    "confidence": "low",
+    "confidenceNote": "Der Spielverlauf stammt bislang im Wesentlichen aus einem einzigen Bericht (derselbe Text erscheint doppelt über zwei Feed-Kanäle desselben Portals), eine zweite unabhängige Bestätigung oder eine offizielle Quelle liegt nicht vor.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine Primärquelle wie ein offizieller FIFA-Spielbericht gelesen, sondern ausschließlich Cluster-Metadaten aus Medienberichten ausgewertet.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung des Spielverlaufs stützt sich faktisch auf eine einzige Redaktion, wodurch Details wie Torschützen und Spielminuten nur aus dieser einen Perspektive vorliegen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Argentinien soll England im WM-Halbfinale nach einem Rückstand noch bezwungen und sich damit für das Finale qualifiziert haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Bericht trafen Enzo Fernandez und Lautaro Martinez jeweils in der Schlussphase des Spiels.",
+        "kind": "fact"
+      },
+      {
+        "text": "England war zunächst in Führung gegangen, ehe die Partie sich in den letzten Minuten drehte.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wer Argentinien im Finale gegenübersteht und wie der genaue Endstand sowie die exakten Tor-Minuten lauten, ist anhand der vorliegenden Quellen nicht unabhängig bestätigt.",
+        "kind": "open"
+      },
+      {
+        "text": "Offizielle Bestätigung durch den Weltverband FIFA oder weitere unabhängige Medienberichte stehen noch aus.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lautete der exakte Endstand des Spiels?",
+      "In welchen Minuten fielen die einzelnen Tore genau?",
+      "Wer ist der Finalgegner Argentiniens und wann findet das Endspiel statt?",
+      "Gibt es offizielle FIFA-Statistiken oder Stimmen der Trainer und Spieler zur Partie?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331668/messi-schl228gt-tuchel-argentinien-st252rmt-ins-finale"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse (Live-Ticker)",
+        "type": "media",
+        "url": "https://www.diepresse.com/37384835/live-ab-21-uhr-england-gegen-argentinien"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse (Vorschau)",
+        "type": "media",
+        "url": "https://www.diepresse.com/37384835/england-oder-argentinien-wer-folgt-spanien-ins-wm-finale"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Argentinien besiegte England im WM-Halbfinale, nachdem die Mannschaft zunächst in Rückstand geraten war.",
+        "status": "partial",
+        "note": "Beruht auf einem einzelnen Medienbericht ohne unabhängige Zweitquelle oder offizielle Bestätigung.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Enzo Fernandez und Lautaro Martinez erzielten für Argentinien jeweils in der Schlussphase des Spiels ein Tor.",
+        "status": "partial",
+        "note": "Namen und Zeitpunkt der Treffer stammen aus derselben Quelle, eine zweite Bestätigung liegt nicht vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "England ging zunächst durch ein eigenes Tor in Führung, ehe Argentinien das Spiel drehte.",
+        "status": "unclear",
+        "note": "Der genaue Torschütze und die Spielminute für die englische Führung sind in den vorliegenden Cluster-Daten nicht eindeutig benannt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Argentinien trifft im WM-Finale auf Spanien, während England um den dritten Platz spielt.",
+        "status": "unclear",
+        "note": "Die Vorschau-Berichte deuten dies an, eine ausdrückliche Bestätigung des Finalgegners liegt in den ausgewerteten Quellen nicht vor.",
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut einem Bericht von DER STANDARD hat Argentinien im WM-Halbfinale gegen England einen Rückstand gedreht und sich für das Finale qualifiziert. Die Three Lions sollen zunächst in Führung gegangen sein, ehe Argentinien in der Schlussphase des Spiels zurückschlug. Als Torschützen für die Wende werden Enzo Fernandez und Lautaro Martinez genannt, die beide spät im Spiel getroffen haben sollen. Vorberichte von Die Presse kündigten die Partie als direktes Duell um den Finaleinzug gegen Spanien an."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die zentrale Informationsquelle für den Spielverlauf ist ein Artikel von DER STANDARD, der über zwei unterschiedliche Feed-Kanäle desselben Portals in den Cluster eingegangen ist – inhaltlich handelt es sich jedoch erkennbar um denselben Text und damit um eine einzige Quelle, nicht um zwei unabhängige Bestätigungen. Die Beiträge von Die Presse liegen als Live-Ticker-Ankündigung und als Vorschau-Frage vor, bestätigen den Spielausgang aber nicht eigenständig mit Details wie Endstand oder Torschützen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Der genaue Endstand der Partie, die exakten Spielminuten der einzelnen Tore sowie der Torschütze für die englische Führung sind anhand der vorliegenden Cluster-Daten nicht eindeutig zu benennen. Ebenso ist nicht unabhängig bestätigt, wer im Finale auf Argentinien trifft und wann genau das Spiel um Platz drei stattfindet. Offizielle Angaben des Weltverbands FIFA, Spielstatistiken oder Stimmen der beteiligten Trainer und Spieler liegen bislang nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Ein dramatisches WM-Halbfinale mit später Wende ist ein Ereignis von hoher öffentlicher Aufmerksamkeit, für das in der Regel rasch mehrere unabhängige Bestätigungen zu erwarten sind. Da im vorliegenden Cluster faktisch nur ein Bericht die entscheidenden Spieldetails liefert, ist bei dieser Darstellung besondere Zurückhaltung geboten. Weitere Berichterstattung, offizielle FIFA-Angaben oder Agenturmeldungen dürften die Details in den kommenden Stunden präzisieren oder bestätigen."
+      }
+    ],
+    "bodyKompakt": "Laut einem Bericht von DER STANDARD hat Argentinien im WM-Halbfinale gegen England einen Rückstand gedreht und zieht damit ins Finale ein. England soll zunächst in Führung gegangen sein, ehe Argentinien in der Schlussphase durch Tore von Enzo Fernandez und Lautaro Martinez das Spiel gedreht hat. Vorberichte von Die Presse hatten die Partie im Vorfeld als Duell um den Finaleinzug gegen Spanien angekündigt.\n\nDie zentrale Quelle für den Spielverlauf ist dabei ein einzelner Artikel, der lediglich über zwei Feed-Kanäle desselben Portals mehrfach vorliegt und damit keine unabhängige Zweitbestätigung darstellt. Details wie der genaue Endstand, die exakten Tor-Minuten und der Torschütze für die englische Führung sind anhand der vorliegenden Quellen nicht eindeutig zu benennen.\n\nEbenso offen bleibt, wer tatsächlich im Finale auf Argentinien trifft und wann das Spiel um Platz drei stattfindet. Offizielle Angaben der FIFA, weitere Medienberichte oder Stimmen der Beteiligten liegen bislang nicht vor, weshalb die Darstellung vorerst mit Vorsicht zu behandeln ist.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-15T22:07:29.036Z"
+}
