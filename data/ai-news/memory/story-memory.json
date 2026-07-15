@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T02:19:51.735Z",
+  "updatedAt": "2026-07-15T04:20:23.265Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1757,8 +1757,8 @@
       "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
       "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-14T22:07:26.045Z",
-        "diepresse": "2026-07-14T14:07:34.240Z",
+        "kleinezeitung": "2026-07-15T04:07:24.790Z",
+        "diepresse": "2026-07-15T04:07:24.790Z",
         "orf": "2026-07-14T20:07:26.223Z",
         "derstandard": "2026-07-14T06:07:24.044Z"
       },
@@ -1827,11 +1827,12 @@
         "orf": "2026-07-14T04:07:24.946Z",
         "derstandard": "2026-07-14T18:07:25.047Z",
         "kleinezeitung": "2026-07-14T18:07:25.047Z",
-        "kurier": "2026-07-14T22:07:26.045Z"
+        "kurier": "2026-07-14T22:07:26.045Z",
+        "diepresse": "2026-07-15T04:07:24.790Z"
       },
-      "resonanceLevel": 4,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-15T00:07:34.045Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-15T04:07:24.790Z"
     },
     "nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026": {
       "canonicalTitle": "SPÖ-Auswertung: 179 Gesetzesbeschlüsse seit Regierungsantritt, breite Oppositionszustimmung reklamiert",
@@ -2940,7 +2941,9 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-14T09:07:27.406Z",
       "doNotUpdateBefore": "2026-07-13T15:07:27.406Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kurier": "2026-07-15T04:07:24.790Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-14T14:07:34.240Z"
@@ -3832,27 +3835,34 @@
       "doNotUpdateBefore": "2026-07-14T04:07:26.937Z"
     },
     "trump-irs-steuerdeal-urteil-juli-2026": {
-      "canonicalTitle": "US-Richterin kippt Steuervergleich zwischen Trump und der Steuerbehörde IRS",
+      "canonicalTitle": "US-Richterin kippt Steuervergleich zwischen Trump und der Steuerbehörde IRS – Anwalt an Kammer verwiesen",
       "slug": "trump-irs-steuerdeal-urteil-juli-2026",
       "firstSeenAt": "2026-07-13T22:07:26.937Z",
-      "lastUpdatedAt": "2026-07-13T22:07:26.937Z",
+      "lastUpdatedAt": "2026-07-15T04:07:24.790Z",
       "status": "published",
       "articlePath": "src/content/articles/trump-irs-steuerdeal-urteil-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/trump-irs-steuerdeal-urteil-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-15/trump-irs-steuerdeal-urteil-juli-2026-update-400.json",
       "sourceUrls": [
-        "https://orf.at/stories/3436127"
+        "https://orf.at/stories/3436127",
+        "https://www.derstandard.at/story/3000000331334/us-richterin-kippt-trumps-umstrittenen-steuer-vergleich-mit-finanzamt",
+        "https://kurier.at/politik/ausland/richterin-trumps-steuer-vergleich-finanzamt-irs/403175937",
+        "https://www.cbsnews.com/news/judge-trump-justice-department-irs-lawsuit-anti-weaponization-fund-settlement/",
+        "https://www.france24.com/en/americas/20260713-us-judge-voids-trump-irs-settlement-taxes",
+        "https://www.axios.com/2026/07/13/judge-trump-irs-settlement-anti-weaponization-fund",
+        "https://www.cnbc.com/2026/07/13/trump-irs-doj-lawsuit-blanche.html",
+        "https://www.foxnews.com/politics/obama-appointed-judge-torches-trump-admin-latest-courtroom-showdown-refers-attorney-bar-review"
       ],
       "openQuestions": [
-        "Wie lautet die vollständige juristische Begründung der Richterin?",
-        "Gibt es eine offizielle Stellungnahme des US-Justizministeriums?",
-        "Welche genauen Bedingungen enthielt der ursprüngliche Vergleich?",
-        "Wie schätzen unabhängige Rechtsexperten die Tragweite des Urteils ein?",
-        "Wird gegen die Entscheidung Berufung eingelegt und in welchem Zeitrahmen?",
-        "Wie reagieren Trump-nahe Akteure im Justizministerium auf das Urteil?"
+        "Wird gegen die Entscheidung von Richterin Williams Berufung eingelegt, und in welchem Zeitrahmen?",
+        "Wie geht das Disziplinarverfahren gegen Anwalt Alejandro Brito bei der Anwaltskammer Floridas konkret weiter?",
+        "Nehmen die Anwaltskammern von New York und Washington D.C. gegenüber den dort gemeldeten Justizministeriumsbeamten eigene Schritte vor?",
+        "Wie wirkt sich das Urteil auf die ursprüngliche, mit zehn Milliarden Dollar bezifferte Klage Trumps gegen die IRS aus – wird sie fortgesetzt?",
+        "Gibt es eine offizielle Stellungnahme des US-Justizministeriums selbst, nicht nur von Trumps privaten Anwälten?",
+        "Liegt der vollständige, rund 56-seitige Urteilstext zur eigenständigen Prüfung vor?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T22:07:26.937Z",
-      "doNotUpdateBefore": "2026-07-14T04:07:26.937Z"
+      "doNotRedraftBefore": "2026-07-16T04:07:24.790Z",
+      "doNotUpdateBefore": "2026-07-15T10:07:24.790Z"
     },
     "flugzeugabsturz-gaming-niederoesterreich-juli-2026": {
       "canonicalTitle": "Tödlicher Flugzeugabsturz bei Gaming: Wrack geborgen, Ursache weiter unklar",
@@ -4128,28 +4138,33 @@
       "resonanceMeasuredAt": "2026-07-14T20:07:26.223Z"
     },
     "ukraine-raffinerien-angriff-russland-juli-2026": {
-      "canonicalTitle": "Ukraine greift laut Berichten zwei russische Raffinerien an – Russland attackiert Kiew mit Raketen",
+      "canonicalTitle": "Ukraine greift laut Berichten russische Raffinerien an – Russland attackiert Kiew mit Raketen, laut Behörden mehrere Tote",
       "slug": "ukraine-raffinerien-angriff-russland-juli-2026",
       "firstSeenAt": "2026-07-14T08:07:30.083Z",
-      "lastUpdatedAt": "2026-07-14T08:07:30.083Z",
+      "lastUpdatedAt": "2026-07-15T04:07:24.790Z",
       "status": "published",
       "articlePath": "src/content/articles/ukraine-raffinerien-angriff-russland-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/ukraine-raffinerien-angriff-russland-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-15/ukraine-raffinerien-angriff-russland-juli-2026-update-400.json",
       "sourceUrls": [
         "https://www.diepresse.com/37091078/ukraine-greift-zwei-raffinerien-in-russland-an",
         "https://kurier.at/politik/ausland/ukraine-russland-attacken-raffinerien/403175997",
         "https://orf.at/stories/3435972",
-        "https://orf.at/stories/3436070"
+        "https://orf.at/stories/3436070",
+        "https://www.derstandard.at/jetzt/livebericht/3000000331323/russland-griff-ikyjiw-mit-ballistischen-raketen-an",
+        "https://orf.at/stories/3436132",
+        "https://www.news.at/politik/russland-griff-kiew-mit-ballistischen-raketen-an"
       ],
       "openQuestions": [
-        "Wie schwer wurden die Raffinerien in Krasnodar und Baschkortostan tatsächlich beschädigt?",
-        "Gibt es eine offizielle russische Stellungnahme zu den Angriffen?",
+        "Wie schwer wurden die Raffinerien in Krasnodar und Baschkortostan/an der Wolga tatsächlich beschädigt?",
+        "Gibt es eine offizielle russische Stellungnahme zu den Angriffen auf die Raffinerien oder zum Raketenangriff auf Kiew?",
         "Welche technischen Daten hat die von Selenskyj angekündigte neue Flugabwehrrakete?",
-        "Wie belastbar ist der NGO-Vorwurf gezielter Angriffe auf medizinisches Personal, und welche Belege liegen dafür vor?"
+        "Wie belastbar ist der NGO-Vorwurf gezielter Angriffe auf medizinisches Personal, und welche Belege liegen dafür vor?",
+        "Werden die vom ukrainischen Notdienst gemeldeten Opferzahlen (19 Tote, 61 Verletzte) von unabhängiger Seite bestätigt?",
+        "Welche konkreten Ziele und welchen Umfang haben die für Herbst 2026 in Polen geplanten Manöver der Koalition der Willigen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-15T08:07:30.083Z",
-      "doNotUpdateBefore": "2026-07-14T14:07:30.083Z",
+      "doNotRedraftBefore": "2026-07-16T04:07:24.790Z",
+      "doNotUpdateBefore": "2026-07-15T10:07:24.790Z",
       "echoPublishers": {
         "kurier": "2026-07-14T10:07:30.428Z"
       }
@@ -4546,6 +4561,35 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T02:07:27.786Z",
       "doNotUpdateBefore": "2026-07-15T08:07:27.786Z"
+    },
+    "cyberangriff-aussenministerium-turla-russland-botschafter-juli-2026": {
+      "canonicalTitle": "Cyberangriff auf Außenministerium 2019/2020: Österreich bestellt russischen Botschafter ein",
+      "slug": "cyberangriff-aussenministerium-turla-russland-botschafter-juli-2026",
+      "firstSeenAt": "2026-07-15T04:07:24.790Z",
+      "lastUpdatedAt": "2026-07-15T04:07:24.790Z",
+      "status": "published",
+      "articlePath": "src/content/articles/cyberangriff-aussenministerium-turla-russland-botschafter-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/cyberangriff-aussenministerium-turla-russland-botschafter-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/37202352/cyber-angriff-2020-in-wien-veruebten-russen-aussenamt-bestellt-botschafter-ein",
+        "https://www.diepresse.com/37202352/massiver-cyber-angriff-in-wien-aussenamt-bestellt-russlands-botschafter-ein",
+        "https://www.derstandard.at/story/3000000331480/cyber-angriff-au223enministerium-bestellt-russlands-botschafter-ein",
+        "https://www.derstandard.at/story/3000000331482/cyber-angriff-aussenministerium-bestellt-russlands-botschafter-ein",
+        "https://kurier.at/politik/ausland/cyber-angriff-turla-aussenministerium-bestellt-russlands-botschafter-eu/403176084",
+        "https://www.kleinezeitung.at/artikel/37248897/wegen-massivem-cyber-angriff-bestellt-aussenamt-russlands-botschafter",
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/07/13/cyber-russia-statement-by-the-high-representative-on-behalf-of-the-european-union-denouncing-russia-s-malicious-cyber-ecosystem-targeting-the-eu-its-member-states-and-international-partners/",
+        "https://orf.at/stories/3436189/",
+        "https://cyberscoop.com/eu-uk-russian-cyberespionage-sanctions/"
+      ],
+      "openQuestions": [
+        "Welche technischen Details (Angriffsvektor, konkret betroffene Systeme und Daten) lagen dem Cyberangriff auf das Außenministerium 2019/2020 zugrunde?",
+        "Wie reagiert Russland offiziell auf die Zuordnung und die verhängten EU-Sanktionen?",
+        "Welche konkreten Personen und Firmen stehen auf der EU-Sanktionsliste, und auf welcher Beweisgrundlage wurden sie benannt?",
+        "In welchem Umfang und mit welchen Belegen wird der Angriff auf das polnische Stromnetz demselben FSB-Zentrum zugeordnet?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-16T04:07:24.790Z",
+      "doNotUpdateBefore": "2026-07-15T10:07:24.790Z"
     }
   }
 }
