@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T04:20:23.265Z",
+  "updatedAt": "2026-07-15T06:30:26.478Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1002,13 +1002,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T08:07:22.735Z",
       "doNotUpdateBefore": "2026-07-11T14:07:22.735Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-14T06:07:24.044Z",
-        "diepresse": "2026-07-14T06:07:24.044Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T06:07:24.044Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-15T06:07:27.992Z"
     },
     "japan-jaxa-test-wiederverwendbare-rakete-juli-2026": {
       "canonicalTitle": "Japan meldet Test einer wiederverwendbaren Rakete – erste Details nun breiter bestätigt",
@@ -1353,14 +1350,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T14:07:32.545Z",
       "doNotUpdateBefore": "2026-07-11T20:07:32.545Z",
-      "echoPublishers": {
-        "orf": "2026-07-14T06:07:24.044Z",
-        "derstandard": "2026-07-14T06:07:24.044Z",
-        "diepresse": "2026-07-14T06:07:24.044Z"
-      },
-      "resonanceLevel": 3,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-14T22:07:26.045Z"
+      "resonanceMeasuredAt": "2026-07-15T06:07:27.992Z"
     },
     "klagenfurt-ermittlungen-mordversuch-juli-2026": {
       "canonicalTitle": "Klagenfurt: Ermittlungen wegen Mordversuchs an Vermieter-Mitarbeiterin",
@@ -1594,7 +1587,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T19:07:27.203Z",
-      "doNotUpdateBefore": "2026-07-12T01:07:27.203Z"
+      "doNotUpdateBefore": "2026-07-12T01:07:27.203Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-15T06:07:27.992Z"
+      }
     },
     "deutschland-klimaziel-2045-verschiebung-forderungen-juli-2026": {
       "canonicalTitle": "Forderungen aus Wirtschaft und Gewerkschaften: Deutsches Klimaziel 2045 soll verschoben werden",
@@ -1759,8 +1755,7 @@
       "echoPublishers": {
         "kleinezeitung": "2026-07-15T04:07:24.790Z",
         "diepresse": "2026-07-15T04:07:24.790Z",
-        "orf": "2026-07-14T20:07:26.223Z",
-        "derstandard": "2026-07-14T06:07:24.044Z"
+        "orf": "2026-07-15T06:07:27.992Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -1824,7 +1819,6 @@
       "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
       "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
       "echoPublishers": {
-        "orf": "2026-07-14T04:07:24.946Z",
         "derstandard": "2026-07-14T18:07:25.047Z",
         "kleinezeitung": "2026-07-14T18:07:25.047Z",
         "kurier": "2026-07-14T22:07:26.045Z",
@@ -2468,27 +2462,48 @@
       "doNotUpdateBefore": "2026-07-13T00:07:23.579Z"
     },
     "ukraine-russland-angriffe-tanker-juli-2026": {
-      "canonicalTitle": "Vier Tote bei russischen Angriffen auf die Ukraine – Kiew intensiviert Schläge gegen russische Tanker",
+      "canonicalTitle": "Mehrere Tote bei russischem Angriff auf Odessa – Ukraine meldet auch Ziel Enerhodar, Regierungsumbildung in Kyjiw",
       "slug": "ukraine-russland-angriffe-tanker-juli-2026",
       "firstSeenAt": "2026-07-12T18:07:23.579Z",
-      "lastUpdatedAt": "2026-07-12T18:07:23.579Z",
+      "lastUpdatedAt": "2026-07-15T06:07:27.992Z",
       "status": "published",
       "articlePath": "src/content/articles/ukraine-russland-angriffe-tanker-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-12/ukraine-russland-angriffe-tanker-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-15/ukraine-russland-angriffe-tanker-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.diepresse.com/36755608/vier-menschen-sterben-bei-erneuten-russischen-angriffen-auf-die-ukraine",
-        "https://www.kleinezeitung.at/artikel/36700138/ukrainischer-angriff-auf-21-russische-tanker"
+        "https://www.kleinezeitung.at/artikel/36700138/ukrainischer-angriff-auf-21-russische-tanker",
+        "https://orf.at/stories/3436232",
+        "https://www.derstandard.at/jetzt/livebericht/3000000331509/russland-griff-ikyjiw-mit-ballistischen-raketen-an",
+        "https://kurier.at/politik/ausland/ukraine-odessa-russland-angriffe-handelsschiffe-tote/403176153",
+        "https://orf.at/stories/3436018",
+        "https://orf.at/stories/3436199/",
+        "https://www.nau.ch/news/europa/drei-tote-bei-russischem-angriff-auf-frachter-nahe-odessa-67148301",
+        "https://www.onvista.de/news/2026/07-14-bulgarien-nicht-bei-koalition-der-willigen-fuer-die-ukraine-0-10-26532029",
+        "https://logistik-heute.de/news/ukraine-krieg-fuenf-tote-bei-beschuss-eines-frachters-nahe-odessa-273773.html"
       ],
       "openQuestions": [
-        "Wo genau und unter welchen Umständen kamen die vier Menschen ums Leben, und liegen dazu unabhängig bestätigte Angaben vor?",
+        "Wie erklärt sich die Diskrepanz zwischen den Berichten über drei bzw. fünf getötete Besatzungsmitglieder bei Angriffen auf Schiffe im Raum Odessa in denselben Tagen?",
+        "Gibt es eine unabhängige, nicht-ukrainische Bestätigung der genannten Ziele (Treibstoffreservoirs, Drohnenfabrik) in Odessa und Tschornomorsk?",
+        "Wie belastbar sind die russischen bzw. besatzungsseitigen Angaben zu mindestens sieben Toten in Enerhodar, und liegt dazu eine ukrainische Stellungnahme vor?",
+        "Wer wird Nachfolger bzw. Nachfolgerin von Julija Swyrydenko als ukrainische Ministerpräsidentin, und welchen politischen Kurswechsel kündigt Präsident Selenskyj konkret an?",
+        "Wird Swyrydenko tatsächlich Botschafterin der Ukraine in den USA, und hat sie ein entsprechendes Angebot angenommen?",
+        "Welche konkreten Folgen hat Bulgariens Austritt aus der „Koalition der Willigen“ für deren Zusammenhalt und für laufende Ukraine-Hilfen?",
+        "Wo genau und unter welchen Umständen kamen die separat gemeldeten vier Menschen bei früheren russischen Angriffen auf die Ukraine ums Leben, und liegen dazu unabhängig bestätigte Angaben vor?",
         "Wie belastbar ist die Zahl von knapp 100 angegriffenen Schiffen innerhalb einer Woche – gibt es dazu eine Quelle jenseits ukrainischer Stellen?",
-        "Wie reagiert die russische Seite auf die Angaben zu Tankerangriffen und dem Raffinerie-Treffer in Samara?",
         "Bestätigt sich die erwartete Teilnahme von Bundeskanzler Stocker am Pariser Treffen der „Koalition der Willigen“, und was wären deren konkrete Inhalte?",
         "Welche Reichweite und Bedeutung hat eine mögliche Lizenzproduktion von Patriot-Systemen in der Ukraine tatsächlich?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-13T18:07:23.579Z",
-      "doNotUpdateBefore": "2026-07-13T00:07:23.579Z"
+      "doNotRedraftBefore": "2026-07-16T06:07:27.992Z",
+      "doNotUpdateBefore": "2026-07-15T12:07:27.992Z",
+      "echoPublishers": {
+        "orf": "2026-07-15T06:07:27.992Z",
+        "derstandard": "2026-07-15T06:07:27.992Z",
+        "kurier": "2026-07-15T06:07:27.992Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-15T06:07:27.992Z"
     },
     "frankreich-atomreaktoren-hitze-juli-2026": {
       "canonicalTitle": "Hitzewelle in Frankreich: Atomreaktoren in Golfech, Bugey und Chooz abgeschaltet – ASNR lockert Kühlwasser-Grenzwerte",
@@ -2572,9 +2587,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T10:07:30.428Z",
       "doNotUpdateBefore": "2026-07-14T16:07:30.428Z",
-      "echoPublishers": {
-        "kurier": "2026-07-14T06:07:24.044Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-14T10:07:30.428Z"
@@ -3062,7 +3075,6 @@
       "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
       "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
       "echoPublishers": {
-        "profil": "2026-07-14T06:07:24.044Z",
         "diepresse": "2026-07-14T18:07:25.047Z"
       },
       "resonanceLevel": 2,
@@ -4590,6 +4602,56 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T04:07:24.790Z",
       "doNotUpdateBefore": "2026-07-15T10:07:24.790Z"
+    },
+    "ebola-dr-kongo-2000-faelle-juli-2026": {
+      "canonicalTitle": "Ebola in der DR Kongo: Mehr als 2.000 bestätigte Fälle, WHO-Notlage seit Mai",
+      "slug": "ebola-dr-kongo-2000-faelle-juli-2026",
+      "firstSeenAt": "2026-07-15T06:07:27.992Z",
+      "lastUpdatedAt": "2026-07-15T06:07:27.992Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ebola-dr-kongo-2000-faelle-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/ebola-dr-kongo-2000-faelle-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436224",
+        "https://www.derstandard.at/story/3000000331520/ebola-mehr-als-2000-best228tigte-f228lle-in-dr-kongo",
+        "https://kurier.at/chronik/welt/ebola-kongo-faelle-virus/403176154",
+        "https://www.diepresse.com/37380445/ueber-2000-ebola-faelle-im-kongo-usa-verschaerfen-einreiseregeln",
+        "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608",
+        "https://english.news.cn/20260715/5155a8cb57e3405f9599dce6a2e9eca6/c.html",
+        "https://www.derstandard.at/story/3000000331329/ebola-usa-verh228ngen-einreisesperre-f252r-eigene-b252rger-aus-dr-kongo"
+      ],
+      "openQuestions": [
+        "Wie groß ist die tatsächliche Dunkelziffer nicht erfasster Fälle in den betroffenen, teils von Konflikten betroffenen Regionen?",
+        "Warum weichen die von der WHO und der Regierung in Kinshasa genannten Fallzahlen je nach Stichtag voneinander ab?",
+        "Wie belastbar ist die Einschätzung, der Ausbruch könnte bis ins kommende Jahr andauern, und auf welcher Grundlage beruht sie?",
+        "Bestätigt die WHO in ihrem nächsten Lagebericht die berichtete Ausweitung auf die Provinzen Haut-Uele und Tshopo?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-16T06:07:27.992Z",
+      "doNotUpdateBefore": "2026-07-15T12:07:27.992Z"
+    },
+    "armutskonferenz-gesetzesentwurf-sozialhilfe-reform-2026": {
+      "canonicalTitle": "Armutskonferenz legt Gesetzesentwurf zur Reform der Sozialhilfe vor",
+      "slug": "armutskonferenz-gesetzesentwurf-sozialhilfe-reform-2026",
+      "firstSeenAt": "2026-07-15T06:07:27.992Z",
+      "lastUpdatedAt": "2026-07-15T06:07:27.992Z",
+      "status": "published",
+      "articlePath": "src/content/articles/armutskonferenz-gesetzesentwurf-sozialhilfe-reform-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/armutskonferenz-gesetzesentwurf-sozialhilfe-reform-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331524/sozialhilfe-armutskonferenz-legt-kompletten-gesetzesentwurf-vor",
+        "https://www.diepresse.com/37380783/armutskonferenz-legt-gesetzesentwurf-fuer-reform-der-sozialhilfe-vor"
+      ],
+      "openQuestions": [
+        "Wie positioniert sich das Sozialministerium offiziell zu dem Entwurf?",
+        "Wie reagieren die Sozialsprecher:innen der Regierungsparteien?",
+        "Was steht im vollständigen Wortlaut des Gesetzesentwurfs über die genannte Neuformulierung der Zielbestimmung hinaus?",
+        "Wie bewerten die Bundesländer als Vollzugsverantwortliche für die Sozialhilfe den Vorschlag?",
+        "Gibt es Gegenpositionen etwa von Wirtschafts- oder Gemeindevertretungen?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-16T06:07:27.992Z",
+      "doNotUpdateBefore": "2026-07-15T12:07:27.992Z"
     }
   }
 }
