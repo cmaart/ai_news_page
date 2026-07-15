@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T12:23:12.961Z",
+  "updatedAt": "2026-07-15T14:20:02.347Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1769,9 +1769,9 @@
         "orf": "2026-07-15T06:07:27.992Z",
         "kurier": "2026-07-15T12:07:30.734Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T22:07:26.045Z"
+      "resonanceMeasuredAt": "2026-07-15T14:07:30.789Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -3810,9 +3810,9 @@
         "derstandard": "2026-07-15T10:07:41.799Z",
         "kurier": "2026-07-15T12:07:30.734Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T10:07:41.799Z"
+      "resonanceMeasuredAt": "2026-07-15T14:07:30.789Z"
     },
     "usa-internationaler-strafgerichtshof-druck-verbuendete-juli-2026": {
       "canonicalTitle": "USA verschärfen Kurs gegen Internationalen Strafgerichtshof",
@@ -4048,11 +4048,12 @@
       "doNotUpdateBefore": "2026-07-15T08:07:27.786Z",
       "echoPublishers": {
         "apa": "2026-07-14T18:07:25.047Z",
-        "arstechnica": "2026-07-15T00:07:34.045Z"
+        "arstechnica": "2026-07-15T00:07:34.045Z",
+        "techcrunch": "2026-07-15T14:07:30.789Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-15T12:07:30.734Z"
+      "resonanceMeasuredAt": "2026-07-15T14:07:30.789Z"
     },
     "opernsommer-2026-tosca-st-margarethen-madama-butterfly-gars": {
       "canonicalTitle": "Puccini unter freiem Himmel: „Tosca“ eröffnet in St. Margarethen, „Madama Butterfly“ sorgt in Gars für Tenor-Drama",
@@ -4259,7 +4260,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T10:07:30.428Z",
-      "doNotUpdateBefore": "2026-07-14T16:07:30.428Z"
+      "doNotUpdateBefore": "2026-07-14T16:07:30.428Z",
+      "echoPublishers": {
+        "orf": "2026-07-15T14:07:30.789Z"
+      }
     },
     "schongau-messerattacke-schule-extremistisches-motiv-juli-2026": {
       "canonicalTitle": "Nach Messerattacke an Schule in Schongau: Ermittler prüfen Hinweise auf extremistisches Motiv",
@@ -4380,31 +4384,34 @@
       "doNotUpdateBefore": "2026-07-14T20:07:34.240Z"
     },
     "bruessel-gebaeudebrand-oxy-tote-aufzug-juli-2026": {
-      "canonicalTitle": "Brand in Brüsseler Hochhaus: Mehrere Tote in Aufzug gefunden, sechs Menschen vermisst",
+      "canonicalTitle": "Brand in Brüsseler Hochhaus: Sechs Tote bestätigt, keine weiteren Opfer in zweiter Aufzugkabine",
       "slug": "bruessel-gebaeudebrand-oxy-tote-aufzug-juli-2026",
       "firstSeenAt": "2026-07-14T14:07:34.240Z",
-      "lastUpdatedAt": "2026-07-14T14:07:34.240Z",
+      "lastUpdatedAt": "2026-07-15T14:07:30.789Z",
       "status": "published",
       "articlePath": "src/content/articles/bruessel-gebaeudebrand-oxy-tote-aufzug-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/bruessel-gebaeudebrand-oxy-tote-aufzug-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-15/bruessel-gebaeudebrand-oxy-tote-aufzug-juli-2026-update-1400.json",
       "sourceUrls": [
         "https://orf.at/stories/3436190",
         "https://www.derstandard.at/story/3000000331485/-medienberichte-mehrere-tote-bei-geb228udebrand-in-br252ssel-gefunden",
         "https://www.diepresse.com/37297930/feuerdrama-in-bruesseler-innenstadt-tote-arbeiter-nach-brand-in-aufzug-entdeckt",
         "https://kurier.at/chronik/welt/brand-bruessel-mehrere-tote-aufzug-innenstadt/403176096",
         "https://www.vrt.be/vrtnws/en/2026/07/14/oxy-tower-in-the-brussels-downtown-ablaze/",
-        "https://www.brusselstimes.com/brussels/2228893/fire-breaks-out-in-building-near-place-de-brouckere/"
+        "https://www.brusselstimes.com/brussels/2228893/fire-breaks-out-in-building-near-place-de-brouckere/",
+        "https://kurier.at/chronik/welt/bruessel-aufzuege-abgestuerzt-tote-ermittlungen/403176157",
+        "https://www.derstandard.at/story/3000000331531/aufz252ge-in-br252ssel-abgest252rzt-8211-keine-weiteren-toten",
+        "https://www.diepresse.com/37381821/aufzuege-in-bruessel-abgestuerzt-keine-weiteren-toten"
       ],
       "openQuestions": [
-        "Wie viele Menschen genau ums Leben gekommen sind",
-        "Wer die Todesopfer und Vermissten sind",
+        "Wer die sechs Todesopfer sind (Identität, Angehörigeninformation)",
         "Wodurch der Brand ausgelöst wurde",
-        "Ob sich im zweiten, noch unzugänglichen Aufzug weitere Tote befinden",
-        "Wie es zur möglichen Gefährdung der Arbeiter auf der Umbau-Baustelle kommen konnte"
+        "Wodurch die beiden Aufzüge abstürzten und ob dies mit dem Brand zusammenhängt",
+        "Ob es im Zusammenhang mit der laufenden Umbauarbeit Sicherheitsmängel gegeben haben könnte",
+        "Ob und welche strafrechtlichen Ermittlungsschritte gegen Verantwortliche der Baustelle folgen"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-15T14:07:34.240Z",
-      "doNotUpdateBefore": "2026-07-14T20:07:34.240Z"
+      "doNotRedraftBefore": "2026-07-16T14:07:30.789Z",
+      "doNotUpdateBefore": "2026-07-15T20:07:30.789Z"
     },
     "vienna-pride-terrorprozess-schuldsprueche-juli-2026": {
       "canonicalTitle": "Terrorprozess um Pläne gegen Vienna Pride: Zwei Brüder schuldig gesprochen",
@@ -4857,6 +4864,57 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-16T12:07:30.734Z",
       "doNotUpdateBefore": "2026-07-15T18:07:30.734Z"
+    },
+    "gaensehaeufel-badeunfall-mann-verstorben-juli-2026": {
+      "canonicalTitle": "Wien: 49-Jähriger nach Badeunfall im Gänsehäufel im Spital verstorben",
+      "slug": "gaensehaeufel-badeunfall-mann-verstorben-juli-2026",
+      "firstSeenAt": "2026-07-15T14:07:30.789Z",
+      "lastUpdatedAt": "2026-07-15T14:07:30.789Z",
+      "status": "published",
+      "articlePath": "src/content/articles/gaensehaeufel-badeunfall-mann-verstorben-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/gaensehaeufel-badeunfall-mann-verstorben-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331544/nach-badeunfall-in-wiener-g228nseh228ufel-mann-im-spital-verstorben",
+        "https://www.diepresse.com/37389577/nach-badeunfall-in-wiener-gaensehaeufel-49-jaehriger-im-spital-verstorben",
+        "https://kurier.at/chronik/wien/wien-gaensehaeufel-mann-ertrunken-spital-verstorben/403176042",
+        "https://wien.orf.at/stories/3362595/",
+        "https://www.meinbezirk.at/wien/c-lokales/mann-nach-badeunfall-im-gaensehaeufel-im-spital-verstorben_a8795442"
+      ],
+      "openQuestions": [
+        "Was war die genaue medizinische Todesursache?",
+        "Wie lange lag zwischen Bergung und Todeseintritt im Spital?",
+        "Gibt es eine offizielle Stellungnahme von Spital, Polizei oder Feuerwehr Wien über den weiteren Verlauf?",
+        "Waren gesundheitliche Vorerkrankungen oder äußere Umstände (z. B. Wassertemperatur, Kreislauf) beteiligt?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-16T14:07:30.789Z",
+      "doNotUpdateBefore": "2026-07-15T20:07:30.789Z"
+    },
+    "schimanek-fpoe-bildungsinstitut-juli-2026": {
+      "canonicalTitle": "Verurteilter Ex-Büroleiter von Rosenkranz jetzt bei FPÖ-Bildungsinstitut – scharfe Kritik von ÖVP, SPÖ und Grünen",
+      "slug": "schimanek-fpoe-bildungsinstitut-juli-2026",
+      "firstSeenAt": "2026-07-15T14:07:30.789Z",
+      "lastUpdatedAt": "2026-07-15T14:07:30.789Z",
+      "status": "published",
+      "articlePath": "src/content/articles/schimanek-fpoe-bildungsinstitut-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/schimanek-fpoe-bildungsinstitut-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436275",
+        "https://www.diepresse.com/37516288/verurteilter-ex-fpoe-bueroleiter-schimanek-jetzt-bei-blauem-bildungsinstitut-taetig",
+        "https://www.kleinezeitung.at/artikel/37554250/verurteilter-ex-mitarbeiter-von-rosenkranz-bei-blauem-bildungsinstitut",
+        "https://www.ots.at/presseaussendung/OTS_20260715_OTS0079/spoe-seltenheim-trotz-verurteilung-wegen-ns-wiederbetaetigung-behaelt-schimanek-fpoe-versorgungsjob-mit-fpoe-ist-kein-staat-zu-machen",
+        "https://www.ots.at/presseaussendung/OTS_20260715_OTS0089/gerstl-droehnendes-schweigen-und-fehlende-distanzierung-der-fpoe-zu-rechtsextremem-milieu-muessen-umgehend-ende-finden",
+        "https://www.ots.at/presseaussendung/OTS_20260715_OTS0067/hammergruene-fordern-aufklaerung-und-konsequenzen-nach-neuen-vorfaellen-im-fpoe-umfeld"
+      ],
+      "openQuestions": [
+        "Wie positioniert sich Nationalratspräsident Walter Rosenkranz persönlich zur aktuellen FBI-Beschäftigung seines früheren Büroleiters?",
+        "Seit wann genau und in welcher Funktion ist Schimanek beim Freiheitlichen Bildungsinstitut tätig?",
+        "Gibt es eine offizielle Stellungnahme der FPÖ-Parteiführung unabhängig von der Aussage des FBI-Geschäftsführers?",
+        "Welche Konsequenzen, wenn überhaupt, zieht die FPÖ aus der anhaltenden Kritik?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-16T14:07:30.789Z",
+      "doNotUpdateBefore": "2026-07-15T20:07:30.789Z"
     }
   }
 }
