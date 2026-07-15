@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T10:21:07.197Z",
+  "updatedAt": "2026-07-15T12:23:12.961Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1140,9 +1140,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T11:07:23.956Z",
       "doNotUpdateBefore": "2026-07-11T17:07:23.956Z",
-      "echoPublishers": {
-        "kurier": "2026-07-14T12:07:26.601Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-15T10:07:41.799Z"
@@ -1569,9 +1567,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T00:07:34.045Z",
       "doNotUpdateBefore": "2026-07-15T06:07:34.045Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-14T12:07:26.601Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-14T20:07:26.223Z"
@@ -1770,7 +1766,8 @@
       "echoPublishers": {
         "kleinezeitung": "2026-07-15T04:07:24.790Z",
         "diepresse": "2026-07-15T04:07:24.790Z",
-        "orf": "2026-07-15T06:07:27.992Z"
+        "orf": "2026-07-15T06:07:27.992Z",
+        "kurier": "2026-07-15T12:07:30.734Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -2923,11 +2920,13 @@
       "doNotRedraftBefore": "2026-07-16T10:07:41.799Z",
       "doNotUpdateBefore": "2026-07-15T16:07:41.799Z",
       "echoPublishers": {
-        "orf": "2026-07-15T10:07:41.799Z"
+        "orf": "2026-07-15T10:07:41.799Z",
+        "diepresse": "2026-07-15T12:07:30.734Z",
+        "kleinezeitung": "2026-07-15T12:07:30.734Z"
       },
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-14T18:07:25.047Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-15T12:07:30.734Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -3103,9 +3102,9 @@
       "echoPublishers": {
         "diepresse": "2026-07-14T18:07:25.047Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-14T12:07:26.601Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-15T12:07:30.734Z"
     },
     "fpoe-ultimatum-karner-papier-pilnacek-ausschuss-juli-2026": {
       "canonicalTitle": "FPÖ setzt Innenminister Karner Ultimatum wegen Vorbereitungspapier im Pilnacek-Ausschuss",
@@ -3808,7 +3807,8 @@
       "doNotRedraftBefore": "2026-07-16T10:07:41.799Z",
       "doNotUpdateBefore": "2026-07-15T16:07:41.799Z",
       "echoPublishers": {
-        "derstandard": "2026-07-15T10:07:41.799Z"
+        "derstandard": "2026-07-15T10:07:41.799Z",
+        "kurier": "2026-07-15T12:07:30.734Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "triage",
@@ -4048,12 +4048,11 @@
       "doNotUpdateBefore": "2026-07-15T08:07:27.786Z",
       "echoPublishers": {
         "apa": "2026-07-14T18:07:25.047Z",
-        "golem": "2026-07-14T12:07:26.601Z",
         "arstechnica": "2026-07-15T00:07:34.045Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-15T10:07:41.799Z"
+      "resonanceMeasuredAt": "2026-07-15T12:07:30.734Z"
     },
     "opernsommer-2026-tosca-st-margarethen-madama-butterfly-gars": {
       "canonicalTitle": "Puccini unter freiem Himmel: „Tosca“ eröffnet in St. Margarethen, „Madama Butterfly“ sorgt in Gars für Tenor-Drama",
@@ -4772,7 +4771,92 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T10:07:41.799Z",
-      "doNotUpdateBefore": "2026-07-15T16:07:41.799Z"
+      "doNotUpdateBefore": "2026-07-15T16:07:41.799Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-15T12:07:30.734Z"
+      }
+    },
+    "fpoe-popularbeschwerde-orf-generaldirektor-pig-juli-2026": {
+      "canonicalTitle": "FPÖ bringt Popularbeschwerde gegen Wahl von ORF-Chef Clemens Pig ein",
+      "slug": "fpoe-popularbeschwerde-orf-generaldirektor-pig-juli-2026",
+      "firstSeenAt": "2026-07-15T12:07:30.734Z",
+      "lastUpdatedAt": "2026-07-15T12:07:30.734Z",
+      "status": "published",
+      "articlePath": "src/content/articles/fpoe-popularbeschwerde-orf-generaldirektor-pig-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/fpoe-popularbeschwerde-orf-generaldirektor-pig-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436266",
+        "https://www.diepresse.com/37470093/fpoe-legt-gegen-wahl-pigs-zum-orf-generaldirektor-beschwerde-ein",
+        "https://kurier.at/kultur/medien/orf-fpoe-clemens-pig-popularbeschwerde-kommaustria/403176260",
+        "https://sn.at/kultur/allgemein/fpoe-legt-gegen-wahl-pigs-beschwerde-bei-kommaustria-ein-art-662295",
+        "https://orf.at/stories/3433041/",
+        "https://www.trend.at/news/stiftungsrat-wahlt-am-donnerstag-neue-orf-generaldirektion"
+      ],
+      "openQuestions": [
+        "Wird die Popularbeschwerde mit den erforderlichen mindestens 120 Unterstützungserklärungen tatsächlich formgerecht bei der KommAustria eingereicht?",
+        "Wie entscheidet die KommAustria über die Rechtmäßigkeit des Auswahlverfahrens?",
+        "Existiert der von der FPÖ behauptete „Sideletter“ mit einem ÖVP-Vorschlagsrecht für den ORF-Generaldirektorposten tatsächlich in der beschriebenen Form?",
+        "Wie reagiert Clemens Pig selbst auf die gegen ihn gerichteten Vorwürfe?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-16T12:07:30.734Z",
+      "doNotUpdateBefore": "2026-07-15T18:07:30.734Z"
+    },
+    "graz-kpoe-gruene-koalitionsverhandlungen-juli-2026": {
+      "canonicalTitle": "Graz: KPÖ und Grüne verhandeln weiter über Koalition – Budget bremst Tempo",
+      "slug": "graz-kpoe-gruene-koalitionsverhandlungen-juli-2026",
+      "firstSeenAt": "2026-07-15T12:07:30.734Z",
+      "lastUpdatedAt": "2026-07-15T12:07:30.734Z",
+      "status": "published",
+      "articlePath": "src/content/articles/graz-kpoe-gruene-koalitionsverhandlungen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/graz-kpoe-gruene-koalitionsverhandlungen-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/37357082/kpoe-und-gruene-verhandeln-weiter-das-budget-ist-der-bremsklotz",
+        "https://kurier.at/chronik/steiermark/graz-wahl-2026-kpoe-gruene-koalition-kahr-schwentner/403176052",
+        "https://steiermark.orf.at/stories/3362640",
+        "https://www.vol.at/nach-graz-wahl-kpoe-weiter-in-gespraechen-mit-gruenen-und-oevp/10321532",
+        "https://www.sn.at/politik/innenpolitik/nach-graz-wahl-kpoe-weiter-in-gespraechen-mit-gruenen-und-oevp-art-662033",
+        "https://www.wahlergebnis.graz.at/?report=ReportResult&district=Graz+gesamt&party=%C3%96VP&minMax=Absteigend&election=GR2026",
+        "https://grazer.at/story/de/koalitionsgespraeche-in-graz-gruene-erteilen-eine-AejdiyAP/"
+      ],
+      "openQuestions": [
+        "Wie hoch ist das konkrete Einsparvolumen, über das KPÖ und Grüne verhandeln, und in welchen Bereichen soll gekürzt werden?",
+        "Welche Position vertritt die ÖVP offiziell zu einer möglichen Regierungsbeteiligung oder einem Arbeitsübereinkommen?",
+        "Bleibt es bei der Ablehnung einer Dreierkoalition durch die Grünen, oder ändert sich diese Haltung im Lauf der Gespräche?",
+        "Wird eine Einigung vor der konstituierenden Sitzung am 27. August 2026 überhaupt angestrebt, oder zieht sich der Prozess bis dahin hin?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-16T12:07:30.734Z",
+      "doNotUpdateBefore": "2026-07-15T18:07:30.734Z"
+    },
+    "openai-smart-speaker-hardware-2026": {
+      "canonicalTitle": "OpenAI plant laut Berichten beweglichen Smart Speaker als erstes Hardware-Gerät",
+      "slug": "openai-smart-speaker-hardware-2026",
+      "firstSeenAt": "2026-07-15T12:07:30.734Z",
+      "lastUpdatedAt": "2026-07-15T12:07:30.734Z",
+      "status": "published",
+      "articlePath": "src/content/articles/openai-smart-speaker-hardware-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-15/openai-smart-speaker-hardware-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331535/openais-erstes-geraet-soll-ein-beweglicher-smarter-lautsprecher-sein",
+        "https://www.golem.de/news/smart-home-openai-baut-angeblich-einen-mobilen-ki-lautsprecher-2607-210880.html",
+        "https://www.diepresse.com/37387121/erstes-hardware-projekt-openai-arbeitet-an-ki-lautsprecher",
+        "https://www.heise.de/news/OpenAIs-erstes-KI-Geraet-soll-ein-Smart-Speaker-mit-mechanischen-Elementen-sein-11365030.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://the-decoder.de/openais-erstes-ki-hardware-soll-ein-mobiler-lautsprecher-ohne-bildschirm-werden",
+        "https://www.heise.de/news/OpenAIs-erstes-KI-Geraet-soll-ein-Smart-Speaker-mit-mechanischen-Elementen-sein-11365030.html",
+        "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion",
+        "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+        "https://www.macrumors.com/2026/07/14/openai-ai-hardware-device-speaker/"
+      ],
+      "openQuestions": [
+        "Wie lauten die genauen technischen Spezifikationen des Geräts (Akkulaufzeit, Sensorik, Preis)?",
+        "Wie ist der aktuelle rechtliche Stand der von Apple erhobenen Vorwürfe, und wie reagiert OpenAI offiziell darauf?",
+        "Hält OpenAI an einem Marktstart 2027 fest, oder verschiebt sich der Zeitplan erneut?",
+        "Bestätigt OpenAI die Rolle von Jony Ive und LoveFrom bei diesem konkreten Produkt offiziell?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-16T12:07:30.734Z",
+      "doNotUpdateBefore": "2026-07-15T18:07:30.734Z"
     }
   }
 }
