@@ -108,12 +108,21 @@ export function writeArticle(options: WriteArticleOptions): string {
     ...(options.image ? { image: options.image } : {}),
   });
 
+  // Defensiv: Modell soll body/bodyKompakt OHNE Wrapper-Tags liefern (claude.ts),
+  // hält sich aber nicht immer daran. Stray <Kompakt>/<Standard>-Tags im Inhalt
+  // würden sonst zu geschachtelten Wrappern führen und validate.ts brechen.
+  const stripWrappers = (s: string) =>
+    s.replace(/<\/?(?:Kompakt|Standard)>/g, '').trim();
+
   const standardBody = draft.body
-    .map((section) => `## ${section.heading.replace(/^#+\s*/, '')}\n\n${section.markdown.trim()}`)
+    .map(
+      (section) =>
+        `## ${stripWrappers(section.heading).replace(/^#+\s*/, '')}\n\n${stripWrappers(section.markdown)}`,
+    )
     .join('\n\n');
   // Beide Textlängen in Wrappern (PLAN.md E37); Leerzeilen nach/vor den Tags
   // sind Pflicht, damit MDX den Inhalt als Markdown-Blöcke parst.
-  const body = `<Kompakt>\n\n${draft.bodyKompakt.trim()}\n\n</Kompakt>\n\n<Standard>\n\n${standardBody}\n\n</Standard>`;
+  const body = `<Kompakt>\n\n${stripWrappers(draft.bodyKompakt)}\n\n</Kompakt>\n\n<Standard>\n\n${standardBody}\n\n</Standard>`;
 
   const yamlText = stringify(frontmatter, { lineWidth: 0 }).trimEnd();
   const mdx = `---\n${yamlText}\n---\n\n${body}\n`;
