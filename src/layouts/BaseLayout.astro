@@ -42,9 +42,11 @@ const year = new Date().getFullYear();
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
-    <link rel="icon" type="image/png" sizes="96x96" href={withBase('/favicon-96.png')} />
     <link rel="icon" type="image/x-icon" href={withBase('/favicon.ico')} />
+    <link rel="icon" type="image/png" sizes="16x16" href={withBase('/favicon-16x16.png')} />
+    <link rel="icon" type="image/png" sizes="32x32" href={withBase('/favicon-32x32.png')} />
+    <link rel="icon" type="image/png" sizes="96x96" href={withBase('/favicon-96.png')} />
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
     <link rel="apple-touch-icon" sizes="180x180" href={withBase('/apple-touch-icon.png')} />
     <link rel="sitemap" href={withBase('/sitemap-index.xml')} />
     <link rel="alternate" type="application/rss+xml" title="Neue Nachrichten" href={withBase('/rss.xml')} />
