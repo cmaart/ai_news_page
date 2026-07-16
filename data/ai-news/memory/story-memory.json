@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-16T16:20:09.622Z",
+  "updatedAt": "2026-07-16T18:22:51.679Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1447,12 +1447,11 @@
       "doNotRedraftBefore": "2026-07-16T18:07:30.161Z",
       "doNotUpdateBefore": "2026-07-16T00:07:30.161Z",
       "echoPublishers": {
-        "derstandard": "2026-07-15T18:07:30.161Z",
         "kleinezeitung": "2026-07-16T16:07:29.022Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-16T16:07:29.022Z"
+      "resonanceMeasuredAt": "2026-07-16T18:07:38.908Z"
     },
     "kuba-zweiter-blackout-juli-2026": {
       "canonicalTitle": "Kuba: Zweiter inselweiter Stromausfall binnen einer Woche",
@@ -2608,9 +2607,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T16:07:31.742Z",
       "doNotUpdateBefore": "2026-07-15T22:07:31.742Z",
-      "echoPublishers": {
-        "orf": "2026-07-15T16:07:31.742Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-15T10:07:41.799Z"
@@ -2932,13 +2929,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T10:07:41.799Z",
       "doNotUpdateBefore": "2026-07-15T16:07:41.799Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-15T16:07:31.742Z",
-        "futurezone": "2026-07-15T16:07:31.742Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-16T14:07:31.670Z"
+      "resonanceMeasuredAt": "2026-07-16T18:07:38.908Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -3325,9 +3319,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T18:07:30.161Z",
       "doNotUpdateBefore": "2026-07-16T00:07:30.161Z",
-      "echoPublishers": {
-        "orf": "2026-07-15T18:07:30.161Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-15T00:07:34.045Z"
@@ -4523,9 +4515,11 @@
       "doNotRedraftBefore": "2026-07-17T16:07:29.022Z",
       "doNotUpdateBefore": "2026-07-16T22:07:29.022Z",
       "echoPublishers": {
-        "apa": "2026-07-16T16:07:29.022Z",
+        "apa": "2026-07-16T18:07:38.908Z",
         "kurier": "2026-07-16T16:07:29.022Z",
-        "orf": "2026-07-16T16:07:29.022Z"
+        "orf": "2026-07-16T16:07:29.022Z",
+        "derstandard": "2026-07-16T18:07:38.908Z",
+        "diepresse": "2026-07-16T18:07:38.908Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -5426,30 +5420,40 @@
       "doNotUpdateBefore": "2026-07-16T15:31:48.821Z"
     },
     "hegseth-testosterontest-us-soldaten-2026": {
-      "canonicalTitle": "US-Verteidigungsminister Hegseth ordnet Testosteron-Screening für Soldaten ab 30 an",
+      "canonicalTitle": "US-Verteidigungsminister Hegseth ordnet Testosteron-Screening für Soldaten ab 30 an – erste Kritik aus dem Kongress",
       "slug": "hegseth-testosterontest-us-soldaten-2026",
       "firstSeenAt": "2026-07-16T09:31:48.821Z",
-      "lastUpdatedAt": "2026-07-16T09:31:48.821Z",
+      "lastUpdatedAt": "2026-07-16T18:07:38.908Z",
       "status": "published",
       "articlePath": "src/content/articles/hegseth-testosterontest-us-soldaten-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/hegseth-testosterontest-us-soldaten-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-16/hegseth-testosterontest-us-soldaten-2026-update-1800.json",
       "sourceUrls": [
         "https://orf.at/stories/3436322",
         "https://www.derstandard.at/story/3000000331688/hegseth-fordert-fuer-us-soldaten-testosteron-tests",
         "https://www.diepresse.com/37659083/us-verteidigungsminister-hegseth-will-soldaten-auf-testosteronmangel-ueberpruefen",
         "https://kurier.at/politik/ausland/hegseth-fordert-fuer-soldaten-ab-30-tests-der-testosteronwerte/403176371",
         "https://www.nbcnews.com/politics/trump-administration/pete-hegseth-says-military-will-test-service-members-testosterone-leve-rcna587682",
-        "https://www.stripes.com/theaters/us/2026-07-15/hegseth-approve-testosterone-testing-troops-22274442.html"
+        "https://www.stripes.com/theaters/us/2026-07-15/hegseth-approve-testosterone-testing-troops-22274442.html",
+        "https://www.kleinezeitung.at/artikel/37909786/ein-minister-im-rambo-modus",
+        "https://thehill.com/policy/defense/5969935-hegseth-testosterone-testing-dod/",
+        "https://www.pbs.org/newshour/world/hegseth-announces-new-policy-to-test-troops-for-low-testosterone-and-offer-them-hormone-replacement-therapy"
       ],
       "openQuestions": [
         "Wann genau tritt das Screening-Programm in Kraft und wie wird die Umsetzung in den Streitkräften kontrolliert?",
         "Existiert eine schriftliche, offiziell veröffentlichte Pentagon-Direktive zu der Maßnahme, oder bleibt es bei der Video-Ankündigung?",
         "Wie bewerten Militärmedizinerinnen und -mediziner einen pauschalen Alters-Schwellenwert von 30 Jahren?",
-        "Gibt es Reaktionen aus dem US-Kongress oder von Veteranenorganisationen auf die Ankündigung?"
+        "Wird das Hormon-Screening künftig, wie von Teilen des Kongresses gefordert, auch für weibliche Soldatinnen angeboten?",
+        "Was genau sieht die im Zusammenhang genannte Bestimmung des NDAA 2025 zur Berichtspflicht an den Kongress konkret vor?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-17T09:31:48.821Z",
-      "doNotUpdateBefore": "2026-07-16T15:31:48.821Z"
+      "doNotRedraftBefore": "2026-07-17T18:07:38.908Z",
+      "doNotUpdateBefore": "2026-07-17T00:07:38.908Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-16T18:07:38.908Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-16T18:07:38.908Z"
     },
     "cluster-20260716-ace4bbc9": {
       "canonicalTitle": "All for One schließt Zusammenschlussvereinbarung mit VINCI Energies zur Beschleunigung der internationalen Wachstumsstrategie",
@@ -5501,10 +5505,10 @@
       "canonicalTitle": "Uber übernimmt Delivery Hero für rund 12,7 Milliarden Euro – auch Foodora Österreich betroffen",
       "slug": "uber-delivery-hero-uebernahme-juli-2026",
       "firstSeenAt": "2026-07-16T10:07:25.369Z",
-      "lastUpdatedAt": "2026-07-16T10:07:25.369Z",
+      "lastUpdatedAt": "2026-07-16T18:07:38.908Z",
       "status": "published",
       "articlePath": "src/content/articles/uber-delivery-hero-uebernahme-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/uber-delivery-hero-uebernahme-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-16/uber-delivery-hero-uebernahme-juli-2026-update-1800.json",
       "sourceUrls": [
         "https://orf.at/stories/3436339",
         "https://www.derstandard.at/story/3000000331684/uber-252bernimmt-delivery-hero-f252r-etwa-127-milliarden-euro",
@@ -5517,17 +5521,28 @@
         "https://www.heise.de/news/Delivery-Hero-bestaetigt-fortgeschrittene-Uebernahmeverhandlungen-mit-Uber-11366278.html",
         "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Acquisition-Offer-for-Delivery-Hero/default.aspx",
         "https://www.tradingview.com/news/eqs:3fbac5f79094b:0-delivery-hero-enters-into-a-business-combination-agreement-with-uber-technologies-and-into-a-sale-and-purchase-agreement-with-ssw-partners-regarding-certain-businesses/",
-        "https://exxpress.at/news/wegen-delivery-hero-deal-uber-eats-kommt-doch-nicht-nach-oesterreich/"
+        "https://exxpress.at/news/wegen-delivery-hero-deal-uber-eats-kommt-doch-nicht-nach-oesterreich/",
+        "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint",
+        "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
+        "https://www.sec.gov/Archives/edgar/data/0001543151/000155278126000382/e26302_ex99-1.htm",
+        "https://www.tagesspiegel.de/wirtschaft/lieferdienst-uber-ubernimmt-delivery-hero-fur-milliardensumme-15845140.html",
+        "https://www.drweb.de/uber-will-delivery-hero-ganz-uebernehmen-warum-37-prozent-zum-kartellrisiko-geworden-sind/"
       ],
       "openQuestions": [
         "Wie wirkt sich der Verkauf des Foodora-Geschäfts in Österreich an SSW Partners konkret auf Kundinnen, Fahrer:innen und Beschäftigte aus?",
-        "Welche kartellrechtlichen Prüfungen stehen in den betroffenen Ländern noch aus und wie beeinflussen sie den für 2027 avisierten Zeitplan?",
-        "Kommt Uber Eats nun doch nicht als eigenständiger Dienst nach Österreich, wie ein Bericht andeutet?",
-        "Warum unterscheiden sich Angaben zu Ubers bisherigem Anteil an Delivery Hero (rund 37 Prozent laut einigen, rund 53 Prozent laut anderen Quellen) zwischen den Berichten?"
+        "Wie verläuft die kartellrechtliche Prüfung in den rund 22 Ländern mit Geschäftsüberlappung (davon neun in Europa), und hält der für das zweite Halbjahr 2027 avisierte Zeitplan?",
+        "Kommt Uber Eats nun doch nicht als eigenständiger Dienst nach Österreich, wie ein einzelner Bericht andeutet?",
+        "Welche Rolle spielt die frühere EU-Kartellstrafe gegen Delivery Hero und Glovo (Juni 2025) für die aktuelle Prüfung der Uber-Übernahme durch Wettbewerbsbehörden?"
       ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-17T10:07:25.369Z",
-      "doNotUpdateBefore": "2026-07-16T16:07:25.369Z"
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-17T18:07:38.908Z",
+      "doNotUpdateBefore": "2026-07-17T00:07:38.908Z",
+      "echoPublishers": {
+        "techcrunch": "2026-07-16T18:07:38.908Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-16T18:07:38.908Z"
     },
     "eugh-generalanwalt-tirol-transit-italien-klage-juli-2026": {
       "canonicalTitle": "EuGH-Generalanwalt stellt sich in Tiroler Transit-Streit großteils auf die Seite Italiens",
@@ -5663,7 +5678,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-17T16:07:29.022Z",
-      "doNotUpdateBefore": "2026-07-16T22:07:29.022Z"
+      "doNotUpdateBefore": "2026-07-16T22:07:29.022Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-16T18:07:38.908Z"
+      }
     },
     "babler-hitzeschutz-wohnungen-klimaanlagen-juli-2026": {
       "canonicalTitle": "Babler will Einbau von Klimaanlagen in Wohnungen gesetzlich erleichtern",
@@ -5688,6 +5706,38 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-17T16:07:29.022Z",
       "doNotUpdateBefore": "2026-07-16T22:07:29.022Z"
+    },
+    "bozen-gerichtsgebaeude-einsturz-juli-2026": {
+      "canonicalTitle": "Mussolini-Bau in Bozen: Teil des Gerichtsgebäudes eingestürzt",
+      "slug": "bozen-gerichtsgebaeude-einsturz-juli-2026",
+      "firstSeenAt": "2026-07-16T18:07:38.908Z",
+      "lastUpdatedAt": "2026-07-16T18:07:38.908Z",
+      "status": "published",
+      "articlePath": "src/content/articles/bozen-gerichtsgebaeude-einsturz-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-16/bozen-gerichtsgebaeude-einsturz-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436356",
+        "https://orf.at/stories/3436346",
+        "https://tirol.orf.at/stories/3362905",
+        "https://www.derstandard.at/story/3000000331695/teil-des-gerichtsgeb228udes-im-s252dtiroler-bozen-eingest252rzt",
+        "https://www.diepresse.com/37695676/grosser-teil-des-gerichtsgebaeudes-im-suedtiroler-bozen-eingestuerzt",
+        "https://kurier.at/chronik/welt/gerichtsgebaeude-suedtirol-bozen-einsturz-loch/403176427",
+        "https://www.kleinezeitung.at/artikel/37660011/faschistisches-gebaeude-in-bozen-teilweise-eingestuerzt",
+        "https://de.euronews.com/my-europe/2026/07/16/gericht-bozen-einsturz",
+        "https://www.suedtirolnews.it/politik/beinahe-tragoedie-am-gericht-normalerweise-arbeiten-hier-rund-150-menschen",
+        "https://www.stol.it/artikel/chronik/stol-live-es-sind-vier-stoecke-eingebrochen",
+        "https://de.wikipedia.org/wiki/Justizpalast_(Bozen)"
+      ],
+      "openQuestions": [
+        "Wodurch genau gaben die tragenden Säulen nach – reicht die bisherige Einschätzung als gesicherte Ursache?",
+        "Welche Rolle spielten die laufenden Umbau- und Sanierungsarbeiten konkret?",
+        "Wo und wie wird der Gerichtsbetrieb in der Zwischenzeit organisiert, welche Verfahren sind betroffen?",
+        "Wird der eingestürzte Gebäudeteil saniert oder abgerissen?",
+        "Werden Verantwortliche für mögliche Baumängel oder Planungsfehler identifiziert?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-17T18:07:38.908Z",
+      "doNotUpdateBefore": "2026-07-17T00:07:38.908Z"
     }
   }
 }
