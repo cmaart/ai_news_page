@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-16T02:16:46.629Z",
+  "updatedAt": "2026-07-16T04:22:53.220Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1774,14 +1774,13 @@
       "doNotRedraftBefore": "2026-07-16T22:07:29.036Z",
       "doNotUpdateBefore": "2026-07-16T04:07:29.036Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-15T04:07:24.790Z",
-        "diepresse": "2026-07-15T22:07:29.036Z",
+        "diepresse": "2026-07-16T04:07:28.989Z",
         "orf": "2026-07-15T20:07:27.471Z",
         "kurier": "2026-07-15T12:07:30.734Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T22:07:29.036Z"
+      "resonanceMeasuredAt": "2026-07-16T04:07:28.989Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -1840,12 +1839,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
       "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-15T04:07:24.790Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T04:07:24.790Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-16T04:07:28.989Z"
     },
     "nationalrat-179-gesetzesbeschluesse-spoe-auswertung-2026": {
       "canonicalTitle": "SPÖ-Auswertung: 179 Gesetzesbeschlüsse seit Regierungsantritt, breite Oppositionszustimmung reklamiert",
@@ -2999,9 +2996,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-14T09:07:27.406Z",
       "doNotUpdateBefore": "2026-07-13T15:07:27.406Z",
-      "echoPublishers": {
-        "kurier": "2026-07-15T04:07:24.790Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-14T14:07:34.240Z"
@@ -3483,27 +3478,35 @@
       "canonicalTitle": "„BVT-Konvolut“: Neue Anklage gegen Egisto Ott und Martin Weiss",
       "slug": "bvt-konvolut-neue-anklage-ott-weiss-juli-2026",
       "firstSeenAt": "2026-07-13T14:07:29.118Z",
-      "lastUpdatedAt": "2026-07-13T14:07:29.118Z",
+      "lastUpdatedAt": "2026-07-16T04:07:28.989Z",
       "status": "published",
       "articlePath": "src/content/articles/bvt-konvolut-neue-anklage-ott-weiss-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/bvt-konvolut-neue-anklage-ott-weiss-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-16/bvt-konvolut-neue-anklage-ott-weiss-juli-2026-update-400.json",
       "sourceUrls": [
         "https://orf.at/stories/3436093",
         "https://www.derstandard.at/story/3000000331309/weitere-anklage-gegen-ex-bvt-chefinspektor-egisto-ott",
         "https://www.diepresse.com/37025583/weitere-anklage-gegen-egisto-ott",
         "https://kurier.at/politik/inland/egisto-ott-bvt-neue-anklage/403175859",
         "https://orf.at/stories/3430894/",
-        "https://www.puls24.at/news/politik/ex-bvt-mitarbeiter-setzte-sich-nach-dubai-ab-verfahren-abgebrochen/324559"
+        "https://www.puls24.at/news/politik/ex-bvt-mitarbeiter-setzte-sich-nach-dubai-ab-verfahren-abgebrochen/324559",
+        "https://www.profil.at/dasfruehstueck/bvt-konvolut-anklage-egisto-ott-martin-weiss-russland-spionage/403176307"
       ],
       "openQuestions": [
         "Wie positionieren sich Egisto Ott und Martin Weiss bzw. deren Verteidigung zur neuen Anklage?",
         "Wann wird ein Prozesstermin zu diesem neuen Anklagepunkt angesetzt?",
         "Wie belastbar ist der im Konvolut erhobene Vorwurf zu Reisepassrohlingen aus Nordkorea unabhängig von der Anklage?",
+        "Welche konkreten Beweismittel führt der Ermittlungsakt für die Autorenschaft von Ott und Weiss an, und wie tragfähig ist die im profil-Bericht kolportierte These eines russischen Interesses an der Schwächung des Verfassungsschutzes?",
         "Kommt es angesichts des fehlenden Auslieferungsabkommens je zu einer Überstellung von Martin Weiss aus Dubai?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T14:07:29.118Z",
-      "doNotUpdateBefore": "2026-07-13T20:07:29.118Z"
+      "doNotRedraftBefore": "2026-07-17T04:07:28.989Z",
+      "doNotUpdateBefore": "2026-07-16T10:07:28.989Z",
+      "echoPublishers": {
+        "profil": "2026-07-16T04:07:28.989Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-16T04:07:28.989Z"
     },
     "waffenschmuggler-wien-festnahme-juli-2026": {
       "canonicalTitle": "Mutmaßlicher Waffenschmuggler in Wien-Penzing festgenommen",
@@ -5267,6 +5270,75 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-17T02:07:32.773Z",
       "doNotUpdateBefore": "2026-07-16T08:07:32.773Z"
+    },
+    "mette-marit-lungentransplantation-entlassung-juli-2026": {
+      "canonicalTitle": "Kronprinzessin Mette-Marit nach Lungentransplantation wieder zu Hause",
+      "slug": "mette-marit-lungentransplantation-entlassung-juli-2026",
+      "firstSeenAt": "2026-07-16T04:07:28.989Z",
+      "lastUpdatedAt": "2026-07-16T04:07:28.989Z",
+      "status": "published",
+      "articlePath": "src/content/articles/mette-marit-lungentransplantation-entlassung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-16/mette-marit-lungentransplantation-entlassung-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/37196795/kronprinzessin-mette-marit-nach-lungentransplantation-wieder-zu-hause",
+        "https://www.derstandard.at/story/3000000331435/kronprinzessin-mette-marit-nach-lungentransplantation-wieder-zu-hause",
+        "https://www.diepresse.com/37177042/mette-marit-nach-lungentransplantation-wieder-zu-hause",
+        "https://www.kongehuset.no/presse/pressemeldinger/hennes-kongelige-hoyhet-kronprinsesse-mette-marit-er-lungetransplantert",
+        "https://www.nrk.no/norge/kronprinsesse-mette-marit-er-utskrevet-fra-sykehuset-1.17939768",
+        "https://www.cnn.com/2026/06/17/europe/norway-crown-princess-lung-transplant-intl-scli"
+      ],
+      "openQuestions": [
+        "Wie lange dauert die vollständige Rehabilitation bis zu einer stabileren gesundheitlichen Phase?",
+        "Welche konkreten Risiken (Abstoßung, Infektionen) bestehen in den kommenden Monaten, und wie werden sie überwacht?",
+        "Wann und in welchem Umfang nimmt Mette-Marit wieder repräsentative Aufgaben wahr?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-17T04:07:28.989Z",
+      "doNotUpdateBefore": "2026-07-16T10:07:28.989Z"
+    },
+    "who-unicef-bericht-kinder-impfschutz-oesterreich-europa-2026": {
+      "canonicalTitle": "WHO/UNICEF-Bericht: Über halbe Million Kinder in Europa ohne vollen Impfschutz – Österreich mit Lücken bei vollständigen Impfserien",
+      "slug": "who-unicef-bericht-kinder-impfschutz-oesterreich-europa-2026",
+      "firstSeenAt": "2026-07-16T04:07:28.989Z",
+      "lastUpdatedAt": "2026-07-16T04:07:28.989Z",
+      "status": "published",
+      "articlePath": "src/content/articles/who-unicef-bericht-kinder-impfschutz-oesterreich-europa-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-16/who-unicef-bericht-kinder-impfschutz-oesterreich-europa-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331610/gut-eine-halbe-million-kinder-in-europa-laut-who-ohne-impfschutz",
+        "https://kurier.at/wissen/gesundheit/gut-eine-halbe-million-kinder-in-europa-laut-who-ohne-impfschutz/403176255",
+        "https://science.orf.at/stories/3236476",
+        "https://www.who.int/news/item/15-07-2026-global-childhood-immunization-coverage-inches-forward-despite-conflict-and-hesitancy---unicef--who",
+        "https://www.unicef.org/eca/press-releases/childhood-immunization-continues-recover-across-europe-and-central-asia-gaps-remain",
+        "https://www.sn.at/panorama/wissen/zahl-voellig-ungeimpfter-kinder-in-europa-gesunken-art-662238"
+      ],
+      "openQuestions": [
+        "Welche konkrete Länderaufschlüsselung liegt der Aussage zugrunde, dass rund die Hälfte der komplett ungeimpften Kinder in der WHO-Europaregion auf vier Länder (u. a. Kasachstan, Türkei, Großbritannien, Aserbaidschan) entfällt?",
+        "Um wie viel ist die Zahl komplett ungeimpfter Kinder gegenüber dem Vorjahr tatsächlich gesunken – eine in Sekundärquellen kolportierte Zahl von rund 43.000 konnte nicht bestätigt werden?",
+        "Wie hängt die im Bericht erwähnte Kürzung von Impfprogrammen in den USA mit der europäischen Entwicklung zusammen?",
+        "Wie erklärt das österreichische Gesundheitsressort selbst die Lücke zwischen hoher Erstimpf- und niedrigerer Vollimmunisierungsquote?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-17T04:07:28.989Z",
+      "doNotUpdateBefore": "2026-07-16T10:07:28.989Z"
+    },
+    "cluster-20260716-2e29ca5f": {
+      "canonicalTitle": "Lupita Nyong'o in \"Die Odyssee\": Schwarze Helena mit Mission",
+      "slug": "cluster-20260716-2e29ca5f",
+      "firstSeenAt": "2026-07-16T04:07:28.989Z",
+      "lastUpdatedAt": "2026-07-16T04:07:28.989Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331558/lupita-nyongo-in-die-odyssee-schwarze-helena-mit-mission",
+        "https://www.derstandard.at/story/3000000331558/lupita-nyongo-in-die-odyssee-schwarze-helena-mit-mission"
+      ],
+      "openQuestions": [
+        "Zweite unabhängige Quelle für Casting-Details und Film-Status",
+        "Dokumentierte Elon-Musk-Kritik (zitierter Post, Interview oder öffentliche Aussage)",
+        "Substantive Belege für Medizin-Engagement",
+        "Veröffentlichungsdatum oder Kinostart für 'Die Odyssee'"
+      ],
+      "sensitivity": "high"
     }
   }
 }
