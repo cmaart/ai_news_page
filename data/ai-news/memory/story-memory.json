@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-16T14:21:18.757Z",
+  "updatedAt": "2026-07-16T16:20:09.622Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1447,11 +1447,12 @@
       "doNotRedraftBefore": "2026-07-16T18:07:30.161Z",
       "doNotUpdateBefore": "2026-07-16T00:07:30.161Z",
       "echoPublishers": {
-        "derstandard": "2026-07-15T18:07:30.161Z"
+        "derstandard": "2026-07-15T18:07:30.161Z",
+        "kleinezeitung": "2026-07-16T16:07:29.022Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-16T09:31:48.821Z"
+      "resonanceMeasuredAt": "2026-07-16T16:07:29.022Z"
     },
     "kuba-zweiter-blackout-juli-2026": {
       "canonicalTitle": "Kuba: Zweiter inselweiter Stromausfall binnen einer Woche",
@@ -4077,7 +4078,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-16T02:07:32.773Z"
+      "resonanceMeasuredAt": "2026-07-16T16:07:29.022Z"
     },
     "opernsommer-2026-tosca-st-margarethen-madama-butterfly-gars": {
       "canonicalTitle": "Puccini unter freiem Himmel: „Tosca“ eröffnet in St. Margarethen, „Madama Butterfly“ sorgt in Gars für Tenor-Drama",
@@ -4485,13 +4486,13 @@
       "doNotUpdateBefore": "2026-07-15T00:07:25.047Z"
     },
     "vorwuerfe-marktamt-chef-kutheil-juli-2026": {
-      "canonicalTitle": "Vorwürfe gegen Chef des Wiener Marktamts: Sexismus, Rassismus, Mobbing",
+      "canonicalTitle": "Vorwürfe gegen Chef des Wiener Marktamts: Kutheil tritt nach Rassismus- und Mobbing-Vorwürfen zurück",
       "slug": "vorwuerfe-marktamt-chef-kutheil-juli-2026",
       "firstSeenAt": "2026-07-14T18:07:25.047Z",
-      "lastUpdatedAt": "2026-07-15T22:07:29.036Z",
+      "lastUpdatedAt": "2026-07-16T16:07:29.022Z",
       "status": "published",
       "articlePath": "src/content/articles/vorwuerfe-marktamt-chef-kutheil-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-15/vorwuerfe-marktamt-chef-kutheil-juli-2026-update-2200.json",
+      "researchPath": "data/ai-news/research/2026-07-16/vorwuerfe-marktamt-chef-kutheil-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://wien.orf.at/stories/3362673",
         "https://www.ots.at/presseaussendung/OTS_20260714_OTS0099/fpoe-nepp-zu-den-erschuetternden-vorwuerfen-gegen-marktamt-chef-sima-traegt-volle-verantwortung",
@@ -4503,28 +4504,32 @@
         "https://kurier.at/chronik/oesterreich/zib2-katharina-koerber-risack-arbeitsrecht-mobbing-diskriminierung-dienstgeber/403176375",
         "https://www.diepresse.com/37609421/affaere-um-wiener-marktamt-weitet-sich-aus-vorwuerfe-auch-gegen-stellvertreter",
         "https://orf.at/stories/3436307/",
-        "https://www.heute.at/s/causa-kutheil-arbeitsrechtlerin-warnt-alle-betroffenen-120224128"
+        "https://www.heute.at/s/causa-kutheil-arbeitsrechtlerin-warnt-alle-betroffenen-120224128",
+        "https://wien.orf.at/stories/3363008",
+        "https://www.ots.at/presseaussendung/OTS_20260716_OTS0115/marktamtsleiter-legt-abteilungsleitung-zurueck",
+        "https://kurier.at/chronik/wien/marktamtsleiter-legt-abteilungsleitung-zurueck-skandal-mobbing-vorwuerfe-spoe/403176587"
       ],
       "openQuestions": [
         "Wie fällt das Ergebnis der Prüfung durch die Interne Revision der Stadt Wien aus?",
-        "Wird tatsächlich ein Disziplinarverfahren gegen Andreas Kutheil eingeleitet?",
-        "Wird sich Andreas Kutheil selbst öffentlich zu den Vorwürfen äußern?",
-        "Wie reagieren die aktuell zuständige Vizebürgermeisterin Bettina Emmerling (NEOS) und die frühere zuständige Stadträtin Ulli Sima (SPÖ) offiziell auf die Vorwürfe, die Kritik von FPÖ und Grünen sowie die Einschätzung der Arbeitsrechtsexpertin Körber-Risak?",
+        "Wird gegen Andreas Kutheil trotz seines Rücktritts noch ein Disziplinarverfahren geführt?",
+        "Wird sich Andreas Kutheil selbst öffentlich inhaltlich zu den Vorwürfen äußern?",
+        "Ist der interimistische Nachfolger Christian Seiringer identisch mit dem laut „Presse“-Bericht ebenfalls beschuldigten Stellvertreter, und wenn ja, wie wird mit dieser Konstellation umgegangen?",
+        "Wie reagieren die zuständige Vizebürgermeisterin Bettina Emmerling (NEOS) und die frühere zuständige Stadträtin Ulli Sima (SPÖ) offiziell auf Rücktritt und Vorwürfe?",
         "Welche Details enthält der vollständige, kostenpflichtige „Falter“-Bericht, die über die bisher zugänglichen Auszüge hinausgehen?",
-        "Welche konkreten neuen Vorwürfe erhebt der Bericht der „Presse“ gegen Kutheils Stellvertreter, und wird gegen ihn ein eigenständiges Verfahren geführt?",
-        "Zieht die Stadt Wien vor Abschluss der Prüfung bereits personelle oder organisatorische Konsequenzen?",
-        "Werden Betroffene, wie von Körber-Risak angeregt, tatsächlich rechtliche Schritte (Arbeiterkammer, Gleichbehandlungsanwaltschaft, Gerichte) einleiten?"
+        "Zieht die Stadt Wien über den Rücktritt Kutheils hinaus weitere personelle oder organisatorische Konsequenzen?",
+        "Werden Betroffene, wie von Körber-Risak angeregt, tatsächlich rechtliche Schritte einleiten?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-16T22:07:29.036Z",
-      "doNotUpdateBefore": "2026-07-16T04:07:29.036Z",
+      "doNotRedraftBefore": "2026-07-17T16:07:29.022Z",
+      "doNotUpdateBefore": "2026-07-16T22:07:29.022Z",
       "echoPublishers": {
-        "apa": "2026-07-16T09:31:48.821Z",
-        "kurier": "2026-07-15T22:07:29.036Z"
+        "apa": "2026-07-16T16:07:29.022Z",
+        "kurier": "2026-07-16T16:07:29.022Z",
+        "orf": "2026-07-16T16:07:29.022Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T22:07:29.036Z"
+      "resonanceMeasuredAt": "2026-07-16T16:07:29.022Z"
     },
     "gaza-israel-angriffe-neun-tote-juli-2026": {
       "canonicalTitle": "Gazastreifen: Laut Behörden mindestens neun Tote bei israelischen Angriffen",
@@ -4869,11 +4874,12 @@
         "orf": "2026-07-16T12:07:29.290Z",
         "diepresse": "2026-07-16T12:07:29.290Z",
         "kurier": "2026-07-16T12:07:29.290Z",
-        "kleinezeitung": "2026-07-16T12:07:29.290Z"
+        "kleinezeitung": "2026-07-16T12:07:29.290Z",
+        "derstandard": "2026-07-16T16:07:29.022Z"
       },
-      "resonanceLevel": 4,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-16T14:07:31.670Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-16T16:07:29.022Z"
     },
     "openai-smart-speaker-hardware-2026": {
       "canonicalTitle": "OpenAI bringt mit „Codex Micro“ erste erhältliche Hardware heraus – Smart-Speaker-Pläne bleiben Berichtssache, Apple-Klage jetzt offiziell eingereicht",
@@ -4910,7 +4916,9 @@
       "doNotRedraftBefore": "2026-07-17T14:07:31.670Z",
       "doNotUpdateBefore": "2026-07-16T20:07:31.670Z",
       "echoPublishers": {
-        "futurezone": "2026-07-16T14:07:31.670Z"
+        "futurezone": "2026-07-16T14:07:31.670Z",
+        "golem": "2026-07-16T16:07:29.022Z",
+        "thedecoder": "2026-07-16T16:07:29.022Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -5598,7 +5606,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-17T14:07:31.670Z",
-      "doNotUpdateBefore": "2026-07-16T20:07:31.670Z"
+      "doNotUpdateBefore": "2026-07-16T20:07:31.670Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-16T16:07:29.022Z"
+      }
     },
     "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026": {
       "canonicalTitle": "Italiens Abgeordnetenkammer billigt Melonis umstrittene Wahlrechtsreform",
@@ -5627,6 +5638,56 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-17T14:07:31.670Z",
       "doNotUpdateBefore": "2026-07-16T20:07:31.670Z"
+    },
+    "sebastian-kurz-dementiert-comeback-juli-2026": {
+      "canonicalTitle": "Kurz weist Comeback-Gerüchte zurück: „Möchte nicht mehr in die Politik“",
+      "slug": "sebastian-kurz-dementiert-comeback-juli-2026",
+      "firstSeenAt": "2026-07-16T16:07:29.022Z",
+      "lastUpdatedAt": "2026-07-16T16:07:29.022Z",
+      "status": "published",
+      "articlePath": "src/content/articles/sebastian-kurz-dementiert-comeback-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-16/sebastian-kurz-dementiert-comeback-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436409",
+        "https://kurier.at/politik/inland/sebastian-kurz-politik-rueckkehr-statement-instagram/403176584",
+        "https://www.kleinezeitung.at/artikel/37923263/sebastian-kurz-aeussert-sich-zu-comeback-geruechten",
+        "https://www.diepresse.com/37184569/politische-geruechte-um-sebastian-kurz-nuetzen-dem-unternehmer-kurz",
+        "https://www.sn.at/politik/innenpolitik/nach-kurz-kickl-treffen-warum-das-die-geruechtekueche-brodeln-laesst-art-657268",
+        "https://www.profil.at/dasfruehstueck/kurz-kickl-koalition-wahl-versoehnung-treffen-im-parlament/403169825"
+      ],
+      "openQuestions": [
+        "Was wurde beim Treffen zwischen Kurz und Kickl im Parlament im Detail besprochen?",
+        "Was war der ursprüngliche Auslöser der Rückkehr-Spekulationen (etwa Listenbildung oder neue politische Plattform)?",
+        "Ist an den Spekulationen über einen EU-Spitzenposten für Kurz etwas dran?",
+        "Wie reagieren ÖVP-Spitze und andere politische Akteure auf Kurz' Dementi?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-17T16:07:29.022Z",
+      "doNotUpdateBefore": "2026-07-16T22:07:29.022Z"
+    },
+    "babler-hitzeschutz-wohnungen-klimaanlagen-juli-2026": {
+      "canonicalTitle": "Babler will Einbau von Klimaanlagen in Wohnungen gesetzlich erleichtern",
+      "slug": "babler-hitzeschutz-wohnungen-klimaanlagen-juli-2026",
+      "firstSeenAt": "2026-07-16T16:07:29.022Z",
+      "lastUpdatedAt": "2026-07-16T16:07:29.022Z",
+      "status": "published",
+      "articlePath": "src/content/articles/babler-hitzeschutz-wohnungen-klimaanlagen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-16/babler-hitzeschutz-wohnungen-klimaanlagen-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331812/hitze-babler-bekr228ftigt-pl228ne-f252r-hitzeschutz-in-wohnungen",
+        "https://orf.at/stories/3436379",
+        "https://www.ots.at/presseaussendung/OTS_20260716_OTS0097/hitzeschutz-in-wohnungen-babler-prueft-erleichterungen-fuer-einbau-von-klimaanlagen-und-aussenverschattung"
+      ],
+      "openQuestions": [
+        "Wie soll die geplante gesetzliche Änderung konkret ausgestaltet sein?",
+        "Bis wann soll ein Gesetzesentwurf vorliegen und den Nationalrat passieren?",
+        "Wie positionieren sich Mietervereinigungen, Hauseigentümerverbände und die Oppositionsparteien zu dem Vorhaben?",
+        "Welche Kosten würden auf Vermieter, Eigentümergemeinschaften oder Mieter zukommen?",
+        "Wie ist die geplante Regelung im Vergleich zu bestehenden Regeln in anderen EU-Staaten einzuordnen?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-17T16:07:29.022Z",
+      "doNotUpdateBefore": "2026-07-16T22:07:29.022Z"
     }
   }
 }
