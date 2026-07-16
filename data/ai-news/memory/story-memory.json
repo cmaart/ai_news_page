@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-16T12:21:51.393Z",
+  "updatedAt": "2026-07-16T14:21:18.757Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1772,7 +1772,6 @@
       "echoPublishers": {
         "diepresse": "2026-07-16T04:07:28.989Z",
         "orf": "2026-07-16T09:31:48.821Z",
-        "kurier": "2026-07-15T12:07:30.734Z",
         "derstandard": "2026-07-16T09:31:48.821Z"
       },
       "resonanceLevel": 3,
@@ -2933,14 +2932,12 @@
       "doNotRedraftBefore": "2026-07-16T10:07:41.799Z",
       "doNotUpdateBefore": "2026-07-15T16:07:41.799Z",
       "echoPublishers": {
-        "diepresse": "2026-07-15T12:07:30.734Z",
-        "kleinezeitung": "2026-07-15T12:07:30.734Z",
         "derstandard": "2026-07-15T16:07:31.742Z",
         "futurezone": "2026-07-15T16:07:31.742Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T12:07:30.734Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-16T14:07:31.670Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -3836,9 +3833,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-17T00:07:28.727Z",
       "doNotUpdateBefore": "2026-07-16T06:07:28.727Z",
-      "echoPublishers": {
-        "kurier": "2026-07-15T12:07:30.734Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-16T00:07:28.727Z"
@@ -4076,7 +4071,7 @@
       "doNotRedraftBefore": "2026-07-16T02:07:27.786Z",
       "doNotUpdateBefore": "2026-07-15T08:07:27.786Z",
       "echoPublishers": {
-        "apa": "2026-07-16T12:07:29.290Z",
+        "apa": "2026-07-16T14:07:31.670Z",
         "techcrunch": "2026-07-16T10:07:25.369Z",
         "theverge": "2026-07-16T00:07:28.727Z"
       },
@@ -4288,9 +4283,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T10:07:30.428Z",
       "doNotUpdateBefore": "2026-07-14T16:07:30.428Z",
-      "echoPublishers": {
-        "orf": "2026-07-15T14:07:30.789Z"
-      }
+      "echoPublishers": {}
     },
     "schongau-messerattacke-schule-extremistisches-motiv-juli-2026": {
       "canonicalTitle": "Nach Messerattacke an Schule in Schongau: Ermittler prüfen Hinweise auf extremistisches Motiv",
@@ -4607,7 +4600,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T00:07:34.045Z",
-      "doNotUpdateBefore": "2026-07-15T06:07:34.045Z"
+      "doNotUpdateBefore": "2026-07-15T06:07:34.045Z",
+      "echoPublishers": {
+        "kurier": "2026-07-16T14:07:31.670Z"
+      }
     },
     "ungarn-verfassungsaenderung-praesident-sulyok-juli-2026": {
       "canonicalTitle": "Ungarn: Parlament billigt Verfassungsänderung – Absetzung von Präsident Sulyok im Raum",
@@ -4809,9 +4805,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T10:07:41.799Z",
       "doNotUpdateBefore": "2026-07-15T16:07:41.799Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-15T12:07:30.734Z"
-      }
+      "echoPublishers": {}
     },
     "fpoe-popularbeschwerde-orf-generaldirektor-pig-juli-2026": {
       "canonicalTitle": "FPÖ bringt Popularbeschwerde gegen Wahl von ORF-Chef Clemens Pig ein",
@@ -4876,16 +4870,19 @@
         "diepresse": "2026-07-16T12:07:29.290Z",
         "kurier": "2026-07-16T12:07:29.290Z",
         "kleinezeitung": "2026-07-16T12:07:29.290Z"
-      }
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-16T14:07:31.670Z"
     },
     "openai-smart-speaker-hardware-2026": {
-      "canonicalTitle": "OpenAI plant laut Berichten beweglichen Smart Speaker als erstes Hardware-Gerät",
+      "canonicalTitle": "OpenAI bringt mit „Codex Micro“ erste erhältliche Hardware heraus – Smart-Speaker-Pläne bleiben Berichtssache, Apple-Klage jetzt offiziell eingereicht",
       "slug": "openai-smart-speaker-hardware-2026",
       "firstSeenAt": "2026-07-15T12:07:30.734Z",
-      "lastUpdatedAt": "2026-07-15T12:07:30.734Z",
+      "lastUpdatedAt": "2026-07-16T14:07:31.670Z",
       "status": "published",
       "articlePath": "src/content/articles/openai-smart-speaker-hardware-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-15/openai-smart-speaker-hardware-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-16/openai-smart-speaker-hardware-2026-update-1400.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331535/openais-erstes-geraet-soll-ein-beweglicher-smarter-lautsprecher-sein",
         "https://www.golem.de/news/smart-home-openai-baut-angeblich-einen-mobilen-ki-lautsprecher-2607-210880.html",
@@ -4895,17 +4892,29 @@
         "https://www.heise.de/news/OpenAIs-erstes-KI-Geraet-soll-ein-Smart-Speaker-mit-mechanischen-Elementen-sein-11365030.html",
         "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion",
         "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
-        "https://www.macrumors.com/2026/07/14/openai-ai-hardware-device-speaker/"
+        "https://www.macrumors.com/2026/07/14/openai-ai-hardware-device-speaker/",
+        "https://futurezone.at/produkte/openai-chatgpt-geraet-codex-mikro-coding-tastatur-coding-hardware/403176531",
+        "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+        "https://www.zdfheute.de/wirtschaft/unternehmen/apple-klage-openai-diebstahl-geschaeftsgeheimnisse-100.html",
+        "https://t3n.de/news/geschaeftsgeheimnisse-apple-openai-1752432/",
+        "https://openai.com/index/introducing-gpt-live/"
       ],
       "openQuestions": [
-        "Wie lauten die genauen technischen Spezifikationen des Geräts (Akkulaufzeit, Sensorik, Preis)?",
-        "Wie ist der aktuelle rechtliche Stand der von Apple erhobenen Vorwürfe, und wie reagiert OpenAI offiziell darauf?",
-        "Hält OpenAI an einem Marktstart 2027 fest, oder verschiebt sich der Zeitplan erneut?",
-        "Bestätigt OpenAI die Rolle von Jony Ive und LoveFrom bei diesem konkreten Produkt offiziell?"
+        "Wie ist der aktuelle Verfahrensstand der Apple-Klage, und wie reagieren OpenAI sowie die namentlich genannten Beschuldigten offiziell darauf?",
+        "Bestätigt OpenAI offiziell die Rolle von Jony Ive, Tang Tan, Evans Hankey und Paul Meade beim Smart-Speaker-Projekt?",
+        "Hält OpenAI an einem Marktstart des Smart Speakers 2027 fest, oder verschiebt sich der Zeitplan erneut?",
+        "Wie lauten die genauen technischen Spezifikationen des Smart Speakers (Akkulaufzeit, Sensorik, Preis)?",
+        "Ist GPT-Live tatsächlich die für den geplanten Smart Speaker vorgesehene Sprachtechnologie, oder handelt es sich um zwei unabhängige Entwicklungsstränge?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-16T12:07:30.734Z",
-      "doNotUpdateBefore": "2026-07-15T18:07:30.734Z"
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-17T14:07:31.670Z",
+      "doNotUpdateBefore": "2026-07-16T20:07:31.670Z",
+      "echoPublishers": {
+        "futurezone": "2026-07-16T14:07:31.670Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-16T14:07:31.670Z"
     },
     "gaensehaeufel-badeunfall-mann-verstorben-juli-2026": {
       "canonicalTitle": "Wien: 49-Jähriger nach Badeunfall im Gänsehäufel im Spital verstorben",
@@ -4930,7 +4939,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T14:07:30.789Z",
-      "doNotUpdateBefore": "2026-07-15T20:07:30.789Z"
+      "doNotUpdateBefore": "2026-07-15T20:07:30.789Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-16T14:07:31.670Z"
+      }
     },
     "schimanek-fpoe-bildungsinstitut-juli-2026": {
       "canonicalTitle": "Verurteilter Ex-Büroleiter von Rosenkranz jetzt bei FPÖ-Bildungsinstitut – scharfe Kritik von ÖVP, SPÖ und Grünen",
@@ -5072,9 +5084,9 @@
       "echoPublishers": {
         "diepresse": "2026-07-16T12:07:29.290Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-16T12:07:29.290Z"
+      "resonanceMeasuredAt": "2026-07-16T14:07:31.670Z"
     },
     "ferienverlegung-hitze-wallner-schwierig-juli-2026": {
       "canonicalTitle": "Hitzebedingte Ferienverlegung: Wallner sieht Umsetzung „schwierig“",
@@ -5323,7 +5335,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-17T04:07:28.989Z",
-      "doNotUpdateBefore": "2026-07-16T10:07:28.989Z"
+      "doNotUpdateBefore": "2026-07-16T10:07:28.989Z",
+      "echoPublishers": {
+        "kurier": "2026-07-16T14:07:31.670Z"
+      }
     },
     "who-unicef-bericht-kinder-impfschutz-oesterreich-europa-2026": {
       "canonicalTitle": "WHO/UNICEF-Bericht: Über halbe Million Kinder in Europa ohne vollen Impfschutz – Österreich mit Lücken bei vollständigen Impfserien",
@@ -5556,6 +5571,62 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-17T12:07:29.290Z",
       "doNotUpdateBefore": "2026-07-16T18:07:29.290Z"
+    },
+    "morandi-bruecke-urteil-castellucci-juli-2026": {
+      "canonicalTitle": "Morandi-Brückeneinsturz: Zwölf Jahre Haft für Ex-Autobahnchef Castellucci",
+      "slug": "morandi-bruecke-urteil-castellucci-juli-2026",
+      "firstSeenAt": "2026-07-16T14:07:31.670Z",
+      "lastUpdatedAt": "2026-07-16T14:07:31.670Z",
+      "status": "published",
+      "articlePath": "src/content/articles/morandi-bruecke-urteil-castellucci-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-16/morandi-bruecke-urteil-castellucci-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436386",
+        "https://www.derstandard.at/story/3000000331769/zwoelf-jahre-haft-nach-morandi-bruecken-einsturz-in-genua",
+        "https://www.diepresse.com/37827541/einsturz-der-morandi-bruecke-in-genua-gericht-verurteilt-betreiber-castellucci-zu-zwoelf-jahren-haft",
+        "https://kurier.at/chronik/welt/genua-morandi-bruecke-einsturz-haft/403176532",
+        "https://orf.at/stories/3436180",
+        "https://www.ansa.it/sito/notizie/cronaca/2026/07/16/ponte-morandi-castellucci-condannato-a-12-anni-la-procura-aveva-chiesto-18-anni-e-6-mesi_bac48c70-639e-4d68-9ae4-4f1424dec84b.html",
+        "https://us.cnn.com/2026/07/16/europe/italy-giovanni-castellucci-genoa-bridge-sentencing-intl",
+        "https://www.ilfattoquotidiano.it/2026/07/16/ponte-morandi-castellucci-condannato-notizie/8450579/",
+        "https://en.ilsole24ore.com/art/morandi-bridge-verdict-expected-today-eight-years-on-letter-of-apology-from-aspi-AJVe2UL"
+      ],
+      "openQuestions": [
+        "Legen Castellucci oder andere Verurteilte Berufung ein, und wie könnte ein zweitinstanzliches Urteil ausfallen?",
+        "Wie reagieren die Verteidigung Castelluccis und die übrigen Verurteilten öffentlich auf das Urteil?",
+        "Welche zivilrechtlichen Entschädigungsansprüche der Opferfamilien sind mit dem Urteil noch nicht abgegolten?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-17T14:07:31.670Z",
+      "doNotUpdateBefore": "2026-07-16T20:07:31.670Z"
+    },
+    "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026": {
+      "canonicalTitle": "Italiens Abgeordnetenkammer billigt Melonis umstrittene Wahlrechtsreform",
+      "slug": "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026",
+      "firstSeenAt": "2026-07-16T14:07:31.670Z",
+      "lastUpdatedAt": "2026-07-16T14:07:31.670Z",
+      "status": "published",
+      "articlePath": "src/content/articles/italien-wahlrechtsreform-abgeordnetenkammer-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-16/italien-wahlrechtsreform-abgeordnetenkammer-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331766/italienische-abgeordnetenkammer-billigt-umstrittene-wahlrechtsreform",
+        "https://www.diepresse.com/37814942/italienische-abgeordnetenkammer-billigt-melonis-umstrittene-wahlrechtsreform",
+        "https://orf.at/stories/3436381",
+        "https://orf.at/stories/3436286/",
+        "https://www.bloomberg.com/news/articles/2026-07-16/meloni-s-electoral-reform-clears-italy-s-lower-house-with-vote",
+        "https://www.internazionale.it/ultime-notizie-reuters/2026/07/16/italy-s-parliament-backs-meloni-s-contested-electoral-reform",
+        "https://taz.de/Melonis-Wahlrechtsreform-in-Italien/!6196243/",
+        "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101343686/abstimmung-ueber-wahlrecht-schwere-schlappe-fuer-meloni.html"
+      ],
+      "openQuestions": [
+        "Wann und mit welchem Ergebnis wird der Senat über die Reform abstimmen?",
+        "Wie würde sich die Reform bei den aktuellen Umfragewerten konkret auf die Sitzverteilung auswirken?",
+        "Hält die Reform einer verfassungsrechtlichen Prüfung stand?",
+        "Wie stabil ist die Regierungskoalition angesichts der Abweichler beim gescheiterten Vorzugsstimmen-Vorschlag?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-17T14:07:31.670Z",
+      "doNotUpdateBefore": "2026-07-16T20:07:31.670Z"
     }
   }
 }
