@@ -92,9 +92,21 @@ const ogImage = data.image
   : null;
 const ogImageUrl = ogImage ? new URL(ogImage.src, Astro.site).toString() : undefined;
 
+const publisher = {
+  '@type': 'Organization',
+  name: 'Neue Nachrichten',
+  url: 'https://neuenachrichten.at/',
+  logo: {
+    '@type': 'ImageObject',
+    url: new URL(withBase('/logo.png'), Astro.site).toString(),
+    width: 512,
+    height: 512,
+  },
+};
+
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Article',
+  '@type': 'NewsArticle',
   headline: data.title,
   description: data.description,
   inLanguage: 'de-AT',
@@ -102,11 +114,8 @@ const jsonLd = {
   ...(data.publishedAt && { datePublished: data.publishedAt.toISOString() }),
   ...(updated && { dateModified: updated.toISOString() }),
   creativeWorkStatus: statusToCreativeWorkStatus[data.status] ?? data.status,
-  author: {
-    '@type': 'Organization',
-    name: 'Neue Nachrichten',
-    url: 'https://neuenachrichten.at/',
-  },
+  author: publisher,
+  publisher,
   mainEntityOfPage: new URL(withBase(`/artikel/${article.id}/`), Astro.site).toString(),
 };
 ---
