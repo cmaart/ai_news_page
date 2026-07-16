@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-16T04:22:53.220Z",
+  "updatedAt": "2026-07-16T09:45:37.618Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1447,12 +1447,11 @@
       "doNotRedraftBefore": "2026-07-16T18:07:30.161Z",
       "doNotUpdateBefore": "2026-07-16T00:07:30.161Z",
       "echoPublishers": {
-        "apa": "2026-07-15T08:07:27.506Z",
         "derstandard": "2026-07-15T18:07:30.161Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-15T18:07:30.161Z"
+      "resonanceMeasuredAt": "2026-07-16T09:31:48.821Z"
     },
     "kuba-zweiter-blackout-juli-2026": {
       "canonicalTitle": "Kuba: Zweiter inselweiter Stromausfall binnen einer Woche",
@@ -1589,13 +1588,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-12T19:07:27.203Z",
       "doNotUpdateBefore": "2026-07-12T01:07:27.203Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-15T08:07:27.506Z",
-        "kurier": "2026-07-15T08:07:27.506Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-15T22:07:29.036Z"
+      "resonanceMeasuredAt": "2026-07-16T09:31:48.821Z"
     },
     "deutschland-klimaziel-2045-verschiebung-forderungen-juli-2026": {
       "canonicalTitle": "Forderungen aus Wirtschaft und Gewerkschaften: Deutsches Klimaziel 2045 soll verschoben werden",
@@ -1775,8 +1771,9 @@
       "doNotUpdateBefore": "2026-07-16T04:07:29.036Z",
       "echoPublishers": {
         "diepresse": "2026-07-16T04:07:28.989Z",
-        "orf": "2026-07-15T20:07:27.471Z",
-        "kurier": "2026-07-15T12:07:30.734Z"
+        "orf": "2026-07-16T09:31:48.821Z",
+        "kurier": "2026-07-15T12:07:30.734Z",
+        "derstandard": "2026-07-16T09:31:48.821Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -2511,13 +2508,12 @@
       "doNotRedraftBefore": "2026-07-16T06:07:27.992Z",
       "doNotUpdateBefore": "2026-07-15T12:07:27.992Z",
       "echoPublishers": {
-        "orf": "2026-07-15T22:07:29.036Z",
-        "derstandard": "2026-07-15T06:07:27.992Z",
-        "kurier": "2026-07-15T06:07:27.992Z"
+        "orf": "2026-07-16T09:31:48.821Z",
+        "diepresse": "2026-07-16T09:31:48.821Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-15T06:07:27.992Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-16T09:31:48.821Z"
     },
     "frankreich-atomreaktoren-hitze-juli-2026": {
       "canonicalTitle": "Hitzewelle in Frankreich: Atomreaktoren in Golfech, Bugey und Chooz abgeschaltet – ASNR lockert Kühlwasser-Grenzwerte",
@@ -4080,7 +4076,7 @@
       "doNotRedraftBefore": "2026-07-16T02:07:27.786Z",
       "doNotUpdateBefore": "2026-07-15T08:07:27.786Z",
       "echoPublishers": {
-        "apa": "2026-07-15T20:07:27.471Z",
+        "apa": "2026-07-16T09:31:48.821Z",
         "techcrunch": "2026-07-15T14:07:30.789Z",
         "theverge": "2026-07-16T00:07:28.727Z"
       },
@@ -4530,8 +4526,7 @@
       "doNotRedraftBefore": "2026-07-16T22:07:29.036Z",
       "doNotUpdateBefore": "2026-07-16T04:07:29.036Z",
       "echoPublishers": {
-        "derstandard": "2026-07-15T08:07:27.506Z",
-        "apa": "2026-07-15T10:07:41.799Z",
+        "apa": "2026-07-16T09:31:48.821Z",
         "kurier": "2026-07-15T22:07:29.036Z"
       },
       "resonanceLevel": 2,
@@ -5055,7 +5050,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T20:07:27.471Z",
-      "doNotUpdateBefore": "2026-07-16T02:07:27.471Z"
+      "doNotUpdateBefore": "2026-07-16T02:07:27.471Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-16T09:31:48.821Z"
+      }
     },
     "ferienverlegung-hitze-wallner-schwierig-juli-2026": {
       "canonicalTitle": "Hitzebedingte Ferienverlegung: Wallner sieht Umsetzung „schwierig“",
@@ -5111,27 +5109,37 @@
       "doNotUpdateBefore": "2026-07-16T02:07:27.471Z"
     },
     "argentinien-england-wm-halbfinale-comeback-juli-2026": {
-      "canonicalTitle": "Argentinien dreht Rückstand gegen England und zieht laut Berichten ins WM-Finale ein",
+      "canonicalTitle": "Argentinien schlägt England im WM-Halbfinale 2:1 und trifft im Finale auf Spanien",
       "slug": "argentinien-england-wm-halbfinale-comeback-juli-2026",
       "firstSeenAt": "2026-07-15T22:07:29.036Z",
-      "lastUpdatedAt": "2026-07-15T22:07:29.036Z",
+      "lastUpdatedAt": "2026-07-16T09:31:48.821Z",
       "status": "published",
       "articlePath": "src/content/articles/argentinien-england-wm-halbfinale-comeback-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-15/argentinien-england-wm-halbfinale-comeback-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-16/argentinien-england-wm-halbfinale-comeback-juli-2026-update-900.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331668/messi-schl228gt-tuchel-argentinien-st252rmt-ins-finale",
         "https://www.diepresse.com/37384835/live-ab-21-uhr-england-gegen-argentinien",
-        "https://www.diepresse.com/37384835/england-oder-argentinien-wer-folgt-spanien-ins-wm-finale"
+        "https://www.diepresse.com/37384835/england-oder-argentinien-wer-folgt-spanien-ins-wm-finale",
+        "https://www.ots.at/presseaussendung/OTS_20260716_OTS0049/orf-zeigt-finale-spanien-argentinien-am-19-juli-live",
+        "https://www.sportschau.de/fussball/fifa-wm-2026/wieder-im-endspurt-argentinien-ringt-england-nieder-und-steht-im-finale,wm-spielbericht-england-argentinien-100.html",
+        "https://www.srf.ch/sport/fussball/fifa-wm-2026/2-1-sieg-gegen-england-2-messi-assists-argentinien-mit-grosser-wende-in-den-wm-final",
+        "https://www.zdfheute.de/sport/fussball-wm/fussball-wm-2026-argentinien-england-halbfinale-100.html",
+        "https://www.srf.ch/sport/fussball/fifa-wm-2026/wm-2026-final-esp-arg-im-endspiel-treffen-sich-der-welt-und-der-europameister"
       ],
       "openQuestions": [
-        "Wie lautete der exakte Endstand des Spiels?",
-        "In welchen Minuten fielen die einzelnen Tore genau?",
-        "Wer ist der Finalgegner Argentiniens und wann findet das Endspiel statt?",
-        "Gibt es offizielle FIFA-Statistiken oder Stimmen der Trainer und Spieler zur Partie?"
+        "Welche offiziellen FIFA-Statistiken (Ballbesitz, Schüsse, Fouls) liegen zum Halbfinale vor?",
+        "Welche Stimmen gibt es von Trainer Scaloni oder den Spielern zur Partie und zum bevorstehenden Finale?",
+        "Wann genau und in welchem Stadion findet das Spiel um Platz drei statt?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-16T22:07:29.036Z",
-      "doNotUpdateBefore": "2026-07-16T04:07:29.036Z"
+      "doNotRedraftBefore": "2026-07-17T09:31:48.821Z",
+      "doNotUpdateBefore": "2026-07-16T15:31:48.821Z",
+      "echoPublishers": {
+        "apa": "2026-07-16T09:31:48.821Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-16T09:31:48.821Z"
     },
     "cluster-20260715-88f5f82e": {
       "canonicalTitle": "Nobelpreisträger Hassabis schlägt unabhängige Organisation zur KI-Regulierung vor",
@@ -5339,6 +5347,86 @@
         "Veröffentlichungsdatum oder Kinostart für 'Die Odyssee'"
       ],
       "sensitivity": "high"
+    },
+    "ihs-mittelfristprognose-wirtschaftswachstum-2030": {
+      "canonicalTitle": "IHS-Prognose: Österreichs Wirtschaft wächst bis 2030 nur um rund ein Prozent pro Jahr",
+      "slug": "ihs-mittelfristprognose-wirtschaftswachstum-2030",
+      "firstSeenAt": "2026-07-16T09:31:48.821Z",
+      "lastUpdatedAt": "2026-07-16T09:31:48.821Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ihs-mittelfristprognose-wirtschaftswachstum-2030.mdx",
+      "researchPath": "data/ai-news/research/2026-07-16/ihs-mittelfristprognose-wirtschaftswachstum-2030.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331619/oesterreichs-wirtschaft-wird-bis-2030-kleinere-broetchen-backen",
+        "https://www.diepresse.com/35309617/neue-prognose-nur-ein-prozent-wachstum-pro-jahr-bis-2030",
+        "https://kurier.at/wirtschaft/wirtschaft-oesterreich-wachstum-prognose-ihs/403176446",
+        "https://www.diepresse.com/35295323/dieser-australischen-aktie-aus-der-krebsforschung-trauen-experten-bis-zu-200-prozent-kursgewinn-zu",
+        "https://www.diepresse.com/35298804/bei-diesen-drei-aktien-kann-man-laut-experten-getrost-zugreifen-und-mit-hohen-gewinnen-rechnen",
+        "https://www.diepresse.com/37129599/diese-oesterreichischen-banken-testen-den-digitalen-euro",
+        "https://www.diepresse.com/35254629/chinesen-fragen-warum-kann-man-in-oesterreich-keine-autofabrik-bauen",
+        "https://www.ots.at/presseaussendung/OTS_20260714_OTS0070/proell-gratis-digitale-bildung-fuer-jede-oesterreicherin-und-jeden-oesterreicher",
+        "https://www.ots.at/presseaussendung/OTS_20260715_OTS0024/hv-consumer-check-so-grillt-oesterreich-2026-qualitaet-und-regionalitaet-wichtiger-denn-je-ausgaben-von-66-euro-pro-grillerei",
+        "https://www.kleinezeitung.at/artikel/36819460/natuerlich-werden-auch-chinesische-zulieferer-nach-europa-kommen",
+        "https://www.diepresse.com/37386744/bei-diesen-vier-aktien-haben-insider-in-letzter-zeit-gross-zugekauft",
+        "https://www.ihs.ac.at/de/news-und-events/events/detail/pressekonferenzmittelfristprognose-der-oesterreichischen-wirtschaft-2026-2030/",
+        "https://www.ots.at/presseaussendung/OTS_20260716_OTS0032/wkoe-danninger-zu-ihs-prognose-aufkeimende-zuversicht-durch-weitere-entlastung-staerken"
+      ],
+      "openQuestions": [
+        "Welche konkreten Zahlen nennt die IHS-Mittelfristprognose 2026–2030 zu Budgetdefizit und Schuldenquote?",
+        "Wie sieht die sektorale Zusammensetzung des prognostizierten Wachstums aus (Bau, Export, privater Konsum)?",
+        "Wann genau soll die Inflation laut IHS wieder auf rund zwei Prozent zurückgehen?",
+        "Wie reagieren Gewerkschaften, Arbeiterkammer und Bundesregierung auf die Prognose?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-17T09:31:48.821Z",
+      "doNotUpdateBefore": "2026-07-16T15:31:48.821Z"
+    },
+    "hegseth-testosterontest-us-soldaten-2026": {
+      "canonicalTitle": "US-Verteidigungsminister Hegseth ordnet Testosteron-Screening für Soldaten ab 30 an",
+      "slug": "hegseth-testosterontest-us-soldaten-2026",
+      "firstSeenAt": "2026-07-16T09:31:48.821Z",
+      "lastUpdatedAt": "2026-07-16T09:31:48.821Z",
+      "status": "published",
+      "articlePath": "src/content/articles/hegseth-testosterontest-us-soldaten-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-16/hegseth-testosterontest-us-soldaten-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436322",
+        "https://www.derstandard.at/story/3000000331688/hegseth-fordert-fuer-us-soldaten-testosteron-tests",
+        "https://www.diepresse.com/37659083/us-verteidigungsminister-hegseth-will-soldaten-auf-testosteronmangel-ueberpruefen",
+        "https://kurier.at/politik/ausland/hegseth-fordert-fuer-soldaten-ab-30-tests-der-testosteronwerte/403176371",
+        "https://www.nbcnews.com/politics/trump-administration/pete-hegseth-says-military-will-test-service-members-testosterone-leve-rcna587682",
+        "https://www.stripes.com/theaters/us/2026-07-15/hegseth-approve-testosterone-testing-troops-22274442.html"
+      ],
+      "openQuestions": [
+        "Wann genau tritt das Screening-Programm in Kraft und wie wird die Umsetzung in den Streitkräften kontrolliert?",
+        "Existiert eine schriftliche, offiziell veröffentlichte Pentagon-Direktive zu der Maßnahme, oder bleibt es bei der Video-Ankündigung?",
+        "Wie bewerten Militärmedizinerinnen und -mediziner einen pauschalen Alters-Schwellenwert von 30 Jahren?",
+        "Gibt es Reaktionen aus dem US-Kongress oder von Veteranenorganisationen auf die Ankündigung?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-17T09:31:48.821Z",
+      "doNotUpdateBefore": "2026-07-16T15:31:48.821Z"
+    },
+    "cluster-20260716-ace4bbc9": {
+      "canonicalTitle": "All for One schließt Zusammenschlussvereinbarung mit VINCI Energies zur Beschleunigung der internationalen Wachstumsstrategie",
+      "slug": "cluster-20260716-ace4bbc9",
+      "firstSeenAt": "2026-07-16T09:31:48.821Z",
+      "lastUpdatedAt": "2026-07-16T09:31:48.821Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.ots.at/presseaussendung/OTS_20260716_OTS0026/all-for-one-schliesst-zusammenschlussvereinbarung-mit-vinci-energies-zur-beschleunigung-der-internationalen-wachstumsstrategie",
+        "https://kurier.at/apa-ots/wirtschaft/all-for-one-schliesst-zusammenschlussvereinbarung-mit-vinci-energies-zur-beschleunigung-der/403176451",
+        "https://www.profil.at/apa-ots/wirtschaft/all-for-one-schliesst-zusammenschlussvereinbarung-mit-vinci-energies-zur-beschleunigung-der/403176452"
+      ],
+      "openQuestions": [
+        "Originalaussagen All for One Vorstand/Aufsichtsrat (Synergien, Arbeitsmarkt-Auswirkungen, Timeline)",
+        "Originalaussagen VINCI Energies zu Integrationsplänen",
+        "Unabhängige Finanzanalysen oder Bewertungen der Transaktion",
+        "Übernahmeangebot-Details (Kaufpreis, Timeline, Bedingungen, Regulatorische Genehmigungen)",
+        "Reaktionen aus Arbeitgeber-/Arbeitnehmerverband",
+        "Finanzielle Kennzahlen All for One selbst (Umsatz, Mitarbeitende, Rentabilität)"
+      ],
+      "sensitivity": "low"
     }
   }
 }
