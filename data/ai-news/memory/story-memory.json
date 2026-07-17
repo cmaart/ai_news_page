@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-17T08:20:42.934Z",
+  "updatedAt": "2026-07-17T10:21:22.990Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -701,8 +701,12 @@
       "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
       "doNotUpdateBefore": "2026-07-17T12:07:26.099Z",
       "echoPublishers": {
-        "derstandard": "2026-07-17T08:07:29.689Z"
-      }
+        "derstandard": "2026-07-17T08:07:29.689Z",
+        "apa": "2026-07-17T10:07:28.766Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
     },
     "netzausbau-einsparung-zweidrittelmehrheit-2040": {
       "canonicalTitle": "Regierung will bis 2040 rund 4,1 Milliarden Euro beim Netzausbau sparen – Streit um Zweidrittelmehrheit für Energiegesetze",
@@ -1782,13 +1786,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T22:07:29.036Z",
       "doNotUpdateBefore": "2026-07-16T04:07:29.036Z",
-      "echoPublishers": {
-        "orf": "2026-07-16T09:31:48.821Z",
-        "derstandard": "2026-07-16T09:31:48.821Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T04:07:33.034Z"
+      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -2518,13 +2519,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T06:07:27.992Z",
       "doNotUpdateBefore": "2026-07-15T12:07:27.992Z",
-      "echoPublishers": {
-        "orf": "2026-07-16T09:31:48.821Z",
-        "diepresse": "2026-07-16T09:31:48.821Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-16T22:07:29.344Z"
+      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
     },
     "frankreich-atomreaktoren-hitze-juli-2026": {
       "canonicalTitle": "Hitzewelle in Frankreich: Atomreaktoren in Golfech, Bugey und Chooz abgeschaltet – ASNR lockert Kühlwasser-Grenzwerte",
@@ -4082,12 +4080,11 @@
       "doNotRedraftBefore": "2026-07-18T04:07:33.034Z",
       "doNotUpdateBefore": "2026-07-17T10:07:33.034Z",
       "echoPublishers": {
-        "apa": "2026-07-16T14:07:31.670Z",
-        "techcrunch": "2026-07-16T10:07:25.369Z"
+        "apa": "2026-07-16T14:07:31.670Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T02:07:25.183Z"
+      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
     },
     "opernsommer-2026-tosca-st-margarethen-madama-butterfly-gars": {
       "canonicalTitle": "Puccini unter freiem Himmel: „Tosca“ eröffnet in St. Margarethen, „Madama Butterfly“ sorgt in Gars für Tenor-Drama",
@@ -5201,12 +5198,10 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-17T09:31:48.821Z",
       "doNotUpdateBefore": "2026-07-16T15:31:48.821Z",
-      "echoPublishers": {
-        "apa": "2026-07-16T09:31:48.821Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-16T09:31:48.821Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
     },
     "cluster-20260715-88f5f82e": {
       "canonicalTitle": "Nobelpreisträger Hassabis schlägt unabhängige Organisation zur KI-Regulierung vor",
@@ -5745,7 +5740,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-17T16:07:29.022Z",
-      "doNotUpdateBefore": "2026-07-16T22:07:29.022Z"
+      "doNotUpdateBefore": "2026-07-16T22:07:29.022Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-17T10:07:28.766Z"
+      }
     },
     "bozen-gerichtsgebaeude-einsturz-juli-2026": {
       "canonicalTitle": "Mussolini-Bau in Bozen: Teil des Gerichtsgebäudes eingestürzt",
@@ -5861,11 +5859,12 @@
       "doNotRedraftBefore": "2026-07-17T20:07:34.320Z",
       "doNotUpdateBefore": "2026-07-17T02:07:34.320Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-16T22:07:29.344Z"
+        "kleinezeitung": "2026-07-16T22:07:29.344Z",
+        "derstandard": "2026-07-17T10:07:28.766Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-16T22:07:29.344Z"
+      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
     },
     "eu-google-android-ki-suchdaten-dma-juli-2026": {
       "canonicalTitle": "EU verpflichtet Google zu Öffnung von Suchdaten und Android-KI",
@@ -6174,7 +6173,14 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
-      "doNotUpdateBefore": "2026-07-17T12:07:26.099Z"
+      "doNotUpdateBefore": "2026-07-17T12:07:26.099Z",
+      "echoPublishers": {
+        "orf": "2026-07-17T10:07:28.766Z",
+        "derstandard": "2026-07-17T10:07:28.766Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
     },
     "inflation-oesterreich-juni-2026": {
       "canonicalTitle": "Inflation in Österreich im Juni 2026 auf 3,2 Prozent gefallen",
@@ -6248,6 +6254,113 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-18T08:07:29.689Z",
       "doNotUpdateBefore": "2026-07-17T14:07:29.689Z"
+    },
+    "foodwatch-mcdonalds-energydrinks-kinder-juli-2026": {
+      "canonicalTitle": "Foodwatch: McDonald's verkauft Energydrink laut Testkauf ohne Alterskontrolle an Kinder",
+      "slug": "foodwatch-mcdonalds-energydrinks-kinder-juli-2026",
+      "firstSeenAt": "2026-07-17T10:07:28.766Z",
+      "lastUpdatedAt": "2026-07-17T10:07:28.766Z",
+      "status": "published",
+      "articlePath": "src/content/articles/foodwatch-mcdonalds-energydrinks-kinder-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/foodwatch-mcdonalds-energydrinks-kinder-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/38009128/foodwatch-kritisiert-oesterreich-kindern-werden-energydrinks-verkauft",
+        "https://www.kleinezeitung.at/artikel/38021668/foodwatch-oesterreich-kritisiert-mcdonalds-wegen-energy-drinks",
+        "https://www.ots.at/presseaussendung/OTS_20260717_OTS0002/mcdonalds-verkauft-energydrinks-an-achtjaehrige",
+        "https://www.foodwatch.org/at/kein-kick-fuer-kids-foodwatch-fordert-altersbeschraenkung-fuer-energydrinks",
+        "https://hansard.parliament.uk/lords/2026-02-10/debates/EEC1671F-F3F5-4499-AC16-0F94B0C68512/Under-16SEnergyDrinksBan",
+        "https://www.itv.com/news/2026-07-16/under-16s-in-england-to-be-banned-from-buying-energy-drinks"
+      ],
+      "openQuestions": [
+        "Führt McDonald's Österreich künftig eigene Alterskontrollen beim Verkauf von Energydrinks ein?",
+        "Wird Österreich eine gesetzliche Altersgrenze für Energydrinks einführen, wie sie foodwatch fordert?",
+        "Wie viele Filialen und Testkäufe umfasste die Aktion insgesamt, und ist das Ergebnis repräsentativ?",
+        "Welchen Zuspruch erhält die von foodwatch gestartete Petition?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-18T10:07:28.766Z",
+      "doNotUpdateBefore": "2026-07-17T16:07:28.766Z"
+    },
+    "bob-dylan-konzerte-wien-salzburg-november-2026": {
+      "canonicalTitle": "Bob Dylan kommt im November 2026 nach Wien und Salzburg",
+      "slug": "bob-dylan-konzerte-wien-salzburg-november-2026",
+      "firstSeenAt": "2026-07-17T10:07:28.766Z",
+      "lastUpdatedAt": "2026-07-17T10:07:28.766Z",
+      "status": "published",
+      "articlePath": "src/content/articles/bob-dylan-konzerte-wien-salzburg-november-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/bob-dylan-konzerte-wien-salzburg-november-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436470",
+        "https://www.derstandard.at/story/3000000331903/bob-dylan-gastiert-im-herbst-live-in-wien-und-salzburg",
+        "https://kurier.at/kultur/bob-dylan-konzert-tickets/403176597",
+        "https://www.sn.at/kultur/allgemein/bob-dylan-gibt-konzert-in-salzburg-art-662560",
+        "https://www.oeticket.com/artist/bob-dylan/"
+      ],
+      "openQuestions": [
+        "Liegt eine direkte offizielle Bestätigung von Veranstalter (Barracuda Music), Wiener Stadthalle bzw. Salzburgarena oder der Künstlerseite vor?",
+        "Wie hoch sind die konkreten Ticketpreise für die drei Shows?",
+        "Welches Set bzw. welche Songauswahl ist für die 'Rough and Rowdy Ways'-Tourphase zu erwarten?",
+        "Gibt es weitere Zusatztermine in Österreich oder Nachbarländern im Rahmen derselben Tournee?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-18T10:07:28.766Z",
+      "doNotUpdateBefore": "2026-07-17T16:07:28.766Z"
+    },
+    "trump-truth-api-finanzfirmen-august-2026": {
+      "canonicalTitle": "Trump Media verkauft Finanzfirmen schnelleren Zugang zu Trumps Truth-Social-Posts",
+      "slug": "trump-truth-api-finanzfirmen-august-2026",
+      "firstSeenAt": "2026-07-17T10:07:28.766Z",
+      "lastUpdatedAt": "2026-07-17T10:07:28.766Z",
+      "status": "published",
+      "articlePath": "src/content/articles/trump-truth-api-finanzfirmen-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/trump-truth-api-finanzfirmen-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436460",
+        "https://www.derstandard.at/story/3000000331900/trdonald-trump-will-seine-online-botschaften-zu-geld-machen",
+        "https://www.diepresse.com/37981812/donald-trump-will-truth-social-zu-geld-machen",
+        "https://kurier.at/politik/ausland/donald-trump-posts-online-botschaften-geld-truth-social/403176698",
+        "https://www.heise.de/news/API-Zugang-fuer-Truth-Social-Schnellerer-Zugang-zu-Trumps-Beitraegen-gegen-Geld-11368703.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.derstandard.at/story/3000000331462/donald-trump-auf-verlorenem-posten",
+        "https://www.heise.de/news/API-Zugang-fuer-Truth-Social-Schnellerer-Zugang-zu-Trumps-Beitraegen-gegen-Geld-11368703.html",
+        "https://finance.yahoo.com/technology/articles/trump-media-technology-group-launches-130000261.html",
+        "https://www.cbsnews.com/news/truth-api-trump-media/"
+      ],
+      "openQuestions": [
+        "Wie hoch ist der Preis für den Zugang zu „Truth API“?",
+        "Welche und wie viele Finanzinstitute haben bereits Verträge abgeschlossen?",
+        "Gibt es Reaktionen von Börsenaufsichtsbehörden wie der SEC zu dem Geschäftsmodell?",
+        "Wie genau funktioniert die technische Auswahl der „zehn einflussreichsten“ Accounts?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-18T10:07:28.766Z",
+      "doNotUpdateBefore": "2026-07-17T16:07:28.766Z"
+    },
+    "cluster-20260717-e593c3b5": {
+      "canonicalTitle": "Frau in Tirol von drei Hunden attackiert",
+      "slug": "cluster-20260717-e593c3b5",
+      "firstSeenAt": "2026-07-17T10:07:28.766Z",
+      "lastUpdatedAt": "2026-07-17T10:07:28.766Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331886/frau-in-tirol-von-drei-hunden-attackiert",
+        "https://kurier.at/chronik/tirol/frau-in-tirol-von-drei-hunden-attackiert/403176695",
+        "https://kurier.at/chronik/tirol/frau-in-tirol-von-drei-hunden-attackiert/403176695",
+        "https://www.diepresse.com/37882943/frau-mit-hund-findet-knochen-von-vermisstem-tiroler",
+        "https://kurier.at/chronik/oesterreich/frau-mit-hund-fand-knochen-von-vermisstem-tiroler/403176563",
+        "https://kurier.at/chronik/oesterreich/frau-mit-hund-fand-knochen-von-vermisstem-tiroler/403176563",
+        "https://www.kleinezeitung.at/artikel/37909275/frau-mit-hund-fand-knochen-von-vermisstem-tiroler",
+        "https://tirol.orf.at/stories/3363037",
+        "https://tirol.orf.at/stories/3363037",
+        "https://www.diepresse.com/37973212/frau-in-tirol-von-drei-hunden-attackiert",
+        "https://www.kleinezeitung.at/artikel/37971122/deutsche-60-in-tirol-von-drei-hunden-attackiert"
+      ],
+      "openQuestions": [
+        "Polizeipresseaussendung oder offizielle Behörden-Stellungnahme (direkt)",
+        "Hundehalter-Statement oder Kontext zum Vorfall",
+        "Behördliche Konsequenzen oder Ermittlungen (Rasse-Einstufung, Maßnahmen)",
+        "Medizinischer Update vom Krankenhaus zur Genesung"
+      ],
+      "sensitivity": "medium"
     }
   }
 }

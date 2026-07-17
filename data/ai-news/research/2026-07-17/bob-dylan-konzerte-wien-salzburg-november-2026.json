@@ -1,0 +1,232 @@
+{
+  "cluster": {
+    "id": "cluster-20260717-f5111ff2",
+    "title": "Bob Dylan im Herbst live in Wien und Salzburg",
+    "items": [
+      {
+        "itemId": "ee2be5fc46b6c075a8fb5bbae058c010ece6bcbc9b9d8d879ebdcae948f75104",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Bob Dylan im Herbst live in Wien und Salzburg",
+        "url": "https://orf.at/stories/3436470",
+        "publishedAt": "2026-07-17T09:44:47.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "d02349670a027ce2b3a12eac6e9dc49ea15702eef209e2c662c5a653be5ee277",
+        "sourceId": "derstandard_kultur",
+        "sourceType": "media",
+        "title": "Bob Dylan gastiert im Herbst live in Wien und Salzburg",
+        "url": "https://www.derstandard.at/story/3000000331903/bob-dylan-gastiert-im-herbst-live-in-wien-und-salzburg",
+        "summary": "Drei Österreich-Gigs des 85-Jährigen sind innerhalb der \"EU/UK 2026\"-Tournee angekündigt – Dylan ist damit erstmals seit 2019 wieder live in Österreich zu sehen",
+        "publishedAt": "2026-07-17T09:20:27.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "9ffb830c91d32a2216f50716a7c6a74505c62afb840e8375a575e068b2091063",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Bob Dylan gastiert im Herbst in Österreich",
+        "url": "https://kurier.at/kultur/bob-dylan-konzert-tickets/403176597",
+        "isNew": false
+      },
+      {
+        "itemId": "f38e96b2a6e7ef4a3c0b44ff32f0d81a600dc45fb8086563b5dae2afb4f0ba99",
+        "sourceId": "kurier_kultur",
+        "sourceType": "media",
+        "title": "Bob Dylan gastiert im Herbst in Österreich",
+        "url": "https://kurier.at/kultur/bob-dylan-konzert-tickets/403176597",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Bedeutsame Kulturankündigung: Bob Dylan, 85-jähriger Literaturnobelpreisträger, kehrt nach sieben Jahren Abwesenheit erstmals seit 2019 nach Österreich zurück. Drei bestätigte Auftritte im November 2026 (Wien: 11.–12. Nov., Salzburg: 14. Nov.) mit konkreten Spielstätten und Ticketverkaufsstart. Breite mediale Berichterstattung (ORF, Der Standard, Kurier) bestätigt Fakten. Solide kulturelle Relevanz für Österreich/EU-Publikum.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Bob Dylan tritt im November 2026 in Wien (11. und 12. November, Stadthalle) auf",
+      "Ein weiterer Auftritt findet am 14. November in der Salzburgarena statt",
+      "Dies sind Dylans erste österreichische Auftritte seit 2019",
+      "Dylan ist 85 Jahre alt",
+      "Dylan ist Träger des Literaturnobelpreises",
+      "Die Auftritte sind Teil seiner \"EU/UK 2026\"-Tournee",
+      "Ticketverkauf für die Wiener Shows startet am Mittwoch",
+      "Bei der \"Phone Free Show\" müssen Mobiltelefone ausgeschaltet bleiben",
+      "Dylans letztes Studioalbum \"Rough and Rowdy Ways\" wurde vor sechs Jahren veröffentlicht"
+    ],
+    "missingSources": [
+      "Offizielle Bestätigung durch Dylans Tour-Promoter oder Künstleragenten",
+      "Offizielle Pressemitteilungen der Veranstalter (Stadthalle Wien, Salzburgarena)",
+      "Link zu Ticketverkauf oder offizielle Ticketpreis-Information"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "bob-dylan-konzerte-wien-salzburg-november-2026",
+    "title": "Bob Dylan kommt im November 2026 nach Wien und Salzburg",
+    "description": "Laut übereinstimmenden Medienberichten tritt Bob Dylan im November 2026 zweimal in der Wiener Stadthalle und einmal in der Salzburgarena auf – die ersten Österreich-Konzerte des 85-Jährigen seit 2019.",
+    "topic": "kultur",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Mehrere voneinander unabhängige österreichische Medien (ORF, Der Standard, Kurier, Salzburger Nachrichten) sowie ein Ticketanbieter berichten übereinstimmend über dieselben Termine, Spielstätten und Rahmenbedingungen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Eine offizielle Ankündigung des Veranstalters oder der Künstler-Website wurde nicht direkt eingesehen; die Angaben stammen aus Medienberichten und Ticketanbieter-Seiten.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um eine unstrittige Kulturankündigung ohne Gegenposition; mehrere unabhängige Quellen bestätigen dieselben Fakten.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Bob Dylan gibt laut übereinstimmenden Medienberichten im November 2026 zwei Konzerte in der Wiener Stadthalle (11. und 12. November) und eines in der Salzburgarena (14. November).",
+        "kind": "fact"
+      },
+      {
+        "text": "Es wären Dylans erste Auftritte in Österreich seit 2019.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Shows sind Teil einer als 'EU/UK 2026' bezeichneten Tournee des inzwischen 85-jährigen Literaturnobelpreisträgers.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Ticketverkauf soll laut Ticketanbieter-Angaben am Mittwoch, 22. Juli 2026, starten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleibt, ob und in welcher Form Veranstalter oder Künstlerseite die Termine selbst offiziell bestätigt haben.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Liegt eine direkte offizielle Bestätigung von Veranstalter (Barracuda Music), Wiener Stadthalle bzw. Salzburgarena oder der Künstlerseite vor?",
+      "Wie hoch sind die konkreten Ticketpreise für die drei Shows?",
+      "Welches Set bzw. welche Songauswahl ist für die 'Rough and Rowdy Ways'-Tourphase zu erwarten?",
+      "Gibt es weitere Zusatztermine in Österreich oder Nachbarländern im Rahmen derselben Tournee?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at: „Bob Dylan im Herbst live in Wien und Salzburg“",
+        "type": "media",
+        "url": "https://orf.at/stories/3436470"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard: „Bob Dylan gastiert im Herbst live in Wien und Salzburg“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331903/bob-dylan-gastiert-im-herbst-live-in-wien-und-salzburg"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier: „Bob Dylan gastiert im Herbst in Österreich“",
+        "type": "media",
+        "url": "https://kurier.at/kultur/bob-dylan-konzert-tickets/403176597"
+      },
+      {
+        "id": "src4",
+        "name": "Salzburger Nachrichten (SN.at): „Wann kommt Bob wieder nach Salzburg?“",
+        "type": "media",
+        "url": "https://www.sn.at/kultur/allgemein/bob-dylan-gibt-konzert-in-salzburg-art-662560"
+      },
+      {
+        "id": "src5",
+        "name": "oeticket.com: Bob Dylan – Termine & Tickets 2026",
+        "type": "other",
+        "url": "https://www.oeticket.com/artist/bob-dylan/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Bob Dylan tritt am 11. und 12. November 2026 in der Wiener Stadthalle auf.",
+        "status": "supported",
+        "note": "Übereinstimmend von mehreren unabhängigen Medien und einem Ticketanbieter berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Ein weiterer Auftritt ist für den 14. November 2026 in der Salzburgarena angesetzt.",
+        "status": "supported",
+        "note": "Von ORF, Der Standard, Kurier sowie regionaler Salzburger Berichterstattung und Ticketanbieter bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Es handelt sich um Dylans erste Konzerte in Österreich seit 2019.",
+        "status": "supported",
+        "note": "Explizit von Der Standard genannt, konsistent mit weiteren Berichten.",
+        "sourceIds": [
+          "src2",
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Ticketverkauf für die drei Shows soll am Mittwoch, 22. Juli 2026, starten.",
+        "status": "supported",
+        "note": "Von Ticketanbieter-Angaben und regionaler Presse übereinstimmend genannt.",
+        "sourceIds": [
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Konzerte sind als 'Phone Free Show' angekündigt, bei denen Mobiltelefone beim Einlass verwahrt werden müssen.",
+        "status": "partial",
+        "note": "Diese Angabe stützt sich auf Ticketanbieter- und Presseinformationen; eine direkt eingesehene Original-Ankündigung des Veranstalters liegt nicht vor.",
+        "sourceIds": [
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Bob Dylan ist 85 Jahre alt und Träger des Literaturnobelpreises.",
+        "status": "supported",
+        "note": "Unstrittige, in mehreren Quellen wiederholte biografische Angabe.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Bob Dylan soll laut übereinstimmenden Medienberichten im November 2026 gleich dreimal in Österreich auftreten. Vorgesehen sind zwei Konzerte in der Wiener Stadthalle am 11. und 12. November sowie ein weiterer Auftritt zwei Tage später, am 14. November, in der Salzburgarena. Die Shows sind Teil einer Tournee, die in Medienberichten als „EU/UK 2026“ bezeichnet wird. Es wären damit die ersten Konzerte des inzwischen 85-jährigen Musikers in Österreich seit 2019."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "ORF, Der Standard und Kurier berichteten am selben Tag nahezu zeitgleich über die Termine, was auf eine gemeinsame Ausgangsmeldung – vermutlich eine Ankündigung des Veranstalters bzw. der Ticketvermarkter – hindeutet. Zusätzlich finden sich die Termine auf der Plattform oeticket.com sowie in der Berichterstattung der Salzburger Nachrichten, die unabhängig von den bundesweiten Medien über den Salzburg-Termin schreiben. Laut diesen Quellen soll der allgemeine Ticketverkauf am Mittwoch, den 22. Juli 2026, beginnen. Mehrere Quellen bezeichnen die Auftritte zudem als „Phone Free Show“ – ein inzwischen für Dylans laufende Tournee bekanntes Konzept, bei dem Mobiltelefone und Kameras beim Einlass in versiegelten Beuteln verwahrt werden müssen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Eine direkt eingesehene, offizielle Bestätigung durch den Veranstalter, die betroffenen Spielstätten oder die Künstlerseite selbst liegt nicht vor – die vorliegende Darstellung stützt sich auf Medienberichte und Angaben von Ticketplattformen. Offen bleiben zudem die konkreten Ticketpreise, das genaue Bühnenprogramm sowie die Frage, ob im Zuge derselben Tournee noch weitere Zusatztermine in der Region hinzukommen könnten."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Dylan, Literaturnobelpreisträger von 2016, tourt seit Jahren nahezu ununterbrochen im Rahmen dessen, was oft als „Never Ending Tour“ bezeichnet wird, zuletzt vor allem im Kontext seines vor rund sechs Jahren erschienenen Studioalbums „Rough and Rowdy Ways“. Die angekündigten Termine in Wien und Salzburg reihen sich in eine größere Europa-Tournee für Herbst und Winter 2026 ein und dürften angesichts der medialen Aufmerksamkeit auf breites Publikumsinteresse treffen – eine abschließende Einordnung der Ticketnachfrage ist zum jetzigen Zeitpunkt jedoch nicht möglich."
+      }
+    ],
+    "bodyKompakt": "Bob Dylan soll laut übereinstimmenden Medienberichten im November 2026 dreimal in Österreich auftreten: am 11. und 12. November in der Wiener Stadthalle sowie am 14. November in der Salzburgarena. Es wären die ersten Konzerte des 85-jährigen Literaturnobelpreisträgers hierzulande seit 2019, angesiedelt im Rahmen einer als „EU/UK 2026“ bezeichneten Tournee.\n\nORF, Der Standard, Kurier sowie die Salzburger Nachrichten und der Ticketanbieter oeticket.com nennen übereinstimmend dieselben Termine und Locations. Der allgemeine Ticketverkauf soll demnach am Mittwoch, den 22. Juli 2026, starten. Mehrfach wird zudem erwähnt, dass es sich um „Phone Free Shows“ handelt, bei denen Mobiltelefone beim Einlass versiegelt verwahrt werden müssen.\n\nEine direkt eingesehene offizielle Bestätigung durch Veranstalter oder Künstlerseite liegt nicht vor, ebenso wenig Angaben zu Ticketpreisen oder Bühnenprogramm. Die Darstellung beruht auf mehreren unabhängigen Medienquellen, die aber vermutlich auf dieselbe ursprüngliche Ankündigung zurückgehen.",
+    "updateNote": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-17T10:07:28.766Z"
+}
