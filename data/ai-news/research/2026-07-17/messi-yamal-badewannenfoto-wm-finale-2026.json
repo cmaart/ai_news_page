@@ -1,0 +1,195 @@
+{
+  "cluster": {
+    "id": "cluster-20260717-5c9d17d1",
+    "title": "„Besser als jedes Drehbuch“: Das steckt hinter dem Messi-Yamal-Foto",
+    "items": [
+      {
+        "itemId": "9060e768059ea51e34b3129094a1e7096ca680e825ed5454486ad17bcae4cc9c",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "„Besser als jedes Drehbuch“: Das steckt hinter dem Messi-Yamal-Foto",
+        "url": "https://kurier.at/sport/fussball/fussball-wm-messi-yamal-badewanne-foto-fotograf-hype/403176806",
+        "summary": "Vor dem WM-Finale ist das ikonische Badewannenfoto von Lionel Messi und Baby Lamine Yamal wieder überall zu sehen. Der Fotograf erzählt, wie das Bild entstand.",
+        "publishedAt": "2026-07-17T15:08:12.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "5499857464b8d490cda30461113a11a77807b76b7eca36cf0c09840eeb9a47c9",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Ein Foto wie eine Prophezeiung: Als Messi Yamal badete",
+        "url": "https://orf.at/stories/3436382",
+        "isNew": false
+      },
+      {
+        "itemId": "7640e935be1eba6aa0b31bae8e09cc889159d36088d2543ac76736e941399c38",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Als Lionel Messi Lamine Yamal badete",
+        "url": "https://www.diepresse.com/38054216/als-lionel-messi-lamine-yamal-badete",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "WM-Finale ist Großereignis (Sport-Titel-Ebene); die Foto-Begleit-Story hat substanzielle Breite (3 österreichische Portale, detailliertes Interview mit Fotograf Joan Monfort) und Erzählkraft (historischer Zufall: Messi badet 2007 Baby-Yamal, treffen 2026 im WM-Finale aufeinander). Nach Ausnahmeregelung für Sport-Großereignisse mit breiter unabhängiger Berichterstattung ist ein eigenständiger Artikel gerechtfertigt.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Das Foto entstand 2007 beim Fotoshooting für einen Wohltätigkeitskalender (2008) mit Unicef-Beteiligung und Barcelona-Spielern mit Kindern.",
+      "Messi war damals 20 Jahre alt und fotografierte sich beim Baden des erst fünf Monate alten Yamal in einer Plastikwanne.",
+      "Yamals Mutter Sheila Ebana gewann eine Verlosung für die Teilnahme am Fotoshooting.",
+      "Das Foto ging erst 2024 während der EM viral, nachdem Yamals Vater es in sozialen Medien teilte.",
+      "Fotograf Joan Monfort hatte zunächst keine Erinnerung an die Aufnahmen aus 2007.",
+      "Das Foto wird millionenfach in sozialen Medien ohne Quellennennungen und ohne Honorar für den Fotografen verbreitet.",
+      "Sheila Ebana war 16 Jahre alt, als sie Yamal bekam, und ist jünger als Messi.",
+      "WM-Finale findet Sonntag in New York statt; Yamal hat drei Tage davor seinen 19. Geburtstag gefeiert."
+    ],
+    "missingSources": [
+      "Aktuelle Reaktion oder Statement von Messi auf die Foto-Renaissance?",
+      "Aktuelle Reaktion oder Statement von Yamal auf das historische Foto?",
+      "Offizielle Stellungnahmen von Unicef oder FC Barcelona zur Neuveröffentlichung des historischen Fotos?",
+      "Konkrete Beispiele oder Daten zur Nutzung ohne Quellennennungen in sozialen Medien (Reichweite, Plattformen)?",
+      "Reaktion oder rechtliche/lizenzrechtliche Überlegungen des Fotografen bezüglich fehlender Vergütung?"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "messi-yamal-badewannenfoto-wm-finale-2026",
+    "title": "Vor dem WM-Finale: Die Geschichte hinter dem viralen Messi-Yamal-Badewannenfoto",
+    "description": "Vor dem WM-Finale zwischen Argentinien und Spanien kursiert erneut ein Foto aus dem Jahr 2007, das Lionel Messi beim Baden des Babys Lamine Yamal zeigen soll. Laut österreichischen Medienberichten erzählt der Fotograf, wie die Aufnahme entstand — eine Primärquelle wurde dazu nicht eingesehen.",
+    "topic": "sport",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Drei österreichische Portale (Kurier, ORF, Die Presse) berichten übereinstimmend, doch alle drei stützen sich erkennbar auf dasselbe Fotografen-Interview – das zählt eher als eine zusammenhängende Quelle als als mehrere unabhängige Bestätigungen, weshalb die Sicherheit nur mittel eingestuft wird.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Primärquelle wie eine Stellungnahme von Messi, Yamal, Unicef oder dem FC Barcelona eingesehen, sondern ausschließlich Medienberichte über ein Fotografen-Interview.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Geschichte wird durchgehend aus der Perspektive des Fotografen und der Medien erzählt, die selbst kein Interesse an einer kritischen Gegendarstellung haben; eine zweite, unabhängige Einordnung fehlt.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Vor dem WM-Finale zwischen Argentinien und Spanien wird laut Berichten ein Foto aus dem Jahr 2007 wieder viral, das den damals 20-jährigen Lionel Messi beim Baden des fünf Monate alten Lamine Yamal zeigen soll.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut den Berichten ist die Aufnahme im Rahmen eines Fotoshootings für einen Wohltätigkeitskalender mit Barcelona-Spielern und ihren Kindern entstanden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Fotograf Joan Monfort habe sich den Berichten zufolge zunächst nicht an das Shooting erinnert, ehe es 2024 während der EM erneut viral ging.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleibt, ob und wie Messi, Yamal, Unicef oder der FC Barcelona die erneute Verbreitung des Bildes kommentiert haben.",
+        "kind": "open"
+      },
+      {
+        "text": "Unklar ist auch, in welchem Umfang und unter welchen Bedingungen der Fotograf für die millionenfache Nutzung des Bildes in sozialen Medien vergütet wird.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Gibt es eine aktuelle Stellungnahme von Messi oder Yamal zur erneuten Verbreitung des Fotos?",
+      "Haben sich Unicef oder der FC Barcelona offiziell zu dem historischen Fotoshooting geäußert?",
+      "Wie groß ist die tatsächliche Reichweite des Bildes in sozialen Medien, und gibt es belastbare Zahlen dazu?",
+      "Erhält der Fotograf Joan Monfort eine Vergütung für die weitverbreitete Nutzung seines Fotos?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier: „Besser als jedes Drehbuch“: Das steckt hinter dem Messi-Yamal-Foto",
+        "type": "media",
+        "url": "https://kurier.at/sport/fussball/fussball-wm-messi-yamal-badewanne-foto-fotograf-hype/403176806"
+      },
+      {
+        "id": "src2",
+        "name": "ORF: Ein Foto wie eine Prophezeiung: Als Messi Yamal badete",
+        "type": "media",
+        "url": "https://orf.at/stories/3436382"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse: Als Lionel Messi Lamine Yamal badete",
+        "type": "media",
+        "url": "https://www.diepresse.com/38054216/als-lionel-messi-lamine-yamal-badete"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Das Foto entstand 2007 im Rahmen eines Fotoshootings für einen Wohltätigkeitskalender mit Barcelona-Spielern und ihren Kindern, bei dem der damals 20-jährige Messi den rund fünf Monate alten Yamal in einer Plastikwanne badete.",
+        "status": "partial",
+        "note": "Beruht auf übereinstimmenden Medienberichten zu einem Fotografen-Interview, keine Primärquelle (etwa Unicef oder FC Barcelona) eingesehen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Yamals Mutter, Sheila Ebana, soll laut Berichten eine Verlosung für die Teilnahme am Fotoshooting gewonnen haben.",
+        "status": "unclear",
+        "note": "Einzelne Detailangabe aus Medienberichten, nicht durch eine unabhängige zweite Quelle bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Das Foto soll erst 2024 während der Fußball-Europameisterschaft viral gegangen sein, nachdem Yamals Vater es in sozialen Medien geteilt hatte.",
+        "status": "partial",
+        "note": "Wird von mehreren Portalen berichtet, stammt aber erkennbar aus derselben Ursprungsquelle.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Fotograf Joan Monfort habe sich den Berichten zufolge zunächst nicht mehr an die Aufnahmen von 2007 erinnert.",
+        "status": "partial",
+        "note": "Aussage aus dem berichteten Interview, nicht unabhängig verifiziert.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Das WM-Finale findet laut Berichten am Sonntag in New York statt, Yamal habe drei Tage zuvor seinen 19. Geburtstag gefeiert.",
+        "status": "unclear",
+        "note": "Datums- und Ortsangabe aus dem Cluster-Kontext, nicht über eine offizielle Turnierquelle geprüft.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Vor dem WM-Finale zwischen Argentinien und Spanien kursiert laut mehreren österreichischen Medienberichten erneut ein Foto aus dem Jahr 2007: Es soll den damals 20-jährigen Lionel Messi zeigen, wie er den erst rund fünf Monate alten Lamine Yamal in einer Plastikwanne badet. Nachdem beide nun im Finale aufeinandertreffen, wird das Bild als eine Art Vorwegnahme des heutigen Duells gehandelt. Kurier, ORF und Die Presse berichteten in den vergangenen Tagen übereinstimmend über die Vorgeschichte der Aufnahme und beriefen sich dabei auf ein Interview mit dem Fotografen Joan Monfort."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Den Berichten zufolge entstand das Foto im Rahmen eines Fotoshootings für einen Wohltätigkeitskalender, an dem mehrere Spieler des FC Barcelona gemeinsam mit ihren Kindern teilnahmen, mutmaßlich mit einem Unicef-Bezug. Yamals Mutter, Sheila Ebana, soll laut Kurier eine Verlosung für die Teilnahme gewonnen haben. Fotograf Joan Monfort erzählt demnach, dass er sich zunächst gar nicht mehr an die konkreten Aufnahmen erinnert habe – erst 2024, während der Fußball-Europameisterschaft, sei das Bild viral gegangen, nachdem es Yamals Vater in sozialen Medien geteilt habe. Seither wird es Berichten zufolge millionenfach weiterverbreitet, oft ohne Quellenangabe."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Keine der vorliegenden Quellen enthält eine aktuelle, direkt zitierte Stellungnahme von Messi oder Yamal selbst zur erneuten Foto-Renaissance. Auch eine offizielle Einordnung von Unicef oder dem FC Barcelona zu dem historischen Shooting liegt nicht vor. Unklar bleibt zudem, in welchem Ausmaß der Fotograf für die breite Nutzung seines Bildes in sozialen Netzwerken entschädigt wird oder ob er rechtliche Schritte in Erwägung zieht. Belastbare Zahlen zur tatsächlichen Reichweite des Fotos wurden in keinem der gesichteten Berichte genannt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Es handelt sich um eine leichte, unterhaltsame Begleitgeschichte zum sportlichen Großereignis, die auf einem einzelnen Fotografen-Interview beruht, das mehrere Medien aufgegriffen haben. Eine Angabe zum Alter von Yamals Mutter zum Zeitpunkt seiner Geburt wird in Berichten genannt, hier aber bewusst zurückhaltend behandelt, da es sich um eine private Information über eine nicht öffentlich exponierte Person handelt. Ohne eingesehene Primärquelle bleibt die Darstellung insgesamt vorsichtig einzustufen."
+      }
+    ],
+    "bodyKompakt": "Vor dem WM-Finale zwischen Argentinien und Spanien kursiert laut österreichischen Medienberichten erneut ein Foto aus dem Jahr 2007, das den damals 20-jährigen Lionel Messi beim Baden des rund fünf Monate alten Lamine Yamal zeigen soll. Da beide nun im Finale aufeinandertreffen, wird die Aufnahme als eine Art Vorwegnahme des heutigen Duells gehandelt.\n\nDen Berichten von Kurier, ORF und Die Presse zufolge entstand das Bild bei einem Fotoshooting für einen Wohltätigkeitskalender mit Barcelona-Spielern und ihren Kindern. Fotograf Joan Monfort erzählt darin, sich zunächst kaum an die Aufnahmen erinnert zu haben – erst 2024, während der EM, sei das Foto viral gegangen, nachdem es Yamals Vater in sozialen Medien geteilt habe. Seither werde es millionenfach weiterverbreitet, oft ohne Quellenangabe.\n\nEine aktuelle Stellungnahme von Messi, Yamal, Unicef oder dem FC Barcelona liegt nicht vor, ebenso wenig Angaben zu einer Vergütung des Fotografen. Die Darstellung stützt sich ausschließlich auf Medienberichte zu einem einzelnen Interview, eine Primärquelle wurde nicht eingesehen.",
+    "updateNote": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-17T22:07:29.841Z"
+}

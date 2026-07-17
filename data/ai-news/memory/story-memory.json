@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-17T20:22:44.133Z",
+  "updatedAt": "2026-07-17T22:32:07.849Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1799,10 +1799,12 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T22:07:29.036Z",
       "doNotUpdateBefore": "2026-07-16T04:07:29.036Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
+      "echoPublishers": {
+        "orf": "2026-07-17T22:07:29.841Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-17T22:07:29.841Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -2630,7 +2632,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T16:07:31.742Z",
       "doNotUpdateBefore": "2026-07-15T22:07:31.742Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "derstandard": "2026-07-17T22:07:29.841Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-15T10:07:41.799Z"
@@ -3096,13 +3100,13 @@
       "doNotUpdateBefore": "2026-07-13T16:01:08.091Z"
     },
     "neos-dengler-parteiausschluss-vertrauensbruch-juli-2026": {
-      "canonicalTitle": "NEOS-Affäre Dengler: Meinl-Reisinger weist Vorwürfe zurück, FPÖ fordert ihren Rücktritt",
+      "canonicalTitle": "NEOS-Affäre Dengler: Meinl-Reisinger weist Vorwürfe zurück, Vertrauenswerte brechen ein",
       "slug": "neos-dengler-parteiausschluss-vertrauensbruch-juli-2026",
       "firstSeenAt": "2026-07-13T10:01:08.091Z",
-      "lastUpdatedAt": "2026-07-14T22:07:26.045Z",
+      "lastUpdatedAt": "2026-07-17T22:07:29.841Z",
       "status": "published",
       "articlePath": "src/content/articles/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-14/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026-update-2200.json",
+      "researchPath": "data/ai-news/research/2026-07-17/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://orf.at/stories/3436057",
         "https://www.diepresse.com/36871425/autoritaere-fuehrung-meinl-reisinger-weist-vorwurf-zurueck-und-bedauert-denglers-vertrauensbruch",
@@ -3119,17 +3123,23 @@
         "https://kurier.at/politik/inland/veit-dengler-neos-fpoe-kritik/403175708",
         "https://www.derstandard.at/story/3000000331281/neos-chefin-meinl-reisinger-bedauert-vertrauensbruch-denglers",
         "https://www.profil.at/podcasts/meinl-reisinger-gegen-die-frechen-maenner-was-bei-den-neos-los-ist/403175871",
-        "https://www.ots.at/presseaussendung/OTS_20260712_OTS0012/fpoe-schnedlitz-neos-schaffen-freie-meinungsaeusserung-innerhalb-der-partei-ab"
+        "https://www.ots.at/presseaussendung/OTS_20260712_OTS0012/fpoe-schnedlitz-neos-schaffen-freie-meinungsaeusserung-innerhalb-der-partei-ab",
+        "https://www.diepresse.com/37957475/vertrauensindex-meinl-reisinger-rutscht-ab-kickl-legt-zu",
+        "https://www.derstandard.at/story/3000000331837/vertrauensindex-meinl-reisinger-mit-groesstem-einbruch-schellhorn-loest-kickl-als-schlusslicht-ab",
+        "https://kurier.at/politik/inland/apa-ogm-vertrauensindex-meinl-reisinger-kickl-politiker/403176621",
+        "https://www.heute.at/s/polit-ranking-meinl-stuerzt-ab-schellhorn-letzter-120224757"
       ],
       "openQuestions": [
         "Wie andere NEOS-Abgeordnete den Ausschluss und Meinl-Reisingers Führungsstil beurteilen, ist bislang kaum bekannt.",
         "Ob Meinl-Reisingers Stellungnahme den innerparteilichen Konflikt beruhigt oder Dengler zu einer weiteren Replik veranlasst, ist offen.",
         "Wie sich die FPÖ-Rücktrittsforderung politisch auswirkt – etwa auf das Verhältnis der NEOS zu den Koalitionspartnern – lässt sich derzeit nicht abschätzen.",
-        "Welche Auswirkungen der öffentlich ausgetragene Streit auf den parlamentarischen Alltag und die Geschlossenheit der NEOS hat, lässt sich nicht abschließend einschätzen."
+        "Ob der deutliche Vertrauensverlust im APA/OGM-Index tatsächlich primär auf die Dengler-Affäre zurückzuführen ist oder weitere Ursachen eine Rolle spielen, lässt sich aus der Umfrage allein nicht beweisen.",
+        "Ob sich der Vertrauenseinbruch von Meinl-Reisinger und Schellhorn in der nächsten Erhebung fortsetzt oder wieder erholt, ist offen.",
+        "Welche Auswirkungen der öffentlich ausgetragene Streit und die schlechten Umfragewerte auf den parlamentarischen Alltag und die Geschlossenheit der NEOS haben, lässt sich nicht abschließend einschätzen."
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-15T22:07:26.045Z",
-      "doNotUpdateBefore": "2026-07-15T04:07:26.045Z",
+      "doNotRedraftBefore": "2026-07-18T22:07:29.841Z",
+      "doNotUpdateBefore": "2026-07-18T04:07:29.841Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -5862,7 +5872,6 @@
       "doNotRedraftBefore": "2026-07-18T20:07:26.390Z",
       "doNotUpdateBefore": "2026-07-18T02:07:26.390Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-16T22:07:29.344Z",
         "derstandard": "2026-07-17T10:07:28.766Z",
         "golem": "2026-07-17T14:07:25.867Z",
         "orf": "2026-07-17T20:07:26.390Z"
@@ -6199,7 +6208,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
+      "resonanceMeasuredAt": "2026-07-17T22:07:29.841Z"
     },
     "inflation-oesterreich-juni-2026": {
       "canonicalTitle": "Inflation in Österreich im Juni 2026 auf 3,2 Prozent gefallen",
@@ -6307,7 +6316,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T10:07:28.766Z",
-      "doNotUpdateBefore": "2026-07-17T16:07:28.766Z"
+      "doNotUpdateBefore": "2026-07-17T16:07:28.766Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-17T22:07:29.841Z"
+      }
     },
     "bob-dylan-konzerte-wien-salzburg-november-2026": {
       "canonicalTitle": "Bob Dylan kommt im November 2026 nach Wien und Salzburg",
@@ -6682,6 +6694,61 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T20:07:26.390Z",
       "doNotUpdateBefore": "2026-07-18T02:07:26.390Z"
+    },
+    "zdf-ausladung-danger-dan-keine-angst-juli-2026": {
+      "canonicalTitle": "ZDF sagt Auftritt von Danger Dan und Igor Levit in „Die Anstalt“ ab – Streit um Songtext „Keine Angst“",
+      "slug": "zdf-ausladung-danger-dan-keine-angst-juli-2026",
+      "firstSeenAt": "2026-07-17T22:07:29.841Z",
+      "lastUpdatedAt": "2026-07-17T22:07:29.841Z",
+      "status": "published",
+      "articlePath": "src/content/articles/zdf-ausladung-danger-dan-keine-angst-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/zdf-ausladung-danger-dan-keine-angst-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/kultur/medien/zdf-ausladung-danger-dan-igor-levit-keine-angst-kommentar/403176729",
+        "https://orf.at/stories/3436447",
+        "https://www.derstandard.at/story/3000000331850/zdf-laedt-danger-dan-und-igor-levit-wegen-songtext-aus-sendung-aus",
+        "https://www.diepresse.com/37957468/rapper-danger-dan-wegen-songtext-aus-zdf-sendung-ausgeladen",
+        "https://kurier.at/kultur/rapper-danger-dan-wegen-songtext-aus-zdf-sendung-ausgeladen/403176669",
+        "https://www.kleinezeitung.at/artikel/37956848/danger-dan-wegen-songtext-aus-zdf-sendung-ausgeladen",
+        "https://www.zdfheute.de/in-eigener-sache/die-anstalt-danger-dan-ausladung-keine-angst-100.html",
+        "https://www.tagesspiegel.de/kultur/nach-ausladung-bei-die-anstalt-zdf-widmet-song-von-danger-dan-eine-sondersendung-15851792.html",
+        "https://www.horizont.net/medien/nachrichten/zdf-satiresendung-die-anstalt-reagiert-auf-ausladung-von-danger-dan-235128",
+        "https://www.berliner-zeitung.de/article/danger-dan-aus-zdf-sendung-ausgeladen-meinungsfreiheit-song-keine-angst-10206098",
+        "https://www.abendzeitung-muenchen.de/promis/ich-verabscheue-gewalt-danger-dan-bezieht-stellung-zu-zdf-ausladung-art-1145003",
+        "https://web.de/magazine/unterhaltung/kultur/mutlos-anstalt-ausladung-danger-dan-42515306"
+      ],
+      "openQuestions": [
+        "Liegt eine vollständige, wörtliche schriftliche Begründung des ZDF öffentlich vor, oder nur eine zusammengefasste Sprecher-Position?",
+        "Wie fällt die angekündigte „Aspekte“-Sondersendung inhaltlich aus, und wird der Song darin gezeigt?",
+        "Ziehen Danger Dan oder Igor Levit rechtliche oder öffentlich-rechtliche Konsequenzen (z. B. Programmbeschwerde) in Erwägung?",
+        "Wie belastbar ist die berichtete Kritik von Journalistenverband und Gewerkschaft, die bislang nicht durch eine direkt eingesehene Quelle bestätigt werden konnte?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-18T22:07:29.841Z",
+      "doNotUpdateBefore": "2026-07-18T04:07:29.841Z"
+    },
+    "messi-yamal-badewannenfoto-wm-finale-2026": {
+      "canonicalTitle": "Vor dem WM-Finale: Die Geschichte hinter dem viralen Messi-Yamal-Badewannenfoto",
+      "slug": "messi-yamal-badewannenfoto-wm-finale-2026",
+      "firstSeenAt": "2026-07-17T22:07:29.841Z",
+      "lastUpdatedAt": "2026-07-17T22:07:29.841Z",
+      "status": "published",
+      "articlePath": "src/content/articles/messi-yamal-badewannenfoto-wm-finale-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/messi-yamal-badewannenfoto-wm-finale-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/sport/fussball/fussball-wm-messi-yamal-badewanne-foto-fotograf-hype/403176806",
+        "https://orf.at/stories/3436382",
+        "https://www.diepresse.com/38054216/als-lionel-messi-lamine-yamal-badete"
+      ],
+      "openQuestions": [
+        "Gibt es eine aktuelle Stellungnahme von Messi oder Yamal zur erneuten Verbreitung des Fotos?",
+        "Haben sich Unicef oder der FC Barcelona offiziell zu dem historischen Fotoshooting geäußert?",
+        "Wie groß ist die tatsächliche Reichweite des Bildes in sozialen Medien, und gibt es belastbare Zahlen dazu?",
+        "Erhält der Fotograf Joan Monfort eine Vergütung für die weitverbreitete Nutzung seines Fotos?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-18T22:07:29.841Z",
+      "doNotUpdateBefore": "2026-07-18T04:07:29.841Z"
     }
   }
 }
