@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-17T12:21:48.360Z",
+  "updatedAt": "2026-07-17T14:21:10.992Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -5825,10 +5825,10 @@
       "canonicalTitle": "Teleprompter-Mitarbeiter des Weißen Hauses soll mit Insiderwissen auf Trump-Reden gewettet haben",
       "slug": "weisses-haus-teleprompter-mitarbeiter-wetten-trump-reden-juli-2026",
       "firstSeenAt": "2026-07-16T20:07:34.320Z",
-      "lastUpdatedAt": "2026-07-16T20:07:34.320Z",
+      "lastUpdatedAt": "2026-07-17T14:07:25.867Z",
       "status": "published",
       "articlePath": "src/content/articles/weisses-haus-teleprompter-mitarbeiter-wetten-trump-reden-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/weisses-haus-teleprompter-mitarbeiter-wetten-trump-reden-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-17/weisses-haus-teleprompter-mitarbeiter-wetten-trump-reden-juli-2026-update-1400.json",
       "sourceUrls": [
         "https://orf.at/stories/3436425",
         "https://www.diepresse.com/37942098/mitarbeiter-des-weissen-hauses-wettete-auf-trump-reden",
@@ -5838,21 +5838,29 @@
         "https://abcnews.com/US/white-house-teleprompter-operator-made-100k-betting-trumps/story?id=134764573",
         "https://www.cnbc.com/2026/07/16/trump-kalshi-teleprompter-cftc-investigation.html",
         "https://www.nbcnews.com/business/markets/trump-teleprompter-kalshi-bets-cftc-rcna587835",
-        "https://thehill.com/homenews/administration/5972297-trump-teleprompter-operator-suspended-kalshi/"
+        "https://thehill.com/homenews/administration/5972297-trump-teleprompter-operator-suspended-kalshi/",
+        "https://www.golem.de/news/kalshi-trumps-teleprompter-bediener-kassiert-mit-insiderwetten-ab-2607-211012.html",
+        "https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation",
+        "https://www.kleinezeitung.at/artikel/37943285/trumps-teleprompter-verantwortlicher-wettete-offenbar-auf-trumps-reden",
+        "https://www.infobae.com/america/agencias/2026/07/17/trump-despide-a-su-operador-de-teleprompter-por-apostar-ilegalmente-sobre-sus-discursos/",
+        "https://www.heise.de/news/Wetten-mit-Insiderinfos-Techniker-von-Donald-Trumps-Teleprompter-unter-Verdacht-11368252.html",
+        "https://www.newsweek.com/gabriel-perez-trump-teleprompter-insider-betting-investigation-12206183"
       ],
       "openQuestions": [
         "Wird die CFTC förmliche Vorwürfe erheben oder kommt es zu einer außergerichtlichen Einigung?",
-        "Handelt es sich um bezahlte oder unbezahlte Beurlaubung – die Angaben dazu widersprechen sich zwischen Quellen?",
+        "Handelt es sich um eine unbezahlte Beurlaubung oder wurde das Arbeitsverhältnis bereits beendet – die Angaben dazu widersprechen sich zwischen Quellen?",
         "Wie hoch war der tatsächliche Gewinn und welcher Anteil davon wurde eingefroren?",
         "Gab es vergleichbare Fälle bei anderen Mitarbeitern mit Zugang zu vorbereiteten Redetexten?",
-        "Wie äußert sich die betroffene Person selbst zu den Vorwürfen?"
+        "Wie äußert sich die betroffene Person selbst zu den Vorwürfen?",
+        "Wird die Identität des Mitarbeiters offiziell bestätigt oder dementiert?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-17T20:07:34.320Z",
-      "doNotUpdateBefore": "2026-07-17T02:07:34.320Z",
+      "doNotRedraftBefore": "2026-07-18T14:07:25.867Z",
+      "doNotUpdateBefore": "2026-07-17T20:07:25.867Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-16T22:07:29.344Z",
-        "derstandard": "2026-07-17T10:07:28.766Z"
+        "derstandard": "2026-07-17T10:07:28.766Z",
+        "golem": "2026-07-17T14:07:25.867Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -6387,7 +6395,14 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T12:07:35.751Z",
-      "doNotUpdateBefore": "2026-07-17T18:07:35.751Z"
+      "doNotUpdateBefore": "2026-07-17T18:07:35.751Z",
+      "echoPublishers": {
+        "apa": "2026-07-17T14:07:25.867Z",
+        "kleinezeitung": "2026-07-17T14:07:25.867Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-17T14:07:25.867Z"
     },
     "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026": {
       "canonicalTitle": "Moonshot AIs Kimi K3 und Xi Jinpings Ruf nach Kontrolle: Chinas KI-Doppelschlag von Shanghai",
@@ -6442,6 +6457,57 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T12:07:35.751Z",
       "doNotUpdateBefore": "2026-07-17T18:07:35.751Z"
+    },
+    "sporrer-anhaltung-unmuendiger-wgs-herbst-2026": {
+      "canonicalTitle": "Justizministerin Sporrer will straffällige Kinder unter 14 in betreute Wohngemeinschaften bringen",
+      "slug": "sporrer-anhaltung-unmuendiger-wgs-herbst-2026",
+      "firstSeenAt": "2026-07-17T14:07:25.867Z",
+      "lastUpdatedAt": "2026-07-17T14:07:25.867Z",
+      "status": "published",
+      "articlePath": "src/content/articles/sporrer-anhaltung-unmuendiger-wgs-herbst-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/sporrer-anhaltung-unmuendiger-wgs-herbst-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436495",
+        "https://www.kleinezeitung.at/artikel/38118774/nun-auch-sporrer-fuer-anhaltung-von-minderjaehrigen",
+        "https://www.derstandard.at/story/3000000331937/kinderkriminalit228t-auch-sporrer-will-anhaltung-unm252ndiger-in-wgs",
+        "https://www.vol.at/sporrer-will-kinder-in-betreuten-wgs-anhalten-koennen/10331426"
+      ],
+      "openQuestions": [
+        "Wie sieht der konkrete Gesetzestext aus, und wann genau im Herbst 2026 soll er präsentiert werden?",
+        "Welche Kapazitäten und welcher Betreuungsschlüssel sind für die geplanten Wohngemeinschaften vorgesehen?",
+        "Wie reagieren Kinder- und Jugendrechtsorganisationen sowie Fachverbände auf den Vorschlag?",
+        "Gibt es innerhalb der Regierung unterschiedliche Positionen, etwa zwischen Justiz- und Innenressort, und wie sollen diese ausgeglichen werden?",
+        "Welche Kosten und welcher Ressourcenbedarf werden mit der Umsetzung verbunden sein?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-18T14:07:25.867Z",
+      "doNotUpdateBefore": "2026-07-17T20:07:25.867Z"
+    },
+    "peterlik-freispruch-rechtskraeftig-juli-2026": {
+      "canonicalTitle": "Freispruch für Ex-Diplomat Johannes Peterlik im Nowitschok-Fall rechtskräftig",
+      "slug": "peterlik-freispruch-rechtskraeftig-juli-2026",
+      "firstSeenAt": "2026-07-17T14:07:25.867Z",
+      "lastUpdatedAt": "2026-07-17T14:07:25.867Z",
+      "status": "published",
+      "articlePath": "src/content/articles/peterlik-freispruch-rechtskraeftig-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/peterlik-freispruch-rechtskraeftig-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/38171095/nachtraegliche-mitteilung-gem-10-medg-freispruch-fuer-botschafter-johannes-peterlik",
+        "https://kurier.at/politik/inland/johannes-peterlik-justiz-freispruch-vorwurf-amtsmissbrauch/403176524",
+        "https://orf.at/stories/3436399",
+        "https://orf.at/stories/3427622/",
+        "https://www.derstandard.at/consent/tcf/jetzt/livebericht/3000000317577/prozess-gegen-kneissls-general-peterlik-wird-fortgesetzt-urteil-moeglich",
+        "https://www.heute.at/s/ex-spitzenbeamter-peterlik-im-nowitschok-fall-freige-120185745"
+      ],
+      "openQuestions": [
+        "Wie genau gelangte der OPCW-Bericht von Peterlik über Egisto Ott zu Jan Marsalek?",
+        "Welches Gewicht hatte das Treffen mit dem russischen Botschafter konkret in der gerichtlichen Beweiswürdigung?",
+        "Liegt die schriftliche Urteilsbegründung des ursprünglichen Freispruchs vom 22. April 2026 öffentlich vollständig vor?",
+        "Aus welchen Gründen zog die Staatsanwaltschaft Wien ihre Nichtigkeitsbeschwerde zurück?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-18T14:07:25.867Z",
+      "doNotUpdateBefore": "2026-07-17T20:07:25.867Z"
     }
   }
 }
