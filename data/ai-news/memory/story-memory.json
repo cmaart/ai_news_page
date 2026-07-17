@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-17T06:28:42.696Z",
+  "updatedAt": "2026-07-17T08:20:42.934Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -699,7 +699,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
-      "doNotUpdateBefore": "2026-07-17T12:07:26.099Z"
+      "doNotUpdateBefore": "2026-07-17T12:07:26.099Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-17T08:07:29.689Z"
+      }
     },
     "netzausbau-einsparung-zweidrittelmehrheit-2040": {
       "canonicalTitle": "Regierung will bis 2040 rund 4,1 Milliarden Euro beim Netzausbau sparen – Streit um Zweidrittelmehrheit für Energiegesetze",
@@ -5272,7 +5275,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-17T00:07:28.727Z",
-      "doNotUpdateBefore": "2026-07-16T06:07:28.727Z"
+      "doNotUpdateBefore": "2026-07-16T06:07:28.727Z",
+      "echoPublishers": {
+        "apa": "2026-07-17T08:07:29.689Z"
+      }
     },
     "pv-foerderung-oesterreich-33-sekunden-ausgeschoepft-juli-2026": {
       "canonicalTitle": "Photovoltaik-Förderung in Österreich Berichten zufolge nach 33 Sekunden ausgeschöpft",
@@ -6169,6 +6175,79 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
       "doNotUpdateBefore": "2026-07-17T12:07:26.099Z"
+    },
+    "inflation-oesterreich-juni-2026": {
+      "canonicalTitle": "Inflation in Österreich im Juni 2026 auf 3,2 Prozent gefallen",
+      "slug": "inflation-oesterreich-juni-2026",
+      "firstSeenAt": "2026-07-17T08:07:29.689Z",
+      "lastUpdatedAt": "2026-07-17T08:07:29.689Z",
+      "status": "published",
+      "articlePath": "src/content/articles/inflation-oesterreich-juni-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/inflation-oesterreich-juni-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436453",
+        "https://www.diepresse.com/37969678/inflation-im-juni-auf-3-2-prozent-gefallen",
+        "https://kurier.at/wirtschaft/inflation-juni-teuerung-preise/403176642",
+        "https://www.statistik.at/fileadmin/announcement/2026/06/20260701VPIFlashEstimateJuni2026.pdf"
+      ],
+      "openQuestions": [
+        "Wie hoch fällt die Kerninflation (ohne Energie und Nahrungsmittel) im Juni 2026 konkret aus?",
+        "Wie schneidet Österreich im Juni 2026 im Vergleich zur Eurozone bzw. zum EU-Durchschnitt ab?",
+        "Bleibt der rückläufige Trend bei Energiepreisen auch in den Folgemonaten bestehen, oder handelt es sich um einen Einmaleffekt?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-18T08:07:29.689Z",
+      "doNotUpdateBefore": "2026-07-17T14:07:29.689Z"
+    },
+    "auto-woerthersee-unfall-schiefling-juli-2026": {
+      "canonicalTitle": "21-Jähriger landet nach Unfall mit Auto im Wörthersee",
+      "slug": "auto-woerthersee-unfall-schiefling-juli-2026",
+      "firstSeenAt": "2026-07-17T08:07:29.689Z",
+      "lastUpdatedAt": "2026-07-17T08:07:29.689Z",
+      "status": "published",
+      "articlePath": "src/content/articles/auto-woerthersee-unfall-schiefling-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/auto-woerthersee-unfall-schiefling-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331866/21-j228hriger-verlor-kontrolle-252ber-auto-und-landete-im-w246rthersee",
+        "https://www.diepresse.com/37966307/21-jaehriger-landet-mit-seinem-auto-im-woerthersee",
+        "https://kaernten.orf.at/stories/3363038",
+        "https://www.bfkdo-klagenfurtland.at/schwerer-verkehrsunfall-auf-der-l96-woerthersee-strasse-marktgemeinde-schiefling-am-woerthersee-16-07-2026/"
+      ],
+      "openQuestions": [
+        "Wurde der Fahrer bei dem Unfall verletzt oder blieb er unverletzt?",
+        "Um welchen Fahrzeugtyp handelte es sich?",
+        "Werden gegen den Fahrer verwaltungsstrafrechtliche Schritte wegen überhöhter Geschwindigkeit eingeleitet?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-18T08:07:29.689Z",
+      "doNotUpdateBefore": "2026-07-17T14:07:29.689Z"
+    },
+    "zdf-ein-fall-fuer-zwei-serienende-2027": {
+      "canonicalTitle": "ZDF stellt Kultkrimi „Ein Fall für zwei“ nach 46 Jahren ein",
+      "slug": "zdf-ein-fall-fuer-zwei-serienende-2027",
+      "firstSeenAt": "2026-07-17T08:07:29.689Z",
+      "lastUpdatedAt": "2026-07-17T08:07:29.689Z",
+      "status": "published",
+      "articlePath": "src/content/articles/zdf-ein-fall-fuer-zwei-serienende-2027.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/zdf-ein-fall-fuer-zwei-serienende-2027.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436452",
+        "https://kurier.at/kultur/medien/zdf-tv-krimi-ein-fall-fuer-zwei-staffel-film/403176622",
+        "https://www.kleinezeitung.at/artikel/37946724/zdf-stellt-tv-krimi-ein-fall-fuer-zwei-nach-46-jahren-ein",
+        "https://www.t-online.de/unterhaltung/tv/id_101347616/-ein-fall-fuer-zwei-zdf-beendet-krimi-serie-nach-46-jahren.html",
+        "https://www.tagesspiegel.de/kultur/die-geschichte-zu-einem-wurdigen-abschluss-fuhren-nach-46-jahren-stellt-das-ein-fall-fur-zwei-ein-15848227.html",
+        "https://www.quotenmeter.de/n/173702/zdf-beendet-ein-fall-fuer-zwei-nach-46-jahren",
+        "https://www.news.de/tv/859829176/nach-46-jahren-zdf-stellt-ein-fall-fuer-zwei-ein-tv-news-der-dpa-aktuell-zu-medien-leuten-und-krimi/1/"
+      ],
+      "openQuestions": [
+        "Handelt es sich bei den angekündigten vier Episoden um die tatsächlich letzte Staffel oder um eine vorletzte Staffel vor dem Abschlussfilm – die Angaben in den Quellen weichen hier ab.",
+        "Wie genau begründet das ZDF die Entscheidung inhaltlich, über die knappe Formulierung einer 'Neuausrichtung' des Freitagskrimis hinaus?",
+        "Wie reagieren Wanja Mues, Antoine Monot, Bettina Zimmermann und das Publikum auf das Serienende?",
+        "Wird der Abschlussfilm 2027 zuerst im linearen Programm oder in der ZDF-Mediathek gezeigt?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-18T08:07:29.689Z",
+      "doNotUpdateBefore": "2026-07-17T14:07:29.689Z"
     }
   }
 }
