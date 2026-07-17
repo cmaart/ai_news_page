@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-17T10:21:22.990Z",
+  "updatedAt": "2026-07-17T12:21:48.360Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2643,9 +2643,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-13T22:07:23.925Z",
       "doNotUpdateBefore": "2026-07-13T04:07:23.925Z",
-      "echoPublishers": {
-        "kurier": "2026-07-16T12:07:29.290Z"
-      }
+      "echoPublishers": {}
     },
     "mattersburger-bahn-elektrifizierung-halbzeit-2026": {
       "canonicalTitle": "Mattersburger Bahn: Halbzeit bei Elektrifizierung von Diesel auf Strom",
@@ -4879,10 +4877,6 @@
       "doNotRedraftBefore": "2026-07-17T12:07:29.290Z",
       "doNotUpdateBefore": "2026-07-16T18:07:29.290Z",
       "echoPublishers": {
-        "orf": "2026-07-16T12:07:29.290Z",
-        "diepresse": "2026-07-16T12:07:29.290Z",
-        "kurier": "2026-07-16T12:07:29.290Z",
-        "kleinezeitung": "2026-07-16T12:07:29.290Z",
         "derstandard": "2026-07-16T16:07:29.022Z"
       },
       "resonanceLevel": 3,
@@ -5112,9 +5106,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T00:07:25.651Z",
       "doNotUpdateBefore": "2026-07-17T06:07:25.651Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-16T12:07:29.290Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-17T00:07:25.651Z"
@@ -6226,7 +6218,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-18T08:07:29.689Z",
-      "doNotUpdateBefore": "2026-07-17T14:07:29.689Z"
+      "doNotUpdateBefore": "2026-07-17T14:07:29.689Z",
+      "echoPublishers": {
+        "kurier": "2026-07-17T12:07:35.751Z"
+      }
     },
     "zdf-ein-fall-fuer-zwei-serienende-2027": {
       "canonicalTitle": "ZDF stellt Kultkrimi „Ein Fall für zwei“ nach 46 Jahren ein",
@@ -6253,7 +6248,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-18T08:07:29.689Z",
-      "doNotUpdateBefore": "2026-07-17T14:07:29.689Z"
+      "doNotUpdateBefore": "2026-07-17T14:07:29.689Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-17T12:07:35.751Z"
+      }
     },
     "foodwatch-mcdonalds-energydrinks-kinder-juli-2026": {
       "canonicalTitle": "Foodwatch: McDonald's verkauft Energydrink laut Testkauf ohne Alterskontrolle an Kinder",
@@ -6304,7 +6302,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-18T10:07:28.766Z",
-      "doNotUpdateBefore": "2026-07-17T16:07:28.766Z"
+      "doNotUpdateBefore": "2026-07-17T16:07:28.766Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-17T12:07:35.751Z"
+      }
     },
     "trump-truth-api-finanzfirmen-august-2026": {
       "canonicalTitle": "Trump Media verkauft Finanzfirmen schnelleren Zugang zu Trumps Truth-Social-Posts",
@@ -6361,6 +6362,86 @@
         "Medizinischer Update vom Krankenhaus zur Genesung"
       ],
       "sensitivity": "medium"
+    },
+    "wkw-ruck-protokoll-postenschacher-sexismus-juli-2026": {
+      "canonicalTitle": "Geleaktes Gesprächsprotokoll belastet WKW-Präsident Ruck: Vorwürfe zu Postenschacher und Sexismus",
+      "slug": "wkw-ruck-protokoll-postenschacher-sexismus-juli-2026",
+      "firstSeenAt": "2026-07-17T12:07:35.751Z",
+      "lastUpdatedAt": "2026-07-17T12:07:35.751Z",
+      "status": "published",
+      "articlePath": "src/content/articles/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026.json",
+      "sourceUrls": [
+        "https://www.ots.at/presseaussendung/OTS_20260717_OTS0074/gruene-wienkraus-malle-berichte-rund-um-wk-chef-ruck-zeigen-postenschacher-machtmissbrauch-und-frauenfeindlichkeit",
+        "https://www.ots.at/presseaussendung/OTS_20260717_OTS0065/fpoe-kickl-ruck-protokolle-sind-offenbarungseid-des-systems-aus-spoevp-postenschacher-und-machtmissbrauch",
+        "https://kurier.at/chronik/wien/ruck-wirtschaftskammer-wien-spoe-geheimprotokolle-ludwig/403176723",
+        "https://www.profil.at/investigativ/wirtschaftskammer-wien-walter-ruck-leak-postenschacher/403176675",
+        "https://www.ots.at/presseaussendung/OTS_20260716_OTS0014/gruene-wienkraus-sequenz-zu-sperren-bei-wiener-oeffis-nichts-geht-mehr",
+        "https://wien.orf.at/stories/3363086"
+      ],
+      "openQuestions": [
+        "Wie lautet der vollständige Wortlaut bzw. gibt es eine Original-Aufzeichnung des Gesprächsprotokolls?",
+        "Wer hat das Protokoll verfasst und an die Medien weitergegeben, und mit welcher Motivation?",
+        "Wie äußert sich Bürgermeister Michael Ludwig persönlich zu den konkreten Vorwürfen, statt nur über eine Sprecherin?",
+        "Welche rechtlichen oder personellen Konsequenzen könnten aus den Vorwürfen folgen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-18T12:07:35.751Z",
+      "doNotUpdateBefore": "2026-07-17T18:07:35.751Z"
+    },
+    "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026": {
+      "canonicalTitle": "Moonshot AIs Kimi K3 und Xi Jinpings Ruf nach Kontrolle: Chinas KI-Doppelschlag von Shanghai",
+      "slug": "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026",
+      "firstSeenAt": "2026-07-17T12:07:35.751Z",
+      "lastUpdatedAt": "2026-07-17T12:07:35.751Z",
+      "status": "published",
+      "articlePath": "src/content/articles/china-ki-kimi-k3-xi-jinping-shanghai-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/china-ki-kimi-k3-xi-jinping-shanghai-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436480",
+        "https://www.derstandard.at/story/3000000331852/chinas-staatschef-xi-fordert-ki-vorherrschaft-der-usa-heraus",
+        "https://www.heise.de/news/Chinas-Staatschef-Xi-fordert-Kontrolle-und-Offenheit-bei-KI-11368326.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Chinas-Staatschef-Xi-fordert-Kontrolle-und-Offenheit-bei-KI-11368326.html",
+        "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
+        "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+        "https://www.france24.com/en/live-news/20260717-china-s-moonshot-ai-chases-deepseek-moment-with-much-hyped-model"
+      ],
+      "openQuestions": [
+        "Bestätigen unabhängige, reproduzierbare Benchmarks die berichtete Leistungsfähigkeit von Kimi K3 gegenüber US-Modellen?",
+        "Wie reagieren OpenAI, Anthropic, Google und die US-Regierung offiziell auf Kimi K3 und Xis Rede?",
+        "Welche konkreten Gesetze, Überwachungsmechanismen und Frühwarnsysteme plant Peking tatsächlich?",
+        "Hält der Vergleich zum „DeepSeek-Moment“ mittelfristig an Investitionsentscheidungen und Aktienkursen stand?",
+        "Werden die vollständigen Modellgewichte von Kimi K3 tatsächlich wie angekündigt bis 27. Juli 2026 veröffentlicht?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-18T12:07:35.751Z",
+      "doNotUpdateBefore": "2026-07-17T18:07:35.751Z"
+    },
+    "israel-krokodile-gefaengnis-juli-2026": {
+      "canonicalTitle": "Israel ändert Rechtsstatus von Nilkrokodilen – Weg für Einsatz an Gefängnis frei",
+      "slug": "israel-krokodile-gefaengnis-juli-2026",
+      "firstSeenAt": "2026-07-17T12:07:35.751Z",
+      "lastUpdatedAt": "2026-07-17T12:07:35.751Z",
+      "status": "published",
+      "articlePath": "src/content/articles/israel-krokodile-gefaengnis-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/israel-krokodile-gefaengnis-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436478",
+        "https://www.derstandard.at/story/3000000331930/israel-ebnet-weg-f252r-einsatz-von-krokodilen-um-gef228ngnisse",
+        "https://www.kleinezeitung.at/artikel/38067140/israel-ebnet-weg-fuer-einsatz-von-krokodilen-um-gefaengnisse",
+        "https://www.jpost.com/israel-news/politics-and-diplomacy/article-902827",
+        "https://www.timesofisrael.com/liveblog_entry/israel-reclassifies-nile-crocodiles-to-help-advance-ben-gvirs-alligator-alcatraz/",
+        "https://www.ynetnews.com/article/syhui08efg"
+      ],
+      "openQuestions": [
+        "Ist die Neueinstufung der Nilkrokodile bereits rechtskräftig in Kraft oder erst ein Zwischenschritt im Verfahren?",
+        "Wird ein Pilotprojekt tatsächlich am Gefängnis Ketziot in der Negev-Wüste umgesetzt?",
+        "Liegt eine direkte, öffentlich zugängliche Stellungnahme von Ministerin Silman oder dem Umweltministerium vor?",
+        "Wie bewerten internationale Menschenrechtsorganisationen den Vorschlag im Hinblick auf die Haftbedingungen von Sicherheitshäftlingen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-18T12:07:35.751Z",
+      "doNotUpdateBefore": "2026-07-17T18:07:35.751Z"
     }
   }
 }
