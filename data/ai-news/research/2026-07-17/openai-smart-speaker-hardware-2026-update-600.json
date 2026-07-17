@@ -1,0 +1,369 @@
+{
+  "cluster": {
+    "id": "cluster-20260717-329a3eba",
+    "title": "OpenAI: Erstes Hardware-Gerät ist ein Makro-Pad für 230 US-Dollar",
+    "items": [
+      {
+        "itemId": "20bc3fea2ec89cf52af4cc297559a133460affb92469b0d1cb3c4f0c5b1af2e5",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "OpenAI: Erstes Hardware-Gerät ist ein Makro-Pad für 230 US-Dollar",
+        "url": "https://www.heise.de/news/OpenAI-Erstes-Hardware-Geraet-ist-ein-Makro-Pad-fuer-230-US-Dollar-11368264.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "summary": "OpenAIs erstes eigenes Gerät heißt Codex Micro und ist ein Makro-Pad. Es kostet 230 US-Dollar und steuert KI-Agenten, wird aber nicht von OpenAI selbst gebaut.",
+        "publishedAt": "2026-07-17T05:49:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "b2dd8c6a2f886ff8cf5b6fd775075405ce923038330e4e77a5791bf90d10027c",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Erstes Hardware-Projekt: OpenAI arbeitet an KI-Lautsprecher",
+        "url": "https://www.diepresse.com/37387121/erstes-hardware-projekt-openai-arbeitet-an-ki-lautsprecher",
+        "isNew": false
+      },
+      {
+        "itemId": "3b341614c50fcdbfd2e8f0fe23f1a6e83c1d82404959c193b75c17dde0c4496a",
+        "sourceId": "thedecoder",
+        "sourceType": "media",
+        "title": "OpenAIs erstes KI-Hardware soll ein mobiler Lautsprecher ohne Bildschirm werden",
+        "url": "https://the-decoder.de/openais-erstes-ki-hardware-soll-ein-mobiler-lautsprecher-ohne-bildschirm-werden",
+        "isNew": false
+      },
+      {
+        "itemId": "9f74b9743a95eea16b2043e8001f6cb1a1b21f6bb5a074bc91e737e59fd960cf",
+        "sourceId": "golem_news",
+        "sourceType": "media",
+        "title": "Smart Home: OpenAI baut angeblich einen mobilen KI-Lautsprecher",
+        "url": "https://www.golem.de/news/smart-home-openai-baut-angeblich-einen-mobilen-ki-lautsprecher-2607-210880.html",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Dieser Cluster liefert technische Detailanreicherung zum bereits publizierten Codex Micro: Heise nennt konkrete Hardware-Spezifikationen (13 mechanische Tasten, RGB-Beleuchtung, Drehregler, Joystick, Touch-Sensor), Preis (230 USD), Bestellkanal und Verfügbarkeitsstatus (in DE ausverkauft). Die Smart-Speaker-Berichte (Die Presse 15.07., The Decoder, Golem) sind älter und Syndikation des Bloomberg-Berichts. Keine neuen Wendungen oder eigenständigen Entwicklungen rechtfertigen einen separaten Artikel. Detailanreicherung zur bestehenden Story ist angebracht.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": 2,
+    "relatedSlug": "openai-smart-speaker-hardware-2026",
+    "possibleClaims": [
+      "Codex Micro kostet 230 US-Dollar",
+      "Das Gerät hat 13 mechanische Tasten, einen Drehregler, einen Joystick und einen Touch-Sensor aus gefrästem Aluminium und Polycarbonat",
+      "Sechs RGB-Tasten zeigen den Status von Programmier-Agenten an (denken, warten, Fehler)",
+      "Codex Micro wird von Work Louder hergestellt und von OpenAI gebrandete",
+      "Das Gerät ist seit Mittwoch (16.07.2026) im Shop bestellbar und im deutschen Store ausverkauft",
+      "OpenAI plant laut Bloomberg einen mobilen KI-Lautsprecher ohne Bildschirm (unbestätigt)",
+      "Der geplante Speaker soll Smart-Home-Geräte steuern und auf ChatGPT-Fähigkeiten zurückgreifen"
+    ],
+    "missingSources": [
+      "Offizielle Bestätigung von OpenAI zu den Smart-Speaker-Plänen und Marktstart-Zeitpunkt",
+      "Genaue technische Spezifikationen und Preisangabe des geplanten Smart Speakers",
+      "Aktueller Verfahrensstand der Apple-Klage und offizielle Antwort der Beschuldigten",
+      "Bestätigung der namentlich in der Apple-Klage genannten Personen durch OpenAI"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "openai-smart-speaker-hardware-2026",
+    "title": "OpenAI bringt mit „Codex Micro“ erste erhältliche Hardware heraus – Smart-Speaker-Pläne bleiben Berichtssache, Apple-Klage jetzt offiziell eingereicht",
+    "description": "OpenAI hat mit der Mini-Tastatur „Codex Micro“ ein erstes tatsächlich erhältliches Hardware-Produkt veröffentlicht, dessen Ausstattung inzwischen auch über eine offizielle OpenAI/Work-Louder-Produktseite bestätigt ist. Der separat berichtete, bewegliche Smart Speaker mit Jony Ive bleibt dagegen ein auf Bloomberg-Insiderquellen gestütztes Vorhaben. Parallel hat Apple OpenAI wegen mutmaßlichen Diebstahls von Geschäftsgeheimnissen offiziell verklagt.",
+    "topic": "technologie",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Für „Codex Micro“ liegt inzwischen neben zahlreichen übereinstimmenden Medienberichten (u. a. heise, futurezone, TechCrunch) auch eine offizielle Produktseite von OpenAI selbst sowie des Herstellers Work Louder vor, was diesen Teil der Geschichte deutlich absichert. Die Apple-Klage wird ebenfalls von mehreren unabhängigen Medien übereinstimmend berichtet. Die Details zum geplanten Smart Speaker (Design, beteiligte Personen, Zeitplan) gehen dagegen weiterhin überwiegend auf einen einzelnen Bloomberg-Bericht mit anonymen Insidern zurück und sind separat schwächer zu bewerten. Weder OpenAI noch Apple wurden von uns direkt kontaktiert, keine Gerichtsdokumente wurden im Original eingesehen.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Für „Codex Micro“ wurden nun die offizielle OpenAI-Produktseite (Supply Co. x Work Louder) sowie die Produktseite des Herstellers Work Louder gesichtet, die Ausstattung, Materialien und Preis direkt vom Anbieter bestätigen. Für GPT-Live liegt weiterhin die offizielle OpenAI-Ankündigungsseite vor. Für den Smart Speaker und Details der Apple-Klage wurden weiterhin keine Primärdokumente (Klageschrift, offizielle Stellungnahme) im Original eingesehen, sondern ausschließlich Medienberichte darüber.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Zur Apple-Klage liegt bislang im Wesentlichen die Perspektive der Klageschrift vor, wie sie von Medien wiedergegeben wird; eine Stellungnahme von OpenAI oder den namentlich genannten Beschuldigten wurde nicht eingesehen. Beim Smart Speaker dominiert weiterhin eine OpenAI-nahe Darstellung. Bei Codex Micro ist die Quellenlage durch die offizielle Produktseite ausgewogener.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "OpenAI hat mit „Codex Micro“ ein erstes tatsächlich erhältliches Hardware-Produkt veröffentlicht: eine mit Work Louder entwickelte Mini-Tastatur bzw. ein Makro-Pad zur Steuerung von KI-Coding-Agenten, für rund 230 US-Dollar – Ausstattung und Preis sind inzwischen auch über eine offizielle OpenAI-Produktseite bestätigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Gerät verfügt laut übereinstimmenden Berichten und offizieller Produktbeschreibung über 13 mechanische Tasten, sechs beleuchtete „Agent Keys“ mit RGB-Statusanzeige, einen Joystick und einen Drehregler in einem CNC-gefertigten Gehäuse aus Aluminium und Polycarbonat; es war laut mehreren Medien binnen weniger Stunden ausverkauft.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der separat berichtete, bewegliche und bildschirmlose Smart Speaker bleibt davon zu unterscheiden: Er ist laut Berichten noch nicht auf dem Markt und geht weiterhin auf einen einzelnen Bloomberg-Bericht mit anonymen Insiderquellen zurück.",
+        "kind": "fact"
+      },
+      {
+        "text": "Apple hat OpenAI laut Medienberichten am 10. Juli 2026 vor einem Bundesgericht in Nordkalifornien wegen mutmaßlichen Diebstahls von Geschäftsgeheimnissen verklagt und wirft dem Unternehmen ein systematisches Vorgehen vor.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und wann der Smart Speaker tatsächlich erscheint, wie der Rechtsstreit mit Apple ausgeht und welche Rolle die namentlich genannten Design-Verantwortlichen offiziell spielen, ist nicht abschließend verifiziert.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie ist der aktuelle Verfahrensstand der Apple-Klage, und wie reagieren OpenAI sowie die namentlich genannten Beschuldigten offiziell darauf?",
+      "Bestätigt OpenAI offiziell die Rolle von Jony Ive, Tang Tan, Evans Hankey und Paul Meade beim Smart-Speaker-Projekt?",
+      "Hält OpenAI an einem Marktstart des Smart Speakers 2027 fest, oder verschiebt sich der Zeitplan erneut?",
+      "Wie lauten die genauen technischen Spezifikationen des Smart Speakers (Akkulaufzeit, Sensorik, Preis)?",
+      "Ist GPT-Live tatsächlich die für den geplanten Smart Speaker vorgesehene Sprachtechnologie, oder handelt es sich um zwei unabhängige Entwicklungsstränge?",
+      "Wird „Codex Micro“ über die limitierte Erstauflage hinaus in größerer Stückzahl nachproduziert?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "DER STANDARD: OpenAIs erstes Gerät soll ein beweglicher smarter Lautsprecher sein",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331535/openais-erstes-geraet-soll-ein-beweglicher-smarter-lautsprecher-sein"
+      },
+      {
+        "id": "src2",
+        "name": "Golem: Smart Home: OpenAI baut angeblich einen mobilen KI-Lautsprecher",
+        "type": "media",
+        "url": "https://www.golem.de/news/smart-home-openai-baut-angeblich-einen-mobilen-ki-lautsprecher-2607-210880.html"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse: Erstes Hardware-Projekt: OpenAI arbeitet an KI-Lautsprecher",
+        "type": "media",
+        "url": "https://www.diepresse.com/37387121/erstes-hardware-projekt-openai-arbeitet-an-ki-lautsprecher"
+      },
+      {
+        "id": "src4",
+        "name": "heise online: OpenAIs erstes KI-Gerät soll ein Smart Speaker mit „mechanischen Elementen“ sein",
+        "type": "media",
+        "url": "https://www.heise.de/news/OpenAIs-erstes-KI-Geraet-soll-ein-Smart-Speaker-mit-mechanischen-Elementen-sein-11365030.html"
+      },
+      {
+        "id": "src5",
+        "name": "THE DECODER: OpenAIs erstes KI-Hardware soll ein mobiler Lautsprecher ohne Bildschirm werden",
+        "type": "media",
+        "url": "https://the-decoder.de/openais-erstes-ki-hardware-soll-ein-mobiler-lautsprecher-ohne-bildschirm-werden"
+      },
+      {
+        "id": "src6",
+        "name": "Bloomberg: OpenAI's First Device Will Be Movable, Screenless Speaker Built as AI Companion",
+        "type": "media",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion"
+      },
+      {
+        "id": "src7",
+        "name": "TechCrunch: OpenAI's first hardware device is reportedly a screenless speaker that can move",
+        "type": "media",
+        "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/"
+      },
+      {
+        "id": "src8",
+        "name": "MacRumors: OpenAI's First AI Device Will Be a Portable Smart Speaker",
+        "type": "media",
+        "url": "https://www.macrumors.com/2026/07/14/openai-ai-hardware-device-speaker/"
+      },
+      {
+        "id": "src9",
+        "name": "futurezone: Das ist das erste Gerät von OpenAI",
+        "type": "media",
+        "url": "https://futurezone.at/produkte/openai-chatgpt-geraet-codex-mikro-coding-tastatur-coding-hardware/403176531"
+      },
+      {
+        "id": "src10",
+        "name": "TechCrunch: Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+        "type": "media",
+        "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/"
+      },
+      {
+        "id": "src11",
+        "name": "ZDFheute: Apple verklagt OpenAI wegen Diebstahls geheimer Geschäftsdaten",
+        "type": "media",
+        "url": "https://www.zdfheute.de/wirtschaft/unternehmen/apple-klage-openai-diebstahl-geschaeftsgeheimnisse-100.html"
+      },
+      {
+        "id": "src12",
+        "name": "t3n: Klage: Apple wirft OpenAI Diebstahl von Geschäftsgeheimnissen vor",
+        "type": "media",
+        "url": "https://t3n.de/news/geschaeftsgeheimnisse-apple-openai-1752432/"
+      },
+      {
+        "id": "src13",
+        "name": "OpenAI: Introducing GPT-Live",
+        "type": "official",
+        "url": "https://openai.com/index/introducing-gpt-live/"
+      },
+      {
+        "id": "src14",
+        "name": "heise online: OpenAI: Erstes Hardware-Gerät ist ein Makro-Pad für 230 US-Dollar",
+        "type": "media",
+        "url": "https://www.heise.de/news/OpenAI-Erstes-Hardware-Geraet-ist-ein-Makro-Pad-fuer-230-US-Dollar-11368264.html"
+      },
+      {
+        "id": "src15",
+        "name": "OpenAI: Supply Co. x Work Louder (offizielle Produktseite Codex Micro)",
+        "type": "official",
+        "url": "https://openai.com/supply/co-lab/work-louder/"
+      },
+      {
+        "id": "src16",
+        "name": "Work Louder: Codex Micro (Herstellerseite)",
+        "type": "official",
+        "url": "https://worklouder.cc/codex-micro"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "OpenAI arbeitet an einem beweglichen, bildschirmlosen Smart Speaker als separatem, noch nicht veröffentlichtem Hardware-Projekt neben dem bereits erhältlichen „Codex Micro“.",
+        "status": "partial",
+        "note": "Von mehreren Portalen übereinstimmend berichtet, letztlich aber auf einen einzelnen Bloomberg-Bericht mit anonymen Insider-Quellen zurückgehend; keine offizielle Bestätigung von OpenAI. Wichtig: Der Smart Speaker ist nicht dasselbe Produkt wie das bereits verkaufte „Codex Micro“ (siehe claim6).",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6",
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das geplante Smart-Speaker-Gerät soll „mechanische Elemente“ besitzen, die sich eigenständig bewegen, um einen Eindruck von Präsenz oder Lebendigkeit zu erzeugen.",
+        "status": "unclear",
+        "note": "Detail aus der Bloomberg-Quelle, ohne technische Spezifikation oder offizielle Bestätigung.",
+        "sourceIds": [
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Apple wirft OpenAI in einem Rechtsstreit vor, für die Geräteentwicklung Geschäftsgeheimnisse genutzt zu haben, unter anderem eine proprietäre Metallverarbeitungstechnik eines Apple-Zulieferers.",
+        "status": "partial",
+        "note": "Inzwischen laut mehreren Medien tatsächlich als Klage vor einem US-Bundesgericht eingereicht (siehe claim7), nicht mehr nur als angekündigter Streit; Gerichtsunterlagen selbst wurden nicht eingesehen.",
+        "sourceIds": [
+          "src2",
+          "src6",
+          "src11",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Ein Marktstart des Smart Speakers wird für 2027 erwartet, mit einer möglichen Vorstellung noch 2026.",
+        "status": "unclear",
+        "note": "Zeitangabe aus Medienberichten, ohne offizielle Bestätigung eines Termins durch OpenAI.",
+        "sourceIds": [
+          "src6",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Das Smart-Speaker-Projekt steht in Zusammenhang mit der Übernahme von Jony Ives Hardware-Start-up io Products durch OpenAI und dessen Designstudio LoveFrom; als weitere beteiligte Personen werden Tang Tan, Evans Hankey und Paul Meade genannt.",
+        "status": "partial",
+        "note": "Breit berichteter Zusammenhang, für dieses konkrete Produkt aber nicht offiziell von OpenAI bestätigt. Die genannten Namen stammen aus Medienberichten über die Bloomberg-Recherche, nicht aus einer offiziellen Mitteilung.",
+        "sourceIds": [
+          "src4",
+          "src6",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "OpenAI hat mit „Codex Micro“ ein erstes tatsächlich erhältliches Hardware-Produkt veröffentlicht: eine mit dem Spezialtastatur-Hersteller Work Louder entwickelte Mini-Tastatur bzw. ein Makro-Pad zur Steuerung von KI-Coding-Agenten für rund 230 US-Dollar. Es hat 13 mechanische Tasten, einen Joystick, einen Drehregler und einen Touch-Sensor in einem CNC-gefertigten Gehäuse aus Aluminium und Polycarbonat; sechs beleuchtete „Agent Keys“ zeigen per RGB-Farbe den Status eines Codex-Threads an (u. a. denkt, läuft, wartet auf Eingabe, Fehler).",
+        "status": "supported",
+        "note": "Von mehreren unabhängigen Medien (futurezone, TechCrunch, heise u. a.) übereinstimmend berichtet und inzwischen zusätzlich über die offizielle Produktseite von OpenAI („Supply Co. x Work Louder“) sowie die Herstellerseite von Work Louder direkt bestätigt — Ausstattung, Materialien und Preis stammen damit nicht mehr nur aus Sekundärberichten.",
+        "sourceIds": [
+          "src9",
+          "src10",
+          "src14",
+          "src15",
+          "src16"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Apple hat OpenAI und die Tochtergesellschaft io laut Medienberichten am 10. Juli 2026 vor einem US-Bundesgericht in Nordkalifornien wegen mutmaßlichen Diebstahls von Geschäftsgeheimnissen verklagt und nennt daneben zwei frühere Apple-Mitarbeiter als Beklagte.",
+        "status": "partial",
+        "note": "Übereinstimmend von mehreren Medien berichtet; die Klageschrift selbst wurde nicht eingesehen, Namen und Vorwürfe gegen einzelne Personen sind bislang unbewiesene Behauptungen aus der Klage, keine gerichtliche Feststellung.",
+        "sourceIds": [
+          "src11",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Laut der Klage sollen inzwischen mehr als 400 frühere Apple-Beschäftigte bei OpenAI arbeiten.",
+        "status": "partial",
+        "note": "Zahl stammt aus Apples eigener Klageschrift, wie von Medien wiedergegeben; unabhängig nicht überprüft.",
+        "sourceIds": [
+          "src11",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "OpenAI hat mit „GPT-Live“ offiziell neue Sprachmodelle vorgestellt, die gleichzeitiges Hören und Sprechen (Vollduplex) für natürlichere Konversationen ermöglichen.",
+        "status": "supported",
+        "note": "Direkt von OpenAI auf der eigenen Ankündigungsseite kommuniziert; ob GPT-Live konkret für den geplanten Smart Speaker vorgesehen ist, ist aus dieser Quelle nicht ersichtlich und bleibt offen.",
+        "sourceIds": [
+          "src13"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "„Codex Micro“ und der berichtete Smart Speaker sind zwei unterschiedliche Hardware-Vorhaben von OpenAI und sollten nicht verwechselt werden.",
+        "status": "supported",
+        "note": "Ergibt sich aus dem übereinstimmenden Bild mehrerer Quellen sowie der offiziellen Produktseite: Codex Micro ist ein bereits verkauftes Entwickler-Zubehör, der Smart Speaker ein separates, noch unveröffentlichtes Konsumentenprodukt.",
+        "sourceIds": [
+          "src9",
+          "src10",
+          "src4",
+          "src6",
+          "src15"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "„Codex Micro“ war nach dem Verkaufsstart binnen weniger Stunden ausverkauft, laut Berichten auch im deutschen OpenAI-Onlineshop, wo das Gerät inklusive Versand und Zoll umgerechnet rund 282 Euro kostete.",
+        "status": "partial",
+        "note": "Von mehreren Medien übereinstimmend berichtet; die genaue Euro-Umrechnung inklusive Zoll ist eine Sekundärangabe aus Medienberichten, keine offizielle OpenAI-Preisangabe für den europäischen Markt.",
+        "sourceIds": [
+          "src14",
+          "src9"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was neu ist",
+        "markdown": "OpenAI hat mit „Codex Micro“ nach übereinstimmenden Medienberichten sein erstes tatsächlich erhältliches Hardware-Produkt veröffentlicht — allerdings nicht den zuvor berichteten Smart Speaker, sondern ein kleines Zubehörgerät für Entwicklerinnen und Entwickler. Laut Berichten und einer inzwischen einsehbaren offiziellen Produktseite von OpenAI („Supply Co. x Work Louder“) sowie des Herstellers Work Louder handelt es sich um eine gemeinsam entwickelte Mini-Tastatur bzw. ein Makro-Pad mit 13 mechanischen, flachen Tasten, sechs beleuchteten „Agent Keys“ zur RGB-Statusanzeige laufender KI-Coding-Agenten (u. a. „denkt nach“, „läuft“, „wartet auf Eingabe“, „Fehler“), einem Joystick zur Steuerung der Eingabezeile sowie einem Drehregler, mit dem sich die genutzte „Reasoning“-Stufe eines Agenten einstellen lässt. Das Gehäuse ist laut offizieller Beschreibung CNC-gefertigt aus Aluminium und Polycarbonat, die Tastenkappen aus PBT/PC, der Joystick-Aufsatz aus Gummi. Das Gerät wurde für rund 230 US-Dollar verkauft und war laut mehreren Berichten binnen weniger Stunden ausverkauft — auch im deutschen OpenAI-Shop, wo es inklusive Versand und Zoll umgerechnet rund 282 Euro gekostet haben soll."
+      },
+      {
+        "heading": "Codex Micro und Smart Speaker: zwei getrennte Vorhaben",
+        "markdown": "Wichtig zur Einordnung bleibt: „Codex Micro“ ist ein anderes Produkt als der zuvor berichtete, bewegliche und bildschirmlose Smart Speaker, an dem OpenAI laut einer Bloomberg-Recherche mit anonymen Insiderquellen ebenfalls arbeitet. Während Codex Micro ein reales, käufliches Entwickler-Zubehör ist, dessen Ausstattung nun auch offiziell von OpenAI und Work Louder bestätigt wird, bleibt der Smart Speaker weiterhin ein noch nicht veröffentlichtes Konsumentenprojekt, dessen Details nach vorliegender Quellenlage nicht abschließend verifiziert sind."
+      },
+      {
+        "heading": "Smart Speaker: neue Namen, weiterhin dieselbe Quelle",
+        "markdown": "Zu den Verantwortlichen des Smart-Speaker-Projekts nennen mehrere Medien inzwischen konkrete Namen: neben dem früheren Apple-Designchef Jony Ive sollen demnach auch Tang Tan (früher zuständig für das iPhone-Produktdesign bei Apple), Evans Hankey (frühere Leiterin des Industriedesigns bei Apple) und Paul Meade (an der Entwicklung von Apples Vision Pro beteiligt) an OpenAIs Hardware-Vorhaben mitwirken. OpenAI plant laut Berichten insgesamt rund fünf Hardware-Produkte, wobei der Smart Speaker als erstes Konsumentengerät gilt — mit einer möglichen Vorstellung noch 2026 und einem Marktstart 2027. Diese Angaben gehen weiterhin überwiegend auf denselben Bloomberg-Bericht mit anonymen Quellen zurück und wurden von OpenAI nicht offiziell bestätigt."
+      },
+      {
+        "heading": "Apple-Klage jetzt offiziell eingereicht",
+        "markdown": "Der parallel berichtete Rechtsstreit mit Apple hat sich nach vorliegenden Medienberichten konkretisiert: Apple habe OpenAI und dessen Tochtergesellschaft io am 10. Juli 2026 vor einem US-Bundesgericht in Nordkalifornien wegen mutmaßlichen Diebstahls von Geschäftsgeheimnissen verklagt. Apple beschreibt dies laut Berichten nicht als vereinzelte Verstöße, sondern als systematisches Vorgehen, mit dem OpenAI gezielt Apples Hardware-Know-how für den Aufbau des eigenen Hardwaregeschäfts genutzt haben soll — unter anderem soll ein Apple-Zulieferer unter falschen Angaben dazu gebracht worden sein, eine geheime Metallverarbeitungstechnik anzuwenden. Neben OpenAI und io werden in der Klage laut Berichten auch zwei frühere Apple-Mitarbeiter namentlich als Beklagte geführt. Apple beziffert zudem die Zahl der inzwischen bei OpenAI beschäftigten früheren Apple-Mitarbeiter auf mehr als 400. Diese Angaben stammen aus Apples eigener Klageschrift, wie sie von Medien wiedergegeben wird — es handelt sich um Vorwürfe der klagenden Partei, keine gerichtliche Feststellung. Eine Stellungnahme von OpenAI zu den konkreten Vorwürfen liegt nach unserem Kenntnisstand nicht vor."
+      },
+      {
+        "heading": "GPT-Live: mögliche Sprachbasis künftiger Geräte",
+        "markdown": "Zeitlich parallel hat OpenAI mit „GPT-Live“ eigenen Angaben zufolge neue Sprachmodelle vorgestellt, die im sogenannten Vollduplex-Modus arbeiten — das Modell kann demnach gleichzeitig zuhören und sprechen, natürlicher unterbrechen und reagieren, ähnlich einem menschlichen Gespräch. Diese Technologie wird von OpenAI selbst kommuniziert und ist damit vergleichsweise gut belegt. Ob GPT-Live konkret als Sprachbasis für den geplanten Smart Speaker vorgesehen ist, lässt sich aus der offiziellen Ankündigung allein jedoch nicht ableiten und bleibt aus den vorliegenden Quellen nicht abschließend verifizierbar."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt der genaue rechtliche Ausgang der Apple-Klage sowie eine offizielle Reaktion von OpenAI und den namentlich genannten Personen darauf. Ebenfalls unklar sind technische Details des Smart Speakers (Akkulaufzeit, Sensorik, Kamera-Ausstattung, Preis), der genaue Zeitplan für Vorstellung und Marktstart sowie eine offizielle Bestätigung der Design-Verantwortlichen durch OpenAI. Auch der Zusammenhang zwischen GPT-Live und dem Hardware-Projekt ist nach vorliegender Quellenlage nicht belegt. Beim bereits verkauften Codex Micro bleibt offen, ob und wann OpenAI eine größere Nachproduktion über die limitierte Erstauflage hinaus plant."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Geschichte zeigt zwei parallele, aber unterschiedlich weit gediehene Entwicklungen: Mit „Codex Micro“ existiert inzwischen ein reales, käufliches Produkt, dessen Ausstattung nicht mehr nur aus Medienberichten, sondern auch aus einer offiziellen OpenAI- und Work-Louder-Produktseite hervorgeht — ein Zugewinn an Quellenqualität gegenüber der ursprünglichen Fassung dieses Artikels. Der ursprünglich berichtete Smart Speaker bleibt dagegen weiterhin ein Vorhaben, dessen Details überwiegend auf einer einzelnen journalistischen Recherche mit anonymen Quellen beruhen. Auch der Apple-Rechtsstreit hat sich von einer angekündigten Auseinandersetzung zu einer tatsächlich eingereichten Klage konkretisiert, was die Quellenlage insgesamt verbessert — für eine abschließende Bewertung, insbesondere der gegen einzelne Personen erhobenen Vorwürfe, wären aber weiterhin Gerichtsunterlagen oder offizielle Stellungnahmen nötig, die bislang nicht vorliegen."
+      }
+    ],
+    "bodyKompakt": "OpenAI hat laut übereinstimmenden Medienberichten mit „Codex Micro“ sein erstes tatsächlich erhältliches Hardware-Produkt veröffentlicht: eine mit dem Spezialtastatur-Hersteller Work Louder entwickelte Mini-Tastatur bzw. ein Makro-Pad zur Steuerung von KI-Coding-Agenten, verkauft für rund 230 US-Dollar über den offiziellen OpenAI-Onlineshop und laut Berichten binnen weniger Stunden ausverkauft — auch im deutschen Shop, wo es inklusive Versand und Zoll umgerechnet rund 282 Euro kostete. Ausstattung und Preis sind inzwischen nicht mehr nur aus Sekundärberichten bekannt, sondern auch über eine offizielle Produktseite von OpenAI und Work Louder bestätigt: 13 mechanische Tasten, sechs RGB-beleuchtete „Agent Keys“ zur Statusanzeige, ein Joystick und ein Drehregler in einem CNC-gefertigten Gehäuse aus Aluminium und Polycarbonat. Davon zu unterscheiden ist der zuvor berichtete, bewegliche und bildschirmlose Smart Speaker: Dieses separate Projekt bleibt weiterhin unveröffentlicht und stützt sich überwiegend auf einen einzelnen Bloomberg-Bericht mit anonymen Insiderquellen. Als Design-Verantwortliche werden dabei neben Jony Ive auch Tang Tan, Evans Hankey und Paul Meade genannt — allesamt frühere Apple-Designer, ohne dass OpenAI dies offiziell bestätigt hätte.\n\nKonkreter geworden ist der parallel berichtete Rechtsstreit: Apple hat OpenAI und dessen Tochtergesellschaft io demnach am 10. Juli 2026 vor einem US-Bundesgericht in Nordkalifornien wegen mutmaßlichen Diebstahls von Geschäftsgeheimnissen verklagt und wirft dem Unternehmen systematisches Vorgehen vor, unter anderem im Zusammenhang mit einer Metallverarbeitungstechnik eines Apple-Zulieferers. Die Klage nennt laut Berichten auch zwei frühere Apple-Mitarbeiter namentlich als Beklagte und beziffert die Zahl der mittlerweile bei OpenAI beschäftigten früheren Apple-Angestellten auf über 400 — Angaben aus Apples eigener Klageschrift, keine gerichtliche Feststellung. Zeitgleich hat OpenAI mit „GPT-Live“ offiziell neue, vollduplexfähige Sprachmodelle vorgestellt; ob diese Technik für den geplanten Smart Speaker vorgesehen ist, bleibt offen.\n\nTechnische Details des Smart Speakers, der genaue Zeitplan, der juristische Ausgang des Apple-Verfahrens und eine offizielle Bestätigung der genannten Design-Verantwortlichen sind nach vorliegender Quellenlage nicht abschließend verifiziert. Insbesondere bei den gegen einzelne Personen erhobenen Vorwürfen handelt es sich um unbewiesene Behauptungen aus einer laufenden Klage.",
+    "updateNote": "Neue technische Details zu „Codex Micro“ ergänzt (13 Tasten, RGB-„Agent Keys“, Materialien, Ausverkauft-Status) und erstmals eine offizielle OpenAI/Work-Louder-Produktseite als Quelle herangezogen, was die Quellenlage für diesen Teil der Geschichte verbessert."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-17T06:07:26.099Z"
+}
