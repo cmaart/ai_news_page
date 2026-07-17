@@ -1,0 +1,276 @@
+{
+  "cluster": {
+    "id": "cluster-20260717-33ff23f1",
+    "title": "Iran meldet US-Angriffe auf Brücken",
+    "items": [
+      {
+        "itemId": "4b5100d6f2a670b76a98059f3c0e8b99e01591beb56d02f0ed02dc8bd93b70b2",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Iran meldet US-Angriffe auf Brücken",
+        "url": "https://orf.at/stories/3436439",
+        "summary": "Das US-Militär hat in der sechsten Angriffsnacht in Folge weitere Ziele im Iran bombardiert, darunter laut BBC mindestens eine Brücke. Der Iran meldete mehrere Angriffe auf zivile Infrastruktur sowie Tote. Bei Vergeltungsschlägen traf der Iran laut eigenen Angaben US-Ziele unter anderem in Kuwait, Bahrain, Katar und Oman. Auch in Syrien meldete die iranische Revolutionsgarde einen „Überraschungsangriff“.",
+        "publishedAt": "2026-07-17T08:07:57.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "94fd9559a487f7c3eb59e7a279deb52b06e53b87e756fe2326dca159dc8a6a25",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Iran meldet Angriffe auf Kuwait, Jordanien und Bahrain",
+        "url": "https://orf.at/stories/3436222",
+        "isNew": false
+      },
+      {
+        "itemId": "97825a5570a2638436f636060ca41c75d9f58677a1ad635ab3aea7a2435f4f56",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Sechste Nacht in Folge: Iran meldet US-Angriffe auf Brücken",
+        "url": "https://www.kleinezeitung.at/artikel/37946345/iran-meldet-us-angriffe-auf-bruecken",
+        "isNew": false
+      },
+      {
+        "itemId": "bf3efe8dfbfb184a5705312c4528937ee235007b45ec9bfaf2f3083725d1bc96",
+        "sourceId": "kurier_politik",
+        "sourceType": "media",
+        "title": "Sechste Angriffsnacht in Folge: USA bombardieren Brücken und Flughafen",
+        "url": "https://kurier.at/politik/ausland/iran-usa-angriffe-bruecken-hormus-flughafen-golfstaaten/403176623",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Substanzielle Fortführung der publizierten Story: Der Cluster dokumentiert die Operation der 6. Angriffsnacht in voller Detail (Brückennamen, Zielzonen, Opferzahlen, iranische Gegenschläge, Blockade-Enforcement). Drei unabhängige österreichische Quellen (ORF mit umfangreichem Fulltext, Kleine Zeitung, Kurier) berichten das identische Ereignis (17.7.2026, Angriffswelle für abgeschlossen erklärt). Die neuen Items liefern operative Substanz zu dem bereits publizierten Angebot und sollten es in den bestehenden Artikel integriert werden, nicht als eigenständige Story.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 2,
+    "relatedSlug": "us-angriffswelle-iran-juli-2026",
+    "possibleClaims": [
+      "US-Luftwaffe bombardiert in der 6. aufeinanderfolgenden Nacht Brücken (Kahurestan, Gariweh), Flughafen Iranschahr und Radaranlagen im Iran",
+      "Angriffe auf zivile Infrastruktur (Brücken, Verkehrsachsen) zur Unterbrechung von Nachschubwegen zu iranischem Marinestützpunkt an der Straße von Hormus",
+      "Mindestens 7 Tote in den aktuellen Angriffen; Iran meldet insgesamt mindestens 38 tote und über 400 verletzte Zivilisten seit Anfang Juli",
+      "Explosionen in unmittelbarer Nähe des iranischen Atomkraftwerks Buschehr",
+      "Iran führt Vergeltungsschläge gegen US-Ziele in Kuwait, Bahrain, Katar, Oman und Syrien durch",
+      "USA verstärken Seeblockade iranischer Häfen, US-Marinekräfte betreten und durchsuchen Handelschiffe im Golf von Oman",
+      "Iranischer UN-Botschafter beschuldigt USA der Kriegsverbrechen durch Angriffe auf zivile Infrastruktur"
+    ],
+    "missingSources": [
+      "Unabhängige (nicht-iranische, nicht-US) Verifikation der Brückenschäden und Ausmaß (BBC verifizierte nur einen Treffer auf Gariweh-Brücke)",
+      "Unabhängige Bestätigung der iranischen Opferzahlen und Schadensmeldungen",
+      "IAEA-Stellungnahme zur Unversehrtheit der Atomanlage Buschehr",
+      "Offizielle Reaktion von EU-Institutionen oder österreichischer Regierung",
+      "Unabhängige Bewertung der Effektivität iranischer Gegenschläge",
+      "Dokumentation des Schiffsverkehrs durch die Straße von Hormus nach Blockade-Wiederaufnahme",
+      "Satellitenbilder oder OSINT-Verifikation der Zielschäden"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "us-angriffswelle-iran-juli-2026",
+    "title": "Iran-Konflikt spitzt sich zu: USA bombardieren laut Berichten sechste Nacht in Folge, Iran meldet Gegenschläge in mehreren Golfstaaten",
+    "description": "Laut mehreren österreichischen Medien hat das US-Militär in der sechsten Nacht in Folge Ziele im Iran getroffen, darunter Brücken und einen Flughafen. Der Iran meldet zivile Opfer und führte nach eigenen Angaben Vergeltungsschläge in Kuwait, Bahrain, Katar, Oman und Syrien durch. Die Quellenlage bleibt größtenteils auf Medien- und iranische Staatsmedienangaben gestützt.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Vier voneinander unabhängige österreichische Medienquellen (ORF zweimal, Kleine Zeitung, Kurier) berichten übereinstimmend über eine sechste Angriffsnacht in Folge. Zentrale Details zu Zielen und Opferzahlen stammen jedoch überwiegend aus iranischen Staatsmedien (Fars, Press TV) und sind nur teilweise – etwa durch die BBC bei einer Brücke – unabhängig verifiziert.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt weiterhin keine direkt eingesehene Erklärung von US-Militär (Centcom), iranischer Regierung, UN oder IAEA vor. Die Angaben zu Zielen und Schäden stammen aus der Wiedergabe iranischer Staatsmedien durch internationale und österreichische Redaktionen; die BBC konnte laut Berichten zumindest einen Brückentreffer eigenständig bestätigen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die verfügbaren Berichte übernehmen an mehreren Stellen ungeprüft iranische Opfer- und Schadensangaben beziehungsweise US-Zielbeschreibungen, ohne dass unabhängige Verifikation vorliegt. Der Vorwurf von Kriegsverbrechen sowie konkrete Opferzahlen bergen Risiko einseitiger Übernahme einer Konfliktpartei; dem wird hier durch konsequente Quellenzuschreibung begegnet.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut übereinstimmenden Berichten von ORF, Kleine Zeitung und Kurier hat das US-Militär in der sechsten Nacht in Folge weitere Ziele im Iran bombardiert, darunter laut BBC mindestens eine Brücke.",
+        "kind": "fact"
+      },
+      {
+        "text": "Iranische Staatsmedien (Fars) nennen als Ziele unter anderem die Brücken Kahurestan und Gariweh in der Provinz Hormozgan sowie den Flughafen Iranschahr; insgesamt soll es laut Berichten mindestens sechs getroffene Brücken geben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der staatsnahe iranische Sender Press TV meldet mindestens sieben Tote bei den jüngsten Angriffen; Teheran spricht insgesamt von mindestens 38 Toten und über 400 Verletzten seit Anfang Juli.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Iran hat nach eigenen Angaben Vergeltungsschläge auf US-nahe Ziele in Kuwait, Bahrain, Katar und Oman durchgeführt; die Revolutionsgarde meldete zudem einen Angriff in Syrien.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der iranische UN-Botschafter bezeichnete die US-Angriffe auf zivile Infrastruktur laut Berichten als Kriegsverbrechen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die am 13. Juli gemeldete 'Abschluss'-Erklärung des US-Militärs zu einer Angriffswelle ist durch die seither fortgesetzten Angriffe überholt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine unabhängige, nicht-iranische und nicht-US-amerikanische Verifikation der Schäden, Opferzahlen und der Wirksamkeit iranischer Gegenschläge liegt weiterhin nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob und wie sich die Lage an der Straße von Hormus und der dortige Schiffsverkehr konkret entwickelt, bleibt unklar.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Gibt es eine unabhängige, nicht-iranische Bestätigung von Ausmaß und Zahl der beschädigten Brücken sowie weiterer ziviler Infrastruktur?",
+      "Wie belastbar sind die iranischen Opferzahlen (mindestens 7 Tote aktuell, insgesamt mindestens 38 Tote, über 400 Verletzte), und gibt es davon unabhängige Zählungen, etwa von internationalen Organisationen?",
+      "Liegt eine direkt eingesehene Stellungnahme von Centcom oder der iranischen Regierung vor, die über die Medienwiedergabe hinausgeht?",
+      "Welche konkreten Ziele und Schäden meldeten iranische Vergeltungsschläge in Kuwait, Bahrain, Katar, Oman und Syrien – und wie reagierten diese Staaten offiziell?",
+      "Wie äußern sich EU-Institutionen, die UN oder die IAEA konkret und mit welchem Wortlaut zur aktuellen Eskalation?",
+      "Bleibt der Schiffsverkehr durch die Straße von Hormus trotz iranischer Blockade-Ankündigungen tatsächlich aufrecht?",
+      "Wie entwickelt sich die Anzahl der Angriffsnächte weiter, und wann bzw. ob wird die aktuelle Welle tatsächlich beendet?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "DER STANDARD (Newsroom)",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an"
+      },
+      {
+        "id": "src2",
+        "name": "ORF News",
+        "type": "media",
+        "url": "https://orf.at/stories/3436031"
+      },
+      {
+        "id": "src3",
+        "name": "ORF News",
+        "type": "media",
+        "url": "https://orf.at/stories/3436439"
+      },
+      {
+        "id": "src4",
+        "name": "ORF News",
+        "type": "media",
+        "url": "https://orf.at/stories/3436222"
+      },
+      {
+        "id": "src5",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/37946345/iran-meldet-us-angriffe-auf-bruecken"
+      },
+      {
+        "id": "src6",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/iran-usa-angriffe-bruecken-hormus-flughafen-golfstaaten/403176623"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Das US-Militär hatte am 13. Juli eine Angriffswelle gegen Ziele im Iran nach eigenen Angaben für abgeschlossen erklärt.",
+        "status": "contradicted",
+        "note": "Die 'Abschluss'-Meldung vom 13. Juli ist durch die seither fortgesetzten Angriffe – laut Berichten mittlerweile mindestens sechs Nächte in Folge bis 17. Juli – überholt. Ob es sich um dieselbe fortgesetzte Welle oder mehrere getrennte Wellen handelt, lässt sich aus den vorliegenden Quellen nicht eindeutig klären.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Sowohl der Iran als auch die USA beanspruchen, die Kontrolle über die Straße von Hormus zu haben.",
+        "status": "unclear",
+        "note": "Nur eine der ursprünglichen Quellen berichtete davon; die aktuellen Cluster-Quellen gehen darauf nicht erneut ein, sodass der aktuelle Stand dieses Anspruchs offen bleibt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die UN riefen laut Berichten beide Seiten zu Verhandlungen auf und warnten vor einer Eskalation der Lage.",
+        "status": "unclear",
+        "note": "Der Hinweis stammt aus einer einzigen, knappen Quellenangabe ohne wörtliches Zitat oder Datum der UN-Stellungnahme und wurde in den neuen Berichten nicht aktualisiert.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Schiffsverkehr durch die Straße von Hormus lief laut US-Angaben (Stand 13. Juli) trotz einer iranischen Blockade-Ankündigung weiter.",
+        "status": "unclear",
+        "note": "Diese Darstellung liegt weiterhin nur als einseitige US-Angabe vor; die aktuellen Quellen zur sechsten Angriffsnacht treffen dazu keine neue Aussage.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "In der laut Berichten sechsten Angriffsnacht in Folge (Stand 17. Juli) griff das US-Militär im Iran unter anderem die Brücken Kahurestan und Gariweh in der Provinz Hormozgan sowie den Flughafen Iranschahr in der Provinz Sistan-Belutschistan an; insgesamt soll es mindestens sechs getroffene Brücken geben.",
+        "status": "partial",
+        "note": "Die Zielangaben stammen überwiegend aus der iranischen Staatsagentur Fars und wurden von österreichischen Medien wiedergegeben. Laut Berichten konnte die BBC zumindest den Treffer auf die Gariweh-Brücke eigenständig verifizieren; die übrigen Ziele sind nicht unabhängig bestätigt.",
+        "sourceIds": [
+          "src3",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Nach iranischen Angaben wurden bei den jüngsten Angriffen mindestens sieben Menschen getötet; Teheran spricht von insgesamt mindestens 38 Toten und über 400 Verletzten seit Beginn der Angriffswelle im Juli.",
+        "status": "unclear",
+        "note": "Die Opferzahlen stammen ausschließlich aus iranischen bzw. staatsnahen Quellen und sind nicht unabhängig verifiziert.",
+        "sourceIds": [
+          "src3"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Der Iran hat nach eigenen Angaben Vergeltungsschläge auf US-Ziele in Kuwait, Bahrain, Katar und Oman durchgeführt; die iranische Revolutionsgarde meldete zudem einen Angriff in Syrien.",
+        "status": "unclear",
+        "note": "Es handelt sich um eine einseitige iranische Selbstauskunft ohne unabhängige Bestätigung der getroffenen Ziele, des Ausmaßes oder etwaiger Schäden; offizielle Reaktionen der betroffenen Golfstaaten liegen nicht vor.",
+        "sourceIds": [
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Der iranische UN-Botschafter bezeichnete die US-Angriffe auf zivile Infrastruktur als Kriegsverbrechen.",
+        "status": "unclear",
+        "note": "Die Aussage wird nur über Medienwiedergabe zitiert; eine direkt eingesehene, wörtliche UN-Erklärung liegt nicht vor.",
+        "sourceIds": [
+          "src3"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Das US-Militär (Centcom) erklärte laut Berichten, mit den fortgesetzten Angriffen die militärischen Fähigkeiten Irans weiter schwächen zu wollen.",
+        "status": "partial",
+        "note": "Das Zitat wird über Medienberichte wiedergegeben, eine direkt eingesehene Centcom-Erklärung liegt nicht vor.",
+        "sourceIds": [
+          "src3"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut übereinstimmenden Berichten von ORF, Kleine Zeitung und Kurier hat das US-Militär in der sechsten Nacht in Folge weitere Ziele im Iran bombardiert. Laut BBC wurde dabei mindestens eine Brücke getroffen. Iranische Staatsmedien (Fars) nennen als Ziele unter anderem die Brücken Kahurestan und Gariweh in der Provinz Hormozgan sowie den Flughafen Iranschahr in der südöstlichen Provinz Sistan-Belutschistan; insgesamt soll es laut Berichten mindestens sechs getroffene Brücken geben. Damit ist die am 13. Juli vom US-Militär selbst verkündete 'Abschluss'-Meldung zu einer vorangegangenen Angriffswelle überholt – die Angriffe wurden seither fortgesetzt, ob als dieselbe oder eine neue Welle, lässt sich aus den Quellen nicht klären.\n\nDer staatsnahe iranische Sender Press TV meldet mindestens sieben Tote bei den jüngsten Angriffen; Teheran spricht insgesamt von mindestens 38 Toten und über 400 Verletzten seit Anfang Juli. Als Vergeltung führte der Iran nach eigenen Angaben Angriffe auf US-nahe Ziele in Kuwait, Bahrain, Katar und Oman durch; die Revolutionsgarde meldete zudem einen 'Überraschungsangriff' in Syrien. Der iranische UN-Botschafter bezeichnete die US-Angriffe auf zivile Infrastruktur laut Berichten als Kriegsverbrechen."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Vier voneinander unabhängige österreichische Medien – ORF (zwei Artikel), Kleine Zeitung und Kurier – berichten übereinstimmend über die sechste Angriffsnacht in Folge und decken sich in den Kernpunkten: fortgesetzte US-Angriffe, iranische Vergeltungsschläge in mehreren Golfstaaten sowie Verweise auf die Straße von Hormus. Die konkreten Zielangaben (Brückennamen, Flughafen) stammen dabei überwiegend aus der iranischen Staatsagentur Fars beziehungsweise dem staatsnahen Sender Press TV und wurden von den Redaktionen mit entsprechender Zuschreibung wiedergegeben. Eine Ausnahme bildet der Hinweis, die BBC habe zumindest den Treffer auf die Gariweh-Brücke eigenständig verifizieren können – dies bleibt aber eine punktuelle Bestätigung und deckt nicht das gesamte gemeldete Schadensbild ab. Eine direkt eingesehene Stellungnahme von US-Centcom, der iranischen Regierung oder der UN liegt für diesen Artikel weiterhin nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie belastbar die iranischen Opferzahlen sind – weder die Zahl von sieben Toten bei den jüngsten Angriffen noch die kumulierten Angaben von mindestens 38 Toten und über 400 Verletzten seit Anfang Juli konnten bislang von unabhängiger, nicht-iranischer Seite bestätigt werden. Ebenso unklar ist das tatsächliche Ausmaß der iranischen Vergeltungsschläge in Kuwait, Bahrain, Katar, Oman und Syrien: Es liegen bislang keine offiziellen Reaktionen oder Schadensbestätigungen der betroffenen Staaten vor. Auch der aktuelle Status des Schiffsverkehrs durch die Straße von Hormus sowie die frühere wechselseitige Kontrollbehauptung von Iran und USA werden in den neuen Berichten nicht erneut aufgegriffen. Wie sich EU-Institutionen oder andere Regierungen zur jüngsten Eskalation äußern, ist aus den vorliegenden Quellen ebenfalls nicht ersichtlich."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Umstand, dass eine Angriffswelle, die das US-Militär am 13. Juli für abgeschlossen erklärt hatte, sich nach vorliegenden Berichten bis mindestens zur sechsten Nacht in Folge fortsetzte, deutet auf eine anhaltende, in ihrem Ausmaß schwer einzuschätzende militärische Eskalation zwischen den USA und dem Iran hin. Die Ausweitung iranischer Vergeltungsschläge auf mehrere Golfstaaten sowie nach Syrien und der Vorwurf von Kriegsverbrechen gegenüber den USA verschärfen die diplomatische Dimension des Konflikts zusätzlich. Gleichzeitig bleibt die Quellenlage strukturell unausgewogen: Zielangaben und Opferzahlen stammen überwiegend aus iranischen Staatsmedien, während zur genauen Zielsetzung und den Ergebnissen der US-Angriffe kein direkt eingesehenes Centcom-Statement vorliegt. Angesichts der Sensibilität des Themas – Kriegsgeschehen mit gemeldeten zivilen Opfern – ist bei allen Zahlen und Zuschreibungen weiterhin Zurückhaltung geboten, bis unabhängige Verifikationen, etwa durch internationale Organisationen oder Drittquellen, vorliegen."
+      }
+    ],
+    "bodyKompakt": "Laut übereinstimmenden Berichten von ORF, Kleine Zeitung und Kurier hat das US-Militär in der sechsten Nacht in Folge weitere Ziele im Iran bombardiert, laut BBC darunter mindestens eine Brücke. Iranische Staatsmedien nennen als Ziele unter anderem die Brücken Kahurestan und Gariweh sowie den Flughafen Iranschahr; insgesamt sollen mindestens sechs Brücken getroffen worden sein. Damit ist die am 13. Juli vom US-Militär selbst verkündete 'Abschluss'-Meldung einer vorherigen Angriffswelle überholt. Der staatsnahe Sender Press TV meldet mindestens sieben Tote bei den jüngsten Angriffen, Teheran spricht insgesamt von mindestens 38 Toten und über 400 Verletzten seit Anfang Juli. Als Vergeltung führte der Iran nach eigenen Angaben Angriffe auf US-nahe Ziele in Kuwait, Bahrain, Katar und Oman durch, die Revolutionsgarde meldete zudem einen Angriff in Syrien; der iranische UN-Botschafter warf den USA Kriegsverbrechen vor.\n\nDie Kernpunkte werden von vier voneinander unabhängigen österreichischen Medien übereinstimmend berichtet, doch konkrete Zielangaben und Opferzahlen stammen größtenteils aus iranischen Staatsmedien wie Fars und Press TV. Eine punktuelle Ausnahme bildet die BBC, die laut Berichten zumindest den Treffer auf die Gariweh-Brücke eigenständig bestätigen konnte. Eine direkt eingesehene Stellungnahme von US-Centcom, der iranischen Regierung oder der UN liegt weiterhin nicht vor, ebenso fehlt eine unabhängige, nicht-iranische Bestätigung der Opferzahlen und des Ausmaßes der iranischen Gegenschläge in den Golfstaaten und Syrien.\n\nAngesichts der fortgesetzten Eskalation über mindestens sechs Angriffsnächte, der Ausweitung auf mehrere Golfstaaten und dem Vorwurf von Kriegsverbrechen bleibt die Lage ernst, aber schwer unabhängig einzuschätzen. Die Quellenlage stützt sich strukturell auf iranische Staatsmedien für Ziel- und Opferangaben sowie auf Medienwiedergaben US-amerikanischer Positionen, ohne dass bislang unabhängige Drittquellen wie internationale Organisationen die zentralen Zahlen bestätigt hätten. Weitere Berichterstattung und offizielle Stellungnahmen beider Seiten sowie internationaler Beobachter wären nötig, um das Ausmaß der Eskalation verlässlicher einzuordnen.",
+    "updateNote": "Der Artikel wurde um die laut Berichten sechste Angriffsnacht in Folge (Ziele: Brücken, Flughafen Iranschahr), iranisch gemeldete Opferzahlen, iranische Vergeltungsschläge in mehreren Golfstaaten und Syrien sowie den Kriegsverbrechen-Vorwurf des iranischen UN-Botschafters erweitert; die frühere 'Abschluss'-Einschätzung vom 13. Juli gilt damit als überholt."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-17T18:07:24.935Z"
+}

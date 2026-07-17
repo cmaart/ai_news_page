@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-17T16:19:33.226Z",
+  "updatedAt": "2026-07-17T18:20:41.852Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1469,8 +1469,8 @@
       "doNotRedraftBefore": "2026-07-18T16:07:27.817Z",
       "doNotUpdateBefore": "2026-07-17T22:07:27.817Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-16T16:07:29.022Z",
-        "kurier": "2026-07-17T16:07:27.817Z"
+        "kurier": "2026-07-17T16:07:27.817Z",
+        "orf": "2026-07-17T18:07:24.935Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
@@ -2675,27 +2675,33 @@
       "doNotUpdateBefore": "2026-07-13T09:07:28.746Z"
     },
     "us-angriffswelle-iran-juli-2026": {
-      "canonicalTitle": "US-Militär erklärt neue Angriffswelle gegen Iran für abgeschlossen",
+      "canonicalTitle": "Iran-Konflikt spitzt sich zu: USA bombardieren laut Berichten sechste Nacht in Folge, Iran meldet Gegenschläge in mehreren Golfstaaten",
       "slug": "us-angriffswelle-iran-juli-2026",
       "firstSeenAt": "2026-07-13T04:07:29.333Z",
-      "lastUpdatedAt": "2026-07-13T04:07:29.333Z",
+      "lastUpdatedAt": "2026-07-17T18:07:24.935Z",
       "status": "published",
       "articlePath": "src/content/articles/us-angriffswelle-iran-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/us-angriffswelle-iran-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-17/us-angriffswelle-iran-juli-2026-update-1800.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an",
-        "https://orf.at/stories/3436031"
+        "https://orf.at/stories/3436031",
+        "https://orf.at/stories/3436439",
+        "https://orf.at/stories/3436222",
+        "https://www.kleinezeitung.at/artikel/37946345/iran-meldet-us-angriffe-auf-bruecken",
+        "https://kurier.at/politik/ausland/iran-usa-angriffe-bruecken-hormus-flughafen-golfstaaten/403176623"
       ],
       "openQuestions": [
-        "Gibt es eine offizielle iranische Regierungsbestätigung zu Ausmaß und Art der gemeldeten Schäden?",
-        "Lässt sich das Ausmaß der getroffenen Ziele unabhängig verifizieren, etwa über Satellitenbilder oder OSINT-Quellen?",
-        "Gibt es Hinweise auf zivile Opfer oder Schäden an ziviler Infrastruktur?",
-        "Wie reagieren EU-Akteure oder andere Regierungen auf die gemeldete Eskalation?",
-        "Bleibt der Schiffsverkehr durch die Straße von Hormus tatsächlich unbeeinträchtigt, wie von US-Seite behauptet?"
+        "Gibt es eine unabhängige, nicht-iranische Bestätigung von Ausmaß und Zahl der beschädigten Brücken sowie weiterer ziviler Infrastruktur?",
+        "Wie belastbar sind die iranischen Opferzahlen (mindestens 7 Tote aktuell, insgesamt mindestens 38 Tote, über 400 Verletzte), und gibt es davon unabhängige Zählungen, etwa von internationalen Organisationen?",
+        "Liegt eine direkt eingesehene Stellungnahme von Centcom oder der iranischen Regierung vor, die über die Medienwiedergabe hinausgeht?",
+        "Welche konkreten Ziele und Schäden meldeten iranische Vergeltungsschläge in Kuwait, Bahrain, Katar, Oman und Syrien – und wie reagierten diese Staaten offiziell?",
+        "Wie äußern sich EU-Institutionen, die UN oder die IAEA konkret und mit welchem Wortlaut zur aktuellen Eskalation?",
+        "Bleibt der Schiffsverkehr durch die Straße von Hormus trotz iranischer Blockade-Ankündigungen tatsächlich aufrecht?",
+        "Wie entwickelt sich die Anzahl der Angriffsnächte weiter, und wann bzw. ob wird die aktuelle Welle tatsächlich beendet?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T04:07:29.333Z",
-      "doNotUpdateBefore": "2026-07-13T10:07:29.333Z",
+      "doNotRedraftBefore": "2026-07-18T18:07:24.935Z",
+      "doNotUpdateBefore": "2026-07-18T00:07:24.935Z",
       "echoPublishers": {}
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
@@ -4532,14 +4538,12 @@
       "doNotUpdateBefore": "2026-07-16T22:07:29.022Z",
       "echoPublishers": {
         "apa": "2026-07-16T18:07:38.908Z",
-        "kurier": "2026-07-16T16:07:29.022Z",
-        "orf": "2026-07-16T16:07:29.022Z",
         "derstandard": "2026-07-16T18:07:38.908Z",
         "diepresse": "2026-07-16T18:07:38.908Z"
       },
       "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-16T16:07:29.022Z"
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-17T18:07:24.935Z"
     },
     "gaza-israel-angriffe-neun-tote-juli-2026": {
       "canonicalTitle": "Gazastreifen: Laut Behörden mindestens neun Tote bei israelischen Angriffen",
@@ -4563,7 +4567,14 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-15T20:07:26.223Z",
-      "doNotUpdateBefore": "2026-07-15T02:07:26.223Z"
+      "doNotUpdateBefore": "2026-07-15T02:07:26.223Z",
+      "echoPublishers": {
+        "orf": "2026-07-17T18:07:24.935Z",
+        "derstandard": "2026-07-17T18:07:24.935Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-17T18:07:24.935Z"
     },
     "polen-faengt-russisches-aufklaerungsflugzeug-ostsee-juli-2026": {
       "canonicalTitle": "Polen fängt russisches Aufklärungsflugzeug über der Ostsee ab",
@@ -4878,12 +4889,10 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-17T12:07:29.290Z",
       "doNotUpdateBefore": "2026-07-16T18:07:29.290Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-16T16:07:29.022Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-16T16:07:29.022Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-17T18:07:24.935Z"
     },
     "openai-smart-speaker-hardware-2026": {
       "canonicalTitle": "OpenAI bringt mit „Codex Micro“ erste erhältliche Hardware heraus – Smart-Speaker-Pläne bleiben Berichtssache, Apple-Klage jetzt offiziell eingereicht",
@@ -4925,8 +4934,6 @@
       "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
       "doNotUpdateBefore": "2026-07-17T12:07:26.099Z",
       "echoPublishers": {
-        "golem": "2026-07-16T16:07:29.022Z",
-        "thedecoder": "2026-07-16T16:07:29.022Z",
         "heise": "2026-07-17T06:07:26.099Z"
       },
       "resonanceLevel": 2,
@@ -5646,9 +5653,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-17T22:07:29.344Z",
       "doNotUpdateBefore": "2026-07-17T04:07:29.344Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-16T16:07:29.022Z"
-      }
+      "echoPublishers": {}
     },
     "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026": {
       "canonicalTitle": "Italiens Abgeordnetenkammer billigt Melonis umstrittene Wahlrechtsreform",
@@ -5897,7 +5902,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-17T22:07:29.344Z",
-      "doNotUpdateBefore": "2026-07-17T04:07:29.344Z"
+      "doNotUpdateBefore": "2026-07-17T04:07:29.344Z",
+      "echoPublishers": {
+        "arstechnica": "2026-07-17T18:07:24.935Z"
+      }
     },
     "tuchel-kritik-england-wm-halbfinale-argentinien-2026": {
       "canonicalTitle": "England scheitert im WM-Halbfinale an Argentinien – Tuchel gerät nach Umstellungen in die Kritik",
@@ -5980,7 +5988,14 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-18T00:07:25.651Z",
-      "doNotUpdateBefore": "2026-07-17T06:07:25.651Z"
+      "doNotUpdateBefore": "2026-07-17T06:07:25.651Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-17T18:07:24.935Z",
+        "kleinezeitung": "2026-07-17T18:07:24.935Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-17T18:07:24.935Z"
     },
     "eibinger-miedl-private-vorsorge-steuerbeguenstigung-2026": {
       "canonicalTitle": "Eibinger-Miedl will private Altersvorsorge steuerlich begünstigen",
@@ -6398,7 +6413,8 @@
       "doNotUpdateBefore": "2026-07-17T18:07:35.751Z",
       "echoPublishers": {
         "apa": "2026-07-17T14:07:25.867Z",
-        "kleinezeitung": "2026-07-17T14:07:25.867Z"
+        "kleinezeitung": "2026-07-17T14:07:25.867Z",
+        "kurier": "2026-07-17T18:07:24.935Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "triage",
@@ -6532,7 +6548,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-18T16:07:27.817Z",
-      "doNotUpdateBefore": "2026-07-17T22:07:27.817Z"
+      "doNotUpdateBefore": "2026-07-17T22:07:27.817Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-17T18:07:24.935Z"
+      }
     },
     "apple-ueberholt-nvidia-wertvollstes-unternehmen-juli-2026": {
       "canonicalTitle": "Apple überholt Nvidia wieder als wertvollstes Unternehmen der Welt",
@@ -6578,6 +6597,59 @@
         "Auskunft von Taco Bell zu Lieferanten-Kommunikation und spezifischen Maßnahmen"
       ],
       "sensitivity": "high"
+    },
+    "erdrutsch-pengshui-chongqing-china-juli-2026": {
+      "canonicalTitle": "Erdrutsch in Westchina: Mindestens acht Tote, 34 Menschen vermisst",
+      "slug": "erdrutsch-pengshui-chongqing-china-juli-2026",
+      "firstSeenAt": "2026-07-17T18:07:24.935Z",
+      "lastUpdatedAt": "2026-07-17T18:07:24.935Z",
+      "status": "published",
+      "articlePath": "src/content/articles/erdrutsch-pengshui-chongqing-china-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/erdrutsch-pengshui-chongqing-china-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/38234708/mindestens-acht-menschen-sterben-bei-erdrutsch-in-westchina",
+        "https://orf.at/stories/3436437",
+        "https://www.diepresse.com/37947830/lawine-aus-geroell-mehrere-menschen-in-westchina-verschuettet",
+        "https://kurier.at/chronik/welt/erdrutsch-westchina-menschen-verschuettet-geroell/403176683",
+        "https://orf.at/stories/3436505",
+        "https://www.derstandard.at/story/3000000331968/mindestens-acht-tote-bei-erdrutsch-in-westchina",
+        "https://www.usnews.com/news/world/articles/2026-07-17/landslide-buries-residents-in-southwest-chinas-chongqing"
+      ],
+      "openQuestions": [
+        "Wie hoch wird die endgültige Zahl der Todesopfer und Vermissten sein, sobald die Suche abgeschlossen ist?",
+        "Was war die genaue geologische oder witterungsbedingte Ursache des Hangabbruchs?",
+        "Sind weitere Häuser oder Infrastruktur durch mögliche Nachrutschungen gefährdet?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-18T18:07:24.935Z",
+      "doNotUpdateBefore": "2026-07-18T00:07:24.935Z"
+    },
+    "jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026": {
+      "canonicalTitle": "Leihmutterschaft für Sohn: Jens Spahn gerät wegen Kurswechsel zur eigenen Partei unter Druck",
+      "slug": "jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026",
+      "firstSeenAt": "2026-07-17T18:07:24.935Z",
+      "lastUpdatedAt": "2026-07-17T18:07:24.935Z",
+      "status": "published",
+      "articlePath": "src/content/articles/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-17/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/37960570/wenn-das-private-zum-politikum-wird-jens-spahn-die-cdu-und-der-wirbel-um-die-leihmutterschaft-fuer-seinen-sohn",
+        "https://www.kleinezeitung.at/artikel/37905005/als-minister-lehnte-er-leihmutterschaft-ab-jens-spahn-und-sein-mann",
+        "https://www.derstandard.at/story/3000000331798/baby-von-us-leihmutter-bringt-cdu-mann-jens-spahn-unter-druck",
+        "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101348482/jens-spahn-und-leihmutterschaft-schiere-fassungslosigkeit-in-cdu-csu.html",
+        "https://www.zdfheute.de/politik/spahn-leihmutterschaft-kritik-cdu-ruecktrittsforderung-100.html",
+        "https://www.watson.ch/international/kinder/523455337-cdu-fraktionschef-jens-spahn-beauftragte-leihmutter-entgegen-parteilinie",
+        "https://www.berliner-zeitung.de/article/wenn-politiker-gesetze-umgehen-hendrik-streeck-und-die-debatte-um-leihmutterschaft-10031349"
+      ],
+      "openQuestions": [
+        "Bleibt Jens Spahn Fraktionsvorsitzender der CDU/CSU im Bundestag?",
+        "Wie reagieren CDU-Gremien formal auf die Kritik – gibt es ein Verfahren oder eine Aussprache?",
+        "Welche genauen Umstände (Agentur, Kosten, rechtliche Elternschaft) lagen der Leihmutterschaft zugrunde? Das ist nicht abschließend verifiziert.",
+        "Wird der ähnlich gelagerte, von Streeck selbst nicht bestätigte Fall politisch oder rechtlich weiterverfolgt?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-18T18:07:24.935Z",
+      "doNotUpdateBefore": "2026-07-18T00:07:24.935Z"
     }
   }
 }
