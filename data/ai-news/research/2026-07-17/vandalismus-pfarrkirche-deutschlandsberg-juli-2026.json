@@ -1,0 +1,184 @@
+{
+  "cluster": {
+    "id": "cluster-20260716-4e31285a",
+    "title": "Vandalen beschädigten Heiligenfiguren der Pfarrkirche Deutschlandsberg",
+    "items": [
+      {
+        "itemId": "621e8ae65842719499c4f356f935b8525d43b7c69a8f848630a8c34011f3976d",
+        "sourceId": "kleinezeitung_steiermark",
+        "sourceType": "media",
+        "title": "Vandalen beschädigten Heiligenfiguren der Pfarrkirche Deutschlandsberg",
+        "url": "https://www.kleinezeitung.at/artikel/37893883/unbekannte-beschaedigten-kirchenfiguren-der-pfarrkirche",
+        "summary": "In der Nacht auf Donnerstag wurde die Kreuzigungsgruppe an der Außenwand der Pfarrkirche Deutschlandsberg heruntergerissen. Polizei bittet um Hinweise.",
+        "publishedAt": "2026-07-16T14:46:08.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "01965a733665d89a025bc5d97963bfbe594df677e4623bc733ef34fc8369e261",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Heiligenfiguren von Unbekannten beschädigt",
+        "url": "https://steiermark.orf.at/stories/3362960",
+        "isNew": false
+      },
+      {
+        "itemId": "40bc3c57cf2fda85f989e66e07489599bdc907b0aa54b383aa2f9f66eaf3c4e3",
+        "sourceId": "orf_steiermark",
+        "sourceType": "media",
+        "title": "Heiligenfiguren von Unbekannten beschädigt",
+        "url": "https://steiermark.orf.at/stories/3362960",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substantive lokale Nachricht mit zwei unabhängigen österreichischen Quellen (Kleine Zeitung, ORF). Kulturelles Erbe beschädigt, laufende Polizeiermittlungen, öffentlicher Appell um Hinweise. Volltextauszüge zeigen gute Berichterstattungstiefe und ermöglichen eigenständige Artikel-Erstellung ohne Nachdruckrisiko. Kirchen-Vandalismus mit lokalem Nachrichtenwert für Steiermark/Österreich.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Unbekannte Täter beschädigten die Kreuzigungsgruppe an der Außenwand der Pfarrkirche Deutschlandsberg in der Nacht auf Donnerstag (16. Juli 2026)",
+      "Die beschädigten Holzfiguren sind etwa 200 Jahre alt (errichtet um 1780)",
+      "Die Figuren wurden 2013 aufwendig für rund 9.000 Euro saniert",
+      "Durch die Wucht des Aufpralls wurden Köpfe und Arme der Statuen beschädigt",
+      "Der Schaden wird auf mehrere tausend Euro geschätzt",
+      "Die Polizei ermittelt wegen schwerer Sachbeschädigung",
+      "Der Seelsorgeraumleiter István Holló veröffentlichte den Vorfall auf Facebook, das Posting wurde binnen weniger Stunden mehr als 500 Mal geteilt"
+    ],
+    "missingSources": [
+      "Detaillierte Schadenseinschätzung durch Restaurator (wird noch durchgeführt)",
+      "Offizielle Stellungnahme der Polizei Deutschlandsberg über Pressestelle",
+      "Aussage zur exakten Schadenshöhe vom Pfarrer oder Bistum",
+      "Zeugenaussagen oder Sicherheitskameramaterial"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "vandalismus-pfarrkirche-deutschlandsberg-juli-2026",
+    "title": "Vandalen zerstören historische Kreuzigungsgruppe an Pfarrkirche Deutschlandsberg",
+    "description": "Unbekannte haben in der Nacht auf Donnerstag die Kreuzigungsgruppe an der Außenwand der Pfarrkirche Deutschlandsberg heruntergerissen und beschädigt. Die Polizei ermittelt, Details zu Tathergang und Schadenshöhe sind laut vorliegenden Quellen noch offen.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Der Kernvorfall — Beschädigung der Kreuzigungsgruppe in der Nacht auf Donnerstag — wird von zwei voneinander unabhängigen Medien (Kleine Zeitung, ORF Steiermark) übereinstimmend berichtet, was nach unserer Einstufung als bestätigt gilt; Detailangaben wie Alter, Sanierungskosten und Schadenshöhe stammen bislang nur aus einer Quelle.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Polizeimeldung, kein Bistums-Statement und kein Restaurierungsgutachten direkt eingesehen, sondern nur Medienberichte, die solche Stellen indirekt zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich praktisch vollständig auf einen ausführlichen Lokalzeitungsbericht, eine direkte Stellungnahme der Polizei oder der Pfarre liegt uns nicht vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Unbekannte rissen in der Nacht auf Donnerstag die Kreuzigungsgruppe an der Außenwand der Pfarrkirche Deutschlandsberg herunter.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Polizei ermittelt und bittet die Bevölkerung um Hinweise.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Kleine Zeitung sollen die betroffenen Holzfiguren rund 200 Jahre alt sein und waren 2013 aufwendig saniert worden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wer für die Tat verantwortlich ist und wie hoch der Schaden exakt ausfällt, ist derzeit nicht abschließend verifiziert.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob es sich um gezielten Vandalismus mit religiösem Bezug oder eine zufällige Beschädigung handelt, bleibt offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch ist der tatsächliche Schaden laut Restaurator und Pfarre?",
+      "Gibt es Verdächtige oder Zeugenhinweise, die zur Aufklärung beigetragen haben?",
+      "Welches Motiv steckt hinter der Tat — gezielter Angriff oder unbeabsichtigte Beschädigung?",
+      "Wird eine offizielle Stellungnahme von Polizei oder Diözese folgen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kleine Zeitung Steiermark",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/37893883/unbekannte-beschaedigten-kirchenfiguren-der-pfarrkirche"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Steiermark",
+        "type": "media",
+        "url": "https://steiermark.orf.at/stories/3362960"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Unbekannte beschädigten in der Nacht auf Donnerstag (16. Juli 2026) die Kreuzigungsgruppe an der Außenwand der Pfarrkirche Deutschlandsberg.",
+        "status": "supported",
+        "note": "Wird von zwei unabhängigen Medien (Kleine Zeitung, ORF Steiermark) übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die beschädigten Holzfiguren sollen laut Kleine Zeitung rund 200 Jahre alt sein (errichtet um 1780) und wurden 2013 für rund 9.000 Euro saniert.",
+        "status": "partial",
+        "note": "Bislang nur von einer Quelle berichtet, keine unabhängige Bestätigung vorliegend.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Durch die Wucht des Sturzes wurden laut Kleine Zeitung vor allem Köpfe und Arme der Statuen beschädigt, der Schaden wird auf mehrere tausend Euro geschätzt.",
+        "status": "partial",
+        "note": "Schadenshöhe ist eine vorläufige Einschätzung aus einer einzelnen Quelle, kein Gutachten eingesehen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Polizei ermittelt laut Kleine Zeitung wegen schwerer Sachbeschädigung und bittet um Hinweise aus der Bevölkerung.",
+        "status": "partial",
+        "note": "Keine direkte Polizeiaussendung eingesehen, nur über Medienbericht bekannt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Seelsorgeraumleiter István Holló habe den Vorfall laut Kleine Zeitung auf Facebook öffentlich gemacht, das Posting sei binnen weniger Stunden mehr als 500 Mal geteilt worden.",
+        "status": "unclear",
+        "note": "Einzelquellenangabe zu einer schwer nachprüfbaren Social-Media-Kennzahl, keine eigene Einsicht in den Facebook-Beitrag.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In der Nacht auf Donnerstag wurde die Kreuzigungsgruppe an der Außenwand der Pfarrkirche Deutschlandsberg von Unbekannten heruntergerissen und beschädigt. Das berichten sowohl die Kleine Zeitung als auch ORF Steiermark übereinstimmend. Die Polizei wurde eingeschaltet und ermittelt laut Kleine Zeitung wegen schwerer Sachbeschädigung; die Bevölkerung wird um Hinweise gebeten, die zur Aufklärung der Tat beitragen könnten."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Laut Kleine Zeitung handelt es sich bei den beschädigten Figuren um historische Holzstatuen, die rund 200 Jahre alt sein sollen und um 1780 errichtet wurden. Die Kreuzigungsgruppe war demnach 2013 aufwendig saniert worden, mit Kosten von rund 9.000 Euro. Durch die Wucht des Aufpralls seien laut diesem Bericht vor allem Köpfe und Arme der Statuen beschädigt worden, der Gesamtschaden wird auf mehrere tausend Euro geschätzt. Der Seelsorgeraumleiter István Holló soll den Vorfall zudem auf Facebook öffentlich gemacht haben, wo das Posting binnen weniger Stunden mehr als 500 Mal geteilt worden sein soll. Diese Detailangaben stammen bislang ausschließlich aus einem einzigen Medienbericht und sind nicht unabhängig bestätigt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Nicht abschließend verifiziert ist, wer für die Beschädigung verantwortlich ist und welches Motiv dahintersteckt — ob es sich um gezielten Vandalismus mit religiösem oder anderem Bezug handelt oder um eine eher zufällige Beschädigung, etwa im Zuge anderer Vorfälle, lässt sich aus den vorliegenden Quellen nicht ableiten. Auch die genaue Schadenshöhe steht laut den Berichten noch nicht endgültig fest, da eine detaillierte Begutachtung durch einen Restaurator erst noch aussteht. Eine offizielle Stellungnahme der Polizei über deren Pressestelle oder der Pfarre beziehungsweise Diözese liegt uns nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Beschädigung eines rund 200 Jahre alten sakralen Kunstwerks ist ein lokal bedeutsamer Vorfall, der sowohl kulturhistorisch als auch für die Kirchengemeinde in Deutschlandsberg von Gewicht ist. Da bislang keine Verdächtigen bekannt sind und keine Primärquelle wie eine Polizeiaussendung oder ein Gutachten vorliegt, sollte die Berichterstattung vorsichtig eingeordnet werden: Der Grundvorfall gilt als gut belegt, da zwei unabhängige Medien ihn übereinstimmend schildern, während Details zu Schadenshöhe, Alter und Hintergrund vorerst nur einer einzelnen Quelle entstammen."
+      }
+    ],
+    "bodyKompakt": "Unbekannte haben in der Nacht auf Donnerstag die Kreuzigungsgruppe an der Außenwand der Pfarrkirche Deutschlandsberg heruntergerissen und beschädigt. Das berichten die Kleine Zeitung und ORF Steiermark übereinstimmend. Die Polizei ermittelt laut Kleine Zeitung wegen schwerer Sachbeschädigung und bittet um Hinweise aus der Bevölkerung.\n\nLaut Kleine Zeitung sind die betroffenen Holzfiguren rund 200 Jahre alt, um 1780 errichtet, und waren 2013 für rund 9.000 Euro saniert worden. Durch den Sturz seien vor allem Köpfe und Arme beschädigt worden, der Schaden werde auf mehrere tausend Euro geschätzt. Diese Detailangaben stammen bislang nur aus einer einzelnen Quelle und sind nicht unabhängig bestätigt.\n\nOffen bleiben Täter, Motiv und die genaue Schadenshöhe, da eine restauratorische Begutachtung noch aussteht und keine offizielle Stellungnahme von Polizei oder Pfarre vorliegt. Die Darstellung ist daher im Kern gut belegt, in den Details aber noch nicht abschließend verifiziert.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-17T04:07:33.034Z"
+}
