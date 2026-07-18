@@ -1,0 +1,235 @@
+{
+  "cluster": {
+    "id": "cluster-20260717-807d0cd1",
+    "title": "Leihräder: Wien verdoppelt das E-Bike-Angebot",
+    "items": [
+      {
+        "itemId": "9691d083c419d1d6512304436bd8c476ae9c40bab514b8f3463f217e6580fb69",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Leihräder: Wien verdoppelt das E-Bike-Angebot",
+        "url": "https://kurier.at/chronik/wien/leihraeder-e-bike-wien-angebot-verdoppelt/403176719",
+        "summary": "Nach holprigem Start ziehen die Wiener Linien positive Bilanz über die E-Bike-Leihräder und stellen jetzt 600 E-Bikes zur Verfügung.",
+        "publishedAt": "2026-07-17T10:11:41.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e692d91f01e4dd0d5843ceb497d43490225e9bde09adeb473eb65f1bc9d3759f",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "E-Bike-Flotte der Wiener Leihräder verdoppelt",
+        "url": "https://wien.orf.at/stories/3363094",
+        "isNew": false
+      },
+      {
+        "itemId": "0d6a988bbf7df63578ae060b0ddfa799901db8e4a8ce57a5f2ca01f0db87f7eb",
+        "sourceId": "orf_wien",
+        "sourceType": "media",
+        "title": "E-Bike-Flotte der Wiener Leihräder verdoppelt",
+        "url": "https://wien.orf.at/stories/3363094",
+        "isNew": false
+      },
+      {
+        "itemId": "6aa2901b5a78bb724558f6ed38277061217b038004520f92bbf2ef23becb283c",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "E-Bike-Flotte der Wiener Leihräder verdoppelt",
+        "url": "https://www.derstandard.at/story/3000000331895/e-bike-flotte-der-wiener-leihr228der-verdoppelt",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle lokale Nachricht mit öffentlicher Relevanz: Wien verdoppelt E-Bike-Flotte von 300 auf 600 Einheiten basierend auf erfolgreichem Pilotbetrieb. Mehrere etablierte Quellen (Kurier, ORF, Der Standard) berichten konsistent aus offizieller Ankündigung (Wiener Linien, Stadträtin Ulli Sima) mit konkreten Nutzungsdaten (118.000 Ausleihen, Wochenend-Spitzen, 2/3 Kurzstrecken) und technischen Details (3-Gang-Schaltung, ~85km Reichweite, Smartphone-Halter). Klare Relevanz für Wien-Bewohner und österreichisches Publikum, niedrige Sensibilität, ausreichend Substanz für eigenständigen Artikel ohne weitere Recherche.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Wiener Linien verdoppeln E-Bike-Flotte von 300 auf 600 Einheiten",
+      "Pilot-Phase: 118.000 Ausleihen in rund 13 Monaten",
+      "E-Bikes in Pilot-Phase häufiger genutzt als normale Leihräder",
+      "Zwei Drittel der Fahrten unter 30 Minuten",
+      "Neue Modelle mit 3-Gang-Schaltung, ~85 km Reichweite, Smartphone-Halterung",
+      "Spitzenlast samstags und gegen 17 Uhr",
+      "Tarife: €3,30 pro 30 Min. regulär, €2,30 für Klimaticket-Besitzer",
+      "System insgesamt 3.700 Räder an über 250 Stationen"
+    ],
+    "missingSources": [
+      "Unabhängige Nutzerbefragungen oder Rider-Testimonials",
+      "Verkehrsplanung-Expert*innen-Kommentar zur Strategie",
+      "Finanzielle Details und Investitionsvolumen",
+      "Vergleich zu E-Bike-Programmen anderer europäischer Städte",
+      "Umwelt-/CO₂-Impact-Analyse",
+      "Ausführlicheres nextbike-Interview (nur Kurzzitat vorhanden)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "wien-e-bike-leihraeder-verdoppelt-juli-2026",
+    "title": "Wien verdoppelt E-Bike-Flotte der WienMobil-Leihräder auf 600 Stück",
+    "description": "Nach einem rund einjährigen Pilotbetrieb mit 118.000 Ausleihen stocken die Wiener Linien ihre E-Bike-Flotte im Leihradsystem WienMobil Rad von 300 auf 600 Räder auf. Ab August gelten neue Tarife.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Die Wiener Linien als handelnde Institution haben die Verdoppelung selbst verkündet, und mehrere voneinander unabhängige Medien (Kurier, ORF, Der Standard, meinbezirk.at, heute.at) berichten übereinstimmend dieselben Kernzahlen.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine offizielle Presseaussendung oder Dokument der Wiener Linien/Stadt Wien direkt eingesehen, sondern ausschließlich Medienberichterstattung ausgewertet.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Berichterstattung übernimmt durchgehend die Darstellung und Zitate der Wiener Linien bzw. der zuständigen Stadträtin; kritische Gegenstimmen, unabhängige Verkehrsexpertise oder Nutzer:innen-Kritik kommen in den vorliegenden Quellen nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Die Wiener Linien verdoppeln die E-Bike-Flotte ihres Leihradsystems WienMobil Rad von 300 auf 600 Räder.",
+        "kind": "fact"
+      },
+      {
+        "text": "In der rund einjährigen Pilotphase wurden die E-Bikes laut den Wiener Linien etwa 118.000 Mal ausgeliehen und dabei sogar etwas häufiger genutzt als die klassischen Leihräder ohne Motor.",
+        "kind": "fact"
+      },
+      {
+        "text": "Insgesamt stehen nun 3.700 Leihräder, darunter 600 E-Bikes, an über 250 Stationen in allen 23 Wiener Bezirken bereit.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ab Anfang August sollen laut Berichten neue Tarife gelten – 3,30 Euro pro 30 Minuten regulär, 2,30 Euro für Wiener-Linien- und Klimaticket-Kund:innen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleibt, wie hoch das Investitionsvolumen der Flottenerweiterung ausfällt und wie sich die Maßnahme im Vergleich zu Leihrad-Angeboten anderer europäischer Städte einordnet.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch ist das Investitionsvolumen der Flottenverdoppelung, und wer trägt die Kosten?",
+      "Gibt es unabhängige Nutzer:innenbefragungen oder Kritik an Verfügbarkeit und Stationsdichte?",
+      "Wie schneidet Wien im Vergleich zu E-Bike-Leihsystemen anderer europäischer Städte ab?",
+      "Welche Umwelt- bzw. CO₂-Effekte werden der Maßnahme tatsächlich zugeschrieben, und auf welcher Datenbasis?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier: „Leihräder: Wien verdoppelt das E-Bike-Angebot“",
+        "type": "media",
+        "url": "https://kurier.at/chronik/wien/leihraeder-e-bike-wien-angebot-verdoppelt/403176719"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Wien: „E-Bike-Flotte der Wiener Leihräder verdoppelt“",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3363094"
+      },
+      {
+        "id": "src3",
+        "name": "Der Standard: „E-Bike-Flotte der Wiener Leihräder verdoppelt“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331895/e-bike-flotte-der-wiener-leihr228der-verdoppelt"
+      },
+      {
+        "id": "src4",
+        "name": "meinbezirk.at: „E-Bike-Flotte verdoppelt: Ab sofort rollen 600 WienMobil-Leihräder durch die Stadt“",
+        "type": "media",
+        "url": "https://www.meinbezirk.at/wien/c-lokales/ab-sofort-rollen-600-wienmobil-leihraeder-durch-die-stadt_a8803062"
+      },
+      {
+        "id": "src5",
+        "name": "heute.at: „WienMobil stockt auf – Mehr E-Bikes für Wien! Jetzt 600 Leihräder unterwegs“",
+        "type": "media",
+        "url": "https://www.heute.at/s/mehr-e-bikes-fuer-wien-jetzt-600-leihraeder-unterwegs-120224813"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Wiener Linien haben die E-Bike-Flotte im Leihradsystem WienMobil Rad von 300 auf 600 Räder verdoppelt.",
+        "status": "supported",
+        "note": "Von der handelnden Institution selbst verkündet und von mehreren unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "In der rund einjährigen Pilotphase wurden die E-Bikes laut Wiener Linien etwa 118.000 Mal ausgeliehen.",
+        "status": "supported",
+        "note": "Zahl wird konsistent über mehrere Medien hinweg genannt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die E-Bikes wurden in der Pilotphase etwas häufiger genutzt als die klassischen, nicht motorisierten Leihräder, mit Spitzenlast an Wochenenden.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Rund zwei Drittel der Fahrten mit den E-Bikes dauerten trotz Motorunterstützung nicht länger als 30 Minuten.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Ab Anfang August gelten neue Tarife: 3,30 Euro pro 30 Minuten regulär, 2,30 Euro für Wiener-Linien-Stammkund:innen und Klimaticket-Besitzer:innen im WienMobil-Mix-Tarif, mit einer Tagesobergrenze.",
+        "status": "partial",
+        "note": "Preisdetails werden in mehreren Berichten übereinstimmend genannt, konnten aber nicht anhand einer offiziellen Tarifübersicht der Wiener Linien direkt gegengeprüft werden.",
+        "sourceIds": [
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Insgesamt stehen nun 3.700 Leihräder, darunter 600 E-Bikes, an über 250 Stationen in allen 23 Wiener Bezirken zur Verfügung.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src5"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Wiener Linien bauen ihr Leihradsystem WienMobil Rad weiter aus: Wie mehrere Medien berichten, wird die Flotte an E-Bikes von bisher 300 auf 600 Räder verdoppelt. Damit stehen laut übereinstimmenden Angaben insgesamt 3.700 Leihräder – davon 600 mit elektrischer Unterstützung – an mehr als 250 Stationen in allen 23 Wiener Gemeindebezirken zur Verfügung. Vorausgegangen war ein rund einjähriger Pilotbetrieb, der laut den Wiener Linien positiv verlaufen sei und die E-Bikes nun dauerhaft ins Angebot übernimmt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Laut den vorliegenden Berichten wurden die E-Bikes während der Pilotphase rund 118.000 Mal ausgeliehen und dabei sogar etwas häufiger genutzt als die klassischen, nicht motorisierten Leihräder. Besonders gefragt waren sie an Wochenenden. Trotz Motorunterstützung dienten laut den Angaben rund zwei Drittel der Fahrten weiterhin kurzen Strecken von nicht mehr als 30 Minuten. Die neuen Räder sollen zudem technisch überarbeitet sein: Berichten zufolge verfügen sie über eine 3-Gang-Schaltung, eine neue Akku-Generation mit einer Reichweite von rund 85 Kilometern sowie eine Smartphone-Halterung am Lenker."
+      },
+      {
+        "heading": "Tarife und Verfügbarkeit",
+        "markdown": "Mehrere Medien nennen übereinstimmend eine Tarifänderung ab Anfang August: Demnach soll die Ausleihe regulär 3,30 Euro pro 30 Minuten kosten, während Stammkund:innen der Wiener Linien und Besitzer:innen eines Klimatickets im sogenannten WienMobil-Mix-Tarif 2,30 Euro pro 30 Minuten zahlen sollen, mit einer Tagesobergrenze. Eine offizielle Tarifübersicht der Wiener Linien wurde für diesen Artikel nicht direkt eingesehen, weshalb diese Preisangaben als nicht abschließend verifiziert gelten."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt laut vorliegender Quellenlage, wie hoch das Investitionsvolumen der Flottenverdoppelung ausfällt und wer die Kosten trägt. Auch unabhängige Nutzer:innenbefragungen, eine belastbare Umwelt- oder CO₂-Bilanz sowie ein Vergleich zu E-Bike-Leihsystemen anderer europäischer Städte fehlen in der bisherigen Berichterstattung. Die vorliegenden Artikel geben zudem primär die Perspektive der Wiener Linien bzw. der zuständigen Stadträtin wieder; kritische oder unabhängige Stimmen zur Ausbaustrategie kommen nicht vor."
+      }
+    ],
+    "bodyKompakt": "Die Wiener Linien verdoppeln die E-Bike-Flotte ihres Leihradsystems WienMobil Rad von 300 auf 600 Räder. Damit stehen laut übereinstimmenden Medienberichten insgesamt 3.700 Leihräder, darunter 600 E-Bikes, an mehr als 250 Stationen in allen 23 Wiener Bezirken zur Verfügung. Vorausgegangen war ein rund einjähriger Pilotbetrieb, der laut den Wiener Linien positiv verlaufen sei.\n\nWährend der Pilotphase wurden die E-Bikes rund 118.000 Mal ausgeliehen und dabei sogar etwas häufiger genutzt als die klassischen Leihräder ohne Motor, mit Spitzenwerten an Wochenenden. Rund zwei Drittel der Fahrten dauerten dennoch nicht länger als 30 Minuten. Die neuen Modelle sollen über eine 3-Gang-Schaltung, eine leistungsstärkere Batterie mit rund 85 Kilometern Reichweite und eine Smartphone-Halterung verfügen. Berichten zufolge soll ab Anfang August zudem ein neuer Tarif gelten, mit vergünstigten Preisen für Stammkund:innen und Klimaticket-Besitzer:innen.\n\nOffen bleiben Fragen zu Investitionskosten, unabhängiger Nutzer:innenkritik und einem Städtevergleich – die bisherige Berichterstattung stützt sich vor allem auf die Darstellung der Wiener Linien selbst.",
+    "updateNote": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-18T00:07:23.420Z"
+}
