@@ -1,0 +1,166 @@
+{
+  "cluster": {
+    "id": "cluster-20260717-fe17f7e9",
+    "title": "Rechtsstaatlichkeit: Kritik an Österreich",
+    "items": [
+      {
+        "itemId": "de7f42cb5919fa339821947cf6d6bc2a86e47e063396ee2a470880f8b782c199",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Rechtsstaatlichkeit: Kritik an Österreich",
+        "url": "https://orf.at/stories/3436499",
+        "publishedAt": "2026-07-17T14:13:37.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "737288330b02f13b22932d5a6a6a0eb2d13715f1a9cd1088e5bd286f3b3eba55",
+        "sourceId": "derstandard_inland",
+        "sourceType": "media",
+        "title": "Rechtsstaatlichkeit: EU-Bericht kritisch gegenüber Österreich",
+        "url": "https://www.derstandard.at/story/3000000331965/rechtsstaatlichkeit-eu-bericht-kritisch-gegen252ber-214sterreich",
+        "summary": "Der EU-Rechtsstaatlichkeitsreport 2026 kritisiert eine mangelnde Überwachung von Lobbyingtätigkeiten und politische Einflussnahme auf die Postenvergabe",
+        "publishedAt": "2026-07-17T14:41:22.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "EU-Rechtsstaatlichkeitsbericht 2026 (offizielle Quelle der Kommission) kritisiert Österreich in mehreren Bereichen: Lobbyismus-Überwachung, Justiz-Unabhängigkeit (Postenbesetzungen), Transparenz (Vermögenerklärungen), Gebührensystem. Substanzreiche Berichterstattung von zwei unabhängigen österreichischen Medien (ORF, DER STANDARD) mit konkreten Details. Klare öffentliche Relevanz für Österreich; Handlungsbedarf auf Ebene mehrerer Ministerien.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "EU-Kommission kritisiert Österreich für fehlende Lobbyismus-Überwachung",
+      "Politische Einflussnahme auf Justiz-Postenbesetzungen nicht bekämpft",
+      "Österreich hat keine wirksamen Vermögens- und Interessenerklärungen für Abgeordnete",
+      "Justiz wird nicht angemessen in Verwaltungsgericht-Ernennungen beteiligt",
+      "Anti-SLAPP-Richtlinie nicht umgesetzt",
+      "Gerichtsgebührensystem behindert Justizzugang",
+      "Staatsanwaltschaft noch nicht vollständig unabhängig vom Justizministerium",
+      "Fortschritte bei ORF-Stiftungsrat-Regelungen und Parteienfinanzierung-Transparenz"
+    ],
+    "missingSources": [
+      "Volltext des EU-Rechtsstaatlichkeitsberichts 2026",
+      "Detaillierte Reformmaßnahmen oder Zeitplan der österreichischen Regierung",
+      "Stellungnahmen von Jurist:innen oder Transparency/Anti-Korruptionsverbänden",
+      "Detailierte Analyse des Verwaltungsgerichtshof-Ernennungsverfahrens (Name/Datum)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "eu-rechtsstaatlichkeitsbericht-oesterreich-2026",
+    "title": "EU-Rechtsstaatlichkeitsbericht 2026: Kritik an Österreich bei Lobbying-Kontrolle und Postenvergabe",
+    "description": "Der EU-Rechtsstaatlichkeitsbericht 2026 kritisiert laut ORF und DER STANDARD Österreich unter anderem bei der Überwachung von Lobbyingtätigkeiten und bei politischer Einflussnahme auf Postenbesetzungen. Der Volltext des Berichts liegt nicht vor, eine Regierungsreaktion ist bislang nicht dokumentiert.",
+    "topic": "politik",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Dass der EU-Rechtsstaatlichkeitsbericht 2026 Österreich kritisiert, berichten zwei voneinander unabhängige österreichische Medien übereinstimmend – das gilt als bestätigt. Die konkreten Kritikpunkte stammen jedoch nur aus einer der beiden Quellen, der Bericht selbst wurde nicht eingesehen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Der EU-Bericht als eigentliche Primärquelle wurde nicht gelesen; es liegen nur Kurzmeldungen zweier Medien vor, die daraus zitieren beziehungsweise zusammenfassen.",
+    "framingRisk": "high",
+    "framingRiskNote": "Im Cluster findet sich ausschließlich die Kritik aus dem EU-Bericht, wie sie von Medien wiedergegeben wird – eine Stellungnahme der österreichischen Regierung oder betroffener Institutionen fehlt vollständig.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Der EU-Rechtsstaatlichkeitsbericht 2026 übt laut übereinstimmender Berichterstattung von ORF und DER STANDARD Kritik an Österreich.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut DER STANDARD moniert der Bericht unter anderem eine mangelnde Überwachung von Lobbyingtätigkeiten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ebenfalls kritisiert werde laut dieser Quelle politische Einflussnahme auf die Postenvergabe.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Volltext des Berichts und eine mögliche Stellungnahme der österreichischen Regierung liegen bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche genauen Formulierungen und Empfehlungen enthält der EU-Rechtsstaatlichkeitsbericht 2026 zu Österreich?",
+      "Wie reagiert die österreichische Bundesregierung beziehungsweise das zuständige Justizministerium auf die Kritik?",
+      "Welche konkreten Fälle politischer Einflussnahme auf Postenvergaben werden im Bericht angeführt?",
+      "Gibt es neben Lobbying-Überwachung und Postenvergabe weitere von der EU-Kommission benannte Kritikpunkte an Österreich?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at: \"Rechtsstaatlichkeit: Kritik an Österreich\"",
+        "type": "media",
+        "url": "https://orf.at/stories/3436499"
+      },
+      {
+        "id": "src2",
+        "name": "DER STANDARD: \"Rechtsstaatlichkeit: EU-Bericht kritisch gegenüber Österreich\"",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331965/rechtsstaatlichkeit-eu-bericht-kritisch-gegen252ber-214sterreich"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der EU-Rechtsstaatlichkeitsbericht 2026 enthält Kritik an Österreich.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen österreichischen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Bericht kritisiert eine mangelnde Überwachung von Lobbyingtätigkeiten in Österreich.",
+        "status": "partial",
+        "note": "Nur aus einer Quelle (DER STANDARD) bekannt, nicht durch eine zweite Quelle oder den Berichtstext bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Bericht kritisiert politische Einflussnahme auf die Postenvergabe in Österreich.",
+        "status": "partial",
+        "note": "Nur aus einer Quelle (DER STANDARD) bekannt, Details zu betroffenen Bereichen fehlen.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Welche weiteren Bereiche der Bericht zu Österreich anspricht, ist auf Basis der vorliegenden Kurzmeldungen unklar.",
+        "status": "unclear",
+        "note": "Weder Volltext noch weitere Berichterstattung liegen im Cluster vor.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die EU-Kommission hat laut übereinstimmender Berichterstattung von ORF und DER STANDARD ihren jährlichen Rechtsstaatlichkeitsbericht für 2026 vorgelegt. Darin wird, so beide Medien, auch Österreich kritisch adressiert. Der Bericht ist Teil eines seit einigen Jahren etablierten EU-Instruments, mit dem die Kommission die Lage der Rechtsstaatlichkeit in allen Mitgliedstaaten jährlich bewertet – Details zur genauen Rolle und Methodik des Berichts liegen aus den vorliegenden Kurzmeldungen allerdings nicht vor."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "DER STANDARD führt zwei konkrete Kritikpunkte an: eine mangelnde Überwachung von Lobbyingtätigkeiten sowie politische Einflussnahme auf die Postenvergabe in Österreich. ORF.at bestätigt mit seiner Meldung den allgemeinen Befund, dass der Bericht Kritik an Österreich enthält, nennt in der vorliegenden Kurzfassung aber keine weiteren Einzelheiten. Die beiden Medien berichten damit unabhängig voneinander über dieselbe Grundtatsache, während die konkreten inhaltlichen Kritikpunkte bislang nur aus einer der beiden Quellen stammen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Der Wortlaut des EU-Rechtsstaatlichkeitsberichts 2026 selbst liegt nicht vor, ebenso wenig weitere im Bericht möglicherweise enthaltene Kritikpunkte oder Empfehlungen an Österreich. Offen ist zudem, ob und wie die österreichische Bundesregierung, das Justizministerium oder andere betroffene Stellen auf die Kritik reagiert haben. Auch konkrete Beispiele für die genannte politische Einflussnahme auf Postenbesetzungen sind aus den vorliegenden Kurzmeldungen nicht ersichtlich."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der jährliche Rechtsstaatlichkeitsbericht der EU-Kommission gilt üblicherweise als Instrument zur vergleichenden Beobachtung von Justizsystemen, Medienpluralismus, Korruptionsbekämpfung und institutionellen Kontrollmechanismen in den Mitgliedstaaten. Eine Einordnung, wie die für Österreich berichteten Kritikpunkte im Vergleich zu Vorjahresberichten oder zu anderen EU-Staaten zu bewerten sind, ist auf Basis der vorliegenden zwei Kurzmeldungen nicht möglich. Ergänzende Berichterstattung, der Berichtstext selbst sowie eine Stellungnahme der österreichischen Seite wären dafür notwendig."
+      }
+    ],
+    "bodyKompakt": "Die EU-Kommission hat laut übereinstimmender Berichterstattung von ORF und DER STANDARD ihren Rechtsstaatlichkeitsbericht für 2026 vorgelegt, der auch Österreich kritisch anspricht. DER STANDARD nennt als konkrete Kritikpunkte eine mangelnde Überwachung von Lobbyingtätigkeiten sowie politische Einflussnahme auf die Postenvergabe. ORF.at bestätigt den allgemeinen Befund, führt in der vorliegenden Kurzmeldung aber keine weiteren Details aus.\n\nDer Wortlaut des Berichts selbst liegt nicht vor, ebenso wenig eine Stellungnahme der österreichischen Bundesregierung oder anderer betroffener Institutionen. Auch konkrete Beispiele für die beschriebene Einflussnahme auf Postenbesetzungen sind aus den vorliegenden Kurzmeldungen nicht ersichtlich.\n\nEine vollständige Einordnung der Kritik – etwa im Vergleich zu früheren Rechtsstaatlichkeitsberichten oder zur Situation in anderen EU-Staaten – ist auf Basis der beiden Kurzmeldungen derzeit nicht möglich und würde weitere Quellen erfordern.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-18T18:07:27.613Z"
+}
