@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T12:24:48.946Z",
+  "updatedAt": "2026-07-18T14:20:34.014Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -5518,7 +5518,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-17T09:31:48.821Z",
-      "doNotUpdateBefore": "2026-07-16T15:31:48.821Z"
+      "doNotUpdateBefore": "2026-07-16T15:31:48.821Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-18T14:07:30.241Z"
+      }
     },
     "hegseth-testosterontest-us-soldaten-2026": {
       "canonicalTitle": "US-Verteidigungsminister Hegseth ordnet Testosteron-Screening für Soldaten ab 30 an – erste Kritik aus dem Kongress",
@@ -5939,12 +5942,11 @@
       "doNotRedraftBefore": "2026-07-18T20:07:26.390Z",
       "doNotUpdateBefore": "2026-07-18T02:07:26.390Z",
       "echoPublishers": {
-        "golem": "2026-07-17T14:07:25.867Z",
         "orf": "2026-07-17T20:07:26.390Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
+      "resonanceMeasuredAt": "2026-07-18T14:07:30.241Z"
     },
     "eu-google-android-ki-suchdaten-dma-juli-2026": {
       "canonicalTitle": "EU verpflichtet Google zu Öffnung von Suchdaten und Android-KI",
@@ -6319,9 +6321,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-19T00:07:23.420Z",
       "doNotUpdateBefore": "2026-07-18T06:07:23.420Z",
-      "echoPublishers": {
-        "kurier": "2026-07-17T12:07:35.751Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-18T00:07:23.420Z"
@@ -6352,9 +6352,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-18T08:07:29.689Z",
       "doNotUpdateBefore": "2026-07-17T14:07:29.689Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-17T12:07:35.751Z"
-      }
+      "echoPublishers": {}
     },
     "foodwatch-mcdonalds-energydrinks-kinder-juli-2026": {
       "canonicalTitle": "Foodwatch: McDonald's verkauft Energydrink laut Testkauf ohne Alterskontrolle an Kinder",
@@ -6409,9 +6407,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-18T10:07:28.766Z",
       "doNotUpdateBefore": "2026-07-17T16:07:28.766Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-17T12:07:35.751Z"
-      }
+      "echoPublishers": {}
     },
     "trump-truth-api-finanzfirmen-august-2026": {
       "canonicalTitle": "Trump Media verkauft Finanzfirmen schnelleren Zugang zu Trumps Truth-Social-Posts",
@@ -6495,13 +6491,11 @@
       "doNotRedraftBefore": "2026-07-18T12:07:35.751Z",
       "doNotUpdateBefore": "2026-07-17T18:07:35.751Z",
       "echoPublishers": {
-        "apa": "2026-07-17T14:07:25.867Z",
-        "kleinezeitung": "2026-07-17T14:07:25.867Z",
         "kurier": "2026-07-17T18:07:24.935Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-17T14:07:25.867Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-18T14:07:30.241Z"
     },
     "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026": {
       "canonicalTitle": "Moonshot AIs Kimi K3 und Xi Jinpings Ruf nach Kontrolle: Chinas KI-Doppelschlag von Shanghai",
@@ -6757,10 +6751,11 @@
       "doNotRedraftBefore": "2026-07-19T12:07:30.176Z",
       "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
       "echoPublishers": {
-        "orf": "2026-07-18T12:07:30.176Z",
+        "orf": "2026-07-18T14:07:30.241Z",
         "derstandard": "2026-07-18T12:07:30.176Z",
         "diepresse": "2026-07-18T12:07:30.176Z",
-        "kleinezeitung": "2026-07-18T12:07:30.176Z"
+        "kleinezeitung": "2026-07-18T12:07:30.176Z",
+        "kurier": "2026-07-18T14:07:30.241Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -7150,7 +7145,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-19T10:07:28.883Z",
-      "doNotUpdateBefore": "2026-07-18T16:07:28.883Z"
+      "doNotUpdateBefore": "2026-07-18T16:07:28.883Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-18T14:07:30.241Z"
+      }
     },
     "huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026": {
       "canonicalTitle": "Huthi-Miliz droht Saudi-Arabien nach Luftangriff auf Flughafen Sanaa mit „Belagerung“",
@@ -7177,6 +7175,85 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-19T10:07:28.883Z",
       "doNotUpdateBefore": "2026-07-18T16:07:28.883Z"
+    },
+    "kraus-grabher-kitzbuehel-finale-juli-2026": {
+      "canonicalTitle": "Rein österreichisches Finale: Kraus und Grabher kämpfen in Kitzbühel um den Titel",
+      "slug": "kraus-grabher-kitzbuehel-finale-juli-2026",
+      "firstSeenAt": "2026-07-18T14:07:30.241Z",
+      "lastUpdatedAt": "2026-07-18T14:07:30.241Z",
+      "status": "published",
+      "articlePath": "src/content/articles/kraus-grabher-kitzbuehel-finale-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/kraus-grabher-kitzbuehel-finale-juli-2026.json",
+      "sourceUrls": [
+        "https://sport.orf.at/stories/3160294",
+        "https://www.derstandard.at/story/3000000332005/sinja-kraus-steht-im-finale-von-kitzbuehel",
+        "https://kurier.at/sport/tennis/tennis-kitzbuehel-wta-sinja-kraus-finale/403176887",
+        "https://sport.orf.at/stories/3160265",
+        "https://vorarlberg.orf.at/stories/3363148",
+        "https://kurier.at/sport/tennis/tennis-kitzbuehel-sinja-kraus-julia-grabher/403176774",
+        "https://www.derstandard.at/story/3000000331957/sinja-kraus-und-julia-grabher-stehen-in-kitzbuehel-schon-im-semifinale",
+        "https://sport.orf.at/stories/3160292",
+        "https://www.oetv.at/news-detail/generali-open-ladies-kitzbuehel-kraus-und-grabher-im-halbfinale"
+      ],
+      "openQuestions": [
+        "Welche exakte Weltranglisten-Position erreicht Sinja Kraus durch den Finaleinzug in Kitzbühel?",
+        "Wie geht das Finale zwischen Kraus und Grabher am Sonntag aus?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-19T14:07:30.241Z",
+      "doNotUpdateBefore": "2026-07-18T20:07:30.241Z"
+    },
+    "messerattacke-wien-innenstadt-juli-2026": {
+      "canonicalTitle": "18-Jähriger nach Messerattacke auf 20-Jährigen in Wiener Innenstadt festgenommen",
+      "slug": "messerattacke-wien-innenstadt-juli-2026",
+      "firstSeenAt": "2026-07-18T14:07:30.241Z",
+      "lastUpdatedAt": "2026-07-18T14:07:30.241Z",
+      "status": "published",
+      "articlePath": "src/content/articles/messerattacke-wien-innenstadt-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/messerattacke-wien-innenstadt-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/38261627/mann-nach-messerstich-in-wiener-innenstadt-festgenommen",
+        "https://www.kleinezeitung.at/artikel/37540478/mann-bei-messerstecherei-in-wien-lebensgefaehrlich-verletzt",
+        "https://steiermark.orf.at/stories/3363039",
+        "https://wien.orf.at/stories/3363230",
+        "https://kurier.at/chronik/wien/wien-innenstadt-messerstiche-festnahme/403176864",
+        "https://www.5min.at/wien/5202607181105/blutige-auseinandersetzung-in-wien-18-jaehriger-nach-messerstich-festgenommen/",
+        "https://www.meinbezirk.at/innere-stadt/c-lokales/18-jaehriger-verletzt-mann-in-der-wiener-city-mit-messer_a8804565",
+        "https://www.heute.at/s/messer-attacke-in-wiener-city-teenager-festgenommen-120225291",
+        "https://www.vol.at/mann-nach-messerstich-in-wiener-innenstadt-festgenommen/10332518"
+      ],
+      "openQuestions": [
+        "Wie ist der aktuelle Gesundheitszustand des verletzten 20-Jährigen?",
+        "Was war das Motiv der mutmaßlichen Messerattacke?",
+        "Standen die beiden Männer in einer Bekanntschaft oder Beziehung zueinander?",
+        "Welche strafrechtlichen Schritte werden gegen den 18-Jährigen eingeleitet?",
+        "Wie lautet die offizielle Darstellung der Landespolizeidirektion Wien im Wortlaut?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T14:07:30.241Z",
+      "doNotUpdateBefore": "2026-07-18T20:07:30.241Z"
+    },
+    "velden-gastgarten-unfall-juli-2026": {
+      "canonicalTitle": "Velden am Wörthersee: Auto fährt in Gastgarten, mehrere Verletzte",
+      "slug": "velden-gastgarten-unfall-juli-2026",
+      "firstSeenAt": "2026-07-18T14:07:30.241Z",
+      "lastUpdatedAt": "2026-07-18T14:07:30.241Z",
+      "status": "published",
+      "articlePath": "src/content/articles/velden-gastgarten-unfall-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/velden-gastgarten-unfall-juli-2026.json",
+      "sourceUrls": [
+        "https://kaernten.orf.at/stories/3363255",
+        "https://www.diepresse.com/38270816/velden-lenkerin-faehrt-mit-pkw-in-gastgarten-und-verletzt-elf-menschen",
+        "https://www.diepresse.com/38270816/velden-lenkerin-faehrt-mit-pkw-in-gastgarten-und-verletzt-sieben-menschen"
+      ],
+      "openQuestions": [
+        "Wie viele Menschen tatsächlich verletzt wurden, ist zwischen den Quellen uneinheitlich (sieben vs. elf).",
+        "Wodurch der Unfall verursacht wurde, ist nicht bestätigt.",
+        "Ob und welche Konsequenzen sich für die Lenkerin ergeben, ist offen."
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T14:07:30.241Z",
+      "doNotUpdateBefore": "2026-07-18T20:07:30.241Z"
     }
   }
 }
