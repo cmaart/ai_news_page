@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T18:23:47.402Z",
+  "updatedAt": "2026-07-18T20:17:29.555Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -4706,27 +4706,32 @@
       "echoPublishers": {}
     },
     "ungarn-verfassungsaenderung-praesident-sulyok-juli-2026": {
-      "canonicalTitle": "Ungarn: Parlament billigt Verfassungsänderung – Absetzung von Präsident Sulyok im Raum",
+      "canonicalTitle": "Ungarn: Präsident Sulyok macht laut Berichten Weg zu eigener Absetzung frei – Mandat soll am Montag enden",
       "slug": "ungarn-verfassungsaenderung-praesident-sulyok-juli-2026",
       "firstSeenAt": "2026-07-15T02:07:27.786Z",
-      "lastUpdatedAt": "2026-07-15T02:07:27.786Z",
+      "lastUpdatedAt": "2026-07-18T20:07:25.006Z",
       "status": "published",
       "articlePath": "src/content/articles/ungarn-verfassungsaenderung-praesident-sulyok-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-15/ungarn-verfassungsaenderung-praesident-sulyok-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-18/ungarn-verfassungsaenderung-praesident-sulyok-juli-2026-update-2000.json",
       "sourceUrls": [
         "https://www.diepresse.com/37087247/ungarns-parlament-billigt-verfassungsaenderung-peter-magyar-kommt-seinem-ziel-naeher",
-        "https://www.derstandard.at/story/3000000331273/ungarns-premier-magyar-betritt-mit-seiner-verfassungsaenderung-heikles-terrain"
+        "https://www.derstandard.at/story/3000000331273/ungarns-premier-magyar-betritt-mit-seiner-verfassungsaenderung-heikles-terrain",
+        "https://www.derstandard.at/story/3000000332021/-ungarn-pr228sident-macht-weg-zu-eigener-absetzung-frei",
+        "https://www.kleinezeitung.at/artikel/38299827/ungarischer-staatspraesident-macht-weg-zu-eigener-absetzung-frei",
+        "https://www.nzz.ch/international/machtkampf-in-ungarn-magyar-laesst-praesident-sulyok-absetzen-ld.10014954"
       ],
       "openQuestions": [
-        "Wie lautete das exakte Abstimmungsergebnis im ungarischen Parlament?",
-        "Welche konkreten Einzelbestimmungen enthält die Verfassungsänderung tatsächlich (Mandatsbegrenzung, Altersgrenzen für Verfassungsrichter u. a.)?",
-        "Wie reagiert Präsident Tamás Sulyok offiziell auf die Verfassungsänderung, und hat er tatsächlich die Venedig-Kommission des Europarats eingeschaltet?",
-        "Wie positionieren sich EU-Kommission und andere EU-Institutionen zu dem Vorgang?",
-        "Welche verfassungsrechtlichen und rechtsstaatlichen Implikationen hat die Änderung nach unabhängiger juristischer Einschätzung?"
+        "Liegt der vollständige Text der siebzehnten Verfassungsänderung vor, und was genau regelt er zum Ende von Sulyoks Mandat?",
+        "Hat Präsident Sulyok die Änderung tatsächlich unterzeichnet/gebilligt, oder ist sie auf anderem Weg in Kraft getreten?",
+        "Wie und binnen welcher Frist soll ein Nachfolger im Amt des Staatspräsidenten bestimmt werden?",
+        "Wie reagieren die EU-Kommission oder andere europäische Institutionen auf den Vorgang?",
+        "Wer genau äußerte die Formulierung vom „beschämenden historischen Beispiel“ – der Verfassungstext, Sulyok selbst, oder eine journalistische Zuspitzung?",
+        "Treffen die zuvor kolportierten Zusatzbestimmungen zu Mandatsbegrenzung, Altersgrenze für Verfassungsrichter und ein Rücktritt von Gergely Gulyás tatsächlich zu?",
+        "Hat sich die Venedig-Kommission des Europarats mit dem Vorgang befasst, und mit welchem Ergebnis?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-16T02:07:27.786Z",
-      "doNotUpdateBefore": "2026-07-15T08:07:27.786Z"
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-19T20:07:25.006Z",
+      "doNotUpdateBefore": "2026-07-19T02:07:25.006Z"
     },
     "frau-oberoesterreich-missbrauch-gestorben-juli-2026": {
       "canonicalTitle": "Frau in Oberösterreich gestorben – Ehemann nach Verdacht auf sexuellen Missbrauch in Untersuchungshaft",
@@ -7348,6 +7353,51 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-19T18:07:27.613Z",
       "doNotUpdateBefore": "2026-07-19T00:07:27.613Z"
+    },
+    "ivf-fonds-ausbau-selbstbehalt-juli-2026": {
+      "canonicalTitle": "IVF-Fonds soll ausgebaut werden: Selbstbehalt sinkt laut Berichten auf 25 Prozent",
+      "slug": "ivf-fonds-ausbau-selbstbehalt-juli-2026",
+      "firstSeenAt": "2026-07-18T20:07:25.006Z",
+      "lastUpdatedAt": "2026-07-18T20:07:25.006Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ivf-fonds-ausbau-selbstbehalt-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/ivf-fonds-ausbau-selbstbehalt-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/inland/claudia-bauer-oevp-kinderwunsch-kuenstliche-befruchtung-ivf/403176857",
+        "https://orf.at/stories/3436543"
+      ],
+      "openQuestions": [
+        "Ab wann genau gilt der neue, niedrigere Selbstbehalt?",
+        "Wie reagieren Opposition, Patientenverbände oder Kliniken auf die Änderungen?",
+        "Wie viele Paare haben den IVF-Fonds bisher tatsächlich in Anspruch genommen?",
+        "Bleiben die bestehenden Alters- und Zugangsvoraussetzungen unverändert?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T20:07:25.006Z",
+      "doNotUpdateBefore": "2026-07-19T02:07:25.006Z"
+    },
+    "toedliche-alpinunfaelle-wildspitze-mindelheimer-klettersteig-juli-2026": {
+      "canonicalTitle": "Zwei tödliche Alpinunfälle: Deutsche Urlauber auf Wildspitze und am Mindelheimer Klettersteig verunglückt",
+      "slug": "toedliche-alpinunfaelle-wildspitze-mindelheimer-klettersteig-juli-2026",
+      "firstSeenAt": "2026-07-18T20:07:25.006Z",
+      "lastUpdatedAt": "2026-07-18T20:07:25.006Z",
+      "status": "published",
+      "articlePath": "src/content/articles/toedliche-alpinunfaelle-wildspitze-mindelheimer-klettersteig-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/toedliche-alpinunfaelle-wildspitze-mindelheimer-klettersteig-juli-2026.json",
+      "sourceUrls": [
+        "https://tirol.orf.at/stories/3363292",
+        "https://www.derstandard.at/story/3000000332023/t246dlicher-absturz-am-mindelheimer-klettersteig"
+      ],
+      "openQuestions": [
+        "Wie genau kam es zum Gleichgewichtsverlust des Mannes beim Abstieg über den Südwestgrat der Wildspitze?",
+        "Welche Sicherheitsvorkehrungen galten bei der geführten Tour, und wie war die Gruppe zusammengesetzt?",
+        "Liegt ein offizieller Bericht von Polizei oder Bergrettung zu einem oder beiden Unfällen vor?",
+        "Stehen die beiden Unfälle in irgendeinem Zusammenhang, oder handelt es sich um zwei völlig unabhängige Ereignisse am selben Tag?",
+        "Wo genau liegt der Mindelheimer Klettersteig, und unter welchen Umständen näherte sich der Verunglückte der Absturzstelle?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T20:07:25.006Z",
+      "doNotUpdateBefore": "2026-07-19T02:07:25.006Z"
     }
   }
 }
