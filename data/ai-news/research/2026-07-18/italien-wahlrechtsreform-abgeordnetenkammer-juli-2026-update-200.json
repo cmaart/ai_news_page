@@ -1,0 +1,297 @@
+{
+  "cluster": {
+    "id": "cluster-20260717-c0ed19e7",
+    "title": "Erste Hürde genommen: Streit um Melonis neues Wahlrecht",
+    "items": [
+      {
+        "itemId": "752d08d249a0cff1b4c58030165a0dff6083293cbea3c7ae8923e9563f9a530b",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Erste Hürde genommen: Streit um Melonis neues Wahlrecht",
+        "url": "https://kurier.at/politik/ausland/italien-giorgia-meloni-wahlrecht-reform-umstritten/403176795",
+        "summary": "Das Abgeordnetenhaus hat dem Plan der Regierung zugestimmt. Nun muss der Senat das neue Wahlgesetz noch absegnen.",
+        "publishedAt": "2026-07-17T15:30:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "3d49452db0897abecc5639b02ddb2d6f6f72b2f381f1de947eb9fe0c9ec25648",
+        "sourceId": "kurier_politik",
+        "sourceType": "media",
+        "title": "Erste Hürde genommen: Streit um Melonis neues Wahlrecht",
+        "url": "https://kurier.at/politik/ausland/italien-giorgia-meloni-wahlrecht-reform-umstritten/403176795",
+        "summary": "Das Abgeordnetenhaus hat dem Plan der Regierung zugestimmt. Nun muss der Senat das neue Wahlgesetz noch absegnen.",
+        "publishedAt": "2026-07-17T15:30:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "57a6549264a860165eec3d22f23e84fa3c82518b0bfb1a499ed9b76b20586135",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Melonis umstrittene Wahlrechtsreform nimmt nächste Hürde",
+        "url": "https://orf.at/stories/3436381",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "update_story",
+    "reason": "Direktes Update zu bereits publizierter Story (italien-wahlrechtsreform-abgeordnetenkammer-juli-2026) über dieselbe Wahlrechtsreform. Die neuen Items (Kurier mit Volltext, ORF) liefern verifizierte Abstimmungsergebnisse aus dem Abgeordnetenhaus (217 Ja, 152 Nein, 2 Enthaltungen) und verdeutlichen den nächsten Schritt (Senat). Dies beantwortet eine der offenen Fragen der bestehenden Story («Wann und mit welchem Ergebnis wird [die Abstimmung erfolgen]»). Inkrementelle Weiterentwicklung, keine eigenständige neue Wendung — sollte in bestehenden Artikel integriert werden, nicht als separater Artikel.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": 3,
+    "relatedSlug": "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026",
+    "possibleClaims": [
+      "Das italienische Abgeordnetenhaus billigt Melonis Wahlrechtsreform mit 217 Ja-, 152 Nein-Stimmen und 2 Enthaltungen.",
+      "Die Reform sieht einen Mehrheitsbonus für Koalitionen vor, die über 42% der Stimmen erhalten (70 zusätzliche Sitze in der Abgeordnetenkammer, 35 im Senat).",
+      "Die Gesamtzahl der Sitze ist auf 220 in der Abgeordnetenkammer und 113 im Senat begrenzt.",
+      "Der Senat muss noch abstimmen; die Regierung hofft auf Ratifizierung nach der Sommerpause.",
+      "Die Abstimmung offenbarte Spannungen in der Regierungskoalition; ein Vorzugsstimmen-Vorschlag scheiterte am Dienstag."
+    ],
+    "missingSources": [
+      "Offizielle Parlamentsprotokolle zur Verifizierung der genauen Abstimmungszahlen (Kurier und ORF sind konsistent, aber direkter Parlamentsbericht wäre ideal).",
+      "Wortlaut von Meloni oder Opposition direkt zur Abstimmung (nur Paraphrasierungen in den Ausschnitten vorhanden).",
+      "Erklärte Gründe einzelner Koalitionsabweichler beim Vorzugsstimmen-Vorschlag.",
+      "Zeitplan und erwarteter Abstimmungstag im Senat."
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026",
+    "title": "Italiens Abgeordnetenkammer billigt Melonis umstrittene Wahlrechtsreform – Senat berät nun über Vorzugsstimmen",
+    "description": "Rom hat mit 217 zu 152 Stimmen ein reformiertes Wahlrecht mit Mehrheitsbonus beschlossen. Nun ist der Senat am Zug – dort wird laut Berichten auch über eine Wiederaufnahme des zuvor gescheiterten Vorzugsstimmen-Vorschlags beraten.",
+    "topic": "politik",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Die Kernfakten – Abstimmungsergebnis in der Kammer und Reforminhalt – werden von mehreren voneinander unabhängigen Medien und einer internationalen Nachrichtenagentur übereinstimmend berichtet, das gilt als ausreichend bestätigt. Die neueren Angaben zum weiteren Vorgehen im Senat stammen bislang aus einer kleineren Zahl an Quellen und sind entsprechend vorsichtiger eingestuft.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde weiterhin keine amtliche Quelle wie ein Sitzungsprotokoll der Kammer oder des Senats oder eine Regierungsaussendung eingesehen, sondern ausschließlich Medienberichterstattung.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Kritik an Meloni ist in allen Quellen präsent, ihre Gegenposition und die interne Koalitionsdebatte zu den Vorzugsstimmen sind aber nur aus zweiter Hand über Medienberichte und einzelne zitierte Aussagen bekannt, nicht aus einer direkt eingesehenen Stellungnahme.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Die italienische Abgeordnetenkammer billigte die Wahlrechtsreform der Regierung Meloni mit 217 Ja-Stimmen, 152 Gegenstimmen und 2 Enthaltungen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Reform sieht ein reines Verhältniswahlrecht mit Mehrheitsbonus ab 42 Prozent Stimmenanteil vor: bis zu 70 zusätzliche Sitze im Abgeordnetenhaus, bis zu 35 im Senat.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Vorhaben ist nun im Senat anhängig; laut Berichten will die Regierungskoalition dort in den kommenden Tagen entscheiden, ob ein zuvor in der Kammer knapp gescheiterter Vorzugsstimmen-Vorschlag erneut vorgelegt wird.",
+        "kind": "fact"
+      },
+      {
+        "text": "Anders als bei der gescheiterten Kammer-Abstimmung zu den Vorzugsstimmen soll im Senat bei diesem Verfahrensschritt keine geheime Abstimmung möglich sein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Kritiker werfen Meloni vor, mit der Reform ihre Machtposition vor der Wahl 2027 absichern zu wollen – das ist eine politische Bewertung, keine feststehende Tatsache.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie sich die Reform bei aktuellen Umfragewerten konkret auf die Sitzverteilung auswirken würde, ist nicht abschließend geklärt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wann genau und mit welchem Ergebnis wird der Senat über die Reform abstimmen?",
+      "Wird der gescheiterte Vorzugsstimmen-Vorschlag im Senat erneut eingebracht, und wie fällt die interne Entscheidung der Regierungskoalition dazu aus?",
+      "Wie würde sich die Reform bei den aktuellen Umfragewerten konkret auf die Sitzverteilung auswirken?",
+      "Hält die Reform einer verfassungsrechtlichen Prüfung stand?",
+      "Wie stabil ist die Regierungskoalition angesichts der Abweichler beim gescheiterten Vorzugsstimmen-Vorschlag?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "derStandard.at – Italienische Abgeordnetenkammer billigt umstrittene Wahlrechtsreform",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331766/italienische-abgeordnetenkammer-billigt-umstrittene-wahlrechtsreform"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse – Italienische Abgeordnetenkammer billigt Melonis umstrittene Wahlrechtsreform",
+        "type": "media",
+        "url": "https://www.diepresse.com/37814942/italienische-abgeordnetenkammer-billigt-melonis-umstrittene-wahlrechtsreform"
+      },
+      {
+        "id": "src3",
+        "name": "ORF.at – Melonis umstrittene Wahlrechtsreform nimmt nächste Hürde",
+        "type": "media",
+        "url": "https://orf.at/stories/3436381"
+      },
+      {
+        "id": "src4",
+        "name": "ORF.at – Trotz Schlappe: Meloni hält an Wahlrechtsreform fest",
+        "type": "media",
+        "url": "https://orf.at/stories/3436286/"
+      },
+      {
+        "id": "src5",
+        "name": "Bloomberg – Meloni Wins Lower House Backing for Electoral Reform Bill",
+        "type": "media",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-16/meloni-s-electoral-reform-clears-italy-s-lower-house-with-vote"
+      },
+      {
+        "id": "src6",
+        "name": "Reuters via Internazionale – Italy's parliament backs Meloni's contested electoral reform",
+        "type": "agency",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/16/italy-s-parliament-backs-meloni-s-contested-electoral-reform"
+      },
+      {
+        "id": "src7",
+        "name": "taz – Melonis Wahlrechtsreform in Italien: Abstimmungspleite beim Herzensprojekt",
+        "type": "media",
+        "url": "https://taz.de/Melonis-Wahlrechtsreform-in-Italien/!6196243/"
+      },
+      {
+        "id": "src8",
+        "name": "t-online – Abstimmung über Wahlrecht: Schwere Schlappe für Meloni",
+        "type": "media",
+        "url": "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101343686/abstimmung-ueber-wahlrecht-schwere-schlappe-fuer-meloni.html"
+      },
+      {
+        "id": "src9",
+        "name": "Kurier – Erste Hürde genommen: Streit um Melonis neues Wahlrecht",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/italien-giorgia-meloni-wahlrecht-reform-umstritten/403176795"
+      },
+      {
+        "id": "src10",
+        "name": "Berliner Zeitung – Mehrheitsbonus garantiert: Italiens Abgeordnetenkammer billigt Melonis Wahlrechtsreform",
+        "type": "media",
+        "url": "https://www.berliner-zeitung.de/article/mehrheitsbonus-garantiert-italiens-abgeordnetenkammer-billigt-melonis-wahlrechtsreform-10205743"
+      },
+      {
+        "id": "src11",
+        "name": "Sky TG24 – Legge elettorale, riforma al Senato con nodo preferenze. Al vaglio ipotesi per le elezioni",
+        "type": "media",
+        "url": "https://tg24.sky.it/politica/2026/07/17/legge-elettorale-riforma-ultime-notizie"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die italienische Abgeordnetenkammer billigte die Wahlrechtsreform mit 217 Ja-Stimmen, 152 Gegenstimmen und 2 Enthaltungen.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet von mehreren unabhängigen Medien sowie einer Nachrichtenagentur.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src5",
+          "src6",
+          "src9",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Reform führt ein reines Verhältniswahlrecht mit Mehrheitsbonus ein: Ab 42 Prozent Stimmenanteil erhält das siegreiche Bündnis bis zu 70 zusätzliche Sitze im Abgeordnetenhaus (gedeckelt bei 220 von 400) und bis zu 35 zusätzliche Sitze im Senat (gedeckelt bei 113 von 200).",
+        "status": "supported",
+        "note": "Reforminhalt wird in mehreren unabhängigen Quellen mit denselben Zahlen beschrieben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src5",
+          "src6",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Reform ist nun im Senat anhängig; die Regierung hofft weiterhin auf eine Ratifizierung nach der Sommerpause.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet; ein konkretes Abstimmungsdatum im Senat liegt in den eingesehenen Quellen nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src5",
+          "src6",
+          "src9",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Kritiker werfen Regierungschefin Meloni vor, mit der Reform ihre Machtposition vor der Wahl 2027 absichern zu wollen.",
+        "status": "partial",
+        "note": "Es handelt sich um eine politische Bewertung von Oppositionsseite, nicht um eine unabhängig verifizierbare Tatsachenbehauptung zur Absicht Melonis.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Innerhalb der Regierungskoalition gab es zuvor Abweichler: Ein Vorschlag zu Vorzugsstimmen scheiterte bei einer separaten Abstimmung in der Kammer nur knapp (188 zu 187 Stimmen).",
+        "status": "supported",
+        "note": "Von mehreren unabhängigen Medien mit übereinstimmenden Stimmenzahlen berichtet; betrifft einen anderen Teilaspekt als die Hauptabstimmung.",
+        "sourceIds": [
+          "src4",
+          "src7",
+          "src8",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Sollte ihre Regierung im Amt bleiben, könnte Meloni im September zur am längsten amtierenden italienischen Ministerpräsidentin der Nachkriegszeit werden.",
+        "status": "partial",
+        "note": "Konditionale Projektion, die nur in einer der eingesehenen Quellen genannt wird und vom Fortbestand der Regierung abhängt.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Innerhalb der Regierungskoalition wird laut Berichten erwogen, den in der Kammer gescheiterten Vorzugsstimmen-Vorschlag im Senat erneut vorzulegen; eine Entscheidung darüber soll erst in den folgenden Tagen fallen, unter anderem bei einem Führungstreffen der Koalitionsparteien.",
+        "status": "partial",
+        "note": "Berichterstattung stützt sich auf eine Einzelquelle und ein zitiertes Statement eines Parteifunktionärs (FdI-Organisationschef); keine unabhängige Zweitbestätigung mit identischem Wortlaut eingesehen.",
+        "sourceIds": [
+          "src11"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Anders als bei der gescheiterten Vorzugsstimmen-Abstimmung in der Kammer, die geheim erfolgte, soll bei diesem Verfahrensschritt im Senat keine geheime Abstimmung möglich sein, wodurch das Stimmverhalten einzelner Senatorinnen und Senatoren öffentlich nachvollziehbar wäre.",
+        "status": "partial",
+        "note": "Aussage stammt aus einer Quelle unter Berufung auf den Senatspräsidenten; nicht durch eine zweite unabhängige Quelle mit denselben Details bestätigt.",
+        "sourceIds": [
+          "src10"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die italienische Abgeordnetenkammer hat die von der Regierung Giorgia Melonis vorangetriebene Wahlrechtsreform gebilligt. Laut übereinstimmenden Berichten stimmten 217 Abgeordnete dafür, 152 dagegen, zwei enthielten sich. Die Reform soll das bestehende Mischsystem aus Direktmandaten und Verhältniswahl durch ein reines Verhältniswahlrecht mit Mehrheitsbonus ersetzen. Erhält ein Parteienbündnis mehr als 42 Prozent der Stimmen, sollen ihm zusätzliche Sitze zugeschlagen werden – bis zu 70 im 400 Sitze umfassenden Abgeordnetenhaus und bis zu 35 im 200 Sitze umfassenden Senat, wobei die Gesamtzahl bei 220 beziehungsweise 113 Sitzen gedeckelt bleiben soll. Damit will die Regierung nach eigener Darstellung stabilere Mehrheiten ermöglichen. Mit der Zustimmung der Kammer ist die erste von zwei parlamentarischen Hürden genommen; nun ist der Senat am Zug."
+      },
+      {
+        "heading": "Was im Senat als Nächstes ansteht",
+        "markdown": "Laut Berichten wird innerhalb der Regierungskoalition derzeit erwogen, den zuvor in der Kammer nur knapp gescheiterten Vorschlag zur Einführung von Vorzugsstimmen im Senat erneut vorzulegen. Eine Entscheidung darüber soll erst in den kommenden Tagen fallen, unter anderem im Rahmen eines Treffens der Koalitionsspitzen. Laut einer eingesehenen Quelle wären bei diesem Verfahrensschritt im Senat – anders als bei der geheimen Abstimmung in der Kammer, bei der der Vorzugsstimmen-Vorschlag mit 188 zu 187 Stimmen scheiterte – keine geheimen Abstimmungen möglich, was das Stimmverhalten einzelner Senatorinnen und Senatoren öffentlich nachvollziehbar machen würde. Diese Angaben stammen bislang aus einer kleineren Zahl an Quellen und sind entsprechend vorsichtig einzustufen; ein konkretes Datum für die Senatsabstimmung über die Gesamtreform liegt in den eingesehenen Quellen nicht vor, die Regierung hofft weiterhin auf eine Ratifizierung nach der Sommerpause."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Kernfakten – Abstimmungsergebnis in der Kammer, Grundzüge des neuen Wahlsystems und die geplante Deckelung der Bonus-Sitze – werden von mehreren österreichischen und internationalen Medien sowie einer Nachrichtenagentur übereinstimmend wiedergegeben. Damit gilt der Ablauf der Kammer-Abstimmung als hinreichend bestätigt. Weniger einheitlich ist die Berichterstattung zu den politischen Begleitumständen: Mehrere Quellen berichten von Spannungen innerhalb der Regierungskoalition, die sich bereits Tage zuvor in einer knapp gescheiterten Abstimmung über das separate Element der Vorzugsstimmen gezeigt haben, mit Abweichlern aus den eigenen Reihen. Diese Episode betrifft einen anderen Teil des Reformpakets als die nun gebilligte Grundstruktur und sollte nicht mit dieser vermischt werden. Zu den weiteren Plänen für den Senat – insbesondere zur möglichen Wiederaufnahme der Vorzugsstimmen-Frage – liegt bislang vor allem eine einzelne, ausführlichere Quelle vor; eine zweite unabhängige Bestätigung mit denselben Details wurde nicht gefunden."
+      },
+      {
+        "heading": "Kritik und politischer Kontext",
+        "markdown": "Oppositionspolitiker und mehrere kommentierende Medien werten die Reform als Versuch Melonis, ihre Machtposition vor der für 2027 angesetzten Wahl abzusichern. Diese Einschätzung ist in den vorliegenden Quellen breit vertreten, bleibt aber eine politische Bewertung der Absicht und keine unabhängig überprüfbare Tatsache. Eine ausführliche Gegendarstellung der Regierung, etwa aus einer eigenen Aussendung oder einem Interview, wurde für diesen Artikel nicht eingesehen; die Position der Regierungsseite ist nur über die Zusammenfassung durch Medien bekannt, laut denen Meloni trotz der internen Abweichler an der Reform festhält und laut einer Quelle ein Funktionär der Fratelli d'Italia die für die kommenden Tage angekündigte interne Beratung zu den Vorzugsstimmen bestätigt haben soll."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie und wann der Senat mit dem Vorhaben umgehen wird und ob die von der Regierung angepeilte Abstimmung nach der Sommerpause tatsächlich wie geplant stattfindet. Unklar ist auch, ob und in welcher Form der gescheiterte Vorzugsstimmen-Vorschlag im Senat erneut eingebracht wird und wie die interne Koalitionsentscheidung dazu ausfällt. Ebenso wenig lässt sich aus den vorliegenden Quellen ableiten, wie sich die neue Sitzverteilungslogik unter aktuellen Umfragewerten konkret auswirken würde – entsprechende Simulationen wurden nicht gefunden. Auch eine verfassungsrechtliche Einordnung durch unabhängige italienische Expertinnen und Experten liegt nicht vor. Die häufig genannte Perspektive, Meloni könnte im September zur am längsten amtierenden Ministerpräsidentin Italiens seit dem Zweiten Weltkrieg werden, ist zudem an den Fortbestand ihrer Regierung geknüpft und wurde nur in einer der eingesehenen Quellen erwähnt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Reform reiht sich in eine Serie von Vorhaben der Regierung Meloni ein, die Struktur des italienischen Wahl- und Regierungssystems zu verändern; parallel dazu verfolgt die Koalition laut Berichten auch Pläne zu einer Direktwahl des Regierungschefs. Angesichts der thematischen Nähe zu Wahlrecht und Machtfragen ist bei der Einordnung Zurückhaltung geboten: Der Artikel stützt sich ausschließlich auf Medienberichterstattung, eine amtliche Quelle wie ein Sitzungsprotokoll oder eine Regierungsaussendung wurde nicht eingesehen. Das gilt besonders für die neueren, noch dünner belegten Angaben zum weiteren Vorgehen im Senat."
+      }
+    ],
+    "bodyKompakt": "Die italienische Abgeordnetenkammer hat die von der Regierung Giorgia Melonis vorangetriebene Wahlrechtsreform mit 217 Ja-Stimmen gegen 152 Gegenstimmen bei zwei Enthaltungen gebilligt. Die Reform soll ein reines Verhältniswahlrecht mit Mehrheitsbonus einführen: Bündnisse mit mehr als 42 Prozent Stimmenanteil sollen bis zu 70 zusätzliche Sitze im Abgeordnetenhaus und bis zu 35 im Senat erhalten, gedeckelt bei 220 beziehungsweise 113 Sitzen. Damit ist die erste parlamentarische Hürde genommen, nun ist der Senat am Zug; die Regierung hofft weiterhin auf eine Ratifizierung nach der Sommerpause, ein konkretes Abstimmungsdatum liegt aber nicht vor.\n\nLaut Berichten berät die Regierungskoalition zudem, ob sie den zuvor in der Kammer nur knapp gescheiterten Vorschlag zu Vorzugsstimmen im Senat erneut vorlegt – eine Entscheidung wird für die kommenden Tage erwartet. Anders als bei der geheimen Kammer-Abstimmung, bei der der Vorschlag mit 188 zu 187 Stimmen scheiterte, sollen im Senat bei diesem Schritt keine geheimen Abstimmungen möglich sein. Diese neueren Angaben stützen sich bislang auf eine schmalere Quellenbasis als die Kernfakten zur Kammer-Abstimmung.\n\nKritiker werfen Meloni vor, mit der Reform ihre Machtposition vor der für 2027 angesetzten Wahl absichern zu wollen – eine politische Bewertung, keine feststehende Tatsache. Offen bleibt, wie der Senat abstimmen wird, ob die Vorzugsstimmen-Frage erneut aufgegriffen wird, wie sich die neue Sitzverteilungslogik unter aktuellen Umfragewerten auswirken würde und ob die Reform einer verfassungsrechtlichen Prüfung standhält. Eine amtliche Quelle wurde für diesen Artikel weiterhin nicht eingesehen, die Darstellung stützt sich auf mehrere unabhängige Medienberichte.",
+    "updateNote": "Ergänzt um Berichte, wonach die Regierungskoalition im Senat über eine Wiederaufnahme des zuvor in der Kammer gescheiterten Vorzugsstimmen-Vorschlags berät und dort – anders als bei der Kammer-Abstimmung – keine geheime Abstimmung möglich sein soll; zusätzliche Quellen (Kurier, Berliner Zeitung, Sky TG24) aufgenommen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-18T02:07:24.551Z"
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T00:17:52.361Z",
+  "updatedAt": "2026-07-18T02:18:52.628Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -5126,9 +5126,9 @@
       "doNotRedraftBefore": "2026-07-18T00:07:25.651Z",
       "doNotUpdateBefore": "2026-07-17T06:07:25.651Z",
       "echoPublishers": {},
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-17T00:07:25.651Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-18T02:07:24.551Z"
     },
     "ferienverlegung-hitze-wallner-schwierig-juli-2026": {
       "canonicalTitle": "Hitzebedingte Ferienverlegung: Wallner sieht Umsetzung „schwierig“",
@@ -5665,13 +5665,13 @@
       "echoPublishers": {}
     },
     "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026": {
-      "canonicalTitle": "Italiens Abgeordnetenkammer billigt Melonis umstrittene Wahlrechtsreform",
+      "canonicalTitle": "Italiens Abgeordnetenkammer billigt Melonis umstrittene Wahlrechtsreform – Senat berät nun über Vorzugsstimmen",
       "slug": "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026",
       "firstSeenAt": "2026-07-16T14:07:31.670Z",
-      "lastUpdatedAt": "2026-07-16T14:07:31.670Z",
+      "lastUpdatedAt": "2026-07-18T02:07:24.551Z",
       "status": "published",
       "articlePath": "src/content/articles/italien-wahlrechtsreform-abgeordnetenkammer-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/italien-wahlrechtsreform-abgeordnetenkammer-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-18/italien-wahlrechtsreform-abgeordnetenkammer-juli-2026-update-200.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331766/italienische-abgeordnetenkammer-billigt-umstrittene-wahlrechtsreform",
         "https://www.diepresse.com/37814942/italienische-abgeordnetenkammer-billigt-melonis-umstrittene-wahlrechtsreform",
@@ -5680,20 +5680,27 @@
         "https://www.bloomberg.com/news/articles/2026-07-16/meloni-s-electoral-reform-clears-italy-s-lower-house-with-vote",
         "https://www.internazionale.it/ultime-notizie-reuters/2026/07/16/italy-s-parliament-backs-meloni-s-contested-electoral-reform",
         "https://taz.de/Melonis-Wahlrechtsreform-in-Italien/!6196243/",
-        "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101343686/abstimmung-ueber-wahlrecht-schwere-schlappe-fuer-meloni.html"
+        "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101343686/abstimmung-ueber-wahlrecht-schwere-schlappe-fuer-meloni.html",
+        "https://kurier.at/politik/ausland/italien-giorgia-meloni-wahlrecht-reform-umstritten/403176795",
+        "https://www.berliner-zeitung.de/article/mehrheitsbonus-garantiert-italiens-abgeordnetenkammer-billigt-melonis-wahlrechtsreform-10205743",
+        "https://tg24.sky.it/politica/2026/07/17/legge-elettorale-riforma-ultime-notizie"
       ],
       "openQuestions": [
-        "Wann und mit welchem Ergebnis wird der Senat über die Reform abstimmen?",
+        "Wann genau und mit welchem Ergebnis wird der Senat über die Reform abstimmen?",
+        "Wird der gescheiterte Vorzugsstimmen-Vorschlag im Senat erneut eingebracht, und wie fällt die interne Entscheidung der Regierungskoalition dazu aus?",
         "Wie würde sich die Reform bei den aktuellen Umfragewerten konkret auf die Sitzverteilung auswirken?",
         "Hält die Reform einer verfassungsrechtlichen Prüfung stand?",
         "Wie stabil ist die Regierungskoalition angesichts der Abweichler beim gescheiterten Vorzugsstimmen-Vorschlag?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-17T14:07:31.670Z",
-      "doNotUpdateBefore": "2026-07-16T20:07:31.670Z",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-19T02:07:24.551Z",
+      "doNotUpdateBefore": "2026-07-18T08:07:24.551Z",
       "echoPublishers": {
         "kurier": "2026-07-17T16:07:27.817Z"
-      }
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-18T02:07:24.551Z"
     },
     "sebastian-kurz-dementiert-comeback-juli-2026": {
       "canonicalTitle": "Kurz weist Comeback-Gerüchte zurück: „Möchte nicht mehr in die Politik“",
@@ -6798,6 +6805,59 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-19T00:07:23.420Z",
       "doNotUpdateBefore": "2026-07-18T06:07:23.420Z"
+    },
+    "justizanstalt-stein-angriff-insasse-juli-2026": {
+      "canonicalTitle": "Insasse verletzt zwei Justizwachebeamte in der Justizanstalt Stein schwer",
+      "slug": "justizanstalt-stein-angriff-insasse-juli-2026",
+      "firstSeenAt": "2026-07-18T02:07:24.551Z",
+      "lastUpdatedAt": "2026-07-18T02:07:24.551Z",
+      "status": "published",
+      "articlePath": "src/content/articles/justizanstalt-stein-angriff-insasse-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/justizanstalt-stein-angriff-insasse-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331934/justizwachebeamte-in-ja-stein-von-insassen-schwer-verletzt",
+        "https://www.diepresse.com/38094437/justizanstalt-stein-zwei-wachleute-von-insassen-schwer-verletzt",
+        "https://noe.orf.at/stories/3363140",
+        "https://www.diepresse.com/38094437/zwei-wachleute-der-justizanstalt-stein-von-insassen-schwer-verletzt",
+        "https://kurier.at/chronik/niederoesterreich/angriff-auf-justizwache-in-justizanstalt-stein-niederoesterreich/403176770",
+        "https://apa.at/news/insasse-attackierte-und-verletzte-wachebeamte-der-ja-stein/",
+        "https://noe.orf.at/stories/3356793/",
+        "https://www.ots.at/presseaussendung/OTS_20260717_OTS0098/fpoe-bors-spoe-justizministerin-hat-kontrolle-voellig-verloren"
+      ],
+      "openQuestions": [
+        "Wird gegen den Insassen strafrechtlich vorgegangen, und mit welchem Ausgang?",
+        "Stimmen die von der Gewerkschaft genannten 84 Prozent Planstellenbesetzung mit offiziellen Personalzahlen überein?",
+        "Wie stellt sich die Vorgeschichte des Insassen (Verlegung aus Innsbruck, vorheriger Vorfall) laut offizieller Quelle dar?",
+        "Reagiert das Justizministerium inhaltlich auf die Kritik an der Personalsituation?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T02:07:24.551Z",
+      "doNotUpdateBefore": "2026-07-18T08:07:24.551Z"
+    },
+    "fpoe-nsdap-kartei-altnazis-fruehe-fuehrung-juli-2026": {
+      "canonicalTitle": "„Spiegel“-Recherche: Frühe FPÖ-Führung laut NSDAP-Kartei durchgehend aus Altnazis",
+      "slug": "fpoe-nsdap-kartei-altnazis-fruehe-fuehrung-juli-2026",
+      "firstSeenAt": "2026-07-18T02:07:24.551Z",
+      "lastUpdatedAt": "2026-07-18T02:07:24.551Z",
+      "status": "published",
+      "articlePath": "src/content/articles/fpoe-nsdap-kartei-altnazis-fruehe-fuehrung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/fpoe-nsdap-kartei-altnazis-fruehe-fuehrung-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/38162388/nazi-kartei-belegt-hohe-nazi-dichte-in-anfangsjahren-der-fpoe",
+        "https://orf.at/stories/3436504",
+        "https://www.derstandard.at/story/3000000331867/neue-erkenntnisse-aus-der-mitgliederkartei-der-nsdap-altnazis-steuerten-fpoe-in-ersten-jahren",
+        "https://www.sn.at/politik/innenpolitik/nazi-kartei-belegt-hohe-nazi-dichte-in-anfangsjahren-der-fpoe-art-662744",
+        "https://www.vol.at/nazi-kartei-belegt-hohe-nazi-dichte-in-anfangsjahren-der-fpoe/10331735"
+      ],
+      "openQuestions": [
+        "Wie reagiert die FPÖ offiziell auf die „Spiegel“-Recherche?",
+        "Welche genaue Methodik lag der Auswertung der NSDAP-Kartei durch den „Spiegel“ zugrunde?",
+        "Wie lauten die exakten Formulierungen des 2019er-Historikerberichts zu den nun genannten Personen, und lassen sie sich direkt gegenprüfen?",
+        "Gibt es unabhängige historische Fachkommentare, die die Vollständigkeit und Belastbarkeit der Kartei-Auswertung einordnen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T02:07:24.551Z",
+      "doNotUpdateBefore": "2026-07-18T08:07:24.551Z"
     }
   }
 }
