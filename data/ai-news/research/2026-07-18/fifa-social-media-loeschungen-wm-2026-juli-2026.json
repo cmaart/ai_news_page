@@ -1,0 +1,156 @@
+{
+  "cluster": {
+    "id": "cluster-20260718-f0255c60",
+    "title": "FIFA löscht mehr als sieben Mio. Social-Media-Beiträge",
+    "items": [
+      {
+        "itemId": "bc930fa44e7cd505078988dfff781ae4c6e8675bde1d00c707c9cc0eda9af7f4",
+        "sourceId": "orf_sport",
+        "sourceType": "media",
+        "title": "FIFA löscht mehr als sieben Mio. Social-Media-Beiträge",
+        "url": "https://sport.orf.at/stories/3160295",
+        "publishedAt": "2026-07-18T13:14:43.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "17156f41ad3c358686141801b0da4238959f91f6c4d5a769f35228ac29546776",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Hass im Netz zur WM: Fifa löscht mehr als sieben Millionen Beiträge",
+        "url": "https://www.diepresse.com/38277692/hass-im-netz-zur-wm-fifa-loescht-mehr-als-sieben-millionen-beitraege",
+        "summary": "Die Fifa ließ seit WM-Beginn mehr als sieben Millionen potenziell schädliche Beiträge entfernen. Mehr als 1000 schwere Drohungen wurden den Behörden gemeldet.",
+        "publishedAt": "2026-07-18T13:31:41.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Aktueller Bericht zur FIFA-Hass-Moderation während WM 2026: 7 Millionen gelöschte Beiträge, 14× höher als 2022. Gesellschaftlich relevant für Diskurs über Social-Media-Regulierung, digitale Sicherheit und Plattform-Verantwortung. Zwei unabhängige österreichische Quellen (ORF, Die Presse) mit Volltext-Auszügen. Keine sachliche Anknüpfung an die relatedStories (EU-Mindestalter, Trump API sind unterschiedliche Aspekte).",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "FIFA löscht 7 Millionen potenziell schädliche Beiträge zur WM 2026",
+      "Das ist 14× höher als bei der WM 2022 in Katar",
+      "Über 200.000 beleidigende und einschüchternde Beiträge gemeldet und gelöscht",
+      "1.000+ schwere Drohungen wurden Behörden gemeldet",
+      "Schutz-Dienst seit WM 2022 verfügbar für Teams, Trainer, Spieler, Offizielle"
+    ],
+    "missingSources": [
+      "Primäre FIFA-Stellungnahme oder Bericht (verifizieren, nicht nur Agentur-Syndikation)",
+      "Aufschlüsselung nach Plattformen (X/Twitter, Instagram, TikTok, Facebook, etc.)",
+      "Anteil automatisch vs. manuell erkannter/gelöschter Inhalte",
+      "Konkrete Kategorien von ‚potenziell schädlich' (Rassismus, Geschlechterhetze, etc.)",
+      "Reaktionen betroffener Nationalmannschaften oder Spielerverbände"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "fifa-social-media-loeschungen-wm-2026-juli-2026",
+    "title": "FIFA meldet mehr als sieben Millionen gelöschte Hass-Beiträge zur WM 2026",
+    "description": "Laut FIFA-Angaben, die von österreichischen Medien aufgegriffen wurden, hat der Weltverband seit Beginn der Fußball-WM 2026 mehr als sieben Millionen potenziell schädliche Social-Media-Beiträge entfernen lassen. Mehr als 1.000 schwere Drohungen sollen an Behörden gemeldet worden sein.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige österreichische Medien (ORF, Die Presse) berichten übereinstimmend die zentrale Zahl von über sieben Millionen gelöschten Beiträgen, was als bestätigt gelten kann; einzelne Detailangaben wie die gemeldeten Drohungen stammen aber nur aus einer der beiden Quellen und sind daher weniger gesichert.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt eingesehene FIFA-Stellungnahme oder ein Originalbericht vor, sondern nur die Wiedergabe der Zahlen durch zwei Medien — die zugrunde liegenden FIFA-Angaben wurden nicht selbst geprüft.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die verfügbaren Berichte geben im Wesentlichen die von der FIFA selbst kommunizierten Zahlen zu ihrer eigenen Moderationsarbeit wieder; Einschätzungen der Plattformbetreiber, betroffener Spielerinnen und Spieler oder unabhängiger Beobachter fehlen bislang.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Die FIFA hat laut übereinstimmenden Medienberichten seit Beginn der Fußball-WM 2026 mehr als sieben Millionen potenziell schädliche Beiträge in sozialen Medien entfernen lassen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Mehr als 1.000 als schwerwiegend eingestufte Drohungen wurden laut einem Bericht an Behörden gemeldet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Details zur Methodik der Erkennung, zur Aufteilung nach Plattformen und zum Anteil automatisierter Löschungen sind aus den vorliegenden Quellen nicht ersichtlich.",
+        "kind": "open"
+      },
+      {
+        "text": "Reaktionen von Plattformbetreibern, Spielerverbänden oder betroffenen Personen liegen bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Auf welcher Datengrundlage und mit welcher Methodik stuft die FIFA Beiträge als „potenziell schädlich“ ein?",
+      "Wie verteilen sich die gelöschten Beiträge auf einzelne Plattformen wie X, Instagram, TikTok oder Facebook?",
+      "Welcher Anteil der Löschungen erfolgte automatisiert versus durch menschliche Prüfung?",
+      "Wie haben die betroffenen Plattformbetreiber selbst auf die FIFA-Zahlen reagiert?",
+      "Gab es Stellungnahmen von Nationalmannschaften, Spielerverbänden oder Betroffenen zu den gemeldeten Drohungen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Sport",
+        "type": "media",
+        "url": "https://sport.orf.at/stories/3160295"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/38277692/hass-im-netz-zur-wm-fifa-loescht-mehr-als-sieben-millionen-beitraege"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die FIFA hat seit Beginn der WM 2026 mehr als sieben Millionen potenziell schädliche Beiträge in sozialen Medien entfernen lassen.",
+        "status": "supported",
+        "note": "Zahl wird von zwei unabhängigen Medien übereinstimmend genannt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Mehr als 1.000 als schwerwiegend eingestufte Drohungen wurden im Zusammenhang mit der WM an Behörden gemeldet.",
+        "status": "partial",
+        "note": "Diese Angabe findet sich nur in einer der beiden Quellen und wurde nicht durch eine zweite Quelle oder eine Primärquelle bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die gelöschten Beiträge stehen im Zusammenhang mit Hassrede und Anfeindungen rund um das Turnier.",
+        "status": "unclear",
+        "note": "Die konkreten Inhaltskategorien der gelöschten Beiträge werden in den vorliegenden Kurzfassungen nicht näher aufgeschlüsselt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Weltfußballverband FIFA hat laut übereinstimmenden Berichten österreichischer Medien seit Beginn der Fußball-Weltmeisterschaft 2026 mehr als sieben Millionen potenziell schädliche Beiträge in sozialen Netzwerken entfernen lassen. Sowohl ORF Sport als auch Die Presse berichten über diese Zahl, die offenbar aus einer Mitteilung der FIFA zu ihren Moderationsmaßnahmen während des Turniers stammt. Zusätzlich soll es laut einem der beiden Berichte mehr als 1.000 als schwerwiegend eingestufte Drohungen gegeben haben, die an zuständige Behörden weitergemeldet wurden."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die zentrale Zahl von über sieben Millionen gelöschten Beiträgen wird von zwei voneinander unabhängigen Medien genannt, was ihr eine vergleichsweise solide Grundlage verleiht. Die Angabe zu den mehr als 1.000 gemeldeten schweren Drohungen findet sich hingegen nur in einer der beiden herangezogenen Kurzmeldungen und ist damit weniger breit abgesichert. Keine der vorliegenden Quellen ist eine direkt eingesehene Original-Stellungnahme der FIFA; es handelt sich um Medienberichte, die offenbar auf FIFA-Angaben zurückgehen, ohne dass diese hier selbst geprüft werden konnten."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Unklar bleibt, nach welcher Methodik die FIFA Beiträge als „potenziell schädlich“ einstuft und welcher Anteil der Löschungen automatisiert beziehungsweise durch menschliche Prüfung erfolgte. Auch eine Aufschlüsselung nach einzelnen Plattformen wie X, Instagram, TikTok oder Facebook liegt nicht vor. Ebenso fehlen bislang Stellungnahmen der betroffenen Plattformbetreiber sowie Reaktionen von Nationalmannschaften, Spielerverbänden oder unmittelbar betroffenen Personen zu den genannten Zahlen und den gemeldeten Drohungen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die berichteten Zahlen fügen sich in eine längere Debatte über Hassrede im Zusammenhang mit Großereignissen des Profisports ein, bei denen Verbände zunehmend eigene Moderationsmaßnahmen kommunizieren. Ohne eine direkt eingesehene Primärquelle und ohne Einordnung durch Plattformbetreiber oder unabhängige Beobachter lässt sich die Aussagekraft der Zahlen derzeit nur begrenzt einschätzen. Angesichts der Sensibilität des Themas — es geht um gemeldete Drohungen und mutmaßliche Hassrede — sollten die Angaben vorerst als von der FIFA selbst kommunizierte, aber nicht unabhängig verifizierte Darstellung behandelt werden."
+      }
+    ],
+    "bodyKompakt": "Die FIFA hat laut übereinstimmenden Berichten von ORF Sport und Die Presse seit Beginn der Fußball-WM 2026 mehr als sieben Millionen potenziell schädliche Beiträge in sozialen Netzwerken entfernen lassen. Laut einem der beiden Berichte wurden zudem mehr als 1.000 als schwerwiegend eingestufte Drohungen an Behörden gemeldet.\n\nDie zentrale Zahl zu den gelöschten Beiträgen wird von zwei unabhängigen Medien genannt und gilt damit als vergleichsweise gut abgesichert, während die Angabe zu den gemeldeten Drohungen nur in einer Quelle auftaucht. Eine direkt eingesehene Stellungnahme der FIFA selbst liegt nicht vor, ebenso wenig Angaben zur Methodik der Einstufung oder zur Verteilung auf einzelne Plattformen.\n\nOffen bleiben unter anderem Reaktionen der betroffenen Plattformbetreiber sowie von Nationalmannschaften oder Spielerverbänden. Angesichts der Themen Hassrede und Drohungen wird die Darstellung hier bewusst vorsichtig eingeordnet.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-18T22:07:29.919Z"
+}
