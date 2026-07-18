@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T06:26:41.998Z",
+  "updatedAt": "2026-07-18T08:18:19.623Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -708,7 +708,6 @@
       "doNotRedraftBefore": "2026-07-18T20:07:26.390Z",
       "doNotUpdateBefore": "2026-07-18T02:07:26.390Z",
       "echoPublishers": {
-        "derstandard": "2026-07-17T08:07:29.689Z",
         "apa": "2026-07-17T10:07:28.766Z"
       },
       "resonanceLevel": 3,
@@ -5335,9 +5334,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-17T00:07:28.727Z",
       "doNotUpdateBefore": "2026-07-16T06:07:28.727Z",
-      "echoPublishers": {
-        "apa": "2026-07-17T08:07:29.689Z"
-      }
+      "echoPublishers": {}
     },
     "pv-foerderung-oesterreich-33-sekunden-ausgeschoepft-juli-2026": {
       "canonicalTitle": "Photovoltaik-Förderung in Österreich Berichten zufolge nach 33 Sekunden ausgeschöpft",
@@ -5978,7 +5975,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T20:07:26.390Z"
+      "resonanceMeasuredAt": "2026-07-18T08:07:30.798Z"
     },
     "tuchel-kritik-england-wm-halbfinale-argentinien-2026": {
       "canonicalTitle": "England scheitert im WM-Halbfinale an Argentinien – Tuchel gerät nach Umstellungen in die Kritik",
@@ -6809,7 +6806,13 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-18T22:07:29.841Z",
-      "doNotUpdateBefore": "2026-07-18T04:07:29.841Z"
+      "doNotUpdateBefore": "2026-07-18T04:07:29.841Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-18T08:07:30.798Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-18T08:07:30.798Z"
     },
     "wien-e-bike-leihraeder-verdoppelt-juli-2026": {
       "canonicalTitle": "Wien verdoppelt E-Bike-Flotte der WienMobil-Leihräder auf 600 Stück",
@@ -7005,6 +7008,82 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-19T06:07:27.202Z",
       "doNotUpdateBefore": "2026-07-18T12:07:27.202Z"
+    },
+    "toedlicher-unfall-a1-oed-oehling-juli-2026": {
+      "canonicalTitle": "Zwei Tote bei Unfall auf der A1 bei Oed-Öhling in Niederösterreich",
+      "slug": "toedlicher-unfall-a1-oed-oehling-juli-2026",
+      "firstSeenAt": "2026-07-18T08:07:30.798Z",
+      "lastUpdatedAt": "2026-07-18T08:07:30.798Z",
+      "status": "published",
+      "articlePath": "src/content/articles/toedlicher-unfall-a1-oed-oehling-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/toedlicher-unfall-a1-oed-oehling-juli-2026.json",
+      "sourceUrls": [
+        "https://noe.orf.at/stories/3363202",
+        "https://www.derstandard.at/story/3000000331985/pkw-krachte-gegen-leitplanke-zwei-tote-bei-unfall-auf-a1-in-niederoesterreich",
+        "https://www.diepresse.com/38252157/pkw-faehrt-gegen-leitplanke-zwei-tote-bei-unfall-auf-a1-in-niederoesterreich",
+        "https://kurier.at/chronik/niederoesterreich/unfall-a1-niederoesterreich-todesopfer/403176835",
+        "https://www.kleinezeitung.at/artikel/38252004/pkw-gegen-leitplanke-zwei-maenner-starben-bei-unfall",
+        "https://www.meinbezirk.at/amstetten/c-lokales/stau-auf-der-westautobahn-bei-amstetten-nach-schwerem-unfall_a8804436"
+      ],
+      "openQuestions": [
+        "Was die Unfallursache war (technischer Defekt, Fahrfehler, äußere Einflüsse) — laut Berichten noch in Ermittlung",
+        "Wie lange die Verkehrsbehinderungen auf der A1 tatsächlich andauerten und welches Ausmaß der Rückstau erreichte",
+        "In welchem Verhältnis die drei Insassen zueinander standen",
+        "Wie es der schwerverletzten Frau nach der Einlieferung ins Spital geht"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T08:07:30.798Z",
+      "doNotUpdateBefore": "2026-07-18T14:07:30.798Z"
+    },
+    "proteste-us-botschafter-fertitta-venedig-juli-2026": {
+      "canonicalTitle": "Hunderte protestieren in Venedig gegen Luxusjacht von US-Botschafter Fertitta",
+      "slug": "proteste-us-botschafter-fertitta-venedig-juli-2026",
+      "firstSeenAt": "2026-07-18T08:07:30.798Z",
+      "lastUpdatedAt": "2026-07-18T08:07:30.798Z",
+      "status": "published",
+      "articlePath": "src/content/articles/proteste-us-botschafter-fertitta-venedig-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/proteste-us-botschafter-fertitta-venedig-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331990/proteste-gegen-us-botschafter-mit-luxusjacht-in-venedig",
+        "https://www.diepresse.com/38252908/177-meter-luxusjacht-vor-venedig-proteste-gegen-us-botschafter-und-trump-vertrauten",
+        "https://kurier.at/politik/ausland/proteste-us-botschafter-fertitta-venedig/403176834",
+        "https://orf.at/stories/3436536",
+        "https://www.nbcnews.com/world/italy/billionaire-us-ambassador-fertitta-protests-venice-super-yacht-tour-rcna588014",
+        "https://www.texastribune.org/2025/04/29/tilman-fertitta-texas-ambassador-italy/"
+      ],
+      "openQuestions": [
+        "Wie reagieren Fertitta oder die US-Botschaft in Rom auf die Proteste?",
+        "Wie positioniert sich die Stadtverwaltung Venedig zu Großjachten prominenter Gäste?",
+        "Kam es tatsächlich zu Zusammenstößen mit der Polizei, und wie schwerwiegend waren diese?",
+        "Wie geht die 'Küstendiplomatie'-Tour Fertittas an den übrigen italienischen Stationen weiter?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-19T08:07:30.798Z",
+      "doNotUpdateBefore": "2026-07-18T14:07:30.798Z"
+    },
+    "wien-waldbrandgefahr-trockenheit-juli-2026": {
+      "canonicalTitle": "Wien: Hohe Waldbrandgefahr wegen anhaltender Trockenheit",
+      "slug": "wien-waldbrandgefahr-trockenheit-juli-2026",
+      "firstSeenAt": "2026-07-18T08:07:30.798Z",
+      "lastUpdatedAt": "2026-07-18T08:07:30.798Z",
+      "status": "published",
+      "articlePath": "src/content/articles/wien-waldbrandgefahr-trockenheit-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/wien-waldbrandgefahr-trockenheit-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/38252277/wien-hohe-waldbrandgefahr-wegen-akuter-trockenheit",
+        "https://wien.orf.at/stories/3363198",
+        "https://www.derstandard.at/story/3000000331984/hohe-waldbrandgefahr-wegen-akuter-trockenheit-in-wien",
+        "https://www.wien.gv.at/freizeit/waldbrandgefahr-grillverbot",
+        "https://presse.wien.gv.at/presse/2026/05/08/grillverbot-auf-oeffentlichen-grillplaetzen-in-wien-gilt-ab-sofort"
+      ],
+      "openQuestions": [
+        "Wie lange die aktuelle Trockenperiode und damit das Grillverbot voraussichtlich noch andauern",
+        "Ob es in der laufenden Saison bereits Waldbrand-Einsätze in Wiener Wäldern gab",
+        "Welche amtlichen Gefahrenstufen-Werte der Waldbrand-Risikoskala aktuell für Wien gelten"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-19T08:07:30.798Z",
+      "doNotUpdateBefore": "2026-07-18T14:07:30.798Z"
     }
   }
 }
