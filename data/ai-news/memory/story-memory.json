@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T14:20:34.014Z",
+  "updatedAt": "2026-07-18T16:19:15.199Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1483,13 +1483,12 @@
       "doNotRedraftBefore": "2026-07-18T16:07:27.817Z",
       "doNotUpdateBefore": "2026-07-17T22:07:27.817Z",
       "echoPublishers": {
-        "kurier": "2026-07-17T16:07:27.817Z",
         "orf": "2026-07-17T18:07:24.935Z",
         "derstandard": "2026-07-18T12:07:30.176Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-18T12:07:30.176Z"
+      "resonanceMeasuredAt": "2026-07-18T16:07:30.663Z"
     },
     "kuba-zweiter-blackout-juli-2026": {
       "canonicalTitle": "Kuba: Zweiter inselweiter Stromausfall binnen einer Woche",
@@ -3027,9 +3026,9 @@
       "echoPublishers": {
         "heise": "2026-07-18T10:07:28.883Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
+      "resonanceMeasuredAt": "2026-07-18T16:07:30.663Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -5520,7 +5519,7 @@
       "doNotRedraftBefore": "2026-07-17T09:31:48.821Z",
       "doNotUpdateBefore": "2026-07-16T15:31:48.821Z",
       "echoPublishers": {
-        "diepresse": "2026-07-18T14:07:30.241Z"
+        "diepresse": "2026-07-18T16:07:30.663Z"
       }
     },
     "hegseth-testosterontest-us-soldaten-2026": {
@@ -5760,9 +5759,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-19T02:07:24.551Z",
       "doNotUpdateBefore": "2026-07-18T08:07:24.551Z",
-      "echoPublishers": {
-        "kurier": "2026-07-17T16:07:27.817Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-18T02:07:24.551Z"
@@ -6754,7 +6751,7 @@
         "orf": "2026-07-18T14:07:30.241Z",
         "derstandard": "2026-07-18T12:07:30.176Z",
         "diepresse": "2026-07-18T12:07:30.176Z",
-        "kleinezeitung": "2026-07-18T12:07:30.176Z",
+        "kleinezeitung": "2026-07-18T16:07:30.663Z",
         "kurier": "2026-07-18T14:07:30.241Z"
       },
       "resonanceLevel": 3,
@@ -7126,29 +7123,37 @@
       "canonicalTitle": "Sicherheitsmitarbeiter der Deutschen Bahn stürzt bei Streit mit Fahrgast aus fahrendem Zug",
       "slug": "db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026",
       "firstSeenAt": "2026-07-18T10:07:28.883Z",
-      "lastUpdatedAt": "2026-07-18T10:07:28.883Z",
+      "lastUpdatedAt": "2026-07-18T16:07:30.663Z",
       "status": "published",
       "articlePath": "src/content/articles/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-18/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331992/deutsche-bahn-mitarbeiter-stuerzt-bei-streit-mit-gast-aus-fahrendem-zug",
         "https://kurier.at/chronik/welt/deutschland-bahn-mitarbeiter-aus-zug-gestuerzt/403176855",
         "https://www.kleinezeitung.at/artikel/38254147/deutscher-bahn-mitarbeiter-aus-zug-gestuerzt",
         "https://www.blicklokal.de/pol-ka-ka-ettlingen-bruchhausen-mitarbeiter-der-db-sicherheit-stuerzt-bei-koerperlicher-auseinandersetzung-aus-fahrendem-zug-3/",
-        "https://www.t-online.de/nachrichten/panorama/id_101349050/bahnmitarbeiter-stuerzt-nach-gerangel-aus-fahrendem-zug.html"
+        "https://www.t-online.de/nachrichten/panorama/id_101349050/bahnmitarbeiter-stuerzt-nach-gerangel-aus-fahrendem-zug.html",
+        "https://www.diepresse.com/38286576/deutsche-bahn-mitarbeiter-stuerzt-bei-streit-aus-fahrendem-zug",
+        "https://web.de/magazine/panorama/unfaelle-ungluecke/bahn-sicherheitsmann-stuerzt-fahrendem-zug-zustand-kritisch-42517892",
+        "https://www.nordbayern.de/schlagzeilen/streit-um-ticket-eskaliert-bahn-mitarbeiter-sturzt-bei-120-km-h-aus-zug-1.15204614",
+        "https://dserver.bundestag.de/btd/21/053/2105341.pdf"
       ],
       "openQuestions": [
-        "Wie genau öffnete sich die Zugtür — technischer Defekt oder Folge des Handgemenges?",
-        "Wie ist der aktuelle Gesundheitszustand des verletzten Mitarbeiters, und wie ist die Prognose?",
-        "Wurde beim festgenommenen Fahrgast eine Blutalkoholkonzentration gemessen, und welcher Tatvorwurf wird konkret erhoben?",
-        "Äußert sich die Deutsche Bahn zu Sicherheitsprotokollen für Kontrollpersonal in vergleichbaren Situationen?"
+        "Ist der verletzte Mitarbeiter mittlerweile ansprechbar, oder besteht weiterhin ein kritischer bzw. komatöser Zustand?",
+        "Wurde beim festgenommenen Fahrgast eine Blutalkoholkonzentration gemessen, und welcher konkrete Tatvorwurf wird gegen ihn erhoben?",
+        "Bestätigt eine technische Untersuchung, dass ausschließlich das Handgemenge und kein zusätzlicher technischer Defekt zur Öffnung der Zugtür führte?",
+        "Zieht die Deutsche Bahn aus dem Vorfall Konsequenzen für Sicherheitsprotokolle von Kontrollpersonal?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-19T10:07:28.883Z",
-      "doNotUpdateBefore": "2026-07-18T16:07:28.883Z",
+      "doNotRedraftBefore": "2026-07-19T16:07:30.663Z",
+      "doNotUpdateBefore": "2026-07-18T22:07:30.663Z",
       "echoPublishers": {
-        "derstandard": "2026-07-18T14:07:30.241Z"
-      }
+        "derstandard": "2026-07-18T14:07:30.241Z",
+        "diepresse": "2026-07-18T16:07:30.663Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-18T16:07:30.663Z"
     },
     "huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026": {
       "canonicalTitle": "Huthi-Miliz droht Saudi-Arabien nach Luftangriff auf Flughafen Sanaa mit „Belagerung“",
@@ -7201,7 +7206,14 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-19T14:07:30.241Z",
-      "doNotUpdateBefore": "2026-07-18T20:07:30.241Z"
+      "doNotUpdateBefore": "2026-07-18T20:07:30.241Z",
+      "echoPublishers": {
+        "orf": "2026-07-18T16:07:30.663Z",
+        "derstandard": "2026-07-18T16:07:30.663Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-18T16:07:30.663Z"
     },
     "messerattacke-wien-innenstadt-juli-2026": {
       "canonicalTitle": "18-Jähriger nach Messerattacke auf 20-Jährigen in Wiener Innenstadt festgenommen",
@@ -7254,6 +7266,54 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-19T14:07:30.241Z",
       "doNotUpdateBefore": "2026-07-18T20:07:30.241Z"
+    },
+    "toedlicher-motorradunfall-fahrerflucht-scharfling-juli-2026": {
+      "canonicalTitle": "Motorradfahrer bei Unfall in Scharfling getötet – Pkw-Lenker flüchtig",
+      "slug": "toedlicher-motorradunfall-fahrerflucht-scharfling-juli-2026",
+      "firstSeenAt": "2026-07-18T16:07:30.663Z",
+      "lastUpdatedAt": "2026-07-18T16:07:30.663Z",
+      "status": "published",
+      "articlePath": "src/content/articles/toedlicher-motorradunfall-fahrerflucht-scharfling-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/toedlicher-motorradunfall-fahrerflucht-scharfling-juli-2026.json",
+      "sourceUrls": [
+        "https://salzburg.orf.at/stories/3363227",
+        "https://kurier.at/chronik/oberoesterreich/ooe-motorrad-unfall-fahrer-fluechtig/403176868"
+      ],
+      "openQuestions": [
+        "Wie genau kam es zu dem Unfall und wer trug welche Verantwortung – dazu liegt keine offizielle Unfallanalyse vor.",
+        "Konnte der flüchtige Pkw-Lenker mittlerweile ausgeforscht werden?",
+        "Welche exakte Fahrzeugbeschreibung und welches Kennzeichen liegen der Polizei tatsächlich vor?",
+        "Wie lautet die offizielle Todesursache laut Obduktion bzw. Rettungseinsatz?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T16:07:30.663Z",
+      "doNotUpdateBefore": "2026-07-18T22:07:30.663Z"
+    },
+    "tirol-lebensgefaehrtin-betaeubt-vergewaltigt-verdacht-juli-2026": {
+      "canonicalTitle": "Verdacht auf Betäubung und Vergewaltigung der Lebensgefährtin: 44-Jähriger in Tirol in Untersuchungshaft",
+      "slug": "tirol-lebensgefaehrtin-betaeubt-vergewaltigt-verdacht-juli-2026",
+      "firstSeenAt": "2026-07-18T16:07:30.663Z",
+      "lastUpdatedAt": "2026-07-18T16:07:30.663Z",
+      "status": "published",
+      "articlePath": "src/content/articles/tirol-lebensgefaehrtin-betaeubt-vergewaltigt-verdacht-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/tirol-lebensgefaehrtin-betaeubt-vergewaltigt-verdacht-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331993/mann-soll-in-tirol-lebensgef228hrtin-bet228ubt-und-vergewaltigt-haben",
+        "https://www.diepresse.com/38257546/mann-in-tirol-soll-lebensgefaehrtin-mehrmals-betaeubt-und-vergewaltigt-haben",
+        "https://kurier.at/chronik/tirol/tirol-mann-lebensgefaehrtin-betaeubt-vergewaltigt/403176858",
+        "https://tirol.orf.at/stories/3363207/",
+        "https://www.tt.com/artikel/30938398/lebensgefaehrtin-mehrfach-betaeubt-und-vergewaltigt-44-jaehriger-in-innsbruck-in-u-haft"
+      ],
+      "openQuestions": [
+        "Wie viele mutmaßliche Taten und welcher Zeitraum sind konkret betroffen?",
+        "Ist auch eine frühere Partnerin des Verdächtigen zum Opfer geworden – und wird dieser Verdacht von der Staatsanwaltschaft noch bestätigt?",
+        "Wie und durch wen wurden die Ermittlungen ursprünglich ausgelöst?",
+        "Liegt mittlerweile eine Stellungnahme des Verdächtigen oder seiner Verteidigung vor?",
+        "Wann ist mit einer Anklage oder weiteren Verfahrensschritten zu rechnen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T16:07:30.663Z",
+      "doNotUpdateBefore": "2026-07-18T22:07:30.663Z"
     }
   }
 }
