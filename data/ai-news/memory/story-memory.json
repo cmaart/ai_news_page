@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T08:18:19.623Z",
+  "updatedAt": "2026-07-18T10:22:39.975Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -707,12 +707,10 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-18T20:07:26.390Z",
       "doNotUpdateBefore": "2026-07-18T02:07:26.390Z",
-      "echoPublishers": {
-        "apa": "2026-07-17T10:07:28.766Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
     },
     "netzausbau-einsparung-zweidrittelmehrheit-2040": {
       "canonicalTitle": "Regierung will bis 2040 rund 4,1 Milliarden Euro beim Netzausbau sparen – Streit um Zweidrittelmehrheit für Energiegesetze",
@@ -3014,10 +3012,12 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T10:07:41.799Z",
       "doNotUpdateBefore": "2026-07-15T16:07:41.799Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-16T18:07:38.908Z"
+      "echoPublishers": {
+        "heise": "2026-07-18T10:07:28.883Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -5802,9 +5802,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-17T16:07:29.022Z",
       "doNotUpdateBefore": "2026-07-16T22:07:29.022Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-17T10:07:28.766Z"
-      }
+      "echoPublishers": {}
     },
     "bozen-gerichtsgebaeude-einsturz-juli-2026": {
       "canonicalTitle": "Mussolini-Bau in Bozen: Teil des Gerichtsgebäudes eingestürzt",
@@ -5929,13 +5927,12 @@
       "doNotRedraftBefore": "2026-07-18T20:07:26.390Z",
       "doNotUpdateBefore": "2026-07-18T02:07:26.390Z",
       "echoPublishers": {
-        "derstandard": "2026-07-17T10:07:28.766Z",
         "golem": "2026-07-17T14:07:25.867Z",
         "orf": "2026-07-17T20:07:26.390Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
     },
     "eu-google-android-ki-suchdaten-dma-juli-2026": {
       "canonicalTitle": "EU verpflichtet Google zu Öffnung von Suchdaten und Android-KI",
@@ -6259,13 +6256,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
       "doNotUpdateBefore": "2026-07-17T12:07:26.099Z",
-      "echoPublishers": {
-        "orf": "2026-07-17T10:07:28.766Z",
-        "derstandard": "2026-07-17T10:07:28.766Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T22:07:29.841Z"
+      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
     },
     "inflation-oesterreich-juni-2026": {
       "canonicalTitle": "Inflation in Österreich im Juni 2026 auf 3,2 Prozent gefallen",
@@ -6634,10 +6628,10 @@
       "canonicalTitle": "Apple überholt Nvidia wieder als wertvollstes Unternehmen der Welt",
       "slug": "apple-ueberholt-nvidia-wertvollstes-unternehmen-juli-2026",
       "firstSeenAt": "2026-07-17T16:07:27.817Z",
-      "lastUpdatedAt": "2026-07-17T16:07:27.817Z",
+      "lastUpdatedAt": "2026-07-18T10:07:28.883Z",
       "status": "published",
       "articlePath": "src/content/articles/apple-ueberholt-nvidia-wertvollstes-unternehmen-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/apple-ueberholt-nvidia-wertvollstes-unternehmen-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-18/apple-ueberholt-nvidia-wertvollstes-unternehmen-juli-2026-update-1000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331958/-apple-252berholt-nvidia-als-wertvollstes-unternehmen-der-welt",
         "https://www.diepresse.com/38193484/apple-loest-nvidia-als-wertvollstes-unternehmen-der-welt-ab",
@@ -6645,17 +6639,30 @@
         "https://www.kleinezeitung.at/artikel/38209068/giganten-duell-apple-loest-nvidia-als-wertvollstes-unternehmen-ab",
         "https://orf.at/stories/3436498",
         "https://www.cnbc.com/2026/07/17/apple-nvidia-aapl-nvda-market-cap.html",
-        "https://finance.yahoo.com/markets/stocks/articles/apple-surpasses-nvidia-worlds-most-140205283.html"
+        "https://finance.yahoo.com/markets/stocks/articles/apple-surpasses-nvidia-worlds-most-140205283.html",
+        "https://www.heise.de/news/Apple-mal-kurz-wieder-wertvollstes-Unternehmen-der-Welt-11369742.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+        "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/",
+        "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html",
+        "https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_101348778/boerse-nvidia-aktien-stuerzen-ab-apple-wieder-wertvollste-firma-der-welt.html",
+        "https://www.sec.gov/Archives/edgar/data/0000320193/000114036126015711/ef20071035_8k.htm"
       ],
       "openQuestions": [
-        "Wie hoch waren die exakten Marktkapitalisierungen beider Unternehmen zum Handelsschluss – Quellen nennen Werte zwischen rund 4,8 und 4,9 Billionen Dollar.",
-        "Seit wann genau hielt Nvidia zuvor die Spitzenposition – österreichische Berichte nennen Dezember 2025, internationale Berichte einen früheren Zeitpunkt im Jahr 2025.",
-        "Ist die Ablöse von Bestand, oder tauschen beide Unternehmen die Spitzenposition angesichts der Kursschwankungen in den kommenden Tagen erneut?",
-        "Trifft die in einem Teil der Berichterstattung genannte Analysteneinschätzung zur Ursache des Nvidia-Kursrückgangs zu, oder handelt es sich um eine unter mehreren kursierenden Deutungen?"
+        "Wie hoch waren die exakten Marktkapitalisierungen beider Unternehmen zum Handelsschluss – neuere Quellen nennen rund 4,88 (Apple) und 4,86 (Nvidia) Billionen Dollar, frühere Berichte sprachen von bis zu 4,9 bzw. 4,8 Billionen.",
+        "Seit wann genau hielt Nvidia zuvor die Spitzenposition – österreichische Berichte nennen Dezember 2025 gegenüber Apple, internationale Quellen sprechen von Juni 2025, als Nvidia Microsoft überholte; ob es sich um denselben Wechsel handelt, ist unklar.",
+        "Ist die Ablöse von Bestand, oder tauschen Apple und Nvidia angesichts der Kursschwankungen die Spitzenposition in den kommenden Tagen erneut?",
+        "Welches konkrete chinesische KI-Modell die Sorgen um den Nvidia-Kurs mitausgelöst haben soll und wie belastbar diese Markteinschätzung ist, bleibt anhand der gesichteten Quellen offen.",
+        "Wann genau Apples neue Siri-KI in der EU eingeführt werden könnte, ist laut Apple derzeit nicht terminiert."
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-18T16:07:27.817Z",
-      "doNotUpdateBefore": "2026-07-17T22:07:27.817Z"
+      "doNotRedraftBefore": "2026-07-19T10:07:28.883Z",
+      "doNotUpdateBefore": "2026-07-18T16:07:28.883Z",
+      "echoPublishers": {
+        "heise": "2026-07-18T10:07:28.883Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
     },
     "cluster-20260717-17968fc7": {
       "canonicalTitle": "Behörden vermuten Salat als Auslöser der Durchfallwelle in den USA",
@@ -6810,9 +6817,9 @@
       "echoPublishers": {
         "diepresse": "2026-07-18T08:07:30.798Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T08:07:30.798Z"
+      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
     },
     "wien-e-bike-leihraeder-verdoppelt-juli-2026": {
       "canonicalTitle": "Wien verdoppelt E-Bike-Flotte der WienMobil-Leihräder auf 600 Stück",
@@ -7084,6 +7091,57 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-19T08:07:30.798Z",
       "doNotUpdateBefore": "2026-07-18T14:07:30.798Z"
+    },
+    "db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026": {
+      "canonicalTitle": "Sicherheitsmitarbeiter der Deutschen Bahn stürzt bei Streit mit Fahrgast aus fahrendem Zug",
+      "slug": "db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026",
+      "firstSeenAt": "2026-07-18T10:07:28.883Z",
+      "lastUpdatedAt": "2026-07-18T10:07:28.883Z",
+      "status": "published",
+      "articlePath": "src/content/articles/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331992/deutsche-bahn-mitarbeiter-stuerzt-bei-streit-mit-gast-aus-fahrendem-zug",
+        "https://kurier.at/chronik/welt/deutschland-bahn-mitarbeiter-aus-zug-gestuerzt/403176855",
+        "https://www.kleinezeitung.at/artikel/38254147/deutscher-bahn-mitarbeiter-aus-zug-gestuerzt",
+        "https://www.blicklokal.de/pol-ka-ka-ettlingen-bruchhausen-mitarbeiter-der-db-sicherheit-stuerzt-bei-koerperlicher-auseinandersetzung-aus-fahrendem-zug-3/",
+        "https://www.t-online.de/nachrichten/panorama/id_101349050/bahnmitarbeiter-stuerzt-nach-gerangel-aus-fahrendem-zug.html"
+      ],
+      "openQuestions": [
+        "Wie genau öffnete sich die Zugtür — technischer Defekt oder Folge des Handgemenges?",
+        "Wie ist der aktuelle Gesundheitszustand des verletzten Mitarbeiters, und wie ist die Prognose?",
+        "Wurde beim festgenommenen Fahrgast eine Blutalkoholkonzentration gemessen, und welcher Tatvorwurf wird konkret erhoben?",
+        "Äußert sich die Deutsche Bahn zu Sicherheitsprotokollen für Kontrollpersonal in vergleichbaren Situationen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T10:07:28.883Z",
+      "doNotUpdateBefore": "2026-07-18T16:07:28.883Z"
+    },
+    "huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026": {
+      "canonicalTitle": "Huthi-Miliz droht Saudi-Arabien nach Luftangriff auf Flughafen Sanaa mit „Belagerung“",
+      "slug": "huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026",
+      "firstSeenAt": "2026-07-18T10:07:28.883Z",
+      "lastUpdatedAt": "2026-07-18T10:07:28.883Z",
+      "status": "published",
+      "articlePath": "src/content/articles/huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/ausland/huthi-miliz-saudi-arabien-belagerung/403176866",
+        "https://www.derstandard.at/story/3000000331236/der-krieg-zwischen-huthis-und-saudi-arabien-kehrt-wieder-zurueck",
+        "https://orf.at/stories/3436531",
+        "https://www.aljazeera.com/news/2026/7/14/leading-houthi-threatens-siege-on-saudi-arabia-after-yemen-airport-attack",
+        "https://www.arabnews.com/node/2650801/pakistan",
+        "https://www.aljazeera.com/news/2026/7/13/yemen-govt-says-its-forces-attacked-sanaa-airport"
+      ],
+      "openQuestions": [
+        "Wer trägt die Verantwortung für den Luftangriff auf den Flughafen Sanaa — Saudi-Arabien oder die jemenitische Übergangsregierung?",
+        "Wurde ein Flugzeug des Internationalen Komitees vom Roten Kreuz samt Besatzung tatsächlich von der Huthi-Miliz festgehalten, und wenn ja, in welchem Zustand befinden sich die Betroffenen?",
+        "Setzt die Huthi-Miliz ihre angekündigten Angriffe auf Ölanlagen, Flughäfen und Häfen tatsächlich um?",
+        "Wie positioniert sich Pakistan konkret, sollte sich der Konflikt weiter zuspitzen — bleibt es bei diplomatischen Appellen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-19T10:07:28.883Z",
+      "doNotUpdateBefore": "2026-07-18T16:07:28.883Z"
     }
   }
 }
