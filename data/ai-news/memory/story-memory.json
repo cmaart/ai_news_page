@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T10:22:39.975Z",
+  "updatedAt": "2026-07-18T12:24:48.946Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1484,11 +1484,12 @@
       "doNotUpdateBefore": "2026-07-17T22:07:27.817Z",
       "echoPublishers": {
         "kurier": "2026-07-17T16:07:27.817Z",
-        "orf": "2026-07-17T18:07:24.935Z"
+        "orf": "2026-07-17T18:07:24.935Z",
+        "derstandard": "2026-07-18T12:07:30.176Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-18T04:07:34.816Z"
+      "resonanceMeasuredAt": "2026-07-18T12:07:30.176Z"
     },
     "kuba-zweiter-blackout-juli-2026": {
       "canonicalTitle": "Kuba: Zweiter inselweiter Stromausfall binnen einer Woche",
@@ -1713,13 +1714,13 @@
       "resonanceMeasuredAt": "2026-07-13T16:07:28.921Z"
     },
     "usa-iran-luftangriffe-strasse-von-hormus-juli-2026": {
-      "canonicalTitle": "Iran-Krieg: Siebente US-Angriffsnacht, Expertenwarnung vor „totalem Krieg“ um die Straße von Hormus",
+      "canonicalTitle": "Iran-Krieg: Wasserkrise in Jask nach siebenter US-Angriffsnacht, Iran attackiert Golfstaaten",
       "slug": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
       "firstSeenAt": "2026-07-12T06:07:23.718Z",
-      "lastUpdatedAt": "2026-07-18T06:07:27.202Z",
+      "lastUpdatedAt": "2026-07-18T12:07:30.176Z",
       "status": "published",
       "articlePath": "src/content/articles/usa-iran-luftangriffe-strasse-von-hormus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-600.json",
+      "researchPath": "data/ai-news/research/2026-07-18/usa-iran-luftangriffe-strasse-von-hormus-juli-2026-update-1200.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331095/eskalation-in-stra223e-von-hormuz-us-angriffe-und-brennendes-schiff",
         "https://orf.at/stories/3435963",
@@ -1804,7 +1805,15 @@
         "https://news-pravda.com/world/2026/07/17/2448266.html",
         "https://www.foxnews.com/live-news/iran-war-trump-israel-hormuz-oil-july-17-2026",
         "https://thehill.com/policy/defense/5912849-us-military-shoots-down-iranian-drones/",
-        "https://www.watson.ch/international/iran/129971779-sorge-vor-ausweitung-des-konflikts-um-die-strasse-von-hormus"
+        "https://www.watson.ch/international/iran/129971779-sorge-vor-ausweitung-des-konflikts-um-die-strasse-von-hormus",
+        "https://orf.at/stories/3436544",
+        "https://www.news.de/politik/859832530/iran-10-000-einwohner-nach-us-angriff-ohne-wasser-iran-krieg-news-der-dpa-aktuell-zu-krieg-und-konflikten/1/",
+        "https://www.news.de/politik/859829062/golfstaaten-geraten-erneut-unter-beschuss-iran-krieg-news-der-dpa-aktuell-zu-krieg-und-konflikten/1/",
+        "https://www.watson.ch/international/liveticker/295509659-iran-krieg-live-huthi-miliz-warnt-saudi-arabien-vor-belagerung",
+        "https://www.handelsblatt.com/politik/international/iran-krieg-usa-beenden-siebte-angriffsnacht-gegen-iran-explosionen-in-chorramabad/100136895.html",
+        "https://www.berliner-zeitung.de/article/iran-huthi-blockade-rotes-meer-10206260",
+        "https://www.newsnationnow.com/world/iran-irgc-claims-attacks-us-military-airbase/",
+        "https://www.euronews.com/2026/07/16/us-strikes-around-tehran-for-first-time-in-most-recent-wave-of-attacks-says-iranian-state-"
       ],
       "openQuestions": [
         "Wird der Tod des indischen Besatzungsmitglieds sowie das Ausmaß der Verletzungen durch weitere, unabhängig bestätigte Angaben untermauert?",
@@ -1826,20 +1835,23 @@
         "Lässt sich die Mohsen Rezaei zugeschriebene Drohung mit einer „Phase umfassender Offensivoperationen“ einer eindeutigen Originalquelle zuordnen, und setzt Iran sie tatsächlich um?",
         "Wird der von Sicherheitsexperten gewarnte „totale Krieg“ tatsächlich Realität, oder bleibt die Eskalation auf begrenzte gegenseitige Angriffe beschränkt?",
         "Wozu genau dienen die verlegten US-Kampfjets und Tankflugzeuge – reine Abschreckung, Unterstützung laufender Angriffe oder Vorbereitung einer größeren Operation?",
-        "Wie reagieren Saudi-Arabien und die Huthi-Miliz aufeinander, und droht tatsächlich eine Ausweitung auf das Königreich und/oder eine Einbindung Pakistans als Vermittler?",
-        "Bestätigt eine unabhängige Stelle den gemeldeten Abschuss von vier iranischen Drohnen durch das US-Militär sowie deren angebliches Ziel?"
+        "Wie viele Menschen sind von der Wasserkrise in Jask tatsächlich betroffen, wie lange hält der Ausfall an, und gibt es eine unabhängige Bestätigung der Zahl von rund 10.000 Betroffenen?",
+        "Bestätigt eine unabhängige Stelle die von Kuwait und Bahrain gemeldeten Schäden an Energie-, Entsalzungs- und Militärinfrastruktur?",
+        "Setzt die Huthi-Miliz ihre Drohung einer „Belagerung“ Saudi-Arabiens tatsächlich um, und bereitet Iran tatsächlich eine Blockade der Bab-al-Mandab-Straße vor?",
+        "Lässt sich die IRGC-Behauptung, mindestens zwei US-Kampfflugzeuge in Jordanien zerstört zu haben, unabhängig verifizieren – und trifft der als Auslöser genannte US-Angriff nahe einem Kinderkrebs-Krankenhaus zu?",
+        "Bestätigen unabhängige Quellen die iranische Behauptung erstmaliger US-Angriffe rund um Teheran in dieser Angriffswelle?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-19T06:07:27.202Z",
-      "doNotUpdateBefore": "2026-07-18T12:07:27.202Z",
+      "doNotRedraftBefore": "2026-07-19T12:07:30.176Z",
+      "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
       "echoPublishers": {
-        "orf": "2026-07-18T06:07:27.202Z",
+        "orf": "2026-07-18T12:07:30.176Z",
         "kurier": "2026-07-18T06:07:27.202Z",
         "kleinezeitung": "2026-07-18T06:07:27.202Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-17T22:07:29.841Z"
+      "resonanceMeasuredAt": "2026-07-18T12:07:30.176Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -6709,13 +6721,13 @@
       "doNotUpdateBefore": "2026-07-18T00:07:24.935Z"
     },
     "jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026": {
-      "canonicalTitle": "Leihmutterschaft für Sohn: Jens Spahn gerät wegen Kurswechsel zur eigenen Partei unter Druck",
+      "canonicalTitle": "Nach Kritik an Leihmutterschaft: Jens Spahn tritt als Unionsfraktionschef zurück",
       "slug": "jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026",
       "firstSeenAt": "2026-07-17T18:07:24.935Z",
-      "lastUpdatedAt": "2026-07-17T18:07:24.935Z",
+      "lastUpdatedAt": "2026-07-18T12:07:30.176Z",
       "status": "published",
       "articlePath": "src/content/articles/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-18/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026-update-1200.json",
       "sourceUrls": [
         "https://www.diepresse.com/37960570/wenn-das-private-zum-politikum-wird-jens-spahn-die-cdu-und-der-wirbel-um-die-leihmutterschaft-fuer-seinen-sohn",
         "https://www.kleinezeitung.at/artikel/37905005/als-minister-lehnte-er-leihmutterschaft-ab-jens-spahn-und-sein-mann",
@@ -6723,17 +6735,36 @@
         "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101348482/jens-spahn-und-leihmutterschaft-schiere-fassungslosigkeit-in-cdu-csu.html",
         "https://www.zdfheute.de/politik/spahn-leihmutterschaft-kritik-cdu-ruecktrittsforderung-100.html",
         "https://www.watson.ch/international/kinder/523455337-cdu-fraktionschef-jens-spahn-beauftragte-leihmutter-entgegen-parteilinie",
-        "https://www.berliner-zeitung.de/article/wenn-politiker-gesetze-umgehen-hendrik-streeck-und-die-debatte-um-leihmutterschaft-10031349"
+        "https://www.berliner-zeitung.de/article/wenn-politiker-gesetze-umgehen-hendrik-streeck-und-die-debatte-um-leihmutterschaft-10031349",
+        "https://orf.at/stories/3436559",
+        "https://www.derstandard.at/story/3000000332003/unionsfraktionschef-spahn-nach-debatte-um-baby-von-us-leihmutter-zurueckgetreten",
+        "https://www.diepresse.com/38271503/nach-kritik-an-us-leihmutterschaft-unions-fraktionschef-jens-spahn-tritt-zurueck",
+        "https://www.kleinezeitung.at/artikel/38270820/deutschland-jens-spahn-tritt-zurueck",
+        "https://www.t-online.de/nachrichten/deutschland/id_101349418/jens-spahn-tritt-als-unions-fraktionschef-zurueck.html",
+        "https://www.tagesspiegel.de/politik/nach-kritik-wegen-leihmutterschaft-unionsfraktionschef-jens-spahn-tritt-zuruck-15848089.html",
+        "https://www.handelsblatt.com/politik/deutschland/debatte-um-leihmutterschaft-spahn-tritt-als-unionsfraktionschef-zurueck/100241201.html",
+        "https://www.zdfheute.de/politik/deutschland/wachsende-kritik-jens-spahn-leihmutterschaft-100.html",
+        "https://www.tagesspiegel.de/politik/berlin-brandenburg-merz-fordert-unionsfraktionschef-spahn-zum-rucktritt-auf-15852397.html"
       ],
       "openQuestions": [
-        "Bleibt Jens Spahn Fraktionsvorsitzender der CDU/CSU im Bundestag?",
-        "Wie reagieren CDU-Gremien formal auf die Kritik – gibt es ein Verfahren oder eine Aussprache?",
-        "Welche genauen Umstände (Agentur, Kosten, rechtliche Elternschaft) lagen der Leihmutterschaft zugrunde? Das ist nicht abschließend verifiziert.",
+        "Wer wird dauerhaft neuer Fraktionsvorsitzender von CDU/CSU im Bundestag?",
+        "Ist die berichtete Übergangslösung, wonach CSU-Landesgruppenchef Alexander Hoffmann die laufenden Geschäfte übernimmt, offiziell von der Fraktion bestätigt?",
+        "Wie genau lief die interne Entscheidungsfindung zwischen Merz und Spahn ab – eigene Entscheidung, direkte Aufforderung oder beides?",
+        "Welche genauen Umstände (Agentur, Kosten, rechtliche Elternschaft) lagen der Leihmutterschaft zugrunde? Das ist weiterhin nicht abschließend verifiziert.",
         "Wird der ähnlich gelagerte, von Streeck selbst nicht bestätigte Fall politisch oder rechtlich weiterverfolgt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-18T18:07:24.935Z",
-      "doNotUpdateBefore": "2026-07-18T00:07:24.935Z"
+      "doNotRedraftBefore": "2026-07-19T12:07:30.176Z",
+      "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
+      "echoPublishers": {
+        "orf": "2026-07-18T12:07:30.176Z",
+        "derstandard": "2026-07-18T12:07:30.176Z",
+        "diepresse": "2026-07-18T12:07:30.176Z",
+        "kleinezeitung": "2026-07-18T12:07:30.176Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-18T12:07:30.176Z"
     },
     "landwirt-steiermark-rinderherde-toedlich-verletzt-juli-2026": {
       "canonicalTitle": "Landwirt in der Steiermark vermutlich von Rinderherde tödlich verletzt",
@@ -6793,33 +6824,37 @@
       "doNotUpdateBefore": "2026-07-18T04:07:29.841Z"
     },
     "messi-yamal-badewannenfoto-wm-finale-2026": {
-      "canonicalTitle": "Vor dem WM-Finale: Die Geschichte hinter dem viralen Messi-Yamal-Badewannenfoto",
+      "canonicalTitle": "Messi zum Badewannenfoto mit Yamal: „Es ist verrückt“, dass wir nun im WM-Finale stehen",
       "slug": "messi-yamal-badewannenfoto-wm-finale-2026",
       "firstSeenAt": "2026-07-17T22:07:29.841Z",
-      "lastUpdatedAt": "2026-07-17T22:07:29.841Z",
+      "lastUpdatedAt": "2026-07-18T12:07:30.176Z",
       "status": "published",
       "articlePath": "src/content/articles/messi-yamal-badewannenfoto-wm-finale-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/messi-yamal-badewannenfoto-wm-finale-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-18/messi-yamal-badewannenfoto-wm-finale-2026-update-1200.json",
       "sourceUrls": [
         "https://kurier.at/sport/fussball/fussball-wm-messi-yamal-badewanne-foto-fotograf-hype/403176806",
         "https://orf.at/stories/3436382",
-        "https://www.diepresse.com/38054216/als-lionel-messi-lamine-yamal-badete"
+        "https://www.diepresse.com/38054216/als-lionel-messi-lamine-yamal-badete",
+        "https://www.diepresse.com/38253713/es-ist-verrueckt-messi-ueber-foto-mit-badendem-yamal-als-baby",
+        "https://www.espn.com/soccer/story/_/id/49387821/lionel-messi-viral-lamine-yamal-baby-photo-incredible-playing-world-cup-final",
+        "https://www.foxsports.com/stories/soccer/lionel-messi-tells-tom-brady-insane-story-behind-viral-lamine-yamal-baby-photoshoot"
       ],
       "openQuestions": [
-        "Gibt es eine aktuelle Stellungnahme von Messi oder Yamal zur erneuten Verbreitung des Fotos?",
-        "Haben sich Unicef oder der FC Barcelona offiziell zu dem historischen Fotoshooting geäußert?",
+        "Hat sich auch Lamine Yamal selbst öffentlich zu dem Foto oder zu Messis Aussagen geäußert?",
+        "Haben sich Unicef oder der FC Barcelona offiziell zu dem historischen Fotoshooting von 2007 geäußert?",
         "Wie groß ist die tatsächliche Reichweite des Bildes in sozialen Medien, und gibt es belastbare Zahlen dazu?",
-        "Erhält der Fotograf Joan Monfort eine Vergütung für die weitverbreitete Nutzung seines Fotos?"
+        "Erhält der Fotograf Joan Monfort eine Vergütung für die weitverbreitete Nutzung seines Fotos?",
+        "Existiert ein offizieller Video-Mitschnitt oder ein Transkript von Messis Aussagen beim Fanatics Fest?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-18T22:07:29.841Z",
-      "doNotUpdateBefore": "2026-07-18T04:07:29.841Z",
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-19T12:07:30.176Z",
+      "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
       "echoPublishers": {
         "diepresse": "2026-07-18T08:07:30.798Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
+      "resonanceMeasuredAt": "2026-07-18T12:07:30.176Z"
     },
     "wien-e-bike-leihraeder-verdoppelt-juli-2026": {
       "canonicalTitle": "Wien verdoppelt E-Bike-Flotte der WienMobil-Leihräder auf 600 Stück",
