@@ -1,0 +1,219 @@
+{
+  "cluster": {
+    "id": "cluster-20260717-d816be43",
+    "title": "Schweinebauern schlagen wegen Preisverfalls Alarm",
+    "items": [
+      {
+        "itemId": "751714a8d913452a5faac9b3a4ee0d1afb49dcbeccc28f1d4d06895fed14acbd",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "Schweinebauern schlagen wegen Preisverfalls Alarm",
+        "url": "https://www.derstandard.at/story/3000000331770/schweinebauern-schlagen-wegen-preisverfalls-alarm",
+        "summary": "Die Landwirte klagen unter anderem wegen seuchenbedingter Exportsperren und Überproduktion. Sie fordern auch eine verpflichtende Herkunftskennzeichnung in der Gastronomie",
+        "publishedAt": "2026-07-17T12:50:35.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "15aa9cc163d70c9d518f9683353fc2acbbbc4d6e05071e48c7ad428e18f73c05",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "„Dramatische Lage“: Österreichs Schweinebauern schlagen Alarm",
+        "url": "https://kurier.at/wirtschaft/schweinfleisch-preis-oesterreich-schweinebauern/403176529",
+        "isNew": false
+      },
+      {
+        "itemId": "a695684909d9ff3b8407638dd0f36d0c3ad40c1b988c21af3bc971c8900cf0dd",
+        "sourceId": "kurier_wirtschaft",
+        "sourceType": "media",
+        "title": "„Dramatische Lage“: Österreichs Schweinebauern schlagen Alarm",
+        "url": "https://kurier.at/wirtschaft/schweinfleisch-preis-oesterreich-schweinebauern/403176529",
+        "isNew": false
+      },
+      {
+        "itemId": "80a9aee0380959d6b6d46f2befbc4f0cccc6880e291230c3806c08ce332cc0b1",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Starker Preisverfall: „Dramatische Lage“: Österreichs Schweinebauern schlagen Alarm",
+        "url": "https://www.kleinezeitung.at/artikel/37826125/dramatische-lage-oesterreichs-schweinebauern-schlagen-alarm",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle wirtschaftliche Story mit österreichischer Relevanz und breiter Redaktionsabdeckung. Multiple unabhängige Quellen (derstandard, kurier, kleinezeitung) berichten über ein konkretes Branchenproblem mit finanziellen Auswirkungen (bis zu 20 €/Tier Verlust, 1,6 Mio €/Woche Gesamtverlust laut Branchenverband). Dazu Regierungsreaktion (Minister Totschnig) und konkrete Forderungen. fulltextExcerpts zeigen eigenständige Redaktionsarbeit, nicht reine Presseaussendungs-Syndikation.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Schweinebauern verlieren bis zu 20 Euro pro Schwein",
+      "Österreichische Betriebe büßen pro Woche insgesamt 1,6 Millionen Euro ein",
+      "Exportsperren aufgrund von Tierseuchen verursachen Überproduktion in Europa",
+      "Österreich hat Produktionsstandards bei Tierwohl deutlich verschärft (Vollspaltenböden-Aus ab 2034)",
+      "Wirtschaftlichkeit der Branche leidet bereits seit vergangenem Jahr"
+    ],
+    "missingSources": [
+      "Unabhängige Marktanalyse: Ursachen und Dauer des Preisfalls (nicht nur Verbandssicht)",
+      "Perspektive Einzelhandelsketten/Verarbeiter: warum sinken Einkaufspreise?",
+      "Vergleich: Situation in anderen EU-Ländern (z. B. Deutschland, Dänemark)",
+      "EU-Einschätzung zu Regionalisierungsabkommen und deren Chancen",
+      "Unabhängige Daten zu Kostenstruktur vs. Erzeugerpreisen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "schweinebauern-preisverfall-oesterreich-juli-2026",
+    "title": "Österreichs Schweinebauern schlagen wegen Preisverfalls Alarm",
+    "description": "Der Branchenverband Schweinehaltung Österreich meldet dramatische Verluste am Schweinemarkt und fordert Herkunftskennzeichnung in der Gastronomie. Landwirtschaftsminister Totschnig verspricht Einsatz auf EU-Ebene – unabhängige Marktdaten fehlen bislang.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Dass der Branchenverband Alarm geschlagen hat und ein Austausch mit Minister Totschnig stattfand, gilt als gesichert, weil dies auf eine eigene Aussendung der Interessenvertretung zurückgeht und mehrere Medien übereinstimmend berichten; die konkreten Verlustzahlen stammen jedoch bislang nur von dieser einen Interessenvertretung.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die zugrundeliegende Presseaussendung von Schweinehaltung Österreich konnte nur über Suchergebnisse eingesehen werden, nicht im vollen Wortlaut direkt abgerufen werden, weshalb die Quellenlage hier als schwach eingestuft wird.",
+    "framingRisk": "high",
+    "framingRiskNote": "In der vorliegenden Berichterstattung kommt praktisch ausschließlich die Branchenvertretung der Schweinebauern zu Wort, ergänzt um eine kurze zustimmende Reaktion des Ministers; Handel, Verarbeiter oder unabhängige Marktbeobachter sind nicht vertreten.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Der Verband Schweinehaltung Österreich spricht von einer „dramatischen Lage“ am heimischen Schweinemarkt und beziffert die Verluste auf bis zu 20 Euro pro Tier.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Verband summieren sich die wöchentlichen Verluste der österreichischen Betriebe auf rund 1,6 Millionen Euro.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als Ursachen werden seuchenbedingte Exportsperren in wichtigen europäischen Erzeugerländern und eine daraus folgende Überproduktion genannt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Landwirtschaftsminister Totschnig hat sich nach einem Austausch mit der Branche für faire Wettbewerbsbedingungen auf EU-Ebene ausgesprochen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Unabhängige Marktanalysen zu Ausmaß, Ursachen und voraussichtlicher Dauer des Preisverfalls liegen bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lange wird der Preisverfall nach unabhängigen Einschätzungen voraussichtlich anhalten?",
+      "Wie begründen Handelsketten und Fleischverarbeiter die gesunkenen Einkaufspreise?",
+      "Wie stellt sich die Lage in vergleichbaren Schweineproduktionsländern wie Deutschland oder Dänemark dar?",
+      "Welche konkreten Schritte plant das Landwirtschaftsministerium über die angekündigte EU-Initiative hinaus?",
+      "Wie belastbar sind die vom Verband genannten Verlustzahlen im Vergleich zu unabhängigen Kostendaten?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "DER STANDARD: „Schweinebauern schlagen wegen Preisverfalls Alarm“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331770/schweinebauern-schlagen-wegen-preisverfalls-alarm"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier: „‚Dramatische Lage‘: Österreichs Schweinebauern schlagen Alarm“",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/schweinfleisch-preis-oesterreich-schweinebauern/403176529"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung: „Starker Preisverfall: ‚Dramatische Lage‘“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/37826125/dramatische-lage-oesterreichs-schweinebauern-schlagen-alarm"
+      },
+      {
+        "id": "src4",
+        "name": "OTS-Presseaussendung Schweinehaltung Österreich: „Dramatische Lage am Schweinemarkt“",
+        "type": "press_release",
+        "url": "https://www.ots.at/presseaussendung/OTS_20260716_OTS0079/dramatische-lage-am-schweinemarkt-branche-im-austausch-mit-landwirtschaftsminister-totschnig"
+      },
+      {
+        "id": "src5",
+        "name": "Nachrichten.at: „‚Mit jedem Schwein 20 Euro Verlust‘: Österreichs Bauern schlagen Alarm“",
+        "type": "media",
+        "url": "https://www.nachrichten.at/wirtschaft/mit-jedem-schwein-20-euro-verlust-oesterreichs-bauern-schlagen-alarm;art15,4192803"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Österreichische Schweinebauern verlieren laut Branchenverband derzeit bis zu 20 Euro pro Tier.",
+        "status": "partial",
+        "note": "Zahl stammt aus einer Aussendung der betroffenen Interessenvertretung selbst, nicht aus unabhängigen Marktdaten.",
+        "sourceIds": [
+          "src4",
+          "src5",
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die österreichischen Betriebe büßen laut Verband gemeinsam rund 1,6 Millionen Euro pro Woche ein.",
+        "status": "partial",
+        "note": "Auch diese Summe wird nur vom Branchenverband genannt, eine externe Bestätigung liegt nicht vor.",
+        "sourceIds": [
+          "src4",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Ursache des Preisverfalls seien seuchenbedingte Exportsperren in europäischen Erzeugerländern und eine daraus resultierende Überproduktion.",
+        "status": "unclear",
+        "note": "Diese Einordnung wird von mehreren Medien und dem Verband wiedergegeben, eine unabhängige Marktanalyse zu den genauen Ursachen fehlt bislang.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Landwirtschaftsminister Norbert Totschnig hat sich nach einem Austausch mit Branchenvertretern für faire Wettbewerbsbedingungen auf EU-Ebene ausgesprochen.",
+        "status": "supported",
+        "note": "Das Treffen und die ministerielle Reaktion werden sowohl in der Presseaussendung als auch in mehreren Medienberichten übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src4",
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Branche fordert unter anderem eine verpflichtende Herkunftskennzeichnung von Schweinefleisch in der Gastronomie.",
+        "status": "supported",
+        "note": "Diese Forderung wird von mehreren unabhängig berichtenden Medien übereinstimmend genannt.",
+        "sourceIds": [
+          "src1",
+          "src3",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Verband Schweinehaltung Österreich, vormals Verband Österreichischer Schweinebauern, hat nach eigenen Angaben Alarm geschlagen: Die Lage am heimischen Schweinemarkt sei „dramatisch“. Obmann Franz Rauscher spricht laut vorliegenden Quellen von Verlusten von bis zu 20 Euro pro verkauftem Tier, in Summe sollen sich die wöchentlichen Einbußen der österreichischen Betriebe auf rund 1,6 Millionen Euro belaufen. Die Branchenvertretung stand dazu im Austausch mit Landwirtschaftsminister Norbert Totschnig, der laut übereinstimmenden Berichten faire Wettbewerbsbedingungen auf europäischer Ebene zusicherte. Über die aktuelle Notlage berichteten unter anderem DER STANDARD, Kurier und Kleine Zeitung nahezu zeitgleich am 17. Juli 2026, was auf eine gemeinsame Ausgangsmeldung – eine Presseaussendung der Branchenvertretung vom 16. Juli – schließen lässt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Als Ursachen für den Preisverfall nennen sowohl der Verband als auch die berichtenden Medien seuchenbedingte Exportsperren in wichtigen europäischen Erzeugerländern sowie eine dadurch ausgelöste Überproduktion, die seit dem Vorjahr auf die Wirtschaftlichkeit der Branche drückt. Die Interessenvertretung fordert als Reaktion unter anderem eine weitere Öffnung von Exportmärkten, den Abschluss von Regionalisierungsabkommen, eine europaweite Angleichung der Produktionsstandards sowie eine Entlastung der Betriebe von zusätzlichen kostenintensiven Vorgaben. Zusätzlich wird eine verpflichtende Herkunftskennzeichnung von Schweinefleisch in der Gastronomie verlangt – eine Forderung, die im Zusammenhang mit dem in Österreich beschlossenen, ab Mitte 2034 geltenden Aus für Vollspaltenböden in der Schweinehaltung steht, das die Branche zusätzlich unter Kostendruck sieht."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Die genannten Zahlen zu Verlust pro Tier und Gesamtverlust pro Woche stammen ausschließlich von der betroffenen Interessenvertretung selbst; eine unabhängige Marktanalyse, die diese Größenordnung bestätigt oder relativiert, liegt nach derzeitigem Stand nicht vor. Ebenso fehlt eine Einordnung durch Handelsketten oder Fleischverarbeiter, die erklären könnte, warum die Einkaufspreise gefallen sind. Unklar bleibt zudem, wie sich die Situation in anderen europäischen Erzeugerländern wie Deutschland oder Dänemark im Vergleich darstellt und wie lange der Preisverfall nach Einschätzung von Marktbeobachtern noch anhalten dürfte. Auch zu konkreten, über allgemeine Absichtserklärungen hinausgehenden Schritten des Landwirtschaftsministeriums liegen bislang keine Details vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Berichterstattung beruht erkennbar auf einer einzigen Ausgangsquelle – der Presseaussendung der Branchenvertretung – die von mehreren Medien mit unterschiedlicher Gewichtung, aber im Kern gleichlautend wiedergegeben wurde. Das ist bei wirtschaftspolitischen Anliegen von Interessenverbänden nicht ungewöhnlich, bedeutet aber, dass die Darstellung bislang vor allem eine Perspektive abbildet. Die Reaktion des Ministers wirkt unterstützend und stellt keine unabhängige Prüfung der genannten Zahlen dar. Für eine umfassendere Einordnung wären weitere, von der Branche unabhängige Quellen nötig, etwa Markt- und Handelsdaten oder Stellungnahmen von Verarbeitungsbetrieben."
+      }
+    ],
+    "bodyKompakt": "Der Verband Schweinehaltung Österreich hat nach eigenen Angaben Alarm geschlagen: Die Lage am heimischen Schweinemarkt sei „dramatisch“. Laut Obmann Franz Rauscher verlieren Betriebe derzeit bis zu 20 Euro pro verkauftem Tier, in Summe sollen sich die wöchentlichen Einbußen der österreichischen Betriebe auf rund 1,6 Millionen Euro belaufen. Als Ursache werden seuchenbedingte Exportsperren in europäischen Erzeugerländern und eine dadurch ausgelöste Überproduktion genannt, die seit dem Vorjahr auf die Wirtschaftlichkeit der Branche drückt.\n\nDie Branchenvertretung stand dazu im Austausch mit Landwirtschaftsminister Norbert Totschnig, der sich für faire Wettbewerbsbedingungen auf EU-Ebene aussprach. Gefordert werden unter anderem eine Öffnung von Exportmärkten, Regionalisierungsabkommen, europaweit einheitliche Produktionsstandards sowie eine verpflichtende Herkunftskennzeichnung von Schweinefleisch in der Gastronomie.\n\nDie genannten Verlustzahlen stammen bislang ausschließlich von der betroffenen Interessenvertretung selbst. Eine unabhängige Marktanalyse sowie Stellungnahmen von Handel oder Verarbeitern liegen nicht vor, ebenso wenig ein Vergleich mit der Lage in anderen europäischen Erzeugerländern.",
+    "updateNote": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-18T06:07:27.202Z"
+}
