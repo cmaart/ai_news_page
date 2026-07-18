@@ -1,0 +1,194 @@
+{
+  "cluster": {
+    "id": "cluster-20260717-40a064dc",
+    "title": "Fast jede zweite Firma sucht Nachfolge",
+    "items": [
+      {
+        "itemId": "8a8dd068cb505cf1b01a1149d8481848142af529bab452d8e597ec19ac68f7d8",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Fast jede zweite Firma sucht Nachfolge",
+        "url": "https://ooe.orf.at/stories/3363091",
+        "summary": "Knapp jede zweite kleine oder mittelständische Firma in Österreich hat laut einer Studie bis 2030 eine Nachfolgelösung gebraucht. Besonders betroffen seien Betriebe in Oberösterreich und Salzburg, teilten der Gläubigerschützer Creditreform und das Beratungsunternehmen CH Consult mit.",
+        "publishedAt": "2026-07-17T09:13:15.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "98074257bdeaa583be33547901aca8dd1900f4cc2c30d1a1b0550000655b45a7",
+        "sourceId": "orf_ooe",
+        "sourceType": "media",
+        "title": "Fast jede zweite Firma sucht Nachfolge",
+        "url": "https://ooe.orf.at/stories/3363091",
+        "summary": "Knapp jede zweite kleine oder mittelständische Firma in Österreich hat laut einer Studie bis 2030 eine Nachfolgelösung gebraucht. Besonders betroffen seien Betriebe in Oberösterreich und Salzburg, teilten der Gläubigerschützer Creditreform und das Beratungsunternehmen CH Consult mit.",
+        "publishedAt": "2026-07-17T09:13:15.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "7b15f1df00302fbe5d80a7aa6469318b0fa5fb394c11c329bd6a914e51021881",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Bis 2030 muss fast jedes zweite Unternehmen einen Nachfolger finden",
+        "url": "https://kurier.at/wirtschaft/bis-2030-muss-fast-jedes-zweite-unternehmen-einen-nachfolger-finden/403176666",
+        "isNew": false
+      },
+      {
+        "itemId": "bb744221a0c0078948a932dfbc350efc4e3b87e693e5fa55404cfb5eb2342e69",
+        "sourceId": "kurier_wirtschaft",
+        "sourceType": "media",
+        "title": "Bis 2030 muss fast jedes zweite Unternehmen einen Nachfolger finden",
+        "url": "https://kurier.at/wirtschaft/bis-2030-muss-fast-jedes-zweite-unternehmen-einen-nachfolger-finden/403176666",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substantive, multi-sourced story on Austrian business succession challenge with clear economic and labor-market relevance. Study-based findings (Creditreform/CH Consult, ~1,400 surveyed firms) show ~50% of mid-market businesses need succession by 2030, affecting ~692,000 jobs across 51,000 employer companies. Policy response already initiated (succession taskforce early 2026). ORF and Kurier provide independent, complementary reporting with expert analysis (Weinhofer, Hurek quotes). No related story to extend.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Knapp 50 % der österreichischen Klein- und Mittelbetriebe benötigen bis 2030 eine Nachfolgelösung",
+      "Oberösterreich und Salzburg sind überproportional betroffen (>50 % der Betriebe)",
+      "Familienübergaben werden seltener; 40 % der Unternehmen planen externe Nachfolge (Investoren oder Management/Mitarbeiterbeteiligung)",
+      "Rund 692.000 Arbeitsplätze hängen von erfolgreicher Unternehmensnachfolge in ~51.000 Betrieben ab",
+      "34 % der befragten Unternehmer können sich vorstellen, ein anderes Unternehmen zu übernehmen",
+      "Bei erfolgreicher Familiennachfolge erfolgt diese in 80 % der Fälle ohne finanzielle Gegenleistung",
+      "Wirtschaftsministerium gründete Anfang 2026 eine Nachfolge-Taskforce mit Wirtschaftskammer und Junger Wirtschaft"
+    ],
+    "missingSources": [
+      "Originalstudie/Vollbericht Creditreform Österreich und CH Consult",
+      "Methodologie der Umfrage (Stichprobenziehung, Zeithorizont, Branchenverteilung)",
+      "Detaillierte sektorale Aufschlüsselung",
+      "Vollständige regionale Daten (alle Bundesländer, nicht nur OÖ/Salzburg)",
+      "Konkrete Beispiele oder Fallstudien zu gescheiterten oder erfolgreichen Nachfolgen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "unternehmensnachfolge-oesterreich-studie-2030",
+    "title": "Studie: Fast jede zweite österreichische Firma braucht bis 2030 eine Nachfolgelösung",
+    "description": "Laut einer Studie von Creditreform und CH Consult steht bis 2030 für knapp die Hälfte der heimischen Klein- und Mittelbetriebe eine Nachfolgeregelung an – besonders betroffen seien Oberösterreich und Salzburg. Die Studie selbst liegt nicht zur eigenen Prüfung vor.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige Medien (ORF und Kurier) berichten übereinstimmend über denselben Grundbefund einer Studie von Creditreform und CH Consult, was die Kernaussage stützt – die Studie selbst wurde aber nicht eingesehen, und mehrere Detailzahlen tauchen nur in einer der beiden Quellen auf.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt eingesehene Studie oder Aussendung von Creditreform bzw. CH Consult vor, sondern nur Medienberichte darüber, die per RSS erfasst wurden.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Beide Berichte übernehmen erkennbar dieselbe Studien-Erzählung von Creditreform und CH Consult; eine unabhängige Einordnung, etwa durch Wirtschaftsforscher oder betroffene Unternehmer selbst, ist in den vorliegenden Quellen nicht erkennbar.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Laut einer Studie von Creditreform und CH Consult braucht knapp jede zweite kleine oder mittelständische Firma in Österreich bis 2030 eine Nachfolgelösung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Oberösterreich und Salzburg seien laut ORF-Bericht überdurchschnittlich betroffen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Berichten zufolge sollen rund 692.000 Arbeitsplätze in etwa 51.000 Betrieben von einer gelingenden Nachfolge abhängen – diese Zahl konnte anhand der vorliegenden Kurzfassungen nicht unabhängig nachvollzogen werden.",
+        "kind": "open"
+      },
+      {
+        "text": "Offen bleibt, wie die Studie methodisch angelegt ist und welche Bundesländer im Detail erfasst wurden.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie wurde die Studie methodisch angelegt (Stichprobengröße, Befragungszeitraum, Branchenverteilung)?",
+      "Welche vollständige regionale Aufschlüsselung liegt vor, über Oberösterreich und Salzburg hinaus?",
+      "Wie genau ist 'Nachfolgelösung' in der Studie definiert – reine Absichtserklärung oder bereits eingeleiteter Prozess?",
+      "Was leistet die im Bericht genannte Nachfolge-Taskforce des Wirtschaftsministeriums konkret, und mit welchem Zeitplan?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Oberösterreich",
+        "type": "media",
+        "url": "https://ooe.orf.at/stories/3363091"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/bis-2030-muss-fast-jedes-zweite-unternehmen-einen-nachfolger-finden/403176666"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Knapp jede zweite kleine oder mittelständische Firma in Österreich braucht laut Studie bis 2030 eine Nachfolgelösung.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen Medien übereinstimmend berichtet, wobei beide sich erkennbar auf dieselbe Studie beziehen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Oberösterreich und Salzburg sind laut den Quellen überdurchschnittlich von anstehenden Nachfolgen betroffen.",
+        "status": "partial",
+        "note": "Diese regionale Zuspitzung wird nur im ORF-Bericht explizit genannt, eine zweite unabhängige Bestätigung liegt nicht vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Rund 692.000 Arbeitsplätze in etwa 51.000 Betrieben hängen laut Berichten von einer gelingenden Unternehmensnachfolge ab.",
+        "status": "unclear",
+        "note": "Diese Zahl ist in den vorliegenden Kurzfassungen der Quellen nicht direkt einsehbar und konnte nicht anhand der Originalstudie geprüft werden.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Rund 40 Prozent der Unternehmen planen laut Studie eine externe Nachfolge über Investoren oder Management- bzw. Mitarbeiterbeteiligung statt einer familieninternen Übergabe.",
+        "status": "unclear",
+        "note": "Auch diese Detailzahl liegt nicht in den unmittelbar zugänglichen Kurzfassungen vor und wurde nicht an der Originalstudie verifiziert.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Das Wirtschaftsministerium hat Anfang 2026 gemeinsam mit Wirtschaftskammer und Junger Wirtschaft eine Taskforce zum Thema Unternehmensnachfolge eingerichtet.",
+        "status": "unclear",
+        "note": "Diese politische Reaktion wird in den Berichten erwähnt, konnte aber nicht anhand einer offiziellen Verlautbarung des Ministeriums bestätigt werden.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut einer Studie, die der Gläubigerschützer Creditreform und das Beratungsunternehmen CH Consult vorgelegt haben, steht für knapp die Hälfte der österreichischen Klein- und Mittelbetriebe bis zum Jahr 2030 eine Nachfolgelösung an. Das berichteten ORF Oberösterreich und der Kurier übereinstimmend. Besonders betroffen seien demnach Betriebe in Oberösterreich und Salzburg, wo der Anteil der vor einer Nachfolge stehenden Unternehmen laut ORF-Bericht überdurchschnittlich hoch sei."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Beide herangezogenen Medien stützen sich erkennbar auf dieselbe Studien-Mitteilung von Creditreform und CH Consult, sodass die Kernaussage – rund jede zweite Firma benötigt bis 2030 eine Nachfolge – von zwei unabhängigen Redaktionen wiedergegeben wird. In den Kurzfassungen der Berichte finden sich zudem Hinweise darauf, dass ein beträchtlicher Teil der Unternehmen inzwischen auf externe Nachfolgelösungen setzt, etwa über Investoren oder eine Beteiligung des Managements bzw. der Belegschaft, statt auf eine klassische familieninterne Übergabe. Genannt werden in Zusammenhang mit dieser Entwicklung auch Größenordnungen von mehreren Hunderttausend betroffenen Arbeitsplätzen sowie Zehntausenden Betrieben, ebenso wie eine vom Wirtschaftsministerium mitgetragene Taskforce zum Thema."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Die Originalstudie von Creditreform und CH Consult liegt nicht zur eigenen Einsicht vor, weshalb sich weder die Stichprobengröße noch der genaue Befragungszeitraum oder die Branchenverteilung nachvollziehen lassen. Auch die konkreten Zahlen zu betroffenen Arbeitsplätzen und Betrieben sowie der Anteil externer Nachfolgemodelle stammen aus Medienberichten und konnten anhand der vorliegenden Kurzfassungen nicht eigenständig verifiziert werden. Offen ist zudem, wie vollständig die regionale Datenlage über Oberösterreich und Salzburg hinaus ist und wie konkret die genannte Nachfolge-Taskforce des Wirtschaftsministeriums arbeitet."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Frage der Unternehmensnachfolge gilt in Österreich seit Jahren als strukturelles Thema für den Mittelstand, insbesondere angesichts der demografischen Entwicklung bei Betriebsinhabern. Die aktuell berichtete Studie reiht sich in diese Debatte ein und liefert nach vorliegenden Quellen einen weiteren Anhaltspunkt dafür, dass klassische familieninterne Übergaben an Bedeutung verlieren. Da sowohl die Zahlenbasis als auch die Perspektive im Wesentlichen von den Studienauftraggebern selbst stammt, lässt sich eine unabhängige Einordnung, etwa durch Wirtschaftsforschung oder betroffene Unternehmerinnen und Unternehmer, aus den vorliegenden Berichten nicht ableiten."
+      }
+    ],
+    "bodyKompakt": "Laut einer Studie von Creditreform und CH Consult braucht knapp jede zweite kleine oder mittelständische Firma in Österreich bis 2030 eine Nachfolgelösung. Besonders betroffen seien laut ORF-Bericht Betriebe in Oberösterreich und Salzburg. Die Kernaussage wird von ORF und Kurier unabhängig voneinander wiedergegeben, beide stützen sich aber erkennbar auf dieselbe Studien-Mitteilung.\n\nIn den Berichten ist zudem von einem wachsenden Anteil externer Nachfolgelösungen die Rede, etwa über Investoren oder eine Beteiligung von Management und Belegschaft, sowie von größeren Zahlen betroffener Arbeitsplätze und Betriebe und einer Taskforce des Wirtschaftsministeriums zum Thema. Diese Detailzahlen und die genannte politische Initiative ließen sich anhand der vorliegenden Kurzfassungen nicht eigenständig überprüfen.\n\nDie Originalstudie liegt nicht zur eigenen Einsicht vor, weshalb Methodik, Stichprobe und vollständige regionale Verteilung offen bleiben. Die Berichterstattung beruht im Kern auf der Darstellung der Studienauftraggeber selbst.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-18T04:07:34.816Z"
+}

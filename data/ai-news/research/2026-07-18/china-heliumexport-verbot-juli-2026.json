@@ -1,0 +1,181 @@
+{
+  "cluster": {
+    "id": "cluster-20260716-0a8fb158",
+    "title": "China verhängt Ausfuhrverbot für Helium",
+    "items": [
+      {
+        "itemId": "d6093b41d412894f9b8cb1155dae1587150648c8517fffc775c134efbd94a80c",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "China verhängt Ausfuhrverbot für Helium",
+        "url": "https://www.diepresse.com/37721447/china-verhaengt-ausfuhrverbot-fuer-helium",
+        "summary": "Die Exportkontrollen auf das wichtige Gas sollen die inländische Versorgung\nsicherstellen, heißt es aus Peking.",
+        "publishedAt": "2026-07-16T09:29:54.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "0ad6db3e38d203890319625caa114a0d8e53958eee012aa6807729a8aba02090",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Versorgungsengpass: China verbietet Helium-Ausfuhr",
+        "url": "https://kurier.at/wirtschaft/china-export-helium-import-katar-computer-chips/403176475",
+        "summary": "Peking reagiert auf die schwierige Versorgungslage als Folge des Iran-Kriegs. Mehr als 85 Prozent des chinesischen Bedarfs werden importiert.",
+        "publishedAt": "2026-07-16T09:45:42.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "31872179b9587d28beed5e0f658f5aa09d54fa79f50e5bf2b8f399487828d684",
+        "sourceId": "kurier_wirtschaft",
+        "sourceType": "media",
+        "title": "Versorgungsengpass: China verbietet Helium-Ausfuhr",
+        "url": "https://kurier.at/wirtschaft/china-export-helium-import-katar-computer-chips/403176475",
+        "summary": "Peking reagiert auf die schwierige Versorgungslage als Folge des Iran-Kriegs. Mehr als 85 Prozent des chinesischen Bedarfs werden importiert.",
+        "publishedAt": "2026-07-16T09:45:42.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Neue, substanzreich dokumentierte Meldung mit klarer EU-/Chipindustrie-Relevanz. Zwei österreichische Quellen (Die Presse, Kurier) mit vollständigen Fulltext-Excerpts; explizite Zitate vom chinesischen Handelsministerium-Sprecher He Yadong; analytischer Kontext (Trivium). Keine verwandte Story vorhanden (relatedStories leer). Ausreichend Nachrichtenwert und Quellenlage für einen eigenständigen Artikel. Kein vorhandener Artikel zu aktualisieren.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "China führt sofort ein vorübergehendes Ausfuhrverbot für Helium in Kraft",
+      "China importiert über 85 % seines Heliumbedarfs",
+      "Etwa die Hälfte der chinesischen Helium-Importe stammt aus Katar",
+      "Helium ist für die Chipproduktion essentiell (Kühlung, Reinheit)",
+      "Nachfrage nach Helium steigt wegen des KI-Chip-Booms",
+      "Russland führte im April Exportbeschränkungen auf Helium ein",
+      "Versorgungslage ist wegen des Iran-Kriegs angespannt"
+    ],
+    "missingSources": [
+      "Detaillierte Auswirkungsanalyse auf europäische/österreichische Chipproduktion",
+      "Offizielle Stellungnahme von EU-Institutionen oder europäischen Chipherstellern",
+      "Globale Helium-Angebotsmengen und aktuelle Marktpreise",
+      "Vollständige Chronologie der russischen Exportbeschränkung (April 2026)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "china-heliumexport-verbot-juli-2026",
+    "title": "China verhängt Ausfuhrverbot für Helium",
+    "description": "China hat laut übereinstimmenden Medienberichten ein Ausfuhrverbot für Helium verhängt. Peking begründet den Schritt mit der Sicherung der inländischen Versorgung; Details zu Dauer und internationalen Auswirkungen sind derzeit offen.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei unabhängig berichtende österreichische Medien (Die Presse, Kurier) stimmen im Kernfaktum überein, dass China ein Ausfuhrverbot verhängt hat; eine offizielle chinesische Quelle wurde dafür aber nicht selbst eingesehen, und einzelne Detailzahlen stammen nur aus einem der beiden Berichte.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt gelesene Aussendung des chinesischen Handelsministeriums oder sonstige Primärquelle vor, sondern nur zwei Kurzmeldungen österreichischer Medien.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die vorliegenden Berichte geben im Kern die Darstellung Pekings wieder; eine Einordnung durch Chipindustrie, EU-Stellen oder andere betroffene Länder fehlt in den Quellen.",
+    "sensitivity": "medium",
+    "sensitivity_note": null,
+    "summary": [
+      {
+        "text": "Laut übereinstimmenden Berichten von Die Presse und Kurier hat China ein Ausfuhrverbot für Helium verhängt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Peking begründet den Schritt den Berichten zufolge mit der Sicherstellung der inländischen Versorgung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Kurier importiert China mehr als 85 Prozent seines Heliumbedarfs, was die Abhängigkeit von Lieferungen aus dem Ausland erklären soll.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und in welchem Ausmaß der Iran-Krieg die aktuelle Versorgungslage tatsächlich verschärft hat, lässt sich anhand der vorliegenden Kurzmeldungen nicht abschließend klären.",
+        "kind": "open"
+      },
+      {
+        "text": "Welche Rolle Katar als bisheriger Lieferant und welche Folgen der Schritt für die internationale Chipproduktion hat, bleibt offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lange soll das chinesische Ausfuhrverbot für Helium gelten?",
+      "Welche konkreten Auswirkungen hat der Schritt auf die europäische bzw. österreichische Chipindustrie?",
+      "Welche Rolle spielt Katar als bisheriger Helium-Lieferant Chinas, und wie wirkt sich der Schritt auf diese Lieferbeziehung aus?",
+      "Wie hängt eine im April 2026 berichtete russische Exportbeschränkung für Helium mit dem aktuellen chinesischen Schritt zusammen?",
+      "Liegt eine offizielle Stellungnahme des chinesischen Handelsministeriums oder von EU-Institutionen vor, die über die Medienberichte hinausgeht?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/37721447/china-verhaengt-ausfuhrverbot-fuer-helium"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/china-export-helium-import-katar-computer-chips/403176475"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "China hat ein Ausfuhrverbot für Helium verhängt.",
+        "status": "supported",
+        "note": "Wird von zwei unabhängig berichtenden österreichischen Medien übereinstimmend gemeldet, jedoch ohne direkt eingesehene offizielle chinesische Quelle.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Peking begründet den Schritt mit der Sicherstellung der inländischen Heliumversorgung.",
+        "status": "partial",
+        "note": "Nur eine der beiden Quellen paraphrasiert diese Begründung, ein wörtliches Zitat aus offizieller Quelle liegt nicht vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "China importiert mehr als 85 Prozent seines Heliumbedarfs.",
+        "status": "partial",
+        "note": "Zahl stammt aus einem einzelnen Medienbericht, eine unabhängige Bestätigung oder Primärquelle liegt nicht vor.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Schritt steht im Zusammenhang mit einer durch den Iran-Krieg verschärften Versorgungslage.",
+        "status": "unclear",
+        "note": "Dieser Kausalzusammenhang wird nur von einer Quelle hergestellt und ist anhand der vorliegenden Kurzmeldung nicht weiter belegt.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "China hat laut übereinstimmenden Berichten österreichischer Medien ein Ausfuhrverbot für Helium verhängt. Das Gas gilt als wichtiger Rohstoff für zahlreiche industrielle Anwendungen, unter anderem für Kühlprozesse in der Halbleiterfertigung. Die Presse berichtete am 16. Juli 2026, die Exportkontrollen sollten laut Angaben aus Peking die inländische Versorgung sicherstellen. Der Kurier berichtete zeitgleich, Peking reagiere damit auf eine als schwierig beschriebene Versorgungslage."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Beide vorliegenden Quellen bestätigen unabhängig voneinander den Kern der Meldung: China schränkt die Ausfuhr von Helium ein. Der Kurier ergänzt eine zentrale Zahl, wonach mehr als 85 Prozent des chinesischen Heliumbedarfs über Importe gedeckt werden – ein Hinweis auf die strukturelle Abhängigkeit des Landes von ausländischen Lieferungen. Zudem stellt der Kurier einen Zusammenhang mit dem Iran-Krieg her, ohne diesen jedoch im Detail zu belegen. Weiterführende Angaben, etwa zu einzelnen Lieferländern oder zur genauen Ausgestaltung der Exportkontrollen, liegen in den vorliegenden Kurzmeldungen nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie lange das Ausfuhrverbot gelten soll und ob es zeitlich befristet oder unbefristet angelegt ist. Auch die genaue Rolle Katars, das in einer der Quellen im Zusammenhang mit chinesischen Heliumimporten und der Chipproduktion genannt wird, lässt sich aus den vorliegenden Kurzzusammenfassungen nicht näher bestimmen. Eine mögliche Verbindung zu zuvor berichteten russischen Exportbeschränkungen für Helium sowie konkrete Auswirkungen auf die europäische oder österreichische Chipindustrie sind anhand der aktuellen Quellenlage nicht abschließend zu beurteilen. Eine direkt eingesehene offizielle Stellungnahme Chinas liegt nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Sollte sich der Bericht bestätigen, wäre ein chinesisches Ausfuhrverbot für Helium angesichts der globalen Bedeutung des Gases für Hochtechnologie-Branchen ein Vorgang mit potenzieller internationaler Tragweite. Die vorliegende Berichterstattung stützt sich bislang jedoch ausschließlich auf zwei österreichische Medienquellen, die ihrerseits auf nicht näher spezifizierte Angaben aus Peking verweisen. Eine unabhängige Einordnung durch Branchenvertreter, europäische Institutionen oder andere internationale Medien liegt derzeit nicht vor, weshalb die Einschätzung der Tragweite vorsichtig bleiben muss."
+      }
+    ],
+    "bodyKompakt": "China hat laut übereinstimmenden Berichten von Die Presse und Kurier ein Ausfuhrverbot für Helium verhängt. Das Gas wird unter anderem in der Halbleiterfertigung zur Kühlung benötigt. Laut den Berichten soll der Schritt die inländische Versorgung Chinas sicherstellen, das nach Angaben des Kurier mehr als 85 Prozent seines Heliumbedarfs importiert.\n\nDer Kurier stellt zudem einen Zusammenhang mit einer durch den Iran-Krieg verschärften Versorgungslage her, ohne diesen im Detail zu belegen. Eine direkt eingesehene offizielle chinesische Quelle liegt nicht vor, ebenso wenig Angaben zur Dauer des Verbots oder zu den genauen Auswirkungen auf die internationale Chipindustrie.\n\nOffen bleiben insbesondere die Rolle Katars als bisheriger Lieferant, ein möglicher Zusammenhang mit zuvor berichteten russischen Exportbeschränkungen sowie die konkrete Betroffenheit europäischer Abnehmer. Die Einschätzung der internationalen Tragweite bleibt daher vorläufig.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-18T04:07:34.816Z"
+}

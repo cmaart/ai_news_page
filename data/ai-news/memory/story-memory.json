@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T02:18:52.628Z",
+  "updatedAt": "2026-07-18T04:18:05.441Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -807,7 +807,9 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-15T18:07:25.047Z",
       "doNotUpdateBefore": "2026-07-15T00:07:25.047Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kurier": "2026-07-18T04:07:34.816Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-15T22:07:29.036Z"
@@ -1087,13 +1089,13 @@
       "echoPublishers": {}
     },
     "israel-warnung-iranischer-mordkomplott-trump-juli-2026": {
-      "canonicalTitle": "Israel warnt vor iranischem Mordkomplott gegen Trump – Details bleiben unklar",
+      "canonicalTitle": "Mordkomplott gegen Trump: Iranische Agentur veröffentlicht Video zu möglicher Tötungsroute",
       "slug": "israel-warnung-iranischer-mordkomplott-trump-juli-2026",
       "firstSeenAt": "2026-07-10T04:35:58.876Z",
-      "lastUpdatedAt": "2026-07-11T10:07:28.043Z",
+      "lastUpdatedAt": "2026-07-18T04:07:34.816Z",
       "status": "published",
       "articlePath": "src/content/articles/israel-warnung-iranischer-mordkomplott-trump-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-11/israel-warnung-iranischer-mordkomplott-trump-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-18/israel-warnung-iranischer-mordkomplott-trump-juli-2026-update-400.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000330895/israel-warnte-trump-vor-iranischem-mordkomplott",
         "https://www.diepresse.com/36398683/israel-warnt-trump-vor-iranischem-mordkomplott",
@@ -1105,17 +1107,25 @@
         "https://www.cnn.com/2026/07/09/politics/trump-assassination-plot-iran-israel",
         "https://www.cnn.com/2026/07/10/politics/israel-intelligence-threats-trump-iran",
         "https://thehill.com/homenews/administration/5963258-trump-iran-assassination-military-action/",
-        "https://www.npr.org/2026/02/28/nx-s1-5730158/israel-iran-strikes-trump-us"
+        "https://www.npr.org/2026/02/28/nx-s1-5730158/israel-iran-strikes-trump-us",
+        "https://www.diepresse.com/38006400/iranische-nachrichtenagentur-veroeffentlicht-video-wo-trump-getoetet-werden-koennte",
+        "https://kurier.at/politik/ausland/iranisches-medium-fars-video-trump-toetung-telegram/403176711",
+        "https://www.profil.at/ausland/iranischer-regimegegner-krieg-iran-usa-donald-trump/403176571",
+        "https://www.t-online.de/nachrichten/ausland/usa/id_101348154/iranische-agentur-veroeffentlicht-trumps-fahrtroute-mit-aufruf-zur-toetung.html",
+        "https://www.zdfheute.de/politik/trump-iran-anschlag-plaene-mullahs-100.html",
+        "https://english.aawsat.com/world/5297131-irans-fars-news-agency-publishes-video-titled-where-do-we-kill-trump"
       ],
       "openQuestions": [
         "Wie konkret und belastbar war die von Israel übermittelte Information tatsächlich?",
         "Welches Motiv hatte Israel, gerade jetzt vor einem Anschlag zu warnen?",
-        "Wie positioniert sich die iranische Regierung zu den Vorwürfen?",
-        "Bleibt die Waffenruhe endgültig beendet oder kommt es zu neuen Verhandlungen?"
+        "Wie positioniert sich die iranische Regierung zu den Vorwürfen und zum Fars-Video?",
+        "Bleibt die Waffenruhe endgültig beendet oder kommt es zu neuen Verhandlungen?",
+        "Ist die im Fars-Video gezeigte Route real oder eine ungenaue bzw. propagandistische Darstellung?",
+        "Wie reagieren US-Sicherheitsbehörden (Secret Service) konkret auf das Video?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-12T10:07:28.043Z",
-      "doNotUpdateBefore": "2026-07-11T16:07:28.043Z",
+      "doNotRedraftBefore": "2026-07-19T04:07:34.816Z",
+      "doNotUpdateBefore": "2026-07-18T10:07:34.816Z",
       "echoPublishers": {}
     },
     "usa-iran-hormuz-ultimatum-atomdeal-juli-2026": {
@@ -1481,7 +1491,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T16:07:27.817Z"
+      "resonanceMeasuredAt": "2026-07-18T04:07:34.816Z"
     },
     "kuba-zweiter-blackout-juli-2026": {
       "canonicalTitle": "Kuba: Zweiter inselweiter Stromausfall binnen einer Woche",
@@ -6858,6 +6868,74 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-19T02:07:24.551Z",
       "doNotUpdateBefore": "2026-07-18T08:07:24.551Z"
+    },
+    "unternehmensnachfolge-oesterreich-studie-2030": {
+      "canonicalTitle": "Studie: Fast jede zweite österreichische Firma braucht bis 2030 eine Nachfolgelösung",
+      "slug": "unternehmensnachfolge-oesterreich-studie-2030",
+      "firstSeenAt": "2026-07-18T04:07:34.816Z",
+      "lastUpdatedAt": "2026-07-18T04:07:34.816Z",
+      "status": "published",
+      "articlePath": "src/content/articles/unternehmensnachfolge-oesterreich-studie-2030.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/unternehmensnachfolge-oesterreich-studie-2030.json",
+      "sourceUrls": [
+        "https://ooe.orf.at/stories/3363091",
+        "https://kurier.at/wirtschaft/bis-2030-muss-fast-jedes-zweite-unternehmen-einen-nachfolger-finden/403176666"
+      ],
+      "openQuestions": [
+        "Wie wurde die Studie methodisch angelegt (Stichprobengröße, Befragungszeitraum, Branchenverteilung)?",
+        "Welche vollständige regionale Aufschlüsselung liegt vor, über Oberösterreich und Salzburg hinaus?",
+        "Wie genau ist 'Nachfolgelösung' in der Studie definiert – reine Absichtserklärung oder bereits eingeleiteter Prozess?",
+        "Was leistet die im Bericht genannte Nachfolge-Taskforce des Wirtschaftsministeriums konkret, und mit welchem Zeitplan?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-19T04:07:34.816Z",
+      "doNotUpdateBefore": "2026-07-18T10:07:34.816Z"
+    },
+    "china-heliumexport-verbot-juli-2026": {
+      "canonicalTitle": "China verhängt Ausfuhrverbot für Helium",
+      "slug": "china-heliumexport-verbot-juli-2026",
+      "firstSeenAt": "2026-07-18T04:07:34.816Z",
+      "lastUpdatedAt": "2026-07-18T04:07:34.816Z",
+      "status": "published",
+      "articlePath": "src/content/articles/china-heliumexport-verbot-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-18/china-heliumexport-verbot-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/37721447/china-verhaengt-ausfuhrverbot-fuer-helium",
+        "https://kurier.at/wirtschaft/china-export-helium-import-katar-computer-chips/403176475"
+      ],
+      "openQuestions": [
+        "Wie lange soll das chinesische Ausfuhrverbot für Helium gelten?",
+        "Welche konkreten Auswirkungen hat der Schritt auf die europäische bzw. österreichische Chipindustrie?",
+        "Welche Rolle spielt Katar als bisheriger Helium-Lieferant Chinas, und wie wirkt sich der Schritt auf diese Lieferbeziehung aus?",
+        "Wie hängt eine im April 2026 berichtete russische Exportbeschränkung für Helium mit dem aktuellen chinesischen Schritt zusammen?",
+        "Liegt eine offizielle Stellungnahme des chinesischen Handelsministeriums oder von EU-Institutionen vor, die über die Medienberichte hinausgeht?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-19T04:07:34.816Z",
+      "doNotUpdateBefore": "2026-07-18T10:07:34.816Z"
+    },
+    "cluster-20260716-a610a14b": {
+      "canonicalTitle": "Betrunkener Pkw-Lenker erfasste Radfahrer",
+      "slug": "cluster-20260716-a610a14b",
+      "firstSeenAt": "2026-07-18T04:07:34.816Z",
+      "lastUpdatedAt": "2026-07-18T04:07:34.816Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://noe.orf.at/stories/3362955",
+        "https://noe.orf.at/stories/3362955",
+        "https://kurier.at/chronik/niederoesterreich/tulln-pkw-radfahrer-notarzthubschrauber/403176484"
+      ],
+      "openQuestions": [
+        "Polizeimitteilung (indirekt via ORF/Kurier vorhanden, aber nicht als Volltext-Primärquelle)",
+        "Verkehrssicherheitsstatistiken für Niederösterreich (regional und überregional)",
+        "Häufigkeitsanalyse: Sind Alkoholfahrten in NOE über längeren Zeitraum gestiegen?",
+        "Saisonale/Wochentags-Muster (Nacht/Wochenend-Häufungen?)",
+        "Ursachen und strukturelle Faktoren für betrunkene Fahrweise",
+        "Polizei-Präventionsmaßnahmen und Kontrolltätigkeit",
+        "Status und Prognose der Opfer nach Spitalsbehandlung",
+        "Justiz-Updates und Verurteilungen (laufende Verfahren, noch nicht vorhanden)"
+      ],
+      "sensitivity": "medium"
     }
   }
 }
