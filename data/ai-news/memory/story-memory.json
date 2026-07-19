@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-19T12:22:59.412Z",
+  "updatedAt": "2026-07-19T14:20:45.218Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1480,9 +1480,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T16:07:27.817Z",
       "doNotUpdateBefore": "2026-07-17T22:07:27.817Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-18T12:07:30.176Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-18T18:07:27.613Z"
@@ -4178,7 +4176,9 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-18T04:07:33.034Z",
       "doNotUpdateBefore": "2026-07-17T10:07:33.034Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "techcrunch": "2026-07-19T14:07:25.145Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
@@ -5296,11 +5296,12 @@
       "doNotUpdateBefore": "2026-07-19T16:07:28.852Z",
       "echoPublishers": {
         "diepresse": "2026-07-19T08:07:29.752Z",
-        "derstandard": "2026-07-19T10:07:28.852Z"
+        "derstandard": "2026-07-19T14:07:25.145Z",
+        "kleinezeitung": "2026-07-19T14:07:25.145Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-19T10:07:28.852Z"
+      "resonanceMeasuredAt": "2026-07-19T14:07:25.145Z"
     },
     "cluster-20260715-88f5f82e": {
       "canonicalTitle": "Nobelpreisträger Hassabis schlägt unabhängige Organisation zur KI-Regulierung vor",
@@ -6240,7 +6241,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-18T04:07:33.034Z",
-      "doNotUpdateBefore": "2026-07-17T10:07:33.034Z"
+      "doNotUpdateBefore": "2026-07-17T10:07:33.034Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-19T14:07:25.145Z"
+      }
     },
     "cluster-20260716-23665043": {
       "canonicalTitle": "Von Solarenergie zu Gasturbinen: Elon Musk kauft fossiles Energieunternehmen",
@@ -6758,14 +6762,12 @@
       "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
       "echoPublishers": {
         "orf": "2026-07-18T14:07:30.241Z",
-        "derstandard": "2026-07-18T12:07:30.176Z",
-        "diepresse": "2026-07-18T12:07:30.176Z",
         "kleinezeitung": "2026-07-18T16:07:30.663Z",
         "kurier": "2026-07-18T14:07:30.241Z"
       },
       "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T12:07:30.176Z"
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-19T14:07:25.145Z"
     },
     "landwirt-steiermark-rinderherde-toedlich-verletzt-juli-2026": {
       "canonicalTitle": "Landwirt in der Steiermark vermutlich von Rinderherde tödlich verletzt",
@@ -6851,9 +6853,9 @@
       "doNotRedraftBefore": "2026-07-19T12:07:30.176Z",
       "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
       "echoPublishers": {},
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T12:07:30.176Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-19T14:07:25.145Z"
     },
     "wien-e-bike-leihraeder-verdoppelt-juli-2026": {
       "canonicalTitle": "Wien verdoppelt E-Bike-Flotte der WienMobil-Leihräder auf 600 Stück",
@@ -7189,13 +7191,13 @@
       "doNotUpdateBefore": "2026-07-18T16:07:28.883Z"
     },
     "kraus-grabher-kitzbuehel-finale-juli-2026": {
-      "canonicalTitle": "Rein österreichisches Finale: Kraus und Grabher kämpfen in Kitzbühel um den Titel",
+      "canonicalTitle": "Kraus gewinnt rein österreichisches Kitzbühel-Finale gegen Grabher",
       "slug": "kraus-grabher-kitzbuehel-finale-juli-2026",
       "firstSeenAt": "2026-07-18T14:07:30.241Z",
-      "lastUpdatedAt": "2026-07-18T14:07:30.241Z",
+      "lastUpdatedAt": "2026-07-19T14:07:25.145Z",
       "status": "published",
       "articlePath": "src/content/articles/kraus-grabher-kitzbuehel-finale-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/kraus-grabher-kitzbuehel-finale-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-19/kraus-grabher-kitzbuehel-finale-juli-2026-update-1400.json",
       "sourceUrls": [
         "https://sport.orf.at/stories/3160294",
         "https://www.derstandard.at/story/3000000332005/sinja-kraus-steht-im-finale-von-kitzbuehel",
@@ -7205,22 +7207,29 @@
         "https://kurier.at/sport/tennis/tennis-kitzbuehel-sinja-kraus-julia-grabher/403176774",
         "https://www.derstandard.at/story/3000000331957/sinja-kraus-und-julia-grabher-stehen-in-kitzbuehel-schon-im-semifinale",
         "https://sport.orf.at/stories/3160292",
-        "https://www.oetv.at/news-detail/generali-open-ladies-kitzbuehel-kraus-und-grabher-im-halbfinale"
+        "https://www.oetv.at/news-detail/generali-open-ladies-kitzbuehel-kraus-und-grabher-im-halbfinale",
+        "https://vorarlberg.orf.at/stories/3363354",
+        "https://www.derstandard.at/story/3000000332066/sinja-kraus-gewinnt-kitzbuehel-finale-gegen-landsfrau-julia-grabher",
+        "https://www.derstandard.at/story/3000000331659/tennis-grabher-besiegte-perelygina-im-kitzb252hel-achtelfinale-7563",
+        "https://vorarlberg.orf.at/stories/3363279",
+        "https://www.derstandard.at/story/3000000332005/sinja-kraus-und-julia-grabher-stehen-im-finale-von-kitzbuehel",
+        "https://www.wtatennis.com/players/327061/sinja-kraus/stats",
+        "https://www.sn.at/sport/tennis/kraus-und-grabher-stehen-im-finale-von-kitzbuehel-art-662874"
       ],
       "openQuestions": [
-        "Welche exakte Weltranglisten-Position erreicht Sinja Kraus durch den Finaleinzug in Kitzbühel?",
-        "Wie geht das Finale zwischen Kraus und Grabher am Sonntag aus?"
+        "Wer war vor Kraus zuletzt eine österreichische Siegerin in Kitzbühel, und wie lange liegt dieser Erfolg tatsächlich zurück? Verschiedene Quellen nennen unterschiedliche Zeiträume und Namen.",
+        "Sind die berichteten Zahlen zu Preisgeld (rund 13.480 Euro) und WTA-Punkten (125) für Kraus durch eine offizielle Turnier- oder Verbandsquelle bestätigt?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-19T14:07:30.241Z",
-      "doNotUpdateBefore": "2026-07-18T20:07:30.241Z",
+      "doNotRedraftBefore": "2026-07-20T14:07:25.145Z",
+      "doNotUpdateBefore": "2026-07-19T20:07:25.145Z",
       "echoPublishers": {
-        "orf": "2026-07-18T16:07:30.663Z",
-        "derstandard": "2026-07-18T16:07:30.663Z"
+        "orf": "2026-07-19T14:07:25.145Z",
+        "derstandard": "2026-07-19T14:07:25.145Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T16:07:30.663Z"
+      "resonanceMeasuredAt": "2026-07-19T14:07:25.145Z"
     },
     "messerattacke-wien-innenstadt-juli-2026": {
       "canonicalTitle": "18-Jähriger nach Messerattacke auf 20-Jährigen in Wiener Innenstadt festgenommen",
@@ -7862,6 +7871,60 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-20T12:07:28.466Z",
       "doNotUpdateBefore": "2026-07-19T18:07:28.466Z"
+    },
+    "westbahn-linz-st-valentin-normalbetrieb-juli-2026": {
+      "canonicalTitle": "Westbahnstrecke Linz–St. Valentin ab Montag wieder im Normalbetrieb",
+      "slug": "westbahn-linz-st-valentin-normalbetrieb-juli-2026",
+      "firstSeenAt": "2026-07-19T14:07:25.145Z",
+      "lastUpdatedAt": "2026-07-19T14:07:25.145Z",
+      "status": "published",
+      "articlePath": "src/content/articles/westbahn-linz-st-valentin-normalbetrieb-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/westbahn-linz-st-valentin-normalbetrieb-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332053/zugstrecke-linz-st-valentin-ab-montag-wieder-im-normalbetrieb",
+        "https://www.diepresse.com/38320848/zugverkehr-zwischen-linz-und-st-valentin-ab-montag-wieder-im-normalbetrieb",
+        "https://kurier.at/chronik/oesterreich/oebb-weststrecke-linz-st-valentin-normalbetrieb/403176959",
+        "https://www.diepresse.com/37968162/westbahnstrecke-zwischen-st-valentin-und-linz-teilweise-lahmgelegt",
+        "https://www.derstandard.at/story/3000000331875/westbahnstrecke-zwischen-st-valentin-und-linz-teilweise-lahmgelegt",
+        "https://www.derstandard.at/story/3000000332000/oberleitung-gerissen-westbahnstrecke-zwischen-linz-und-st-valentin-weiter-im-notmodus",
+        "https://kurier.at/chronik/niederoesterreich/westbahn-oebb-st-valentin-linz-schienenersatz/403176881",
+        "https://ooe.orf.at/stories/3363262/"
+      ],
+      "openQuestions": [
+        "Wie viele Züge und Fahrgäste waren insgesamt von den Einschränkungen betroffen?",
+        "Welche technischen Details liegen zum Schaden am Stellwerk vor und wie kam es zu der Kettenreaktion mit der Oberleitung?",
+        "Gab es nach der Wiederinbetriebnahme am Montag tatsächlich keine weiteren Verzögerungen?",
+        "Wurde eine ÖBB-Presseaussendung mit offiziellen Details veröffentlicht, die über die Medienzitate hinausgeht?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-20T14:07:25.145Z",
+      "doNotUpdateBefore": "2026-07-19T20:07:25.145Z"
+    },
+    "mali-hinterhalt-soldaten-getoetet-juli-2026": {
+      "canonicalTitle": "Mindestens 50 Soldaten bei Hinterhalt auf Militärkonvoi in Mali getötet",
+      "slug": "mali-hinterhalt-soldaten-getoetet-juli-2026",
+      "firstSeenAt": "2026-07-19T14:07:25.145Z",
+      "lastUpdatedAt": "2026-07-19T14:07:25.145Z",
+      "status": "published",
+      "articlePath": "src/content/articles/mali-hinterhalt-soldaten-getoetet-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/mali-hinterhalt-soldaten-getoetet-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332043/mindestens-50-soldaten-in-mali-bei-jihadisten-angriff-getoetet",
+        "https://kurier.at/politik/ausland/soldaten-mali-jihadisten-angriff-getoetet/403176953",
+        "https://orf.at/stories/3436621",
+        "https://www.aljazeera.com/news/2026/7/18/armed-groups-attack-malian-military-convoy-in-gao-region",
+        "https://abcnews.com/International/wireStory/mali-rebels-ambush-army-convoy-killing-capturing-scores-134873385",
+        "https://www.france24.com/en/africa/20260501-common-enemy-but-not-common-project-fragile-jihadist-separatist-alliance-in-mali"
+      ],
+      "openQuestions": [
+        "Wurden gefangene Soldaten, wie in Teilen der Berichterstattung angedeutet, hingerichtet – oder handelt es sich um unbestätigte Behauptungen?",
+        "Wie hoch ist die tatsächliche, unabhängig verifizierte Opferzahl, da bislang vor allem Sicherheitsquellen und die angreifenden Gruppen selbst zitiert werden?",
+        "Welche Rolle spielten russische Africa-Corps-Kräfte konkret bei dem Konvoi, und gab es Koordinationsprobleme mit der malischen Armee?",
+        "Wie reagieren malische Regierung, UN oder Afrikanische Union offiziell auf den Angriff?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-20T14:07:25.145Z",
+      "doNotUpdateBefore": "2026-07-19T20:07:25.145Z"
     }
   }
 }
