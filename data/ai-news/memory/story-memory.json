@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-19T16:22:11.423Z",
+  "updatedAt": "2026-07-19T18:20:11.715Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1844,7 +1844,6 @@
       "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
       "echoPublishers": {
         "orf": "2026-07-19T06:07:24.917Z",
-        "kleinezeitung": "2026-07-18T18:07:27.613Z",
         "derstandard": "2026-07-19T06:07:24.917Z",
         "diepresse": "2026-07-19T12:07:28.466Z"
       },
@@ -3031,9 +3030,9 @@
       "doNotRedraftBefore": "2026-07-19T18:07:27.613Z",
       "doNotUpdateBefore": "2026-07-19T00:07:27.613Z",
       "echoPublishers": {},
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T18:07:27.613Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-19T18:07:30.423Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -5295,13 +5294,14 @@
       "doNotRedraftBefore": "2026-07-20T10:07:28.852Z",
       "doNotUpdateBefore": "2026-07-19T16:07:28.852Z",
       "echoPublishers": {
-        "diepresse": "2026-07-19T08:07:29.752Z",
+        "diepresse": "2026-07-19T18:07:30.423Z",
         "derstandard": "2026-07-19T14:07:25.145Z",
-        "kleinezeitung": "2026-07-19T14:07:25.145Z"
+        "kleinezeitung": "2026-07-19T14:07:25.145Z",
+        "kurier": "2026-07-19T18:07:30.423Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-19T14:07:25.145Z"
+      "resonanceMeasuredAt": "2026-07-19T18:07:30.423Z"
     },
     "cluster-20260715-88f5f82e": {
       "canonicalTitle": "Nobelpreisträger Hassabis schlägt unabhängige Organisation zur KI-Regulierung vor",
@@ -5544,9 +5544,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-17T09:31:48.821Z",
       "doNotUpdateBefore": "2026-07-16T15:31:48.821Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-18T16:07:30.663Z"
-      }
+      "echoPublishers": {}
     },
     "hegseth-testosterontest-us-soldaten-2026": {
       "canonicalTitle": "US-Verteidigungsminister Hegseth ordnet Testosteron-Screening für Soldaten ab 30 an – erste Kritik aus dem Kongress",
@@ -6244,7 +6242,10 @@
       "doNotUpdateBefore": "2026-07-17T10:07:33.034Z",
       "echoPublishers": {
         "diepresse": "2026-07-19T14:07:25.145Z"
-      }
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-19T18:07:30.423Z"
     },
     "cluster-20260716-23665043": {
       "canonicalTitle": "Von Solarenergie zu Gasturbinen: Elon Musk kauft fossiles Energieunternehmen",
@@ -6728,10 +6729,10 @@
       "canonicalTitle": "Nach Kritik an Leihmutterschaft: Jens Spahn tritt als Unionsfraktionschef zurück",
       "slug": "jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026",
       "firstSeenAt": "2026-07-17T18:07:24.935Z",
-      "lastUpdatedAt": "2026-07-18T12:07:30.176Z",
+      "lastUpdatedAt": "2026-07-19T18:07:30.423Z",
       "status": "published",
       "articlePath": "src/content/articles/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026-update-1200.json",
+      "researchPath": "data/ai-news/research/2026-07-19/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026-update-1800.json",
       "sourceUrls": [
         "https://www.diepresse.com/37960570/wenn-das-private-zum-politikum-wird-jens-spahn-die-cdu-und-der-wirbel-um-die-leihmutterschaft-fuer-seinen-sohn",
         "https://www.kleinezeitung.at/artikel/37905005/als-minister-lehnte-er-leihmutterschaft-ab-jens-spahn-und-sein-mann",
@@ -6748,25 +6749,30 @@
         "https://www.tagesspiegel.de/politik/nach-kritik-wegen-leihmutterschaft-unionsfraktionschef-jens-spahn-tritt-zuruck-15848089.html",
         "https://www.handelsblatt.com/politik/deutschland/debatte-um-leihmutterschaft-spahn-tritt-als-unionsfraktionschef-zurueck/100241201.html",
         "https://www.zdfheute.de/politik/deutschland/wachsende-kritik-jens-spahn-leihmutterschaft-100.html",
-        "https://www.tagesspiegel.de/politik/berlin-brandenburg-merz-fordert-unionsfraktionschef-spahn-zum-rucktritt-auf-15852397.html"
+        "https://www.tagesspiegel.de/politik/berlin-brandenburg-merz-fordert-unionsfraktionschef-spahn-zum-rucktritt-auf-15852397.html",
+        "https://www.derstandard.at/story/3000000332056/der-ruecktritt-von-jens-spahn-als-fraktionschef-war-unvermeidlich",
+        "https://kurier.at/politik/ausland/spahn-cdu-leihmutterschaft-ruecktritt-deutschland/403176878",
+        "https://www.kleinezeitung.at/artikel/38287305/der-fall-des-jens-spahn-war-unabwendbar",
+        "https://www.tagesspiegel.de/politik/nach-kritik-wegen-leihmutterschaft-kanzler-merz-nennt-spahns-rucktritt-unvermeidlich-15848089.html",
+        "https://www.onvista.de/news/2026/07-19-csu-politiker-hoffmann-unionsfraktion-ist-handlungsfaehig-0-10-26533626",
+        "https://www.zdfheute.de/politik/spahn-merz-ruecktritt-cdu-fraktion-nachfolger-100.html"
       ],
       "openQuestions": [
-        "Wer wird dauerhaft neuer Fraktionsvorsitzender von CDU/CSU im Bundestag?",
-        "Ist die berichtete Übergangslösung, wonach CSU-Landesgruppenchef Alexander Hoffmann die laufenden Geschäfte übernimmt, offiziell von der Fraktion bestätigt?",
+        "Wer wird dauerhaft neuer Fraktionsvorsitzender von CDU/CSU im Bundestag – Thorsten Frei, Carsten Linnemann, Alexander Dobrindt oder eine andere Person?",
+        "Fällt die Nachfolgeentscheidung, wie berichtet, tatsächlich noch im Juli 2026 vor Merz' geplantem Urlaub?",
         "Wie genau lief die interne Entscheidungsfindung zwischen Merz und Spahn ab – eigene Entscheidung, direkte Aufforderung oder beides?",
         "Welche genauen Umstände (Agentur, Kosten, rechtliche Elternschaft) lagen der Leihmutterschaft zugrunde? Das ist weiterhin nicht abschließend verifiziert.",
         "Wird der ähnlich gelagerte, von Streeck selbst nicht bestätigte Fall politisch oder rechtlich weiterverfolgt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-19T12:07:30.176Z",
-      "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
+      "doNotRedraftBefore": "2026-07-20T18:07:30.423Z",
+      "doNotUpdateBefore": "2026-07-20T00:07:30.423Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-18T16:07:30.663Z",
         "derstandard": "2026-07-19T16:07:26.434Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-19T16:07:26.434Z"
+      "resonanceMeasuredAt": "2026-07-19T18:07:30.423Z"
     },
     "landwirt-steiermark-rinderherde-toedlich-verletzt-juli-2026": {
       "canonicalTitle": "Landwirt in der Steiermark vermutlich von Rinderherde tödlich verletzt",
@@ -7165,7 +7171,6 @@
       "doNotUpdateBefore": "2026-07-19T22:07:26.434Z",
       "echoPublishers": {
         "derstandard": "2026-07-19T16:07:26.434Z",
-        "diepresse": "2026-07-18T16:07:30.663Z",
         "kurier": "2026-07-19T16:07:26.434Z"
       },
       "resonanceLevel": 1,
@@ -7233,7 +7238,8 @@
       "doNotUpdateBefore": "2026-07-19T20:07:25.145Z",
       "echoPublishers": {
         "orf": "2026-07-19T14:07:25.145Z",
-        "derstandard": "2026-07-19T14:07:25.145Z"
+        "derstandard": "2026-07-19T14:07:25.145Z",
+        "kurier": "2026-07-19T18:07:30.423Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "triage",
@@ -7966,6 +7972,59 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-20T16:07:26.434Z",
       "doNotUpdateBefore": "2026-07-19T22:07:26.434Z"
+    },
+    "waldbrand-spanien-guadalajara-madrid-juli-2026": {
+      "canonicalTitle": "Waldbrand nahe Madrid zerstört mehr als 12.000 Hektar – zeitgleich weiterer Großbrand in Aragonien",
+      "slug": "waldbrand-spanien-guadalajara-madrid-juli-2026",
+      "firstSeenAt": "2026-07-19T18:07:30.423Z",
+      "lastUpdatedAt": "2026-07-19T18:07:30.423Z",
+      "status": "published",
+      "articlePath": "src/content/articles/waldbrand-spanien-guadalajara-madrid-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/waldbrand-spanien-guadalajara-madrid-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/38332276/waldbrand-in-spanien-zerstoert-flaeche-von-mehr-als-13000-hektar",
+        "https://kurier.at/chronik/welt/waldbraende-feuer-zerstoerte-spanien-flaeche-12000-hektar/403176766",
+        "https://orf.at/stories/3436633",
+        "https://www.infobae.com/espana/agencias/2026/07/19/el-incendio-de-guadalajara-continua-en-nivel-2-y-ha-afectado-a-unas-12000-hectareas/",
+        "https://www.eldiario.es/castilla-la-mancha/provincias/guadalajara/pueblo-evacuado-confinado-guadalajara-causa-humo-producido-incendio-forestal_1_13385853.html",
+        "https://www.moncloa.com/2026/07/17/incendio-guadalajara-evacuaciones-parque-natural-3401384",
+        "https://www.infobae.com/espana/2026/07/18/el-incendio-en-ores-zaragoza-afecta-ya-a-mas-de-15000-hectareas-siete-pueblos-evacuados-y-cuatro-en-preaviso/",
+        "https://www.eldiario.es/sociedad/ultima-hora-incendios-espana-fuego-cinco-villas-calcina-7-600-hectareas_133_13386894.html",
+        "https://www.que.es/2026/07/18/incendio-ores-zaragoza-hectareas-desalojos/",
+        "https://www.eldiariodemadrid.es/articulo/medio-ambiente/aemet-alerta-calor-extremo-riesgo-incendios-julio-2026/20260717103504137586.html",
+        "https://www.que.es/2026/07/18/olas-calor-espana-2026-aemet/",
+        "https://www.infobae.com/espana/2026/07/10/el-peor-incendio-de-la-historia-de-andalucia-arrasa-casi-4000-hectareas-en-almeria-y-deja-12-muertos/"
+      ],
+      "openQuestions": [
+        "Wie hoch ist die endgültige verbrannte Fläche, sobald beide Brände als unter Kontrolle gelten?",
+        "Gab es im Zusammenhang mit dem Brand bei Guadalajara Verletzte oder Todesfälle?",
+        "Welche Ortschaften mussten über die erste Evakuierungswelle hinaus dauerhaft geräumt bleiben?",
+        "Welche konkreten Schäden entstanden im Naturpark Sierra Norte de Guadalajara, etwa an dort vorkommenden geschützten Arten?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-20T18:07:30.423Z",
+      "doNotUpdateBefore": "2026-07-20T00:07:30.423Z"
+    },
+    "monsun-indien-tote-juli-2026": {
+      "canonicalTitle": "Monsun-Regen in Indien: Mindestens 19 Tote nach Überschwemmungen und Erdrutschen",
+      "slug": "monsun-indien-tote-juli-2026",
+      "firstSeenAt": "2026-07-19T18:07:30.423Z",
+      "lastUpdatedAt": "2026-07-19T18:07:30.423Z",
+      "status": "published",
+      "articlePath": "src/content/articles/monsun-indien-tote-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/monsun-indien-tote-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332080/monsun-regen-in-indien-mindestens-19-menschen-ums-leben-gekommen",
+        "https://www.diepresse.com/38340425/monsun-regen-mindestens-19-tote-in-indien"
+      ],
+      "openQuestions": [
+        "Wie hoch ist das genaue Schadensausmaß an Infrastruktur und Gebäuden?",
+        "Wird die Opferzahl von offizieller indischer Seite noch bestätigt oder revidiert?",
+        "Wie entwickelt sich die Regenlage in Jammu und Kaschmir in den kommenden Tagen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-20T18:07:30.423Z",
+      "doNotUpdateBefore": "2026-07-20T00:07:30.423Z"
     }
   }
 }
