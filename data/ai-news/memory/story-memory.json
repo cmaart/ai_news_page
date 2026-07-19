@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-19T10:20:48.219Z",
+  "updatedAt": "2026-07-19T12:22:59.412Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1847,7 +1847,8 @@
       "echoPublishers": {
         "orf": "2026-07-19T06:07:24.917Z",
         "kleinezeitung": "2026-07-18T18:07:27.613Z",
-        "derstandard": "2026-07-19T06:07:24.917Z"
+        "derstandard": "2026-07-19T06:07:24.917Z",
+        "diepresse": "2026-07-19T12:07:28.466Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -3031,9 +3032,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-19T18:07:27.613Z",
       "doNotUpdateBefore": "2026-07-19T00:07:27.613Z",
-      "echoPublishers": {
-        "heise": "2026-07-18T10:07:28.883Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-18T18:07:27.613Z"
@@ -6672,12 +6671,10 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-19T10:07:28.883Z",
       "doNotUpdateBefore": "2026-07-18T16:07:28.883Z",
-      "echoPublishers": {
-        "heise": "2026-07-18T10:07:28.883Z"
-      },
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-19T12:07:28.466Z"
     },
     "cluster-20260717-17968fc7": {
       "canonicalTitle": "Behörden vermuten Salat als Auslöser der Durchfallwelle in den USA",
@@ -7418,13 +7415,14 @@
       "canonicalTitle": "Mann bedroht Ehefrau in Wien-Ottakring mit Axt",
       "slug": "wien-ottakring-mann-bedroht-ehefrau-mit-axt-juli-2026",
       "firstSeenAt": "2026-07-18T22:07:29.919Z",
-      "lastUpdatedAt": "2026-07-18T22:07:29.919Z",
+      "lastUpdatedAt": "2026-07-19T12:07:28.466Z",
       "status": "published",
       "articlePath": "src/content/articles/wien-ottakring-mann-bedroht-ehefrau-mit-axt-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/wien-ottakring-mann-bedroht-ehefrau-mit-axt-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-19/wien-ottakring-mann-bedroht-ehefrau-mit-axt-juli-2026-update-1200.json",
       "sourceUrls": [
         "https://wien.orf.at/stories/3363276",
-        "https://kurier.at/chronik/wien/mann-bedrohte-ehefrau-mit-axt-mit-dem-umbringen/403176867"
+        "https://kurier.at/chronik/wien/mann-bedrohte-ehefrau-mit-axt-mit-dem-umbringen/403176867",
+        "https://www.derstandard.at/story/3000000332048/42-promille-betrunkener-mann-bedrohte-ehefrau-mit-k252chenmesser"
       ],
       "openQuestions": [
         "Wurde der Mann festgenommen, und welche rechtlichen Schritte (z. B. Betretungs- und Annäherungsverbot, Waffenverbot) folgten gegebenenfalls?",
@@ -7432,8 +7430,11 @@
         "Wie ist der weitere strafrechtliche Fortgang des Falls?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-19T22:07:29.919Z",
-      "doNotUpdateBefore": "2026-07-19T04:07:29.919Z"
+      "doNotRedraftBefore": "2026-07-20T12:07:28.466Z",
+      "doNotUpdateBefore": "2026-07-19T18:07:28.466Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-19T12:07:28.466Z"
+      }
     },
     "fifa-social-media-loeschungen-wm-2026-juli-2026": {
       "canonicalTitle": "FIFA meldet mehr als sieben Millionen gelöschte Hass-Beiträge zur WM 2026",
@@ -7503,26 +7504,36 @@
       "doNotUpdateBefore": "2026-07-19T06:07:25.261Z"
     },
     "fall-balogun-trump-dankt-infantino-wm-2026": {
-      "canonicalTitle": "Fall Balogun: Trump dankt Infantino öffentlich für Aufhebung der Rotsperre",
+      "canonicalTitle": "Fall Balogun: Trump dankt Infantino – ÖFB-Chef Pröll fordert \"lupenreine Aufarbeitung\" vor Unterstützung für Infantino",
       "slug": "fall-balogun-trump-dankt-infantino-wm-2026",
       "firstSeenAt": "2026-07-19T02:07:30.949Z",
-      "lastUpdatedAt": "2026-07-19T02:07:30.949Z",
+      "lastUpdatedAt": "2026-07-19T12:07:28.466Z",
       "status": "published",
       "articlePath": "src/content/articles/fall-balogun-trump-dankt-infantino-wm-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-19/fall-balogun-trump-dankt-infantino-wm-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-19/fall-balogun-trump-dankt-infantino-wm-2026-update-1200.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331988/fu223ball-wm-fall-balogun-trump-dankt-infantino-f252r-entscheidung",
-        "https://sport.orf.at/stories/3160283"
+        "https://sport.orf.at/stories/3160283",
+        "https://www.derstandard.at/story/3000000332051/fu223ball-wm-presse-pr246ll-fordert-lupenreine-aufarbeitung",
+        "https://www.derstandard.at/story/3000000331995/fu223ball-wm-220ber-200-unterst252tzerschreiben-f252r-infantino-guardian",
+        "https://www.derstandard.at/story/3000000331995/trotz-balogun-causa-offenbar-ueber-200-unterstuetzerschreiben-fuer-fifa-praesident-infantino",
+        "https://www.kleinezeitung.at/artikel/38281245/ohne-fifa-fakten-keine-unterstuetzung-fuer-gianni-infantino",
+        "https://www.diepresse.com/37957359/oefb-chef-josef-proell-fifa-und-infantino-muessen-alle-fakten-auf-den-tisch-legen",
+        "https://www.sportschau.de/fussball/fifa-wm-2026/wohl-mehr-als-200-unterstuetzerschreiben-fuer-infantino,wm-guardian-mehr-als-200-unterstuetzerschreiben-fuer-infantino-100.html",
+        "https://www.sportschau.de/fussball/fifa-wm-2026/im-fall-balogun-entschied-wohl-ein-einzelrichter,wm-balogun-einzelrichter-disziplinarkomitee-100.html",
+        "https://www.zdfheute.de/sport/fussball-wm/wm-fifa-neuendorf-dfb-neuendorf-wiederwahl-100.html"
       ],
       "openQuestions": [
-        "Was genau wurde zwischen Trump und Infantino besprochen, und gab es tatsächlich eine direkte Empfehlung zur Aufhebung der Sperre?",
-        "Auf welcher sportrechtlichen Grundlage hat die Disziplinarkommission die ursprüngliche Rotsperre aufgehoben?",
-        "Wie haben der belgische Verband, die UEFA oder andere europäische Stimmen auf die Entscheidung reagiert?",
-        "Gab es eine offizielle, im Wortlaut einsehbare FIFA-Erklärung zur Unabhängigkeit der Disziplinarkommission in diesem Fall?"
+        "Welche konkreten Fakten wird die FIFA im Fall Balogun vorlegen, und erfüllt sie damit Prölls Forderung nach einer \"lupenreinen Aufarbeitung\"?",
+        "Wie reagieren Infantino oder die FIFA offiziell auf die öffentliche Kritik des ÖFB-Chefs?",
+        "War die Entscheidung des Einzelrichters, gestützt auf Artikel 27, regelkonform, oder hätte das gesamte 18-köpfige Disziplinargremium einbezogen werden müssen?",
+        "Wie kam es tatsächlich zu den mehr als 200 Unterstützerschreiben – gab es, wie berichtet, Druck durch FIFA-Mitarbeiter auf einzelne Verbände?",
+        "Wird der ÖFB ein eigenes Unterstützerschreiben für Infantinos Wiederwahl 2027 unterzeichnen oder verweigern, wie es der DFB bereits getan hat?",
+        "Wie haben weitere europäische Verbände oder die UEFA über die Causa hinausgehend Stellung bezogen?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-20T02:07:30.949Z",
-      "doNotUpdateBefore": "2026-07-19T08:07:30.949Z"
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-20T12:07:28.466Z",
+      "doNotUpdateBefore": "2026-07-19T18:07:28.466Z"
     },
     "indien-vikram-1-erststart-juli-2026": {
       "canonicalTitle": "Indien: Erster Start einer privat entwickelten Trägerrakete gemeldet",
@@ -7821,7 +7832,36 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-20T10:07:28.852Z",
-      "doNotUpdateBefore": "2026-07-19T16:07:28.852Z"
+      "doNotUpdateBefore": "2026-07-19T16:07:28.852Z",
+      "echoPublishers": {
+        "orf": "2026-07-19T12:07:28.466Z"
+      }
+    },
+    "wien-wieden-angriff-alois-drasche-park-juli-2026": {
+      "canonicalTitle": "Angriff im Wiener Alois-Drasche-Park: Mann soll mehrere Frauen und Polizistin attackiert haben",
+      "slug": "wien-wieden-angriff-alois-drasche-park-juli-2026",
+      "firstSeenAt": "2026-07-19T12:07:28.466Z",
+      "lastUpdatedAt": "2026-07-19T12:07:28.466Z",
+      "status": "published",
+      "articlePath": "src/content/articles/wien-wieden-angriff-alois-drasche-park-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/wien-wieden-angriff-alois-drasche-park-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332046/mann-in-wiener-park-biss-frau-und-attackierte-polizistin",
+        "https://kurier.at/chronik/wien/wien-wieden-mann-belaestige-frauen-gebissen/403176952",
+        "https://kurier.at/chronik/wien/frau-und-kinder-von-ex-mann-in-wien-attackiert-taeter-fluechtig/403176743",
+        "https://wien.orf.at/stories/3363136",
+        "https://www.meinbezirk.at/wieden/c-lokales/gespuckt-gebissen-massakriert-auf-der-wieden-war-die-nacht-wild_a8805114",
+        "https://www.suedtirolnews.it/chronik/auf-drogen-mann-in-wien-biss-frau-und-attackierte-beamtin"
+      ],
+      "openQuestions": [
+        "Wurde der von der Polizei vor Ort vermutete Suchtmittelkonsum labortechnisch bestätigt?",
+        "Wie schwer wurden die betroffene 29-Jährige und die verletzte Polizeibeamtin tatsächlich verletzt, und war eine stationäre Behandlung nötig?",
+        "Wurde gegen den Mann Untersuchungshaft verhängt, und wie ist der weitere Stand des Ermittlungs- bzw. Strafverfahrens?",
+        "Liegt inzwischen eine offizielle Stellungnahme der Landespolizeidirektion Wien oder der Staatsanwaltschaft vor, die über die Medienberichte hinausgeht?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-20T12:07:28.466Z",
+      "doNotUpdateBefore": "2026-07-19T18:07:28.466Z"
     }
   }
 }
