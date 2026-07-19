@@ -1,0 +1,201 @@
+{
+  "cluster": {
+    "id": "cluster-20260719-1a930269",
+    "title": "Mindestens ein Todesopfer bei schwerem Erdbeben in Peru",
+    "items": [
+      {
+        "itemId": "5dffc9466ee84d992daf57c015b8eace17a62ed3060959dd9af48a42854ebe9c",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Mindestens ein Todesopfer bei schwerem Erdbeben in Peru",
+        "url": "https://www.derstandard.at/story/3000000332030/mindestens-ein-todesopfer-bei-schwerem-erdbeben-in-peru",
+        "summary": "Laut Medienberichten stürzten mehrere Gebäude ein. Es soll mindestens ein Todesopfer und mehrere Verletzte geben",
+        "publishedAt": "2026-07-19T06:26:23.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "39b6244db88a5f91e57b89ec416050ba26056105d59ebdc32946321874b4f0c6",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Mindestens ein Todesopfer bei schwerem Erdbeben in Peru",
+        "url": "https://www.derstandard.at/story/3000000332030/mindestens-ein-todesopfer-bei-schwerem-erdbeben-in-peru",
+        "summary": "Laut Medienberichten stürzten mehrere Gebäude ein. Es soll mindestens ein Todesopfer und mehrere Verletzte geben",
+        "publishedAt": "2026-07-19T06:26:23.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "6c27b333d00f9704e18235398014f396cb5cc7f4b594aee16b4d0e51901094e4",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Schweres Erdbeben erschütterte Peru: Ein Toter",
+        "url": "https://orf.at/stories/3436599",
+        "isNew": false
+      },
+      {
+        "itemId": "109a3c722283d424a17ef499a07b8df0d658fb0aad901fa1f5f637ef7d2aaab7",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Schweres Erdbeben erschüttert Südwesten von Peru",
+        "url": "https://www.diepresse.com/38304965/schweres-erdbeben-erschuettert-suedwesten-von-peru",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Naturkatastrophe mit Todesopfer und Sachschaden. Solide österreichische Medienabdeckung (der Standard, ORF, Die Presse) mit konsistentem Reporting: Magnitude 5,1–5,5, 1 Toter, mehrere Verletzte, Gebäudeeinstürze südwestlich Perus (nahe Chupaca, Region Junin, Pazifischer Feuerring). fulltextExcerpt enthält konkrete Details (IGP/USGS-Daten, Tiefe 24 km, Zeitstempel). Kein direkter Österreich-Bezug, aber internationale Naturkatastrophe mit Todesopfern hat Nachrichtenwert. relatedStories-Kandidat (Taifun Bavi China/Philippinen) ist thematisch unverwandt → kein update.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Ein schweres Erdbeben der Magnitude 5,1–5,5 hat den Südwesten Perus erschüttert",
+      "Das Beben ereignete sich circa 24 Kilometer südlich des Ortes Chupaca in der Region Junin",
+      "Mindestens ein Todesopfer ist zu beklagen",
+      "Mehrere Gebäude sind eingefallen",
+      "Mehrere Menschen wurden verletzt"
+    ],
+    "missingSources": [
+      "Exakte Zahl der Todesopfer (bislang: mindestens ein)",
+      "Exakte Zahl der Verletzten",
+      "Zahl und Art der beschädigten/eingefallenen Gebäude",
+      "Offizielle Gesamtschadenshöhe",
+      "Einsatz und Status von Rettungsoperationen",
+      "Behördliche Reaktionen (Notstand, Evakuierungen)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "erdbeben-peru-junin-juli-2026",
+    "title": "Schweres Erdbeben trifft Südwesten Perus – mindestens ein Toter",
+    "description": "Ein Erdbeben hat die Region Junín im Südwesten Perus erschüttert. Laut Medienberichten stürzten Gebäude ein, mindestens eine Person kam ums Leben, mehrere wurden verletzt.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Drei österreichische Medien (der Standard, ORF, Die Presse) berichten übereinstimmend über Todesopfer und Gebäudeeinsturz, es ist aber nicht auszuschließen, dass sie sich auf dieselbe Agenturmeldung stützen; eine direkt eingesehene Primärquelle (IGP oder USGS) zum konkreten Beben konnte nicht gefunden werden.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegen ausschließlich Medienberichte vor; eine Web-Suche nach der offiziellen Meldung des peruanischen Geophysik-Instituts IGP oder einem passenden USGS-Ereignis-Eintrag zu diesem Beben blieb erfolglos.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Alle vorliegenden Berichte stammen aus derselben Kurzmeldungs-Perspektive (Agenturartige Kurzmeldung), es gibt keine Stimmen von Behörden, Betroffenen oder Rettungskräften vor Ort.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein schweres Erdbeben hat den Südwesten Perus, die Region Junín, erschüttert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Medienberichten kam mindestens eine Person ums Leben, mehrere wurden verletzt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Mehrere Gebäude sollen eingestürzt sein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Exakte Opferzahlen, Ausmaß der Schäden und der Stand von Rettungsmaßnahmen sind derzeit nicht abschließend verifiziert.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie viele Menschen wurden tatsächlich verletzt oder getötet?",
+      "Wie viele Gebäude sind eingestürzt oder beschädigt worden?",
+      "Welche exakte Magnitude und Tiefe hatte das Beben laut IGP bzw. USGS?",
+      "Haben peruanische Behörden Notstand, Evakuierungen oder Rettungseinsätze angeordnet?",
+      "Gibt es Folgebeben oder eine Gefährdungseinschätzung für die betroffene Region?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard: Mindestens ein Todesopfer bei schwerem Erdbeben in Peru",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000332030/mindestens-ein-todesopfer-bei-schwerem-erdbeben-in-peru"
+      },
+      {
+        "id": "src2",
+        "name": "ORF: Schweres Erdbeben erschütterte Peru: Ein Toter",
+        "type": "media",
+        "url": "https://orf.at/stories/3436599"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse: Schweres Erdbeben erschüttert Südwesten von Peru",
+        "type": "media",
+        "url": "https://www.diepresse.com/38304965/schweres-erdbeben-erschuettert-suedwesten-von-peru"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein schweres Erdbeben hat den Südwesten Perus erschüttert.",
+        "status": "supported",
+        "note": "Wird von drei unabhängigen österreichischen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Mindestens eine Person kam durch das Beben ums Leben.",
+        "status": "supported",
+        "note": "Übereinstimmend von allen drei Quellen berichtet, allerdings ohne offizielle Bestätigung durch peruanische Behörden.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Mehrere Menschen wurden bei dem Beben verletzt.",
+        "status": "supported",
+        "note": "Wird in den Kurzmeldungen übereinstimmend genannt, konkrete Zahl bleibt offen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Mehrere Gebäude sind eingestürzt.",
+        "status": "partial",
+        "note": "Wird berichtet, Zahl und Art der betroffenen Gebäude sind aber nicht näher beziffert.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Das Epizentrum lag nahe der Stadt Chupaca in der Region Junín.",
+        "status": "unclear",
+        "note": "Diese genaue Verortung stammt aus der Cluster-Triage, konnte aber in der Web-Suche nicht über eine Primärquelle (IGP/USGS) verifiziert werden.",
+        "sourceIds": [
+          "src3"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Im Südwesten Perus hat sich laut übereinstimmenden Medienberichten ein schweres Erdbeben ereignet. Der Standard, der ORF und Die Presse berichteten am Vormittag des 19. Juli 2026 von mehreren eingestürzten Gebäuden sowie von mindestens einem Todesopfer und mehreren Verletzten. Genannt wird als betroffenes Gebiet die Region Junín im Südwesten des Landes; einzelne Berichte verorten das Epizentrum in der Nähe der Stadt Chupaca. Eine unabhängig eingesehene amtliche Bestätigung dieser genauen Verortung liegt derzeit nicht vor."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Drei österreichische Medien berichten inhaltlich übereinstimmend über das Kernereignis: ein schweres Erdbeben, mindestens ein Todesopfer, mehrere Verletzte, eingestürzte Gebäude. Diese Übereinstimmung stützt die Grundaussage des Ereignisses. Allerdings handelt es sich bei allen drei Berichten um knappe Kurzmeldungen mit ähnlichem Aufbau, die möglicherweise auf dieselbe zugrunde liegende Agenturmeldung zurückgehen – eine tatsächliche Unabhängigkeit der Quellen im engeren Sinn lässt sich daraus nicht zweifelsfrei ableiten. Eine gezielte Suche nach der zugehörigen Meldung des peruanischen Geophysik-Instituts (IGP) oder einem passenden Ereignis-Eintrag des US Geological Survey (USGS) für dieses konkrete Beben blieb ergebnislos."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen sind die exakte Magnitude und Tiefe des Bebens, die genaue Zahl der Todesopfer und Verletzten, das Ausmaß der Gebäudeschäden sowie der Stand allfälliger Rettungs- und Hilfsmaßnahmen. Auch eine mögliche Reaktion peruanischer Behörden – etwa die Ausrufung eines Notstands oder Evakuierungen – ist bislang nicht durch eine eingesehene offizielle Quelle bestätigt. Die in der Themenrecherche genannte Lokalisierung nahe Chupaca in der Region Junín stammt aus vorläufigen Angaben und ist nicht abschließend verifiziert."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Peru liegt am Pazifischen Feuerring und zählt zu den seismisch aktivsten Regionen der Welt; Erdbeben unterschiedlicher Stärke sind dort keine Seltenheit. Die Berichterstattung zu diesem Ereignis befindet sich noch in einem frühen Stadium: Die vorliegenden Angaben stammen ausschließlich aus ersten Medienmeldungen, nicht aus behördlich bestätigten Zahlen. Dieser Artikel wird bei Vorliegen belastbarerer Informationen – etwa einer offiziellen Bilanz peruanischer Behörden – zu aktualisieren sein."
+      }
+    ],
+    "bodyKompakt": "Im Südwesten Perus hat sich laut übereinstimmenden Medienberichten ein schweres Erdbeben ereignet. Der Standard, der ORF und Die Presse berichteten am 19. Juli 2026 von mehreren eingestürzten Gebäuden sowie von mindestens einem Todesopfer und mehreren Verletzten. Als betroffenes Gebiet wird die Region Junín im Südwesten Perus genannt, einzelne Berichte verorten das Epizentrum nahe der Stadt Chupaca – eine amtliche Bestätigung dieser genauen Verortung liegt derzeit nicht vor.\n\nDie drei österreichischen Medien stimmen im Kernereignis überein, es handelt sich jedoch um knappe Kurzmeldungen, die möglicherweise auf derselben Agenturmeldung beruhen. Eine gezielte Suche nach einer Bestätigung durch das peruanische Geophysik-Institut IGP oder einen passenden USGS-Eintrag zu diesem konkreten Beben blieb ergebnislos.\n\nOffen bleiben die exakte Magnitude und Tiefe des Bebens, die genaue Zahl der Opfer, das Ausmaß der Schäden sowie behördliche Reaktionen wie ein möglicher Notstand. Peru liegt am Pazifischen Feuerring und ist seismisch besonders aktiv. Die vorliegenden Angaben stammen ausschließlich aus ersten Medienmeldungen und sind nicht abschließend verifiziert; eine Aktualisierung bei belastbareren Informationen ist vorgesehen.",
+    "updateNote": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-19T08:07:29.752Z"
+}
