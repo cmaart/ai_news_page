@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-19T00:18:52.269Z",
+  "updatedAt": "2026-07-19T02:16:45.668Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -5769,9 +5769,9 @@
       "doNotRedraftBefore": "2026-07-19T02:07:24.551Z",
       "doNotUpdateBefore": "2026-07-18T08:07:24.551Z",
       "echoPublishers": {},
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T02:07:24.551Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-19T02:07:30.949Z"
     },
     "sebastian-kurz-dementiert-comeback-juli-2026": {
       "canonicalTitle": "Kurz weist Comeback-Gerüchte zurück: „Möchte nicht mehr in die Politik“",
@@ -7486,6 +7486,74 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-20T00:07:25.261Z",
       "doNotUpdateBefore": "2026-07-19T06:07:25.261Z"
+    },
+    "fall-balogun-trump-dankt-infantino-wm-2026": {
+      "canonicalTitle": "Fall Balogun: Trump dankt Infantino öffentlich für Aufhebung der Rotsperre",
+      "slug": "fall-balogun-trump-dankt-infantino-wm-2026",
+      "firstSeenAt": "2026-07-19T02:07:30.949Z",
+      "lastUpdatedAt": "2026-07-19T02:07:30.949Z",
+      "status": "published",
+      "articlePath": "src/content/articles/fall-balogun-trump-dankt-infantino-wm-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/fall-balogun-trump-dankt-infantino-wm-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000331988/fu223ball-wm-fall-balogun-trump-dankt-infantino-f252r-entscheidung",
+        "https://sport.orf.at/stories/3160283"
+      ],
+      "openQuestions": [
+        "Was genau wurde zwischen Trump und Infantino besprochen, und gab es tatsächlich eine direkte Empfehlung zur Aufhebung der Sperre?",
+        "Auf welcher sportrechtlichen Grundlage hat die Disziplinarkommission die ursprüngliche Rotsperre aufgehoben?",
+        "Wie haben der belgische Verband, die UEFA oder andere europäische Stimmen auf die Entscheidung reagiert?",
+        "Gab es eine offizielle, im Wortlaut einsehbare FIFA-Erklärung zur Unabhängigkeit der Disziplinarkommission in diesem Fall?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-20T02:07:30.949Z",
+      "doNotUpdateBefore": "2026-07-19T08:07:30.949Z"
+    },
+    "indien-vikram-1-erststart-juli-2026": {
+      "canonicalTitle": "Indien: Erster Start einer privat entwickelten Trägerrakete gemeldet",
+      "slug": "indien-vikram-1-erststart-juli-2026",
+      "firstSeenAt": "2026-07-19T02:07:30.949Z",
+      "lastUpdatedAt": "2026-07-19T02:07:30.949Z",
+      "status": "published",
+      "articlePath": "src/content/articles/indien-vikram-1-erststart-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/indien-vikram-1-erststart-juli-2026.json",
+      "sourceUrls": [
+        "https://www.heise.de/news/Indiens-erste-private-entwickelte-Traegerrakete-gestartet-11369894.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.derstandard.at/story/3000000331994/indiens-erste-privat-gebaute-orbital-rakete-erfolgreich-gestartet"
+      ],
+      "openQuestions": [
+        "Wurde der Start und die erreichte Umlaufbahn von der indischen Raumfahrtbehörde Isro oder Skyroot Aerospace offiziell bestätigt?",
+        "Wie viele Nutzlasten befanden sich tatsächlich an Bord und welche Funktion hatten sie im Detail?",
+        "Ist die Einstufung Indiens als drittes Land mit privater Orbitalstart-Kapazität durch weitere, unabhängige Quellen gedeckt?",
+        "Welche technischen Parameter (Nutzlastkapazität, erreichte Umlaufbahn) lassen sich unabhängig verifizieren?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-20T02:07:30.949Z",
+      "doNotUpdateBefore": "2026-07-19T08:07:30.949Z"
+    },
+    "china-ki-dominanz-usa-xi-jinping-juli-2026": {
+      "canonicalTitle": "China und die KI-Dominanz: Wie Xi Jinping die USA herausfordern will",
+      "slug": "china-ki-dominanz-usa-xi-jinping-juli-2026",
+      "firstSeenAt": "2026-07-19T02:07:30.949Z",
+      "lastUpdatedAt": "2026-07-19T02:07:30.949Z",
+      "status": "published",
+      "articlePath": "src/content/articles/china-ki-dominanz-usa-xi-jinping-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/china-ki-dominanz-usa-xi-jinping-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/38245306/so-will-china-die-us-dominanz-bei-kuenstlicher-intelligenz-brechen",
+        "https://www.diepresse.com/37952199/chinas-staatschef-xi-jinping-kuenstliche-intelligenz-muss-sicher-und-kontrollierbar-sein",
+        "https://www.diepresse.com/37690691/china-will-die-dominanz-der-usa-bei-kuenstlicher-intelligenz-brechen",
+        "https://www.diepresse.com/37690691/china-will-mit-guenstiger-ki-die-dominanz-der-usa-brechen"
+      ],
+      "openQuestions": [
+        "Welchen genauen Wortlaut und Kontext hatte Xi Jinpings Aussage zu 'sicherer und kontrollierbarer' KI?",
+        "Welche konkreten wirtschaftlichen Maßnahmen (Preisstrategie, Exportförderung, Investitionen) stehen hinter der chinesischen KI-Offensive?",
+        "Gibt es – wie in ersten Rechercheansätzen vermutet – eine neue internationale Organisation oder Initiative rund um chinesische KI-Standards, und welche Staaten wären daran beteiligt?",
+        "Wie reagieren US-Regierung und US-Unternehmen offiziell auf die chinesische Strategie?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-20T02:07:30.949Z",
+      "doNotUpdateBefore": "2026-07-19T08:07:30.949Z"
     }
   }
 }
