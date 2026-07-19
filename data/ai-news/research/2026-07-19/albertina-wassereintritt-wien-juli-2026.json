@@ -1,0 +1,180 @@
+{
+  "cluster": {
+    "id": "cluster-20260718-16e27665",
+    "title": "Wassereintritt nach Starkregen bei der Albertina in Wien",
+    "items": [
+      {
+        "itemId": "3fdc63d829f4417347c97447268ee092be71a694625bc229ba2f2f5d3ed878c6",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Wassereintritt nach Starkregen bei der Albertina in Wien",
+        "url": "https://www.kleinezeitung.at/artikel/38241223/kein-schaden-nach-wassereintritt-bei-albertina",
+        "summary": "Mit Wasser hat die Albertina leidvolle Erfahrung – so war der Tiefenspeicher im Jahr 2009 betroffen.",
+        "publishedAt": "2026-07-18T05:25:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "59968b1decbef7b71ed6b5509187560452ecd6f6032ee4c99877e19146adb396",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Wassereintritt in der Albertina",
+        "url": "https://wien.orf.at/stories/3363192",
+        "isNew": false
+      },
+      {
+        "itemId": "0bbbef6a3a4e035d17e8f5fce3cfaac0f45af7d552fa6739442bee24a20f00d6",
+        "sourceId": "orf_wien",
+        "sourceType": "media",
+        "title": "Wassereintritt in der Albertina",
+        "url": "https://wien.orf.at/stories/3363192",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Wassereintritt bei der Albertina nach Starkregen am 17. Juli 2026 – Schutzmaßnahmen greifen, keine Kunstschäden. Österreich-relevanter Kultur-Nachrichtenfall mit guter Quellenabdeckung (ORF, Kleine Zeitung) und Substanz (Früherkennung, Kunstsicherung, historischer Kontext 2009).",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Wassereintritt in der Propter Homines Halle der Albertina nach Starkregen am 17. Juli 2026",
+      "Etwa 10 Kunstwerke wurden vorsorglich abgehängt",
+      "Detektoren am Dach ermöglichten rechtzeitige Warnung",
+      "Keine Beschädigungen an Kunstwerken",
+      "Seit dem Wassereinbruch 2009 wurden umfangreiche Schutzmaßnahmen implementiert (Türen, Wasserabführsystem, Detektoren)",
+      "Kunstwerke sollten Samstag zurückkehren"
+    ],
+    "missingSources": []
+  },
+  "draft": {
+    "slugSuggestion": "albertina-wassereintritt-wien-juli-2026",
+    "title": "Wassereintritt nach Starkregen: Albertina in Wien laut Berichten ohne Kunstschäden",
+    "description": "Nach Starkregen kam es in der Albertina in Wien zu einem Wassereintritt. Medien berichten übereinstimmend vom Vorfall und von keinen Schäden an Kunstwerken, Details zu Ausmaß und Schutzmaßnahmen bleiben aus den vorliegenden Quellen unklar.",
+    "topic": "kultur",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige Medien (Kleine Zeitung und ORF) berichten übereinstimmend über den Wassereintritt selbst, was diesen Kernpunkt solide stützt; Detailangaben wie Zahl der abgehängten Werke oder Wirksamkeit von Schutzsystemen finden sich nur in einer Quelle bzw. gar nicht in den vorliegenden Kurzfassungen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine gelesene Stellungnahme der Albertina selbst vor, nur Kurzfassungen von Medienberichten ohne Web-Recherche der Primärquelle.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die verfügbare Berichterstattung zeichnet überwiegend die beruhigende Darstellung eines Museums ohne Schäden nach, eine direkte Einschätzung der Albertina selbst liegt nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Nach Starkregen kam es am 17. Juli 2026 laut Medienberichten zu einem Wassereintritt in der Albertina in Wien.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Kleine Zeitung berichtet, dass keine Schäden an Kunstwerken entstanden seien.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bereits 2009 war der Tiefenspeicher der Albertina von einem Wassereinbruch betroffen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Unklar bleibt, wie viele Kunstwerke vorsorglich abgehängt wurden und ob technische Frühwarnsysteme dabei ausschlaggebend waren.",
+        "kind": "open"
+      },
+      {
+        "text": "Unklar bleibt, wann ausgelagerte Werke an ihren ursprünglichen Ort zurückkehren.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie viele Kunstwerke wurden tatsächlich vorsorglich abgehängt oder ausgelagert?",
+      "Haben seit 2009 installierte technische Systeme (Detektoren, Wasserabführsystem) beim aktuellen Vorfall tatsächlich zur Schadensvermeidung beigetragen?",
+      "Wann kehren ausgelagerte Werke an ihren Platz zurück?",
+      "Gibt es eine offizielle Stellungnahme der Albertina zum Vorfall und zum Ausmaß des Wassereintritts?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/38241223/kein-schaden-nach-wassereintritt-bei-albertina"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3363192"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Nach Starkregen kam es am 17. Juli 2026 zu einem Wassereintritt in der Albertina in Wien.",
+        "status": "supported",
+        "note": "Wird von zwei unabhängigen Medien (Kleine Zeitung, ORF) berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "An Kunstwerken entstanden keine Beschädigungen.",
+        "status": "partial",
+        "note": "Nur von der Kleinen Zeitung explizit berichtet, die ORF-Kurzfassung enthält dazu keine eigene Aussage.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Rund zehn Kunstwerke wurden vorsorglich abgehängt.",
+        "status": "unclear",
+        "note": "In den vorliegenden Kurzfassungen der Quellen nicht bestätigt, konnte nicht unabhängig verifiziert werden.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Seit dem Wassereinbruch 2009 wurden bauliche und technische Schutzmaßnahmen wie Detektoren und ein Wasserabführsystem umgesetzt.",
+        "status": "unclear",
+        "note": "Kein Beleg in den vorliegenden Quellenauszügen, keine Primärquelle gelesen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Ausgelagerte Werke sollten am Samstag zurückkehren.",
+        "status": "unclear",
+        "note": "In den verfügbaren Kurzfassungen nicht enthalten und nicht verifizierbar.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Nach Starkregen kam es laut übereinstimmenden Medienberichten am 17. Juli 2026 zu einem Wassereintritt in der Albertina in Wien. Betroffen war offenbar erneut ein Bereich des Museums, der bereits 2009 durch eindringendes Wasser beeinträchtigt worden war. Die Kleine Zeitung und der ORF berichteten über den Vorfall, ohne bislang Schäden an den dort verwahrten oder ausgestellten Kunstwerken zu vermelden."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Laut Bericht der Kleinen Zeitung sei es zu keinem Schaden gekommen; das Medium verweist auf die \"leidvolle Erfahrung\" der Albertina mit Wasser und erinnert an den Vorfall im Tiefenspeicher aus dem Jahr 2009. Der ORF berichtete unter dem Titel \"Wassereintritt in der Albertina\" ebenfalls über den Vorfall, ohne in der vorliegenden Kurzfassung nähere Details zu Ausmaß oder Folgen zu nennen. Beide Seiten berichten unabhängig voneinander über den Wassereintritt an sich, was diesem Kernpunkt eine solide Quellenbasis verleiht. Zu Detailfragen wie der Zahl vorsorglich abgehängter Kunstwerke oder zur Gebäudesicherung liegt aus den verfügbaren Kurzfassungen keine belastbare, mehrfach bestätigte Information vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie viele Kunstwerke im Zuge des Vorfalls vorsorglich abgehängt oder ausgelagert wurden - vereinzelt kursieren Angaben von rund zehn Werken, die sich anhand der vorliegenden Quellen aber nicht unabhängig bestätigen ließen. Ebenso unklar bleibt, ob und in welchem Umfang seit 2009 installierte technische Systeme wie Dachdetektoren oder ein Wasserabführsystem beim aktuellen Vorfall tatsächlich zur Früherkennung beigetragen haben. Auch ein möglicher Rückkehrtermin ausgelagerter Werke - vereinzelt wird der Samstag genannt - ließ sich nicht verifizieren. Eine eigene Stellungnahme der Albertina liegt in den vorliegenden Cluster-Quellen nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Albertina zählt zu den bedeutendsten Museen Wiens und verfügt über einen unterirdischen Bereich, der bereits 2009 von einem Wassereinbruch betroffen war. Vor diesem Hintergrund ist ein erneuter Wassereintritt nach Starkregen die Wiederholung eines für das Haus bekannten Risikos. Ob seither getroffene Vorkehrungen im aktuellen Fall tatsächlich Schäden verhindert haben oder andere Faktoren ausschlaggebend waren, lässt sich ohne Stellungnahme der Institution oder weitere Berichterstattung nicht abschließend einordnen. Dieser Artikel wird bei Vorliegen weiterer, insbesondere primärer Quellen aktualisiert."
+      }
+    ],
+    "bodyKompakt": "Nach Starkregen kam es laut übereinstimmenden Medienberichten am 17. Juli 2026 zu einem Wassereintritt in der Albertina in Wien. Betroffen war offenbar erneut ein Bereich des Museums, der bereits 2009 durch eindringendes Wasser beeinträchtigt worden war. Die Kleine Zeitung und der ORF berichteten über den Vorfall, ohne bislang Schäden an Kunstwerken zu vermelden.\n\nLaut Kleiner Zeitung sei es zu keinem Schaden gekommen; das Medium erinnert an den Vorfall im Tiefenspeicher aus dem Jahr 2009. Der ORF berichtete unter dem Titel \"Wassereintritt in der Albertina\", ohne nähere Details zu nennen. Beide Medien berichten unabhängig über den Vorfall selbst, was diesem Kernpunkt eine solide Basis gibt - Detailangaben wie die Zahl abgehängter Werke bleiben unbestätigt.\n\nOffen bleibt, wie viele Kunstwerke vorsorglich abgehängt wurden, ob seit 2009 installierte Schutzsysteme zur Früherkennung beitrugen und wann ausgelagerte Werke zurückkehren. Eine eigene Stellungnahme der Albertina liegt nicht vor, weshalb sich der Vorfall derzeit nur anhand der Medienberichterstattung einordnen lässt.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-19T00:07:25.261Z"
+}

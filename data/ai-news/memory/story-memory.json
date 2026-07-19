@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-18T22:22:09.632Z",
+  "updatedAt": "2026-07-19T00:18:52.269Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1602,28 +1602,32 @@
       "resonanceMeasuredAt": "2026-07-14T20:07:26.223Z"
     },
     "venezuela-erdbeben-todesopfer-juli-2026": {
-      "canonicalTitle": "Venezuela: Zahl der Erdbeben-Toten laut Berichten auf über 4.300 gestiegen",
+      "canonicalTitle": "Venezuela: Erdbeben-Totenzahl laut Berichten über 5.000 – IWF gibt 346 Millionen Dollar für Wiederaufbau frei",
       "slug": "venezuela-erdbeben-todesopfer-juli-2026",
       "firstSeenAt": "2026-07-11T19:07:27.203Z",
-      "lastUpdatedAt": "2026-07-11T19:07:27.203Z",
+      "lastUpdatedAt": "2026-07-19T00:07:25.261Z",
       "status": "published",
       "articlePath": "src/content/articles/venezuela-erdbeben-todesopfer-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-11/venezuela-erdbeben-todesopfer-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-19/venezuela-erdbeben-todesopfer-juli-2026-update-000.json",
       "sourceUrls": [
         "https://orf.at/stories/3435956",
         "https://www.derstandard.at/story/3000000331036/zahl-der-erdbeben-toten-in-venezuela-auf-252ber-4000-gestiegen",
         "https://www.derstandard.at/story/3000000330523/3685-todesopfer-bestaetigt-zahl-der-toten-nach-erdbeben-in-venezuela-steigt-weiter",
-        "https://www.derstandard.at/jetzt/livebericht/3000000329866/dekrainische-tankstellen-an"
+        "https://www.derstandard.at/jetzt/livebericht/3000000329866/dekrainische-tankstellen-an",
+        "https://www.derstandard.at/story/3000000331986/venezuela-ruft-nach-erdbeben-346-millionen-dollar-beim-internationalen-waehrungsfonds-ab",
+        "https://www.diepresse.com/38253785/venezuela-ruft-nach-erdbeben-346-millionen-dollar-beim-iwf-ab",
+        "https://www.handelsblatt.com/politik/international/erdbeben-venezuela-ruft-nach-erdbeben-346-millionen-dollar-beim-iwf-ab/100241180.html"
       ],
       "openQuestions": [
-        "Wie hoch ist die Zahl der Vermissten tatsächlich, und auf welcher Datengrundlage beruht sie?",
-        "Bestätigen internationale Organisationen (UNO, Rotes Kreuz/IFRC, andere Hilfsorganisationen) die von venezolanischen Stellen genannten Zahlen unabhängig?",
-        "Wie stellt sich die aktuelle humanitäre Versorgungslage in den betroffenen Regionen dar?",
-        "Welche offiziellen venezolanischen Stellen haben die Zahlen zuletzt bestätigt, und liegt eine direkte, überprüfbare Quelle dafür vor?"
+        "Gibt es eine offizielle IWF-Pressemitteilung, die die Freigabe der 346 Millionen Dollar und deren Herkunft aus der Reservetranche bestätigt?",
+        "Bestätigen internationale Organisationen (UNO, Rotes Kreuz/IFRC) die von venezolanischen Stellen genannte Zahl von über 5.000 Toten unabhängig?",
+        "Wie hoch ist die tatsächliche Zahl der Vermissten, und wie verhält sie sich zu den neu genannten Obdachlosen- und Verletztenzahlen?",
+        "Nach welchem Verfahren und mit welchen Auflagen wurde der IWF-Zugriff genehmigt, und wie wird die Verwendung der Mittel kontrolliert?",
+        "Welche konkreten Infrastruktur- und Wirtschaftsschäden liegen dem Wiederaufbaubedarf zugrunde?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-12T19:07:27.203Z",
-      "doNotUpdateBefore": "2026-07-12T01:07:27.203Z",
+      "doNotRedraftBefore": "2026-07-20T00:07:25.261Z",
+      "doNotUpdateBefore": "2026-07-19T06:07:25.261Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -7438,6 +7442,50 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-19T22:07:29.919Z",
       "doNotUpdateBefore": "2026-07-19T04:07:29.919Z"
+    },
+    "selenskyj-polen-geschichtsstreit-juli-2026": {
+      "canonicalTitle": "Selenskyj kündigt Schritte zur Beilegung des Geschichtsstreits mit Polen an",
+      "slug": "selenskyj-polen-geschichtsstreit-juli-2026",
+      "firstSeenAt": "2026-07-19T00:07:25.261Z",
+      "lastUpdatedAt": "2026-07-19T00:07:25.261Z",
+      "status": "published",
+      "articlePath": "src/content/articles/selenskyj-polen-geschichtsstreit-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/selenskyj-polen-geschichtsstreit-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/38253088/selenskyj-will-geschichtsstreit-mit-polen-beilegen",
+        "https://orf.at/stories/3436524"
+      ],
+      "openQuestions": [
+        "Wie bewerten ukrainische und polnische Historikerinnen und Historiker die angekündigte Ausweitung der Untersuchungen?",
+        "Gibt es bereits einen Zeitplan oder ein Verfahren für die geplante Archivöffnung?",
+        "Wie reagieren weitere polnische Institutionen jenseits von Ministerpräsident Tusk auf die Ankündigung?",
+        "In welchem Verhältnis steht die Ankündigung zur vorangegangenen Aberkennung einer Auszeichnung durch Polens Präsidenten Nawrocki?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-20T00:07:25.261Z",
+      "doNotUpdateBefore": "2026-07-19T06:07:25.261Z"
+    },
+    "albertina-wassereintritt-wien-juli-2026": {
+      "canonicalTitle": "Wassereintritt nach Starkregen: Albertina in Wien laut Berichten ohne Kunstschäden",
+      "slug": "albertina-wassereintritt-wien-juli-2026",
+      "firstSeenAt": "2026-07-19T00:07:25.261Z",
+      "lastUpdatedAt": "2026-07-19T00:07:25.261Z",
+      "status": "published",
+      "articlePath": "src/content/articles/albertina-wassereintritt-wien-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/albertina-wassereintritt-wien-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/38241223/kein-schaden-nach-wassereintritt-bei-albertina",
+        "https://wien.orf.at/stories/3363192"
+      ],
+      "openQuestions": [
+        "Wie viele Kunstwerke wurden tatsächlich vorsorglich abgehängt oder ausgelagert?",
+        "Haben seit 2009 installierte technische Systeme (Detektoren, Wasserabführsystem) beim aktuellen Vorfall tatsächlich zur Schadensvermeidung beigetragen?",
+        "Wann kehren ausgelagerte Werke an ihren Platz zurück?",
+        "Gibt es eine offizielle Stellungnahme der Albertina zum Vorfall und zum Ausmaß des Wassereintritts?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-20T00:07:25.261Z",
+      "doNotUpdateBefore": "2026-07-19T06:07:25.261Z"
     }
   }
 }

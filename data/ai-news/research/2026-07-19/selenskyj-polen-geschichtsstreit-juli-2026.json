@@ -1,0 +1,175 @@
+{
+  "cluster": {
+    "id": "cluster-20260718-9e6aa7a4",
+    "title": "Selenskyj will Geschichtsstreit mit Polen beilegen",
+    "items": [
+      {
+        "itemId": "5c4efe7c0bef3e14db64323d42f412d576850067e0a7ad2b2dcef4f377658d50",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Selenskyj will Geschichtsstreit mit Polen beilegen",
+        "url": "https://www.diepresse.com/38253088/selenskyj-will-geschichtsstreit-mit-polen-beilegen",
+        "summary": "Der ukrainische Präsident kündigt Untersuchungen zu Massakern an Polen durch Ukrainer im Zweiten\nWeltkrieg an.",
+        "publishedAt": "2026-07-18T07:19:08.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "9c8a0846b0891f2f13bcce705e9f1c6e1ae54184e2d90ac100e24215254aee73",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Selenskyj will Streit mit Polen beilegen",
+        "url": "https://orf.at/stories/3436524",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substantielle diplomatische Entwicklung mit europäischer Relevanz: Selenskyj kündigt konkrete Schritte zur Beilegung des Geschichtskonflikts mit Polen an (Archivöffnung, Untersuchungserweiterung, Exhumierungen). Zwei unabhängige österreichische/österreichische Quellen (diepresse, orf), direkte Zitate von Selenskyj und Tusk, historischer Kontext gegeben. Betrifft EU-Sicherheitskooperation und ukrainischen Beitrittsprozess. Keine verwandte publizierte Story vorhanden.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Selenskyj kündigte Erweiterung von Untersuchungen zu Massakern der Ukrainischen Aufstandsarmee (UPA) an Polen an",
+      "Selenskyj will Geheimdienstarchive zur UPA-Geschichte für Historiker öffnen",
+      "Die UPA tötete zwischen 1943 und 1945 in Wolhynien bis zu 100.000 Polen",
+      "Polens Präsident Karol Nawrocki entzog Selenskyj im Mai 2026 die höchste Auszeichnung",
+      "Polens Ministerpräsident Donald Tusk signalisierte Bereitschaft zu freundschaftlichem Dialog über strittige Themen"
+    ],
+    "missingSources": [
+      "Direkte Stellungnahme ukrainischer Historikerinnen/Historiker zur Bewertung der Untersuchungserweiterung",
+      "Konkreter Zeitplan oder weitere Details zur geplanten Archivöffnung",
+      "Reaktion weiterer polnischer Institutionen oder Historikerinnen/Historiker über Tusk hinaus"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "selenskyj-polen-geschichtsstreit-juli-2026",
+    "title": "Selenskyj kündigt Schritte zur Beilegung des Geschichtsstreits mit Polen an",
+    "description": "Der ukrainische Präsident Wolodymyr Selenskyj hat laut Medienberichten angekündigt, Untersuchungen zu Massakern der Ukrainischen Aufstandsarmee (UPA) an Polen im Zweiten Weltkrieg auszuweiten und Archive für Historiker zu öffnen. Details und eine unabhängige Einordnung stehen noch aus.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei redaktionell unabhängige österreichische Medien (Die Presse, ORF) berichten übereinstimmend über die Ankündigung, was für die Grundtatsache spricht, doch ohne eingesehene Primärquelle (Rede, offizielle Aussendung) bleibt die Detailtiefe unklar.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt eingesehene Primärquelle vor, nur Zusammenfassungen zweier Medienberichte aus dem RSS-Cluster.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Ankündigung wird vor allem aus ukrainischer Perspektive (Selenskyj) sowie mit einer knappen Reaktion Tusks wiedergegeben; Stimmen polnischer Historiker oder weiterer Institutionen fehlen in den vorliegenden Quellen.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut übereinstimmenden Medienberichten kündigte Präsident Selenskyj an, Untersuchungen zu Massakern der Ukrainischen Aufstandsarmee (UPA) an Polen im Zweiten Weltkrieg auszuweiten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Berichten zufolge will Selenskyj Geheimdienstarchive zur UPA-Geschichte für Historikerinnen und Historiker öffnen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Polens Ministerpräsident Donald Tusk soll sich offen für einen freundschaftlichen Dialog über die strittigen historischen Themen gezeigt haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein konkreter Zeitplan oder nähere Details zur angekündigten Archivöffnung sind aus den vorliegenden Quellen nicht ersichtlich.",
+        "kind": "open"
+      },
+      {
+        "text": "Reaktionen unabhängiger polnischer Historikerinnen und Historiker oder weiterer Institutionen liegen bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie bewerten ukrainische und polnische Historikerinnen und Historiker die angekündigte Ausweitung der Untersuchungen?",
+      "Gibt es bereits einen Zeitplan oder ein Verfahren für die geplante Archivöffnung?",
+      "Wie reagieren weitere polnische Institutionen jenseits von Ministerpräsident Tusk auf die Ankündigung?",
+      "In welchem Verhältnis steht die Ankündigung zur vorangegangenen Aberkennung einer Auszeichnung durch Polens Präsidenten Nawrocki?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/38253088/selenskyj-will-geschichtsstreit-mit-polen-beilegen"
+      },
+      {
+        "id": "src2",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3436524"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Selenskyj kündigte eine Ausweitung der Untersuchungen zu Massakern der Ukrainischen Aufstandsarmee (UPA) an Polen an.",
+        "status": "partial",
+        "note": "Von zwei österreichischen Medien berichtet, jedoch ohne eingesehene Originalaussage oder offizielles Dokument, das den genauen Umfang der Untersuchung belegt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Selenskyj will Geheimdienstarchive zur UPA-Geschichte für Historikerinnen und Historiker öffnen.",
+        "status": "partial",
+        "note": "In den Kurzzusammenfassungen des Clusters genannt, aber ohne Details zu Verfahren, Zeitpunkt oder Umfang der Öffnung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die UPA tötete zwischen 1943 und 1945 in Wolhynien bis zu 100.000 Polinnen und Polen.",
+        "status": "unclear",
+        "note": "Historische Opferzahlen zum Wolhynien-Massaker variieren je nach Quelle erheblich; ohne eingesehene historiografische Primärquelle wird die Zahl hier nicht als gesichert behandelt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Polens Präsident Karol Nawrocki entzog Selenskyj im Mai 2026 die höchste staatliche Auszeichnung.",
+        "status": "unclear",
+        "note": "Dieser Vorgang wird als Hintergrundinformation im Cluster erwähnt, konnte aber anhand der vorliegenden Kurzzusammenfassungen nicht eigenständig verifiziert werden.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Ministerpräsident Donald Tusk signalisierte Bereitschaft zu einem freundschaftlichen Dialog über die strittigen Themen.",
+        "status": "partial",
+        "note": "Laut Medienberichten geäußert, eine wörtliche Zitatprüfung anhand einer Primärquelle liegt nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der ukrainische Präsident Wolodymyr Selenskyj hat laut übereinstimmenden Berichten österreichischer Medien angekündigt, den seit Jahrzehnten schwelenden Geschichtsstreit mit Polen entschärfen zu wollen. Im Zentrum steht demnach eine Ausweitung der Untersuchungen zu Massakern der Ukrainischen Aufstandsarmee (UPA) an der polnischen Bevölkerung während des Zweiten Weltkriegs, insbesondere im Zusammenhang mit dem sogenannten Wolhynien-Massaker. Zudem soll Selenskyj angekündigt haben, Geheimdienstarchive zur Geschichte der UPA für Historikerinnen und Historiker zugänglich zu machen. Berichten zufolge äußerte sich auch Polens Ministerpräsident Donald Tusk und zeigte sich offen für einen freundschaftlichen Dialog über die strittigen Themen."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die vorliegenden Angaben stammen aus zwei redaktionell voneinander unabhängigen österreichischen Medien, Die Presse und ORF, die beide über die Ankündigung berichten und damit die Grundtatsache stützen. Als Hintergrund wird in den Berichten auf die angespannten diplomatischen Beziehungen zwischen Kyjiw und Warschau verwiesen, die unter anderem damit begründet werden, dass Polens Präsident Karol Nawrocki Selenskyj im Mai 2026 eine hochrangige staatliche Auszeichnung wieder entzogen haben soll. Eine eigene Prüfung dieser Hintergrundangabe anhand einer Primärquelle liegt nicht vor, ebenso wenig eine direkt eingesehene Rede oder Aussendung Selenskyjs oder Tusks."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, welchen konkreten Umfang die angekündigte Ausweitung der Untersuchungen haben soll, nach welchem Verfahren und Zeitplan die Geheimdienstarchive für Historikerinnen und Historiker geöffnet werden sollen und ob dafür bereits erste Schritte eingeleitet wurden. Auch die im Cluster genannte Opferzahl von bis zu 100.000 getöteten Polinnen und Polen im Zeitraum 1943 bis 1945 wird hier als historische Einschätzung behandelt, deren genaue Höhe in der Forschung nicht einheitlich beziffert wird. Reaktionen polnischer Historikerinnen und Historiker oder weiterer polnischer Institutionen jenseits der Regierungsspitze liegen in den vorliegenden Quellen nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Wolhynien-Komplex gilt seit Langem als eine der größten Belastungen im ukrainisch-polnischen Verhältnis und berührt zugleich die europäische Sicherheitskooperation sowie den ukrainischen EU-Annäherungsprozess, worauf auch die Themenauswahl dieses Clusters verweist. Angesichts der Sensibilität des Themas – historische Gewalt gegen eine Zivilbevölkerung, zwischenstaatliche Beziehungen in Kriegszeiten – wird hier bewusst auf eine eigene Bewertung von Schuld oder Verantwortung verzichtet. Eine abschließende Einschätzung der Tragweite der Ankündigung ist erst möglich, wenn weitere Quellen, etwa offizielle ukrainische oder polnische Stellungnahmen, vorliegen."
+      }
+    ],
+    "bodyKompakt": "Präsident Wolodymyr Selenskyj hat laut übereinstimmenden Berichten österreichischer Medien angekündigt, den Geschichtsstreit mit Polen entschärfen zu wollen. Demnach sollen Untersuchungen zu Massakern der Ukrainischen Aufstandsarmee (UPA) an der polnischen Bevölkerung im Zweiten Weltkrieg, insbesondere im Zusammenhang mit dem Wolhynien-Massaker, ausgeweitet werden. Zudem will Selenskyj Berichten zufolge Geheimdienstarchive zur UPA-Geschichte für Historikerinnen und Historiker öffnen. Polens Ministerpräsident Donald Tusk soll sich offen für einen freundschaftlichen Dialog über die strittigen Themen gezeigt haben.\n\nDie Angaben stammen aus zwei redaktionell unabhängigen österreichischen Medien, Die Presse und ORF, die die Ankündigung übereinstimmend wiedergeben. Als Hintergrund wird auf die angespannten Beziehungen zwischen Kyjiw und Warschau verwiesen, unter anderem auf die im Mai 2026 erfolgte Aberkennung einer polnischen Auszeichnung für Selenskyj durch Präsident Karol Nawrocki. Eine eigene Prüfung dieser Angaben anhand einer Primärquelle liegt nicht vor.\n\nOffen bleiben konkreter Umfang und Zeitplan der angekündigten Schritte sowie Reaktionen polnischer Historikerinnen, Historiker und weiterer Institutionen. Angesichts der Sensibilität des Themas wird hier auf eine eigene Bewertung von Schuld oder historischer Verantwortung verzichtet.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-19T00:07:25.261Z"
+}
