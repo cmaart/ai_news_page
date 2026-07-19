@@ -1,0 +1,197 @@
+{
+  "cluster": {
+    "id": "cluster-20260719-01c1e7e0",
+    "title": "NÖ: Hunderte Strohballen brannten bei Rinderbetrieb",
+    "items": [
+      {
+        "itemId": "4d319bc6d79cc0898a69df71b36ed14f6ef2fa207dff55276b77def4df24043f",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "NÖ: Hunderte Strohballen brannten bei Rinderbetrieb",
+        "url": "https://kurier.at/chronik/niederoesterreich/noe-mistelbach-strohballen-feuer-rinderbetrieb/403176943",
+        "summary": "Die Tiere waren nicht gefährdet. Der Brand verursachte einen Großeinsatz, auch Kräfte aus Tschechien halfen beim Löscheinsatz.",
+        "publishedAt": "2026-07-19T08:09:22.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "73d03184de8051e6726fd5379c480aeb032eea2f5d5ee7c1610e527e8b712718",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "NÖ: Hunderte Strohballen brannten bei Rinderbetrieb",
+        "url": "https://kurier.at/chronik/niederoesterreich/noe-mistelbach-strohballen-feuer-rinderbetrieb/403176943",
+        "summary": "Die Tiere waren nicht gefährdet. Der Brand verursachte einen Großeinsatz, auch Kräfte aus Tschechien halfen beim Löscheinsatz.",
+        "publishedAt": "2026-07-19T08:09:22.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "494b24cc72ae5255a56975db0d452caf1ce5123313d90ca3f9c00b639333e350",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Wildendürnbach: Hunderte Strohballen in Flammen",
+        "url": "https://noe.orf.at/stories/3363294",
+        "isNew": false
+      },
+      {
+        "itemId": "2e93b708493d2f861f11e048088947cb87cec64bbb459dab9e94c57f6970de53",
+        "sourceId": "orf_noe",
+        "sourceType": "media",
+        "title": "Wildendürnbach: Hunderte Strohballen in Flammen",
+        "url": "https://noe.orf.at/stories/3363294",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Lokales Großereignis mit Alarmstufe B4 und grenzüberschreitendem Feuerwehr-Einsatz (Tschechien, 100+ Einsatzkräfte). Gute Quellenlage: Kurier + ORF mit eigenständigen Details und fulltextExcerpts. Substanzielle Berichterstattung über mehrtägige Löscharbeiten. Öffentliche Relevanz für Österreich gegeben, aber regionale Begrenzung (Niederösterreich).",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Strohlager mit über 2000 Strohballen in Wildendürnbach geriet Samstagabend gegen 20:00 Uhr in Vollbrand",
+      "Zehn Feuerwehren aus Niederösterreich und zwei tschechische Feuerwehren waren im Einsatz, über 100 Einsatzkräfte",
+      "Alarmstufe wurde auf höchste Stufe B4 erhöht",
+      "Rinder des Zuchtbetriebs und Wohnhaus (ca. 500 m entfernt) waren nicht gefährdet",
+      "Pendelverkehr zur Wasserversorgung wurde wegen fehlender Löschwasserinfrastruktur eingerichtet",
+      "Löscharbeiten dauerten bis Montagfrüh an",
+      "Brandursache ungeklärt, Polizei hat Ermittlungen aufgenommen"
+    ],
+    "missingSources": [
+      "Endgültiges Ergebnis der Brandermittlungen",
+      "Schadensschätzung",
+      "Aussage des Gutsbesitzers"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "noe-strohballenbrand-wildenduernbach-juli-2026",
+    "title": "Großbrand bei Rinderbetrieb in Wildendürnbach: Hunderte Strohballen in Flammen",
+    "description": "In Wildendürnbach im niederösterreichischen Bezirk Mistelbach sind hunderte Strohballen bei einem Rinderzuchtbetrieb in Brand geraten. Die Tiere waren laut Berichten nicht gefährdet, beim Großeinsatz halfen auch Feuerwehrkräfte aus Tschechien mit.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige Medien – Kurier und ORF Niederösterreich – berichten übereinstimmend über den Brand, die betroffene Rinderfarm und die nicht gefährdeten Tiere, was das Kernereignis bestätigt. Für Detailzahlen zu Einsatzkräften, Alarmstufe und Schadensausmaß liegt jedoch keine eingesehene Aussendung von Feuerwehr oder Polizei vor.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine offizielle Stellungnahme von Feuerwehr, Polizei oder Gemeinde eingesehen, sondern nur Berichterstattung zweier Medien, weshalb die Quellenlage insgesamt als schwach gilt.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um ein unstrittiges Unglücksereignis ohne gegnerische Parteien oder widersprüchliche Interessen, die beiden vorliegenden Medienberichte stimmen in den Kernpunkten überein.",
+    "sensitivity": "medium",
+    "sensitivity_note_unused": null,
+    "summary": [
+      {
+        "text": "In Wildendürnbach im Bezirk Mistelbach (NÖ) gerieten hunderte Strohballen bei einem Rinderzuchtbetrieb in Brand.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Rinder des Betriebs waren laut übereinstimmenden Medienberichten zu keinem Zeitpunkt in Gefahr.",
+        "kind": "fact"
+      },
+      {
+        "text": "Beim Löscheinsatz halfen neben niederösterreichischen Feuerwehren auch Kräfte aus Tschechien mit.",
+        "kind": "fact"
+      },
+      {
+        "text": "Genaue Zahlen zu Einsatzkräften, Alarmstufe und Menge der verbrannten Strohballen sind zwischen den Quellen nicht einheitlich verifiziert.",
+        "kind": "open"
+      },
+      {
+        "text": "Die Ursache des Brandes ist bislang nicht geklärt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wodurch wurde der Brand ausgelöst?",
+      "Wie hoch ist der entstandene Sachschaden?",
+      "Wie viele Feuerwehren und Einsatzkräfte waren tatsächlich im Einsatz, und wurde tatsächlich Alarmstufe B4 ausgerufen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/niederoesterreich/noe-mistelbach-strohballen-feuer-rinderbetrieb/403176943"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Niederösterreich",
+        "type": "media",
+        "url": "https://noe.orf.at/stories/3363294"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Bei einem Rinderzuchtbetrieb in Wildendürnbach (Bezirk Mistelbach, NÖ) brannten hunderte Strohballen.",
+        "status": "supported",
+        "note": "Von Kurier und ORF Niederösterreich unabhängig voneinander übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Rinder des Betriebs wurden durch den Brand nicht gefährdet.",
+        "status": "supported",
+        "note": "Beide Medien berichten übereinstimmend, dass die Tiere nicht in Gefahr waren.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Löscheinsatz war ein Großeinsatz, bei dem auch Feuerwehrkräfte aus Tschechien mithalfen.",
+        "status": "supported",
+        "note": "Von beiden vorliegenden Quellen bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Laut Medienberichten wurden mehr als 2.000 Strohballen genannt, rund zehn niederösterreichische und zwei tschechische Feuerwehren mit über 100 Einsatzkräften waren beteiligt, die Alarmstufe soll auf die höchste Stufe B4 erhöht worden sein.",
+        "status": "partial",
+        "note": "Diese Zahlen stammen aus Medienberichterstattung; eine offizielle Aussendung von Feuerwehr oder Einsatzleitung wurde nicht eingesehen, daher nicht abschließend verifiziert.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Brandursache ist bislang ungeklärt, Ermittlungen sollen laufen.",
+        "status": "unclear",
+        "note": "Ohne eingesehene Polizeimeldung lässt sich der Ermittlungsstand nicht bestätigen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In Wildendürnbach im niederösterreichischen Bezirk Mistelbach sind bei einem Rinderzuchtbetrieb hunderte Strohballen in Brand geraten. Nach den vorliegenden Berichten handelte es sich um einen Großeinsatz der Feuerwehr, bei dem neben niederösterreichischen Wehren auch Kräfte aus dem benachbarten Tschechien mithalfen. Die Rinder des Betriebs waren laut übereinstimmenden Angaben zu keinem Zeitpunkt in Gefahr."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Sowohl Kurier als auch ORF Niederösterreich berichten über den Brand und stimmen in den zentralen Punkten überein: brennende Strohballen in großer Zahl, ein umfangreicher Löscheinsatz und die grenzüberschreitende Unterstützung durch tschechische Feuerwehren. Darüber hinausgehende Detailangaben – etwa zur genauen Menge der verbrannten Strohballen, zur Zahl der eingesetzten Feuerwehren und Einsatzkräfte oder zur ausgerufenen Alarmstufe – finden sich zwar in Medienberichten, konnten im Rahmen dieser Recherche aber nicht durch eine eingesehene Primärquelle wie eine Feuerwehr- oder Polizeiaussendung bestätigt werden."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist bislang, wodurch der Brand ausgelöst wurde. Berichten zufolge soll die Brandursache noch nicht geklärt sein und Ermittlungen sollen laufen, eine entsprechende offizielle Bestätigung liegt jedoch nicht vor. Auch zur Höhe des entstandenen Sachschadens sowie zu einer möglichen Stellungnahme des betroffenen Betriebs gibt es keine belastbaren Angaben."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Es handelt sich um ein regional begrenztes, aber medial breiter aufgegriffenes Ereignis mit grenzüberschreitendem Feuerwehreinsatz. Da bislang keine offizielle Quelle wie Einsatzleitung, Polizei oder Gemeinde eingesehen wurde, stützt sich diese Darstellung ausschließlich auf zwei Medienberichte. Zahlenangaben und Ursache des Brandes sollten daher vorerst als vorläufig betrachtet werden, bis weitere Informationen vorliegen."
+      }
+    ],
+    "bodyKompakt": "In Wildendürnbach im niederösterreichischen Bezirk Mistelbach sind bei einem Rinderzuchtbetrieb hunderte Strohballen in Brand geraten. Es kam zu einem Großeinsatz der Feuerwehr, bei dem laut übereinstimmenden Berichten von Kurier und ORF Niederösterreich auch Kräfte aus Tschechien mithalfen. Die Rinder des Betriebs waren zu keinem Zeitpunkt in Gefahr.\n\nDarüber hinausgehende Details wie die genaue Menge der verbrannten Strohballen, die Zahl der beteiligten Feuerwehren und Einsatzkräfte oder eine ausgerufene Alarmstufe finden sich in Medienberichten, ließen sich aber ohne eine eingesehene Aussendung von Feuerwehr oder Polizei nicht abschließend verifizieren.\n\nAuch die Ursache des Brandes ist derzeit nicht geklärt. Berichten zufolge sollen Ermittlungen laufen, eine offizielle Bestätigung dazu liegt aber nicht vor. Angaben zum entstandenen Schaden fehlen bislang ebenfalls.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-19T22:07:31.475Z"
+}

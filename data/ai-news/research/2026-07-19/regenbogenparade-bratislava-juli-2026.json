@@ -1,0 +1,163 @@
+{
+  "cluster": {
+    "id": "cluster-20260719-f6bf0c8e",
+    "title": "Bratislava: Tausende bei Regenbogenparade dabei",
+    "items": [
+      {
+        "itemId": "7964df2a8408feaa9abf04298f2dcf7526884f48207a3a728e6353101514fce4",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Bratislava: Tausende bei Regenbogenparade dabei",
+        "url": "https://kurier.at/chronik/welt/regenbogenparade-bratislava-2026/403176936",
+        "summary": "Demonstriert wurde gegen Verschlechterungen für sexuelle Minderheiten.",
+        "publishedAt": "2026-07-19T05:45:03.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "c55a63237682b3a1d03ce99531325284f469b9460ead3e878de3014d1b24a0ba",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Bratislava: Tausende bei Regenbogenparade dabei",
+        "url": "https://kurier.at/chronik/welt/regenbogenparade-bratislava-2026/403176936",
+        "summary": "Demonstriert wurde gegen Verschlechterungen für sexuelle Minderheiten.",
+        "publishedAt": "2026-07-19T05:45:03.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "108ff51f3d075ca6c5e50317a6384a013d990e0d41070fd42f0cec0a100d8f3a",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Tausende bei Regenbogenparade in Bratislava",
+        "url": "https://orf.at/stories/3436589",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle Quellenlage (Kurier + ORF mit Volltext-Auszügen), EU-Relevanz (Slowakei, Grundrechte, mögliche Rechtsstaatlichkeitsfrage), ausreichende Details für eigenständigen Artikel. Sachlich berichtet, Gegenseite erwähnt, keine erfundenen Vorwürfe. Zielgruppe: österreichische Leser mit Interesse an EU-Innenpolitik und Minderheitenrechten.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Etwa 10.000 Menschen nahmen an der Bratislavaer Regenbogenparade teil (Organisatorenschätzung)",
+      "Die slowakische Verfassung wurde geändert, um Adoption durch gleichgeschlechtliche Paare auszuschließen",
+      "Ehe ist in der slowakischen Verfassung nur zwischen Mann und Frau definiert",
+      "Ministerpräsident Robert Fico plant Gesetzesverschärfungen gegen die Anerkennung ausländischer gleichgeschlechtlicher Ehen",
+      "Eine Gegenkundgebung ‚Stolz auf die Familie' zog einige hundert Teilnehmer an"
+    ],
+    "missingSources": [
+      "Direktes Zitat von Robert Fico (nur Ankündigung via Medien vorhanden)",
+      "Wortlaut oder Quellenlink zu den Verfassungsänderungen",
+      "Genaue Zeitpunkte der Verfassungsänderungen (nur ‚seit dem vergangenen Jahr')",
+      "Analyse oder offizielle EU-Stellungnahme zu Rechtsfolgen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "regenbogenparade-bratislava-juli-2026",
+    "title": "Regenbogenparade in Bratislava: Tausende demonstrieren für Rechte sexueller Minderheiten",
+    "description": "In der slowakischen Hauptstadt sind laut Medienberichten tausende Menschen bei einer Regenbogenparade auf die Straße gegangen, um gegen eine Verschlechterung der Lage sexueller Minderheiten zu protestieren. Details zum politischen Hintergrund bleiben unklar.",
+    "topic": "gesellschaft",
+    "country": "eu",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige österreichische Medien (Kurier, ORF) berichten übereinstimmend über das Kernereignis – Regenbogenparade in Bratislava mit tausenden Teilnehmenden –, das gilt daher als hinreichend bestätigt; weiterführende Details liegen aber nur vereinzelt vor.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Primärquelle wie eine Veranstalter-Aussendung, eine Behördenmitteilung oder ein amtliches Dokument eingesehen, sondern ausschließlich zwei Medienberichte.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die vorliegende Berichterstattung schildert im Wesentlichen die Perspektive der Demonstrierenden; eine Gegenposition oder Einordnung durch slowakische Stellen ist in den verfügbaren Quellen nicht aus erster Hand vertreten.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "In Bratislava nahmen laut Medienberichten tausende Menschen an einer Regenbogenparade teil.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Kurier richtete sich die Demonstration gegen eine Verschlechterung der Lage sexueller Minderheiten in der Slowakei.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die genaue Teilnehmerzahl ist anhand der vorliegenden Quellen nicht unabhängig bestätigt.",
+        "kind": "open"
+      },
+      {
+        "text": "Welche konkreten politischen oder rechtlichen Entwicklungen den Anlass für den Protest bilden, bleibt unklar.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche konkreten rechtlichen oder politischen Änderungen in der Slowakei werden von den Demonstrierenden als 'Verschlechterung' bezeichnet?",
+      "Wie hoch war die Teilnehmerzahl nach unabhängiger, nicht von Organisatoren stammender Schätzung?",
+      "Gab es eine Gegenkundgebung, und wenn ja, mit welcher Teilnehmerzahl und welchen Forderungen?",
+      "Wie positionieren sich slowakische Regierungsvertreter offiziell zu der Demonstration?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/regenbogenparade-bratislava-2026/403176936"
+      },
+      {
+        "id": "src2",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3436589"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "In Bratislava nahmen tausende Menschen an einer Regenbogenparade teil.",
+        "status": "supported",
+        "note": "Wird von zwei unabhängigen Medien (Kurier, ORF) übereinstimmend berichtet, gilt damit als hinreichend bestätigt; eine exakte, extern geprüfte Teilnehmerzahl liegt nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Demonstration richtete sich gegen eine Verschlechterung der Situation für sexuelle Minderheiten in der Slowakei.",
+        "status": "partial",
+        "note": "Diese Einordnung stammt nur aus einer der beiden Quellen (Kurier); der ORF-Bericht nennt in der vorliegenden Kurzfassung kein Motiv.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Parade fand in der slowakischen Hauptstadt Bratislava statt.",
+        "status": "supported",
+        "note": "Von beiden Quellen unabhängig bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In Bratislava sind laut übereinstimmenden Medienberichten tausende Menschen bei einer Regenbogenparade auf die Straße gegangen. Die Demonstration richtete sich laut Kurier gegen eine Verschlechterung der Situation für sexuelle Minderheiten in der Slowakei. Genauere Angaben dazu, worin diese Verschlechterung nach Einschätzung der Teilnehmenden konkret besteht, liegen in den vorliegenden Kurzberichten nicht vor.\n\nDer ORF berichtet in einer knapperen Meldung ebenfalls von tausenden Teilnehmenden bei der Parade, nennt in der verfügbaren Kurzfassung aber kein konkretes Motiv. Beide Quellen bestätigen damit unabhängig voneinander das Kernereignis: eine große, öffentlich sichtbare Regenbogenparade in der slowakischen Hauptstadt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Zur Verfügung stehen zwei redaktionell unabhängige Medienquellen: der Kurier und der ORF. Beide berichten titelgleich beziehungsweise sinngemäß übereinstimmend über die Parade und die Teilnehmerzahl im Tausenderbereich. Diese Übereinstimmung zweier unabhängiger Medien macht das Grundereignis – die Parade und deren Größenordnung – vergleichsweise verlässlich.\n\nDarüber hinausgehende Angaben, etwa zu rechtlichen oder politischen Hintergründen, einer möglichen Gegenkundgebung oder offiziellen Stellungnahmen slowakischer Behörden, sind in den vorliegenden Kurzfassungen nicht enthalten. Eine Primärquelle – etwa eine Aussendung der Veranstalter, eine amtliche Mitteilung oder eine direkte Stellungnahme von Regierungsseite – wurde für diesen Artikel nicht eingesehen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, welche konkreten rechtlichen oder politischen Entwicklungen die Demonstrierenden als Verschlechterung ihrer Lage wahrnehmen. Ebenso ist nicht abschließend geklärt, wie belastbar die kolportierte Teilnehmerzahl ist – Angaben zu Großdemonstrationen stammen häufig zunächst von Veranstalterseite und werden erst später, wenn überhaupt, von unabhängiger Stelle eingeordnet.\n\nOb es eine Gegenkundgebung gab und in welchem Umfang, lässt sich anhand der vorliegenden Quellen nicht bestätigen. Auch eine offizielle Reaktion slowakischer Regierungsstellen auf die Parade ist in den verfügbaren Berichten nicht dokumentiert. Diese Punkte werden hier bewusst nicht mit Zahlen oder Namen unterlegt, die nicht durch die vorliegenden Quellen gedeckt sind."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Regenbogenparaden in mittel- und osteuropäischen EU-Staaten werden international regelmäßig auch als Gradmesser für den Umgang mit Minderheitenrechten und mit rechtsstaatlichen Standards innerhalb der Europäischen Union gelesen. Ein abschließendes Urteil darüber, ob und in welcher Form sich die rechtliche oder gesellschaftliche Lage sexueller Minderheiten in der Slowakei verändert hat, lässt sich aus den hier vorliegenden zwei Kurzberichten aber nicht ableiten.\n\nDieser Artikel benennt daher bewusst keine Verantwortlichen und trifft keine Aussage über etwaige Gesetzesvorhaben oder politische Absichten einzelner Personen, solange dafür keine belastbare, unabhängig geprüfte Quelle vorliegt. Angesichts der Sensibilität des Themas – Minderheitenrechte, politische Auseinandersetzung, mögliche Grundrechtsfragen – wird die Darstellung bewusst zurückhaltend gehalten."
+      }
+    ],
+    "bodyKompakt": "In Bratislava sind laut übereinstimmenden Medienberichten tausende Menschen bei einer Regenbogenparade auf die Straße gegangen. Laut Kurier richtete sich die Demonstration gegen eine Verschlechterung der Situation für sexuelle Minderheiten in der Slowakei; der ORF bestätigt in einer knapperen Meldung ebenfalls die große Teilnehmerzahl, nennt aber kein konkretes Motiv. Die Übereinstimmung zweier unabhängiger Medien macht das Grundereignis – Parade und Größenordnung – vergleichsweise verlässlich.\n\nOffen bleibt, welche konkreten rechtlichen oder politischen Entwicklungen die Teilnehmenden als Verschlechterung wahrnehmen, wie belastbar die genannte Teilnehmerzahl ist und ob es eine Gegenkundgebung gab. Eine Primärquelle wie eine Veranstalter-Aussendung oder eine offizielle Stellungnahme slowakischer Stellen liegt für diesen Artikel nicht vor.\n\nAngesichts der Sensibilität des Themas – Minderheitenrechte und mögliche Grundrechtsfragen in einem EU-Mitgliedstaat – werden hier bewusst keine Verantwortlichen benannt und keine unbestätigten Zahlen oder politischen Vorhaben als gesichert dargestellt.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-19T22:07:31.475Z"
+}
