@@ -1,0 +1,159 @@
+{
+  "cluster": {
+    "id": "cluster-20260718-a0cc2a85",
+    "title": "Einreise verweigert - ehemaliger Weltmeister bat Trump um Hilfe",
+    "items": [
+      {
+        "itemId": "c4b8d58849134bd2507ba4ea68c1508169f9f1add74911141ccf1373043d75cc",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Einreise verweigert - ehemaliger Weltmeister bat Trump um Hilfe",
+        "url": "https://kurier.at/sport/fussball-wm-capdevila-trump-esta-weltmeister-2010/403176872",
+        "summary": "Joan Capdevila sitzt mit seinen Kindern am Flughafen in den USA fest: „Kann mir jemand helfen?“, fragte er auf X.",
+        "publishedAt": "2026-07-18T10:49:02.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.675,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substantielle Human-Interest-Story mit konkretem Anlass (Joan Capdevila, ehemaliger spanischer Weltmeister, wurde US-Einreise verweigert) und hohem Kontext-Nachrichtenwert durch das bevorstehende WM-Finale. Quellenlage solide: direktes Zitat aus X-Post von Capdevila, Interview mit COPE Radio (El Partizado), Kurier-Originalberichterstattung. Nicht Routine-Sport, sondern Nebenaspekt zu Großereignis mit Österreich-Relevanz (ORF1-Übertragung des Finales, österreichische Quelle Kurier). Genug Substanz für eigenständigen Artikel.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Joan Capdevila wurde US-ESTA-Einreise verweigert",
+      "Grund war ein Fußballspiel im Iran vor zehn Jahren",
+      "Capdevila wandte sich öffentlich an Donald Trump um Hilfe",
+      "Er wollte das WM-Finale (Spanien vs. Argentinien) mit seinen Kindern und Ex-Teamkollegen von 2010 ansehen",
+      "Das Finale findet am 20.07.2026 in East Rutherford, New York statt"
+    ],
+    "missingSources": [
+      "Offizielle US-Behörden-Stellungnahme zum ESTA-Verbot im Einzelfall",
+      "Bestätigung des genauen Zeitpunkts und Gegners des Iran-Spiels (vor zehn Jahren = 2016?)",
+      "Reaktion von Trump oder dessen Team auf die öffentliche Anfrage",
+      "Expertinput zu US-Einreiseregeln bei Iranbesuchen / ESTA-Ablehnungskriterien"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "capdevila-einreise-verweigert-wm-finale-juli-2026",
+    "title": "Ex-Weltmeister Capdevila bittet Trump um Hilfe nach verweigerter US-Einreise",
+    "description": "Der spanische Weltmeister von 2010, Joan Capdevila, soll laut eigenen Angaben in den USA an der Einreise gehindert worden sein und wandte sich öffentlich an Donald Trump. Die Quellenlage stützt sich bislang auf einen einzelnen Medienbericht.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "low",
+    "confidenceNote": "Es liegt bislang nur ein einzelner Medienbericht (Kurier) vor, der sich auf einen X-Post von Capdevila stützt; weder eine Behördenbestätigung noch eine zweite unabhängige Quelle liegen vor.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Primärquelle (etwa der X-Post selbst oder eine Behördenmitteilung) eingesehen, sondern nur die Wiedergabe durch einen einzelnen Medienbericht.",
+    "framingRisk": "high",
+    "framingRiskNote": "Nur Capdevilas eigene Darstellung ist erkennbar; eine Stellungnahme von US-Behörden, ESTA-Stellen oder Trumps Team fehlt vollständig.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Der ehemalige spanische Weltmeister Joan Capdevila berichtet, ihm sei die Einreise in die USA verweigert worden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Er habe sich deshalb öffentlich auf der Plattform X mit der Bitte um Hilfe an Donald Trump gewandt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als möglicher Grund wird ein Fußballspiel im Iran vor rund zehn Jahren genannt, das aber nicht abschließend eingeordnet ist.",
+        "kind": "open"
+      },
+      {
+        "text": "Unklar bleibt, ob Capdevila das WM-Finale am 20. Juli 2026 in East Rutherford mit seinen Kindern und früheren Teamkollegen verfolgen kann.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine Reaktion von US-Behörden oder Trumps Umfeld liegt bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was genau war der offizielle Grund für die verweigerte Einreise bzw. ESTA-Ablehnung?",
+      "Wann und gegen wen fand das genannte Spiel im Iran statt?",
+      "Gab es eine Reaktion von Donald Trump, seinem Team oder US-Behörden auf Capdevilas Bitte?",
+      "Konnte Capdevila letztlich zum WM-Finale einreisen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/sport/fussball-wm-capdevila-trump-esta-weltmeister-2010/403176872"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Joan Capdevila wurde laut eigenen Angaben die Einreise in die USA verweigert.",
+        "status": "partial",
+        "note": "Beruht auf einem einzelnen Medienbericht, der einen X-Post Capdevilas wiedergibt; keine unabhängige Bestätigung durch Behörden oder eine zweite Quelle.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Als Grund für die Einreiseverweigerung wird ein Fußballspiel im Iran vor rund zehn Jahren genannt.",
+        "status": "unclear",
+        "note": "Weder Zeitpunkt noch Gegner des Spiels sind belegt; die Verknüpfung mit der Einreiseverweigerung ist nicht offiziell bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Capdevila wandte sich öffentlich über X mit der Bitte um Hilfe an Donald Trump.",
+        "status": "partial",
+        "note": "Nur über einen Medienbericht bekannt, der den Post zitiert; der Originalpost selbst wurde nicht eingesehen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Capdevila wollte das WM-Finale gemeinsam mit seinen Kindern und ehemaligen Teamkollegen von 2010 verfolgen.",
+        "status": "partial",
+        "note": "Angabe stammt allein aus dem Kurier-Bericht, keine weitere Bestätigung vorhanden.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Das WM-Finale findet am 20. Juli 2026 in East Rutherford, New York, statt.",
+        "status": "partial",
+        "note": "Termin und Austragungsort werden im Bericht so genannt, wurden aber nicht über eine offizielle FIFA-Quelle gegengeprüft.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der ehemalige spanische Nationalspieler Joan Capdevila, Weltmeister von 2010, soll laut eigenen Angaben an einem US-Flughafen an der Einreise gehindert worden sein. Nach Berichten des Kurier wandte er sich daraufhin öffentlich über die Plattform X mit der Frage „Kann mir jemand helfen?“ an Donald Trump. Capdevila wollte demnach mit seinen Kindern und früheren Teamkollegen von 2010 das WM-Finale zwischen Spanien und Argentinien verfolgen, das für den 20. Juli 2026 in East Rutherford, New York, angesetzt ist."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die vorliegende Berichterstattung stützt sich auf einen einzelnen Kurier-Artikel, der wiederum auf einen öffentlichen Social-Media-Post Capdevilas Bezug nimmt. Als möglicher Auslöser für die Einreiseverweigerung wird ein Fußballspiel im Iran genannt, das rund zehn Jahre zurückliegen soll. Genaue Angaben zu Datum, Anlass oder Gegner dieses Spiels liegen in den vorliegenden Unterlagen nicht vor. Eine unabhängige zweite Quelle, die den Vorfall bestätigt oder Details ergänzt, liegt derzeit nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, ob und wie US-Behörden die Einreiseverweigerung offiziell begründet haben – etwa im Rahmen bestimmter Beschränkungen des Visa-Waiver-Programms für Reisende mit früheren Iran-Aufenthalten, wie sie in den USA grundsätzlich existieren. Ob eine solche Regelung im konkreten Fall überhaupt greift, lässt sich anhand der vorliegenden Quellen nicht klären. Ebenso unklar ist, ob Donald Trump, sein Umfeld oder US-Behörden auf Capdevilas öffentliche Bitte reagiert haben, und ob er das Finale letztlich verfolgen konnte."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall fällt in eine Phase erhöhter öffentlicher Aufmerksamkeit rund um das bevorstehende WM-Endspiel, das auch in Österreich auf ORF 1 übertragen werden soll. Die Geschichte verbindet ein sportliches Großereignis mit Fragen der US-Einreisepraxis – ein Themenfeld, das grundsätzlich sensibel zu behandeln ist. Da bislang nur eine Quelle und keine Stellungnahme der Gegenseite vorliegt, ist Zurückhaltung bei der Bewertung geboten."
+      }
+    ],
+    "bodyKompakt": "Der ehemalige spanische Nationalspieler Joan Capdevila, Weltmeister von 2010, soll laut eigenen Angaben an einem US-Flughafen an der Einreise gehindert worden sein. Nach einem Bericht des Kurier wandte er sich öffentlich über X mit der Bitte um Hilfe an Donald Trump. Er wollte demnach mit seinen Kindern und früheren Teamkollegen von 2010 das WM-Finale zwischen Spanien und Argentinien verfolgen, das am 20. Juli 2026 in East Rutherford stattfinden soll.\n\nAls möglicher Grund für die Einreiseverweigerung wird ein rund zehn Jahre zurückliegendes Fußballspiel im Iran genannt. Details zu Datum, Anlass oder Gegner sind nicht bekannt, eine offizielle Bestätigung der Behörden liegt nicht vor.\n\nOffen bleibt, ob US-Behörden oder Trumps Umfeld reagiert haben und ob Capdevila am Finale teilnehmen konnte. Die Berichterstattung stützt sich bislang auf eine einzelne Quelle, weshalb die Einordnung vorsichtig bleibt.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-19T04:07:26.090Z"
+}
