@@ -1,0 +1,236 @@
+{
+  "cluster": {
+    "id": "cluster-20260719-6198baae",
+    "title": "Tote bei Erdbeben in Peru",
+    "items": [
+      {
+        "itemId": "86a54da27c1dfea15c0932835b7a91ae500e8d7f4431f7784c8deed5888fd8e0",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Tote bei Erdbeben in Peru",
+        "url": "https://orf.at/stories/3436654",
+        "publishedAt": "2026-07-19T16:05:06.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "6c27b333d00f9704e18235398014f396cb5cc7f4b594aee16b4d0e51901094e4",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Schweres Erdbeben erschütterte Peru: Ein Toter",
+        "url": "https://orf.at/stories/3436599",
+        "isNew": false
+      },
+      {
+        "itemId": "109a3c722283d424a17ef499a07b8df0d658fb0aad901fa1f5f637ef7d2aaab7",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Schweres Erdbeben erschüttert Südwesten von Peru",
+        "url": "https://www.diepresse.com/38304965/schweres-erdbeben-erschuettert-suedwesten-von-peru",
+        "isNew": false
+      },
+      {
+        "itemId": "5dffc9466ee84d992daf57c015b8eace17a62ed3060959dd9af48a42854ebe9c",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Mindestens ein Todesopfer bei schwerem Erdbeben in Peru",
+        "url": "https://www.derstandard.at/story/3000000332030/mindestens-ein-todesopfer-bei-schwerem-erdbeben-in-peru",
+        "isNew": false
+      },
+      {
+        "itemId": "39b6244db88a5f91e57b89ec416050ba26056105d59ebdc32946321874b4f0c6",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Mindestens ein Todesopfer bei schwerem Erdbeben in Peru",
+        "url": "https://www.derstandard.at/story/3000000332030/mindestens-ein-todesopfer-bei-schwerem-erdbeben-in-peru",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Aktualisierung mit neuen Opferzahlen: Todesfallzahl ist von mindestens 1 auf mindestens 5 gestiegen, Verletzte (21) neu spezifiziert. Beantwortet die zentrale offene Frage des bestehenden Artikels zu Todesopfern. Nicht eigenständig genug für separaten Artikel, sondern eine relevante Entwicklung zum bereits publizierten Ereignis.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": 1,
+    "relatedSlug": "erdbeben-peru-junin-juli-2026",
+    "possibleClaims": [
+      "Erdbeben der Stärke 5,1 erschütterte Perus Region Junín",
+      "Mindestens 5 Tote und mindestens 21 Verletzte",
+      "Mehrere Gebäude in Chongos Bajo/Chupaca eingestürzt",
+      "Epizentrum in 24 km Tiefe südlich von Chupaca"
+    ],
+    "missingSources": [
+      "Direkte Verlinkung zu IGP- oder USGS-Epicenter-Daten",
+      "Offizielle Mitteilungen peruanischer Behörden",
+      "Dokumentation laufender Rettungseinsätze",
+      "Seismologische Einschätzung des Folgebebenrisikos"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "erdbeben-peru-junin-juli-2026",
+    "title": "Erdbeben in Peru: Zahl der Todesopfer laut Berichten gestiegen – Angaben widersprüchlich",
+    "description": "Nach dem schweren Erdbeben in der Region Junín im Südwesten Perus melden internationale Medien eine gestiegene Zahl an Todesopfern. Die konkreten Zahlen zu Toten und Verletzten schwanken je nach Quelle deutlich.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zusätzlich zu den drei österreichischen Medien (der Standard, ORF, Die Presse) liegt nun eine neuere ORF-Meldung sowie ein internationaler Bericht (Euronews) vor, die von einer gestiegenen Opferzahl berichten. Die genannten Zahlen zu Toten (zwischen drei und fünf je nach Quelle) und Verletzten (zwischen rund zehn und über 20) widersprechen einander teilweise, was auf eine noch nicht konsolidierte Faktenlage hindeutet. Eine direkt eingesehene, offizielle Bilanz peruanischer Behörden liegt weiterhin nicht vor.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Auch nach erneuter Suche liegt keine direkt eingesehene Primärquelle vor: Weder eine Meldung des peruanischen Geophysik-Instituts IGP noch ein USGS-Ereigniseintrag zu diesem konkreten Beben konnten unabhängig aufgerufen werden. Angaben zu Magnitude (IGP: 5,1 / USGS: 5,5) und Tiefe (24 km) stammen ausschließlich aus sekundärer Medienberichterstattung, die sich auf diese Institutionen beruft.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Deutschsprachige Kurzmeldungen (ORF, Der Standard, Die Presse) und ein internationaler Bericht (Euronews) nennen unterschiedliche Opferzahlen, ohne dass erkennbar ist, welche Zahl den aktuelleren oder verlässlicheren Stand abbildet. Es fehlen weiterhin Stimmen von Behörden, Betroffenen oder Rettungskräften vor Ort; die Berichterstattung bleibt auf Kurzmeldungsniveau.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein schweres Erdbeben hat die Region Junín im Südwesten Perus, nahe der Stadt Chupaca, erschüttert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Medienberichten ist die Zahl der Todesopfer seit den ersten Meldungen gestiegen; je nach Quelle ist von drei bis fünf Toten die Rede, eine ältere ORF-Meldung nannte zunächst einen Toten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Zahl der Verletzten wird unterschiedlich angegeben, Schätzungen reichen von rund zehn bis über 20 Personen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Mehrere Gebäude sollen eingestürzt sein, laut internationalen Berichten auch zwei Krankenhäuser in der Regionalhauptstadt Huancayo beschädigt worden sein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine amtlich bestätigte, einheitliche Zahl der Todesopfer und Verletzten sowie das genaue Ausmaß der Schäden sind derzeit nicht abschließend verifiziert.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie viele Menschen sind durch das Beben tatsächlich gestorben oder verletzt worden – die vorliegenden Angaben schwanken erheblich?",
+      "Welche Magnitude gilt letztlich als bestätigt – IGP nennt 5,1, USGS 5,5?",
+      "Wie viele Gebäude sind eingestürzt oder beschädigt worden, und in welchem Ausmaß sind Krankenhäuser und historische Bauten betroffen?",
+      "Haben peruanische Behörden Notstand, Evakuierungen oder Rettungseinsätze angeordnet?",
+      "Gibt es weitere Nachbeben oder eine aktualisierte Gefährdungseinschätzung für die betroffene Region?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard: Mindestens ein Todesopfer bei schwerem Erdbeben in Peru",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000332030/mindestens-ein-todesopfer-bei-schwerem-erdbeben-in-peru"
+      },
+      {
+        "id": "src2",
+        "name": "ORF: Schweres Erdbeben erschütterte Peru: Ein Toter",
+        "type": "media",
+        "url": "https://orf.at/stories/3436599"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse: Schweres Erdbeben erschüttert Südwesten von Peru",
+        "type": "media",
+        "url": "https://www.diepresse.com/38304965/schweres-erdbeben-erschuettert-suedwesten-von-peru"
+      },
+      {
+        "id": "src4",
+        "name": "ORF: Tote bei Erdbeben in Peru",
+        "type": "media",
+        "url": "https://orf.at/stories/3436654"
+      },
+      {
+        "id": "src5",
+        "name": "Euronews: Magnitude 5.1 earthquake in central Peru leaves at least five dead and ten injured",
+        "type": "media",
+        "url": "https://www.euronews.com/2026/07/19/magnitude-51-earthquake-in-central-peru-leaves-at-least-one-dead-and-ten-injured"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein schweres Erdbeben hat den Südwesten Perus, die Region Junín nahe Chupaca, erschüttert.",
+        "status": "supported",
+        "note": "Wird mittlerweile von mehreren österreichischen und internationalen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Zahl der Todesopfer ist Berichten zufolge von zunächst mindestens einem auf mehrere Tote gestiegen.",
+        "status": "partial",
+        "note": "Eine neuere ORF-Meldung spricht im Titel von \"Tote\" (Plural), ein internationaler Bericht (Euronews) nennt fünf Tote, andere Berichte in der Recherche drei Tote. Eine einheitliche, offiziell bestätigte Zahl liegt nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Mehrere Menschen wurden bei dem Beben verletzt, wobei die genannten Zahlen zwischen rund zehn und über 20 liegen.",
+        "status": "partial",
+        "note": "Übereinstimmend wird von mehreren Verletzten berichtet, die konkrete Zahl variiert aber je nach Quelle deutlich und ist nicht abschließend verifiziert.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Mehrere Gebäude sind eingestürzt, laut internationalen Berichten auch zwei Krankenhäuser in Huancayo beschädigt worden.",
+        "status": "partial",
+        "note": "Der Gebäudeeinsturz wird durchgehend berichtet, Details zu betroffenen Krankenhäusern und historischen Bauten stammen aber nur aus internationaler Sekundärberichterstattung, nicht aus einer eingesehenen Primärquelle.",
+        "sourceIds": [
+          "src1",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Das Epizentrum lag rund 24 Kilometer tief nahe der Stadt Chupaca in der Region Junín.",
+        "status": "partial",
+        "note": "Diese Verortung wird inzwischen von mehreren voneinander unabhängigen Berichten genannt, konnte aber weiterhin nicht über eine direkt eingesehene Primärquelle (IGP/USGS) verifiziert werden.",
+        "sourceIds": [
+          "src3",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Die Magnitude des Bebens wird je nach Institut unterschiedlich angegeben – IGP mit 5,1, USGS mit 5,5.",
+        "status": "partial",
+        "note": "Diese Angabe stammt aus internationaler Sekundärberichterstattung, die sich auf beide Institute beruft; eine direkt eingesehene IGP- oder USGS-Meldung zu diesem Ereignis liegt nicht vor.",
+        "sourceIds": [
+          "src5"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Im Südwesten Perus hat sich laut übereinstimmenden Medienberichten ein schweres Erdbeben ereignet, dessen Epizentrum internationalen Berichten zufolge rund 24 Kilometer tief nahe der Stadt Chupaca in der Region Junín lag. Der Standard, der ORF und Die Presse berichteten am 19. Juli 2026 zunächst von mindestens einem Todesopfer und mehreren Verletzten sowie von eingestürzten Gebäuden. Eine neuere Meldung des ORF trägt bereits den Titel \"Tote bei Erdbeben in Peru\" – im Plural –, was auf eine gestiegene Opferzahl hindeutet. Ein internationaler Bericht (Euronews) nennt fünf Tote und rund zehn Verletzte, während in der weiteren Recherche auch von drei Toten die Rede war. Eine einheitliche, amtlich bestätigte Zahl liegt derzeit nicht vor."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Mehrere österreichische und internationale Medien berichten inzwischen übereinstimmend über das Kernereignis: ein schweres Erdbeben mit mehreren Todesopfern, zahlreichen Verletzten und eingestürzten Gebäuden. Die konkreten Zahlen unterscheiden sich jedoch deutlich – je nach Quelle ist von drei bis fünf Toten und von rund zehn bis über 20 Verletzten die Rede. Internationale Berichte nennen zudem eine unterschiedliche Magnitude-Angabe: Das peruanische Geophysik-Institut IGP soll 5,1 gemessen haben, der US Geological Survey (USGS) 5,5. Ebenfalls berichtet wird von einem Nachbeben der Stärke rund 3,7 wenige Minuten später sowie von Schäden an zwei Krankenhäusern in der Regionalhauptstadt Huancayo und an historischen Bauwerken in der Region. Diese Detailangaben stammen ausschließlich aus internationaler Sekundärberichterstattung; eine direkt eingesehene Primärquelle (IGP, USGS oder peruanische Behörden) konnte weiterhin nicht gefunden werden, weshalb die genannten Zahlen als vorläufig zu behandeln sind."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt vor allem, welche der kursierenden Opferzahlen zutrifft – die Angaben zu Toten (drei bis fünf) und Verletzten (rund zehn bis über 20) widersprechen einander, ohne dass erkennbar ist, welche Quelle den aktuelleren oder verlässlicheren Stand wiedergibt. Auch die exakte Magnitude (IGP: 5,1 / USGS: 5,5) ist nicht einheitlich bestätigt. Unklar ist zudem das genaue Ausmaß der Gebäudeschäden, insbesondere an Krankenhäusern und historischen Bauten, sowie der Stand laufender Rettungs- und Hilfsmaßnahmen. Eine Reaktion peruanischer Behörden – etwa ein Notstand oder Evakuierungen – ist bislang nicht durch eine eingesehene offizielle Quelle bestätigt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Peru liegt am Pazifischen Feuerring und zählt zu den seismisch aktivsten Regionen der Welt; Erdbeben unterschiedlicher Stärke sind dort keine Seltenheit, laut Berichten treten Beben der Stärke 5 oder höher im Gebiet um Chupaca im Schnitt etwa alle 13 Jahre auf. Die Berichterstattung zu diesem konkreten Ereignis befindet sich weiterhin in einer frühen, unübersichtlichen Phase: Verschiedene Medien nennen unterschiedliche Opferzahlen, ohne dass eine behördlich bestätigte Bilanz vorliegt. Dieser Artikel wird bei Vorliegen konsolidierter, möglichst amtlicher Zahlen – etwa einer offiziellen Bilanz peruanischer Behörden – erneut zu aktualisieren sein."
+      }
+    ],
+    "bodyKompakt": "Im Südwesten Perus hat sich laut übereinstimmenden Medienberichten ein schweres Erdbeben ereignet, dessen Epizentrum Berichten zufolge rund 24 Kilometer tief nahe der Stadt Chupaca in der Region Junín lag. Zunächst hatten der Standard, der ORF und Die Presse von mindestens einem Todesopfer und mehreren Verletzten berichtet. Eine neuere ORF-Meldung spricht bereits im Titel von \"Toten\" im Plural, ein internationaler Bericht (Euronews) nennt fünf Tote und rund zehn Verletzte, während andere Berichte von drei Toten sprechen – eine einheitliche, amtlich bestätigte Zahl liegt nicht vor.\n\nAuch bei der Magnitude gibt es unterschiedliche Angaben: Das peruanische Geophysik-Institut IGP soll 5,1 gemessen haben, der US Geological Survey 5,5. Berichtet wird zudem von einem Nachbeben rund 17 Minuten später sowie von Schäden an zwei Krankenhäusern in der Regionalhauptstadt Huancayo und an historischen Bauwerken. Diese Details stammen ausschließlich aus internationaler Sekundärberichterstattung, eine direkt eingesehene Primärquelle von IGP, USGS oder peruanischen Behörden konnte weiterhin nicht gefunden werden.\n\nOffen bleiben damit die tatsächliche Zahl der Toten und Verletzten, das genaue Schadensausmaß und eine mögliche behördliche Reaktion wie ein Notstand. Peru liegt am Pazifischen Feuerring und ist seismisch besonders aktiv. Die vorliegenden Angaben sind nicht abschließend verifiziert; eine weitere Aktualisierung bei konsolidierten, möglichst amtlichen Zahlen ist vorgesehen.",
+    "updateNote": "Die Zahl der Todesopfer ist laut internationalen Medienberichten gestiegen, wobei die Angaben zwischen drei und fünf Toten sowie zehn und über 20 Verletzten schwanken; zusätzlich wurden Angaben zu Magnitude (IGP 5,1 / USGS 5,5), einem Nachbeben und Schäden an Krankenhäusern ergänzt."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-19T16:07:26.434Z"
+}

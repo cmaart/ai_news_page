@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-19T14:20:45.218Z",
+  "updatedAt": "2026-07-19T16:22:11.423Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -6761,13 +6761,12 @@
       "doNotRedraftBefore": "2026-07-19T12:07:30.176Z",
       "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
       "echoPublishers": {
-        "orf": "2026-07-18T14:07:30.241Z",
         "kleinezeitung": "2026-07-18T16:07:30.663Z",
-        "kurier": "2026-07-18T14:07:30.241Z"
+        "derstandard": "2026-07-19T16:07:26.434Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-19T14:07:25.145Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-19T16:07:26.434Z"
     },
     "landwirt-steiermark-rinderherde-toedlich-verletzt-juli-2026": {
       "canonicalTitle": "Landwirt in der Steiermark vermutlich von Rinderherde tödlich verletzt",
@@ -7132,10 +7131,10 @@
       "canonicalTitle": "Sicherheitsmitarbeiter der Deutschen Bahn stürzt bei Streit mit Fahrgast aus fahrendem Zug",
       "slug": "db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026",
       "firstSeenAt": "2026-07-18T10:07:28.883Z",
-      "lastUpdatedAt": "2026-07-18T16:07:30.663Z",
+      "lastUpdatedAt": "2026-07-19T16:07:26.434Z",
       "status": "published",
       "articlePath": "src/content/articles/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026-update-1600.json",
+      "researchPath": "data/ai-news/research/2026-07-19/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331992/deutsche-bahn-mitarbeiter-stuerzt-bei-streit-mit-gast-aus-fahrendem-zug",
         "https://kurier.at/chronik/welt/deutschland-bahn-mitarbeiter-aus-zug-gestuerzt/403176855",
@@ -7145,24 +7144,33 @@
         "https://www.diepresse.com/38286576/deutsche-bahn-mitarbeiter-stuerzt-bei-streit-aus-fahrendem-zug",
         "https://web.de/magazine/panorama/unfaelle-ungluecke/bahn-sicherheitsmann-stuerzt-fahrendem-zug-zustand-kritisch-42517892",
         "https://www.nordbayern.de/schlagzeilen/streit-um-ticket-eskaliert-bahn-mitarbeiter-sturzt-bei-120-km-h-aus-zug-1.15204614",
-        "https://dserver.bundestag.de/btd/21/053/2105341.pdf"
+        "https://dserver.bundestag.de/btd/21/053/2105341.pdf",
+        "https://www.derstandard.at/story/3000000332074/haftbefehl-nach-sturz-von-db-mitarbeiter-aus-fahrendem-zug-abgelehnt",
+        "https://kurier.at/chronik/welt/deutsche-bahn-mitarbeiter-sturz-zug-haftbefehl/403176973",
+        "https://www.baden24.de/baden/ettlingen-bruchhausen-db-sicherheitsmann-stuerzt-aus-zug-120-kmh-abgelehnt-haftbefehl-94404401.html",
+        "https://www.presseportal.de/pm/150063/6317320",
+        "https://www.news.de/panorama/859833250/gdl-verlangt-nach-zug-angriff-haertere-konsequenzen-eskalation-in-zuegen-news-der-dpa-aktuell-zu-verkehr-und-bahn/1/",
+        "https://www.nw.de/nachrichten/topthemen/24377956_Attackierter-Bahnmitarbeiter-kaempft-ums-Ueberleben-mutmasslicher-Taeter-auf-freiem-Fuss.html",
+        "https://www.tichyseinblick.de/daili-es-sentials/attacke-zugbegleiter-keine-u-haft/"
       ],
       "openQuestions": [
-        "Ist der verletzte Mitarbeiter mittlerweile ansprechbar, oder besteht weiterhin ein kritischer bzw. komatöser Zustand?",
-        "Wurde beim festgenommenen Fahrgast eine Blutalkoholkonzentration gemessen, und welcher konkrete Tatvorwurf wird gegen ihn erhoben?",
-        "Bestätigt eine technische Untersuchung, dass ausschließlich das Handgemenge und kein zusätzlicher technischer Defekt zur Öffnung der Zugtür führte?",
-        "Zieht die Deutsche Bahn aus dem Vorfall Konsequenzen für Sicherheitsprotokolle von Kontrollpersonal?"
+        "Ist der Gesundheitszustand des verletzten Mitarbeiters mittlerweile genauer bekannt, oder bleibt es bei der Einstufung „stabil, aber kritisch“?",
+        "Bestätigt die laufende technische Untersuchung der Zugtür, ob neben dem Handgemenge ein zusätzlicher technischer Defekt zur Türöffnung beitrug?",
+        "Legt die Staatsanwaltschaft Karlsruhe gegen die Ablehnung des Haftbefehls Rechtsmittel ein, oder akzeptiert sie die Entscheidung des Amtsgerichts?",
+        "Werden die berichteten Vorstrafen und eine laufende Bewährungsstrafe des Fahrgasts amtlich bestätigt, und welcher konkrete Tatvorwurf wird gegen ihn erhoben?",
+        "Reagiert Bundeskanzler Merz auf den Appell der EVG, und zieht die Deutsche Bahn Konsequenzen für Sicherheitsprotokolle von Kontrollpersonal?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-19T16:07:30.663Z",
-      "doNotUpdateBefore": "2026-07-18T22:07:30.663Z",
+      "doNotRedraftBefore": "2026-07-20T16:07:26.434Z",
+      "doNotUpdateBefore": "2026-07-19T22:07:26.434Z",
       "echoPublishers": {
-        "derstandard": "2026-07-18T14:07:30.241Z",
-        "diepresse": "2026-07-18T16:07:30.663Z"
+        "derstandard": "2026-07-19T16:07:26.434Z",
+        "diepresse": "2026-07-18T16:07:30.663Z",
+        "kurier": "2026-07-19T16:07:26.434Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-18T16:07:30.663Z"
+      "resonanceMeasuredAt": "2026-07-19T16:07:26.434Z"
     },
     "huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026": {
       "canonicalTitle": "Huthi-Miliz droht Saudi-Arabien nach Luftangriff auf Flughafen Sanaa mit „Belagerung“",
@@ -7769,28 +7777,33 @@
       }
     },
     "erdbeben-peru-junin-juli-2026": {
-      "canonicalTitle": "Schweres Erdbeben trifft Südwesten Perus – mindestens ein Toter",
+      "canonicalTitle": "Erdbeben in Peru: Zahl der Todesopfer laut Berichten gestiegen – Angaben widersprüchlich",
       "slug": "erdbeben-peru-junin-juli-2026",
       "firstSeenAt": "2026-07-19T08:07:29.752Z",
-      "lastUpdatedAt": "2026-07-19T08:07:29.752Z",
+      "lastUpdatedAt": "2026-07-19T16:07:26.434Z",
       "status": "published",
       "articlePath": "src/content/articles/erdbeben-peru-junin-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-19/erdbeben-peru-junin-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-19/erdbeben-peru-junin-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000332030/mindestens-ein-todesopfer-bei-schwerem-erdbeben-in-peru",
         "https://orf.at/stories/3436599",
-        "https://www.diepresse.com/38304965/schweres-erdbeben-erschuettert-suedwesten-von-peru"
+        "https://www.diepresse.com/38304965/schweres-erdbeben-erschuettert-suedwesten-von-peru",
+        "https://orf.at/stories/3436654",
+        "https://www.euronews.com/2026/07/19/magnitude-51-earthquake-in-central-peru-leaves-at-least-one-dead-and-ten-injured"
       ],
       "openQuestions": [
-        "Wie viele Menschen wurden tatsächlich verletzt oder getötet?",
-        "Wie viele Gebäude sind eingestürzt oder beschädigt worden?",
-        "Welche exakte Magnitude und Tiefe hatte das Beben laut IGP bzw. USGS?",
+        "Wie viele Menschen sind durch das Beben tatsächlich gestorben oder verletzt worden – die vorliegenden Angaben schwanken erheblich?",
+        "Welche Magnitude gilt letztlich als bestätigt – IGP nennt 5,1, USGS 5,5?",
+        "Wie viele Gebäude sind eingestürzt oder beschädigt worden, und in welchem Ausmaß sind Krankenhäuser und historische Bauten betroffen?",
         "Haben peruanische Behörden Notstand, Evakuierungen oder Rettungseinsätze angeordnet?",
-        "Gibt es Folgebeben oder eine Gefährdungseinschätzung für die betroffene Region?"
+        "Gibt es weitere Nachbeben oder eine aktualisierte Gefährdungseinschätzung für die betroffene Region?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-20T08:07:29.752Z",
-      "doNotUpdateBefore": "2026-07-19T14:07:29.752Z"
+      "doNotRedraftBefore": "2026-07-20T16:07:26.434Z",
+      "doNotUpdateBefore": "2026-07-19T22:07:26.434Z",
+      "echoPublishers": {
+        "orf": "2026-07-19T16:07:26.434Z"
+      }
     },
     "vierjaehrige-badeunfall-milano-marittima-juli-2026": {
       "canonicalTitle": "Vierjähriges Mädchen aus Österreich stirbt nach Badeunfall in Hotelpool in Italien",
@@ -7819,7 +7832,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-20T10:07:28.852Z",
-      "doNotUpdateBefore": "2026-07-19T16:07:28.852Z"
+      "doNotUpdateBefore": "2026-07-19T16:07:28.852Z",
+      "echoPublishers": {
+        "orf": "2026-07-19T16:07:26.434Z"
+      }
     },
     "brandstiftungsversuch-grafendorf-festnahme-burgenland-juli-2026": {
       "canonicalTitle": "Nach versuchter Brandstiftung in Grafendorf: Flucht endet mit Festnahme im Burgenland",
@@ -7925,6 +7941,31 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-20T14:07:25.145Z",
       "doNotUpdateBefore": "2026-07-19T20:07:25.145Z"
+    },
+    "infantino-fifa-flugmeilen-wm-2026": {
+      "canonicalTitle": "Bericht: FIFA-Chef Infantino flog während WM mehr als zweimal um die Erde",
+      "slug": "infantino-fifa-flugmeilen-wm-2026",
+      "firstSeenAt": "2026-07-19T16:07:26.434Z",
+      "lastUpdatedAt": "2026-07-19T16:07:26.434Z",
+      "status": "published",
+      "articlePath": "src/content/articles/infantino-fifa-flugmeilen-wm-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-19/infantino-fifa-flugmeilen-wm-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436643",
+        "https://kurier.at/sport/fussball/fussball-wm-infantino-stadien-flugmeilen-kilometer/403176972",
+        "https://www.derstandard.at/story/3000000332019/im-privatjet-von-spiel-zu-spiel-infantino-flog-zweimal-um-die-welt",
+        "https://sport.orf.at/stories/3160381",
+        "https://abcnews.com/Sports/wireStory/flight-hours-miles-world-cup-travels-fifas-infantino-134887457"
+      ],
+      "openQuestions": [
+        "Wie genau wurde der geschätzte CO2-Ausstoß von rund 813 Tonnen berechnet, und welche Annahmen liegen der Schätzung zugrunde?",
+        "Wird sich FIFA noch offiziell zur Kritik am Reiseprogramm ihres Präsidenten äußern?",
+        "Wie verhält sich Infantinos Flugaufkommen im Vergleich zu früheren Turnieren oder zum Reiseverhalten anderer FIFA-Funktionäre?",
+        "Gibt es geschäftliche oder protokollarische Gründe für die Dichte des Reiseprogramms, die FIFA bislang nicht kommuniziert hat?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-20T16:07:26.434Z",
+      "doNotUpdateBefore": "2026-07-19T22:07:26.434Z"
     }
   }
 }
