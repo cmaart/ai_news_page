@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-20T06:21:12.136Z",
+  "updatedAt": "2026-07-20T08:20:59.079Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2578,7 +2578,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-16T06:07:27.992Z",
       "doNotUpdateBefore": "2026-07-15T12:07:27.992Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "derstandard": "2026-07-20T08:07:28.584Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
@@ -5320,7 +5322,7 @@
       },
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-19T18:07:30.423Z"
+      "resonanceMeasuredAt": "2026-07-20T08:07:28.584Z"
     },
     "cluster-20260715-88f5f82e": {
       "canonicalTitle": "Nobelpreisträger Hassabis schlägt unabhängige Organisation zur KI-Regulierung vor",
@@ -8110,7 +8112,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-20T20:07:30.723Z",
-      "doNotUpdateBefore": "2026-07-20T02:07:30.723Z"
+      "doNotUpdateBefore": "2026-07-20T02:07:30.723Z",
+      "echoPublishers": {
+        "kurier": "2026-07-20T08:07:28.584Z"
+      }
     },
     "medienfoerderungspaket-55-millionen-juli-2026": {
       "canonicalTitle": "Koalition soll sich laut Medienberichten auf 55-Millionen-Medienförderpaket geeinigt haben",
@@ -8253,11 +8258,12 @@
       "doNotRedraftBefore": "2026-07-21T04:07:27.799Z",
       "doNotUpdateBefore": "2026-07-20T10:07:27.799Z",
       "echoPublishers": {
-        "orf": "2026-07-20T06:07:25.521Z"
+        "orf": "2026-07-20T06:07:25.521Z",
+        "derstandard": "2026-07-20T08:07:28.584Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-20T06:07:25.521Z"
+      "resonanceMeasuredAt": "2026-07-20T08:07:28.584Z"
     },
     "equal-pension-day-pensionsluecke-oberoesterreich-2026": {
       "canonicalTitle": "Equal Pension Day: Frauen in Oberösterreich erhalten laut Erhebung deutlich weniger Pension",
@@ -8340,6 +8346,87 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-21T06:07:25.521Z",
       "doNotUpdateBefore": "2026-07-20T12:07:25.521Z"
+    },
+    "katar-air-force-one-nachruestung-juli-2026": {
+      "canonicalTitle": "Von Katar geschenkte Präsidentenmaschine wird nach Sicherheitsbedenken nachgerüstet",
+      "slug": "katar-air-force-one-nachruestung-juli-2026",
+      "firstSeenAt": "2026-07-20T08:07:28.584Z",
+      "lastUpdatedAt": "2026-07-20T08:07:28.584Z",
+      "status": "published",
+      "articlePath": "src/content/articles/katar-air-force-one-nachruestung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/katar-air-force-one-nachruestung-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436692",
+        "https://www.derstandard.at/story/3000000332121/von-katar-an-trump-verschenkte-us-pr228sidentenmaschine-wird-umger252stet",
+        "https://www.diepresse.com/38374735/ein-geschenk-aus-katar-trumps-praesidentenmaschine-air-force-one-wird-umgeruestet",
+        "https://kurier.at/politik/ausland/katar-geschenk-trump-air-force-one-sicherheit-umbau/403177019",
+        "https://us.cnn.com/2026/07/20/politics/trump-air-force-one-qatar-maxed-out-hnk",
+        "https://www.usnews.com/news/world/articles/2026-07-19/trump-says-new-air-force-one-from-qatar-will-get-maxed-out-upgrades",
+        "https://www.cbsnews.com/news/air-force-one-trump-turkey-secret-service/",
+        "https://www.cnbc.com/2026/07/01/retrofitted-qatari-jet-flight-air-force-one-trump.html"
+      ],
+      "openQuestions": [
+        "Welche konkreten Sicherheitssysteme werden bei der einmonatigen Nachrüstung ergänzt oder ausgetauscht?",
+        "Gibt es eine offizielle Stellungnahme Katars oder des Secret Service zu den Sicherheitsbedenken?",
+        "Wie wirkt sich die vorübergehende Außerdienststellung auf die Reiseplanung des Präsidenten aus?",
+        "Wird die für 2028 erwartete permanente Boeing-Nachfolgemaschine den Zeitplan halten?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-21T08:07:28.584Z",
+      "doNotUpdateBefore": "2026-07-20T14:07:28.584Z"
+    },
+    "blitzschlag-rax-wanderer-verletzt-juli-2026": {
+      "canonicalTitle": "Blitzschlag auf der Rax: Zwei ungarische Wanderer bei Gewitter verletzt",
+      "slug": "blitzschlag-rax-wanderer-verletzt-juli-2026",
+      "firstSeenAt": "2026-07-20T08:07:28.584Z",
+      "lastUpdatedAt": "2026-07-20T08:07:28.584Z",
+      "status": "published",
+      "articlePath": "src/content/articles/blitzschlag-rax-wanderer-verletzt-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/blitzschlag-rax-wanderer-verletzt-juli-2026.json",
+      "sourceUrls": [
+        "https://steiermark.orf.at/stories/3363393",
+        "https://www.diepresse.com/38372608/zwei-wanderer-durch-blitzschlag-auf-der-rax-verletzt",
+        "https://kurier.at/chronik/steiermark/steiermark-blitzschlag-rax-zwei-wanderer-verletzt-gerettet/403177021",
+        "https://www.heute.at/s/blitz-katapultiert-wanderer-in-die-tiefe-grosseinsatz-120225955",
+        "https://www.meinbezirk.at/muerztal/c-lokales/blitzschlag-auf-der-rax-verletzt-wanderer-schwer-dramatische-rettung_a8805654",
+        "https://www.noen.at/neunkirchen/einsatz-blitzschlag-auf-rax-setzte-wanderer-zu-rettung-per-hubschrauber-481817273"
+      ],
+      "openQuestions": [
+        "Wie geht es den beiden Verletzten aktuell, insbesondere dem Mann mit den Verbrennungen?",
+        "Gab es eine offizielle Stellungnahme der Landespolizeidirektion Steiermark oder der Bergrettung zum genauen Einsatzverlauf?",
+        "Wie genau kam es zum Blitzeinschlag in Bezug auf die zuvor ausgegebene Gewitterwarnung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-21T08:07:28.584Z",
+      "doNotUpdateBefore": "2026-07-20T14:07:28.584Z"
+    },
+    "spacex-falcon-9-mond-einschlag-august-2026": {
+      "canonicalTitle": "SpaceX-Raketenteil soll Anfang August auf dem Mond einschlagen",
+      "slug": "spacex-falcon-9-mond-einschlag-august-2026",
+      "firstSeenAt": "2026-07-20T08:07:28.584Z",
+      "lastUpdatedAt": "2026-07-20T08:07:28.584Z",
+      "status": "published",
+      "articlePath": "src/content/articles/spacex-falcon-9-mond-einschlag-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/spacex-falcon-9-mond-einschlag-august-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/38349156/wird-schwer-zu-sehen-sein-teil-von-spacex-rakete-schlaegt-auf-dem-mond-auf",
+        "https://kurier.at/chronik/welt/spacex-rakete-mond/403177004",
+        "https://futurezone.at/science/spacex-falcon-9-mond-aufschlag-ungeplant-crash/403177000",
+        "https://www.diepresse.com/38349156/teil-von-spacex-rakete-koennte-ungeplant-auf-mond-aufschlagen",
+        "https://orf.at/stories/3436677",
+        "https://www.heise.de/news/Weltraumschrott-von-SpaceX-vor-Einschlag-auf-dem-Mond-NASA-Sonde-soll-nachsehen-11370236.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Weltraumschrott-von-SpaceX-vor-Einschlag-auf-dem-Mond-NASA-Sonde-soll-nachsehen-11370236.html",
+        "https://www.projectpluto.com/25010d.htm",
+        "https://arxiv.org/html/2607.14625"
+      ],
+      "openQuestions": [
+        "Wird SpaceX oder die NASA offiziell zu den Berechnungen Stellung nehmen?",
+        "Wie genau lässt sich die Einschlagstelle nach dem Ereignis mittels LRO-Aufnahmen bestätigen?",
+        "Welche wissenschaftlichen Erkenntnisse liefert der Vergleich mit dem unklar zugeordneten Mondeinschlag von 2022?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-21T08:07:28.584Z",
+      "doNotUpdateBefore": "2026-07-20T14:07:28.584Z"
     }
   }
 }
