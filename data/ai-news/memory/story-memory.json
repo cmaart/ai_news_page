@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-20T04:23:25.645Z",
+  "updatedAt": "2026-07-20T06:21:12.136Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1844,7 +1844,6 @@
       "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
       "echoPublishers": {
         "orf": "2026-07-20T02:56:10.912Z",
-        "derstandard": "2026-07-19T06:07:24.917Z",
         "diepresse": "2026-07-19T12:07:28.466Z"
       },
       "resonanceLevel": 3,
@@ -2795,7 +2794,8 @@
       "doNotUpdateBefore": "2026-07-20T10:07:27.799Z",
       "echoPublishers": {
         "orf": "2026-07-19T20:07:30.723Z",
-        "derstandard": "2026-07-20T04:07:27.799Z"
+        "derstandard": "2026-07-20T04:07:27.799Z",
+        "kurier": "2026-07-20T06:07:25.521Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "triage",
@@ -5981,7 +5981,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T20:07:26.390Z",
       "doNotUpdateBefore": "2026-07-18T02:07:26.390Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "heise": "2026-07-20T06:07:25.521Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-18T14:07:30.241Z"
@@ -6449,10 +6451,10 @@
       "canonicalTitle": "Trump Media verkauft Finanzfirmen schnelleren Zugang zu Trumps Truth-Social-Posts",
       "slug": "trump-truth-api-finanzfirmen-august-2026",
       "firstSeenAt": "2026-07-17T10:07:28.766Z",
-      "lastUpdatedAt": "2026-07-17T10:07:28.766Z",
+      "lastUpdatedAt": "2026-07-20T06:07:25.521Z",
       "status": "published",
       "articlePath": "src/content/articles/trump-truth-api-finanzfirmen-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/trump-truth-api-finanzfirmen-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-20/trump-truth-api-finanzfirmen-august-2026-update-600.json",
       "sourceUrls": [
         "https://orf.at/stories/3436460",
         "https://www.derstandard.at/story/3000000331900/trdonald-trump-will-seine-online-botschaften-zu-geld-machen",
@@ -6462,17 +6464,23 @@
         "https://www.derstandard.at/story/3000000331462/donald-trump-auf-verlorenem-posten",
         "https://www.heise.de/news/API-Zugang-fuer-Truth-Social-Schnellerer-Zugang-zu-Trumps-Beitraegen-gegen-Geld-11368703.html",
         "https://finance.yahoo.com/technology/articles/trump-media-technology-group-launches-130000261.html",
-        "https://www.cbsnews.com/news/truth-api-trump-media/"
+        "https://www.cbsnews.com/news/truth-api-trump-media/",
+        "https://www.heise.de/news/API-Zugang-fuer-Truth-Social-soll-bis-zu-100-000-US-Dollar-im-Monat-kosten-11370224.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://orf.at/stories/3436521",
+        "https://www.golem.de/news/truth-social-trump-laesst-wall-street-fuer-millisekunden-zahlen-2607-211028.html",
+        "https://www.heise.de/news/API-Zugang-fuer-Truth-Social-soll-bis-zu-100-000-US-Dollar-im-Monat-kosten-11370224.html",
+        "https://www.cnbc.com/2026/07/18/trump-media-pitched-100000/month-fee-for-fastest-feed-of-trump-posts.html",
+        "https://www.washingtonpost.com/politics/2026/07/16/truth-social-will-sell-investors-faster-access-trumps-market-moving-posts/"
       ],
       "openQuestions": [
-        "Wie hoch ist der Preis für den Zugang zu „Truth API“?",
-        "Welche und wie viele Finanzinstitute haben bereits Verträge abgeschlossen?",
-        "Gibt es Reaktionen von Börsenaufsichtsbehörden wie der SEC zu dem Geschäftsmodell?",
+        "Bestätigt Trump Media & Technology Group die berichteten Preise (rund 100.000 bzw. 60.000 US-Dollar monatlich) offiziell?",
+        "Welche und wie viele Finanzinstitute haben bereits konkret Verträge abgeschlossen?",
+        "Gibt es Reaktionen von Börsenaufsichtsbehörden wie der SEC oder der CFTC zu dem Geschäftsmodell?",
         "Wie genau funktioniert die technische Auswahl der „zehn einflussreichsten“ Accounts?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-18T10:07:28.766Z",
-      "doNotUpdateBefore": "2026-07-17T16:07:28.766Z"
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-21T06:07:25.521Z",
+      "doNotUpdateBefore": "2026-07-20T12:07:25.521Z"
     },
     "cluster-20260717-e593c3b5": {
       "canonicalTitle": "Frau in Tirol von drei Hunden attackiert",
@@ -7645,9 +7653,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-20T04:07:26.090Z",
       "doNotUpdateBefore": "2026-07-19T10:07:26.090Z",
-      "echoPublishers": {
-        "orf": "2026-07-19T06:07:24.917Z"
-      }
+      "echoPublishers": {}
     },
     "capdevila-einreise-verweigert-wm-finale-juli-2026": {
       "canonicalTitle": "Ex-Weltmeister Capdevila bittet Trump um Hilfe nach verweigerter US-Einreise",
@@ -8245,7 +8251,13 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-21T04:07:27.799Z",
-      "doNotUpdateBefore": "2026-07-20T10:07:27.799Z"
+      "doNotUpdateBefore": "2026-07-20T10:07:27.799Z",
+      "echoPublishers": {
+        "orf": "2026-07-20T06:07:25.521Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-20T06:07:25.521Z"
     },
     "equal-pension-day-pensionsluecke-oberoesterreich-2026": {
       "canonicalTitle": "Equal Pension Day: Frauen in Oberösterreich erhalten laut Erhebung deutlich weniger Pension",
@@ -8284,6 +8296,50 @@
         "Messi & Argentinien — Reaktionen, Rückblick auf Titelverteidigung"
       ],
       "sensitivity": "medium"
+    },
+    "ungarn-verfassungsaenderung-sulyok-abgesetzt-polgar-praesidentin-2026": {
+      "canonicalTitle": "Ungarn: Verfassungsänderung soll Präsident Sulyok absetzen – Magyar nominiert Schachlegende Polgár",
+      "slug": "ungarn-verfassungsaenderung-sulyok-abgesetzt-polgar-praesidentin-2026",
+      "firstSeenAt": "2026-07-20T06:07:25.521Z",
+      "lastUpdatedAt": "2026-07-20T06:07:25.521Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ungarn-verfassungsaenderung-sulyok-abgesetzt-polgar-praesidentin-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/ungarn-verfassungsaenderung-sulyok-abgesetzt-polgar-praesidentin-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436680",
+        "https://kurier.at/politik/ausland/ungarn-staatspraesident-tamas-sulyok-peter-magyar-absetzung-verfassung/403176928"
+      ],
+      "openQuestions": [
+        "Hat sich Judit Polgár selbst zu einer möglichen Nominierung als Präsidentin geäußert?",
+        "Welche genauen Bestimmungen enthält die Verfassungsnovelle, etwa zu Mandatsbeschränkungen oder Altersgrenzen für Verfassungsrichter?",
+        "Wie hat Staatspräsident Tamás Sulyok selbst auf die Verfassungsänderung reagiert?",
+        "Über welchen formalen Weg (Parlamentsbeschluss, Referendum, Verfassungsgericht) wurde die Änderung durchgesetzt?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-21T06:07:25.521Z",
+      "doNotUpdateBefore": "2026-07-20T12:07:25.521Z"
+    },
+    "tu-graz-studie-emissionen-wohnflaeche-2050": {
+      "canonicalTitle": "Studie: Kleinere Wohnungen könnten Emissionen im Gebäudesektor bis 2050 drastisch senken",
+      "slug": "tu-graz-studie-emissionen-wohnflaeche-2050",
+      "firstSeenAt": "2026-07-20T06:07:25.521Z",
+      "lastUpdatedAt": "2026-07-20T06:07:25.521Z",
+      "status": "published",
+      "articlePath": "src/content/articles/tu-graz-studie-emissionen-wohnflaeche-2050.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/tu-graz-studie-emissionen-wohnflaeche-2050.json",
+      "sourceUrls": [
+        "https://steiermark.orf.at/stories/3363259"
+      ],
+      "openQuestions": [
+        "Wo und wann wurde die Studie veröffentlicht, und in welchem Fachjournal oder Konferenzband?",
+        "Welche weiteren Institute und Länder waren an der internationalen Studie beteiligt?",
+        "Hat die Studie ein Peer-Review-Verfahren durchlaufen?",
+        "Gibt es eine offizielle Aussendung oder Stellungnahme der TU Graz zu den Ergebnissen?",
+        "Auf welchen Annahmen (z. B. Baustandards, Länderauswahl) beruht die 90-Prozent-Prognose für 2050?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-21T06:07:25.521Z",
+      "doNotUpdateBefore": "2026-07-20T12:07:25.521Z"
     }
   }
 }

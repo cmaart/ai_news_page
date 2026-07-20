@@ -1,0 +1,162 @@
+{
+  "cluster": {
+    "id": "cluster-20260719-e4b71355",
+    "title": "Kleinere Wohnungen senken Emissionen",
+    "items": [
+      {
+        "itemId": "0220f6ec44fb803e9785dd9d661c999102d9e21568037372853c8b5b78a5548a",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Kleinere Wohnungen senken Emissionen",
+        "url": "https://steiermark.orf.at/stories/3363259",
+        "summary": "Der Gebäudesektor trägt erheblich zu den Treibhausgasemissionen in Europa bei. Eine internationale Studie, an der auch die TU-Graz beteiligt war, untersuchte mögliche Strategien zur Reduzierung dieser Emissionen. Ein Ergebnis: Emissionen könnten bis 2050 um 90 Prozent reduziert werden.",
+        "publishedAt": "2026-07-19T05:45:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "ec91957655bff3d7ddffd2ed59254cfe69bdbafd8e4b7c4f1ad9e3267db25d7b",
+        "sourceId": "orf_steiermark",
+        "sourceType": "media",
+        "title": "Kleinere Wohnungen senken Emissionen",
+        "url": "https://steiermark.orf.at/stories/3363259",
+        "summary": "Der Gebäudesektor trägt erheblich zu den Treibhausgasemissionen in Europa bei. Eine internationale Studie, an der auch die TU-Graz beteiligt war, untersuchte mögliche Strategien zur Reduzierung dieser Emissionen. Ein Ergebnis: Emissionen könnten bis 2050 um 90 Prozent reduziert werden.",
+        "publishedAt": "2026-07-19T05:45:00.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Konkrete Forschungsergebnisse der TU Graz zu Emissionsreduktion im Gebäudesektor mit direkter Relevanz für Österreich und EU-Klimapolitik. Der Fulltext liefert spezifische Zahlen (2 m² Reduktion, bis 90% Emissionsreduktion bis 2050) und benannten Forschungskontext (Nicolas Alaux, Lebenszyklus-Berechnung). Allerdings liegt nur ORF-Berichterstattung vor; die Originalstudi ist nicht verlinkt. Substanz und öffentliche Relevanz rechtfertigen draft_article, bei dem die Primärquellen recherchiert werden.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "In Europa machen Gebäude 40 Prozent der Treibhausgasemissionen aus",
+      "Eine Reduzierung der Wohnfläche pro Person um zwei Quadratmeter könnte bis 2050 zu einer Emissionsreduktion von bis zu 90 Prozent führen",
+      "Nicolas Alaux entwickelte im Rahmen seiner Dissertation ein Computerprogramm zur Lebenszyklusberechnung von Gebäudenemissionen",
+      "Emissionsarme Neubauten am Stadtrand sind nicht die umweltfreundlichste Lösung",
+      "Bestehende Leerstände zu nutzen ist eine bessere Strategie als Neubauten"
+    ],
+    "missingSources": [
+      "Link zur Originalstudi oder Konferenzpaper",
+      "Namen und Länder anderer beteiligter Institute der internationalen Studie",
+      "Veröffentlichungsdatum und Publikationsmedium der Studie",
+      "Peer-Review-Status oder Journal",
+      "Direkte Bestätigung oder Pressemitteilung von TU Graz"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "tu-graz-studie-emissionen-wohnflaeche-2050",
+    "title": "Studie: Kleinere Wohnungen könnten Emissionen im Gebäudesektor bis 2050 drastisch senken",
+    "description": "Laut einer ORF-Berichterstattung über eine internationale Studie mit TU-Graz-Beteiligung könnten geringere Wohnflächen pro Person die Treibhausgasemissionen im Gebäudesektor bis 2050 um bis zu 90 Prozent reduzieren. Die Originalstudie liegt nicht vor, zentrale Angaben sind offen.",
+    "topic": "wissenschaft",
+    "country": "at",
+    "confidence": "low",
+    "confidenceNote": "Es liegt nur eine einzige mediale Quelle vor: Derselbe Text erscheint bei ORF Österreich und ORF Steiermark unter identischer URL, zählt also als eine Quelle. Eine zweite unabhängige Bestätigung, eine Agenturmeldung oder eine Stellungnahme der TU Graz fehlen bislang.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Die Originalstudie, ein Konferenzpaper oder eine Aussendung der TU Graz wurden nicht eingesehen; alle Angaben stammen ausschließlich aus der ORF-Zusammenfassung.",
+    "framingRisk": "high",
+    "framingRiskNote": "Nur eine mediale Perspektive liegt vor, ohne Zugang zur Originalstudie oder einer eigenen Einordnung der TU Graz — eine Gegenprüfung war nicht möglich.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Laut ORF-Berichterstattung untersuchte eine internationale Studie mit TU-Graz-Beteiligung Strategien zur Emissionsreduktion im Gebäudesektor.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Studie kommt laut ORF zu dem Ergebnis, dass Emissionen bis 2050 um bis zu 90 Prozent sinken könnten, etwa durch rund zwei Quadratmeter weniger Wohnfläche pro Person.",
+        "kind": "fact"
+      },
+      {
+        "text": "Genannt wird der Grazer Forscher Nicolas Alaux, der im Rahmen seiner Dissertation ein Berechnungsprogramm für Gebäude-Emissionen entwickelt haben soll.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wer die Studie sonst noch durchführte, wo und wann sie veröffentlicht wurde und ob ein Peer-Review stattfand, ist unklar.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine direkte Stellungnahme der TU Graz oder ein Link zur Originalarbeit liegen nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wo und wann wurde die Studie veröffentlicht, und in welchem Fachjournal oder Konferenzband?",
+      "Welche weiteren Institute und Länder waren an der internationalen Studie beteiligt?",
+      "Hat die Studie ein Peer-Review-Verfahren durchlaufen?",
+      "Gibt es eine offizielle Aussendung oder Stellungnahme der TU Graz zu den Ergebnissen?",
+      "Auf welchen Annahmen (z. B. Baustandards, Länderauswahl) beruht die 90-Prozent-Prognose für 2050?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Steiermark / ORF Österreich",
+        "type": "media",
+        "url": "https://steiermark.orf.at/stories/3363259"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der Gebäudesektor ist laut der Studie für einen erheblichen Anteil der Treibhausgasemissionen in Europa verantwortlich.",
+        "status": "partial",
+        "note": "Nur eine mediale Quelle beschreibt dies zusammenfassend, ohne konkrete Prozentangabe im vorliegenden Text.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Laut Studie könnten die Emissionen im Gebäudesektor bis 2050 um bis zu 90 Prozent sinken, unter anderem durch rund zwei Quadratmeter weniger Wohnfläche pro Person.",
+        "status": "unclear",
+        "note": "Zahl stammt allein aus der ORF-Zusammenfassung; die Originalstudie und ihre Methodik wurden nicht eingesehen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "An der internationalen Studie war laut ORF-Bericht die TU Graz beteiligt, unter anderem durch den Forscher Nicolas Alaux.",
+        "status": "partial",
+        "note": "Keine eigene Bestätigung der TU Graz vorliegend, nur die ORF-Darstellung.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Als Strategie wird die Nutzung bestehender Leerstände einem emissionsarmen Neubau am Stadtrand vorgezogen.",
+        "status": "unclear",
+        "note": "Einzelaussage aus der Sekundärquelle, ohne Einsicht in die zugrundeliegende Studienargumentation.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laut einem Bericht des ORF hat eine internationale Studie, an der auch die TU Graz beteiligt gewesen sein soll, Strategien zur Reduzierung von Treibhausgasemissionen im Gebäudesektor untersucht. Der Gebäudesektor gilt demnach als einer der bedeutenden Emissionsquellen in Europa. Als zentrales Ergebnis wird genannt, dass sich die Emissionen bis zum Jahr 2050 um bis zu 90 Prozent reduzieren ließen, wenn unter anderem die Wohnfläche pro Person um rund zwei Quadratmeter sinkt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der ORF-Bericht nennt den Grazer Forscher Nicolas Alaux, der im Rahmen seiner Dissertation ein Computerprogramm zur Lebenszyklusberechnung von Gebäudeemissionen entwickelt haben soll. Damit ließen sich offenbar Emissionen über die gesamte Nutzungsdauer eines Gebäudes hinweg abschätzen. Als Handlungsempfehlung wird angeführt, dass emissionsarme Neubauten am Stadtrand nicht zwingend die umweltfreundlichste Lösung seien — stattdessen wird die Nutzung bestehender Leerstände als bessere Strategie dargestellt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, welche weiteren Forschungseinrichtungen und Länder an der als „international“ bezeichneten Studie beteiligt waren. Auch Veröffentlichungsdatum, Publikationsort oder Fachjournal sowie der Peer-Review-Status der Arbeit sind aus der vorliegenden Berichterstattung nicht ersichtlich. Eine direkte Aussendung oder Stellungnahme der TU Graz zu den Ergebnissen liegt ebenfalls nicht vor, ebenso wenig ein Link zur Originalarbeit oder zum Konferenzpaper."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Gebäudesektor wird in der europäischen Klimapolitik regelmäßig als einer der größten Hebel für Emissionsreduktionen genannt, weshalb Forschungsergebnisse zu Wohnfläche und Sanierungsstrategien öffentlich relevant sind. Da hier aber ausschließlich eine einzige mediale Quelle — inhaltsgleich bei zwei ORF-Regionalseiten veröffentlicht — vorliegt und weder Originalstudie noch eine Stellungnahme der TU Graz eingesehen werden konnten, sind die genannten Zahlen und Zuschreibungen vorerst mit Vorsicht zu behandeln."
+      }
+    ],
+    "bodyKompakt": "Der Gebäudesektor gilt laut einer internationalen Studie, an der auch die TU Graz beteiligt gewesen sein soll, als bedeutender Faktor für die Treibhausgasemissionen in Europa. Laut einem Bericht des ORF könnten die Emissionen bis 2050 um bis zu 90 Prozent sinken, unter anderem wenn die Wohnfläche pro Person um rund zwei Quadratmeter verringert würde.\n\nDer ORF-Bericht nennt den Grazer Forscher Nicolas Alaux, der im Rahmen seiner Dissertation ein Computerprogramm zur Lebenszyklusberechnung von Gebäudeemissionen entwickelt haben soll. Als Strategie wird demnach nicht der emissionsarme Neubau am Stadtrand empfohlen, sondern die Nutzung bestehender Leerstände.\n\nOffen bleibt, wer die Studie sonst noch durchführte, wo und wann sie veröffentlicht wurde und ob sie ein Peer-Review-Verfahren durchlaufen hat. Eine eigene Stellungnahme der TU Graz oder ein Link zur Originalarbeit liegen nicht vor, weshalb die Angaben vorerst allein auf der ORF-Berichterstattung beruhen.",
+    "updateNote": null
+  },
+  "webSearchUsed": 0,
+  "createdAt": "2026-07-20T06:07:25.521Z"
+}
