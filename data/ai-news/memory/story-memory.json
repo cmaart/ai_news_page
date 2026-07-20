@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-20T10:25:45.725Z",
+  "updatedAt": "2026-07-20T12:19:23.895Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2587,11 +2587,12 @@
       "doNotRedraftBefore": "2026-07-21T10:07:31.860Z",
       "doNotUpdateBefore": "2026-07-20T16:07:31.860Z",
       "echoPublishers": {
-        "derstandard": "2026-07-20T08:07:28.584Z"
+        "derstandard": "2026-07-20T08:07:28.584Z",
+        "kleinezeitung": "2026-07-20T12:07:26.483Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
+      "resonanceMeasuredAt": "2026-07-20T12:07:26.483Z"
     },
     "frankreich-atomreaktoren-hitze-juli-2026": {
       "canonicalTitle": "Hitzewelle in Frankreich: Atomreaktoren in Golfech, Bugey und Chooz abgeschaltet – ASNR lockert Kühlwasser-Grenzwerte",
@@ -6544,10 +6545,12 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T12:07:35.751Z",
       "doNotUpdateBefore": "2026-07-17T18:07:35.751Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-18T14:07:30.241Z"
+      "echoPublishers": {
+        "diepresse": "2026-07-20T12:07:26.483Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-20T12:07:26.483Z"
     },
     "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026": {
       "canonicalTitle": "Moonshot AIs Kimi K3 und Xi Jinpings Ruf nach Kontrolle: Chinas KI-Doppelschlag von Shanghai",
@@ -6805,7 +6808,7 @@
       "doNotRedraftBefore": "2026-07-20T18:07:30.423Z",
       "doNotUpdateBefore": "2026-07-20T00:07:30.423Z",
       "echoPublishers": {
-        "derstandard": "2026-07-19T16:07:26.434Z"
+        "derstandard": "2026-07-20T12:07:26.483Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -7207,7 +7210,7 @@
       "doNotRedraftBefore": "2026-07-20T16:07:26.434Z",
       "doNotUpdateBefore": "2026-07-19T22:07:26.434Z",
       "echoPublishers": {
-        "derstandard": "2026-07-19T16:07:26.434Z",
+        "derstandard": "2026-07-20T12:07:26.483Z",
         "kurier": "2026-07-19T16:07:26.434Z"
       },
       "resonanceLevel": 1,
@@ -8097,7 +8100,7 @@
       "doNotUpdateBefore": "2026-07-20T02:07:30.723Z",
       "echoPublishers": {
         "diepresse": "2026-07-20T10:07:31.860Z",
-        "kleinezeitung": "2026-07-20T10:07:31.860Z"
+        "kleinezeitung": "2026-07-20T12:07:26.483Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
@@ -8269,12 +8272,13 @@
       "doNotRedraftBefore": "2026-07-21T04:07:27.799Z",
       "doNotUpdateBefore": "2026-07-20T10:07:27.799Z",
       "echoPublishers": {
-        "orf": "2026-07-20T06:07:25.521Z",
-        "derstandard": "2026-07-20T08:07:28.584Z"
+        "orf": "2026-07-20T12:07:26.483Z",
+        "derstandard": "2026-07-20T12:07:26.483Z",
+        "diepresse": "2026-07-20T12:07:26.483Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-20T08:07:28.584Z"
+      "resonanceMeasuredAt": "2026-07-20T12:07:26.483Z"
     },
     "equal-pension-day-pensionsluecke-oberoesterreich-2026": {
       "canonicalTitle": "Equal Pension Day: Frauen in Oberösterreich erhalten laut Erhebung deutlich weniger Pension",
@@ -8440,7 +8444,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-21T08:07:28.584Z",
-      "doNotUpdateBefore": "2026-07-20T14:07:28.584Z"
+      "doNotUpdateBefore": "2026-07-20T14:07:28.584Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-20T12:07:26.483Z"
+      }
     },
     "operation-medusa-oesterreich-kritik-juli-2026": {
       "canonicalTitle": "Kritik an Österreichs Nichtbeteiligung an Polizeioperation gegen internationale Vergewaltigungsnetzwerke",
@@ -8489,6 +8496,110 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-21T10:07:31.860Z",
       "doNotUpdateBefore": "2026-07-20T16:07:31.860Z"
+    },
+    "medienfoerderung-regierungspaket-juli-2026": {
+      "canonicalTitle": "Regierung einigt sich auf neues Medienförderpaket mit über 55 Millionen Euro bis 2028",
+      "slug": "medienfoerderung-regierungspaket-juli-2026",
+      "firstSeenAt": "2026-07-20T12:07:26.483Z",
+      "lastUpdatedAt": "2026-07-20T12:07:26.483Z",
+      "status": "published",
+      "articlePath": "src/content/articles/medienfoerderung-regierungspaket-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/medienfoerderung-regierungspaket-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436719",
+        "https://www.diepresse.com/38361514/regierung-reformiert-die-medienfoerderung",
+        "https://kurier.at/kultur/medien/medienfoerderung-regierung-einigung-babler-goedl-brandstoetter/403177075",
+        "https://www.diepresse.com/38329804/regierung-einigt-sich-auf-neue-medienfoerderung",
+        "https://www.diepresse.com/38327763/regierung-soll-sich-auf-neue-medienfoerderung-geeinigt-haben",
+        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0058/spoe-seltenheim-medienpaket-ist-wichtiger-schritt-zur-absicherung-des-heimischen-medienstandorts-und-staerkung-der-pressefreiheit",
+        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0060/fpoe-hafenecker-bablers-medienreform-ist-gleichschaltung-nach-ddr-vorbild-steuermillionen-als-belohnung-fuer-systemmedien",
+        "https://www.ots.at/presseaussendung/OTS_20260719_OTS0015/aviso-pressekonferenz-der-bundesregierung-zum-medienpaket-am-20-juli-1030-uhr",
+        "https://www.sn.at/politik/innenpolitik/55-millionen-euro-regierung-finalisiert-neue-medienfoerderung-art-662992",
+        "https://www.horizont.at/medien/news/praesentation-am-montag-die-koalition-hat-sich-auf-ein-medienfoerderpaket-geeinigt.-102741"
+      ],
+      "openQuestions": [
+        "Wie werden die Beträge der Zustellförderung zwischen 2026 und 2028 exakt gestaffelt – 22,5 oder bis zu 25 Millionen Euro jährlich?",
+        "Welche Jahresbeträge gelten tatsächlich für den Digitalisierungsfonds – 20 oder 22,5 Millionen Euro pro Jahr?",
+        "Wie fällt die EU-beihilferechtliche Prüfung einzelner Fördertöpfe aus?",
+        "Wie konkret sieht die für 2028 angekündigte grundlegende Neuaufstellung des Fördersystems aus?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-21T12:07:26.483Z",
+      "doNotUpdateBefore": "2026-07-20T18:07:26.483Z"
+    },
+    "eu-strafe-aliexpress-550-millionen-juli-2026": {
+      "canonicalTitle": "EU-Kommission verhängt 550-Millionen-Euro-Rekordstrafe gegen AliExpress",
+      "slug": "eu-strafe-aliexpress-550-millionen-juli-2026",
+      "firstSeenAt": "2026-07-20T12:07:26.483Z",
+      "lastUpdatedAt": "2026-07-20T12:07:26.483Z",
+      "status": "published",
+      "articlePath": "src/content/articles/eu-strafe-aliexpress-550-millionen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/eu-strafe-aliexpress-550-millionen-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436715",
+        "https://www.derstandard.at/story/3000000332164/eu-verh228ngt-550-mio-euro-strafe-gegen-aliexpress",
+        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0068/550-mio-euro-strafe-gegen-aliexpress-eu-kommission-bestaetigt-jahrelange-kritik-des-handelsverbands",
+        "https://www.diepresse.com/38421880/eu-verhaengt-550-millionen-euro-strafe-gegen-aliexpress",
+        "https://kurier.at/wirtschaft/aliexpress-strafe-eu/403177067",
+        "https://www.heise.de/news/AliExpress-EU-Kommission-verhaengt-DSA-Rekordstrafe-11370852.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.golem.de/news/alibaba-550-millionen-euro-strafe-gegen-aliexpress-in-europa-2607-211067.html",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act"
+      ],
+      "openQuestions": [
+        "Wie reagiert AliExpress bzw. der Mutterkonzern Alibaba auf die Entscheidung, und wird gegen die Strafe vorgegangen?",
+        "Aus welcher Quelle stammt die in Medienberichten zitierte Zahl, wonach jeder fünfte Europäer monatlich bei Shein, Temu oder AliExpress einkauft?",
+        "Wie genau ist die rechtliche Grundlage der österreichischen Paketsteuer-Ausnahme für AliExpress ausgestaltet, und trifft die Kritik des Handelsverbands zu?",
+        "Was ergibt der von AliExpress vorzulegende Aktionsplan, und wird die Kommission ihn als ausreichend bewerten?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-21T12:07:26.483Z",
+      "doNotUpdateBefore": "2026-07-20T18:07:26.483Z"
+    },
+    "semmering-basistunnel-toedlicher-arbeitsunfall-juli-2026": {
+      "canonicalTitle": "Tödlicher Arbeitsunfall auf Semmering-Basistunnel-Baustelle: Ein Toter, ein Schwerverletzter",
+      "slug": "semmering-basistunnel-toedlicher-arbeitsunfall-juli-2026",
+      "firstSeenAt": "2026-07-20T12:07:26.483Z",
+      "lastUpdatedAt": "2026-07-20T12:07:26.483Z",
+      "status": "published",
+      "articlePath": "src/content/articles/semmering-basistunnel-toedlicher-arbeitsunfall-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/semmering-basistunnel-toedlicher-arbeitsunfall-juli-2026.json",
+      "sourceUrls": [
+        "https://noe.orf.at/stories/3363458",
+        "https://www.derstandard.at/story/3000000332170/toter-und-verletzter-bei-unfall-auf-semmering-basistunnel-baustelle",
+        "https://www.diepresse.com/38436268/toter-und-verletzter-bei-unfall-auf-semmering-basistunnel-baustelle",
+        "https://kurier.at/chronik/niederoesterreich/basistunnel-semmering/403177069",
+        "https://www.kleinezeitung.at/artikel/38438394/toter-und-verletzter-bei-unfall-auf-semmering-basistunnel-baustelle"
+      ],
+      "openQuestions": [
+        "Wie genau kam es zu dem Unfall – die Berichte nennen unterschiedliche Angaben zum Hergang?",
+        "Welches Bauunternehmen beschäftigte die beiden Arbeiter, und in welchem Auftragsverhältnis stand es zur ÖBB?",
+        "Zu welchem Ergebnis kommen die laufenden Erhebungen der Behörden?",
+        "Gibt es eine offizielle Stellungnahme der ÖBB oder des Arbeitsinspektorats zu Sicherheitsvorkehrungen auf der Baustelle?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-21T12:07:26.483Z",
+      "doNotUpdateBefore": "2026-07-20T18:07:26.483Z"
+    },
+    "cluster-20260720-748b1e34": {
+      "canonicalTitle": "So viele Tonnen Müll wurden 2025 von Österreichs Autobahnen gesammelt",
+      "slug": "cluster-20260720-748b1e34",
+      "firstSeenAt": "2026-07-20T12:07:26.483Z",
+      "lastUpdatedAt": "2026-07-20T12:07:26.483Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://kurier.at/chronik/oesterreich/asfinag-muell-autobahnen-2025/403177070",
+        "https://kurier.at/chronik/oesterreich/asfinag-muell-autobahnen-2025/403177070",
+        "https://www.kleinezeitung.at/artikel/38431533/rund-8900-tonnen-muell-von-oesterreichs-autobahnen-gesammelt",
+        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0029/asfinag-muellmenge-auf-oesterreichs-autobahnen-2025-minimal-auf-unter-9000-tonnen-gesunken"
+      ],
+      "openQuestions": [
+        "Unabhängige Bestätigung oder Sekundärquellen zu den Asfinag-Zahlen",
+        "Verkehrssicherheitsexperten oder Unfallforschung (Zahlen zu Unfällen durch Müll)",
+        "Vergleichsdaten mit anderen EU-Ländern oder mehrjähriger Trend (5+ Jahre)",
+        "Spezialisten für illegale Ablagerungen oder Umweltkriminalität",
+        "Reaktionen von Interessengruppen (z.B. Verkehrsclub, Umweltverbände)"
+      ],
+      "sensitivity": "low"
     }
   }
 }
