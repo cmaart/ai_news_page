@@ -67,12 +67,20 @@ const MAX_WEB_SEARCH_PER_DAY = envInt('AI_NEWS_MAX_WEB_SEARCH_PER_DAY', 8);
 const LOOKBACK_HOURS = envInt('AI_NEWS_LOOKBACK_HOURS', 48);
 const REDRAFT_LOCK_HOURS = envInt('AI_NEWS_REDRAFT_LOCK_HOURS', 24);
 const UPDATE_THROTTLE_HOURS = envInt('AI_NEWS_UPDATE_THROTTLE_HOURS', 6);
-const WEB_SEARCH_MIN_PORTALS = envInt('AI_NEWS_WEB_SEARCH_MIN_PORTALS', 3);
 // Verwandte-Stories-Finder (E53): High-Recall über Titel-Token-Overlap, nur als
 // Triage-Kandidaten — die Haiku-Triage entscheidet Update vs. Delta. Bewusst
 // getrennt vom strengen matchStory (Resonanz/Dedup dürfen keine Falsch-Treffer erben).
 const RELATED_MIN_OVERLAP = envInt('AI_NEWS_RELATED_MIN_OVERLAP', 2);
 const RELATED_MAX_CANDIDATES = envInt('AI_NEWS_RELATED_MAX_CANDIDATES', 3);
+// E55: Frische-Ausnahme des Finders — bei Artikeln jünger als dieses Fenster
+// genügt Overlap 1. Lehre aus dem WM-Feier-Artikel: „Tattoo inklusive! Spanien
+// feierte …“ vs. „WM-Finale: … Halbzeitpause“ teilten nur ein Token, der
+// tagesaktuelle Finale-Artikel wurde der Triage nie als Kandidat vorgelegt.
+const RELATED_FRESH_OVERLAP_HOURS = envInt('AI_NEWS_RELATED_FRESH_OVERLAP_HOURS', 48);
+// E55: Ausgang-offen-Watch — wie lange eine Story mit pendingOutcome aktiv
+// nachrecherchiert wird (ab dem Setzen des Flags). Der Update-Throttle (6 h)
+// begrenzt die Versuchsfrequenz.
+const PENDING_OUTCOME_TTL_HOURS = envInt('AI_NEWS_PENDING_OUTCOME_TTL_HOURS', 48);
 // Recency-Gewicht der Kandidaten (E54): additiver Boost 0..1 auf den Overlap,
 // damit ein frischer, echt verwandter Artikel nicht von alten Zufalls-Overlaps
 // aus den Kandidaten-Slots verdrängt wird (Halbwertszeit in Tagen).
@@ -294,6 +302,8 @@ async function main(): Promise<void> {
     triage: TriageResult;
     story?: Story;
     relatedCandidates: RelatedCandidate[];
+    /** E55: synthetischer Watch-Eintrag (pendingOutcome) — nie in den Backlog requeuen. */
+    isWatch?: boolean;
   }[] = [];
 
   for (const { cluster, score } of toTriage) {
@@ -376,6 +386,48 @@ async function main(): Promise<void> {
   }
   stats.resonanceUpdates = resonanceUpdates;
 
+  // Phase 5.7: Ausgang-offen-Watch (E55) --------------------------------------
+  // Der Update-Pfad ist sonst rein reaktiv auf RSS-Zufall — der WM-Finale-Artikel
+  // blieb auf Halbzeitstand stehen, weil kein späterer Cluster mehr auf ihn
+  // matchte. Stories mit explizit offenem Ausgang (pendingOutcome) werden als
+  // synthetische Update-Einträge ANS ENDE der Draft-Queue gehängt (echte Cluster
+  // haben Vorrang) und mit Web-Suche aktiv nachrecherchiert, bis der Ausgang
+  // eingearbeitet oder die Watch-TTL abgelaufen ist.
+  for (const story of Object.values(stories.stories)) {
+    if (!story.pendingOutcome || !story.articlePath) continue;
+    if (story.pendingOutcomeUntil && story.pendingOutcomeUntil < nowIso) {
+      // TTL abgelaufen — Flag räumen; die offene Frage bleibt im Artikel dokumentiert.
+      delete story.pendingOutcome;
+      delete story.pendingOutcomeUntil;
+      continue;
+    }
+    if (story.doNotUpdateBefore && story.doNotUpdateBefore > nowIso) continue;
+    // Kein Doppel-Anfassen, wenn ein echter Cluster diesen Run schon auf die Story zeigt.
+    if (triaged.some((t) => t.story?.slug === story.slug || t.triage.relatedSlug === story.slug)) continue;
+    const outcome = story.pendingOutcome;
+    triaged.push({
+      cluster: { id: `watch-${story.slug}`, title: outcome, tokens: titleTokens(outcome), items: [] },
+      score: { score: 0, recommendedAction: 'ai_triage', reasons: ['pending-outcome watch (E55)'] },
+      triage: {
+        action: 'update_story',
+        reason:
+          `Ausgang-offen-Watch (E55): Der publizierte Artikel beschreibt ein laufendes Ereignis; erwartet wird: ${outcome}. ` +
+          'Kein neuer RSS-Cluster — recherchiere das Folgeereignis per Web-Suche und arbeite es ein. ' +
+          'Ist es noch nicht eingetreten, gib den Artikel inhaltlich unverändert zurück (updateNote null) und setze pendingOutcome erneut.',
+        sensitivity: story.sensitivity ?? 'low',
+        newsworthiness: 3,
+        resonance: null,
+        relatedSlug: story.slug,
+        possibleClaims: [],
+        missingSources: [outcome],
+      },
+      story,
+      relatedCandidates: [],
+      isWatch: true,
+    });
+    console.log(`Watch (E55): ${story.slug} — offener Ausgang „${outcome}“ wird nachrecherchiert.`);
+  }
+
   // Phase 6: Drafts/Updates (Sonnet, max MAX_ARTICLES_PER_RUN) ----------------
   const searchBudget = Math.max(0, MAX_WEB_SEARCH_PER_DAY - webSearchCallsToday(history, dateStamp));
   const written: ManifestArticle[] = [];
@@ -442,8 +494,9 @@ async function main(): Promise<void> {
     if (action !== 'draft_article' && action !== 'update_story') continue;
     if (written.length >= MAX_ARTICLES_PER_RUN) {
       // Artikel-Cap erreicht: Cluster zurück in den Backlog, nächster Run
-      // triagt ihn erneut — nichts fällt wegen Cap dauerhaft raus.
-      requeue.push({ cluster, score: entry.score });
+      // triagt ihn erneut — nichts fällt wegen Cap dauerhaft raus. Watch-Einträge
+      // (E55) nicht: sie werden jeden Run neu aus dem Story-Memory erzeugt.
+      if (!entry.isWatch) requeue.push({ cluster, score: entry.score });
       continue;
     }
 
@@ -470,10 +523,14 @@ async function main(): Promise<void> {
       continue;
     }
 
-    const portals = new Set(cluster.items.map((i) => portalOf(i.sourceId)));
-    const useWebSearch =
-      searchBudget - stats.webSearchCalls > 0 &&
-      (escalated || isUpdate || isDelta || portals.size >= WEB_SEARCH_MIN_PORTALS);
+    // E55: Web-Suche für jeden Draft/Update/Delta — einziges Gate ist das
+    // Tagesbudget. Die frühere Portal-Zähl-Heuristik (Suche erst ab 3 Portalen)
+    // war epistemisch verkehrt: ausgerechnet dünne Quellenlagen, wo Recherche am
+    // nötigsten ist, bekamen keine.
+    const useWebSearch = searchBudget - stats.webSearchCalls > 0;
+    // Ein Watch-Update ohne Web-Suche ist zwecklos (kein neuer RSS-Input) —
+    // Budget erschöpft ⇒ nächster Run versucht es wieder.
+    if (entry.isWatch && !useWebSearch) continue;
     const allowImage = entry.score.score >= IMAGE_MIN_SCORE;
 
     try {
@@ -494,6 +551,13 @@ async function main(): Promise<void> {
                 openQuestions: relatedEntry.openQuestions,
               }
             : undefined,
+        // E55: verwandte publizierte Artikel als Kontextwissen in JEDEN Draft —
+        // ohne den Artikel, der ohnehin schon als Update-Ziel/Delta-Bezug mitgeht.
+        siteContext: entry.relatedCandidates
+          .map((c) => articleBySlug.get(c.slug))
+          .filter((e): e is ArticleIndexEntry => !!e)
+          .filter((e) => e.slug !== updateStory?.slug && e.slug !== (isDelta ? relatedEntry?.slug : undefined))
+          .map((e) => ({ slug: e.slug, title: e.title, summary: e.summary, openQuestions: e.openQuestions })),
         useWebSearch,
       });
       stats.webSearchCalls += webSearchUsed;
@@ -501,6 +565,16 @@ async function main(): Promise<void> {
       const sanitized = sanitizeDraft(draft);
       if (!sanitized) {
         throw new Error('Draft unbrauchbar: keine gültigen Quellen oder leerer Body.');
+      }
+
+      // E55: Watch-Nachrecherche ohne neuen Stand — nichts schreiben; der
+      // Update-Throttle schiebt den nächsten Versuch hinaus, die Watch bleibt.
+      if (entry.isWatch && !sanitized.updateNote) {
+        updateStory!.doNotUpdateBefore = new Date(
+          Date.parse(nowIso) + UPDATE_THROTTLE_HOURS * 3_600_000,
+        ).toISOString();
+        console.log(`Watch (E55): ${updateStory!.slug} — Folgeereignis noch nicht eingetreten, kein Update.`);
+        continue;
       }
 
       const slug = isUpdate ? updateStory!.slug : resolveSlug(sanitized.slugSuggestion, sanitized.title);
@@ -747,11 +821,16 @@ function findRelatedStories(
   const scored: { entry: ArticleIndexEntry; rank: number }[] = [];
   for (const entry of articleIndex) {
     if (entry.status !== 'published') continue;
-    const overlap = overlapCount(clusterTokens, titleTokens(entry.title));
+    // E55: Summary-Bullets matchen mit — Schlagzeilen desselben Ereignisses teilen
+    // oft kaum Titel-Tokens (Feier-Nachberichte vs. Spielbericht), die Kurzfazits schon.
+    const summaryText = entry.summary.map((s) => s.text).join(' ');
+    const overlap = overlapCount(clusterTokens, titleTokens(`${entry.title} ${summaryText}`));
     const isStrict = strictSlug === entry.slug;
-    if (overlap < RELATED_MIN_OVERLAP && !isStrict) continue;
     const ref = entry.updatedAt ?? entry.publishedAt;
     const ageDays = ref ? Math.max(0, (nowMs - Date.parse(ref)) / 86_400_000) : 3650;
+    // E55: bei ganz frischen Artikeln genügt Overlap 1 — Präzision liefert die Triage.
+    const minOverlap = ageDays * 24 < RELATED_FRESH_OVERLAP_HOURS ? 1 : RELATED_MIN_OVERLAP;
+    if (overlap < minOverlap && !isStrict) continue;
     const recencyBoost = Math.pow(0.5, ageDays / RELATED_RECENCY_HALF_LIFE_DAYS); // 0..1
     const rank = isStrict ? Number.MAX_SAFE_INTEGER : overlap + recencyBoost;
     scored.push({ entry, rank });
@@ -849,6 +928,18 @@ function upsertStory(
     sensitivity: draft.sensitivity,
     doNotRedraftBefore: new Date(Date.parse(nowIso) + options.redraftLockHours * 3_600_000).toISOString(),
     doNotUpdateBefore: new Date(Date.parse(nowIso) + options.updateThrottleHours * 3_600_000).toISOString(),
+    // Ausgang-offen-Watch (E55): Flag aus dem Draft übernehmen; pendingOutcome
+    // null/fehlend ⇒ Watch beendet (Felder werden hier bewusst nicht kopiert).
+    // Die TTL läuft ab dem ERSTEN Setzen — ein Update, das den Ausgang weiter
+    // offen meldet, verlängert sie nicht endlos.
+    ...(typeof draft.pendingOutcome === 'string' && draft.pendingOutcome.trim()
+      ? {
+          pendingOutcome: draft.pendingOutcome.trim(),
+          pendingOutcomeUntil:
+            (previous?.pendingOutcome ? previous.pendingOutcomeUntil : undefined) ??
+            new Date(Date.parse(nowIso) + PENDING_OUTCOME_TTL_HOURS * 3_600_000).toISOString(),
+        }
+      : {}),
     // Resonanz-Zustand (E46) übersteht Drafts/Updates — sonst ginge das
     // Messfenster bei jedem Story-Update verloren.
     ...(previous?.echoPublishers ? { echoPublishers: previous.echoPublishers } : {}),
