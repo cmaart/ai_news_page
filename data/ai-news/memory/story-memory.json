@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-20T12:19:23.895Z",
+  "updatedAt": "2026-07-20T14:20:02.695Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1843,8 +1843,7 @@
       "doNotRedraftBefore": "2026-07-19T12:07:30.176Z",
       "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
       "echoPublishers": {
-        "orf": "2026-07-20T02:56:10.912Z",
-        "diepresse": "2026-07-19T12:07:28.466Z"
+        "orf": "2026-07-20T02:56:10.912Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -4205,9 +4204,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-18T04:07:33.034Z",
       "doNotUpdateBefore": "2026-07-17T10:07:33.034Z",
-      "echoPublishers": {
-        "techcrunch": "2026-07-19T14:07:25.145Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-17T10:07:28.766Z"
@@ -5325,13 +5322,12 @@
       "doNotUpdateBefore": "2026-07-19T16:07:28.852Z",
       "echoPublishers": {
         "diepresse": "2026-07-19T20:07:30.723Z",
-        "derstandard": "2026-07-19T14:07:25.145Z",
         "kleinezeitung": "2026-07-19T20:07:30.723Z",
         "kurier": "2026-07-19T18:07:30.423Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-20T08:07:28.584Z"
+      "resonanceMeasuredAt": "2026-07-20T14:07:33.513Z"
     },
     "cluster-20260715-88f5f82e": {
       "canonicalTitle": "Nobelpreisträger Hassabis schlägt unabhängige Organisation zur KI-Regulierung vor",
@@ -6272,9 +6268,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-18T04:07:33.034Z",
       "doNotUpdateBefore": "2026-07-17T10:07:33.034Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-19T14:07:25.145Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-19T18:07:30.423Z"
@@ -6321,7 +6315,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
       "doNotUpdateBefore": "2026-07-17T12:07:26.099Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "derstandard": "2026-07-20T14:07:33.513Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
@@ -6546,11 +6542,11 @@
       "doNotRedraftBefore": "2026-07-18T12:07:35.751Z",
       "doNotUpdateBefore": "2026-07-17T18:07:35.751Z",
       "echoPublishers": {
-        "diepresse": "2026-07-20T12:07:26.483Z"
+        "diepresse": "2026-07-20T14:07:33.513Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-20T12:07:26.483Z"
+      "resonanceMeasuredAt": "2026-07-20T14:07:33.513Z"
     },
     "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026": {
       "canonicalTitle": "Moonshot AIs Kimi K3 und Xi Jinpings Ruf nach Kontrolle: Chinas KI-Doppelschlag von Shanghai",
@@ -7218,30 +7214,44 @@
       "resonanceMeasuredAt": "2026-07-19T16:07:26.434Z"
     },
     "huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026": {
-      "canonicalTitle": "Huthi-Miliz droht Saudi-Arabien nach Luftangriff auf Flughafen Sanaa mit „Belagerung“",
+      "canonicalTitle": "Huthi-Miliz verhängt „Seeblockade“ gegen Saudi-Arabien",
       "slug": "huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026",
       "firstSeenAt": "2026-07-18T10:07:28.883Z",
-      "lastUpdatedAt": "2026-07-18T10:07:28.883Z",
+      "lastUpdatedAt": "2026-07-20T14:07:33.513Z",
       "status": "published",
       "articlePath": "src/content/articles/huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-20/huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026-update-1400.json",
       "sourceUrls": [
         "https://kurier.at/politik/ausland/huthi-miliz-saudi-arabien-belagerung/403176866",
         "https://www.derstandard.at/story/3000000331236/der-krieg-zwischen-huthis-und-saudi-arabien-kehrt-wieder-zurueck",
         "https://orf.at/stories/3436531",
         "https://www.aljazeera.com/news/2026/7/14/leading-houthi-threatens-siege-on-saudi-arabia-after-yemen-airport-attack",
         "https://www.arabnews.com/node/2650801/pakistan",
-        "https://www.aljazeera.com/news/2026/7/13/yemen-govt-says-its-forces-attacked-sanaa-airport"
+        "https://www.aljazeera.com/news/2026/7/13/yemen-govt-says-its-forces-attacked-sanaa-airport",
+        "https://orf.at/stories/3436743",
+        "https://www.diepresse.com/38519187/die-naechste-umstrittene-meerenge-houthi-verhaengen-seeblockade-gegen-saudi-arabien",
+        "https://www.cnbc.com/2026/07/20/iran-houthi-yemen-saudi-arabia.html",
+        "https://thehill.com/policy/international/5971647-iran-yemen-houthis-red-sea-block-middle-east-conflict/",
+        "https://www.newsweek.com/bab-al-mandeb-the-next-strait-iran-is-threatening-to-shut-down-12204078"
       ],
       "openQuestions": [
         "Wer trägt die Verantwortung für den Luftangriff auf den Flughafen Sanaa — Saudi-Arabien oder die jemenitische Übergangsregierung?",
         "Wurde ein Flugzeug des Internationalen Komitees vom Roten Kreuz samt Besatzung tatsächlich von der Huthi-Miliz festgehalten, und wenn ja, in welchem Zustand befinden sich die Betroffenen?",
-        "Setzt die Huthi-Miliz ihre angekündigten Angriffe auf Ölanlagen, Flughäfen und Häfen tatsächlich um?",
+        "Setzt die Huthi-Miliz die erklärte Seeblockade tatsächlich durch, etwa durch Angriffe auf Schiffe im Roten Meer oder am Bab al-Mandab?",
+        "Trifft es zu, dass Iran die Huthi-Miliz zu einer möglichen Sperrung des Roten Meeres angewiesen hat, und wenn ja, unter welchen Bedingungen?",
+        "Wie reagiert Saudi-Arabien konkret auf die Blockade-Erklärung — diplomatisch, militärisch oder wirtschaftlich?",
         "Wie positioniert sich Pakistan konkret, sollte sich der Konflikt weiter zuspitzen — bleibt es bei diplomatischen Appellen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-19T10:07:28.883Z",
-      "doNotUpdateBefore": "2026-07-18T16:07:28.883Z"
+      "doNotRedraftBefore": "2026-07-21T14:07:33.513Z",
+      "doNotUpdateBefore": "2026-07-20T20:07:33.513Z",
+      "echoPublishers": {
+        "orf": "2026-07-20T14:07:33.513Z",
+        "diepresse": "2026-07-20T14:07:33.513Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-20T14:07:33.513Z"
     },
     "kraus-grabher-kitzbuehel-finale-juli-2026": {
       "canonicalTitle": "Kraus gewinnt rein österreichisches Kitzbühel-Finale gegen Grabher",
@@ -7277,13 +7287,11 @@
       "doNotRedraftBefore": "2026-07-20T14:07:25.145Z",
       "doNotUpdateBefore": "2026-07-19T20:07:25.145Z",
       "echoPublishers": {
-        "orf": "2026-07-19T14:07:25.145Z",
-        "derstandard": "2026-07-19T14:07:25.145Z",
         "kurier": "2026-07-19T18:07:30.423Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-19T14:07:25.145Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-20T14:07:33.513Z"
     },
     "messerattacke-wien-innenstadt-juli-2026": {
       "canonicalTitle": "18-Jähriger nach Messerattacke auf 20-Jährigen in Wiener Innenstadt festgenommen",
@@ -7495,9 +7503,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-20T12:07:28.466Z",
       "doNotUpdateBefore": "2026-07-19T18:07:28.466Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-19T12:07:28.466Z"
-      }
+      "echoPublishers": {}
     },
     "fifa-social-media-loeschungen-wm-2026-juli-2026": {
       "canonicalTitle": "FIFA meldet mehr als sieben Millionen gelöschte Hass-Beiträge zur WM 2026",
@@ -7907,9 +7913,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-20T10:07:28.852Z",
       "doNotUpdateBefore": "2026-07-19T16:07:28.852Z",
-      "echoPublishers": {
-        "orf": "2026-07-19T12:07:28.466Z"
-      }
+      "echoPublishers": {}
     },
     "wien-wieden-angriff-alois-drasche-park-juli-2026": {
       "canonicalTitle": "Angriff im Wiener Alois-Drasche-Park: Mann soll mehrere Frauen und Polizistin attackiert haben",
@@ -8046,7 +8050,13 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-20T18:07:30.423Z",
-      "doNotUpdateBefore": "2026-07-20T00:07:30.423Z"
+      "doNotUpdateBefore": "2026-07-20T00:07:30.423Z",
+      "echoPublishers": {
+        "kurier": "2026-07-20T14:07:33.513Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-20T14:07:33.513Z"
     },
     "monsun-indien-tote-juli-2026": {
       "canonicalTitle": "Monsun-Regen in Indien: Mindestens 19 Tote nach Überschwemmungen und Erdrutschen",
@@ -8274,11 +8284,11 @@
       "echoPublishers": {
         "orf": "2026-07-20T12:07:26.483Z",
         "derstandard": "2026-07-20T12:07:26.483Z",
-        "diepresse": "2026-07-20T12:07:26.483Z"
+        "diepresse": "2026-07-20T14:07:33.513Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-20T12:07:26.483Z"
+      "resonanceMeasuredAt": "2026-07-20T14:07:33.513Z"
     },
     "equal-pension-day-pensionsluecke-oberoesterreich-2026": {
       "canonicalTitle": "Equal Pension Day: Frauen in Oberösterreich erhalten laut Erhebung deutlich weniger Pension",
@@ -8600,6 +8610,56 @@
         "Reaktionen von Interessengruppen (z.B. Verkehrsclub, Umweltverbände)"
       ],
       "sensitivity": "low"
+    },
+    "hamas-neuer-anfuehrer-khalil-al-hayya-juli-2026": {
+      "canonicalTitle": "Hamas wählt Khalil al-Hayya zum neuen Anführer",
+      "slug": "hamas-neuer-anfuehrer-khalil-al-hayya-juli-2026",
+      "firstSeenAt": "2026-07-20T14:07:33.513Z",
+      "lastUpdatedAt": "2026-07-20T14:07:33.513Z",
+      "status": "published",
+      "articlePath": "src/content/articles/hamas-neuer-anfuehrer-khalil-al-hayya-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/hamas-neuer-anfuehrer-khalil-al-hayya-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436730",
+        "https://www.diepresse.com/38495001/hamas-waehlt-khalil-al-hayya-zum-neuen-anfuehrer",
+        "https://kurier.at/politik/ausland/nahost-hamas-khalil-al-hayya-anfuehrer-keine-legitimation/403177100",
+        "https://www.aljazeera.com/news/2026/7/20/hamas-names-khalil-al-hayya-as-new-leader-after-run-off-with-khaled-meshaal",
+        "https://www.aljazeera.com/news/2025/9/10/who-is-khalil-al-hayya-who-else-was-targeted-in-israels-attack-on-qatar",
+        "https://www.cnn.com/2026/07/06/middleeast/hamas-dissolves-gaza-government-intl",
+        "https://www.npr.org/2026/07/10/nx-s1-5887357/israel-gaza-war-trump-ceasefire-military-control"
+      ],
+      "openQuestions": [
+        "Wie reagieren Israel und die USA offiziell auf die Wahl von Al-Hayya?",
+        "Wie genau fiel das Ergebnis der internen Hamas-Abstimmung aus?",
+        "Wann und in welcher Form übernimmt Al-Hayya das Amt formell?",
+        "Welche Auswirkungen hat der Führungswechsel auf die zweite Phase der Gaza-Friedensverhandlungen und die Frage der Entwaffnung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-21T14:07:33.513Z",
+      "doNotUpdateBefore": "2026-07-20T20:07:33.513Z"
+    },
+    "raiffeisen-holding-noe-wien-abspaltung-rlb-2026": {
+      "canonicalTitle": "Raiffeisen-Holding NÖ-Wien will Betrieb per Abspaltung an RLB NÖ-Wien übertragen",
+      "slug": "raiffeisen-holding-noe-wien-abspaltung-rlb-2026",
+      "firstSeenAt": "2026-07-20T14:07:33.513Z",
+      "lastUpdatedAt": "2026-07-20T14:07:33.513Z",
+      "status": "published",
+      "articlePath": "src/content/articles/raiffeisen-holding-noe-wien-abspaltung-rlb-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-20/raiffeisen-holding-noe-wien-abspaltung-rlb-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332207/rh-n214-wien-252bertr228gt-industriebeteiligungen-an-rlb-n214-wien",
+        "https://www.ots.at/presseaussendung/EQS_20260720_EQS0001/eqs-adhoc-grundsatzbeschluss-zur-uebertragung-des-betriebs-von-raiffeisen-holding-niederoesterreich-wien-registrierte-genossenschaft-mit-beschraenkter-haftung-an-rlb-noe-w-durch-abspaltung",
+        "https://kurier.at/wirtschaft/raiffeisen-holding-rh-noe-wien-rlb-beteiligungen/403177124"
+      ],
+      "openQuestions": [
+        "Welche einzelnen Industriebeteiligungen sind konkret Teil der geplanten Abspaltung?",
+        "Wie bewerten unabhängige Analysten oder Ratingagenturen die strategische Begründung und mögliche Auswirkungen auf die RLB NÖ-Wien?",
+        "Stimmt die Generalversammlung der RH NÖ-Wien im September 2026 tatsächlich zu?",
+        "Erteilt die EZB die für die Umsetzung nötige aufsichtsrechtliche Genehmigung, und in welchem Zeitrahmen?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-21T14:07:33.513Z",
+      "doNotUpdateBefore": "2026-07-20T20:07:33.513Z"
     }
   }
 }
