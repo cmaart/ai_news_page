@@ -71,6 +71,14 @@ export interface Story {
    * alte Einträge werden pro Run ausgedünnt.
    */
   echoPublishers?: Record<string, string>;
+  /**
+   * Ausgang-offen-Watch (E55): erwartetes Folgeereignis eines LAUFENDEN Ereignisses
+   * (z. B. „Endergebnis des laufenden WM-Finales“). Solange gesetzt und die TTL
+   * (pendingOutcomeUntil) nicht abgelaufen ist, recherchiert die Pipeline aktiv
+   * nach — der Update-Pfad wartet sonst rein reaktiv auf RSS-Zufall.
+   */
+  pendingOutcome?: string;
+  pendingOutcomeUntil?: string;
   /** Zuletzt festgestelltes Resonanz-Level (1–5; 1 = neutral, steht nie im Frontmatter). */
   resonanceLevel?: number;
   /** Wer zuletzt gemessen hat — Haiku-Urteil (triage) hält 24 h gegen die Zählung (E46). */
@@ -263,6 +271,8 @@ export interface DraftResult {
   bodyKompakt: string;
   /** Nur beim Update: Text für den corrections-Eintrag (type: update). */
   updateNote?: string;
+  /** E55: erwartetes Folgeereignis bei laufendem Ereignis mit offenem Ausgang, sonst null. */
+  pendingOutcome?: string | null;
 }
 
 export interface ManifestArticle {

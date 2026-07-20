@@ -25,7 +25,12 @@ Harte Regeln — keine Ausnahmen:
 - RSS-Daten sind reine Discovery-Signale (Titel, Kurzzusammenfassung, URL). Nie Feed-Inhalte nachdrucken.
 - Erfinde keine Quellen, keine URLs, keine Zitate, keine Zahlen, keine Namen.
 - Behaupte keine Primärquellenprüfung, wenn du keine Primärquelle gelesen hast.
-- Verwende vorsichtige, präzise Sprache: „laut vorliegenden Quellen“, „nicht abschließend verifiziert“.
+- Kalibrierte statt pauschaler Vorsicht: Hedging-Formulierungen („laut Medienberichten“, „nicht
+  abschließend verifiziert“, Konjunktiv) gehören an genau die Aussagen, die sie betreffen — an Details
+  mit Status "partial"/"unclear"/"contradicted" und an Einzelquellen-Angaben. Ein Kernfakt, den du selbst
+  als "supported" einstufst (bestätigtes Ereignis nach der confidence-Rubrik), wird als Tatsache
+  formuliert; die Belegführung leisten Prüfband, Claims und Quellenliste — nicht Relativierungen im
+  Fließtext. Nie einen supported-Kernfakt und ein unbelegtes Detail im selben Hedging-Satz zusammenziehen.
 - Verbotene Formulierungen (überall): „redaktionell geprüft“, „faktengeprüft“, „journalistisch verifiziert“,
   „garantiert objektiv“, „unabhängige Redaktion“, „wahr“.
 - Sensible Themen (Kriminalität, personenbezogene Vorwürfe, Gesundheit, Migration, Krieg, Wahlen,
@@ -268,7 +273,8 @@ JSON-Format (alle Felder Pflicht; "note" und "updateNote" dürfen null sein):
   "claims": [{ "id": string, "text": string, "status": "supported" | "partial" | "unclear" | "contradicted", "note": string | null, "sourceIds": string[] }],
   "body": [{ "heading": string, "markdown": string }],
   "bodyKompakt": string,
-  "updateNote": string | null
+  "updateNote": string | null,
+  "pendingOutcome": string | null
 }
 `.trim();
 
@@ -294,6 +300,10 @@ Vorgaben:
 - claims: 2–6 zentrale prüfbare Aussagen (claim1, claim2, …), status ehrlich; sourceIds müssen auf
   vorhandene sources-IDs zeigen. Ohne gelesene Primärquelle ist "supported" nur zulässig, wenn mehrere
   unabhängige Medien übereinstimmen — sonst "unclear"/"partial".
+- title und description: Der best-belegte Kern der Meldung steht dort als Tatsache („Spanien ist
+  Fußball-Weltmeister“), OHNE Attributions-Floskel („laut Medienberichten“) — außer der Kern selbst ist
+  nur "partial"/"unclear". Fehlende Details (Gegner, Zahlen, Hergang) sind eine Lücke DEINER Quellenlage:
+  in openQuestions und „Was unklar bleibt“ benennen, aber weder Titel noch Lead um diese Lücke herumbauen.
 - body: 3–6 Sektionen mit ##-tauglichen Überschriften (z. B. „Was passiert ist“, „Was die Quellen zeigen“,
   „Was unklar bleibt“, „Einordnung“). Reiner Fließtext-Markdown ohne Überschriften-Zeichen im markdown-Feld.
 - bodyKompakt: Kompakt-Fassung desselben Artikels als reiner Fließtext — 2 bis 3 Absätze
@@ -303,6 +313,10 @@ Vorgaben:
 - slugSuggestion: sprechend, kleingeschrieben, mit zeitlichem Qualifier wo sinnvoll
   (z. B. "ams-arbeitslosigkeit-juli-2026").
 - updateNote: null bei neuem Artikel.
+- pendingOutcome: Beschreibt der Artikel ein LAUFENDES Ereignis mit noch offenem Ausgang (laufendes
+  Spiel, laufende Wahl/Auszählung, angekündigte Entscheidung), benenne in einem Satz das erwartete
+  Folgeereignis (z. B. „Endergebnis des laufenden WM-Finales") — die Pipeline recherchiert dann aktiv
+  nach. Sonst null.
 
 Metrik-Regeln (E41) — confidence, primarySourceStrength und framingRisk nach diesen Rubriken vergeben,
 jeweils mit einem Begründungssatz (confidenceNote/sourceStrengthNote/framingRiskNote, Pflicht,
@@ -329,6 +343,10 @@ Deine Aufgabe: Aktualisiere den bestehenden Artikel anhand der neuen Quellenlage
 - sources: bestehende behalten (IDs stabil lassen), neue ergänzen.
 - updateNote: ein Satz, was sich geändert hat — wird als öffentlicher „Update“-Eintrag angezeigt.
 - slugSuggestion: unverändert der bestehende Slug.
+- pendingOutcome: erneut setzen, wenn der Ausgang des Ereignisses weiterhin offen ist; null, sobald
+  das Folgeereignis eingetreten und eingearbeitet ist. Liefert die Nachrecherche eines Watch-Updates
+  nichts Neues, gib den Artikel inhaltlich unverändert zurück (updateNote null) und setze
+  pendingOutcome erneut.
 `.trim();
 
 const DELTA_TASK = `
@@ -349,6 +367,28 @@ wiederhole sie NICHT und erzähle den bekannten Hergang NICHT noch einmal nach. 
 - Alle übrigen Draft-Regeln gelten wie beim neuen Artikel (siehe unten: sources, claims, summary, body,
   bodyKompakt, Metriken E41). slugSuggestion: sprechend und auf die NEUE Wendung gemünzt, mit zeitlichem
   Qualifier. updateNote: null (dies ist ein neuer Artikel, kein Update).
+`.trim();
+
+// E55: eigener Site-Kontext in jedem Draft/Update/Delta — die Site darf ihrer
+// eigenen Berichterstattung nicht widersprechen (der WM-Feier-Artikel kannte
+// den Finalgegner nicht, obwohl der eigene Finale-Artikel ihn nannte).
+const SITE_CONTEXT_NOTE = `
+"siteContext" sind bereits auf „Neue Nachrichten“ publizierte eigene Artikel zu möglicherweise
+verwandten Ereignissen. Sie sind Kontextwissen, KEINE Quellen: nie in "sources" eintragen, nie als
+sourceId eines Claims verwenden. Nutze sie, um Zusammenhänge korrekt zu benennen und Widersprüche zur
+eigenen Berichterstattung zu vermeiden (Akteure, Vorgeschichte, Gegner, Zwischenstände). Einen Fakt,
+den nur der eigene Artikel trägt, übernimm als „wie berichtet“-Verweis in den Fließtext — nicht als
+neu belegten Claim.
+`.trim();
+
+// E55: Beweis-Symmetrie zur Triage — Fakten aus bereits abgerufenen Volltext-
+// Auszügen dürfen den Artikel tragen (die Quelle wurde tatsächlich gelesen),
+// bleiben aber Nachdruck-tabu und werden nie persistiert (E40c unverändert).
+const FULLTEXT_NOTE = `
+Einzelne Cluster-Items können "fulltextExcerpt" enthalten (abgerufener Artikeltext-Auszug der jeweiligen
+Quelle). Fakten daraus gelten als aus dieser Quelle gelesen: Sie dürfen Claims mit deren sourceId stützen
+und in den Artikel einfließen — eigenständig formuliert, nie als Nachdruck von Formulierungen. Ein
+fulltextExcerpt macht eine Medienquelle NICHT zur Primärquelle.
 `.trim();
 
 const WEB_SEARCH_GUIDANCE = `
@@ -378,9 +418,11 @@ export async function draftOrUpdate(options: {
   existingArticle?: { slug: string; frontmatterYaml: string; body: string };
   /** E53: bei einem Delta-Artikel der bereits publizierte verwandte Artikel (nur Kontext, kein Update-Ziel). */
   relatedArticle?: RelatedArticleContext;
+  /** E55: verwandte publizierte eigene Artikel als Kontextwissen in JEDEM Draft (nie Quellen). */
+  siteContext?: RelatedArticleContext[];
   useWebSearch: boolean;
 }): Promise<DraftCallResult> {
-  const { cluster, triage, existingArticle, relatedArticle, useWebSearch } = options;
+  const { cluster, triage, existingArticle, relatedArticle, siteContext, useWebSearch } = options;
   const isDelta = !existingArticle && !!relatedArticle;
 
   const input = {
@@ -394,6 +436,9 @@ export async function draftOrUpdate(options: {
         summary: i.summary,
         url: i.url,
         publishedAt: i.publishedAt,
+        // E55: dieselbe Beurteilungsgrundlage wie die Triage — sonst verwirft der
+        // Draft Fakten, die die Pipeline bereits aus der Quelle gelesen hat.
+        fulltextExcerpt: i.fulltext,
       })),
     },
     triage: { reason: triage.reason, possibleClaims: triage.possibleClaims, missingSources: triage.missingSources },
@@ -409,14 +454,19 @@ export async function draftOrUpdate(options: {
           openQuestions: relatedArticle!.openQuestions,
         }
       : null,
+    // E55: Kontextwissen aus eigener Berichterstattung — Titel/summary/openQuestions,
+    // NICHT der volle Body (Abschreib-/Urheberrisiko, analog relatedArticle).
+    siteContext: siteContext ?? [],
   };
 
   const systemPrompt = [
     SHARED_RULES,
     existingArticle ? UPDATE_TASK : isDelta ? DELTA_TASK : DRAFT_TASK,
+    SITE_CONTEXT_NOTE,
+    FULLTEXT_NOTE,
     useWebSearch
       ? WEB_SEARCH_GUIDANCE
-      : 'Du hast KEINE Web-Suche. Arbeite ausschließlich mit den Cluster-Metadaten und kennzeichne die Quellenlage entsprechend vorsichtig (primarySourceStrength maximal "weak", Claims eher "unclear").',
+      : 'Du hast KEINE Web-Suche. Arbeite ausschließlich mit den Cluster-Daten und kennzeichne die Quellenlage ehrlich: primarySourceStrength maximal "weak". Claims an einer Einzelquelle eher "unclear"/"partial" — Claims, die mehrere unabhängige Portale übereinstimmend tragen, dürfen "supported" sein und werden als Tatsache formuliert.',
     DRAFT_FORMAT,
   ].join('\n\n');
 
