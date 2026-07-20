@@ -1,33 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-20T08:20:59.021Z",
+  "updatedAt": "2026-07-20T10:25:45.673Z",
   "entries": [
-    {
-      "clusterId": "cluster-20260720-d2089b24",
-      "title": "Prozess: Baby schwer verletzt",
-      "score": 0.8,
-      "items": [
-        {
-          "itemId": "aa3691fe51f9ed012ea2d2e578b4553fe27c2d14a9a2b24417f176915fc1960c",
-          "sourceId": "orf_oesterreich",
-          "sourceType": "media",
-          "title": "Prozess: Baby schwer verletzt",
-          "url": "https://ooe.orf.at/stories/3363159",
-          "summary": "Am Landesgericht Wels beginnt am Montag ein Prozess gegen einen 22-Jährigen. Ihm wird vorgeworfen, ein drei Monate altes Baby schwer verletzt zu haben. Die Staatsanwaltschaft geht von schweren Folgen aus, der Angeklagte weist die Vorwürfe zurück.",
-          "publishedAt": "2026-07-20T08:00:58.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "f1e8c6a8dbd6dd5d046b0bd5993aa738ff49e48e54df419724735476ead8e4ea",
-          "sourceId": "kurier_chronik",
-          "sourceType": "media",
-          "title": "Zwei 16-Jährige bei Mopedsturz in NÖ schwer verletzt",
-          "url": "https://kurier.at/chronik/niederoesterreich/unfall-schrattenbruck-polizei-rettung-christophorus/403176778",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-20T08:07:28.584Z"
-    },
     {
       "clusterId": "cluster-20260720-f93038a0",
       "title": "Aus für Mode im Müll: 85 Prozent der Österreicher dafür",
@@ -107,6 +81,40 @@
       "queuedAt": "2026-07-20T08:07:28.584Z"
     },
     {
+      "clusterId": "cluster-20260720-98e8fef0",
+      "title": "Erneute Schwerpunktkontrollen gegen Auto-Poser in der Wiener Innenstadt",
+      "score": 0.75,
+      "items": [
+        {
+          "itemId": "f1003017b6676a2bd8f0a3a38a543b00f8af8a949f301c332379d65a83eb9a54",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Erneute Schwerpunktkontrollen gegen Auto-Poser in der Wiener Innenstadt",
+          "url": "https://www.diepresse.com/38378584/erneute-schwerpunktkontrollen-gegen-auto-poser-in-der-wiener-innenstadt",
+          "summary": "81 Anzeigen und 78 Organmandate teilte die Polizei in der Innenstadt am Wochenende aus.",
+          "publishedAt": "2026-07-20T08:53:32.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "7f19e610ae2cd7a0b47fdc2004ddb0682e83d4ddb76a4f2721992917cabf7c74",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Anrainer bremsen in Wien Auto-Poser mit Straßensperren aus",
+          "url": "https://kurier.at/chronik/wien/wien-auto-poser-anrainer-protest-strassensperren/403176904",
+          "isNew": false
+        },
+        {
+          "itemId": "91eb85c9773376a2fffea5feb6a5941863826f3dcb3b283923b4f03d80744601",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "Anrainer bremsen in Wien Auto-Poser mit Straßensperren aus",
+          "url": "https://kurier.at/chronik/wien/wien-auto-poser-anrainer-protest-strassensperren/403176904",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-20T10:07:31.860Z"
+    },
+    {
       "clusterId": "cluster-20260720-82d1bfab",
       "title": "Gebrauchtwagen werden billiger, Nachfrage nach E-Autos steigt",
       "score": 0.75,
@@ -133,44 +141,189 @@
       "queuedAt": "2026-07-20T08:07:28.584Z"
     },
     {
-      "clusterId": "cluster-20260720-49d31726",
-      "title": "Ukraine meldet zehn Tote nach russischem Angriff auf Frachtschiff vor Odessa",
+      "clusterId": "cluster-20260720-a3fc6a5d",
+      "title": "Pressestimmen: \"Spanien beendet Messis Weltmeisterschafts-Ära\"",
+      "score": 0.75,
+      "items": [
+        {
+          "itemId": "91f223a0f6cb452ee0879231526865b22869cbb3c4c05d0eaa5e11034594d04a",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Pressestimmen: \"Spanien beendet Messis Weltmeisterschafts-Ära\"",
+          "url": "https://www.derstandard.at/story/3000000332119/pressestimmen-spanien-beendet-messis-weltmeisterschafts-aera",
+          "summary": "Weltweit waren sich Medien einig: Der Sieg der Furia Roja gegen Argentinien war mehr als verdient",
+          "publishedAt": "2026-07-20T07:50:50.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "a8b82cf3a4e1543e09dc97b4899ffa1ddc0c9001aa071d14b78eaa3c595cc0c8",
+          "sourceId": "derstandard_sport",
+          "sourceType": "media",
+          "title": "Pressestimmen: \"Spanien beendet Messis Weltmeisterschafts-Ära\"",
+          "url": "https://www.derstandard.at/story/3000000332119/pressestimmen-spanien-beendet-messis-weltmeisterschafts-aera",
+          "summary": "Weltweit waren sich Medien einig: Der Sieg der Furia Roja gegen Argentinien war mehr als verdient",
+          "publishedAt": "2026-07-20T07:50:50.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "d5801bbdc804df18fa51c302d3101d240652479635989207b990cbaa3bacef85",
+          "sourceId": "derstandard_sport",
+          "sourceType": "media",
+          "title": "Pressestimmen zum Finale: \"Spanien beendet Messis Weltmeisterschafts-Ära\"",
+          "url": "https://www.derstandard.at/story/3000000332119/pressestimmen-zum-finale-spanien-beendet-messis-weltmeisterschafts-aera",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-20T10:07:31.860Z"
+    },
+    {
+      "clusterId": "cluster-20260720-91cfaaef",
+      "title": "Malaria auf Flughafen Frankfurt: Vier Mitarbeiter infiziert",
       "score": 0.7,
       "items": [
         {
-          "itemId": "9b36b9f73d036e4c0939ec10cbecf73407708c0d80296bd8aa54d945df6d5234",
-          "sourceId": "derstandard_international",
-          "sourceType": "media",
-          "title": "Ukraine meldet zehn Tote nach russischem Angriff auf Frachtschiff vor Odessa",
-          "url": "https://www.derstandard.at/jetzt/livebericht/3000000332115/mindestens-ein-toter-bei-russischem-angriff-auf-kyjiw",
-          "summary": "Proteste gegen die Entlassung von Verteidigungsminister Fedorow halten an. Der ukrainische Präsident Selenskyj verspricht Demonstranten Entscheidungen zur Armee",
-          "publishedAt": "2026-07-20T07:38:40.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "7e8fe07976a833c961a9bcc8d53b67496d943eb434926fd664f9621d889fb6d7",
-          "sourceId": "derstandard_live",
-          "sourceType": "media",
-          "title": "Ukraine meldet zehn Tote nach russischem Angriff auf Frachtschiff vor Odessa",
-          "url": "https://www.derstandard.at/jetzt/livebericht/3000000332115/mindestens-ein-toter-bei-russischem-angriff-auf-kyjiw",
-          "summary": "Proteste gegen die Entlassung von Verteidigungsminister Fedorow halten an. Der ukrainische Präsident Selenskyj verspricht Demonstranten Entscheidungen zur Armee",
-          "publishedAt": "2026-07-20T07:38:40.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "3490704aef354f41cfe2d005eae2e8ce2a09cee6272ecd520ddba27aba96dbf2",
+          "itemId": "b022a616aed41c23d96e8c352c61044c959d9a719f12b7401b39d62780726535",
           "sourceId": "orf_news",
           "sourceType": "media",
-          "title": "Russland meldet Tote bei Angriff auf Logistikzentrum",
-          "url": "https://orf.at/stories/3436532",
+          "title": "Malaria auf Flughafen Frankfurt: Vier Mitarbeiter infiziert",
+          "url": "https://orf.at/stories/3436695",
+          "publishedAt": "2026-07-20T08:21:42.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "14b049f0efe842e07859bdfc84c681a6d5c917ce39f87d39d4fa184dcc5f2cfd",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Malaria-Gelse kam per Flugzeug: Vier Beschäftigte am Frankfurter Flughafen erkrankt",
+          "url": "https://www.diepresse.com/38384069/malaria-gelse-kam-per-flugzeug-vier-beschaeftigte-am-frankfurter-flughafen-erkrankt",
+          "summary": "Die Anophelesmücke dürfte mit einem Flugzeug in Frankfurt gelandet sein. Fälle von Flughafen-Malaria kommen immer wieder vor, Infektionen in Europa sind aber selten.",
+          "publishedAt": "2026-07-20T08:22:12.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-07-20T10:07:31.860Z"
+    },
+    {
+      "clusterId": "cluster-20260720-1f0f5338",
+      "title": "Ölpreis steigt erstmals seit Juni über 90 Dollar",
+      "score": 0.7,
+      "items": [
+        {
+          "itemId": "44af3b5a7fd96066ac66cf64582f874b009a81392db9b038ffbc6715a66b1f86",
+          "sourceId": "kurier_wirtschaft",
+          "sourceType": "media",
+          "title": "Ölpreis steigt erstmals seit Juni über 90 Dollar",
+          "url": "https://kurier.at/wirtschaft/brent-oelpreis-iran-krieg-tanken-tankstelle-sprit/403177028",
+          "summary": "Der Preis für ein Barrel Brent-Öl kletterte wegen des sich verschärfenden Iran-Kriegs um fast vier Prozent auf 91,42 Dollar. Das macht sich auch an heimischen Zapfsäulen bemerkbar.",
+          "publishedAt": "2026-07-20T08:21:47.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "a9a77bad91e7f2cd59d5ad6a108816ce61b622a6e90a757c2dee090c7d8bae93",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Brent-Ölpreis steigt auf höchsten Stand seit Juni",
+          "url": "https://www.diepresse.com/38349029/brent-oelpreis-steigt-auf-hoechsten-stand-seit-juni",
           "isNew": false
         },
         {
-          "itemId": "3b7f348779a3fedba1e1eb12086232e47eb8a7d5d946cfbd64ad33cd6e4e875f",
+          "itemId": "45dff35f94ef4b309d67a9a2ffb664a24a21b5a785e997f2b674753452fb32b3",
+          "sourceId": "diepresse_wirtschaft",
+          "sourceType": "media",
+          "title": "Brent-Ölpreis steigt auf höchsten Stand seit Juni",
+          "url": "https://www.diepresse.com/38349029/brent-oelpreis-steigt-auf-hoechsten-stand-seit-juni",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-20T10:07:31.860Z"
+    },
+    {
+      "clusterId": "cluster-20260720-75e75f06",
+      "title": "Braunau: Zwei Verletzte bei Brand von Schuppen",
+      "score": 0.7,
+      "items": [
+        {
+          "itemId": "4af4a4cd146bcad2d309d0ba81dd8f79493741c89c9f019f422fdad0fd58bce6",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "Braunau: Zwei Verletzte bei Brand von Schuppen",
+          "url": "https://kurier.at/chronik/oberoesterreich/oberoesterreich-braunau-brand-lagerschuppen-feuer-griff-auf-garage/403177024",
+          "summary": "Ein Brand in einem Lagerschuppen im Bezirk Braunau griff auf Garagen über und verletzte zwei Bewohner. Mehr als 100 Feuerwehrmitglieder waren im Einsatz.",
+          "publishedAt": "2026-07-20T08:10:06.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "6ab328d46ee4110c405f6107cb71690f34d41a632008e3b85cf6dbe621c971f6",
+          "sourceId": "orf_burgenland",
+          "sourceType": "media",
+          "title": "Verletzte bei Brand in Neusiedler Diskothek",
+          "url": "https://burgenland.orf.at/stories/3363357",
+          "isNew": false
+        },
+        {
+          "itemId": "3a4d2370d0d6f9eed811388c696e6fac07e4d56c523039f2ba94921a1b8a6d98",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Verletzte bei Brand in Neusiedler Diskothek",
+          "url": "https://burgenland.orf.at/stories/3363357",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-20T10:07:31.860Z"
+    },
+    {
+      "clusterId": "cluster-20260720-380d8ca2",
+      "title": "Bad-Bunny-Konzert in Mailand abgebrochen: Mehrere Verletzte nach Hagel",
+      "score": 0.7,
+      "items": [
+        {
+          "itemId": "7a774dd7f43e5b5eeaf0980ebe98c56588cda45e4111d11ea5a35c0a1041a0b0",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "Bad-Bunny-Konzert in Mailand abgebrochen: Mehrere Verletzte nach Hagel",
+          "url": "https://kurier.at/chronik/welt/bad-bunny-konzert-mailand-abgebrochen-hagel-verletzte/403177018",
+          "summary": "Wegen eines heftigen Hagelschauers ist ein Konzert des puerto-ricanischen Sängers Bad Bunny in Mailand abgebrochen worden.",
+          "publishedAt": "2026-07-20T07:59:43.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "3494d53bc2cd8186327789cac644c91ee7263d1ed7a8c7cc7d3a1a96316f066b",
+          "sourceId": "derstandard_panorama",
+          "sourceType": "media",
+          "title": "Verletzte nach Hagelschauer bei Bad Bunny-Konzert in Mailand",
+          "url": "https://www.derstandard.at/story/3000000332035/verletzte-nach-hagelschauer-bei-bad-bunny-konzert-in-mailand",
+          "isNew": false
+        },
+        {
+          "itemId": "175706289b5ae41618d73add28006dcc59287b03f6d4f6805fb2d3514b784b99",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Verletzte nach Hagel bei Bad-Bunny-Konzert in Mailand",
+          "url": "https://www.kleinezeitung.at/artikel/38310146/verletzte-nach-hagel-bei-bad-bunny-konzert-in-mailand",
+          "isNew": false
+        },
+        {
+          "itemId": "9e5ffdc8688c3806823bcae6f6e6adf0836a765a4da6acfb90920a2c408b6408",
           "sourceId": "orf_news",
           "sourceType": "media",
-          "title": "Ukraine: Tote bei russischem Angriff auf türkisches Schiff",
-          "url": "https://orf.at/stories/3436665",
+          "title": "Verletzte bei Bad-Bunny-Konzert durch Hagel",
+          "url": "https://orf.at/stories/3436628",
+          "isNew": false
+        },
+        {
+          "itemId": "60451a889233ea15a546b55abe87f020d3bfd2c34741da8f80c2a07bc92288ce",
+          "sourceId": "diepresse_kultur",
+          "sourceType": "media",
+          "title": "Hagel bei Bad-Bunny-Konzert: Mehrere Verletzte in Mailand",
+          "url": "https://www.diepresse.com/38307721/hagel-bei-bad-bunny-konzert-mehrere-verletzte-in-mailand",
+          "isNew": false
+        },
+        {
+          "itemId": "65047ca88dd638da4fa6742a45e7cf634af143be64dbdd30744ffff90ab2e07f",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Bad-Bunny-Konzert in Mailand abgebrochen: Mehrere Verletzte nach Hagel",
+          "url": "https://kurier.at/chronik/welt/bad-bunny-konzert-mailand-abgebrochen-hagel-verletzte/403177018",
           "isNew": false
         }
       ],
@@ -220,56 +373,6 @@
           "summary": "Der Billigflieger verzeichnete im ersten Quartal trotz sechs Prozent mehr Passagieren einen Gewinnrückgang um 34 Prozent auf 538 Millionen Euro.",
           "publishedAt": "2026-07-20T06:40:00.000Z",
           "isNew": true
-        }
-      ],
-      "queuedAt": "2026-07-20T08:07:28.584Z"
-    },
-    {
-      "clusterId": "cluster-20260720-380d8ca2",
-      "title": "Bad-Bunny-Konzert in Mailand abgebrochen: Mehrere Verletzte nach Hagel",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "65047ca88dd638da4fa6742a45e7cf634af143be64dbdd30744ffff90ab2e07f",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Bad-Bunny-Konzert in Mailand abgebrochen: Mehrere Verletzte nach Hagel",
-          "url": "https://kurier.at/chronik/welt/bad-bunny-konzert-mailand-abgebrochen-hagel-verletzte/403177018",
-          "summary": "Wegen eines heftigen Hagelschauers ist ein Konzert des puerto-ricanischen Sängers Bad Bunny in Mailand abgebrochen worden.",
-          "publishedAt": "2026-07-20T07:59:43.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "3494d53bc2cd8186327789cac644c91ee7263d1ed7a8c7cc7d3a1a96316f066b",
-          "sourceId": "derstandard_panorama",
-          "sourceType": "media",
-          "title": "Verletzte nach Hagelschauer bei Bad Bunny-Konzert in Mailand",
-          "url": "https://www.derstandard.at/story/3000000332035/verletzte-nach-hagelschauer-bei-bad-bunny-konzert-in-mailand",
-          "isNew": false
-        },
-        {
-          "itemId": "175706289b5ae41618d73add28006dcc59287b03f6d4f6805fb2d3514b784b99",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "Verletzte nach Hagel bei Bad-Bunny-Konzert in Mailand",
-          "url": "https://www.kleinezeitung.at/artikel/38310146/verletzte-nach-hagel-bei-bad-bunny-konzert-in-mailand",
-          "isNew": false
-        },
-        {
-          "itemId": "9e5ffdc8688c3806823bcae6f6e6adf0836a765a4da6acfb90920a2c408b6408",
-          "sourceId": "orf_news",
-          "sourceType": "media",
-          "title": "Verletzte bei Bad-Bunny-Konzert durch Hagel",
-          "url": "https://orf.at/stories/3436628",
-          "isNew": false
-        },
-        {
-          "itemId": "60451a889233ea15a546b55abe87f020d3bfd2c34741da8f80c2a07bc92288ce",
-          "sourceId": "diepresse_kultur",
-          "sourceType": "media",
-          "title": "Hagel bei Bad-Bunny-Konzert: Mehrere Verletzte in Mailand",
-          "url": "https://www.diepresse.com/38307721/hagel-bei-bad-bunny-konzert-mehrere-verletzte-in-mailand",
-          "isNew": false
         }
       ],
       "queuedAt": "2026-07-20T08:07:28.584Z"
@@ -655,6 +758,34 @@
       "queuedAt": "2026-07-19T06:07:24.917Z"
     },
     {
+      "clusterId": "cluster-20260720-49003bfd",
+      "title": "Barfuß über die Wellen flitzen: Wallseer holte zwei EM-Medaillen",
+      "score": 0.675,
+      "items": [
+        {
+          "itemId": "ed1d43b357b2e299322c883316ccf506e7a710e7693489dbd9a938d03df200c6",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Barfuß über die Wellen flitzen: Wallseer holte zwei EM-Medaillen",
+          "url": "https://kurier.at/chronik/niederoesterreich/em-barfuss-wasserski-wallsee-wassersportzentrum/403177041",
+          "summary": "Stefan Wimmer kehrte mit Silber und Bronze aus dem französischen Chartres heim.",
+          "publishedAt": "2026-07-20T09:35:19.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "3b56b4ba34181d18ef8a0a6d26509f5697cfb84a3ddb5d4dd64bb7efd421102b",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "Barfuß über die Wellen flitzen: Wallseer holte zwei EM-Medaillen",
+          "url": "https://kurier.at/chronik/niederoesterreich/em-barfuss-wasserski-wallsee-wassersportzentrum/403177041",
+          "summary": "Stefan Wimmer kehrte mit Silber und Bronze aus dem französischen Chartres heim.",
+          "publishedAt": "2026-07-20T09:35:19.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-07-20T10:07:31.860Z"
+    },
+    {
       "clusterId": "cluster-20260720-8e13e024",
       "title": "Zwei Tote und drei Schwerverletzte bei Frontalkollision im Innviertel",
       "score": 0.675,
@@ -727,88 +858,6 @@
         }
       ],
       "queuedAt": "2026-07-19T20:07:30.723Z"
-    },
-    {
-      "clusterId": "cluster-20260719-a7ffa0bc",
-      "title": "Luis de la Fuente: Spaniens „Nachwuchscoach“ ist unbesiegbar",
-      "score": 0.675,
-      "items": [
-        {
-          "itemId": "a0256f114fccf860b6940321b34659bf676ca2481e0a24abb793591d7c71d719",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Luis de la Fuente: Spaniens „Nachwuchscoach“ ist unbesiegbar",
-          "url": "https://kurier.at/sport/fussball/fussball-wm-finale-spanien-teamchef-luis-de-la-fuente/403176979",
-          "summary": "Luis de la Fuente leitet Spaniens Team seit 2023. Der 65-Jährige wurde mit Yamal  Co. Europameister und verlor bisher nur dreimal.",
-          "publishedAt": "2026-07-19T16:03:06.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-07-19T18:07:30.423Z"
-    },
-    {
-      "clusterId": "cluster-20260719-ff7c1df0",
-      "title": "Lionel Scaloni: Argentiniens „Interimscoach“ mit Fingerspitzengefühl",
-      "score": 0.675,
-      "items": [
-        {
-          "itemId": "a97798e0822b573a0d23fe642cc3c0596404dfef676512c293e89bcd6a3ab7da",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Lionel Scaloni: Argentiniens „Interimscoach“ mit Fingerspitzengefühl",
-          "url": "https://kurier.at/sport/fussball/fussball-wm-finale-argentinien-teamchef-lionel-scaloni/403176980",
-          "summary": "Lionel Scaloni leitet Argentiniens Team seit 2018. Der 48-Jährige führte Messi und Co. zum Weltmeistertitel 2022.",
-          "publishedAt": "2026-07-19T15:38:00.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-07-19T16:07:26.434Z"
-    },
-    {
-      "clusterId": "cluster-20260719-823df8d7",
-      "title": "Antonelli ringt Leclerc nieder und gewinnt in Belgien",
-      "score": 0.675,
-      "items": [
-        {
-          "itemId": "05be1b6294bc875a2f08e8502bee68ea126eead585f5679787cfd5b1b6857556",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Antonelli ringt Leclerc nieder und gewinnt in Belgien",
-          "url": "https://kurier.at/sport/motorsport/formel-1-antonelli-verstappen-leclerc-hamilton-russell-spa-belgien/403176968",
-          "summary": "Der Italiener befindet sich in weltmeisterlicher Form und baute seinen Vorsprung aus. Rückschlag für Russell.",
-          "publishedAt": "2026-07-19T14:29:22.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-07-19T16:07:26.434Z"
-    },
-    {
-      "clusterId": "cluster-20260719-7e5f85ba",
-      "title": "Rainer Pariasek: Vom Abstellgleis zur Weltmeisterschaft",
-      "score": 0.675,
-      "items": [
-        {
-          "itemId": "67b65cfc1df46aecedef1f4f25a968b7a5d0fdd26b6b7081f0b9191f1026932c",
-          "sourceId": "profil_home",
-          "sourceType": "media",
-          "title": "Rainer Pariasek: Vom Abstellgleis zur Weltmeisterschaft",
-          "url": "https://www.profil.at/gesellschaft/rainer-pariasek-orf-kultfigur-vom-abstellgleis-zur-weltmeisterschaft/403176323",
-          "summary": "Der bekannteste Sportmoderator des Landes,  Rainer Pariasek, berichtet dieser Tage gut gelaunt von der WM aus den USA. Dabei stand er schon auf dem Abstellgleis. Annäherung an einen Mann, der sich trotz öffentlicher Kritik, internen Konflikten und häufiger Hoppalas beharrlich am TV-Schirm hält.",
-          "publishedAt": "2026-07-19T13:43:00.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "aeb13a87ff582dce920139a48a42667bcbec5dc321f6e0a433e9e6974aa1a923",
-          "sourceId": "profil_gesellschaft",
-          "sourceType": "media",
-          "title": "Rainer Pariasek: Vom Abstellgleis zur Weltmeisterschaft",
-          "url": "https://www.profil.at/gesellschaft/rainer-pariasek-orf-kultfigur-vom-abstellgleis-zur-weltmeisterschaft/403176323",
-          "summary": "Der bekannteste Sportmoderator des Landes,  Rainer Pariasek, berichtet dieser Tage gut gelaunt von der WM aus den USA. Dabei stand er schon auf dem Abstellgleis. Annäherung an einen Mann, der sich trotz öffentlicher Kritik, internen Konflikten und häufiger Hoppalas beharrlich am TV-Schirm hält.",
-          "publishedAt": "2026-07-19T13:43:00.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-07-19T14:07:25.145Z"
     }
   ]
 }
