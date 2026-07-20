@@ -1,0 +1,319 @@
+{
+  "cluster": {
+    "id": "cluster-20260720-7ff50be0",
+    "title": "Spanien: Verheerender Waldbrand zerstörte 26.000 Hektar",
+    "items": [
+      {
+        "itemId": "0a5c2682b36cfffb2f79d8dd2d00d04fbe6ab4c662532fc5ee1833c44eb2b7b0",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Spanien: Verheerender Waldbrand zerstörte 26.000 Hektar",
+        "url": "https://kurier.at/chronik/welt/waldbraende-feuer-zerstoerte-spanien-flaeche-26000-hektar/403176766",
+        "summary": "Hunderte Einsatzkräfte kämpfen im Nordosten Spaniens gegen Waldbrände. Dörfer evakuiert, Zehntausende Hektar zerstört, 13 Tote.",
+        "publishedAt": "2026-07-20T12:05:45.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "fc77f840757b40e7c6a9e68e63a025b2680a014a419124e2796999837bee789c",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Waldbrand in Spanien zerstört Fläche von 13.000 Hektar",
+        "url": "https://orf.at/stories/3436633",
+        "isNew": false
+      },
+      {
+        "itemId": "c04dd7e29b5ed8509ce4835679775ecc977b87498e7c58a870486bb62f9252c3",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Waldbrand in Spanien zerstört Fläche von mehr als 13.000 Hektar",
+        "url": "https://www.diepresse.com/38332276/waldbrand-in-spanien-zerstoert-flaeche-von-mehr-als-13000-hektar",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Aktualisierter Bericht desselben Waldbrandes bei Madrid/Guadalajara mit gestiegener Schadensausmaß (26.000 Hektar, Kurier 20.07 vs. ursprüngliche ~12.000 Hektar). Beantwortet offene Frage der publizierten Story zur endgültigen Brandfläche. Mehrere österreichische Medien (Kurier, ORF, Die Presse) berichten unabhängig. Stellt Zwischenstand eines laufenden Ereignisses dar – optimal als Update des bestehenden Artikels.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 3,
+    "relatedSlug": "waldbrand-spanien-guadalajara-madrid-juli-2026",
+    "possibleClaims": [
+      "26.000 Hektar verbrannt (Stand 20.07.2026)",
+      "1.200 Menschen aus 30 Ortschaften evakuiert",
+      "Feuerfront breitet sich mit bis zu 4 Kilometern pro Stunde aus",
+      "45 Löschflugzeuge und Hubschrauber im Einsatz",
+      "Windgeschwindigkeiten von rund 50 km/h",
+      "Schlimmster Waldbrand in der Geschichte der Region Kastilien-La Mancha",
+      "Seit Jahresbeginn 2026 über 100.000 Hektar in Spanien durch Brände zerstört"
+    ],
+    "missingSources": [
+      "Offizielle Pressemitteilung der Regionalregierung Kastilien-La Mancha (García-Page zitiert, aber keine verlinkte Quelle)",
+      "EFFIS-Originaldaten zur Flächenzerstörung seit 2026 (nur referenziert, keine URL)",
+      "Klarstellung des Todesopfer-Bezugs: Kurier-Titel erwähnt 13 Tote, Text verweist aber auf separaten Brand in Andalusien – unklar, ob dieser Brand selbst Todesopfer hat"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "waldbrand-spanien-guadalajara-madrid-juli-2026",
+    "title": "Waldbrand bei Guadalajara wächst auf rund 26.000 Hektar – laut Regionalregierung größter Brand in der Geschichte Kastilien-La Manchas",
+    "description": "Der seit Donnerstag wütende Waldbrand bei La Mierla in der Provinz Guadalajara hat laut übereinstimmenden spanischen Medien und Angaben des Regionalpräsidenten mittlerweile rund 26.000 Hektar zerstört, rund 1.200 Menschen wurden evakuiert. Zeitgleich brennt es weiter bei Orés in Aragonien; beide Ereignisse fallen in eine anhaltende Serie von Hitzewellen in Spanien.",
+    "topic": "gesellschaft",
+    "country": "eu",
+    "confidence": "medium",
+    "confidenceNote": "Mehrere voneinander unabhängige spanische und österreichische Medien stimmen in den aktuellen Kernzahlen (rund 26.000 Hektar, rund 1.200 Evakuierte) übereinstimmend überein, inklusive eines Zitats des Regionalpräsidenten. Eine direkte, eingesehene Aussendung der Regionalregierung oder des spanischen Zivilschutzes liegt weiterhin nicht vor, und der Brand war zum Zeitpunkt der Berichte noch nicht unter Kontrolle, weshalb sich Zahlen weiter ändern können.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Nach wie vor wurde keine Webseite oder Aussendung einer spanischen Behörde (Regionalregierung Kastilien-La Mancha, Zivilschutz, Umweltministerium, AEMET) direkt eingesehen. Die Angaben und das Zitat von Regierungspräsident García-Page stammen ausschließlich aus Medienberichten, die sich auf Pressekonferenzen oder Behördenmitteilungen berufen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Alle eingesehenen Quellen schildern das Geschehen aus der Perspektive von Einsatzkräften und Regionalregierung; Stimmen Betroffener, unabhängige Schadensbewertungen oder eine mögliche politische Debatte über Ursachen (Klimawandel, Waldmanagement, Ressourcenausstattung) fehlen weiterhin. Die widersprüchlichen Gesamtflächenangaben für Spanien 2026 (rund 100.000 vs. rund 60.000 Hektar) zeigen zudem, wie unterschiedlich Zahlen je nach Quelle gerahmt werden.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Der Waldbrand bei La Mierla in der Provinz Guadalajara, rund 100 Kilometer nördlich von Madrid, hat sich seit Ausbruch am Donnerstag laut übereinstimmenden Medienberichten auf mittlerweile mehr als 26.000 Hektar ausgeweitet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Rund 1.200 Menschen aus etwa 28 bis 32 Ortschaften wurden laut Berichten evakuiert oder mussten ihre Häuser verlassen; der Brandumfang wird mit rund 120 Kilometern angegeben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Regierungspräsident von Kastilien-La Mancha, Emiliano García-Page, bezeichnete den Brand laut mehreren spanischen Medien als flächenmäßig größten Waldbrand in der Geschichte der Region.",
+        "kind": "fact"
+      },
+      {
+        "text": "Zeitgleich brennt es weiter bei Orés in der Provinz Zaragoza (Aragonien, „Incendio de Cinco Villas“) mit zuletzt rund 15.000 Hektar; auch dort bleiben mehrere Dörfer evakuiert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Brand bei Guadalajara war auch am fünften Tag laut Berichten nicht unter Kontrolle; eine endgültige Flächenbilanz und Angaben zu möglichen Verletzten oder Todesfällen stehen weiterhin aus.",
+        "kind": "open"
+      },
+      {
+        "text": "Für die Gesamtbilanz der Waldbrandsaison 2026 in Spanien kursieren widersprüchliche Zahlen zwischen rund 100.000 Hektar (mediale EFFIS-gestützte Schätzung) und rund 60.000 Hektar (Angabe des Umweltministeriums), was auf unterschiedliche Zählweisen hindeutet.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch wird die endgültige verbrannte Fläche bei Guadalajara sein, sobald der Brand als unter Kontrolle gilt?",
+      "Gab es beim Brand bei Guadalajara oder bei Orés/Zaragoza selbst Verletzte oder Todesfälle?",
+      "Wann können die rund 1.200 evakuierten Menschen in ihre Ortschaften zurückkehren, und wie viele Häuser wurden zerstört?",
+      "Welche Schäden entstanden im Naturpark Sierra Norte de Guadalajara, etwa an dort vorkommenden geschützten Arten?",
+      "Welche der beiden kursierenden Flächenbilanzen für Spanien 2026 (rund 100.000 Hektar laut medialer EFFIS-Schätzung vs. rund 60.000 Hektar laut Umweltministerium) ist zutreffend bzw. aktueller?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse: „Waldbrand in Spanien zerstört Fläche von mehr als 13.000 Hektar“",
+        "type": "media",
+        "url": "https://www.diepresse.com/38332276/waldbrand-in-spanien-zerstoert-flaeche-von-mehr-als-13000-hektar"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier: „Spanien: Verheerender Waldbrand zerstörte 12.000 Hektar“",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/waldbraende-feuer-zerstoerte-spanien-flaeche-12000-hektar/403176766"
+      },
+      {
+        "id": "src3",
+        "name": "ORF: „Waldbrand in Spanien zerstört Fläche von 13.000 Hektar“",
+        "type": "media",
+        "url": "https://orf.at/stories/3436633"
+      },
+      {
+        "id": "src4",
+        "name": "Infobae: „El incendio de Guadalajara continúa en nivel 2 y ha afectado a unas 12.000 hectáreas“",
+        "type": "media",
+        "url": "https://www.infobae.com/espana/agencias/2026/07/19/el-incendio-de-guadalajara-continua-en-nivel-2-y-ha-afectado-a-unas-12.000-hectareas/"
+      },
+      {
+        "id": "src5",
+        "name": "El Diario: „Tres poblaciones desalojadas y dos confinadas por el incendio de La Mierla“",
+        "type": "media",
+        "url": "https://www.eldiario.es/castilla-la-mancha/provincias/guadalajara/pueblo-evacuado-confinado-guadalajara-causa-humo-producido-incendio-forestal_1_13385853.html"
+      },
+      {
+        "id": "src6",
+        "name": "Moncloa.com: „El incendio de Guadalajara obliga a evacuar cuatro poblaciones y amenaza el Parque Natural“",
+        "type": "media",
+        "url": "https://www.moncloa.com/2026/07/17/incendio-guadalajara-evacuaciones-parque-natural-3401384"
+      },
+      {
+        "id": "src7",
+        "name": "Infobae: „El incendio en Orés (Zaragoza) afecta ya a más de 15.000 hectáreas“",
+        "type": "media",
+        "url": "https://www.infobae.com/espana/2026/07/18/el-incendio-en-ores-zaragoza-afecta-ya-a-mas-de-15000-hectareas-siete-pueblos-evacuados-y-cuatro-en-preaviso/"
+      },
+      {
+        "id": "src8",
+        "name": "El Diario: „El fuego en Zaragoza suma ya 14.000 hectáreas arrasadas“",
+        "type": "media",
+        "url": "https://www.eldiario.es/sociedad/ultima-hora-incendios-espana-fuego-cinco-villas-calcina-7-600-hectareas_133_13386894.html"
+      },
+      {
+        "id": "src9",
+        "name": "Que.es: „El incendio de Orés (Zaragoza) empeora y arrasa 14.000 hectáreas“",
+        "type": "media",
+        "url": "https://www.que.es/2026/07/18/incendio-ores-zaragoza-hectareas-desalojos/"
+      },
+      {
+        "id": "src10",
+        "name": "El Diario de Madrid: „Ola de calor y riesgo de incendios: la Aemet alerta de temperaturas de hasta 44 °C“",
+        "type": "media",
+        "url": "https://www.eldiariodemadrid.es/articulo/medio-ambiente/aemet-alerta-calor-extremo-riesgo-incendios-julio-2026/20260717103504137586.html"
+      },
+      {
+        "id": "src11",
+        "name": "Que.es: „Olas de calor España 2026: tres episodios en seis semanas“",
+        "type": "media",
+        "url": "https://www.que.es/2026/07/18/olas-calor-espana-2026-aemet/"
+      },
+      {
+        "id": "src12",
+        "name": "Infobae: „El peor incendio de la historia de Andalucía arrasa casi 4.000 hectáreas en Almería y deja 12 muertos“",
+        "type": "media",
+        "url": "https://www.infobae.com/espana/2026/07/10/el-peor-incendio-de-la-historia-de-andalucia-arrasa-casi-4000-hectareas-en-almeria-y-deja-12-muertos/"
+      },
+      {
+        "id": "src13",
+        "name": "Kurier: „Spanien: Verheerender Waldbrand zerstörte 26.000 Hektar“",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/waldbraende-feuer-zerstoerte-spanien-flaeche-26000-hektar/403176766"
+      },
+      {
+        "id": "src14",
+        "name": "Infobae: „El incendio de La Mierla (Guadalajara) entra en su quinto día con más de 26.000 hectáreas quemadas“",
+        "type": "media",
+        "url": "https://www.infobae.com/espana/2026/07/20/el-incendio-de-la-mierla-guadalajara-entra-en-su-quinto-dia-con-mas-de-26000-hectareas-quemadas/"
+      },
+      {
+        "id": "src15",
+        "name": "Público: „El incendio de Guadalajara ya ha arrasado 26.000 hectáreas y ha desplazado a 1.200 personas“",
+        "type": "media",
+        "url": "https://www.publico.es/sociedad/m-ambiente/incendio-guadalajara-arrasado-26-000-hectareas-desplazado-1-200-personas.html"
+      },
+      {
+        "id": "src16",
+        "name": "Cope: „El incendio de Guadalajara ha arrasado 26.000 hectáreas: 1.200 personas se han visto obligadas a dejar sus casas“",
+        "type": "media",
+        "url": "https://www.cope.es/emisoras/castilla-la-mancha/guadalajara-provincia/guadalajara/noticias/incendio-guadalajara-arrasado-26-000-hectareas-1-200-personas-han-visto-obligadas-dejar-casas-20260720_3407468.html"
+      },
+      {
+        "id": "src17",
+        "name": "infoCLM: „García-Page confirma el peor incendio visto en Castilla-La Mancha: 26.000 hectáreas calcinadas“",
+        "type": "media",
+        "url": "https://www.infoclm.es/guadalajara/2026/07/20/garcia-page-confirma-el-peor-incendio-visto-en-castilla-la-mancha-26-000-hectareas-calcinadas/"
+      },
+      {
+        "id": "src18",
+        "name": "El Correo Gallego: „Los 'fuegos extremos' de Zaragoza y Guadalajara ya elevan a 100.000 las hectáreas quemadas en España“",
+        "type": "media",
+        "url": "https://www.elcorreogallego.es/sociedad/2026/07/20/incendios-extremos-zaragoza-guadalajara-hectareas-espana-132644521.html"
+      },
+      {
+        "id": "src19",
+        "name": "SRF: „Grosser Waldbrand bei Madrid – Hunderte Menschen evakuiert“",
+        "type": "media",
+        "url": "https://www.srf.ch/news/international/rund-13-000-hektar-verbrannt-grosser-waldbrand-bei-madrid-hunderte-menschen-evakuiert"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der Waldbrand bei La Mierla in der Provinz Guadalajara, rund 100 Kilometer nördlich von Madrid, hat sich seit seinem Ausbruch am Donnerstag laut übereinstimmenden spanischen und österreichischen Medien auf mittlerweile mehr als 26.000 Hektar ausgeweitet; der Brandumfang wird mit rund 120 Kilometern angegeben, rund 1.200 Menschen aus etwa 28 bis 32 Ortschaften wurden evakuiert oder mussten ihre Häuser verlassen.",
+        "status": "supported",
+        "note": "Mehrere voneinander unabhängige spanische Medien (Infobae, Público, Cope, infoCLM) sowie ein österreichisches Medium (Kurier) berichten übereinstimmend über die gestiegene Fläche und Evakuierungszahl. Die genaue Zahl der betroffenen Ortschaften schwankt zwischen den Quellen (28 bis 32), eine offizielle Behördenaussendung wurde nicht direkt eingesehen.",
+        "sourceIds": [
+          "src13",
+          "src14",
+          "src15",
+          "src16",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Zeitgleich brannte bei Orés in der Provinz Zaragoza (Aragonien) ein zweiter, unabhängiger Waldbrand – medial auch als „Incendio de Cinco Villas“ bezeichnet –, der laut Berichten rund 14.000 bis über 15.000 Hektar erfasste; mehrere Dörfer wie Orés, Asín, Luesia und Uncastillo wurden evakuiert.",
+        "status": "supported",
+        "note": "Drei unabhängige spanische Medien berichten übereinstimmend über diesen separaten, größeren Brand in Aragonien. Aktuellere Einzelmeldungen zur genauen Endfläche dieses Brandes wurden nicht zusätzlich eingesehen.",
+        "sourceIds": [
+          "src7",
+          "src8",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Brand bei Guadalajara war auch am fünften Tag (Stand 20. Juli) laut Medienberichten weiterhin nicht unter Kontrolle; die Front habe sich in der Nacht auf Sonntag um rund 10 Kilometer weiter ausgebreitet, für den Nachmittag wurden erneut hohe Temperaturen und eine sich verschärfende Lage erwartet.",
+        "status": "partial",
+        "note": "Es handelt sich weiterhin um ein laufendes Ereignis; eine endgültige Flächenbilanz und der Kontrollstatus können sich weiter ändern.",
+        "sourceIds": [
+          "src14",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Eine Serie von Hitzewellen mit laut Meteorologen erwarteten Temperaturen von bis zu 44 bis 45 Grad wird in Medienberichten als Faktor genannt, der das Brandrisiko in Spanien 2026 zusätzlich erhöht; ein Medienbericht spricht von mehreren aufeinanderfolgenden Hitzeperioden im Sommer 2026.",
+        "status": "partial",
+        "note": "Die Angaben stammen aus Medienberichten, die sich auf die spanische Wetterbehörde AEMET berufen; eine AEMET-Quelle selbst wurde nicht direkt eingesehen, ein direkter ursächlicher Zusammenhang zu den konkreten Bränden wird in den Quellen nicht belegt, sondern als allgemeiner Risikofaktor dargestellt.",
+        "sourceIds": [
+          "src10",
+          "src11",
+          "src18"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Ein davon unabhängiger, früherer Waldbrand bei Los Gallardos in der Provinz Almería (Andalusien) Anfang Juli forderte nach Medienberichten rund 13 Todesopfer und zerstörte etwa 7.000 Hektar.",
+        "status": "supported",
+        "note": "Mehrere unabhängige Medien berichten übereinstimmend über diesen separaten, zeitlich früheren Brand; er ist nicht Teil des aktuellen Ereignisses bei Guadalajara/Zaragoza. Eine Kurier-Schlagzeile zum Guadalajara-Brand nennt ebenfalls „13 Tote“, bezieht sich laut Artikeltext und laut weiterer eingesehener Quelle jedoch auf diesen früheren Andalusien-Brand; für den Brand bei Guadalajara oder Orés/Zaragoza selbst wurden in den eingesehenen Quellen keine Todesopfer gemeldet.",
+        "sourceIds": [
+          "src12",
+          "src19"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der Regierungspräsident von Kastilien-La Mancha, Emiliano García-Page, bezeichnete den Brand bei La Mierla laut mehreren spanischen Medien als flächenmäßig größten Waldbrand in der Geschichte der Region.",
+        "status": "supported",
+        "note": "Die Aussage wird von mehreren unabhängigen spanischen Medien übereinstimmend als Zitat García-Pages wiedergegeben; eine direkte Aussendung der Regionalregierung wurde nicht eingesehen.",
+        "sourceIds": [
+          "src15",
+          "src16",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Nach einer auf EFFIS-Daten gestützten Medienschätzung sind 2026 in Spanien bislang rund 100.000 bis 110.000 Hektar Wald verbrannt; eine an anderer Stelle genannte Bilanz des spanischen Umweltministeriums nennt für Mitte Juli hingegen rund 60.000 Hektar bei 18 Großbränden.",
+        "status": "unclear",
+        "note": "Die beiden Zahlen stammen aus unterschiedlichen Quellen bzw. Zählmethoden (mediale, EFFIS-gestützte Schätzung versus offizielle Ministeriumsstatistik) und wurden nicht im Original eingesehen; welche Zählweise aktueller oder zutreffender ist, bleibt offen.",
+        "sourceIds": [
+          "src18"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Waldbrand bei La Mierla in der Provinz Guadalajara, rund 100 Kilometer nördlich von Madrid, ist am Donnerstag ausgebrochen und hat sich seither laut übereinstimmenden spanischen und österreichischen Medien deutlich ausgeweitet. Berichte vom 20. Juli, dem fünften Tag des Brandes, beziffern die betroffene Fläche auf mehr als 26.000 Hektar – gegenüber rund 12.000 bis 13.000 Hektar in den ersten Berichten vom Wochenende zuvor. Der Brandumfang wird mit rund 120 Kilometern angegeben, nachdem sich die Front in der Nacht auf Sonntag um rund 10 Kilometer weiter ausgebreitet hat. Rund 1.200 Menschen aus etwa 28 bis 32 Ortschaften wurden nach Angaben der eingesehenen Quellen evakuiert oder mussten ihre Häuser verlassen. Der Regierungspräsident von Kastilien-La Mancha, Emiliano García-Page, wird von mehreren Medien mit der Aussage zitiert, dies sei flächenmäßig der größte Waldbrand, den die Region je erlebt habe; der Ressourceneinsatz zur Bekämpfung sei „historisch“, dennoch sei die Lage weiterhin sehr ernst."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Flächenangaben zu diesem Brand haben sich seit Ausbruch mehrfach nach oben korrigiert – ein Hinweis darauf, dass es sich um ein sich weiter entwickelndes, noch nicht abgeschlossenes Ereignis handelt. Zeitgleich brennt es weiterhin bei Orés in der Provinz Zaragoza (Aragonien), wo ein davon unabhängiger, medial auch als „Incendio de Cinco Villas“ bezeichneter Brand laut Berichten rund 14.000 bis über 15.000 Hektar erfasste; unter anderem die Orte Orés, Asín, Luesia, Malpica de Arba und Uncastillo sowie vorsorglich der navarrische Ort Petilla de Aragón wurden evakuiert. Beide Ereignisse fallen in eine Phase, in der spanische Medien von mehreren aufeinanderfolgenden Hitzewellen mit Temperaturen bis zu 44 oder 45 Grad berichten. Eine Medienschätzung auf Basis des europäischen Waldbrand-Informationssystems EFFIS beziffert die insgesamt 2026 in Spanien verbrannte Fläche mittlerweile auf rund 100.000 bis 110.000 Hektar, während an anderer Stelle eine Bilanz des Umweltministeriums für Mitte Juli rund 60.000 Hektar bei 18 Großbränden nennt – die Diskrepanz deutet auf unterschiedliche Zählweisen oder Stichtage hin und wurde in den eingesehenen Quellen nicht aufgelöst."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Keine der eingesehenen Quellen ist eine direkte Aussendung oder Website einer zuständigen Behörde – weder der Regionalregierung von Kastilien-La Mancha oder Aragoniens noch des spanischen Umweltministeriums oder der Wetterbehörde AEMET. Die genannten Zahlen zu Fläche, Evakuierungen und dem Zitat García-Pages stammen ausschließlich aus Medienberichten. Weil der Brand bei Guadalajara auch am fünften Tag noch nicht unter Kontrolle war, ist offen, wie groß die final verbrannte Fläche sein wird und ob es zu Verletzten oder Todesfällen kam – für Guadalajara und Orés/Zaragoza selbst wurden in den eingesehenen Quellen bislang keine Todesopfer gemeldet. Die in einer Kurier-Schlagzeile genannten „13 Tote“ beziehen sich laut Artikeltext und einer weiteren eingesehenen Quelle auf den separaten, früheren Brand bei Los Gallardos in Almería, nicht auf das aktuelle Geschehen bei Guadalajara. Unklar bleibt zudem, wann evakuierte Menschen zurückkehren können, wie viele Häuser zerstört wurden und welche Schäden im Naturpark Sierra Norte de Guadalajara entstanden sind. Auch die widersprüchlichen Gesamtflächenangaben für Spanien 2026 (rund 100.000 versus rund 60.000 Hektar) konnten anhand der vorliegenden Quellen nicht abschließend geklärt werden."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die beiden zeitgleichen Großbrände bei Guadalajara und Zaragoza gelten laut mehreren spanischen Medien inzwischen als die flächenmäßig größten der spanischen Waldbrandsaison 2026 und tragen wesentlich zu einer Gesamtbilanz bei, die je nach Quelle zwischen rund 60.000 und 110.000 Hektar verbrannter Fläche liegt. Anfang Juli hatte bereits ein Brand bei Los Gallardos in der Provinz Almería nach Medienberichten rund 13 Menschenleben gefordert und etwa 7.000 Hektar zerstört – ein eigenständiges, früheres Ereignis, das mit den aktuellen Bränden nicht direkt zusammenhängt, aber das Ausmaß der diesjährigen spanischen Waldbrandsaison verdeutlicht. Mehrere Berichte verweisen zudem auf einen ungewöhnlich heißen Sommer 2026 mit mehreren aufeinanderfolgenden Hitzewellen, die laut Einschätzungen Trockenheit und Brandrisiko zusätzlich verschärfen, sowie auf Warnungen von Fachleuten, wonach der restliche Sommer noch schlimmer ausfallen könnte. Ein direkter wissenschaftlicher Nachweis, in welchem Ausmaß der menschengemachte Klimawandel konkret zu diesen einzelnen Bränden beigetragen hat, liegt in den eingesehenen Quellen weiterhin nicht vor; die Einordnung bleibt insofern vorsichtig."
+      }
+    ],
+    "bodyKompakt": "Der Waldbrand bei La Mierla in der Provinz Guadalajara, rund 100 Kilometer nördlich von Madrid, hat sich seit seinem Ausbruch am Donnerstag laut übereinstimmenden spanischen und österreichischen Medien auf mittlerweile mehr als 26.000 Hektar ausgeweitet – deutlich mehr als die zuvor gemeldeten rund 12.000 bis 13.000 Hektar. Rund 1.200 Menschen aus etwa 28 bis 32 Ortschaften wurden evakuiert, der Brandumfang wird mit rund 120 Kilometern angegeben. Der Regierungspräsident von Kastilien-La Mancha, Emiliano García-Page, bezeichnete den Brand laut mehreren Medien als flächenmäßig größten in der Geschichte der Region; auch am fünften Tag war das Feuer noch nicht unter Kontrolle.\n\nZeitgleich brennt es weiterhin bei Orés in der Provinz Zaragoza (Aragonien), wo ein unabhängiger, medial auch als „Incendio de Cinco Villas“ bezeichneter Brand rund 14.000 bis über 15.000 Hektar erfasste und mehrere Dörfer zur Evakuierung zwang. Beide Ereignisse fallen in eine Phase mehrerer aufeinanderfolgender Hitzewellen mit Temperaturen bis zu 44 bis 45 Grad. Für die Gesamtbilanz Spaniens 2026 kursieren widersprüchliche Zahlen zwischen rund 60.000 Hektar (Umweltministerium) und rund 100.000 bis 110.000 Hektar (mediale, EFFIS-gestützte Schätzung).\n\nEine endgültige Flächenbilanz beider aktuellen Brände steht weiterhin aus, offizielle Behördenquellen wurden nicht direkt eingesehen; Verletzte oder Todesfälle wurden für Guadalajara und Orés/Zaragoza bislang nicht gemeldet. Die in einer Kurier-Schlagzeile genannten „13 Tote“ beziehen sich laut Artikeltext auf den separaten, früheren Brand bei Los Gallardos in Almería Anfang Juli – ein Hinweis auf das Ausmaß der diesjährigen Waldbrandsaison in Spanien, deren genauer Zusammenhang mit dem Klimawandel wissenschaftlich nicht im Detail belegt ist.",
+    "updateNote": "Der Waldbrand bei Guadalajara hat laut mehreren spanischen Medien und einem Zitat des Regionalpräsidenten García-Page mittlerweile rund 26.000 Hektar zerstört (zuvor rund 12.000–13.000) und gilt als größter Brand in der Geschichte Kastilien-La Manchas; rund 1.200 Menschen wurden evakuiert. Ergänzt wurden zudem widersprüchliche Gesamtbilanzen für Spaniens Waldbrandsaison 2026 sowie eine Klarstellung, dass die in einer Kurier-Schlagzeile genannten 13 Toten den separaten, früheren Brand in Almería betreffen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-20T20:07:34.132Z"
+}
