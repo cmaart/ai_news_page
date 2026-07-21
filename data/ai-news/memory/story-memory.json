@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-21T14:27:15.336Z",
+  "updatedAt": "2026-07-21T16:35:45.384Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2600,9 +2600,9 @@
         "orf": "2026-07-21T10:07:26.641Z",
         "diepresse": "2026-07-21T06:07:29.682Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-21T14:07:25.946Z"
+      "resonanceMeasuredAt": "2026-07-21T16:07:28.905Z"
     },
     "frankreich-atomreaktoren-hitze-juli-2026": {
       "canonicalTitle": "Hitzewelle in Frankreich: Atomreaktoren in Golfech, Bugey und Chooz abgeschaltet – ASNR lockert Kühlwasser-Grenzwerte",
@@ -4016,7 +4016,8 @@
         "derstandard": "2026-07-21T08:07:29.868Z",
         "heise": "2026-07-20T22:07:34.229Z",
         "arstechnica": "2026-07-21T00:07:41.545Z",
-        "kurier": "2026-07-21T10:07:26.641Z"
+        "kurier": "2026-07-21T10:07:26.641Z",
+        "techcrunch": "2026-07-21T16:07:28.905Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -4760,7 +4761,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-19T22:07:29.919Z",
       "doNotUpdateBefore": "2026-07-19T04:07:29.919Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "derstandard": "2026-07-21T16:07:28.905Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-18T18:07:27.613Z"
@@ -6395,9 +6398,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
       "doNotUpdateBefore": "2026-07-17T12:07:26.099Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-20T14:07:33.513Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
@@ -6597,13 +6598,13 @@
       "sensitivity": "medium"
     },
     "wkw-ruck-protokoll-postenschacher-sexismus-juli-2026": {
-      "canonicalTitle": "Geleaktes Gesprächsprotokoll belastet WKW-Präsident Ruck: Vorwürfe zu Postenschacher und Sexismus",
+      "canonicalTitle": "Causa Ruck: Ludwig rechnet nicht mit Rücktritt, ÖVP-Ethikrat prüft Vorwürfe zu Postenschacher und Sexismus",
       "slug": "wkw-ruck-protokoll-postenschacher-sexismus-juli-2026",
       "firstSeenAt": "2026-07-17T12:07:35.751Z",
-      "lastUpdatedAt": "2026-07-21T10:07:26.641Z",
+      "lastUpdatedAt": "2026-07-21T16:07:28.905Z",
       "status": "published",
       "articlePath": "src/content/articles/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-21/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026-update-1000.json",
+      "researchPath": "data/ai-news/research/2026-07-21/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://www.ots.at/presseaussendung/OTS_20260717_OTS0074/gruene-wienkraus-malle-berichte-rund-um-wk-chef-ruck-zeigen-postenschacher-machtmissbrauch-und-frauenfeindlichkeit",
         "https://www.ots.at/presseaussendung/OTS_20260717_OTS0065/fpoe-kickl-ruck-protokolle-sind-offenbarungseid-des-systems-aus-spoevp-postenschacher-und-machtmissbrauch",
@@ -6615,26 +6616,34 @@
         "https://www.ots.at/presseaussendung/OTS_20260721_OTS0054/gruene-wienkraus-huemer-malle-causa-ma59-ruck-offenbaren-unertraegliche-kultur-des-wegschauens-und-machtmissbrauch",
         "https://www.ots.at/presseaussendung/OTS_20260720_OTS0044/fiw-wiesinger-bedeutung-der-unternehmerinnen-wurde-in-der-wk-wien-unter-walter-ruck-aufgewertet",
         "https://www.ots.at/presseaussendung/OTS_20260720_OTS0065/aviso-pk-gruene-wien-am-217-zu-ma59-causa",
-        "https://kurier.at/chronik/wien/walter-ruck-wirtschaftskammer-markus-figl-wiener-oevp/403177164"
+        "https://kurier.at/chronik/wien/walter-ruck-wirtschaftskammer-markus-figl-wiener-oevp/403177164",
+        "https://www.derstandard.at/story/3000000332385/wk-wien-ludwig-rechnet-nicht-mit-ruck-r252ckzug",
+        "https://www.diepresse.com/38100888/hearst-ich-will-nicht-mit-einer-frau-vertrauliches-protokoll-stellt-wiener-wirtschaftskammerchef-ruck-bloss",
+        "https://kurier.at/chronik/wien/walter-ruck-postenschacher-ruecktritt-oevp-wirtschaftskammer/403177090",
+        "https://kurier.at/politik/inland/oevp-wirtschaftskammer-wien-ethikrat-walter-ruck/403177337",
+        "https://derstandard.at/story/3000000332183/wkoe-praesidentin-martha-schultz-distanziert-sich-von-wiener-kammerchef-ruck",
+        "https://wien.orf.at/stories/3363438/"
       ],
       "openQuestions": [
         "Wie lautet der vollständige Wortlaut bzw. gibt es eine Original-Aufzeichnung des Gesprächsprotokolls?",
         "Wer hat das Protokoll verfasst und an die Medien weitergegeben, und mit welcher Motivation?",
-        "Wird sich Bürgermeister Michael Ludwig persönlich zu den konkreten Vorwürfen äußern, statt nur über eine Sprecherin?",
+        "Zu welchem Ergebnis kommt der ÖVP-Ethikrat, und wann tagt er?",
+        "Wird Bürgermeister Ludwig über sein bisheriges Statement hinaus auch konkret zu den Vorwürfen rund um die Juraczka-Bestellung und den Frauenbild-Vorwurf Stellung nehmen?",
         "Wie reagiert die Stadt Wien auf die Forderung der Grünen nach einer unabhängigen Untersuchung und einer eigenen Beschwerdestelle?",
         "Tritt Walter Ruck von seinen Funktionen als WKW-Präsident und Wirtschaftsbund-Chef zurück, oder hält der Wirtschaftsbund an ihm fest?",
+        "Wie positionieren sich Bundeskanzler Stocker und WKÖ-Präsidentin Schultz im weiteren Verlauf offiziell und formell?",
         "Welche rechtlichen oder personellen Konsequenzen könnten aus den Vorwürfen insgesamt folgen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-22T10:07:26.641Z",
-      "doNotUpdateBefore": "2026-07-21T16:07:26.641Z",
-      "pendingOutcome": "Offen ist, ob Bürgermeister Ludwig persönlich Stellung bezieht, wie die Stadt Wien auf die Forderung der Grünen nach unabhängiger Untersuchung und Beschwerdestelle reagiert, und ob Walter Ruck seine Funktionen als WKW-Präsident und Wirtschaftsbund-Chef behält oder zurücklegt.",
+      "doNotRedraftBefore": "2026-07-22T16:07:28.905Z",
+      "doNotUpdateBefore": "2026-07-21T22:07:28.905Z",
+      "pendingOutcome": "Offen bleibt, ob Walter Ruck seine Funktionen als WKW-Präsident und Wirtschaftsbund-Chef behält oder zurücklegt, sowie zu welchem Ergebnis der ÖVP-Ethikrat kommt.",
       "pendingOutcomeUntil": "2026-07-23T10:07:26.641Z",
       "echoPublishers": {
         "diepresse": "2026-07-21T10:07:26.641Z",
-        "derstandard": "2026-07-21T12:07:25.257Z",
+        "derstandard": "2026-07-21T16:07:28.905Z",
         "apa": "2026-07-21T12:07:25.257Z",
-        "kurier": "2026-07-21T14:07:25.946Z"
+        "kurier": "2026-07-21T16:07:28.905Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -6979,9 +6988,9 @@
         "derstandard": "2026-07-21T06:07:29.682Z",
         "kurier": "2026-07-21T12:07:25.257Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-21T14:07:25.946Z"
+      "resonanceMeasuredAt": "2026-07-21T16:07:28.905Z"
     },
     "messi-yamal-badewannenfoto-wm-finale-2026": {
       "canonicalTitle": "Messi zum Badewannenfoto mit Yamal: „Es ist verrückt“, dass wir nun im WM-Finale stehen",
@@ -7289,10 +7298,10 @@
       "canonicalTitle": "Sicherheitsmitarbeiter der Deutschen Bahn stürzt bei Streit mit Fahrgast aus fahrendem Zug",
       "slug": "db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026",
       "firstSeenAt": "2026-07-18T10:07:28.883Z",
-      "lastUpdatedAt": "2026-07-20T22:07:34.229Z",
+      "lastUpdatedAt": "2026-07-21T16:07:28.905Z",
       "status": "published",
       "articlePath": "src/content/articles/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-20/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026-update-2200.json",
+      "researchPath": "data/ai-news/research/2026-07-21/db-sicherheitsmitarbeiter-sturz-zug-karlsruhe-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331992/deutsche-bahn-mitarbeiter-stuerzt-bei-streit-mit-gast-aus-fahrendem-zug",
         "https://kurier.at/chronik/welt/deutschland-bahn-mitarbeiter-aus-zug-gestuerzt/403176855",
@@ -7310,19 +7319,28 @@
         "https://www.news.de/panorama/859833250/gdl-verlangt-nach-zug-angriff-haertere-konsequenzen-eskalation-in-zuegen-news-der-dpa-aktuell-zu-verkehr-und-bahn/1/",
         "https://www.nw.de/nachrichten/topthemen/24377956_Attackierter-Bahnmitarbeiter-kaempft-ums-Ueberleben-mutmasslicher-Taeter-auf-freiem-Fuss.html",
         "https://www.tichyseinblick.de/daili-es-sentials/attacke-zugbegleiter-keine-u-haft/",
-        "https://www.derstandard.at/story/3000000332162/deutsche-bahn-mitarbeiter-nach-sturz-aus-zug-au223er-lebensgefahr"
+        "https://www.derstandard.at/story/3000000332162/deutsche-bahn-mitarbeiter-nach-sturz-aus-zug-au223er-lebensgefahr",
+        "https://www.diepresse.com/38579819/deutsche-bahn-will-alkohol-an-allen-bahnhoefen-verbieten",
+        "https://kurier.at/wirtschaft/deutsche-bahn-alkoholverbot-bahnhoefe-deutschland-palla/403177177",
+        "https://www.derstandard.at/story/3000000332241/deutsche-bahn-will-alkohol-an-allen-bahnh246fen-verbieten",
+        "https://www.deutschebahn.com/de/presse/pressestart_zentrales_uebersicht/Deutsche-Bahn-Alkoholkonsumverbot-an-allen-Bahnhoefen-13980686",
+        "https://nw.de/nachrichten/panorama/24379606_Deutsche-Bahn-plant-Alkoholverbot-an-allen-Bahnhoefen.html",
+        "https://www.tagesspiegel.de/gesellschaft/panorama/es-reicht-deutsche-bahn-plant-alkoholverbot-an-allen-bahnhofen--dobrindt-zeigt-sich-offen-15860042.html"
       ],
       "openQuestions": [
         "Ist der verletzte Mitarbeiter mittlerweile ansprechbar, und wie sehen die weiteren Genesungsaussichten aus, nachdem er laut Staatsanwaltschaft außer Lebensgefahr ist?",
         "Bestätigt die laufende technische Untersuchung der Zugtür, ob neben dem Handgemenge ein zusätzlicher technischer Defekt zur Türöffnung beitrug?",
         "Legt die Staatsanwaltschaft Karlsruhe gegen die Ablehnung des Haftbefehls Rechtsmittel ein, oder akzeptiert sie die Entscheidung des Amtsgerichts?",
         "Werden die berichteten Vorstrafen und eine laufende Bewährungsstrafe des Fahrgasts amtlich bestätigt, und welcher konkrete Tatvorwurf wird gegen ihn erhoben?",
-        "Reagiert Bundeskanzler Merz auf den Appell der EVG, und zieht die Deutsche Bahn Konsequenzen für Sicherheitsprotokolle von Kontrollpersonal?"
+        "Reagiert Bundeskanzler Merz auf den Appell der EVG, und zieht die Deutsche Bahn über das Alkoholverbot hinaus weitere Konsequenzen für Sicherheitsprotokolle von Kontrollpersonal?",
+        "Setzt die Deutsche Bahn das angekündigte Alkoholverbot tatsächlich bis 15. Oktober 2026 an allen 5.400 Bahnhöfen um, und wie wird die von Gewerkschaften und dem zuständigen Minister angemahnte konsequente Kontrolle personell sichergestellt?",
+        "Wie reagieren Kommunen und lokale Behörden auf die angekündigte Anpassung der Hausordnungen, und gibt es dabei regionale Widerstände oder Ausnahmen?",
+        "Zeigt sich nach Einführung des bundesweiten Verbots ein ähnlicher Rückgang von Konflikten wie am Hamburger Hauptbahnhof, oder bleiben die dortigen Erfahrungen auf einen Einzelstandort beschränkt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-21T22:07:34.229Z",
-      "doNotUpdateBefore": "2026-07-21T04:07:34.229Z",
-      "pendingOutcome": "Weiterhin offen sind der genaue Genesungsverlauf des Mitarbeiters, eine amtliche Bestätigung oder Widerlegung der berichteten Vorstrafen des Fahrgasts, das Ergebnis der technischen Untersuchung der Zugtür sowie mögliche Rechtsmittel der Staatsanwaltschaft gegen die Ablehnung des Haftbefehls.",
+      "doNotRedraftBefore": "2026-07-22T16:07:28.905Z",
+      "doNotUpdateBefore": "2026-07-21T22:07:28.905Z",
+      "pendingOutcome": "Offen bleibt, ob die Staatsanwaltschaft Karlsruhe gegen die Ablehnung des Haftbefehls vorgeht, wie sich der Gesundheitszustand des Mitarbeiters weiterentwickelt, und ob die Deutsche Bahn das angekündigte bundesweite Alkoholverbot bis 15. Oktober 2026 tatsächlich flächendeckend und wirksam durchsetzt.",
       "pendingOutcomeUntil": "2026-07-22T22:07:34.229Z",
       "echoPublishers": {},
       "resonanceLevel": 2,
@@ -7361,13 +7379,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-21T14:07:33.513Z",
       "doNotUpdateBefore": "2026-07-20T20:07:33.513Z",
-      "echoPublishers": {
-        "orf": "2026-07-20T14:07:33.513Z",
-        "diepresse": "2026-07-20T14:07:33.513Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-20T14:07:33.513Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-21T16:07:28.905Z"
     },
     "kraus-grabher-kitzbuehel-finale-juli-2026": {
       "canonicalTitle": "Kraus gewinnt rein österreichisches Kitzbühel-Finale gegen Grabher",
@@ -8201,9 +8216,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-21T20:07:34.132Z",
       "doNotUpdateBefore": "2026-07-21T02:07:34.132Z",
-      "echoPublishers": {
-        "kurier": "2026-07-20T14:07:33.513Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-20T20:07:34.132Z"
@@ -9280,7 +9293,43 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-22T14:07:25.946Z",
-      "doNotUpdateBefore": "2026-07-21T20:07:25.946Z"
+      "doNotUpdateBefore": "2026-07-21T20:07:25.946Z",
+      "echoPublishers": {
+        "apa": "2026-07-21T16:07:28.905Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-21T16:07:28.905Z"
+    },
+    "tod-abderrahim-fakir-bologna-proteste-juli-2026": {
+      "canonicalTitle": "Tod eines Marokkaners bei Polizeieinsatz in Bologna löst Proteste in Italien aus",
+      "slug": "tod-abderrahim-fakir-bologna-proteste-juli-2026",
+      "firstSeenAt": "2026-07-21T16:07:28.905Z",
+      "lastUpdatedAt": "2026-07-21T16:07:28.905Z",
+      "status": "published",
+      "articlePath": "src/content/articles/tod-abderrahim-fakir-bologna-proteste-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-21/tod-abderrahim-fakir-bologna-proteste-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/ausland/italien-tod-marokkaner-proteste-bologna-abderrahim-fakir/403177371",
+        "https://orf.at/stories/3436786",
+        "https://www.diepresse.com/38621380/schuetzt-meloni-gesetz-polizisten-nach-dem-tod-eines-marokkaners-in-bologna-eskalieren-proteste-zur-gewalt",
+        "https://www.amnesty.it/commento-sulla-morte-di-abderrahim-fakir-a-bologna/",
+        "https://www.ansa.it/sito/notizie/cronaca/2026/07/21/guerriglia-a-bologna-fino-a-notte-incendiata-anche-unauto-del-comune_5e512a40-7ef6-47a1-8d8c-b364832957c4.html",
+        "https://www.ilpost.it/2026/07/20/agenti-bologna-non-sono-indagati-perche-modello-45-bis/",
+        "https://tg24.sky.it/cronaca/2026/07/21/meloni-abderrahim-fakir-bologna"
+      ],
+      "openQuestions": [
+        "Was ergibt die noch ausständige Obduktion zur genauen Todesursache?",
+        "Zu welchem Ergebnis kommen die strafrechtlichen Vorermittlungen gegen die zwei Polizisten und vier Sanitäter?",
+        "Hatte Fakir, wie berichtet, eine gesundheitliche oder psychische Vorgeschichte, und wie belastbar ist das?",
+        "Wie positioniert sich die Questura Bologna offiziell zum Ablauf des Einsatzes?",
+        "Wie entwickeln sich die Proteste in den kommenden Tagen weiter, und bleibt es bei vereinzelten Ausschreitungen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-22T16:07:28.905Z",
+      "doNotUpdateBefore": "2026-07-21T22:07:28.905Z",
+      "pendingOutcome": "Ergebnis der noch ausständigen Obduktion zur Todesursache sowie Ausgang der strafrechtlichen Vorermittlungen gegen die beteiligten Polizisten und Sanitäter.",
+      "pendingOutcomeUntil": "2026-07-23T16:07:28.905Z"
     }
   }
 }
