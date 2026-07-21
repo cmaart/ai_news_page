@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-21T02:25:25.239Z",
+  "updatedAt": "2026-07-21T04:24:51.666Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1842,12 +1842,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-19T12:07:30.176Z",
       "doNotUpdateBefore": "2026-07-18T18:07:30.176Z",
-      "echoPublishers": {
-        "orf": "2026-07-20T02:56:10.912Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-20T02:56:10.912Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-21T04:07:26.098Z"
     },
     "cluster-20260712-e331177f": {
       "canonicalTitle": "Geschichtsvergessen in Graz, heiße Luft mit Sebastian Kurz",
@@ -2603,9 +2601,9 @@
         "orf": "2026-07-20T18:07:37.280Z",
         "diepresse": "2026-07-20T18:07:37.280Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-20T16:07:42.513Z"
+      "resonanceMeasuredAt": "2026-07-21T04:07:26.098Z"
     },
     "frankreich-atomreaktoren-hitze-juli-2026": {
       "canonicalTitle": "Hitzewelle in Frankreich: Atomreaktoren in Golfech, Bugey und Chooz abgeschaltet – ASNR lockert Kühlwasser-Grenzwerte",
@@ -2822,13 +2820,13 @@
       "doNotUpdateBefore": "2026-07-21T02:07:34.132Z",
       "echoPublishers": {
         "orf": "2026-07-20T22:07:34.229Z",
-        "derstandard": "2026-07-20T04:07:27.799Z",
+        "derstandard": "2026-07-21T04:07:26.098Z",
         "kurier": "2026-07-20T22:07:34.229Z",
         "diepresse": "2026-07-20T20:07:34.132Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-20T16:07:42.513Z"
+      "resonanceMeasuredAt": "2026-07-21T04:07:26.098Z"
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -2945,13 +2943,13 @@
       "echoPublishers": {}
     },
     "us-iran-eskalation-strasse-von-hormuz-juli-2026": {
-      "canonicalTitle": "„Erhebliche Eskalation“: US-Militär greift erneut Ziele im Iran an",
+      "canonicalTitle": "„Erhebliche Eskalation“ hält an: USA greifen zehnte Nacht in Folge Ziele im Iran an",
       "slug": "us-iran-eskalation-strasse-von-hormuz-juli-2026",
       "firstSeenAt": "2026-07-13T06:07:23.920Z",
-      "lastUpdatedAt": "2026-07-13T06:07:23.920Z",
+      "lastUpdatedAt": "2026-07-21T04:07:26.098Z",
       "status": "published",
       "articlePath": "src/content/articles/us-iran-eskalation-strasse-von-hormuz-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-13/us-iran-eskalation-strasse-von-hormuz-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-21/us-iran-eskalation-strasse-von-hormuz-juli-2026-update-400.json",
       "sourceUrls": [
         "https://www.kleinezeitung.at/artikel/36797456/us-militaer-greift-weitere-ziele-im-iran-an",
         "https://www.diepresse.com/36797469/erhebliche-eskalation-usa-attackieren-iran-erneut-guterres-besorgt",
@@ -2959,17 +2957,25 @@
         "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4538814/us-forces-complete-another-round-of-strikes-against-iran/",
         "https://news.un.org/en/story/2026/07/1167923",
         "https://www.aljazeera.com/news/2026/7/12/us-launches-new-wave-of-strikes-against-iran-aimed-at-degrading-military",
-        "https://www.cnn.com/2026/07/11/world/live-news/iran-war-trump"
+        "https://www.cnn.com/2026/07/11/world/live-news/iran-war-trump",
+        "https://www.derstandard.at/story/3000000332239/iran-us-milit228r-angriffswelle-beendet",
+        "https://www.kleinezeitung.at/artikel/37946345/iran-meldet-us-angriffe-auf-bruecken",
+        "https://www.derstandard.at/story/3000000331834/iran-meldet-us-angriffe-auf-br252cken",
+        "https://www.derstandard.at/story/3000000331983/siebente-nacht-in-folge-neue-us-angriffe-gegen-den-iran",
+        "https://orf.at/stories/3436755"
       ],
       "openQuestions": [
-        "Wie viele Angriffswellen es in den vergangenen Tagen tatsächlich gab und in welcher zeitlichen Abfolge.",
-        "Welches Schadensausmaß und welche Opferzahlen auf iranischer wie auf US-/Golfstaaten-Seite tatsächlich vorliegen.",
-        "Ob und wann neue Verhandlungen zwischen den USA und Iran zustande kommen.",
-        "Wie stark sich die Lage auf den globalen Schiffsverkehr durch die Straße von Hormuz und auf die Energiepreise weiter auswirkt."
+        "Wie viele Angriffswellen es seit Beginn der Eskalation insgesamt gab und mit welchem tatsächlichen Schadensausmaß auf beiden Seiten.",
+        "Welche Ursache die gemeldeten Schiffsbrände in der Straße von Hormuz tatsächlich hatten und ob sie auf US-Angriffe, iranische Aktionen oder andere Umstände zurückgehen.",
+        "Wie belastbar die iranischen Angaben zu Toten und Verletzten bei den Gegenschlägen gegen Golfstaaten sind und ob es davon unabhängige Zählungen gibt.",
+        "Ob und wann neue Verhandlungen zwischen den USA und Iran zustande kommen bzw. ob und wann die Angriffsserie endet.",
+        "Wie stark sich die Lage weiterhin auf den globalen Schiffsverkehr durch die Straße von Hormuz und auf die Energiepreise auswirkt."
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-14T06:07:23.920Z",
-      "doNotUpdateBefore": "2026-07-13T12:07:23.920Z"
+      "doNotRedraftBefore": "2026-07-22T04:07:26.098Z",
+      "doNotUpdateBefore": "2026-07-21T10:07:26.098Z",
+      "pendingOutcome": "Ob und wann die Angriffsserie zwischen den USA und Iran endet, ob es zu einer Deeskalation oder neuen Verhandlungen kommt und wie sich die gemeldeten Schäden und Opferzahlen unabhängig verifizieren lassen, ist weiterhin offen.",
+      "pendingOutcomeUntil": "2026-07-23T04:07:26.098Z"
     },
     "borkenkaefer-kaernten-klagenfurt-brennpunkt-juli-2026": {
       "canonicalTitle": "Borkenkäfer in Kärnten: Einige Bezirke entspannt, Klagenfurt und Unterkärnten im Blick",
@@ -6803,13 +6809,13 @@
       "doNotUpdateBefore": "2026-07-18T00:07:24.935Z"
     },
     "jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026": {
-      "canonicalTitle": "Nach Kritik an Leihmutterschaft: Jens Spahn tritt als Unionsfraktionschef zurück",
+      "canonicalTitle": "Nach Kritik an Leihmutterschaft: Jens Spahn tritt als Unionsfraktionschef zurück – Österreichs Parteien geeint gegen Leihmutterschaft",
       "slug": "jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026",
       "firstSeenAt": "2026-07-17T18:07:24.935Z",
-      "lastUpdatedAt": "2026-07-19T18:07:30.423Z",
+      "lastUpdatedAt": "2026-07-21T04:07:26.098Z",
       "status": "published",
       "articlePath": "src/content/articles/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-19/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026-update-1800.json",
+      "researchPath": "data/ai-news/research/2026-07-21/jens-spahn-leihmutterschaft-cdu-kontroverse-juli-2026-update-400.json",
       "sourceUrls": [
         "https://www.diepresse.com/37960570/wenn-das-private-zum-politikum-wird-jens-spahn-die-cdu-und-der-wirbel-um-die-leihmutterschaft-fuer-seinen-sohn",
         "https://www.kleinezeitung.at/artikel/37905005/als-minister-lehnte-er-leihmutterschaft-ab-jens-spahn-und-sein-mann",
@@ -6832,24 +6838,34 @@
         "https://www.kleinezeitung.at/artikel/38287305/der-fall-des-jens-spahn-war-unabwendbar",
         "https://www.tagesspiegel.de/politik/nach-kritik-wegen-leihmutterschaft-kanzler-merz-nennt-spahns-rucktritt-unvermeidlich-15848089.html",
         "https://www.onvista.de/news/2026/07-19-csu-politiker-hoffmann-unionsfraktion-ist-handlungsfaehig-0-10-26533626",
-        "https://www.zdfheute.de/politik/spahn-merz-ruecktritt-cdu-fraktion-nachfolger-100.html"
+        "https://www.zdfheute.de/politik/spahn-merz-ruecktritt-cdu-fraktion-nachfolger-100.html",
+        "https://www.diepresse.com/38361577/nicht-die-vaterschaft-von-jens-spahn-ist-das-problem-oesterreichs-parteien-geeint-gegen-die-leihmutterschaft",
+        "https://www.kleinezeitung.at/artikel/38565794/affaere-jens-spahn-breite-front-in-oesterreich-gegen-leihmutterschaft",
+        "https://www.derstandard.at/story/3000000331969/konservativer-cdu-fraktionschef-jens-spahn-verteidigt-leihmutterschaft-und-stellt-sich-cdu-kritik",
+        "https://www.derstandard.at/story/3000000332012/leihmutter-affaere-von-merz-konnte-spahn-keine-hilfe-mehr-erwarten"
       ],
       "openQuestions": [
         "Wer wird dauerhaft neuer Fraktionsvorsitzender von CDU/CSU im Bundestag – Thorsten Frei, Carsten Linnemann, Alexander Dobrindt oder eine andere Person?",
         "Fällt die Nachfolgeentscheidung, wie berichtet, tatsächlich noch im Juli 2026 vor Merz' geplantem Urlaub?",
         "Wie genau lief die interne Entscheidungsfindung zwischen Merz und Spahn ab – eigene Entscheidung, direkte Aufforderung oder beides?",
         "Welche genauen Umstände (Agentur, Kosten, rechtliche Elternschaft) lagen der Leihmutterschaft zugrunde? Das ist weiterhin nicht abschließend verifiziert.",
-        "Wird der ähnlich gelagerte, von Streeck selbst nicht bestätigte Fall politisch oder rechtlich weiterverfolgt?"
+        "Wird der ähnlich gelagerte, von Streeck selbst nicht bestätigte Fall politisch oder rechtlich weiterverfolgt?",
+        "Welche konkreten Schritte plant die österreichische Bundesregierung auf europäischer und internationaler Ebene gegen Leihmutterschaft, und in welchem Zeitrahmen?",
+        "Wird die FPÖ-Forderung nach einer Verfassungsbestimmung gegen Leihmutterschaft von anderen Parteien mitgetragen oder bleibt sie ein Einzelvorstoß?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-20T18:07:30.423Z",
-      "doNotUpdateBefore": "2026-07-20T00:07:30.423Z",
+      "doNotRedraftBefore": "2026-07-22T04:07:26.098Z",
+      "doNotUpdateBefore": "2026-07-21T10:07:26.098Z",
+      "pendingOutcome": "Wer wird dauerhaft neuer CDU/CSU-Fraktionsvorsitzender, wird die Nachfolge wie berichtet noch im Juli 2026 geklärt, und welche konkreten Schritte setzt Österreich auf EU- und internationaler Ebene sowie bei der FPÖ-Forderung nach Verfassungsrang um?",
+      "pendingOutcomeUntil": "2026-07-23T04:07:26.098Z",
       "echoPublishers": {
-        "derstandard": "2026-07-20T12:07:26.483Z"
+        "derstandard": "2026-07-20T12:07:26.483Z",
+        "diepresse": "2026-07-21T04:07:26.098Z",
+        "kleinezeitung": "2026-07-21T04:07:26.098Z"
       },
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-20T18:07:37.280Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-21T04:07:26.098Z"
     },
     "landwirt-steiermark-rinderherde-toedlich-verletzt-juli-2026": {
       "canonicalTitle": "Landwirt in der Steiermark vermutlich von Rinderherde tödlich verletzt",
@@ -8912,6 +8928,30 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-22T02:07:28.061Z",
       "doNotUpdateBefore": "2026-07-21T08:07:28.061Z"
+    },
+    "google-bewertungen-restaurants-loeschung-deutschland-2026": {
+      "canonicalTitle": "Google Maps: Warum deutsche Gastronomiebetriebe massenhaft negative Bewertungen löschen lassen",
+      "slug": "google-bewertungen-restaurants-loeschung-deutschland-2026",
+      "firstSeenAt": "2026-07-21T04:07:26.098Z",
+      "lastUpdatedAt": "2026-07-21T04:07:26.098Z",
+      "status": "published",
+      "articlePath": "src/content/articles/google-bewertungen-restaurants-loeschung-deutschland-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-21/google-bewertungen-restaurants-loeschung-deutschland-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332187/warum-restaurants-so-viele-google-bewertungen-loeschen",
+        "https://www.heise.de/news/Viele-Restaurants-und-Hotels-loeschen-Online-Bewertungen-11370258.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.golem.de/news/google-maps-viele-restaurants-und-hotels-loeschen-missliebige-onlinebewertungen-2607-211044.html",
+        "https://www.settle-in-berlin.com/google-reviews-removal-defamation-in-germany/"
+      ],
+      "openQuestions": [
+        "Wie viele der gelöschten Google-Bewertungen betrafen tatsächlich unzulässige Inhalte, wie viele legitime, aber unbequeme Kritik?",
+        "Wie äußert sich Google offiziell zu Ausmaß und Prüfpraxis der Löschungen in Deutschland?",
+        "Gibt es vergleichbare Daten oder Verbandsaussagen zur Löschpraxis von Google-Bewertungen in Österreich?",
+        "Warum konzentrieren sich die EU-weiten Löschungen auf Google Maps so stark auf Deutschland?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-22T04:07:26.098Z",
+      "doNotUpdateBefore": "2026-07-21T10:07:26.098Z"
     }
   }
 }
