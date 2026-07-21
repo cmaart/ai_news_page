@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-21T18:27:03.864Z",
+  "updatedAt": "2026-07-21T20:24:52.935Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2552,7 +2552,7 @@
       "canonicalTitle": "Zehn Tote nach Angriff auf Frachtschiff vor Odessa – Russland meldet Drohnenangriffe auf Belgorod und Moskau-Region, Regierungsumbildung in Kyjiw",
       "slug": "ukraine-russland-angriffe-tanker-juli-2026",
       "firstSeenAt": "2026-07-12T18:07:23.579Z",
-      "lastUpdatedAt": "2026-07-20T16:07:42.513Z",
+      "lastUpdatedAt": "2026-07-21T20:07:32.994Z",
       "status": "published",
       "articlePath": "src/content/articles/ukraine-russland-angriffe-tanker-juli-2026.mdx",
       "researchPath": "data/ai-news/research/2026-07-20/ukraine-russland-angriffe-tanker-juli-2026-update-1600.json",
@@ -2575,7 +2575,11 @@
         "https://euromaidanpress.com/2026/07/20/ten-dead-as-russia-strikes-a-turkish-owned-bulk-carrier-off-odesa/",
         "https://orf.at/stories/3436748",
         "https://www.kleinezeitung.at/artikel/38410477/zehn-tote-nach-russischem-angriff-auf-frachtschiff",
-        "https://www.kleinezeitung.at/artikel/38410477/ukraine-zehn-tote-nach-russischem-angriff-auf-frachtschiff"
+        "https://www.kleinezeitung.at/artikel/38410477/ukraine-zehn-tote-nach-russischem-angriff-auf-frachtschiff",
+        "https://orf.at/stories/3436807",
+        "https://orf.at/stories/3436762",
+        "https://www.diepresse.com/38576702/tote-und-verletzte-durch-russischen-beschuss-auf-odessa",
+        "https://www.diepresse.com/38576702/14-tote-bei-gegenseitigen-angriffen-in-der-ukraine-und-in-russland"
       ],
       "openQuestions": [
         "Wie belastbar ist die zuletzt gemeldete Zahl von zehn Toten beim Angriff auf die „Golden Leo“, nachdem frühere Meldungen von sechs Toten und vier Vermissten ausgingen?",
@@ -2590,7 +2594,14 @@
         "Wie belastbar sind die russischen bzw. besatzungsseitigen Angaben zu mindestens sieben Toten in Enerhodar, und liegt dazu eine ukrainische Stellungnahme vor?",
         "Wer wird Nachfolger bzw. Nachfolgerin von Julija Swyrydenko als ukrainische Ministerpräsidentin, und welchen politischen Kurswechsel kündigt Präsident Selenskyj konkret an?",
         "Wird Swyrydenko tatsächlich Botschafterin der Ukraine in den USA, und hat sie ein entsprechendes Angebot angenommen?",
-        "Welche konkreten Folgen hat Bulgariens Austritt aus der „Koalition der Willigen“ für deren Zusammenhalt und für laufende Ukraine-Hilfen?"
+        "Welche konkreten Folgen hat Bulgariens Austritt aus der „Koalition der Willigen“ für deren Zusammenhalt und für laufende Ukraine-Hilfen?",
+        "Unabhängige Verifizierung der Opferzahlen aus Dnipropetrowsk (nur lokale Militärverwaltung Ganscha)",
+        "Detaillierte Quellenangabe zu Cherson-Angriffen (nur Selenskyj via Telegram)",
+        "Russische Stellungnahme oder Gegenangaben zu den gemeldeten ukrainischen Angriffen",
+        "Unabhängige Bestätigung der 10 Toten beim Frachtschiff-Angriff (Frachtschiff-Story enthält 13 offene Fragen zur Belastbarkeit)",
+        "Technische Details oder Umsatzschätzung zum Umfang der Gasförderanlagen-Beschädigungen (nur Naftohas-Mitteilung)",
+        "Unabhängige Quelle zu Umfang und Dauer des Produktionsausfalls bei Naftohas",
+        "Quellenangabe zur 14-Tote-Aggregation (Die Presse) — welche Ereignisse sind darin enthalten?"
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-21T16:07:42.513Z",
@@ -3099,11 +3110,13 @@
       "echoPublishers": {
         "heise": "2026-07-21T10:07:26.641Z",
         "derstandard": "2026-07-21T18:07:37.048Z",
-        "kurier": "2026-07-21T18:07:37.048Z"
+        "kurier": "2026-07-21T18:07:37.048Z",
+        "orf": "2026-07-21T20:07:32.994Z",
+        "diepresse": "2026-07-21T20:07:32.994Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-21T18:07:37.048Z"
+      "resonanceMeasuredAt": "2026-07-21T20:07:32.994Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -4278,7 +4291,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-21T08:07:29.868Z"
+      "resonanceMeasuredAt": "2026-07-21T20:07:32.994Z"
     },
     "opernsommer-2026-tosca-st-margarethen-madama-butterfly-gars": {
       "canonicalTitle": "Puccini unter freiem Himmel: „Tosca“ eröffnet in St. Margarethen, „Madama Butterfly“ sorgt in Gars für Tenor-Drama",
@@ -8294,32 +8307,43 @@
       "resonanceMeasuredAt": "2026-07-21T12:07:25.257Z"
     },
     "faehre-guyana-gekentert-133-menschen-juli-2026": {
-      "canonicalTitle": "Fähre mit 133 Menschen vor der Küste Guyanas gekentert",
+      "canonicalTitle": "Fähre vor Guyana gekentert: Mindestens 41 Tote, Zahl der Menschen an Bord auf rund 180 revidiert",
       "slug": "faehre-guyana-gekentert-133-menschen-juli-2026",
       "firstSeenAt": "2026-07-19T20:07:30.723Z",
-      "lastUpdatedAt": "2026-07-19T20:07:30.723Z",
+      "lastUpdatedAt": "2026-07-21T20:07:32.994Z",
       "status": "published",
       "articlePath": "src/content/articles/faehre-guyana-gekentert-133-menschen-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-19/faehre-guyana-gekentert-133-menschen-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-21/faehre-guyana-gekentert-133-menschen-juli-2026-update-2000.json",
       "sourceUrls": [
         "https://kurier.at/chronik/welt/faehre-guyana-gekentert-133-menschen/403176985",
-        "https://orf.at/stories/3436660"
+        "https://orf.at/stories/3436660",
+        "https://orf.at/stories/3436883",
+        "https://kurier.at/chronik/welt/faehre-guyana-welle-vermisste/403176985",
+        "https://orf.at/stories/3436788",
+        "https://orf.at/stories/3436845",
+        "https://www.derstandard.at/story/3000000332366/140-menschen-nach-boots-vorf228llen-nahe-mauretanien-vermisst",
+        "https://kurier.at/chronik/welt/mauretanien-140-menschen-bootsunfall-vermisst-fluechtlingsboot/403177355",
+        "https://www.aljazeera.com/news/2026/7/21/guyana-recovers-27-bodies-after-ferry-disaster-as-crew-comes-under-scrutiny"
       ],
       "openQuestions": [
-        "Wie hoch ist die endgültige Zahl der Todesopfer, Vermissten und Geretteten nach Abschluss der Suchaktionen?",
-        "Was war die tatsächliche Unfallursache – bestätigt sich die These einer großen Welle, oder spielten technischer Zustand, Wartung oder Überladung eine Rolle?",
-        "In welchem technischen Zustand befand sich das offenbar bereits jahrzehntelang genutzte Schiff?",
-        "Gibt es eine offizielle Stellungnahme der guyanaischen Behörden oder der Reederei zu Sicherheitsstandards und möglichen Konsequenzen?"
+        "Wie hoch ist die endgültige, verifizierte Zahl der Todesopfer, Vermissten und Geretteten nach Abschluss der Such- und Bergungsaktionen?",
+        "Wie erklärt sich im Detail die Diskrepanz zwischen den ursprünglich gemeldeten 133 und den später genannten rund 180 Menschen an Bord?",
+        "Bestätigt sich die These einer großen Welle als Unfallursache, oder spielten technischer Zustand, Wartung, Alter oder Überladung des Schiffs eine Rolle?",
+        "Zu welchem Ergebnis kommt die von Präsident Ali angekündigte unabhängige Untersuchung, und werden strafrechtliche Konsequenzen gegen Kapitän oder Besatzung gezogen?",
+        "Gibt es eine offizielle Stellungnahme der Reederei zu Wartungszustand und Sicherheitsstandards des Schiffs?",
+        "Wie viele Besatzungsmitglieder waren insgesamt positiv auf Drogen getestet worden, und welche disziplinar- oder strafrechtlichen Schritte folgen daraus?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-20T20:07:30.723Z",
-      "doNotUpdateBefore": "2026-07-20T02:07:30.723Z",
+      "doNotRedraftBefore": "2026-07-22T20:07:32.994Z",
+      "doNotUpdateBefore": "2026-07-22T02:07:32.994Z",
+      "pendingOutcome": "Ausgang der laufenden Such- und Bergungsarbeiten, die endgültige Zahl der Todesopfer und Vermissten sowie Ergebnis der von Präsident Ali angekündigten unabhängigen Untersuchung zur Unfallursache.",
+      "pendingOutcomeUntil": "2026-07-23T20:07:32.994Z",
       "echoPublishers": {
-        "orf": "2026-07-21T06:07:29.682Z"
+        "orf": "2026-07-21T20:07:32.994Z"
       },
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-21T08:07:29.868Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-21T20:07:32.994Z"
     },
     "medienfoerderungspaket-55-millionen-juli-2026": {
       "canonicalTitle": "Koalition soll sich laut Medienberichten auf 55-Millionen-Medienförderpaket geeinigt haben",
@@ -9370,6 +9394,62 @@
       "doNotUpdateBefore": "2026-07-22T00:07:37.048Z",
       "pendingOutcome": "Ergebnis einer möglichen behördlichen Wasseruntersuchung bzw. Stellungnahme der Gesundheitsbehörde zur Ursache der Erkrankungswelle im Almkanal.",
       "pendingOutcomeUntil": "2026-07-23T18:07:37.048Z"
+    },
+    "le-pen-revision-fussfessel-praesidentschaftswahl-2027": {
+      "canonicalTitle": "Le Pen legt Revision ein: Fußfessel vorerst nicht vollstreckt",
+      "slug": "le-pen-revision-fussfessel-praesidentschaftswahl-2027",
+      "firstSeenAt": "2026-07-21T20:07:32.994Z",
+      "lastUpdatedAt": "2026-07-21T20:07:32.994Z",
+      "status": "published",
+      "articlePath": "src/content/articles/le-pen-revision-fussfessel-praesidentschaftswahl-2027.mdx",
+      "researchPath": "data/ai-news/research/2026-07-21/le-pen-revision-fussfessel-praesidentschaftswahl-2027.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3436878",
+        "https://www.derstandard.at/story/3000000332394/le-pen-legt-revision-ein-8211-wahlkampfstart-ohne-fu223fessel",
+        "https://www.diepresse.com/38840127/frankreich-le-pen-kann-ohne-fussfessel-ihren-wahlkampf-starten",
+        "https://kurier.at/politik/ausland/le-pen-legt-revision-ein-wahlkampfstart-ohne-fussfessel/403177408",
+        "https://www.franceinfo.fr/politique/marine-le-pen/pourvoi-en-cassation-de-marine-le-pen-dans-tous-les-cas-de-figure-la-candidate-a-la-presidentielle-ne-portera-pas-de-bracelet-electronique-avant-le-scrutin_8101046.html"
+      ],
+      "openQuestions": [
+        "Wie äußern sich Le Pen selbst, der Rassemblement National oder die Staatsanwaltschaft konkret zur eingelegten Revision?",
+        "Bestätigt das Kassationsgericht seinen Zeitplan offiziell und direkt, oder bleibt er auf Medienwiedergaben beschränkt?",
+        "Wie reagieren andere französische Parteien, der Élysée oder EU-Institutionen auf die Entwicklung?",
+        "Bleibt es tatsächlich bei der Einschätzung, dass eine Fußfessel-Anordnung vor der Wahl praktisch ausgeschlossen ist, oder ändert sich der Zeitplan des Kassationsgerichts noch?",
+        "Wie belastbar sind die berichteten Details zur früheren Aberkennung des passiven Wahlrechts (15 statt 5 Jahre), losgelöst von der jetzigen Meldung zur Revision?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-22T20:07:32.994Z",
+      "doNotUpdateBefore": "2026-07-22T02:07:32.994Z",
+      "pendingOutcome": "Die Entscheidung des Kassationsgerichts über Le Pens Revision, die laut eigener Ankündigung spätestens Anfang April 2027 und damit vor Beginn der Präsidentschaftswahl erwartet wird.",
+      "pendingOutcomeUntil": "2026-07-23T20:07:32.994Z"
+    },
+    "tiroler-schuetzen-ns-punzierungen-gewehre-juli-2026": {
+      "canonicalTitle": "Kleine Hakenkreuze auf Gewehren Tiroler Schützen entdeckt",
+      "slug": "tiroler-schuetzen-ns-punzierungen-gewehre-juli-2026",
+      "firstSeenAt": "2026-07-21T20:07:32.994Z",
+      "lastUpdatedAt": "2026-07-21T20:07:32.994Z",
+      "status": "published",
+      "articlePath": "src/content/articles/tiroler-schuetzen-ns-punzierungen-gewehre-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-21/tiroler-schuetzen-ns-punzierungen-gewehre-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/tirol/tiroler-schuetzen-hakenkreuze-gewehre/403177406",
+        "https://www.derstandard.at/story/3000000332383/kleine-hakenkreuze-auf-gewehren-von-tiroler-sch252tzen-entdeckt",
+        "https://www.kleinezeitung.at/artikel/38818603/mini-hakenkreuze-auf-gewehren-von-tiroler-schuetzen-entdeckt",
+        "https://tirol.orf.at/stories/3363545/",
+        "https://www.meinbezirk.at/kitzbuehel/c-lokales/34-schuetzengewehre-bleiben-in-verwahrung_a8749581",
+        "https://www.tt.com/artikel/30938583/gewehre-mit-ns-symbolen-aufgetaucht-justiz-ermittelte-gegen-tiroler-schuetzen"
+      ],
+      "openQuestions": [
+        "Wie entscheidet die Staatsanwaltschaft Traunstein über eine mögliche strafbare öffentliche Verwendung der NS-Symbole?",
+        "Wie geht das Verfahren gegen die Schützen wegen unerlaubten Führens von Langwaffen aus, und werden Anzeigen oder Geldstrafen rechtskräftig?",
+        "Gibt es eine unabhängige historische Einordnung der gefundenen Punzierungen abseits der Einschätzung des Schützenverbands?",
+        "Wann und unter welchen Bedingungen werden die Waffen an die Schützenkompanien zurückgegeben?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-22T20:07:32.994Z",
+      "doNotUpdateBefore": "2026-07-22T02:07:32.994Z",
+      "pendingOutcome": "Entscheidung der Staatsanwaltschaft Traunstein, ob die Verwendung der NS-Symbole strafbar war, sowie Ausgang des Verfahrens gegen die Schützen wegen unerlaubten Führens von Langwaffen.",
+      "pendingOutcomeUntil": "2026-07-23T20:07:32.994Z"
     }
   }
 }
