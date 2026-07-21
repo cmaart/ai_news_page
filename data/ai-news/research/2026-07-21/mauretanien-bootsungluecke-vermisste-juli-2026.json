@@ -1,0 +1,229 @@
+{
+  "cluster": {
+    "id": "cluster-20260721-a1c70bb7",
+    "title": "UNO: 140 Menschen vor Küste Mauretaniens vermisst",
+    "items": [
+      {
+        "itemId": "cb636ebc9d79ede4fc7c12585b671163d5c5d659b4f611d16294dc4488ce90e8",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "UNO: 140 Menschen vor Küste Mauretaniens vermisst",
+        "url": "https://orf.at/stories/3436845",
+        "publishedAt": "2026-07-21T12:55:51.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "311db2b36cd1abc5dde073bc4b5d66dbf5e3cb4cd4dfb0a6cb931333767b53e7",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "140 tote Geflüchtete vor der Küste Mauretaniens befürchtet",
+        "url": "https://www.derstandard.at/story/3000000332366/140-menschen-nach-boots-vorf228llen-nahe-mauretanien-vermisst",
+        "summary": "Die Route zu den Kanaren gilt als eine der weltweit tödlichsten. Laut UNHCR sind alleine an Bord eines Bootes 143 Menschen gestorben",
+        "publishedAt": "2026-07-21T13:22:22.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "37998c3f3cf25f8b30b9ada34d2cf8d5e00739836855c644a8f0f67872f0c449",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Flüchtlingsboot vor Mauretanien: 140 Menschen vermisst",
+        "url": "https://kurier.at/chronik/welt/mauretanien-140-menschen-bootsunfall-vermisst-fluechtlingsboot/403177355",
+        "summary": "Die Route zu den Kanaren „bleibt eine der weltweit tödlichsten“.",
+        "publishedAt": "2026-07-21T12:54:29.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "69d9f10eaeb5717e8cb2aa57b562875f3517f42acd7420de5b5c8aaba606020a",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Flüchtlingsboot vor Mauretanien: 140 Menschen vermisst",
+        "url": "https://kurier.at/chronik/welt/mauretanien-140-menschen-bootsunfall-vermisst-fluechtlingsboot/403177355",
+        "summary": "Die Route zu den Kanaren „bleibt eine der weltweit tödlichsten“.",
+        "publishedAt": "2026-07-21T12:54:29.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Glaubwürdige UN-Quelle (UNHCR) dokumentiert mehrere Bootsunglücke vor Mauretanien mit 140 Vermissten/vermutlich Toten. Breite österreichische Berichterstattung (ORF, Der Standard, Kurier). Migration und Flucht zur EU sind öffentlich relevant für Österreich. Sensibles Thema erfordert konservative Behandlung: Zahlen teilweise unklar (vermisst vs. befürchtet gestorben), begrenzte Vor-Ort-Verifizierung; keine relativen Stories zu aktualisieren.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Nach Angaben der UNHCR werden 140 Menschen vor der Küste Mauretaniens vermisst",
+      "Ein aus Gambia gestartetes Boot mit etwa 160 Menschen sei nach mehr als drei Wochen Fahrt ohne Treibstoff in Seenot geraten",
+      "Nach zehn Tagen hätten die Menschen kein Wasser und Lebensmittel mehr gehabt",
+      "Ein Boot aus dem Senegal mit etwa 180 Menschen an Bord wurde vollständig von der Küstenwache gerettet",
+      "Drei Bootsunfälle ereigneten sich im Laufe etwa einer Woche",
+      "Insgesamt wurden mehr als 380 Menschen von einem dritten Vorfall sicher an Land gebracht",
+      "Die Route zu den Kanaren bleibt eine der weltweit tödlichsten wegen langer Strecken, schlechter Bedingungen und nicht seetauglicher Boote"
+    ],
+    "missingSources": [
+      "Direkte Stellungnahme mauretanischer Behörden zu den exakten Zahlen der Vermissten/Geretteten pro Vorfall",
+      "Unabhängige Verifizierung der 140er-Ziffer durch andere Rettungsorganisationen oder Behörden",
+      "Spezifische Zeitpunkte und genaue Chronologie der drei Vorfälle",
+      "Identifizierung und Zitate von Überlebenden oder Augenzeugen",
+      "Details zu den Schlepper-Netzwerken und Routen-Ausgangspunkten"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "mauretanien-bootsungluecke-vermisste-juli-2026",
+    "title": "UNO: Mehr als 140 Menschen nach Bootsunglücken vor Mauretanien vermisst oder tot",
+    "description": "Nach mehreren Bootsvorfällen auf der Atlantikroute von Westafrika zu den Kanarischen Inseln meldet das UNHCR rund 140 vermisste oder tote Menschen. Das schwerste Unglück betraf ein Boot aus Gambia, das wochenlang ohne Treibstoff auf See trieb – nur ein Teil der Insassen überlebte.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die Kernzahl stammt von der UN-Flüchtlingsorganisation UNHCR selbst und wird sowohl von österreichischen Medien als auch von internationalen Nachrichtenagentur-Berichten mit übereinstimmenden Detailzahlen wiedergegeben.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die UNHCR-Mitteilung selbst wurde nicht im Volltext eingesehen, nur über Medien- und Agenturberichte, die sich darauf berufen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es dominiert die humanitäre Perspektive von UNHCR und Rettungskräften; mauretanische Behörden werden nur indirekt über Medien zitiert, eine eigene Stellungnahme liegt nicht vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Das UNHCR meldet nach mehreren Bootsvorfällen vor der Küste Mauretaniens rund 140 vermisste oder tote Menschen, die die Überfahrt von Westafrika Richtung Kanarische Inseln versucht hatten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das schwerste Unglück betraf ein aus Gambia gestartetes Boot, das nach mehreren Wochen auf See ohne Treibstoff, Nahrung und Trinkwasser trieb; nur ein kleiner Teil der Insassen überlebte.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei weiteren Vorfällen binnen etwa einer Woche brachte die mauretanische Küstenwache laut UNHCR insgesamt rund 380 Menschen sicher an Land, darunter ein Boot mit rund 180 Personen aus dem Senegal.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut UNHCR bleibt die Atlantikroute zu den Kanaren eine der weltweit tödlichsten Migrationsrouten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen ist, ob die als vermisst geführten Menschen bereits als tot gelten und wie viele Personen exakt an Bord der einzelnen Boote waren.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie viele Menschen waren exakt an Bord des havarierten Bootes aus Gambia – Angaben schwanken zwischen rund 160 und rechnerisch rund 180 Personen?",
+      "Gelten die als vermisst gemeldeten Menschen inzwischen als bestätigt tot, oder bleibt ihr Schicksal offen?",
+      "Welche Nationalitäten und Hintergründe haben die Betroffenen, und wer waren die Überlebenden?",
+      "Welche Rolle spielten Schleppernetzwerke bei der Organisation der Überfahrten?",
+      "Gibt es Reaktionen der mauretanischen, spanischen oder EU-Behörden auf die Vorfälle?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at, 21.07.2026",
+        "type": "media",
+        "url": "https://orf.at/stories/3436845"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard, 21.07.2026",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000332366/140-menschen-nach-boots-vorf228llen-nahe-mauretanien-vermisst"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier, 21.07.2026",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/mauretanien-140-menschen-bootsunfall-vermisst-fluechtlingsboot/403177355"
+      },
+      {
+        "id": "src4",
+        "name": "Euronews, 21.07.2026",
+        "type": "media",
+        "url": "https://www.euronews.com/2026/07/21/un-reports-144-dead-or-missing-after-migrant-boat-is-stranded-at-sea-for-25-days"
+      },
+      {
+        "id": "src5",
+        "name": "Arab News, 21.07.2026",
+        "type": "media",
+        "url": "https://www.arabnews.com/node/2651755/world"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Das UNHCR meldete, dass nach mehreren Bootsvorfällen vor der Küste Mauretaniens mehr als 140 Menschen vermisst oder tot sind.",
+        "status": "supported",
+        "note": "UNHCR-Mitteilung, von österreichischen Medien und internationalen Agenturberichten mit übereinstimmender Zahl (144) unabhängig bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das schwerste Unglück betraf ein aus Gambia gestartetes Boot, das nach mehreren Wochen auf See ohne Treibstoff in Seenot geriet; nur rund 38 Menschen überlebten, während 143 als vermisst oder tot gelten.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet von ORF (Details zu Treibstoff-, Nahrungs- und Wassermangel) und internationalen Wire-Berichten (konkrete Zahlen zu Überlebenden und Vermissten).",
+        "sourceIds": [
+          "src1",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Ein Boot mit rund 180 Menschen aus dem Senegal wurde vollständig von der mauretanischen Küstenwache gerettet.",
+        "status": "partial",
+        "note": "Beruht auf einer Angabe mauretanischer Behörden, wie sie von ORF und Kurier wiedergegeben wird; keine unabhängige Bestätigung der genauen Personenzahl.",
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Im Rahmen mehrerer Rettungseinsätze binnen etwa einer Woche wurden insgesamt rund 380 Menschen sicher an Land gebracht.",
+        "status": "supported",
+        "note": "ORF nennt „mehr als 380“, internationale Agenturberichte sprechen von 387 Personen über drei Rettungseinsätze zwischen 14. und 18. Juli ab dem Hafen Nouadhibou – die Zahlen decken sich weitgehend.",
+        "sourceIds": [
+          "src1",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Atlantikroute von Westafrika zu den Kanarischen Inseln gilt laut UNHCR als eine der weltweit tödlichsten Migrationsrouten.",
+        "status": "supported",
+        "note": "Direktes UNHCR-Zitat, von mehreren unabhängigen Quellen übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Nach mehreren Bootsvorfällen vor der Küste Mauretaniens sind laut UNHCR mehr als 140 Menschen vermisst oder ums Leben gekommen. Sie hatten die gefährliche Überfahrt von Westafrika über den Atlantik in Richtung der spanischen Kanarischen Inseln versucht. Das UNHCR teilte mit, die Route zähle wegen der langen Distanzen, der Bedingungen auf See, nicht seetauglicher, überfüllter Boote und geringer Chancen auf rasche Rettung weiterhin zu den gefährlichsten Migrationsrouten weltweit.\n\nDas schwerste der gemeldeten Unglücke betraf ein Boot, das aus Gambia gestartet war. Nach mehreren Wochen auf See ging den Insassen der Treibstoff aus. Bereits nach rund zehn Tagen sollen Lebensmittel und Trinkwasser aufgebraucht gewesen sein, sodass die Menschen an Bord Meerwasser trinken mussten. Als Rettungskräfte das Boot schließlich erreichten, lebten nur noch rund 38 Menschen; für 143 weitere gilt der Verbleib als ungeklärt beziehungsweise sie werden als tot betrachtet."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Österreichische Medien wie ORF und Kurier sprechen in ihrer Berichterstattung von „vermissten“ Menschen, während internationale Agenturmeldungen die Zahl konkreter als „144 Tote oder Vermisste“ beziffern und sie überwiegend dem havarierten Gambia-Boot zuordnen. Diese Unterschiede in der Wortwahl spiegeln in erster Linie unterschiedliche Übersetzungen und Zuspitzungen derselben UNHCR-Mitteilung wider, nicht widersprüchliche Fakten – der Kern, dass ein Großteil der Betroffenen von diesem einen Boot stammt, deckt sich in allen eingesehenen Berichten.\n\nNeben dem Gambia-Boot wird von einem zweiten Vorfall berichtet: einem Boot mit rund 180 Menschen, das aus dem Senegal gestartet war und nach Angaben mauretanischer Behörden vollständig von der Küstenwache gerettet wurde. Insgesamt seien im Lauf von etwa einer Woche bei drei Rettungseinsätzen rund 380 bis 387 Menschen sicher an Land gebracht worden, wie sowohl die österreichische als auch die internationale Berichterstattung übereinstimmend festhält."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie viele Menschen exakt an Bord des Gambia-Bootes waren – die Angaben schwanken zwischen rund 160 in einem Teil der Berichte und einer rechnerisch höheren Zahl, wenn man Überlebende und Vermisste zusammenzählt. Ebenso unklar ist, ob die als vermisst geführten Personen inzwischen offiziell für tot erklärt wurden oder ihr Schicksal weiterhin ungeklärt ist. Zu Identität, Herkunftsländern und Hintergründen der Betroffenen liegen keine belastbaren Angaben vor. Auch zur Rolle von Schleppernetzwerken bei der Organisation der Überfahrten sowie zu möglichen Reaktionen mauretanischer, spanischer oder europäischer Stellen gibt es in den vorliegenden Quellen keine Informationen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Atlantikroute von Westafrika zu den Kanarischen Inseln gilt schon seit Jahren als eine der tödlichsten Fluchtrouten der Welt, mit stark schwankenden, oft nur geschätzten Opferzahlen, da viele Boote spurlos verschwinden. Der aktuelle Fall reiht sich in eine Serie ähnlicher Vorfälle ein, über die das UNHCR wiederholt berichtet hat – etwa jüngst auch im Zusammenhang mit Bootsunglücken vor Myanmar, wie „Neue Nachrichten“ berichtete. Eine unabhängige, vor Ort erhobene Überprüfung der genauen Umstände und Opferzahlen aus Mauretanien liegt bislang nicht vor."
+      }
+    ],
+    "bodyKompakt": "Nach mehreren Bootsvorfällen vor der Küste Mauretaniens sind laut UNHCR mehr als 140 Menschen vermisst oder ums Leben gekommen. Sie hatten versucht, von Westafrika aus über den Atlantik die Kanarischen Inseln zu erreichen. Das schwerste Unglück betraf ein Boot aus Gambia, dem nach mehreren Wochen auf See der Treibstoff ausging; nach rund zehn Tagen waren auch Lebensmittel und Trinkwasser aufgebraucht, sodass Betroffene Meerwasser trinken mussten. Nur rund 38 Menschen überlebten, für 143 weitere gilt der Verbleib als ungeklärt beziehungsweise sie werden als tot betrachtet.\n\nBei zwei weiteren Vorfällen binnen etwa einer Woche wurden nach UNHCR-Angaben insgesamt rund 380 Menschen sicher an Land gebracht, darunter ein Boot mit rund 180 Personen aus dem Senegal, das vollständig gerettet wurde. Die Atlantikroute zu den Kanaren gilt laut UNHCR weiterhin als eine der weltweit tödlichsten Migrationsrouten.\n\nOffen bleibt, wie viele Menschen exakt an Bord der Boote waren, ob die Vermissten inzwischen als tot gelten und welche Rolle Schleppernetzwerke spielten. Eine unabhängige Überprüfung der Umstände vor Ort liegt bislang nicht vor.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-21T14:07:25.946Z"
+}
