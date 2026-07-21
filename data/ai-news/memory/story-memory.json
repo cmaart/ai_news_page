@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-21T08:25:17.346Z",
+  "updatedAt": "2026-07-21T10:22:11.275Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2598,7 +2598,7 @@
       "echoPublishers": {
         "derstandard": "2026-07-21T00:07:41.545Z",
         "kleinezeitung": "2026-07-20T12:07:26.483Z",
-        "orf": "2026-07-20T18:07:37.280Z",
+        "orf": "2026-07-21T10:07:26.641Z",
         "diepresse": "2026-07-21T06:07:29.682Z"
       },
       "resonanceLevel": 1,
@@ -3090,7 +3090,9 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-19T18:07:27.613Z",
       "doNotUpdateBefore": "2026-07-19T00:07:27.613Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "heise": "2026-07-21T10:07:26.641Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-19T18:07:30.423Z"
@@ -4014,7 +4016,8 @@
       "echoPublishers": {
         "derstandard": "2026-07-21T08:07:29.868Z",
         "heise": "2026-07-20T22:07:34.229Z",
-        "arstechnica": "2026-07-21T00:07:41.545Z"
+        "arstechnica": "2026-07-21T00:07:41.545Z",
+        "kurier": "2026-07-21T10:07:26.641Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -6582,29 +6585,38 @@
       "canonicalTitle": "Geleaktes Gesprächsprotokoll belastet WKW-Präsident Ruck: Vorwürfe zu Postenschacher und Sexismus",
       "slug": "wkw-ruck-protokoll-postenschacher-sexismus-juli-2026",
       "firstSeenAt": "2026-07-17T12:07:35.751Z",
-      "lastUpdatedAt": "2026-07-17T12:07:35.751Z",
+      "lastUpdatedAt": "2026-07-21T10:07:26.641Z",
       "status": "published",
       "articlePath": "src/content/articles/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-21/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026-update-1000.json",
       "sourceUrls": [
         "https://www.ots.at/presseaussendung/OTS_20260717_OTS0074/gruene-wienkraus-malle-berichte-rund-um-wk-chef-ruck-zeigen-postenschacher-machtmissbrauch-und-frauenfeindlichkeit",
         "https://www.ots.at/presseaussendung/OTS_20260717_OTS0065/fpoe-kickl-ruck-protokolle-sind-offenbarungseid-des-systems-aus-spoevp-postenschacher-und-machtmissbrauch",
         "https://kurier.at/chronik/wien/ruck-wirtschaftskammer-wien-spoe-geheimprotokolle-ludwig/403176723",
         "https://www.profil.at/investigativ/wirtschaftskammer-wien-walter-ruck-leak-postenschacher/403176675",
         "https://www.ots.at/presseaussendung/OTS_20260716_OTS0014/gruene-wienkraus-sequenz-zu-sperren-bei-wiener-oeffis-nichts-geht-mehr",
-        "https://wien.orf.at/stories/3363086"
+        "https://wien.orf.at/stories/3363086",
+        "https://www.derstandard.at/story/3000000332288/causa-walter-ruck-hattmannsdorfer-wehrt-sich-und-wiens-buergermeister-schweigt",
+        "https://www.ots.at/presseaussendung/OTS_20260721_OTS0054/gruene-wienkraus-huemer-malle-causa-ma59-ruck-offenbaren-unertraegliche-kultur-des-wegschauens-und-machtmissbrauch",
+        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0044/fiw-wiesinger-bedeutung-der-unternehmerinnen-wurde-in-der-wk-wien-unter-walter-ruck-aufgewertet",
+        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0065/aviso-pk-gruene-wien-am-217-zu-ma59-causa",
+        "https://kurier.at/chronik/wien/walter-ruck-wirtschaftskammer-markus-figl-wiener-oevp/403177164"
       ],
       "openQuestions": [
         "Wie lautet der vollständige Wortlaut bzw. gibt es eine Original-Aufzeichnung des Gesprächsprotokolls?",
         "Wer hat das Protokoll verfasst und an die Medien weitergegeben, und mit welcher Motivation?",
-        "Wie äußert sich Bürgermeister Michael Ludwig persönlich zu den konkreten Vorwürfen, statt nur über eine Sprecherin?",
-        "Welche rechtlichen oder personellen Konsequenzen könnten aus den Vorwürfen folgen?"
+        "Wird sich Bürgermeister Michael Ludwig persönlich zu den konkreten Vorwürfen äußern, statt nur über eine Sprecherin?",
+        "Wie reagiert die Stadt Wien auf die Forderung der Grünen nach einer unabhängigen Untersuchung und einer eigenen Beschwerdestelle?",
+        "Tritt Walter Ruck von seinen Funktionen als WKW-Präsident und Wirtschaftsbund-Chef zurück, oder hält der Wirtschaftsbund an ihm fest?",
+        "Welche rechtlichen oder personellen Konsequenzen könnten aus den Vorwürfen insgesamt folgen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-18T12:07:35.751Z",
-      "doNotUpdateBefore": "2026-07-17T18:07:35.751Z",
+      "doNotRedraftBefore": "2026-07-22T10:07:26.641Z",
+      "doNotUpdateBefore": "2026-07-21T16:07:26.641Z",
+      "pendingOutcome": "Offen ist, ob Bürgermeister Ludwig persönlich Stellung bezieht, wie die Stadt Wien auf die Forderung der Grünen nach unabhängiger Untersuchung und Beschwerdestelle reagiert, und ob Walter Ruck seine Funktionen als WKW-Präsident und Wirtschaftsbund-Chef behält oder zurücklegt.",
+      "pendingOutcomeUntil": "2026-07-23T10:07:26.641Z",
       "echoPublishers": {
-        "diepresse": "2026-07-20T14:07:33.513Z"
+        "diepresse": "2026-07-21T10:07:26.641Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -7846,7 +7858,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-21T02:56:10.912Z",
-      "doNotUpdateBefore": "2026-07-20T08:56:10.912Z"
+      "doNotUpdateBefore": "2026-07-20T08:56:10.912Z",
+      "echoPublishers": {
+        "apa": "2026-07-21T10:07:26.641Z"
+      }
     },
     "tate-brueder-festnahme-miami-juli-2026": {
       "canonicalTitle": "Tate-Brüder in Miami festgenommen: Auslieferungsersuchen wegen mutmaßlicher Sexualdelikte",
@@ -8416,7 +8431,7 @@
       "echoPublishers": {
         "orf": "2026-07-20T12:07:26.483Z",
         "derstandard": "2026-07-20T16:07:42.513Z",
-        "diepresse": "2026-07-21T08:07:29.868Z"
+        "diepresse": "2026-07-21T10:07:26.641Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -8683,7 +8698,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-21T12:07:26.483Z",
-      "doNotUpdateBefore": "2026-07-20T18:07:26.483Z"
+      "doNotUpdateBefore": "2026-07-20T18:07:26.483Z",
+      "echoPublishers": {
+        "futurezone": "2026-07-21T10:07:26.641Z"
+      }
     },
     "semmering-basistunnel-toedlicher-arbeitsunfall-juli-2026": {
       "canonicalTitle": "Tödlicher Arbeitsunfall auf Semmering-Basistunnel-Baustelle: Polizei nennt Windböe als mutmaßliche Ursache",
@@ -8714,7 +8732,9 @@
       "pendingOutcome": "Ergebnis der laufenden Ermittlungen von Staatsanwaltschaft und Arbeitsinspektorat zum genauen Unfallhergang und zur Windböen-These sowie Nennung der beauftragten Baufirma stehen noch aus.",
       "pendingOutcomeUntil": "2026-07-23T08:07:29.868Z",
       "echoPublishers": {
-        "orf": "2026-07-21T08:07:29.868Z"
+        "orf": "2026-07-21T08:07:29.868Z",
+        "derstandard": "2026-07-21T10:07:26.641Z",
+        "kurier": "2026-07-21T10:07:26.641Z"
       }
     },
     "cluster-20260720-748b1e34": {
@@ -8851,9 +8871,9 @@
       "echoPublishers": {
         "kurier": "2026-07-21T08:07:29.868Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-21T08:07:29.868Z"
+      "resonanceMeasuredAt": "2026-07-21T10:07:26.641Z"
     },
     "ryanair-fensterunfall-fremdkoerper-juli-2026": {
       "canonicalTitle": "Ryanair-Chef: Fensterunfall an Bord wohl durch Fremdkörperschaden verursacht",
@@ -9061,6 +9081,60 @@
       "doNotUpdateBefore": "2026-07-21T12:07:29.682Z",
       "pendingOutcome": "Entscheidung des Bundes, ob die Steiermark als Pilotregion für die Facharztzentren ausgewählt wird und in welcher Höhe die angekündigte Anschubfinanzierung fließt.",
       "pendingOutcomeUntil": "2026-07-23T06:07:29.682Z"
+    },
+    "a1-unfall-oed-oehling-drittes-todesopfer-juli-2026": {
+      "canonicalTitle": "Drittes Todesopfer nach Unfall auf der A1 bei Oed-Öhling",
+      "slug": "a1-unfall-oed-oehling-drittes-todesopfer-juli-2026",
+      "firstSeenAt": "2026-07-21T10:07:26.641Z",
+      "lastUpdatedAt": "2026-07-21T10:07:26.641Z",
+      "status": "published",
+      "articlePath": "src/content/articles/a1-unfall-oed-oehling-drittes-todesopfer-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-21/a1-unfall-oed-oehling-drittes-todesopfer-juli-2026.json",
+      "sourceUrls": [
+        "https://noe.orf.at/stories/3363560",
+        "https://www.derstandard.at/story/3000000332305/drittes-todesopfer-nach-verkehrsunfall-auf-a1-im-bezirk-amstetten",
+        "https://www.diepresse.com/38620573/82-jaehrige-erlag-verletzungen-drittes-todesopfer-nach-verkehrsunfall-auf-a1-im-bezirk-amstetten",
+        "https://www.kleinezeitung.at/artikel/38628847/drittes-todesopfer-nach-schwerem-verkehrsunfall-auf-westautobahn"
+      ],
+      "openQuestions": [
+        "Warum kam der Pkw von der Fahrbahn ab – technisches Versagen, gesundheitlicher Notfall oder andere Ursache?",
+        "Liegt eine vollständige, direkt einsehbare Polizeimeldung mit weiteren Details zum Unfallhergang vor?",
+        "Gibt es eine vom Kepler Universitätsklinikum Linz selbst bestätigte Angabe zu Todeszeitpunkt und Behandlungsverlauf der Frau?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-22T10:07:26.641Z",
+      "doNotUpdateBefore": "2026-07-21T16:07:26.641Z"
+    },
+    "tour-de-france-naechtliche-dopingkontrollen-pogacar-vingegaard-juli-2026": {
+      "canonicalTitle": "Pariser Gericht genehmigte nächtliche Dopingkontrollen bei Pogačar und Vingegaard",
+      "slug": "tour-de-france-naechtliche-dopingkontrollen-pogacar-vingegaard-juli-2026",
+      "firstSeenAt": "2026-07-21T10:07:26.641Z",
+      "lastUpdatedAt": "2026-07-21T10:07:26.641Z",
+      "status": "published",
+      "articlePath": "src/content/articles/tour-de-france-naechtliche-dopingkontrollen-pogacar-vingegaard-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-21/tour-de-france-naechtliche-dopingkontrollen-pogacar-vingegaard-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332328/rad-lequipe-pariser-gericht-genehmigte-n228chtliche-kontrollen",
+        "https://www.diepresse.com/38587803/schlaflose-tour-de-france-warum-es-naechtliche-dopingkontrollen-gibt",
+        "https://kurier.at/sport/tour-de-france-dopingkontrolle-nacht-lipowitz-pogacar/403177282",
+        "https://www.kleinezeitung.at/artikel/38647078/schlaflose-tour-de-france-gehen-die-dopingjaeger-zu-weit",
+        "https://www.diepresse.com/38358134/tour-de-france-wie-weit-duerfen-die-dopingjaeger-gehen",
+        "https://www.franceinfo.fr/tour-de-france/on-vous-resume-l-affaire-des-controles-antidopage-inopines-en-pleine-nuit-ayant-vise-tadej-pogacar-et-jonas-vingegaard-sur-le-tour-de-france-2026_8115230.html",
+        "https://www.eurosport.fr/cyclisme/tour-de-france/2026/tour-de-france-2026-i-lequipe-red-bull-bora-hansgrohe-controlee-dans-la-nuit-de-lundi-a-mardi_sto23321447/story.shtml",
+        "https://www.eurosport.fr/cyclisme/tour-de-france/2026/tour-de-france-2026-controles-nocturnes-lita-se-justifie-et-aurait-recu-lautorisation-dun-juge_sto23321313/story.shtml"
+      ],
+      "openQuestions": [
+        "Welche konkreten Verdachtsmomente führten zum Antrag der ITA beim Pariser Gericht?",
+        "Wie reagieren Tadej Pogačar und sein Team Red Bull-Bora-hansgrohe offiziell auf die Kontrollen?",
+        "Hängt Vingegaards Sturz und Ausscheiden ursächlich mit der nächtlichen Kontrolle zusammen?",
+        "Gibt es Rechtsmittel gegen die richterliche Genehmigung, und wie äußern sich UCI und AFLD offiziell dazu?",
+        "Führen die nächtlichen Kontrollen zu Auffälligkeiten, oder bleiben sie folgenlos?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-22T10:07:26.641Z",
+      "doNotUpdateBefore": "2026-07-21T16:07:26.641Z",
+      "pendingOutcome": "Offen sind mögliche Ergebnisse oder Konsequenzen der nächtlichen Dopingkontrollen sowie ausstehende offizielle Stellungnahmen von Pogačar, seinem Team, der UCI und der AFLD.",
+      "pendingOutcomeUntil": "2026-07-23T10:07:26.641Z"
     }
   }
 }
