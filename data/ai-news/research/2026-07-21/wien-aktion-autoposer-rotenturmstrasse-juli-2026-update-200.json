@@ -1,0 +1,268 @@
+{
+  "cluster": {
+    "id": "cluster-20260720-98e8fef0",
+    "title": "Erneute Schwerpunktkontrollen gegen Auto-Poser in der Wiener Innenstadt",
+    "items": [
+      {
+        "itemId": "f1003017b6676a2bd8f0a3a38a543b00f8af8a949f301c332379d65a83eb9a54",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Erneute Schwerpunktkontrollen gegen Auto-Poser in der Wiener Innenstadt",
+        "url": "https://www.diepresse.com/38378584/erneute-schwerpunktkontrollen-gegen-auto-poser-in-der-wiener-innenstadt",
+        "summary": "81 Anzeigen und 78 Organmandate teilte die Polizei in der Innenstadt am Wochenende aus.",
+        "publishedAt": "2026-07-20T08:53:32.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "7f19e610ae2cd7a0b47fdc2004ddb0682e83d4ddb76a4f2721992917cabf7c74",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Anrainer bremsen in Wien Auto-Poser mit Straßensperren aus",
+        "url": "https://kurier.at/chronik/wien/wien-auto-poser-anrainer-protest-strassensperren/403176904",
+        "isNew": false
+      },
+      {
+        "itemId": "91eb85c9773376a2fffea5feb6a5941863826f3dcb3b283923b4f03d80744601",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Anrainer bremsen in Wien Auto-Poser mit Straßensperren aus",
+        "url": "https://kurier.at/chronik/wien/wien-auto-poser-anrainer-protest-strassensperren/403176904",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.75,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster dokumentiert eine Fortsetzung der bestehenden Story über Polizeiaktionen gegen Autoposer. Neue Substanz: sechste Schwerpunktkontrolle (20.07.) mit konkreten Zahlen (81 Anzeigen, 78 Organmandate, 10 vorgeführte Fahrzeuge, 3 Geldstrafen) + parallele Anrainer-Gegenbewegung mit Straßensperren-Protesten (vierte Demo, 18.07.). Bezirkschef Figl signalisiert Offenheit für Nachtfahrverbot ab 22:00 Uhr. Zwei eigenständige Berichte (Die Presse, Kurier) mit neuen Facetten desselben Problems. Substanziell genug für Update, aber nicht eigenständig genug für separaten Artikel — bleibt Teil des Autoposer-Themas.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": 3,
+    "relatedSlug": "wien-aktion-autoposer-rotenturmstrasse-juli-2026",
+    "possibleClaims": [
+      "Die Polizei führte am Wochenende 20./21. Juli die sechste großangelegte Schwerpunktaktion durch.",
+      "Bei dieser Aktion wurden 81 Anzeigen und 78 Organmandate ausgestellt.",
+      "Zehn Fahrzeuge wurden zur Landesfahrzeugprüfstelle vorgeführt.",
+      "Schnellrichter verhängten drei Geldstrafen im Gesamtwert von 1150 Euro.",
+      "Anrainer organisierten eine vierte Gegendemo mit Straßensperren-Blockade.",
+      "ÖVP-Bezirkschef Markus Figl signalisiert Offenheit für zeitlich begrenztes Nachtfahrverbot für Nicht-Anrainer."
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme der Landespolizeidirektion Wien zu den genauen Kontrollzahlen",
+      "Statement oder Perspektive von Vertretern der Autoposer-Szene"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "wien-aktion-autoposer-rotenturmstrasse-juli-2026",
+    "title": "Autoposer in Wien: Sechste Polizeikontrolle, Anrainer-Proteste und mögliches Nachtfahrverbot",
+    "description": "Bei einer laut Die Presse mittlerweile sechsten Schwerpunktkontrolle gegen Autoposer in der Wiener Innenstadt gab es 81 Anzeigen und 78 Organmandate. Parallel protestieren Anrainer mit Straßensperren, der Bezirk prüft ein Nachtfahrverbot ab 22 Uhr.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Die zentralen Zahlen zur sechsten Schwerpunktkontrolle (81 Anzeigen, 78 Organmandate) stammen aus einem Presse-Artikel mit Volltext und werden von einer zweiten unabhängigen Medienquelle (meinbezirk.at) mit derselben Zahl bestätigt. Die Anrainer-Proteste und die Offenheit des Bezirks für ein Nachtfahrverbot sind durch Kurier (Volltext) und unabhängig durch ORF-Wien-Artikel bestätigt, die über die Suche identifiziert, aber nicht im Volltext eingesehen wurden. Eine eigene Aussendung der Polizei oder des Bezirks wurde weiterhin nicht direkt gelesen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Trotz mehrfacher Suche wurde keine Polizei- oder Bezirks-Presseaussendung im Volltext eingesehen. Die Zahlen zur sechsten Kontrolle stammen aus einem Medienbericht (Die Presse), der sie offenbar auf Basis einer Polizeimitteilung wiedergibt, ohne dass diese selbst vorliegt.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Im Vergleich zur ursprünglichen, rein polizeilastigen Berichterstattung ist die Quellenlage jetzt deutlich ausgewogener: Anrainerinnen kommen mit eigener Stimme und konkreten Forderungen vor, ebenso die Position der Bezirkspolitik. Die Perspektive der Autoposer-Szene selbst fehlt aber weiterhin vollständig.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Die Wiener Polizei hat am Wochenende vor dem 20. Juli laut Die Presse die mittlerweile sechste groß angelegte Schwerpunktkontrolle gegen die Autoposer-Szene in der Inneren Stadt durchgeführt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Dabei wurden 81 Anzeigen und 78 Organmandate ausgestellt; zehn Fahrzeuge wurden zur Landesfahrzeugprüfstelle vorgeführt, Schnellrichter verhängten drei Geldstrafen über insgesamt 1150 Euro.",
+        "kind": "fact"
+      },
+      {
+        "text": "Parallel dazu organisierten Anrainerinnen und Anrainer der Tuchlauben laut Kurier bereits die vierte Demonstration gegen die nächtlichen Fahrten, bei der rund 60 Personen mit Bierbänken eine Straßensperre errichteten.",
+        "kind": "fact"
+      },
+      {
+        "text": "ÖVP-Bezirkschef Markus Figl zeigte sich offen dafür, ein zeitlich begrenztes Nachtfahrverbot bzw. eine Zufahrtsbeschränkung ab 22 Uhr für Nicht-Anrainer prüfen zu lassen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob ein solches Nachtfahrverbot tatsächlich beschlossen und umgesetzt wird und wie sich die Kontrollserie sowie die Proteste weiterentwickeln, ist offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine Stellungnahme oder Reaktion aus der Autoposer-Szene selbst liegt weiterhin nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wird der Bezirk ein Nachtfahrverbot bzw. eine Zufahrtsbeschränkung ab 22 Uhr tatsächlich beschließen und umsetzen, und mit welchen Ausnahmeregelungen?",
+      "Wie viele Anzeigen und Organmandate wurden bei der ersten, hier ursprünglich berichteten Aktion im Juli tatsächlich ausgestellt?",
+      "Wie reagieren Vertreter oder Betroffene der Autoposer-Szene selbst auf Kontrollen, Proteste und die Debatte um ein Fahrverbot?",
+      "Liegt eine offizielle Aussendung der Landespolizeidirektion Wien oder des Bezirks zu den Kontrollzahlen vor, und deckt sie sich mit den Medienangaben?",
+      "Wie hat sich die Zahl der Anzeigen und Strafen über die bisherigen sechs Schwerpunktaktionen hinweg entwickelt?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3362363"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/38378584/erneute-schwerpunktkontrollen-gegen-auto-poser-in-der-wiener-innenstadt"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/wien/wien-auto-poser-anrainer-protest-strassensperren/403176904"
+      },
+      {
+        "id": "src4",
+        "name": "ORF Wien (Nachtfahrverbot-Prüfung)",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3362444/"
+      },
+      {
+        "id": "src5",
+        "name": "ORF Wien (Anrainer-Protest)",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3363353/"
+      },
+      {
+        "id": "src6",
+        "name": "meinbezirk.at",
+        "type": "media",
+        "url": "https://www.meinbezirk.at/innere-stadt/c-lokales/sechste-schwerpunktkontrolle-gegen-die-autoposer-in-der-city_a8806230"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Wiener Polizei hat in der Nacht von Freitag auf Samstag Anfang/Mitte Juli in der Rotenturmstraße eine erste hier berichtete Schwerpunktaktion gegen die Autoposerszene durchgeführt.",
+        "status": "partial",
+        "note": "Weiterhin nur über den ursprünglichen ORF-Bericht dokumentiert. Aus der neuen Quellenlage geht hervor, dass diese Aktion Teil einer längeren, mittlerweile sechsteiligen Kontrollserie ist – die genaue Zählung und der Zeitpunkt der ersten Aktion in dieser Reihe bleiben aber unklar.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Bei dieser ersten berichteten Aktion wurden nach vorliegenden Angaben zahlreiche Anzeigen sowie eine Reihe von Organmandaten ausgestellt.",
+        "status": "unclear",
+        "note": "Für diese konkrete, ursprünglich berichtete Aktion liegen weiterhin keine bestätigten Zahlen vor. Konkrete Zahlen sind inzwischen nur für die sechste Aktion (siehe claim5) bekannt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Als Hauptprobleme bei Autoposern gelten laut Quellenlage übermäßige Lautstärke, überhöhte Geschwindigkeit und manipulierte Fahrzeuge.",
+        "status": "partial",
+        "note": "Wird nun zusätzlich durch einen Die-Presse-Bericht zur sechsten Kontrolle gestützt, der exakt diese Deliktsschwerpunkte (Geschwindigkeit, manipulierte Fahrzeuge, Fahrzeuglärm, gefährliche Fahrmanöver) nennt. Es handelt sich aber weiterhin um Medienangaben, keine direkt eingesehene Polizeiaussendung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die von der Autoposer-Szene verwendeten Luxusautos sind laut Quellenlage häufig gemietet.",
+        "status": "partial",
+        "note": "Wird nun unabhängig sowohl vom ursprünglichen ORF-Bericht als auch von Kurier bestätigt, die beide von überwiegend angemieteten Fahrzeugen berichten. Die zusätzliche Angabe, wonach Fahrzeuge teils aus dem Ausland, etwa der Slowakei, stammen, wird durch die zweite Quelle nicht bestätigt und bleibt unklar.",
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Bei einer laut Die Presse mittlerweile sechsten groß angelegten Schwerpunktkontrolle gegen die Autoposer-Szene in der Wiener Innenstadt wurden am Wochenende vor dem 20. Juli 81 Anzeigen und 78 Organmandate ausgestellt.",
+        "status": "supported",
+        "note": "Die Kernzahl (81 Anzeigen) wird von zwei unabhängigen Medienquellen (Die Presse mit Volltext, meinbezirk.at in der Schlagzeile) übereinstimmend genannt, ohne Widerspruch.",
+        "sourceIds": [
+          "src2",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Bei derselben Aktion wurden zehn Fahrzeuge zur Landesfahrzeugprüfstelle vorgeführt, und Schnellrichter verhängten drei Geldstrafen in Höhe von insgesamt 1150 Euro.",
+        "status": "partial",
+        "note": "Diese Detailzahlen stammen bislang nur aus einer einzelnen Medienquelle (Die Presse); eine zweite unabhängige Bestätigung dieser konkreten Angaben liegt nicht vor.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Anrainerinnen und Anrainer der Tuchlauben organisierten am 18. Juli eine vierte Demonstration, bei der rund 60 Personen mit Bierbänken zwischen 20:30 und 23:30 Uhr eine Straßensperre errichteten, um die nächtlichen Fahrten der Autoposer zu blockieren.",
+        "status": "supported",
+        "note": "Direkt aus dem Kurier-Volltext, unabhängig bestätigt durch einen ORF-Wien-Artikel zum selben Protest, der über die Suche identifiziert, aber nicht im Volltext gelesen wurde.",
+        "sourceIds": [
+          "src3",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Die Route der Autoposer verläuft laut einer Anrainerin wiederholt von der Oberen Donaustraße über die Salztorbrücke und die Tuchlauben bis zur Rotenturmstraße, teils bis zwei Uhr morgens.",
+        "status": "unclear",
+        "note": "Einzelquellen-Angabe (Kurier, Zitat einer Anrainerin), nicht unabhängig verifiziert.",
+        "sourceIds": [
+          "src3"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "ÖVP-Bezirkschef Markus Figl zeigte sich offen dafür, ein zeitlich begrenztes Nachtfahrverbot bzw. eine Zufahrtsbeschränkung ab 22 Uhr für Nicht-Anrainer prüfen zu lassen, sofern dies eine spürbare Entlastung der Anwohnerinnen und Anwohner bringt.",
+        "status": "supported",
+        "note": "Direkt aus dem Kurier-Volltext, unabhängig bestätigt durch einen separaten ORF-Wien-Artikel zum selben Thema, der über die Suche identifiziert, aber nicht im Volltext gelesen wurde. Eine Entscheidung ist damit noch nicht gefallen, nur eine Prüfbereitschaft geäußert.",
+        "sourceIds": [
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Anrainerinnen werfen Teilen der Autoposer-Szene vor, Frauen nachzupfeifen und anzusprechen, was das Sicherheitsgefühl beeinträchtige.",
+        "status": "unclear",
+        "note": "Vorwurf einer einzelnen zitierten Anrainerin gegenüber einer nicht näher identifizierten Gruppe, ohne unabhängige Bestätigung oder Gegenstimme der Betroffenen. Konservativ eingestuft, da es sich um eine personenbezogene Anschuldigung ohne Namen und ohne Verifikation handelt.",
+        "sourceIds": [
+          "src3"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was neu ist",
+        "markdown": "Die Auseinandersetzung um die sogenannte Autoposer-Szene in der Wiener Innenstadt hat sich in den vergangenen Wochen zugespitzt. Am Wochenende vor dem 20. Juli hat die Polizei laut Die Presse bereits die sechste groß angelegte Schwerpunktkontrolle gegen das Phänomen durchgeführt: 81 Anzeigen und 78 Organmandate wurden ausgestellt, zehn Fahrzeuge zur Landesfahrzeugprüfstelle vorgeführt und von Schnellrichtern drei Geldstrafen in Höhe von insgesamt 1150 Euro verhängt. Parallel dazu ist aus einem Kurier-Bericht bekannt geworden, dass betroffene Anrainerinnen und Anrainer der Tuchlauben bereits zum vierten Mal demonstriert und mit Bierbänken eine Straßensperre errichtet haben. ÖVP-Bezirkschef Markus Figl zeigt sich inzwischen offen dafür, ein zeitlich begrenztes Nachtfahrverbot beziehungsweise eine Zufahrtsbeschränkung ab 22 Uhr für Nicht-Anrainer prüfen zu lassen."
+      },
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Kontrollen richten sich gegen vorwiegend männliche Lenker, die mit oft angemieteten, teuren Fahrzeugen an Wochenenden – laut Anrainerangaben vor allem Donnerstag bis Sonntag – im ersten Bezirk auffallen wollen: durch aufheulende Motoren, riskante Fahrmanöver und Lärm. Die Route führt laut einer betroffenen Anrainerin wiederholt von der Oberen Donaustraße über die Salztorbrücke und die Tuchlauben bis zur Rotenturmstraße, teils bis in die frühen Morgenstunden. Seit der hier ursprünglich berichteten ersten Aktion in der Rotenturmstraße haben Polizei, Bezirk und Stadt in Zusammenarbeit mehrerer Behörden laut Kurier bereits fünf weitere Schwerpunktaktionen durchgeführt; die jüngste, sechste Aktion am Wochenende vor dem 20. Juli brachte 81 Anzeigen, 78 Organmandate, zehn vorgeführte Fahrzeuge und drei Geldstrafen über insgesamt 1150 Euro."
+      },
+      {
+        "heading": "Anrainer-Protest und Reaktion des Bezirks",
+        "markdown": "Parallel zu den behördlichen Maßnahmen hat sich in der Nachbarschaft eine eigene Protestbewegung formiert. Eine Anrainerin der Tuchlauben, die die Proteste organisiert, berichtete dem Kurier, dass sich rund 60 Nachbarinnen und Nachbarn zur inzwischen vierten Demonstration versammelt und von 20:30 bis 23:30 Uhr mit Bierbänken eine Straßensperre errichtet hätten. Die Initiative fordert ein Nachtfahrverbot an Wochenenden für Nicht-Anrainer, mit gewissen Ausnahmeregelungen, und wirft Teilen der Autoposer-Szene auch vor, Frauen nachzupfeifen und anzusprechen. ÖVP-Bezirkschef Markus Figl signalisierte laut Kurier grundsätzliche Offenheit, ein zeitlich beschränktes Nachtdurchfahrtsverbot beziehungsweise eine Zufahrtsbeschränkung ab 22 Uhr prüfen zu lassen, sofern dies eine spürbare Entlastung der Bewohnerinnen und Bewohner bringt. Eine Entscheidung darüber ist damit noch nicht gefallen."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Zahlen zur sechsten Kontrollaktion stammen aus einem Artikel von Die Presse, dessen zentrale Angabe – 81 Anzeigen – von einer zweiten, unabhängigen Quelle (meinbezirk.at) übereinstimmend in der Überschrift genannt wird. Die Anrainerproteste und die Position von Bezirkschef Figl sind durch einen Kurier-Bericht im Volltext sowie unabhängig durch zwei separate ORF-Wien-Artikel zum selben Thema abgesichert, die über eine Suche identifiziert, aber nicht im Volltext eingesehen wurden. Eine eigene Aussendung der Polizei oder des Bezirks mit den offiziellen Zahlen wurde weiterhin nicht direkt gelesen; die Redaktion stützt sich ausschließlich auf mediale Wiedergaben."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt weiterhin, wie viele Anzeigen und Organmandate bei der hier ursprünglich berichteten ersten Aktion in der Rotenturmstraße tatsächlich ausgestellt wurden – dazu liegen bis heute keine bestätigten Zahlen vor. Auch die genaue zeitliche Abfolge und Zählung der insgesamt sechs Schwerpunktaktionen lässt sich aus den vorliegenden Quellen nicht lückenlos rekonstruieren. Unklar ist zudem, ob und wann der Bezirk ein Nachtfahrverbot tatsächlich beschließt und wie eine solche Regelung konkret ausgestaltet würde. Eine Stellungnahme oder Perspektive aus der Autoposer-Szene selbst fehlt nach wie vor vollständig, ebenso eine direkt eingesehene amtliche Bestätigung der genannten Kontrollzahlen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Im Vergleich zur ursprünglichen Berichterstattung, die ausschließlich auf einem einzelnen Polizeibericht beruhte, ist die Quellenlage inzwischen deutlich breiter: Zwei unabhängige Medienquellen bestätigen die zentralen Zahlen der sechsten Kontrollaktion, und mit den Anrainerprotesten sowie der Position der Bezirkspolitik kommen erstmals auch Betroffene und Verantwortliche außerhalb der Polizei zu Wort. Damit sinkt das Framing-Risiko gegenüber der ersten Fassung des Artikels spürbar, auch wenn es nicht vollständig entfällt: Die Sichtweise der Autoposer-Szene selbst bleibt unrepräsentiert, und eine amtliche Aussendung mit den offiziellen Kontrollzahlen wurde bislang nicht direkt eingesehen. Der Konflikt zwischen einer nächtlichen Fahrszene, betroffenen Anrainerinnen und Anrainern sowie einer möglichen verkehrsrechtlichen Antwort des Bezirks ist damit als andauernde, sich entwickelnde Geschichte einzuordnen."
+      }
+    ],
+    "bodyKompakt": "Die Auseinandersetzung um die Autoposer-Szene in der Wiener Innenstadt hat sich zugespitzt: Am Wochenende vor dem 20. Juli führte die Polizei laut Die Presse bereits die sechste groß angelegte Schwerpunktkontrolle durch, bei der 81 Anzeigen, 78 Organmandate, zehn vorgeführte Fahrzeuge und drei Geldstrafen über insgesamt 1150 Euro registriert wurden. Die 81-Anzeigen-Zahl wird von einer zweiten unabhängigen Quelle bestätigt. Parallel dazu haben Anrainerinnen und Anrainer der Tuchlauben laut Kurier bereits zum vierten Mal demonstriert und mit Bierbänken eine Straßensperre errichtet, um die nächtlichen Fahrten zu blockieren – rund 60 Personen nahmen teil.\n\nÖVP-Bezirkschef Markus Figl zeigte sich offen dafür, ein zeitlich begrenztes Nachtfahrverbot beziehungsweise eine Zufahrtsbeschränkung ab 22 Uhr für Nicht-Anrainer prüfen zu lassen, sofern dies eine spürbare Entlastung bringt – bestätigt sowohl durch Kurier als auch unabhängig durch einen weiteren Medienbericht. Eine Entscheidung darüber ist damit noch nicht gefallen. Die ursprünglich berichtete erste Aktion in der Rotenturmstraße bleibt in ihren konkreten Zahlen weiterhin unbestätigt.\n\nGegenüber der anfänglichen, rein polizeilastigen Berichterstattung ist die Quellenlage jetzt breiter: Anrainerinnen und die Bezirkspolitik kommen mit eigener Stimme vor, was das Framing-Risiko senkt. Weiterhin fehlt aber jede Perspektive aus der Autoposer-Szene selbst, und eine amtliche Aussendung mit den offiziellen Kontrollzahlen wurde bislang nicht direkt eingesehen. Offen bleibt vor allem, ob der Bezirk das geprüfte Nachtfahrverbot tatsächlich einführt.",
+    "updateNote": "Neue sechste Schwerpunktkontrolle mit konkreten Zahlen (81 Anzeigen, 78 Organmandate), Anrainer-Proteste mit Straßensperren sowie die Offenheit des Bezirks für ein Nachtfahrverbot ab 22 Uhr wurden ergänzt.",
+    "pendingOutcome": "Ob der Bezirk ein zeitlich begrenztes Nachtfahrverbot bzw. eine Zufahrtsbeschränkung ab 22 Uhr tatsächlich beschließt und umsetzt, und wie sich die Kontrollserie sowie die Anrainerproteste weiterentwickeln, ist offen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-21T02:07:28.061Z"
+}
