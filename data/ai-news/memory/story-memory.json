@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-20T22:20:51.486Z",
+  "updatedAt": "2026-07-21T00:22:46.664Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2590,7 +2590,7 @@
       "doNotRedraftBefore": "2026-07-21T16:07:42.513Z",
       "doNotUpdateBefore": "2026-07-20T22:07:42.513Z",
       "echoPublishers": {
-        "derstandard": "2026-07-20T08:07:28.584Z",
+        "derstandard": "2026-07-21T00:07:41.545Z",
         "kleinezeitung": "2026-07-20T12:07:26.483Z",
         "orf": "2026-07-20T18:07:37.280Z",
         "diepresse": "2026-07-20T18:07:37.280Z"
@@ -3983,7 +3983,8 @@
       "doNotUpdateBefore": "2026-07-21T00:07:37.280Z",
       "echoPublishers": {
         "derstandard": "2026-07-20T20:07:34.132Z",
-        "heise": "2026-07-20T22:07:34.229Z"
+        "heise": "2026-07-20T22:07:34.229Z",
+        "arstechnica": "2026-07-21T00:07:41.545Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "triage",
@@ -7628,29 +7629,37 @@
       "doNotUpdateBefore": "2026-07-19T18:07:28.466Z"
     },
     "indien-vikram-1-erststart-juli-2026": {
-      "canonicalTitle": "Indien: Erster Start einer privat entwickelten Trägerrakete gemeldet",
+      "canonicalTitle": "Indien: Erster Orbitalstart einer privat entwickelten Trägerrakete vielfach bestätigt",
       "slug": "indien-vikram-1-erststart-juli-2026",
       "firstSeenAt": "2026-07-19T02:07:30.949Z",
-      "lastUpdatedAt": "2026-07-19T02:07:30.949Z",
+      "lastUpdatedAt": "2026-07-21T00:07:41.545Z",
       "status": "published",
       "articlePath": "src/content/articles/indien-vikram-1-erststart-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-19/indien-vikram-1-erststart-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-21/indien-vikram-1-erststart-juli-2026-update-000.json",
       "sourceUrls": [
         "https://www.heise.de/news/Indiens-erste-private-entwickelte-Traegerrakete-gestartet-11369894.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://www.derstandard.at/story/3000000331994/indiens-erste-privat-gebaute-orbital-rakete-erfolgreich-gestartet"
+        "https://www.derstandard.at/story/3000000331994/indiens-erste-privat-gebaute-orbital-rakete-erfolgreich-gestartet",
+        "https://www.golem.de/news/raumfahrt-skyroot-aerospace-startet-erste-private-rakete-in-indien-2607-211070.html",
+        "https://www.isro.gov.in/First_private_orbital_launch_lifts_from_Sriharikota.html",
+        "https://www.cnbc.com/2026/07/18/indias-skyroot-launches-first-private-orbital-rocket-mission.html",
+        "https://www.space.com/space-exploration/launches-spacecraft/skyroot-aerospace-india-first-private-orbital-launch-vikram-1",
+        "https://spacedaily.com/sd-on-july-18-2026-skyroot-aerospaces-vikram-1-became-the-first-privately-developed-indian-rocket-to-reach-orbit-from-sriharikota-after-a-35-minute-hold-the-visible-result-of-six-years-o/"
       ],
       "openQuestions": [
-        "Wurde der Start und die erreichte Umlaufbahn von der indischen Raumfahrtbehörde Isro oder Skyroot Aerospace offiziell bestätigt?",
-        "Wie viele Nutzlasten befanden sich tatsächlich an Bord und welche Funktion hatten sie im Detail?",
-        "Ist die Einstufung Indiens als drittes Land mit privater Orbitalstart-Kapazität durch weitere, unabhängige Quellen gedeckt?",
-        "Welche technischen Parameter (Nutzlastkapazität, erreichte Umlaufbahn) lassen sich unabhängig verifizieren?"
+        "Bestätigen unabhängige Satelliten-Tracking-Daten (TLE) die berichtete Umlaufbahn von rund 450 Kilometern Höhe?",
+        "Liegt eine vollständige, direkt eingesehene offizielle Stellungnahme von Isro oder Skyroot Aerospace mit technischen Parametern vor?",
+        "Wie lange dauert die politische Öffnung des indischen privaten Raumfahrtsektors für Orbitalstarts tatsächlich an – rund drei oder rund sechs Jahre?",
+        "Welche weiteren Testflüge plant Skyroot Aerospace, und wann genau ist der laut Berichten für 2027 vorgesehene Übergang zu kommerziellem Betrieb geplant?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-20T02:07:30.949Z",
-      "doNotUpdateBefore": "2026-07-19T08:07:30.949Z",
+      "doNotRedraftBefore": "2026-07-22T00:07:41.545Z",
+      "doNotUpdateBefore": "2026-07-21T06:07:41.545Z",
       "echoPublishers": {
         "golem": "2026-07-20T16:07:42.513Z"
-      }
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-21T00:07:41.545Z"
     },
     "china-ki-dominanz-usa-xi-jinping-juli-2026": {
       "canonicalTitle": "China und die KI-Dominanz: Wie Xi Jinping die USA herausfordern will",
@@ -7831,30 +7840,37 @@
       "doNotUpdateBefore": "2026-07-19T12:07:24.917Z"
     },
     "eu-vernichtungsverbot-mode-juli-2026": {
-      "canonicalTitle": "EU-Vernichtungsverbot für unverkaufte Mode in Kraft – Kritik an fehlender Sanktionsregel in Österreich",
+      "canonicalTitle": "EU-Vernichtungsverbot für unverkaufte Mode: Repräsentative Umfrage zeigt breite Zustimmung, Kritik an fehlender Sanktionsregel in Österreich hält an",
       "slug": "eu-vernichtungsverbot-mode-juli-2026",
       "firstSeenAt": "2026-07-19T08:07:29.752Z",
-      "lastUpdatedAt": "2026-07-19T08:07:29.752Z",
+      "lastUpdatedAt": "2026-07-21T00:07:41.545Z",
       "status": "published",
       "articlePath": "src/content/articles/eu-vernichtungsverbot-mode-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-19/eu-vernichtungsverbot-mode-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-21/eu-vernichtungsverbot-mode-juli-2026-update-000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000332032/grosse-firmen-in-der-eu-duerfen-unverkaufte-mode-nicht-mehr-wegwerfen",
         "https://kurier.at/wirtschaft/firmen-eu-unverkaufte-mode-nicht-wegwerfen/403176942",
         "https://orf.at/stories/3436606",
         "https://www.ots.at/presseaussendung/OTS_20260717_OTS0001/greenpeace-warnt-vor-wirkungslosem-eu-vernichtungsverbot-in-oesterreich",
         "https://www.umweltbundesamt.de/themen/wirtschaft-konsum/produkte/oekodesign/oekodesign-verordnung/vernichtungsverbot-transparenzpflicht-fuer",
-        "https://www.bundesumweltministerium.de/pressemitteilung/neue-regeln-fuer-textilbranche-grosse-haendler-duerfen-unverkaufte-waren-nicht-mehr-vernichten"
+        "https://www.bundesumweltministerium.de/pressemitteilung/neue-regeln-fuer-textilbranche-grosse-haendler-duerfen-unverkaufte-waren-nicht-mehr-vernichten",
+        "https://kurier.at/chronik/oesterreich/studie-wegwerfmode-muell-oesterreicher-befuerwortung-eu-totschnig/403177009",
+        "https://www.diepresse.com/38349157/verbot-gegen-modeverschwendung-85-prozent-der-oesterreicher-dafuer",
+        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0001/aus-fuer-die-vernichtung-von-unverkaufter-ware-94-der-oesterreicherinnen-sagen-ja-zu-textilrecycling"
       ],
       "openQuestions": [
         "Wie reagiert das österreichische Klimaschutzministerium unter Norbert Totschnig auf die Kritik von Greenpeace?",
         "Wann wird das nationale Ausführungsgesetz mit Strafbestimmungen vorgelegt?",
         "Wie viele österreichische Unternehmen sind konkret vom Vernichtungsverbot betroffen?",
-        "Wie soll die Einhaltung des Verbots in Österreich ohne nationale Strafnorm in der Praxis kontrolliert werden?"
+        "Wie soll die Einhaltung des Verbots in Österreich ohne nationale Strafnorm in der Praxis kontrolliert werden?",
+        "Wie belastbar ist die von Medien zitierte Schätzung des Konsumentenschutzes zu EU-weit 5,6 Millionen Tonnen CO2-Emissionen durch vernichtete Textilien, und welche Primärquelle liegt ihr zugrunde?",
+        "Welche konkreten Schritte plant die ARA, um die von ihr selbst festgestellte Lücke bei Sortier- und Recyclinginfrastruktur zu schließen?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-20T08:07:29.752Z",
-      "doNotUpdateBefore": "2026-07-19T14:07:29.752Z",
+      "doNotRedraftBefore": "2026-07-22T00:07:41.545Z",
+      "doNotUpdateBefore": "2026-07-21T06:07:41.545Z",
+      "pendingOutcome": "Ob und wie das Klimaschutzministerium auf die Kritik von Greenpeace reagiert und wann ein nationales Ausführungsgesetz mit Strafbestimmungen vorgelegt wird, ist weiterhin offen.",
+      "pendingOutcomeUntil": "2026-07-23T00:07:41.545Z",
       "echoPublishers": {}
     },
     "erdbeben-peru-junin-juli-2026": {
@@ -8483,29 +8499,35 @@
       }
     },
     "operation-medusa-oesterreich-kritik-juli-2026": {
-      "canonicalTitle": "Kritik an Österreichs Nichtbeteiligung an Polizeioperation gegen internationale Vergewaltigungsnetzwerke",
+      "canonicalTitle": "Vergewaltigungsaufnahmen: Sporrer kündigt nach Medusa-Kritik Gesetzesverschärfung an",
       "slug": "operation-medusa-oesterreich-kritik-juli-2026",
       "firstSeenAt": "2026-07-20T10:07:31.860Z",
-      "lastUpdatedAt": "2026-07-20T10:07:31.860Z",
+      "lastUpdatedAt": "2026-07-21T00:07:41.545Z",
       "status": "published",
       "articlePath": "src/content/articles/operation-medusa-oesterreich-kritik-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-20/operation-medusa-oesterreich-kritik-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-21/operation-medusa-oesterreich-kritik-juli-2026-update-000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000332098/kritik-an-der-fehlenden-beteiligung-oesterreichs-an-polizei-operation-gegen-vergewaltigungsnetzwerke",
         "https://kurier.at/politik/inland/vergewaltiger-netzwerk-polizei-operation-medusa-oesterreich/403177060",
         "https://www.ots.at/presseaussendung/OTS_20260719_OTS0012/gruenedisoski-oesterreich-muss-an-operation-medusa-teilnehmen-um-internationale-vergewaltiger-netzwerke-konsequent-zu-verfolgen",
         "https://www.zdfheute.de/panorama/kriminalitaet/europol-sexueller-missbrauch-netzwerk-online-projekt-medusa-100.html",
-        "https://www.presseportal.de/pm/6561/6307192"
+        "https://www.presseportal.de/pm/6561/6307192",
+        "https://orf.at/stories/3436735",
+        "https://www.diepresse.com/38492730/sporrer-will-gesetz-bei-vergewaltigungsaufnahmen-nachschaerfen"
       ],
       "openQuestions": [
         "Wird sich das Innenministerium bzw. Innenminister Gerhard Karner öffentlich zu einem möglichen Beitritt Österreichs zu Operation „Medusa“ äußern?",
-        "Nach welchen Kriterien könnte Österreich der Operation beitreten, und woran ist eine bisherige Beteiligung offenbar gescheitert?",
-        "Wie bewerten andere Parteien (ÖVP, SPÖ) die Forderung nach einem eigenen Straftatbestand für Besitz und Weitergabe von Vergewaltigungsaufnahmen?",
-        "Besteht tatsächlich ein Zusammenhang zwischen einem in Österreich anhängigen Strafverfahren und dem international aufgedeckten Netzwerk?"
+        "Wie wird die von Sporrer angekündigte Arbeitsgruppe zusammengesetzt sein, und welchen konkreten Gesetzestext wird sie im Herbst 2026 vorlegen?",
+        "Wie positioniert sich der Koalitionspartner ÖVP zur geplanten Verschärfung des Sexualstrafrechts bei Vergewaltigungsaufnahmen?",
+        "Wie ist der weitere Ermittlungsstand im Tiroler Fall, insbesondere zur Zahl der mutmaßlichen Opfer?",
+        "Besteht tatsächlich ein Zusammenhang zwischen einem in Österreich anhängigen Strafverfahren – etwa dem Tiroler Fall – und dem international aufgedeckten Netzwerk der Operation „Medusa“?",
+        "Wie äußern sich Opferschutzorganisationen im Detail zur angekündigten Gesetzesänderung?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-21T10:07:31.860Z",
-      "doNotUpdateBefore": "2026-07-20T16:07:31.860Z"
+      "doNotRedraftBefore": "2026-07-22T00:07:41.545Z",
+      "doNotUpdateBefore": "2026-07-21T06:07:41.545Z",
+      "pendingOutcome": "Einrichtung und Ergebnis der für Herbst 2026 angekündigten Arbeitsgruppe zur Verschärfung des Sexualstrafrechts (Besitzstrafbarkeit von Vergewaltigungsaufnahmen), eine mögliche Reaktion des Innenministeriums auf die Medusa-Kritik sowie der weitere Fortgang des Ermittlungsverfahrens in Tirol.",
+      "pendingOutcomeUntil": "2026-07-23T00:07:41.545Z"
     },
     "mann-stirbt-bei-polizeieinsatz-bologna-juli-2026": {
       "canonicalTitle": "Mann stirbt bei Polizeieinsatz in Bologna – Bodycam-Video wird geprüft",
