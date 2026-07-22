@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T14:22:20.132Z",
+  "updatedAt": "2026-07-22T18:33:53.552Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2606,7 +2606,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-21T16:07:42.513Z",
       "doNotUpdateBefore": "2026-07-20T22:07:42.513Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kurier": "2026-07-22T18:07:32.611Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-21T18:07:37.048Z"
@@ -3063,13 +3065,13 @@
       "doNotUpdateBefore": "2026-07-13T13:07:24.730Z"
     },
     "eu-bericht-mindestalter-social-media-juli-2026": {
-      "canonicalTitle": "Social-Media-Mindestalter: Frankreichs Parlament beschließt Verbot unter 15 Jahren, Großbritannien plant nächtliche Sperre, Österreichs Entwurf weiter offen",
+      "canonicalTitle": "Social-Media-Mindestalter: Österreichs Gesetzesentwurf ist fertig, Frankreichs Verbot startet im September, Studie zeigt Grenzen des australischen Vorbilds",
       "slug": "eu-bericht-mindestalter-social-media-juli-2026",
       "firstSeenAt": "2026-07-13T08:07:26.141Z",
-      "lastUpdatedAt": "2026-07-22T04:07:26.604Z",
+      "lastUpdatedAt": "2026-07-22T18:07:32.611Z",
       "status": "published",
       "articlePath": "src/content/articles/eu-bericht-mindestalter-social-media-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-22/eu-bericht-mindestalter-social-media-juli-2026-update-400.json",
+      "researchPath": "data/ai-news/research/2026-07-22/eu-bericht-mindestalter-social-media-juli-2026-update-1800.json",
       "sourceUrls": [
         "https://www.heise.de/news/Social-Media-Verbot-Koennte-ein-EU-Bericht-den-Weg-ebnen-11362196.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "https://www.derstandard.at/story/3000000330491/jugendliche-und-social-media-verbote-haben-noch-nie-funktioniert",
@@ -3096,31 +3098,40 @@
         "https://www.derstandard.at/story/3000000332342/social-media-verbot-die-digitale-gefahr-endet-nicht-am-14-geburtstag",
         "https://orf.at/stories/3436868",
         "https://orf.at/stories/3436877",
-        "https://www.diepresse.com/38839035/frankreich-beschliesst-social-media-verbot-fuer-unter-15-jaehrige"
+        "https://www.diepresse.com/38839035/frankreich-beschliesst-social-media-verbot-fuer-unter-15-jaehrige",
+        "https://kurier.at/politik/ausland/frankreichs-social-media-verbot-paris-jugendliche-unter-15-jaehrige/403177593",
+        "https://www.kleinezeitung.at/artikel/38689885/social-media-verbot-ist-in-der-koalitionaeren-version-09-fertig",
+        "https://www.golem.de/news/jugendschutzgesetz-wirkungslos-australiens-social-media-verbot-scheitert-an-teenagern-2607-211139.html",
+        "https://www.golem.de/news/frankreich-social-media-wird-ab-september-fuer-unter-15-jaehrige-gesperrt-2607-211138.html",
+        "https://www.heise.de/news/Australien-Die-Coolen-ignorieren-Social-Media-Sperre-viele-kommen-zurueck-11373062.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://kurier.at/politik/inland/social-media-verbot-alexander-proell-gesetz/403177530",
+        "https://www.exxtra24.at/social-media-verbot-fuer-kinder-gesetzesentwurf-geht-in-begutachtung",
+        "https://science.orf.at/stories/3236162/"
       ],
       "openQuestions": [
+        "Wie verläuft die Begutachtung des österreichischen Gesetzesentwurfs, und bestätigt sich die für Herbst 2026 geplante Parlamentsentscheidung?",
+        "Verschiebt sich das Inkrafttreten des österreichischen Gesetzes tatsächlich von September 2026 auf Anfang 2027, und bestätigt das Bundeskanzleramt bzw. das Staatssekretariat dies offiziell?",
+        "Wie funktioniert das für Österreich berichtete Zero-Knowledge-Proof-Verfahren zur Altersverifikation konkret, und wird es tatsächlich so im Gesetzestext verankert?",
         "Wie wird die technische Altersverifikation in Frankreich konkret umgesetzt, welche Anbieter (etwa France Identité oder ein Docaposte-Tool) kommen zum Einsatz, und wie reagieren die betroffenen Plattformen?",
         "Werden die für die Umsetzung nötigen Durchführungsverordnungen und die Promulgation des französischen Gesetzes wie angekündigt zeitnah erfolgen, sodass der Termin 1. September 2026 hält?",
-        "Welche konkreten Streitpunkte verzögern den österreichischen Gesetzesentwurf, und wann genau soll er nun vorliegen?",
-        "Hält der ursprünglich für September 2026 geplante Termin des Inkrafttretens in Österreich noch, oder verschiebt sich dieser durch die Verzögerung?",
-        "Was steht im vollständigen Text des EU-Expertenberichts, und liegt er inzwischen öffentlich vor? Legt die EU-Kommission wie angekündigt 'nach dem Sommer' einen eigenen Gesetzesvorschlag vor?",
+        "Was steht im vollständigen Text des EU-Expertenberichts, und legt die EU-Kommission wie angekündigt nach dem Sommer einen Gesetzesvorschlag für ein Verbot unter 13 Jahren sowie bis Jahresende eine Altersverifizierungslösung vor?",
         "Ist das für Frühjahr 2027 geplante britische Verbot für unter 16-Jährige inzwischen vom Parlament beschlossen worden?",
-        "Wie verträgt sich das nun beschlossene französische Gesetz mit einem früher berichteten Einwand der EU-Kommission gegen einen französischen Vorschlag zu Alterspflichten – handelt es sich um dieselbe Regelung oder einen anderen, früheren Entwurf?",
         "Wie repräsentativ ist die von den deutschen Verbraucherschützern zitierte Umfrage (81 Prozent der 14- bis 29-Jährigen), und wann wird der zugrunde liegende Verbraucherreport vollständig veröffentlicht?",
-        "Wie reagieren die EU-Kommission, andere Mitgliedstaaten sowie betroffene Plattformen (Meta, TikTok, Snapchat u. a.) auf das französische Gesetz und die EU-Empfehlungen insgesamt?",
-        "Wird die von der Kommentatorin und von deutschen Verbraucherschützern geforderte Regulierung süchtig machender Plattform-Algorithmen Eingang in den angekündigten EU-Gesetzesvorschlag oder in den österreichischen Gesetzesentwurf finden, oder bleibt der Fokus dort auf reinen Alters-Zugangsbeschränkungen?"
+        "Wie reagieren die EU-Kommission, andere Mitgliedstaaten sowie betroffene Plattformen (Meta, TikTok, Snapchat u. a.) auf das französische Gesetz, den österreichischen Entwurf und die EU-Empfehlungen insgesamt?",
+        "Werden angesichts der australischen Erfahrungen (weitverbreitete Umgehung durch Fake-Konten) und der von Le Monde beschriebenen Umgehungsideen französischer Jugendlicher in Frankreich oder Österreich zusätzliche Durchsetzungsmaßnahmen erwogen?",
+        "Wird die von Kommentator:innen und Verbraucherschützern geforderte Regulierung süchtig machender Algorithmen Eingang in den österreichischen Entwurf oder den angekündigten EU-Vorschlag finden, oder bleibt der Fokus auf reinen Alters-Zugangsbeschränkungen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-23T04:07:26.604Z",
-      "doNotUpdateBefore": "2026-07-22T10:07:26.604Z",
-      "pendingOutcome": "Offen bleiben insbesondere: ob Frankreichs Gesetz fristgerecht zum 1. September 2026 in Kraft tritt und wie die Altersverifikation und Plattform-Reaktionen dort konkret aussehen; wann Österreichs seit März angekündigter, wiederholt verzögerter Gesetzesentwurf tatsächlich vorgelegt wird; ob die EU-Kommission wie angekündigt 'nach dem Sommer' einen eigenen Gesetzesvorschlag präsentiert; und ob das britische Verbot für unter 16-Jährige ab Frühjahr 2027 vom Parlament beschlossen wird.",
+      "doNotRedraftBefore": "2026-07-23T18:07:32.611Z",
+      "doNotUpdateBefore": "2026-07-23T00:07:32.611Z",
+      "pendingOutcome": "Ausgang der Begutachtung und der für Herbst 2026 geplanten Parlamentsentscheidung zum österreichischen Gesetzesentwurf, ob sich dessen Inkrafttreten tatsächlich auf Anfang 2027 verschiebt, ob das französische Gesetz zum 1. September 2026 wie geplant für neue Konten in Kraft tritt, sowie Reaktionen der betroffenen Plattformen und der EU-Kommission.",
       "pendingOutcomeUntil": "2026-07-23T18:07:37.048Z",
       "echoPublishers": {
         "derstandard": "2026-07-22T04:07:26.604Z",
-        "kurier": "2026-07-22T12:07:30.604Z",
+        "kurier": "2026-07-22T18:07:32.611Z",
         "orf": "2026-07-21T20:07:32.994Z",
         "diepresse": "2026-07-21T20:07:32.994Z",
-        "kleinezeitung": "2026-07-22T08:07:25.952Z",
+        "kleinezeitung": "2026-07-22T18:07:32.611Z",
         "golem": "2026-07-22T08:07:25.952Z"
       },
       "resonanceLevel": 3,
@@ -4043,9 +4054,7 @@
       "doNotUpdateBefore": "2026-07-21T14:07:29.868Z",
       "pendingOutcome": "Ausgang der Anhörung zur Preliminary Injunction am 3. August 2026, eine mögliche Verlängerung der einstweiligen Verfügung sowie eine offizielle Reaktion von Warner Bros. Discovery stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-07-23T08:07:29.868Z",
-      "echoPublishers": {
-        "techcrunch": "2026-07-21T16:07:28.905Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-22T10:07:32.134Z"
@@ -4323,8 +4332,8 @@
       "doNotUpdateBefore": "2026-07-17T10:07:33.034Z",
       "echoPublishers": {
         "arstechnica": "2026-07-22T00:07:27.750Z",
-        "theverge": "2026-07-22T14:07:28.277Z",
-        "apa": "2026-07-22T14:07:28.277Z"
+        "theverge": "2026-07-22T18:07:32.611Z",
+        "apa": "2026-07-22T18:07:32.611Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
@@ -4820,9 +4829,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-19T22:07:29.919Z",
       "doNotUpdateBefore": "2026-07-19T04:07:29.919Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-21T16:07:28.905Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-18T18:07:27.613Z"
@@ -6715,14 +6722,15 @@
       "pendingOutcome": "Offen bleibt, ob Walter Ruck sein Amt als WKW-Präsident und Wirtschaftsbund-Chef trotz wachsenden parteiinternen und öffentlichen Drucks behält oder aufgibt, sowie das Ergebnis der Prüfung durch den ÖVP-Ethikrat.",
       "pendingOutcomeUntil": "2026-07-23T10:07:26.641Z",
       "echoPublishers": {
-        "diepresse": "2026-07-22T10:07:32.134Z",
+        "diepresse": "2026-07-22T18:07:32.611Z",
         "derstandard": "2026-07-22T06:07:29.885Z",
         "kurier": "2026-07-22T10:07:32.134Z",
-        "orf": "2026-07-21T18:07:37.048Z"
+        "orf": "2026-07-21T18:07:37.048Z",
+        "kleinezeitung": "2026-07-22T18:07:32.611Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-22T06:07:29.885Z"
+      "resonanceMeasuredAt": "2026-07-22T18:07:32.611Z"
     },
     "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026": {
       "canonicalTitle": "Moonshot AIs Kimi K3 und Xi Jinpings Ruf nach Kontrolle: Chinas KI-Doppelschlag von Shanghai",
@@ -7820,7 +7828,10 @@
       ],
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-20T12:07:28.466Z",
-      "doNotUpdateBefore": "2026-07-19T18:07:28.466Z"
+      "doNotUpdateBefore": "2026-07-19T18:07:28.466Z",
+      "echoPublishers": {
+        "kurier": "2026-07-22T18:07:32.611Z"
+      }
     },
     "indien-vikram-1-erststart-juli-2026": {
       "canonicalTitle": "Indien: Erster Orbitalstart einer privat entwickelten Trägerrakete vielfach bestätigt",
@@ -8524,13 +8535,13 @@
       "doNotUpdateBefore": "2026-07-20T08:56:10.912Z"
     },
     "andy-burnham-britischer-premierminister-juli-2026": {
-      "canonicalTitle": "Andy Burnham wird neuer britischer Premierminister – Kabinett steht, Mehrwertsteuer auf Strom fällt",
+      "canonicalTitle": "Andy Burnham senkt Busticket-Preisgrenze in England auf 2 Pfund – zweite Sofortmaßnahme nach Kabinettsumbildung",
       "slug": "andy-burnham-britischer-premierminister-juli-2026",
       "firstSeenAt": "2026-07-20T04:07:27.799Z",
-      "lastUpdatedAt": "2026-07-22T02:07:34.550Z",
+      "lastUpdatedAt": "2026-07-22T18:07:32.611Z",
       "status": "published",
       "articlePath": "src/content/articles/andy-burnham-britischer-premierminister-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-22/andy-burnham-britischer-premierminister-juli-2026-update-200.json",
+      "researchPath": "data/ai-news/research/2026-07-22/andy-burnham-britischer-premierminister-juli-2026-update-1800.json",
       "sourceUrls": [
         "https://www.kleinezeitung.at/artikel/38330019/beendet-burnham-die-serie-britischer-pleiten-premiers",
         "https://kurier.at/politik/ausland/andy-burnham-chef-der-britischen-labour-party/403176744",
@@ -8554,7 +8565,19 @@
         "https://www.bdonline.co.uk/news/burnham-pledges-to-end-rough-sleeping-in-first-speech-as-pm/5143290.article",
         "https://www.derstandard.at/story/3000000332363/andy-burnhams-kabinett-eine-mischung-aus-ueberraschungen-und-kontinuitaet",
         "https://www.diepresse.com/38578812/die-neuen-minister-in-andy-burnhams-kabinett",
-        "https://www.gov.uk/government/news/new-pm-cuts-tax-on-household-electricity-bills-to-give-breathing-space-on-cost-of-living"
+        "https://www.gov.uk/government/news/new-pm-cuts-tax-on-household-electricity-bills-to-give-breathing-space-on-cost-of-living",
+        "https://www.derstandard.at/story/3000000332509/britischer-premier-burnham-senkt-busticket-preisgrenze-in-england",
+        "https://kurier.at/politik/ausland/england-andrew-burnham-busticket-preisgrenze/403177535",
+        "https://www.derstandard.at/story/3000000332057/die-hoffnung-der-briten-auf-premier-nummer-sieben-andy-burnham",
+        "https://orf.at/stories/3436725",
+        "https://www.derstandard.at/story/3000000332168/burnham-zu",
+        "https://www.derstandard.at/story/3000000332215/auch-dem-neuen-britischen-premier-schlaegt-gefaehrliches-misstrauen-entgegen",
+        "https://www.diepresse.com/38363838/neuer-britischer-premier-manche-plaene-des-linken-burnham-gefallen-auch-trump",
+        "https://www.diepresse.com/38578812/britischer-premier-burnham-beruft-kabinett-und-telefoniert-mit-trump",
+        "https://www.diepresse.com/38578812/neuer-britischer-premier-burnham-streicht-mehrwertsteuer-auf-stromrechnungen",
+        "https://www.diepresse.com/38582517/hat-burnham-eine-chance-gegen-farage-bbc-journalist-ueber-den-neuen-uk-premier-in-der-zib-2",
+        "https://www.diepresse.com/38586603/burnham-koedert-briten-mit-billigerem-strom",
+        "https://www.gov.uk/government/speeches/2-bus-fares-from-january-2027"
       ],
       "openQuestions": [
         "Kommt es, wie von Reform-UK-Chef Nigel Farage gefordert, zu einer vorgezogenen Neuwahl?",
@@ -8562,22 +8585,22 @@
         "Wie werden die angekündigten rund 340 Millionen Pfund gegen Obdachlosigkeit konkret verteilt, und werden die genannten Ziele (1.200 Wohnungen, Unterstützung für 3.000 Menschen) erreicht?",
         "Welche vollständige Kabinettsliste ergibt sich aus der Umbildung – wer verbleibt, wer scheidet aus, jenseits der Personalie Healey?",
         "Wie reagiert der Anleihemarkt mittelfristig auf Burnhams fiskalischen Kurs, und woher kommt die Finanzierung über die reine VAT-Maßnahme hinaus?",
-        "Entscheidet sich Burnham tatsächlich für einen Preisdeckel bei Bustickets, und wie würde dieser finanziert?",
+        "Wie genau wird die Finanzierung des Busticket-Preisdeckels umgesetzt, und in welchem Ausmaß handelt es sich um echte Kürzungen bei internationalen Klimaschutzinvestitionen gegenüber einer Umwandlung von Zuschüssen in Darlehen?",
         "Wie belastbar ist Burnhams Mehrheit im Unterhaus angesichts der vorherigen Labour-internen Rebellion?",
         "Welche konkrete Bilanz zieht unabhängige Berichterstattung aus Burnhams Zeit als Bürgermeister von Greater Manchester, insbesondere zum dort verfehlten Ziel, Obdachlosigkeit bis 2020 zu beenden?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-23T02:07:34.550Z",
-      "doNotUpdateBefore": "2026-07-22T08:07:34.550Z",
-      "pendingOutcome": "Offen sind weiterhin die vollständige Kabinettszusammensetzung, die Frage vorgezogener Neuwahlen, die Reaktion der Anleihemärkte auf Burnhams fiskalischen Kurs sowie die Umsetzung der angekündigten Obdachlosigkeits- und Kostensenkungsmaßnahmen.",
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-23T18:07:32.611Z",
+      "doNotUpdateBefore": "2026-07-23T00:07:32.611Z",
+      "pendingOutcome": "Offen bleiben insbesondere, ob es zu vorgezogenen Neuwahlen kommt, wie die vollständige Kabinettszusammensetzung jenseits Healeys aussieht und wie die Finanzierung der nun zwei angekündigten Entlastungsmaßnahmen (Stromsteuer, Busticket-Deckel) angesichts der hohen Staatsverschuldung und steigender Anleiherenditen langfristig gesichert werden soll.",
       "pendingOutcomeUntil": "2026-07-24T02:07:34.550Z",
       "echoPublishers": {
         "derstandard": "2026-07-22T12:07:30.604Z",
         "kurier": "2026-07-22T12:07:30.604Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-22T14:07:28.277Z"
+      "resonanceMeasuredAt": "2026-07-22T18:07:32.611Z"
     },
     "equal-pension-day-pensionsluecke-oberoesterreich-2026": {
       "canonicalTitle": "Equal Pension Day: Frauen in Oberösterreich erhalten laut Erhebung deutlich weniger Pension",
@@ -9292,7 +9315,10 @@
       "doNotRedraftBefore": "2026-07-22T10:07:26.641Z",
       "doNotUpdateBefore": "2026-07-21T16:07:26.641Z",
       "pendingOutcome": "Offen sind mögliche Ergebnisse oder Konsequenzen der nächtlichen Dopingkontrollen sowie ausstehende offizielle Stellungnahmen von Pogačar, seinem Team, der UCI und der AFLD.",
-      "pendingOutcomeUntil": "2026-07-23T10:07:26.641Z"
+      "pendingOutcomeUntil": "2026-07-23T10:07:26.641Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-22T18:07:32.611Z"
+      }
     },
     "russmedia-moser-holding-fusion-juli-2026": {
       "canonicalTitle": "Russmedia darf Tiroler Moser Holding übernehmen",
@@ -9423,7 +9449,6 @@
       "pendingOutcome": "Eine Stellungnahme der FPÖ-Führung (Kickl, Rosenkranz) sowie mögliche parlamentarische oder behördliche Konsequenzen – etwa die von NEOS vorgeschlagene Sicherheitsüberprüfung von Parlamentsmitarbeitern – stehen noch aus.",
       "pendingOutcomeUntil": "2026-07-24T08:07:25.952Z",
       "echoPublishers": {
-        "apa": "2026-07-21T16:07:28.905Z",
         "kleinezeitung": "2026-07-21T18:07:37.048Z",
         "derstandard": "2026-07-22T08:07:25.952Z"
       },
@@ -9699,7 +9724,10 @@
       "doNotRedraftBefore": "2026-07-23T06:07:29.885Z",
       "doNotUpdateBefore": "2026-07-22T12:07:29.885Z",
       "pendingOutcome": "Entscheidung des zuständigen New Yorker Bundesrichters bei der Anhörung, ob der vorgeschlagene Zeitplan mit Prozessbeginn im Juni 2027 bestätigt wird.",
-      "pendingOutcomeUntil": "2026-07-24T06:07:29.885Z"
+      "pendingOutcomeUntil": "2026-07-24T06:07:29.885Z",
+      "echoPublishers": {
+        "orf": "2026-07-22T18:07:32.611Z"
+      }
     },
     "polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026": {
       "canonicalTitle": "Polizeizentrum im umgebauten Hitler-Geburtshaus in Braunau eröffnet",
@@ -9738,9 +9766,9 @@
         "kleinezeitung": "2026-07-22T14:07:28.277Z",
         "apa": "2026-07-22T12:07:30.604Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-22T10:07:32.134Z"
+      "resonanceMeasuredAt": "2026-07-22T18:07:32.611Z"
     },
     "cluster-20260721-7cfce5da": {
       "canonicalTitle": "Anschlag auf Infrastruktur geplant? Russischer Geheimdienst tötet Mann bei Festnahme",
@@ -9972,6 +10000,35 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-23T14:07:28.277Z",
       "doNotUpdateBefore": "2026-07-22T20:07:28.277Z"
+    },
+    "google-gemini-3-6-flash-neue-ki-modelle-juli-2026": {
+      "canonicalTitle": "Google bringt drei neue Gemini-Flash-Modelle, Spitzenmodell 3.5 Pro bleibt aus",
+      "slug": "google-gemini-3-6-flash-neue-ki-modelle-juli-2026",
+      "firstSeenAt": "2026-07-22T18:07:32.611Z",
+      "lastUpdatedAt": "2026-07-22T18:07:32.611Z",
+      "status": "published",
+      "articlePath": "src/content/articles/google-gemini-3-6-flash-neue-ki-modelle-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-22/google-gemini-3-6-flash-neue-ki-modelle-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332436/gemini-36-flash-und-mehr-google-stellt-drei-neue-ki-modelle-vor",
+        "https://the-decoder.de/google-veroeffentlicht-drei-neue-gemini-flash-modelle-waehrend-3-5-pro-weiter-fehlt",
+        "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing",
+        "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
+        "https://www.heise.de/news/Google-bringt-Gemini-3-6-Flash-und-3-5-Flash-Lite-hadert-mit-3-5-Pro-11372719.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Mittwoch-Googles-neue-Lite-KI-ohne-Pro-Rechenzentren-als-zu-hohe-Stromfresser-11372781.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.golem.de/news/ki-googles-neue-gemini-modelle-sind-schneller-und-guenstiger-2607-211140.html",
+        "https://www.heise.de/news/Google-bringt-Gemini-3-6-Flash-und-3-5-Flash-Lite-hadert-mit-3-5-Pro-11372719.html",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+      ],
+      "openQuestions": [
+        "Wann genau erscheint Gemini 3.5 Pro, und was sind die konkreten Gründe für die Verzögerung?",
+        "Wie sind die Zugangsbeschränkungen für Gemini 3.5 Flash Cyber im Detail geregelt, und welche Regierungen bzw. Partner haben bereits Zugriff?",
+        "Wie belastbar sind die von Google gemeldeten Benchmark-Zahlen (Artificial Analysis) im unabhängigen Vergleich mit Konkurrenzmodellen?",
+        "Wie weit ist das Pre-Training von Gemini 4 tatsächlich fortgeschritten, und wann ist mit einer Veröffentlichung zu rechnen?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-23T18:07:32.611Z",
+      "doNotUpdateBefore": "2026-07-23T00:07:32.611Z"
     }
   }
 }
