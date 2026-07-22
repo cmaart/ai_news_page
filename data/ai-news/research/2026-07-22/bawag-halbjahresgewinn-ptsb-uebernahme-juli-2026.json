@@ -1,0 +1,202 @@
+{
+  "cluster": {
+    "id": "cluster-20260721-13de174c",
+    "title": "Bawag erzielte im Halbjahr ein Fünftel mehr Gewinn",
+    "items": [
+      {
+        "itemId": "d9e081ec6793835695afc7b1ed3ffad77887317c1c2595f2239a2d1574c016f2",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "Bawag erzielte im Halbjahr ein Fünftel mehr Gewinn",
+        "url": "https://www.derstandard.at/story/3000000332252/bawag-schrieb-erzielte-im-halbjahr-gut-ein-f252nftel-mehr-gewinn",
+        "summary": "Der Nettogewinn ist auf 487,3 Millionen Euro gestiegen. Die Bank sieht damit eine gute Kapitalbasis für die geplante Übernahme in Irland erreicht",
+        "publishedAt": "2026-07-21T06:17:34.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "7394a0e93e00bd981241dd43fd7e6b2254b6ca3d80982c303eda3abdb8ef5688",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Bawag erzielte im ersten Halbjahr gut ein Fünftel mehr Gewinn",
+        "url": "https://www.diepresse.com/38582656/bawag-erzielte-im-ersten-halbjahr-gut-ein-fuenftel-mehr-gewinn",
+        "summary": "Der Nettogewinn der Bank ist auf 487,3 Millionen Euro gestiegen. Die Bawag sieht eine gute Kapitalbasis für die geplante Übernahme der PTSB in Irland.",
+        "publishedAt": "2026-07-21T06:17:49.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Solide Geschäftsmitteilung einer systemisch wichtigen österreichischen Bank mit konkreten, verifizierbare Quartalszahlen (H1 2026: +19% Nettogewinn) und M&A-Kontext (PTSB-Übernahme um 1,6 Mrd. EUR). Zwei unabhängige österreichische Medienquellen (DER STANDARD, Die Presse) mit ausführlichen Fulltext-Auszügen. Keine sensiblen Problempunkte; Substanz ausreichend für eigenständigen Artikel.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Bawag erzielte im H1 2026 einen Nettogewinn von 487,3 Millionen Euro",
+      "Das Ergebnis liegt 19 Prozent über dem H1 2025",
+      "Nettozinsertrag stieg um 7 Prozent auf 968,4 Millionen Euro",
+      "Provisionsüberschuss wuchs um 12 Prozent auf 200,2 Millionen Euro",
+      "CET1-Quote beträgt 17,4 Prozent (Stand Ende Q2)",
+      "Bawag will die irische PTSB um 1,6 Milliarden Euro übernehmen",
+      "Die Bank hat bereits 57,5 Prozent der PTSB-Anteile gesichert",
+      "Übernahme-Abschluss ist für Q4 2026 oder Q1 2027 vorgesehen",
+      "Der Gewinn des ersten Halbjahres wird nicht ausgeschüttet",
+      "Jahresausblick: Nettogewinn über 960 Millionen Euro"
+    ],
+    "missingSources": [
+      "Offizielle Vollversion des Halbjahresberichts / Pressemitteilung der Bawag",
+      "Offizielle Bestätigung der Anteilsquoten durch das irische Finanzministerium oder die PTSB selbst"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "bawag-halbjahresgewinn-ptsb-uebernahme-juli-2026",
+    "title": "Bawag steigert Nettogewinn im ersten Halbjahr 2026 um 19 Prozent auf 487,3 Millionen Euro",
+    "description": "Die österreichische Bawag Group hat im ersten Halbjahr 2026 einen Nettogewinn von 487,3 Millionen Euro erzielt, ein Fünftel mehr als im Vorjahreszeitraum. Die Bank sieht damit ihre Kapitalbasis für die geplante Übernahme der irischen PTSB gestärkt.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Zwei unabhängige österreichische Medien berichten übereinstimmend dieselben Zahlen, die zudem auf eine eigene Aussendung der Bawag zurückgehen – die Bank verkündet damit im Kern ihr eigenes Ergebnis.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Eine Bawag-Pressemitteilung wurde über die Suche identifiziert, aber nicht als Volltext eingesehen; die Kernzahlen stammen aus zwei Medienberichten mit Fulltext-Auszügen, die die Aussendung zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es kommt bislang nur die Bawag selbst zu Wort (Zahlen, CEO-Zitat, Ausblick); eine unabhängige Einschätzung von Analysten, der irischen Gegenseite oder der PTSB-Aktionäre fehlt in den vorliegenden Quellen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Die Bawag Group erzielte im ersten Halbjahr 2026 einen Nettogewinn von 487,3 Millionen Euro, das sind 19 Prozent mehr als im Vorjahreszeitraum.",
+        "kind": "fact"
+      },
+      {
+        "text": "Nettozinsertrag und Provisionsüberschuss legten um 7 bzw. 12 Prozent zu, die CET1-Kapitalquote lag Ende des zweiten Quartals bei 17,4 Prozent.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Bank will die Kapitalstärke für die geplante, rund 1,6 Milliarden Euro schwere Übernahme der irischen PTSB nutzen und hält bereits 57,5 Prozent der vom irischen Staat gehaltenen Anteile.",
+        "kind": "fact"
+      },
+      {
+        "text": "Über den Ausgang der für 30. Juli 2026 angesetzten PTSB-Hauptversammlung, bei der 75 Prozent Zustimmung nötig sind, äußerte sich die Bawag noch nicht.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob und wann die Aufsichtsbehörden der geplanten Übernahme zustimmen, ist offen; ein Abschluss wird für das vierte Quartal 2026 oder erste Quartal 2027 angestrebt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie fällt die Abstimmung bei der PTSB-Hauptversammlung am 30. Juli 2026 aus, bei der 75 Prozent Zustimmung der anwesenden Aktionäre nötig sind?",
+      "Wann und wie äußern sich die zuständigen Aufsichtsbehörden zur geplanten Übernahme?",
+      "Hält der angepeilte Abschlusstermin (Q4 2026 oder Q1 2027) angesichts der noch offenen Zustimmungen?",
+      "Wie bewerten unabhängige Analysten oder die irische Öffentlichkeit die Übernahmepläne?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000332252/bawag-schrieb-erzielte-im-halbjahr-gut-ein-f252nftel-mehr-gewinn"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/38582656/bawag-erzielte-im-ersten-halbjahr-gut-ein-fuenftel-mehr-gewinn"
+      },
+      {
+        "id": "src3",
+        "name": "Bawag Group AG (Pressemitteilung via pressetext)",
+        "type": "press_release",
+        "url": "https://www.pressetext.com/news/20260721007"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Bawag Group erzielte im ersten Halbjahr 2026 einen Nettogewinn von 487,3 Millionen Euro, ein Plus von 19 Prozent gegenüber dem ersten Halbjahr 2025.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen Medien übereinstimmend berichtet, Grundlage ist eine eigene Aussendung der Bank.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Nettozinsertrag stieg um 7 Prozent auf 968,4 Millionen Euro, der Provisionsüberschuss um 12 Prozent auf 200,2 Millionen Euro.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die CET1-Kapitalquote der Bawag lag Ende des zweiten Quartals 2026 bei 17,4 Prozent.",
+        "status": "supported",
+        "note": "Eigene, von der Bank berichtete Kennzahl.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Bawag plant die Übernahme der irischen PTSB für rund 1,6 Milliarden Euro und hält bereits 57,5 Prozent der vom irischen Finanzministerium gehaltenen Anteile.",
+        "status": "supported",
+        "note": "Ankündigung der handelnden Institution selbst.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Bei der PTSB-Hauptversammlung am 30. Juli 2026 sind 75 Prozent Zustimmung der anwesenden Aktionäre nötig, danach müssen noch Aufsichtsbehörden zustimmen; ein Abschluss wird für Q4 2026 oder Q1 2027 angestrebt.",
+        "status": "partial",
+        "note": "Zeitplan und Zustimmungsschwelle sind berichtet, der tatsächliche Ausgang der Abstimmung und der Behördenprüfung steht noch aus.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der Gewinn des ersten Halbjahres wird nicht ausgeschüttet, der Jahresausblick von über 960 Millionen Euro Nettogewinn wurde bestätigt.",
+        "status": "supported",
+        "note": "Eigene Ankündigung/Bestätigung der Bank.",
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die österreichische Bawag Group hat im ersten Halbjahr 2026 mehr eingenommen und mehr verdient als im Vorjahreszeitraum. Unterm Strich blieb ein Nettogewinn von 487,3 Millionen Euro übrig – ein Plus von rund 19 Prozent gegenüber dem ersten Halbjahr 2025. Die Bank kommunizierte die Zahlen am Dienstag im Rahmen eines Mediengesprächs sowie über eine eigene Aussendung, in der auch Konzernchef Anas Abuzaakouk zitiert wurde."
+      },
+      {
+        "heading": "Die Zahlen im Detail",
+        "markdown": "Der Nettozinsertrag kletterte im Jahresvergleich um 7 Prozent auf 968,4 Millionen Euro, der Provisionsüberschuss legte um 12 Prozent auf 200,2 Millionen Euro zu. Die harte Kernkapitalquote (CET1), ein zentraler Gradmesser für die finanzielle Stabilität einer Bank, lag Ende des zweiten Quartals bei 17,4 Prozent. Für das Gesamtjahr bestätigte die Bawag ihren Ausblick eines Nettogewinns von mehr als 960 Millionen Euro. Zudem wurde die Dividendenpolitik eingeschränkt: Der Halbjahresgewinn soll nicht ausgeschüttet werden."
+      },
+      {
+        "heading": "PTSB-Übernahme in Irland",
+        "markdown": "Die guten Halbjahreszahlen ordnet die Bawag selbst in den Kontext ihrer geplanten Übernahme der irischen Bank PTSB ein, für die sie rund 1,6 Milliarden Euro bieten will. Die Bawag hat sich demnach bereits 57,5 Prozent jener PTSB-Anteile gesichert, die bislang das irische Finanzministerium hielt. Für eine vollständige Übernahme braucht es bei der PTSB-Hauptversammlung am 30. Juli 2026 eine Zustimmung von 75 Prozent der anwesenden Aktionäre, ehe zusätzlich noch Aufsichtsbehörden grünes Licht geben müssten. Finanzvorstand Enver Sirucic wollte sich bei dem Mediengespräch nicht näher zur bevorstehenden Hauptversammlung äußern. Die Übernahme soll vollständig aus Eigenmitteln finanziert werden; als Zeitrahmen für einen Abschluss nennt die Bank das vierte Quartal 2026 oder das erste Quartal 2027."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie die Abstimmung bei der PTSB-Hauptversammlung tatsächlich ausgeht und ob die nötige Dreiviertelmehrheit zustande kommt. Ebenso unklar ist der Zeitpunkt und Ausgang der noch ausstehenden Prüfung durch die Aufsichtsbehörden. Eine unabhängige Einschätzung von Analysten oder Stimmen aus dem irischen Umfeld der PTSB liegen in den vorliegenden Quellen nicht vor, ebenso wenig der vollständige Wortlaut der Bawag-Pressemitteilung."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Für die Bawag sind die Halbjahreszahlen vor allem deshalb bedeutsam, weil sie die finanzielle Basis für das größte laufende Vorhaben der Bank untermauern sollen: den grenzüberschreitenden Einstieg in den irischen Markt über die PTSB. Ob dieser Plan wie vorgesehen umgesetzt werden kann, hängt nun maßgeblich von der Aktionärsabstimmung Ende Juli sowie vom weiteren regulatorischen Verfahren ab."
+      }
+    ],
+    "bodyKompakt": "Die Bawag Group hat im ersten Halbjahr 2026 einen Nettogewinn von 487,3 Millionen Euro erzielt, ein Plus von rund 19 Prozent gegenüber dem Vorjahreszeitraum. Der Nettozinsertrag stieg um 7 Prozent auf 968,4 Millionen Euro, der Provisionsüberschuss um 12 Prozent auf 200,2 Millionen Euro. Die harte Kernkapitalquote (CET1) lag Ende des zweiten Quartals bei 17,4 Prozent, den Jahresausblick von über 960 Millionen Euro Nettogewinn bestätigte die Bank.\n\nDie Zahlen ordnet die Bawag selbst in den Kontext ihrer geplanten Übernahme der irischen Bank PTSB ein, für die sie rund 1,6 Milliarden Euro bieten will und bereits 57,5 Prozent der Anteile des irischen Finanzministeriums gesichert hat. Bei der PTSB-Hauptversammlung am 30. Juli 2026 braucht es eine Zustimmung von 75 Prozent der anwesenden Aktionäre, danach müssen noch Aufsichtsbehörden zustimmen. Ein Abschluss wird für das vierte Quartal 2026 oder das erste Quartal 2027 angestrebt, finanziert werden soll die Übernahme aus Eigenmitteln.\n\nOffen bleiben der Ausgang der Aktionärsabstimmung sowie der weitere Verlauf der behördlichen Prüfung; eine unabhängige Einschätzung außerhalb der Bank liegt bislang nicht vor.",
+    "updateNote": null,
+    "pendingOutcome": "Ausgang der PTSB-Hauptversammlung am 30. Juli 2026, bei der über die vollständige Übernahme durch die Bawag abgestimmt wird."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-22T00:07:27.750Z"
+}
