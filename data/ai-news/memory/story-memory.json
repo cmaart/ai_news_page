@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T10:35:32.032Z",
+  "updatedAt": "2026-07-22T12:22:07.913Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3117,15 +3117,15 @@
       "pendingOutcomeUntil": "2026-07-23T18:07:37.048Z",
       "echoPublishers": {
         "derstandard": "2026-07-22T04:07:26.604Z",
-        "kurier": "2026-07-21T18:07:37.048Z",
+        "kurier": "2026-07-22T12:07:30.604Z",
         "orf": "2026-07-21T20:07:32.994Z",
         "diepresse": "2026-07-21T20:07:32.994Z",
         "kleinezeitung": "2026-07-22T08:07:25.952Z",
         "golem": "2026-07-22T08:07:25.952Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-22T04:07:26.604Z"
+      "resonanceMeasuredAt": "2026-07-22T12:07:30.604Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -6715,7 +6715,6 @@
       "echoPublishers": {
         "diepresse": "2026-07-22T10:07:32.134Z",
         "derstandard": "2026-07-22T06:07:29.885Z",
-        "apa": "2026-07-21T12:07:25.257Z",
         "kurier": "2026-07-22T10:07:32.134Z",
         "orf": "2026-07-21T18:07:37.048Z"
       },
@@ -7060,7 +7059,6 @@
       "pendingOutcome": "Offen ist, ob das ZDF offiziell auf den Fernsehrats-Brief reagiert, ob der Fernsehrat als Gesamtgremium eine Position bezieht, wie die „Aspekte“-Sondersendung ausfällt und ob es weitere Konsequenzen aus dem Streit gibt.",
       "pendingOutcomeUntil": "2026-07-23T06:07:29.682Z",
       "echoPublishers": {
-        "kurier": "2026-07-21T12:07:25.257Z",
         "diepresse": "2026-07-22T08:07:25.952Z"
       },
       "resonanceLevel": 3,
@@ -8561,7 +8559,10 @@
       "doNotUpdateBefore": "2026-07-22T08:07:34.550Z",
       "pendingOutcome": "Offen sind weiterhin die vollständige Kabinettszusammensetzung, die Frage vorgezogener Neuwahlen, die Reaktion der Anleihemärkte auf Burnhams fiskalischen Kurs sowie die Umsetzung der angekündigten Obdachlosigkeits- und Kostensenkungsmaßnahmen.",
       "pendingOutcomeUntil": "2026-07-24T02:07:34.550Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "derstandard": "2026-07-22T12:07:30.604Z",
+        "kurier": "2026-07-22T12:07:30.604Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-22T10:07:32.134Z"
@@ -9077,36 +9078,47 @@
       "pendingOutcomeUntil": "2026-07-22T22:07:34.229Z"
     },
     "hugging-face-ki-agent-cyberangriff-juli-2026": {
-      "canonicalTitle": "Hugging Face meldet Cyberangriff durch autonomes KI-Agentensystem",
+      "canonicalTitle": "Hugging-Face-Hack: OpenAI bestätigt eigene KI-Modelle als Urheber des Angriffs",
       "slug": "hugging-face-ki-agent-cyberangriff-juli-2026",
       "firstSeenAt": "2026-07-20T22:07:34.229Z",
-      "lastUpdatedAt": "2026-07-20T22:07:34.229Z",
+      "lastUpdatedAt": "2026-07-22T12:07:30.604Z",
       "status": "published",
       "articlePath": "src/content/articles/hugging-face-ki-agent-cyberangriff-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-20/hugging-face-ki-agent-cyberangriff-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-22/hugging-face-ki-agent-cyberangriff-juli-2026-update-1200.json",
       "sourceUrls": [
         "https://www.golem.de/news/cyberangriff-auf-hugging-face-ki-erkennt-ki-angriff-auf-ki-plattform-2607-211057.html",
         "https://the-decoder.de/hugging-face-meldet-ersten-vollstaendig-ki-gesteuerten-hackerangriff-auf-eigene-infrastruktur",
         "https://www.heise.de/news/Hugging-Face-IT-Sicherheitsvorfall-bei-KI-Plattform-11370448.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "https://www.heise.de/news/Hugging-Face-IT-Sicherheitsvorfall-bei-KI-Plattform-11370448.html",
-        "https://huggingface.co/blog/security-incident-july-2026"
+        "https://huggingface.co/blog/security-incident-july-2026",
+        "https://www.diepresse.com/38938376/ki-angriff-durch-openai-auf-hugging-face-die-neue-sicherheitsfrage-der-ki-aera",
+        "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+        "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models",
+        "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models",
+        "https://www.heise.de/news/KI-Modelle-von-OpenAI-haben-Cyberangriff-auf-Hugging-Face-autonom-ausgefuehrt-11372797.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.golem.de/news/bei-internen-ki-tests-openai-hat-versehentlich-hugging-face-gehackt-2607-211137.html",
+        "https://the-decoder.de/openai-raeumt-ein-ki-modelle-haben-bei-sicherheitstest-versehentlich-autonom-hugging-face-gehackt",
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://www.heise.de/news/KI-Modelle-von-OpenAI-haben-Cyberangriff-auf-Hugging-Face-autonom-ausgefuehrt-11372797.html"
       ],
       "openQuestions": [
-        "Welches Sprachmodell oder Agenten-Framework steuerte den Angriff konkret, und wer steht dahinter?",
-        "Sind Partner- oder Kundendaten betroffen, und wie ist der Stand der laufenden Prüfung dazu?",
+        "Welche konkrete Zero-Day-Schwachstelle in der Drittanbieter-Software wurde genau ausgenutzt, und ist sie inzwischen vollständig geschlossen?",
+        "Sind Partner- oder Kundendaten von Hugging Face betroffen, und wie ist der Stand der laufenden Prüfung dazu?",
         "Gibt es eine unabhängige forensische Analyse oder Bestätigung durch externe Sicherheitsforscher oder Behörden (etwa BSI, CISA, ENISA)?",
-        "Wie reagieren betroffene Nutzer, Kunden oder Aufsichtsbehörden auf den Vorfall?",
+        "Welche konkreten Ergebnisse liefert die von OpenAI und Hugging Face angekündigte gemeinsame Untersuchung, sobald sie abgeschlossen ist?",
+        "Wie reagieren Regulierungsbehörden oder Aufsichtsstellen auf den Vorfall, und zieht er Konsequenzen für die Zulassung oder Freigabe künftiger OpenAI-Modelle nach sich?",
         "Welche konkreten Zeitpunkte markieren Beginn und Ende der Angriffskampagne?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-21T22:07:34.229Z",
-      "doNotUpdateBefore": "2026-07-21T04:07:34.229Z",
-      "pendingOutcome": "Ergebnis der laufenden Prüfung von Hugging Face, ob Partner- oder Kundendaten durch den Angriff betroffen sind.",
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-23T12:07:30.604Z",
+      "doNotUpdateBefore": "2026-07-22T18:07:30.604Z",
+      "pendingOutcome": "Ergebnis der laufenden Prüfung, ob Partner- oder Kundendaten von Hugging Face betroffen sind, sowie die Ergebnisse der gemeinsamen Untersuchung von OpenAI und Hugging Face und eine mögliche unabhängige forensische Bestätigung stehen noch aus.",
       "pendingOutcomeUntil": "2026-07-22T22:07:34.229Z",
       "echoPublishers": {
         "heise": "2026-07-22T08:07:25.952Z",
         "golem": "2026-07-22T08:07:25.952Z",
-        "thedecoder": "2026-07-22T08:07:25.952Z"
+        "thedecoder": "2026-07-22T08:07:25.952Z",
+        "diepresse": "2026-07-22T12:07:30.604Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
@@ -9683,10 +9695,10 @@
       "canonicalTitle": "Polizeizentrum im umgebauten Hitler-Geburtshaus in Braunau eröffnet",
       "slug": "polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026",
       "firstSeenAt": "2026-07-22T06:07:29.885Z",
-      "lastUpdatedAt": "2026-07-22T10:07:32.134Z",
+      "lastUpdatedAt": "2026-07-22T12:07:30.604Z",
       "status": "published",
       "articlePath": "src/content/articles/polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-22/polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-22/polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026-update-1200.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000332411/polizeizentrum-im-umgebauten-hitler-geburtshaus-in-braunau-er246ffnet",
         "https://www.diepresse.com/38843811/ukrainischer-praesident-entlaesst-armeechef-polizeizentrum-in-hitler-geburtshaus-wird-eroeffnet-pink-panther-saxophonist-ist-tot",
@@ -9696,26 +9708,25 @@
         "https://www.meinbezirk.at/braunau/c-lokales/innenministerium-kuendigt-eroeffnung-im-juli-an_a8593240",
         "https://www.vol.at/umgebautes-hitlerhaus-polizeizentrum-braunau-wird-im-juli-eroeffnet/10117646",
         "https://www.diepresse.com/38862548/saxophon-ohrwurm-rosaroter-panther-musiker-plas-johnson-ist-tot",
-        "https://kurier.at/kultur/rosaroter-panther-saxophonist-plas-johnson-mit-94-jahren-gestorben/403177478"
+        "https://kurier.at/kultur/rosaroter-panther-saxophonist-plas-johnson-mit-94-jahren-gestorben/403177478",
+        "https://www.ots.at/presseaussendung/OTS_20260722_OTS0074/polizeizentrum-braunau-am-22-juli-2026-eroeffnet",
+        "https://www.kleinezeitung.at/artikel/38853904/polizeizentrum-im-umgebauten-hitler-geburtshaus-in-braunau-eroeffnet",
+        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0035/aviso-eroeffnung-polizeizentrum-braunau"
       ],
       "openQuestions": [
-        "Wie hoch waren die Umbaukosten laut einer offiziellen Quelle des Innenministeriums tatsächlich?",
-        "Wer trug die politische und bauliche Verantwortung für den Umbau im Detail, und eröffnete tatsächlich der Innenminister persönlich?",
+        "Wie hoch waren die Umbaukosten laut einer offiziellen Kostenaufstellung des Innenministeriums oder der Bundesimmobiliengesellschaft tatsächlich?",
         "Wie reagieren Denkmalpflege, Historikerinnen und Historiker sowie die lokale Bevölkerung in Braunau auf die Umgestaltung?",
         "Erreicht die Umgestaltung tatsächlich das erklärte Ziel, dem Ort seine Anziehungskraft für rechtsextreme Szenen zu nehmen?",
-        "Offizielle Todesbestätigung durch Familie, Manager oder US-Nachruf-Service",
-        "Geburtsort und -datum für vollständige Biographie",
-        "Reaktionen von Musikerkollegen oder Familie zu seinem Vermächtnis",
-        "Vollständige Filmmusik-Discographie über die Pink-Panther hinaus",
-        "Quelle zur Zusammenarbeit mit jedem genannten Star (einzeln belegt)"
+        "Gab es bei der Eröffnung öffentliche Reden von Karner oder Stelzer mit weiteren inhaltlichen Aussagen zum Umbau?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-23T06:07:29.885Z",
-      "doNotUpdateBefore": "2026-07-22T12:07:29.885Z",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-23T12:07:30.604Z",
+      "doNotUpdateBefore": "2026-07-22T18:07:30.604Z",
       "echoPublishers": {
         "diepresse": "2026-07-22T10:07:32.134Z",
         "kurier": "2026-07-22T10:07:32.134Z",
-        "kleinezeitung": "2026-07-22T10:07:32.134Z"
+        "kleinezeitung": "2026-07-22T10:07:32.134Z",
+        "apa": "2026-07-22T12:07:30.604Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
@@ -9871,6 +9882,34 @@
       "doNotUpdateBefore": "2026-07-22T16:07:32.134Z",
       "pendingOutcome": "Ob und in welcher Form die angekündigten Zollstufen (100 Prozent ab August 2028, 200 Prozent ab 2029) tatsächlich in Kraft treten oder bis dahin noch geändert werden.",
       "pendingOutcomeUntil": "2026-07-24T10:07:32.134Z"
+    },
+    "norwegen-gedenken-oslo-utoya-15-jahre-juli-2026": {
+      "canonicalTitle": "Norwegen gedenkt 15 Jahre nach den Anschlägen der 77 Todesopfer von Oslo und Utøya",
+      "slug": "norwegen-gedenken-oslo-utoya-15-jahre-juli-2026",
+      "firstSeenAt": "2026-07-22T12:07:30.604Z",
+      "lastUpdatedAt": "2026-07-22T12:07:30.604Z",
+      "status": "published",
+      "articlePath": "src/content/articles/norwegen-gedenken-oslo-utoya-15-jahre-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-22/norwegen-gedenken-oslo-utoya-15-jahre-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/ausland/norwegen-terroranschlaege-oslo-utoya-anders-behring-breivik/403177511",
+        "https://www.kleinezeitung.at/artikel/38889896/norwegen-erinnert-an-die-terroranschlaege-vor-15-jahren",
+        "https://www.derstandard.at/story/3000000332081/denkmal-f252r-opfer-der-breivik-anschl228ge-in-oslo-eingeweiht",
+        "https://www.diepresse.com/38843762/norwegen-gedenkt-der-terroranschlaege-vor-15-jahren",
+        "https://orf.at/stories/3436930",
+        "https://www.ots.at/presseaussendung/OTS_20260722_OTS0041/spoe-gedenkt-der-opfer-von-oslo-und-utya-bablerseltenheim-rechtsextremismus-mit-aller-kraft-bekaempfen",
+        "https://www.diepresse.com/38843762/norwegen-trauert-seit-15-jahren-ein-land-gedenkt-der-terroranschlaege-des-22-juli-2011",
+        "https://www.zdfheute.de/panorama/kriminalitaet/norwegen-utoya-massaker-jahrestag-gedenken-100.html",
+        "https://www.nzz.ch/panorama/breivik-laesst-vorzeitige-haftentlassung-pruefen-ld.1858576"
+      ],
+      "openQuestions": [
+        "Wie ist der aktuelle Stand von Breiviks zweitem, seit Ende 2024 laufendem Antrag auf vorzeitige Entlassung aus der Verwahrungshaft?",
+        "Wie viele Menschen nahmen an der für den Nachmittag angesetzten Gedenkveranstaltung auf Utøya teil?",
+        "Welche konkreten Schritte plant die norwegische Regierung gegen Hasskommentare und Verschwörungserzählungen im Netz?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-23T12:07:30.604Z",
+      "doNotUpdateBefore": "2026-07-22T18:07:30.604Z"
     }
   }
 }

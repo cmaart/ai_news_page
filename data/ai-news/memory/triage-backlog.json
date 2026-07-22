@@ -1,7 +1,536 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T10:35:31.975Z",
+  "updatedAt": "2026-07-22T12:22:07.720Z",
   "entries": [
+    {
+      "clusterId": "cluster-20260722-474c9ddc",
+      "title": "Durchsuchungen bei der Deutschen Bank",
+      "score": 0.95,
+      "items": [
+        {
+          "itemId": "585361be2afb57ca227eecb3f82e17c1c56944bb3227d2afe071850be1637c12",
+          "sourceId": "orf_news",
+          "sourceType": "media",
+          "title": "Durchsuchungen bei der Deutschen Bank",
+          "url": "https://orf.at/stories/3436941",
+          "publishedAt": "2026-07-22T10:25:14.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "b82d914bb8b77e60ade332de9dd6d34040b446cbb00eb82a987fa0a2cc89a958",
+          "sourceId": "kurier_wirtschaft",
+          "sourceType": "media",
+          "title": "Razzia: Steuerermittler durchsuchen Deutsche-Bank-Zentrale",
+          "url": "https://kurier.at/wirtschaft/cum-cum-geschaefte-deutsche-bank-steuerermittler-razzia-postbank/403177507",
+          "summary": "Die Durchsuchung steht im Zusammenhang mit Ermittlungen zu Cum-Cum-Geschäften der Postbank aus den Jahren 2008 bis 2010.",
+          "publishedAt": "2026-07-22T09:24:30.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "73a80ead8bf2e4ab3574292d787f1d11cc8175541b9fa63cc928520897d995d9",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Verdacht auf Steuerhinterziehung: Razzia in Zentrale der Deutschen Bank",
+          "url": "https://www.derstandard.at/story/3000000332480/razzia-in-zentrale-der-deutschen-bank-wegen-verdachts-auf-steuerhinterziehung",
+          "isNew": false
+        },
+        {
+          "itemId": "741dc46aa2b513613486d7b4750ab0a507ec3d8bfb9d3f198f681d8a418c6c93",
+          "sourceId": "derstandard_wirtschaft",
+          "sourceType": "media",
+          "title": "Verdacht auf Steuerhinterziehung: Razzia in Zentrale der Deutschen Bank",
+          "url": "https://www.derstandard.at/story/3000000332480/razzia-in-zentrale-der-deutschen-bank-wegen-verdachts-auf-steuerhinterziehung",
+          "isNew": false
+        },
+        {
+          "itemId": "68c5102dd63d8e97f719da7d4d58675b83b0802ed4e127facab305504e6c0f1b",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Razzia: Steuerermittler durchsuchen Deutsche-Bank-Zentrale",
+          "url": "https://kurier.at/wirtschaft/cum-cum-geschaefte-deutsche-bank-steuerermittler-razzia/403177507",
+          "isNew": false
+        },
+        {
+          "itemId": "0bd85ff85bb85eb1b7534c3e03a29e3edd62f852c006485b4665fcb17eb94dfc",
+          "sourceId": "kurier_wirtschaft",
+          "sourceType": "media",
+          "title": "Razzia: Steuerermittler durchsuchen Deutsche-Bank-Zentrale",
+          "url": "https://kurier.at/wirtschaft/cum-cum-geschaefte-deutsche-bank-steuerermittler-razzia/403177507",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-22T12:07:30.604Z"
+    },
+    {
+      "clusterId": "cluster-20260722-54a411f8",
+      "title": "Deutscher Kanzleramtschef Frei soll laut Medienbericht Spahn nachfolgen",
+      "score": 0.95,
+      "items": [
+        {
+          "itemId": "d1b299fc61254cf0f57852535c590ec711446e6391b40f038827511c8b97adca",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Deutscher Kanzleramtschef Frei soll laut Medienbericht Spahn nachfolgen",
+          "url": "https://www.derstandard.at/story/3000000332494/kanzleramtschef-frei-soll-spahn-nachfolger-werden",
+          "summary": "Darauf hätten sich Kanzler und CDU-Chef Friedrich Merz und der CSU-Vorsitzende Markus Söder geeinigt, berichtete die \"Bild\"-Zeitung am Mittwoch",
+          "publishedAt": "2026-07-22T10:15:51.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "1889da8ce5d5d4b7784ec3515ffa239a8c0aab0fc1b7b331ec1276057038d15a",
+          "sourceId": "derstandard_international",
+          "sourceType": "media",
+          "title": "Deutscher Kanzleramtschef Frei soll laut Medienbericht Spahn nachfolgen",
+          "url": "https://www.derstandard.at/story/3000000332494/kanzleramtschef-frei-soll-spahn-nachfolger-werden",
+          "summary": "Darauf hätten sich Kanzler und CDU-Chef Friedrich Merz und der CSU-Vorsitzende Markus Söder geeinigt, berichtete die \"Bild\"-Zeitung am Mittwoch",
+          "publishedAt": "2026-07-22T10:15:51.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "9cac90015745ef12c56eaf897728b01ffccc20dd8247a10deb97d6e3055c5dda",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Merz-Vertrauter, Kanzleramtschef Thorsten Frei soll Spahn nachfolgen",
+          "url": "https://kurier.at/politik/ausland/cdu-csu-berlin-friedrich-merz/403177534",
+          "summary": "CDU und CSU sind sich einig, die formelle Wahl Freis soll kommende Woche bei einer Sondersitzung in Berlin stattfinden.",
+          "publishedAt": "2026-07-22T10:55:02.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "facf9ab123fc206d831a6be95810f64b039a10bd66faaca65cf0baf3161dcb30",
+          "sourceId": "kurier_politik",
+          "sourceType": "media",
+          "title": "Merz-Vertrauter, Kanzleramtschef Thorsten Frei soll Spahn nachfolgen",
+          "url": "https://kurier.at/politik/ausland/cdu-csu-berlin-friedrich-merz/403177534",
+          "summary": "CDU und CSU sind sich einig, die formelle Wahl Freis soll kommende Woche bei einer Sondersitzung in Berlin stattfinden.",
+          "publishedAt": "2026-07-22T10:55:02.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "f7cf36c40c9a431ec12b00e9f16f626025b179427f7bc96f497cdc054b4ebf1e",
+          "sourceId": "kurier_politik",
+          "sourceType": "media",
+          "title": "Günstige „Gelegenheit“: Merz will Spahn-Nachfolge schnell lösen",
+          "url": "https://kurier.at/politik/ausland/merz-spahn-deutschland-cdu-csu-franktionsvorsitz/403177039",
+          "isNew": false
+        },
+        {
+          "itemId": "cb0db4971ed56666dab183aef6108d086b976905b3c0a125f44d129e0dacd12e",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Friedrich Merz unter Zeitdruck: Spahn-Nachfolger in der Union dringend gesucht [premium]",
+          "url": "https://www.diepresse.com/38363018/friedrich-merz-unter-zeitdruck-spahn-nachfolger-in-der-union-dringend-gesucht",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-22T12:07:30.604Z"
+    },
+    {
+      "clusterId": "cluster-20260722-495cbc8c",
+      "title": "Britischer Premier Burnham senkt Busticket-Preisgrenze in England",
+      "score": 0.95,
+      "items": [
+        {
+          "itemId": "3496d6a58ac132d1d72ece7ba2f706ff80ae134253173ad9672b0e9f7a9970cc",
+          "sourceId": "derstandard_international",
+          "sourceType": "media",
+          "title": "Britischer Premier Burnham senkt Busticket-Preisgrenze in England",
+          "url": "https://www.derstandard.at/story/3000000332509/britischer-premier-burnham-senkt-busticket-preisgrenze-in-england",
+          "summary": "Ab Jänner 2027 soll eine einfache Fahrt maximal 2 Pfund kosten. Das Geld für das Projekt kommt durch Kürzungen bei internationalen Klimaschutzprojekten",
+          "publishedAt": "2026-07-22T11:13:13.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "e92ac7dd3f7c13479172d46a4fb2facd986742348cf46ee563fdd3331d49c291",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Nicht mehr als 2 Pfund: Britischer Premier Burnham deckelt Busticketpreise",
+          "url": "https://kurier.at/politik/ausland/england-andrew-burnham-busticket-preisgrenze/403177535",
+          "summary": "Die Obergrenze für Busticketpreise soll durch Kürzungen bei Investitionen in internationale Klimaschutzprojekte finanziert werden.",
+          "publishedAt": "2026-07-22T11:04:00.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "bef955c0881b575103a3749ddb8abc6334e42fa0d72eb036a43208bd16ee5756",
+          "sourceId": "kurier_politik",
+          "sourceType": "media",
+          "title": "Nicht mehr als 2 Pfund: Britischer Premier Burnham deckelt Busticketpreise",
+          "url": "https://kurier.at/politik/ausland/england-andrew-burnham-busticket-preisgrenze/403177535",
+          "summary": "Die Obergrenze für Busticketpreise soll durch Kürzungen bei Investitionen in internationale Klimaschutzprojekte finanziert werden.",
+          "publishedAt": "2026-07-22T11:04:00.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "5922e0d31f79ad32f0e7140b348d16de5cb1f6c4fbd15179003d6966210b266e",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Vom Arbeitersohn zum britischen Premier: So tickt Andy Burnham [premium]",
+          "url": "https://www.diepresse.com/37151697/vom-arbeitersohn-zum-britischen-premier-so-tickt-andy-burnham",
+          "isNew": false
+        },
+        {
+          "itemId": "52277bd3f2c087fa3eb9459026a2563f8867010a0b8165036341e550a52c0fa2",
+          "sourceId": "derstandard_international",
+          "sourceType": "media",
+          "title": "Die Hoffnung der Briten auf Premier Nummer Sieben: Andy Burnham",
+          "url": "https://www.derstandard.at/story/3000000332057/die-hoffnung-der-briten-auf-premier-nummer-sieben-andy-burnham",
+          "isNew": false
+        },
+        {
+          "itemId": "31428b9cecd3186b4d0f234ada48a16b34e48c5bc4a8ff2c66327a31a5a460c5",
+          "sourceId": "orf_news",
+          "sourceType": "media",
+          "title": "Burnham zu neuem britischem Premier ernannt",
+          "url": "https://orf.at/stories/3436725",
+          "isNew": false
+        },
+        {
+          "itemId": "1ad1ade018762e44cce349800c91267069d0624dcdb91e4fc882d77a1ac0a188",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Andy Burnham zum neuen britischen Premier ernannt",
+          "url": "https://www.derstandard.at/story/3000000332168/burnham-zu",
+          "isNew": false
+        },
+        {
+          "itemId": "8315993cbcb32cd662222ce206ba17b82633fa7af6a0d0ecea4321fe60e5f418",
+          "sourceId": "derstandard_international",
+          "sourceType": "media",
+          "title": "Andy Burnham zum neuen britischen Premier ernannt",
+          "url": "https://www.derstandard.at/story/3000000332168/burnham-zu",
+          "isNew": false
+        },
+        {
+          "itemId": "9cf753e145961c327e281206da94ec618a42843b006b3e23a470894e84ba073d",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Auch dem neuen britischen Premier schlägt gefährliches Misstrauen entgegen",
+          "url": "https://www.derstandard.at/story/3000000332215/auch-dem-neuen-britischen-premier-schlaegt-gefaehrliches-misstrauen-entgegen",
+          "isNew": false
+        },
+        {
+          "itemId": "e234237ccaa054bd6b99ed1dfb13e0641a099194929fbc9f3a72e9058ca74601",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Neuer britischer Premier: Manche Pläne des linken Burnham gefallen auch Trump [premium]",
+          "url": "https://www.diepresse.com/38363838/neuer-britischer-premier-manche-plaene-des-linken-burnham-gefallen-auch-trump",
+          "isNew": false
+        },
+        {
+          "itemId": "bc91c83289441a602813dfa90b1087b1e2075fc7c96d216b87824b0b9cf6234f",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Britischer Premier Burnham beruft Kabinett und telefoniert mit Trump",
+          "url": "https://www.diepresse.com/38578812/britischer-premier-burnham-beruft-kabinett-und-telefoniert-mit-trump",
+          "isNew": false
+        },
+        {
+          "itemId": "2ff8cf70eb0aa61ee2ab0830026a80da0634bb00e13eb062bd20479cd52126a1",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Die neuen Minister in Andy Burnhams Kabinett",
+          "url": "https://www.diepresse.com/38578812/die-neuen-minister-in-andy-burnhams-kabinett",
+          "isNew": false
+        },
+        {
+          "itemId": "2933e27e6b1710f4eee51295e450641c779c4f7ba25d753f94d1b5f7e328845f",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Neuer britischer Premier Burnham streicht Mehrwertsteuer auf Stromrechnungen",
+          "url": "https://www.diepresse.com/38578812/neuer-britischer-premier-burnham-streicht-mehrwertsteuer-auf-stromrechnungen",
+          "isNew": false
+        },
+        {
+          "itemId": "ca1b73a856a04f71e197f92c9f654c001d15caa5dc32882af2947dc50c91cc2b",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Hat Burnham eine Chance gegen Farage? BBC-Journalist über den neuen UK-Premier in der „ZiB 2“ [premium]",
+          "url": "https://www.diepresse.com/38582517/hat-burnham-eine-chance-gegen-farage-bbc-journalist-ueber-den-neuen-uk-premier-in-der-zib-2",
+          "isNew": false
+        },
+        {
+          "itemId": "b5c9bfce0cdf512493be562b7aeb2e360f6af5ec7b4d344218f56a32cd09a05d",
+          "sourceId": "diepresse_kultur",
+          "sourceType": "media",
+          "title": "Hat Burnham eine Chance gegen Farage? BBC-Journalist über den neuen UK-Premier in der „ZiB 2“ [premium]",
+          "url": "https://www.diepresse.com/38582517/hat-burnham-eine-chance-gegen-farage-bbc-journalist-ueber-den-neuen-uk-premier-in-der-zib-2",
+          "isNew": false
+        },
+        {
+          "itemId": "af41063900d2fe658d9e5e148f00bda0fd114d730b4634cc0ec74e83aa552331",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Andy Burnhams Kabinett: Eine Mischung aus Überraschungen und Kontinuität",
+          "url": "https://www.derstandard.at/story/3000000332363/andy-burnhams-kabinett-eine-mischung-aus-ueberraschungen-und-kontinuitaet",
+          "isNew": false
+        },
+        {
+          "itemId": "2b776808da346814ef93eb95c28096cbd49b4ee0f9d7e52cf0f34f32d82fc4ba",
+          "sourceId": "derstandard_international",
+          "sourceType": "media",
+          "title": "Andy Burnhams Kabinett: Eine Mischung aus Überraschungen und Kontinuität",
+          "url": "https://www.derstandard.at/story/3000000332363/andy-burnhams-kabinett-eine-mischung-aus-ueberraschungen-und-kontinuitaet",
+          "isNew": false
+        },
+        {
+          "itemId": "0c50f684fc8f9a9667422a25b1b65249dd76a19be25374a00d85f97d6596016d",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Burnham ködert Briten mit billigerem Strom [premium]",
+          "url": "https://www.diepresse.com/38586603/burnham-koedert-briten-mit-billigerem-strom",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-22T12:07:30.604Z"
+    },
+    {
+      "clusterId": "cluster-20260722-1ab3fed1",
+      "title": "Social-Media-Verbot für Jugendliche: Gesetz soll demnächst fertig sein",
+      "score": 0.95,
+      "items": [
+        {
+          "itemId": "08256e140efa9264354e7fc97a3b9054c953793b3b2c304cb8c4f083fd0f6e2c",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Social-Media-Verbot für Jugendliche: Gesetz soll demnächst fertig sein",
+          "url": "https://kurier.at/politik/inland/social-media-verbot-alexander-proell-gesetz/403177530",
+          "summary": "Inhaltlich sei man komplett fertig, heißt es aus Verhandlerkreisen. Regelung soll 2027 in Kraft treten.",
+          "publishedAt": "2026-07-22T11:13:41.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "1fae166924799c6acbae094a9a8b9b8375a5e589dcf6af0fe28bd09df99b76be",
+          "sourceId": "kurier_politik",
+          "sourceType": "media",
+          "title": "Social-Media-Verbot für Jugendliche: Gesetz soll demnächst fertig sein",
+          "url": "https://kurier.at/politik/inland/social-media-verbot-alexander-proell-gesetz/403177530",
+          "summary": "Inhaltlich sei man komplett fertig, heißt es aus Verhandlerkreisen. Regelung soll 2027 in Kraft treten.",
+          "publishedAt": "2026-07-22T11:13:41.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "41f7057d17add90a668b13f8af0b69cb21aa5506b4044ac17e6c461aae2e821e",
+          "sourceId": "heise_news",
+          "sourceType": "media",
+          "title": "Frankreich: Social-Media-Verbot für Unter-15-Jährige wohl nach den Sommerferien",
+          "url": "https://www.heise.de/news/Frankreich-Social-Media-Verbot-fuer-Unter-15-Jaehrige-wohl-nach-den-Sommerferien-11371755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+          "isNew": false
+        },
+        {
+          "itemId": "f172ee4133e3e7e4d83b66a6de826c5ac616b477f80059c3291fe9056b76b0c8",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Frankreichs Senat stimmte für Social-Media-Verbot unter 15 Jahren",
+          "url": "https://www.derstandard.at/story/3000000332392/frankreichs-senat-stimmte-f252r-social-media-verbot-unter-15-jahren",
+          "isNew": false
+        },
+        {
+          "itemId": "07b8d1a0494f901012fcd35d0973b440001aedbf959ff0f67261db3f4d8fcaf1",
+          "sourceId": "derstandard_international",
+          "sourceType": "media",
+          "title": "Frankreichs Senat stimmte für Social-Media-Verbot unter 15 Jahren",
+          "url": "https://www.derstandard.at/story/3000000332392/frankreichs-senat-stimmte-f252r-social-media-verbot-unter-15-jahren",
+          "isNew": false
+        },
+        {
+          "itemId": "20dd31a48165bb6c48e61c57dab981c99e0a241fe63d99b061a83137ddb91d81",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Vorreiter: Frankreichs Senat stimmte für Social-Media-Verbot unter 15 Jahren",
+          "url": "https://kurier.at/politik/ausland/social-media-verbot-frankreich/403177404",
+          "isNew": false
+        },
+        {
+          "itemId": "3ccee4bbde5a7920e6cff05216be2f8dcf89e07c2c7ed8703de2df0c1edb3c02",
+          "sourceId": "kurier_politik",
+          "sourceType": "media",
+          "title": "Vorreiter: Frankreichs Senat stimmte für Social-Media-Verbot unter 15 Jahren",
+          "url": "https://kurier.at/politik/ausland/social-media-verbot-frankreich/403177404",
+          "isNew": false
+        },
+        {
+          "itemId": "e13429de54a22f04e6e75b492d7f50d9c2f2b0a6cda3bd66e68dc94e6bab8dfe",
+          "sourceId": "orf_news",
+          "sourceType": "media",
+          "title": "Frankreich führt Social-Media-Verbot ein",
+          "url": "https://orf.at/stories/3436868",
+          "isNew": false
+        },
+        {
+          "itemId": "b0897f6e2610e9ab66d3c002e9afa7c09fdceed716aac5f7d4d4cd9b45c865a5",
+          "sourceId": "orf_news",
+          "sourceType": "media",
+          "title": "Frankreich führt Social-Media-Verbot unter 15 ein",
+          "url": "https://orf.at/stories/3436877",
+          "isNew": false
+        },
+        {
+          "itemId": "b5d54472c461f20d86c038595e65d83730d48c82790e4dffb55987031f0743fa",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Frankreich beschließt Social-Media-Verbot für Unter-15-Jährige",
+          "url": "https://www.diepresse.com/38839035/frankreich-beschliesst-social-media-verbot-fuer-unter-15-jaehrige",
+          "isNew": false
+        },
+        {
+          "itemId": "3ef7ba969830b829f9ada252ee224a68bcb822b739d38764cf852183b2752153",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Social-Media-Verbot: Die digitale Gefahr endet nicht am 14. Geburtstag",
+          "url": "https://www.derstandard.at/story/3000000332342/social-media-verbot-die-digitale-gefahr-endet-nicht-am-14-geburtstag",
+          "isNew": false
+        },
+        {
+          "itemId": "0971869e562e1d91f7e03142f1c6233df06bab6fc977cc978de54110d1a5a747",
+          "sourceId": "kleinezeitung_steiermark",
+          "sourceType": "media",
+          "title": "Social-Media-Verbot ist in der koalitionären Version 0.9 fertig",
+          "url": "https://www.kleinezeitung.at/artikel/38689885/social-media-verbot-ist-in-der-koalitionaeren-version-09-fertig",
+          "isNew": false
+        },
+        {
+          "itemId": "101edbcbe98845bbd6d52ddb83c70d4d3ecfe0ecd7b4e27c8bf9aacea0a11fa4",
+          "sourceId": "golem_news",
+          "sourceType": "media",
+          "title": "Jugendschutzgesetz wirkungslos: Australiens Social-Media-Verbot scheitert an Teenagern",
+          "url": "https://www.golem.de/news/jugendschutzgesetz-wirkungslos-australiens-social-media-verbot-scheitert-an-teenagern-2607-211139.html",
+          "isNew": false
+        },
+        {
+          "itemId": "6fc34491f219bf2d330bd5e8ca2d18d88bca8c2f9f87fca265960ef8ff24e90a",
+          "sourceId": "golem_news",
+          "sourceType": "media",
+          "title": "Frankreich: Social Media wird ab September f�r unter 15-J�hrige gesperrt",
+          "url": "https://www.golem.de/news/frankreich-social-media-wird-ab-september-fuer-unter-15-jaehrige-gesperrt-2607-211138.html",
+          "isNew": false
+        },
+        {
+          "itemId": "a12c7f8cc6228f54f6a7956cc1b62a5f0c0f503ae8192b61a38ce800e280f774",
+          "sourceId": "heise_news",
+          "sourceType": "media",
+          "title": "Australien: Die „Coolen“ ignorieren Social-Media-Sperre, viele kommen zurück",
+          "url": "https://www.heise.de/news/Australien-Die-Coolen-ignorieren-Social-Media-Sperre-viele-kommen-zurueck-11373062.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-22T12:07:30.604Z"
+    },
+    {
+      "clusterId": "cluster-20260722-24d6cd44",
+      "title": "Bregenzer Festspiele sind eröffnet",
+      "score": 0.9,
+      "items": [
+        {
+          "itemId": "bc6217bd2ef25ff5d15eb8bc3e0f348412417523c42521b0871e7e3127f26636",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Bregenzer Festspiele sind eröffnet",
+          "url": "https://vorarlberg.orf.at/stories/3363768",
+          "summary": "Bundespräsident Alexander Van der Bellen hat die 80. Bregenzer Festspiele am Mittwoch kurz vor Mittag eröffnet. Zahlreiche Personen aus Politik, Kultur und Gesellschaft nahmen an der Eröffnung der 80. Bregenzer Festspiele teil.",
+          "publishedAt": "2026-07-22T11:45:28.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "4d763d5c3a5b07a1066559514e6b467f20402bed40af99eb05c7748ce18e433c",
+          "sourceId": "orf_vorarlberg",
+          "sourceType": "media",
+          "title": "Bregenzer Festspiele sind eröffnet",
+          "url": "https://vorarlberg.orf.at/stories/3363768",
+          "summary": "Bundespräsident Alexander Van der Bellen hat die 80. Bregenzer Festspiele am Mittwoch kurz vor Mittag eröffnet. Zahlreiche Personen aus Politik, Kultur und Gesellschaft nahmen an der Eröffnung der 80. Bregenzer Festspiele teil.",
+          "publishedAt": "2026-07-22T11:45:28.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "63b0abaf259708f9b7b8d5b0ba2639cd4c37376f6fac62d6d625fe430dca7de9",
+          "sourceId": "derstandard_kultur",
+          "sourceType": "media",
+          "title": "Van der Bellen eröffnete Bregenzer Festspiele: Liberale Demokratie als Ideal",
+          "url": "https://www.derstandard.at/story/3000000332507/van-der-bellen-eroeffnete-bregenzer-festspiele-liberale-demokratie-als-ideal",
+          "summary": "Der Bundespräsident sieht die liberale Demokratie als \"tägliche Übung\", das Festival feiert seine 80. Ausgabe",
+          "publishedAt": "2026-07-22T11:17:37.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "1adc8287b8829128d7b513405cb0410f6d29d09537a0c563111f03628e2674ff",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Van der Bellen bei den Bregenzer Festspielen: \"Demokratie ist eine tägliche Übung\"",
+          "url": "https://www.derstandard.at/story/3000000332413/van-der-bellen-bei-den-bregenzer-festspielen-demokratie-ist-eine-taegliche-uebung",
+          "isNew": false
+        },
+        {
+          "itemId": "225dc2717923b72b38931e8f23e336277a44c06c9bf52f5be5d1f39d3de16976",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Van der Bellen: „Die freie, liberale Demokratie ist eine tägliche Übung“",
+          "url": "https://www.kleinezeitung.at/artikel/38833618/die-freie-liberale-demokratie-ist-eine-taegliche-uebung",
+          "isNew": false
+        },
+        {
+          "itemId": "7b50cecd27167e0eec5f54d02022c833a1892468daf3f3f768836524922282a3",
+          "sourceId": "kleinezeitung_politik",
+          "sourceType": "media",
+          "title": "Van der Bellen: „Die freie, liberale Demokratie ist eine tägliche Übung“",
+          "url": "https://www.kleinezeitung.at/artikel/38833618/die-freie-liberale-demokratie-ist-eine-taegliche-uebung",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-22T12:07:30.604Z"
+    },
+    {
+      "clusterId": "cluster-20260722-042ba1be",
+      "title": "Sportjournalist Michael Kuhn gestorben",
+      "score": 0.85,
+      "items": [
+        {
+          "itemId": "c6841dcc4da658a621305767125d66fc9b0aba530174a0434f1682613fb25d54",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Sportjournalist Michael Kuhn gestorben",
+          "url": "https://wien.orf.at/stories/3363770",
+          "summary": "Der Sportjournalist Michael Kuhn ist in der Nacht auf Mittwoch im Alter von 88 Jahren in Kärnten gestorben. Kuhn stand ab 1959 über vier Jahrzehnte an der Spitze des Sportressorts der „Kronen Zeitung“. Darüber hinaus kommentierte er für den ORF Fußballspiele und Skirennen.",
+          "publishedAt": "2026-07-22T10:29:38.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "7f1269c6052af0625f768fb995bd0489f34ac8f995efc1d4e65f3a5814706655",
+          "sourceId": "orf_wien",
+          "sourceType": "media",
+          "title": "Sportjournalist Michael Kuhn gestorben",
+          "url": "https://wien.orf.at/stories/3363770",
+          "summary": "Der Sportjournalist Michael Kuhn ist in der Nacht auf Mittwoch im Alter von 88 Jahren in Kärnten gestorben. Kuhn stand ab 1959 über vier Jahrzehnte an der Spitze des Sportressorts der „Kronen Zeitung“. Darüber hinaus kommentierte er für den ORF Fußballspiele und Skirennen.",
+          "publishedAt": "2026-07-22T10:29:38.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "92a9fd3e577b36dd20ff5759f312a26c0bef786c26ebe33de64e3636f65de190",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Sportjournalistenlegende Michael Kuhn gestorben",
+          "url": "https://www.diepresse.com/38913648/sportjournalistenlegende-michael-kuhn-gestorben",
+          "summary": "Michael Kuhn zählte zu den bekanntesten Gesichtern und Stimmen der heimischen Sportberichterstattung. Nun ist er im Alter von 88 Jahren verstorben.",
+          "publishedAt": "2026-07-22T09:58:45.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "0f8764c55264eb97a966f3bf6958a28b868fb63956f70ba3af067dd6f82aa7a9",
+          "sourceId": "orf_sport",
+          "sourceType": "media",
+          "title": "Reporterlegende Michael Kuhn gestorben",
+          "url": "https://sport.orf.at/stories/3160561",
+          "isNew": false
+        },
+        {
+          "itemId": "338989ff5dc35390fe624204ccd15ad6ab2b01601e50627139160f6cc1eadea3",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Legende des Sportjournalismus: Michael Kuhn ist gestorben",
+          "url": "https://kurier.at/sport/michael-kuhn-todesfall-sportjournalist-legende-orf-krone/403177492",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-22T12:07:30.604Z"
+    },
     {
       "clusterId": "cluster-20260722-3da1bc93",
       "title": "Extrem selten: Frau (34) bringt eineiige Vierlinge zur Welt",
@@ -163,92 +692,6 @@
       "queuedAt": "2026-07-22T10:07:32.134Z"
     },
     {
-      "clusterId": "cluster-20260722-efb5972e",
-      "title": "KI-Modelle von OpenAI steckten hinter IT-Angriff auf Hugging Face",
-      "score": 0.825,
-      "items": [
-        {
-          "itemId": "6ef6eaa5734a7fe8b2599e997990992668237dbc65b13d621d89c2ddb324cefa",
-          "sourceId": "heise_news",
-          "sourceType": "media",
-          "title": "KI-Modelle von OpenAI steckten hinter IT-Angriff auf Hugging Face",
-          "url": "https://www.heise.de/news/KI-Modelle-von-OpenAI-haben-Cyberangriff-auf-Hugging-Face-autonom-ausgefuehrt-11372797.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-          "summary": "Bei einem Test der Fähigkeiten neuer KI-Modelle sind die aus ihrer Umgebung ausgebrochen und haben Hugging Face kompromittiert. Das hat OpenAI eingestanden.",
-          "publishedAt": "2026-07-22T05:11:00.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "d506b4ac6cc04fbf501da23a8ac45f792dad362cc1e072d85063fb50c2df0fd3",
-          "sourceId": "golem_news",
-          "sourceType": "media",
-          "title": "Bei internen KI-Tests: OpenAI hat versehentlich Hugging Face gehackt",
-          "url": "https://www.golem.de/news/bei-internen-ki-tests-openai-hat-versehentlich-hugging-face-gehackt-2607-211137.html",
-          "summary": "Der k�rzlich bekannt gewordene Cyberangriff auf Hugging Face kam von OpenAI. Das Unternehmen hatte seine KI-Modelle bei internen Cybertests nicht im Griff. (KI, Cyberwar)",
-          "publishedAt": "2026-07-22T06:46:02.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "8a900d7450ad3c018b7f71c25112ba3528a37678b24ad91e17f44544ed5b7a95",
-          "sourceId": "thedecoder",
-          "sourceType": "media",
-          "title": "OpenAI räumt ein: KI-Modelle haben bei Sicherheitstest versehentlich autonom Hugging Face gehackt",
-          "url": "https://the-decoder.de/openai-raeumt-ein-ki-modelle-haben-bei-sicherheitstest-versehentlich-autonom-hugging-face-gehackt",
-          "summary": "Während einer internen Sicherheitsevaluierung brachen OpenAI-Modelle aus ihrer Sandbox aus, entdeckten eigenständig eine Zero-Day-Schwachstelle und drangen in Hugging Faces Produktionsinfrastruktur ein. Die Modelle wollten bei einem Benchmark schummeln. OpenAI spricht von einem \"beispiellosen Cyber-Vorfall\".\nDer Artikel OpenAI räumt ein: KI-Modelle haben bei Sicherheitstest versehentlich autonom Hugging Face gehackt erschien zuerst auf The Decoder.",
-          "publishedAt": "2026-07-22T07:49:30.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "5d52d0a131fb2c2ff583aebd24afa1e49b1b3aa3e06b5e07bd52c71688ee00c1",
-          "sourceId": "heise_news",
-          "sourceType": "media",
-          "title": "Hugging Face: KI-Plattform wurde Opfer eines KI-Angriffs",
-          "url": "https://www.heise.de/news/Hugging-Face-IT-Sicherheitsvorfall-bei-KI-Plattform-11370448.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-          "isNew": false
-        },
-        {
-          "itemId": "06f39bb672db6e065ea17fb34c16a48240934279057036679103553ee92b0ab1",
-          "sourceId": "golem_news",
-          "sourceType": "media",
-          "title": "Cyberangriff auf Hugging Face: KI-Angriff auf KI-Plattform mittels KI aufgedeckt",
-          "url": "https://www.golem.de/news/cyberangriff-auf-hugging-face-ki-erkennt-ki-angriff-auf-ki-plattform-2607-211057.html",
-          "isNew": false
-        },
-        {
-          "itemId": "a38b40e26323f1c02c4211fca2fe44a46066de844974e49ee9ec8a96808b9389",
-          "sourceId": "thedecoder",
-          "sourceType": "media",
-          "title": "KI-Agent hackt KI-Plattform Hugging Face angeblich autonom und wird von KI-Verteidigung gestoppt",
-          "url": "https://the-decoder.de/hugging-face-meldet-ersten-vollstaendig-ki-gesteuerten-hackerangriff-auf-eigene-infrastruktur",
-          "isNew": false
-        },
-        {
-          "itemId": "4424a270126be655de714972416d24aaae353389431c732318ee8c0a3dbbc258",
-          "sourceId": "theverge",
-          "sourceType": "media",
-          "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
-          "isNew": false
-        },
-        {
-          "itemId": "50972af260c817e1ed7e2500d2edac2df3c5efb8494d2a55989e966cab109f3e",
-          "sourceId": "techcrunch",
-          "sourceType": "media",
-          "title": "OpenAI says Hugging Face was breached by its own pre-release models",
-          "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models",
-          "isNew": false
-        },
-        {
-          "itemId": "71193b876de8a86de3599e676ec4f0ce670bcb2eb5852458b7f0b4aee938edf8",
-          "sourceId": "techcrunch",
-          "sourceType": "media",
-          "title": "OpenAI says Hugging Face was breached by its pre-release models",
-          "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-22T08:07:25.952Z"
-    },
-    {
       "clusterId": "cluster-20260722-198044f4",
       "title": "Kärntner holen Bronze bei Wildwasser-WM",
       "score": 0.825,
@@ -291,49 +734,117 @@
       "queuedAt": "2026-07-22T08:07:25.952Z"
     },
     {
-      "clusterId": "cluster-20260722-2b9ad9b7",
-      "title": "Verdacht auf Steuerhinterziehung: Razzia in Zentrale der Deutschen Bank",
+      "clusterId": "cluster-20260722-05673ab0",
+      "title": "Jäger schoss auf Rehbock und traf fast Frau",
       "score": 0.8,
       "items": [
         {
-          "itemId": "73a80ead8bf2e4ab3574292d787f1d11cc8175541b9fa63cc928520897d995d9",
+          "itemId": "40cee57c62c7d80bf136caaed27f5655b34be73c6a121f9aa0dc9be0527a1c1e",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Jäger schoss auf Rehbock und traf fast Frau",
+          "url": "https://salzburg.orf.at/stories/3363763",
+          "summary": "Ein Jäger hat Mitte Juni im Pongau auf einen Rehbock geschossen und soll dabei eine Frau, die auf einer Terrasse in einem Garten saß, knapp verfehlt haben. Ein Sprecher der Landespolizeidirektion bestätigte einen Bericht der „Salzburger Nachrichten“.",
+          "publishedAt": "2026-07-22T10:07:47.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "d9a918b5f5af26557ff2346208a895e7e740f1f1e6f43ee8f5984b6db665d900",
+          "sourceId": "orf_salzburg",
+          "sourceType": "media",
+          "title": "Jäger schoss auf Rehbock und traf fast Frau",
+          "url": "https://salzburg.orf.at/stories/3363763",
+          "summary": "Ein Jäger hat Mitte Juni im Pongau auf einen Rehbock geschossen und soll dabei eine Frau, die auf einer Terrasse in einem Garten saß, knapp verfehlt haben. Ein Sprecher der Landespolizeidirektion bestätigte einen Bericht der „Salzburger Nachrichten“.",
+          "publishedAt": "2026-07-22T10:07:47.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "7c3314ed1f584b6e8f8508de6c7dbd149a06743aca5a82f0c4ca33a60cd820b5",
+          "sourceId": "derstandard_panorama",
+          "sourceType": "media",
+          "title": "Jäger schoss auf Rehbock und verfehlte Frau auf Terrasse nur knapp",
+          "url": "https://www.derstandard.at/story/3000000332495/j228ger-schoss-im-pongau-auf-rehbock-frau-auf-terrasse-knapp-verfehlt",
+          "summary": "Die Kugel aus dem Gewehr soll neben der Frau gelandet sein. Die polizeilichen Ermittlungen laufen noch. Ein vorläufiges Waffenverbot wurde verhängt",
+          "publishedAt": "2026-07-22T10:33:56.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-07-22T12:07:30.604Z"
+    },
+    {
+      "clusterId": "cluster-20260722-cd041142",
+      "title": "Ermittlungen wegen Lastwagens mit NS-Slogan in der Steiermark",
+      "score": 0.8,
+      "items": [
+        {
+          "itemId": "4775e8f4accf11a5974ad888501e221f4120dfc8f37e807156e6d29d55a5463a",
           "sourceId": "derstandard_newsroom",
           "sourceType": "media",
-          "title": "Verdacht auf Steuerhinterziehung: Razzia in Zentrale der Deutschen Bank",
-          "url": "https://www.derstandard.at/story/3000000332480/razzia-in-zentrale-der-deutschen-bank-wegen-verdachts-auf-steuerhinterziehung",
-          "summary": "Medienberichten zufolge sind Ermittlungen zu sogenannten Cum-Cum-Geschäften Hintergrund der Durchsuchung",
-          "publishedAt": "2026-07-22T09:24:47.000Z",
+          "title": "Ermittlungen wegen Lastwagens mit NS-Slogan in der Steiermark",
+          "url": "https://www.derstandard.at/story/3000000332435/ermittlungen-wegen-lastwagens-mit-ns-slogan-in-der-steiermark",
+          "summary": "Ein Passant hatte das Fahrzeug auf einem Parkplatz in Graz entdeckt – unter anderem war das Fahrzeug laut \"Krone\" mit der Nazi-Parole \"Arbeit macht frei\" beschriftet",
+          "publishedAt": "2026-07-22T11:16:55.000Z",
           "isNew": true
         },
         {
-          "itemId": "741dc46aa2b513613486d7b4750ab0a507ec3d8bfb9d3f198f681d8a418c6c93",
-          "sourceId": "derstandard_wirtschaft",
+          "itemId": "96940ac043a0abbe5f2f0111c2611b9e5c6030c135f2392788f41df70438716e",
+          "sourceId": "derstandard_panorama",
           "sourceType": "media",
-          "title": "Verdacht auf Steuerhinterziehung: Razzia in Zentrale der Deutschen Bank",
-          "url": "https://www.derstandard.at/story/3000000332480/razzia-in-zentrale-der-deutschen-bank-wegen-verdachts-auf-steuerhinterziehung",
-          "summary": "Medienberichten zufolge sind Ermittlungen zu sogenannten Cum-Cum-Geschäften Hintergrund der Durchsuchung",
-          "publishedAt": "2026-07-22T09:24:47.000Z",
+          "title": "Ermittlungen wegen Lastwagens mit NS-Slogan in der Steiermark",
+          "url": "https://www.derstandard.at/story/3000000332435/ermittlungen-wegen-lastwagens-mit-ns-slogan-in-der-steiermark",
+          "summary": "Ein Passant hatte das Fahrzeug auf einem Parkplatz in Graz entdeckt – unter anderem war das Fahrzeug laut \"Krone\" mit der Nazi-Parole \"Arbeit macht frei\" beschriftet",
+          "publishedAt": "2026-07-22T11:16:55.000Z",
           "isNew": true
         },
         {
-          "itemId": "68c5102dd63d8e97f719da7d4d58675b83b0802ed4e127facab305504e6c0f1b",
+          "itemId": "633085515a191e7e76ad7ce79c9056c7502f19945097ef19756a9db1b4151065",
           "sourceId": "kurier_home",
           "sourceType": "media",
-          "title": "Razzia: Steuerermittler durchsuchen Deutsche-Bank-Zentrale",
-          "url": "https://kurier.at/wirtschaft/cum-cum-geschaefte-deutsche-bank-steuerermittler-razzia/403177507",
-          "summary": "Die Untersuchungen betreffen den Verdacht der Steuerhinterziehung im Zusammenhang mit Cum-Cum-Geschäften.",
-          "publishedAt": "2026-07-22T09:24:30.000Z",
+          "title": "Ermittlungen nach NS-Parolen auf Lkw in der Steiermark",
+          "url": "https://kurier.at/chronik/steiermark/lkw-steiermark-wiederbetaetigung-parolen/403177505",
+          "isNew": false
+        },
+        {
+          "itemId": "5ceb9ce98d6b4f2b4b6585deb4b265a2a502e145ea5d4063dde404791cd31f4a",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "Ermittlungen nach NS-Parolen auf Lkw in der Steiermark",
+          "url": "https://kurier.at/chronik/steiermark/lkw-steiermark-wiederbetaetigung-parolen/403177505",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-22T12:07:30.604Z"
+    },
+    {
+      "clusterId": "cluster-20260722-ad9453f6",
+      "title": "Immer mehr Sahara-Sand belastet die Luft in Europa",
+      "score": 0.8,
+      "items": [
+        {
+          "itemId": "53ce3ef7ee8aedecdedee91e6ccfd8e60837fc8973ac9bc7063ea9d86ca54046",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Immer mehr Sahara-Sand belastet die Luft in Europa",
+          "url": "https://www.derstandard.at/story/3000000332445/immer-mehr-sahara-sand-belastet-die-luft-in-europa",
+          "summary": "Die Konzentration von Wüstenstaub hat sich im vergangenen Jahrzehnt vervielfacht. Das hat mit Hitzewellen infolge des Klimawandels zu tun – und hat Folgen für die Gesundheit",
+          "publishedAt": "2026-07-22T10:05:40.000Z",
           "isNew": true
         },
         {
-          "itemId": "0bd85ff85bb85eb1b7534c3e03a29e3edd62f852c006485b4665fcb17eb94dfc",
-          "sourceId": "kurier_wirtschaft",
+          "itemId": "93add45c9ba21bd62934b8c264ea4dba715d0e7aeea033997435c961c6142a9b",
+          "sourceId": "kurier_home",
           "sourceType": "media",
-          "title": "Razzia: Steuerermittler durchsuchen Deutsche-Bank-Zentrale",
-          "url": "https://kurier.at/wirtschaft/cum-cum-geschaefte-deutsche-bank-steuerermittler-razzia/403177507",
-          "summary": "Die Untersuchungen betreffen den Verdacht der Steuerhinterziehung im Zusammenhang mit Cum-Cum-Geschäften.",
-          "publishedAt": "2026-07-22T09:24:30.000Z",
-          "isNew": true
+          "title": "Immer mehr Sahara-Staub in der Luft: Todeszahlen in Europa steigen",
+          "url": "https://kurier.at/wissen/gesundheit/sahara-wuesten-staub-nimmt-zu-lungenkranke-herzkranke-todeszahlen/403177137",
+          "isNew": false
+        },
+        {
+          "itemId": "5d3b338bb092898f735dbc8359589df7fb87729e2380ce4b99817d1d1d1c7635",
+          "sourceId": "derstandard_wissenschaft",
+          "sourceType": "media",
+          "title": "Immer mehr Sahara-Sand belastet die Luft in Europa",
+          "url": "https://www.derstandard.at/story/3000000332445/immer-mehr-sahara-sand-belastet-die-luft-in-europa",
+          "isNew": false
         }
       ],
       "queuedAt": "2026-07-22T10:07:32.134Z"
@@ -367,72 +878,6 @@
           "sourceType": "media",
           "title": "Ermittlungen nach Gutachten-Weitergabe",
           "url": "https://burgenland.orf.at/stories/3363706",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-22T10:07:32.134Z"
-    },
-    {
-      "clusterId": "cluster-20260722-e52dbaf0",
-      "title": "Polizeizentrum im umgebauten Hitler-Geburtshaus in Braunau eröffnet",
-      "score": 0.8,
-      "items": [
-        {
-          "itemId": "9396e03f891dac77aa309623b381fdbd180c615e43b008c3085594a4fe58a6ad",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "Polizeizentrum im umgebauten Hitler-Geburtshaus in Braunau eröffnet",
-          "url": "https://www.kleinezeitung.at/artikel/38853904/polizeizentrum-im-umgebauten-hitler-geburtshaus-in-braunau-eroeffnet",
-          "summary": "Eine Umgestaltung soll dem Haus den Wiedererkennungswert nehmen und die Anziehungskraft auf „braune“ Wallfahrer brechen.",
-          "publishedAt": "2026-07-22T08:41:16.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "3123f2e8f77717b5cb213f2957cf5fb87835688f921d6457e039d9d10439a097",
-          "sourceId": "orf_oesterreich",
-          "sourceType": "media",
-          "title": "Polizei bezieht umgebautes Hitler-Geburtshaus",
-          "url": "https://ooe.orf.at/stories/3363616",
-          "isNew": false
-        },
-        {
-          "itemId": "8f6af95a197c0b369fb9f69c348f29a71bc4e72e523457847e788237785982b3",
-          "sourceId": "orf_ooe",
-          "sourceType": "media",
-          "title": "Polizei bezieht umgebautes Hitler-Geburtshaus",
-          "url": "https://ooe.orf.at/stories/3363616",
-          "isNew": false
-        },
-        {
-          "itemId": "fb13f5beaaa935bcd805c2b2459d79ebd83dfd014b391739186fad6f3bc20ed7",
-          "sourceId": "diepresse_home",
-          "sourceType": "media",
-          "title": "Polizeizentrum im Hitler-Geburtshaus in Braunau wird eröffnet",
-          "url": "https://www.diepresse.com/38843618/polizeizentrum-im-hitler-geburtshaus-in-braunau-wird-eroeffnet",
-          "isNew": false
-        },
-        {
-          "itemId": "d04d1ba73c69b36aca84d7a33409a8b290ce85ff82a4a904b232be1ca2472fb1",
-          "sourceId": "derstandard_newsroom",
-          "sourceType": "media",
-          "title": "Polizeizentrum im umgebauten Hitler-Geburtshaus in Braunau eröffnet",
-          "url": "https://www.derstandard.at/story/3000000332411/polizeizentrum-im-umgebauten-hitler-geburtshaus-in-braunau-er246ffnet",
-          "isNew": false
-        },
-        {
-          "itemId": "fb59882b4a2b6c562f349c6edbcd03d565a06d80162fbf939287cda14ed6c65a",
-          "sourceId": "derstandard_panorama",
-          "sourceType": "media",
-          "title": "Polizeizentrum im umgebauten Hitler-Geburtshaus in Braunau eröffnet",
-          "url": "https://www.derstandard.at/story/3000000332411/polizeizentrum-im-umgebauten-hitler-geburtshaus-in-braunau-er246ffnet",
-          "isNew": false
-        },
-        {
-          "itemId": "60e02607fe46523e5074deafac625e0ddf784c1797f2d34f9324cb63b63c041c",
-          "sourceId": "diepresse_home",
-          "sourceType": "media",
-          "title": "Ukrainischer Präsident entlässt Armeechef • Polizeizentrum in Hitler-Geburtshaus wird eröffnet • „Pink Panther“-Saxophonist ist tot",
-          "url": "https://www.diepresse.com/38843811/ukrainischer-praesident-entlaesst-armeechef-polizeizentrum-in-hitler-geburtshaus-wird-eroeffnet-pink-panther-saxophonist-ist-tot",
           "isNew": false
         }
       ],
@@ -481,42 +926,42 @@
       "queuedAt": "2026-07-22T10:07:32.134Z"
     },
     {
-      "clusterId": "cluster-20260722-01567723",
-      "title": "Van der Bellen bei den Bregenzer Festspielen: \"Demokratie ist eine tägliche Übung\"",
+      "clusterId": "cluster-20260722-4c06357b",
+      "title": "Orbán verkündet „nationalen Widerstand“ gegen Magyar",
       "score": 0.75,
       "items": [
         {
-          "itemId": "1adc8287b8829128d7b513405cb0410f6d29d09537a0c563111f03628e2674ff",
-          "sourceId": "derstandard_newsroom",
+          "itemId": "0dfd92f09b6ebfad134e922c4828ed8951f5b8326a350126ff626c14f99c3f66",
+          "sourceId": "diepresse_home",
           "sourceType": "media",
-          "title": "Van der Bellen bei den Bregenzer Festspielen: \"Demokratie ist eine tägliche Übung\"",
-          "url": "https://www.derstandard.at/story/3000000332413/van-der-bellen-bei-den-bregenzer-festspielen-demokratie-ist-eine-taegliche-uebung",
-          "summary": "Bei der Eröffnung der Bregenzer Festspiele spricht der Bundespräsident über die Aufgabe der Demokratie, nämlich Menschen mit unterschiedlichen Überzeugungen und Interessen zu einem gemeinsamen Ganzen zu verbinden",
-          "publishedAt": "2026-07-22T09:35:00.000Z",
+          "title": "Orbán verkündet „nationalen Widerstand“ gegen Magyar",
+          "url": "https://www.diepresse.com/38936481/orban-verkuendet-nationalen-widerstand-gegen-magyar",
+          "summary": "Ungarns Ex-Premier kritisierte das angeblich „autoritäre Regime“ seines Nachfolgers.",
+          "publishedAt": "2026-07-22T10:52:12.000Z",
           "isNew": true
         },
         {
-          "itemId": "225dc2717923b72b38931e8f23e336277a44c06c9bf52f5be5d1f39d3de16976",
-          "sourceId": "kleinezeitung_home",
+          "itemId": "59486335e9126492f292dd73b398f86014caecbff5ac3cc215b0e04bfaa11469",
+          "sourceId": "kurier_home",
           "sourceType": "media",
-          "title": "Van der Bellen: „Die freie, liberale Demokratie ist eine tägliche Übung“",
-          "url": "https://www.kleinezeitung.at/artikel/38833618/die-freie-liberale-demokratie-ist-eine-taegliche-uebung",
-          "summary": "In seiner Rede zur Eröffnung der Bregenzer Festspiele sprach der Bundespräsident über das Wesen der liberalen Demokratie und wie sie gepflegt werden muss.",
-          "publishedAt": "2026-07-22T09:44:26.000Z",
+          "title": "Orbán verkündet „nationalen Widerstand“ gegen Magyar",
+          "url": "https://kurier.at/politik/ausland/viktor-orban-peter-magyar-ungarn-fidesz/403177539",
+          "summary": "Ungarns Ex-Premier kritisierte „autoritäres Regime“: Nach der Razzia in den Büros seiner Fidesz-Partei rief Orbán zum „nationalen Widerstand“ gegen Regierung von Premier Péter Magyar auf.",
+          "publishedAt": "2026-07-22T11:07:18.000Z",
           "isNew": true
         },
         {
-          "itemId": "7b50cecd27167e0eec5f54d02022c833a1892468daf3f3f768836524922282a3",
-          "sourceId": "kleinezeitung_politik",
+          "itemId": "8594899c080218aed65dab0a886d54a024c277280ac68104a25feedc481411c2",
+          "sourceId": "kurier_politik",
           "sourceType": "media",
-          "title": "Van der Bellen: „Die freie, liberale Demokratie ist eine tägliche Übung“",
-          "url": "https://www.kleinezeitung.at/artikel/38833618/die-freie-liberale-demokratie-ist-eine-taegliche-uebung",
-          "summary": "In seiner Rede zur Eröffnung der Bregenzer Festspiele sprach der Bundespräsident über das Wesen der liberalen Demokratie und wie sie gepflegt werden muss.",
-          "publishedAt": "2026-07-22T09:44:26.000Z",
+          "title": "Orbán verkündet „nationalen Widerstand“ gegen Magyar",
+          "url": "https://kurier.at/politik/ausland/viktor-orban-peter-magyar-ungarn-fidesz/403177539",
+          "summary": "Ungarns Ex-Premier kritisierte „autoritäres Regime“: Nach der Razzia in den Büros seiner Fidesz-Partei rief Orbán zum „nationalen Widerstand“ gegen Regierung von Premier Péter Magyar auf.",
+          "publishedAt": "2026-07-22T11:07:18.000Z",
           "isNew": true
         }
       ],
-      "queuedAt": "2026-07-22T10:07:32.134Z"
+      "queuedAt": "2026-07-22T12:07:30.604Z"
     },
     {
       "clusterId": "cluster-20260722-ebb92f14",
@@ -776,216 +1221,6 @@
         }
       ],
       "queuedAt": "2026-07-21T14:07:25.946Z"
-    },
-    {
-      "clusterId": "cluster-20260722-d1d0b46a",
-      "title": "Rufe gefährdeter Vögel werden mit KI erfasst",
-      "score": 0.75,
-      "items": [
-        {
-          "itemId": "bc6e94963fca5c6f1672cf029e1a8c8cdc28b5ce825641542b06050d62588a5b",
-          "sourceId": "orf_oesterreich",
-          "sourceType": "media",
-          "title": "Rufe gefährdeter Vögel werden mit KI erfasst",
-          "url": "https://noe.orf.at/stories/3363641",
-          "summary": "Die Bundesforste mit Sitz in Purkersdorf (Bezirk St. Pölten) setzen beim Monitoring gefährdeter oder potentiell gefährdeter Vogelarten nun verstärkt auf Künstliche Intelligenz (KI). Die Vögel werden dabei ausschließlich anhand ihrer Rufe erfasst.",
-          "publishedAt": "2026-07-22T05:14:37.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "96b6377c3b20beb53439284f87b1108015beaa0c2af6a6bd098e8a0d183e4e55",
-          "sourceId": "orf_noe",
-          "sourceType": "media",
-          "title": "Rufe gefährdeter Vögel werden mit KI erfasst",
-          "url": "https://noe.orf.at/stories/3363641",
-          "summary": "Die Bundesforste mit Sitz in Purkersdorf (Bezirk St. Pölten) setzen beim Monitoring gefährdeter oder potentiell gefährdeter Vogelarten nun verstärkt auf Künstliche Intelligenz (KI). Die Vögel werden dabei ausschließlich anhand ihrer Rufe erfasst.",
-          "publishedAt": "2026-07-22T05:14:37.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "f058a125a3412bb881640ccb8a521c2ac84fc1f07f1a6b7d02894456a8056d05",
-          "sourceId": "futurezone_home",
-          "sourceType": "media",
-          "title": "Warum KI Vögel gefährdet",
-          "url": "https://futurezone.at/science/vogelbeobachtung-ki-bildbearbeitung-veraenderung-fotos-citizien-science-warnung/403177305",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-22T06:07:29.885Z"
-    },
-    {
-      "clusterId": "cluster-20260722-251215eb",
-      "title": "Land Salzburg kauft Grundstück für Parkplatz bei den Salzachauen",
-      "score": 0.75,
-      "items": [
-        {
-          "itemId": "2ea63b4743f8266fbad18f5b995e9c0c31dd377aed643cec9b15a96bb0499133",
-          "sourceId": "derstandard_newsroom",
-          "sourceType": "media",
-          "title": "Land Salzburg kauft Grundstück für Parkplatz bei den Salzachauen",
-          "url": "https://www.derstandard.at/story/3000000332165/land-salzburg-kauft-grundstueck-fuer-parkplatz-bei-den-salzachauen",
-          "summary": "Keine Auskunft über Verkäufer oder Kaufpreis. Schon der Kauf der Antheringer Au kostete 37,3 Millionen Euro – was zur Kritik des Rechnungshofs führte",
-          "publishedAt": "2026-07-22T06:00:00.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "4279acfd3af1f387d30b9595c1aa9ed62c8d48330e84c9f77466f53c4fb6c6a9",
-          "sourceId": "derstandard_panorama",
-          "sourceType": "media",
-          "title": "Land Salzburg kauft Grundstück für Parkplatz bei den Salzachauen",
-          "url": "https://www.derstandard.at/story/3000000332165/land-salzburg-kauft-grundstueck-fuer-parkplatz-bei-den-salzachauen",
-          "summary": "Keine Auskunft über Verkäufer oder Kaufpreis. Schon der Kauf der Antheringer Au kostete 37,3 Millionen Euro – was zur Kritik des Rechnungshofs führte",
-          "publishedAt": "2026-07-22T06:00:00.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "c666e58e2a769d5b0283bfbc79402ab20a76bc3c765f833e7177fea631073a85",
-          "sourceId": "orf_oesterreich",
-          "sourceType": "media",
-          "title": "Antheringer Au: Land kauft Grundstück für Parkplatz",
-          "url": "https://salzburg.orf.at/stories/3363471",
-          "isNew": false
-        },
-        {
-          "itemId": "241872d3199c18675adf5faf7018cbe9f6f29d6c093a5b2def7916993705a33c",
-          "sourceId": "orf_salzburg",
-          "sourceType": "media",
-          "title": "Antheringer Au: Land kauft Grundstück für Parkplatz",
-          "url": "https://salzburg.orf.at/stories/3363471",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-22T06:07:29.885Z"
-    },
-    {
-      "clusterId": "cluster-20260721-b033c1a8",
-      "title": "Preis-Studie: Elektroautos seit 2020 deutlich billiger geworden",
-      "score": 0.75,
-      "items": [
-        {
-          "itemId": "abcff6905fbb8669a10402077cffe0fa37837efaed90b7a843b005ca1de18c8b",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Preis-Studie: Elektroautos seit 2020 deutlich billiger geworden",
-          "url": "https://kurier.at/motor/news/elektroautos-seit-2020-deutlich-billiger-geworden-verbrenner-teurer/403177322",
-          "summary": "Experten sehen bei den Preisen eine deutliche Verschiebung im Vergleich zu Verbrennern.",
-          "publishedAt": "2026-07-21T10:27:30.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "9439ea4354c12806ab1fe54ec9089e6a1fe25c85060e29e07c047919b6caa3af",
-          "sourceId": "diepresse_home",
-          "sourceType": "media",
-          "title": "Elektroautos wurden deutlich billiger [premium]",
-          "url": "https://www.diepresse.com/38496326/elektroautos-wurden-deutlich-billiger",
-          "isNew": false
-        },
-        {
-          "itemId": "900fd314655dc06dafb445a73352ef42cb1cf91a68bf79ceec40e66cef7a6499",
-          "sourceId": "diepresse_wirtschaft",
-          "sourceType": "media",
-          "title": "Elektroautos wurden deutlich billiger [premium]",
-          "url": "https://www.diepresse.com/38496326/elektroautos-wurden-deutlich-billiger",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-21T12:07:25.257Z"
-    },
-    {
-      "clusterId": "cluster-20260721-726f04c5",
-      "title": "Grand Hotel Sauerhof in Baden vor neuem Leben",
-      "score": 0.75,
-      "items": [
-        {
-          "itemId": "2f49964846515f41eca1ea64c0eb582dd5ef89e1d80bfbb3102daa954a9d7044",
-          "sourceId": "orf_oesterreich",
-          "sourceType": "media",
-          "title": "Grand Hotel Sauerhof in Baden vor neuem Leben",
-          "url": "https://noe.orf.at/stories/3363510",
-          "summary": "Das nach einem Konkurs seit mehr als zwölf Jahren geschlossene Grand Hotel Sauerhof in Baden soll zu neuem Leben erweckt werden.  Das Investitionsvolumen wurde mit 40 Millionen Euro beziffert. Angebote von zwei namhaften Hotelbetreibern lägen vor.",
-          "publishedAt": "2026-07-21T06:19:48.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "80f8fafdcd6bdd3233360ea2aa20d525860c7b7f8ac9dc21c432087a81012db7",
-          "sourceId": "orf_noe",
-          "sourceType": "media",
-          "title": "Grand Hotel Sauerhof in Baden vor neuem Leben",
-          "url": "https://noe.orf.at/stories/3363510",
-          "summary": "Das nach einem Konkurs seit mehr als zwölf Jahren geschlossene Grand Hotel Sauerhof in Baden soll zu neuem Leben erweckt werden.  Das Investitionsvolumen wurde mit 40 Millionen Euro beziffert. Angebote von zwei namhaften Hotelbetreibern lägen vor.",
-          "publishedAt": "2026-07-21T06:19:48.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "58d6c6985e0df6615fbc616e9195f3895ab7b91c5adf3573738a1584b0f74487",
-          "sourceId": "kurier_chronik",
-          "sourceType": "media",
-          "title": "Sauerhof Baden: Endlich neues Leben im alten Grand Hotel",
-          "url": "https://kurier.at/chronik/niederoesterreich/sauerhof-baden-grand-hotel-revitalisierung/403177077",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-21T08:07:29.868Z"
-    },
-    {
-      "clusterId": "cluster-20260722-ad9453f6",
-      "title": "Immer mehr Sahara-Sand belastet die Luft in Europa",
-      "score": 0.725,
-      "items": [
-        {
-          "itemId": "5d3b338bb092898f735dbc8359589df7fb87729e2380ce4b99817d1d1d1c7635",
-          "sourceId": "derstandard_wissenschaft",
-          "sourceType": "media",
-          "title": "Immer mehr Sahara-Sand belastet die Luft in Europa",
-          "url": "https://www.derstandard.at/story/3000000332445/immer-mehr-sahara-sand-belastet-die-luft-in-europa",
-          "summary": "Die Konzentration von Wüstenstaub hat sich im vergangenen Jahrzehnt vervielfacht. Das hat mit Hitzewellen infolge des Klimawandels zu tun – und hat Folgen für die Gesundheit",
-          "publishedAt": "2026-07-22T10:05:40.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "93add45c9ba21bd62934b8c264ea4dba715d0e7aeea033997435c961c6142a9b",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Immer mehr Sahara-Staub in der Luft: Todeszahlen in Europa steigen",
-          "url": "https://kurier.at/wissen/gesundheit/sahara-wuesten-staub-nimmt-zu-lungenkranke-herzkranke-todeszahlen/403177137",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-22T10:07:32.134Z"
-    },
-    {
-      "clusterId": "cluster-20260722-025d8cef",
-      "title": "On the run for 20 years, most-wanted fugitive caught hiding as a biotech exec",
-      "score": 0.725,
-      "items": [
-        {
-          "itemId": "5aa2cfba142a5dedd5f3f0668cc8b816b4f16b1c422bf941af6fa0a9a08186c2",
-          "sourceId": "arstechnica",
-          "sourceType": "media",
-          "title": "On the run for 20 years, most-wanted fugitive caught hiding as a biotech exec",
-          "url": "https://arstechnica.com/health/2026/07/on-the-run-for-20-years-most-wanted-fugitive-caught-hiding-as-a-biotech-exec",
-          "summary": "Ronald Fischer, aka Richard Graydon, was arrested in New York last week.",
-          "publishedAt": "2026-07-21T22:04:56.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "618293060852ce612073a833c2f9f0084525846f12cd4d020e5cabb247351d9b",
-          "sourceId": "techcrunch",
-          "sourceType": "media",
-          "title": "StrictlyVC returns to New York City September 10 to celebrate a huge year for the city’s startup community",
-          "url": "https://techcrunch.com/2026/07/20/strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community",
-          "isNew": false
-        },
-        {
-          "itemId": "5ac81cafc134915be59d199de1122c5fc7d48a0b1a969ab5e2307a6a9e56a033",
-          "sourceId": "theverge",
-          "sourceType": "media",
-          "title": "The Switch 2 is $50 off at Woot for new customers",
-          "url": "https://www.theverge.com/gadgets/968325/woot-switch-2-coupon-discount-code-deal-sale",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-22T00:07:27.750Z"
     }
   ]
 }
