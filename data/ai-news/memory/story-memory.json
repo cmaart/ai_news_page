@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T20:27:13.453Z",
+  "updatedAt": "2026-07-22T22:21:11.499Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -7448,9 +7448,9 @@
       "echoPublishers": {
         "derstandard": "2026-07-22T14:07:28.277Z"
       },
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-22T00:07:27.750Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-22T22:07:30.667Z"
     },
     "huthi-miliz-warnung-belagerung-saudi-arabien-juli-2026": {
       "canonicalTitle": "Huthi-Miliz verhängt „Seeblockade“ gegen Saudi-Arabien",
@@ -9747,7 +9747,10 @@
         "orf": "2026-07-22T18:07:32.611Z",
         "derstandard": "2026-07-22T20:07:33.174Z",
         "kurier": "2026-07-22T20:07:33.174Z"
-      }
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-22T22:07:30.667Z"
     },
     "polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026": {
       "canonicalTitle": "Polizeizentrum im umgebauten Hitler-Geburtshaus in Braunau eröffnet",
@@ -10049,6 +10052,88 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-23T18:07:32.611Z",
       "doNotUpdateBefore": "2026-07-23T00:07:32.611Z"
+    },
+    "usa-saudi-arabien-atomabkommen-juli-2026": {
+      "canonicalTitle": "USA und Saudi-Arabien besiegeln Atom-Kooperationsabkommen – Kritik an fehlenden Schutzklauseln",
+      "slug": "usa-saudi-arabien-atomabkommen-juli-2026",
+      "firstSeenAt": "2026-07-22T22:07:30.667Z",
+      "lastUpdatedAt": "2026-07-22T22:07:30.667Z",
+      "status": "published",
+      "articlePath": "src/content/articles/usa-saudi-arabien-atomabkommen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-22/usa-saudi-arabien-atomabkommen-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332571/us-regierung-genehmigte-atom-deal-mit-saudi-arabien",
+        "https://kurier.at/politik/ausland/us-regierung-genehmigte-atom-deal-mit-saudi-arabien/403177655",
+        "https://www.diepresse.com/38849344/trump-fixiert-brisanten-atom-deal-mit-saudis-abkommen-koennte-wettlauf-um-die-atombombe-in-nahost-in-gang-setzen",
+        "https://www.energy.gov/articles/us-energy-secretary-and-saudi-arabias-energy-minister-announce-deal-civil-nuclear",
+        "https://www.cnn.com/2026/07/22/politics/us-saudi-nuclear-deal",
+        "https://www.usnews.com/news/top-news/articles/2026-07-21/trump-to-seek-congress-approval-for-saudi-arabia-nuclear-energy-pact-that-lacks-safeguards-sources-say",
+        "https://www.markey.senate.gov/news/press-releases/markey-statement-on-trump-caving-to-the-saudis-on-nuclear-nonproliferation"
+      ],
+      "openQuestions": [
+        "Wie lautet der vollständige, öffentlich nicht einsehbare Text des unterzeichneten Abkommens?",
+        "Bestätigt eine offizielle Stelle – etwa die IAEA selbst oder die US-Regierung direkt – das Fehlen von Gold-Standard und Zusatzprotokoll?",
+        "Hängt eine mögliche saudische Urananreicherung tatsächlich von einer gemeinsamen Machbarkeitsstudie ab, wie einzelne Berichte andeuten?",
+        "Wie entscheidet der US-Kongress bei der anstehenden Prüfung, und findet sich dort eine Mehrheit gegen das Abkommen?",
+        "Wie reagiert der Iran offiziell auf das Abkommen?",
+        "Äußert sich die saudische Regierung selbst ausführlich zu den berichteten fehlenden Schutzklauseln?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-23T22:07:30.667Z",
+      "doNotUpdateBefore": "2026-07-23T04:07:30.667Z",
+      "pendingOutcome": "Ausgang der anstehenden Prüfung des Abkommens durch den US-Kongress, der das Abkommen billigen oder per Einspruch blockieren könnte.",
+      "pendingOutcomeUntil": "2026-07-24T22:07:30.667Z"
+    },
+    "samsung-mistral-investment-juli-2026": {
+      "canonicalTitle": "Samsung erwägt laut Medienbericht Milliarden-Investment beim KI-Start-up Mistral",
+      "slug": "samsung-mistral-investment-juli-2026",
+      "firstSeenAt": "2026-07-22T22:07:30.667Z",
+      "lastUpdatedAt": "2026-07-22T22:07:30.667Z",
+      "status": "published",
+      "articlePath": "src/content/articles/samsung-mistral-investment-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-22/samsung-mistral-investment-juli-2026.json",
+      "sourceUrls": [
+        "https://www.heise.de/news/Samsung-prueft-angeblich-Milliarden-Einstieg-beim-KI-Start-up-Mistral-11374162.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://orf.at/stories/3436923",
+        "https://the-decoder.de/samsung-verhandelt-ueber-milliarden-investition-in-mistrals-naechste-finanzierungsrunde",
+        "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/"
+      ],
+      "openQuestions": [
+        "Kommt es tatsächlich zu dem Samsung-Investment, und in welcher Höhe und Struktur würde es erfolgen?",
+        "Äußern sich Samsung oder Mistral offiziell zu dem Bericht der Financial Times?",
+        "Welche und wie viele Mistral-Modelle werden konkret tiefer in Microsoft-Plattformen integriert – Berichte nennen unterschiedliche Zahlen?",
+        "In welcher konkreten Höhe bewegt sich die milliardenschwere Infrastrukturvereinbarung zwischen Microsoft und Mistral?",
+        "Wie reagieren europäische Politik oder Behörden auf die strategische Bedeutung dieser Investments für die europäische KI-Souveränität?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-23T22:07:30.667Z",
+      "doNotUpdateBefore": "2026-07-23T04:07:30.667Z",
+      "pendingOutcome": "Bestätigung, Dementi oder offizieller Abschluss der Samsung-Beteiligung an Mistrals Finanzierungsrunde.",
+      "pendingOutcomeUntil": "2026-07-24T22:07:30.667Z"
+    },
+    "bregenzer-festspiele-eroeffnung-juli-2026": {
+      "canonicalTitle": "Van der Bellen eröffnet die 80. Bregenzer Festspiele",
+      "slug": "bregenzer-festspiele-eroeffnung-juli-2026",
+      "firstSeenAt": "2026-07-22T22:07:30.667Z",
+      "lastUpdatedAt": "2026-07-22T22:07:30.667Z",
+      "status": "published",
+      "articlePath": "src/content/articles/bregenzer-festspiele-eroeffnung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-22/bregenzer-festspiele-eroeffnung-juli-2026.json",
+      "sourceUrls": [
+        "https://vorarlberg.orf.at/stories/3363768",
+        "https://www.derstandard.at/story/3000000332507/van-der-bellen-eroeffnete-bregenzer-festspiele-liberale-demokratie-als-ideal",
+        "https://www.derstandard.at/story/3000000332413/van-der-bellen-bei-den-bregenzer-festspielen-demokratie-ist-eine-taegliche-uebung",
+        "https://www.kleinezeitung.at/artikel/38833618/die-freie-liberale-demokratie-ist-eine-taegliche-uebung",
+        "https://www.bundespraesident.at/aktuelles/detail/bregenzer-festspiele-wir-gehoeren-zusammen-weil-wir-alle-oesterreich-sind"
+      ],
+      "openQuestions": [
+        "Wie viele Besucherinnen und Besucher waren bei der Eröffnung tatsächlich vor Ort?",
+        "Liegen vollständige Redetexte von Van der Bellen und Babler vor, oder nur die von Medien zitierten Ausschnitte?",
+        "Wird die Angabe, alle 28 „La traviata“-Vorstellungen seien seit Ostern ausverkauft, durch eine offizielle Mitteilung der Festspiele bestätigt?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-23T22:07:30.667Z",
+      "doNotUpdateBefore": "2026-07-23T04:07:30.667Z"
     }
   }
 }
