@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T06:23:52.496Z",
+  "updatedAt": "2026-07-22T08:23:15.292Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3122,7 +3122,9 @@
         "derstandard": "2026-07-22T04:07:26.604Z",
         "kurier": "2026-07-21T18:07:37.048Z",
         "orf": "2026-07-21T20:07:32.994Z",
-        "diepresse": "2026-07-21T20:07:32.994Z"
+        "diepresse": "2026-07-21T20:07:32.994Z",
+        "kleinezeitung": "2026-07-22T08:07:25.952Z",
+        "golem": "2026-07-22T08:07:25.952Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -7064,11 +7066,12 @@
       "pendingOutcome": "Offen ist, ob das ZDF offiziell auf den Fernsehrats-Brief reagiert, ob der Fernsehrat als Gesamtgremium eine Position bezieht, wie die „Aspekte“-Sondersendung ausfällt und ob es weitere Konsequenzen aus dem Streit gibt.",
       "pendingOutcomeUntil": "2026-07-23T06:07:29.682Z",
       "echoPublishers": {
-        "kurier": "2026-07-21T12:07:25.257Z"
+        "kurier": "2026-07-21T12:07:25.257Z",
+        "diepresse": "2026-07-22T08:07:25.952Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-21T16:07:28.905Z"
+      "resonanceMeasuredAt": "2026-07-22T08:07:25.952Z"
     },
     "messi-yamal-badewannenfoto-wm-finale-2026": {
       "canonicalTitle": "Messi zum Badewannenfoto mit Yamal: „Es ist verrückt“, dass wir nun im WM-Finale stehen",
@@ -7973,7 +7976,7 @@
       "doNotRedraftBefore": "2026-07-21T02:56:10.912Z",
       "doNotUpdateBefore": "2026-07-20T08:56:10.912Z",
       "echoPublishers": {
-        "apa": "2026-07-21T10:07:26.641Z"
+        "apa": "2026-07-22T08:07:25.952Z"
       }
     },
     "tate-brueder-festnahme-miami-juli-2026": {
@@ -9117,7 +9120,15 @@
       "doNotRedraftBefore": "2026-07-21T22:07:34.229Z",
       "doNotUpdateBefore": "2026-07-21T04:07:34.229Z",
       "pendingOutcome": "Ergebnis der laufenden Prüfung von Hugging Face, ob Partner- oder Kundendaten durch den Angriff betroffen sind.",
-      "pendingOutcomeUntil": "2026-07-22T22:07:34.229Z"
+      "pendingOutcomeUntil": "2026-07-22T22:07:34.229Z",
+      "echoPublishers": {
+        "heise": "2026-07-22T08:07:25.952Z",
+        "golem": "2026-07-22T08:07:25.952Z",
+        "thedecoder": "2026-07-22T08:07:25.952Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-22T08:07:25.952Z"
     },
     "google-rechenzentrum-kronstorf-protest-uvp-2026": {
       "canonicalTitle": "Google-Rechenzentrum in Kronstorf: Protest gegen Ausbau ohne Umweltprüfung",
@@ -9377,36 +9388,44 @@
       "doNotUpdateBefore": "2026-07-21T20:07:25.946Z"
     },
     "fpoe-identitaere-chats-sellner-ermittlungsakten-juli-2026": {
-      "canonicalTitle": "Chats aus Ermittlungsakten: STANDARD-Recherche zeigt Nähe zwischen FPÖ und Identitären – Sellner drohte offenbar mit eigener Partei",
+      "canonicalTitle": "Chats aus Ermittlungsakten: STANDARD-Recherche zeigt Nähe zwischen FPÖ und Identitären – ÖVP nennt Kurs „staatsgefährdend“",
       "slug": "fpoe-identitaere-chats-sellner-ermittlungsakten-juli-2026",
       "firstSeenAt": "2026-07-21T14:07:25.946Z",
-      "lastUpdatedAt": "2026-07-21T14:07:25.946Z",
+      "lastUpdatedAt": "2026-07-22T08:07:25.952Z",
       "status": "published",
       "articlePath": "src/content/articles/fpoe-identitaere-chats-sellner-ermittlungsakten-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-21/fpoe-identitaere-chats-sellner-ermittlungsakten-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-22/fpoe-identitaere-chats-sellner-ermittlungsakten-juli-2026-update-800.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000332251/geheime-chats-zeigen-naehe-zwischen-fpoe-und-identitaeren-und-wie-sellner-der-partei-subtil-drohte",
         "https://www.diepresse.com/38770855/chats-legen-weitere-verbindungen-zwischen-identitaeren-und-fpoe-nahe",
         "https://kurier.at/politik/inland/identitaere-chats-zeigen-weitere-verquickungen-mit-der-fpoe/403177365",
-        "https://kurier.at/politik/inland/identitaere-chats-zeigen-weitere-verquickungen-mit-der-fpoe/403177370"
+        "https://kurier.at/politik/inland/identitaere-chats-zeigen-weitere-verquickungen-mit-der-fpoe/403177370",
+        "https://www.derstandard.at/story/3000000332414/identitaere-chats-oevp-sieht-kurs-der-fpoe-als-staatsgefaehrdend",
+        "https://www.ots.at/presseaussendung/OTS_20260721_OTS0091/spoe-seltenheim-neue-enthuellungen-zeichnen-erschreckendes-bild-engster-verbindungen-zwischen-der-fpoe-und-den-identitaeren",
+        "https://www.ots.at/presseaussendung/OTS_20260721_OTS0094/gerstl-naehe-der-kickl-fpoe-zur-rechtsextremen-identitaeren-bewegung-staats-und-demokratiegefaehrdend",
+        "https://www.ots.at/presseaussendung/OTS_20260721_OTS0090/neos-wie-lange-wollen-kickl-und-rosenkranz-die-identitaeren-im-parlament-noch-dulden",
+        "https://www.ots.at/presseaussendung/OTS_20260721_OTS0089/hammer-zu-geheimen-chats-zwischen-fpoe-und-identitaeren-kickl-muss-sich-endlich-von-rechtsextremen-schlaegertrupps-distanzieren"
       ],
       "openQuestions": [
-        "Wie reagieren FPÖ, Heinrich Sickl, Reinhard Teufel, Herbert Kickl, Heinz-Christian Strache und Harald Vilimsky auf die Vorwürfe?",
+        "Wie reagieren FPÖ-Chef Herbert Kickl, Heinrich Sickl, Reinhard Teufel, Heinz-Christian Strache und Harald Vilimsky inhaltlich auf die Vorwürfe und auf die Kritik von ÖVP, SPÖ, Grünen und NEOS?",
         "Gibt es eine von der STANDARD-Recherche unabhängige Bestätigung der Ermittlungsakten und Chat-Auszüge, etwa durch Sicherheitsbehörden?",
         "Wer ist der in den Chats erwähnte RFJ-Funktionär 'Michael', über den Sellner Informationen zum UN-Migrationspakt erhalten haben soll?",
-        "Trifft die in den Chats sinngemäß wiedergegebene Einschätzung zu, die Identitären könnten der FPÖ als eigene Partei bis zu fünf Prozent der Wählerstimmen abnehmen?",
+        "Setzt sich aus der von NEOS vorgeschlagenen Sicherheitsüberprüfung von Parlamentsmitarbeitern tatsächlich ein konkretes Verfahren in Gang?",
         "Wird der Fall im Zuge eines parlamentarischen oder behördlichen Verfahrens weiterverfolgt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-22T14:07:25.946Z",
-      "doNotUpdateBefore": "2026-07-21T20:07:25.946Z",
+      "doNotRedraftBefore": "2026-07-23T08:07:25.952Z",
+      "doNotUpdateBefore": "2026-07-22T14:07:25.952Z",
+      "pendingOutcome": "Eine Stellungnahme der FPÖ-Führung (Kickl, Rosenkranz) sowie mögliche parlamentarische oder behördliche Konsequenzen – etwa die von NEOS vorgeschlagene Sicherheitsüberprüfung von Parlamentsmitarbeitern – stehen noch aus.",
+      "pendingOutcomeUntil": "2026-07-24T08:07:25.952Z",
       "echoPublishers": {
         "apa": "2026-07-21T16:07:28.905Z",
-        "kleinezeitung": "2026-07-21T18:07:37.048Z"
+        "kleinezeitung": "2026-07-21T18:07:37.048Z",
+        "derstandard": "2026-07-22T08:07:25.952Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-21T18:07:37.048Z"
+      "resonanceMeasuredAt": "2026-07-22T08:07:25.952Z"
     },
     "tod-abderrahim-fakir-bologna-proteste-juli-2026": {
       "canonicalTitle": "Tod eines Marokkaners bei Polizeieinsatz in Bologna löst Proteste in Italien aus",
@@ -9544,7 +9563,10 @@
       "doNotRedraftBefore": "2026-07-23T00:07:27.750Z",
       "doNotUpdateBefore": "2026-07-22T06:07:27.750Z",
       "pendingOutcome": "Ergebnisse der für Donnerstag angesetzten Halbfinal- und Finalläufe im Kajak-Einer sowie des Kajak-Cross-K.-o.-Bewerbs am Samstag mit österreichischer Beteiligung.",
-      "pendingOutcomeUntil": "2026-07-24T00:07:27.750Z"
+      "pendingOutcomeUntil": "2026-07-24T00:07:27.750Z",
+      "echoPublishers": {
+        "orf": "2026-07-22T08:07:25.952Z"
+      }
     },
     "minuszuwanderung-asylbilanz-erstes-halbjahr-2026": {
       "canonicalTitle": "„Minuszuwanderung“: Erstmals seit über 20 Jahren mehr Abschiebungen als neue Asylanträge in Österreich",
@@ -9721,6 +9743,56 @@
         "Einordnung durch unabhängige Sicherheitsexperten oder Kriegsbeobachter zur Plausibilität der Vorwürfe"
       ],
       "sensitivity": "high"
+    },
+    "olaf-tufte-olympiasieger-rudern-gestorben-juli-2026": {
+      "canonicalTitle": "Rudern: Norwegens Doppel-Olympiasieger Olaf Tufte mit 50 Jahren gestorben",
+      "slug": "olaf-tufte-olympiasieger-rudern-gestorben-juli-2026",
+      "firstSeenAt": "2026-07-22T08:07:25.952Z",
+      "lastUpdatedAt": "2026-07-22T08:07:25.952Z",
+      "status": "published",
+      "articlePath": "src/content/articles/olaf-tufte-olympiasieger-rudern-gestorben-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-22/olaf-tufte-olympiasieger-rudern-gestorben-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332444/rudern-norwegens-doppel-olympiasieger-tufte-mit-50-jahren-gestorben",
+        "https://kurier.at/sport/todesfall-sport-rudern-olaf-tufte-olympiasieger/403177441",
+        "https://www.kleinezeitung.at/artikel/38849680/norwegischer-doppel-olympiasieger-mit-nur-50-jahren-verstorben",
+        "https://www.nrk.no/sport/olaf-tufte-_50_-er-dod-1.17965080",
+        "https://www.srf.ch/sport/mehr-sport/rudern/todesursache-noch-unklar-ruder-ikone-tufte-stirbt-mit-erst-50-jahren"
+      ],
+      "openQuestions": [
+        "Welche genaue Todesursache liegt vor?",
+        "Gibt es bereits Termine für eine Trauerfeier oder Beisetzung?",
+        "Wird es eine offizielle Stellungnahme von Familie oder norwegischem Ruderverband mit weiteren Details geben?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-23T08:07:25.952Z",
+      "doNotUpdateBefore": "2026-07-22T14:07:25.952Z"
+    },
+    "klebetattoos-kinder-chemikalien-test-juli-2026": {
+      "canonicalTitle": "AK-Test: 13 von 15 Kinder-Klebetattoos mit verbotenen Chemikalien belastet",
+      "slug": "klebetattoos-kinder-chemikalien-test-juli-2026",
+      "firstSeenAt": "2026-07-22T08:07:25.952Z",
+      "lastUpdatedAt": "2026-07-22T08:07:25.952Z",
+      "status": "published",
+      "articlePath": "src/content/articles/klebetattoos-kinder-chemikalien-test-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-22/klebetattoos-kinder-chemikalien-test-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332433/schwermetalle-und-pfas-bei-test-in-klebetattoos-f252r-kinder-gefunden",
+        "https://www.kleinezeitung.at/artikel/38843768/labor-test-schwermetalle-und-pfas-in-kinder-klebetattos",
+        "https://www.ots.at/presseaussendung/OTS_20260722_OTS0001/greenpeaceak-ooe-test-verbotene-chemikalien-in-klebetattoos-fuer-kinder-gefunden-bild-grafik",
+        "https://kurier.at/wissen/gesundheit/kinder-tattoos-test-labor-chemikalien-schwermetalle-pfas/403177424",
+        "https://ooe.arbeiterkammer.at/service/testsundpreisvergleiche/tests/Sehr-viele-Chemikalien-in-Klebetattoos.html",
+        "https://www.nachrichten.at/oberoesterreich/test-zeigt-schadstoffe-in-kinder-klebetattoos-von-amazon-mueller-und-thalia;art4,4194564"
+      ],
+      "openQuestions": [
+        "Welche konkreten Produkte bzw. Marken der getesteten Klebetattoos sind im Detail betroffen, und liegt der vollständige Laborbericht öffentlich vor?",
+        "Wie reagieren die betroffenen Handelsplattformen und Hersteller auf die Testergebnisse?",
+        "Welche konkreten Schritte plant das zuständige Ministerium nach der angekündigten Prüfung, und in welchem Zeitrahmen?",
+        "Wird die geforderte Berücksichtigung von Cocktail-Effekten bei Chemikalien-Grenzwerten oder ein EU-weites PFAS-Verbot politisch aufgegriffen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-23T08:07:25.952Z",
+      "doNotUpdateBefore": "2026-07-22T14:07:25.952Z"
     }
   }
 }
