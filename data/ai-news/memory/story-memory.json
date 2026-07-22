@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T02:25:46.724Z",
+  "updatedAt": "2026-07-22T04:24:59.835Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2828,13 +2828,12 @@
       "doNotRedraftBefore": "2026-07-21T20:07:34.132Z",
       "doNotUpdateBefore": "2026-07-21T02:07:34.132Z",
       "echoPublishers": {
-        "derstandard": "2026-07-21T04:07:26.098Z",
         "diepresse": "2026-07-21T06:07:29.682Z",
         "orf": "2026-07-22T02:07:34.550Z"
       },
       "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-21T04:07:26.098Z"
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-22T04:07:26.604Z"
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -2951,13 +2950,13 @@
       "echoPublishers": {}
     },
     "us-iran-eskalation-strasse-von-hormuz-juli-2026": {
-      "canonicalTitle": "„Erhebliche Eskalation“ hält an: USA greifen zehnte Nacht in Folge Ziele im Iran an",
+      "canonicalTitle": "„Erhebliche Eskalation“ hält an: USA greifen elfte Nacht in Folge Ziele im Iran an, Luftabwehr in Teheran erstmals wieder aktiv",
       "slug": "us-iran-eskalation-strasse-von-hormuz-juli-2026",
       "firstSeenAt": "2026-07-13T06:07:23.920Z",
-      "lastUpdatedAt": "2026-07-21T04:07:26.098Z",
+      "lastUpdatedAt": "2026-07-22T04:07:26.604Z",
       "status": "published",
       "articlePath": "src/content/articles/us-iran-eskalation-strasse-von-hormuz-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-21/us-iran-eskalation-strasse-von-hormuz-juli-2026-update-400.json",
+      "researchPath": "data/ai-news/research/2026-07-22/us-iran-eskalation-strasse-von-hormuz-juli-2026-update-400.json",
       "sourceUrls": [
         "https://www.kleinezeitung.at/artikel/36797456/us-militaer-greift-weitere-ziele-im-iran-an",
         "https://www.diepresse.com/36797469/erhebliche-eskalation-usa-attackieren-iran-erneut-guterres-besorgt",
@@ -2970,27 +2969,38 @@
         "https://www.kleinezeitung.at/artikel/37946345/iran-meldet-us-angriffe-auf-bruecken",
         "https://www.derstandard.at/story/3000000331834/iran-meldet-us-angriffe-auf-br252cken",
         "https://www.derstandard.at/story/3000000331983/siebente-nacht-in-folge-neue-us-angriffe-gegen-den-iran",
-        "https://orf.at/stories/3436755"
+        "https://orf.at/stories/3436755",
+        "https://www.derstandard.at/story/3000000332400/explosionen-in-teheran-nach-neuer-us-angriffswelle",
+        "https://www.diepresse.com/38843676/explosionen-auch-in-teheran-usa-fliegen-neue-angriffswelle-auf-iran",
+        "https://orf.at/stories/3436676",
+        "https://kurier.at/politik/ausland/usa-iran-angriffe-kampfjets-hormus-schiff-flammen/403176991",
+        "https://www.diepresse.com/38462434/usa-greifen-iran-zehnte-nacht-in-folge-an-neue-angebliche-ruck-aussagen-irritieren-oevp-unsportlichkeiten-fifa-prueft-argentinien",
+        "https://orf.at/stories/3436895",
+        "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4540919/us-forces-finish-latest-round-of-strikes-against-iran/"
       ],
       "openQuestions": [
         "Wie viele Angriffswellen es seit Beginn der Eskalation insgesamt gab und mit welchem tatsächlichen Schadensausmaß auf beiden Seiten.",
-        "Welche Ursache die gemeldeten Schiffsbrände in der Straße von Hormuz tatsächlich hatten und ob sie auf US-Angriffe, iranische Aktionen oder andere Umstände zurückgehen.",
+        "Welche Ursache die gemeldeten Schiffsbrände in der Straße von Hormus tatsächlich hatten und ob sie auf US-Angriffe, iranische Aktionen oder andere Umstände zurückgehen.",
         "Wie belastbar die iranischen Angaben zu Toten und Verletzten bei den Gegenschlägen gegen Golfstaaten sind und ob es davon unabhängige Zählungen gibt.",
         "Ob und wann neue Verhandlungen zwischen den USA und Iran zustande kommen bzw. ob und wann die Angriffsserie endet.",
-        "Wie stark sich die Lage weiterhin auf den globalen Schiffsverkehr durch die Straße von Hormuz und auf die Energiepreise auswirkt."
+        "Wie stark sich die Lage weiterhin auf den globalen Schiffsverkehr durch die Straße von Hormus und auf die Energiepreise auswirkt.",
+        "Wie umfangreich die Flugabwehr-Aktivität in Teheran tatsächlich war und ob es dabei zu Schäden oder Opfern kam – bislang nur über iranische Staatsmedien berichtet.",
+        "Setzt Trump seine Drohung gegen die Anlage Kuh-e Kolang („Pickaxe Mountain“) tatsächlich um, und was ergibt eine unabhängige Einschätzung von Bautiefe und nuklearer Nutzung der Anlage?",
+        "Bestätigt sich, dass die Angriffsserie nach der elften Nacht fortgesetzt wird, oder zeichnet sich eine Deeskalation ab?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-22T04:07:26.098Z",
-      "doNotUpdateBefore": "2026-07-21T10:07:26.098Z",
-      "pendingOutcome": "Ob und wann die Angriffsserie zwischen den USA und Iran endet, ob es zu einer Deeskalation oder neuen Verhandlungen kommt und wie sich die gemeldeten Schäden und Opferzahlen unabhängig verifizieren lassen, ist weiterhin offen.",
+      "doNotRedraftBefore": "2026-07-23T04:07:26.604Z",
+      "doNotUpdateBefore": "2026-07-22T10:07:26.604Z",
+      "pendingOutcome": "Ob die Angriffsserie über die elfte Nacht hinaus fortgesetzt wird, ob Trumps Drohung gegen die Anlage Kuh-e Kolang tatsächlich umgesetzt wird und ob es zu einer Deeskalation oder neuen Verhandlungen zwischen den USA und Iran kommt, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-07-23T04:07:26.098Z",
       "echoPublishers": {
         "orf": "2026-07-21T06:07:29.682Z",
-        "diepresse": "2026-07-21T06:07:29.682Z"
+        "diepresse": "2026-07-22T04:07:26.604Z",
+        "derstandard": "2026-07-22T04:07:26.604Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-21T06:07:29.682Z"
+      "resonanceMeasuredAt": "2026-07-22T04:07:26.604Z"
     },
     "borkenkaefer-kaernten-klagenfurt-brennpunkt-juli-2026": {
       "canonicalTitle": "Borkenkäfer in Kärnten: Einige Bezirke entspannt, Klagenfurt und Unterkärnten im Blick",
@@ -3061,10 +3071,10 @@
       "canonicalTitle": "Social-Media-Mindestalter: Frankreichs Parlament beschließt Verbot unter 15 Jahren, Großbritannien plant nächtliche Sperre, Österreichs Entwurf weiter offen",
       "slug": "eu-bericht-mindestalter-social-media-juli-2026",
       "firstSeenAt": "2026-07-13T08:07:26.141Z",
-      "lastUpdatedAt": "2026-07-21T18:07:37.048Z",
+      "lastUpdatedAt": "2026-07-22T04:07:26.604Z",
       "status": "published",
       "articlePath": "src/content/articles/eu-bericht-mindestalter-social-media-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-21/eu-bericht-mindestalter-social-media-juli-2026-update-1800.json",
+      "researchPath": "data/ai-news/research/2026-07-22/eu-bericht-mindestalter-social-media-juli-2026-update-400.json",
       "sourceUrls": [
         "https://www.heise.de/news/Social-Media-Verbot-Koennte-ein-EU-Bericht-den-Weg-ebnen-11362196.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "https://www.derstandard.at/story/3000000330491/jugendliche-und-social-media-verbote-haben-noch-nie-funktioniert",
@@ -3087,7 +3097,11 @@
         "https://www.heise.de/news/Frankreich-Social-Media-Verbot-fuer-Unter-15-Jaehrige-wohl-nach-den-Sommerferien-11371755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-proteger-les-mineurs-des-risques-auxquels-les-expose-lutilisation-des-reseaux-sociaux.html",
         "https://www.publicsenat.fr/actualites/politique/reseaux-sociaux-deputes-et-senateurs-saccordent-sur-une-interdiction-totale-aux-moins-de-15-ans",
-        "https://www.franceinfo.fr/internet/reseaux-sociaux/interdiction-des-reseaux-sociaux-aux-moins-de-15-ans-telephones-interdits-au-lycee-ce-que-contient-la-proposition-de-loi-qui-doit-etre-votee-ce-mardi_8115896.html"
+        "https://www.franceinfo.fr/internet/reseaux-sociaux/interdiction-des-reseaux-sociaux-aux-moins-de-15-ans-telephones-interdits-au-lycee-ce-que-contient-la-proposition-de-loi-qui-doit-etre-votee-ce-mardi_8115896.html",
+        "https://www.derstandard.at/story/3000000332342/social-media-verbot-die-digitale-gefahr-endet-nicht-am-14-geburtstag",
+        "https://orf.at/stories/3436868",
+        "https://orf.at/stories/3436877",
+        "https://www.diepresse.com/38839035/frankreich-beschliesst-social-media-verbot-fuer-unter-15-jaehrige"
       ],
       "openQuestions": [
         "Wie wird die technische Altersverifikation in Frankreich konkret umgesetzt, welche Anbieter (etwa France Identité oder ein Docaposte-Tool) kommen zum Einsatz, und wie reagieren die betroffenen Plattformen?",
@@ -3098,23 +3112,24 @@
         "Ist das für Frühjahr 2027 geplante britische Verbot für unter 16-Jährige inzwischen vom Parlament beschlossen worden?",
         "Wie verträgt sich das nun beschlossene französische Gesetz mit einem früher berichteten Einwand der EU-Kommission gegen einen französischen Vorschlag zu Alterspflichten – handelt es sich um dieselbe Regelung oder einen anderen, früheren Entwurf?",
         "Wie repräsentativ ist die von den deutschen Verbraucherschützern zitierte Umfrage (81 Prozent der 14- bis 29-Jährigen), und wann wird der zugrunde liegende Verbraucherreport vollständig veröffentlicht?",
-        "Wie reagieren die EU-Kommission, andere Mitgliedstaaten sowie betroffene Plattformen (Meta, TikTok, Snapchat u. a.) auf das französische Gesetz und die EU-Empfehlungen insgesamt?"
+        "Wie reagieren die EU-Kommission, andere Mitgliedstaaten sowie betroffene Plattformen (Meta, TikTok, Snapchat u. a.) auf das französische Gesetz und die EU-Empfehlungen insgesamt?",
+        "Wird die von der Kommentatorin und von deutschen Verbraucherschützern geforderte Regulierung süchtig machender Plattform-Algorithmen Eingang in den angekündigten EU-Gesetzesvorschlag oder in den österreichischen Gesetzesentwurf finden, oder bleibt der Fokus dort auf reinen Alters-Zugangsbeschränkungen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-22T18:07:37.048Z",
-      "doNotUpdateBefore": "2026-07-22T00:07:37.048Z",
-      "pendingOutcome": "Offen bleiben die zeitgerechte Promulgation und die Durchführungsverordnungen zum französischen Gesetz, der Zeitpunkt des österreichischen Gesetzesentwurfs, eine mögliche Parlamentsentscheidung zum britischen Verbot für unter 16-Jährige (Frühjahr 2027) sowie der von der EU-Kommission für 'nach dem Sommer' angekündigte eigene Gesetzesvorschlag.",
+      "doNotRedraftBefore": "2026-07-23T04:07:26.604Z",
+      "doNotUpdateBefore": "2026-07-22T10:07:26.604Z",
+      "pendingOutcome": "Offen bleiben insbesondere: ob Frankreichs Gesetz fristgerecht zum 1. September 2026 in Kraft tritt und wie die Altersverifikation und Plattform-Reaktionen dort konkret aussehen; wann Österreichs seit März angekündigter, wiederholt verzögerter Gesetzesentwurf tatsächlich vorgelegt wird; ob die EU-Kommission wie angekündigt 'nach dem Sommer' einen eigenen Gesetzesvorschlag präsentiert; und ob das britische Verbot für unter 16-Jährige ab Frühjahr 2027 vom Parlament beschlossen wird.",
       "pendingOutcomeUntil": "2026-07-23T18:07:37.048Z",
       "echoPublishers": {
         "heise": "2026-07-21T10:07:26.641Z",
-        "derstandard": "2026-07-21T18:07:37.048Z",
+        "derstandard": "2026-07-22T04:07:26.604Z",
         "kurier": "2026-07-21T18:07:37.048Z",
         "orf": "2026-07-21T20:07:32.994Z",
         "diepresse": "2026-07-21T20:07:32.994Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-21T20:07:32.994Z"
+      "resonanceMeasuredAt": "2026-07-22T04:07:26.604Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -6973,7 +6988,6 @@
       "pendingOutcome": "Offen bleiben insbesondere die dauerhafte Nachfolge im Fraktionsvorsitz von CDU/CSU, die genaue interne Dynamik zwischen Merz und Spahn im Vorfeld des Rücktritts sowie die konkreten Schritte, die Österreich auf EU- und internationaler Ebene gegen Leihmutterschaft plant.",
       "pendingOutcomeUntil": "2026-07-23T04:07:26.098Z",
       "echoPublishers": {
-        "diepresse": "2026-07-21T04:07:26.098Z",
         "kleinezeitung": "2026-07-21T06:07:29.682Z"
       },
       "resonanceLevel": 2,
@@ -9609,6 +9623,31 @@
       "doNotUpdateBefore": "2026-07-22T08:07:34.550Z",
       "pendingOutcome": "Die für Herbst 2026 angekündigte Regierungsentscheidung über das endgültige Ausmaß der Uni-Budget-Kürzungen für die Periode 2028–2030.",
       "pendingOutcomeUntil": "2026-07-24T02:07:34.550Z"
+    },
+    "dino-killer-asteroid-co-chondrit-nickel-isotope-2026": {
+      "canonicalTitle": "Asteroid, der die Dinosaurier auslöschte, war ein extrem seltener Meteoritentyp",
+      "slug": "dino-killer-asteroid-co-chondrit-nickel-isotope-2026",
+      "firstSeenAt": "2026-07-22T04:07:26.604Z",
+      "lastUpdatedAt": "2026-07-22T04:07:26.604Z",
+      "status": "published",
+      "articlePath": "src/content/articles/dino-killer-asteroid-co-chondrit-nickel-isotope-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-22/dino-killer-asteroid-co-chondrit-nickel-isotope-2026.json",
+      "sourceUrls": [
+        "https://futurezone.at/science/dinosaurier-neue-erkenntnisse-killer-meteorit-impaktwinter/403177207",
+        "https://science.orf.at/stories/3236540",
+        "https://www.heise.de/news/Asteroideneinschlag-Dinosaurier-von-aeusserst-seltenem-Meteoritentyp-ausgeloescht-11370610.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Asteroideneinschlag-Dinosaurier-von-aeusserst-seltenem-Meteoritentyp-ausgeloescht-11370610.html",
+        "https://www.science.org/doi/10.1126/sciadv.aef4858"
+      ],
+      "openQuestions": [
+        "Welche Auswurflager-Standorte wurden konkret für die Nickel-Isotopen-Messungen untersucht, und wie viele Proben flossen ein?",
+        "Wer genau gehörte neben Christian Köberl und Philippe Claeys zum vollständigen Autorenteam der Studie?",
+        "Wie stark trug aufgewirbelter Staub im Vergleich zu freigesetzten Gasen (Schwefel, Kohlendioxid) zum globalen „Impaktwinter“ bei?",
+        "Wann genau erschien die Studie in „Science Advances“, und was besagt der Volltext des Abstracts über die Methodik im Detail?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-23T04:07:26.604Z",
+      "doNotUpdateBefore": "2026-07-22T10:07:26.604Z"
     }
   }
 }
