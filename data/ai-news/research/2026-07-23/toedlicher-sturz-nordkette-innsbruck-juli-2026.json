@@ -1,0 +1,209 @@
+{
+  "cluster": {
+    "id": "cluster-20260723-a1a4b759",
+    "title": "Tieflader 200 Meter abgestürzt",
+    "items": [
+      {
+        "itemId": "46b22f6516b024d472b80f7ecfb574993476898891f15c7491a691ef618ba7d3",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Tieflader 200 Meter abgestürzt",
+        "url": "https://salzburg.orf.at/stories/3363881",
+        "summary": "Vier Stunden lang hat die Feuerwehr St. Veit (Pongau) am Mittwoch bei einem aufwendigen Einsatz gebraucht, um ein Fahrzeug zu bergen. Ein landwirtschaftliches Gerät war in unwegsames Gelände abgestürzt.",
+        "publishedAt": "2026-07-23T07:17:56.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "1b08e95d755dc5c8aca034822d480e123442270936ef0d3e975d230d73c3fd3c",
+        "sourceId": "orf_salzburg",
+        "sourceType": "media",
+        "title": "Tieflader 200 Meter abgestürzt",
+        "url": "https://salzburg.orf.at/stories/3363881",
+        "summary": "Vier Stunden lang hat die Feuerwehr St. Veit (Pongau) am Mittwoch bei einem aufwendigen Einsatz gebraucht, um ein Fahrzeug zu bergen. Ein landwirtschaftliches Gerät war in unwegsames Gelände abgestürzt.",
+        "publishedAt": "2026-07-23T07:17:56.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "54ac49caee89e0ddd711f3c0971ce20c92d8e88cd08df1036ba50ba5b21b6593",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "200 Meter abgestürzt: 18-Jähriger auf Innsbrucker Nordkette verstorben",
+        "url": "https://www.derstandard.at/story/3000000332617/-18-j228hriger-st252rzte-auf-innsbrucker-nordkette-200-meter-in-den-tod",
+        "summary": "Der Mann war Teil einer Gruppe von drei Personen. Sie verloren offenbar die Orientierung und gerieten ins weglose Gelände",
+        "publishedAt": "2026-07-23T06:14:18.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "f644bd586a703d8716cdb1045e9c1e16927f3ffd7a533534e978fbcf631e383e",
+        "sourceId": "kleinezeitung_oesterreich",
+        "sourceType": "media",
+        "title": "Innsbruck: 18-Jähriger stürzt bei Abstieg von Nordkette in den Tod",
+        "url": "https://www.kleinezeitung.at/artikel/39074539/18-jaehriger-stuerzt-bei-abstieg-von-nordkette-in-den-tod",
+        "summary": "Der junge Mann stürzte rund 150 bis 200 Meter ab. Zuvor hatte er mit zwei Gleichaltrigen die Orientierung verloren, als ihre Outdoor-App im steilen Gelände ausgefallen war.",
+        "publishedAt": "2026-07-23T06:25:01.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "f205456dd9d0487d7dd2f95b120f426b450ed99aee2c38f422af1c8309f174b0",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "18-Jähriger auf Nordkette in den Tod gestürzt",
+        "url": "https://tirol.orf.at/stories/3363858",
+        "isNew": false
+      },
+      {
+        "itemId": "8e71dc327f2731bba0142107da8d55ef3f36a5f682230cd19783932230199644",
+        "sourceId": "orf_tirol",
+        "sourceType": "media",
+        "title": "18-Jähriger auf Nordkette in den Tod gestürzt",
+        "url": "https://tirol.orf.at/stories/3363858",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Cluster conflates two unrelated incidents connected only by keyword matching on '200 meters.' The substantive news is the hiking fatality on Innsbruck Nordkette (items 3–6: 18-year-old Hungarian, July 23), covered by multiple independent sources (ORF Tirol, DER STANDARD, Kleine Zeitung). The farm vehicle rescue (items 1–2) is a routine rescue operation with no casualties or systemic implications and should be ignored separately. The Nordkette incident merits its own article as a distinct tragedy with specific news angles (youth victim, navigation app failure, regional significance for Innsbruck), separate from the existing coverage of Wildspitze/Mindelheimer accidents.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "An 18-year-old Hungarian hiker fell approximately 150–200 meters on Innsbruck Nordkette on July 23, 2026",
+      "The hiker was part of a group of three who lost orientation during descent in steep, grassy, rocky terrain",
+      "A navigation app (described as 'Outdoor-App') failed while the group was in steep terrain",
+      "The hiker was found unconscious in a scree gully (Schotterrinne) and died"
+    ],
+    "missingSources": [
+      "Official police or mountain rescue investigation report on cause and circumstances",
+      "Technical details on the app failure (which app, why it failed, whether it is being investigated)",
+      "Identity and statement from the other two group members (privacy-protected)",
+      "Comment or statement from Innsbruck/Tirol mountain rescue authorities",
+      "Timeline of rescue response and recovery efforts"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "toedlicher-sturz-nordkette-innsbruck-juli-2026",
+    "title": "18-jähriger Ungar stürzt auf Innsbrucker Nordkette in den Tod",
+    "description": "Ein 18-jähriger Ungar ist bei einer Bergtour auf der Innsbrucker Nordkette rund 150 bis 200 Meter abgestürzt und ums Leben gekommen. Er war laut übereinstimmenden Berichten mit zwei gleichaltrigen Landsleuten unterwegs, die zuvor im steilen, weglosen Gelände die Orientierung verloren hatten.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Dass der 18-Jährige bei einem Sturz auf der Nordkette ums Leben kam, decken drei voneinander unabhängige Medien übereinstimmend – das gilt als bestätigt; Details zum genauen Hergang wie die angebliche App-Störung stützen sich aber nur auf eine einzelne Quelle.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine Stellungnahme oder Aussendung von Polizei oder Bergrettung eingesehen, nur Medienberichte, die sich erkennbar auf Angaben der Einsatzkräfte und der Begleiter stützen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es gibt keine widerstreitenden Perspektiven zu diesem Unfall, aber der gesamte Hergang beruht bislang nur auf einer Erzählstrenge aus zweiter Hand – ein offizieller Untersuchungsbericht liegt noch nicht vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein 18-jähriger Ungar stürzte am Mittwochnachmittag beim Abstieg von der Innsbrucker Nordkette rund 150 bis 200 Meter in die Tiefe und starb.",
+        "kind": "fact"
+      },
+      {
+        "text": "Er war laut übereinstimmenden Berichten Teil einer Gruppe von drei gleichaltrigen Ungarn, die zuvor im steilen, weglosen Gelände die Orientierung verloren hatten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Kleine Zeitung soll dabei eine Outdoor-Navigations-App im steilen Gelände ausgefallen sein; diese Angabe wird von den anderen vorliegenden Quellen nicht bestätigt.",
+        "kind": "open"
+      },
+      {
+        "text": "Ein offizieller Bericht von Polizei oder Bergrettung zum genauen Unfallhergang und zur Unfallursache liegt bislang nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie kam es genau zum Sturz während des Abstiegs, und welche Rolle spielte dabei das Gelände oder die Ausrüstung der Gruppe?",
+      "Ist tatsächlich eine Navigations-App ausgefallen, und wenn ja, welche und aus welchem Grund?",
+      "Liegt inzwischen ein offizieller Bericht von Polizei oder Bergrettung Tirol zum Unfallhergang vor?",
+      "Wie sind die beiden überlebenden Begleiter mit der Situation zurechtgekommen, und welche Hilfe erhielten sie?",
+      "War die Gruppe für die konkrete Route in puncto Erfahrung und Ausrüstung angemessen vorbereitet?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Tirol",
+        "type": "media",
+        "url": "https://tirol.orf.at/stories/3363858"
+      },
+      {
+        "id": "src2",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000332617/-18-j228hriger-st252rzte-auf-innsbrucker-nordkette-200-meter-in-den-tod"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/39074539/18-jaehriger-stuerzt-bei-abstieg-von-nordkette-in-den-tod"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein 18-jähriger Ungar stürzte am Mittwoch bei einer Bergtour auf der Innsbrucker Nordkette beim Abstieg rund 150 bis 200 Meter ab und starb.",
+        "status": "supported",
+        "note": "Drei voneinander unabhängige Medien (ORF Tirol, DER STANDARD, Kleine Zeitung) berichten übereinstimmend über Todesfall, Ort und ungefähre Absturzhöhe.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Verunglückte war Teil einer Gruppe von drei gleichaltrigen Ungarn, die im Bereich des Kemacher im steilen, weglosen Gelände die Orientierung verloren hatten.",
+        "status": "supported",
+        "note": "DER STANDARD und Kleine Zeitung stimmen in Gruppengröße, Nationalität, Alter und Orientierungsverlust überein.",
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Eine von der Gruppe genutzte Outdoor-Navigations-App soll im steilen Gelände ausgefallen sein und zum Orientierungsverlust beigetragen haben.",
+        "status": "partial",
+        "note": "Diese Angabe stammt einzig aus dem Bericht der Kleinen Zeitung; ORF Tirol und DER STANDARD erwähnen keine App-Störung, daher gilt sie als nicht unabhängig bestätigt.",
+        "sourceIds": [
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der 18-Jährige wurde nach dem Sturz leblos in einer Schotterrinne aufgefunden.",
+        "status": "partial",
+        "note": "Dieses Detail findet sich nur im Bericht von DER STANDARD und ist nicht durch eine zweite Quelle unabhängig bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Ein 18-jähriger Ungar ist am Mittwochnachmittag bei einer Bergtour auf der Innsbrucker Nordkette tödlich verunglückt. Beim Abstieg in sehr steilem, grasigem und felsdurchsetztem Gelände stürzte er nach übereinstimmenden Berichten rund 150 bis 200 Meter in die Tiefe. Der junge Mann war laut vorliegenden Quellen mit zwei gleichaltrigen Landsleuten unterwegs; die drei hatten zuvor im Bereich des Kemacher die Orientierung verloren und gerieten dabei ins weglose Gelände."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "ORF Tirol, DER STANDARD und die Kleine Zeitung berichten unabhängig voneinander über den Todesfall und stimmen in den Kernpunkten überein: Alter und Nationalität des Verunglückten, die Dreiergruppe und der Ort des Geschehens auf der Nordkette. Unterschiede zeigen sich bei Detailfragen: Die Kleine Zeitung führt den Orientierungsverlust auf den Ausfall einer Outdoor-Navigations-App zurück, während DER STANDARD diesen Umstand nicht erwähnt und stattdessen beschreibt, dass der Verunglückte nach dem Sturz leblos in einer Schotterrinne liegen blieb. Keine der vorliegenden Quellen liefert eine offizielle Einschätzung von Polizei oder Bergrettung zum Unfallhergang."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie es im Detail zum Sturz während des Abstiegs kam und ob dabei die genannte App-Störung tatsächlich eine Rolle spielte. Ebenso unklar ist, wie die beiden überlebenden Begleiter den Unfall erlebten und welche Hilfe sie erhielten, sowie ob die Gruppe für die gewählte Route ausreichend erfahren und ausgerüstet war. Ein offizieller Bericht von Polizei oder Bergrettung Tirol zum genauen Ablauf liegt den vorliegenden Quellen zufolge bislang nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine Serie tödlicher Alpinunfälle in den vergangenen Wochen in Tirol und den umliegenden Alpenregionen ein. Wie berichtet, waren zuletzt auch ein 63-jähriger Deutscher beim Abstieg von der Wildspitze und ein weiterer deutscher Urlauber am Mindelheimer Klettersteig tödlich verunglückt – beide Vorfälle werden in den jeweiligen Berichten als eigenständige, voneinander unabhängige Ereignisse behandelt. Gemeinsam ist den Fällen, dass Stürze im steilen Gelände beim Ab- oder Aufstieg die Unfallursache waren und offizielle Untersuchungsberichte zu den genauen Umständen jeweils noch ausstehen."
+      }
+    ],
+    "bodyKompakt": "Ein 18-jähriger Ungar ist am Mittwochnachmittag bei einer Bergtour auf der Innsbrucker Nordkette tödlich verunglückt. Beim Abstieg in sehr steilem, grasigem und felsdurchsetztem Gelände stürzte er nach übereinstimmenden Berichten rund 150 bis 200 Meter in die Tiefe. Er war mit zwei gleichaltrigen Landsleuten unterwegs, die zuvor im Bereich des Kemacher die Orientierung verloren und ins weglose Gelände gerieten.\n\nDrei voneinander unabhängige Medien – ORF Tirol, DER STANDARD und Kleine Zeitung – berichten übereinstimmend über den Todesfall, die Gruppengröße und den Ort des Geschehens. Unterschiedlich sind die Angaben zu Details: Die Kleine Zeitung nennt den Ausfall einer Outdoor-Navigations-App als Ursache des Orientierungsverlusts, DER STANDARD erwähnt das nicht und beschreibt stattdessen den Fundort in einer Schotterrinne.\n\nOffen bleibt, wie es im Detail zum Sturz kam und ob die App-Störung tatsächlich eine Rolle spielte. Ein offizieller Bericht von Polizei oder Bergrettung zum genauen Unfallhergang liegt bislang nicht vor. Der Fall reiht sich in eine Serie tödlicher Alpinunfälle der vergangenen Wochen in den Alpen ein.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-23T08:07:30.505Z"
+}
