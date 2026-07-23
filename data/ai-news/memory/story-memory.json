@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-23T08:20:21.826Z",
+  "updatedAt": "2026-07-23T10:22:46.356Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -4831,10 +4831,12 @@
       "doNotUpdateBefore": "2026-07-23T08:07:29.150Z",
       "pendingOutcome": "Ergebnis der internen Revision, Entscheidung über ein mögliches Disziplinarverfahren gegen Kutheil, Bestätigung oder Dementi der Fake-Account-Vorwürfe gegen den Stellvertreter sowie Ausgang der für August geplanten Sondersitzung des Gemeinderats und der schriftlichen Anfrage der Grünen an Bürgermeister Ludwig.",
       "pendingOutcomeUntil": "2026-07-23T12:07:25.257Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T20:07:26.390Z"
+      "echoPublishers": {
+        "diepresse": "2026-07-23T10:07:57.645Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-23T10:07:57.645Z"
     },
     "gaza-israel-angriffe-neun-tote-juli-2026": {
       "canonicalTitle": "Gazastreifen: Laut Behörden erneut zehn Tote bei israelischen Luftangriffen",
@@ -6706,13 +6708,13 @@
       "sensitivity": "medium"
     },
     "wkw-ruck-protokoll-postenschacher-sexismus-juli-2026": {
-      "canonicalTitle": "Causa Ruck: Wallner sieht Schaden für ÖVP, rechtliche Zweifel an Abberufung durch Hattmannsdorfer",
+      "canonicalTitle": "Causa Ruck: Wirtschaftsbund dementiert Rücktrittsgerüchte, Presse-Kommentar sieht Nutzen für FPÖ und KPÖ",
       "slug": "wkw-ruck-protokoll-postenschacher-sexismus-juli-2026",
       "firstSeenAt": "2026-07-17T12:07:35.751Z",
-      "lastUpdatedAt": "2026-07-23T02:07:29.150Z",
+      "lastUpdatedAt": "2026-07-23T10:07:57.645Z",
       "status": "published",
       "articlePath": "src/content/articles/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-23/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026-update-200.json",
+      "researchPath": "data/ai-news/research/2026-07-23/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026-update-1000.json",
       "sourceUrls": [
         "https://www.ots.at/presseaussendung/OTS_20260717_OTS0074/gruene-wienkraus-malle-berichte-rund-um-wk-chef-ruck-zeigen-postenschacher-machtmissbrauch-und-frauenfeindlichkeit",
         "https://www.ots.at/presseaussendung/OTS_20260717_OTS0065/fpoe-kickl-ruck-protokolle-sind-offenbarungseid-des-systems-aus-spoevp-postenschacher-und-machtmissbrauch",
@@ -6738,7 +6740,17 @@
         "https://www.meinbezirk.at/c-politik/wiener-kammer-chef-ruck-laestert-ueber-minister-und-industrie_a8808144",
         "https://orf.at/stories/3436809",
         "https://www.kleinezeitung.at/artikel/39010984/causa-ruck-hilft-oevp-natuerlich-ueberhaupt-nicht",
-        "https://kurier.at/politik/inland/wk-wien-wolfgang-hattmannsdorfer-oevp/403177299"
+        "https://kurier.at/politik/inland/wk-wien-wolfgang-hattmannsdorfer-oevp/403177299",
+        "https://www.diepresse.com/38985503/die-affaere-um-walter-ruck-ist-ein-festmahl-fuer-die-fpoe",
+        "https://www.diepresse.com/38344135/es-gibt-nur-eine-einzige-situation-in-der-walter-ruck-nervoes-werden-wuerde-wenn-sich-der-wiener-buergermeister-abwendet",
+        "https://www.diepresse.com/38650447/wiener-fpoe-beantragt-sondersitzung-zu-ruck-und-marktamt",
+        "https://www.diepresse.com/38783792/ruecktritt-ueberfaellig-causa-ruck-wird-zunehmend-thema-in-der-bundespolitik",
+        "https://kurier.at/chronik/wien/wirtschaftsbund-walter-ruck-ruecktritt-nachfolger/403177368",
+        "https://www.ots.at/presseaussendung/OTS_20260721_OTS0092/heimhilcher-kurier-bericht-ueber-ruck-ruecktritt-frei-erfunden",
+        "https://www.ots.at/presseaussendung/OTS_20260722_OTS0037/fpoe-hafenecker-ein-ruck-muss-durch-die-wirtschaftskammer-gehen-zur-hintertuere-raus",
+        "https://www.ots.at/presseaussendung/OTS_20260722_OTS0068/fpoe-krauss-zur-causa-marktamt-ludwig-sima-und-emmerling-muessen-endlich-stellung-beziehen",
+        "https://www.diepresse.com/38849671/oetv-praesident-richard-grasl-etwas-anderes-wuerde-sich-die-redaktion-nicht-gefallen-lassen",
+        "https://kurier.at/politik/inland/michael-ludwig-walter-ruck-wk-wien/403177620"
       ],
       "openQuestions": [
         "Wie lautet der vollständige Wortlaut bzw. gibt es eine Original-Aufzeichnung des ursprünglichen Gesprächsprotokolls?",
@@ -6749,13 +6761,17 @@
         "Hält Walter Ruck trotz wachsenden parteiinternen Drucks und neuer belastender Zitate tatsächlich bis zum Ende seiner Funktionsperiode 2030 an seinen Ämtern fest, oder tritt er doch zurück?",
         "Wie positioniert sich der Wirtschaftsbund als Rucks Hausmacht offiziell zu den neuen, als „degeneriert“ kolportierten Aussagen?",
         "Wird Wirtschaftsminister Hattmannsdorfer die rechtliche Möglichkeit einer Abberufung Rucks tatsächlich prüfen oder gar nutzen, und liegt eine „grobe Pflichtverletzung“ im rechtlichen Sinn überhaupt vor?",
-        "Setzt Ruck, wie von Wallner erhofft, noch eine „richtige Reaktion“ – etwa einen freiwilligen Rücktritt – oder bleibt er bis zum Ende seiner Funktionsperiode im Amt?"
+        "Setzt Ruck, wie von Wallner erhofft, noch eine „richtige Reaktion“ – etwa einen freiwilligen Rücktritt – oder bleibt er bis zum Ende seiner Funktionsperiode im Amt?",
+        "Sind die von Kurier kolportierten Rücktrittsvorbereitungen im Wirtschaftsbund trotz Heimhilchers Dementi zutreffend, oder handelt es sich tatsächlich um eine erfundene Geschichte, wie von Ruck-Seite behauptet?",
+        "Welche konkreten Umfragewerte stützen die im Presse-Leitartikel skizzierte Nutznießerschaft von FPÖ und KPÖ, und von welchem Institut und Erhebungszeitpunkt stammen sie?",
+        "Welche konkreten Gründe nennt der Kurier-Bericht dafür, dass Ludwig an Ruck festhält und SPÖ-Chef Babler zur Causa schweigt?",
+        "Wie reagieren Bürgermeister Ludwig, Stadträtin Sima und Vizebürgermeisterin Emmerling auf die FPÖ-Forderung nach einer Stellungnahme zur Causa Marktamt?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-24T02:07:29.150Z",
-      "doNotUpdateBefore": "2026-07-23T08:07:29.150Z",
-      "pendingOutcome": "Offen ist weiterhin, ob Walter Ruck sein Amt als WKW-Präsident behält oder zurücktritt, zu welchem Ergebnis der ÖVP-Ethikrat kommt, und ob eine Abberufung durch Wirtschaftsminister Hattmannsdorfer tatsächlich in Betracht gezogen wird.",
-      "pendingOutcomeUntil": "2026-07-23T10:07:26.641Z",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-24T10:07:57.645Z",
+      "doNotUpdateBefore": "2026-07-23T16:07:57.645Z",
+      "pendingOutcome": "Offen ist, ob Walter Ruck sein Amt als WKW-Präsident trotz der – von seinem Umfeld dementierten – Rücktrittsgerüchte, des laufenden ÖVP-Ethikrats-Verfahrens und der diskutierten Abberufungsfrage durch Wirtschaftsminister Hattmannsdorfer behält oder ob er zurücktritt.",
+      "pendingOutcomeUntil": "2026-07-25T10:07:57.645Z",
       "echoPublishers": {
         "diepresse": "2026-07-23T08:07:30.505Z",
         "kurier": "2026-07-23T08:07:30.505Z",
@@ -9344,8 +9360,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-22T10:07:26.641Z",
       "doNotUpdateBefore": "2026-07-21T16:07:26.641Z",
-      "pendingOutcome": "Offen sind mögliche Ergebnisse oder Konsequenzen der nächtlichen Dopingkontrollen sowie ausstehende offizielle Stellungnahmen von Pogačar, seinem Team, der UCI und der AFLD.",
-      "pendingOutcomeUntil": "2026-07-23T10:07:26.641Z",
       "echoPublishers": {
         "derstandard": "2026-07-22T18:07:32.611Z"
       }
@@ -9766,7 +9780,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-22T22:07:30.667Z"
+      "resonanceMeasuredAt": "2026-07-23T10:07:57.645Z"
     },
     "polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026": {
       "canonicalTitle": "Polizeizentrum im umgebauten Hitler-Geburtshaus in Braunau eröffnet",
@@ -9810,8 +9824,7 @@
       "pendingOutcome": "Ob die Umgestaltung des Hauses langfristig tatsächlich die Anziehungskraft für rechtsextreme Szenen verringert und wie Denkmalpflege sowie lokale Bevölkerung dauerhaft reagieren, bleibt offen und wird weiterverfolgt.",
       "pendingOutcomeUntil": "2026-07-25T06:07:26.122Z",
       "echoPublishers": {
-        "diepresse": "2026-07-22T10:07:32.134Z",
-        "kurier": "2026-07-22T10:07:32.134Z",
+        "diepresse": "2026-07-23T10:07:57.645Z",
         "kleinezeitung": "2026-07-22T14:07:28.277Z",
         "apa": "2026-07-22T12:07:30.604Z",
         "derstandard": "2026-07-23T06:07:26.122Z"
@@ -9863,9 +9876,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-23T08:07:25.952Z",
       "doNotUpdateBefore": "2026-07-22T14:07:25.952Z",
-      "echoPublishers": {
-        "orf": "2026-07-22T10:07:32.134Z"
-      }
+      "echoPublishers": {}
     },
     "klebetattoos-kinder-chemikalien-test-juli-2026": {
       "canonicalTitle": "AK-Test: 13 von 15 Kinder-Klebetattoos mit verbotenen Chemikalien belastet",
@@ -10214,7 +10225,10 @@
       "doNotRedraftBefore": "2026-07-24T00:07:27.011Z",
       "doNotUpdateBefore": "2026-07-23T06:07:27.011Z",
       "pendingOutcome": "Die für den auf die Aufsichtsratssitzung folgenden Montag geplante Einigung, Betriebsversammlung in Stuttgart und Veröffentlichung des Sparplans mit den tatsächlichen Stellenabbau-Zahlen.",
-      "pendingOutcomeUntil": "2026-07-25T00:07:27.011Z"
+      "pendingOutcomeUntil": "2026-07-25T00:07:27.011Z",
+      "echoPublishers": {
+        "heise": "2026-07-23T10:07:57.645Z"
+      }
     },
     "burkini-schwimmzeit-salurn-suedtirol-juli-2026": {
       "canonicalTitle": "Südtiroler Freibad führt eigene Schwimmzeit für muslimische Frauen ein – Lega spricht von Segregation",
@@ -10316,7 +10330,13 @@
       "doNotRedraftBefore": "2026-07-24T08:07:30.505Z",
       "doNotUpdateBefore": "2026-07-23T14:07:30.505Z",
       "pendingOutcome": "Entscheidung der Regierung bis Ende Juli 2026 über die Höhe des Spritpreis-Entlastungsbeitrags für den Folgemonat.",
-      "pendingOutcomeUntil": "2026-07-25T08:07:30.505Z"
+      "pendingOutcomeUntil": "2026-07-25T08:07:30.505Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-23T10:07:57.645Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-23T10:07:57.645Z"
     },
     "toedlicher-sturz-nordkette-innsbruck-juli-2026": {
       "canonicalTitle": "18-jähriger Ungar stürzt auf Innsbrucker Nordkette in den Tod",
@@ -10342,6 +10362,57 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-24T08:07:30.505Z",
       "doNotUpdateBefore": "2026-07-23T14:07:30.505Z"
+    },
+    "axams-wohnungsbrand-frau-tot-juli-2026": {
+      "canonicalTitle": "56-Jährige nach Wohnungsbrand in Axams tot aufgefunden",
+      "slug": "axams-wohnungsbrand-frau-tot-juli-2026",
+      "firstSeenAt": "2026-07-23T10:07:57.645Z",
+      "lastUpdatedAt": "2026-07-23T10:07:57.645Z",
+      "status": "published",
+      "articlePath": "src/content/articles/axams-wohnungsbrand-frau-tot-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-23/axams-wohnungsbrand-frau-tot-juli-2026.json",
+      "sourceUrls": [
+        "https://tirol.orf.at/stories/3363898",
+        "https://kurier.at/chronik/tirol/brand-tirol-wohnung-todesfall/403177729",
+        "https://www.kleinezeitung.at/artikel/38670416/frau-lag-acht-jahre-lang-tot-in-ihrer-wohnung-in-laibach",
+        "https://orf.at/stories/3436934",
+        "https://www.derstandard.at/story/3000000332614/franzoesischer-model-scout-mit-verbindungen-zu-epstein-tot-aufgefunden"
+      ],
+      "openQuestions": [
+        "Welches Ergebnis liefert die von der Staatsanwaltschaft Innsbruck angeordnete gerichtsmedizinische Obduktion?",
+        "Wie lautet die endgültige, im Detail bestätigte Brandursache?",
+        "Wie genau lief das Geschehen in der Wohnung vor Ausbruch des Brandes ab?",
+        "Gibt es Stellungnahmen von Feuerwehr, Nachbarn oder Angehörigen zum Einsatz bzw. zu den Umständen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-24T10:07:57.645Z",
+      "doNotUpdateBefore": "2026-07-23T16:07:57.645Z",
+      "pendingOutcome": "Ergebnis der von der Staatsanwaltschaft Innsbruck angeordneten gerichtsmedizinischen Obduktion zur endgültigen Klärung der Todesursache.",
+      "pendingOutcomeUntil": "2026-07-25T10:07:57.645Z"
+    },
+    "sporrer-laiengerichtsbarkeit-reform-juli-2026": {
+      "canonicalTitle": "Justizministerin Sporrer will Laiengerichtsbarkeit reformieren",
+      "slug": "sporrer-laiengerichtsbarkeit-reform-juli-2026",
+      "firstSeenAt": "2026-07-23T10:07:57.645Z",
+      "lastUpdatedAt": "2026-07-23T10:07:57.645Z",
+      "status": "published",
+      "articlePath": "src/content/articles/sporrer-laiengerichtsbarkeit-reform-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-23/sporrer-laiengerichtsbarkeit-reform-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437039",
+        "https://www.derstandard.at/story/3000000332609/justizministerin-sporrer-will-laiengerichtsbarkeit-neu-denken",
+        "https://www.diepresse.com/39072834/justizministerin-sporrer-will-laiengerichtsbarkeit-reformieren"
+      ],
+      "openQuestions": [
+        "Welchen konkreten Zeitrahmen wird die angekündigte Evaluierung und eine mögliche Reform haben?",
+        "Welche Delikte und Verfahrensarten sollen im Detail von der Reform betroffen sein?",
+        "Wie reagieren Standesvertreter, Rechtsexperten und Opferanwälte auf die Pläne?",
+        "Wie positioniert sich der Koalitionspartner ÖVP zu einer Reform der Laiengerichtsbarkeit?",
+        "Bleiben Wiederbetätigungsverfahren nach dem NS-Verbotsgesetz weiterhin in der Zuständigkeit eines Schwurgerichtshofs?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-24T10:07:57.645Z",
+      "doNotUpdateBefore": "2026-07-23T16:07:57.645Z"
     }
   }
 }
