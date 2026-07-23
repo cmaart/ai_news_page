@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-23T04:30:25.705Z",
+  "updatedAt": "2026-07-23T06:28:46.281Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3001,7 +3001,9 @@
       "doNotUpdateBefore": "2026-07-23T10:07:27.221Z",
       "pendingOutcome": "Ob sich die US-Angriffsserie über die zwölfte Nacht hinaus fortsetzt oder eine Deeskalation eintritt, sowie ob sich die iranische Tankerbrand-Meldung, die Begründung der Rahmenabkommen-Aussetzung und die genannten Opferzahlen unabhängig bestätigen lassen, ist weiterhin offen und wird bei neuen Entwicklungen nachrecherchiert.",
       "pendingOutcomeUntil": "2026-07-25T04:07:27.221Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "diepresse": "2026-07-23T06:07:26.122Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-23T04:07:27.221Z"
@@ -4080,7 +4082,7 @@
         "derstandard": "2026-07-22T20:07:33.174Z",
         "diepresse": "2026-07-22T20:07:33.174Z",
         "kurier": "2026-07-22T20:07:33.174Z",
-        "heise": "2026-07-22T20:07:33.174Z"
+        "heise": "2026-07-23T06:07:26.122Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -9143,10 +9145,10 @@
       "canonicalTitle": "Hugging-Face-Hack: OpenAI bestätigt eigene KI-Modelle als Urheber des Angriffs",
       "slug": "hugging-face-ki-agent-cyberangriff-juli-2026",
       "firstSeenAt": "2026-07-20T22:07:34.229Z",
-      "lastUpdatedAt": "2026-07-22T20:07:33.174Z",
+      "lastUpdatedAt": "2026-07-23T06:07:26.122Z",
       "status": "published",
       "articlePath": "src/content/articles/hugging-face-ki-agent-cyberangriff-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-22/hugging-face-ki-agent-cyberangriff-juli-2026-update-2000.json",
+      "researchPath": "data/ai-news/research/2026-07-23/hugging-face-ki-agent-cyberangriff-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.golem.de/news/cyberangriff-auf-hugging-face-ki-erkennt-ki-angriff-auf-ki-plattform-2607-211057.html",
         "https://the-decoder.de/hugging-face-meldet-ersten-vollstaendig-ki-gesteuerten-hackerangriff-auf-eigene-infrastruktur",
@@ -9164,23 +9166,33 @@
         "https://www.heise.de/news/KI-Modelle-von-OpenAI-haben-Cyberangriff-auf-Hugging-Face-autonom-ausgefuehrt-11372797.html",
         "https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack",
         "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face",
-        "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid"
+        "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
+        "https://www.heise.de/news/Autonome-KI-hackt-Hugging-Face-Weckruf-fuer-IT-Sicherheit-und-Politik-11374152.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.golem.de/news/sicherheit-politik-industrie-und-behoerden-reagieren-auf-autonomen-openai-hack-2607-211179.html",
+        "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business",
+        "https://www.heise.de/news/Autonome-KI-hackt-Hugging-Face-Weckruf-fuer-IT-Sicherheit-und-Politik-11374152.html",
+        "https://www.zdfheute.de/wirtschaft/unternehmen/openai-ki-software-hacker-cyberangriff-100.html",
+        "https://www.berliner-sonntagsblatt.de/Deutschland/EU-Politiker-wollen-Konsequenzen-nach-KI-Hackerangriff-364953.html",
+        "https://therecord.media/openai-cyberattack-hugging-face"
       ],
       "openQuestions": [
         "Welche konkrete Zero-Day-Schwachstelle im Paket-Registry-Proxy wurde genau ausgenutzt, und ist sie inzwischen vollständig geschlossen?",
         "Sind Partner- oder Kundendaten von Hugging Face betroffen, und wie ist der Stand der laufenden Prüfung dazu?",
         "Gibt es eine unabhängige forensische Analyse oder Bestätigung durch externe Sicherheitsforscher oder Behörden (etwa BSI, CISA, ENISA)?",
         "Welche konkreten Ergebnisse liefert die von OpenAI und Hugging Face angekündigte gemeinsame Untersuchung, sobald sie abgeschlossen ist?",
-        "Wie reagieren Regulierungsbehörden oder Aufsichtsstellen auf den Vorfall, und zieht er Konsequenzen für die Zulassung oder Freigabe künftiger OpenAI-Modelle nach sich?",
+        "Führen die politischen Forderungen (etwa von Martin Schirdewan) zu konkreten regulatorischen Schritten der EU oder einzelner Staaten, oder bleiben sie ohne Folgen?",
         "Welche weiteren, bislang nicht offengelegten Vorfälle mit „long-horizon“-Modellen hat OpenAI intern beobachtet, und wie wirksam ist das neu eingeführte „trajectory-level monitoring“ gegen ähnliche Ausbrüche?",
-        "Welche konkreten Zeitpunkte markieren Beginn und Ende der Angriffskampagne, und wie erklärt sich die Diskrepanz zwischen Hugging Faces Zahl von über 17.000 Aktionen und OpenAIs vagerer Beschreibung als Schwarm „vieler Tausend“ Aktionen?"
+        "Welche konkreten Zeitpunkte markieren Beginn und Ende der Angriffskampagne, und wie erklärt sich die Diskrepanz zwischen Hugging Faces Zahl von über 17.000 Aktionen und OpenAIs vagerer Beschreibung als Schwarm „vieler Tausend“ Aktionen?",
+        "Was ist aus der ursprünglichen Meldung von Hugging Face an die Strafverfolgungsbehörden geworden, und ermitteln diese weiterhin, obwohl der Urheber inzwischen als OpenAIs eigenes Testmodell identifiziert wurde?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-23T20:07:33.174Z",
-      "doNotUpdateBefore": "2026-07-23T02:07:33.174Z",
+      "doNotRedraftBefore": "2026-07-24T06:07:26.122Z",
+      "doNotUpdateBefore": "2026-07-23T12:07:26.122Z",
+      "pendingOutcome": "Ergebnisse der gemeinsamen Untersuchung von OpenAI und Hugging Face, Klärung möglicher Partner-/Kundendaten-Betroffenheit sowie etwaige regulatorische oder behördliche Konsequenzen (auch als Reaktion auf politische Forderungen wie jene von Martin Schirdewan) stehen weiterhin aus.",
+      "pendingOutcomeUntil": "2026-07-25T06:07:26.122Z",
       "echoPublishers": {
-        "heise": "2026-07-22T08:07:25.952Z",
-        "golem": "2026-07-22T08:07:25.952Z",
+        "heise": "2026-07-23T06:07:26.122Z",
+        "golem": "2026-07-23T06:07:26.122Z",
         "thedecoder": "2026-07-22T08:07:25.952Z",
         "diepresse": "2026-07-22T20:07:33.174Z",
         "arstechnica": "2026-07-22T20:07:33.174Z",
@@ -9268,7 +9280,10 @@
       "doNotRedraftBefore": "2026-07-22T06:07:29.682Z",
       "doNotUpdateBefore": "2026-07-21T12:07:29.682Z",
       "pendingOutcome": "Ob die angekündigten 50-Prozent-Zölle am 19. August 2026 tatsächlich in Kraft treten oder es vorher zu einer Verhandlungslösung, kanadischen Gegenmaßnahmen oder einer rechtlichen Anfechtung kommt.",
-      "pendingOutcomeUntil": "2026-07-23T06:07:29.682Z"
+      "pendingOutcomeUntil": "2026-07-23T06:07:29.682Z",
+      "echoPublishers": {
+        "kurier": "2026-07-23T06:07:26.122Z"
+      }
     },
     "steiermark-pilotregion-facharztzentren-2026": {
       "canonicalTitle": "Steiermark wirbt beim Bund um Pilotregion-Status für Facharztzentren",
@@ -9652,7 +9667,10 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-23T00:07:27.750Z",
-      "doNotUpdateBefore": "2026-07-22T06:07:27.750Z"
+      "doNotUpdateBefore": "2026-07-22T06:07:27.750Z",
+      "echoPublishers": {
+        "orf": "2026-07-23T06:07:26.122Z"
+      }
     },
     "bawag-halbjahresgewinn-ptsb-uebernahme-juli-2026": {
       "canonicalTitle": "Bawag steigert Nettogewinn im ersten Halbjahr 2026 um 19 Prozent auf 487,3 Millionen Euro",
@@ -9776,10 +9794,10 @@
       "canonicalTitle": "Polizeizentrum im umgebauten Hitler-Geburtshaus in Braunau eröffnet",
       "slug": "polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026",
       "firstSeenAt": "2026-07-22T06:07:29.885Z",
-      "lastUpdatedAt": "2026-07-22T12:07:30.604Z",
+      "lastUpdatedAt": "2026-07-23T06:07:26.122Z",
       "status": "published",
       "articlePath": "src/content/articles/polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-22/polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026-update-1200.json",
+      "researchPath": "data/ai-news/research/2026-07-23/polizeizentrum-hitler-geburtshaus-braunau-eroeffnung-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000332411/polizeizentrum-im-umgebauten-hitler-geburtshaus-in-braunau-er246ffnet",
         "https://www.diepresse.com/38843811/ukrainischer-praesident-entlaesst-armeechef-polizeizentrum-in-hitler-geburtshaus-wird-eroeffnet-pink-panther-saxophonist-ist-tot",
@@ -9792,26 +9810,37 @@
         "https://kurier.at/kultur/rosaroter-panther-saxophonist-plas-johnson-mit-94-jahren-gestorben/403177478",
         "https://www.ots.at/presseaussendung/OTS_20260722_OTS0074/polizeizentrum-braunau-am-22-juli-2026-eroeffnet",
         "https://www.kleinezeitung.at/artikel/38853904/polizeizentrum-im-umgebauten-hitler-geburtshaus-in-braunau-eroeffnet",
-        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0035/aviso-eroeffnung-polizeizentrum-braunau"
+        "https://www.ots.at/presseaussendung/OTS_20260720_OTS0035/aviso-eroeffnung-polizeizentrum-braunau",
+        "https://www.derstandard.at/story/3000000332610/mythos-hitler-und-geburtshaus-brechen-historiker-rathkolb-erklaert-in-zib-2-polizeistation",
+        "https://orf.at/stories/3436980",
+        "https://www.diepresse.com/39057864/neue-polizeistation-im-hitler-haus-es-kommt-immer-ein-bloeder-nazi-kommentar-egal-wo-man-ist",
+        "https://www.kleinezeitung.at/artikel/39063571/polizeistation-im-braunauer-hitler-haus-es-kommt-immer-ein-bloeder-nazi"
       ],
       "openQuestions": [
         "Wie hoch waren die Umbaukosten laut einer offiziellen Kostenaufstellung des Innenministeriums oder der Bundesimmobiliengesellschaft tatsächlich?",
-        "Wie reagieren Denkmalpflege, Historikerinnen und Historiker sowie die lokale Bevölkerung in Braunau auf die Umgestaltung?",
-        "Erreicht die Umgestaltung tatsächlich das erklärte Ziel, dem Ort seine Anziehungskraft für rechtsextreme Szenen zu nehmen?",
-        "Gab es bei der Eröffnung öffentliche Reden von Karner oder Stelzer mit weiteren inhaltlichen Aussagen zum Umbau?"
+        "Seit welchem Jahr befindet sich das Gebäude tatsächlich im Eigentum der Republik Österreich – 2016 oder 2017?",
+        "Was sagte Historiker Oliver Rathkolb im vollständigen ZiB-2-Interview über die Kurzzusammenfassung hinaus?",
+        "Welche konkreten Inhalte schildern die kostenpflichtigen Artikel von Die Presse und Kleine Zeitung zu Kommentaren von Besucherinnen und Besuchern?",
+        "Lässt sich der von 'Spiegel' berichtete Google-Maps-Vorfall (Anzeige der Hausnummer 88) unabhängig verifizieren?",
+        "Wie ist der aktuelle Stand des Auslieferungsverfahrens in Ried im Innkreis, und wann ist mit einem Abschluss zu rechnen?",
+        "Wie reagieren Denkmalpflege, Historikerinnen und Historiker außerhalb der Expertenkommission sowie die lokale Bevölkerung in Braunau auf die Umgestaltung?",
+        "Erreicht die Umgestaltung tatsächlich das erklärte Ziel, dem Ort seine Anziehungskraft für rechtsextreme Szenen zu nehmen?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-23T12:07:30.604Z",
-      "doNotUpdateBefore": "2026-07-22T18:07:30.604Z",
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-24T06:07:26.122Z",
+      "doNotUpdateBefore": "2026-07-23T12:07:26.122Z",
+      "pendingOutcome": "Ob die Umgestaltung des Hauses langfristig tatsächlich die Anziehungskraft für rechtsextreme Szenen verringert und wie Denkmalpflege sowie lokale Bevölkerung dauerhaft reagieren, bleibt offen und wird weiterverfolgt.",
+      "pendingOutcomeUntil": "2026-07-25T06:07:26.122Z",
       "echoPublishers": {
         "diepresse": "2026-07-22T10:07:32.134Z",
         "kurier": "2026-07-22T10:07:32.134Z",
         "kleinezeitung": "2026-07-22T14:07:28.277Z",
-        "apa": "2026-07-22T12:07:30.604Z"
+        "apa": "2026-07-22T12:07:30.604Z",
+        "derstandard": "2026-07-23T06:07:26.122Z"
       },
-      "resonanceLevel": 4,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-22T18:07:32.611Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-23T06:07:26.122Z"
     },
     "cluster-20260721-7cfce5da": {
       "canonicalTitle": "Anschlag auf Infrastruktur geplant? Russischer Geheimdienst tötet Mann bei Festnahme",
@@ -10231,6 +10260,32 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-24T02:07:29.150Z",
       "doNotUpdateBefore": "2026-07-23T08:07:29.150Z"
+    },
+    "waldbrand-saumos-bordeaux-evakuierung-juli-2026": {
+      "canonicalTitle": "Waldbrand nahe Bordeaux: Tausende Touristen und Anrainer evakuiert",
+      "slug": "waldbrand-saumos-bordeaux-evakuierung-juli-2026",
+      "firstSeenAt": "2026-07-23T06:07:26.122Z",
+      "lastUpdatedAt": "2026-07-23T06:07:26.122Z",
+      "status": "published",
+      "articlePath": "src/content/articles/waldbrand-saumos-bordeaux-evakuierung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-23/waldbrand-saumos-bordeaux-evakuierung-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/39072991/waldbrand-nahe-bordeaux-tausende-touristen-in-sicherheit-gebracht",
+        "https://kurier.at/chronik/welt/touristen-waldbrand-bordeaux-evakuierung-frankreich/403177660",
+        "https://www.derstandard.at/story/3000000332570/tausende-touristen-bei-waldbrand-nahe-bordeaux-evakuiert",
+        "https://x.com/PrefAquitaine33/status/2080046089890336908"
+      ],
+      "openQuestions": [
+        "Wie groß ist die vom Feuer betroffene Fläche mittlerweile, nachdem Präfektur-Mitteilungen auf X bereits am Donnerstagfrüh von einer weiteren Ausbreitung sprachen?",
+        "Wie ist die genaue Brandursache in Saumos, und gibt es einen Zusammenhang mit dem tödlichen Brand am Flughafen Bordeaux vom Vortag?",
+        "Wann können die evakuierten Urlauber und Anrainer zurückkehren?",
+        "Gab es im weiteren Verlauf Verletzte oder Sachschäden an Gebäuden?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-24T06:07:26.122Z",
+      "doNotUpdateBefore": "2026-07-23T12:07:26.122Z",
+      "pendingOutcome": "Weitere Entwicklung der Brandbekämpfung sowie mögliche zusätzliche Evakuierungen und eine belastbare aktuelle Flächenangabe für den Waldbrand bei Saumos/Le Porge.",
+      "pendingOutcomeUntil": "2026-07-25T06:07:26.122Z"
     }
   }
 }
