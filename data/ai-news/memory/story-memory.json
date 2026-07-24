@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T16:34:47.671Z",
+  "updatedAt": "2026-07-24T18:24:03.493Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2828,7 +2828,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-24T04:07:32.306Z"
+      "resonanceMeasuredAt": "2026-07-24T18:07:30.693Z"
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -5009,13 +5009,13 @@
       "doNotUpdateBefore": "2026-07-15T10:07:24.790Z"
     },
     "ebola-dr-kongo-2000-faelle-juli-2026": {
-      "canonicalTitle": "Ebola in der DR Kongo: Mehr als 2.000 bestätigte Fälle, WHO-Notlage seit Mai",
+      "canonicalTitle": "Ebola in der DR Kongo: Fallzahl nach Datenüberprüfung auf fast 3.000 gestiegen",
       "slug": "ebola-dr-kongo-2000-faelle-juli-2026",
       "firstSeenAt": "2026-07-15T06:07:27.992Z",
-      "lastUpdatedAt": "2026-07-15T06:07:27.992Z",
+      "lastUpdatedAt": "2026-07-24T18:07:30.693Z",
       "status": "published",
       "articlePath": "src/content/articles/ebola-dr-kongo-2000-faelle-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-15/ebola-dr-kongo-2000-faelle-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-24/ebola-dr-kongo-2000-faelle-juli-2026-update-1800.json",
       "sourceUrls": [
         "https://orf.at/stories/3436224",
         "https://www.derstandard.at/story/3000000331520/ebola-mehr-als-2000-best228tigte-f228lle-in-dr-kongo",
@@ -5023,17 +5023,24 @@
         "https://www.diepresse.com/37380445/ueber-2000-ebola-faelle-im-kongo-usa-verschaerfen-einreiseregeln",
         "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608",
         "https://english.news.cn/20260715/5155a8cb57e3405f9599dce6a2e9eca6/c.html",
-        "https://www.derstandard.at/story/3000000331329/ebola-usa-verh228ngen-einreisesperre-f252r-eigene-b252rger-aus-dr-kongo"
+        "https://www.derstandard.at/story/3000000331329/ebola-usa-verh228ngen-einreisesperre-f252r-eigene-b252rger-aus-dr-kongo",
+        "https://orf.at/stories/3437202",
+        "https://www.derstandard.at/story/3000000332908/inzwischen-fast-3000-ebola-f228lle-im-kongo",
+        "https://kurier.at/politik/ausland/kongo-ebola-todesfaelle-uganda/403177555"
       ],
       "openQuestions": [
-        "Wie groß ist die tatsächliche Dunkelziffer nicht erfasster Fälle in den betroffenen, teils von Konflikten betroffenen Regionen?",
-        "Warum weichen die von der WHO und der Regierung in Kinshasa genannten Fallzahlen je nach Stichtag voneinander ab?",
+        "Auf welcher Datengrundlage beruht die WHO-Schätzung, das tatsächliche Ausmaß des Ausbruchs könnte zwei- bis viermal so groß sein wie die offiziellen Zahlen?",
+        "Warum weichen die von Kurier (rund 1.000 Todesfälle) und von ORF/Der Standard (1.269 Todesfälle) fast gleichzeitig genannten Todeszahlen so deutlich voneinander ab?",
+        "Handelt es sich bei den mehr als 300 durch die Datenüberprüfung neu gemeldeten Fällen überwiegend um zurückliegende, bislang nicht erfasste Fälle oder auch um neue Übertragungen?",
         "Wie belastbar ist die Einschätzung, der Ausbruch könnte bis ins kommende Jahr andauern, und auf welcher Grundlage beruht sie?",
-        "Bestätigt die WHO in ihrem nächsten Lagebericht die berichtete Ausweitung auf die Provinzen Haut-Uele und Tshopo?"
+        "Bestätigt ein künftiger WHO-Lagebericht die berichtete Ausweitung auf die Provinzen Haut-Uele und Tshopo sowie die neuen Fallzahlen aus der Datenüberprüfung?",
+        "Wie groß ist die tatsächliche Dunkelziffer nicht erfasster Fälle in den betroffenen, teils von Konflikten betroffenen Regionen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-16T06:07:27.992Z",
-      "doNotUpdateBefore": "2026-07-15T12:07:27.992Z"
+      "doNotRedraftBefore": "2026-07-25T18:07:30.693Z",
+      "doNotUpdateBefore": "2026-07-25T00:07:30.693Z",
+      "pendingOutcome": "Weitere Entwicklung der Fallzahlen, eine mögliche Klärung der widersprüchlichen Todeszahlen sowie ein aktualisierter WHO-Lagebericht mit Dunkelziffer-Methodik bleiben abzuwarten.",
+      "pendingOutcomeUntil": "2026-07-26T18:07:30.693Z"
     },
     "armutskonferenz-gesetzesentwurf-sozialhilfe-reform-2026": {
       "canonicalTitle": "Armutskonferenz legt Gesetzesentwurf zur Reform der Sozialhilfe vor",
@@ -10984,10 +10991,10 @@
       "canonicalTitle": "Waldbrände in Südwestfrankreich: Macron bittet EU um Hilfe, rund 30.000 Menschen evakuiert",
       "slug": "waldbraende-suedwestfrankreich-eu-hilfe-juli-2026",
       "firstSeenAt": "2026-07-24T06:07:26.229Z",
-      "lastUpdatedAt": "2026-07-24T06:07:26.229Z",
+      "lastUpdatedAt": "2026-07-24T18:07:30.693Z",
       "status": "published",
       "articlePath": "src/content/articles/waldbraende-suedwestfrankreich-eu-hilfe-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-24/waldbraende-suedwestfrankreich-eu-hilfe-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-24/waldbraende-suedwestfrankreich-eu-hilfe-juli-2026-update-1800.json",
       "sourceUrls": [
         "https://orf.at/stories/3437125",
         "https://www.derstandard.at/story/3000000332761/waldbr228nde-spanien-ruft-notstand-nationaler-tragweite-aus",
@@ -10997,25 +11004,38 @@
         "https://www.diepresse.com/39400468/neue-us-zoelle-gegen-eu-und-co-spanien-ruft-nationalen-notstand-aus-neue-sterne-fuer-walk-of-fame",
         "https://www.diepresse.com/39400482/spanien-ruft-notstand-nationaler-tragweite-aus",
         "https://orf.at/stories/3437032/",
-        "https://www.srf.ch/news/international/westfrankreich-waldbrand-bei-bordeaux-fast-30-000-menschen-evakuiert"
+        "https://www.srf.ch/news/international/westfrankreich-waldbrand-bei-bordeaux-fast-30-000-menschen-evakuiert",
+        "https://www.kleinezeitung.at/artikel/39568165/fast-drei-dutzend-neue-walk-of-fame-sterne-geplant",
+        "https://orf.at/stories/3437139",
+        "https://www.zdfheute.de/panorama/spanien-waldbrand-notstand-avila-madrid-100.html",
+        "https://es.euronews.com/my-europe/2026/07/24/espana-eleva-emergencia-nacional-incendios-11500-evacuados-madrid-avila",
+        "https://www.srf.ch/news/international/waldbraende-in-europa-spanien-ruft-nationalen-notstand-aus-region-madrid-bedroht",
+        "https://www.que.es/2026/07/24/emergencia-nacional-incendios-madrid-avila/",
+        "https://www.libertaddigital.com/madrid/2026-07-24/en-directo-comunidad-madrid-incendios-ultima-hora-7440349/"
       ],
       "openQuestions": [
         "Wie viele Häuser oder Gebäude wurden insgesamt zerstört?",
         "Sind die beiden Brände in Nouvelle-Aquitaine mittlerweile unter Kontrolle?",
-        "Was hat die Brände ausgelöst?",
-        "Wie groß ist die insgesamt betroffene Waldfläche in Hektar?",
-        "Wann trifft die zugesagte internationale Löschhilfe konkret ein und wie wirksam ist sie?",
-        "Gibt es Verletzte oder Todesopfer durch die Brände in Frankreich oder Spanien?",
+        "Was hat die Brände in Frankreich und in Spanien jeweils ausgelöst?",
+        "Wie groß ist die insgesamt betroffene Waldfläche in Hektar, sowohl in Frankreich als auch in den Regionen Madrid und Ávila konkret?",
+        "Wann trifft die zugesagte internationale Löschhilfe für Frankreich konkret ein und wie wirksam ist sie?",
+        "Gibt es Verletzte oder Todesopfer durch die Brände in Frankreich, Madrid oder Ávila?",
+        "Wie viele Menschen wurden in Madrid und Ávila tatsächlich evakuiert – welche der divergierenden Zahlen ist belastbar?",
+        "Konnten die Brände bei Villa del Prado, San Martín de Valdeiglesias und Burgohondo inzwischen eingedämmt werden?",
         "Wie wirkt sich die Lage auf den Tourismus in der Region Arcachon aus?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-25T06:07:26.229Z",
-      "doNotUpdateBefore": "2026-07-24T12:07:26.229Z",
-      "pendingOutcome": "Ob die internationale Löschhilfe eintrifft und die Brände in Nouvelle-Aquitaine unter Kontrolle gebracht werden können, ist der erwartete nächste Entwicklungsschritt.",
+      "doNotRedraftBefore": "2026-07-25T18:07:30.693Z",
+      "doNotUpdateBefore": "2026-07-25T00:07:30.693Z",
+      "pendingOutcome": "Offen bleiben Kontrollstatus und Gesamtausmaß der Brände in Frankreich und Spanien, belastbare und übereinstimmende Evakuierten- sowie ggf. Opferzahlen, die jeweiligen Brandursachen und die konkrete Wirksamkeit der zugesagten EU-Löschhilfe.",
       "pendingOutcomeUntil": "2026-07-26T06:07:26.229Z",
       "echoPublishers": {
-        "orf": "2026-07-24T08:07:35.765Z"
-      }
+        "orf": "2026-07-24T08:07:35.765Z",
+        "kleinezeitung": "2026-07-24T18:07:30.693Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-24T18:07:30.693Z"
     },
     "alphabet-spacex-beteiligung-q2-zahlen-juli-2026": {
       "canonicalTitle": "Alphabet legt 94,1-Milliarden-Dollar-Beteiligung an SpaceX offen und übertrifft Quartalserwartungen",
@@ -11228,7 +11248,13 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-25T14:07:28.993Z",
-      "doNotUpdateBefore": "2026-07-24T20:07:28.993Z"
+      "doNotUpdateBefore": "2026-07-24T20:07:28.993Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-24T18:07:30.693Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-24T18:07:30.693Z"
     },
     "eu-tiktok-minderjaehrigenschutz-dsa-juli-2026": {
       "canonicalTitle": "EU-Kommission wirft TikTok unzureichenden Schutz Minderjähriger vor",
@@ -11283,7 +11309,42 @@
       "doNotRedraftBefore": "2026-07-25T16:09:09.600Z",
       "doNotUpdateBefore": "2026-07-24T22:09:09.600Z",
       "pendingOutcome": "Ergebnis der laufenden FIFA-Disziplinaruntersuchung gegen Argentinien, einschließlich möglicher Sanktionen gegen einzelne Spieler, den Trainerstab oder den Verband.",
-      "pendingOutcomeUntil": "2026-07-26T16:09:09.600Z"
+      "pendingOutcomeUntil": "2026-07-26T16:09:09.600Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-24T18:07:30.693Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-24T18:07:30.693Z"
+    },
+    "signa-insolvenz-postsparkasse-georg-coch-platz-juli-2026": {
+      "canonicalTitle": "Drei weitere Signa-Tochterfirmen rund um Wiener Postsparkasse insolvent",
+      "slug": "signa-insolvenz-postsparkasse-georg-coch-platz-juli-2026",
+      "firstSeenAt": "2026-07-24T18:07:30.693Z",
+      "lastUpdatedAt": "2026-07-24T18:07:30.693Z",
+      "status": "published",
+      "articlePath": "src/content/articles/signa-insolvenz-postsparkasse-georg-coch-platz-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-24/signa-insolvenz-postsparkasse-georg-coch-platz-juli-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3364004",
+        "https://www.derstandard.at/story/3000000332745/drei-weitere-unternehmen-der-signa-gruppe-insolvent",
+        "https://www.diepresse.com/39390097/drei-weitere-unternehmen-der-signa-gruppe-insolvent",
+        "https://kurier.at/wirtschaft/signa-gruppe-drei-weitere-unternehmen-insolvent/403177889",
+        "https://www.leadersnet.at/news/100847,postsparkassengebaeude-glaeubiger-fordern-324-millionen-euro.html"
+      ],
+      "openQuestions": [
+        "Welche konkreten Vermögenswerte und Schulden entfallen auf die drei neu insolventen Gesellschaften?",
+        "Mit welchem Käufer wurde der gescheiterte Sharedeal verhandelt, und woran ist er gescheitert?",
+        "Welche Folgen haben die neuen Insolvenzanträge für die Nutzung und Entwicklung des Postsparkasse-Gebäudes?",
+        "Wie viele Gläubiger und in welcher Gesamthöhe sind von den drei neuen Verfahren betroffen?",
+        "Wie äußern sich Signa-Verantwortliche oder der zuständige Insolvenzverwalter zu den neuen Anträgen?",
+        "Eröffnet das Handelsgericht Wien die drei beantragten Konkursverfahren tatsächlich, oder werden sie mangels Masse abgewiesen?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-25T18:07:30.693Z",
+      "doNotUpdateBefore": "2026-07-25T00:07:30.693Z",
+      "pendingOutcome": "Ob das Wiener Handelsgericht die drei beantragten Konkursverfahren eröffnet und mit welchen konkreten Aktiva- und Passiva-Werten.",
+      "pendingOutcomeUntil": "2026-07-26T18:07:30.693Z"
     }
   }
 }
