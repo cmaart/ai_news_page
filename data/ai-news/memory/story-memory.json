@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T02:19:48.447Z",
+  "updatedAt": "2026-07-24T04:21:58.230Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2824,12 +2824,11 @@
       "doNotRedraftBefore": "2026-07-21T20:07:34.132Z",
       "doNotUpdateBefore": "2026-07-21T02:07:34.132Z",
       "echoPublishers": {
-        "derstandard": "2026-07-23T04:07:27.221Z",
         "diepresse": "2026-07-23T20:07:26.343Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-24T02:07:32.619Z"
+      "resonanceMeasuredAt": "2026-07-24T04:07:32.306Z"
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -2946,13 +2945,13 @@
       "echoPublishers": {}
     },
     "us-iran-eskalation-strasse-von-hormuz-juli-2026": {
-      "canonicalTitle": "„Erhebliche Eskalation“ hält an: USA greifen zwölfte Nacht in Folge Ziele im Iran an, Iran meldet Tankerbrand in Straße von Hormus",
+      "canonicalTitle": "„Erhebliche Eskalation“ hält an: USA greifen 13. Nacht in Folge Ziele im Iran an, Vermittler schlagen zehntägige Waffenruhe vor",
       "slug": "us-iran-eskalation-strasse-von-hormuz-juli-2026",
       "firstSeenAt": "2026-07-13T06:07:23.920Z",
-      "lastUpdatedAt": "2026-07-23T04:07:27.221Z",
+      "lastUpdatedAt": "2026-07-24T04:07:32.306Z",
       "status": "published",
       "articlePath": "src/content/articles/us-iran-eskalation-strasse-von-hormuz-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-23/us-iran-eskalation-strasse-von-hormuz-juli-2026-update-400.json",
+      "researchPath": "data/ai-news/research/2026-07-24/us-iran-eskalation-strasse-von-hormuz-juli-2026-update-400.json",
       "sourceUrls": [
         "https://www.kleinezeitung.at/artikel/36797456/us-militaer-greift-weitere-ziele-im-iran-an",
         "https://www.diepresse.com/36797469/erhebliche-eskalation-usa-attackieren-iran-erneut-guterres-besorgt",
@@ -2981,33 +2980,36 @@
         "https://kurier.at/politik/ausland/iran-krieg-usa-trump-rache-tod-soldaten/403177169",
         "https://orf.at/stories/3436875",
         "https://orf.at/stories/3436894",
-        "https://orf.at/stories/3436969"
+        "https://orf.at/stories/3436969",
+        "https://www.diepresse.com/39401916/13-nacht-in-folge-usa-ueberziehen-den-iran-mit-angriffen",
+        "https://orf.at/stories/3437122",
+        "https://www.dvidshub.net/news/570634/us-concludes-13th-night-strikes-iranian-military-targets",
+        "https://www.axios.com/2026/07/21/iran-war-ceasefire-proposal-trump-troops"
       ],
       "openQuestions": [
-        "Wie viele Angriffswellen es seit Beginn der Eskalation insgesamt gab und mit welchem tatsächlichen Schadensausmaß auf beiden Seiten.",
-        "Welche Ursache die gemeldeten Schiffsbrände in der Straße von Hormus tatsächlich hatten und ob sie auf US-Angriffe, iranische Aktionen oder andere Umstände zurückgehen.",
-        "Wie belastbar die iranischen Angaben zu Toten und Verletzten bei den Gegenschlägen gegen Golfstaaten sind und ob es davon unabhängige Zählungen gibt.",
-        "Ob und wann neue Verhandlungen zwischen den USA und Iran zustande kommen bzw. ob und wann die Angriffsserie endet.",
-        "Wie stark sich die Lage weiterhin auf den globalen Schiffsverkehr durch die Straße von Hormus und auf die Energiepreise auswirkt.",
-        "Wie umfangreich die Flugabwehr-Aktivität in Teheran tatsächlich war und ob es dabei zu Schäden oder Opfern kam – bislang nur über iranische Staatsmedien berichtet.",
-        "Setzt Trump seine Drohung gegen die Anlage Kuh-e Kolang („Pickaxe Mountain“) tatsächlich um, und was ergibt eine unabhängige Einschätzung von Bautiefe und nuklearer Nutzung der Anlage?",
-        "Lässt sich die iranische Meldung einer Explosion und eines Tankerbrands in der Straße von Hormus vom 23. Juli unabhängig verifizieren, etwa durch Reedereien oder maritime Sicherheitsdienste?",
-        "Sind die von iranischer Seite genannten Opferzahlen (mindestens 50 Tote, über 500 Verletzte) durch unabhängige, nicht-iranische Stellen überprüfbar?",
+        "Wird der von regionalen Vermittlern (Katar, Ägypten, Pakistan u. a.) laut Axios unterbreitete Vorschlag für eine zehntägige Waffenruhe von den USA und Iran angenommen?",
+        "Setzt sich die nächtliche Angriffsserie über die 13. Nacht hinaus fort, oder zeichnet sich mit dem Waffenruhe-Vorschlag eine tatsächliche Deeskalation ab?",
+        "Lassen sich die iranischen Explosionsmeldungen bei Ahwaz, Andimeschk, Omidiyeh, der Insel Gheschm und Bandar Abbas unabhängig verifizieren, etwa durch maritime oder internationale Beobachter?",
+        "Was genau bedeutete der gemeldete, laut Berichten abgewehrte Beschuss auf Jordanien, Bahrain und Kuwait – welche Ziele, welches Ausmaß, welche Quelle jenseits der Kurzmeldung?",
+        "Welche Ursache hatte die gemeldete Explosion und der Tankerbrand in der Straße von Hormus vom 23. Juli tatsächlich, und lässt sie sich unabhängig bestätigen?",
+        "Wie belastbar sind die iranischen Angaben zu Toten und Verletzten bei den Gegenschlägen gegen Golfstaaten und bei den fortgesetzten US-Angriffen insgesamt, und gibt es davon unabhängige Zählungen?",
+        "Setzt Trump seine frühere Drohung gegen die Anlage Kuh-e Kolang („Pickaxe Mountain“) tatsächlich um?",
         "Ist die Aussetzung des Rahmenabkommens durch den Iran inzwischen offiziell und im Wortlaut dokumentiert, oder beruht sie weiterhin nur auf Medienberichten?",
-        "Setzt sich die Angriffsserie über die zwölfte Nacht hinaus fort, oder zeichnet sich eine Deeskalation ab?"
+        "Wie stark wirkt sich die anhaltende Lage weiterhin auf den globalen Schiffsverkehr durch die Straße von Hormuz und auf die Energiepreise aus?",
+        "Wie äußern sich EU-Institutionen oder die österreichische Regierung zur inzwischen 13. Angriffsnacht und zum Waffenruhe-Vorschlag?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-24T04:07:27.221Z",
-      "doNotUpdateBefore": "2026-07-23T10:07:27.221Z",
-      "pendingOutcome": "Ob sich die US-Angriffsserie über die zwölfte Nacht hinaus fortsetzt oder eine Deeskalation eintritt, sowie ob sich die iranische Tankerbrand-Meldung, die Begründung der Rahmenabkommen-Aussetzung und die genannten Opferzahlen unabhängig bestätigen lassen, ist weiterhin offen und wird bei neuen Entwicklungen nachrecherchiert.",
+      "doNotRedraftBefore": "2026-07-25T04:07:32.306Z",
+      "doNotUpdateBefore": "2026-07-24T10:07:32.306Z",
+      "pendingOutcome": "Ob der von regionalen Vermittlern unterbreitete Vorschlag für eine zehntägige Waffenruhe von den USA und Iran angenommen wird und ob bzw. wann sich die seit Anfang Juli laufende nächtliche Angriffsserie fortsetzt oder beendet wird.",
       "pendingOutcomeUntil": "2026-07-25T04:07:27.221Z",
       "echoPublishers": {
-        "diepresse": "2026-07-23T06:07:26.122Z",
+        "diepresse": "2026-07-24T04:07:32.306Z",
         "orf": "2026-07-24T02:07:32.619Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-24T02:07:32.619Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-24T04:07:32.306Z"
     },
     "borkenkaefer-kaernten-klagenfurt-brennpunkt-juli-2026": {
       "canonicalTitle": "Borkenkäfer in Kärnten: Einige Bezirke entspannt, Klagenfurt und Unterkärnten im Blick",
@@ -3139,12 +3141,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-24T04:07:27.221Z",
       "doNotUpdateBefore": "2026-07-23T10:07:27.221Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-23T04:07:27.221Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-23T04:07:27.221Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-24T04:07:32.306Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -8664,8 +8664,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-23T18:07:32.611Z",
       "doNotUpdateBefore": "2026-07-23T00:07:32.611Z",
-      "pendingOutcome": "Offen bleiben insbesondere, ob es zu vorgezogenen Neuwahlen kommt, wie die vollständige Kabinettszusammensetzung jenseits Healeys aussieht und wie die Finanzierung der nun zwei angekündigten Entlastungsmaßnahmen (Stromsteuer, Busticket-Deckel) angesichts der hohen Staatsverschuldung und steigender Anleiherenditen langfristig gesichert werden soll.",
-      "pendingOutcomeUntil": "2026-07-24T02:07:34.550Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -9726,9 +9724,7 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-23T02:07:34.550Z",
-      "doNotUpdateBefore": "2026-07-22T08:07:34.550Z",
-      "pendingOutcome": "Die für Herbst 2026 angekündigte Regierungsentscheidung über das endgültige Ausmaß der Uni-Budget-Kürzungen für die Periode 2028–2030.",
-      "pendingOutcomeUntil": "2026-07-24T02:07:34.550Z"
+      "doNotUpdateBefore": "2026-07-22T08:07:34.550Z"
     },
     "dino-killer-asteroid-co-chondrit-nickel-isotope-2026": {
       "canonicalTitle": "Asteroid, der die Dinosaurier auslöschte, war ein extrem seltener Meteoritentyp",
@@ -10721,7 +10717,13 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-25T00:07:30.345Z",
-      "doNotUpdateBefore": "2026-07-24T06:07:30.345Z"
+      "doNotUpdateBefore": "2026-07-24T06:07:30.345Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-24T04:07:32.306Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-24T04:07:32.306Z"
     },
     "frankreich-kuendigungen-drogentests-ministerien-juli-2026": {
       "canonicalTitle": "Frankreich: Nach verpflichtenden Drogentests in Ministerien mehrere Kündigungen",
@@ -10857,6 +10859,58 @@
       "doNotUpdateBefore": "2026-07-24T08:07:32.619Z",
       "pendingOutcome": "Endgültige Entscheidung der Gläubiger und Eigentümer über die Zerschlagung von Varta und die künftige Eigentümerstruktur, einschließlich des Ausgangs von Tojners Versuch, Teile des Geschäfts herauszulösen.",
       "pendingOutcomeUntil": "2026-07-26T02:07:32.619Z"
+    },
+    "erdesz-ausschluss-fpoe-kaernten-juli-2026": {
+      "canonicalTitle": "FPÖ Kärnten schließt Jugend-Obmann Viktor Erdesz aus",
+      "slug": "erdesz-ausschluss-fpoe-kaernten-juli-2026",
+      "firstSeenAt": "2026-07-24T04:07:32.306Z",
+      "lastUpdatedAt": "2026-07-24T04:07:32.306Z",
+      "status": "published",
+      "articlePath": "src/content/articles/erdesz-ausschluss-fpoe-kaernten-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-24/erdesz-ausschluss-fpoe-kaernten-juli-2026.json",
+      "sourceUrls": [
+        "https://kaernten.orf.at/stories/3364002",
+        "https://www.derstandard.at/story/3000000332746/rechtsextremismus-erdesz-aus-k228rntner-fp214-ausgeschlossen",
+        "https://kurier.at/chronik/kaernten/erdesz-aus-kaerntner-fpoe-ausgeschlossen-rechtsextremismus/403177890"
+      ],
+      "openQuestions": [
+        "Wie äußert sich Viktor Erdesz selbst zu den Vorwürfen und seinem Ausschluss?",
+        "In welchem genauen Kontext entstand das Wehrmacht-Foto, und zu welcher Veranstaltung soll damit eingeladen worden sein?",
+        "Wie viele und welche Mitglieder der Freiheitlichen Jugend Kärnten sind konkret aus Protest ausgetreten?",
+        "Welche Medien erhoben vor rund zwei Wochen erstmals die Rechtsextremismus-Vorwürfe, und auf welcher Beleglage?",
+        "Wie lautet der genaue Wortlaut des Ausschlussbeschlusses und die einschlägige Statutenbestimmung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-25T04:07:32.306Z",
+      "doNotUpdateBefore": "2026-07-24T10:07:32.306Z"
+    },
+    "salzburger-festspiele-sicherheitskonzept-2026": {
+      "canonicalTitle": "Salzburger Festspiele verschärfen Sicherheitskonzept nach Störaktion des Vorjahres",
+      "slug": "salzburger-festspiele-sicherheitskonzept-2026",
+      "firstSeenAt": "2026-07-24T04:07:32.306Z",
+      "lastUpdatedAt": "2026-07-24T04:07:32.306Z",
+      "status": "published",
+      "articlePath": "src/content/articles/salzburger-festspiele-sicherheitskonzept-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-24/salzburger-festspiele-sicherheitskonzept-2026.json",
+      "sourceUrls": [
+        "https://salzburg.orf.at/stories/3363956",
+        "https://kurier.at/politik/inland/salzburger-festspiele-sicherheitskonzept-drohnen-polizei/403177760",
+        "https://www.salzburg24.at/news/salzburg/stadt/abstrakt-hohe-gefaehrdungslage-cobra-staatsschutz-und-drohnen-killer-so-ruestet-salzburg-fuer-die-festspiele-auf-art-332724",
+        "https://www.heute.at/s/sicherheit-bei-salzburger-festspielen-deutlich-erhoeht-120227844",
+        "https://www.sn.at/festspiele/salzburger-festspiele/hinter-den-kulissen/stoeraktion-bei-festspieleroeffnung-pro-palaestina-aktivisten-gaben-sich-als-mitarbeiter-aus-art-604046",
+        "https://salzburg.orf.at/stories/3315117",
+        "https://www.salzburg24.at/news/salzburg/stadt/stoeraktion-bei-eroeffnung-der-salzburger-festspiele-sicherheitskonzept-wird-verschaerft-aktivistinnen-auf-freiem-fuss-art-297365"
+      ],
+      "openQuestions": [
+        "Wie hoch sind die zusätzlichen Kosten des verschärften Sicherheitskonzepts, und wer trägt sie?",
+        "Welche technischen Details umfasst die neu eingesetzte Drohnenabwehr der Polizei?",
+        "Gibt es eine eigene Stellungnahme der Festspiel-Direktion, oder äußern sich nur Sicherheits- und Polizeiverantwortliche?",
+        "Wie reagieren Künstlerinnen, Künstler und Stammbesucher auf die strengeren Zugangskontrollen?",
+        "Welche rechtlichen Konsequenzen hatte die Störaktion 2025 für die beteiligten Aktivistinnen und Aktivisten sowie den ehemaligen Mitarbeiter, der ihnen laut Berichten geholfen haben soll?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-25T04:07:32.306Z",
+      "doNotUpdateBefore": "2026-07-24T10:07:32.306Z"
     }
   }
 }
