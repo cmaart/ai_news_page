@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T08:20:49.089Z",
+  "updatedAt": "2026-07-24T10:30:17.624Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3143,10 +3143,12 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-24T04:07:27.221Z",
       "doNotUpdateBefore": "2026-07-23T10:07:27.221Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-24T04:07:32.306Z"
+      "echoPublishers": {
+        "heise": "2026-07-24T10:07:30.773Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-24T10:07:30.773Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -4363,7 +4365,7 @@
       "doNotRedraftBefore": "2026-07-18T04:07:33.034Z",
       "doNotUpdateBefore": "2026-07-17T10:07:33.034Z",
       "echoPublishers": {
-        "apa": "2026-07-23T18:07:34.310Z"
+        "apa": "2026-07-24T10:07:30.773Z"
       },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -4835,11 +4837,12 @@
       "doNotRedraftBefore": "2026-07-24T02:07:29.150Z",
       "doNotUpdateBefore": "2026-07-23T08:07:29.150Z",
       "echoPublishers": {
-        "diepresse": "2026-07-23T14:07:27.966Z"
+        "diepresse": "2026-07-23T14:07:27.966Z",
+        "apa": "2026-07-24T10:07:30.773Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 5,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-23T14:07:27.966Z"
+      "resonanceMeasuredAt": "2026-07-24T10:07:30.773Z"
     },
     "gaza-israel-angriffe-neun-tote-juli-2026": {
       "canonicalTitle": "Gazastreifen: Laut Behörden erneut zehn Tote bei israelischen Luftangriffen",
@@ -6803,15 +6806,15 @@
       "pendingOutcomeUntil": "2026-07-25T10:07:57.645Z",
       "echoPublishers": {
         "diepresse": "2026-07-23T18:07:34.310Z",
-        "kurier": "2026-07-23T16:07:33.251Z",
+        "kurier": "2026-07-24T10:07:30.773Z",
         "kleinezeitung": "2026-07-24T06:07:26.229Z",
-        "orf": "2026-07-23T12:07:52.761Z",
+        "orf": "2026-07-24T10:07:30.773Z",
         "derstandard": "2026-07-24T08:07:35.765Z",
-        "apa": "2026-07-23T16:07:33.251Z"
+        "apa": "2026-07-24T10:07:30.773Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-24T08:07:35.765Z"
+      "resonanceMeasuredAt": "2026-07-24T10:07:30.773Z"
     },
     "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026": {
       "canonicalTitle": "Moonshot AIs Kimi K3 und Xi Jinpings Ruf nach Kontrolle: Chinas KI-Doppelschlag von Shanghai",
@@ -10354,28 +10357,33 @@
       "doNotUpdateBefore": "2026-07-23T14:07:30.505Z"
     },
     "diesel-2-euro-marke-spritpreisbremse-debatte-juli-2026": {
-      "canonicalTitle": "Diesel kostet erstmals seit dem Frühjahr wieder über zwei Euro je Liter",
+      "canonicalTitle": "Ölpreis über 100 Dollar: Diesel und Benzin weiter teurer, Streit um Spritpreisbremse spitzt sich zu",
       "slug": "diesel-2-euro-marke-spritpreisbremse-debatte-juli-2026",
       "firstSeenAt": "2026-07-23T08:07:30.505Z",
-      "lastUpdatedAt": "2026-07-23T08:07:30.505Z",
+      "lastUpdatedAt": "2026-07-24T10:07:30.773Z",
       "status": "published",
       "articlePath": "src/content/articles/diesel-2-euro-marke-spritpreisbremse-debatte-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-23/diesel-2-euro-marke-spritpreisbremse-debatte-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-24/diesel-2-euro-marke-spritpreisbremse-debatte-juli-2026-update-1000.json",
       "sourceUrls": [
         "https://www.diepresse.com/39088776/diesel-knackt-2-euro-marke-nach-erneuter-eskalation-im-iran-krieg",
         "https://kurier.at/wirtschaft/nach-erneuter-eskalation-im-iran-krieg-diesel-knackt-2-euro-marke/403177707",
-        "https://www.derstandard.at/story/3000000332465/diesel-kratzt-an-zwei-euro-marke-erneute-debatte-um-spritpreisbremse"
+        "https://www.derstandard.at/story/3000000332465/diesel-kratzt-an-zwei-euro-marke-erneute-debatte-um-spritpreisbremse",
+        "https://orf.at/stories/3437156",
+        "https://kurier.at/wirtschaft/spritpreisbremse-sprit-diesel-oelpreis-brent-tanken/403177524",
+        "https://orf.at/stories/3437077",
+        "https://www.diepresse.com/39313708/diesel-ueber-2-euro-preis-fuer-brent-rohoel-steigt-auf-mehr-als-100-dollar-pro-barrel"
       ],
       "openQuestions": [
         "Wie weit gehen die laut Medienberichten laufenden Regierungsgespräche tatsächlich, und welche konkreten Modelle liegen auf dem Tisch?",
         "Setzt die Regierung eine neue Margenregelung um, wie sie der ÖGB fordert, oder bleibt es bei einer reinen Steuersenkung?",
-        "Wie stark hängt die weitere Preisentwicklung vom Verlauf des Iran-Kriegs ab, und mit welchen Szenarien rechnen Energiemarkt-Beobachter?",
-        "Welche Position vertreten ÖVP, SPÖ und NEOS jeweils zur Frage einer neuerlichen Ausweitung der Spritpreisbremse?"
+        "Welche Aufgabe und Zusammensetzung hätte die laut Kurier-Berichten geplante Sprit-Preiskommission, und wird sie tatsächlich eingerichtet?",
+        "Welche Position vertreten ÖVP, SPÖ und NEOS jeweils zur Frage einer neuerlichen Ausweitung der Spritpreisbremse?",
+        "Wie stark hängt die weitere Preisentwicklung vom Verlauf des Iran-Kriegs ab, und mit welchen Szenarien rechnen Energiemarkt-Beobachter?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-24T08:07:30.505Z",
-      "doNotUpdateBefore": "2026-07-23T14:07:30.505Z",
-      "pendingOutcome": "Entscheidung der Regierung bis Ende Juli 2026 über die Höhe des Spritpreis-Entlastungsbeitrags für den Folgemonat.",
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-25T10:07:30.773Z",
+      "doNotUpdateBefore": "2026-07-24T16:07:30.773Z",
+      "pendingOutcome": "Ausgang der Regierungsentscheidung zur Spritpreisbremse Ende Juli 2026 sowie Bestätigung und Details einer möglichen Sprit-Preiskommission.",
       "pendingOutcomeUntil": "2026-07-25T08:07:30.505Z",
       "echoPublishers": {
         "derstandard": "2026-07-23T10:07:57.645Z"
@@ -11040,6 +11048,61 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-25T08:07:35.765Z",
       "doNotUpdateBefore": "2026-07-24T14:07:35.765Z"
+    },
+    "grazer-internist-zuerich-u-haft-juli-2026": {
+      "canonicalTitle": "Grazer Internist wegen Missbrauchsverdachts in Zürich in Untersuchungshaft",
+      "slug": "grazer-internist-zuerich-u-haft-juli-2026",
+      "firstSeenAt": "2026-07-24T10:07:30.773Z",
+      "lastUpdatedAt": "2026-07-24T10:07:30.773Z",
+      "status": "published",
+      "articlePath": "src/content/articles/grazer-internist-zuerich-u-haft-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-24/grazer-internist-zuerich-u-haft-juli-2026.json",
+      "sourceUrls": [
+        "https://steiermark.orf.at/stories/3364059",
+        "https://www.derstandard.at/story/3000000332818/verd228chtiger-grazer-internist-in-der-schweiz-in-untersuchungshaft",
+        "https://kurier.at/chronik/steiermark/verdaechtiger-grazer-internist-schweiz-untersuchungshaft/403177989",
+        "https://www.kleinezeitung.at/artikel/39453104/missbrauchsfaelle-grazer-internist-sitzt-in-der-schweiz-in-u-haft",
+        "https://www.20min.ch/story/in-zuerich-in-u-haft-arzt-verging-sich-an-betaeubten-patientinnen-und-filmte-es-103607637",
+        "https://www.watson.ch/schweiz/zuerich/157599703-arzt-aus-zuerich-in-u-haft-er-soll-mehrere-patientinnen-missbraucht-haben"
+      ],
+      "openQuestions": [
+        "Wie äußert sich der Beschuldigte oder seine Verteidigung zu den Vorwürfen?",
+        "Hat die Zürcher Staatsanwaltschaft den Einsatz einer verdeckten Ermittlerin inzwischen offiziell bestätigt oder dementiert?",
+        "Wie viele und welche der auf den Datenträgern erkennbaren, bislang nicht identifizierten Personen können den Ermittlungen zufolge noch zugeordnet werden?",
+        "Wann und wie wurden die Vorwürfe ursprünglich entdeckt, und wann ist mit einer Anklageerhebung zu rechnen?",
+        "Gibt es Reaktionen von Ärztekammer, Patientenschutz- oder Opferhilfe-Organisationen in Österreich oder der Schweiz?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-25T10:07:30.773Z",
+      "doNotUpdateBefore": "2026-07-24T16:07:30.773Z"
+    },
+    "asbest-wiener-strassenbelaege-versiegelung-juli-2026": {
+      "canonicalTitle": "Asbest in Wiener Straßenbelägen bestätigt: Stadt versiegelt betroffene Straßenabschnitte",
+      "slug": "asbest-wiener-strassenbelaege-versiegelung-juli-2026",
+      "firstSeenAt": "2026-07-24T10:07:30.773Z",
+      "lastUpdatedAt": "2026-07-24T10:07:30.773Z",
+      "status": "published",
+      "articlePath": "src/content/articles/asbest-wiener-strassenbelaege-versiegelung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-24/asbest-wiener-strassenbelaege-versiegelung-juli-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3364047",
+        "https://www.diepresse.com/39433037/asbestfund-im-asphalt-stadt-wien-ergreift-sofortmassnahmen",
+        "https://kurier.at/chronik/wien/asbest-wien-sofortmassnahmen/403177944",
+        "https://www.ots.at/presseaussendung/OTS_20260724_OTS0017/nach-asbest-aufdeckung-durch-greenpeace-umweltschutzorganisation-begruesst-sofortmassnahmen-der-stadt-wien",
+        "https://www.ots.at/presseaussendung/OTS_20260724_OTS0014/stadt-wien-setzt-sofortmassnahmen-nach-asbestfunden-im-asphalt"
+      ],
+      "openQuestions": [
+        "Wie viele der insgesamt 40 von Greenpeace gemeldeten Verdachtsflächen werden sich noch als asbesthaltig bestätigen?",
+        "Welche Kosten entstehen durch die Versiegelungsmaßnahmen, und wer trägt sie?",
+        "Wie sieht der genaue Zeitplan für die Umsetzung an bereits bestätigten und künftig bestätigten Standorten aus?",
+        "Wie sieht die von der Stadt angekündigte langfristige Lösung über die Versiegelung hinaus konkret aus?",
+        "Seit wann genau und in welchem Umfang wurde asbesthaltiges Gestein historisch in Wiener Straßenbeläge eingebaut?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-25T10:07:30.773Z",
+      "doNotUpdateBefore": "2026-07-24T16:07:30.773Z",
+      "pendingOutcome": "Ergebnisse der noch laufenden Laboruntersuchungen für die übrigen von Greenpeace gemeldeten Verdachtsflächen sowie nähere Details zur angekündigten langfristigen Lösung im Umgang mit asbesthaltigen Straßenbelägen.",
+      "pendingOutcomeUntil": "2026-07-26T10:07:30.773Z"
     }
   }
 }

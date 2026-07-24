@@ -1,0 +1,328 @@
+{
+  "cluster": {
+    "id": "cluster-20260724-6ff6134c",
+    "title": "Ölpreis steigt: Neue Debatte über Spritpreisbremse",
+    "items": [
+      {
+        "itemId": "66dc1c860e5d7a3afaae9d830bc79b4a023b1bb57852dbad71b5232492b30888",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Ölpreis steigt: Neue Debatte über Spritpreisbremse",
+        "url": "https://orf.at/stories/3437156",
+        "publishedAt": "2026-07-24T09:29:52.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "b916b2b91796e5f6d21063292a76e70791789ace14e73f7f45e05e18bbacdf75",
+        "sourceId": "kurier_wirtschaft",
+        "sourceType": "media",
+        "title": "Ölpreis bei 95 Dollar, Debatte um Spritpreisbremse wird wieder heiß",
+        "url": "https://kurier.at/wirtschaft/spritpreisbremse-sprit-diesel-oelpreis-brent-tanken/403177524",
+        "isNew": false
+      },
+      {
+        "itemId": "9f49c8d5df56ab53b7da426d9e1bd7b242a4514c25009b73fd20d175c2ee03d9",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Ölpreis wieder über 100 Dollar",
+        "url": "https://orf.at/stories/3437077",
+        "isNew": false
+      },
+      {
+        "itemId": "a069cbbbd5f963d96658d724b40d994321127d7e4eb20840c92e7b69c8b34cea",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Diesel über 2 Euro: Preis für Brent-Rohöl steigt auf mehr als 100 Dollar pro Barrel",
+        "url": "https://www.diepresse.com/39313708/diesel-ueber-2-euro-preis-fuer-brent-rohoel-steigt-auf-mehr-als-100-dollar-pro-barrel",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.9,
+  "triage": {
+    "action": "update_story",
+    "reason": "Substantielle Entwicklung zur publizierten Story über Dieselpreise und Spritpreisbremsen-Debatte im Juli 2026. Der Cluster liefert kritische neue Kontext-Information (Iran-Krieg-Eskalation als Preistreiber), aktuelle Preis-Datenpunkte (Diesel 2,038 EUR, Benzin 1,881 EUR am 24.07), konkrete Stakeholder-Positionen (WIFO-Chef Felbermayr, ÖAMTC, ÖGB, Branchenverband), und bestätigt vorgehend berichtete Regierungsgespräche mit aktuellem Status (erste Verhandlungen laut Koalitionskreisen). Beantwortet mehrere offene Fragen der bestehenden Story teilweise (Regierungsgespräche im Gange; ÖGB fordert Margenregelung; Kataster der Preis-Entwicklung an Iran-Krieg gebunden).",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": 3,
+    "relatedSlug": "diesel-2-euro-marke-spritpreisbremse-debatte-juli-2026",
+    "possibleClaims": [
+      "Rohölpreis (Brent) ist in Folge iranischer Krieg-Eskalation auf über 100 USD pro Barrel gestiegen",
+      "Dieselpreis in Österreich am 24.07.2026: 2,038 EUR/Liter (E-Control Median)",
+      "Benzinpreis in Österreich am 24.07.2026: 1,881 EUR/Liter (E-Control Median)",
+      "Regierung führt laut Koalitionskreisen erste Verhandlungen über Ausweitung der Spritpreisbremse",
+      "WIFO-Chef Gabriel Felbermayr befürwortet Mineralölsteuersenkung, rät aber von Margenbegrenzung ab",
+      "ÖAMTC erneuert Forderung nach stärkerer MöSt-Senkung im August",
+      "ÖGB fordert gezielte Senkung der Mineralölsteuer im Ausmaß der krisenbedingten Steuermehreinnahmen",
+      "Die MöSt-Reduktion beträgt im Juli nur noch 0,8 Cent/Liter (Juni: 1,7 Cent/Liter)",
+      "Margenbegrenzung wurde bereits Anfang Juni aufgehoben",
+      "Benzinpreis 1,86 EUR/Liter nur knapp unter März-Höchstwert von ca. 1,9 EUR/Liter"
+    ],
+    "missingSources": [
+      "Detaillierte Chronologie und spezifische militärische Details der US-Angriffe auf Iran seit Februar 2026",
+      "Konkrete Modelle und Szenarien aus den laufenden Regierungsgesprächen",
+      "Einzelne Positionen der drei Koalitionsparteien (ÖVP, SPÖ, NEOS) zur Ausweitung",
+      "Szenarien von Energiemarkt-Beobachtern zur weiteren Preisentwicklung unter verschiedenen Iran-Konflikt-Szenarien",
+      "Daten zur tatsächlichen Weitergabe von Preissenkungen durch Tankstellen (Compliance mit Mandate bis 31.08.2026)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "diesel-2-euro-marke-spritpreisbremse-debatte-juli-2026",
+    "title": "Ölpreis über 100 Dollar: Diesel und Benzin weiter teurer, Streit um Spritpreisbremse spitzt sich zu",
+    "description": "Nach der Eskalation im Iran-Krieg ist der Ölpreis auf über 100 Dollar je Barrel gestiegen, Diesel und Benzin verteuern sich in Österreich weiter. WIFO, ÖAMTC, ÖGB und die Branche positionieren sich in der Debatte um eine erneute Spritpreisbremse, eine Regierungsentscheidung steht weiter aus.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Die Preisdaten stammen laut übereinstimmenden Medienberichten von E-Control und gelten damit als gesichert, ebenso die namentlich zugeordneten Zitate von Felbermayr, ÖAMTC, ÖGB, Fachverband und Wirtschaftsminister. Die Angabe zu laufenden Regierungsverhandlungen sowie zu einer möglichen neuen Preiskommission stützt sich dagegen weiterhin nur auf unspezifische Medienberichte bzw. eine unvollständig vorliegende Zwischenüberschrift, ohne offizielle Bestätigung.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde weiterhin keine Primärquelle (E-Control-Datenblatt, Regierungsaussendung, Ölmarkt-Notierung) direkt eingesehen, sondern ausschließlich Medienberichte, die sich auf E-Control-Daten, Marktdaten und Koalitionskreise berufen.",
+    "framingRisk": "low",
+    "framingRiskNote": "Im Vergleich zur ursprünglichen Fassung kommen nun deutlich mehr Seiten der Debatte zu Wort: WIFO-Chef Felbermayr (Ökonomie), ÖAMTC (Konsument:innen), ÖGB (Gewerkschaft), der Kraftstoff-Fachverband (Branche) und der Wirtschaftsminister (Regierung). Die Positionen decken sowohl Befürworter als auch Gegner eines Preiseingriffs ab; einzelne Parteipositionen von ÖVP, SPÖ und NEOS fehlen aber weiterhin.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Diesel und Benzin sind in Österreich wegen der Eskalation im Iran-Krieg weiter teurer geworden: Laut E-Control-Median stiegen die Preise von 2,009 bzw. 1,878 Euro am 22. Juli auf 2,038 bzw. 1,881 Euro am 23. Juli.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Rohölpreis der Sorte Brent kletterte im selben Zeitraum von rund 95 auf über 100 US-Dollar je Barrel, den höchsten Stand seit Monaten.",
+        "kind": "fact"
+      },
+      {
+        "text": "WIFO-Chef Gabriel Felbermayr, der ÖAMTC, der ÖGB und der Kraftstoff-Fachverband positionierten sich in der Debatte um die Spritpreisbremse: Einigkeit besteht tendenziell bei einer Mineralölsteuersenkung, Uneinigkeit bei einer neuerlichen Margenbegrenzung, die Felbermayr und der Fachverband ablehnen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und wie die Regierung die Spritpreisbremse ausweitet, wie weit die laut Kurier-Berichten geplante Sprit-Preiskommission reicht und wie die einzelnen Koalitionsparteien dazu stehen, ist weiterhin offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie weit gehen die laut Medienberichten laufenden Regierungsgespräche tatsächlich, und welche konkreten Modelle liegen auf dem Tisch?",
+      "Setzt die Regierung eine neue Margenregelung um, wie sie der ÖGB fordert, oder bleibt es bei einer reinen Steuersenkung?",
+      "Welche Aufgabe und Zusammensetzung hätte die laut Kurier-Berichten geplante Sprit-Preiskommission, und wird sie tatsächlich eingerichtet?",
+      "Welche Position vertreten ÖVP, SPÖ und NEOS jeweils zur Frage einer neuerlichen Ausweitung der Spritpreisbremse?",
+      "Wie stark hängt die weitere Preisentwicklung vom Verlauf des Iran-Kriegs ab, und mit welchen Szenarien rechnen Energiemarkt-Beobachter?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/39088776/diesel-knackt-2-euro-marke-nach-erneuter-eskalation-im-iran-krieg"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/nach-erneuter-eskalation-im-iran-krieg-diesel-knackt-2-euro-marke/403177707"
+      },
+      {
+        "id": "src3",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000332465/diesel-kratzt-an-zwei-euro-marke-erneute-debatte-um-spritpreisbremse"
+      },
+      {
+        "id": "src4",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3437156"
+      },
+      {
+        "id": "src5",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/spritpreisbremse-sprit-diesel-oelpreis-brent-tanken/403177524"
+      },
+      {
+        "id": "src6",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3437077"
+      },
+      {
+        "id": "src7",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/39313708/diesel-ueber-2-euro-preis-fuer-brent-rohoel-steigt-auf-mehr-als-100-dollar-pro-barrel"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Diesel kostete am 23. Juli 2026 im österreichweiten Median 2,009 Euro je Liter, Benzin 1,878 Euro.",
+        "status": "supported",
+        "note": "Die Zahlen werden von E-Control-Daten getragen und von mehreren Medien übereinstimmend wiedergegeben, teils erkennbar auf Basis derselben Agenturmeldung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Gegenüber dem Vortag sind die Preise damit spürbar gestiegen – Diesel von 1,989 auf 2,009 Euro, Benzin von 1,864 auf 1,878 Euro.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Vor Beginn des Iran-Kriegs im Februar 2026 lag der Median bei rund 1,52 Euro für Benzin und 1,57 Euro für Diesel, am Höhepunkt der Preisrallye Ende März bei rund 1,9 bzw. 2,2 Euro.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die im April eingeführte Spritpreisbremse aus Mineralölsteuer-Senkung und Margenbegrenzung wurde seither schrittweise reduziert, zuletzt auf eine Mineralölsteuer-Senkung von 0,8 Cent je Liter im Juli.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "In der Regierung laufen laut Medienberichten bereits erste Gespräche über eine neuerliche Ausweitung der Spritpreisbremse.",
+        "status": "partial",
+        "note": "Beruht ausschließlich auf unspezifischer Medienberichterstattung ('laut Medienberichten', 'aus Koalitionskreisen'); eine offizielle Bestätigung der Regierung liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der ÖGB fordert die Wiedereinführung einer wirksamen Margenregelung, jedenfalls für Diesel und Heizöl.",
+        "status": "supported",
+        "note": "Direkt wiedergegebene Forderung einer benannten Organisation.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Der Rohölpreis der Sorte Brent legte im Zuge der Eskalation im Iran-Krieg weiter zu: Am 22. Juli lag er bei rund 95 US-Dollar je Barrel, dem höchsten Stand seit Anfang Juni, bis zum 24. Juli wurde ein Anstieg auf über 100 US-Dollar je Barrel gemeldet.",
+        "status": "supported",
+        "note": "Getragen von mehreren unabhängigen Medienberichten (Kurier, ORF, Die Presse); eine direkt eingesehene Marktdaten-Primärquelle liegt nicht vor.",
+        "sourceIds": [
+          "src5",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Diesel und Benzin verteuerten sich in den Folgetagen weiter: Der E-Control-Median lag am 22. Juli bei 2,009 Euro (Diesel) bzw. 1,878 Euro (Benzin), am 23. Juli bereits bei 2,038 Euro bzw. 1,881 Euro.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "WIFO-Chef Gabriel Felbermayr sagte im Ö1-Morgenjournal, angesichts der jüngsten Preissteigerungen könnte bei der Mineralölsteuer wieder etwas „zurückgegeben“ werden, riet aber von einer neuerlichen Margenbegrenzung ab, da diese „höchst komplex und in ihrer Wirkung fragwürdig“ sei.",
+        "status": "supported",
+        "note": "Direkt wiedergegebenes Zitat aus einem Radio-Interview, einer namentlich genannten Fachperson zugeordnet.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Der ÖAMTC erneuerte seine Forderung nach einer „stärkeren“ Mineralölsteuersenkung im August und kritisierte, dass die Kopplung der heimischen Preise an internationale Notierungen keine Garantie für die Weitergabe sinkender Ölpreise sei.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Der ÖGB sprach sich zudem für eine „gezielte Senkung der Mineralölsteuer im Ausmaß der krisenbedingten Steuermehreinnahmen“ aus – zusätzlich zu seiner bereits zuvor erhobenen Forderung nach einer Margenregelung für Diesel und Heizöl.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Wirtschaftsminister Wolfgang Hattmannsdorfer erklärte auf Anfrage zurückhaltend, man beobachte die Lage täglich, oberstes Ziel sei die Versorgungssicherheit.",
+        "status": "supported",
+        "note": "Direktes Statement gegenüber Ö1 und den Salzburger Nachrichten, laut Kurier-Bericht.",
+        "sourceIds": [
+          "src5"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "Laut Kurier-Berichterstattung dürfte die Regierung eine eigene Sprit-Preiskommission einrichten.",
+        "status": "unclear",
+        "note": "Die Angabe stammt aus einer Zwischenüberschrift des Kurier-Artikels; der zugehörige Fließtext lag im ausgewerteten Auszug nicht vor. Details zu Aufgabe, Zusammensetzung oder Zeitplan der Kommission sind daher nicht bekannt.",
+        "sourceIds": [
+          "src5"
+        ]
+      },
+      {
+        "id": "claim14",
+        "text": "Der Kraftstoff-Fachverband lehnt laut seiner Geschäftsführerin Hedwig Doloszeski einen neuerlichen Preiseingriff ab; der kleinteilige heimische Tankstellenmarkt funktioniere gut.",
+        "status": "supported",
+        "note": "Direkt wiedergegebene Position eines Branchenverbands.",
+        "sourceIds": [
+          "src5"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Diesel und Benzin sind in Österreich in den vergangenen Tagen weiter teurer geworden. Nach Daten der Regulierungsbehörde E-Control, über die mehrere Medien übereinstimmend berichten, kostete Diesel im österreichweiten Median am 22. Juli 2,009 Euro je Liter und Benzin 1,878 Euro – ein Sprung gegenüber dem Vortag (1,989 bzw. 1,864 Euro). Bis zum 23. Juli stiegen die Werte laut ORF weiter auf 2,038 Euro (Diesel) bzw. 1,881 Euro (Benzin). Als Auslöser gilt weiterhin die erneute Eskalation im Iran-Krieg, die die Öl- und Spritpreise seit Wochen nach oben treibt – ein Konflikt, über dessen Verlauf an anderer Stelle bereits berichtet wurde."
+      },
+      {
+        "heading": "Rohölpreis über 100 Dollar",
+        "markdown": "Parallel zu den Preisen an der Zapfsäule ist auch der Rohölpreis weiter gestiegen. Der Preis für ein Barrel der Referenzsorte Brent lag laut Kurier am 22. Juli bei rund 95 US-Dollar und damit auf dem höchsten Stand seit Anfang Juni – zuvor war er in der Hoffnung auf eine anhaltende Waffenruhe im Nahen Osten bis auf rund 70 Dollar gefallen. Aus dieser Hoffnung wurde nichts: ORF und Die Presse berichteten in der Folge übereinstimmend, dass Brent-Rohöl die Marke von 100 US-Dollar je Barrel überschritten hat. Eine eigenständig recherchierte Marktdatenquelle wurde dazu nicht eingesehen, die Einordnung stützt sich auf mehrere unabhängige Medienberichte."
+      },
+      {
+        "heading": "Wie sich die Preise seit Kriegsbeginn entwickelt haben",
+        "markdown": "Der Vergleich mit früheren Monaten zeigt das Ausmaß der Verteuerung: In der Woche vor Beginn des Iran-Kriegs im Februar lag der österreichweite Median für Benzin noch bei rund 1,52 Euro, für Diesel bei 1,57 Euro. Am Höhepunkt der ersten Preisrallye Ende März kletterten die Werte auf rund 1,9 Euro für Benzin und rund 2,2 Euro für Diesel, bevor sie sich in den Folgemonaten wieder etwas entspannten. Mit den aktuellen Werten von rund 1,88 Euro (Benzin) und 2,04 Euro (Diesel) nähert sich die Preisentwicklung diesen Höchstwerten wieder deutlich an."
+      },
+      {
+        "heading": "Was mit der Spritpreisbremse passiert",
+        "markdown": "Reagiert hatte die ÖVP/SPÖ/NEOS-Regierung auf die erste Preiswelle im April mit einer Spritpreisbremse aus Mineralölsteuer-Senkung und einer zeitweiligen Begrenzung der Handelsmargen, die den Liter Sprit um rund zehn Cent verbilligen sollte. In den Folgemonaten wurde diese Entlastung schrittweise zurückgefahren: Im Juni betrug die Mineralölsteuer-Senkung noch 1,7 Cent je Liter, im Juli sind es nur mehr 0,8 Cent. Die Margenbegrenzung selbst wurde bereits Anfang Juni aufgehoben; weiterhin verpflichtend ist lediglich, dass Tankstellen bis Ende August Preissenkungen bei den internationalen Notierungen weitergeben müssen. Ende Juli muss sich die Regierung erneut auf eine Höhe für den kommenden Monat einigen."
+      },
+      {
+        "heading": "Positionen in der Debatte",
+        "markdown": "Angesichts der jüngsten Preissprünge haben sich mehrere Akteure positioniert. WIFO-Chef Gabriel Felbermayr sagte im Ö1-Morgenjournal, bei der Mineralölsteuer könnte wieder etwas „zurückgegeben“ werden, von einer neuerlichen Margenbegrenzung riet er jedoch ab – diese sei „höchst komplex und in ihrer Wirkung fragwürdig“ und nütze am Ende eher den Produzenten als den Verbraucherinnen und Verbrauchern. Der Mobilitätsclub ÖAMTC erneuerte seine Forderung nach einer „stärkeren“ Mineralölsteuersenkung im August und kritisierte, dass die Koppelung der heimischen Preise an internationale Notierungen keine Garantie für die Weitergabe sinkender Ölpreise sei. Der ÖGB, der bereits zuvor eine wirksame Margenregelung für Diesel und Heizöl gefordert hatte, sprach sich zusätzlich für eine „gezielte Senkung der Mineralölsteuer im Ausmaß der krisenbedingten Steuermehreinnahmen“ aus. Der Kraftstoff-Fachverband lehnt einen neuerlichen Preiseingriff über seine Geschäftsführerin Hedwig Doloszeski dagegen ab, der kleinteilige heimische Tankstellenmarkt funktioniere gut. Wirtschaftsminister Wolfgang Hattmannsdorfer selbst hielt sich zurück und erklärte lediglich, man beobachte die Lage täglich, oberstes Ziel sei die Versorgungssicherheit. Laut Kurier-Berichten dürfte die Regierung zudem eine eigene Sprit-Preiskommission einrichten – Details dazu liegen aus der vorliegenden Quellenlage aber nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Berichte sprechen weiterhin von ersten Verhandlungen in der Regierung über eine neuerliche Ausweitung der Bremse, stützen sich dabei aber lediglich auf allgemeine Formulierungen wie „laut Medienberichten“ beziehungsweise „aus Koalitionskreisen“ – eine offizielle Stellungnahme von Regierungsseite liegt nicht vor. Offen ist damit weiterhin, welche konkreten Modelle diskutiert werden, ob es erneut zu einer Margenbegrenzung kommt und wie sich ÖVP, SPÖ und NEOS jeweils positionieren. Auch zur berichteten Sprit-Preiskommission fehlen bislang Angaben zu Aufgabe, Zusammensetzung und Zeitplan."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der anhaltende Preisanstieg reiht sich in ein Muster ein, das seit Beginn des Iran-Kriegs im Februar zu beobachten ist: Militärische Eskalationsschritte im Nahen Osten schlagen mit Verzögerung auf die heimischen Zapfsäulen durch, während die politische Reaktion – bislang eine befristete, stufenweise auslaufende steuerliche Entlastung – der Preisdynamik erkennbar hinterherhinkt. Anders als bei der ersten Berichterstattung liegt inzwischen ein breiteres Meinungsbild vor: Ökonomie (Felbermayr), Konsumentenseite (ÖAMTC), Gewerkschaft (ÖGB) und Branche (Fachverband) positionieren sich unterschiedlich, wobei die Mineralölsteuersenkung breiter akzeptiert scheint als eine neuerliche Margenbegrenzung. Ob die Regierung angesichts der neuerlichen Eskalation zu einer stärkeren Gegenmaßnahme greift oder es bei der reinen Steuersenkung belässt, dürfte sich erst mit der für Ende Juli angekündigten Entscheidung zeigen."
+      }
+    ],
+    "bodyKompakt": "Diesel und Benzin sind in Österreich weiter teurer geworden: Nach Daten der Regulierungsbehörde E-Control stiegen die Preise im österreichweiten Median von 2,009 Euro (Diesel) und 1,878 Euro (Benzin) am 22. Juli auf 2,038 bzw. 1,881 Euro am 23. Juli. Auslöser ist die anhaltende Eskalation im Iran-Krieg, die auch den Rohölpreis weiter nach oben treibt: Der Preis für Brent-Rohöl lag am 22. Juli bei rund 95 US-Dollar je Barrel und wurde laut ORF und Die Presse zuletzt mit über 100 Dollar je Barrel beziffert. Zum Vergleich: Vor Kriegsbeginn im Februar lag der Median noch bei rund 1,52 Euro für Benzin und 1,57 Euro für Diesel, am bisherigen Höhepunkt Ende März bei rund 1,9 bzw. 2,2 Euro.\n\nDie im April eingeführte Spritpreisbremse aus Steuersenkung und Margenbegrenzung wurde seither schrittweise abgebaut, zuletzt auf 0,8 Cent Mineralölsteuer-Senkung im Juli; Ende Juli muss die Regierung erneut entscheiden. In der Debatte positionieren sich mittlerweile mehrere Seiten: WIFO-Chef Gabriel Felbermayr befürwortet eine Steuersenkung, rät aber von einer Margenbegrenzung ab; der ÖAMTC fordert eine stärkere Mineralölsteuersenkung im August; der ÖGB verlangt zusätzlich zu einer Margenregelung nun auch eine gezielte Steuersenkung im Ausmaß der Mehreinnahmen; der Kraftstoff-Fachverband lehnt einen Preiseingriff ganz ab. Wirtschaftsminister Hattmannsdorfer hält sich zurück und verweist auf die Versorgungssicherheit.\n\nLaut Kurier-Berichten könnte die Regierung zudem eine eigene Sprit-Preiskommission einrichten, Details dazu liegen aber nicht vor. Offiziell bestätigte Regierungsgespräche zur Bremse gibt es weiterhin nicht, ebenso wenig klare Positionen von ÖVP, SPÖ und NEOS einzeln. Ob und wie stark die Bremse wieder ausgeweitet wird, bleibt bis zur angekündigten Entscheidung Ende Juli offen.",
+    "updateNote": "Diesel und Benzin verteuerten sich bis 23. Juli weiter (2,038/1,881 Euro), der Brent-Ölpreis stieg auf über 100 US-Dollar, und WIFO, ÖAMTC, ÖGB, Wirtschaftsminister sowie Kraftstoff-Fachverband positionierten sich neu in der Debatte um die Spritpreisbremse.",
+    "pendingOutcome": "Ausgang der Regierungsentscheidung zur Spritpreisbremse Ende Juli 2026 sowie Bestätigung und Details einer möglichen Sprit-Preiskommission."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-24T10:07:30.773Z"
+}
