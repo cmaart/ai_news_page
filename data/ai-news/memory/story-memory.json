@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T04:21:58.230Z",
+  "updatedAt": "2026-07-24T06:30:31.210Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3005,7 +3005,8 @@
       "pendingOutcomeUntil": "2026-07-25T04:07:27.221Z",
       "echoPublishers": {
         "diepresse": "2026-07-24T04:07:32.306Z",
-        "orf": "2026-07-24T02:07:32.619Z"
+        "orf": "2026-07-24T02:07:32.619Z",
+        "derstandard": "2026-07-24T06:07:26.229Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -4004,13 +4005,13 @@
       "sensitivity": "low"
     },
     "warner-bros-discovery-paramount-kartellklage-juli-2026": {
-      "canonicalTitle": "Warner-Bros.-Übernahme: EU-Kommission genehmigt Paramount-Deal mit Auflagen, US-Gericht hält Fusion vorerst weiter auf Eis",
+      "canonicalTitle": "Warner-Bros.-Übernahme: US-Gericht verlängert Blockade bis 17. August, EU hatte Deal zuvor mit Auflagen genehmigt",
       "slug": "warner-bros-discovery-paramount-kartellklage-juli-2026",
       "firstSeenAt": "2026-07-13T20:07:31.882Z",
-      "lastUpdatedAt": "2026-07-22T20:07:33.174Z",
+      "lastUpdatedAt": "2026-07-24T06:07:26.229Z",
       "status": "published",
       "articlePath": "src/content/articles/warner-bros-discovery-paramount-kartellklage-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-22/warner-bros-discovery-paramount-kartellklage-juli-2026-update-2000.json",
+      "researchPath": "data/ai-news/research/2026-07-24/warner-bros-discovery-paramount-kartellklage-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.heise.de/news/US-Bundesstaaten-klagen-gegen-Warner-Bros-Discovery-Uebernahme-durch-Paramount-11363551.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
@@ -4052,28 +4053,38 @@
         "https://www.golem.de/news/millionenkosten-fuer-paramount-gericht-pausiert-warner-uebernahme-wegen-nachteilen-fuer-zuschauer-2607-211092.html",
         "https://www.cnbc.com/2026/07/22/european-commission-paramount-wbd-approval.html",
         "https://www.bloomberg.com/news/articles/2026-07-22/paramount-s-110-billion-warner-deal-gets-eu-conditional-approval",
-        "https://www.handelsblatt.com/politik/deutschland/hollywood-deal-eu-kommission-billigt-warner-uebernahme-durch-paramount/100242210.html"
+        "https://www.handelsblatt.com/politik/deutschland/hollywood-deal-eu-kommission-billigt-warner-uebernahme-durch-paramount/100242210.html",
+        "https://www.diepresse.com/39402791/us-richterin-legt-warner-uebernahme-bis-mitte-august-auf-eis",
+        "https://kurier.at/kultur/warner-bros-paramount-skydance-uebernahme-pause/403177300",
+        "https://deadline.com/2026/07/paramount-warner-bros-merger-judge-extends-order-1237001966/",
+        "https://deadline.com/2026/07/paramount-warner-bros-state-attorney-general-lawsuit-1237000888/",
+        "https://deadline.com/2026/07/writers-guild-paramount-warner-bros-lawsuit-1237000083/",
+        "https://www.thewrap.com/industry-news/deals-ma/paramount-warner-bros-restraining-order-extended-2-weeks/",
+        "https://variety.com/2026/film/news/wga-injunction-paramount-warner-bros-1236818017/",
+        "https://variety.com/2026/film/news/judge-paramount-warner-bros-merger-14-days-1236819740/",
+        "https://www.hollywoodreporter.com/business/business-news/paramount-warner-bros-merger-pause-extended-1236655583/"
       ],
       "openQuestions": [
-        "Wie reagiert Warner Bros. Discovery offiziell und im Detail auf die einstweilige Verfügung sowie auf die EU-Genehmigung - über das bisherige Schweigen des Unternehmens hinaus?",
-        "Wie fällt die für 3. August 2026 angesetzte Anhörung zur Preliminary Injunction aus, sofern der Termin nicht einvernehmlich verschoben wird?",
-        "Wird die einstweilige Verfügung nach Ablauf der 14 Tage verlängert (laut Berichten bis zu 28 Tage möglich) oder in eine Preliminary Injunction übergeführt?",
-        "Legt Paramount trotz der eigenen, um Deeskalation bemühten Stellungnahme dennoch Rechtsmittel gegen die einstweilige Verfügung ein?",
-        "Werden die Klagen der Bundesstaaten und der WGA vor Gericht zusammengelegt oder getrennt weiterverhandelt?",
-        "Bleibt die im Juni erteilte, laut Berichten auflagenfreie Freigabe des US-Justizministeriums trotz der einstweiligen Verfügung formal bestehen?",
-        "Wie viele Unterschriften hat die von Jane Fonda beworbene Petition an die Generalstaatsanwälte tatsächlich gesammelt, und welche rechtliche Wirkung hätte sie?",
-        "Wie bewerten unabhängige Kartellrechtsexpertinnen und -experten die Erfolgsaussichten der US-Klagen angesichts der einstweiligen Verfügung?",
+        "Wie fällt die für 3. August 2026 angesetzte Anhörung zur Preliminary Injunction aus, und findet sie wie geplant statt oder wird sie im Zuge der Terminabstimmung verschoben?",
+        "Genehmigt das Gericht Paramounts Antrag auf eine dreitägige Beweisaufnahme (evidentiary hearing), und falls ja, für welchen genauen Termin in der Woche um den 17. oder 24. August?",
+        "Wird die einstweilige Verfügung nach Ablauf der Frist am 17. August 2026 erneut verlängert, oder läuft sie aus bzw. wird in eine reguläre Preliminary Injunction übergeführt?",
+        "Was ergibt der von der Richterin angeordnete, für 24. Juli 2026 angekündigte gemeinsame Statusbericht von Paramount, den Bundesstaaten und der WGA nach ihren 'meet and confer'-Gesprächen?",
+        "Wie reagiert Warner Bros. Discovery offiziell und im Detail auf die einstweilige Verfügung, deren Verlängerung sowie auf die EU-Genehmigung - über das bisherige Schweigen des Unternehmens hinaus?",
+        "Werden die Klagen der Bundesstaaten und der WGA vor Gericht zusammengelegt, oder verhandelt das Gericht beide Preliminary-Injunction-Anträge getrennt weiter?",
+        "Wie bewerten unabhängige Kartellrechtsexpertinnen und -experten die Erfolgsaussichten der US-Klagen angesichts der bisherigen Zwischenentscheidungen?",
         "Prüfen Kartellbehörden in weiteren Jurisdiktionen, etwa in Großbritannien, den Deal noch gesondert, und mit welchem Ergebnis?",
         "Wer wird als unabhängiger Treuhänder zur Überwachung der EU-Auflagen bestellt, und wie konkret wird dessen Kontrolle ausgestaltet?",
-        "Wirkt sich die EU-Genehmigung in irgendeiner Form auf das laufende US-Gerichtsverfahren oder auf die WGA-Klage aus?",
-        "Hat die tatsächliche Umsetzung des UIP-Ausstiegs innerhalb der 13-Monats-Frist bereits begonnen, und wie wird sie im Detail vollzogen?"
+        "Hat die tatsächliche Umsetzung des UIP-Ausstiegs innerhalb der 13-Monats-Frist bereits begonnen, und wie wird sie im Detail vollzogen?",
+        "Wie viele Unterschriften hat die von Jane Fonda beworbene Petition an die Generalstaatsanwälte tatsächlich gesammelt, und welche rechtliche Wirkung hätte sie?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-23T20:07:33.174Z",
-      "doNotUpdateBefore": "2026-07-23T02:07:33.174Z",
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-25T06:07:26.229Z",
+      "doNotUpdateBefore": "2026-07-24T12:07:26.229Z",
+      "pendingOutcome": "Offen bleibt, wie die für 3. August 2026 angesetzte Anhörung zur Preliminary Injunction ausgeht, ob das Gericht Paramounts Antrag auf eine dreitägige Beweisaufnahme annimmt, was der für 24. Juli 2026 angekündigte gemeinsame Statusbericht der Parteien ergibt, und ob die einstweilige Verfügung nach Ablauf der Frist am 17. August 2026 erneut verlängert wird.",
+      "pendingOutcomeUntil": "2026-07-26T06:07:26.229Z",
       "echoPublishers": {
-        "heise": "2026-07-23T06:07:26.122Z",
-        "orf": "2026-07-23T18:07:34.310Z"
+        "orf": "2026-07-23T18:07:34.310Z",
+        "diepresse": "2026-07-24T06:07:26.229Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
@@ -6707,13 +6718,13 @@
       "sensitivity": "medium"
     },
     "wkw-ruck-protokoll-postenschacher-sexismus-juli-2026": {
-      "canonicalTitle": "Causa Ruck: Exklusivrecherche zeigt mutmaßliche Wahlzahlen-Tricks, Wirtschaftsbund hält weiter an ihm fest",
+      "canonicalTitle": "Causa Ruck: ÖVP-Bundesvorstand berät über Parteiausschluss, Ruck will an allen Ämtern festhalten",
       "slug": "wkw-ruck-protokoll-postenschacher-sexismus-juli-2026",
       "firstSeenAt": "2026-07-17T12:07:35.751Z",
-      "lastUpdatedAt": "2026-07-23T18:07:34.310Z",
+      "lastUpdatedAt": "2026-07-24T06:07:26.229Z",
       "status": "published",
       "articlePath": "src/content/articles/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-23/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026-update-1800.json",
+      "researchPath": "data/ai-news/research/2026-07-24/wkw-ruck-protokoll-postenschacher-sexismus-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.ots.at/presseaussendung/OTS_20260717_OTS0074/gruene-wienkraus-malle-berichte-rund-um-wk-chef-ruck-zeigen-postenschacher-machtmissbrauch-und-frauenfeindlichkeit",
         "https://www.ots.at/presseaussendung/OTS_20260717_OTS0065/fpoe-kickl-ruck-protokolle-sind-offenbarungseid-des-systems-aus-spoevp-postenschacher-und-machtmissbrauch",
@@ -6752,42 +6763,54 @@
         "https://kurier.at/politik/inland/michael-ludwig-walter-ruck-wk-wien/403177620",
         "https://www.diepresse.com/39082429/mit-welchen-tricks-sich-walter-ruck-die-macht-sicherte",
         "https://www.ots.at/presseaussendung/OTS_20260721_OTS0072/koglergruene-ad-causa-ruck-waechst-sich-aus-welche-hinterzimmerdeals-mit-dem-rathaus-kommen-noch-ans-licht",
-        "https://www.diepresse.com/38926071/irans-regimechef-khamenei-haelt-sich-verborgen-doch-wer-hat-die-macht-im-land"
+        "https://www.diepresse.com/38926071/irans-regimechef-khamenei-haelt-sich-verborgen-doch-wer-hat-die-macht-im-land",
+        "https://www.kleinezeitung.at/artikel/39212367/die-oevp-steckt-im-dauermodus-rechtfertigung-fest",
+        "https://www.diepresse.com/38637198/nach-schweren-vorwuerfen-buergermeister-ludwig-laesst-ruck-nicht-fallen",
+        "https://www.diepresse.com/38848588/fuer-ruck-wird-es-sich-einfach-nicht-ausgehen-wiens-ex-oevp-chef-in-der-zib-2",
+        "https://www.diepresse.com/38848950/affaere-walter-ruck-setzt-oevp-und-spoe-stark-unter-druck",
+        "https://www.diepresse.com/39079251/kein-gutes-bild-auch-wallner-befuerchtet-schaden-fuer-oevp-durch-die-affaere-ruck",
+        "https://kurier.at/politik/inland/vorarlberg-landeshauptmann-ruck-wallner-oevp/403177676",
+        "https://wien.orf.at/stories/3363950",
+        "https://www.derstandard.at/story/3000000332722/oevp-will-walter-ruck-diese-woche-aus-partei-ausschliessen",
+        "https://www.diepresse.com/38985503/die-affaere-um-walter-ruck-ist-ein-festschmaus-fuer-die-fpoe",
+        "https://www.derstandard.at/story/3000000332722/oevp-will-walter-ruck-diese-woche-aus-partei-ausschliessen-stocker-ich-werde-dieser-entscheidung-des-bundesparteivorstands-nicht-vorgreifen-aber-ich-werde-mit-einer-klaren-meinung-dort-hineingehen",
+        "https://kurier.at/politik/inland/walter-ruck-wirtschaftskammer-wahl-spoe-oevp-schmutzige-tricks/403177900"
       ],
       "openQuestions": [
         "Wie lautet der vollständige Wortlaut bzw. gibt es eine Original-Aufzeichnung der zugrundeliegenden Gesprächsprotokolle?",
         "Wer hat die Protokolle verfasst und an die Medien weitergegeben, und mit welcher Motivation?",
         "Bestätigt sich die von „Presse“ und „Profil“ berichtete Diskrepanz zwischen dem offiziellen SWV-Wahlergebnis (16,5 Prozent) und der internen SWV-Berechnung (25,8 Prozent, 327 Fachgruppenmandate) – und falls ja, beruht sie auf unterschiedlichen Zählmethoden oder auf einer Unregelmäßigkeit bei der Auszählung?",
+        "Bestätigt sich der vom SWV erhobene Vorwurf, der Wirtschaftsbund habe bei der Mandatszuteilung 2025 entgegen vorheriger Absprachen unlauter agiert?",
+        "Beschließt der ÖVP-Bundesparteivorstand bei seiner Sitzung am 24. Juli 2026 tatsächlich den Ausschluss Walter Rucks aus der Partei, oder räumt er ihm eine Frist zur Stellungnahme ein?",
+        "Hätte ein Bundesparteiausschluss überhaupt rechtliche oder faktische Auswirkungen auf Rucks Funktionen als WKW-Präsident und als Wirtschaftsbund-Chef?",
         "Gibt es eine Stellungnahme Walter Rucks, seines Büroleiters Victor Vanicek, Christoph Biegelmayers oder Florian Kollenz' zu der laut Recherche gemeinsam verfolgten Devise „Schotten dicht und durchfahren“?",
-        "Prüft die Hauptwahlkommission der Wirtschaftskammer Wien die Wahlzahlen-Vorwürfe, und käme es dabei überhaupt zu einer Neubewertung des Wahlergebnisses 2025?",
-        "Welche konkreten weiteren „Hinterzimmerdeals“ mit dem Rathaus meint Werner Kogler in seiner neuen Aussendung?",
+        "Prüft die Hauptwahlkommission der Wirtschaftskammer Wien die Wahlzahlen- bzw. Mandats-Vorwürfe, und käme es dabei überhaupt zu einer Neubewertung des Wahlergebnisses 2025?",
         "Zu welchem Ergebnis kommt der ÖVP-Ethikrat, und wann tagt er?",
         "Wird Bürgermeister Ludwig über sein bisheriges Statement hinaus auch konkret zu den Vorwürfen rund um die Juraczka-Bestellung, den Frauenbild-Vorwurf und die Wahlzahlen-Diskrepanz Stellung nehmen?",
         "Wie reagiert die Stadt Wien auf die Forderung der Grünen nach einer unabhängigen Untersuchung und einer eigenen Beschwerdestelle?",
-        "Hält Walter Ruck trotz wachsenden parteiinternen Drucks und neuer belastender Rechercheergebnisse tatsächlich bis zum Ende seiner Funktionsperiode 2030 an seinen Ämtern fest, oder tritt er doch zurück?",
+        "Hält Walter Ruck trotz wachsenden parteiinternen Drucks und eines möglichen Parteiausschlusses tatsächlich an seinen Ämtern fest, oder tritt er doch zurück?",
         "Wird Wirtschaftsminister Hattmannsdorfer die rechtliche Möglichkeit einer Abberufung Rucks tatsächlich prüfen oder gar nutzen, und liegt eine „grobe Pflichtverletzung“ im rechtlichen Sinn überhaupt vor?",
-        "Setzt Ruck, wie von Wallner erhofft, noch eine „richtige Reaktion“ – etwa einen freiwilligen Rücktritt – oder bleibt er bis zum Ende seiner Funktionsperiode im Amt?",
-        "Sind die von Kurier kolportierten Rücktrittsvorbereitungen im Wirtschaftsbund trotz Heimhilchers Dementi zutreffend, oder handelt es sich tatsächlich um eine erfundene Geschichte, wie von Ruck-Seite behauptet?",
+        "Welche konkreten Details enthalten die beiden kostenpflichtigen Presse-Artikel („Ludwig lässt Ruck nicht fallen“, „Affäre setzt ÖVP und SPÖ stark unter Druck“) über die reine Überschrift hinaus?",
         "Welche konkreten Umfragewerte stützen die im Presse-Leitartikel skizzierte Nutznießerschaft von FPÖ und KPÖ, und von welchem Institut und Erhebungszeitpunkt stammen sie?",
         "Welche konkreten Gründe nennt der Kurier-Bericht dafür, dass Ludwig an Ruck festhält und SPÖ-Chef Babler zur Causa schweigt?",
         "Wie reagieren Bürgermeister Ludwig, Stadträtin Sima und Vizebürgermeisterin Emmerling auf die FPÖ-Forderung nach einer Stellungnahme zur Causa Marktamt?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-24T18:07:34.310Z",
-      "doNotUpdateBefore": "2026-07-24T00:07:34.310Z",
-      "pendingOutcome": "Offen ist weiterhin, ob Walter Ruck sein Amt als WKW-Präsident und Wirtschaftsbund-Chef trotz wachsenden Drucks behält oder zurücktritt, ob sich die von Presse/Profil berichtete Wahlzahlen-Diskrepanz bestätigt und wie sie zu erklären wäre, zu welchem Ergebnis der ÖVP-Ethikrat kommt, und welche konkreten „Hinterzimmerdeals mit dem Rathaus“ die Grünen mit ihrer neuen Aussendung meinen.",
+      "doNotRedraftBefore": "2026-07-25T06:07:26.229Z",
+      "doNotUpdateBefore": "2026-07-24T12:07:26.229Z",
+      "pendingOutcome": "Ob der ÖVP-Bundesparteivorstand Walter Ruck bei seiner Sitzung am 24. Juli 2026 tatsächlich aus der Partei ausschließt oder ihm eine Frist zur Stellungnahme einräumt, und ob ein solcher Parteiausschluss überhaupt Auswirkungen auf seine Ämter als WKW-Präsident und Wirtschaftsbund-Chef hätte, bleibt offen und wird nachrecherchiert.",
       "pendingOutcomeUntil": "2026-07-25T10:07:57.645Z",
       "echoPublishers": {
         "diepresse": "2026-07-23T18:07:34.310Z",
         "kurier": "2026-07-23T16:07:33.251Z",
-        "kleinezeitung": "2026-07-23T14:07:27.966Z",
+        "kleinezeitung": "2026-07-24T06:07:26.229Z",
         "orf": "2026-07-23T12:07:52.761Z",
         "derstandard": "2026-07-23T14:07:27.966Z",
         "apa": "2026-07-23T16:07:33.251Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-23T18:07:34.310Z"
+      "resonanceMeasuredAt": "2026-07-24T06:07:26.229Z"
     },
     "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026": {
       "canonicalTitle": "Moonshot AIs Kimi K3 und Xi Jinpings Ruf nach Kontrolle: Chinas KI-Doppelschlag von Shanghai",
@@ -9222,7 +9245,6 @@
       "pendingOutcomeUntil": "2026-07-25T06:07:26.122Z",
       "echoPublishers": {
         "heise": "2026-07-23T12:07:52.761Z",
-        "golem": "2026-07-23T06:07:26.122Z",
         "arstechnica": "2026-07-23T18:07:34.310Z"
       },
       "resonanceLevel": 4,
@@ -9673,9 +9695,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-23T00:07:27.750Z",
       "doNotUpdateBefore": "2026-07-22T06:07:27.750Z",
-      "echoPublishers": {
-        "orf": "2026-07-23T06:07:26.122Z"
-      }
+      "echoPublishers": {}
     },
     "bawag-halbjahresgewinn-ptsb-uebernahme-juli-2026": {
       "canonicalTitle": "Bawag steigert Nettogewinn im ersten Halbjahr 2026 um 19 Prozent auf 487,3 Millionen Euro",
@@ -9829,12 +9849,11 @@
       "pendingOutcome": "Ob die Umgestaltung des Hauses langfristig tatsächlich die Anziehungskraft für rechtsextreme Szenen verringert und wie Denkmalpflege sowie lokale Bevölkerung dauerhaft reagieren, bleibt offen und wird weiterverfolgt.",
       "pendingOutcomeUntil": "2026-07-25T06:07:26.122Z",
       "echoPublishers": {
-        "diepresse": "2026-07-23T10:07:57.645Z",
-        "derstandard": "2026-07-23T06:07:26.122Z"
+        "diepresse": "2026-07-23T10:07:57.645Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-23T06:07:26.122Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-24T06:07:26.229Z"
     },
     "cluster-20260721-7cfce5da": {
       "canonicalTitle": "Anschlag auf Infrastruktur geplant? Russischer Geheimdienst tötet Mann bei Festnahme",
@@ -10495,7 +10514,10 @@
       "doNotRedraftBefore": "2026-07-24T14:07:27.966Z",
       "doNotUpdateBefore": "2026-07-23T20:07:27.966Z",
       "pendingOutcome": "Weiterer Verlauf der Ermittlungen, Gesundheitszustand der Frau und ein möglicher Haftstatus des Tatverdächtigen stehen noch aus.",
-      "pendingOutcomeUntil": "2026-07-25T14:07:27.966Z"
+      "pendingOutcomeUntil": "2026-07-25T14:07:27.966Z",
+      "echoPublishers": {
+        "orf": "2026-07-24T06:07:26.229Z"
+      }
     },
     "identitaeren-demo-wien-untersagt-juli-2026": {
       "canonicalTitle": "Wiener Polizei untersagt Identitären-Demo für Samstag",
@@ -10719,11 +10741,12 @@
       "doNotRedraftBefore": "2026-07-25T00:07:30.345Z",
       "doNotUpdateBefore": "2026-07-24T06:07:30.345Z",
       "echoPublishers": {
-        "diepresse": "2026-07-24T04:07:32.306Z"
+        "diepresse": "2026-07-24T06:07:26.229Z",
+        "kleinezeitung": "2026-07-24T06:07:26.229Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-24T04:07:32.306Z"
+      "resonanceMeasuredAt": "2026-07-24T06:07:26.229Z"
     },
     "frankreich-kuendigungen-drogentests-ministerien-juli-2026": {
       "canonicalTitle": "Frankreich: Nach verpflichtenden Drogentests in Ministerien mehrere Kündigungen",
@@ -10911,6 +10934,40 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-25T04:07:32.306Z",
       "doNotUpdateBefore": "2026-07-24T10:07:32.306Z"
+    },
+    "waldbraende-suedwestfrankreich-eu-hilfe-juli-2026": {
+      "canonicalTitle": "Waldbrände in Südwestfrankreich: Macron bittet EU um Hilfe, rund 30.000 Menschen evakuiert",
+      "slug": "waldbraende-suedwestfrankreich-eu-hilfe-juli-2026",
+      "firstSeenAt": "2026-07-24T06:07:26.229Z",
+      "lastUpdatedAt": "2026-07-24T06:07:26.229Z",
+      "status": "published",
+      "articlePath": "src/content/articles/waldbraende-suedwestfrankreich-eu-hilfe-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-24/waldbraende-suedwestfrankreich-eu-hilfe-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437125",
+        "https://www.derstandard.at/story/3000000332761/waldbr228nde-spanien-ruft-notstand-nationaler-tragweite-aus",
+        "https://www.diepresse.com/39400468/neue-us-zoelle-gegen-eu-und-co-spanien-ruft-nationalen-notstand-aus-33-sterne-fuer-walk-of-fame",
+        "https://kurier.at/chronik/welt/braende-frankreich-paris-eu-hilfe/403177909",
+        "https://kurier.at/chronik/welt/waldbraende-spanien-notstand-madrid/403177902",
+        "https://www.diepresse.com/39400468/neue-us-zoelle-gegen-eu-und-co-spanien-ruft-nationalen-notstand-aus-neue-sterne-fuer-walk-of-fame",
+        "https://www.diepresse.com/39400482/spanien-ruft-notstand-nationaler-tragweite-aus",
+        "https://orf.at/stories/3437032/",
+        "https://www.srf.ch/news/international/westfrankreich-waldbrand-bei-bordeaux-fast-30-000-menschen-evakuiert"
+      ],
+      "openQuestions": [
+        "Wie viele Häuser oder Gebäude wurden insgesamt zerstört?",
+        "Sind die beiden Brände in Nouvelle-Aquitaine mittlerweile unter Kontrolle?",
+        "Was hat die Brände ausgelöst?",
+        "Wie groß ist die insgesamt betroffene Waldfläche in Hektar?",
+        "Wann trifft die zugesagte internationale Löschhilfe konkret ein und wie wirksam ist sie?",
+        "Gibt es Verletzte oder Todesopfer durch die Brände in Frankreich oder Spanien?",
+        "Wie wirkt sich die Lage auf den Tourismus in der Region Arcachon aus?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-25T06:07:26.229Z",
+      "doNotUpdateBefore": "2026-07-24T12:07:26.229Z",
+      "pendingOutcome": "Ob die internationale Löschhilfe eintrifft und die Brände in Nouvelle-Aquitaine unter Kontrolle gebracht werden können, ist der erwartete nächste Entwicklungsschritt.",
+      "pendingOutcomeUntil": "2026-07-26T06:07:26.229Z"
     }
   }
 }
