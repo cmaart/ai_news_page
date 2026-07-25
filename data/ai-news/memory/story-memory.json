@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-25T14:32:15.128Z",
+  "updatedAt": "2026-07-25T16:22:39.497Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2613,11 +2613,12 @@
       "doNotRedraftBefore": "2026-07-24T12:07:52.761Z",
       "doNotUpdateBefore": "2026-07-23T18:07:52.761Z",
       "echoPublishers": {
-        "orf": "2026-07-25T14:07:26.923Z"
+        "orf": "2026-07-25T14:07:26.923Z",
+        "kurier": "2026-07-25T16:07:28.740Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-24T14:07:28.993Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-25T16:07:28.740Z"
     },
     "frankreich-atomreaktoren-hitze-juli-2026": {
       "canonicalTitle": "Hitzewelle in Frankreich: Atomreaktoren in Golfech, Bugey und Chooz abgeschaltet – ASNR lockert Kühlwasser-Grenzwerte",
@@ -9287,15 +9288,18 @@
       "canonicalTitle": "Schweizer Volenergy übernimmt BP-Tankstellennetz in Österreich",
       "slug": "volenergy-uebernimmt-bp-tankstellen-oesterreich-2026",
       "firstSeenAt": "2026-07-20T22:07:34.229Z",
-      "lastUpdatedAt": "2026-07-20T22:07:34.229Z",
+      "lastUpdatedAt": "2026-07-25T16:07:28.740Z",
       "status": "published",
       "articlePath": "src/content/articles/volenergy-uebernimmt-bp-tankstellen-oesterreich-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-20/volenergy-uebernimmt-bp-tankstellen-oesterreich-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-25/volenergy-uebernimmt-bp-tankstellen-oesterreich-2026-update-1600.json",
       "sourceUrls": [
         "https://orf.at/stories/3436733",
         "https://www.derstandard.at/story/3000000332196/schweizer-volenergy-uebernimmt-bp-tankstellen-in-oesterreich",
         "https://kurier.at/wirtschaft/bp-tankstellen-uebernahme-volenergy-schweiz/403177112",
-        "https://www.bp.com/de_at/austria/home/presse/press-releases/2026-07-20-bp-schliesst-vereinbarung-zum-verkauf-an-volenergy-ag.html"
+        "https://www.bp.com/de_at/austria/home/presse/press-releases/2026-07-20-bp-schliesst-vereinbarung-zum-verkauf-an-volenergy-ag.html",
+        "https://orf.at/stories/3437251",
+        "https://www.derstandard.at/story/3000000332933/enilive-252bernimmt-tankstellennetz-mit-standorten-in-214sterreich",
+        "https://www.diepresse.com/39690144/enilive-uebernimmt-tankstellennetz-mit-standorten-in-oesterreich"
       ],
       "openQuestions": [
         "Wie hoch ist der Kaufpreis der Transaktion?",
@@ -9304,8 +9308,10 @@
         "Wie positioniert sich Volenergy selbst zu seinen Plänen für das österreichische Netz?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-21T22:07:34.229Z",
-      "doNotUpdateBefore": "2026-07-21T04:07:34.229Z",
+      "doNotRedraftBefore": "2026-07-26T16:07:28.740Z",
+      "doNotUpdateBefore": "2026-07-25T22:07:28.740Z",
+      "pendingOutcome": "Der Abschluss der Übernahme des BP-Tankstellennetzes durch Volenergy steht noch unter dem Vorbehalt behördlicher Genehmigungen und wird bis Ende 2026 erwartet; der Ausgang des Genehmigungsverfahrens sowie etwaige Personalfolgen sind weiterhin offen.",
+      "pendingOutcomeUntil": "2026-07-27T16:07:28.740Z",
       "echoPublishers": {
         "orf": "2026-07-25T12:07:33.269Z",
         "derstandard": "2026-07-25T12:07:33.269Z",
@@ -10600,8 +10606,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-24T14:07:27.966Z",
       "doNotUpdateBefore": "2026-07-23T20:07:27.966Z",
-      "pendingOutcome": "Weiterer Verlauf der Ermittlungen, Gesundheitszustand der Frau und ein möglicher Haftstatus des Tatverdächtigen stehen noch aus.",
-      "pendingOutcomeUntil": "2026-07-25T14:07:27.966Z",
       "echoPublishers": {
         "derstandard": "2026-07-24T16:09:09.600Z"
       },
@@ -10632,9 +10636,7 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-24T14:07:27.966Z",
-      "doNotUpdateBefore": "2026-07-23T20:07:27.966Z",
-      "pendingOutcome": "Ob die Identitären rechtlich gegen die Untersagung vorgehen und wie sich die Lage rund um die angemeldete Gegendemonstration am Samstag tatsächlich entwickelt, ist offen.",
-      "pendingOutcomeUntil": "2026-07-25T14:07:27.966Z"
+      "doNotUpdateBefore": "2026-07-23T20:07:27.966Z"
     },
     "elias-schwaerzler-sprung-heissluftballon-juli-2026": {
       "canonicalTitle": "Vorarlberger Extremsportler Elias Schwärzler springt mit dem Mountainbike von einem Heißluftballon",
@@ -10779,9 +10781,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-24T20:07:26.343Z",
       "doNotUpdateBefore": "2026-07-24T02:07:26.343Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-24T14:07:28.993Z"
-      }
+      "echoPublishers": {}
     },
     "messerangriff-bank-regensburg-juli-2026": {
       "canonicalTitle": "Mann stirbt nach Messerangriff in Bankfiliale in Regensburg",
@@ -10899,9 +10899,7 @@
       "doNotUpdateBefore": "2026-07-24T06:07:30.345Z",
       "pendingOutcome": "Ausgang der ab Freitag angekündigten Dauerdemonstrationen und ob Präsident Selenskyj seine Haltung gegenüber Fedorow ändert oder bei dessen Entlassung bleibt.",
       "pendingOutcomeUntil": "2026-07-26T00:07:30.345Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-24T14:07:28.993Z"
-      }
+      "echoPublishers": {}
     },
     "woeginger-ogh-beschwerde-abgewiesen-juli-2026": {
       "canonicalTitle": "„Postenschacher“-Causa: OGH weist Wögingers Beschwerde zurück",
@@ -10994,15 +10992,10 @@
       "doNotUpdateBefore": "2026-07-24T18:07:34.272Z",
       "pendingOutcome": "Ausgang des Insolvenzverfahrens (Verfahrensform, Zahl der Anträge), Ergebnis der Übernahme- und Zerschlagungsverhandlungen sowie Schicksal der rund 1.800 bis 3.260 betroffenen Arbeitsplätze bleiben offen und sind weiter zu verfolgen.",
       "pendingOutcomeUntil": "2026-07-26T02:07:32.619Z",
-      "echoPublishers": {
-        "orf": "2026-07-24T14:07:28.993Z",
-        "kurier": "2026-07-24T14:07:28.993Z",
-        "kleinezeitung": "2026-07-24T14:07:28.993Z",
-        "golem": "2026-07-24T14:07:28.993Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-24T14:07:28.993Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-25T16:07:28.740Z"
     },
     "erdesz-ausschluss-fpoe-kaernten-juli-2026": {
       "canonicalTitle": "FPÖ Kärnten schließt Jugend-Obmann Viktor Erdesz aus",
@@ -11027,9 +11020,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-25T04:07:32.306Z",
       "doNotUpdateBefore": "2026-07-24T10:07:32.306Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-24T14:07:28.993Z"
-      }
+      "echoPublishers": {}
     },
     "salzburger-festspiele-sicherheitskonzept-2026": {
       "canonicalTitle": "Salzburger Festspiele verschärfen Sicherheitskonzept nach Störaktion des Vorjahres",
@@ -11208,9 +11199,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-25T10:07:30.773Z",
       "doNotUpdateBefore": "2026-07-24T16:07:30.773Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-24T14:07:28.993Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-25T14:07:26.923Z"
@@ -11293,9 +11282,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-25T12:07:34.272Z",
       "doNotUpdateBefore": "2026-07-24T18:07:34.272Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-24T14:07:28.993Z"
-      }
+      "echoPublishers": {}
     },
     "suizide-u-haft-anfragebeantwortung-juli-2026": {
       "canonicalTitle": "Jeder zweite Todesfall in U-Haft war zwischen 2015 und 2024 ein Suizid",
@@ -11800,6 +11787,65 @@
       "doNotUpdateBefore": "2026-07-25T20:07:26.923Z",
       "pendingOutcome": "Formelle Annahme von Pradhans Rücktritt durch Premierminister Modi sowie Benennung eines Nachfolgers als Bildungsminister.",
       "pendingOutcomeUntil": "2026-07-27T14:07:26.923Z"
+    },
+    "kleinflugzeug-absturz-ganderkesee-juli-2026": {
+      "canonicalTitle": "Kleinflugzeug stürzt in Ganderkesee bei Bremen in Einfamilienhaus – mindestens ein Toter",
+      "slug": "kleinflugzeug-absturz-ganderkesee-juli-2026",
+      "firstSeenAt": "2026-07-25T16:07:28.740Z",
+      "lastUpdatedAt": "2026-07-25T16:07:28.740Z",
+      "status": "published",
+      "articlePath": "src/content/articles/kleinflugzeug-absturz-ganderkesee-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-25/kleinflugzeug-absturz-ganderkesee-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/39710164/kleinflugzeug-stuerzte-in-deutsches-einfamilienhaus-ein-toter",
+        "https://kurier.at/chronik/welt/kleinflugzeug-stuerzte-in-deutsches-einfamilienhaus-ein-toter/403178181",
+        "https://www.kleinezeitung.at/artikel/39709776/kleinflugzeug-stuerzte-in-deutschland-in-ein-einfamilienhaus",
+        "https://www.derstandard.at/story/3000000332942/kleinflugzeug-stuerzte-in-niedersachsen-in-wohnhaus-ein-toter",
+        "https://www.weser-kurier.de/landkreis-oldenburg/gemeinde-ganderkesee/kleinflugzeugabsturz-in-ganderkesee-wohnhaus-getroffen-doc86v9zyagp29tw167nuh",
+        "https://www.butenunbinnen.de/nachrichten/ganderkesee-flugzeug-absturz-haus-100.html"
+      ],
+      "openQuestions": [
+        "Wie viele Menschen kamen tatsächlich ums Leben – eine oder zwei Personen?",
+        "Wer waren die an Bord befindlichen Personen, und wurde die zweite vermutete Person mittlerweile geborgen oder lebend gefunden?",
+        "Was hat den Höhenverlust und Absturz des Flugzeugs verursacht?",
+        "Um welchen Flugzeugtyp handelte es sich, und welches Flugziel hatte die Maschine nach dem Start in Bremen?",
+        "Zu welchem Ergebnis kommt die Untersuchung der Bundesstelle für Flugunfalluntersuchung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-26T16:07:28.740Z",
+      "doNotUpdateBefore": "2026-07-25T22:07:28.740Z",
+      "pendingOutcome": "Offizielle Bestätigung der genauen Opferzahl, der Identität der betroffenen Person(en) und erste Erkenntnisse der Untersuchung durch die Bundesstelle für Flugunfalluntersuchung.",
+      "pendingOutcomeUntil": "2026-07-27T16:07:28.740Z"
+    },
+    "schuesse-polizeieinsatz-bregenz-juli-2026": {
+      "canonicalTitle": "Schüsse bei Polizeieinsatz in Bregenz: Zwei Männer verletzt, darunter ein Polizist",
+      "slug": "schuesse-polizeieinsatz-bregenz-juli-2026",
+      "firstSeenAt": "2026-07-25T16:07:28.740Z",
+      "lastUpdatedAt": "2026-07-25T16:07:28.740Z",
+      "status": "published",
+      "articlePath": "src/content/articles/schuesse-polizeieinsatz-bregenz-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-25/schuesse-polizeieinsatz-bregenz-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/39705913/schuesse-bei-polizeieinsatz-in-bregenz-zwei-maenner-verletzt-darunter-ein-polizist",
+        "https://kurier.at/chronik/vorarlberg/schuesse-polizeieinsatz-cobra-bregenz/403178174",
+        "https://vorarlberg.orf.at/stories/3364219",
+        "https://www.vol.at/cobra-einsatz-nach-nachbarschaftsstreit-in-bregenz/10303643",
+        "https://www.heute.at/s/schuesse-bei-cobra-einsatz-polizeibeamter-verletzt-120228593",
+        "https://www.sn.at/panorama/oesterreich/zwei-verletzte-bei-schusswechsel-in-bregenz-art-664098"
+      ],
+      "openQuestions": [
+        "Was ergab die für den Abend des 25. Juli 2026 angekündigte Pressekonferenz der Landespolizeidirektion Vorarlberg im Sicherheitszentrum Bregenz?",
+        "Wie genau lief die Schussabgabe ab (Anzahl der Schüsse, Distanz, unmittelbarer Anlass)?",
+        "Wie schwer sind die beiden Verletzten tatsächlich verletzt, und wie ist ihr aktueller Gesundheitszustand?",
+        "Wer ist der nicht-polizeiliche Verletzte, und was ist über seinen Hintergrund bekannt?",
+        "Bestätigt sich der von Regionalmedien berichtete Zusammenhang mit einem Nachbarschaftsstreit im Bereich Pfänderweg offiziell?",
+        "Werden gegen den beteiligten Polizisten oder gegen den verletzten Mann Ermittlungen (etwa der Staatsanwaltschaft Feldkirch) eingeleitet, und mit welchem Ergebnis?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-26T16:07:28.740Z",
+      "doNotUpdateBefore": "2026-07-25T22:07:28.740Z",
+      "pendingOutcome": "Ergebnis der für den Abend des 25. Juli 2026 angekündigten Pressekonferenz der Landespolizeidirektion Vorarlberg im Sicherheitszentrum Bregenz mit weiteren Angaben zu Hergang, Verletzten und Ermittlungsstand.",
+      "pendingOutcomeUntil": "2026-07-27T16:07:28.740Z"
     }
   }
 }
