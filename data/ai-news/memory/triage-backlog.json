@@ -1,41 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-25T18:31:30.698Z",
+  "updatedAt": "2026-07-25T20:24:18.154Z",
   "entries": [
-    {
-      "clusterId": "cluster-20260724-4ddb3ede",
-      "title": "Heimlich mit Smart Glasses gefilmt: Instagram geht gegen Täter vor",
-      "score": 0.8,
-      "items": [
-        {
-          "itemId": "1e83b6ab1f4ae14321b4e7cdc9bbb38bd0b6e4009a3f1b9aa7f9fc1c4ab63999",
-          "sourceId": "heise_news",
-          "sourceType": "media",
-          "title": "Heimlich mit Smart Glasses gefilmt: Instagram geht gegen Täter vor",
-          "url": "https://www.heise.de/news/Heimlich-mit-Smart-Glasses-gefilmt-Instagram-geht-gegen-Taeter-vor-11377147.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-          "summary": "Meta reagiert auf die wachsende Kritik an Kamerabrillen und entfernt künftig Instagram-Videos, in denen Menschen heimlich gefilmt und belästigt werden.",
-          "publishedAt": "2026-07-24T08:45:00.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "291fb0e63a1e23d5ff2795a459ce4cda3f591ace1ee4367d85c975b5db9c7094",
-          "sourceId": "diepresse_home",
-          "sourceType": "media",
-          "title": "Heimlich gefilmt: Darf mich mein Gegenüber mit Smart Glasses aufzeichnen? [premium]",
-          "url": "https://www.diepresse.com/38749666/heimlich-gefilmt-darf-mich-mein-gegenueber-mit-smart-glasses-aufzeichnen",
-          "isNew": false
-        },
-        {
-          "itemId": "1977f7e28bb9752839b46b3e06ec5fd5a9358ba640a9d588b28761e405e0cb1c",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "Heimlich gefilmt: Darf mich mein Gegenüber mit Smart Glasses aufzeichnen?",
-          "url": "https://www.kleinezeitung.at/artikel/38849315/darf-mich-mein-gegenueber-mit-smart-glasses-aufzeichnen",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-24T10:07:30.773Z"
-    },
     {
       "clusterId": "cluster-20260725-e734884a",
       "title": "Westjordanland: Israel nimmt Dutzende Palästinenser fest",
@@ -114,6 +80,24 @@
         }
       ],
       "queuedAt": "2026-07-24T16:09:09.600Z"
+    },
+    {
+      "clusterId": "cluster-20260724-aed891da",
+      "title": "Ex-Olympionikin spricht erstmals über den Tod ihrer Tochter",
+      "score": 0.775,
+      "items": [
+        {
+          "itemId": "025c9889565086c7325b91b659e31f38b449f1feab487c3e26500e2d9afbf911",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Ex-Olympionikin spricht erstmals über den Tod ihrer Tochter",
+          "url": "https://kurier.at/sport/langlaeuferin-marina-piller-tochter-tod-schadenersatz/403178026",
+          "summary": "2019 starb Marina Pillers Tochter Viola kurz nach der Geburt durch einen ärztlichen Fehler. Ein Gericht sprach der Familie Schadenersatz zu. Eine Entschuldigung blieb bis heute aus.",
+          "publishedAt": "2026-07-24T12:28:29.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-07-24T14:07:28.993Z"
     },
     {
       "clusterId": "cluster-20260725-72db3b3e",
@@ -219,66 +203,6 @@
         }
       ],
       "queuedAt": "2026-07-25T12:07:33.269Z"
-    },
-    {
-      "clusterId": "cluster-20260724-0d6e40cb",
-      "title": "Jeff Bezos pers�nlich beteiligt: Amazon will mehr KI in Prime Video einsetzen",
-      "score": 0.775,
-      "items": [
-        {
-          "itemId": "a3bc5348d105c62362d8271c0bf6456a8cfc8c79c85a0ae248c0bb08be4a35cc",
-          "sourceId": "golem_news",
-          "sourceType": "media",
-          "title": "Jeff Bezos pers�nlich beteiligt: Amazon will mehr KI in Prime Video einsetzen",
-          "url": "https://www.golem.de/news/jeff-bezos-persoenlich-beteiligt-amazon-will-mehr-ki-in-prime-video-einsetzen-2607-211270.html",
-          "summary": "Nach einer missgl�ckten Pr�sentation im Jahr 2025 treibt Jeff Bezos pers�nlich die KI-gest�tzte Personalisierung bei Prime Video voran. (KI, Amazon)",
-          "publishedAt": "2026-07-24T14:43:02.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "86e2ea269a4e937dcd8b8d9ee89c57bbf7173e8f9c2599cf135d65676d5ad3af",
-          "sourceId": "techcrunch",
-          "sourceType": "media",
-          "title": "Amazon is bringing games to Prime Video",
-          "url": "https://techcrunch.com/2026/07/23/amazon-is-bringing-games-to-prime-video",
-          "isNew": false
-        },
-        {
-          "itemId": "fcc6db9bb84d05290c62c1016e5868d0ac99577933c97082681659a411687360",
-          "sourceId": "theverge",
-          "sourceType": "media",
-          "title": "Amazon puts Luna cloud-streamed games like Fallout 4 inside Prime Video",
-          "url": "https://www.theverge.com/streaming/970099/amazon-prime-video-luna-gaming",
-          "isNew": false
-        },
-        {
-          "itemId": "afd91a8388bbaec564a64070f2ceda730de9e2fc371f225f3c57130f2ffe68e7",
-          "sourceId": "golem_news",
-          "sourceType": "media",
-          "title": "Luna: Amazon baut Cloud-Gaming in Prime Video ein",
-          "url": "https://www.golem.de/news/luna-amazon-baut-cloud-gaming-in-prime-video-ein-2607-211250.html",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-24T16:09:09.600Z"
-    },
-    {
-      "clusterId": "cluster-20260724-aed891da",
-      "title": "Ex-Olympionikin spricht erstmals über den Tod ihrer Tochter",
-      "score": 0.775,
-      "items": [
-        {
-          "itemId": "025c9889565086c7325b91b659e31f38b449f1feab487c3e26500e2d9afbf911",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Ex-Olympionikin spricht erstmals über den Tod ihrer Tochter",
-          "url": "https://kurier.at/sport/langlaeuferin-marina-piller-tochter-tod-schadenersatz/403178026",
-          "summary": "2019 starb Marina Pillers Tochter Viola kurz nach der Geburt durch einen ärztlichen Fehler. Ein Gericht sprach der Familie Schadenersatz zu. Eine Entschuldigung blieb bis heute aus.",
-          "publishedAt": "2026-07-24T12:28:29.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-07-24T14:07:28.993Z"
     },
     {
       "clusterId": "cluster-20260725-bd582952",
@@ -1083,6 +1007,52 @@
         }
       ],
       "queuedAt": "2026-07-25T16:07:28.740Z"
+    },
+    {
+      "clusterId": "cluster-20260725-daca7f46",
+      "title": "Pröll nennt erste Details",
+      "score": 0.65,
+      "items": [
+        {
+          "itemId": "88b583a3db6aea0fc684cbcc45cfbbd735db763950c1876067ecaee59f35affb",
+          "sourceId": "orf_news",
+          "sourceType": "media",
+          "title": "Pröll nennt erste Details",
+          "url": "https://orf.at/stories/3437279",
+          "summary": "Am Montag könnte die Regierung beim Sommerministerrat eine Einigung zum Social-Media-Verbot für Jugendliche präsentieren. Wie Ö1 am Freitag berichtete, steht der Gesetzestext bereits. Digitalisierungsstaatssekretär Alexander Pröll (ÖVP) nannte am Samstag in der „Presse“ erste Details. Weiter verhandelt wird über die Reform der Wehrdienstverlängerung.",
+          "publishedAt": "2026-07-25T18:27:13.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-07-25T20:07:36.216Z"
+    },
+    {
+      "clusterId": "cluster-20260725-1e1a887a",
+      "title": "Polizei eskortiert pöbelnde Neonazis von friedlicher Antifa-Demo in die U-Bahn; Identitäre zogen durch Döbling",
+      "score": 0.65,
+      "items": [
+        {
+          "itemId": "b45f81f30191199e1a2df655c2b5fa07ef06479798f6b61c68301e7e97d09776",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Polizei eskortiert pöbelnde Neonazis von friedlicher Antifa-Demo in die U-Bahn; Identitäre zogen durch Döbling",
+          "url": "https://www.derstandard.at/story/3000000332947/polizei-eskortiert-poebelnde-neonazis-von-friedlicher-antifa-demo-in-die-u-bahn-identitaere-zogen-durch-doebling",
+          "summary": "Statt Rechtsextremen zogen am Samstag friedlich Antifaschistinnen und Antifaschisten durch Wien. Martin Sellner drehte derweil auf einer Brücke in Döbling einen Imagefilm.",
+          "publishedAt": "2026-07-25T19:12:42.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "4ccbef88529d799d21b9da7db5688740694eeaf358281826eb91780c02307452",
+          "sourceId": "derstandard_inland",
+          "sourceType": "media",
+          "title": "Polizei eskortiert pöbelnde Neonazis von friedlicher Antifa-Demo in die U-Bahn; Identitäre zogen durch Döbling",
+          "url": "https://www.derstandard.at/story/3000000332947/polizei-eskortiert-poebelnde-neonazis-von-friedlicher-antifa-demo-in-die-u-bahn-identitaere-zogen-durch-doebling",
+          "summary": "Statt Rechtsextremen zogen am Samstag friedlich Antifaschistinnen und Antifaschisten durch Wien. Martin Sellner drehte derweil auf einer Brücke in Döbling einen Imagefilm.",
+          "publishedAt": "2026-07-25T19:12:42.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-07-25T20:07:36.216Z"
     }
   ]
 }
