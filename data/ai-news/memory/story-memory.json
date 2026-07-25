@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T22:30:05.251Z",
+  "updatedAt": "2026-07-25T00:25:18.857Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1440,13 +1440,13 @@
       "resonanceMeasuredAt": "2026-07-14T08:07:30.083Z"
     },
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
-      "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – Zeitung geht juristisch gegen Vorladungen vor",
+      "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – US-Justizministerium zieht Vorladungen zurück",
       "slug": "nyt-reporter-vorladung-air-force-one-juli-2026",
       "firstSeenAt": "2026-07-11T15:07:25.182Z",
-      "lastUpdatedAt": "2026-07-17T16:07:27.817Z",
+      "lastUpdatedAt": "2026-07-25T00:07:34.249Z",
       "status": "published",
       "articlePath": "src/content/articles/nyt-reporter-vorladung-air-force-one-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/nyt-reporter-vorladung-air-force-one-juli-2026-update-1600.json",
+      "researchPath": "data/ai-news/research/2026-07-25/nyt-reporter-vorladung-air-force-one-juli-2026-update-000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331080/new-york-times-reporter-wegen-bericht-ueber-trump-flugzeug-vorgeladen",
         "https://www.diepresse.com/36728234/bericht-ueber-sicherheitsmaengel-der-air-force-one-new-york-times-reporter-vor-gericht",
@@ -1469,17 +1469,28 @@
         "https://www.kleinezeitung.at/artikel/37658056/new-york-times-geht-gegen-vorladung-ihrer-journalisten-vor",
         "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
         "https://www.nbcnews.com/politics/justice-department/new-york-files-motion-quash-subpoenas-served-journalists-air-force-one-rcna587769",
-        "https://www.pbs.org/newshour/politics/new-york-times-files-motion-to-quash-subpoenas-served-on-journalists-over-air-force-one-coverage"
+        "https://www.pbs.org/newshour/politics/new-york-times-files-motion-to-quash-subpoenas-served-on-journalists-over-air-force-one-coverage",
+        "https://www.kleinezeitung.at/artikel/39396619/vorladungen-gegen-new-york-times-zurueckgezogen",
+        "https://www.derstandard.at/story/3000000332755/us-justizministerium-zieht-vorladungen-gegen-new-york-times-zur252ck",
+        "https://orf.at/stories/3437121",
+        "https://www.cbsnews.com/news/government-withdraws-subpoenas-for-new-york-times-reporters/",
+        "https://www.nbcnews.com/politics/justice-department/justice-department-withdraw-subpoenas-new-york-times-journalists-rcna588955",
+        "https://www.washingtonpost.com/business/2026/07/23/usmediatimesair-force-one/e6d294a8-86cb-11f1-9cec-0fb26676f07e_story.html",
+        "https://www.npr.org/2026/07/23/nx-s1-5905732/nyt-subpoenas-trump-air-force-one-plane-qatar-security",
+        "https://www.pbs.org/newshour/politics/trump-administration-admits-legal-errors-and-withdraws-subpoenas-of-3-nyt-reporters"
       ],
       "openQuestions": [
-        "Wie wird das Bundesgericht im Southern District of New York über den Antrag der „New York Times“ auf Aufhebung der Vorladungen entscheiden?",
-        "Wie viele Journalistinnen und Journalisten wurden tatsächlich vorgeladen – drei oder vier – und betrifft dies dieselben namentlich genannten Personen?",
-        "Welcher konkrete mutmaßliche Verstoß gegen Bundesstrafrecht wird in den Vorladungen genannt, und deckt sich dieser mit der Darstellung des Justizministeriums, es gehe um mutmaßliche Leck-Quellen?",
-        "Lassen sich die behaupteten Sicherheitslücken der neuen Air Force One unabhängig verifizieren?"
+        "Setzt das Justizministerium die Ermittlungen zu mutmaßlichen Leck-Quellen in der Regierung fort, und mit welchen weiteren Mitteln?",
+        "Deckt sich die Zahl von drei zurückgezogenen Vorladungen exakt mit den vier ursprünglich namentlich genannten Reportern, oder betrifft dies unterschiedliche Personen?",
+        "Welcher konkrete mutmaßliche Verstoß gegen Bundesstrafrecht wurde in den ursprünglichen Vorladungen genannt?",
+        "Lassen sich die behaupteten Sicherheitslücken der neuen Air Force One unabhängig verifizieren?",
+        "Zieht die Episode Konsequenzen für die Praxis des Justizministeriums bei Vorladungen gegenüber Journalistinnen und Journalisten nach sich, etwa im Sinne der zitierten Regel, wonach solche Vorladungen nur als letztes Mittel zulässig seien?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-18T16:07:27.817Z",
-      "doNotUpdateBefore": "2026-07-17T22:07:27.817Z",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-26T00:07:34.249Z",
+      "doNotUpdateBefore": "2026-07-25T06:07:34.249Z",
+      "pendingOutcome": "Ob das Justizministerium die Ermittlungen zu mutmaßlichen Leck-Quellen in der Regierung fortsetzt und dabei erneut rechtliche Schritte gegen Journalistinnen und Journalisten oder Regierungsmitarbeitende einleitet, ist offen.",
+      "pendingOutcomeUntil": "2026-07-27T00:07:34.249Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -2824,9 +2835,9 @@
       "doNotRedraftBefore": "2026-07-21T20:07:34.132Z",
       "doNotUpdateBefore": "2026-07-21T02:07:34.132Z",
       "echoPublishers": {},
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-24T20:07:31.822Z"
+      "resonanceMeasuredAt": "2026-07-25T00:07:34.249Z"
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -3283,13 +3294,13 @@
       "doNotUpdateBefore": "2026-07-13T16:01:08.091Z"
     },
     "neos-dengler-parteiausschluss-vertrauensbruch-juli-2026": {
-      "canonicalTitle": "NEOS-Affäre Dengler: Meinl-Reisinger weist Vorwürfe zurück, Vertrauenswerte brechen ein",
+      "canonicalTitle": "NEOS-Affäre Dengler: Ex-Abgeordneter Margreiter verlässt Partei, Meinl-Reisinger weist Vorwürfe zurück",
       "slug": "neos-dengler-parteiausschluss-vertrauensbruch-juli-2026",
       "firstSeenAt": "2026-07-13T10:01:08.091Z",
-      "lastUpdatedAt": "2026-07-17T22:07:29.841Z",
+      "lastUpdatedAt": "2026-07-25T00:07:34.249Z",
       "status": "published",
       "articlePath": "src/content/articles/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026-update-2200.json",
+      "researchPath": "data/ai-news/research/2026-07-25/neos-dengler-parteiausschluss-vertrauensbruch-juli-2026-update-000.json",
       "sourceUrls": [
         "https://orf.at/stories/3436057",
         "https://www.diepresse.com/36871425/autoritaere-fuehrung-meinl-reisinger-weist-vorwurf-zurueck-und-bedauert-denglers-vertrauensbruch",
@@ -3310,19 +3321,29 @@
         "https://www.diepresse.com/37957475/vertrauensindex-meinl-reisinger-rutscht-ab-kickl-legt-zu",
         "https://www.derstandard.at/story/3000000331837/vertrauensindex-meinl-reisinger-mit-groesstem-einbruch-schellhorn-loest-kickl-als-schlusslicht-ab",
         "https://kurier.at/politik/inland/apa-ogm-vertrauensindex-meinl-reisinger-kickl-politiker/403176621",
-        "https://www.heute.at/s/polit-ranking-meinl-stuerzt-ab-schellhorn-letzter-120224757"
+        "https://www.heute.at/s/polit-ranking-meinl-stuerzt-ab-schellhorn-letzter-120224757",
+        "https://kurier.at/politik/inland/tirol-neos-margreiter-parteiaustritt-veit-dengler/403177779",
+        "https://www.derstandard.at/story/3000000332648/verzichtbare-allerweltspartei-tiroler-ex-abgeordneter-verlaesst-neos",
+        "https://www.diepresse.com/39111463/verzichtbare-allerweltspartei-tiroler-ex-mandatar-margreiter-verlaesst-neos",
+        "https://tirol.orf.at/stories/3363941/",
+        "https://www.sn.at/politik/innenpolitik/tiroler-ex-neos-abgeordneter-margreiter-tritt-aus-partei-aus-art-663674"
       ],
       "openQuestions": [
+        "Wie reagiert die NEOS-Parteiführung (Bundesgeschäftsführerin Claudia Jäger, Beate Meinl-Reisinger) auf Margreiters Austritt und seine Kritik an der Parteientwicklung?",
+        "Was genau meint Margreiter mit dem vorgeworfenen „Alleingang“ Meinl-Reisingers bei der Corona-Impfpflicht – bislang ist dazu nur eine knappe Formulierung in einer Quelle bekannt?",
         "Wie andere NEOS-Abgeordnete den Ausschluss und Meinl-Reisingers Führungsstil beurteilen, ist bislang kaum bekannt.",
         "Ob Meinl-Reisingers Stellungnahme den innerparteilichen Konflikt beruhigt oder Dengler zu einer weiteren Replik veranlasst, ist offen.",
         "Wie sich die FPÖ-Rücktrittsforderung politisch auswirkt – etwa auf das Verhältnis der NEOS zu den Koalitionspartnern – lässt sich derzeit nicht abschätzen.",
         "Ob der deutliche Vertrauensverlust im APA/OGM-Index tatsächlich primär auf die Dengler-Affäre zurückzuführen ist oder weitere Ursachen eine Rolle spielen, lässt sich aus der Umfrage allein nicht beweisen.",
         "Ob sich der Vertrauenseinbruch von Meinl-Reisinger und Schellhorn in der nächsten Erhebung fortsetzt oder wieder erholt, ist offen.",
+        "Ob Margreiters Austritt weitere Abgeordnete oder Funktionäre zu ähnlichen Schritten veranlasst, ist derzeit nicht absehbar.",
         "Welche Auswirkungen der öffentlich ausgetragene Streit und die schlechten Umfragewerte auf den parlamentarischen Alltag und die Geschlossenheit der NEOS haben, lässt sich nicht abschließend einschätzen."
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-18T22:07:29.841Z",
-      "doNotUpdateBefore": "2026-07-18T04:07:29.841Z",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-26T00:07:34.249Z",
+      "doNotUpdateBefore": "2026-07-25T06:07:34.249Z",
+      "pendingOutcome": "Offen bleibt, ob und wie die NEOS-Parteiführung auf Margreiters Austritt und seine Kritik reagiert, ob weitere Abgeordnete oder Funktionäre der Partei den Rücken kehren, wie sich der Vertrauensindex in der nächsten Erhebung entwickelt und ob es zu den von Dengler geprüften rechtlichen Schritten kommt.",
+      "pendingOutcomeUntil": "2026-07-27T00:07:34.249Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -4096,9 +4117,9 @@
         "orf": "2026-07-24T22:07:35.788Z",
         "kurier": "2026-07-24T22:07:35.788Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-24T20:07:31.822Z"
+      "resonanceMeasuredAt": "2026-07-25T00:07:34.249Z"
     },
     "usa-internationaler-strafgerichtshof-druck-verbuendete-juli-2026": {
       "canonicalTitle": "USA verschärfen Kurs gegen Internationalen Strafgerichtshof",
@@ -4507,13 +4528,13 @@
       "resonanceMeasuredAt": "2026-07-15T20:07:27.471Z"
     },
     "ukraine-raffinerien-angriff-russland-juli-2026": {
-      "canonicalTitle": "Ukraine greift laut Berichten russische Raffinerien an – Russland attackiert Kiew mit Raketen, laut Behörden mehrere Tote",
+      "canonicalTitle": "Ukraine griff laut Berichten russische Raffinerien und Onlinehändler Wildberries an – Russland attackierte Kiew und Slowjansk erneut, mindestens 15 Tote",
       "slug": "ukraine-raffinerien-angriff-russland-juli-2026",
       "firstSeenAt": "2026-07-14T08:07:30.083Z",
-      "lastUpdatedAt": "2026-07-15T04:07:24.790Z",
+      "lastUpdatedAt": "2026-07-25T00:07:34.249Z",
       "status": "published",
       "articlePath": "src/content/articles/ukraine-raffinerien-angriff-russland-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-15/ukraine-raffinerien-angriff-russland-juli-2026-update-400.json",
+      "researchPath": "data/ai-news/research/2026-07-25/ukraine-raffinerien-angriff-russland-juli-2026-update-000.json",
       "sourceUrls": [
         "https://www.diepresse.com/37091078/ukraine-greift-zwei-raffinerien-in-russland-an",
         "https://kurier.at/politik/ausland/ukraine-russland-attacken-raffinerien/403175997",
@@ -4521,19 +4542,33 @@
         "https://orf.at/stories/3436070",
         "https://www.derstandard.at/jetzt/livebericht/3000000331323/russland-griff-ikyjiw-mit-ballistischen-raketen-an",
         "https://orf.at/stories/3436132",
-        "https://www.news.at/politik/russland-griff-kiew-mit-ballistischen-raketen-an"
+        "https://www.news.at/politik/russland-griff-kiew-mit-ballistischen-raketen-an",
+        "https://orf.at/stories/3437165",
+        "https://www.kleinezeitung.at/artikel/38410477/zehn-tote-nach-russischem-angriff-auf-frachtschiff",
+        "https://kurier.at/politik/ausland/ukraine-setzt-lager-von-russischem-versandhaendler-in-brand-zwei-tote/403177610",
+        "https://orf.at/stories/3437057",
+        "https://www.mfa.gov.lv/en/article/statement-latvian-minister-foreign-affairs-russias-attack-sloviansk",
+        "https://www.kyivpost.com/post/81020"
       ],
       "openQuestions": [
         "Wie schwer wurden die Raffinerien in Krasnodar und Baschkortostan/an der Wolga tatsächlich beschädigt?",
-        "Gibt es eine offizielle russische Stellungnahme zu den Angriffen auf die Raffinerien oder zum Raketenangriff auf Kiew?",
-        "Welche technischen Daten hat die von Selenskyj angekündigte neue Flugabwehrrakete?",
-        "Wie belastbar ist der NGO-Vorwurf gezielter Angriffe auf medizinisches Personal, und welche Belege liegen dafür vor?",
-        "Werden die vom ukrainischen Notdienst gemeldeten Opferzahlen (19 Tote, 61 Verletzte) von unabhängiger Seite bestätigt?",
+        "Gibt es eine offizielle russische Stellungnahme zu den Angriffen auf die Raffinerien oder zu den Raketenangriffen auf Kiew?",
+        "Werden die vom ukrainischen Notdienst gemeldeten Opferzahlen (19 Tote, 61 Verletzte am 14. Juli; 10 Tote, fast 100 Verletzte am 24. Juli) von unabhängiger Seite bestätigt?",
+        "Welches war das tatsächliche Ziel des Raketenangriffs bei Kiew am 24. Juli – ein privater Sportkomplex oder ein Übungsgelände einer Rüstungsmesse?",
+        "Zu welchem Ergebnis kommt das von der ukrainischen Generalstaatsanwaltschaft eingeleitete Verfahren zur Organisation der Veranstaltung bei Kiew?",
+        "Wie viele Menschen wurden beim ukrainischen Drohnenangriff auf Wildberries und das Rüstungsunternehmen in der Nacht auf 24. Juli tatsächlich getötet oder verletzt?",
+        "Gibt es eine russische Stellungnahme zum Angriff auf Slowjansk und zur Beschädigung des lettischen Honorarkonsulats?",
+        "Welche konkreten neuen Sanktionen wird die EU gegen Russlands militärisch-industriellen Komplex vorschlagen, und werden sie beschlossen?",
+        "Wie belastbar ist die russische Angabe, drei ukrainische Häfen beschossen zu haben, und welches Schadensausmaß hatte dies tatsächlich?",
+        "Wie umfangreich waren die von Ukrenerho gemeldeten Stromausfälle infolge der russischen Angriffe, und wie lange dauerten sie an?",
+        "Welche technischen Daten hat die von Selenskyj Mitte Juli erwähnte neue ukrainische Flugabwehrrakete?",
         "Welche konkreten Ziele und welchen Umfang haben die für Herbst 2026 in Polen geplanten Manöver der Koalition der Willigen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-16T04:07:24.790Z",
-      "doNotUpdateBefore": "2026-07-15T10:07:24.790Z",
+      "doNotRedraftBefore": "2026-07-26T00:07:34.249Z",
+      "doNotUpdateBefore": "2026-07-25T06:07:34.249Z",
+      "pendingOutcome": "Offen bleiben eine russische Stellungnahme zu den Angriffen auf Kiew und Slowjansk, die endgültige Klärung des Angriffsziels bei Kiew, der Ausgang des von der ukrainischen Generalstaatsanwaltschaft eingeleiteten Verfahrens sowie die konkrete Ausgestaltung der von der EU angekündigten neuen Sanktionen.",
+      "pendingOutcomeUntil": "2026-07-27T00:07:34.249Z",
       "echoPublishers": {}
     },
     "cluster-20260714-6d1e2cbe": {
@@ -10279,8 +10314,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-24T22:07:37.660Z",
       "doNotUpdateBefore": "2026-07-24T04:07:37.660Z",
-      "pendingOutcome": "Offizielle Bestätigung der genauen Gesamtzahl der Stellenstreichungen durch Porsche sowie Stellungnahmen von Betriebsrat und IG Metall zum gebilligten Zukunftspaket stehen noch aus.",
-      "pendingOutcomeUntil": "2026-07-25T00:07:27.011Z",
       "echoPublishers": {}
     },
     "burkini-schwimmzeit-salurn-suedtirol-juli-2026": {
@@ -10337,13 +10370,10 @@
       "doNotUpdateBefore": "2026-07-24T04:07:37.660Z",
       "pendingOutcome": "Weiterer Ausbreitungsverlauf des Waldbrands bei Saumos/Bordeaux, die genaue Brandursache und der Zeitpunkt der Rückkehr der Evakuierten sind weiterhin offen; die aktuellen Cluster-Meldungen betreffen einen eigenständigen, nicht damit verbundenen Waldbrand bei Madrid und liefern keine neuen Informationen zu Bordeaux.",
       "pendingOutcomeUntil": "2026-07-25T06:07:26.122Z",
-      "echoPublishers": {
-        "orf": "2026-07-23T22:07:37.660Z",
-        "derstandard": "2026-07-23T22:07:37.660Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-24T14:07:28.993Z"
+      "resonanceMeasuredAt": "2026-07-25T00:07:34.249Z"
     },
     "eu-21-sanktionspaket-russland-juli-2026": {
       "canonicalTitle": "EU-Staaten einigen sich auf 21. Sanktionspaket gegen Russland",
@@ -11470,6 +11500,27 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-25T22:07:35.788Z",
       "doNotUpdateBefore": "2026-07-25T04:07:35.788Z"
+    },
+    "cluster-20260724-97992bac": {
+      "canonicalTitle": "Black Forest Labs: Deutsches KI-Start-up wagt den Sprung in die Robotik",
+      "slug": "cluster-20260724-97992bac",
+      "firstSeenAt": "2026-07-25T00:07:34.249Z",
+      "lastUpdatedAt": "2026-07-25T00:07:34.249Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.golem.de/news/black-forest-labs-deutsches-ki-start-up-wagt-den-sprung-in-die-robotik-2607-211233.html",
+        "https://www.heise.de/news/Deutsches-Robotik-Start-up-sammelt-groesste-Seed-Runde-ein-Koop-mit-Google-Cloud-11371216.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://the-decoder.de/black-forest-labs-stellt-flux-3-vor-ein-modell-fuer-bild-video-audio-und-robotik"
+      ],
+      "openQuestions": [
+        "Offizielle Ankündigung oder Pressemitteilung von Black Forest Labs",
+        "Technische Spezifikationen von Flux 3 (Architektur, Trainingsmethoden, Parameter)",
+        "Release-Datum und Verfügbarkeit von Flux 3",
+        "Finanzierungsinformationen für Black Forest Labs (Serie/Runde, Investoren)",
+        "Kooperationspartner und konkrete Deployment-Umgebungen für Robotik-Tests",
+        "Benchmark-Ergebnisse oder Performance-Metriken für Robotik-Modelle"
+      ],
+      "sensitivity": "low"
     }
   }
 }
