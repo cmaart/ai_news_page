@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T04:21:30.441Z",
+  "updatedAt": "2026-07-26T06:22:23.816Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -10435,11 +10435,12 @@
       "pendingOutcome": "Offen ist, wie weit sich die Brände bei Bordeaux und Madrid noch ausbreiten, wann die Evakuierten zurückkehren können, ob es weitere Opfer gibt und wie die endgültige Gesamtzahl der Evakuierten in Südeuropa ausfällt.",
       "pendingOutcomeUntil": "2026-07-27T20:07:36.216Z",
       "echoPublishers": {
-        "kurier": "2026-07-25T20:07:36.216Z"
+        "kurier": "2026-07-25T20:07:36.216Z",
+        "derstandard": "2026-07-26T06:07:23.848Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-25T20:07:36.216Z"
+      "resonanceMeasuredAt": "2026-07-26T06:07:23.848Z"
     },
     "eu-21-sanktionspaket-russland-juli-2026": {
       "canonicalTitle": "EU-Staaten einigen sich auf 21. Sanktionspaket gegen Russland",
@@ -11550,9 +11551,9 @@
         "derstandard": "2026-07-25T06:07:25.078Z",
         "diepresse": "2026-07-25T12:07:33.269Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T04:07:30.089Z"
+      "resonanceMeasuredAt": "2026-07-26T06:07:23.848Z"
     },
     "cluster-20260724-97992bac": {
       "canonicalTitle": "Black Forest Labs: Deutsches KI-Start-up wagt den Sprung in die Robotik",
@@ -11966,13 +11967,13 @@
       "sensitivity": "low"
     },
     "csd-berlin-auto-menschenmenge-toter-juli-2026": {
-      "canonicalTitle": "Auto fährt bei CSD in Berlin in Menschenmenge – ein Toter, mehrere Verletzte",
+      "canonicalTitle": "Auto fährt bei CSD in Berlin in Menschenmenge – Frau getötet, Verdächtiger identifiziert",
       "slug": "csd-berlin-auto-menschenmenge-toter-juli-2026",
       "firstSeenAt": "2026-07-25T22:07:27.030Z",
-      "lastUpdatedAt": "2026-07-25T22:07:27.030Z",
+      "lastUpdatedAt": "2026-07-26T06:07:23.848Z",
       "status": "published",
       "articlePath": "src/content/articles/csd-berlin-auto-menschenmenge-toter-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-25/csd-berlin-auto-menschenmenge-toter-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-26/csd-berlin-auto-menschenmenge-toter-juli-2026-update-600.json",
       "sourceUrls": [
         "https://orf.at/stories/3437292",
         "https://www.derstandard.at/story/3000000332953/verletzte-bei-christopher-street-day-in-berlin--auto-fuhr-in-menge",
@@ -11980,19 +11981,25 @@
         "https://www.kleinezeitung.at/artikel/39725354/auto-fuhr-in-menge-verletzte-bei-csd-in-berlin",
         "https://salzburg.orf.at/stories/3364029",
         "https://www.tagesspiegel.de/berlin/liveblog/csd-berlin-2026-abgebrochen-auto-fahrt-im-tiergarten-in-menschenmenge--ein-toter-tater-fluchtig-15866021.html",
-        "https://watson.ch/international/deutschland/192933159-berlin-auto-am-csd-in-menschenmenge-gerast-tatverdaechtiger-fluechtig"
+        "https://watson.ch/international/deutschland/192933159-berlin-auto-am-csd-in-menschenmenge-gerast-tatverdaechtiger-fluechtig",
+        "https://kurier.at/chronik/welt/berlin-csd-auto-fuhr-in-menge-verletzte-tote/403178195"
       ],
       "openQuestions": [
-        "Wie viele Menschen tatsächlich verletzt wurden und wie es den Schwerverletzten aktuell geht, ist zwischen den Quellen nicht einheitlich beziffert.",
-        "Ob der oder die Tatverdächtigen mittlerweile identifiziert oder gefasst wurden, ist offen.",
-        "Welches Motiv der Tat zugrunde liegt und ob ein Zusammenhang mit dem CSD als Zielscheibe besteht, ist nicht bestätigt.",
-        "Um welchen Fahrzeugtyp es sich handelte und wie genau der Fahrer floh, wird von einzelnen Quellen unterschiedlich beschrieben."
+        "Wurde der mutmaßliche Verdächtige mittlerweile festgenommen, und wie lautet der aktuelle Fahndungsstand?",
+        "Steuerte der Verdächtige das Fahrzeug tatsächlich selbst, und wem gehörte der sichergestellte weiße Kastenwagen ursprünglich?",
+        "Kam bei dem Vorfall zusätzlich eine Stichwaffe zum Einsatz, wie einzelne Medienberichte andeuten, aber nicht bestätigen?",
+        "Welches Motiv lag der Tat zugrunde, und besteht ein bestätigter Zusammenhang mit dem CSD als Zielscheibe?",
+        "Wie ist der aktuelle Gesundheitszustand der Schwerverletzten, und wird sich die Opferzahl noch ändern?",
+        "Wie verlässlich ist die Zuordnung des Verdächtigen zur islamistischen Szene, und auf welchen Ermittlungsergebnissen beruht sie?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-26T22:07:27.030Z",
-      "doNotUpdateBefore": "2026-07-26T04:07:27.030Z",
-      "pendingOutcome": "Ergebnis der laufenden Fahndung nach dem oder den Tatverdächtigen sowie die endgültige, von den Behörden bestätigte Opferzahl.",
-      "pendingOutcomeUntil": "2026-07-27T22:07:27.030Z"
+      "doNotRedraftBefore": "2026-07-27T06:07:23.848Z",
+      "doNotUpdateBefore": "2026-07-26T12:07:23.848Z",
+      "pendingOutcome": "Ob und wann der mutmaßliche Verdächtige festgenommen wird, welches Motiv sich bestätigt und ob ein Stichwaffeneinsatz vorlag, ist weiterhin offen.",
+      "pendingOutcomeUntil": "2026-07-27T22:07:27.030Z",
+      "echoPublishers": {
+        "kurier": "2026-07-26T06:07:23.848Z"
+      }
     },
     "graz-giants-austrian-bowl-sieg-juli-2026": {
       "canonicalTitle": "Graz Giants beenden 18 Jahre Titel-Durststrecke in der Austrian Football League",
@@ -12224,7 +12231,10 @@
       "doNotRedraftBefore": "2026-07-27T04:07:30.089Z",
       "doNotUpdateBefore": "2026-07-26T10:07:30.089Z",
       "pendingOutcome": "Verlauf und Rezeption des Eröffnungsfestakts – insbesondere Kalesnikavas Festrede sowie die erste Aufnahme der Carmen-Premiere am Abend – stehen zum Zeitpunkt dieses Artikels noch aus.",
-      "pendingOutcomeUntil": "2026-07-28T04:07:30.089Z"
+      "pendingOutcomeUntil": "2026-07-28T04:07:30.089Z",
+      "echoPublishers": {
+        "orf": "2026-07-26T06:07:23.848Z"
+      }
     },
     "insolvenzentgeltfonds-finanzierungsluecke-2027": {
       "canonicalTitle": "Insolvenzentgeltfonds: Reserven schmelzen, für 2027 droht eine Finanzierungslücke von 160 Millionen Euro",
@@ -12250,6 +12260,56 @@
       "doNotUpdateBefore": "2026-07-26T10:07:30.089Z",
       "pendingOutcome": "Entscheidung des Arbeitsministeriums, ob die Finanzierungslücke 2027 durch eine Kreditaufnahme des Fonds oder durch eine Wiederanhebung des IESG-Zuschlags auf 0,2 Prozent geschlossen wird.",
       "pendingOutcomeUntil": "2026-07-28T04:07:30.089Z"
+    },
+    "innenministerium-erlass-gedenkstaetten-persmanhof-juli-2026": {
+      "canonicalTitle": "Innenministerium erlässt neue Regeln für Polizeieinsätze an Gedenkstätten",
+      "slug": "innenministerium-erlass-gedenkstaetten-persmanhof-juli-2026",
+      "firstSeenAt": "2026-07-26T06:07:23.848Z",
+      "lastUpdatedAt": "2026-07-26T06:07:23.848Z",
+      "status": "published",
+      "articlePath": "src/content/articles/innenministerium-erlass-gedenkstaetten-persmanhof-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-26/innenministerium-erlass-gedenkstaetten-persmanhof-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332957/nach-per353manhof-einsatz-erlass-zu-polizeieins228tzen-an-gedenkst228tten",
+        "https://www.kleinezeitung.at/artikel/39726283/neuer-erlass-fuer-polizei-einsaetze-an-gedenkstaetten",
+        "https://www.suedtirolnews.it/politik/neuer-erlass-fuer-polizei-einsaetze-an-gedenkstaetten",
+        "https://www.trend.at/news/kommission-persmanhof-einsatz-war-rechtswidrig"
+      ],
+      "openQuestions": [
+        "Wie lautet der Erlass im Detail, und welche weiteren Vorgaben enthält er über die genannte Verhältnismäßigkeitsklausel hinaus?",
+        "Was steht konkret im neuen Zwischenbericht zur Umsetzung der Empfehlungen der Analysekommission – welche Empfehlungen sind bereits umgesetzt, welche offen?",
+        "Wie äußert sich das Innenministerium offiziell zu Anlass und Zweck des Erlasses?",
+        "Wie reagieren die Betreiber der Gedenkstätte Peršmanhof, die Kärntner slowenische Volksgruppe und andere Beteiligte auf den neuen Erlass?",
+        "Werden die zusätzlichen, nur vereinzelt berichteten Vorgaben (etwa ein Vier-Augen-Prinzip oder eine vorherige Kontaktaufnahme mit der Gedenkstättenleitung) durch weitere Quellen bestätigt?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-27T06:07:23.848Z",
+      "doNotUpdateBefore": "2026-07-26T12:07:23.848Z"
+    },
+    "korosec-pensionsantrittsalter-debatte-juli-2026": {
+      "canonicalTitle": "Seniorenbund-Chefin Korosec offen für Debatte über höheres Pensionsantrittsalter",
+      "slug": "korosec-pensionsantrittsalter-debatte-juli-2026",
+      "firstSeenAt": "2026-07-26T06:07:23.848Z",
+      "lastUpdatedAt": "2026-07-26T06:07:23.848Z",
+      "status": "published",
+      "articlePath": "src/content/articles/korosec-pensionsantrittsalter-debatte-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-26/korosec-pensionsantrittsalter-debatte-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437229",
+        "https://www.diepresse.com/39682326/seniorenbundchefin-korosec-offen-fuer-debatte-ueber-hoeheres-pensionsantrittsalter",
+        "https://www.kleinezeitung.at/artikel/39676836/korosec-offen-fuer-debatte-ueber-hoeheres-antrittsalter",
+        "https://www.ots.at/presseaussendung/OTS_20260725_OTS0013/fpoe-belakowitsch-pensionsdebatte-der-oevp-schafft-nur-verunsicherung-und-geht-an-der-realitaet-vorbei",
+        "https://www.ots.at/presseaussendung/OTS_20260725_OTS0016/junos-ad-korosec-antrittsalter-erhoehen-entscheidung-darueber-nicht-auf-2030-vertagen"
+      ],
+      "openQuestions": [
+        "Wird Korosecs Vorschlag Teil eines offiziellen ÖVP-Programms für die nächste Legislaturperiode?",
+        "Wie reagieren Sozialministerium, Regierungsspitze und Sozialpartner (ÖGB, Wirtschaftskammer) offiziell auf den Vorstoß?",
+        "Welche der genannten Berufsjahre-Schwellen (40, 42 oder 45) würde in einem konkreten Modell gewählt?",
+        "Wie soll der von Korosec angekündigte „Vertrauensschutz“ von 15 bis 20 Jahren konkret ausgestaltet werden?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-27T06:07:23.848Z",
+      "doNotUpdateBefore": "2026-07-26T12:07:23.848Z"
     }
   }
 }
