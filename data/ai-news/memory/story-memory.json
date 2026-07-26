@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T08:24:34.603Z",
+  "updatedAt": "2026-07-26T10:23:12.766Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3009,7 +3009,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-25T04:07:32.306Z",
       "doNotUpdateBefore": "2026-07-24T10:07:32.306Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kurier": "2026-07-26T10:07:31.142Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-25T12:07:33.269Z"
@@ -10316,8 +10318,12 @@
       "doNotRedraftBefore": "2026-07-23T22:07:30.667Z",
       "doNotUpdateBefore": "2026-07-23T04:07:30.667Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-25T20:07:36.216Z"
-      }
+        "kleinezeitung": "2026-07-25T20:07:36.216Z",
+        "kurier": "2026-07-26T10:07:31.142Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-26T10:07:31.142Z"
     },
     "verpuffung-grazer-krankenhaus-rauchende-patientin-juli-2026": {
       "canonicalTitle": "73-Jährige raucht mit Sauerstoff-Nasenbrille: Verpuffung in Grazer Krankenhaus verletzt Patientin",
@@ -11253,9 +11259,7 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-25T10:07:30.773Z",
-      "doNotUpdateBefore": "2026-07-24T16:07:30.773Z",
-      "pendingOutcome": "Ergebnisse der noch laufenden Laboruntersuchungen für die übrigen von Greenpeace gemeldeten Verdachtsflächen sowie nähere Details zur angekündigten langfristigen Lösung im Umgang mit asbesthaltigen Straßenbelägen.",
-      "pendingOutcomeUntil": "2026-07-26T10:07:30.773Z"
+      "doNotUpdateBefore": "2026-07-24T16:07:30.773Z"
     },
     "ornella-muti-russische-staatsbuergerschaft-juli-2026": {
       "canonicalTitle": "Ornella Muti und Tochter Naike Rivelli beantragen russische Staatsbürgerschaft",
@@ -11579,31 +11583,42 @@
       "sensitivity": "low"
     },
     "rumaenien-drohnenabschuss-padina-juli-2026": {
-      "canonicalTitle": "Rumänien schießt erstmals seit Kriegsbeginn eine Drohne im eigenen Luftraum ab",
+      "canonicalTitle": "Rumänien schießt an drei aufeinanderfolgenden Tagen Drohnen im eigenen Luftraum ab",
       "slug": "rumaenien-drohnenabschuss-padina-juli-2026",
       "firstSeenAt": "2026-07-25T02:07:29.215Z",
-      "lastUpdatedAt": "2026-07-25T02:07:29.215Z",
+      "lastUpdatedAt": "2026-07-26T10:07:31.142Z",
       "status": "published",
       "articlePath": "src/content/articles/rumaenien-drohnenabschuss-padina-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-25/rumaenien-drohnenabschuss-padina-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-26/rumaenien-drohnenabschuss-padina-juli-2026-update-1000.json",
       "sourceUrls": [
         "https://orf.at/stories/3437151",
         "https://www.diepresse.com/39456997/rumaenien-schiesst-erstmals-drohne-im-eigenen-luftraum-ab",
         "https://kurier.at/politik/ausland/rumaenien-drohne-abschuss-russland-ukraine/403177975",
         "https://www.kleinezeitung.at/artikel/39465840/rumaenien-schiesst-erstmals-drohne-ueber-seinem-luftraum-ab",
-        "https://www.usnews.com/news/world/articles/2026-07-24/romania-shoots-down-drone-breaching-its-airspace-president-says"
+        "https://www.usnews.com/news/world/articles/2026-07-24/romania-shoots-down-drone-breaching-its-airspace-president-says",
+        "https://www.derstandard.at/jetzt/livebericht/3000000332979/rumaenien-schoss-zum-dritten-tag-infolge-drohne-in-eigenem-luftraum-ab",
+        "https://www.euronews.com/my-europe/2026/07/26/romanian-forces-shoot-down-third-drone-in-three-days",
+        "https://www.usnews.com/news/world/articles/2026-07-25/romania-says-it-shot-down-second-drone-breaching-its-airspace",
+        "https://www.euronews.com/2026/07/24/trump-and-zelenskyy-to-meet-in-washington-next-week"
       ],
       "openQuestions": [
-        "Wie reagiert Russland offiziell auf den Abschuss und die Zuordnung der Drohne?",
-        "Welche technischen bzw. forensischen Belege stützen die Einschätzung, dass die Drohne von der Krim gestartet ist?",
-        "Zu welchem Ergebnis kommen die von Präsident Dan angekündigten Untersuchungsteams?",
-        "Wird die NATO-Luftraumüberwachung in Rumänien infolge des Vorfalls verstärkt?"
+        "Wie reagiert Russland offiziell auf die Serie von drei Abschüssen binnen drei Tagen?",
+        "Zu welchem Ergebnis kommen die laufenden Untersuchungen zu den am 25. und 26. Juli abgeschossenen Drohnen?",
+        "Welche technischen bzw. forensischen Belege stützen die Zuordnung der Drohnen zum Typ Shahed/Geran-2 und einen Start von der Krim?",
+        "Reagiert die NATO mit einer Verstärkung der Luftraumüberwachung in Rumänien?",
+        "Führt das für kommende Woche angekündigte Trump-Selenskyj-Treffen im Weißen Haus zu konkreten Fortschritten bei Verhandlungen über die Ukraine?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-26T02:07:29.215Z",
-      "doNotUpdateBefore": "2026-07-25T08:07:29.215Z",
-      "pendingOutcome": "Die von Präsident Dan angekündigten Untersuchungsteams sollen weitere Details zum Vorfall liefern, insbesondere zur genauen Herkunft und Flugroute der Drohne.",
-      "pendingOutcomeUntil": "2026-07-27T02:07:29.215Z"
+      "doNotRedraftBefore": "2026-07-27T10:07:31.142Z",
+      "doNotUpdateBefore": "2026-07-26T16:07:31.142Z",
+      "pendingOutcome": "Ergebnisse der laufenden Untersuchungen zu den Drohnenabschüssen vom 25. und 26. Juli sowie eine mögliche russische Reaktion auf die Serie stehen noch aus.",
+      "pendingOutcomeUntil": "2026-07-27T02:07:29.215Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-26T10:07:31.142Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-26T10:07:31.142Z"
     },
     "trudeau-salzburg-summit-warnung-usa-juli-2026": {
       "canonicalTitle": "Trudeau warnt bei Salzburg Summit vor Zugeständnissen an die USA",
@@ -12003,7 +12018,7 @@
       "pendingOutcome": "Ob und wann der mutmaßliche Verdächtige festgenommen wird, welches Motiv sich bestätigt und ob ein Stichwaffeneinsatz vorlag, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-07-27T22:07:27.030Z",
       "echoPublishers": {
-        "kurier": "2026-07-26T06:07:23.848Z"
+        "kurier": "2026-07-26T10:07:31.142Z"
       }
     },
     "graz-giants-austrian-bowl-sieg-juli-2026": {
@@ -12292,7 +12307,9 @@
       "doNotUpdateBefore": "2026-07-26T12:07:23.848Z",
       "echoPublishers": {
         "derstandard": "2026-07-26T08:07:30.285Z",
-        "kurier": "2026-07-26T08:07:30.285Z"
+        "kurier": "2026-07-26T08:07:30.285Z",
+        "orf": "2026-07-26T10:07:31.142Z",
+        "kleinezeitung": "2026-07-26T10:07:31.142Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -12375,7 +12392,62 @@
       "doNotRedraftBefore": "2026-07-27T08:07:30.285Z",
       "doNotUpdateBefore": "2026-07-26T14:07:30.285Z",
       "pendingOutcome": "Ob der noch nicht rechtskräftige Bescheid der Datenschutzbehörde beim Bundesverwaltungsgericht angefochten wird und wie dieses entscheidet.",
-      "pendingOutcomeUntil": "2026-07-28T08:07:30.285Z"
+      "pendingOutcomeUntil": "2026-07-28T08:07:30.285Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-26T10:07:31.142Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-26T10:07:31.142Z"
+    },
+    "unesco-welterbe-d-day-landungsstraende-juli-2026": {
+      "canonicalTitle": "D-Day-Landungsstrände in der Normandie sind UNESCO-Welterbe",
+      "slug": "unesco-welterbe-d-day-landungsstraende-juli-2026",
+      "firstSeenAt": "2026-07-26T10:07:31.142Z",
+      "lastUpdatedAt": "2026-07-26T10:07:31.142Z",
+      "status": "published",
+      "articlePath": "src/content/articles/unesco-welterbe-d-day-landungsstraende-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-26/unesco-welterbe-d-day-landungsstraende-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437318",
+        "https://www.diepresse.com/39733018/d-day-landungsstraende-in-normandie-werden-unesco-welterbe",
+        "https://www.kleinezeitung.at/artikel/39730352/d-day-landungsstraende-in-normandie-nun-welterbe",
+        "https://abcnews.com/International/wireStory/unesco-adds-frances-day-landing-beaches-greeces-mount-135095093"
+      ],
+      "openQuestions": [
+        "Wie ist die neue Welterbestätte räumlich und rechtlich genau abgegrenzt – welche Gedenkorte zählen im Detail dazu?",
+        "Liegt die offizielle Begründung des UNESCO-Welterbekomitees mittlerweile im Wortlaut vor?",
+        "Wurden bei derselben Sitzung in Busan noch weitere französische oder europäische Stätten anerkannt, die hier nicht erfasst sind?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-27T10:07:31.142Z",
+      "doNotUpdateBefore": "2026-07-26T16:07:31.142Z"
+    },
+    "massenschlaegerei-innsbruck-juli-2026": {
+      "canonicalTitle": "Massenschlägerei in Innsbruck: rund 20 Personen mit Messern und Eisenketten beteiligt, ein Mann verletzt",
+      "slug": "massenschlaegerei-innsbruck-juli-2026",
+      "firstSeenAt": "2026-07-26T10:07:31.142Z",
+      "lastUpdatedAt": "2026-07-26T10:07:31.142Z",
+      "status": "published",
+      "articlePath": "src/content/articles/massenschlaegerei-innsbruck-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-26/massenschlaegerei-innsbruck-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332965/massenschl228gerei-in-innsbruck-syrer-verletzt",
+        "https://www.diepresse.com/39728254/massenschlaegerei-in-innsbruck-syrer-verletzt",
+        "https://kurier.at/chronik/tirol/massenschlaegerei-innsbruck-syrer-tirol-lokal/403178203"
+      ],
+      "openQuestions": [
+        "Konnten mittlerweile Verdächtige identifiziert oder festgenommen werden?",
+        "Was war das Motiv der Auseinandersetzung?",
+        "Wie ist der aktuelle Gesundheitszustand des verletzten 23-Jährigen?",
+        "Wo genau fand die Schlägerei statt – im Bereich Saggen oder im Bereich Salurner Straße/Landhausplatz?",
+        "Gab es einen Zusammenhang zu bereits bekannten Konflikten oder Gruppierungen in Innsbruck?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-27T10:07:31.142Z",
+      "doNotUpdateBefore": "2026-07-26T16:07:31.142Z",
+      "pendingOutcome": "Ergebnis der laufenden Polizeiermittlungen zu Motiv und möglichen Tatverdächtigen der Massenschlägerei.",
+      "pendingOutcomeUntil": "2026-07-28T10:07:31.142Z"
     }
   }
 }

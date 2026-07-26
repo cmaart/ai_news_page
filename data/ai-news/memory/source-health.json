@@ -1,28 +1,28 @@
 {
   "sources": {
     "orf_news": {
-      "lastSuccessAt": "2026-07-26T08:07:32.206Z",
+      "lastSuccessAt": "2026-07-26T10:07:32.965Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 25
     },
     "orf_oesterreich": {
-      "lastSuccessAt": "2026-07-26T08:07:32.184Z",
+      "lastSuccessAt": "2026-07-26T10:07:32.983Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 18
     },
     "orf_burgenland": {
-      "lastSuccessAt": "2026-07-26T08:07:32.314Z",
+      "lastSuccessAt": "2026-07-26T10:07:32.976Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 19
     },
     "orf_wien": {
-      "lastSuccessAt": "2026-07-26T08:07:32.316Z",
+      "lastSuccessAt": "2026-07-26T10:07:32.987Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
@@ -30,349 +30,350 @@
     },
     "orf_noe": {
       "lastSuccessAt": "2026-07-26T08:07:32.303Z",
-      "lastFailureAt": null,
-      "consecutiveFailures": 0,
-      "lastStatus": "ok",
-      "lastItemCount": 14
+      "lastFailureAt": "2026-07-26T10:07:33.318Z",
+      "consecutiveFailures": 1,
+      "lastStatus": "failed",
+      "lastItemCount": 14,
+      "lastError": "Feed not recognized as RSS 1 or 2."
     },
     "orf_ooe": {
-      "lastSuccessAt": "2026-07-26T08:07:32.306Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.324Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 15
     },
     "orf_salzburg": {
-      "lastSuccessAt": "2026-07-26T08:07:32.954Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.477Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 18
     },
     "orf_steiermark": {
-      "lastSuccessAt": "2026-07-26T08:07:32.813Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.316Z",
       "lastFailureAt": "2026-07-14T18:07:26.963Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 14
+      "lastItemCount": 15
     },
     "orf_kaernten": {
-      "lastSuccessAt": "2026-07-26T08:07:33.020Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.761Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 18
     },
     "orf_tirol": {
-      "lastSuccessAt": "2026-07-26T08:07:32.836Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.597Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 13
     },
     "orf_vorarlberg": {
-      "lastSuccessAt": "2026-07-26T08:07:32.990Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.246Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 20
     },
     "orf_science": {
-      "lastSuccessAt": "2026-07-26T08:07:32.988Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.245Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 13
+      "lastItemCount": 12
     },
     "derstandard_newsroom": {
-      "lastSuccessAt": "2026-07-26T08:07:32.334Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.630Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 43
+      "lastItemCount": 41
     },
     "derstandard_inland": {
-      "lastSuccessAt": "2026-07-26T08:07:32.475Z",
+      "lastSuccessAt": "2026-07-26T10:07:35.592Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 26
+      "lastItemCount": 25
     },
     "derstandard_international": {
-      "lastSuccessAt": "2026-07-26T08:07:34.286Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.794Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 28
+      "lastItemCount": 30
     },
     "derstandard_wirtschaft": {
-      "lastSuccessAt": "2026-07-26T08:07:32.299Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.994Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 23
+      "lastItemCount": 20
     },
     "derstandard_web": {
-      "lastSuccessAt": "2026-07-26T08:07:32.312Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.404Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 19
+      "lastItemCount": 18
     },
     "derstandard_wissenschaft": {
-      "lastSuccessAt": "2026-07-26T08:07:35.639Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.413Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 15
+      "lastItemCount": 16
     },
     "derstandard_recht": {
-      "lastSuccessAt": "2026-07-26T08:07:33.072Z",
+      "lastSuccessAt": "2026-07-26T10:07:36.191Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 7
     },
     "derstandard_gesundheit": {
-      "lastSuccessAt": "2026-07-26T08:07:33.075Z",
-      "lastFailureAt": null,
-      "consecutiveFailures": 0,
-      "lastStatus": "ok",
-      "lastItemCount": 2
-    },
-    "derstandard_panorama": {
-      "lastSuccessAt": "2026-07-26T08:07:34.290Z",
-      "lastFailureAt": null,
-      "consecutiveFailures": 0,
-      "lastStatus": "ok",
-      "lastItemCount": 24
-    },
-    "derstandard_live": {
-      "lastSuccessAt": "2026-07-26T08:07:33.800Z",
+      "lastSuccessAt": "2026-07-26T10:07:36.825Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 1
     },
+    "derstandard_panorama": {
+      "lastSuccessAt": "2026-07-26T10:07:36.206Z",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0,
+      "lastStatus": "ok",
+      "lastItemCount": 27
+    },
+    "derstandard_live": {
+      "lastSuccessAt": "2026-07-26T10:07:35.586Z",
+      "lastFailureAt": null,
+      "consecutiveFailures": 0,
+      "lastStatus": "ok",
+      "lastItemCount": 2
+    },
     "apa_ots_all": {
-      "lastSuccessAt": "2026-07-26T08:07:32.591Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.909Z",
       "lastFailureAt": "2026-07-25T16:07:31.839Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 15
     },
     "apa_ots_politik": {
-      "lastSuccessAt": "2026-07-26T08:07:32.597Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.910Z",
       "lastFailureAt": "2026-07-25T16:07:31.856Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 15
     },
     "apa_ots_wirtschaft": {
-      "lastSuccessAt": "2026-07-26T08:07:32.581Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.903Z",
       "lastFailureAt": "2026-07-25T16:07:31.841Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 15
     },
     "apa_ots_finanzen": {
-      "lastSuccessAt": "2026-07-26T08:07:32.587Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.907Z",
       "lastFailureAt": "2026-07-25T16:07:31.500Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 15
     },
     "apa_ots_chronik": {
-      "lastSuccessAt": "2026-07-26T08:07:32.593Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.914Z",
       "lastFailureAt": "2026-07-25T16:07:31.838Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 15
     },
     "apa_ots_medien": {
-      "lastSuccessAt": "2026-07-26T08:07:32.592Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.915Z",
       "lastFailureAt": "2026-07-25T16:07:31.845Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 15
+      "lastItemCount": 11
     },
     "diepresse_home": {
-      "lastSuccessAt": "2026-07-26T08:07:32.611Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.590Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 46
     },
     "diepresse_politik": {
-      "lastSuccessAt": "2026-07-26T08:07:32.797Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.124Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 10
     },
     "diepresse_wirtschaft": {
-      "lastSuccessAt": "2026-07-26T08:07:32.620Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.120Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 14
     },
     "kurier_home": {
-      "lastSuccessAt": "2026-07-26T08:07:32.974Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.127Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 20
     },
     "kurier_politik": {
-      "lastSuccessAt": "2026-07-26T08:07:32.996Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.724Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 20
     },
     "kurier_wirtschaft": {
-      "lastSuccessAt": "2026-07-26T08:07:33.009Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.181Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 20
     },
     "kurier_chronik": {
-      "lastSuccessAt": "2026-07-26T08:07:33.250Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.396Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 20
     },
     "kleinezeitung_home": {
-      "lastSuccessAt": "2026-07-26T08:07:34.931Z",
+      "lastSuccessAt": "2026-07-26T10:07:35.845Z",
       "lastFailureAt": "2026-07-24T16:09:12.374Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 50
     },
     "kleinezeitung_oesterreich": {
-      "lastSuccessAt": "2026-07-26T08:07:36.314Z",
+      "lastSuccessAt": "2026-07-26T10:07:36.524Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 50
     },
     "kleinezeitung_politik": {
-      "lastSuccessAt": "2026-07-26T08:07:34.960Z",
+      "lastSuccessAt": "2026-07-26T10:07:35.417Z",
       "lastFailureAt": "2026-07-22T06:07:40.177Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 50
     },
     "kleinezeitung_steiermark": {
-      "lastSuccessAt": "2026-07-26T08:07:35.336Z",
+      "lastSuccessAt": "2026-07-26T10:07:36.332Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 50
     },
     "profil_home": {
-      "lastSuccessAt": "2026-07-26T08:07:33.292Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.627Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 15
+      "lastItemCount": 14
     },
     "profil_oesterreich": {
-      "lastSuccessAt": "2026-07-26T08:07:33.730Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.935Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 2
     },
     "profil_gesellschaft": {
-      "lastSuccessAt": "2026-07-26T08:07:33.652Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.941Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 2
     },
     "futurezone_home": {
-      "lastSuccessAt": "2026-07-26T08:07:33.447Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.798Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 20
+      "lastItemCount": 17
     },
     "heise_news": {
-      "lastSuccessAt": "2026-07-26T08:07:34.036Z",
+      "lastSuccessAt": "2026-07-26T10:07:35.660Z",
       "lastFailureAt": "2026-07-22T06:07:40.180Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 50
     },
     "golem_news": {
-      "lastSuccessAt": "2026-07-26T08:07:34.590Z",
+      "lastSuccessAt": "2026-07-26T10:07:35.943Z",
       "lastFailureAt": "2026-07-22T06:07:40.181Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 40
     },
     "thedecoder": {
-      "lastSuccessAt": "2026-07-26T08:07:34.808Z",
+      "lastSuccessAt": "2026-07-26T10:07:36.578Z",
       "lastFailureAt": "2026-07-22T06:07:40.183Z",
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 10
     },
     "arstechnica": {
-      "lastSuccessAt": "2026-07-26T08:07:33.860Z",
+      "lastSuccessAt": "2026-07-26T10:07:35.233Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 20
     },
     "theverge": {
-      "lastSuccessAt": "2026-07-26T08:07:33.830Z",
+      "lastSuccessAt": "2026-07-26T10:07:35.262Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 10
     },
     "techcrunch": {
-      "lastSuccessAt": "2026-07-26T08:07:33.724Z",
+      "lastSuccessAt": "2026-07-26T10:07:35.345Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 20
     },
     "orf_sport": {
-      "lastSuccessAt": "2026-07-26T08:07:32.842Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.777Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 18
     },
     "derstandard_sport": {
-      "lastSuccessAt": "2026-07-26T08:07:33.838Z",
+      "lastSuccessAt": "2026-07-26T10:07:35.001Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
       "lastItemCount": 35
     },
     "derstandard_kultur": {
-      "lastSuccessAt": "2026-07-26T08:07:34.885Z",
+      "lastSuccessAt": "2026-07-26T10:07:33.813Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 31
+      "lastItemCount": 32
     },
     "diepresse_kultur": {
-      "lastSuccessAt": "2026-07-26T08:07:32.820Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.440Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
-      "lastItemCount": 24
+      "lastItemCount": 26
     },
     "kurier_kultur": {
-      "lastSuccessAt": "2026-07-26T08:07:32.993Z",
+      "lastSuccessAt": "2026-07-26T10:07:34.157Z",
       "lastFailureAt": null,
       "consecutiveFailures": 0,
       "lastStatus": "ok",
