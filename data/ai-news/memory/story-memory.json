@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T10:23:12.766Z",
+  "updatedAt": "2026-07-26T12:23:56.849Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -10321,9 +10321,9 @@
         "kleinezeitung": "2026-07-25T20:07:36.216Z",
         "kurier": "2026-07-26T10:07:31.142Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T10:07:31.142Z"
+      "resonanceMeasuredAt": "2026-07-26T12:07:25.006Z"
     },
     "verpuffung-grazer-krankenhaus-rauchende-patientin-juli-2026": {
       "canonicalTitle": "73-Jährige raucht mit Sauerstoff-Nasenbrille: Verpuffung in Grazer Krankenhaus verletzt Patientin",
@@ -10406,13 +10406,13 @@
       "doNotUpdateBefore": "2026-07-23T08:07:29.150Z"
     },
     "waldbrand-saumos-bordeaux-evakuierung-juli-2026": {
-      "canonicalTitle": "Waldbrand nahe Bordeaux weitet sich aus: Über 160.000 Evakuierte in Südeuropa",
+      "canonicalTitle": "Waldbrand nahe Bordeaux: Flammen nur noch 15 Kilometer vom Großraum entfernt, Spanien ruft erstmals nationalen Notstand aus",
       "slug": "waldbrand-saumos-bordeaux-evakuierung-juli-2026",
       "firstSeenAt": "2026-07-23T06:07:26.122Z",
-      "lastUpdatedAt": "2026-07-25T20:07:36.216Z",
+      "lastUpdatedAt": "2026-07-26T12:07:25.006Z",
       "status": "published",
       "articlePath": "src/content/articles/waldbrand-saumos-bordeaux-evakuierung-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-25/waldbrand-saumos-bordeaux-evakuierung-juli-2026-update-2000.json",
+      "researchPath": "data/ai-news/research/2026-07-26/waldbrand-saumos-bordeaux-evakuierung-juli-2026-update-1200.json",
       "sourceUrls": [
         "https://www.diepresse.com/39072991/waldbrand-nahe-bordeaux-tausende-touristen-in-sicherheit-gebracht",
         "https://kurier.at/chronik/welt/touristen-waldbrand-bordeaux-evakuierung-frankreich/403177660",
@@ -10428,30 +10428,43 @@
         "https://www.euronews.com/my-europe/2026/07/25/evacuations-ordered-in-bordeaux-suburbs-as-wildfires-continue-to-ravage-southern-europe",
         "https://www.telemadrid.es/noticias/madrid/El-incendio-declarado-en-Villa-del-Prado-obliga-a-evacuar-a-los-vecinos-de-Aldea-del-Fresno-0-2909709032--20260723054300.html",
         "https://www.elespanol.com/madrid/comunidad/20260725/drama-aldea-fresno-golpeado-anos-dana-mayor-incendio-historia-madrid/1003744333387_0.html",
-        "https://www.cronista.com/espana/actualidad-es/incendios-forestales-comienza-la-recuperacion-en-almeria-tras-el-incendio-que-arraso-7000-hectareas-estas-son-todas-las-medidas/"
+        "https://www.cronista.com/espana/actualidad-es/incendios-forestales-comienza-la-recuperacion-en-almeria-tras-el-incendio-que-arraso-7000-hectareas-estas-son-todas-las-medidas/",
+        "https://orf.at/stories/3437329",
+        "https://www.diepresse.com/39728636/waldbraende-in-suedeuropa-flammen-erreichen-grossraum-bordeaux-seniorenheim-auf-sardinien-evakuiert",
+        "https://www.derstandard.at/story/3000000332956/waldbr228nde-in-s252deuropa-weiterer-evakuierungsaufruf-bei-bordeaux",
+        "https://www.diepresse.com/39728636/waldbraende-in-italien-seniorenheim-auf-sardinien-evakuiert",
+        "https://kurier.at/chronik/welt/waldbraende-italien-spanien-frankreich-evakuierung-bordeaux/403178197",
+        "https://www.kleinezeitung.at/artikel/39729516/waldbraende-seniorenheim-auf-sardinien-evakuiert-katzen-als-brandsaetze",
+        "https://orf.at/stories/3437299/",
+        "https://www.nachrichten.at/panorama/weltspiegel/waldbraende-spanien-rief-notstand-nationaler-tragweite-aus;art17,4195626",
+        "https://www.berliner-zeitung.de/article/waldbraende-in-kalabrien-katzen-als-lebende-brandstifter-benutzt-10233140"
       ],
       "openQuestions": [
-        "Wie groß ist die vom Feuer betroffene Fläche bei Saumos/Bordeaux mittlerweile, nachdem am 25. Juli von sieben weiteren evakuierten Gemeinden berichtet wurde?",
-        "Wie ist die genaue Brandursache in Saumos, und gibt es einen Zusammenhang mit dem tödlichen Brand am Flughafen Bordeaux vom Vortag?",
-        "Wann können die evakuierten Urlauber und Anrainer bei Bordeaux sowie die Bewohner von Aldea del Fresno zurückkehren?",
-        "Gab es im weiteren Verlauf bei einem der beiden Brände Verletzte oder Todesopfer?",
-        "Wie kommt die Gesamtzahl von mehr als 160.000 Evakuierten genau zustande, und wie teilt sie sich auf Frankreich und Spanien auf?",
-        "Ist der Waldbrand in der Sierra Oeste bei Madrid tatsächlich der größte je in der Region verzeichnete, und was war seine Ursache?",
+        "Wie weit hat sich der Brand bei Bordeaux seit dem 26. Juli ausgebreitet, und bleibt es bei der Zusage, den Großraum nicht evakuieren zu müssen?",
+        "Wie hoch ist die tatsächliche Gesamtzahl der Evakuierten in Frankreich und Spanien – die Angaben schwanken zwischen rund 300.000 und mehr als 350.000?",
+        "Was hat den Brand bei Saumos ursprünglich ausgelöst, und gibt es einen Zusammenhang mit dem separaten, tödlichen Brand am Flughafen Bordeaux?",
+        "Ist der Waldbrand in der Sierra Oeste bei Madrid tatsächlich aus dem Zusammenschluss mehrerer Einzelfeuer entstanden und der größte je in der Region verzeichnete?",
+        "Welche konkreten Befugnisse und Mittel bringt der neu ausgerufene spanische „Notstand von nationaler Tragweite“ in der Praxis, und wie lange bleibt er in Kraft?",
+        "Gab es bei den Bränden in Frankreich oder Spanien in den vergangenen Tagen weitere Verletzte oder Todesopfer?",
+        "Trifft der Vorwurf zu, dass in Kalabrien lebende Katzen als Brandbeschleuniger benutzt wurden, und zu welchem Ergebnis kommen die laufenden Ermittlungen?",
+        "Wie viele Menschen sind insgesamt auf Sardinien und in anderen Teilen Italiens von den Waldbränden betroffen?",
+        "Wann können die evakuierten Menschen in Frankreich, Spanien und Italien an ihre Wohnorte zurückkehren?",
         "Wie hat sich der frühere Waldbrand bei Los Gallardos (Almería) seither entwickelt, und ist er vollständig gelöscht?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-26T20:07:36.216Z",
-      "doNotUpdateBefore": "2026-07-26T02:07:36.216Z",
-      "pendingOutcome": "Offen ist, wie weit sich die Brände bei Bordeaux und Madrid noch ausbreiten, wann die Evakuierten zurückkehren können, ob es weitere Opfer gibt und wie die endgültige Gesamtzahl der Evakuierten in Südeuropa ausfällt.",
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-27T12:07:25.006Z",
+      "doNotUpdateBefore": "2026-07-26T18:07:25.006Z",
+      "pendingOutcome": "Weiterentwicklung der Brandfront bei Bordeaux und im Département Var, endgültige Evakuiertenzahlen in Frankreich, Spanien und Italien, Auswirkungen des spanischen Notstands sowie Ausgang der Ermittlungen zum Brandstiftungsvorwurf in Kalabrien bleiben zu verfolgen.",
       "pendingOutcomeUntil": "2026-07-27T20:07:36.216Z",
       "echoPublishers": {
         "kurier": "2026-07-25T20:07:36.216Z",
         "derstandard": "2026-07-26T06:07:23.848Z",
-        "orf": "2026-07-26T08:07:30.285Z"
+        "orf": "2026-07-26T12:07:25.006Z",
+        "diepresse": "2026-07-26T12:07:25.006Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T06:07:23.848Z"
+      "resonanceMeasuredAt": "2026-07-26T12:07:25.006Z"
     },
     "eu-21-sanktionspaket-russland-juli-2026": {
       "canonicalTitle": "EU-Staaten einigen sich auf 21. Sanktionspaket gegen Russland",
@@ -12102,10 +12115,10 @@
       "canonicalTitle": "Lilli Tagger besiegt Grand-Slam-Siegerin Krejcikova und steht im WTA-Finale von Prag",
       "slug": "lilli-tagger-wta-finale-prag-juli-2026",
       "firstSeenAt": "2026-07-26T00:07:31.188Z",
-      "lastUpdatedAt": "2026-07-26T00:07:31.188Z",
+      "lastUpdatedAt": "2026-07-26T12:07:25.006Z",
       "status": "published",
       "articlePath": "src/content/articles/lilli-tagger-wta-finale-prag-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-26/lilli-tagger-wta-finale-prag-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-26/lilli-tagger-wta-finale-prag-juli-2026-update-1200.json",
       "sourceUrls": [
         "https://sport.orf.at/stories/3160661",
         "https://www.derstandard.at/story/3000000332946/tagger-erreicht-in-prag-ihr-zweites-finale-auf-der-wta-tour",
@@ -12118,7 +12131,9 @@
         "https://sport.orf.at/stories/3160631",
         "https://www.derstandard.at/story/3000000332905/lilli-tagger-zieht-ins-halbfinale-von-prag-ein",
         "https://mezha.net/eng/bukvy/9b2710eb_daria_snigur_reaches/",
-        "https://www.infobae.com/espana/agencias/2026/07/25/daria-snigur-y-lilli-tagger-se-jugaran-el-titulo-en-praga/"
+        "https://www.infobae.com/espana/agencias/2026/07/25/daria-snigur-y-lilli-tagger-se-jugaran-el-titulo-en-praga/",
+        "https://www.kleinezeitung.at/artikel/39743691/das-finale-von-lilli-tagger-in-prag-jetzt-im-liveticker",
+        "https://www.kleinezeitung.at/artikel/39662954/sieg-gegen-die-nr-40-der-welt-lilli-tagger-in-prag-im-halbfinale"
       ],
       "openQuestions": [
         "Wie geht das Finale zwischen Tagger und Snigur am Sonntag aus?",
@@ -12126,10 +12141,13 @@
         "Wie erklärt sich die geringfügig unterschiedliche Angabe zur Spieldauer (2:50 vs. 2:52 Stunden) in den Berichten?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-27T00:07:31.188Z",
-      "doNotUpdateBefore": "2026-07-26T06:07:31.188Z",
-      "pendingOutcome": "Endergebnis des für Sonntag angesetzten WTA-Finales von Prag zwischen Lilli Tagger und Daria Snigur.",
-      "pendingOutcomeUntil": "2026-07-28T00:07:31.188Z"
+      "doNotRedraftBefore": "2026-07-27T12:07:25.006Z",
+      "doNotUpdateBefore": "2026-07-26T18:07:25.006Z",
+      "pendingOutcome": "Ausgang des WTA-Finales zwischen Lilli Tagger und Daria Snigur am 26. Juli 2026 in Prag sowie die daraus resultierende Platzierung Taggers in der WTA-Weltrangliste.",
+      "pendingOutcomeUntil": "2026-07-28T00:07:31.188Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-26T12:07:25.006Z"
+      }
     },
     "salzburger-festspiele-faust-rasche-premiere-juli-2026": {
       "canonicalTitle": "Salzburger Festspiele: Ulrich Rasche inszeniert Goethes „Faust“ auf der Pernerinsel",
@@ -12448,6 +12466,30 @@
       "doNotUpdateBefore": "2026-07-26T16:07:31.142Z",
       "pendingOutcome": "Ergebnis der laufenden Polizeiermittlungen zu Motiv und möglichen Tatverdächtigen der Massenschlägerei.",
       "pendingOutcomeUntil": "2026-07-28T10:07:31.142Z"
+    },
+    "hitzewelle-oesterreich-38-grad-juli-2026": {
+      "canonicalTitle": "Neue Hitzewelle mit bis zu 38 Grad rollt ab Mittwoch auf Österreich zu",
+      "slug": "hitzewelle-oesterreich-38-grad-juli-2026",
+      "firstSeenAt": "2026-07-26T12:07:25.006Z",
+      "lastUpdatedAt": "2026-07-26T12:07:25.006Z",
+      "status": "published",
+      "articlePath": "src/content/articles/hitzewelle-oesterreich-38-grad-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-26/hitzewelle-oesterreich-38-grad-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000332984/bis-zu-38-grad-erwartet-die-n228chste-hitzewelle-rollt-an",
+        "https://www.diepresse.com/39738254/bis-zu-38-grad-erwartet-die-naechste-hitzewelle-rollt-an",
+        "https://kurier.at/chronik/oesterreich/38-grad-hitze-hitzewelle-wetter-vorschau-hundstage-sommer/403178213",
+        "https://kurier.at/chronik/oesterreich/hitzewelle-2026-juli-august-wetter-prognose/403177724"
+      ],
+      "openQuestions": [
+        "Wie lange hält die Hitzewelle über Freitag hinaus an, und wann kommt die nächste Abkühlung?",
+        "Werden im Zuge der Hitzewelle einzelne Tages- oder Monatsrekorde gebrochen?",
+        "Gibt es behördliche Hitzewarnungen oder Gesundheitsempfehlungen für die betroffenen Regionen?",
+        "Wie stark unterscheiden sich die tatsächlichen Höchstwerte regional von der aktuellen Prognose?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-27T12:07:25.006Z",
+      "doNotUpdateBefore": "2026-07-26T18:07:25.006Z"
     }
   }
 }
