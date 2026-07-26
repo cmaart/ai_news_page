@@ -54,6 +54,7 @@ import type {
   RelatedCandidate,
   RunManifest,
   RunRecord,
+  SeenItems,
   SourceRegistry,
   Story,
   TriageBacklogEntry,
@@ -111,6 +112,33 @@ const RESONANCE_PRIORITY_LEVEL = 4;
 function resonanceLevelFor(publisherCount: number): number {
   if (publisherCount >= 5) return 5;
   return publisherCount >= 2 ? publisherCount : 1;
+}
+
+/**
+ * Trägt die Publisher eines Clusters ins rollierende Echo-Fenster einer Story ein
+ * (E46). Gezählt wird nach Erst-Sichtung des Items (`firstSeenAt`), nicht nach
+ * `isNew`: Der Cluster-Lookback (48 h) ist größer als das Messfenster (24 h), und
+ * ein Portal, dessen Item schon einen Run früher gesehen wurde, gehört genauso zur
+ * laufenden Welle. `isNew` hätte jedes Portal nur genau einen Run lang gezählt —
+ * die Welle wäre nach einem Run scheinbar abgeklungen, obwohl die Meldungen noch
+ * im Fenster liegen.
+ */
+function collectEchoPublishers(
+  cluster: Cluster,
+  seen: SeenItems,
+  windowCutoff: string,
+  nowIso: string,
+  hits: Record<string, string>,
+): number {
+  for (const item of cluster.items) {
+    const firstSeenAt = seen.items[item.itemId]?.firstSeenAt ?? nowIso;
+    if (firstSeenAt < windowCutoff) continue; // außerhalb des Messfensters
+    const portal = portalOf(item.sourceId);
+    // Jüngste Sichtung pro Portal gewinnt — das Fenster darf nicht durch ein
+    // altes Item derselben Redaktion vorzeitig ausgedünnt werden.
+    if (!hits[portal] || hits[portal] < firstSeenAt) hits[portal] = firstSeenAt;
+  }
+  return Object.keys(hits).length;
 }
 
 const dryRun = process.argv.includes('--dry-run') || process.env.AI_NEWS_DRY_RUN === '1';
@@ -213,20 +241,17 @@ async function main(): Promise<void> {
   }
 
   // Phase 4.5: Resonanz-Zählung (E46) ----------------------------------------
-  // Deterministisch, ohne LLM: neue Items, die auf eine Story mit publiziertem
+  // Deterministisch, ohne LLM: Items, die auf eine Story mit publiziertem
   // Artikel matchen, füllen ein rollierendes Publisher-Fenster im Story-Memory.
   // Läuft VOR der Draft-Phase, damit Updates das gepatchte Frontmatter mitnehmen.
+  const echoWindowCutoff = hoursAgo(RESONANCE_WINDOW_HOURS, now).toISOString();
   for (const { cluster } of scored) {
     const story = matchStory(cluster, stories);
     if (!story?.articlePath) continue;
-    const hits = (story.echoPublishers ??= {});
-    for (const item of cluster.items) {
-      if (item.isNew) hits[portalOf(item.sourceId)] = nowIso;
-    }
+    collectEchoPublishers(cluster, seen, echoWindowCutoff, nowIso, (story.echoPublishers ??= {}));
   }
   // Fenster ausdünnen + deterministisches Level je Story bestimmen — auch für
   // Stories ohne Cluster-Match diesen Run (deren Welle klingt gerade ab).
-  const echoWindowCutoff = hoursAgo(RESONANCE_WINDOW_HOURS, now).toISOString();
   const detResonance = new Map<string, number>(); // slug → Level aus der Zählung
   for (const story of Object.values(stories.stories)) {
     if (!story.articlePath || !story.echoPublishers) continue;
@@ -384,6 +409,7 @@ async function main(): Promise<void> {
       }
     }
   }
+  // Zwischenstand; der Resonanz-Seed der Draft-Phase zählt weiter hoch (s. u.).
   stats.resonanceUpdates = resonanceUpdates;
 
   // Phase 5.7: Ausgang-offen-Watch (E55) --------------------------------------
@@ -693,6 +719,34 @@ async function main(): Promise<void> {
         treatAsNew: isDelta,
       });
 
+      // Resonanz-Seed (E46): Die Gründungs-Publisher eines NEUEN Artikels zählten
+      // bisher nie. Phase 4.5 sieht nur Stories, die beim Zählen schon einen
+      // articlePath hatten — beim Erst-Draft existiert der Artikel aber noch nicht.
+      // Folge: Genau eine breit gemeldete Story startete mit Echo 0, obwohl die
+      // Welle in dem Moment am lautesten ist, und wurde im Aufmacher-Ranking von
+      // kleineren Stories mit gemessenem Echo überholt. Darum das Fenster direkt
+      // beim Anlegen aus dem Cluster füllen und das Level sofort patchen.
+      if (!isUpdate) {
+        const publishers = collectEchoPublishers(
+          cluster,
+          seen,
+          echoWindowCutoff,
+          nowIso,
+          (story.echoPublishers ??= {}),
+        );
+        const seedLevel = resonanceLevelFor(publishers);
+        // Level 1 steht nie im Frontmatter (wie Phase 5.5) — nichts zu schreiben.
+        if (seedLevel >= 2) {
+          story.resonanceLevel = seedLevel;
+          story.resonanceSource = 'zaehlung';
+          story.resonanceMeasuredAt = nowIso;
+          if (patchArticleResonance(slug, { level: seedLevel, measuredAt: nowIso, source: 'zaehlung' })) {
+            resonanceUpdates += 1;
+            console.log(`Resonanz-Seed: ${slug} → Level ${seedLevel} (Gründungs-Cluster, ${publishers} Portale)`);
+          }
+        }
+      }
+
       if (isUpdate) stats.updates += 1;
       else stats.drafts += 1;
       written.push({ slug, articlePath, researchPath: researchRelPath, ...(imagePath ? { imagePath } : {}), isUpdate });
@@ -727,6 +781,8 @@ async function main(): Promise<void> {
       console.error(`Draft/Update fehlgeschlagen für ${cluster.title}: ${(error as Error).message}`);
     }
   }
+
+  stats.resonanceUpdates = resonanceUpdates;
 
   if (written.length > 0) {
     const primary = written[0];
