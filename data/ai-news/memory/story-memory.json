@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T06:22:23.816Z",
+  "updatedAt": "2026-07-26T08:24:34.603Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -4118,8 +4118,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-26T14:07:26.923Z",
       "doNotUpdateBefore": "2026-07-25T20:07:26.923Z",
-      "pendingOutcome": "Ausgang des Hauptsacheverfahrens zur Kartellklage der Bundesstaaten (und ggf. der WGA) sowie ob die Übernahme bis 1. Juni 2027 vollzogen oder endgültig aufgegeben wird; zudem, ob die zusätzliche vierteljährliche Zahlungsverpflichtung von rund 650 Millionen Dollar tatsächlich in vollem Umfang anfällt und ob die Klagen formell zusammengeführt wurden.",
-      "pendingOutcomeUntil": "2026-07-26T06:07:26.229Z",
       "echoPublishers": {
         "diepresse": "2026-07-25T12:07:33.269Z",
         "heise": "2026-07-25T14:07:26.923Z"
@@ -4533,13 +4531,13 @@
       "resonanceMeasuredAt": "2026-07-15T20:07:27.471Z"
     },
     "ukraine-raffinerien-angriff-russland-juli-2026": {
-      "canonicalTitle": "Ukraine griff laut Berichten russische Raffinerien und Onlinehändler Wildberries an – Russland attackierte Kiew und Slowjansk erneut, mindestens 15 Tote",
+      "canonicalTitle": "Ukraine und Russland griffen einander mehrfach an: Raffinerien, Wildberries, Kiew, Slowjansk, Sumy und ein Feriengelände in Saporischschja betroffen",
       "slug": "ukraine-raffinerien-angriff-russland-juli-2026",
       "firstSeenAt": "2026-07-14T08:07:30.083Z",
-      "lastUpdatedAt": "2026-07-25T00:07:34.249Z",
+      "lastUpdatedAt": "2026-07-26T08:07:30.285Z",
       "status": "published",
       "articlePath": "src/content/articles/ukraine-raffinerien-angriff-russland-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-25/ukraine-raffinerien-angriff-russland-juli-2026-update-000.json",
+      "researchPath": "data/ai-news/research/2026-07-26/ukraine-raffinerien-angriff-russland-juli-2026-update-800.json",
       "sourceUrls": [
         "https://www.diepresse.com/37091078/ukraine-greift-zwei-raffinerien-in-russland-an",
         "https://kurier.at/politik/ausland/ukraine-russland-attacken-raffinerien/403175997",
@@ -4553,34 +4551,40 @@
         "https://kurier.at/politik/ausland/ukraine-setzt-lager-von-russischem-versandhaendler-in-brand-zwei-tote/403177610",
         "https://orf.at/stories/3437057",
         "https://www.mfa.gov.lv/en/article/statement-latvian-minister-foreign-affairs-russias-attack-sloviansk",
-        "https://www.kyivpost.com/post/81020"
+        "https://www.kyivpost.com/post/81020",
+        "https://orf.at/stories/3437305",
+        "https://www.kleinezeitung.at/artikel/39406330/drei-verletzte-bei-ukrainischem-drohnenangriff-in-russland",
+        "https://orf.at/stories/3437237",
+        "https://www.diepresse.com/39688039/russischer-gouverneur-spricht-von-acht-toten-bei-angriff-auf-ferienlager",
+        "https://orf.at/stories/3437267",
+        "https://orf.at/stories/3437276"
       ],
       "openQuestions": [
-        "Wie schwer wurden die Raffinerien in Krasnodar und Baschkortostan/an der Wolga tatsächlich beschädigt?",
-        "Gibt es eine offizielle russische Stellungnahme zu den Angriffen auf die Raffinerien oder zu den Raketenangriffen auf Kiew?",
-        "Werden die vom ukrainischen Notdienst gemeldeten Opferzahlen (19 Tote, 61 Verletzte am 14. Juli; 10 Tote, fast 100 Verletzte am 24. Juli) von unabhängiger Seite bestätigt?",
+        "Wie schwer wurden die Raffinerien in Krasnodar und Baschkortostan/an der Wolga sowie die Raffinerie in Tjumen tatsächlich beschädigt?",
+        "Gibt es eine offizielle russische Stellungnahme zu den Angriffen auf Kiew, Slowjansk und Sumy?",
+        "Werden die vom ukrainischen Notdienst und von ukrainischen Amtsträgern gemeldeten Opferzahlen von unabhängiger Seite bestätigt?",
         "Welches war das tatsächliche Ziel des Raketenangriffs bei Kiew am 24. Juli – ein privater Sportkomplex oder ein Übungsgelände einer Rüstungsmesse?",
-        "Zu welchem Ergebnis kommt das von der ukrainischen Generalstaatsanwaltschaft eingeleitete Verfahren zur Organisation der Veranstaltung bei Kiew?",
-        "Wie viele Menschen wurden beim ukrainischen Drohnenangriff auf Wildberries und das Rüstungsunternehmen in der Nacht auf 24. Juli tatsächlich getötet oder verletzt?",
-        "Gibt es eine russische Stellungnahme zum Angriff auf Slowjansk und zur Beschädigung des lettischen Honorarkonsulats?",
+        "Zu welchem Ergebnis kommt das Verfahren gegen den festgenommenen Organisator der Rüstungsmesse-Veranstaltung?",
+        "Ist die Opferzahl von acht Toten beim Angriff auf das Feriengelände in Kyryliwka (besetzte Region Saporischschja) unabhängig verifizierbar?",
+        "Wie erklärt sich die Diskrepanz zwischen den ORF-Angaben von mindestens 16 bzw. 20 Toten für den 25. Juli 2026?",
+        "Wie viele Menschen wurden bei den Bränden in Kiew in der Nacht auf den 26. Juli tatsächlich verletzt oder getötet?",
         "Welche konkreten neuen Sanktionen wird die EU gegen Russlands militärisch-industriellen Komplex vorschlagen, und werden sie beschlossen?",
         "Wie belastbar ist die russische Angabe, drei ukrainische Häfen beschossen zu haben, und welches Schadensausmaß hatte dies tatsächlich?",
         "Wie umfangreich waren die von Ukrenerho gemeldeten Stromausfälle infolge der russischen Angriffe, und wie lange dauerten sie an?",
-        "Welche technischen Daten hat die von Selenskyj Mitte Juli erwähnte neue ukrainische Flugabwehrrakete?",
         "Welche konkreten Ziele und welchen Umfang haben die für Herbst 2026 in Polen geplanten Manöver der Koalition der Willigen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-26T00:07:34.249Z",
-      "doNotUpdateBefore": "2026-07-25T06:07:34.249Z",
-      "pendingOutcome": "Offen bleiben eine russische Stellungnahme zu den Angriffen auf Kiew und Slowjansk, die endgültige Klärung des Angriffsziels bei Kiew, der Ausgang des von der ukrainischen Generalstaatsanwaltschaft eingeleiteten Verfahrens sowie die konkrete Ausgestaltung der von der EU angekündigten neuen Sanktionen.",
+      "doNotRedraftBefore": "2026-07-27T08:07:30.285Z",
+      "doNotUpdateBefore": "2026-07-26T14:07:30.285Z",
+      "pendingOutcome": "Unabhängige Bestätigung der Opferzahlen vom 25./26. Juli (insbesondere zum Feriengelände in Saporischschja und zu den Kiewer Bränden), Klärung der widersprüchlichen Tagesbilanzen (16 vs. 20 Tote) sowie der weitere Verlauf des Verfahrens gegen den festgenommenen Organisator der Rüstungsmesse stehen noch aus.",
       "pendingOutcomeUntil": "2026-07-27T00:07:34.249Z",
       "echoPublishers": {
-        "orf": "2026-07-25T12:07:33.269Z",
+        "orf": "2026-07-26T08:07:30.285Z",
         "diepresse": "2026-07-25T12:07:33.269Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-26T02:07:28.838Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-26T08:07:30.285Z"
     },
     "cluster-20260714-6d1e2cbe": {
       "canonicalTitle": "K�nstliche Intelligenz: Claude 3 kann festgelegten Prinzipien folgen",
@@ -10436,7 +10440,8 @@
       "pendingOutcomeUntil": "2026-07-27T20:07:36.216Z",
       "echoPublishers": {
         "kurier": "2026-07-25T20:07:36.216Z",
-        "derstandard": "2026-07-26T06:07:23.848Z"
+        "derstandard": "2026-07-26T06:07:23.848Z",
+        "orf": "2026-07-26T08:07:30.285Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "triage",
@@ -11114,8 +11119,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-27T02:07:28.838Z",
       "doNotUpdateBefore": "2026-07-26T08:07:28.838Z",
-      "pendingOutcome": "Weiterentwicklung der Evakuierungszahlen in Frankreich und Spanien, der endgültige Kontrollstatus der Brände in der Gironde, bei Biscarrosse, Pontevès sowie in Spanien, die jeweiligen Brandursachen und mögliche weitere Opfer bleiben abzuwarten.",
-      "pendingOutcomeUntil": "2026-07-26T06:07:26.229Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -11548,7 +11551,6 @@
       "pendingOutcome": "Offen bleibt, wie Volker Türk selbst auf die Kritik reagiert, ob sich die österreichische Bundesregierung zur Wiederwahl äußert, welche konkreten Schritte die USA im Rahmen ihrer angekündigten Neubewertung der UNO-Zusammenarbeit setzen und ob sich UNO-Generalsekretär António Guterres öffentlich zum Ausgang äußert.",
       "pendingOutcomeUntil": "2026-07-27T06:07:25.078Z",
       "echoPublishers": {
-        "derstandard": "2026-07-25T06:07:25.078Z",
         "diepresse": "2026-07-25T12:07:33.269Z"
       },
       "resonanceLevel": 1,
@@ -11889,7 +11891,10 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-26T18:07:25.945Z",
-      "doNotUpdateBefore": "2026-07-26T00:07:25.945Z"
+      "doNotUpdateBefore": "2026-07-26T00:07:25.945Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-26T08:07:30.285Z"
+      }
     },
     "selenskij-nordkoreanische-soldaten-woronesch-juli-2026": {
       "canonicalTitle": "Selenskij: Russland will laut Kiew 30.000 Soldaten aus Nordkorea rekrutieren",
@@ -12284,7 +12289,14 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-27T06:07:23.848Z",
-      "doNotUpdateBefore": "2026-07-26T12:07:23.848Z"
+      "doNotUpdateBefore": "2026-07-26T12:07:23.848Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-26T08:07:30.285Z",
+        "kurier": "2026-07-26T08:07:30.285Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-26T08:07:30.285Z"
     },
     "korosec-pensionsantrittsalter-debatte-juli-2026": {
       "canonicalTitle": "Seniorenbund-Chefin Korosec offen für Debatte über höheres Pensionsantrittsalter",
@@ -12310,6 +12322,60 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-27T06:07:23.848Z",
       "doNotUpdateBefore": "2026-07-26T12:07:23.848Z"
+    },
+    "glasgow-festnahmen-proteste-juli-2026": {
+      "canonicalTitle": "15 Festnahmen bei fremdenfeindlichen Protesten und Gegendemonstration in Glasgow",
+      "slug": "glasgow-festnahmen-proteste-juli-2026",
+      "firstSeenAt": "2026-07-26T08:07:30.285Z",
+      "lastUpdatedAt": "2026-07-26T08:07:30.285Z",
+      "status": "published",
+      "articlePath": "src/content/articles/glasgow-festnahmen-proteste-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-26/glasgow-festnahmen-proteste-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437307",
+        "https://www.derstandard.at/story/3000000332960/15-festnahmen-bei-einwanderungskritischen-protesten-in-glasgow",
+        "https://www.kleinezeitung.at/artikel/39726287/15-festnahmen-bei-einwanderungskritischen-demos-in-glasgow",
+        "https://news.stv.tv/west-central/police-make-15-arrests-as-anti-immigration-rally-met-with-counter-protest-in-glasgow",
+        "https://www.gbnews.com/news/glasgow-unite-the-clans-protesters-police-arrest-15"
+      ],
+      "openQuestions": [
+        "Wie viele der 15 Festgenommenen gehörten der einwanderungskritischen Demonstration bzw. der Gegendemonstration an?",
+        "Wird es, wie von der Polizei laut britischen Medien angekündigt, weitere Festnahmen geben?",
+        "Wie viele Menschen wurden bei den Zusammenstößen verletzt, und wie schwer?",
+        "Gibt es eigene Stellungnahmen von Unite The Clans Scotland oder Stand Up To Racism zu den Festnahmen und dem Verlauf des Tages?",
+        "Wie ordnet sich der Vorfall in die von ORF und Der Standard erwähnte Serie fremdenfeindlicher Ausschreitungen der vergangenen Wochen in Großbritannien ein?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-27T08:07:30.285Z",
+      "doNotUpdateBefore": "2026-07-26T14:07:30.285Z",
+      "pendingOutcome": "Ergebnis der von der Polizei angekündigten weiteren Ermittlungen und möglicher zusätzlicher Festnahmen im Zusammenhang mit den Unruhen in Glasgow.",
+      "pendingOutcomeUntil": "2026-07-28T08:07:30.285Z"
+    },
+    "gesichtserkennung-klimademo-rechtswidrig-2026": {
+      "canonicalTitle": "Datenschutzbehörde: Gesichtserkennung bei Wiener Klimademo war rechtswidrig",
+      "slug": "gesichtserkennung-klimademo-rechtswidrig-2026",
+      "firstSeenAt": "2026-07-26T08:07:30.285Z",
+      "lastUpdatedAt": "2026-07-26T08:07:30.285Z",
+      "status": "published",
+      "articlePath": "src/content/articles/gesichtserkennung-klimademo-rechtswidrig-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-26/gesichtserkennung-klimademo-rechtswidrig-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3364258",
+        "https://www.derstandard.at/story/3000000332961/einsatz-von-gesichtserkennung-bei-klimademo-war-rechtswidrig",
+        "https://kurier.at/politik/inland/gesichtserkennung-klimademo-wien-fridays-for-future/403178198",
+        "https://www.kleinezeitung.at/artikel/39726274/einsatz-von-gesichtserkennung-bei-klimademo-rechtswidrig"
+      ],
+      "openQuestions": [
+        "Wie reagieren Landespolizeidirektion Wien und Innenministerium auf den Bescheid?",
+        "Wie viele der 165 eingeleiteten Verfahren gegen Klimaaktivisten beruhten konkret auf einem Gesichtserkennungs-Abgleich?",
+        "Wird der Bescheid beim Bundesverwaltungsgericht angefochten, und mit welchem Ergebnis?",
+        "Welche gesetzliche Regelung plant die Politik als Reaktion auf die Entscheidung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-27T08:07:30.285Z",
+      "doNotUpdateBefore": "2026-07-26T14:07:30.285Z",
+      "pendingOutcome": "Ob der noch nicht rechtskräftige Bescheid der Datenschutzbehörde beim Bundesverwaltungsgericht angefochten wird und wie dieses entscheidet.",
+      "pendingOutcomeUntil": "2026-07-28T08:07:30.285Z"
     }
   }
 }
