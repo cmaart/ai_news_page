@@ -149,7 +149,7 @@ const SENSITIVITIES = new Set(['low', 'medium', 'high']);
 export async function triageCluster(
   cluster: Cluster,
   relatedStories: RelatedCandidate[],
-  echo?: { slug: string; publishers24h: number },
+  echo?: { slug: string; publishers24h: number; portals: string[] },
 ): Promise<TriageResult> {
   const input = {
     cluster: {
@@ -171,8 +171,10 @@ export async function triageCluster(
       status: s.status,
       hasPublishedArticle: s.hasPublishedArticle,
       openQuestions: s.openQuestions,
-      /** Deterministisch gezählte distinkte Portale mit Folge-Items in 24 h (E46). */
+      /** Deterministisch gezählte distinkte Portale mit Items in 24 h (E46). */
       echoPublishers24h: s.slug === echo?.slug ? echo.publishers24h : 0,
+      /** Welche Häuser das waren — Beurteilungsbasis für Syndikation vs. echte Welle (E57). */
+      echoPortals24h: s.slug === echo?.slug ? echo.portals : [],
     })),
   };
 
@@ -208,14 +210,18 @@ export async function triageCluster(
   2 = Nischenthema, geringe Konsequenzen · 1 = Termin-/Event-Ankündigung, Kultur-/Produkt-PR ohne Nachrichtenwert.
   Event-/Ausstellungs-/Kultur-Ankündigungen und Presseaussendungen ohne gesellschaftliche Konsequenz: 1–2.
   Sport-/Kultur-Großereignisse (siehe Ausnahme oben): mindestens 3, bei weltweiter Dominanz 4.
-- "resonance" (beobachtetes Medienecho, E46) NUR wenn der Cluster eine relatedStory mit
-  hasPublishedArticle=true fortsetzt (relatedSlug gesetzt), sonst null. Beurteile die Qualität des Echos auf
-  den bereits publizierten Artikel anhand der neuen Items:
-  1 = kein nennenswertes Echo ODER reine Agentur-Syndikation (mehrere Portale mit erkennbar demselben
-  Agenturtext zählen als EIN Echo) · 3 = mehrere unabhängige, eigenständige Folgeberichte ·
-  5 = Story dominiert die Nachrichtenlage (breite unabhängige Berichterstattung, Reaktionen, Analysen).
-  "echoPublishers24h" ist die rohe deterministische Portal-Zählung — korrigiere sie nach unten, wenn das
-  Echo nur Syndikation ist, und nach oben, wenn eigenständige Reaktionen/Analysen dazukommen.
+- "resonance" (beobachtetes Medienecho, E46/E57) NUR wenn der Cluster eine relatedStory mit
+  hasPublishedArticle=true fortsetzt (relatedSlug gesetzt), sonst null. Beurteilt wird die **Gesamtwelle der
+  Story in den letzten 24 h**, NICHT die Größe dieses einzelnen Clusters: Basis ist "echoPortals24h" —
+  die Häuser, die im Fenster über die Story berichtet haben (dieser Cluster ist nur der jüngste Ausschnitt).
+  Skala nach Zahl der Häuser mit EIGENSTÄNDIGEM Bericht: 1 = 0–1 Haus · 2 = 2 Häuser · 3 = 3 Häuser ·
+  4 = 4 Häuser · 5 = 5+ Häuser bzw. Story dominiert die Nachrichtenlage.
+  Deine einzige Korrekturaufgabe ist der **Syndikations-Rabatt**: Tragen mehrere der gelisteten Häuser
+  erkennbar denselben Agenturtext (identische Formulierungen/Struktur), zählen sie als EIN Haus — dann
+  entsprechend niedriger. Nach oben korrigieren nur, wenn eigenständige Reaktionen/Analysen/Kommentare
+  dazukommen. Ein einzelnes Exklusiv-Update ODER eine ruhige Stunde senkt das Echo NICHT: ein kleiner
+  aktueller Cluster ist kein Gegenbeweis gegen eine breite Welle im Fenster — die Alterung erledigt der
+  Decay im Ranking, nicht du. Im Zweifel die Zählung übernehmen.
   resonance ist reine Beobachtung des Echos — unabhängig von newsworthiness und sensitivity.\n\n${TRIAGE_FORMAT}`;
 
   const result = await runClaudeJson<TriageResult>(JSON.stringify(input), {

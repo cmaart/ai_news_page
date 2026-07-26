@@ -340,7 +340,13 @@ async function main(): Promise<void> {
         cluster,
         relatedCandidates,
         story?.articlePath
-          ? { slug: story.slug, publishers24h: Object.keys(story.echoPublishers ?? {}).length }
+          ? {
+              slug: story.slug,
+              publishers24h: Object.keys(story.echoPublishers ?? {}).length,
+              // Namen mitgeben (E57): ohne sie kann Haiku Syndikation nicht von einer
+              // echten Welle unterscheiden und bewertet ersatzweise den aktuellen Cluster.
+              portals: Object.keys(story.echoPublishers ?? {}),
+            }
           : undefined,
       );
       triaged.push({ cluster, score, triage, story, relatedCandidates });
@@ -382,8 +388,18 @@ async function main(): Promise<void> {
     let level: number;
     let source: 'zaehlung' | 'triage';
     if (override !== undefined) {
-      level = override;
+      // Syndikations-Rabatt, kein Neu-Urteil (E57): Haiku sieht nur den jüngsten
+      // Cluster und bewertete damit faktisch die letzte Charge statt der Welle —
+      // eine Exklusiv-Recherche eines einzelnen Hauses drückte eine 5-Häuser-Story
+      // auf Level 2 und hielt sie dort 24 h (TTL). Downgrade daher auf höchstens
+      // die halbe Zählung begrenzt: echte Agentur-Syndikation bleibt korrigierbar,
+      // ein Absturz trotz breiter Welle ist ausgeschlossen. Nach oben unbegrenzt.
+      const floor = Math.ceil(detLevel / 2);
+      level = Math.max(override, floor);
       source = 'triage';
+      if (level !== override) {
+        console.log(`Resonanz-Override gedeckelt: ${slug} Haiku ${override} → ${level} (Zählung ${detLevel})`);
+      }
     } else if (triageTtlActive(story)) {
       continue; // Haiku-Urteil hält noch — Zählung überschreibt nicht.
     } else {
