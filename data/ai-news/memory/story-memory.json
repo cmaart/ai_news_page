@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-27T20:12:51.386Z",
+  "updatedAt": "2026-07-27T22:28:36.357Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2844,7 +2844,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-27T10:07:28.602Z"
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -4582,9 +4582,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-27T08:07:30.285Z",
       "doNotUpdateBefore": "2026-07-26T14:07:30.285Z",
-      "echoPublishers": {
-        "orf": "2026-07-26T22:07:25.789Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 2,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-27T00:07:35.033Z"
@@ -9352,10 +9350,10 @@
       "canonicalTitle": "Hugging-Face-Hack: OpenAI bestätigt eigene KI-Modelle als Urheber des Angriffs",
       "slug": "hugging-face-ki-agent-cyberangriff-juli-2026",
       "firstSeenAt": "2026-07-20T22:07:34.229Z",
-      "lastUpdatedAt": "2026-07-27T00:07:35.033Z",
+      "lastUpdatedAt": "2026-07-27T22:07:28.883Z",
       "status": "published",
       "articlePath": "src/content/articles/hugging-face-ki-agent-cyberangriff-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-27/hugging-face-ki-agent-cyberangriff-juli-2026-update-000.json",
+      "researchPath": "data/ai-news/research/2026-07-27/hugging-face-ki-agent-cyberangriff-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://www.golem.de/news/cyberangriff-auf-hugging-face-ki-erkennt-ki-angriff-auf-ki-plattform-2607-211057.html",
         "https://the-decoder.de/hugging-face-meldet-ersten-vollstaendig-ki-gesteuerten-hackerangriff-auf-eigene-infrastruktur",
@@ -9385,14 +9383,24 @@
         "https://www.heise.de/news/KI-Angriff-auf-Hugging-Face-sorgte-fuer-Aufregung-bei-OpenAI-trotz-Vorwarnung-11375680.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "https://www.heise.de/news/KI-Angriff-auf-Hugging-Face-sorgte-fuer-Aufregung-bei-OpenAI-trotz-Vorwarnung-11375680.html",
         "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
-        "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident"
+        "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident",
+        "https://www.derstandard.at/story/3000000333074/nach-openai-kontrollverlust-us-abgeordnete-fordern-kill-switch-fuer-ki-modelle",
+        "https://www.golem.de/news/nach-openai-hack-us-abgeordnete-wollen-kill-switch-fuer-ki-2607-211284.html",
+        "https://www.heise.de/news/US-Politiker-fordern-Kill-Switch-fuer-KI-Modelle-11378276.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/US-Politiker-fordern-Kill-Switch-fuer-KI-Modelle-11378276.html",
+        "https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can",
+        "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html",
+        "https://www.computerworld.com/article/4201314/the-white-house-is-monitoring-the-openai-incident-a-new-bill-could-give-government-agencies-an-ai-kill-switch.html",
+        "https://www.aljazeera.com/news/2026/7/26/what-is-the-ai-kill-switch-act-proposed-in-the-us-and-how-will-it-work"
       ],
       "openQuestions": [
         "Welche konkrete Zero-Day-Schwachstelle im Paket-Registry-Proxy wurde genau ausgenutzt, und ist sie inzwischen vollständig geschlossen?",
         "Sind Partner- oder Kundendaten von Hugging Face betroffen, und wie ist der Stand der laufenden Prüfung dazu?",
         "Gibt es eine unabhängige forensische Analyse oder Bestätigung durch externe Sicherheitsforscher oder Behörden (etwa BSI, CISA, ENISA)?",
         "Welche konkreten Ergebnisse liefert die von OpenAI und Hugging Face angekündigte gemeinsame Untersuchung, sobald sie abgeschlossen ist?",
-        "Führen die politischen Forderungen (etwa von Martin Schirdewan) zu konkreten regulatorischen Schritten der EU oder einzelner Staaten, oder bleiben sie ohne Folgen?",
+        "Findet der „AI Kill Switch Act“ von Ted Lieu und Nathaniel Moran im weiteren Gesetzgebungsverfahren Unterstützung, durchläuft er einen Ausschuss, und kommt er zur Abstimmung im Kongress?",
+        "Äußert sich OpenAI offiziell zu der Kill-Switch-Gesetzesinitiative, und wie bewertet das Unternehmen die vorgeschlagenen DHS-Befugnisse?",
+        "Wie belastbar ist methodisch die von Lieus Büro angeführte Umfrage, wonach 86 Prozent der Wähler eine Abschaltmöglichkeit unterstützen – wer hat sie mit welcher Stichprobe durchgeführt?",
         "Welche weiteren, bislang nicht offengelegten Vorfälle mit „long-horizon“-Modellen hat OpenAI intern beobachtet, und wie wirksam ist das neu eingeführte „trajectory-level monitoring“ gegen ähnliche Ausbrüche?",
         "Wie erklärt sich die Diskrepanz zwischen Hugging Faces Zahl von über 17.000 Aktionen und OpenAIs vagerer Beschreibung als Schwarm „vieler Tausend“ Aktionen?",
         "Was ist aus der ursprünglichen Meldung von Hugging Face an die Strafverfolgungsbehörden geworden, und ermitteln diese weiterhin?",
@@ -9404,15 +9412,17 @@
         "Wann veröffentlicht OpenAI den angekündigten technischen Untersuchungsbericht, und welche neuen Erkenntnisse enthält er?",
         "Bestätigt eine zweite, unabhängige Quelle die Ars-Technica-Angabe, dass OpenAI-Personal intern vor den Risiken der eigenen Trainingsmethoden gewarnt wurde?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-28T00:07:35.033Z",
-      "doNotUpdateBefore": "2026-07-27T06:07:35.033Z",
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-28T22:07:28.883Z",
+      "doNotUpdateBefore": "2026-07-28T04:07:28.883Z",
+      "pendingOutcome": "Ob der „AI Kill Switch Act“ im US-Kongress weitere Unterstützung findet, einen Ausschuss durchläuft und zur Abstimmung kommt, sowie ob OpenAI, Hugging Face oder andere Unternehmen sich offiziell dazu äußern, ist offen und wird bei neuen Entwicklungen nachrecherchiert.",
+      "pendingOutcomeUntil": "2026-07-29T22:07:28.883Z",
       "echoPublishers": {
         "derstandard": "2026-07-27T20:07:32.555Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T22:07:24.411Z"
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "google-rechenzentrum-kronstorf-protest-uvp-2026": {
       "canonicalTitle": "Google-Rechenzentrum in Kronstorf: Protest gegen Ausbau ohne Umweltprüfung",
@@ -10488,8 +10498,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T06:07:23.886Z",
       "doNotUpdateBefore": "2026-07-27T12:07:23.886Z",
-      "pendingOutcome": "Weitere Entwicklung der Waldbrände bei Bordeaux und in Spanien: ob der Großraum Bordeaux doch noch evakuiert werden muss, wie hoch die tatsächliche Gesamtzahl der Evakuierten in Südeuropa letztlich ist und ob es weitere Todesopfer oder Verletzte gibt.",
-      "pendingOutcomeUntil": "2026-07-27T20:07:36.216Z",
       "echoPublishers": {
         "derstandard": "2026-07-27T06:07:27.134Z"
       },
@@ -11584,9 +11592,9 @@
       "doNotRedraftBefore": "2026-07-27T20:07:32.379Z",
       "doNotUpdateBefore": "2026-07-27T02:07:32.379Z",
       "echoPublishers": {},
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T20:07:32.379Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "cluster-20260724-97992bac": {
       "canonicalTitle": "Black Forest Labs: Deutsches KI-Start-up wagt den Sprung in die Robotik",
@@ -11640,12 +11648,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-27T20:07:32.379Z",
       "doNotUpdateBefore": "2026-07-27T02:07:32.379Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-26T20:07:36.874Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T20:07:32.379Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "trudeau-salzburg-summit-warnung-usa-juli-2026": {
       "canonicalTitle": "Trudeau warnt bei Salzburg Summit vor Zugeständnissen an die USA",
@@ -11948,9 +11954,7 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-26T20:07:36.216Z",
-      "doNotUpdateBefore": "2026-07-26T02:07:36.216Z",
-      "pendingOutcome": "Mögliche Bestätigung, Dementi oder weitere Details zu Selenskyjs Behauptung durch Russland, Nordkorea, westliche Geheimdienste oder unabhängige Beobachter.",
-      "pendingOutcomeUntil": "2026-07-27T20:07:36.216Z"
+      "doNotUpdateBefore": "2026-07-26T02:07:36.216Z"
     },
     "smart-glasses-instagram-sperrungen-anzengruber-juli-2026": {
       "canonicalTitle": "Instagram sperrt Konten wegen heimlicher Smart-Glasses-Videos – auch Innsbrucks Bürgermeister sorgt mit Datenbrille für Wirbel",
@@ -12045,8 +12049,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T10:07:28.602Z",
       "doNotUpdateBefore": "2026-07-27T16:07:28.602Z",
-      "pendingOutcome": "Offen bleiben unter anderem die Rolle möglicher weiterer Hintermänner bzw. der in der Tatnacht festgenommenen Person, der praktische Ausgang des durch den Tod des Angeklagten wohl gegenstandslos gewordenen Berufungsverfahrens sowie mögliche rechtspolitische Konsequenzen aus der von Bundesinnenminister Dobrindt angekündigten Überprüfung der Bewährungspraxis bei jugendlichen islamistischen Gefährdern.",
-      "pendingOutcomeUntil": "2026-07-27T22:07:27.030Z",
       "echoPublishers": {
         "diepresse": "2026-07-27T10:07:31.403Z",
         "kleinezeitung": "2026-07-27T12:07:35.550Z",
@@ -12389,7 +12391,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-27T10:07:28.602Z"
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "glasgow-festnahmen-proteste-juli-2026": {
       "canonicalTitle": "15 Festnahmen bei fremdenfeindlichen Protesten und Gegendemonstration in Glasgow",
@@ -12608,12 +12610,10 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-27T18:07:28.784Z",
       "doNotUpdateBefore": "2026-07-27T00:07:28.784Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-26T20:07:38.859Z"
-      },
-      "resonanceLevel": 4,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T20:07:32.379Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "tourismus-gastarbeiter-griechenland-kooperation-juli-2026": {
       "canonicalTitle": "Österreich und Griechenland vertiefen Tourismus-Kooperation angesichts Fachkräftemangels",
@@ -12698,12 +12698,11 @@
       "pendingOutcome": "Ergebnis des Sommerministerrats am Montag in Salzburg – insbesondere ob auch beim Zivildienst eine Einigung zwischen ÖVP, SPÖ und Neos gelingt.",
       "pendingOutcomeUntil": "2026-07-28T22:07:24.411Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-26T20:07:38.930Z",
         "derstandard": "2026-07-27T20:07:31.897Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-27T10:07:28.602Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "dlauhy-oelv-rekord-400m-huerden-juli-2026": {
       "canonicalTitle": "Anja Dlauhy läuft neuen ÖLV-Rekord über 400 m Hürden",
@@ -12816,38 +12815,47 @@
       "resonanceMeasuredAt": "2026-07-27T20:07:27.801Z"
     },
     "mallorca-massentourismus-protest-juli-2026": {
-      "canonicalTitle": "Zehntausende protestieren in Palma gegen Massentourismus auf Mallorca",
+      "canonicalTitle": "Zehntausende protestieren in Palma gegen Massentourismus – Demonstration endet in Zusammenstößen mit der Polizei",
       "slug": "mallorca-massentourismus-protest-juli-2026",
       "firstSeenAt": "2026-07-27T04:07:30.156Z",
-      "lastUpdatedAt": "2026-07-27T04:07:30.156Z",
+      "lastUpdatedAt": "2026-07-27T22:07:28.883Z",
       "status": "published",
       "articlePath": "src/content/articles/mallorca-massentourismus-protest-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-27/mallorca-massentourismus-protest-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-27/mallorca-massentourismus-protest-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://www.diepresse.com/39784389/weniger-tourismus-mehr-leben-protest-gegen-massentourismus-auf-mallorca",
         "https://orf.at/stories/3437365",
         "https://www.derstandard.at/story/3000000333009/protest-gegen-massentourismus-auf-mallorca",
         "https://es.euronews.com/my-europe/2026/07/26/decenas-de-miles-de-personas-protestan-en-palma-contra-la-turistificacion-de-mallorca",
         "https://ultimahora.es/noticias/local/2026/07/26/2677645/marea-humana-toma-palma-para-pedir-menos-turismo-mallorca.html",
-        "https://www.eldiario.es/illes-balears/politica/govern-balear-condena-vandalizacion-comercios-pide-manifestantes-turismo-sean-pacificos_1_13389121.html"
+        "https://www.eldiario.es/illes-balears/politica/govern-balear-condena-vandalizacion-comercios-pide-manifestantes-turismo-sean-pacificos_1_13389121.html",
+        "https://www.kleinezeitung.at/artikel/39985340/erneut-protest-gegen-massentourismus-auf-mallorca",
+        "https://www.ultimahora.es/noticias/local/2026/07/26/2677813/cargas-policiales-varios-heridos-tras-manifestacion-contra-saturacion-turistica.html",
+        "https://www.majorcadailybulletin.com/news/local/2026/07/27/144385/eight-people-injured-following-clashes-with-police-the-end-sunday-tourism-protest-mallorca.html",
+        "https://www.majorcadailybulletin.com/news/local/2026/07/27/144401/police-say-attacks-tourists-sparked-intervention-mallorca-protest.html",
+        "https://www.que.es/2026/07/26/manifestacion-mallorca-turismo-masivo/",
+        "https://www.eldiario.es/illes-balears/politica/delegado-gobierno-pedira-explicaciones-imagenes-inaceptables-policia-palma_1_13408594.html"
       ],
       "openQuestions": [
         "Wie erklärt sich die große Diskrepanz zwischen der Polizeischätzung (~25.000) und den Veranstalterangaben (über 70.000) zur Teilnehmerzahl?",
+        "Was genau löste die Zusammenstöße am Ende der Demonstration aus – Gegenwehr gegen Polizeiabsperrungen oder, wie von der Polizei laut einem Bericht dargestellt, vorherige Angriffe auf Tourist:innen?",
+        "Wie viele Menschen wurden tatsächlich verletzt, und wie ist ihr Zustand inzwischen?",
+        "Führt die vom Delegierten der spanischen Zentralregierung angekündigte Überprüfung des Polizeieinsatzes zu konkreten Konsequenzen oder Rücktritten?",
         "Welche konkreten Maßnahmen plant die balearische Regierung als Reaktion auf die Forderung nach einer Besucherobergrenze?",
-        "Welche Rolle wird die Overtourism-Debatte bei den Regionalwahlen 2027 auf den Balearen spielen?",
-        "Gab es abseits der im Vorfeld gemeldeten Festnahmen wegen Sachbeschädigung an Immobilienbüros weitere Vorfälle im Umfeld der Demonstration?"
+        "Welche Rolle wird die Overtourism-Debatte und der Umgang mit dem Polizeieinsatz bei den Regionalwahlen 2027 auf den Balearen spielen?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-28T04:07:30.156Z",
-      "doNotUpdateBefore": "2026-07-27T10:07:30.156Z",
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-28T22:07:28.883Z",
+      "doNotUpdateBefore": "2026-07-28T04:07:28.883Z",
+      "pendingOutcome": "Ob die vom Delegierten der spanischen Zentralregierung angekündigte Überprüfung des Polizeieinsatzes zu einem offiziellen Ergebnis, Konsequenzen oder seinem Rücktritt führt und wie sich der genaue Verletztenstand sowie die politische Debatte um Übertourismus vor den Regionalwahlen 2027 weiterentwickeln, ist offen.",
+      "pendingOutcomeUntil": "2026-07-29T22:07:28.883Z",
       "echoPublishers": {
         "diepresse": "2026-07-27T04:07:34.110Z",
-        "orf": "2026-07-26T22:07:25.789Z",
-        "derstandard": "2026-07-26T22:07:26.585Z"
+        "kleinezeitung": "2026-07-27T22:07:33.281Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-27T20:07:27.801Z"
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "eu-ladeinfrastruktur-afir-juli-2026": {
       "canonicalTitle": "Ladeinfrastruktur wächst in der EU schneller als der Absatz von E-Autos",
@@ -13029,7 +13037,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-27T10:07:28.602Z"
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "graetzl-ladezonen-ausbau-neubau-mariahilf-2026": {
       "canonicalTitle": "Wien weitet Grätzl-Ladezonen auf Neubau und Mariahilf aus",
@@ -13059,7 +13067,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-27T10:07:28.602Z"
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     },
     "johannes-krisch-schauspieler-gestorben-juli-2026": {
       "canonicalTitle": "Schauspieler Johannes Krisch im Alter von 59 Jahren gestorben",
@@ -13128,6 +13136,38 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-27T20:07:27.801Z"
+    },
+    "unaids-warnung-hiv-finanzierungskuerzung-juli-2026": {
+      "canonicalTitle": "UNAIDS warnt vor Wiederaufflammen der weltweiten HIV-Epidemie nach massiven Finanzierungskürzungen",
+      "slug": "unaids-warnung-hiv-finanzierungskuerzung-juli-2026",
+      "firstSeenAt": "2026-07-27T22:07:28.883Z",
+      "lastUpdatedAt": "2026-07-27T22:07:28.883Z",
+      "status": "published",
+      "articlePath": "src/content/articles/unaids-warnung-hiv-finanzierungskuerzung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-27/unaids-warnung-hiv-finanzierungskuerzung-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437460",
+        "https://kurier.at/chronik/welt/hiv-epidemie-virus-uno-unaids-hilfsmittel/403178410",
+        "https://www.kleinezeitung.at/artikel/39981627/weltweite-hiv-epidemie-droht-wieder-aufzuflammen",
+        "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/july/20260727_PR_UNAIDS_special_report_AIDS2026"
+      ],
+      "openQuestions": [
+        "Wie begründet die US-Regierung die Kürzungen der HIV-Hilfsgelder, und zeichnet sich ein Kurswechsel ab?",
+        "Auf welcher genauen Datenbasis beruht die UNAIDS-Angabe von rund 1,2 Millionen HIV-Neuinfektionen im vergangenen Jahr?",
+        "Welche konkreten nationalen Datenquellen liegen dem berichteten PrEP-Rückgang in Kamerun, Nigeria und Sambia zugrunde?",
+        "Kündigen andere Geberländer im Rahmen der Aids-Konferenz in Rio de Janeiro zusätzliche Mittel an, um die Lücke zu schließen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-28T22:07:28.883Z",
+      "doNotUpdateBefore": "2026-07-28T04:07:28.883Z",
+      "echoPublishers": {
+        "orf": "2026-07-27T20:07:29.871Z",
+        "kurier": "2026-07-27T20:07:31.053Z",
+        "kleinezeitung": "2026-07-27T20:07:33.309Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
     }
   }
 }
