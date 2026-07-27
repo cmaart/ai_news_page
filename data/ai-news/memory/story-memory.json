@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-27T06:24:38.025Z",
+  "updatedAt": "2026-07-27T08:30:16.609Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2838,7 +2838,9 @@
       "doNotUpdateBefore": "2026-07-27T08:07:30.478Z",
       "pendingOutcome": "Ob der beidseitige Angriffsstopp Bestand hat, in ein förmliches Waffenstillstandsabkommen mündet oder erneut kollabiert, und welche Rolle der Netanyahu-Besuch bei Trump am Dienstag dabei spielt, bleibt offen und wird weiterverfolgt.",
       "pendingOutcomeUntil": "2026-07-29T02:07:30.478Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "orf": "2026-07-27T08:07:35.871Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-26T04:07:30.089Z"
@@ -3157,10 +3159,12 @@
       "doNotUpdateBefore": "2026-07-25T18:07:33.269Z",
       "pendingOutcome": "Ausgang der Begutachtung und der für Herbst 2026 geplanten Parlamentsentscheidung zum österreichischen Gesetz, tatsächliches Inkrafttreten (berichtet: Anfang 2027) sowie Reaktionen betroffener Plattformen bleiben abzuwarten; ebenso das Inkrafttreten des französischen Gesetzes am 1. September 2026 und der angekündigte EU-Kommissionsvorschlag nach dem Sommer.",
       "pendingOutcomeUntil": "2026-07-27T12:07:33.269Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-26T14:07:27.554Z"
+      "echoPublishers": {
+        "diepresse": "2026-07-27T08:07:36.145Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-27T08:07:34.263Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -11562,8 +11566,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-27T20:07:32.379Z",
       "doNotUpdateBefore": "2026-07-27T02:07:32.379Z",
-      "pendingOutcome": "Reaktion Volker Türks auf die Kritik, offizielle Stellungnahme der österreichischen Bundesregierung, konkrete US-Schritte zur „Neubewertung“ der UNO-Zusammenarbeit sowie eine mögliche Reaktion von UNO-Generalsekretär António Guterres sind weiterhin offen und sollten bei neuen Quellen nachrecherchiert werden.",
-      "pendingOutcomeUntil": "2026-07-27T06:07:25.078Z",
       "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -11909,9 +11911,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-26T18:07:25.945Z",
       "doNotUpdateBefore": "2026-07-26T00:07:25.945Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-26T08:07:30.285Z"
-      }
+      "echoPublishers": {}
     },
     "selenskij-nordkoreanische-soldaten-woronesch-juli-2026": {
       "canonicalTitle": "Selenskij: Russland will laut Kiew 30.000 Soldaten aus Nordkorea rekrutieren",
@@ -12344,14 +12344,12 @@
       "doNotRedraftBefore": "2026-07-27T06:07:23.848Z",
       "doNotUpdateBefore": "2026-07-26T12:07:23.848Z",
       "echoPublishers": {
-        "derstandard": "2026-07-26T08:07:30.285Z",
-        "kurier": "2026-07-26T08:07:30.285Z",
         "orf": "2026-07-26T10:07:31.142Z",
         "kleinezeitung": "2026-07-26T10:07:31.142Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T08:07:30.285Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-27T08:07:34.263Z"
     },
     "korosec-pensionsantrittsalter-debatte-juli-2026": {
       "canonicalTitle": "Seniorenbund-Chefin Korosec offen für Debatte über höheres Pensionsantrittsalter",
@@ -12638,12 +12636,11 @@
       "doNotRedraftBefore": "2026-07-27T18:07:28.784Z",
       "doNotUpdateBefore": "2026-07-27T00:07:28.784Z",
       "echoPublishers": {
-        "kurier": "2026-07-26T18:07:31.530Z",
-        "apa": "2026-07-26T08:07:32.597Z"
+        "kurier": "2026-07-26T18:07:31.530Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-26T18:07:28.784Z"
+      "resonanceMeasuredAt": "2026-07-27T08:07:34.263Z"
     },
     "west-nil-fieber-anstieg-italien-griechenland-juli-2026": {
       "canonicalTitle": "Deutlicher Anstieg der West-Nil-Fieber-Fälle in Italien und Griechenland",
@@ -12763,13 +12760,14 @@
       "canonicalTitle": "70-Jähriger stürzt bei Mitterbach am Erlaufsee mit Gleitschirm ab",
       "slug": "gleitschirmabsturz-mitterbach-gemeindealpe-juli-2026",
       "firstSeenAt": "2026-07-27T02:07:30.478Z",
-      "lastUpdatedAt": "2026-07-27T02:07:30.478Z",
+      "lastUpdatedAt": "2026-07-27T08:07:34.263Z",
       "status": "published",
       "articlePath": "src/content/articles/gleitschirmabsturz-mitterbach-gemeindealpe-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-27/gleitschirmabsturz-mitterbach-gemeindealpe-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-27/gleitschirmabsturz-mitterbach-gemeindealpe-juli-2026-update-800.json",
       "sourceUrls": [
         "https://kurier.at/chronik/niederoesterreich/70-jaehriger-bezirk-lilienfeld-gleitschirm-unfall/403178240",
-        "https://noe.orf.at/stories/3364289"
+        "https://noe.orf.at/stories/3364289",
+        "https://www.kleinezeitung.at/artikel/39791567/70-jaehriger-stuerzte-kurz-nach-start-von-gemeindealpe-mit-gleitschirm"
       ],
       "openQuestions": [
         "Was den Kontrollverlust über den Gleitschirm konkret verursachte, ist laut vorliegenden Quellen nicht geklärt.",
@@ -12777,16 +12775,19 @@
         "Ob zwischen dem zeitgleichen technischen Defekt am Sessellift „Gipfelbahn“ und dem Absturz ein Zusammenhang besteht, ist offen.",
         "Wie viele Personen den Absturz beobachteten, wird in den Quellen unterschiedlich dargestellt (Kurier spricht von „Zeugen“, ORF von einem einzelnen Wanderer)."
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-28T02:07:30.478Z",
-      "doNotUpdateBefore": "2026-07-27T08:07:30.478Z",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-28T08:07:34.263Z",
+      "doNotUpdateBefore": "2026-07-27T14:07:34.263Z",
+      "pendingOutcome": "Offen sind weiterhin die genaue Ursache des Kontrollverlusts über den Gleitschirm sowie der aktuelle Gesundheitszustand des 70-Jährigen nach seiner Einlieferung ins Landesklinikum Lilienfeld.",
+      "pendingOutcomeUntil": "2026-07-29T08:07:34.263Z",
       "echoPublishers": {
         "kurier": "2026-07-26T16:07:32.995Z",
-        "orf": "2026-07-26T14:07:30.122Z"
+        "orf": "2026-07-26T14:07:30.122Z",
+        "kleinezeitung": "2026-07-27T08:07:40.599Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-27T02:07:30.478Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-27T08:07:34.263Z"
     },
     "milan-knizak-aktionskuenstler-gestorben-2026": {
       "canonicalTitle": "Tschechischer Aktionskünstler und Ex-Nationalgalerie-Chef Milan Knizak gestorben",
@@ -12939,6 +12940,69 @@
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-27T06:07:23.886Z"
+    },
+    "nussensee-bad-ischl-kriegsrelikte-platzverbot-juli-2026": {
+      "canonicalTitle": "Trockenheit legt Weltkriegsmunition im Nussensee bei Bad Ischl frei – Platzverbot verhängt",
+      "slug": "nussensee-bad-ischl-kriegsrelikte-platzverbot-juli-2026",
+      "firstSeenAt": "2026-07-27T08:07:34.263Z",
+      "lastUpdatedAt": "2026-07-27T08:07:34.263Z",
+      "status": "published",
+      "articlePath": "src/content/articles/nussensee-bad-ischl-kriegsrelikte-platzverbot-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-27/nussensee-bad-ischl-kriegsrelikte-platzverbot-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333015/trockenheit-legt-explosives-material-frei-platzverbot-fuer-nussensee-in-bad-ischl",
+        "https://ooe.orf.at/stories/3364285",
+        "https://www.diepresse.com/39748972/trockenheit-legt-explosives-material-frei-platzverbot-fuer-nussensee-in-bad-ischl"
+      ],
+      "openQuestions": [
+        "Wie lange das Platzverbot am Nussensee tatsächlich in Kraft bleibt.",
+        "Ob bei weiter sinkendem Wasserstand zusätzliche Kriegsrelikte auftauchen.",
+        "Ob der Fund von einer Einzelperson oder mehreren Besucherinnen und Besuchern gemeldet wurde – die Berichte weichen hier voneinander ab.",
+        "Wie genau das sichergestellte Material entsorgt wird und welcher historische Hintergrund zur Ablagerung von Kriegsmaterial im Nussensee führte."
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-28T08:07:34.263Z",
+      "doNotUpdateBefore": "2026-07-27T14:07:34.263Z",
+      "pendingOutcome": "Dauer und Ausgang der laufenden Untersuchung und Entschärfung durch den Entminungsdienst des Bundesheeres sowie ein möglicher Zeitpunkt für die Aufhebung des Platzverbots am Nussensee.",
+      "pendingOutcomeUntil": "2026-07-29T08:07:34.263Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-27T06:07:27.101Z",
+        "orf": "2026-07-26T14:07:30.125Z",
+        "diepresse": "2026-07-26T14:07:31.396Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-27T08:07:34.263Z"
+    },
+    "venezuela-opposition-uebergangsregierung-gespraeche-august-2026": {
+      "canonicalTitle": "Venezuela: Gespräche zwischen Opposition und Übergangsregierung sollen ab 1. August beginnen",
+      "slug": "venezuela-opposition-uebergangsregierung-gespraeche-august-2026",
+      "firstSeenAt": "2026-07-27T08:07:34.263Z",
+      "lastUpdatedAt": "2026-07-27T08:07:34.263Z",
+      "status": "published",
+      "articlePath": "src/content/articles/venezuela-opposition-uebergangsregierung-gespraeche-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-27/venezuela-opposition-uebergangsregierung-gespraeche-august-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/ausland/venezuela-usa-demokratischer-uebergang-wahlen-oel-trump/403178063",
+        "https://en.mercopress.com/2026/07/20/rubio-says-talks-on-venezuela-s-democratic-transition-will-begin-in-early-august",
+        "https://venezuelanalysis.com/news/venezuelan-govt-opposition-to-launch-us-supported-dialogue-for-electoral-reforms/",
+        "https://www.diariolasamericas.com/america-latina/dinorah-figuera-regresa-venezuela-y-abre-canal-dialogo-politico-el-chavismo-n5397456"
+      ],
+      "openQuestions": [
+        "Wie reagieren María Corina Machado und ihr Umfeld öffentlich auf den Ausschluss von den Gesprächen?",
+        "Welche konkrete Agenda und welcher Zeitplan werden für die ab 1. August startenden Gespräche tatsächlich vereinbart?",
+        "Führen die Gespräche zu überprüfbaren Reformen der Wahlbehörde oder des Obersten Gerichtshofs, oder bleiben es symbolische Erklärungen?",
+        "Gibt es eine im Wortlaut einsehbare offizielle Stellungnahme der US-Regierung, der venezolanischen Übergangsregierung oder der beteiligten Oppositionsvertreter?",
+        "Welche Rolle spielt die Erdbebenkatastrophe tatsächlich für die Gesprächsbereitschaft der Regierung, und lässt sich das unabhängig bestätigen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-28T08:07:34.263Z",
+      "doNotUpdateBefore": "2026-07-27T14:07:34.263Z",
+      "pendingOutcome": "Ob die für 1. August 2026 angekündigten Gespräche zwischen Opposition und Übergangsregierung tatsächlich beginnen und zu welchen ersten Ergebnissen sie führen.",
+      "pendingOutcomeUntil": "2026-07-29T08:07:34.263Z",
+      "echoPublishers": {
+        "kurier": "2026-07-27T06:07:27.452Z"
+      }
     }
   }
 }

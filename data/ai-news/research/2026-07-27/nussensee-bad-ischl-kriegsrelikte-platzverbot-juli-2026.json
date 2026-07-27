@@ -1,0 +1,196 @@
+{
+  "cluster": {
+    "id": "cluster-20260727-2ebf49ef",
+    "title": "Trockenheit legt explosives Material frei: Platzverbot für Nussensee in Bad Ischl",
+    "items": [
+      {
+        "itemId": "c28f8b57fe0053b0e0b3eec55b0a6c5f5bc241a9d9efc1bacf49be455e4fea97",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Trockenheit legt explosives Material frei: Platzverbot für Nussensee in Bad Ischl",
+        "url": "https://www.derstandard.at/story/3000000333015/trockenheit-legt-explosives-material-frei-platzverbot-fuer-nussensee-in-bad-ischl",
+        "summary": "Im stark ausgetrockneten Nussensee wurden Munition, Zünd- und Sprengkörper aus dem Zweiten Weltkrieg sichergestellt",
+        "publishedAt": "2026-07-27T04:37:52.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "89bc51c3410f5c44183169bb6a53b771872d9e11d8c2274f02eb99634c0fae64",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Explosives Material im Nussensee gefunden",
+        "url": "https://ooe.orf.at/stories/3364285",
+        "isNew": false
+      },
+      {
+        "itemId": "e3800006ebcfa4242b3145af39983fe321953939378b447caf96ea26a0d262f7",
+        "sourceId": "orf_ooe",
+        "sourceType": "media",
+        "title": "Explosives Material im Nussensee gefunden",
+        "url": "https://ooe.orf.at/stories/3364285",
+        "isNew": false
+      },
+      {
+        "itemId": "9da94a854587bd65542415f0967acb26fc09e566e9b3bdc7cc6736b8d0dffe68",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Trockenheit legt explosives Material frei: Platzverbot für Nussensee in Bad Ischl",
+        "url": "https://www.diepresse.com/39748972/trockenheit-legt-explosives-material-frei-platzverbot-fuer-nussensee-in-bad-ischl",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Öffentlich relevantes lokales Sicherheitsereignis mit solider Quellenlage (zwei unabhängige Quellenportale mit Behördenbestätigung: orf und derstandard). Konkrete Fakten vorhanden (Mengen, Zeitrahmen, aktuelle Schutzmaßnahmen). Keine thematische Fortsetzung zu den relatedStories (Wien Waldbrand, Bordeaux Waldbrand, HF-Hack); dies ist eine eigenständige Erststory.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Der Wasserspiegel des Nussensees in Bad Ischl ist aufgrund anhaltender Trockenheit so weit abgesunken, dass Kriegsrelikte aus dem Zweiten Weltkrieg sichtbar geworden sind.",
+      "Das gefundene Material umfasst etwa 200 Kilogramm Munition, Zünder und Sprengstoff, darunter zwei 1-Kilogramm-TNT-Sprengsätze.",
+      "Der Entminungsdienst des Bundesheeres untersucht das Gebiet; die Sperrung könnte mehrere Tage in Anspruch nehmen.",
+      "Die Bezirkshauptmannschaft hat ein Platzverbot für den Nussensee erlassen; Wanderer und Schwimmer sind bereits informiert.",
+      "Es wird erwartet, dass bei weiterer Austrocknung zusätzliche Relikte zum Vorschein kommen könnten."
+    ],
+    "missingSources": [
+      "Historischer Kontext: Warum und wie kam Kriegsmaterial im Nussensee zum Einsatz?",
+      "Technische Details zum Entsorgungsverfahren des sprengstoffhaltigen Materials",
+      "Fachmeinung zu Sicherheitsrisiken solcher WWII-Funde in Österreich",
+      "Fotodokumentation des Fundes oder der aktuellen Seensituation"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "nussensee-bad-ischl-kriegsrelikte-platzverbot-juli-2026",
+    "title": "Trockenheit legt Weltkriegsmunition im Nussensee bei Bad Ischl frei – Platzverbot verhängt",
+    "description": "Weil der Wasserspiegel des Nussensees bei Bad Ischl wegen anhaltender Trockenheit stark gesunken ist, sind Munitions- und Sprengkörper aus dem Zweiten Weltkrieg zum Vorschein gekommen. Die Bezirkshauptmannschaft Gmunden hat ein Platzverbot verhängt, der Entminungsdienst des Bundesheeres untersucht das Gebiet.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Zwei voneinander unabhängige Berichtsstränge – eine eigenständig recherchierte ORF-Meldung mit Behördenzitaten und eine von derStandard/diePresse verbreitete, offenbar agenturgestützte Fassung – stimmen im Kern überein, zudem verkündet die Bezirkshauptmannschaft selbst ihre eigene Maßnahme (Platzverbot).",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine offizielle Aussendung der Bezirkshauptmannschaft Gmunden oder des Bundesheeres direkt eingesehen, sondern nur Medienberichte, die Behördenvertreter zitieren.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um ein unstrittiges Sicherheitsereignis ohne Konfliktparteien; mehrere offizielle Stimmen (Bezirkshauptmann, Bürgermeisterin) sowie die Entdeckungsumstände sind über die Quellen verteilt abgedeckt.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Wegen anhaltender Trockenheit ist der Wasserspiegel des Nussensees bei Bad Ischl (Bezirk Gmunden) so weit gesunken, dass Munitions- und Sprengkörper aus dem Zweiten Weltkrieg zum Vorschein kamen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Bezirkshauptmannschaft Gmunden hat ein Platzverbot für den See, das Ufer und den Rundweg verhängt; der Entminungsdienst des Bundesheeres untersucht und sichert das Gelände.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein Bericht beziffert das sichergestellte Material mit rund 200 Kilogramm Munitions-, Zünd- und Sprengmaterial, darunter zwei ein Kilogramm schwere TNT-Sprengsätze – diese Mengenangabe liegt bislang nur aus einer Quelle vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Offen ist, wie lange die Sperre andauert und ob bei weiter sinkendem Pegel zusätzliche Relikte zum Vorschein kommen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lange das Platzverbot am Nussensee tatsächlich in Kraft bleibt.",
+      "Ob bei weiter sinkendem Wasserstand zusätzliche Kriegsrelikte auftauchen.",
+      "Ob der Fund von einer Einzelperson oder mehreren Besucherinnen und Besuchern gemeldet wurde – die Berichte weichen hier voneinander ab.",
+      "Wie genau das sichergestellte Material entsorgt wird und welcher historische Hintergrund zur Ablagerung von Kriegsmaterial im Nussensee führte."
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333015/trockenheit-legt-explosives-material-frei-platzverbot-fuer-nussensee-in-bad-ischl"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Oberösterreich",
+        "type": "media",
+        "url": "https://ooe.orf.at/stories/3364285"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/39748972/trockenheit-legt-explosives-material-frei-platzverbot-fuer-nussensee-in-bad-ischl"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der Wasserstand des Nussensees ist wegen anhaltender Trockenheit stark gesunken, wodurch Munitions- und Sprengkörper aus dem Zweiten Weltkrieg freigelegt wurden.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Relikte wurden am Samstagabend entdeckt und der Polizei gemeldet.",
+        "status": "partial",
+        "note": "Der Standard nennt einen 35-jährigen Melder, ORF spricht allgemein von mehreren Besuchern – die Berichte stimmen nicht in der Zahl der Entdecker überein.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Insgesamt wurden rund 200 Kilogramm Munitions-, Zünd- und Sprengmaterial gefunden, darunter zwei ein Kilogramm schwere TNT-Sprengsätze.",
+        "status": "partial",
+        "note": "Diese konkrete Mengenangabe stammt bislang nur aus einer Quelle (ORF) und ist unabhängig noch nicht bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Bezirkshauptmannschaft Gmunden hat ein Platzverbot für den Nussensee samt Uferbereich und Rundweg erlassen; der Entminungsdienst des Bundesheeres untersucht das Gebiet.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Laut Bezirkshauptmann Alois Lanz könnte die Sperre mehrere Tage dauern, weil der gesamte See untersucht werden soll.",
+        "status": "partial",
+        "note": "Zeitliche Einschätzung eines einzelnen Behördenvertreters, laut einer Quelle wiedergegeben – keine feste Zusage.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Im Nussensee zwischen Bad Ischl und Strobl im Bezirk Gmunden (Oberösterreich) sind durch die anhaltende Trockenheit Munitions- und Sprengkörper aus dem Zweiten Weltkrieg freigelegt worden. Der Wasserspiegel des Sees ist wegen ausbleibender Niederschläge stark abgesunken. Am Samstagabend wurde der Polizei der Fund sogenannter Zugzünder aus der NS-Zeit gemeldet. Die Bezirkshauptmannschaft Gmunden verhängte daraufhin ein Platzverbot für den See, den Uferbereich und den Rundweg rund um das Gewässer. Der Entminungsdienst des Bundesheeres rückte aus und untersucht seither das gesamte Areal."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Laut einem Bericht des ORF wurden bei der Untersuchung insgesamt rund 200 Kilogramm an Munitions-, Zünd- und Sprengmaterial sichergestellt, darunter auch zwei ein Kilogramm schwere TNT-Sprengsätze, die vom Entminungsdienst geborgen und gesichert wurden. Diese konkrete Mengenangabe liegt bislang nur aus dieser einen Quelle vor. Bezirkshauptmann Alois Lanz sagte demnach, die Sperre könne mehrere Tage dauern, weil der gesamte See durchsucht werden solle; anschließend solle das gefundene Material entsorgt werden. Bad Ischls Bürgermeisterin Ines Schiller (SPÖ) verwies darauf, dass historisch bekannt sei, dass im Nussensee vor allem während des Zweiten Weltkriegs Kriegsmaterial versteckt worden sei – bei normalem Wasserstand sei der Seegrund aber gar nicht sichtbar. So ausgetrocknet wie derzeit habe sie den See noch nie erlebt; es müsste ihrer Einschätzung nach rund zwei Wochen durchgehend regnen, damit sich der Pegel wieder normalisiert."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie lange das Platzverbot tatsächlich in Kraft bleibt und ob beim weiteren Absinken des Wasserstands zusätzliche Relikte zum Vorschein kommen – die Bezirkshauptmannschaft hält das für möglich, sollte weiterhin kein nennenswerter Niederschlag fallen. Unklar ist auch, ob der Fund von einer einzelnen Person oder mehreren Besucherinnen und Besuchern gemeldet wurde: Ein Bericht nennt einen 35-jährigen Mann aus dem Bezirk Gmunden als Melder, ein anderer spricht allgemein von „Besuchern“. Wie genau das sichergestellte Material entsorgt wird und welcher konkrete historische Hintergrund zur Ablagerung von Kriegsmaterial im Nussensee führte, lässt sich aus den vorliegenden Quellen nicht im Detail rekonstruieren."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fund reiht sich in eine Reihe von Trockenheitsfolgen in Österreich in diesem Sommer ein: Wie „Neue Nachrichten“ bereits berichtete, gilt etwa in Wiener Wäldern wegen ausbleibender Niederschläge eine als „dramatisch“ beschriebene Waldbrandgefahr. Sinkende Pegel von Seen und Gewässern können historisches Material aus den Weltkriegen freilegen, das jahrzehntelang unter Wasser verborgen war. Für Bad Ischl bedeutet die aktuelle Sperre vorerst vor allem eine Einschränkung der Freizeitnutzung rund um den See, solange Untersuchung und Entschärfung durch das Bundesheer andauern."
+      }
+    ],
+    "bodyKompakt": "Im Nussensee zwischen Bad Ischl und Strobl im Bezirk Gmunden sind durch die anhaltende Trockenheit Munitions- und Sprengkörper aus dem Zweiten Weltkrieg freigelegt worden. Der Wasserspiegel des Sees ist wegen ausbleibender Niederschläge stark gesunken, am Samstagabend wurde der Polizei der Fund entsprechender Zugzünder gemeldet. Die Bezirkshauptmannschaft Gmunden verhängte daraufhin ein Platzverbot für den See, das Ufer und den Rundweg; der Entminungsdienst des Bundesheeres untersucht seither das gesamte Gebiet.\n\nLaut einem Bericht des ORF wurden insgesamt rund 200 Kilogramm Munitions-, Zünd- und Sprengmaterial sichergestellt, darunter zwei ein Kilogramm schwere TNT-Sprengsätze – diese Zahl ist bislang nur aus einer Quelle bekannt. Bezirkshauptmann Alois Lanz zufolge könnte die Sperre mehrere Tage dauern, weil der gesamte See durchsucht werden soll. Bürgermeisterin Ines Schiller (SPÖ) erklärte, im Nussensee sei historisch Kriegsmaterial versteckt worden; so ausgetrocknet wie derzeit habe sie den See aber noch nie erlebt.\n\nOffen ist, wie lange die Sperre bestehen bleibt, ob weitere Relikte auftauchen und wie das sichergestellte Material genau entsorgt wird.",
+    "updateNote": null,
+    "pendingOutcome": "Dauer und Ausgang der laufenden Untersuchung und Entschärfung durch den Entminungsdienst des Bundesheeres sowie ein möglicher Zeitpunkt für die Aufhebung des Platzverbots am Nussensee."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-27T08:07:34.263Z"
+}
