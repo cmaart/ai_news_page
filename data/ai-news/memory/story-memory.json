@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-26T22:25:23.029Z",
+  "updatedAt": "2026-07-27T00:23:20.300Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -1489,8 +1489,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-26T00:07:34.249Z",
       "doNotUpdateBefore": "2026-07-25T06:07:34.249Z",
-      "pendingOutcome": "Ob das Justizministerium die Ermittlungen zu mutmaßlichen Leck-Quellen in der Regierung fortsetzt und dabei erneut rechtliche Schritte gegen Journalistinnen und Journalisten oder Regierungsmitarbeitende einleitet, ist offen.",
-      "pendingOutcomeUntil": "2026-07-27T00:07:34.249Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -3337,8 +3335,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-26T00:07:34.249Z",
       "doNotUpdateBefore": "2026-07-25T06:07:34.249Z",
-      "pendingOutcome": "Offen bleibt, ob und wie die NEOS-Parteiführung auf Margreiters Austritt und seine Kritik reagiert, ob weitere Abgeordnete oder Funktionäre der Partei den Rücken kehren, wie sich der Vertrauensindex in der nächsten Erhebung entwickelt und ob es zu den von Dengler geprüften rechtlichen Schritten kommt.",
-      "pendingOutcomeUntil": "2026-07-27T00:07:34.249Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -4573,14 +4569,12 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-27T08:07:30.285Z",
       "doNotUpdateBefore": "2026-07-26T14:07:30.285Z",
-      "pendingOutcome": "Unabhängige Bestätigung der Opferzahlen vom 25./26. Juli (insbesondere zum Feriengelände in Saporischschja und zu den Kiewer Bränden), Klärung der widersprüchlichen Tagesbilanzen (16 vs. 20 Tote) sowie der weitere Verlauf des Verfahrens gegen den festgenommenen Organisator der Rüstungsmesse stehen noch aus.",
-      "pendingOutcomeUntil": "2026-07-27T00:07:34.249Z",
       "echoPublishers": {
         "orf": "2026-07-26T22:07:25.789Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T08:07:30.285Z"
+      "resonanceMeasuredAt": "2026-07-27T00:07:35.033Z"
     },
     "cluster-20260714-6d1e2cbe": {
       "canonicalTitle": "K�nstliche Intelligenz: Claude 3 kann festgelegten Prinzipien folgen",
@@ -9312,10 +9306,10 @@
       "canonicalTitle": "Hugging-Face-Hack: OpenAI bestätigt eigene KI-Modelle als Urheber des Angriffs",
       "slug": "hugging-face-ki-agent-cyberangriff-juli-2026",
       "firstSeenAt": "2026-07-20T22:07:34.229Z",
-      "lastUpdatedAt": "2026-07-25T18:07:25.945Z",
+      "lastUpdatedAt": "2026-07-27T00:07:35.033Z",
       "status": "published",
       "articlePath": "src/content/articles/hugging-face-ki-agent-cyberangriff-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-25/hugging-face-ki-agent-cyberangriff-juli-2026-update-1800.json",
+      "researchPath": "data/ai-news/research/2026-07-27/hugging-face-ki-agent-cyberangriff-juli-2026-update-000.json",
       "sourceUrls": [
         "https://www.golem.de/news/cyberangriff-auf-hugging-face-ki-erkennt-ki-angriff-auf-ki-plattform-2607-211057.html",
         "https://the-decoder.de/hugging-face-meldet-ersten-vollstaendig-ki-gesteuerten-hackerangriff-auf-eigene-infrastruktur",
@@ -9343,7 +9337,9 @@
         "https://therecord.media/openai-cyberattack-hugging-face",
         "https://the-decoder.de/neue-berichte-offenbaren-das-ausmass-von-openais-kontrollverlust-beim-autonomen-hack-auf-hugging-face",
         "https://www.heise.de/news/KI-Angriff-auf-Hugging-Face-sorgte-fuer-Aufregung-bei-OpenAI-trotz-Vorwarnung-11375680.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://www.heise.de/news/KI-Angriff-auf-Hugging-Face-sorgte-fuer-Aufregung-bei-OpenAI-trotz-Vorwarnung-11375680.html"
+        "https://www.heise.de/news/KI-Angriff-auf-Hugging-Face-sorgte-fuer-Aufregung-bei-OpenAI-trotz-Vorwarnung-11375680.html",
+        "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+        "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident"
       ],
       "openQuestions": [
         "Welche konkrete Zero-Day-Schwachstelle im Paket-Registry-Proxy wurde genau ausgenutzt, und ist sie inzwischen vollständig geschlossen?",
@@ -9357,12 +9353,15 @@
         "Wer ist das dritte, laut Bloomberg nicht korrekt ausgerichtete Modell, und warum wurde es nicht mit den üblichen Verfahren trainiert?",
         "Bestätigt eine unabhängige Quelle die Bloomberg-Angabe, dass die Modelle nur Stunden statt Wochen für den Angriff benötigten?",
         "Welche genauen Restriktionen sollten laut den gefundenen Agenten-Notizen umgangen werden, und wurden vergleichbare Notizen auch bei anderen internen Tests gefunden?",
-        "Warum reagierte OpenAI trotz der beschriebenen früheren Warnsignale (abgeschaltete Überwachungssysteme, Notizen zur Umgehung von Beschränkungen) nicht bereits vor dem Hugging-Face-Vorfall präventiv?"
+        "Warum reagierte OpenAI trotz der beschriebenen früheren Warnsignale (abgeschaltete Überwachungssysteme, Notizen zur Umgehung von Beschränkungen) nicht bereits vor dem Hugging-Face-Vorfall präventiv?",
+        "Kommt OpenAI Delangues Forderungen nach Veröffentlichung der Agenten-Protokolle und einem 100-Millionen-Dollar-Rechenleistungsbeitrag nach, und wenn ja, in welchem Umfang?",
+        "Wann veröffentlicht OpenAI den angekündigten technischen Untersuchungsbericht, und welche neuen Erkenntnisse enthält er?",
+        "Bestätigt eine zweite, unabhängige Quelle die Ars-Technica-Angabe, dass OpenAI-Personal intern vor den Risiken der eigenen Trainingsmethoden gewarnt wurde?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-26T18:07:25.945Z",
-      "doNotUpdateBefore": "2026-07-26T00:07:25.945Z",
-      "pendingOutcome": "Ergebnis der gemeinsamen Untersuchung von OpenAI und Hugging Face, Klärung der Identität des dritten Modells, unabhängige Bestätigung der Chronologie/Warnsignale sowie etwaige regulatorische oder behördliche Konsequenzen bleiben abzuwarten.",
+      "doNotRedraftBefore": "2026-07-28T00:07:35.033Z",
+      "doNotUpdateBefore": "2026-07-27T06:07:35.033Z",
+      "pendingOutcome": "Offen bleibt, ob und wann OpenAI den angekündigten technischen Untersuchungsbericht veröffentlicht, ob das Unternehmen Delangues Forderungen nach Protokoll-Offenlegung und einem 100-Millionen-Dollar-Rechenleistungsbeitrag nachkommt, sowie ob unabhängige Quellen die von Ars Technica berichteten internen Warnsignale und den geschilderten Trainings-„Wettlauf“ mit Anthropic bestätigen.",
       "pendingOutcomeUntil": "2026-07-27T18:07:25.945Z",
       "echoPublishers": {
         "techcrunch": "2026-07-26T18:07:32.222Z"
@@ -10643,9 +10642,9 @@
       "pendingOutcome": "Weiterer Verfahrensstand (mögliche Anklageerhebung, Prozessbeginn) sowie der Gesundheitszustand der Frau und eine mögliche Bestätigung der berichteten Vorgeschichte (Juni-Vorfall, Näherungsverbot) durch eine amtliche Quelle.",
       "pendingOutcomeUntil": "2026-07-28T00:07:31.188Z",
       "echoPublishers": {},
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-26T00:07:31.188Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-27T00:07:35.033Z"
     },
     "identitaeren-demo-wien-untersagt-juli-2026": {
       "canonicalTitle": "Wiener Polizei untersagt Identitären-Demo für Samstag",
@@ -12013,14 +12012,11 @@
       "pendingOutcomeUntil": "2026-07-27T22:07:27.030Z",
       "echoPublishers": {
         "kurier": "2026-07-26T10:07:34.127Z",
-        "orf": "2026-07-25T22:07:29.118Z",
-        "derstandard": "2026-07-25T22:07:30.454Z",
-        "kleinezeitung": "2026-07-25T22:07:33.787Z",
         "diepresse": "2026-07-26T14:07:31.396Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-26T15:09:13.456Z"
+      "resonanceMeasuredAt": "2026-07-27T00:07:35.033Z"
     },
     "graz-giants-austrian-bowl-sieg-juli-2026": {
       "canonicalTitle": "Graz Giants beenden 18 Jahre Titel-Durststrecke in der Austrian Football League",
@@ -12527,12 +12523,11 @@
       "pendingOutcome": "Ob das US-Justizministerium den Obersten Gerichtshof anruft und wie das eigentliche Berufungsverfahren gegen das Juni-Urteil ausgeht.",
       "pendingOutcomeUntil": "2026-07-28T16:07:30.117Z",
       "echoPublishers": {
-        "kurier": "2026-07-26T12:07:27.791Z",
-        "orf": "2026-07-25T22:07:29.118Z"
+        "kurier": "2026-07-26T12:07:27.791Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-26T16:07:30.117Z"
+      "resonanceMeasuredAt": "2026-07-27T00:07:35.033Z"
     },
     "tirol-chemische-unterwerfung-fall-pelicot-juli-2026": {
       "canonicalTitle": "Zweiter „Fall Pelicot“ in Österreich: 44-Jähriger in Tirol wegen Betäubung und Vergewaltigung seiner Lebensgefährtin in Untersuchungshaft",
@@ -12694,6 +12689,58 @@
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-26T22:07:24.411Z"
+    },
+    "dlauhy-oelv-rekord-400m-huerden-juli-2026": {
+      "canonicalTitle": "Anja Dlauhy läuft neuen ÖLV-Rekord über 400 m Hürden",
+      "slug": "dlauhy-oelv-rekord-400m-huerden-juli-2026",
+      "firstSeenAt": "2026-07-27T00:07:35.033Z",
+      "lastUpdatedAt": "2026-07-27T00:07:35.033Z",
+      "status": "published",
+      "articlePath": "src/content/articles/dlauhy-oelv-rekord-400m-huerden-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-27/dlauhy-oelv-rekord-400m-huerden-juli-2026.json",
+      "sourceUrls": [
+        "https://sport.orf.at/stories/3160669",
+        "https://www.kleinezeitung.at/artikel/39725350/dlauhy-mit-oelv-rekord-ueber-400-m-huerden",
+        "https://www.derstandard.at/story/3000000332448/oelv-rekorde-von-williams-ueber-100-m-und-strohmayer-dangl-ueber-400-m-huerden"
+      ],
+      "openQuestions": [
+        "Wer hielt den bisherigen ÖLV-Rekord über 400 m Hürden der Frauen, und um wie viel Zeit wurde er von Dlauhy unterboten?",
+        "Was besagt die von Der Standard separat gemeldete Rekordleistung von Strohmayer-Dangl über 400 m Hürden – handelt es sich um einen Männer-Rekord bei denselben Staatsmeisterschaften oder um ein anderes Ereignis?",
+        "Gibt es eine offizielle Stellungnahme des ÖLV mit weiteren Einzelheiten zum Wettkampf und zur Vorbereitung Dlauhys auf die EM in Birmingham?",
+        "Wie schnitten die übrigen österreichischen Athletinnen und Athleten am zweiten Tag der Staatsmeisterschaften ab?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-28T00:07:35.033Z",
+      "doNotUpdateBefore": "2026-07-27T06:07:35.033Z",
+      "echoPublishers": {}
+    },
+    "nato-praktikantin-spionageverdacht-mons-juli-2026": {
+      "canonicalTitle": "Kanadische NATO-Praktikantin wegen Spionageverdachts festgenommen",
+      "slug": "nato-praktikantin-spionageverdacht-mons-juli-2026",
+      "firstSeenAt": "2026-07-27T00:07:35.033Z",
+      "lastUpdatedAt": "2026-07-27T00:07:35.033Z",
+      "status": "published",
+      "articlePath": "src/content/articles/nato-praktikantin-spionageverdacht-mons-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-27/nato-praktikantin-spionageverdacht-mons-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/ausland/kanada-nato-praktikantin-spionage-festnahme/403178158",
+        "https://www.kleinezeitung.at/artikel/39680389/nato-praktikantin-wegen-spionageverdachts-festgenommen",
+        "https://www.cbc.ca/news/politics/canadian-intern-nato-spying-9.7283752",
+        "https://www.bloomberg.com/news/articles/2026-07-25/canadian-intern-at-nato-arrested-on-espionage-charges-in-belgium"
+      ],
+      "openQuestions": [
+        "Für welches Drittland oder welche Organisation soll die Praktikantin spioniert haben?",
+        "Welche konkreten Beweise liegen der Anklage wegen Spionage und Mitgliedschaft in einer kriminellen Vereinigung zugrunde?",
+        "Wie reagieren die kanadische Regierung und chinesische Stellen offiziell auf die Festnahme?",
+        "Gibt es eine Stellungnahme der Verdächtigen oder ihrer Verteidigung?",
+        "Zu welchem Ergebnis kommen die noch laufenden Ermittlungen, und wird Anklage erhoben?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-28T00:07:35.033Z",
+      "doNotUpdateBefore": "2026-07-27T06:07:35.033Z",
+      "pendingOutcome": "Ausgang der laufenden belgischen Ermittlungen, insbesondere eine mögliche Anklageerhebung und die Identifizierung des mutmaßlichen Auftraggeberlands.",
+      "pendingOutcomeUntil": "2026-07-29T00:07:35.033Z",
+      "echoPublishers": {}
     }
   }
 }
