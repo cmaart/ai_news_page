@@ -1,0 +1,327 @@
+{
+  "cluster": {
+    "id": "cluster-20260727-7bafeac3",
+    "title": "Mehr als 1.400 Tote bei Ebola-Ausbruch im Kongo",
+    "items": [
+      {
+        "itemId": "b05d78ed53ec8dd84ddd9bb0cafd36e385ef27040435464e83ca7287ceb85c88",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Mehr als 1.400 Tote bei Ebola-Ausbruch im Kongo",
+        "url": "https://www.derstandard.at/story/3000000333018/mehr-als-1400-tote-bei-ebola-ausbruch-im-kongo",
+        "summary": "Behördenangaben zufolge liegt die Todesrate derzeit bei 43,9 Prozent, die Zahl der im Labor bestätigten Infektionen stieg auf 3.200 an",
+        "publishedAt": "2026-07-27T05:12:52.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "fb4e21a101d9d90da524ee6b04ab1ac30112659982b02d26e11549c27d5a9eff",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Mehr als 1.400 Tote bei Ebola-Ausbruch im Kongo",
+        "url": "https://www.kleinezeitung.at/artikel/39784378/mehr-als-1400-tote-bei-ebola-ausbruch-im-kongo",
+        "isNew": false
+      },
+      {
+        "itemId": "fd9f14e6ee27445cdafee85f42f5b11d8c5dbd21dad541d1965e4641c2b38f9f",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Mehr als 1400 Tote bei Ebola-Ausbruch im Kongo",
+        "url": "https://www.diepresse.com/39784384/mehr-als-1400-tote-bei-ebola-ausbruch-im-kongo",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster liefert ein konkretes Update zu einer bereits publizierten Story (Ebola-Ausbruch DRK, Slug: ebola-dr-kongo-2000-faelle-juli-2026). Die neuen Behördenzahlen (1.405 Tote, 3.200 bestätigte Fälle, 43,9% Sterblichkeitsrate) sind substanziell und sollten in den bestehenden Artikel integriert werden. Keine neue Wendung oder zusätzlicher Hauptakteur rechtfertigt eine separate Story.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 1,
+    "relatedSlug": "ebola-dr-kongo-2000-faelle-juli-2026",
+    "possibleClaims": [
+      "1.405 Menschen sind seit Ende April an Ebola in der DRK gestorben",
+      "3.200 Fälle im Labor bestätigt",
+      "Sterblichkeitsrate bei 43,9 Prozent",
+      "Ebola-Epidemie dehnt sich aus"
+    ],
+    "missingSources": [
+      "Konkrete kongolesische Behörde/Institution (nicht nur Generalaussage)",
+      "Datum der Zahlenveröffentlichung (selber Tag oder älter?)",
+      "WHO-Stellungnahme zu den aktualisierten Zahlen",
+      "Inkrementelle Veränderung seit letztem Update quantifiziert"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "ebola-dr-kongo-2000-faelle-juli-2026",
+    "title": "Ebola in der DR Kongo: Zahl der Toten steigt auf mehr als 1.400, Fallzahl auf 3.200",
+    "description": "Laut kongolesischen Gesundheitsbehörden sind seit Ende April 1.405 Menschen an Ebola gestorben, die Zahl der im Labor bestätigten Infektionen liegt bei 3.200 – eine Sterblichkeitsrate von 43,9 Prozent. Für die auslösende Bundibugyo-Variante gibt es weiterhin keinen zugelassenen Impfstoff.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die neuen Zahlen (3.200 bestätigte Fälle, 1.405 Todesfälle, Sterblichkeitsrate 43,9 Prozent) werden von drei österreichischen Medien (Der Standard, Kleine Zeitung, Die Presse) mit nahezu identischer Schlagzeile und Formulierung unter Berufung auf die kongolesischen Gesundheitsbehörden gemeldet. Die weitgehend wortgleiche Wiedergabe deutet auf eine gemeinsame Agenturmeldung hin, nicht auf drei unabhängig recherchierte Quellen; die Zahlen selbst fügen sich aber plausibel in die bereits zuvor belegte, rasche Aufwärtsentwicklung (Mitte Juli >2.000, 22. Juli 2.905/1.269) ein.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Weiterhin liegt keine direkt abgerufene Primärquelle vor. Eine zusätzliche Recherche in den WHO Disease Outbreak News fand mit „2026-DON613“ einen neueren offiziellen Eintrag, der jedoch mit 2.145 bestätigten Fällen und 830 Todesfällen einen älteren, niedrigeren Stand als die aktuellen Medienzahlen zeigt – ein weiterer Beleg dafür, dass die offiziellen WHO-Situationsberichte der schnellen Fallzahlentwicklung vor Ort hinterherhinken. Die Original-Mitteilung des kongolesischen Gesundheitsinstituts wurde nicht eingesehen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Berichterstattung bleibt auf Behördenzahlen und Agenturmeldungen gestützt; Stimmen aus der betroffenen Bevölkerung, von lokalen Gesundheitseinrichtungen oder unabhängige Einordnung der Zählmethodik fehlen weiterhin in den vorliegenden Quellen.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut kongolesischen Gesundheitsbehörden sind seit Ende April 1.405 Menschen an Ebola gestorben, die Zahl der im Labor bestätigten Infektionen ist auf 3.200 gestiegen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die daraus errechnete Sterblichkeitsrate liegt bei 43,9 Prozent – fast die Hälfte aller nachgewiesenen Ansteckungen endete tödlich.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Zahlen setzen einen bereits zuvor dokumentierten, raschen Anstieg fort: Mitte Juli waren es noch gut 2.000 bestätigte Fälle, am 22. Juli 2.905 Fälle mit 1.269 Todesfällen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Auslöser bleibt die seltene Bundibugyo-Variante des Ebolavirus, für die es laut WHO weiterhin keinen zugelassenen Impfstoff und keine spezifische Therapie gibt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Es handelt sich um den 17. Ebola-Ausbruch in der Geschichte der DR Kongo; die WHO hatte ihn bereits Mitte Mai 2026 zur gesundheitlichen Notlage von internationaler Tragweite erklärt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die USA schränken seit Mai 2026 unverändert die Einreise eigener Staatsbürger aus der DR Kongo ein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und in welchem Umfang die WHO-Schätzung eines zwei- bis vierfach höheren tatsächlichen Ausmaßes weiterhin zutrifft, bleibt ohne Primärquelle offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Warum die Behördenzahlen die Todesfälle seit „Ende April“ zählen, obwohl der Ausbruch erst Mitte Mai offiziell ausgerufen wurde, ist aus den vorliegenden Quellen nicht abschließend zu klären.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Auf welcher Datengrundlage beruht die WHO-Schätzung, das tatsächliche Ausmaß des Ausbruchs könnte zwei- bis viermal so groß sein wie die offiziellen Zahlen?",
+      "Warum zählen die jüngsten Behördenangaben die Todesfälle „seit Ende April“, während der Ausbruch erst Mitte Mai 2026 offiziell ausgerufen wurde?",
+      "Wie erklärt sich, dass ein aktueller WHO-Disease-Outbreak-News-Eintrag (2026-DON613) mit 2.145 Fällen und 830 Toten deutlich niedrigere Zahlen nennt als die am 26. Juli gemeldeten 3.200 Fälle und 1.405 Toten?",
+      "Wie belastbar ist die Einschätzung des Tropenmediziners Martin Grobusch, der Ausbruch könnte bis ins kommende Jahr andauern?",
+      "Wie groß ist die tatsächliche Dunkelziffer nicht erfasster Fälle in den betroffenen, teils von Konflikten geprägten Regionen?",
+      "Bestätigt ein künftiger, tagesaktueller WHO-Lagebericht die von kongolesischen Behörden gemeldeten 3.200 Fälle und 1.405 Todesfälle?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at: „Mehr als 2.000 bestätigte Ebola-Fälle in DR Kongo“",
+        "type": "media",
+        "url": "https://orf.at/stories/3436224"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard: „Ebola: Mehr als 2000 bestätigte Fälle in DR Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331520/ebola-mehr-als-2000-best228tigte-f228lle-in-dr-kongo"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier: „Mehr als 2.000 bestätigte Ebola-Fälle im Kongo“",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/ebola-kongo-faelle-virus/403176154"
+      },
+      {
+        "id": "src4",
+        "name": "Die Presse: „Über 2000 Ebola-Fälle im Kongo: USA verschärfen Einreiseregeln“",
+        "type": "media",
+        "url": "https://www.diepresse.com/37380445/ueber-2000-ebola-faelle-im-kongo-usa-verschaerfen-einreiseregeln"
+      },
+      {
+        "id": "src5",
+        "name": "WHO Disease Outbreak News: Ebola disease caused by Bundibugyo virus, DR Congo & Uganda (2026-DON608)",
+        "type": "official",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+      },
+      {
+        "id": "src6",
+        "name": "Xinhua: „Ebola cases in DR Congo top 2,000“",
+        "type": "media",
+        "url": "https://english.news.cn/20260715/5155a8cb57e3405f9599dce6a2e9eca6/c.html"
+      },
+      {
+        "id": "src7",
+        "name": "Der Standard: „Ebola: USA verhängen Einreisesperre für eigene Bürger aus DR Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331329/ebola-usa-verh228ngen-einreisesperre-f252r-eigene-b252rger-aus-dr-kongo"
+      },
+      {
+        "id": "src8",
+        "name": "ORF.at: „Fast 3.000 Ebola-Fälle in DR Kongo“",
+        "type": "media",
+        "url": "https://orf.at/stories/3437202"
+      },
+      {
+        "id": "src9",
+        "name": "Der Standard: „Inzwischen fast 3000 Ebola-Fälle im Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000332908/inzwischen-fast-3000-ebola-f228lle-im-kongo"
+      },
+      {
+        "id": "src10",
+        "name": "Kurier: „Kongo: Ebola fordert bisher fast 1.000 Todesopfer“",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/kongo-ebola-todesfaelle-uganda/403177555"
+      },
+      {
+        "id": "src11",
+        "name": "Der Standard: „Mehr als 1.400 Tote bei Ebola-Ausbruch im Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333018/mehr-als-1400-tote-bei-ebola-ausbruch-im-kongo"
+      },
+      {
+        "id": "src12",
+        "name": "Kleine Zeitung: „Mehr als 1.400 Tote bei Ebola-Ausbruch im Kongo“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/39784378/mehr-als-1400-tote-bei-ebola-ausbruch-im-kongo"
+      },
+      {
+        "id": "src13",
+        "name": "Die Presse: „Mehr als 1400 Tote bei Ebola-Ausbruch im Kongo“",
+        "type": "media",
+        "url": "https://www.diepresse.com/39784384/mehr-als-1400-tote-bei-ebola-ausbruch-im-kongo"
+      },
+      {
+        "id": "src14",
+        "name": "WHO Disease Outbreak News: Ebola disease caused by Bundibugyo virus, DR Congo & Uganda (2026-DON613)",
+        "type": "official",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Zahl der bestätigten Ebola-Fälle in der Demokratischen Republik Kongo ist von zunächst mehr als 2.000 (Mitte Juli) über 2.905 (22. Juli) auf inzwischen 3.200 (26. Juli) gestiegen, mit zuletzt 1.405 Todesfällen.",
+        "status": "supported",
+        "note": "Der jüngste Stand (3.200 Fälle, 1.405 Tote) wird von Der Standard, Kleiner Zeitung und Die Presse nahezu wortgleich unter Berufung auf die kongolesischen Gesundheitsbehörden gemeldet; die weitgehend identische Formulierung in allen drei Medien deutet auf eine gemeinsame Agenturmeldung hin, fügt sich aber plausibel in die bereits zuvor belegte Aufwärtsentwicklung ein.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src6",
+          "src8",
+          "src9",
+          "src11",
+          "src12",
+          "src13"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Zahl der Todesfälle wurde im Verlauf des Ausbruchs mehrfach unterschiedlich beziffert: Mitte Juli nannte die WHO für den 13. Juli 719 Todesfälle, eine Regierungsangabe kurz danach 754; am 23. Juli waren es laut einem Bericht knapp 1.000, am 24. Juli laut ORF/Der Standard 1.269, und am 26. Juli meldeten die Behörden 1.405 Todesfälle bei 3.200 bestätigten Fällen (Sterblichkeitsrate 43,9 Prozent).",
+        "status": "partial",
+        "note": "Die abweichenden Zwischenzahlen dürften vor allem am jeweiligen Erhebungsdatum und an nachträglichen Datenüberprüfungen liegen; eine lückenlose, tagesgenaue Nachvollziehbarkeit ist aus den vorliegenden Quellen nicht möglich. Der aktuellste Stand (1.405/3.200) gilt als eigenständiger, unten separat bewerteter Fakt (claim1).",
+        "sourceIds": [
+          "src5",
+          "src6",
+          "src8",
+          "src9",
+          "src10",
+          "src11",
+          "src12",
+          "src13"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Ausbruch wird durch die seltene Bundibugyo-Variante des Ebolavirus verursacht, für die es laut WHO keinen zugelassenen Impfstoff und keine spezifische Therapie gibt.",
+        "status": "supported",
+        "note": "Die aktuell aus den neuen Zahlen abgeleitete Sterblichkeitsrate von 43,9 Prozent liegt in derselben Größenordnung wie die zuvor berichteten rund 40 Prozent.",
+        "sourceIds": [
+          "src5",
+          "src8",
+          "src9",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die USA haben als Reaktion auf den Ausbruch die Einreiseregeln für eigene Staatsbürger aus der DR Kongo verschärft und verlangen einen 21-tägigen Aufenthalt in einem Drittstaat vor der Einreise.",
+        "status": "supported",
+        "note": "Die Maßnahme wurde laut Berichten im Mai 2026 von der US-Grenzbehörde verhängt und im Juni von der CDC verlängert; im aktuellen Cluster gibt es keine Hinweise auf eine Änderung.",
+        "sourceIds": [
+          "src4",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Der Tropenmediziner Martin Grobusch rechnet damit, dass der aktuelle Ausbruch bis ins kommende Jahr andauern könnte.",
+        "status": "partial",
+        "note": "Zwei Medien geben die Einschätzung nahezu wortgleich wieder, was auf eine gemeinsame zugrunde liegende Quelle hindeutet; eine Primärquelle des Zitats wurde nicht eingesehen.",
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Die WHO hat den Ausbruch Mitte Mai 2026 gemeinsam mit der Regierung der DR Kongo zu einer gesundheitlichen Notlage von internationaler Tragweite (PHEIC) erklärt.",
+        "status": "supported",
+        "sourceIds": [
+          "src5",
+          "src8",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Es handelt sich laut Agenturmeldungen um den 17. Ebola-Ausbruch in der Geschichte der DR Kongo; Fachleute gehen davon aus, dass das Virus bereits Wochen vor der offiziellen Ausrufung Mitte Mai 2026 im Umlauf war.",
+        "status": "partial",
+        "note": "Die Angabe zum vermutlich früheren Zirkulieren des Virus wird nicht namentlich genannten Fachleuten zugeschrieben und ist in den vorliegenden Quellen nicht weiter belegt; sie deckt sich aber damit, dass die jüngsten Behördenzahlen die Todesfälle bereits ab Ende April zählen.",
+        "sourceIds": [
+          "src8"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Die WHO geht davon aus, dass das tatsächliche Ausmaß des Ausbruchs zwei- bis viermal so groß sein könnte wie die offiziell gemeldeten Zahlen.",
+        "status": "unclear",
+        "note": "Die Einschätzung wird von ORF und Der Standard übereinstimmend wiedergegeben, eine unmittelbar zugängliche WHO-Primärquelle mit der zugrunde liegenden Methodik liegt uns weiterhin nicht vor. Ein am 26. Juli eingesehener WHO-Eintrag (2026-DON613) nennt mit 2.145 Fällen/830 Toten sogar einen niedrigeren Stand als die 22.-Juli-Zahlen der Behörden, was zeigt, dass die offiziellen WHO-Berichte der Lage vor Ort hinterherhinken.",
+        "sourceIds": [
+          "src8",
+          "src9",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Die kongolesischen Gesundheitsbehörden zählen die Todesfälle im laufenden Ausbruch seit Ende April 2026, also bereits rund zwei Wochen vor der offiziellen WHO-Ausrufung Mitte Mai.",
+        "status": "partial",
+        "note": "Diese Angabe stammt aus einer einzelnen Formulierung in den zuletzt ausgewerteten Berichten und ist nicht durch eine separate Quelle bestätigt; sie widerspricht der bisherigen Chronologie nicht grundsätzlich, da bereits zuvor von einem vermutlich früheren Zirkulieren des Virus berichtet wurde (claim7).",
+        "sourceIds": [
+          "src11"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Ebola-Ausbruch in der Demokratischen Republik (DR) Kongo hat sich weiter ausgeweitet. Nach Angaben der kongolesischen Gesundheitsbehörden sind seit Ende April 2026 1.405 Menschen an dem Virus gestorben, die Zahl der im Labor bestätigten Infektionen ist auf 3.200 gestiegen. Daraus ergibt sich eine Sterblichkeitsrate von 43,9 Prozent – fast die Hälfte aller nachgewiesenen Ansteckungen endete demnach tödlich. Die neuen Zahlen setzen einen bereits zuvor dokumentierten, raschen Anstieg fort: Mitte Juli lag die Fallzahl noch bei gut 2.000, am 22. Juli waren es 2.905 bestätigte Fälle mit 1.269 Todesfällen. Auslöser bleibt die seltene Bundibugyo-Variante des Ebolavirus. Es ist laut Agenturmeldungen bereits der 17. Ebola-Ausbruch in der Geschichte der DR Kongo; er wurde Mitte Mai 2026 offiziell ausgerufen, wobei Fachleute davon ausgehen, dass das Virus bereits Wochen zuvor im Umlauf war. Die Weltgesundheitsorganisation (WHO) hatte den Ausbruch am 17. Mai 2026 gemeinsam mit der kongolesischen Regierung zur gesundheitlichen Notlage von internationaler Tragweite erklärt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der aktuellste, am 26. Juli 2026 verbreitete Stand von 3.200 bestätigten Fällen und 1.405 Todesfällen wird von Der Standard, Kleiner Zeitung und Die Presse nahezu wortgleich unter Berufung auf die kongolesischen Gesundheitsbehörden gemeldet – die identische Formulierung in allen drei Medien spricht dafür, dass eine gemeinsame Agenturmeldung zugrunde liegt, nicht drei unabhängig recherchierte Berichte. Die Zahlen selbst fügen sich aber plausibel in die zuvor bereits belegte Entwicklung ein: Eine über die WHO-Disease-Outbreak-News-Seite eingesehene Übersicht (Eintrag 2026-DON608) hatte für den Stichtag 13. Juli 2026 noch 1.963 bestätigte Fälle und 719 Todesfälle genannt, das kongolesische Gesundheitsinstitut meldete für den 22. Juli 2.905 Fälle und 1.269 Todesfälle. Ein neuerer WHO-Eintrag (2026-DON613) nennt demgegenüber nur 2.145 Fälle und 830 Todesfälle – ein Beleg dafür, dass die offiziellen WHO-Situationsberichte der von den Behörden vor Ort gemeldeten Entwicklung weiterhin hinterherhinken. Unverändert bestehen die im Mai 2026 verhängten und im Juni verlängerten US-Einreisebeschränkungen für eigene Staatsbürger aus der DR Kongo, die vor der Einreise einen 21-tägigen Aufenthalt in einem Drittstaat vorschreiben."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Das Bundibugyo-Virus ist eine von mehreren bekannten Ebolavirus-Arten und historisch seltener aufgetreten als etwa das Zaire-Ebolavirus, für das es bereits zugelassene Impfstoffe gibt. Für die aktuell zirkulierende Bundibugyo-Variante existiert laut WHO weiterhin weder ein zugelassener Impfstoff noch eine spezifisch zugelassene Therapie; die aus den neuesten Zahlen abgeleitete Sterblichkeitsrate von 43,9 Prozent liegt in derselben Größenordnung wie die zuvor berichteten rund 40 Prozent und bestätigt, dass die Eindämmung weiterhin schwierig bleibt. Dass die Behördenzahlen die Todesfälle bereits ab Ende April zählen – rund zwei Wochen vor der offiziellen WHO-Ausrufung Mitte Mai –, deckt sich mit früheren Einschätzungen, wonach das Virus schon vor der offiziellen Erfassung zirkulierte. Laut Berichten von Der Standard und Kurier geht der Tropenmediziner Martin Grobusch weiterhin davon aus, dass der Ausbruch bis ins kommende Jahr andauern könnte – eine Einschätzung, die in beiden Medien nahezu wortgleich wiedergegeben wird und daher vermutlich auf eine gemeinsame Quelle zurückgeht, nicht auf eine offizielle WHO-Prognose."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, worauf genau die WHO-Schätzung beruht, das tatsächliche Ausmaß des Ausbruchs könnte zwei- bis viermal so groß sein wie die offiziellen Zahlen – eine zugängliche Primärquelle mit der Berechnungsgrundlage liegt uns weiterhin nicht vor, zumal ein aktueller WHO-Eintrag (2026-DON613) sogar niedrigere Zahlen als die Behördenmeldungen vom 22. Juli nennt und damit selbst hinter der Entwicklung zurückzubleiben scheint. Unklar bleibt auch, warum die Todesfallzählung der Behörden bereits Ende April beginnt, obwohl der Ausbruch erst Mitte Mai offiziell ausgerufen wurde. Die Einschätzung, der Ausbruch könne bis ins kommende Jahr andauern, stammt von einem einzelnen Experten und ist keine offizielle WHO-Prognose. Schließlich lässt sich aus den vorliegenden Quellen weiterhin nicht beziffern, wie groß die tatsächliche Dunkelziffer nicht erfasster Fälle in den betroffenen, teils von Konflikten geprägten Regionen ist, und ob ein künftiger, tagesaktueller WHO-Lagebericht die von den kongolesischen Behörden gemeldeten 3.200 Fälle und 1.405 Todesfälle bestätigen wird."
+      }
+    ],
+    "bodyKompakt": "Der Ebola-Ausbruch in der Demokratischen Republik Kongo hat sich weiter ausgeweitet: Laut kongolesischen Gesundheitsbehörden sind seit Ende April 2026 1.405 Menschen an dem Virus gestorben, die Zahl der im Labor bestätigten Infektionen ist auf 3.200 gestiegen – eine Sterblichkeitsrate von 43,9 Prozent. Die Zahlen setzen einen bereits zuvor belegten, raschen Anstieg fort: Mitte Juli waren es noch gut 2.000 Fälle, am 22. Juli 2.905 Fälle mit 1.269 Todesfällen. Auslöser bleibt die seltene Bundibugyo-Variante des Ebolavirus, für die es weder einen zugelassenen Impfstoff noch spezifische Medikamente gibt. Es ist bereits der 17. Ebola-Ausbruch in der Geschichte des Landes; die WHO hatte ihn im Mai 2026 gemeinsam mit der kongolesischen Regierung zur gesundheitlichen Notlage von internationaler Tragweite erklärt.\n\nDer aktuellste Stand wird von Der Standard, Kleiner Zeitung und Die Presse nahezu wortgleich unter Berufung auf dieselben Behördenangaben gemeldet, was auf eine gemeinsame Agenturmeldung hindeutet. Die offiziellen WHO-Situationsberichte hinken der Entwicklung weiterhin hinterher: Ein zuletzt eingesehener WHO-Eintrag nennt mit 2.145 Fällen und 830 Toten einen niedrigeren Stand als die bereits am 22. Juli gemeldeten Behördenzahlen. Unverändert gilt: Die USA schränken seit Mai 2026 die Einreise eigener Staatsbürger aus der DR Kongo ein und verlangen vorab einen 21-tägigen Aufenthalt in einem Drittstaat. Laut österreichischen Medienberichten rechnet der Tropenmediziner Martin Grobusch weiterhin damit, dass der Ausbruch bis ins kommende Jahr andauern könnte.\n\nOffen bleibt, worauf die WHO-Schätzung eines zwei- bis vierfach höheren tatsächlichen Ausmaßes beruht, warum die Todesfallzählung der Behörden bereits Ende April beginnt statt erst mit der offiziellen Ausrufung Mitte Mai, und wie groß die tatsächliche Dunkelziffer nicht erfasster Fälle in den betroffenen Regionen ist.",
+    "updateNote": "Die kongolesischen Gesundheitsbehörden melden für den 26. Juli 2026 einen weiteren Anstieg auf 3.200 bestätigte Fälle und 1.405 Todesfälle (Sterblichkeitsrate 43,9 Prozent) – gegenüber zuvor 2.905 Fällen und 1.269 Todesfällen am 22. Juli.",
+    "pendingOutcome": "Weitere Entwicklung der Fallzahlen, mögliche Bestätigung durch einen aktuellen WHO-Lagebericht sowie ob der Ausbruch tatsächlich bis ins kommende Jahr andauert."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-27T06:07:23.886Z"
+}
