@@ -1,0 +1,238 @@
+{
+  "cluster": {
+    "id": "cluster-20260728-cd04d39c",
+    "title": "Streit um Wählerprüfung: Trump ruft Supreme Court an",
+    "items": [
+      {
+        "itemId": "f9d417fa0e9fc22bfc7ec8216e1eb5d6f4ccba8456e152bc38e3cfc010aad5b5",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Streit um Wählerprüfung: Trump ruft Supreme Court an",
+        "url": "https://orf.at/stories/3437476",
+        "publishedAt": "2026-07-28T04:36:39.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "a4f19ca16e816bf2c1229cd034cdd19e912c4489a0e7dba8bb03be04272c032c",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Streit um Wählerüberprüfungen: Trump ruft Supreme Court an",
+        "url": "https://www.derstandard.at/story/3000000333161/streit-um-w228hler252berpr252fungen-trump-ruft-supreme-court-an",
+        "summary": "Der US-Präsident will Wählerdatenbanken erheben und neue Regeln für die Briefwahl. Bisher hat ihn allerdings ein Berufungsgericht davon abgehalten",
+        "publishedAt": "2026-07-28T04:20:59.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "80c5daa391b07e26b85a1bf88bd6f705d45a959ec9b9147d60f1f18dd5ad408d",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Trump ruft im Streit um Wählerüberprüfungen Supreme Court an",
+        "url": "https://www.kleinezeitung.at/artikel/39986067/trump-ruft-im-streit-um-waehlerueberpruefungen-supreme-court-an",
+        "isNew": false
+      },
+      {
+        "itemId": "c5599d6c8d2f6703b2544eb9a6179d95fc1dff03a119e80956fa80de3068195b",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Trump ruft im Streit um Wählerüberprüfungen Supreme Court an",
+        "url": "https://www.kleinezeitung.at/artikel/39986067/trump-ruft-im-streit-um-waehlerueberpruefungen-supreme-court-an",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Multipel belegte Supreme Court-Klage mit verfassungsrechtlicher Dimension (Wahlrecht vs. Präsidialgewalt). Mehrere unabhängige deutschsprachige Quellen (ORF, Der Standard, Kleine Zeitung) berichten über aktuellen Eilantrag Trumps wenige Monate vor US-Kongresswahlen. Substanzielle Details zu den geplanten Maßnahmen und zum rechtlichen Streit vorhanden. Keine verwandte österreichische/europäische Story passt zu; eigenständiges Thema mit begrenzter, aber klarer internationaler Relevanz.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Trump will Wählerdatenbanken erheben und die Einwanderungsbehörde USCIS sowie Sozialversicherungsbehörde SSA Listen zu Bürgern mit bestätigter Staatsbürgerschaft erstellen lassen",
+      "Trump will strengere Auflagen für die Briefwahl und Wählerregistrierung durchsetzen",
+      "Das Trump-Dekret soll die Wählerregistrierung an den Nachweis von Identität und Staatsbürgerschaft gebunden machen",
+      "Untere Gerichtsinstanzen und Berufungsgericht haben Trump daran gehindert, die Maßnahmen umzusetzen",
+      "Kläger sind überwiegend demokratisch regierte Bundesstaaten und Washington D.C.",
+      "Verfassungsargument: Wahlorganisation liegt laut US-Recht bei den Bundesstaaten, nicht beim Präsidenten",
+      "Die Maßnahmen sollen ab den Kongresswahlen am 3. November 2026 gelten"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme der Trump-Regierung zum Eilantrag beim Supreme Court",
+      "Verfassungsrechtliche Analyse zur Erfolgsaussicht des Antrags",
+      "Reaktionen der Klägern-Bundesstaaten",
+      "Einschätzung von Wahlrechtler:innen zu möglichen Auswirkungen",
+      "Einordnung durch Bürgerrechts- oder Wahlbeobachterorganisationen",
+      "Historische Präzedenzfälle für Konflikte zwischen Präsidialgewalt und Staatenrechten"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "trump-supreme-court-wahlrecht-eilantrag-juli-2026",
+    "title": "Trump ruft im Streit um Wahlrechts-Dekret den Supreme Court an",
+    "description": "Das US-Justizministerium hat beim Obersten Gerichtshof einen Eilantrag eingereicht, um ein von zwei Gerichtsinstanzen gestopptes Dekret zu Wählerlisten und Briefwahl noch vor den Kongresswahlen im November durchzusetzen.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kernvorgang – Eilantrag der Trump-Regierung beim Supreme Court nach einer Blockade durch ein Berufungsgericht – wird von mehreren voneinander unabhängigen Medien in zwei Sprachräumen übereinstimmend berichtet.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Weder der Eilantrag des Justizministeriums noch die Gerichtsentscheidungen selbst wurden gelesen, nur Berichte darüber.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Sowohl die Begründung der Regierung (Wahlsicherheit, Zeitdruck vor den Zwischenwahlen) als auch die Position der klagenden Bundesstaaten werden wiedergegeben, aber beide nur aus zweiter Hand über Medienberichte, nicht aus eingesehenen Originaldokumenten.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Das US-Justizministerium hat beim Supreme Court einen Eilantrag gestellt, um ein Wahlrechts-Dekret von Präsident Trump trotz gerichtlicher Blockaden vor den Kongresswahlen am 3. November in Kraft setzen zu können.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein Bundesgericht in Massachusetts und ein Berufungsgericht hatten die Umsetzung zuvor gestoppt; Kläger sind überwiegend demokratisch regierte Bundesstaaten und der Hauptstadtbezirk Washington D.C.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Dekret sieht bundesweite Listen wahlberechtigter Bürger durch Einwanderungs- und Sozialversicherungsbehörde sowie strengere Nachweispflichten bei der Briefwahl vor.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie der Supreme Court entscheiden wird und bis wann, ist offen; laut Berichten wurde eine Stellungnahmefrist bis 3. August angesetzt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie und bis wann entscheidet der Supreme Court über den Eilantrag der Trump-Regierung?",
+      "Käme das Dekret bei einer Zulassung noch rechtzeitig vor den Kongresswahlen am 3. November zur Anwendung?",
+      "Wie reagieren die klagenden Bundesstaaten konkret auf den Eilantrag?",
+      "Wie ordnen unabhängige Wahlrechtsexpertinnen und -experten die Erfolgsaussichten des Antrags ein?",
+      "Wie viele der US-Bundesstaaten sind tatsächlich an der Klage beteiligt – die Angaben dazu variieren zwischen den vorliegenden Quellen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3437476"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333161/streit-um-w228hler252berpr252fungen-trump-ruft-supreme-court-an"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/39986067/trump-ruft-im-streit-um-waehlerueberpruefungen-supreme-court-an"
+      },
+      {
+        "id": "src4",
+        "name": "CNN",
+        "type": "media",
+        "url": "https://www.cnn.com/2026/07/27/politics/trump-supreme-court-mail-voting-executive-order"
+      },
+      {
+        "id": "src5",
+        "name": "The Hill",
+        "type": "media",
+        "url": "https://thehill.com/homenews/campaign/5992732-supreme-court-mail-in-voting-trump-justice-department/"
+      },
+      {
+        "id": "src6",
+        "name": "The Boston Globe",
+        "type": "media",
+        "url": "https://www.bostonglobe.com/2026/07/27/nation/trump-supreme-court-mail-voting-order/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Das US-Justizministerium hat beim Supreme Court einen Eilantrag eingereicht, um eine Entscheidung eines Berufungsgerichts auszusetzen, die Trumps Wahlrechts-Dekret blockiert hatte.",
+        "status": "supported",
+        "note": "Von österreichischen und US-amerikanischen Medien unabhängig voneinander übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das Dekret vom März 2026 sieht vor, dass die Einwanderungsbehörde USCIS und die Sozialversicherungsbehörde SSA bundesweite Listen wahlberechtigter Bürger erstellen, dass Briefwahlunterlagen nur an gelistete Personen verschickt werden und dass strengere Nachweise für Identität und Staatsbürgerschaft bei der Wählerregistrierung gelten sollen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Klägerinnen sind überwiegend demokratisch regierte Bundesstaaten sowie der Hauptstadtbezirk Washington D.C.; sie berufen sich darauf, dass laut US-Verfassung die Organisation von Wahlen den Bundesstaaten obliegt und nicht per Präsidialdekret verändert werden darf.",
+        "status": "supported",
+        "note": "Die genaue Zahl der beteiligten Bundesstaaten (laut US-Medien rund 23) wird von den österreichischen Quellen nicht beziffert.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Supreme Court hat den Klägerstaaten laut Berichten eine Frist bis 3. August gesetzt, um zum Eilantrag Stellung zu nehmen.",
+        "status": "partial",
+        "note": "Dieses Detail zum weiteren Verfahrensablauf wird nur von einem Teil der gesichteten Quellen genannt.",
+        "sourceIds": [
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Ein Bundesrichter in Massachusetts hatte das Dekret zunächst gestoppt, ein Berufungsgericht bestätigte dies über das Wochenende in einer laut Berichten nicht einstimmigen Entscheidung.",
+        "status": "partial",
+        "note": "Dass die Berufungsentscheidung nicht einstimmig gefallen sei, wird nur in einem Teil der Quellen erwähnt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4",
+          "src5",
+          "src6"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die US-Regierung unter Präsident Donald Trump hat das US-Justizministerium beim Obersten Gerichtshof einen Eilantrag einreichen lassen, um ein umstrittenes Wahlrechts-Dekret trotz gerichtlicher Blockaden noch rechtzeitig vor den Kongresswahlen am 3. November in Kraft setzen zu können. Damit soll die Entscheidung einer unteren Instanz ausgesetzt werden, die es der Regierung untersagt hatte, bundesweite Wählerdatenbanken zu erheben und neue Regeln für die Briefwahl umzusetzen. Ein Berufungsgericht hatte dieses Urteil zuvor bestätigt."
+      },
+      {
+        "heading": "Der Streit um das Dekret",
+        "markdown": "Trump hatte das zugrunde liegende Dekret Ende März unterzeichnet. Es sieht vor, dass die Einwanderungsbehörde USCIS und die Sozialversicherungsbehörde SSA Listen zu Personen erstellen, deren US-Staatsbürgerschaft bestätigt ist, die am Wahltag mindestens 18 Jahre alt und im jeweiligen Bundesstaat gemeldet sind. Der Postdienst USPS soll Briefwahlunterlagen künftig nur noch an Personen auf diesen Listen verschicken. Zusätzlich fordert das Dekret strengere Auflagen für die Wählerregistrierung, etwa den Nachweis von Identität und Staatsbürgerschaft durch entsprechende Dokumente. Anders als in Österreich gibt es in den USA kein zentrales Meldewesen, Bürgerinnen und Bürger müssen sich aktiv für eine Wahl registrieren. Geklagt hatten überwiegend demokratisch regierte Bundesstaaten sowie der Hauptstadtbezirk Washington D.C. Ihr zentrales Argument: Laut US-Verfassung obliegt es den Bundesstaaten, wie sie ihre Wahlen organisieren – der Präsident dürfe nicht ohne ausdrückliche gesetzliche Ermächtigung des Kongresses per Dekret eingreifen. Ein Bundesrichter in Massachusetts gab den Klägerstaaten recht, ein Berufungsgericht bestätigte dies über das Wochenende."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Vorgang wird sowohl von österreichischen Medien (ORF, Der Standard, Kleine Zeitung) als auch von US-Medien wie CNN, The Hill und der Boston Globe übereinstimmend beschrieben, was den Kernablauf – Dekret, gerichtliche Blockade, Eilantrag beim Supreme Court – als gesichert erscheinen lässt. US-Medien nennen zusätzliche Details, die in der deutschsprachigen Berichterstattung fehlen: Demnach sind rund 23 Bundesstaaten an der Klage beteiligt, und der Supreme Court soll den Klägerstaaten eine Frist bis 3. August zur Stellungnahme gesetzt haben. Keine der gesichteten Quellen beruht auf einer eigenen Einsicht in den Wortlaut des Eilantrags oder der Gerichtsentscheidungen – es handelt sich durchwegs um Medienberichte, keine Primärquellen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie und bis wann der Supreme Court über den Antrag entscheidet und ob das Dekret damit noch rechtzeitig vor den Wahlen im November greifen könnte. Auch eine belastbare, einheitliche Zahl der klagenden Bundesstaaten liegt in den vorliegenden Quellen nicht einheitlich vor. Stellungnahmen der Klägerstaaten selbst sowie unabhängige rechtliche Einschätzungen zu den Erfolgsaussichten des Antrags sind bisher nicht Teil der gesichteten Berichterstattung."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine Serie von Auseinandersetzungen der laufenden Amtszeit Trumps mit Gerichten über die Reichweite präsidialer Dekrete ein, in denen wiederholt Bundesstaaten und der Supreme Court als Gegenspieler auftreten. Angesichts des nahenden Wahltermins und der in den USA dezentral organisierten Wahlverwaltung dürfte die Entscheidung des Gerichts unmittelbare praktische Folgen für die Durchführung der Kongresswahlen haben – unabhängig davon, wie sie ausfällt."
+      }
+    ],
+    "bodyKompakt": "Das US-Justizministerium hat im Auftrag von Präsident Donald Trump beim Supreme Court einen Eilantrag gestellt, um ein Wahlrechts-Dekret noch vor den Kongresswahlen am 3. November in Kraft setzen zu können. Ein Bundesrichter in Massachusetts und ein Berufungsgericht hatten die Umsetzung zuvor gestoppt. Geklagt hatten überwiegend demokratisch regierte Bundesstaaten sowie Washington D.C., mit dem Argument, die Organisation von Wahlen obliege laut Verfassung den Bundesstaaten und nicht dem Präsidenten per Dekret.\n\nDas im März unterzeichnete Dekret sieht vor, dass die Einwanderungsbehörde USCIS und die Sozialversicherungsbehörde SSA bundesweite Listen wahlberechtigter Bürger erstellen und dass der Postdienst Briefwahlunterlagen nur noch an gelistete Personen verschickt. Zusätzlich sollen strengere Nachweise für Identität und Staatsbürgerschaft bei der Wählerregistrierung gelten. Österreichische und US-amerikanische Medien berichten übereinstimmend über den Vorgang; US-Medien nennen zusätzlich rund 23 beteiligte Bundesstaaten und eine vom Supreme Court gesetzte Stellungnahmefrist bis 3. August.\n\nOb und wie der Supreme Court dem Eilantrag stattgibt und ob das Dekret damit rechtzeitig vor der Wahl greifen könnte, ist derzeit offen. Keine der vorliegenden Quellen beruht auf einer eigenen Einsicht in den Antrag oder die Gerichtsurteile selbst.",
+    "updateNote": null,
+    "pendingOutcome": "Entscheidung des Supreme Court über den Eilantrag der Trump-Regierung, nachdem die Klägerstaaten laut Berichten bis 3. August Stellung nehmen sollen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-28T06:07:33.498Z"
+}

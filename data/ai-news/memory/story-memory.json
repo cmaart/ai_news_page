@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T04:30:03.077Z",
+  "updatedAt": "2026-07-28T06:21:00.751Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3161,7 +3161,6 @@
         "orf": "2026-07-27T20:07:30.503Z",
         "derstandard": "2026-07-27T20:07:31.897Z",
         "apa": "2026-07-27T20:07:30.723Z",
-        "kleinezeitung": "2026-07-27T06:07:28.597Z",
         "profil": "2026-07-28T04:07:32.384Z"
       },
       "resonanceLevel": 5,
@@ -8133,7 +8132,7 @@
       "doNotRedraftBefore": "2026-07-28T12:07:30.767Z",
       "doNotUpdateBefore": "2026-07-27T18:07:30.767Z",
       "echoPublishers": {
-        "kurier": "2026-07-27T20:07:31.053Z",
+        "kurier": "2026-07-28T06:07:37.783Z",
         "orf": "2026-07-27T10:07:30.339Z",
         "derstandard": "2026-07-27T10:07:34.271Z",
         "apa": "2026-07-27T12:07:32.996Z",
@@ -10499,12 +10498,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T06:07:23.886Z",
       "doNotUpdateBefore": "2026-07-27T12:07:23.886Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-27T06:07:27.134Z"
-      },
-      "resonanceLevel": 5,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-27T06:07:23.886Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-28T06:07:33.498Z"
     },
     "eu-21-sanktionspaket-russland-juli-2026": {
       "canonicalTitle": "EU-Staaten einigen sich auf 21. Sanktionspaket gegen Russland",
@@ -11061,7 +11058,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-25T12:07:34.272Z",
       "doNotUpdateBefore": "2026-07-24T18:07:34.272Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-28T06:07:40.020Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-25T16:07:28.740Z"
@@ -12296,8 +12295,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-27T22:07:24.411Z",
       "doNotUpdateBefore": "2026-07-27T04:07:24.411Z",
-      "pendingOutcome": "Offen bleiben der Ausgang des Arbeitsgesprächs zwischen Stocker und Mitsotakis, die Kritiken zur Carmen-Premiere, ob Hinterhäuser seine kolportierten Klavierauftritte tatsächlich wahrnimmt sowie ob Festspielleitung, Kuratorium oder Hinterhäuser selbst auf die von DER STANDARD skizzierte Krisen-Einordnung reagieren.",
-      "pendingOutcomeUntil": "2026-07-28T04:07:30.089Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -12324,9 +12321,7 @@
       ],
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-27T04:07:30.089Z",
-      "doNotUpdateBefore": "2026-07-26T10:07:30.089Z",
-      "pendingOutcome": "Entscheidung des Arbeitsministeriums, ob die Finanzierungslücke 2027 durch eine Kreditaufnahme des Fonds oder durch eine Wiederanhebung des IESG-Zuschlags auf 0,2 Prozent geschlossen wird.",
-      "pendingOutcomeUntil": "2026-07-28T04:07:30.089Z"
+      "doNotUpdateBefore": "2026-07-26T10:07:30.089Z"
     },
     "innenministerium-erlass-gedenkstaetten-persmanhof-juli-2026": {
       "canonicalTitle": "Innenministerium erlässt neue Regeln für Polizeieinsätze an Gedenkstätten",
@@ -12855,7 +12850,6 @@
       "pendingOutcome": "Ob die vom Delegierten der spanischen Zentralregierung angekündigte Überprüfung des Polizeieinsatzes zu einem offiziellen Ergebnis, Konsequenzen oder seinem Rücktritt führt und wie sich der genaue Verletztenstand sowie die politische Debatte um Übertourismus vor den Regionalwahlen 2027 weiterentwickeln, ist offen.",
       "pendingOutcomeUntil": "2026-07-29T22:07:28.883Z",
       "echoPublishers": {
-        "diepresse": "2026-07-27T04:07:34.110Z",
         "kleinezeitung": "2026-07-27T22:07:33.281Z"
       },
       "resonanceLevel": 4,
@@ -12890,9 +12884,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-28T04:07:30.156Z",
       "doNotUpdateBefore": "2026-07-27T10:07:30.156Z",
-      "echoPublishers": {
-        "kurier": "2026-07-27T04:07:33.541Z"
-      }
+      "echoPublishers": {}
     },
     "cluster-20260727-a28ebc8d": {
       "canonicalTitle": "Zahl der Zahnimplantate in Österreich steigt rasant",
@@ -12941,10 +12933,6 @@
       "doNotRedraftBefore": "2026-07-28T06:07:23.886Z",
       "doNotUpdateBefore": "2026-07-27T12:07:23.886Z",
       "echoPublishers": {
-        "orf": "2026-07-27T06:07:25.817Z",
-        "derstandard": "2026-07-27T06:07:27.134Z",
-        "kurier": "2026-07-27T06:07:27.452Z",
-        "kleinezeitung": "2026-07-27T04:07:36.039Z",
         "diepresse": "2026-07-27T12:07:33.389Z"
       },
       "resonanceLevel": 5,
@@ -12975,9 +12963,7 @@
       "doNotUpdateBefore": "2026-07-27T14:07:34.263Z",
       "pendingOutcome": "Dauer und Ausgang der laufenden Untersuchung und Entschärfung durch den Entminungsdienst des Bundesheeres sowie ein möglicher Zeitpunkt für die Aufhebung des Platzverbots am Nussensee.",
       "pendingOutcomeUntil": "2026-07-29T08:07:34.263Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-27T06:07:27.101Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-27T20:07:27.801Z"
@@ -13008,9 +12994,7 @@
       "doNotUpdateBefore": "2026-07-27T14:07:34.263Z",
       "pendingOutcome": "Ob die für 1. August 2026 angekündigten Gespräche zwischen Opposition und Übergangsregierung tatsächlich beginnen und zu welchen ersten Ergebnissen sie führen.",
       "pendingOutcomeUntil": "2026-07-29T08:07:34.263Z",
-      "echoPublishers": {
-        "kurier": "2026-07-27T06:07:27.452Z"
-      }
+      "echoPublishers": {}
     },
     "stromschlag-waggon-wien-simmering-juli-2026": {
       "canonicalTitle": "32-Jähriger nach Stromschlag auf Bahn-Waggon in Wien-Simmering schwer verletzt",
@@ -13178,10 +13162,10 @@
       "canonicalTitle": "Rumänien schaltet Atomreaktor wegen historischen Donau-Niedrigwassers ab",
       "slug": "rumaenien-atomreaktor-abschaltung-donau-niedrigwasser-juli-2026",
       "firstSeenAt": "2026-07-28T00:07:29.957Z",
-      "lastUpdatedAt": "2026-07-28T00:07:29.957Z",
+      "lastUpdatedAt": "2026-07-28T06:07:33.498Z",
       "status": "published",
       "articlePath": "src/content/articles/rumaenien-atomreaktor-abschaltung-donau-niedrigwasser-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-28/rumaenien-atomreaktor-abschaltung-donau-niedrigwasser-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-28/rumaenien-atomreaktor-abschaltung-donau-niedrigwasser-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000333156/rum228nien-schaltet-wegen-donau-niedrigwassers-atomreaktor-ab",
         "https://www.kleinezeitung.at/artikel/39986065/rumaenien-schaltet-wegen-donau-niedrigwassers-atomreaktor-ab",
@@ -13189,23 +13173,26 @@
         "https://www.tradingview.com/news/reuters.com,2026:newsml_L8N43T1RS:0-romania-to-shut-down-one-nuclear-power-reactor-because-of-low-danube-river-levels/",
         "https://hotnews.ro/reactorul-1-de-la-cernavoda-va-fi-oprit-din-cauza-debitului-extrem-de-scazut-al-dunarii-concluziile-dupa-comandamentul-energetic-convocat-de-bolojan-2310692",
         "https://adevarul.ro/economie/nuclearelectrica-inchide-reactorul-1-de-la-2546070.html",
-        "https://www.antena3.ro/actualitate/reactorul-1-de-la-cernavoda-se-opreste-marti-urmeaza-reactorul-2-daca-situatia-nu-se-modifica-797205.html"
+        "https://www.antena3.ro/actualitate/reactorul-1-de-la-cernavoda-se-opreste-marti-urmeaza-reactorul-2-daca-situatia-nu-se-modifica-797205.html",
+        "https://orf.at/stories/3437475"
       ],
       "openQuestions": [
         "Bleibt es bei der Abschaltung von Reaktorblock 1, oder muss laut weiteren Berichten auch der zweite Block vom Netz genommen werden?",
         "Wann genau wird der abgeschaltete Reaktor wieder in Betrieb genommen – hält der in rumänischen Medien genannte Termin Anfang August?",
         "Welche konkreten Auswirkungen hat die Maßnahme auf Strompreise und Versorgungssicherheit in Rumänien und im EU-Energieverbund?",
-        "Wie entwickelt sich der Donau-Pegel in den kommenden Wochen, und äußert sich eine EU-Institution offiziell zur Lage?"
+        "Wie entwickelt sich der Donau-Pegel in den kommenden Wochen, und äußert sich eine EU-Institution offiziell zur Lage?",
+        "Aus welchen Ländern und in welchem tatsächlichen Umfang bezieht Rumänien den zur Bedarfsdeckung nötigen Importstrom?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-29T00:07:29.957Z",
-      "doNotUpdateBefore": "2026-07-28T06:07:29.957Z",
-      "pendingOutcome": "Ob Reaktorblock 1 wie berichtet ab 4. August 2026 wieder ans Netz geht oder sich der Donau-Pegel weiter verschlechtert und auch den zweiten Block betrifft.",
+      "doNotRedraftBefore": "2026-07-29T06:07:33.498Z",
+      "doNotUpdateBefore": "2026-07-28T12:07:33.498Z",
+      "pendingOutcome": "Offen bleibt, ob Reaktorblock 1 wie berichtet nur bis 4. August 2026 abgeschaltet bleibt oder ob auch Block 2 vom Netz genommen werden muss, wie sich der Donau-Pegel weiterentwickelt und in welchem tatsächlichen Umfang Rumänien Strom importiert.",
       "pendingOutcomeUntil": "2026-07-30T00:07:29.957Z",
       "echoPublishers": {
         "derstandard": "2026-07-28T00:07:33.178Z",
         "kleinezeitung": "2026-07-28T00:07:35.817Z",
-        "kurier": "2026-07-27T22:07:32.028Z"
+        "kurier": "2026-07-27T22:07:32.028Z",
+        "orf": "2026-07-28T06:07:35.666Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
@@ -13305,13 +13292,14 @@
       "pendingOutcomeUntil": "2026-07-30T02:07:34.914Z",
       "echoPublishers": {
         "orf": "2026-07-27T20:07:30.347Z",
-        "derstandard": "2026-07-27T20:07:33.111Z",
-        "diepresse": "2026-07-27T20:07:31.508Z",
-        "kurier": "2026-07-27T20:07:31.071Z"
+        "derstandard": "2026-07-28T06:07:40.772Z",
+        "diepresse": "2026-07-28T06:07:37.899Z",
+        "kurier": "2026-07-27T20:07:31.071Z",
+        "kleinezeitung": "2026-07-27T22:07:33.666Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 5,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T02:07:34.914Z"
+      "resonanceMeasuredAt": "2026-07-28T06:07:33.498Z"
     },
     "orionnebel-neue-strukturen-massenschaetzung-juli-2026": {
       "canonicalTitle": "Universität Wien entdeckt unbekannte Gasstrukturen im Orionnebel und revidiert Massenschätzung",
@@ -13338,12 +13326,11 @@
       "doNotRedraftBefore": "2026-07-29T04:07:29.736Z",
       "doNotUpdateBefore": "2026-07-28T10:07:29.736Z",
       "echoPublishers": {
-        "derstandard": "2026-07-27T10:07:34.271Z",
-        "kleinezeitung": "2026-07-27T04:07:36.039Z"
+        "derstandard": "2026-07-27T10:07:34.271Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T04:07:29.736Z"
+      "resonanceMeasuredAt": "2026-07-28T06:07:33.498Z"
     },
     "hate-crime-lagebericht-oesterreich-2025": {
       "canonicalTitle": "Hassverbrechen in Österreich 2025: Weltanschauung und Herkunft häufigste Motive",
@@ -13432,6 +13419,77 @@
         "Detaillierte Erklärung, warum öffentliche Fahndungsfotos auf Social Media als datenschutzproblematisch erachtet werden"
       ],
       "sensitivity": "high"
+    },
+    "boeing-737-max-sitze-faa-warnung-juli-2026": {
+      "canonicalTitle": "FAA warnt vor falsch montierten Sitzen in 453 Boeing 737 MAX",
+      "slug": "boeing-737-max-sitze-faa-warnung-juli-2026",
+      "firstSeenAt": "2026-07-28T06:07:33.498Z",
+      "lastUpdatedAt": "2026-07-28T06:07:33.498Z",
+      "status": "published",
+      "articlePath": "src/content/articles/boeing-737-max-sitze-faa-warnung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-28/boeing-737-max-sitze-faa-warnung-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437477",
+        "https://kurier.at/wirtschaft/sitze-boeing-737-max-montage-notlandung-fehler/403178421",
+        "https://futurezone.at/digital-life/boeing-737-max-8-verschrottet-ausgeschlachtet-gol-neu/403177763",
+        "https://www.federalregister.gov/documents/2026/07/27/2026-15072/airworthiness-directives-the-boeing-company-airplanes"
+      ],
+      "openQuestions": [
+        "Welche Fluggesellschaften betreiben die betroffenen 453 Flugzeuge konkret?",
+        "Kam es bereits zu tatsächlichen Vorfällen mit gelösten Sitzen im Passagierbetrieb?",
+        "Wie fällt die endgültige FAA-Direktive nach Ablauf der Kommentierungsfrist am 10. September 2026 aus?",
+        "Sind auch außerhalb der USA registrierte 737-MAX-Maschinen von dem Montageproblem betroffen, und reagieren andere Luftfahrtbehörden (etwa EASA) mit eigenen Anordnungen?",
+        "Wie kam es zu der fehlerhaften Montage der Sitzschienen-Verriegelungen in der Produktion?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-29T06:07:33.498Z",
+      "doNotUpdateBefore": "2026-07-28T12:07:33.498Z",
+      "pendingOutcome": "Ausgang der bis 10. September 2026 laufenden öffentlichen Kommentierungsfrist und die endgültige, verbindliche Fassung der FAA-Direktive.",
+      "pendingOutcomeUntil": "2026-07-30T06:07:33.498Z",
+      "echoPublishers": {
+        "orf": "2026-07-28T06:07:35.666Z",
+        "kurier": "2026-07-28T06:07:37.549Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-28T06:07:33.498Z"
+    },
+    "trump-supreme-court-wahlrecht-eilantrag-juli-2026": {
+      "canonicalTitle": "Trump ruft im Streit um Wahlrechts-Dekret den Supreme Court an",
+      "slug": "trump-supreme-court-wahlrecht-eilantrag-juli-2026",
+      "firstSeenAt": "2026-07-28T06:07:33.498Z",
+      "lastUpdatedAt": "2026-07-28T06:07:33.498Z",
+      "status": "published",
+      "articlePath": "src/content/articles/trump-supreme-court-wahlrecht-eilantrag-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-28/trump-supreme-court-wahlrecht-eilantrag-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437476",
+        "https://www.derstandard.at/story/3000000333161/streit-um-w228hler252berpr252fungen-trump-ruft-supreme-court-an",
+        "https://www.kleinezeitung.at/artikel/39986067/trump-ruft-im-streit-um-waehlerueberpruefungen-supreme-court-an",
+        "https://www.cnn.com/2026/07/27/politics/trump-supreme-court-mail-voting-executive-order",
+        "https://thehill.com/homenews/campaign/5992732-supreme-court-mail-in-voting-trump-justice-department/",
+        "https://www.bostonglobe.com/2026/07/27/nation/trump-supreme-court-mail-voting-order/"
+      ],
+      "openQuestions": [
+        "Wie und bis wann entscheidet der Supreme Court über den Eilantrag der Trump-Regierung?",
+        "Käme das Dekret bei einer Zulassung noch rechtzeitig vor den Kongresswahlen am 3. November zur Anwendung?",
+        "Wie reagieren die klagenden Bundesstaaten konkret auf den Eilantrag?",
+        "Wie ordnen unabhängige Wahlrechtsexpertinnen und -experten die Erfolgsaussichten des Antrags ein?",
+        "Wie viele der US-Bundesstaaten sind tatsächlich an der Klage beteiligt – die Angaben dazu variieren zwischen den vorliegenden Quellen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-29T06:07:33.498Z",
+      "doNotUpdateBefore": "2026-07-28T12:07:33.498Z",
+      "pendingOutcome": "Entscheidung des Supreme Court über den Eilantrag der Trump-Regierung, nachdem die Klägerstaaten laut Berichten bis 3. August Stellung nehmen sollen.",
+      "pendingOutcomeUntil": "2026-07-30T06:07:33.498Z",
+      "echoPublishers": {
+        "orf": "2026-07-28T06:07:35.666Z",
+        "derstandard": "2026-07-28T06:07:40.772Z",
+        "kleinezeitung": "2026-07-28T00:07:36.403Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-28T06:07:33.498Z"
     }
   }
 }

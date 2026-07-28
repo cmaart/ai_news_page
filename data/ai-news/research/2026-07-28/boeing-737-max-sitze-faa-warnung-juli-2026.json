@@ -1,0 +1,207 @@
+{
+  "cluster": {
+    "id": "cluster-20260728-97a5449f",
+    "title": "US-Behörde: Lockere Sitze in Hunderten Boeing 737 Max",
+    "items": [
+      {
+        "itemId": "07001ff1be83951d4c08a35355c4b0319e4d89ca83755035f907e3e0a3b60150",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "US-Behörde: Lockere Sitze in Hunderten Boeing 737 Max",
+        "url": "https://orf.at/stories/3437477",
+        "publishedAt": "2026-07-28T04:40:19.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "cba1c3e65c4e9a55e153becf83c6bf56c721a16b2ecddd87015cd87f339885ce",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Falsch montiert: Warnung vor lockeren Sitze in Hunderten Boeing-Jets",
+        "url": "https://kurier.at/wirtschaft/sitze-boeing-737-max-montage-notlandung-fehler/403178421",
+        "summary": "Die US-Luftfahrtbehörde warnt vor möglicherweise falsch montierten Sitzen in zahlreichen Boeing 737-MAX-Jets, die sich bei Notlandungen oder Turbulenzen lösen könnten.",
+        "publishedAt": "2026-07-28T05:16:20.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "71b2980765fc1b92330df4c6ea4cac6022df131efd3a456a95d7aec871323f3b",
+        "sourceId": "kurier_wirtschaft",
+        "sourceType": "media",
+        "title": "Falsch montiert: Warnung vor lockeren Sitze in Hunderten Boeing-Jets",
+        "url": "https://kurier.at/wirtschaft/sitze-boeing-737-max-montage-notlandung-fehler/403178421",
+        "summary": "Die US-Luftfahrtbehörde warnt vor möglicherweise falsch montierten Sitzen in zahlreichen Boeing 737-MAX-Jets, die sich bei Notlandungen oder Turbulenzen lösen könnten.",
+        "publishedAt": "2026-07-28T05:16:20.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "b6fb19930cc0e3fe0838d07d837ef5bcad46b4f9146b3ac2277ac44d5a1fb196",
+        "sourceId": "futurezone_home",
+        "sourceType": "media",
+        "title": "2 neue Boeing 737 Max werden nach ein paar Monaten im Einsatz verschrottet",
+        "url": "https://futurezone.at/digital-life/boeing-737-max-8-verschrottet-ausgeschlachtet-gol-neu/403177763",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "FAA-Sicherheitsmitteilung mit hohem öffentlichen Nachrichtenwert: 453 registrierte Boeing 737-Max-Jets betroffen von Montagefehlern bei Sitzbefestigungen, die bei Notfällen zu Passagiersverletzungen und blockierten Fluchtwegen führen könnten. Substanzielle Fakten vorhanden (Behördenmitteilung, konkrete Flugzeugzahl, Risikobeschreibung), mindestens 2 unabhängige Medienquellen (ORF, Kurier), relevanter Bezug zu österreichischem/europäischem Flugverkehr. Kein passender Kandidat in Related Stories für Update-Behandlung; dies ist Erststory. Keine unterbrochenen bestehenden Erzählstränge.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "FAA warnte am 28. Juli 2026 vor möglicherweise falsch montierten Sitzen in 453 in den USA registrierten Boeing 737-Max-Jets",
+      "Sitze können sich bei Notlandungen oder starken Turbulenzen aus der Verankerung lösen und Fluchtwege blockieren",
+      "Boeing informierte Fluggesellschaften bereits im Dezember 2025 über das Problem",
+      "Boeing steht seit Anfang 2024 (Rumpfteil-Vorfall im Flug) unter verschärfter Beobachtung"
+    ],
+    "missingSources": [
+      "FAA Offizielle Direktive / Mitteilung (bislang nur über Medienberichte zugänglich)",
+      "Details zu Art und Ausmaß der Montagefehler",
+      "Liste betroffener Airlines / Fluggesellschaften",
+      "Zeitraum der Fehlmontagekampagne"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "boeing-737-max-sitze-faa-warnung-juli-2026",
+    "title": "FAA warnt vor falsch montierten Sitzen in 453 Boeing 737 MAX",
+    "description": "Die US-Luftfahrtbehörde FAA hat eine Direktive vorgeschlagen, die Inspektionen von Sitzbefestigungen in 453 in den USA registrierten Boeing 737-MAX-Jets vorschreibt – Grund sind möglicherweise falsch montierte Sitzschienen-Verriegelungen.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kernvorgang gilt als bestätigt: Er beruht auf der von der FAA selbst im Bundesregister veröffentlichten Direktive und wird übereinstimmend von zwei unabhängigen Medien (ORF, Kurier) unter Berufung auf Agenturen wiedergegeben.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die zentralen technischen Angaben stammen aus der im Federal Register veröffentlichten FAA-Direktive selbst, allerdings nur aus einer Suchergebnis-Zusammenfassung, nicht aus vollständig eingesehenem Volltext des Dokuments.",
+    "framingRisk": "low",
+    "framingRiskNote": "Sowohl die Position der Behörde (offizielle Direktive) als auch eine direkte Stellungnahme Boeings liegen vor, wodurch die Darstellung nicht auf eine einzige Seite beschränkt bleibt.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Die US-Luftfahrtbehörde FAA hat eine Direktive vorgeschlagen, die Inspektionen an 453 in den USA registrierten Boeing-737-MAX-Jets (Modelle 737-8, 737-9, 737-8200) vorschreiben soll.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ursache sind laut FAA sogenannte Aft-Fitting-Sperrbolzen an Sitzschienen, die nicht korrekt abgesenkt und eingerastet waren – dadurch könnten sich Sitze bei Turbulenzen oder einer Notlandung lösen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Boeing erklärte, Fluggesellschaften bereits im Dezember 2025 informiert zu haben, und unterstütze die FAA-Anordnung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Welche Fluggesellschaften konkret betroffen sind und ob es bereits zu tatsächlichen Zwischenfällen mit gelösten Sitzen kam, ist aus den vorliegenden Quellen nicht ersichtlich.",
+        "kind": "open"
+      },
+      {
+        "text": "Die öffentliche Kommentierungsfrist zur vorgeschlagenen Direktive läuft laut FAA-Dokument bis 10. September 2026; eine endgültige Anordnung steht noch aus.",
+        "kind": "fact"
+      }
+    ],
+    "openQuestions": [
+      "Welche Fluggesellschaften betreiben die betroffenen 453 Flugzeuge konkret?",
+      "Kam es bereits zu tatsächlichen Vorfällen mit gelösten Sitzen im Passagierbetrieb?",
+      "Wie fällt die endgültige FAA-Direktive nach Ablauf der Kommentierungsfrist am 10. September 2026 aus?",
+      "Sind auch außerhalb der USA registrierte 737-MAX-Maschinen von dem Montageproblem betroffen, und reagieren andere Luftfahrtbehörden (etwa EASA) mit eigenen Anordnungen?",
+      "Wie kam es zu der fehlerhaften Montage der Sitzschienen-Verriegelungen in der Produktion?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3437477"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/sitze-boeing-737-max-montage-notlandung-fehler/403178421"
+      },
+      {
+        "id": "src3",
+        "name": "Federal Register / FAA – Airworthiness Directives; The Boeing Company Airplanes",
+        "type": "official",
+        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15072/airworthiness-directives-the-boeing-company-airplanes"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die FAA hat eine Direktive vorgeschlagen, die Inspektionen von Sitzbefestigungen an 453 in den USA registrierten Boeing 737-MAX-Jets vorschreibt.",
+        "status": "supported",
+        "note": "Übereinstimmend durch ORF, Kurier und die offizielle FAA-Veröffentlichung im Federal Register belegt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Ursache sind laut FAA nicht korrekt abgesenkte und nicht in die Sitzschiene eingerastete Aft-Fitting-Sperrbolzen an Passagiersitzen, wodurch sich Sitze bei erhöhter Belastung, Turbulenzen oder einer Notlandung lösen könnten.",
+        "status": "supported",
+        "note": "Technisches Detail stammt aus der FAA-Direktive selbst; ORF und Kurier beschreiben das Risiko nur allgemein.",
+        "sourceIds": [
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Boeing erklärte, die Fluggesellschaften bereits im Dezember 2025 über das Problem informiert zu haben, und unterstütze die FAA-Anordnung.",
+        "status": "supported",
+        "note": "Beruht auf einer Aussage eines Boeing-Sprechers, die von ORF und Kurier wortgleich wiedergegeben wird – eine unabhängige Bestätigung des Informationszeitpunkts liegt nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die öffentliche Kommentierungsfrist zur vorgeschlagenen Direktive läuft bis 10. September 2026, eine geschätzte Inspektion je Sitz soll rund 85 US-Dollar kosten.",
+        "status": "supported",
+        "note": "Angabe aus der FAA-Veröffentlichung, in ORF und Kurier nicht enthalten.",
+        "sourceIds": [
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Boeing steht seit dem Ausbruch eines Rumpfteils einer 737 MAX im Flug Anfang 2024 unter verschärfter behördlicher Beobachtung.",
+        "status": "supported",
+        "note": "Von ORF und Kurier übereinstimmend berichteter Hintergrund, deckt sich mit öffentlich bekanntem Vorfall.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die US-Luftfahrtbehörde FAA hat eine Lufttüchtigkeitsdirektive vorgeschlagen, die Inspektionen an 453 in den USA registrierten Boeing-737-MAX-Jets vorschreiben soll. Betroffen sind laut der im Federal Register veröffentlichten Direktive die Modelle 737-8, 737-9 und 737-8200. Grund ist ein Bericht, wonach bei bestimmten schienenmontierten Passagiersitzen sogenannte Aft-Fitting-Sperrbolzen nicht korrekt abgesenkt und nicht in die Sitzschiene eingerastet waren. Ein derart fehlerhaft montierter Sitz könnte sich laut FAA bei erhöhter Belastung, starken Turbulenzen oder einer Notlandung aus der Verankerung lösen – mit der Gefahr, Passagiere und Besatzung zu verletzen oder den Gang zu blockieren."
+      },
+      {
+        "heading": "Was die FAA-Direktive vorsieht",
+        "markdown": "Die Direktive verlangt eine detaillierte Sichtprüfung der Befestigungen jedes schienenmontierten Sitzes an der linken und rechten Sitzschiene sowie gegebenenfalls Nachbesserungsmaßnahmen. Je nach Kabinenkonfiguration kann ein Flugzeug nach FAA-Schätzung bis zu 69 solcher Sitzbaugruppen haben. Die Behörde beziffert den Aufwand pro Sitz mit rund einer Arbeitsstunde und Kosten von etwa 85 US-Dollar, ohne dass Ersatzteile nötig wären. Bislang handelt es sich um einen Vorschlag: Die FAA hat eine öffentliche Kommentierungsfrist bis 10. September 2026 eröffnet, bevor über eine endgültige, verbindliche Anordnung entschieden wird."
+      },
+      {
+        "heading": "Boeings Reaktion und Kontext",
+        "markdown": "Ein Boeing-Sprecher erklärte laut ORF und Kurier, der Konzern habe die Fluggesellschaften bereits im Dezember 2025 über das Problem informiert und unterstütze die Anordnung der FAA. Eine unabhängige Bestätigung dieses Zeitpunkts liegt nicht vor, die Aussage stammt allein von Boeing selbst. Der Flugzeugbauer steht seit einer Reihe von Produktionspannen unter verschärfter behördlicher Beobachtung, insbesondere seit Anfang 2024 im Flug ein Rumpfteil einer 737 MAX herausgebrochen war. Die nun vorgeschlagene Sitz-Direktive reiht sich in diese Serie von Sicherheitsproblemen bei dem Modell ein."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Aus den vorliegenden Quellen geht nicht hervor, welche Fluggesellschaften konkret die 453 betroffenen Flugzeuge betreiben, und ob es im laufenden Passagierbetrieb bereits zu tatsächlichen Vorfällen mit gelösten Sitzen gekommen ist. Ebenso offen ist, wie es überhaupt zu der fehlerhaften Montage der Sitzschienen-Verriegelungen kam und ob andere Luftfahrtbehörden außerhalb der USA, etwa die europäische EASA, ähnliche Prüfungen für in ihrem Zuständigkeitsbereich registrierte Maschinen anordnen könnten. Auch der Ausgang der bis 10. September 2026 laufenden Kommentierungsfrist und der endgültige Wortlaut einer möglichen verbindlichen Direktive stehen noch aus."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Für Boeing ist die vorgeschlagene Direktive ein weiterer Rückschlag in einer längeren Serie von Qualitäts- und Sicherheitsproblemen rund um die 737-MAX-Baureihe, die seit dem Zwischenfall mit einem herausgebrochenen Rumpfteil Anfang 2024 unter besonders strenger behördlicher Beobachtung steht. Anders als bei akuten Störfällen handelt es sich hier jedoch um eine vorsorgliche, vorgeschlagene Maßnahme der FAA auf Basis eines Montageberichts – nicht um die Folge eines bereits eingetretenen Unfalls mit Verletzten. Wie gravierend das Problem in der Praxis ist, dürfte sich erst mit den angeordneten Inspektionen und der endgültigen Fassung der Direktive zeigen."
+      }
+    ],
+    "bodyKompakt": "Die US-Luftfahrtbehörde FAA hat eine Direktive vorgeschlagen, die Inspektionen an 453 in den USA registrierten Boeing-737-MAX-Jets (Modelle 737-8, 737-9, 737-8200) vorschreiben soll. Grund ist laut FAA, dass bei bestimmten Passagiersitzen sogenannte Aft-Fitting-Sperrbolzen nicht korrekt in die Sitzschiene eingerastet waren – ein solcher Sitz könnte sich bei Turbulenzen oder einer Notlandung lösen, Passagiere verletzen oder den Gang blockieren.\n\nDie FAA verlangt eine detaillierte Prüfung der Sitzbefestigungen und hat eine öffentliche Kommentierungsfrist bis 10. September 2026 eröffnet, bevor eine endgültige Anordnung feststeht. Ein Boeing-Sprecher erklärte, der Konzern habe die Fluggesellschaften bereits im Dezember 2025 informiert und unterstütze die Maßnahme.\n\nDie Direktive reiht sich in eine Serie von Produktionspannen bei der 737-MAX-Baureihe ein, die seit dem Ausbruch eines Rumpfteils im Flug Anfang 2024 unter verschärfter Beobachtung steht. Offen bleiben unter anderem die betroffenen Fluggesellschaften, mögliche bereits eingetretene Zwischenfälle sowie der Ausgang der laufenden Kommentierungsfrist.",
+    "updateNote": null,
+    "pendingOutcome": "Ausgang der bis 10. September 2026 laufenden öffentlichen Kommentierungsfrist und die endgültige, verbindliche Fassung der FAA-Direktive."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-28T06:07:33.498Z"
+}
