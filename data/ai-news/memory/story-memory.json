@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T06:21:00.751Z",
+  "updatedAt": "2026-07-28T08:18:14.041Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -7177,10 +7177,14 @@
       "doNotUpdateBefore": "2026-07-27T00:07:28.784Z",
       "pendingOutcome": "Offen bleiben die formelle Ernennung Steffen Bilgers zum Verkehrsminister durch den Bundespräsidenten, die für 29. Juli 2026 angesetzte Fraktionswahl Thorsten Freis sowie mögliche weitere von Merz angekündigte Kabinettsänderungen.",
       "pendingOutcomeUntil": "2026-07-28T18:07:28.784Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "kurier": "2026-07-28T08:07:34.102Z",
+        "diepresse": "2026-07-27T12:07:33.336Z",
+        "orf": "2026-07-27T20:07:31.034Z"
+      },
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-27T20:07:27.801Z"
+      "resonanceMeasuredAt": "2026-07-28T08:07:30.496Z"
     },
     "landwirt-steiermark-rinderherde-toedlich-verletzt-juli-2026": {
       "canonicalTitle": "Landwirt in der Steiermark vermutlich von Rinderherde tödlich verletzt",
@@ -12412,9 +12416,7 @@
       ],
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-27T08:07:30.285Z",
-      "doNotUpdateBefore": "2026-07-26T14:07:30.285Z",
-      "pendingOutcome": "Ergebnis der von der Polizei angekündigten weiteren Ermittlungen und möglicher zusätzlicher Festnahmen im Zusammenhang mit den Unruhen in Glasgow.",
-      "pendingOutcomeUntil": "2026-07-28T08:07:30.285Z"
+      "doNotUpdateBefore": "2026-07-26T14:07:30.285Z"
     },
     "gesichtserkennung-klimademo-rechtswidrig-2026": {
       "canonicalTitle": "Datenschutzbehörde: Gesichtserkennung bei Wiener Klimademo war rechtswidrig – Innenministerium kündigt Anfechtung an",
@@ -12442,8 +12444,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-27T16:07:30.117Z",
       "doNotUpdateBefore": "2026-07-26T22:07:30.117Z",
-      "pendingOutcome": "Ausgang der vom Innenministerium angekündigten Anfechtung des Bescheids beim Bundesverwaltungsgericht sowie mögliche gesetzliche Neuregelung des automatisierten Gesichtsabgleichs.",
-      "pendingOutcomeUntil": "2026-07-28T08:07:30.285Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -13124,7 +13124,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-27T20:07:27.801Z"
+      "resonanceMeasuredAt": "2026-07-28T08:07:30.496Z"
     },
     "unaids-warnung-hiv-finanzierungskuerzung-juli-2026": {
       "canonicalTitle": "UNAIDS warnt vor Wiederaufflammen der weltweiten HIV-Epidemie nach massiven Finanzierungskürzungen",
@@ -13194,9 +13194,9 @@
         "kurier": "2026-07-27T22:07:32.028Z",
         "orf": "2026-07-28T06:07:35.666Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T00:07:29.957Z"
+      "resonanceMeasuredAt": "2026-07-28T08:07:30.496Z"
     },
     "uno-kriegsverbrechen-israel-libanon-juli-2026": {
       "canonicalTitle": "UNO-Menschenrechtsbüro sieht mögliche Kriegsverbrechen Israels im Libanon",
@@ -13485,11 +13485,81 @@
       "echoPublishers": {
         "orf": "2026-07-28T06:07:35.666Z",
         "derstandard": "2026-07-28T06:07:40.772Z",
-        "kleinezeitung": "2026-07-28T00:07:36.403Z"
+        "kleinezeitung": "2026-07-28T00:07:36.403Z",
+        "kurier": "2026-07-28T08:07:34.102Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-28T08:07:30.496Z"
+    },
+    "berlin-attentaeter-dsn-keine-verbindung-oesterreich-juli-2026": {
+      "canonicalTitle": "Berlin-Attentäter: Staatsschutz sieht keine Verbindung zur Islamistenszene in Österreich",
+      "slug": "berlin-attentaeter-dsn-keine-verbindung-oesterreich-juli-2026",
+      "firstSeenAt": "2026-07-28T08:07:30.496Z",
+      "lastUpdatedAt": "2026-07-28T08:07:30.496Z",
+      "status": "published",
+      "articlePath": "src/content/articles/berlin-attentaeter-dsn-keine-verbindung-oesterreich-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-28/berlin-attentaeter-dsn-keine-verbindung-oesterreich-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333168/berlin-attentaeter-keine-hinweise-auf-kontakt-zu-islamistenszene-in-oesterreich",
+        "https://www.diepresse.com/39998800/salzburgerin-geheiratet-dsn-sieht-keine-verbindung-von-berlin-attentaeter-zu-oesterreichs-islamisten",
+        "https://kurier.at/politik/ausland/csd-anschlag-berlin-dsn-islamistenszene/403178493",
+        "https://www.kleinezeitung.at/artikel/39997280/kein-kontakt-von-berlin-attentaeter-zu-oesterreichs-islamisten"
+      ],
+      "openQuestions": [
+        "Gibt es doch noch unentdeckte Kontakte des Attentäters nach Österreich, die über die bisherige DSN-Einschätzung hinausgehen?",
+        "Wird die berichtete Ehe nach islamischem Recht mit der Salzburgerin von österreichischen Stellen eigenständig geprüft oder bestätigt?",
+        "Kommt es zu einer gesetzlichen Regelung für Fußfesseln bei Gefährdern in Österreich, und wie würde diese konkret ausgestaltet?",
+        "Wie viele der genannten Gefährder gelten als akut gefährlich statt nur unter Beobachtung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-29T08:07:30.496Z",
+      "doNotUpdateBefore": "2026-07-28T14:07:30.496Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-28T08:07:34.155Z",
+        "diepresse": "2026-07-28T08:07:34.458Z",
+        "kurier": "2026-07-28T08:07:34.102Z",
+        "kleinezeitung": "2026-07-28T08:07:37.520Z"
+      },
+      "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T06:07:33.498Z"
+      "resonanceMeasuredAt": "2026-07-28T08:07:30.496Z"
+    },
+    "italien-tankrabatt-diesel-august-2026": {
+      "canonicalTitle": "Italien senkt Diesel-Verbrauchsteuer bis 6. August um 17 Cent pro Liter",
+      "slug": "italien-tankrabatt-diesel-august-2026",
+      "firstSeenAt": "2026-07-28T08:07:30.496Z",
+      "lastUpdatedAt": "2026-07-28T08:07:30.496Z",
+      "status": "published",
+      "articlePath": "src/content/articles/italien-tankrabatt-diesel-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-28/italien-tankrabatt-diesel-august-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333182/italien-beschlie223t-tankrabatt-f252r-diesel-bis-6-august",
+        "https://kurier.at/politik/ausland/italien-tankrabatt-diesel/403178499",
+        "https://www.kleinezeitung.at/artikel/39988235/italien-beschliesst-tankrabatt-nur-fuer-diesel-bis-6-august",
+        "https://orf.at/stories/3437481",
+        "https://www.ansa.it/sito/notizie/economia/2026/07/27/giorgetti-sconto-solo-sul-diesel-17-centesimi-al-litro_9c8411bb-583f-407e-a372-27214add207a.html"
+      ],
+      "openQuestions": [
+        "Verlängert die italienische Regierung den Diesel-Rabatt über den 6. August hinaus oder läuft er wie geplant aus?",
+        "Wie reagieren Transportgewerbe-Verbände und weitere Verbraucherschutzorganisationen über Codacons hinaus auf die Maßnahme?",
+        "Sinkt der zuletzt gefallene Brent-Ölpreis tatsächlich spürbar an den italienischen Zapfsäulen, wie Giorgetti erwartet?",
+        "Welche konkreten zusätzlichen Entlastungen bei Strom- und Gaspreisen plant Rom für den Herbst, und werden die dafür in Aussicht gestellten Spielräume bei den EU-Fiskalregeln tatsächlich genutzt?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-29T08:07:30.496Z",
+      "doNotUpdateBefore": "2026-07-28T14:07:30.496Z",
+      "pendingOutcome": "Entscheidung des italienischen Kabinetts vom 4. August 2026 über eine mögliche Verlängerung oder Ausweitung des Diesel-Rabatts nach dessen geplantem Auslaufen am 6. August.",
+      "pendingOutcomeUntil": "2026-07-30T08:07:30.496Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-28T08:07:34.813Z",
+        "kurier": "2026-07-28T08:07:34.102Z",
+        "kleinezeitung": "2026-07-28T08:07:37.520Z",
+        "orf": "2026-07-28T06:07:35.666Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-28T08:07:30.496Z"
     }
   }
 }
