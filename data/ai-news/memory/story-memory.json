@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T12:29:42.466Z",
+  "updatedAt": "2026-07-29T14:34:39.686Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3171,7 +3171,6 @@
       "doNotRedraftBefore": "2026-07-26T12:07:33.269Z",
       "doNotUpdateBefore": "2026-07-25T18:07:33.269Z",
       "echoPublishers": {
-        "orf": "2026-07-28T12:07:43.956Z",
         "apa": "2026-07-28T14:07:42.357Z",
         "kurier": "2026-07-28T16:07:41.840Z",
         "diepresse": "2026-07-28T22:07:36.049Z"
@@ -5110,13 +5109,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T06:07:23.886Z",
       "doNotUpdateBefore": "2026-07-27T12:07:23.886Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-28T12:07:43.528Z",
-        "kleinezeitung": "2026-07-28T12:07:47.637Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T02:07:30.575Z"
+      "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
     },
     "armutskonferenz-gesetzesentwurf-sozialhilfe-reform-2026": {
       "canonicalTitle": "Armutskonferenz legt Gesetzesentwurf zur Reform der Sozialhilfe vor",
@@ -6897,7 +6893,7 @@
       "doNotRedraftBefore": "2026-07-26T14:07:26.923Z",
       "doNotUpdateBefore": "2026-07-25T20:07:26.923Z",
       "echoPublishers": {
-        "derstandard": "2026-07-28T16:07:42.099Z"
+        "derstandard": "2026-07-29T14:07:38.658Z"
       },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -7696,7 +7692,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T02:07:30.575Z"
+      "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
     },
     "kraus-grabher-kitzbuehel-finale-juli-2026": {
       "canonicalTitle": "Kraus gewinnt rein österreichisches Kitzbühel-Finale gegen Grabher",
@@ -12064,10 +12060,7 @@
       "pendingOutcome": "Ob der Hamburger CSD sowie weitere CSD-Veranstaltungen in Deutschland und Österreich ohne Zwischenfälle verlaufen, ob es zu einer gesetzlichen Fußfessel-Regelung für Gefährder in Österreich kommt und ob die angekündigte Überprüfung der deutschen Bewährungspraxis zu konkreten Konsequenzen führt, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-07-30T22:07:32.314Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-28T12:07:47.637Z",
         "derstandard": "2026-07-29T10:07:31.905Z",
-        "orf": "2026-07-28T12:07:42.894Z",
-        "diepresse": "2026-07-28T12:07:44.814Z",
         "kurier": "2026-07-28T22:07:35.662Z"
       },
       "resonanceLevel": 5,
@@ -12699,10 +12692,10 @@
       "canonicalTitle": "Koalition einigt sich auf Wehrdienstreform: Sechs plus drei Monate, Zivildienst-Zusatzmonate vorerst freiwillig",
       "slug": "wehrdienstreform-sommerministerrat-salzburg-juli-2026",
       "firstSeenAt": "2026-07-26T22:07:24.411Z",
-      "lastUpdatedAt": "2026-07-28T22:07:32.314Z",
+      "lastUpdatedAt": "2026-07-29T14:07:33.623Z",
       "status": "published",
       "articlePath": "src/content/articles/wehrdienstreform-sommerministerrat-salzburg-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-28/wehrdienstreform-sommerministerrat-salzburg-juli-2026-update-2200.json",
+      "researchPath": "data/ai-news/research/2026-07-29/wehrdienstreform-sommerministerrat-salzburg-juli-2026-update-1400.json",
       "sourceUrls": [
         "https://www.kleinezeitung.at/artikel/39782019/ringen-um-wehrdienstreform-bis-zum-letzten-moment",
         "https://kurier.at/politik/inland/heeresreform-zivildienst-klaudia-tanner-regierung-oevp-spoe-neos/403178245",
@@ -12714,22 +12707,28 @@
         "https://www.ots.at/presseaussendung/OTS_20260727_OTS0101/fpoe-reifenberger-regierung-ist-fuer-die-wehrdienstreform-untauglich",
         "https://www.diepresse.com/39989469/wehrdienstreform-das-sind-die-forderungen-von-fpoe-und-gruenen-fuer-eine-zustimmung",
         "https://www.kleinezeitung.at/artikel/40048447/das-fordern-fpoe-und-gruenen-fuer-eine-zustimmung",
-        "https://www.ots.at/presseaussendung/OTS_20260727_OTS0098/gruenestoegmueller-zahlenspiel-beendet-echte-reform-bleibt-weiter-aus"
+        "https://www.ots.at/presseaussendung/OTS_20260727_OTS0098/gruenestoegmueller-zahlenspiel-beendet-echte-reform-bleibt-weiter-aus",
+        "https://www.derstandard.at/story/3000000333417/wehrdienst-bauer-pl228diert-f252r-zivildienst-verl228ngerung",
+        "https://www.ots.at/presseaussendung/OTS_20260729_OTS0094/samariterbund-begruesst-einsatz-von-bundesministerin-bauer-fuer-eine-verlaengerung-des-zivildienstes",
+        "https://www.ots.at/presseaussendung/OTS_20260728_OTS0034/reminder-halbjahres-pressekonferenz-zivildienst-mit-bundesministerin-bauer-und-dem-stv-oerk-generalsekretaer-kaiser",
+        "https://kurier.at/politik/inland/zivildienst-verlaengerung-claudia-bauer-wehrdienst/403178776"
       ],
       "openQuestions": [
-        "Erhält die Zivildienst-Verlängerung im Nationalrat die dafür nötige Zwei-Drittel-Mehrheit, und stimmen FPÖ oder Grüne zu?",
-        "Kommt es zu offiziellen Nachverhandlungen zwischen Regierung und FPÖ bzw. Grünen, und welche der genannten Forderungen (zusätzliches Budget, mehr Unteroffiziere, Ausgestaltung der Milizübungen, Zivildienst-Bedingungen) werden dabei berücksichtigt?",
-        "Wie genau sieht der finale Gesetzestext zur Reform aus, insbesondere zur Ausgestaltung der Milizübungen und der zwei freiwilligen Zivildienst-Zusatzmonate je Trägerorganisation?",
-        "Wird der ab 2028 vorgesehene Mechanismus (verpflichtende Zusatzmonate bei zu geringer Rekrutenzahl) tatsächlich ausgelöst, und welche Rekrutenzahlen werden bis dahin erreicht?",
-        "Wie reagieren die Zivildienst-Trägerorganisationen konkret auf die neue Regelung?",
+        "Erhält die Wehrdienstreform im Nationalrat die dafür nötige Zwei-Drittel-Mehrheit, und stimmen FPÖ oder Grüne zu?",
+        "Kommt es zu offiziellen Nachverhandlungen zwischen Regierung und FPÖ bzw. Grünen, und welche Forderungen (Budget, Unteroffiziere, Milizübungen, Zivildienst-Bedingungen) werden dabei berücksichtigt?",
+        "Wird der Automatismus zur verpflichtenden Zivildienst-Verlängerung auf elf Monate tatsächlich bereits 2027 ausgelöst, oder – wie zunächst berichtet – erst 2028 oder später?",
+        "Liegt die Zahl der freiwillig einrückenden Grundwehrdiener tatsächlich unter der genannten Schwelle von 13.875, und aus welcher amtlichen Quelle stammt dieser Wert?",
+        "Wie sieht der finale Gesetzestext zur Reform aus, insbesondere zur Ausgestaltung der Milizübungen und der freiwilligen Zivildienst-Zusatzmonate je Trägerorganisation?",
+        "Wie werden die geplante „Österreichwoche“ mit gemeinsamer Grundausbildung von Zivil- und Grundwehrdienern sowie der gestärkte außerordentliche Zivildienst konkret ausgestaltet?",
+        "Wie reagieren die Neos sowie weitere Zivildienst-Trägerorganisationen auf Bauers Aussagen und auf die Kritik des Samariterbunds, wonach eine rein freiwillige Verlängerung nicht ausreiche?",
         "Stellt Finanzminister Marterbauer tatsächlich kein zusätzliches Budget für die Reform bereit, wie von FPÖ-Wehrsprecher Reifenberger kritisiert – und wie wird die Reform dann finanziert?",
         "Was sieht der parallel beim Sommerministerrat vorgestellte Entwurf für ein Social-Media-Verbot für Kinder inhaltlich vor?",
         "Tritt die Reform tatsächlich wie geplant mit 1. Jänner 2027 in Kraft?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-29T22:07:32.314Z",
-      "doNotUpdateBefore": "2026-07-29T04:07:32.314Z",
-      "pendingOutcome": "Ob und mit welchen Nachbesserungen FPÖ oder Grüne der Wehrdienstreform im Nationalrat zur nötigen Zwei-Drittel-Mehrheit verhelfen, ist weiterhin offen.",
+      "doNotRedraftBefore": "2026-07-30T14:07:33.623Z",
+      "doNotUpdateBefore": "2026-07-29T20:07:33.623Z",
+      "pendingOutcome": "Offen bleibt, ob und mit welchen Nachbesserungen FPÖ oder Grüne der Reform im Nationalrat zur nötigen Zwei-Drittel-Mehrheit verhelfen, ab wann der Automatismus zur verpflichtenden Zivildienst-Verlängerung tatsächlich greift und wie die angekündigten Zusatzmaßnahmen (Österreichwoche, gestärkter außerordentlicher Zivildienst) konkret umgesetzt werden.",
       "pendingOutcomeUntil": "2026-07-30T22:07:32.314Z",
       "echoPublishers": {
         "derstandard": "2026-07-28T22:07:35.173Z",
@@ -13491,12 +13490,11 @@
       "doNotRedraftBefore": "2026-07-29T08:07:30.496Z",
       "doNotUpdateBefore": "2026-07-28T14:07:30.496Z",
       "echoPublishers": {
-        "derstandard": "2026-07-28T14:07:42.512Z",
-        "kurier": "2026-07-28T12:07:45.277Z"
+        "derstandard": "2026-07-28T14:07:42.512Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T10:07:27.853Z"
+      "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
     },
     "italien-tankrabatt-diesel-august-2026": {
       "canonicalTitle": "Italien senkt Diesel-Verbrauchsteuer bis 6. August um 17 Cent pro Liter",
@@ -13733,13 +13731,13 @@
       "pendingOutcomeUntil": "2026-07-31T06:07:28.390Z",
       "echoPublishers": {
         "derstandard": "2026-07-29T06:07:31.543Z",
-        "apa": "2026-07-28T14:07:42.357Z",
-        "kleinezeitung": "2026-07-28T22:07:37.258Z",
+        "apa": "2026-07-29T12:07:41.746Z",
+        "kleinezeitung": "2026-07-29T14:07:40.701Z",
         "diepresse": "2026-07-29T10:07:31.465Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-29T10:07:27.853Z"
+      "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
     },
     "waldbrand-paros-evakuierungen-juli-2026": {
       "canonicalTitle": "Waldbrand auf Paros: Neun Ortschaften evakuiert, Feuer nach einer Nacht weiter außer Kontrolle",
@@ -13893,33 +13891,42 @@
       "canonicalTitle": "FCC verbietet Zulassung neuer ausländischer Roboter und Solar-Wechselrichter in den USA",
       "slug": "fcc-importverbot-roboter-wechselrichter-china-juli-2026",
       "firstSeenAt": "2026-07-29T08:07:26.791Z",
-      "lastUpdatedAt": "2026-07-29T08:07:26.791Z",
+      "lastUpdatedAt": "2026-07-29T14:07:33.623Z",
       "status": "published",
       "articlePath": "src/content/articles/fcc-importverbot-roboter-wechselrichter-china-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-29/fcc-importverbot-roboter-wechselrichter-china-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-29/fcc-importverbot-roboter-wechselrichter-china-juli-2026-update-1400.json",
       "sourceUrls": [
         "https://www.golem.de/news/nationale-sicherheit-fcc-verbietet-importe-chinesischer-roboter-2607-211388.html",
         "https://orf.at/stories/3437576",
         "https://www.heise.de/news/USA-untersagen-Import-auslaendischer-Roboter-und-Wechselrichter-11381195.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
         "https://www.heise.de/news/USA-untersagen-Import-auslaendischer-Roboter-und-Wechselrichter-11381195.html",
         "https://www.fcc.gov/document/fcc-adds-foreign-produced-power-inverters-and-robots-covered-list-0",
-        "https://www.nextgov.com/policy/2026/07/fcc-blocks-approval-new-foreign-made-robots-power-inverters/415070/"
+        "https://www.nextgov.com/policy/2026/07/fcc-blocks-approval-new-foreign-made-robots-power-inverters/415070/",
+        "https://www.derstandard.at/story/3000000333340/usa-verbieten-import-neuer-roboter-und-wechselrichter-aus-dem-ausland",
+        "https://futurezone.at/netzpolitik/us-regierung-humanoide-roboter-ausland-verbot-import/403178680",
+        "https://www.nbcnews.com/tech/tech-news/us-bans-foreign-made-humanoid-robots-targeting-china-national-security-rcna589777",
+        "https://www.globaltimes.cn/page/202607/1367059.shtml",
+        "https://techcrunch.com/2026/06/08/pentagon-says-alibaba-baidu-byd-and-unitree-support-chinas-military/",
+        "https://www.cnn.com/2026/07/29/tech/us-china-robot-ban-intl-hnk"
       ],
       "openQuestions": [
         "Welche konkreten Auswirkungen hat das Verbot auf Importeure und Nutzer von Servicerobotern oder Solaranlagen-Komponenten in Österreich und der EU?",
-        "Wie reagieren betroffene Hersteller wie Unitree, Sungrow oder Huawei sowie die chinesische Regierung auf die Entscheidung?",
-        "Wird es als Reaktion Gegenmaßnahmen aus China geben, etwa in Form von Exportbeschränkungen oder Zöllen?",
+        "Äußert sich Unitree selbst – oder andere betroffene Hersteller wie Sungrow oder Huawei – direkt zu der Entscheidung, und wenn ja, wie?",
+        "Welche konkreten Gegenmaßnahmen könnte China ergreifen, nachdem Peking von „allen erforderlichen Maßnahmen zum Schutz seiner Interessen“ gesprochen hat, ohne Details zu nennen?",
         "Wie genau werden die neuen Zulassungs- und Ausnahmeverfahren, etwa über das US-Verteidigungsministerium, in der Praxis ausgestaltet?",
         "Wie wirkt sich das Verbot auf den US-Markt für Saugroboter aus, da die Gerätedefinition auch auf solche Modelle zutreffen könnte?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-30T08:07:26.791Z",
-      "doNotUpdateBefore": "2026-07-29T14:07:26.791Z",
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-30T14:07:33.623Z",
+      "doNotUpdateBefore": "2026-07-29T20:07:33.623Z",
+      "pendingOutcome": "Offen sind eigene Stellungnahmen der betroffenen Hersteller (insbesondere Unitree), etwaige konkrete chinesische Gegenmaßnahmen sowie die praktischen Auswirkungen des Verbots auf Importeure in Österreich und der EU.",
+      "pendingOutcomeUntil": "2026-07-31T14:07:33.623Z",
       "echoPublishers": {
         "golem": "2026-07-29T08:07:31.092Z",
         "orf": "2026-07-29T06:07:30.082Z",
         "heise": "2026-07-29T06:07:32.397Z",
-        "futurezone": "2026-07-29T10:07:31.586Z"
+        "futurezone": "2026-07-29T10:07:31.586Z",
+        "derstandard": "2026-07-29T14:07:38.053Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -14088,6 +14095,42 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T12:07:38.523Z"
+    },
+    "kenia-amboseli-elefanten-vergiftungsverdacht-juli-2026": {
+      "canonicalTitle": "Kenia: 15 Elefanten in der Amboseli-Region binnen vier Wochen tot – Verdacht auf Vergiftung",
+      "slug": "kenia-amboseli-elefanten-vergiftungsverdacht-juli-2026",
+      "firstSeenAt": "2026-07-29T14:07:33.623Z",
+      "lastUpdatedAt": "2026-07-29T14:07:33.623Z",
+      "status": "published",
+      "articlePath": "src/content/articles/kenia-amboseli-elefanten-vergiftungsverdacht-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/kenia-amboseli-elefanten-vergiftungsverdacht-juli-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/welt/kenia-15-elefanten-tot-vergiftet-amboseli-nationalpark/403178794",
+        "https://orf.at/stories/3437630",
+        "https://www.derstandard.at/story/3000000333390/verdacht-auf-vergiftung-in-nationalpark-in-kenia-15-elefanten-tot",
+        "https://www.cbsnews.com/news/kenya-elephant-deaths-amboseli-national-park-investigation/",
+        "https://kahawatungu.com/15-elephants-die-in-amboseli-as-kws-probes-suspected-toxic-exposure/"
+      ],
+      "openQuestions": [
+        "Welche konkrete Substanz und welche Quelle stehen letztlich hinter dem Elefantensterben?",
+        "War menschliches Handeln – etwa gezielte Vergiftung oder Umweltverschmutzung – ursächlich beteiligt?",
+        "Wie fallen die vollständigen toxikologischen und Umweltanalysen aus, die laut KWS noch laufen?",
+        "Gibt es Reaktionen von Naturschutzorganisationen oder von Behörden im angrenzenden Tansania?",
+        "Werden weitere Elefanten oder andere Tierarten in der Region ähnliche Symptome zeigen?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-30T14:07:33.623Z",
+      "doNotUpdateBefore": "2026-07-29T20:07:33.623Z",
+      "pendingOutcome": "Ergebnis der laufenden toxikologischen und ökologischen Untersuchungen der kenianischen Behörde KWS zur genauen Ursache und Herkunft des Elefantensterbens im Amboseli-Ökosystem.",
+      "pendingOutcomeUntil": "2026-07-31T14:07:33.623Z",
+      "echoPublishers": {
+        "kurier": "2026-07-29T14:07:38.775Z",
+        "orf": "2026-07-29T12:07:40.220Z",
+        "derstandard": "2026-07-29T12:07:44.488Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
     }
   }
 }
