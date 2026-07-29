@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T14:34:39.686Z",
+  "updatedAt": "2026-07-29T16:23:57.995Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3171,8 +3171,6 @@
       "doNotRedraftBefore": "2026-07-26T12:07:33.269Z",
       "doNotUpdateBefore": "2026-07-25T18:07:33.269Z",
       "echoPublishers": {
-        "apa": "2026-07-28T14:07:42.357Z",
-        "kurier": "2026-07-28T16:07:41.840Z",
         "diepresse": "2026-07-28T22:07:36.049Z"
       },
       "resonanceLevel": 4,
@@ -9418,7 +9416,8 @@
       "echoPublishers": {
         "golem": "2026-07-29T08:07:31.092Z",
         "arstechnica": "2026-07-29T00:07:35.690Z",
-        "theverge": "2026-07-29T12:07:42.987Z"
+        "theverge": "2026-07-29T12:07:42.987Z",
+        "thedecoder": "2026-07-29T16:07:52.567Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -12476,9 +12475,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-27T10:07:31.142Z",
       "doNotUpdateBefore": "2026-07-26T16:07:31.142Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-28T14:07:43.429Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T10:07:27.853Z"
@@ -12508,13 +12505,13 @@
       "doNotUpdateBefore": "2026-07-26T16:07:31.142Z"
     },
     "hitzewelle-oesterreich-38-grad-juli-2026": {
-      "canonicalTitle": "Neue Hitzewelle: Bis zu 39 Grad in Österreich, auch Italien, Frankreich und Kroatien betroffen",
+      "canonicalTitle": "Neue Hitzewelle: Bis zu 39 Grad in Österreich – Ärztekammer und Caritas warnen vor Gesundheitsrisiken",
       "slug": "hitzewelle-oesterreich-38-grad-juli-2026",
       "firstSeenAt": "2026-07-26T12:07:25.006Z",
-      "lastUpdatedAt": "2026-07-29T02:07:30.575Z",
+      "lastUpdatedAt": "2026-07-29T16:07:46.351Z",
       "status": "published",
       "articlePath": "src/content/articles/hitzewelle-oesterreich-38-grad-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-29/hitzewelle-oesterreich-38-grad-juli-2026-update-200.json",
+      "researchPath": "data/ai-news/research/2026-07-29/hitzewelle-oesterreich-38-grad-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000332984/bis-zu-38-grad-erwartet-die-n228chste-hitzewelle-rollt-an",
         "https://www.diepresse.com/39738254/bis-zu-38-grad-erwartet-die-naechste-hitzewelle-rollt-an",
@@ -12523,7 +12520,12 @@
         "https://kurier.at/chronik/welt/europa-hitzewelle-temperaturen-trockenheit/403178513",
         "https://www.kleinezeitung.at/artikel/40011441/bis-zu-37-grad-die-naechste-hitzewelle-rollt-ueber-die-steiermark",
         "https://www.kleinezeitung.at/artikel/40009829/neue-hitzewelle-rollt-ueber-italien-temperaturen-um-40-grad-erwartet",
-        "https://www.kleinezeitung.at/artikel/40008730/neue-hitzewelle-in-italien-temperaturen-um-die-40-grad"
+        "https://www.kleinezeitung.at/artikel/40008730/neue-hitzewelle-in-italien-temperaturen-um-die-40-grad",
+        "https://kurier.at/chronik/oesterreich/hitze-tipps-gesundheit-aerzte-caritas/403178800",
+        "https://kurier.at/chronik/oesterreich/waldbrandgefahr-oesterreich-hitzewelle/403178350",
+        "https://www.diepresse.com/39992194/feuerbrunst-in-suedeuropa-eine-hitzewelle-bringt-noch-keinen-waldbrand",
+        "https://www.ots.at/presseaussendung/OTS_20260729_OTS0035/die-naechste-hitzewelle-ist-da-gbh-auf-baustellen-oesterreichweit-unterwegs",
+        "https://www.ots.at/presseaussendung/OTS_20260729_OTS0003/vor-naechster-hitzewelle-caritas-verstaerkt-hitzehilfe-und-bittet-um-unterstuetzung"
       ],
       "openQuestions": [
         "Werden die für Freitag prognostizierten 39 Grad in Österreich tatsächlich erreicht, und kommt es am Wochenende zu einer weiteren Verschärfung der Warnstufe?",
@@ -12531,20 +12533,26 @@
         "Werden im Zuge der Hitzewelle in Österreich oder Italien einzelne Tages- oder Monatsrekorde gebrochen?",
         "Hält die Hitzewelle in Italien tatsächlich bis mindestens 10. August an, und wie wirkt sich das konkret auf Wasserstände und Landwirtschaft in der Po-Ebene aus?",
         "Bestätigt sich der von Kurier hergestellte Zusammenhang zwischen der Hitze in Südfrankreich und den dortigen Waldbränden durch weitere, unabhängige Quellen?",
-        "Wie stark unterscheiden sich die tatsächlichen Höchstwerte regional (z. B. Steiermark, Wien, Kroatien) von den aktuellen Prognosen?"
+        "Wie stark unterscheiden sich die tatsächlichen Höchstwerte regional (z. B. Steiermark, Wien, Kroatien) von den aktuellen Prognosen?",
+        "Wie viele hitzebedingte Gesundheitsnotfälle bzw. Spitalsaufnahmen gibt es in Österreich während dieser Hitzewelle konkret, und liegen dazu offizielle Zahlen etwa des Gesundheitsministeriums vor?",
+        "Wie entwickelt sich die Waldbrandgefahr in Österreich tatsächlich, und kommt es zu tatsächlichen Bränden – anders als in den bereits von Feuer betroffenen Regionen Südeuropas?",
+        "Wie viele Menschen nehmen die Hitzeschutz-Angebote der Caritas (Klimaoasen, Streetwork) während dieser Hitzewelle tatsächlich in Anspruch, und reichen die vorhandenen Kapazitäten aus?",
+        "Wie wirkt sich die Hitze konkret auf Baustellen aus – etwa in Form von hitzebedingten Arbeitsunterbrechungen oder gemeldeten Vorfällen?"
       ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-30T02:07:30.575Z",
-      "doNotUpdateBefore": "2026-07-29T08:07:30.575Z",
-      "pendingOutcome": "Ob die für Freitag prognostizierten 39 Grad tatsächlich erreicht werden, wie lange die Hitzewelle über das Wochenende hinaus anhält, ob Rekordwerte fallen und wie sich die Lage in Italien bis zum genannten 10. August entwickelt, ist noch offen.",
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-30T16:07:46.351Z",
+      "doNotUpdateBefore": "2026-07-29T22:07:46.351Z",
+      "pendingOutcome": "Offen ist, ob die für Freitag prognostizierten Höchstwerte tatsächlich erreicht werden, wie lange die Hitzewelle über das Wochenende hinaus anhält, ob es zu Tages- oder Monatsrekorden in Österreich oder Italien kommt, wie sich die Waldbrandgefahr in Österreich konkret entwickelt und wie stark die Gesundheits- und Hilfsangebote (Spitäler, Caritas-Klimaoasen) tatsächlich in Anspruch genommen werden.",
       "pendingOutcomeUntil": "2026-07-31T02:07:30.575Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-29T10:07:32.714Z",
-        "derstandard": "2026-07-29T12:07:43.510Z"
+        "derstandard": "2026-07-29T12:07:43.510Z",
+        "kurier": "2026-07-29T16:07:49.904Z",
+        "apa": "2026-07-29T08:07:29.420Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T12:07:38.523Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-29T16:07:46.351Z"
     },
     "trump-briefwahl-erlass-berufungsgericht-boston-juli-2026": {
       "canonicalTitle": "US-Berufungsgericht stoppt Trumps Briefwahl-Erlass in 23 Bundesstaaten",
@@ -13287,7 +13295,6 @@
       "pendingOutcomeUntil": "2026-07-30T02:07:34.914Z",
       "echoPublishers": {
         "orf": "2026-07-29T12:07:40.691Z",
-        "kleinezeitung": "2026-07-28T14:07:44.646Z",
         "apa": "2026-07-29T10:07:30.775Z",
         "kurier": "2026-07-28T22:07:35.662Z"
       },
@@ -13489,9 +13496,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-29T08:07:30.496Z",
       "doNotUpdateBefore": "2026-07-28T14:07:30.496Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-28T14:07:42.512Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
@@ -13658,9 +13663,7 @@
       "doNotUpdateBefore": "2026-07-29T08:07:30.575Z",
       "pendingOutcome": "Ergebnis der laufenden Ermittlungen von Austrian Airlines, Flughafen Košice und slowakischen Behörden zu Identität des Mannes und zur Sicherheitslücke.",
       "pendingOutcomeUntil": "2026-07-31T02:07:30.575Z",
-      "echoPublishers": {
-        "orf": "2026-07-28T14:07:41.603Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T12:07:38.523Z"
@@ -13698,7 +13701,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T04:07:35.559Z"
+      "resonanceMeasuredAt": "2026-07-29T16:07:46.351Z"
     },
     "emmerling-straffaellige-kinder-social-media-verbot-juli-2026": {
       "canonicalTitle": "Emmerling plädiert für Betreuung statt Wegsperren bei straffälligen Kindern",
@@ -13740,13 +13743,13 @@
       "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
     },
     "waldbrand-paros-evakuierungen-juli-2026": {
-      "canonicalTitle": "Waldbrand auf Paros: Neun Ortschaften evakuiert, Feuer nach einer Nacht weiter außer Kontrolle",
+      "canonicalTitle": "Waldbrand auf Paros unter Kontrolle: Auf Kreta sterben zwei Feuerwehrleute bei neuem Großbrand",
       "slug": "waldbrand-paros-evakuierungen-juli-2026",
       "firstSeenAt": "2026-07-29T06:07:28.390Z",
-      "lastUpdatedAt": "2026-07-29T06:07:28.390Z",
+      "lastUpdatedAt": "2026-07-29T16:07:46.351Z",
       "status": "published",
       "articlePath": "src/content/articles/waldbrand-paros-evakuierungen-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-29/waldbrand-paros-evakuierungen-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-29/waldbrand-paros-evakuierungen-juli-2026-update-1600.json",
       "sourceUrls": [
         "https://orf.at/stories/3437577",
         "https://www.derstandard.at/story/3000000333296/waldbr228nde-auf-griechischer-insel-paros-mehrere-d246rfer-evakuiert",
@@ -13755,24 +13758,32 @@
         "https://greekreporter.com/2026/07/29/wildfire-on-paros-triggers-evacuations-as-firefighters-battle-flames/",
         "https://www.ertnews.gr/eidiseis/ellada/paros-olonyxtia-i-maxi-me-tis-floges-ekkenothikan-oikismoi-nea-minymata-tou-112/",
         "https://en.protothema.gr/2026/07/28/wildfire-on-paros-forces-evacuation-of-four-areas-as-reinforcements-arrive-by-air-and-sea/",
-        "https://greekcitytimes.com/2026/07/29/paros-wildfire-evacuations-greece-july-2026/"
+        "https://greekcitytimes.com/2026/07/29/paros-wildfire-evacuations-greece-july-2026/",
+        "https://www.derbund.ch/waldbrand-auf-kreta-zwei-feuerwehrleute-sterben-in-flammen-529149903113",
+        "https://www.watson.ch/international/klima/710308713-waldbrand-auf-kreta-zwei-feuerwehrleute-kommen-ums-leben",
+        "https://www.usnews.com/news/world/articles/2026-07-29/two-firefighters-killed-battling-a-wildfire-on-greek-island-of-crete",
+        "https://www.rheinpfalz.de/panorama_artikel,-feuer-auf-paros-unter-kontrolle-_arid,5914492.html",
+        "https://www.noen.at/in-ausland/spanien-zehntausende-in-waldbrandgebieten-um-madrid-kehren-zurueck-532955742",
+        "https://orf.at/stories/3437629/"
       ],
       "openQuestions": [
-        "Wie viele Menschen wurden auf Paros insgesamt evakuiert bzw. in Notunterkünfte gebracht?",
-        "Wie groß ist die bislang durch den Brand verbrannte Fläche?",
-        "Was hat den Brand nahe der Mülldeponie im Gebiet Kambi ausgelöst?",
-        "Gab es Verletzte oder Schäden an Wohnhäusern?",
-        "Konnte die Feuerwehr den Brand am Mittwoch unter Kontrolle bringen, nachdem sich der Wind wie vorhergesagt verstärkt hat?",
-        "Wie hat sich die Lage auf den übrigen Inseln mit hoher Warnstufe (Kreta, Lesbos, Chios, Samos, Ikaria, Psara) entwickelt?"
+        "Wie groß ist die vom Kreta-Brand bei Nea Krya Vrysi verbrannte Fläche, und gilt das Feuer inzwischen als unter Kontrolle?",
+        "Wie viele Menschen wurden auf Kreta insgesamt evakuiert, und gab es weitere Verletzte oder Todesopfer außer den zwei Feuerwehrleuten?",
+        "Was hat den Brand auf Kreta ausgelöst?",
+        "Wie hat sich die Lage auf den übrigen Inseln mit hoher Warnstufe (Lesbos, Chios, Samos, Ikaria, Psara) entwickelt?",
+        "Wann wird für Paros die vollständige Entwarnung durch die Feuerwehr erwartet, und wie groß war die insgesamt verbrannte Fläche?",
+        "Was hat den Brand nahe der Mülldeponie im Gebiet Kambi auf Paros ausgelöst, und gab es dort Verletzte oder Sachschäden?",
+        "Wie hat sich die konkrete Lage bei Bordeaux seither entwickelt (Brennfläche, Evakuierungszahlen, Prognose)?",
+        "Wie viele Menschen sind rund um Madrid insgesamt betroffen gewesen, und hält die aufgehobene Entwarnung angesichts der vierten Hitzewelle?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-30T06:07:28.390Z",
-      "doNotUpdateBefore": "2026-07-29T12:07:28.390Z",
-      "pendingOutcome": "Ob die Feuerwehr den Brand auf Paros unter den für Mittwoch vorhergesagten stärkeren Winden eindämmen kann und wie viele Menschen letztlich evakuiert wurden bzw. zurückkehren können.",
+      "doNotRedraftBefore": "2026-07-30T16:07:46.351Z",
+      "doNotUpdateBefore": "2026-07-29T22:07:46.351Z",
+      "pendingOutcome": "Offen bleiben Ausmaß, Kontrollstatus und mögliche weitere Opfer des Waldbrands auf Kreta, die vollständige Entwarnung für Paros sowie die weitere Entwicklung rund um Bordeaux und Madrid angesichts einer angekündigten vierten Hitzewelle.",
       "pendingOutcomeUntil": "2026-07-31T06:07:28.390Z",
       "echoPublishers": {
         "orf": "2026-07-29T06:07:30.082Z",
-        "derstandard": "2026-07-29T06:07:32.342Z",
+        "derstandard": "2026-07-29T16:07:49.373Z",
         "diepresse": "2026-07-29T06:07:31.856Z",
         "kleinezeitung": "2026-07-29T06:07:32.919Z"
       },
@@ -13806,13 +13817,10 @@
       "doNotUpdateBefore": "2026-07-29T12:07:28.390Z",
       "pendingOutcome": "Der für Oktober 2026 erwartete neue Kompromissvorschlag der irischen EU-Ratspräsidentschaft zum EU-Haushalt 2028–2034 sowie eine mögliche Einigung der 27 Mitgliedstaaten bis Jahresende.",
       "pendingOutcomeUntil": "2026-07-31T06:07:28.390Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-28T16:07:43.302Z",
-        "diepresse": "2026-07-28T16:07:41.985Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T06:07:28.390Z"
+      "resonanceMeasuredAt": "2026-07-29T16:07:46.351Z"
     },
     "russland-haftbefehl-durow-telegram-juli-2026": {
       "canonicalTitle": "Russischer Geheimdienst FSB erlässt internationalen Haftbefehl gegen Telegram-Gründer Pawel Durow",
@@ -13880,12 +13888,11 @@
       "pendingOutcome": "Ob Pointner sein Gemeinderatsmandat annimmt oder zurücklegt, dürfte spätestens bei der konstituierenden Sitzung des neuen Grazer Gemeinderats am 27. August 2026 geklärt werden.",
       "pendingOutcomeUntil": "2026-07-31T08:07:26.791Z",
       "echoPublishers": {
-        "derstandard": "2026-07-29T08:07:29.964Z",
-        "kleinezeitung": "2026-07-28T16:07:43.927Z"
+        "derstandard": "2026-07-29T08:07:29.964Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T08:07:26.791Z"
+      "resonanceMeasuredAt": "2026-07-29T16:07:46.351Z"
     },
     "fcc-importverbot-roboter-wechselrichter-china-juli-2026": {
       "canonicalTitle": "FCC verbietet Zulassung neuer ausländischer Roboter und Solar-Wechselrichter in den USA",
@@ -14056,11 +14063,12 @@
       "pendingOutcomeUntil": "2026-07-31T12:07:38.523Z",
       "echoPublishers": {
         "apa": "2026-07-29T12:07:41.740Z",
-        "derstandard": "2026-07-29T10:07:33.712Z"
+        "derstandard": "2026-07-29T10:07:33.712Z",
+        "kurier": "2026-07-29T16:07:49.954Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T12:07:38.523Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-29T16:07:46.351Z"
     },
     "lkh-graz-ermittlungen-toter-foetus-juli-2026": {
       "canonicalTitle": "Fötus stirbt im LKH Graz: Staatsanwaltschaft ermittelt gegen Arzt wegen fahrlässiger Tötung",
@@ -14131,6 +14139,60 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
+    },
+    "brueckensprung-neue-donau-toter-juli-2026": {
+      "canonicalTitle": "41-Jähriger nach Brückensprung in Wiener Neue Donau ertrunken",
+      "slug": "brueckensprung-neue-donau-toter-juli-2026",
+      "firstSeenAt": "2026-07-29T16:07:46.351Z",
+      "lastUpdatedAt": "2026-07-29T16:07:46.351Z",
+      "status": "published",
+      "articlePath": "src/content/articles/brueckensprung-neue-donau-toter-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/brueckensprung-neue-donau-toter-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333430/41-j228hriger-beim-br252ckenspringen-in-neue-donau-ertrunken",
+        "https://www.kleinezeitung.at/artikel/40343147/41-jaehriger-beim-brueckenspringen-in-neue-donau-ertrunken",
+        "https://wien.orf.at/stories/3364754"
+      ],
+      "openQuestions": [
+        "Gibt es offizielle Stellungnahmen der Wiener Berufsrettung oder der Berufsfeuerwehr zum Ablauf des Einsatzes?",
+        "Was war die genaue Todesursache – Ertrinken durch Erschöpfung, Krämpfe, Alkoholeinfluss oder eine Kombination davon?",
+        "Reagiert die Stadt Wien mit zusätzlichen Warnhinweisen oder Maßnahmen am Georg-Danzer-Steg?",
+        "Wie häufig kommt es an diesem oder anderen Wiener Brücken- und Badestellen zu ähnlichen Vorfällen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-30T16:07:46.351Z",
+      "doNotUpdateBefore": "2026-07-29T22:07:46.351Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-29T16:07:50.205Z",
+        "kleinezeitung": "2026-07-29T16:07:51.217Z",
+        "orf": "2026-07-29T14:07:35.704Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T16:07:46.351Z"
+    },
+    "cluster-20260729-1a4bc7b7": {
+      "canonicalTitle": "Bikeleasing-Gruppe investiert strategisch in Neuseelands führendes Dienstrad-Unternehmen Workride",
+      "slug": "cluster-20260729-1a4bc7b7",
+      "firstSeenAt": "2026-07-29T16:07:46.351Z",
+      "lastUpdatedAt": "2026-07-29T16:07:46.351Z",
+      "status": "noted",
+      "sourceUrls": [
+        "https://www.ots.at/presseaussendung/OTS_20260729_OTS0079/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride",
+        "https://www.ots.at/presseaussendung/OTS_20260729_OTS0079/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride",
+        "https://www.ots.at/presseaussendung/OTS_20260729_OTS0075/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride",
+        "https://kurier.at/apa-ots/wirtschaft/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride/403178771",
+        "https://www.profil.at/apa-ots/wirtschaft/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride/403178772"
+      ],
+      "openQuestions": [
+        "Investitionshöhe und Beteiligungsquote",
+        "Unabhängige Verifikation von Workrides Marktposition und Nutzerzahlen",
+        "Reaktionen von Konkurrenten oder Branchenbeobachtern",
+        "Wirtschaftsjournalistische Analyse der Expansionsstrategie",
+        "Hintergrundinformationen zu Gründern jenseits der Pressetext-Zitate",
+        "Potenzielle Auswirkungen auf österreichische/europäische Dienstrad-Märkte"
+      ],
+      "sensitivity": "low"
     }
   }
 }

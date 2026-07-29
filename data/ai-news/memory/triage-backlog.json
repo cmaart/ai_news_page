@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T14:34:39.592Z",
+  "updatedAt": "2026-07-29T16:23:57.906Z",
   "entries": [
     {
       "clusterId": "cluster-20260729-42c90445",
@@ -131,104 +131,6 @@
       "queuedAt": "2026-07-29T12:07:38.523Z"
     },
     {
-      "clusterId": "cluster-20260729-49d9c56c",
-      "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
-      "score": 0.95,
-      "items": [
-        {
-          "itemId": "ba90f7e31de79a23645ffd446f973cb8abae1ea5a95215825e75c51d03c53831",
-          "sourceId": "theverge",
-          "sourceType": "media",
-          "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
-          "summary": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversight on frontier AI systems.  \nIn an update to a blog post detailing its ongoing investigation into the incident, OpenAI said the wayward AI agent attacked several \"publicly-available services\" in its ",
-          "publishedAt": "2026-07-29T11:54:29.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "c06872bc01ccd459e7598558b4406c2b6e6ee7d85c48c58046d547ffcf088de2",
-          "sourceId": "techcrunch",
-          "sourceType": "media",
-          "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-          "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
-          "isNew": false
-        },
-        {
-          "itemId": "a1b4df8a3b30c092ddb14d5de103abd1d13f3ece69c7bd8b31ee67d01ce3f3e2",
-          "sourceId": "techcrunch",
-          "sourceType": "media",
-          "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
-          "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
-          "isNew": false
-        },
-        {
-          "itemId": "fcc9ee0feffbba220ad6f271ff7aaae2098467c5b45c29a313cc0a01b3808827",
-          "sourceId": "arstechnica",
-          "sourceType": "media",
-          "title": "iOS and macOS 26.6 arrive today, paving the way for iOS and macOS 27",
-          "url": "https://arstechnica.com/gadgets/2026/07/ios-and-macos-26-6-arrive-today-paving-the-way-for-ios-and-macos-27",
-          "isNew": false
-        },
-        {
-          "itemId": "aeff30aa350260a50c4bb6bafef5f5661627d3e9349b85d9f198b90c16c7a22c",
-          "sourceId": "arstechnica",
-          "sourceType": "media",
-          "title": "“Google and Reddit do not own the Internet,\" web scraper says after court win",
-          "url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss",
-          "isNew": false
-        },
-        {
-          "itemId": "3b15abf758cc5fc2a2fc67dd1cb08d2cd178dcc75297ccb506968de993e9acdd",
-          "sourceId": "derstandard_newsroom",
-          "sourceType": "media",
-          "title": "Bürgerinitiative \"Stop Killing the Internet\" gegen Alterskontrollen und für Demokratie im Netz",
-          "url": "https://www.derstandard.at/story/3000000333029/buergerinitiative-stop-killing-the-internet-gegen-alterskontrollen-und-fuer-demokratie-im-netz",
-          "isNew": false
-        },
-        {
-          "itemId": "be848eb75fe536008673baf86c5a487119df4bf3ad68514983f1aed43e6d31e9",
-          "sourceId": "derstandard_web",
-          "sourceType": "media",
-          "title": "Bürgerinitiative \"Stop Killing the Internet\" gegen Alterskontrollen und für Demokratie im Netz",
-          "url": "https://www.derstandard.at/story/3000000333029/buergerinitiative-stop-killing-the-internet-gegen-alterskontrollen-und-fuer-demokratie-im-netz",
-          "isNew": false
-        },
-        {
-          "itemId": "5a9f4e03d13a3d330b1f2407ad83638e313ea789632c7c91b7f784a20d48e660",
-          "sourceId": "golem_news",
-          "sourceType": "media",
-          "title": "Nach KI-Cyberangriff: Hugging Face stellt 100-Millionen-Dollar-Forderung an OpenAI",
-          "url": "https://www.golem.de/news/nach-ki-cyberangriff-hugging-face-stellt-100-millionen-dollar-forderung-an-openai-2607-211344.html",
-          "isNew": false
-        },
-        {
-          "itemId": "7579c36e70f9254cddf4129aee91e261b70a1fb6a88fd666bcefe61101c9e4a2",
-          "sourceId": "theverge",
-          "sourceType": "media",
-          "title": "Hugging Face is being used to easily undress women and children",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
-          "isNew": false
-        },
-        {
-          "itemId": "078efa0e792405164abf7ae3a16f4c8aeda27f12e20138347eef1feebba7aeea",
-          "sourceId": "arstechnica",
-          "sourceType": "media",
-          "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-          "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story",
-          "isNew": false
-        },
-        {
-          "itemId": "96b0e6b0ac09a7261f10d55def7e28d9964a9d0635993ed847f65da3157da1c3",
-          "sourceId": "golem_news",
-          "sourceType": "media",
-          "title": "Neue Details zum KI-Angriff: OpenAI hat mehr als nur Hugging Face gehackt",
-          "url": "https://www.golem.de/news/neue-details-zum-ki-angriff-openai-hat-mehr-als-nur-hugging-face-gehackt-2607-211385.html",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-29T12:07:38.523Z"
-    },
-    {
       "clusterId": "cluster-20260729-0625f36c",
       "title": "Irischer Sänger Glen Hansard tödlich verunglückt",
       "score": 0.9,
@@ -316,84 +218,73 @@
       "queuedAt": "2026-07-29T12:07:38.523Z"
     },
     {
-      "clusterId": "cluster-20260729-1a4bc7b7",
-      "title": "Bikeleasing-Gruppe investiert strategisch in Neuseelands führendes Dienstrad-Unternehmen Workride",
-      "score": 0.875,
-      "items": [
-        {
-          "itemId": "b419003043b7c436033db1c13366a67fb5e8b2f3ada0a6f971f9bd92b72b6f28",
-          "sourceId": "apa_ots_all",
-          "sourceType": "press_release_wire",
-          "title": "Bikeleasing-Gruppe investiert strategisch in Neuseelands führendes Dienstrad-Unternehmen Workride",
-          "url": "https://www.ots.at/presseaussendung/OTS_20260729_OTS0079/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride",
-          "summary": "Nächster strategischer Schritt der interkontinentalen Expansion (FOTO)",
-          "publishedAt": "2026-07-29T10:56:03.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "bed10e82f7acc097aac546dfb23c4b398fc83972c58c94c757574b1e33fac487",
-          "sourceId": "apa_ots_wirtschaft",
-          "sourceType": "press_release_wire",
-          "title": "Bikeleasing-Gruppe investiert strategisch in Neuseelands führendes Dienstrad-Unternehmen Workride",
-          "url": "https://www.ots.at/presseaussendung/OTS_20260729_OTS0079/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride",
-          "summary": "Nächster strategischer Schritt der interkontinentalen Expansion (FOTO)",
-          "publishedAt": "2026-07-29T10:56:03.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "2c6b4414cb11b9aa337aeae435b25e30552dc8668db114012ca90aee3a1efc8e",
-          "sourceId": "apa_ots_wirtschaft",
-          "sourceType": "press_release_wire",
-          "title": "Bikeleasing-Gruppe investiert strategisch in Neuseelands führendes Dienstrad-Unternehmen Workride",
-          "url": "https://www.ots.at/presseaussendung/OTS_20260729_OTS0075/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride",
-          "summary": "Nächster strategischer Schritt der interkontinentalen Expansion",
-          "publishedAt": "2026-07-29T10:43:02.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "83601f30422a3a713e9606f6d3129328a0497a245ab103d69d785af287f952ad",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Bikeleasing-Gruppe investiert strategisch in Neuseelands führendes Dienstrad-Unternehmen Workride",
-          "url": "https://kurier.at/apa-ots/wirtschaft/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride/403178771",
-          "summary": "Nächster strategischer Schritt der interkontinentalen Expansion",
-          "publishedAt": "2026-07-29T10:43:02.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "70aa88af627d5c15b48f92fe2408b4b44d41fdcf0ca2b35ca37196d435210c8e",
-          "sourceId": "profil_home",
-          "sourceType": "media",
-          "title": "Bikeleasing-Gruppe investiert strategisch in Neuseelands führendes Dienstrad-Unternehmen Workride",
-          "url": "https://www.profil.at/apa-ots/wirtschaft/bikeleasing-gruppe-investiert-strategisch-in-neuseelands-fuehrendes-dienstrad-unternehmen-workride/403178772",
-          "summary": "Nächster strategischer Schritt der interkontinentalen Expansion",
-          "publishedAt": "2026-07-29T10:43:02.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-07-29T12:07:38.523Z"
-    },
-    {
-      "clusterId": "cluster-20260729-f23ed843",
-      "title": "Neue Eskalation in und um den Iran",
+      "clusterId": "cluster-20260729-4c131725",
+      "title": "Aufregung um Feier für Ex-Minister Strasser",
       "score": 0.85,
       "items": [
         {
-          "itemId": "ffe27496a39c5c6a5de011273517aacfc117976d203684f79a6a41078b9ef7e9",
+          "itemId": "efa5838dcfbbb16f1294eeed8a8296fee03e5a2d2253e490010c921d6c266384",
+          "sourceId": "orf_news",
+          "sourceType": "media",
+          "title": "Aufregung um Feier für Ex-Minister Strasser",
+          "url": "https://orf.at/stories/3437642",
+          "publishedAt": "2026-07-29T14:34:56.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "913a8e0dced15e195d2a8bca8a8acee0ee78acc086af1e33359747f4a9972781",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Aufregung um Kosten für Geburtstagsfeier für Ex-Minister Strasser",
+          "url": "https://www.kleinezeitung.at/artikel/40338922/aufregung-um-kosten-fuer-geburtstagsfeier-fuer-ex-minister-strasser",
+          "summary": "Ein auf Steuerzahlerkosten finanziertes Geburtstagsfest für den ehemaligen Innenminister Ernst Strasser sorgt für heftige Kritik von FPÖ und NEOS. Die Feier im Innenministerium kostete rund 8700 Euro und entfacht wegen Strassers Verurteilung wegen Bestechlichkeit eine politische Debatte.",
+          "publishedAt": "2026-07-29T14:41:59.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "774d9449d11018b726586e3f0f83cb333b7f403563e899eff64b2132d78550fe",
+          "sourceId": "kleinezeitung_oesterreich",
+          "sourceType": "media",
+          "title": "Aufregung um Kosten für Geburtstagsfeier für Ex-Minister Strasser",
+          "url": "https://www.kleinezeitung.at/artikel/40338922/aufregung-um-kosten-fuer-geburtstagsfeier-fuer-ex-minister-strasser",
+          "summary": "Ein auf Steuerzahlerkosten finanziertes Geburtstagsfest für den ehemaligen Innenminister Ernst Strasser sorgt für heftige Kritik von FPÖ und NEOS. Die Feier im Innenministerium kostete rund 8700 Euro und entfacht wegen Strassers Verurteilung wegen Bestechlichkeit eine politische Debatte.",
+          "publishedAt": "2026-07-29T14:41:59.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "a02a701bbc694ac2b8d062367ac4371532d5231808c3688e2d8344291c31aebb",
+          "sourceId": "kleinezeitung_politik",
+          "sourceType": "media",
+          "title": "Aufregung um Kosten für Geburtstagsfeier für Ex-Minister Strasser",
+          "url": "https://www.kleinezeitung.at/artikel/40338922/aufregung-um-kosten-fuer-geburtstagsfeier-fuer-ex-minister-strasser",
+          "summary": "Ein auf Steuerzahlerkosten finanziertes Geburtstagsfest für den ehemaligen Innenminister Ernst Strasser sorgt für heftige Kritik von FPÖ und NEOS. Die Feier im Innenministerium kostete rund 8700 Euro und entfacht wegen Strassers Verurteilung wegen Bestechlichkeit eine politische Debatte.",
+          "publishedAt": "2026-07-29T14:41:59.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-07-29T16:07:46.351Z"
+    },
+    {
+      "clusterId": "cluster-20260729-cec2b708",
+      "title": "Neue Eskalation im und um den Iran",
+      "score": 0.85,
+      "items": [
+        {
+          "itemId": "0c07c8b71bc450f80e743efc83e943a1f77097ceac3a60230032edfd896dd0ec",
           "sourceId": "derstandard_newsroom",
           "sourceType": "media",
-          "title": "Neue Eskalation in und um den Iran",
-          "url": "https://www.derstandard.at/story/3000000333374/neue-eskalation-in-und-um-den-iran",
+          "title": "Neue Eskalation im und um den Iran",
+          "url": "https://www.derstandard.at/story/3000000333374/neue-eskalation-im-und-um-den-iran",
           "summary": "In der Nacht auf Mittwoch wurden neue Angriffe des Iran auf Ziele in Jordanien sowie US-saudische Angriffe auf Ziele im Irak gemeldet, während sich in Isfahan nach Hinrichtungen die Sicherheitslage verschärft",
           "publishedAt": "2026-07-29T13:20:17.000Z",
           "isNew": true
         },
         {
-          "itemId": "1a4f812e7951a341d3315fc02101ccf887650675886e404d439bdc807fa1bd58",
+          "itemId": "28239fd5830b45ec5b388b61e05a37e779491fd33921fc0e45a355fa669c490d",
           "sourceId": "derstandard_international",
           "sourceType": "media",
-          "title": "Neue Eskalation in und um den Iran",
-          "url": "https://www.derstandard.at/story/3000000333374/neue-eskalation-in-und-um-den-iran",
+          "title": "Neue Eskalation im und um den Iran",
+          "url": "https://www.derstandard.at/story/3000000333374/neue-eskalation-im-und-um-den-iran",
           "summary": "In der Nacht auf Mittwoch wurden neue Angriffe des Iran auf Ziele in Jordanien sowie US-saudische Angriffe auf Ziele im Irak gemeldet, während sich in Isfahan nach Hinrichtungen die Sicherheitslage verschärft",
           "publishedAt": "2026-07-29T13:20:17.000Z",
           "isNew": true
@@ -413,9 +304,25 @@
           "title": "Ukraine rief nach Angriff Iran an: Wollen keine Eskalation",
           "url": "https://www.diepresse.com/40176547/ukraine-rief-nach-angriff-iran-an-wollen-keine-eskalation",
           "isNew": false
+        },
+        {
+          "itemId": "ffe27496a39c5c6a5de011273517aacfc117976d203684f79a6a41078b9ef7e9",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Neue Eskalation in und um den Iran",
+          "url": "https://www.derstandard.at/story/3000000333374/neue-eskalation-in-und-um-den-iran",
+          "isNew": false
+        },
+        {
+          "itemId": "1a4f812e7951a341d3315fc02101ccf887650675886e404d439bdc807fa1bd58",
+          "sourceId": "derstandard_international",
+          "sourceType": "media",
+          "title": "Neue Eskalation in und um den Iran",
+          "url": "https://www.derstandard.at/story/3000000333374/neue-eskalation-in-und-um-den-iran",
+          "isNew": false
         }
       ],
-      "queuedAt": "2026-07-29T14:07:33.623Z"
+      "queuedAt": "2026-07-29T16:07:46.351Z"
     },
     {
       "clusterId": "cluster-20260729-d232735d",
@@ -1275,6 +1182,104 @@
       "queuedAt": "2026-07-29T10:07:27.853Z"
     },
     {
+      "clusterId": "cluster-20260729-1ff4bb1d",
+      "title": "OpenAI räumt ein: Autonome KI-Modelle hackten sich über Hugging Face hinaus auf weitere Plattformen",
+      "score": 0.825,
+      "items": [
+        {
+          "itemId": "cb3b6b373850723ba1f83664d43891d91430d9d74a26ce359822cd99b410600e",
+          "sourceId": "thedecoder",
+          "sourceType": "media",
+          "title": "OpenAI räumt ein: Autonome KI-Modelle hackten sich über Hugging Face hinaus auf weitere Plattformen",
+          "url": "https://the-decoder.de/openai-raeumt-ein-autonome-ki-modelle-hackten-sich-ueber-hugging-face-hinaus-auf-weitere-plattformen",
+          "summary": "OpenAIs autonome Hack-Modelle hatten bei einer Sicherheitsevaluierung offenbar nicht nur Hugging Face kompromittiert, sondern auch Zugangsdaten auf vier weiteren Plattformen genutzt. Hugging Face direkt rekonstruierte rund 17.600 Aktionen über zweieinhalb Tage, inklusive eines Zero-Day-Exploits und aktiver Datenverschleierung. Der Agent wollte offenbar Testlösungen stehlen.\nDer Artikel OpenAI räumt ein: Autonome KI-Modelle hackten sich über Hugging Face hinaus auf weitere Plattformen erschien zu",
+          "publishedAt": "2026-07-29T15:55:56.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "c06872bc01ccd459e7598558b4406c2b6e6ee7d85c48c58046d547ffcf088de2",
+          "sourceId": "techcrunch",
+          "sourceType": "media",
+          "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+          "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+          "isNew": false
+        },
+        {
+          "itemId": "7d6838a2290edcb52a3ff0e7af2ac4fcb60a60161d88dd7d2f26bb593670ba3e",
+          "sourceId": "thedecoder",
+          "sourceType": "media",
+          "title": "Kimi K3 ab sofort auf Hugging Face: Chinesisches Open-Weight-Modell rückt an westliche Frontier-Modelle heran",
+          "url": "https://the-decoder.de/kimi-k3-ab-sofort-auf-hugging-face-chinesisches-open-weight-modell-rueckt-an-westliche-frontier-modelle-heran",
+          "isNew": false
+        },
+        {
+          "itemId": "a1b4df8a3b30c092ddb14d5de103abd1d13f3ece69c7bd8b31ee67d01ce3f3e2",
+          "sourceId": "techcrunch",
+          "sourceType": "media",
+          "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+          "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
+          "isNew": false
+        },
+        {
+          "itemId": "fcc9ee0feffbba220ad6f271ff7aaae2098467c5b45c29a313cc0a01b3808827",
+          "sourceId": "arstechnica",
+          "sourceType": "media",
+          "title": "iOS and macOS 26.6 arrive today, paving the way for iOS and macOS 27",
+          "url": "https://arstechnica.com/gadgets/2026/07/ios-and-macos-26-6-arrive-today-paving-the-way-for-ios-and-macos-27",
+          "isNew": false
+        },
+        {
+          "itemId": "aeff30aa350260a50c4bb6bafef5f5661627d3e9349b85d9f198b90c16c7a22c",
+          "sourceId": "arstechnica",
+          "sourceType": "media",
+          "title": "“Google and Reddit do not own the Internet,\" web scraper says after court win",
+          "url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss",
+          "isNew": false
+        },
+        {
+          "itemId": "5a9f4e03d13a3d330b1f2407ad83638e313ea789632c7c91b7f784a20d48e660",
+          "sourceId": "golem_news",
+          "sourceType": "media",
+          "title": "Nach KI-Cyberangriff: Hugging Face stellt 100-Millionen-Dollar-Forderung an OpenAI",
+          "url": "https://www.golem.de/news/nach-ki-cyberangriff-hugging-face-stellt-100-millionen-dollar-forderung-an-openai-2607-211344.html",
+          "isNew": false
+        },
+        {
+          "itemId": "7579c36e70f9254cddf4129aee91e261b70a1fb6a88fd666bcefe61101c9e4a2",
+          "sourceId": "theverge",
+          "sourceType": "media",
+          "title": "Hugging Face is being used to easily undress women and children",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+          "isNew": false
+        },
+        {
+          "itemId": "078efa0e792405164abf7ae3a16f4c8aeda27f12e20138347eef1feebba7aeea",
+          "sourceId": "arstechnica",
+          "sourceType": "media",
+          "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
+          "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story",
+          "isNew": false
+        },
+        {
+          "itemId": "96b0e6b0ac09a7261f10d55def7e28d9964a9d0635993ed847f65da3157da1c3",
+          "sourceId": "golem_news",
+          "sourceType": "media",
+          "title": "Neue Details zum KI-Angriff: OpenAI hat mehr als nur Hugging Face gehackt",
+          "url": "https://www.golem.de/news/neue-details-zum-ki-angriff-openai-hat-mehr-als-nur-hugging-face-gehackt-2607-211385.html",
+          "isNew": false
+        },
+        {
+          "itemId": "ba90f7e31de79a23645ffd446f973cb8abae1ea5a95215825e75c51d03c53831",
+          "sourceId": "theverge",
+          "sourceType": "media",
+          "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-29T16:07:46.351Z"
+    },
+    {
       "clusterId": "cluster-20260729-77a3ae83",
       "title": "Mehr als 1.000 Experten fordern KI-Bremse",
       "score": 0.825,
@@ -1457,6 +1462,48 @@
       "queuedAt": "2026-07-28T12:07:41.324Z"
     },
     {
+      "clusterId": "cluster-20260729-88b5e567",
+      "title": "Tanner: Längerer Wehrdienst kommt nur mit längerem Zivildienst [premium]",
+      "score": 0.8,
+      "items": [
+        {
+          "itemId": "91ece58182e062188703aead444a1b534fdd5c79167247feea093a6731a23b83",
+          "sourceId": "diepresse_politik",
+          "sourceType": "media",
+          "title": "Tanner: Längerer Wehrdienst kommt nur mit längerem Zivildienst [premium]",
+          "url": "https://www.diepresse.com/40354426/tanner-laengerer-wehrdienst-kommt-nur-mit-laengerem-zivildienst",
+          "summary": "Die Verteidigungsministerin freut sich über die Einigung zur Wehrdienst-Verlängerung und kritisiert die Koalitionspartner.",
+          "publishedAt": "2026-07-29T15:31:14.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "4419cad606483d0fdf90da0cd0b464d22564ee9cc7181176d7298424a56d5b1c",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Koalition ist sich einig: Wehrdienst dauert länger, der Zivildienst vorerst nicht [premium]",
+          "url": "https://www.diepresse.com/39015458/koalition-ist-sich-einig-wehrdienst-dauert-laenger-der-zivildienst-vorerst-nicht",
+          "isNew": false
+        },
+        {
+          "itemId": "42d509d50415eb38251dccf4cc289cdef2c12a20b1fb3ea10f2235e72f85dbd7",
+          "sourceId": "diepresse_politik",
+          "sourceType": "media",
+          "title": "Koalition ist sich einig: Wehrdienst dauert länger, der Zivildienst vorerst nicht [premium]",
+          "url": "https://www.diepresse.com/39015458/koalition-ist-sich-einig-wehrdienst-dauert-laenger-der-zivildienst-vorerst-nicht",
+          "isNew": false
+        },
+        {
+          "itemId": "d1a869f28c294ec1bf39b6eb6e1baae262c084c7d78c95b9fa953cab67f6b3aa",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Warum noch Wehrdienst leisten, wenn der Zivildienst gleich lang dauert?",
+          "url": "https://www.derstandard.at/story/3000000333189/warum-noch-wehrdienst-leisten-wenn-der-zivildienst-gleich-lang-dauert",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-07-29T16:07:46.351Z"
+    },
+    {
       "clusterId": "cluster-20260729-206b22e1",
       "title": "Österreich plant Altersnachweis für Pornoseiten",
       "score": 0.8,
@@ -1481,40 +1528,6 @@
         }
       ],
       "queuedAt": "2026-07-29T14:07:33.623Z"
-    },
-    {
-      "clusterId": "cluster-20260729-d27ead64",
-      "title": "Sparflamme in der Premiumklasse: Porsche und BMW bauen tausende Stellen ab [premium]",
-      "score": 0.8,
-      "items": [
-        {
-          "itemId": "f0694ffcfd4e6b8d6f679f196ea2406db2db58d4a255ffa0abd099525dc429ab",
-          "sourceId": "diepresse_home",
-          "sourceType": "media",
-          "title": "Sparflamme in der Premiumklasse: Porsche und BMW bauen tausende Stellen ab [premium]",
-          "url": "https://www.diepresse.com/40185580/sparflamme-in-der-premiumklasse-porsche-und-bmw-bauen-tausende-stellen-ab",
-          "summary": "Weniger verkaufte Autos, mehr Gewinn: Das hat bei Porsche im ersten Halbjahr funktioniert. Damit man langfristig profitabel bleibt, gibt es ein teures „Zukunftspaket“ mit Stellenabbau. Auch BMW muss sparen.",
-          "publishedAt": "2026-07-29T11:49:05.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "4cf5bb5d1ece029d55963e76cc496f8b470c0f14bcd0869b112a9b6c962d43d6",
-          "sourceId": "kurier_wirtschaft",
-          "sourceType": "media",
-          "title": "Massiver Stellen-Abbau bei Porsche: Tausende Mitarbeiter vor Job-Verlust",
-          "url": "https://kurier.at/wirtschaft/porsche-jobs-abbau-5000-mitarbeiter/403178355",
-          "isNew": false
-        },
-        {
-          "itemId": "9d00223c4beda1283125b706ca82535114cc77920e362c01ad6050085574bac7",
-          "sourceId": "heise_news",
-          "sourceType": "media",
-          "title": "BMW startet massives Sparprogramm und baut Stellen ab",
-          "url": "https://www.heise.de/news/BMW-baut-weltweit-8000-Stellen-ab-die-meisten-in-Deutschland-11381441.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-07-29T12:07:38.523Z"
     }
   ]
 }
