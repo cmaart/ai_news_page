@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T22:32:49.321Z",
+  "updatedAt": "2026-07-29T00:21:38.559Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -9411,11 +9411,13 @@
       "pendingOutcome": "Ob der „AI Kill Switch Act“ im US-Kongress weitere Unterstützung findet, einen Ausschuss durchläuft und zur Abstimmung kommt, sowie ob OpenAI, Hugging Face oder andere Unternehmen sich offiziell dazu äußern, ist offen und wird bei neuen Entwicklungen nachrecherchiert.",
       "pendingOutcomeUntil": "2026-07-29T22:07:28.883Z",
       "echoPublishers": {
-        "golem": "2026-07-28T10:07:41.630Z"
+        "golem": "2026-07-28T10:07:41.630Z",
+        "arstechnica": "2026-07-29T00:07:35.690Z",
+        "theverge": "2026-07-28T10:07:41.006Z"
       },
-      "resonanceLevel": 1,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-27T22:07:28.883Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T00:07:31.790Z"
     },
     "google-rechenzentrum-kronstorf-protest-uvp-2026": {
       "canonicalTitle": "Google-Rechenzentrum in Kronstorf: Protest gegen Ausbau ohne Umweltprüfung",
@@ -12533,7 +12535,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T10:07:34.204Z"
+      "resonanceMeasuredAt": "2026-07-29T00:07:31.790Z"
     },
     "trump-briefwahl-erlass-berufungsgericht-boston-juli-2026": {
       "canonicalTitle": "US-Berufungsgericht stoppt Trumps Briefwahl-Erlass in 23 Bundesstaaten",
@@ -12865,9 +12867,7 @@
       "doNotUpdateBefore": "2026-07-28T04:07:28.883Z",
       "pendingOutcome": "Ob die vom Delegierten der spanischen Zentralregierung angekündigte Überprüfung des Polizeieinsatzes zu einem offiziellen Ergebnis, Konsequenzen oder seinem Rücktritt führt und wie sich der genaue Verletztenstand sowie die politische Debatte um Übertourismus vor den Regionalwahlen 2027 weiterentwickeln, ist offen.",
       "pendingOutcomeUntil": "2026-07-29T22:07:28.883Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-27T22:07:33.281Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-28T22:07:32.314Z"
@@ -13068,27 +13068,33 @@
       "canonicalTitle": "Schauspieler Johannes Krisch im Alter von 59 Jahren gestorben",
       "slug": "johannes-krisch-schauspieler-gestorben-juli-2026",
       "firstSeenAt": "2026-07-27T12:07:30.767Z",
-      "lastUpdatedAt": "2026-07-27T12:07:30.767Z",
+      "lastUpdatedAt": "2026-07-29T00:07:31.790Z",
       "status": "published",
       "articlePath": "src/content/articles/johannes-krisch-schauspieler-gestorben-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-27/johannes-krisch-schauspieler-gestorben-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-29/johannes-krisch-schauspieler-gestorben-juli-2026-update-000.json",
       "sourceUrls": [
         "https://orf.at/stories/3437414",
         "https://wien.orf.at/stories/3364408",
         "https://www.derstandard.at/story/3000000333092/schauspieler-johannes-krisch-59-jaehrig-gestorben",
         "https://www.diepresse.com/39844740/schauspieler-johannes-krisch-ist-tot",
         "https://kurier.at/kultur/johannes-krisch-gestorben-59-jahre/403178329",
-        "https://www.kleinezeitung.at/artikel/39851927/schauspieler-johannes-krisch-mit-59-jahren-verstorben"
+        "https://www.kleinezeitung.at/artikel/39851927/schauspieler-johannes-krisch-mit-59-jahren-verstorben",
+        "https://www.profil.at/kultur/johannes-krisch-burgtheater-krebs-langes-leiden-grosser-verlust/403178624",
+        "https://www.ots.at/presseaussendung/OTS_20260727_OTS0085/werner-kogler-zum-tod-von-johannes-krisch",
+        "https://www.ots.at/presseaussendung/OTS_20260727_OTS0075/wiens-kulturstadtraetin-kaup-hasler-zum-tod-von-johannes-krisch",
+        "https://www.kleinezeitung.at/artikel/39944914/zum-tod-von-johannes-krisch-er-spielte-leben"
       ],
       "openQuestions": [
-        "Welche Todesursache lag vor – dazu liegt keine offizielle Angabe vor.",
+        "Wurde die von profil genannte Krebserkrankung als Todesursache von anderer Seite (Familie, Theater, weitere Medien) bestätigt?",
         "Hat sich das Burgtheater selbst öffentlich geäußert, oder stammt die Bestätigung ausschließlich vom Theater in der Josefstadt?",
-        "Wie sind die von einem einzelnen Medium erwähnten gesundheitlichen Probleme und Bühnenpausen der letzten Zeit einzuordnen?",
-        "Wann und wo findet eine mögliche Trauerfeier oder Verabschiedung statt?"
+        "Wann und wo findet eine mögliche Trauerfeier oder öffentliche Verabschiedung statt?",
+        "Wie sind die von der Presse und nun auch von profil erwähnten gesundheitlichen Probleme der vergangenen Jahre im Detail (Zeitpunkt, Verlauf) einzuordnen?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-28T12:07:30.767Z",
-      "doNotUpdateBefore": "2026-07-27T18:07:30.767Z",
+      "doNotRedraftBefore": "2026-07-30T00:07:31.790Z",
+      "doNotUpdateBefore": "2026-07-29T06:07:31.790Z",
+      "pendingOutcome": "Eine eigene Stellungnahme des Burgtheaters sowie Termin und Form einer möglichen Trauerfeier stehen noch aus.",
+      "pendingOutcomeUntil": "2026-07-31T00:07:31.790Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -13566,6 +13572,87 @@
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-28T22:07:32.314Z"
+    },
+    "johnson-johnson-talkum-vergleich-5-5-milliarden-juli-2026": {
+      "canonicalTitle": "Johnson & Johnson zahlt rund 5,5 Milliarden Dollar zur Beilegung von Talkum-Klagen",
+      "slug": "johnson-johnson-talkum-vergleich-5-5-milliarden-juli-2026",
+      "firstSeenAt": "2026-07-29T00:07:31.790Z",
+      "lastUpdatedAt": "2026-07-29T00:07:31.790Z",
+      "status": "published",
+      "articlePath": "src/content/articles/johnson-johnson-talkum-vergleich-5-5-milliarden-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/johnson-johnson-talkum-vergleich-5-5-milliarden-juli-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/40027945/asbest-im-babypuder-johnson-johnson-dementiert-und-will-trotzdem-5-5-milliarden-dollar-zahlen",
+        "https://kurier.at/wirtschaft/johnson-johnson-milliarden-babypuder-prozess-klaeger/403178532",
+        "https://www.kleinezeitung.at/artikel/40009480/johnson-and-johnson-zahlt-im-babypuder-streit-5-5-milliarden-dollar",
+        "https://orf.at/stories/3437473",
+        "https://www.derstandard.at/story/3000000333163/johnson-johnson-zahlt-55-milliarden-dollar-im-babypuder-streit",
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-a-proposed-resolution-of-ovarian-talc-litigation"
+      ],
+      "openQuestions": [
+        "Wird die nötige Zustimmung von mindestens 95 Prozent der Klägerinnen erreicht, sodass der Vergleich rechtswirksam wird?",
+        "Steigt die Gesamtsumme des Vergleichs tatsächlich auf sieben Milliarden Dollar oder mehr, wie vom Klägeranwalt in Aussicht gestellt?",
+        "Wie ist der aktuelle wissenschaftliche Forschungsstand zum Zusammenhang zwischen Talkum und Eierstockkrebs einzuordnen?",
+        "Welche Rolle spielt der Gerichtsbeschluss vom 22. Juli 2026 für den weiteren Verlauf, sollte der Vergleich scheitern?",
+        "Wie ist der aktuelle Status talkumbasierter Babypuder-Produkte auf dem österreichischen bzw. EU-Markt?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-30T00:07:31.790Z",
+      "doNotUpdateBefore": "2026-07-29T06:07:31.790Z",
+      "pendingOutcome": "Ob die für die Wirksamkeit des Vergleichs nötige Zustimmung von mindestens 95 Prozent der Klägerinnen erreicht wird.",
+      "pendingOutcomeUntil": "2026-07-31T00:07:31.790Z",
+      "echoPublishers": {
+        "diepresse": "2026-07-28T10:07:39.424Z",
+        "kurier": "2026-07-28T10:07:39.026Z",
+        "kleinezeitung": "2026-07-28T10:07:41.035Z",
+        "orf": "2026-07-28T06:07:35.666Z",
+        "derstandard": "2026-07-28T06:07:37.135Z"
+      },
+      "resonanceLevel": 5,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T00:07:31.790Z"
+    },
+    "trump-netanjahu-treffen-washington-juli-2026": {
+      "canonicalTitle": "Trump empfängt Netanjahu im Weißen Haus – erstes Treffen seit Beginn des Iran-Kriegs",
+      "slug": "trump-netanjahu-treffen-washington-juli-2026",
+      "firstSeenAt": "2026-07-29T00:07:31.790Z",
+      "lastUpdatedAt": "2026-07-29T00:07:31.790Z",
+      "status": "published",
+      "articlePath": "src/content/articles/trump-netanjahu-treffen-washington-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/trump-netanjahu-treffen-washington-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437557",
+        "https://www.diepresse.com/40172524/eines-der-besten-gespraeche-netanyahu-traf-trump-in-washington",
+        "https://kurier.at/politik/ausland/trump-netanyahu-treffen-weisses-haus/403178651",
+        "https://www.diepresse.com/39985259/trump-empfaengt-selenskyi-und-netanjahu-im-weissen-haus",
+        "https://orf.at/stories/3437470",
+        "https://www.kleinezeitung.at/artikel/39985388/trump-empfaengt-selenskyj-im-weissen-haus",
+        "https://www.kleinezeitung.at/artikel/39985387/netanyahu-trifft-trump-in-washington",
+        "https://www.diepresse.com/39985259/trump-empfaengt-selenskyj-und-netanjahu-im-weissen-haus",
+        "https://www.derstandard.at/jetzt/livebericht/3000000333149/trump-empfaengt-selenskyj-am-dienstag-im-weissen-haus",
+        "https://www.diepresse.com/39986359/selenskyj-und-netanyahu-im-weissen-haus-diplomatischer-eklat-im-un-sicherheitsrat-lenzing-baut-massiv-jobs-ab",
+        "https://kurier.at/politik/ausland/usa-iran-israel-trump-netanjahu-graham-hisbollah/403178546",
+        "https://orf.at/stories/3437548"
+      ],
+      "openQuestions": [
+        "Liegt ein offizielles, von uns selbst eingesehenes Gesprächsprotokoll oder eine Pressemitteilung des Weißen Hauses zu Inhalten des Treffens vor?",
+        "Welche konkreten Geheimdienstinformationen zu „Pickaxe Mountain“ hat Netanjahu Trump nach übereinstimmenden Berichten vorgelegt, und wie verlässlich sind sie unabhängig einzuschätzen?",
+        "Wie reagiert Iran offiziell auf die beim Treffen geäußerten Vorwürfe zu angeblichen Nuklearbestrebungen?",
+        "Führt das Treffen zu konkreten neuen Entscheidungen im Umgang mit dem Iran-Konflikt, etwa zu weiteren Militärschlägen oder zu einer diplomatischen Lösung?",
+        "Wie wirkt sich das Treffen auf die für 27. Oktober angesetzte Parlamentswahl in Israel aus?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-30T00:07:31.790Z",
+      "doNotUpdateBefore": "2026-07-29T06:07:31.790Z",
+      "echoPublishers": {
+        "orf": "2026-07-28T22:07:34.199Z",
+        "diepresse": "2026-07-28T22:07:36.049Z",
+        "kurier": "2026-07-28T22:07:35.656Z",
+        "derstandard": "2026-07-28T06:07:40.772Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T00:07:31.790Z"
     }
   }
 }
