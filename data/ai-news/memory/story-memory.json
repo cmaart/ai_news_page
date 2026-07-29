@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T02:30:42.387Z",
+  "updatedAt": "2026-07-29T04:27:51.382Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2760,13 +2760,13 @@
       "doNotUpdateBefore": "2026-07-13T09:07:28.746Z"
     },
     "us-angriffswelle-iran-juli-2026": {
-      "canonicalTitle": "Iran-Konflikt: USA und Iran setzen Angriffe nach wochenlanger Eskalation vorerst aus – Verhandlungen laufen",
+      "canonicalTitle": "Iran-Konflikt: Angriffspause bricht – USA und Saudi-Arabien schlagen nach iranischem Raketenversuch gemeinsam im Irak zurück",
       "slug": "us-angriffswelle-iran-juli-2026",
       "firstSeenAt": "2026-07-13T04:07:29.333Z",
-      "lastUpdatedAt": "2026-07-27T02:07:30.478Z",
+      "lastUpdatedAt": "2026-07-29T04:07:35.559Z",
       "status": "published",
       "articlePath": "src/content/articles/us-angriffswelle-iran-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-27/us-angriffswelle-iran-juli-2026-update-200.json",
+      "researchPath": "data/ai-news/research/2026-07-29/us-angriffswelle-iran-juli-2026-update-400.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an",
         "https://orf.at/stories/3436031",
@@ -2812,30 +2812,44 @@
         "https://www.kleinezeitung.at/artikel/39400462/usa-starteten-13-nacht-in-folge-angriffe-auf-iran",
         "https://www.opb.org/article/2026/07/26/u-s-pauses-attacks-on-iran-for-a-second-straight-day-and-tehran-does-too/",
         "https://fortune.com/2026/07/26/us-iran-war-pause-attacks-tehran-talks-oman-hormuz/",
-        "https://www.aljazeera.com/news/2026/7/24/netanyahu-to-meet-trump-at-white-house-next-week-amid-iran-war-escalation"
+        "https://www.aljazeera.com/news/2026/7/24/netanyahu-to-meet-trump-at-white-house-next-week-amid-iran-war-escalation",
+        "https://www.derstandard.at/story/3000000333291/saudi-arabien-und-die-usa-griffen-gemeinsam-ziele-im-irak-an",
+        "https://www.diepresse.com/40179958/usa-melden-iranischen-ueberraschungsangriff-und-greifen-mit-saudi-arabien-im-irak-an",
+        "https://www.kleinezeitung.at/artikel/40179922/saudi-arabien-faengt-drohnen-aus-dem-irak-ab",
+        "https://orf.at/stories/3437568",
+        "https://www.kleinezeitung.at/artikel/40179924/usa-melden-abwehr-von-neuen-iranischen-raketenangriffen",
+        "https://orf.at/stories/3437570",
+        "https://www.kleinezeitung.at/artikel/40179932/us-angriffe-gemeinsam-mit-saudi-arabien-auf-ziele-im-irak",
+        "https://www.axios.com/2026/07/28/iran-missile-attack-us-base-jordan",
+        "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4558191/us-saudi-forces-strike-iran-backed-terrorist-sites-in-iraq/"
       ],
       "openQuestions": [
-        "Hält der beidseitige Angriffsstopp an, oder wird er durch neue Vorfälle beendet – und was bedeutet Akraminias Drohung einer 'geografischen Ausweitung' des Konflikts konkret?",
-        "Kommt es zu einem förmlichen Waffenstillstandsabkommen zwischen den USA und Iran, insbesondere zu einer Regelung der Durchfahrt durch die Straße von Hormus, wie sie ein anonymer Vermittlungsbeamter skizziert hat?",
-        "Welche konkreten Ergebnisse bringt der Netanyahu-Besuch bei Trump am Dienstag für die weitere US-Politik gegenüber Iran?",
+        "Ist der Angriffsstopp zwischen den USA und dem Iran nach dem iranischen Raketenversuch und den US-saudischen Gegenschlägen im Irak endgültig gescheitert, oder kehren beide Seiten zu einer Pause zurück?",
+        "Wie reagiert Iran offiziell auf die Vorwürfe, Milizen im Irak zu Drohnenangriffen auf die USA und Saudi-Arabien angewiesen zu haben?",
+        "War der Zielort des iranischen Raketenangriffs tatsächlich ein US-Stützpunkt in Jordanien, wie von Axios unter Berufung auf einen anonymen Beamten berichtet, und warum nannte Centcom selbst kein Ziel?",
+        "Lässt sich die US-Behauptung, sämtliche iranischen Raketen seien abgefangen worden, unabhängig bestätigen – etwa durch Schadensangaben oder Satellitenaufnahmen?",
+        "Welche konkreten Milizen-Gruppen im Irak waren Ziel der US-saudischen Angriffe, und bestätigen irakische Behörden diese Angriffe auf ihrem Territorium?",
+        "Welche Ergebnisse brachte das Treffen zwischen Trump und Netanyahu im Weißen Haus für die weitere US-Politik gegenüber Iran, und stand es tatsächlich im direkten Zusammenhang mit dem anschließenden iranischen Raketenversuch?",
+        "Setzen sich die von Fortune und AP berichteten Verhandlungen über einen Kompromiss zur Hormus-Durchfahrt trotz der neuen Eskalation fort?",
+        "Kommt es zu einem förmlichen Waffenstillstandsabkommen zwischen den USA und Iran, oder eskaliert der Konflikt nach dem Zwischenfall weiter?",
         "Bestätigen sich die von 'New York Times' und CNN berichteten Sorgen über schwindende US-Munitionsbestände unabhängig, etwa durch offizielle Pentagon-Angaben?",
         "Ist die iranische Behauptung gesprengter Öltanker in der Straße von Hormuz unabhängig verifizierbar, nachdem US-Centcom eine strukturell ähnliche frühere Behauptung bereits als falsch zurückgewiesen hat?",
-        "Was genau waren die Ziele und Ergebnisse der neunten bis dreizehnten Angriffswelle, und gibt es dafür eine über Trump-Aussagen und einzelne Medienberichte hinausgehende, direkt eingesehene Centcom-Bestätigung?",
+        "Was genau waren die Ziele und Ergebnisse der Angriffswellen zwischen der neunten und mindestens 13. Nacht, und gibt es dafür eine über Trump-Aussagen und einzelne Medienberichte hinausgehende, direkt eingesehene Centcom-Bestätigung?",
         "Welche konkreten militärischen Schritte hat Trump Verteidigungsminister Hegseth und Generalstabschef Caine tatsächlich angeordnet?",
         "Bestätigen bahrainische Behörden offiziell einen iranischen Vergeltungsangriff auf ihr Territorium, und wie unterscheidet sich dieser vom bereits berichteten Angriff auf Kuwait?",
-        "Gibt es eine unabhängige, nicht-iranische Bestätigung von Ausmaß und Zahl der beschädigten Ziele aus früheren Angriffsnächten?",
-        "Wie belastbar sind die iranischen Opferzahlen (38 vs. rund 50 Tote), und gibt es davon unabhängige Zählungen, etwa von internationalen Organisationen?",
-        "Liegt eine direkt eingesehene, vollständige Centcom-Erklärung zu den jüngsten Angriffsnächten, zum Tod der zuletzt drei Soldaten und zur nun gemeldeten Pause vor, die über Medienwiedergaben hinausgeht?",
+        "Wie belastbar sind die iranischen Opferzahlen (38 bzw. rund 50 Tote), und gibt es davon unabhängige Zählungen, etwa von internationalen Organisationen?",
         "Ist die Identität der in Jordanien gefundenen sterblichen Überreste inzwischen bestätigt worden, und handelt es sich um den zuvor vermissten Soldaten?",
-        "Was genau umfasste das nun laut Iran ausgesetzte Rahmenabkommen, und welche konkreten Folgen hat die Aussetzung für die aktuell laufenden Verhandlungen?",
+        "Was genau umfasste das laut Iran ausgesetzte Rahmenabkommen, und welche konkreten Folgen hat die Aussetzung für die aktuell laufenden Verhandlungen?",
         "Wie reagiert die Trump-Regierung konkret auf wachsende innenpolitische Kritik, etwa von Senator Warner und anderen Kongressmitgliedern?",
         "Führt die zuvor gemeldete Verlegung zusätzlicher F-16- und F-35-Kampfjets zu einer weiteren militärischen Eskalation oder dient sie primär der Absicherung bestehender Stützpunkte?",
         "Normalisiert sich der stark reduzierte Schiffsverkehr durch die Straße von Hormus wieder, oder bleibt die Blockade-Situation bestehen?",
-        "Wie äußern sich EU-Institutionen oder die UN konkret und mit welchem Wortlaut zur jüngsten Eskalation und zur nun gemeldeten Pause?"
+        "Wie äußern sich EU-Institutionen oder die UN konkret und mit welchem Wortlaut zur jüngsten Eskalation und zum gebrochenen Angriffsstopp?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-28T02:07:30.478Z",
-      "doNotUpdateBefore": "2026-07-27T08:07:30.478Z",
+      "doNotRedraftBefore": "2026-07-30T04:07:35.559Z",
+      "doNotUpdateBefore": "2026-07-29T10:07:35.559Z",
+      "pendingOutcome": "Offen bleibt, ob der Angriffsstopp zwischen den USA und dem Iran endgültig gescheitert ist, wie beide Seiten in den kommenden Tagen tatsächlich reagieren und welche Folgen das vorangegangene Treffen zwischen Trump und Netanyahu hat.",
+      "pendingOutcomeUntil": "2026-07-31T04:07:35.559Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -7676,8 +7690,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T04:07:30.156Z",
       "doNotUpdateBefore": "2026-07-27T10:07:30.156Z",
-      "pendingOutcome": "Ob Saudi-Arabien den von der Huthi-Miliz behaupteten Angriff auf Jizan und Yanbu offiziell bestätigt, wie sich der eingebrochene Schiffsverkehr und der Ölpreis in den kommenden Tagen entwickeln, und ob die wechselseitigen Angriffe zwischen Huthi-Miliz und saudischer Koalition sowie der weitere US-Iran-Konflikt eskalieren, bleibt offen und wird weiterverfolgt.",
-      "pendingOutcomeUntil": "2026-07-29T04:07:30.156Z",
       "echoPublishers": {
         "orf": "2026-07-29T02:07:32.938Z",
         "kleinezeitung": "2026-07-29T02:07:37.210Z"
@@ -12479,7 +12491,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T14:07:38.930Z"
+      "resonanceMeasuredAt": "2026-07-29T04:07:35.559Z"
     },
     "massenschlaegerei-innsbruck-juli-2026": {
       "canonicalTitle": "Massenschlägerei in Innsbruck: rund 20 Personen mit Messern und Eisenketten beteiligt, ein Mann verletzt",
@@ -13256,32 +13268,37 @@
       "resonanceMeasuredAt": "2026-07-28T22:07:32.314Z"
     },
     "lenzing-stellenabbau-heiligenkreuz-refinanzierung-juli-2026": {
-      "canonicalTitle": "Lenzing baut bis Ende 2027 rund 2000 Stellen ab, Standort Heiligenkreuz soll verkauft werden",
+      "canonicalTitle": "Lenzing baut bis Ende 2027 rund 2000 Stellen ab – Land Burgenland schließt Einstieg in Heiligenkreuz nicht aus",
       "slug": "lenzing-stellenabbau-heiligenkreuz-refinanzierung-juli-2026",
       "firstSeenAt": "2026-07-28T02:07:34.914Z",
-      "lastUpdatedAt": "2026-07-28T02:07:34.914Z",
+      "lastUpdatedAt": "2026-07-29T04:07:35.559Z",
       "status": "published",
       "articlePath": "src/content/articles/lenzing-stellenabbau-heiligenkreuz-refinanzierung-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-28/lenzing-stellenabbau-heiligenkreuz-refinanzierung-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-29/lenzing-stellenabbau-heiligenkreuz-refinanzierung-juli-2026-update-400.json",
       "sourceUrls": [
         "https://ooe.orf.at/stories/3364491",
         "https://burgenland.orf.at/stories/3364490",
         "https://www.derstandard.at/story/3000000333155/lenzing-l228sst-faserproduktion-im-burgenland-bis-ende-2027-auslaufen",
         "https://www.diepresse.com/39982925/lenzing-baut-weitere-jobs-auch-in-oesterreich-ab",
         "https://kurier.at/wirtschaft/lenzing-heiligenkreuz-produktion-faser-burgenland/403178409",
-        "https://www.ots.at/presseaussendung/EQS_20260727_EQS0014/eqs-adhoc-lenzing-ag-lenzing-ag-treibt-strategische-transformation-voran"
+        "https://www.ots.at/presseaussendung/EQS_20260727_EQS0014/eqs-adhoc-lenzing-ag-lenzing-ag-treibt-strategische-transformation-voran",
+        "https://kurier.at/chronik/burgenland/lenzing-lyocell-heiligenkreuz-fasern-doskozil/403178635",
+        "https://www.ots.at/presseaussendung/OTS_20260727_OTS0108/lh-doskozil-zu-lenzing-werk-land-wird-standort-und-mitarbeiter-in-heiligenkreuz-nicht-im-stich-lassen",
+        "https://burgenland.orf.at/stories/3364570",
+        "https://www.kleinezeitung.at/artikel/40106167/land-burgenland-will-lenzing-standort-mit-beteiligung-absichern"
       ],
       "openQuestions": [
-        "Endet die Faserproduktion in Heiligenkreuz bereits Ende 2026 oder erst Ende 2027 – die ORF-Ausgaben für Burgenland und Oberösterreich widersprechen sich hier?",
-        "Wer sind mögliche Käufer für die Standorte Heiligenkreuz und Grimsby, und laufen bereits konkrete Gespräche?",
-        "Wie positionieren sich Betriebsrat, Gewerkschaft oder die burgenländische Landesregierung zu den Plänen?",
-        "Stimmt die außerordentliche Hauptversammlung der Kapitalerhöhung von bis zu 300 Millionen Euro zu, und zu welchen Konditionen?",
-        "Wie verteilen sich die weltweit rund 2.000 abzubauenden Stellen auf die einzelnen Standorte außerhalb von Heiligenkreuz und Grimsby?"
+        "Wer sind mögliche Käufer für den Standort Heiligenkreuz, und laufen bereits konkrete Gespräche mit Interessenten?",
+        "Wie sähe ein etwaiges Beteiligungs- oder Übernahmemodell des Landes Burgenland konkret aus (Anteile, Finanzierungsrahmen, operative Führung)?",
+        "Warum wird die Zahl der betroffenen Beschäftigten in Heiligenkreuz unterschiedlich beziffert (285 versus rund 300 versus 320)?",
+        "Bezieht sich die von mehreren Medien genannte Frist „Ende 2027“ tatsächlich auf den Standort Grimsby bzw. den weltweiten Konzernumbau statt auf Heiligenkreuz selbst?",
+        "Wie positionieren sich Gewerkschaften (z. B. PRO-GE, GPA) über die Aussagen der Wirtschaftskammer hinaus zu den Plänen?",
+        "Stimmt die außerordentliche Hauptversammlung der geplanten Kapitalerhöhung von bis zu 300 Millionen Euro zu, und zu welchen Konditionen?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-29T02:07:34.914Z",
-      "doNotUpdateBefore": "2026-07-28T08:07:34.914Z",
-      "pendingOutcome": "Ausgang der außerordentlichen Hauptversammlung zur Kapitalerhöhung (rund 25. August 2026) sowie Ergebnis der Käufersuche für den Standort Heiligenkreuz.",
+      "doNotRedraftBefore": "2026-07-30T04:07:35.559Z",
+      "doNotUpdateBefore": "2026-07-29T10:07:35.559Z",
+      "pendingOutcome": "Ob sich bis Jahresende 2026 ein privater Investor für das Werk Heiligenkreuz findet, das Land Burgenland operativ einsteigt oder es tatsächlich zur Schließung kommt.",
       "pendingOutcomeUntil": "2026-07-30T02:07:34.914Z",
       "echoPublishers": {
         "orf": "2026-07-28T12:07:43.258Z",
@@ -13567,13 +13584,11 @@
       "doNotUpdateBefore": "2026-07-29T04:07:32.314Z",
       "echoPublishers": {
         "derstandard": "2026-07-28T10:07:40.119Z",
-        "diepresse": "2026-07-28T10:07:39.424Z",
-        "kurier": "2026-07-28T02:07:38.891Z",
-        "kleinezeitung": "2026-07-28T04:07:33.766Z"
+        "diepresse": "2026-07-28T10:07:39.424Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T22:07:32.314Z"
+      "resonanceMeasuredAt": "2026-07-29T04:07:35.559Z"
     },
     "johnson-johnson-talkum-vergleich-5-5-milliarden-juli-2026": {
       "canonicalTitle": "Johnson & Johnson zahlt rund 5,5 Milliarden Dollar zur Beilegung von Talkum-Klagen",
@@ -13650,7 +13665,7 @@
         "orf": "2026-07-28T22:07:34.199Z",
         "diepresse": "2026-07-28T22:07:36.049Z",
         "kurier": "2026-07-28T22:07:35.656Z",
-        "derstandard": "2026-07-28T06:07:40.772Z"
+        "derstandard": "2026-07-29T04:07:40.480Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
@@ -13690,6 +13705,41 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T02:07:30.575Z"
+    },
+    "waldbrand-scheffau-wilder-kaiser-juli-2026": {
+      "canonicalTitle": "Waldbrand bei Scheffau am Wilden Kaiser: Feuerwehr kämpft im Tiroler Unterland gegen die Flammen",
+      "slug": "waldbrand-scheffau-wilder-kaiser-juli-2026",
+      "firstSeenAt": "2026-07-29T04:07:35.559Z",
+      "lastUpdatedAt": "2026-07-29T04:07:35.559Z",
+      "status": "published",
+      "articlePath": "src/content/articles/waldbrand-scheffau-wilder-kaiser-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/waldbrand-scheffau-wilder-kaiser-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333288/feuerwehren-k228mpfen-im-tiroler-unterland-gegen-waldbrand",
+        "https://www.diepresse.com/40177665/feuerwehren-kaempfen-im-tiroler-unterland-gegen-waldbrand",
+        "https://www.kleinezeitung.at/artikel/40171639/grosseinsatz-wegen-waldbrandes-im-tiroler-unterland",
+        "https://tirol.orf.at/stories/3364633/",
+        "https://www.meinbezirk.at/kufstein/c-lokales/waldbrand-im-kaisergebirge-rund-80-feuerwehrleute-im-einsatz_a8819551"
+      ],
+      "openQuestions": [
+        "Wie ist der Löscheinsatz am Mittwoch, 29. Juli, verlaufen und gilt der Brand mittlerweile als unter Kontrolle?",
+        "Was hat den Waldbrand ausgelöst?",
+        "Wie viele Feuerwehrleute und Rettungskräfte waren tatsächlich im Einsatz?",
+        "Gab es Verletzte oder Sachschäden, etwa an Gebäuden oder der Infrastruktur?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-30T04:07:35.559Z",
+      "doNotUpdateBefore": "2026-07-29T10:07:35.559Z",
+      "pendingOutcome": "Ergebnis des am Mittwoch fortgesetzten Löscheinsatzes bei Scheffau und ob der Waldbrand mittlerweile vollständig unter Kontrolle gebracht werden konnte.",
+      "pendingOutcomeUntil": "2026-07-31T04:07:35.559Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-28T22:07:35.173Z",
+        "diepresse": "2026-07-28T22:07:36.049Z",
+        "kleinezeitung": "2026-07-28T22:07:37.258Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T04:07:35.559Z"
     }
   }
 }
