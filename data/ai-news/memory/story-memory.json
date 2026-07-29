@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T18:28:07.800Z",
+  "updatedAt": "2026-07-29T22:30:47.102Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -6897,11 +6897,14 @@
       "doNotRedraftBefore": "2026-07-26T14:07:26.923Z",
       "doNotUpdateBefore": "2026-07-25T20:07:26.923Z",
       "echoPublishers": {
-        "derstandard": "2026-07-29T14:07:38.658Z"
+        "derstandard": "2026-07-29T14:07:38.658Z",
+        "orf": "2026-07-29T22:07:28.412Z",
+        "kurier": "2026-07-29T22:07:29.327Z",
+        "kleinezeitung": "2026-07-29T22:07:30.457Z"
       },
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T22:07:32.314Z"
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-29T22:07:26.817Z"
     },
     "china-ki-kimi-k3-xi-jinping-shanghai-juli-2026": {
       "canonicalTitle": "Moonshot AIs Kimi K3 und Xi Jinpings Ruf nach Kontrolle: Chinas KI-Doppelschlag von Shanghai",
@@ -13215,10 +13218,12 @@
       "doNotUpdateBefore": "2026-07-28T12:07:33.498Z",
       "pendingOutcome": "Offen bleibt, ob Reaktorblock 1 wie berichtet nur bis 4. August 2026 abgeschaltet bleibt oder ob auch Block 2 vom Netz genommen werden muss, wie sich der Donau-Pegel weiterentwickelt und in welchem tatsächlichen Umfang Rumänien Strom importiert.",
       "pendingOutcomeUntil": "2026-07-30T00:07:29.957Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T02:07:30.575Z"
+      "echoPublishers": {
+        "derstandard": "2026-07-29T22:07:28.862Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-29T22:07:26.817Z"
     },
     "uno-kriegsverbrechen-israel-libanon-juli-2026": {
       "canonicalTitle": "UNO-Menschenrechtsbüro sieht mögliche Kriegsverbrechen Israels im Libanon",
@@ -13851,28 +13856,34 @@
       "canonicalTitle": "Russischer Geheimdienst FSB erlässt internationalen Haftbefehl gegen Telegram-Gründer Pawel Durow",
       "slug": "russland-haftbefehl-durow-telegram-juli-2026",
       "firstSeenAt": "2026-07-29T08:07:26.791Z",
-      "lastUpdatedAt": "2026-07-29T08:07:26.791Z",
+      "lastUpdatedAt": "2026-07-29T22:07:26.817Z",
       "status": "published",
       "articlePath": "src/content/articles/russland-haftbefehl-durow-telegram-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-29/russland-haftbefehl-durow-telegram-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-29/russland-haftbefehl-durow-telegram-juli-2026-update-2200.json",
       "sourceUrls": [
         "https://orf.at/stories/3437587",
         "https://www.derstandard.at/story/3000000333304/terrorvorwuerfe-russischer-geheimdienst-erlaesst-haftbefehl-gegen-telegram-gruender-durow",
         "https://www.diepresse.com/40181158/russland-erlaesst-haftbefehl-gegen-telegram-gruender-durow",
         "https://www.themoscowtimes.com/2026/07/29/fsb-issues-arrest-warrant-for-pavel-durov-for-aiding-terrorism-a93364",
-        "https://meduza.io/en/news/2026/07/29/russia-s-fsb-security-service-accuses-telegram-founder-pavel-durov-of-aiding-terrorism-issues-international-arrest-warrant"
+        "https://meduza.io/en/news/2026/07/29/russia-s-fsb-security-service-accuses-telegram-founder-pavel-durov-of-aiding-terrorism-issues-international-arrest-warrant",
+        "https://www.heise.de/news/Russland-erlaesst-Haftbefehl-gegen-Telegram-Gruender-Durow-11381305.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://kurier.at/politik/ausland/telegram-gruender-pawel-durow-russland-haftbefehl-fsb/403178741",
+        "https://www.kleinezeitung.at/artikel/40221945/russland-erlaesst-haftbefehl-gegen-telegram-gruender-durow",
+        "https://www.heise.de/news/Russland-erlaesst-Haftbefehl-gegen-Telegram-Gruender-Durow-11381305.html"
       ],
       "openQuestions": [
-        "Werden Durow, Telegram, Frankreich oder die EU offiziell auf den neuen Haftbefehl reagieren?",
-        "Welche konkreten Inhalte bzw. Fälle liegen dem FSB-Vorwurf der mangelnden Moderation zugrunde?",
-        "Wo lebt Pawel Durow tatsächlich – Frankreich oder die Vereinigten Arabischen Emirate?",
+        "Wird es über das bisherige Meme hinaus eine inhaltliche Stellungnahme von Durow oder Telegram geben, und reagieren Frankreich oder die EU offiziell auf den Haftbefehl?",
+        "Welche konkreten Einzelfälle bzw. Inhalte liegen dem FSB-Vorwurf zugrunde, über die allgemeine Berufung auf Artikel 205.1 hinaus?",
+        "Wie lässt sich die strenge französische Ausreisebeschränkung gegen Durow mit Berichten vereinbaren, wonach er Telegram von Dubai aus leitet?",
         "Welche praktischen Folgen hat der russische Haftbefehl außerhalb Russlands, etwa über Interpol?",
         "Steht der neue Vorwurf im Zusammenhang mit dem im Februar 2026 gemeldeten früheren russischen Verfahren, oder handelt es sich um einen eigenständigen neuen Fall?",
         "Wie wirkt sich der Vorgang auf das parallel in Frankreich laufende Verfahren gegen Durow aus?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-30T08:07:26.791Z",
-      "doNotUpdateBefore": "2026-07-29T14:07:26.791Z",
+      "doNotRedraftBefore": "2026-07-30T22:07:26.817Z",
+      "doNotUpdateBefore": "2026-07-30T04:07:26.817Z",
+      "pendingOutcome": "Reaktionen von Durow, Telegram (über das bisherige Meme hinaus), Frankreich oder der EU auf den russischen Haftbefehl sowie etwaige praktische Schritte (z. B. über Interpol) stehen weiterhin aus.",
+      "pendingOutcomeUntil": "2026-07-31T22:07:26.817Z",
       "echoPublishers": {
         "orf": "2026-07-29T08:07:28.462Z",
         "derstandard": "2026-07-29T08:07:29.202Z",
@@ -14218,6 +14229,80 @@
         "Potenzielle Auswirkungen auf österreichische/europäische Dienstrad-Märkte"
       ],
       "sensitivity": "low"
+    },
+    "sos-kinderdorf-reformkommission-umsetzung-juli-2026": {
+      "canonicalTitle": "SOS-Kinderdorf beginnt mit Umsetzung der Reformkommissions-Empfehlungen",
+      "slug": "sos-kinderdorf-reformkommission-umsetzung-juli-2026",
+      "firstSeenAt": "2026-07-29T22:07:26.817Z",
+      "lastUpdatedAt": "2026-07-29T22:07:26.817Z",
+      "status": "published",
+      "articlePath": "src/content/articles/sos-kinderdorf-reformkommission-umsetzung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/sos-kinderdorf-reformkommission-umsetzung-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333377/sos-kinderdorf-will-empfehlungen-der-reformkommission-umsetzen",
+        "https://kurier.at/chronik/oesterreich/sos-kinderdorf-missbrauch-empfehlungen-reformkommission/403178774",
+        "https://www.ots.at/presseaussendung/OTS_20260729_OTS0011/sos-kinderdorf-uebernimmt-verantwortung-und-setzt-empfehlungen-des-reformberichts-konsequent-um",
+        "https://orf.at/stories/3434470/"
+      ],
+      "openQuestions": [
+        "Was steht konkret im vollständigen Bericht der Reformkommission unter Irmgard Griss, und wird er öffentlich zugänglich gemacht?",
+        "Wie bewerten Betroffenenverbände und Opferorganisationen die angekündigten Maßnahmen?",
+        "Wie unabhängig ist die neu eingerichtete interne Revision tatsächlich, und wer kontrolliert die Umsetzung von außen?",
+        "Welche finanziellen und personellen Ressourcen sind für Rahmenschutzkonzept, Risikoanalysen und Entschädigungsverfahren vorgesehen?",
+        "Was hat die Kinder- und Jugendsprecherin der Grünen, Barbara Neß, zu der Ankündigung gesagt?",
+        "Wie ordnet die internationale SOS-Kinderdorf-Föderation bzw. die angekündigte historische Aufarbeitung der Ära Hermann Gmeiner die Vorgänge ein?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-30T22:07:26.817Z",
+      "doNotUpdateBefore": "2026-07-30T04:07:26.817Z",
+      "pendingOutcome": "Fertigstellung des österreichweiten Rahmenschutzkonzepts, das für Frühjahr 2027 angekündigt ist, sowie Abschluss der bis Ende 2026 geplanten Risikoanalysen an den SOS-Kinderdorf-Standorten.",
+      "pendingOutcomeUntil": "2026-07-31T22:07:26.817Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-29T12:07:42.665Z",
+        "kurier": "2026-07-29T12:07:41.984Z",
+        "apa": "2026-07-29T08:07:29.414Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T22:07:26.817Z"
+    },
+    "glen-hansard-toedlicher-motorradunfall-dublin-juli-2026": {
+      "canonicalTitle": "Irischer Musiker Glen Hansard bei Motorradunfall in Dublin gestorben",
+      "slug": "glen-hansard-toedlicher-motorradunfall-dublin-juli-2026",
+      "firstSeenAt": "2026-07-29T22:07:26.817Z",
+      "lastUpdatedAt": "2026-07-29T22:07:26.817Z",
+      "status": "published",
+      "articlePath": "src/content/articles/glen-hansard-toedlicher-motorradunfall-dublin-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/glen-hansard-toedlicher-motorradunfall-dublin-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437628",
+        "https://www.derstandard.at/story/3000000333385/irischer-musiker-und-schauspieler-glen-hansard-t246dlich-verungl252ckt",
+        "https://www.diepresse.com/40254399/musiker-glen-hansard-toedlich-verunglueckt",
+        "https://kurier.at/kultur/glen-hansard-toedlich-verunglueckt/403178769",
+        "https://www.kleinezeitung.at/artikel/40263219/irischer-musiker-und-schauspieler-glen-hansard-ist-tot",
+        "https://www.kleinezeitung.at/artikel/40253774/irischer-musiker-glen-hansard-im-alter-von-56-jahren-gestorben",
+        "https://www.rte.ie/news/ireland/2026/0729/1585555-dublin-crash-glen-hansard/",
+        "https://www.irishtimes.com/culture/music/2026/07/29/glen-hansard-dies-in-dublin-motorbike-crash/"
+      ],
+      "openQuestions": [
+        "Wie genau kam es zu dem Alleinunfall auf der R109 bei Lucan?",
+        "Liegt mittlerweile eine offizielle Stellungnahme der Gardaí oder des Managements von Glen Hansard vor?",
+        "Welche Details zu einer Beisetzung oder einem öffentlichen Gedenken sind geplant?",
+        "Wie reagieren enge künstlerische Weggefährten wie Markéta Irglová, John Carney, Eddie Vedder oder Bono öffentlich auf den Tod?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-30T22:07:26.817Z",
+      "doNotUpdateBefore": "2026-07-30T04:07:26.817Z",
+      "echoPublishers": {
+        "orf": "2026-07-29T12:07:40.220Z",
+        "derstandard": "2026-07-29T12:07:42.726Z",
+        "diepresse": "2026-07-29T12:07:42.345Z",
+        "kurier": "2026-07-29T12:07:41.970Z",
+        "kleinezeitung": "2026-07-29T12:07:43.678Z"
+      },
+      "resonanceLevel": 5,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T22:07:26.817Z"
     }
   }
 }
