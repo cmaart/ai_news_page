@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T04:27:51.382Z",
+  "updatedAt": "2026-07-29T06:23:08.151Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2850,10 +2850,15 @@
       "doNotUpdateBefore": "2026-07-29T10:07:35.559Z",
       "pendingOutcome": "Offen bleibt, ob der Angriffsstopp zwischen den USA und dem Iran endgültig gescheitert ist, wie beide Seiten in den kommenden Tagen tatsächlich reagieren und welche Folgen das vorangegangene Treffen zwischen Trump und Netanyahu hat.",
       "pendingOutcomeUntil": "2026-07-31T04:07:35.559Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T10:07:34.204Z"
+      "echoPublishers": {
+        "diepresse": "2026-07-29T06:07:31.856Z",
+        "kurier": "2026-07-29T06:07:31.435Z",
+        "orf": "2026-07-29T00:07:33.635Z",
+        "kleinezeitung": "2026-07-29T00:07:36.725Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-29T06:07:28.390Z"
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -5106,8 +5111,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T06:07:23.886Z",
       "doNotUpdateBefore": "2026-07-27T12:07:23.886Z",
-      "pendingOutcome": "Weitere Entwicklung der Fallzahlen, mögliche Bestätigung durch einen aktuellen WHO-Lagebericht sowie ob der Ausbruch tatsächlich bis ins kommende Jahr andauert.",
-      "pendingOutcomeUntil": "2026-07-29T06:07:23.886Z",
       "echoPublishers": {
         "derstandard": "2026-07-28T12:07:43.528Z",
         "kleinezeitung": "2026-07-28T12:07:47.637Z"
@@ -13663,8 +13666,8 @@
       "doNotUpdateBefore": "2026-07-29T06:07:31.790Z",
       "echoPublishers": {
         "orf": "2026-07-28T22:07:34.199Z",
-        "diepresse": "2026-07-28T22:07:36.049Z",
-        "kurier": "2026-07-28T22:07:35.656Z",
+        "diepresse": "2026-07-29T06:07:31.856Z",
+        "kurier": "2026-07-29T06:07:31.435Z",
         "derstandard": "2026-07-29T04:07:40.480Z"
       },
       "resonanceLevel": 4,
@@ -13740,6 +13743,119 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T04:07:35.559Z"
+    },
+    "emmerling-straffaellige-kinder-social-media-verbot-juli-2026": {
+      "canonicalTitle": "Emmerling plädiert für Betreuung statt Wegsperren bei straffälligen Kindern",
+      "slug": "emmerling-straffaellige-kinder-social-media-verbot-juli-2026",
+      "firstSeenAt": "2026-07-29T06:07:28.390Z",
+      "lastUpdatedAt": "2026-07-29T06:07:28.390Z",
+      "status": "published",
+      "articlePath": "src/content/articles/emmerling-straffaellige-kinder-social-media-verbot-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/emmerling-straffaellige-kinder-social-media-verbot-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333298/vizebuergermeisterin-emmerling-ueber-kriminelle-kinder-wir-kennen-alle-unsere-intensivtaeter-in-wien",
+        "https://www.ots.at/presseaussendung/OTS_20260727_OTS0096/spoe-stich-zu-social-media-verbot-fuer-kinder-wenn-plattformen-unsere-kinder-nicht-schuetzen-schuetzen-wir-die-kinder-vor-den-plattformen",
+        "https://www.ots.at/presseaussendung/OTS_20260727_OTS0092/sommerministerrat-seltenheim-wehrdienst-reform-und-social-media-verbot-fuer-kinder-staerken-schutz-und-sicherheit-in-oesterreich",
+        "https://www.kleinezeitung.at/artikel/39954644/oesterreich-gesetzesentwurf-zu-social-media-verbot-in-begutachtung",
+        "https://www.derstandard.at/story/3000000332875/brauchen-wir-riesenrechenzentren-in-oesterreich-herr-virag-es-geht-um-unser-wirtschaftliches-ueberleben",
+        "https://www.ots.at/presseaussendung/OTS_20260728_OTS0078/spoe-herr-wasser-schuetzen-heisst-zukunft-sichern",
+        "https://www.kleinezeitung.at/artikel/40174118/bettina-emmerling-wir-duerfen-bei-straffaelligen-kindern-nicht-einfach",
+        "https://www.bundeskanzleramt.gv.at/bundeskanzleramt/nachrichten-der-bundesregierung/2026/07/gesetzesentwurf-fuer-social-media-verbot-unter-14-geht-mit-dem-heutigen-tag-in-begutachtung.html"
+      ],
+      "openQuestions": [
+        "Aus welcher amtlichen Datenquelle und welchem Erhebungszeitraum stammen die vom STANDARD zitierten 13.000 Anzeigen und die 51-Prozent-Angabe?",
+        "Wie erfolgreich ist das Wiener Auszeit-WG-Modell in der Praxis, und wie viele Kinder lehnen angebotene Hilfe tatsächlich ab?",
+        "Wie äußern sich Kinderrechtsorganisationen oder Jugendhilfe-Fachleute zu den beiden Vorhaben?",
+        "Wie soll die Altersverifikation beim Social-Media-Mindestalter technisch umgesetzt werden, und wann tritt das Gesetz tatsächlich in Kraft?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-30T06:07:28.390Z",
+      "doNotUpdateBefore": "2026-07-29T12:07:28.390Z",
+      "pendingOutcome": "Ausgang der Begutachtungsfrist und der EU-Notifizierung sowie der endgültige parlamentarische Beschluss zum Social-Media-Mindestalter-Gesetz.",
+      "pendingOutcomeUntil": "2026-07-31T06:07:28.390Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-29T06:07:31.543Z",
+        "apa": "2026-07-28T14:07:42.357Z",
+        "kleinezeitung": "2026-07-28T22:07:37.258Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T06:07:28.390Z"
+    },
+    "waldbrand-paros-evakuierungen-juli-2026": {
+      "canonicalTitle": "Waldbrand auf Paros: Neun Ortschaften evakuiert, Feuer nach einer Nacht weiter außer Kontrolle",
+      "slug": "waldbrand-paros-evakuierungen-juli-2026",
+      "firstSeenAt": "2026-07-29T06:07:28.390Z",
+      "lastUpdatedAt": "2026-07-29T06:07:28.390Z",
+      "status": "published",
+      "articlePath": "src/content/articles/waldbrand-paros-evakuierungen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/waldbrand-paros-evakuierungen-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437577",
+        "https://www.derstandard.at/story/3000000333296/waldbr228nde-auf-griechischer-insel-paros-mehrere-d246rfer-evakuiert",
+        "https://www.diepresse.com/40180521/waldbraende-mehrere-doerfer-auf-griechischer-insel-paros-evakuiert",
+        "https://www.kleinezeitung.at/artikel/40180121/waldbraende-auf-paros-mehrere-doerfer-evakuiert",
+        "https://greekreporter.com/2026/07/29/wildfire-on-paros-triggers-evacuations-as-firefighters-battle-flames/",
+        "https://www.ertnews.gr/eidiseis/ellada/paros-olonyxtia-i-maxi-me-tis-floges-ekkenothikan-oikismoi-nea-minymata-tou-112/",
+        "https://en.protothema.gr/2026/07/28/wildfire-on-paros-forces-evacuation-of-four-areas-as-reinforcements-arrive-by-air-and-sea/",
+        "https://greekcitytimes.com/2026/07/29/paros-wildfire-evacuations-greece-july-2026/"
+      ],
+      "openQuestions": [
+        "Wie viele Menschen wurden auf Paros insgesamt evakuiert bzw. in Notunterkünfte gebracht?",
+        "Wie groß ist die bislang durch den Brand verbrannte Fläche?",
+        "Was hat den Brand nahe der Mülldeponie im Gebiet Kambi ausgelöst?",
+        "Gab es Verletzte oder Schäden an Wohnhäusern?",
+        "Konnte die Feuerwehr den Brand am Mittwoch unter Kontrolle bringen, nachdem sich der Wind wie vorhergesagt verstärkt hat?",
+        "Wie hat sich die Lage auf den übrigen Inseln mit hoher Warnstufe (Kreta, Lesbos, Chios, Samos, Ikaria, Psara) entwickelt?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-30T06:07:28.390Z",
+      "doNotUpdateBefore": "2026-07-29T12:07:28.390Z",
+      "pendingOutcome": "Ob die Feuerwehr den Brand auf Paros unter den für Mittwoch vorhergesagten stärkeren Winden eindämmen kann und wie viele Menschen letztlich evakuiert wurden bzw. zurückkehren können.",
+      "pendingOutcomeUntil": "2026-07-31T06:07:28.390Z",
+      "echoPublishers": {
+        "orf": "2026-07-29T06:07:30.082Z",
+        "derstandard": "2026-07-29T06:07:32.342Z",
+        "diepresse": "2026-07-29T06:07:31.856Z",
+        "kleinezeitung": "2026-07-29T06:07:32.919Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T06:07:28.390Z"
+    },
+    "merz-eu-haushalt-kuerzung-dublin-juli-2026": {
+      "canonicalTitle": "Merz fordert bei Dublin-Besuch Kürzung des EU-Haushalts um mehrere hundert Milliarden Euro",
+      "slug": "merz-eu-haushalt-kuerzung-dublin-juli-2026",
+      "firstSeenAt": "2026-07-29T06:07:28.390Z",
+      "lastUpdatedAt": "2026-07-29T06:07:28.390Z",
+      "status": "published",
+      "articlePath": "src/content/articles/merz-eu-haushalt-kuerzung-dublin-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/merz-eu-haushalt-kuerzung-dublin-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333283/merz-f252r-k252rzung-des-eu-haushalts-um-mehrere-100-milliarden",
+        "https://www.diepresse.com/40157014/merz-fuer-kuerzung-des-eu-haushalts-um-mehrere-100-milliarden",
+        "https://www.handelsblatt.com/politik/international/eu-haushalt-merz-fuer-kuerzung-des-eu-budgets-um-mehrere-100-milliarden/100243477.html"
+      ],
+      "openQuestions": [
+        "Wie reagieren die EU-Kommission (etwa Präsidentin von der Leyen oder der zuständige Finanzkommissar) und das Europäische Parlament offiziell auf die Kürzungsforderung von Merz?",
+        "Welche konkreten Budgetbereiche – Agrarpolitik, Strukturförderung, Verteidigungsbeschaffung, Erasmus – will Merz tatsächlich kürzen?",
+        "Wie positionieren sich die Nettoempfängerstaaten (z. B. Polen, Ungarn, südeuropäische Länder) konkret zu den Kürzungsforderungen?",
+        "Welche konkreten Kürzungsvorstellungen hat die österreichische Regierung jenseits der allgemeinen Forderung nach einem kleineren Budget?",
+        "Gelingt der von der irischen Ratspräsidentschaft für Oktober 2026 erwartete neue Kompromissvorschlag, und wie sieht er aus?",
+        "Wird die angestrebte Einigung unter den 27 Mitgliedstaaten tatsächlich bis Ende 2026 erzielt, wie es als Ziel genannt wird?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-30T06:07:28.390Z",
+      "doNotUpdateBefore": "2026-07-29T12:07:28.390Z",
+      "pendingOutcome": "Der für Oktober 2026 erwartete neue Kompromissvorschlag der irischen EU-Ratspräsidentschaft zum EU-Haushalt 2028–2034 sowie eine mögliche Einigung der 27 Mitgliedstaaten bis Jahresende.",
+      "pendingOutcomeUntil": "2026-07-31T06:07:28.390Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-28T16:07:43.302Z",
+        "diepresse": "2026-07-28T16:07:41.985Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T06:07:28.390Z"
     }
   }
 }
