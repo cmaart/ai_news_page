@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T00:21:38.559Z",
+  "updatedAt": "2026-07-29T02:30:42.387Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2836,8 +2836,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T02:07:30.478Z",
       "doNotUpdateBefore": "2026-07-27T08:07:30.478Z",
-      "pendingOutcome": "Ob der beidseitige Angriffsstopp Bestand hat, in ein förmliches Waffenstillstandsabkommen mündet oder erneut kollabiert, und welche Rolle der Netanyahu-Besuch bei Trump am Dienstag dabei spielt, bleibt offen und wird weiterverfolgt.",
-      "pendingOutcomeUntil": "2026-07-29T02:07:30.478Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -5102,7 +5100,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T12:07:41.324Z"
+      "resonanceMeasuredAt": "2026-07-29T02:07:30.575Z"
     },
     "armutskonferenz-gesetzesentwurf-sozialhilfe-reform-2026": {
       "canonicalTitle": "Armutskonferenz legt Gesetzesentwurf zur Reform der Sozialhilfe vor",
@@ -7681,11 +7679,12 @@
       "pendingOutcome": "Ob Saudi-Arabien den von der Huthi-Miliz behaupteten Angriff auf Jizan und Yanbu offiziell bestätigt, wie sich der eingebrochene Schiffsverkehr und der Ölpreis in den kommenden Tagen entwickeln, und ob die wechselseitigen Angriffe zwischen Huthi-Miliz und saudischer Koalition sowie der weitere US-Iran-Konflikt eskalieren, bleibt offen und wird weiterverfolgt.",
       "pendingOutcomeUntil": "2026-07-29T04:07:30.156Z",
       "echoPublishers": {
-        "orf": "2026-07-28T22:07:34.199Z"
+        "orf": "2026-07-29T02:07:32.938Z",
+        "kleinezeitung": "2026-07-29T02:07:37.210Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-21T16:07:28.905Z"
+      "resonanceMeasuredAt": "2026-07-29T02:07:30.575Z"
     },
     "kraus-grabher-kitzbuehel-finale-juli-2026": {
       "canonicalTitle": "Kraus gewinnt rein österreichisches Kitzbühel-Finale gegen Grabher",
@@ -12507,28 +12506,36 @@
       "doNotUpdateBefore": "2026-07-26T16:07:31.142Z"
     },
     "hitzewelle-oesterreich-38-grad-juli-2026": {
-      "canonicalTitle": "Neue Hitzewelle mit bis zu 38 Grad rollt ab Mittwoch auf Österreich zu",
+      "canonicalTitle": "Neue Hitzewelle: Bis zu 39 Grad in Österreich, auch Italien, Frankreich und Kroatien betroffen",
       "slug": "hitzewelle-oesterreich-38-grad-juli-2026",
       "firstSeenAt": "2026-07-26T12:07:25.006Z",
-      "lastUpdatedAt": "2026-07-26T12:07:25.006Z",
+      "lastUpdatedAt": "2026-07-29T02:07:30.575Z",
       "status": "published",
       "articlePath": "src/content/articles/hitzewelle-oesterreich-38-grad-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-26/hitzewelle-oesterreich-38-grad-juli-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-29/hitzewelle-oesterreich-38-grad-juli-2026-update-200.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000332984/bis-zu-38-grad-erwartet-die-n228chste-hitzewelle-rollt-an",
         "https://www.diepresse.com/39738254/bis-zu-38-grad-erwartet-die-naechste-hitzewelle-rollt-an",
         "https://kurier.at/chronik/oesterreich/38-grad-hitze-hitzewelle-wetter-vorschau-hundstage-sommer/403178213",
-        "https://kurier.at/chronik/oesterreich/hitzewelle-2026-juli-august-wetter-prognose/403177724"
+        "https://kurier.at/chronik/oesterreich/hitzewelle-2026-juli-august-wetter-prognose/403177724",
+        "https://kurier.at/chronik/welt/europa-hitzewelle-temperaturen-trockenheit/403178513",
+        "https://www.kleinezeitung.at/artikel/40011441/bis-zu-37-grad-die-naechste-hitzewelle-rollt-ueber-die-steiermark",
+        "https://www.kleinezeitung.at/artikel/40009829/neue-hitzewelle-rollt-ueber-italien-temperaturen-um-40-grad-erwartet",
+        "https://www.kleinezeitung.at/artikel/40008730/neue-hitzewelle-in-italien-temperaturen-um-die-40-grad"
       ],
       "openQuestions": [
-        "Wie lange hält die Hitzewelle über Freitag hinaus an, und wann kommt die nächste Abkühlung?",
-        "Werden im Zuge der Hitzewelle einzelne Tages- oder Monatsrekorde gebrochen?",
-        "Gibt es behördliche Hitzewarnungen oder Gesundheitsempfehlungen für die betroffenen Regionen?",
-        "Wie stark unterscheiden sich die tatsächlichen Höchstwerte regional von der aktuellen Prognose?"
+        "Werden die für Freitag prognostizierten 39 Grad in Österreich tatsächlich erreicht, und kommt es am Wochenende zu einer weiteren Verschärfung der Warnstufe?",
+        "Wie lange hält die Hitzewelle über das Wochenende hinaus an, und wann kommt die nächste Abkühlung?",
+        "Werden im Zuge der Hitzewelle in Österreich oder Italien einzelne Tages- oder Monatsrekorde gebrochen?",
+        "Hält die Hitzewelle in Italien tatsächlich bis mindestens 10. August an, und wie wirkt sich das konkret auf Wasserstände und Landwirtschaft in der Po-Ebene aus?",
+        "Bestätigt sich der von Kurier hergestellte Zusammenhang zwischen der Hitze in Südfrankreich und den dortigen Waldbränden durch weitere, unabhängige Quellen?",
+        "Wie stark unterscheiden sich die tatsächlichen Höchstwerte regional (z. B. Steiermark, Wien, Kroatien) von den aktuellen Prognosen?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-27T12:07:25.006Z",
-      "doNotUpdateBefore": "2026-07-26T18:07:25.006Z",
+      "doNotRedraftBefore": "2026-07-30T02:07:30.575Z",
+      "doNotUpdateBefore": "2026-07-29T08:07:30.575Z",
+      "pendingOutcome": "Ob die für Freitag prognostizierten 39 Grad tatsächlich erreicht werden, wie lange die Hitzewelle über das Wochenende hinaus anhält, ob Rekordwerte fallen und wie sich die Lage in Italien bis zum genannten 10. August entwickelt, ist noch offen.",
+      "pendingOutcomeUntil": "2026-07-31T02:07:30.575Z",
       "echoPublishers": {
         "kurier": "2026-07-28T10:07:39.307Z",
         "kleinezeitung": "2026-07-28T10:07:42.207Z"
@@ -12772,8 +12779,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T00:07:35.033Z",
       "doNotUpdateBefore": "2026-07-27T06:07:35.033Z",
-      "pendingOutcome": "Ausgang der laufenden belgischen Ermittlungen, insbesondere eine mögliche Anklageerhebung und die Identifizierung des mutmaßlichen Auftraggeberlands.",
-      "pendingOutcomeUntil": "2026-07-29T00:07:35.033Z",
       "echoPublishers": {}
     },
     "gleitschirmabsturz-mitterbach-gemeindealpe-juli-2026": {
@@ -13187,13 +13192,11 @@
       "pendingOutcome": "Offen bleibt, ob Reaktorblock 1 wie berichtet nur bis 4. August 2026 abgeschaltet bleibt oder ob auch Block 2 vom Netz genommen werden muss, wie sich der Donau-Pegel weiterentwickelt und in welchem tatsächlichen Umfang Rumänien Strom importiert.",
       "pendingOutcomeUntil": "2026-07-30T00:07:29.957Z",
       "echoPublishers": {
-        "derstandard": "2026-07-28T00:07:33.178Z",
-        "kleinezeitung": "2026-07-28T00:07:35.817Z",
         "orf": "2026-07-28T06:07:35.666Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T22:07:32.314Z"
+      "resonanceMeasuredAt": "2026-07-29T02:07:30.575Z"
     },
     "uno-kriegsverbrechen-israel-libanon-juli-2026": {
       "canonicalTitle": "UNO-Menschenrechtsbüro sieht mögliche Kriegsverbrechen Israels im Libanon",
@@ -13462,7 +13465,6 @@
       "echoPublishers": {
         "orf": "2026-07-28T06:07:35.666Z",
         "derstandard": "2026-07-28T06:07:40.772Z",
-        "kleinezeitung": "2026-07-28T00:07:36.403Z",
         "kurier": "2026-07-28T08:07:34.102Z"
       },
       "resonanceLevel": 4,
@@ -13506,10 +13508,10 @@
       "canonicalTitle": "Italien senkt Diesel-Verbrauchsteuer bis 6. August um 17 Cent pro Liter",
       "slug": "italien-tankrabatt-diesel-august-2026",
       "firstSeenAt": "2026-07-28T08:07:30.496Z",
-      "lastUpdatedAt": "2026-07-28T08:07:30.496Z",
+      "lastUpdatedAt": "2026-07-29T02:07:30.575Z",
       "status": "published",
       "articlePath": "src/content/articles/italien-tankrabatt-diesel-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-28/italien-tankrabatt-diesel-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-07-29/italien-tankrabatt-diesel-august-2026-update-200.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000333182/italien-beschlie223t-tankrabatt-f252r-diesel-bis-6-august",
         "https://kurier.at/politik/ausland/italien-tankrabatt-diesel/403178499",
@@ -13524,9 +13526,9 @@
         "Welche konkreten zusätzlichen Entlastungen bei Strom- und Gaspreisen plant Rom für den Herbst, und werden die dafür in Aussicht gestellten Spielräume bei den EU-Fiskalregeln tatsächlich genutzt?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-29T08:07:30.496Z",
-      "doNotUpdateBefore": "2026-07-28T14:07:30.496Z",
-      "pendingOutcome": "Entscheidung des italienischen Kabinetts vom 4. August 2026 über eine mögliche Verlängerung oder Ausweitung des Diesel-Rabatts nach dessen geplantem Auslaufen am 6. August.",
+      "doNotRedraftBefore": "2026-07-30T02:07:30.575Z",
+      "doNotUpdateBefore": "2026-07-29T08:07:30.575Z",
+      "pendingOutcome": "Ob die italienische Regierung den Diesel-Tankrabatt nach dem 6. August verlängert, ausweitet oder auslaufen lässt, entscheidet sich erst nach der für 4. August angekündigten Kabinettsberatung.",
       "pendingOutcomeUntil": "2026-07-30T08:07:30.496Z",
       "echoPublishers": {
         "derstandard": "2026-07-28T08:07:34.813Z",
@@ -13653,6 +13655,41 @@
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T00:07:31.790Z"
+    },
+    "aua-flugzeug-uebernachtung-kosice-juli-2026": {
+      "canonicalTitle": "Unbekannter übernachtet unbemerkt in AUA-Flugzeug am Flughafen Košice",
+      "slug": "aua-flugzeug-uebernachtung-kosice-juli-2026",
+      "firstSeenAt": "2026-07-29T02:07:30.575Z",
+      "lastUpdatedAt": "2026-07-29T02:07:30.575Z",
+      "status": "published",
+      "articlePath": "src/content/articles/aua-flugzeug-uebernachtung-kosice-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-29/aua-flugzeug-uebernachtung-kosice-juli-2026.json",
+      "sourceUrls": [
+        "https://noe.orf.at/stories/3364581",
+        "https://www.diepresse.com/40011712/massives-sicherheitsproblem-mann-uebernachtete-in-aua-maschine",
+        "https://kurier.at/chronik/welt/aua-flugzeug-uebernachtung-kaschau-slowakei-kosice/403178524",
+        "https://www.austrianwings.info/2026/07/mann-dringt-in-aua-maschine-ein-und-uebernachtet-dort/",
+        "https://dennikn.sk/5472915/na-kosickom-letisku-sa-v-noci-muz-bez-dokladov-dostal-do-lietadla-austrian-airlines-a-zaspal-v-nom/"
+      ],
+      "openQuestions": [
+        "Wie genau überwand der Mann die Sicherheitskontrollen des Flughafens Košice und gelangte auf das Vorfeld?",
+        "Wer ist der Mann, und was war sein Motiv für das Eindringen?",
+        "Welche Konsequenzen zieht der Flughafen Košice aus dem Sicherheitsvorfall?",
+        "Wie ist der aktuelle Stand der Ermittlungen der slowakischen Polizei?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-30T02:07:30.575Z",
+      "doNotUpdateBefore": "2026-07-29T08:07:30.575Z",
+      "pendingOutcome": "Ergebnis der laufenden Ermittlungen von Austrian Airlines, Flughafen Košice und slowakischen Behörden zu Identität des Mannes und zur Sicherheitslücke.",
+      "pendingOutcomeUntil": "2026-07-31T02:07:30.575Z",
+      "echoPublishers": {
+        "orf": "2026-07-28T14:07:41.603Z",
+        "diepresse": "2026-07-28T10:07:39.424Z",
+        "kurier": "2026-07-28T10:07:39.307Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-29T02:07:30.575Z"
     }
   }
 }

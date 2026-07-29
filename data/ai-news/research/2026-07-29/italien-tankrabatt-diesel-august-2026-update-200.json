@@ -1,0 +1,236 @@
+{
+  "cluster": {
+    "id": "cluster-20260728-7895ee0c",
+    "title": "Spritpreise: Italien beschließt Tankrabatt für Diesel",
+    "items": [
+      {
+        "itemId": "7ad028609b059a2068e6c87d74a35cbd78bffce646f4af1877fcbd9d302fd0c3",
+        "sourceId": "kurier_politik",
+        "sourceType": "media",
+        "title": "Spritpreise: Italien beschließt Tankrabatt für Diesel",
+        "url": "https://kurier.at/politik/ausland/italien-tankrabatt-diesel/403178499",
+        "summary": "Wie Finanzminister Giancarlo Giorgetti mitteilte, wird Diesel insgesamt um 17 Cent je Liter billiger.",
+        "publishedAt": "2026-07-28T07:44:37.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "3dc47aebc0d77726b8944c292a595b6d212ce615ab97f9e6c5199a115b84a82d",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Italien beschließt Tankrabatt für Diesel bis 6. August",
+        "url": "https://orf.at/stories/3437481",
+        "isNew": false
+      },
+      {
+        "itemId": "39efe6cdc65b6d427b3cc65753016328e5c6d3773400720d0de0f196a921875a",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Italien beschließt Tankrabatt für Diesel bis 6. August",
+        "url": "https://www.derstandard.at/story/3000000333182/italien-beschlie223t-tankrabatt-f252r-diesel-bis-6-august",
+        "isNew": false
+      },
+      {
+        "itemId": "05f53ca69f5b6f2357decb542d4e749cc11c3822622bcb34dbea7f71a4b7dbb4",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Spritpreise: Italien beschließt Tankrabatt für Diesel",
+        "url": "https://kurier.at/politik/ausland/italien-tankrabatt-diesel/403178499",
+        "isNew": false
+      },
+      {
+        "itemId": "29d287968c8c699ff16e4f9833753cc5f2d134f94a81a5e77006bb24f1fb7b79",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Italien beschließt Tankrabatt nur für Diesel bis 6. August",
+        "url": "https://www.kleinezeitung.at/artikel/39988235/italien-beschliesst-tankrabatt-nur-fuer-diesel-bis-6-august",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Dieser Cluster ist eine detaillierte Fortsetzung der bereits publizierten Story zum italienischen Dieselrabatt mit konkreten Zahlen, Finanzierungsmodell und politischem Kontext. Die Berichterstattung ist breit (4 österreichische Medien), Kernfakten sind solide in Regierungsmitteilungen verankert (Finanzminister Giorgetti nach Kabinettssitzung).",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": 4,
+    "relatedSlug": "italien-tankrabatt-diesel-august-2026",
+    "possibleClaims": [
+      "Italienische Regierung senkt Verbrauchsteuer auf Diesel um 17 Cent pro Liter",
+      "Maßnahme kostet ca. 125 Millionen Euro und gilt bis 6. August 2026",
+      "Finanzierung durch variable Verbrauchsteuern, Kartellstrafen und Strukturfonds",
+      "Regierung plant weitere Beratung am 4. August zur möglichen Fortsetzung",
+      "Verbraucherschutzverband Codacons: Ersparnis ca. 8,50 Euro bei vollem Tank",
+      "Dieselpreisanstieg deutlich stärker als bei Benzin aufgrund internationaler Konflikte",
+      "Benzin- und Tabaksteuer bleiben unverändert"
+    ],
+    "missingSources": [
+      "Offizielle schriftliche Regierungserklärung Italiens",
+      "Reaktionen italienischer Gewerkschaften und Arbeitgeberverbände",
+      "Stellungnahmen von Transportgewerbe und Landwirtschaftsverbänden über Codacons hinaus",
+      "Europäische Perspektive (EU-Kommission, Vergleich mit anderen Ländern)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "italien-tankrabatt-diesel-august-2026",
+    "title": "Italien senkt Diesel-Verbrauchsteuer bis 6. August um 17 Cent pro Liter",
+    "description": "Die Regierung in Rom hat einen befristeten Tankrabatt beschlossen: Diesel wird bis 6. August um insgesamt 17 Cent je Liter billiger, Benzin- und Tabaksteuer bleiben unverändert. Die Kosten der Maßnahme bezifferte Finanzminister Giancarlo Giorgetti mit rund 125 Millionen Euro.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kern der Meldung – die von Finanzminister Giorgetti verkündete Diesel-Steuersenkung – wird von vier österreichischen Medien und unabhängig davon von der italienischen Nachrichtenagentur ANSA übereinstimmend berichtet, zusätzlich liegt eine direkte Ministeraussage vor. Ein neuer Cluster vom 28./29. Juli lieferte dieselben vier österreichischen Quellen (teils mit Volltextauszug) ohne zusätzliche Fakten.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde weiterhin kein amtliches Dekret oder eine offizielle Aussendung des italienischen Finanzministeriums gelesen, sondern Medienberichte und eine Agenturmeldung, die den Minister zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich fast ausschließlich auf die Regierungsperspektive; die kritische Einschätzung des Verbraucherschutzverbands Codacons liegt nur aus zweiter Hand, über ein Medienzitat, vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Italiens Regierung senkt die Verbrauchsteuer auf Diesel bis 6. August 2026 um insgesamt 17 Cent je Liter.",
+        "kind": "fact"
+      },
+      {
+        "text": "Benzin- und Tabaksteuer bleiben von der Maßnahme unberührt, die laut Finanzminister Giorgetti rund 125 Millionen Euro kostet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Am 4. August will das Kabinett erneut über die Kraftstoffpreise und ein mögliches weiteres Vorgehen beraten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Verbraucherschutzverband Codacons nennt die Entlastung unzureichend, da nur Diesel profitiert und der Durchschnittspreis über 2 Euro je Liter bleibt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob der Rabatt nach dem 6. August verlängert wird, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Verlängert die italienische Regierung den Diesel-Rabatt über den 6. August hinaus oder läuft er wie geplant aus?",
+      "Wie reagieren Transportgewerbe-Verbände und weitere Verbraucherschutzorganisationen über Codacons hinaus auf die Maßnahme?",
+      "Sinkt der zuletzt gefallene Brent-Ölpreis tatsächlich spürbar an den italienischen Zapfsäulen, wie Giorgetti erwartet?",
+      "Welche konkreten zusätzlichen Entlastungen bei Strom- und Gaspreisen plant Rom für den Herbst, und werden die dafür in Aussicht gestellten Spielräume bei den EU-Fiskalregeln tatsächlich genutzt?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333182/italien-beschlie223t-tankrabatt-f252r-diesel-bis-6-august"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/italien-tankrabatt-diesel/403178499"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/39988235/italien-beschliesst-tankrabatt-nur-fuer-diesel-bis-6-august"
+      },
+      {
+        "id": "src4",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3437481"
+      },
+      {
+        "id": "src5",
+        "name": "ANSA",
+        "type": "agency",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/07/27/giorgetti-sconto-solo-sul-diesel-17-centesimi-al-litro_9c8411bb-583f-407e-a372-27214add207a.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Italien senkt die Verbrauchsteuer auf Diesel bis 6. August 2026 um insgesamt 17 Cent je Liter.",
+        "status": "supported",
+        "note": "Von Finanzminister Giorgetti selbst verkündet und von vier österreichischen Medien sowie der italienischen Agentur ANSA übereinstimmend berichtet; ein neuer Cluster mit denselben vier Medien bestätigt dies unverändert.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Benzin- und Tabaksteuer bleiben von der Maßnahme unberührt.",
+        "status": "supported",
+        "note": "Übereinstimmend in allen vorliegenden Quellen genannt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Kosten der Maßnahme belaufen sich auf rund 125 Millionen Euro.",
+        "status": "supported",
+        "note": "Direktes Zitat des Finanzministers, von mehreren Quellen übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Das Kabinett will am 4. August erneut über die Kraftstoffpreisentwicklung und ein mögliches weiteres Vorgehen beraten.",
+        "status": "supported",
+        "note": "Von zwei Medien übereinstimmend berichtet; dieser Termin lag zum Zeitpunkt der Aktualisierung noch in der Zukunft.",
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Laut Verbraucherschutzverband Codacons kostet ein voller Dieseltank durch die Steuersenkung rund 8,50 Euro weniger, der Durchschnittspreis bleibt aber über 2 Euro je Liter.",
+        "status": "partial",
+        "note": "Nur eine Quelle (Kurier) gibt diese Berechnung wieder; eine unabhängige Bestätigung liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Als Grund nannte Giorgetti den infolge internationaler Konflikte stärkeren Preisanstieg bei Diesel gegenüber Benzin; finanziert wird der Rabatt unter anderem über variable Verbrauchsteuern, Kartellstrafen und Strukturmittel.",
+        "status": "partial",
+        "note": "Detail nur im Kurier-Volltext dokumentiert, von den übrigen Quellen nicht im Detail bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die italienische Regierung senkt die Verbrauchsteuer auf Diesel befristet bis 6. August 2026. Wie Finanzminister Giancarlo Giorgetti am Montagabend nach einer Kabinettssitzung mitteilte, wird Diesel dadurch um insgesamt 17 Cent je Liter billiger. Benzin- und Tabaksteuer bleiben von dem Eingriff unberührt – eine zwischenzeitlich diskutierte Erhöhung der Tabaksteuer zur Gegenfinanzierung wurde nicht umgesetzt. Die Kosten der Maßnahme bezifferte Giorgetti auf rund 125 Millionen Euro."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Vier österreichische Medien – DER STANDARD, Kurier, Kleine Zeitung und ORF – sowie unabhängig davon die italienische Nachrichtenagentur ANSA berichten übereinstimmend über die Ankündigung Giorgettis. Als Begründung verwies der Minister auf den seiner Darstellung nach deutlich stärkeren Preisanstieg bei Diesel gegenüber Benzin infolge internationaler Konflikte. Zugleich äußerte er die Hoffnung, dass der zuletzt gesunkene Brent-Ölpreis in den kommenden Tagen auch an den Zapfsäulen ankomme. Finanziert werden soll der Rabatt laut Kurier unter anderem über das System variabler Verbrauchsteuern, Kartellstrafen sowie Mittel aus einem Fonds für strukturpolitische Maßnahmen. Das Kabinett verlängerte zudem Unterstützungsmaßnahmen für den Straßengüterverkehr sowie einen Steuerbonus für die Landwirtschaft. Der Verbraucherschutzverband Codacons rechnete vor, dass ein voller Dieseltank durch die Senkung rund 8,50 Euro weniger koste – der Durchschnittspreis liege aber weiterhin bei etwa 2,015 Euro je Liter und damit über der psychologisch wichtigen Zwei-Euro-Marke. Der Verband bezeichnete die Entlastung als unzureichend, weil sie ausschließlich Dieselfahrzeuge begünstige."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Ob die Regierung den Rabatt nach dem 6. August verlängert, aufstockt oder auslaufen lässt, ist offen – darüber will das Kabinett erst am 4. August entscheiden. Unklar ist auch, wie Transportgewerbe-Verbände und weitere Verbraucherschutzorganisationen über Codacons hinaus die Maßnahme bewerten; entsprechende Stimmen liegen in den vorliegenden Quellen nicht vor. Ebenso wenig lässt sich derzeit einschätzen, ob der von Giorgetti erhoffte Rückgang des Brent-Ölpreises tatsächlich an den italienischen Tankstellen ankommt, und welche konkrete Form die für den Herbst in Aussicht gestellten zusätzlichen Entlastungen bei Strom- und Gaspreisen annehmen werden."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Schritt reiht sich in eine Serie kurzfristiger, eng befristeter Preiseingriffe europäischer Regierungen bei steigenden Energiekosten ein. Dass Rom die Entlastung auf Diesel beschränkt und schon in wenigen Tagen erneut über das weitere Vorgehen beraten will, deutet auf eine Übergangslösung statt eine strukturelle Reform hin. Die Kritik von Codacons zeigt zudem, dass die Maßnahme innerhalb Italiens selbst umstritten ist – auch wenn diese Einschätzung bislang nur über ein einzelnes Medienzitat vorliegt und keine unabhängige Bestätigung erfahren hat."
+      }
+    ],
+    "bodyKompakt": "Die italienische Regierung senkt die Verbrauchsteuer auf Diesel befristet bis 6. August 2026 um insgesamt 17 Cent je Liter. Das teilte Finanzminister Giancarlo Giorgetti am Montagabend nach einer Kabinettssitzung mit. Benzin- und Tabaksteuer bleiben unverändert, die Kosten der Maßnahme bezifferte Giorgetti auf rund 125 Millionen Euro. Als Grund nannte er den stärkeren Preisanstieg bei Diesel infolge internationaler Konflikte.\n\nBerichten zufolge wird der Rabatt unter anderem über variable Verbrauchsteuern, Kartellstrafen und Strukturmittel finanziert. Das Kabinett verlängerte zudem Hilfen für den Straßengüterverkehr und einen Steuerbonus für die Landwirtschaft. Der Verbraucherschutzverband Codacons rechnete vor, dass ein voller Dieseltank rund 8,50 Euro weniger koste, der Durchschnittspreis aber weiterhin über 2 Euro je Liter liege – aus seiner Sicht bleibt die Entlastung unzureichend, weil Benzinfahrzeuge nicht profitieren.\n\nOb der Rabatt nach dem 6. August verlängert wird, ist offen: Das Kabinett will erst am 4. August erneut über die Kraftstoffpreise und das weitere Vorgehen entscheiden.",
+    "updateNote": null,
+    "pendingOutcome": "Ob die italienische Regierung den Diesel-Tankrabatt nach dem 6. August verlängert, ausweitet oder auslaufen lässt, entscheidet sich erst nach der für 4. August angekündigten Kabinettsberatung."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-29T02:07:30.575Z"
+}
