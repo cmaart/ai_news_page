@@ -1,0 +1,203 @@
+{
+  "cluster": {
+    "id": "cluster-20260729-25d2dbe5",
+    "title": "Ein Toter und sieben Verletzte nach schwerem Verkehrsunfall im Pinzgau",
+    "items": [
+      {
+        "itemId": "e4ee179ecf8de8ebefd2f48c8a3cf33f0c40b8e10de47fa8d6509f6688d7184e",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Ein Toter und sieben Verletzte nach schwerem Verkehrsunfall im Pinzgau",
+        "url": "https://kurier.at/chronik/salzburg/pinzgau-unfall-kleinbusse-polizei-rettung-feuerwehr/403178710",
+        "summary": "Zwei Kleinbusse stießen frontal zusammen. Rettung, Feuerwehr und Polizei waren im Einsatz.",
+        "publishedAt": "2026-07-29T07:55:38.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "54f6cbea090d0be654a94a0a6d328b3b002842029a541937d572ffeeb2338c35",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Zwei Verletzte bei Verkehrsunfall",
+        "url": "https://kaernten.orf.at/stories/3364456",
+        "isNew": false
+      },
+      {
+        "itemId": "b85461e64fb1aaa30772ea01558c61406e65be41d2d758ea3bfacb92c9ee9838",
+        "sourceId": "orf_kaernten",
+        "sourceType": "media",
+        "title": "Zwei Verletzte bei Verkehrsunfall",
+        "url": "https://kaernten.orf.at/stories/3364456",
+        "isNew": false
+      },
+      {
+        "itemId": "109f9525bc847b8944afc4911c924861c48dc10be574cc80c927e99dcd0f29fc",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Schwerer Verkehrsunfall im Pinzgau: Ein Toter, sieben Verletzte",
+        "url": "https://www.derstandard.at/story/3000000333303/schwerer-verkehrsunfall-im-pinzgau-ein-toter-sieben-verletzte",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Konkreter, gut dokumentierter österreichischer Verkehrsunfall mit Todesfolge am 29.07.2026 im Pinzgau (Salzburg). Zwei unabhängige Quellen (Kurier mit ausführlichem Fulltext-Excerpt, Der Standard) belegen das Ereignis substanziell. WARNUNG: Der Cluster enthält fehlerhaft eingefügte Items (ORF Kärnten) zu einem anderen Unfall in Klagenfurt vom 27.07. — diese gehören nicht hierher und sollten beim Review entfernt werden. Der echte Pinzgau-Cluster selbst hat ausreichende Quellenlage für einen Artikel.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "42-jähriger Mann bei frontalem Kleinbus-Zusammenstoß auf der B168 in Piesendorf ums Leben gekommen",
+      "Fahrzeug des Verstorbenen geriet aus unbekannter Ursache auf die Gegenfahrbahn",
+      "Sieben Insassen im zweiten Fahrzeug verletzt (zwei schwer, fünf leicht)",
+      "Urlauberfamilie mit vier Kindern im zweiten Fahrzeug",
+      "Zwei Personen mit Rettungshubschrauber in Krankenhäuser geflogen",
+      "Fünf leichter Verletzte in Krankenhaus Zell am See gebracht",
+      "Circa 40 Rotkreuz-Kräfte und 25 Feuerwehrleute im Großeinsatz",
+      "Kriseninterventionsteam mit acht Mitarbeitern vor Ort",
+      "Unfallstelle bis 0:30 Uhr für den gesamten Verkehr gesperrt"
+    ],
+    "missingSources": [
+      "Offizielle Polizeiagentur-Pressemitteilung (wird zitiert, aber nicht direkt verlinkt)",
+      "Genaue Identität und weitere Details zum Verstorbenen",
+      "Namen und aktuelle Zustandsbeschreibungen der Verletzten",
+      "Detaillierte Ermittlungsergebnisse zur genauen Unfallursache",
+      "Follow-up zum aktuellen Zustand der zwei schwer Verletzten"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "verkehrsunfall-pinzgau-piesendorf-juli-2026",
+    "title": "Frontalzusammenstoß zweier Kleinbusse im Pinzgau: Ein Toter, sieben Verletzte",
+    "description": "Bei einem Frontalzusammenstoß zweier Kleinbusse auf der B168 in Piesendorf (Pinzgau) ist am Dienstagabend ein 42-jähriger Mann ums Leben gekommen, alle sieben Insassen des zweiten Fahrzeugs wurden verletzt.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Der Kern des Ereignisses – tödlicher Frontalzusammenstoß, ein Toter, sieben Verletzte – wird von mehreren voneinander unabhängigen Medien übereinstimmend berichtet, und der Kurier-Bericht ist erkennbar auf eine Agenturmeldung gestützt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt gelesene Polizei- oder Behördenaussendung vor, nur Medienberichte, die sich auf Polizeiangaben und einen Einsatzleiter des Roten Kreuzes berufen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich ausschließlich auf die Perspektive von Polizei und Rettungskräften, wie sie durch Medien wiedergegeben wird; eine unabhängige zweite Perspektive (etwa Betroffene) fehlt naturgemäß.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Bei einem Frontalzusammenstoß zweier Kleinbusse auf der B168 in Piesendorf (Pinzgau) kam am Dienstagabend ein 42-jähriger Mann ums Leben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Alle sieben Insassen des zweiten Fahrzeugs wurden verletzt, zwei davon so schwer, dass sie mit Rettungshubschraubern in Krankenhäuser geflogen wurden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Rettung und Feuerwehr rückten mit einem Großaufgebot aus, die Unfallstelle war bis nach Mitternacht für den Verkehr gesperrt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob es sich bei den Insassen des zweiten Fahrzeugs um eine Urlauberfamilie mit vier Kindern handelte, ist bislang nur einer Quelle mit vorsichtiger Formulierung zu entnehmen.",
+        "kind": "open"
+      },
+      {
+        "text": "Zur genauen Ursache, warum das Fahrzeug des Verstorbenen auf die Gegenfahrbahn geriet, liegen keine Ermittlungsergebnisse vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie geht es den beiden schwer verletzten Personen, die per Rettungshubschrauber ins Krankenhaus gebracht wurden, aktuell?",
+      "Was hat dazu geführt, dass der 42-Jährige mit seinem Fahrzeug auf die Gegenfahrbahn geriet?",
+      "Um wen genau handelte es sich bei den Insassen des zweiten Kleinbusses – Herkunft und nähere Umstände der mutmaßlichen Urlauberfamilie sind offen.",
+      "Gibt es mittlerweile eine offizielle Stellungnahme der Landespolizeidirektion Salzburg mit Ermittlungsergebnissen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/salzburg/pinzgau-unfall-kleinbusse-polizei-rettung-feuerwehr/403178710"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333303/schwerer-verkehrsunfall-im-pinzgau-ein-toter-sieben-verletzte"
+      },
+      {
+        "id": "src3",
+        "name": "ORF Salzburg",
+        "type": "media",
+        "url": "https://salzburg.orf.at/stories/3364658/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein 42-jähriger Mann kam beim Frontalzusammenstoß zweier Kleinbusse auf der B168 in Piesendorf (Pinzgau) ums Leben.",
+        "status": "supported",
+        "note": "Von mehreren unabhängigen Medien übereinstimmend berichtet, der Kurier-Bericht ist als Agenturmeldung gekennzeichnet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Verstorbene geriet mit seinem Firmenwagen aus bislang unbekannter Ursache auf die Gegenfahrbahn und kollidierte dort frontal mit dem entgegenkommenden Kleinbus.",
+        "status": "partial",
+        "note": "Detail stammt aus dem Kurier-Bericht unter Berufung auf Polizeiangaben, im Cluster nicht durch eine zweite Quelle mit gleicher Detailtiefe bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Alle sieben Insassen des zweiten Kleinbusses wurden verletzt, zwei davon schwer und per Rettungshubschrauber in Krankenhäuser geflogen, fünf leichter Verletzte kamen ins Krankenhaus Zell am See.",
+        "status": "partial",
+        "note": "Detaillierte Aufschlüsselung von Verletzungsgrad und Zielspitälern liegt nur aus einer Quelle vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Bei den Insassen des zweiten Fahrzeugs dürfte es sich um eine Urlauberfamilie mit vier Kindern gehandelt haben.",
+        "status": "unclear",
+        "note": "Nur eine Quelle nennt dieses Detail, selbst mit einschränkender Formulierung ('dürfte es sich handeln').",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Rettung und Feuerwehr waren mit einem Großaufgebot von rund 40 beziehungsweise 25 Kräften im Einsatz, die Unfallstelle war bis 0.30 Uhr gesperrt.",
+        "status": "partial",
+        "note": "Einsatzzahlen stammen aus einer Quelle unter Berufung auf einen namentlich genannten Einsatzleiter, keine zweite Bestätigung im Cluster.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Am späten Dienstagabend sind auf der Mittersiller Straße (B168) in Piesendorf im Salzburger Pinzgau zwei Kleinbusse frontal zusammengestoßen. Ein 42-jähriger Mann kam bei dem Unfall ums Leben. Nach vorliegenden Berichten war der Mann mit seinem Firmenwagen aus bislang unbekannter Ursache auf die Gegenfahrbahn geraten und dort mit dem Fahrzeug eines 38-Jährigen kollidiert. Trotz sofort eingeleiteter Wiederbelebungsmaßnahmen der Feuerwehr, die zwei eingeklemmte Personen aus den Fahrzeugwracks befreite, konnte der Mann noch an der Unfallstelle nicht gerettet werden."
+      },
+      {
+        "heading": "Die Verletzten und der Einsatz",
+        "markdown": "Im zweiten Fahrzeug wurden alle sieben Insassen verletzt. Zwei von ihnen erlitten so schwere Verletzungen, dass sie mit Rettungshubschraubern in das Kardinal-Schwarzenberg-Klinikum nach Schwarzach und in das Unfallkrankenhaus Salzburg geflogen wurden. Die übrigen fünf leichter Verletzten wurden von der Rettung in das Krankenhaus Zell am See gebracht. Der Unfall löste einen Großeinsatz aus: Berichten zufolge war das Rote Kreuz mit knapp 40 Kräften vor Ort, darunter ein Kriseninterventionsteam, dazu rückte die Feuerwehr mit rund 25 Personen an. Die Unfallstelle blieb bis nach Mitternacht für den gesamten Verkehr gesperrt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, warum das Fahrzeug des Verstorbenen auf die Gegenfahrbahn geriet – eine Ermittlungsursache wurde bislang nicht bekannt. Auch die Angabe, dass es sich bei den Insassen des zweiten Kleinbusses um eine Urlauberfamilie mit vier Kindern gehandelt haben dürfte, stammt bislang nur aus einer Quelle und wird dort selbst vorsichtig formuliert. Über den aktuellen Gesundheitszustand der beiden schwer Verletzten liegen keine neueren Informationen vor. Eine gesonderte, direkt eingesehene Stellungnahme der Landespolizeidirektion Salzburg liegt nicht vor; die vorliegenden Angaben stammen aus Medienberichten, die sich auf Polizei- und Rettungskräfte berufen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Unfall reiht sich in eine Serie schwerer Verkehrsunfälle mit Todesfolge ein, wie sie in der österreichischen Chronikberichterstattung immer wieder vorkommen. Da Kinder unter den Verletzten waren und die Unfallursache noch nicht geklärt ist, werden in diesem Artikel bewusst keine Namen genannt und Details zur Unfallursache zurückhaltend als vorläufig gekennzeichnet, bis belastbarere Angaben etwa durch Ermittlungsergebnisse vorliegen."
+      }
+    ],
+    "bodyKompakt": "Auf der Mittersiller Straße (B168) in Piesendorf im Salzburger Pinzgau sind am späten Dienstagabend zwei Kleinbusse frontal zusammengestoßen. Ein 42-jähriger Mann kam dabei ums Leben, sein Fahrzeug war Berichten zufolge aus unbekannter Ursache auf die Gegenfahrbahn geraten. Alle sieben Insassen des zweiten Kleinbusses wurden verletzt, zwei davon schwer.\n\nDie beiden Schwerverletzten wurden mit Rettungshubschraubern ins Kardinal-Schwarzenberg-Klinikum Schwarzach beziehungsweise ins Unfallkrankenhaus Salzburg geflogen, fünf leichter Verletzte kamen ins Krankenhaus Zell am See. Rettung und Feuerwehr waren mit einem Großaufgebot von insgesamt rund 65 Kräften im Einsatz, die Unfallstelle blieb bis nach Mitternacht gesperrt.\n\nOffen bleibt bislang die genaue Unfallursache. Auch die Angabe, wonach es sich bei den Insassen des zweiten Fahrzeugs um eine Urlauberfamilie mit vier Kindern gehandelt haben dürfte, stammt nur aus einer Quelle und ist nicht abschließend bestätigt.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-29T10:07:27.853Z"
+}
