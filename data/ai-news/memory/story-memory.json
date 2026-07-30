@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T08:18:47.670Z",
+  "updatedAt": "2026-07-30T10:31:56.068Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -4419,7 +4419,7 @@
       "doNotRedraftBefore": "2026-07-30T18:07:31.888Z",
       "doNotUpdateBefore": "2026-07-30T00:07:31.888Z",
       "echoPublishers": {
-        "apa": "2026-07-30T06:07:27.937Z"
+        "apa": "2026-07-30T10:07:42.036Z"
       },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -5116,7 +5116,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T06:07:23.886Z",
       "doNotUpdateBefore": "2026-07-27T12:07:23.886Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-30T10:07:44.103Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
@@ -12087,11 +12089,12 @@
       "pendingOutcome": "Wird weiterverfolgt: Ausgang bzw. Gegenstandslosigkeit des Berufungsverfahrens, Rolle der in der Tatnacht festgenommenen Person(en), etwaige rechtspolitische Konsequenzen aus der Bewährungspraxis-Debatte in Deutschland, eine mögliche Fußfessel-Regelung in Österreich sowie der Verlauf der Hamburger CSD-Parade und weiterer CSD-Veranstaltungen.",
       "pendingOutcomeUntil": "2026-07-30T22:07:32.314Z",
       "echoPublishers": {
-        "derstandard": "2026-07-29T10:07:31.905Z"
+        "apa": "2026-07-30T10:07:42.047Z",
+        "diepresse": "2026-07-29T18:07:34.599Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-29T10:07:27.853Z"
+      "resonanceMeasuredAt": "2026-07-30T10:07:40.113Z"
     },
     "graz-giants-austrian-bowl-sieg-juli-2026": {
       "canonicalTitle": "Graz Giants beenden 18 Jahre Titel-Durststrecke in der Austrian Football League",
@@ -12570,7 +12573,6 @@
       "pendingOutcome": "Offen ist, ob die für Freitag prognostizierten Höchstwerte tatsächlich erreicht werden, wie lange die Hitzewelle über das Wochenende hinaus anhält, ob es zu Tages- oder Monatsrekorden in Österreich oder Italien kommt, wie sich die Waldbrandgefahr in Österreich konkret entwickelt und wie stark die Gesundheits- und Hilfsangebote (Spitäler, Caritas-Klimaoasen) tatsächlich in Anspruch genommen werden.",
       "pendingOutcomeUntil": "2026-07-31T02:07:30.575Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-07-29T10:07:32.714Z",
         "derstandard": "2026-07-29T12:07:43.510Z",
         "kurier": "2026-07-29T16:07:49.904Z"
       },
@@ -13868,13 +13870,11 @@
       "pendingOutcome": "Reaktionen von Durow, Telegram (über das bisherige Meme hinaus), Frankreich oder der EU auf den russischen Haftbefehl sowie etwaige praktische Schritte (z. B. über Interpol) stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-07-31T22:07:26.817Z",
       "echoPublishers": {
-        "kurier": "2026-07-29T10:07:31.008Z",
-        "kleinezeitung": "2026-07-29T10:07:32.505Z",
         "heise": "2026-07-29T12:07:43.288Z"
       },
-      "resonanceLevel": 5,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-29T10:07:27.853Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-30T10:07:40.113Z"
     },
     "neos-pointner-parteiaustritt-graz-juli-2026": {
       "canonicalTitle": "Neos-Stadtchef Pointner nach Wahlschlappe in Graz aus Partei ausgetreten",
@@ -13912,10 +13912,10 @@
       "canonicalTitle": "FCC verbietet Zulassung neuer ausländischer Roboter und Solar-Wechselrichter in den USA",
       "slug": "fcc-importverbot-roboter-wechselrichter-china-juli-2026",
       "firstSeenAt": "2026-07-29T08:07:26.791Z",
-      "lastUpdatedAt": "2026-07-29T14:07:33.623Z",
+      "lastUpdatedAt": "2026-07-30T10:07:40.113Z",
       "status": "published",
       "articlePath": "src/content/articles/fcc-importverbot-roboter-wechselrichter-china-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-29/fcc-importverbot-roboter-wechselrichter-china-juli-2026-update-1400.json",
+      "researchPath": "data/ai-news/research/2026-07-30/fcc-importverbot-roboter-wechselrichter-china-juli-2026-update-1000.json",
       "sourceUrls": [
         "https://www.golem.de/news/nationale-sicherheit-fcc-verbietet-importe-chinesischer-roboter-2607-211388.html",
         "https://orf.at/stories/3437576",
@@ -13928,27 +13928,35 @@
         "https://www.nbcnews.com/tech/tech-news/us-bans-foreign-made-humanoid-robots-targeting-china-national-security-rcna589777",
         "https://www.globaltimes.cn/page/202607/1367059.shtml",
         "https://techcrunch.com/2026/06/08/pentagon-says-alibaba-baidu-byd-and-unitree-support-chinas-military/",
-        "https://www.cnn.com/2026/07/29/tech/us-china-robot-ban-intl-hnk"
+        "https://www.cnn.com/2026/07/29/tech/us-china-robot-ban-intl-hnk",
+        "https://orf.at/stories/3437705",
+        "https://www.heise.de/news/China-droht-USA-im-Streit-um-humanoide-Roboter-11384951.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.derstandard.at/story/3000000333130/china-wirft-den-usa-ki-hegemonialismus-vor-und-droht-mit-gegenmassnahmen",
+        "https://www.heise.de/news/China-droht-USA-im-Streit-um-humanoide-Roboter-11384951.html",
+        "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html",
+        "http://usa.chinadaily.com.cn/a/202607/30/WS6a6ada68a310986e2b46824c.html"
       ],
       "openQuestions": [
-        "Welche konkreten Auswirkungen hat das Verbot auf Importeure und Nutzer von Servicerobotern oder Solaranlagen-Komponenten in Österreich und der EU?",
+        "Welche konkreten Gegenmaßnahmen kündigt Chinas Handelsministerium tatsächlich an, und wann werden sie gegebenenfalls umgesetzt?",
+        "Welche konkreten Auswirkungen hat das FCC-Verbot auf Importeure und Nutzer von Servicerobotern oder Solaranlagen-Komponenten in Österreich und der EU?",
         "Äußert sich Unitree selbst – oder andere betroffene Hersteller wie Sungrow oder Huawei – direkt zu der Entscheidung, und wenn ja, wie?",
-        "Welche konkreten Gegenmaßnahmen könnte China ergreifen, nachdem Peking von „allen erforderlichen Maßnahmen zum Schutz seiner Interessen“ gesprochen hat, ohne Details zu nennen?",
         "Wie genau werden die neuen Zulassungs- und Ausnahmeverfahren, etwa über das US-Verteidigungsministerium, in der Praxis ausgestaltet?",
-        "Wie wirkt sich das Verbot auf den US-Markt für Saugroboter aus, da die Gerätedefinition auch auf solche Modelle zutreffen könnte?"
+        "Wie wirkt sich das Verbot auf den US-Markt für Saugroboter aus, da die Gerätedefinition auch auf solche Modelle zutreffen könnte?",
+        "Bestätigt sich der Bericht über nicht dokumentierte Kommunikationsgeräte in chinesischen Wechselrichtern durch weitere, unabhängige Quellen oder offizielle FCC-Unterlagen?",
+        "Wie entwickelt sich die parallel laufende Debatte in Washington über mögliche Beschränkungen chinesischer KI-Modelle, und welche konkreten Schritte werden dabei erwogen?"
       ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-30T14:07:33.623Z",
-      "doNotUpdateBefore": "2026-07-29T20:07:33.623Z",
-      "pendingOutcome": "Offen sind eigene Stellungnahmen der betroffenen Hersteller (insbesondere Unitree), etwaige konkrete chinesische Gegenmaßnahmen sowie die praktischen Auswirkungen des Verbots auf Importeure in Österreich und der EU.",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-31T10:07:40.113Z",
+      "doNotUpdateBefore": "2026-07-30T16:07:40.113Z",
+      "pendingOutcome": "Welche konkreten Gegenmaßnahmen China ergreift, ob sich betroffene Hersteller wie Unitree äußern und wie sich die parallele US-Debatte über Beschränkungen chinesischer KI-Modelle entwickelt, ist offen und wird weiterverfolgt.",
       "pendingOutcomeUntil": "2026-07-31T14:07:33.623Z",
       "echoPublishers": {
-        "futurezone": "2026-07-29T10:07:31.586Z",
-        "derstandard": "2026-07-29T14:07:38.053Z"
+        "derstandard": "2026-07-29T14:07:38.053Z",
+        "golem": "2026-07-30T10:07:43.830Z"
       },
-      "resonanceLevel": 4,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-29T10:07:27.853Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-30T10:07:40.113Z"
     },
     "dinghoferstrasse-linz-umbenennung-aichern-juli-2026": {
       "canonicalTitle": "Prominente fordern Umbenennung der Linzer Dinghoferstraße in Aichernstraße",
@@ -13973,9 +13981,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-30T10:07:27.853Z",
       "doNotUpdateBefore": "2026-07-29T16:07:27.853Z",
-      "echoPublishers": {
-        "kurier": "2026-07-29T10:07:31.057Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-30T08:07:43.533Z"
@@ -14003,9 +14009,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-30T10:07:27.853Z",
       "doNotUpdateBefore": "2026-07-29T16:07:27.853Z",
-      "echoPublishers": {
-        "kurier": "2026-07-29T10:07:31.057Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-30T08:07:43.533Z"
@@ -14075,7 +14079,6 @@
       "pendingOutcomeUntil": "2026-07-31T12:07:38.523Z",
       "echoPublishers": {
         "apa": "2026-07-29T12:07:41.740Z",
-        "derstandard": "2026-07-29T10:07:33.712Z",
         "kurier": "2026-07-29T16:07:49.954Z"
       },
       "resonanceLevel": 3,
@@ -14108,13 +14111,11 @@
       "pendingOutcome": "Ergebnis bzw. weiterer Fortgang der staatsanwaltschaftlichen Ermittlungen gegen den Arzt des LKH Graz wegen des Verdachts der fahrlässigen Tötung.",
       "pendingOutcomeUntil": "2026-07-31T12:07:38.523Z",
       "echoPublishers": {
-        "orf": "2026-07-29T12:07:40.986Z",
-        "diepresse": "2026-07-29T10:07:31.082Z",
-        "kurier": "2026-07-29T10:07:31.057Z"
+        "orf": "2026-07-29T12:07:40.986Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-30T02:07:27.187Z"
+      "resonanceMeasuredAt": "2026-07-30T10:07:40.113Z"
     },
     "kenia-amboseli-elefanten-vergiftungsverdacht-juli-2026": {
       "canonicalTitle": "Kenia: 15 Elefanten in der Amboseli-Region binnen vier Wochen tot – Verdacht auf Vergiftung",
@@ -14277,7 +14278,7 @@
       },
       "resonanceLevel": 5,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T22:07:26.817Z"
+      "resonanceMeasuredAt": "2026-07-30T10:07:40.113Z"
     },
     "kavinsky-dj-tod-juli-2026": {
       "canonicalTitle": "Französischer DJ Kavinsky ist tot",
@@ -14305,12 +14306,11 @@
       "pendingOutcomeUntil": "2026-08-01T00:07:28.912Z",
       "echoPublishers": {
         "orf": "2026-07-29T12:07:40.220Z",
-        "derstandard": "2026-07-29T12:07:42.726Z",
-        "diepresse": "2026-07-29T10:07:31.407Z"
+        "derstandard": "2026-07-29T12:07:42.726Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
+      "resonanceMeasuredAt": "2026-07-30T10:07:40.113Z"
     },
     "wasserkraft-stromproduktion-trockenheit-juli-2026": {
       "canonicalTitle": "Trockenheit lässt Stromproduktion aus Wasserkraft in Österreich um rund ein Drittel einbrechen",
@@ -14403,7 +14403,9 @@
       "doNotUpdateBefore": "2026-07-30T08:07:27.187Z",
       "pendingOutcome": "Ausgang der für rund 25. August 2026 angesetzten außerordentlichen Hauptversammmlung zur Kapitalerhöhung sowie Fortschritt der Käufersuche für den Standort Heiligenkreuz.",
       "pendingOutcomeUntil": "2026-08-01T02:07:27.187Z",
-      "echoPublishers": {}
+      "echoPublishers": {
+        "kurier": "2026-07-30T10:07:42.282Z"
+      }
     },
     "toedlicher-traktorunfall-st-johann-tirol-juli-2026": {
       "canonicalTitle": "16-jähriger Traktorfahrer stirbt nach Sturz in Tiroler Ache",
@@ -14433,8 +14435,8 @@
         "orf": "2026-07-30T06:07:27.865Z",
         "derstandard": "2026-07-30T06:07:27.807Z",
         "diepresse": "2026-07-30T06:07:27.968Z",
-        "kleinezeitung": "2026-07-30T06:07:29.572Z",
-        "kurier": "2026-07-30T08:07:49.012Z"
+        "kleinezeitung": "2026-07-30T10:07:45.067Z",
+        "kurier": "2026-07-30T10:07:42.282Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -14466,11 +14468,12 @@
       "echoPublishers": {
         "orf": "2026-07-30T06:07:27.307Z",
         "diepresse": "2026-07-30T08:07:49.206Z",
-        "kurier": "2026-07-30T06:07:28.072Z"
+        "kurier": "2026-07-30T06:07:28.072Z",
+        "derstandard": "2026-07-30T10:07:44.339Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-30T06:07:25.738Z"
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-30T10:07:40.113Z"
     },
     "wifo-bip-stagnation-zweites-quartal-2026": {
       "canonicalTitle": "WIFO: Österreichs Wirtschaft stagnierte im zweiten Quartal 2026",
@@ -14537,6 +14540,74 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-30T08:07:43.533Z"
+    },
+    "bts-keine-grammy-einreichung-2026": {
+      "canonicalTitle": "BTS reicht heuer keine Musik bei den Grammys ein",
+      "slug": "bts-keine-grammy-einreichung-2026",
+      "firstSeenAt": "2026-07-30T10:07:40.113Z",
+      "lastUpdatedAt": "2026-07-30T10:07:40.113Z",
+      "status": "published",
+      "articlePath": "src/content/articles/bts-keine-grammy-einreichung-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-30/bts-keine-grammy-einreichung-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333495/erfolgsband-bts-will-keine-musik-bei-den-grammys-einreichen",
+        "https://www.diepresse.com/40390181/bts-will-keine-musik-bei-den-grammys-einreichen",
+        "https://orf.at/stories/3437598",
+        "https://en.wikipedia.org/wiki/Grammy_Award_for_Best_Asian_Pop_Music_Performance",
+        "https://www.goldderby.com/music/2026/bts-arirang-grammy-awards-asian-pop-music-performance-explainer/"
+      ],
+      "openQuestions": [
+        "Ist BTS' Verzicht als gezielter Protest gegen die Kategorie „Best Asian Pop Music Performance“ zu verstehen, oder gibt es andere Gründe?",
+        "Wie reagiert die Recording Academy auf die Entscheidung der Band?",
+        "Ist tatsächlich das Comeback-Album „Arirang“ jenes Werk, das von der Einreichung ausgeschlossen wurde?",
+        "Wie reagieren andere K-Pop-Acts oder asiatische Musikschaffende auf die neue Kategorie?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-31T10:07:40.113Z",
+      "doNotUpdateBefore": "2026-07-30T16:07:40.113Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-30T10:07:42.529Z",
+        "diepresse": "2026-07-30T10:07:42.736Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-30T10:07:40.113Z"
+    },
+    "strohhalm-streich-singapur-verurteilung-juli-2026": {
+      "canonicalTitle": "Französischer Student in Singapur wegen abgelecktem Strohhalm zu Geldstrafe verurteilt",
+      "slug": "strohhalm-streich-singapur-verurteilung-juli-2026",
+      "firstSeenAt": "2026-07-30T10:07:40.113Z",
+      "lastUpdatedAt": "2026-07-30T10:07:40.113Z",
+      "status": "published",
+      "articlePath": "src/content/articles/strohhalm-streich-singapur-verurteilung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-30/strohhalm-streich-singapur-verurteilung-juli-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/40381267/junger-franzose-nach-strohhalm-streich-in-singapur-verurteilt",
+        "https://www.diepresse.com/40369033/abgeschleckter-strohhalm-franzoesischer-student-in-singapur-verurteilt",
+        "https://orf.at/stories/3437691",
+        "https://kurier.at/chronik/welt/singapur-student-strohhalm-streich-geldstrafe-instagram/403178871",
+        "https://abcnews.com/International/wireStory/french-student-pleads-guilty-fined-straw-licking-stunt-135215038",
+        "https://edition.cnn.com/2026/07/30/asia/singapore-fines-french-student-intl-hnk"
+      ],
+      "openQuestions": [
+        "Wird dem Studenten wegen der Verurteilung auch der Aufenthaltstitel in Singapur entzogen?",
+        "Wie belastbar ist die Angabe zum tatsächlichen Materialschaden von rund 5 Singapur-Dollar, die bislang nur von einer Agenturquelle stammt?",
+        "Gibt es ein direktes Statement des Studenten selbst zu dem Fall?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-31T10:07:40.113Z",
+      "doNotUpdateBefore": "2026-07-30T16:07:40.113Z",
+      "pendingOutcome": "Entscheidung der Singapurer Behörden, ob dem Studenten wegen der Verurteilung sein Aufenthaltstitel (Studentenpass) entzogen wird.",
+      "pendingOutcomeUntil": "2026-08-01T10:07:40.113Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-07-30T10:07:44.103Z",
+        "diepresse": "2026-07-30T06:07:27.968Z",
+        "orf": "2026-07-30T08:07:45.847Z",
+        "kurier": "2026-07-30T08:07:49.012Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-30T10:07:40.113Z"
     }
   }
 }
