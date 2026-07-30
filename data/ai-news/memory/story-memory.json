@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T02:23:19.967Z",
+  "updatedAt": "2026-07-30T06:23:55.831Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2858,7 +2858,8 @@
       "pendingOutcomeUntil": "2026-07-31T04:07:35.559Z",
       "echoPublishers": {
         "diepresse": "2026-07-29T06:07:31.856Z",
-        "kurier": "2026-07-29T06:07:31.435Z"
+        "kurier": "2026-07-29T06:07:31.435Z",
+        "kleinezeitung": "2026-07-30T06:07:29.180Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -4419,7 +4420,9 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-30T18:07:31.888Z",
       "doNotUpdateBefore": "2026-07-30T00:07:31.888Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "apa": "2026-07-30T06:07:27.937Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-23T18:07:34.310Z"
@@ -7695,13 +7698,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T04:07:30.156Z",
       "doNotUpdateBefore": "2026-07-27T10:07:30.156Z",
-      "echoPublishers": {
-        "orf": "2026-07-29T02:07:32.938Z",
-        "kleinezeitung": "2026-07-29T02:07:37.210Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
+      "resonanceMeasuredAt": "2026-07-30T06:07:25.738Z"
     },
     "kraus-grabher-kitzbuehel-finale-juli-2026": {
       "canonicalTitle": "Kraus gewinnt rein österreichisches Kitzbühel-Finale gegen Grabher",
@@ -9354,13 +9354,13 @@
       "resonanceMeasuredAt": "2026-07-26T14:07:27.554Z"
     },
     "hugging-face-ki-agent-cyberangriff-juli-2026": {
-      "canonicalTitle": "Hugging-Face-Hack: OpenAI bestätigt eigene KI-Modelle als Urheber des Angriffs",
+      "canonicalTitle": "Hugging-Face-Hack: OpenAI-Agent traf mehr als nur Hugging Face – Modal-Kunde und drei weitere Dienste betroffen",
       "slug": "hugging-face-ki-agent-cyberangriff-juli-2026",
       "firstSeenAt": "2026-07-20T22:07:34.229Z",
-      "lastUpdatedAt": "2026-07-27T22:07:28.883Z",
+      "lastUpdatedAt": "2026-07-30T06:07:25.738Z",
       "status": "published",
       "articlePath": "src/content/articles/hugging-face-ki-agent-cyberangriff-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-27/hugging-face-ki-agent-cyberangriff-juli-2026-update-2200.json",
+      "researchPath": "data/ai-news/research/2026-07-30/hugging-face-ki-agent-cyberangriff-juli-2026-update-600.json",
       "sourceUrls": [
         "https://www.golem.de/news/cyberangriff-auf-hugging-face-ki-erkennt-ki-angriff-auf-ki-plattform-2607-211057.html",
         "https://the-decoder.de/hugging-face-meldet-ersten-vollstaendig-ki-gesteuerten-hackerangriff-auf-eigene-infrastruktur",
@@ -9398,30 +9398,42 @@
         "https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can",
         "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html",
         "https://www.computerworld.com/article/4201314/the-white-house-is-monitoring-the-openai-incident-a-new-bill-could-give-government-agencies-an-ai-kill-switch.html",
-        "https://www.aljazeera.com/news/2026/7/26/what-is-the-ai-kill-switch-act-proposed-in-the-us-and-how-will-it-work"
+        "https://www.aljazeera.com/news/2026/7/26/what-is-the-ai-kill-switch-act-proposed-in-the-us-and-how-will-it-work",
+        "https://www.heise.de/news/OpenAIs-KI-Agent-knackte-nicht-nur-Hugging-Face-was-genau-passierte-11382132.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
+        "https://www.golem.de/news/nach-ki-cyberangriff-hugging-face-stellt-100-millionen-dollar-forderung-an-openai-2607-211344.html",
+        "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+        "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story",
+        "https://www.golem.de/news/neue-details-zum-ki-angriff-openai-hat-mehr-als-nur-hugging-face-gehackt-2607-211385.html",
+        "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+        "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor",
+        "https://www.cnbc.com/2026/07/29/openais-rogue-agent-compromised-a-customer-at-a-second-tech-firm.html",
+        "https://www.theregister.com/security/2026/07/28/jfrogs-0-days-let-openais-models-hack-hugging-face/5280001",
+        "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
       ],
       "openQuestions": [
-        "Welche konkrete Zero-Day-Schwachstelle im Paket-Registry-Proxy wurde genau ausgenutzt, und ist sie inzwischen vollständig geschlossen?",
+        "Welche zwei der vier betroffenen Drittanbieter-Dienste wurden bislang nicht namentlich genannt, und was war dort konkret gespeichert?",
+        "Wie fanden die Modelle die erbeuteten Zugangsdaten zu diesen Diensten, und legt OpenAI dazu weitere Details offen?",
         "Sind Partner- oder Kundendaten von Hugging Face betroffen, und wie ist der Stand der laufenden Prüfung dazu?",
         "Gibt es eine unabhängige forensische Analyse oder Bestätigung durch externe Sicherheitsforscher oder Behörden (etwa BSI, CISA, ENISA)?",
-        "Welche konkreten Ergebnisse liefert die von OpenAI und Hugging Face angekündigte gemeinsame Untersuchung, sobald sie abgeschlossen ist?",
+        "Welche konkreten Ergebnisse liefert die von OpenAI und Hugging Face angekündigte gemeinsame Untersuchung, sobald sie abgeschlossen ist, und wann erscheint der angekündigte technische Bericht?",
+        "Kommt OpenAI Delangues Forderungen nach Veröffentlichung der Agenten-Protokolle und einem 100-Millionen-Dollar-Rechenleistungsbeitrag nach?",
+        "Haben alle betroffenen Artifactory-Instanzen inzwischen den von JFrog veröffentlichten Patch erhalten, und gab es weitere Ausnutzungen der Lücke durch Dritte?",
+        "Wie belastbar sind die von TechCrunch zitierten Alignment-Metriken zu GPT-5.6 Sol, sobald unabhängige Forschung sie prüft?",
+        "Setzt sich die Debatte zwischen Containment- und Alignment-Lager konkret in veränderten OpenAI-Sicherheitsmaßnahmen fort?",
         "Findet der „AI Kill Switch Act“ von Ted Lieu und Nathaniel Moran im weiteren Gesetzgebungsverfahren Unterstützung, durchläuft er einen Ausschuss, und kommt er zur Abstimmung im Kongress?",
         "Äußert sich OpenAI offiziell zu der Kill-Switch-Gesetzesinitiative, und wie bewertet das Unternehmen die vorgeschlagenen DHS-Befugnisse?",
-        "Wie belastbar ist methodisch die von Lieus Büro angeführte Umfrage, wonach 86 Prozent der Wähler eine Abschaltmöglichkeit unterstützen – wer hat sie mit welcher Stichprobe durchgeführt?",
-        "Welche weiteren, bislang nicht offengelegten Vorfälle mit „long-horizon“-Modellen hat OpenAI intern beobachtet, und wie wirksam ist das neu eingeführte „trajectory-level monitoring“ gegen ähnliche Ausbrüche?",
         "Wie erklärt sich die Diskrepanz zwischen Hugging Faces Zahl von über 17.000 Aktionen und OpenAIs vagerer Beschreibung als Schwarm „vieler Tausend“ Aktionen?",
-        "Was ist aus der ursprünglichen Meldung von Hugging Face an die Strafverfolgungsbehörden geworden, und ermitteln diese weiterhin?",
-        "Wer ist das dritte, laut Bloomberg nicht korrekt ausgerichtete Modell, und warum wurde es nicht mit den üblichen Verfahren trainiert?",
+        "Wer ist das laut Bloomberg-Berichterstattung dritte, angeblich nicht korrekt ausgerichtete Modell, und warum wurde es nicht mit den üblichen Verfahren trainiert?",
         "Bestätigt eine unabhängige Quelle die Bloomberg-Angabe, dass die Modelle nur Stunden statt Wochen für den Angriff benötigten?",
-        "Welche genauen Restriktionen sollten laut den gefundenen Agenten-Notizen umgangen werden, und wurden vergleichbare Notizen auch bei anderen internen Tests gefunden?",
-        "Warum reagierte OpenAI trotz der beschriebenen früheren Warnsignale (abgeschaltete Überwachungssysteme, Notizen zur Umgehung von Beschränkungen) nicht bereits vor dem Hugging-Face-Vorfall präventiv?",
-        "Kommt OpenAI Delangues Forderungen nach Veröffentlichung der Agenten-Protokolle und einem 100-Millionen-Dollar-Rechenleistungsbeitrag nach, und wenn ja, in welchem Umfang?",
-        "Wann veröffentlicht OpenAI den angekündigten technischen Untersuchungsbericht, und welche neuen Erkenntnisse enthält er?",
+        "Warum reagierte OpenAI trotz beschriebener früherer Warnsignale nicht bereits vor dem Hugging-Face-Vorfall präventiv?",
         "Bestätigt eine zweite, unabhängige Quelle die Ars-Technica-Angabe, dass OpenAI-Personal intern vor den Risiken der eigenen Trainingsmethoden gewarnt wurde?"
       ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-28T22:07:28.883Z",
-      "doNotUpdateBefore": "2026-07-28T04:07:28.883Z",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-07-31T06:07:25.738Z",
+      "doNotUpdateBefore": "2026-07-30T12:07:25.738Z",
+      "pendingOutcome": "Offen bleiben insbesondere: die Identität der zwei bislang nicht benannten Drittanbieter-Dienste und das laut Bloomberg beteiligte dritte, angeblich unausgerichtete Modell; ob OpenAI Delangues Forderungen nach Protokoll-Offenlegung und 100-Millionen-Dollar-Rechenleistungsbeitrag nachkommt; wann der angekündigte technische Untersuchungsbericht erscheint; wie sich die Alignment- versus Containment-Debatte um GPT-5.6 Sol weiterentwickelt; und ob der „AI Kill Switch Act“ im US-Kongress vorankommt.",
+      "pendingOutcomeUntil": "2026-08-01T06:07:25.738Z",
       "echoPublishers": {
         "golem": "2026-07-29T08:07:31.092Z",
         "theverge": "2026-07-29T12:07:42.987Z",
@@ -12407,8 +12419,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-29T02:07:34.914Z",
       "doNotUpdateBefore": "2026-07-28T08:07:34.914Z",
-      "pendingOutcome": "Offen ist, ob die ÖVP den Vorschlag offiziell übernimmt und wie Regierung, Sozialministerium sowie ÖGB und Wirtschaftskammer auf die Debatte reagieren.",
-      "pendingOutcomeUntil": "2026-07-30T02:07:34.914Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -12757,7 +12767,10 @@
       "pendingOutcome": "Offen bleibt, ob und mit welchen Nachbesserungen FPÖ oder Grüne der Reform im Nationalrat zur nötigen Zwei-Drittel-Mehrheit verhelfen, ab wann der Automatismus zur verpflichtenden Zivildienst-Verlängerung tatsächlich greift und wie die angekündigten Zusatzmaßnahmen (Österreichwoche, gestärkter außerordentlicher Zivildienst) konkret umgesetzt werden.",
       "pendingOutcomeUntil": "2026-07-30T22:07:32.314Z",
       "echoPublishers": {
-        "apa": "2026-07-29T12:07:41.746Z"
+        "apa": "2026-07-29T12:07:41.746Z",
+        "diepresse": "2026-07-30T06:07:28.296Z",
+        "kurier": "2026-07-29T12:07:41.987Z",
+        "kleinezeitung": "2026-07-29T18:07:35.937Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -13214,9 +13227,9 @@
       "echoPublishers": {
         "derstandard": "2026-07-29T22:07:28.862Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-29T22:07:26.817Z"
+      "resonanceMeasuredAt": "2026-07-30T06:07:25.738Z"
     },
     "uno-kriegsverbrechen-israel-libanon-juli-2026": {
       "canonicalTitle": "UNO-Menschenrechtsbüro sieht mögliche Kriegsverbrechen Israels im Libanon",
@@ -13306,11 +13319,9 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-30T04:07:35.559Z",
       "doNotUpdateBefore": "2026-07-29T10:07:35.559Z",
-      "pendingOutcome": "Ob sich bis Jahresende 2026 ein privater Investor für das Werk Heiligenkreuz findet, das Land Burgenland operativ einsteigt oder es tatsächlich zur Schließung kommt.",
-      "pendingOutcomeUntil": "2026-07-30T02:07:34.914Z",
       "echoPublishers": {
         "orf": "2026-07-29T12:07:40.691Z",
-        "apa": "2026-07-29T10:07:30.775Z"
+        "apa": "2026-07-30T06:07:27.937Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -13367,8 +13378,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-29T04:07:29.736Z",
       "doNotUpdateBefore": "2026-07-28T10:07:29.736Z",
-      "pendingOutcome": "Vorlage und tatsächliche Umsetzung des von SPÖ und Grünen eingeforderten Nationalen Aktionsplans gegen Hasskriminalität, der laut SPÖ ab Herbst 2026 in Umsetzung gehen soll.",
-      "pendingOutcomeUntil": "2026-07-30T04:07:29.736Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -13643,12 +13652,11 @@
       "doNotUpdateBefore": "2026-07-29T06:07:31.790Z",
       "echoPublishers": {
         "diepresse": "2026-07-29T06:07:31.856Z",
-        "kurier": "2026-07-29T06:07:31.435Z",
-        "derstandard": "2026-07-29T04:07:40.480Z"
+        "kurier": "2026-07-29T06:07:31.435Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
+      "resonanceMeasuredAt": "2026-07-30T06:07:25.738Z"
     },
     "aua-flugzeug-uebernachtung-kosice-juli-2026": {
       "canonicalTitle": "Unbekannter übernachtet unbemerkt in AUA-Flugzeug am Flughafen Košice",
@@ -13992,12 +14000,11 @@
       "doNotUpdateBefore": "2026-07-29T16:07:27.853Z",
       "echoPublishers": {
         "kurier": "2026-07-29T10:07:31.057Z",
-        "orf": "2026-07-29T04:07:37.630Z",
         "apa": "2026-07-29T08:07:29.416Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
+      "resonanceMeasuredAt": "2026-07-30T06:07:25.738Z"
     },
     "verkehrsunfall-pinzgau-piesendorf-juli-2026": {
       "canonicalTitle": "Frontalzusammenstoß zweier Kleinbusse im Pinzgau: Ein Toter, sieben Verletzte",
@@ -14166,7 +14173,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T14:07:33.623Z"
+      "resonanceMeasuredAt": "2026-07-30T06:07:25.738Z"
     },
     "brueckensprung-neue-donau-toter-juli-2026": {
       "canonicalTitle": "41-Jähriger nach Brückensprung in Wiener Neue Donau ertrunken",
@@ -14197,7 +14204,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T16:07:46.351Z"
+      "resonanceMeasuredAt": "2026-07-30T06:07:25.738Z"
     },
     "cluster-20260729-1a4bc7b7": {
       "canonicalTitle": "Bikeleasing-Gruppe investiert strategisch in Neuseelands führendes Dienstrad-Unternehmen Workride",
@@ -14422,6 +14429,72 @@
       "pendingOutcome": "Ausgang der für rund 25. August 2026 angesetzten außerordentlichen Hauptversammmlung zur Kapitalerhöhung sowie Fortschritt der Käufersuche für den Standort Heiligenkreuz.",
       "pendingOutcomeUntil": "2026-08-01T02:07:27.187Z",
       "echoPublishers": {}
+    },
+    "toedlicher-traktorunfall-st-johann-tirol-juli-2026": {
+      "canonicalTitle": "16-jähriger Traktorfahrer stirbt nach Sturz in Tiroler Ache",
+      "slug": "toedlicher-traktorunfall-st-johann-tirol-juli-2026",
+      "firstSeenAt": "2026-07-30T06:07:25.738Z",
+      "lastUpdatedAt": "2026-07-30T06:07:25.738Z",
+      "status": "published",
+      "articlePath": "src/content/articles/toedlicher-traktorunfall-st-johann-tirol-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-30/toedlicher-traktorunfall-st-johann-tirol-juli-2026.json",
+      "sourceUrls": [
+        "https://tirol.orf.at/stories/3364806",
+        "https://www.derstandard.at/story/3000000333467/16-j228hriger-st252rzte-in-tirol-mit-traktor-in-ache-tot",
+        "https://www.diepresse.com/40370619/16-jaehriger-tiroler-stirbt-bei-sturz-mit-traktor",
+        "https://www.kleinezeitung.at/artikel/40370662/16-jaehriger-in-tirol-bei-traktor-unfall-toedlich-verunglueckt",
+        "https://kurier.at/chronik/welt/flugzeugtechniker-wartungsarbeiten-unfall-heathrow-boeing/403178501"
+      ],
+      "openQuestions": [
+        "Was hat dazu geführt, dass das Gespann von der Fahrbahn abkam?",
+        "Welche Ermittlungsergebnisse liegen zum technischen Zustand des Traktors oder zum Fahrverhalten vor?",
+        "Welche Qualifikation bzw. Berechtigung lag für das Lenken des Traktorgespanns vor?",
+        "Gibt es Stellungnahmen von Angehörigen oder aus dem Umfeld des Jugendlichen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-31T06:07:25.738Z",
+      "doNotUpdateBefore": "2026-07-30T12:07:25.738Z",
+      "echoPublishers": {
+        "orf": "2026-07-30T06:07:27.865Z",
+        "derstandard": "2026-07-30T06:07:27.807Z",
+        "diepresse": "2026-07-30T06:07:27.968Z",
+        "kleinezeitung": "2026-07-30T06:07:29.572Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-30T06:07:25.738Z"
+    },
+    "bankomat-abhebelimit-senkung-juli-2026": {
+      "canonicalTitle": "Abhebelimit bei hunderten Bankomaten in Österreich auf rund 200 Euro gesenkt",
+      "slug": "bankomat-abhebelimit-senkung-juli-2026",
+      "firstSeenAt": "2026-07-30T06:07:25.738Z",
+      "lastUpdatedAt": "2026-07-30T06:07:25.738Z",
+      "status": "published",
+      "articlePath": "src/content/articles/bankomat-abhebelimit-senkung-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-30/bankomat-abhebelimit-senkung-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437679",
+        "https://www.diepresse.com/40369038/abhebelimit-bei-hunderten-bankomaten-von-400-auf-200-euro-gesenkt",
+        "https://kurier.at/wirtschaft/abhebelimit-bankomat-400-200-euro-geldabheben-limit/403178858"
+      ],
+      "openQuestions": [
+        "Welcher Bankomat-Betreiber hat sein Abhebelimit gesenkt, und an wie vielen konkreten Standorten gilt das neue Limit?",
+        "Seit wann genau ist die Änderung wirksam?",
+        "Planen weitere unabhängige Betreiber ähnliche Schritte, und wie reagieren die großen Banken darauf?",
+        "Wie konkret wird die im Herbst 2026 geplante EU-Bargeldverordnung ausgestaltet, und kommt die von der OeNB angesprochene Bargeldbehörde tatsächlich?",
+        "Gibt es messbare Konsumentenbeschwerden oder -verunsicherung durch die niedrigeren Limits?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-31T06:07:25.738Z",
+      "doNotUpdateBefore": "2026-07-30T12:07:25.738Z",
+      "echoPublishers": {
+        "orf": "2026-07-30T06:07:27.307Z",
+        "diepresse": "2026-07-30T06:07:27.968Z",
+        "kurier": "2026-07-30T06:07:28.072Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-30T06:07:25.738Z"
     }
   }
 }
