@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T22:30:47.102Z",
+  "updatedAt": "2026-07-30T00:25:25.129Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2760,13 +2760,13 @@
       "doNotUpdateBefore": "2026-07-13T09:07:28.746Z"
     },
     "us-angriffswelle-iran-juli-2026": {
-      "canonicalTitle": "Iran-Konflikt: Angriffspause bricht – USA und Saudi-Arabien schlagen nach iranischem Raketenversuch gemeinsam im Irak zurück",
+      "canonicalTitle": "Iran-Konflikt: Iran bekennt sich zu neuem Raketenangriff auf US-Stützpunkt in Jordanien, Ukraine-Iran-Spannungen wachsen",
       "slug": "us-angriffswelle-iran-juli-2026",
       "firstSeenAt": "2026-07-13T04:07:29.333Z",
-      "lastUpdatedAt": "2026-07-29T04:07:35.559Z",
+      "lastUpdatedAt": "2026-07-30T00:07:28.912Z",
       "status": "published",
       "articlePath": "src/content/articles/us-angriffswelle-iran-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-29/us-angriffswelle-iran-juli-2026-update-400.json",
+      "researchPath": "data/ai-news/research/2026-07-30/us-angriffswelle-iran-juli-2026-update-000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000331164/us-milit228r-greift-weitere-ziele-im-iran-an",
         "https://orf.at/stories/3436031",
@@ -2821,34 +2821,40 @@
         "https://orf.at/stories/3437570",
         "https://www.kleinezeitung.at/artikel/40179932/us-angriffe-gemeinsam-mit-saudi-arabien-auf-ziele-im-irak",
         "https://www.axios.com/2026/07/28/iran-missile-attack-us-base-jordan",
-        "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4558191/us-saudi-forces-strike-iran-backed-terrorist-sites-in-iraq/"
+        "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4558191/us-saudi-forces-strike-iran-backed-terrorist-sites-in-iraq/",
+        "https://www.derstandard.at/story/3000000333374/neue-eskalation-im-und-um-den-iran",
+        "https://orf.at/stories/3437561",
+        "https://www.diepresse.com/40176547/ukraine-rief-nach-angriff-iran-an-wollen-keine-eskalation",
+        "https://www.derstandard.at/story/3000000333374/neue-eskalation-in-und-um-den-iran",
+        "https://www.aljazeera.com/news/2026/7/29/iran-attacks-us-bases-in-middle-east-as-trump-meets-netanyahu",
+        "https://gulfnews.com/world/mena/iran-fires-missile-at-us-base-in-jordan-us-saudi-forces-strike-iran-backed-militias-in-iraq-1.500623392",
+        "https://orf.at/stories/3437308/",
+        "https://www.berliner-zeitung.de/article/iran-verurteilt-ukrainischen-angriff-auf-schiff-im-kaspischen-meer-10233779"
       ],
       "openQuestions": [
-        "Ist der Angriffsstopp zwischen den USA und dem Iran nach dem iranischen Raketenversuch und den US-saudischen Gegenschlägen im Irak endgültig gescheitert, oder kehren beide Seiten zu einer Pause zurück?",
+        "Hat Irans Revolutionsgarde mit dem Raketenangriff vom 29. Juli tatsächlich ein Ziel getroffen, wie in einzelnen Berichten behauptet, oder wurden – wie von den USA und Jordanien dargestellt – sämtliche Raketen wirkungslos abgefangen?",
+        "War das konkrete Ziel des Angriffs tatsächlich die Luftwaffenbasis Muwaffaq Salti nahe Azraq, und warum nannte Centcom selbst keinen genauen Ort?",
+        "Wie entwickeln sich die Spannungen zwischen der Ukraine und dem Iran nach dem Angriff auf das Frachtschiff im Kaspischen Meer weiter, und bleibt es bei diplomatischen Gesprächen statt Vergeltung?",
+        "Welche Rolle spielt der iranische Frachter tatsächlich im Kontext von Waffenlieferungen an Russland, und lässt sich diese Zuschreibung unabhängig verifizieren?",
+        "Was genau lag den öffentlichen Hinrichtungen in Isfahan zugrunde, wie liefen die Gerichtsverfahren ab, und besteht ein tatsächlicher Zusammenhang mit der militärischen Eskalation im Land?",
+        "Ist der Angriffsstopp zwischen den USA und dem Iran nach dem neuen Raketenangriff und den US-saudischen Gegenschlägen im Irak endgültig gescheitert, oder kehren beide Seiten zu einer Pause zurück?",
         "Wie reagiert Iran offiziell auf die Vorwürfe, Milizen im Irak zu Drohnenangriffen auf die USA und Saudi-Arabien angewiesen zu haben?",
-        "War der Zielort des iranischen Raketenangriffs tatsächlich ein US-Stützpunkt in Jordanien, wie von Axios unter Berufung auf einen anonymen Beamten berichtet, und warum nannte Centcom selbst kein Ziel?",
-        "Lässt sich die US-Behauptung, sämtliche iranischen Raketen seien abgefangen worden, unabhängig bestätigen – etwa durch Schadensangaben oder Satellitenaufnahmen?",
+        "Lässt sich die US-amerikanische und jordanische Behauptung, sämtliche iranischen Raketen seien abgefangen worden, durch weitere unabhängige Quellen wie Satellitenaufnahmen bestätigen?",
         "Welche konkreten Milizen-Gruppen im Irak waren Ziel der US-saudischen Angriffe, und bestätigen irakische Behörden diese Angriffe auf ihrem Territorium?",
-        "Welche Ergebnisse brachte das Treffen zwischen Trump und Netanyahu im Weißen Haus für die weitere US-Politik gegenüber Iran, und stand es tatsächlich im direkten Zusammenhang mit dem anschließenden iranischen Raketenversuch?",
+        "Welche Ergebnisse brachte das Treffen zwischen Trump und Netanyahu im Weißen Haus für die weitere US-Politik gegenüber Iran?",
         "Setzen sich die von Fortune und AP berichteten Verhandlungen über einen Kompromiss zur Hormus-Durchfahrt trotz der neuen Eskalation fort?",
-        "Kommt es zu einem förmlichen Waffenstillstandsabkommen zwischen den USA und Iran, oder eskaliert der Konflikt nach dem Zwischenfall weiter?",
+        "Kommt es zu einem förmlichen Waffenstillstandsabkommen zwischen den USA und Iran, oder eskaliert der Konflikt weiter?",
         "Bestätigen sich die von 'New York Times' und CNN berichteten Sorgen über schwindende US-Munitionsbestände unabhängig, etwa durch offizielle Pentagon-Angaben?",
         "Ist die iranische Behauptung gesprengter Öltanker in der Straße von Hormuz unabhängig verifizierbar, nachdem US-Centcom eine strukturell ähnliche frühere Behauptung bereits als falsch zurückgewiesen hat?",
-        "Was genau waren die Ziele und Ergebnisse der Angriffswellen zwischen der neunten und mindestens 13. Nacht, und gibt es dafür eine über Trump-Aussagen und einzelne Medienberichte hinausgehende, direkt eingesehene Centcom-Bestätigung?",
-        "Welche konkreten militärischen Schritte hat Trump Verteidigungsminister Hegseth und Generalstabschef Caine tatsächlich angeordnet?",
-        "Bestätigen bahrainische Behörden offiziell einen iranischen Vergeltungsangriff auf ihr Territorium, und wie unterscheidet sich dieser vom bereits berichteten Angriff auf Kuwait?",
         "Wie belastbar sind die iranischen Opferzahlen (38 bzw. rund 50 Tote), und gibt es davon unabhängige Zählungen, etwa von internationalen Organisationen?",
         "Ist die Identität der in Jordanien gefundenen sterblichen Überreste inzwischen bestätigt worden, und handelt es sich um den zuvor vermissten Soldaten?",
         "Was genau umfasste das laut Iran ausgesetzte Rahmenabkommen, und welche konkreten Folgen hat die Aussetzung für die aktuell laufenden Verhandlungen?",
-        "Wie reagiert die Trump-Regierung konkret auf wachsende innenpolitische Kritik, etwa von Senator Warner und anderen Kongressmitgliedern?",
-        "Führt die zuvor gemeldete Verlegung zusätzlicher F-16- und F-35-Kampfjets zu einer weiteren militärischen Eskalation oder dient sie primär der Absicherung bestehender Stützpunkte?",
-        "Normalisiert sich der stark reduzierte Schiffsverkehr durch die Straße von Hormus wieder, oder bleibt die Blockade-Situation bestehen?",
-        "Wie äußern sich EU-Institutionen oder die UN konkret und mit welchem Wortlaut zur jüngsten Eskalation und zum gebrochenen Angriffsstopp?"
+        "Wie äußern sich EU-Institutionen oder die UN konkret und mit welchem Wortlaut zur jüngsten Eskalation, inklusive der Ukraine-Iran-Spannungen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-30T04:07:35.559Z",
-      "doNotUpdateBefore": "2026-07-29T10:07:35.559Z",
-      "pendingOutcome": "Offen bleibt, ob der Angriffsstopp zwischen den USA und dem Iran endgültig gescheitert ist, wie beide Seiten in den kommenden Tagen tatsächlich reagieren und welche Folgen das vorangegangene Treffen zwischen Trump und Netanyahu hat.",
+      "doNotRedraftBefore": "2026-07-31T00:07:28.912Z",
+      "doNotUpdateBefore": "2026-07-30T06:07:28.912Z",
+      "pendingOutcome": "Ob der Angriffsstopp zwischen den USA und dem Iran nach dem neuen Raketenangriff endgültig gescheitert ist, wie sich die Ukraine-Iran-Spannungen nach der Attacke im Kaspischen Meer weiterentwickeln und ob es zu weiteren Vergeltungsschlägen oder stattdessen zu Verhandlungen kommt, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-07-31T04:07:35.559Z",
       "echoPublishers": {
         "diepresse": "2026-07-29T06:07:31.856Z",
@@ -3170,12 +3176,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-26T12:07:33.269Z",
       "doNotUpdateBefore": "2026-07-25T18:07:33.269Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-28T22:07:36.049Z"
-      },
-      "resonanceLevel": 4,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-28T22:07:32.314Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
     },
     "pflegebonus-gesetzliche-absicherung-juli-2026": {
       "canonicalTitle": "Pflegebonus soll gesetzlich verankert werden: Schumann kündigt Zweckbindung an, Gewerkschaften begrüßen Schritt",
@@ -9420,8 +9424,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-28T22:07:28.883Z",
       "doNotUpdateBefore": "2026-07-28T04:07:28.883Z",
-      "pendingOutcome": "Ob der „AI Kill Switch Act“ im US-Kongress weitere Unterstützung findet, einen Ausschuss durchläuft und zur Abstimmung kommt, sowie ob OpenAI, Hugging Face oder andere Unternehmen sich offiziell dazu äußern, ist offen und wird bei neuen Entwicklungen nachrecherchiert.",
-      "pendingOutcomeUntil": "2026-07-29T22:07:28.883Z",
       "echoPublishers": {
         "golem": "2026-07-29T08:07:31.092Z",
         "arstechnica": "2026-07-29T00:07:35.690Z",
@@ -12079,8 +12081,7 @@
       "pendingOutcome": "Wird weiterverfolgt: Ausgang bzw. Gegenstandslosigkeit des Berufungsverfahrens, Rolle der in der Tatnacht festgenommenen Person(en), etwaige rechtspolitische Konsequenzen aus der Bewährungspraxis-Debatte in Deutschland, eine mögliche Fußfessel-Regelung in Österreich sowie der Verlauf der Hamburger CSD-Parade und weiterer CSD-Veranstaltungen.",
       "pendingOutcomeUntil": "2026-07-30T22:07:32.314Z",
       "echoPublishers": {
-        "derstandard": "2026-07-29T10:07:31.905Z",
-        "kurier": "2026-07-28T22:07:35.662Z"
+        "derstandard": "2026-07-29T10:07:31.905Z"
       },
       "resonanceLevel": 5,
       "resonanceSource": "triage",
@@ -12759,7 +12760,6 @@
       "pendingOutcome": "Offen bleibt, ob und mit welchen Nachbesserungen FPÖ oder Grüne der Reform im Nationalrat zur nötigen Zwei-Drittel-Mehrheit verhelfen, ab wann der Automatismus zur verpflichtenden Zivildienst-Verlängerung tatsächlich greift und wie die angekündigten Zusatzmaßnahmen (Österreichwoche, gestärkter außerordentlicher Zivildienst) konkret umgesetzt werden.",
       "pendingOutcomeUntil": "2026-07-30T22:07:32.314Z",
       "echoPublishers": {
-        "derstandard": "2026-07-28T22:07:35.173Z",
         "apa": "2026-07-29T12:07:41.746Z"
       },
       "resonanceLevel": 3,
@@ -12903,8 +12903,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-28T22:07:28.883Z",
       "doNotUpdateBefore": "2026-07-28T04:07:28.883Z",
-      "pendingOutcome": "Ob die vom Delegierten der spanischen Zentralregierung angekündigte Überprüfung des Polizeieinsatzes zu einem offiziellen Ergebnis, Konsequenzen oder seinem Rücktritt führt und wie sich der genaue Verletztenstand sowie die politische Debatte um Übertourismus vor den Regionalwahlen 2027 weiterentwickeln, ist offen.",
-      "pendingOutcomeUntil": "2026-07-29T22:07:28.883Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -13317,12 +13315,11 @@
       "pendingOutcomeUntil": "2026-07-30T02:07:34.914Z",
       "echoPublishers": {
         "orf": "2026-07-29T12:07:40.691Z",
-        "apa": "2026-07-29T10:07:30.775Z",
-        "kurier": "2026-07-28T22:07:35.662Z"
+        "apa": "2026-07-29T10:07:30.775Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-29T10:07:27.853Z"
+      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
     },
     "orionnebel-neue-strukturen-massenschaetzung-juli-2026": {
       "canonicalTitle": "Universität Wien entdeckt unbekannte Gasstrukturen im Orionnebel und revidiert Massenschätzung",
@@ -13650,14 +13647,13 @@
       "doNotRedraftBefore": "2026-07-30T00:07:31.790Z",
       "doNotUpdateBefore": "2026-07-29T06:07:31.790Z",
       "echoPublishers": {
-        "orf": "2026-07-28T22:07:34.199Z",
         "diepresse": "2026-07-29T06:07:31.856Z",
         "kurier": "2026-07-29T06:07:31.435Z",
         "derstandard": "2026-07-29T04:07:40.480Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T12:07:38.523Z"
+      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
     },
     "aua-flugzeug-uebernachtung-kosice-juli-2026": {
       "canonicalTitle": "Unbekannter übernachtet unbemerkt in AUA-Flugzeug am Flughafen Košice",
@@ -13717,13 +13713,11 @@
       "pendingOutcome": "Ergebnis des am Mittwoch fortgesetzten Löscheinsatzes bei Scheffau und ob der Waldbrand mittlerweile vollständig unter Kontrolle gebracht werden konnte.",
       "pendingOutcomeUntil": "2026-07-31T04:07:35.559Z",
       "echoPublishers": {
-        "derstandard": "2026-07-29T08:07:30.547Z",
-        "diepresse": "2026-07-28T22:07:36.049Z",
-        "kleinezeitung": "2026-07-28T22:07:37.258Z"
+        "derstandard": "2026-07-29T08:07:30.547Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T16:07:46.351Z"
+      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
     },
     "emmerling-straffaellige-kinder-social-media-verbot-juli-2026": {
       "canonicalTitle": "Emmerling plädiert für Betreuung statt Wegsperren bei straffälligen Kindern",
@@ -14005,7 +13999,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T10:07:27.853Z"
+      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
     },
     "verkehrsunfall-pinzgau-piesendorf-juli-2026": {
       "canonicalTitle": "Frontalzusammenstoß zweier Kleinbusse im Pinzgau: Ein Toter, sieben Verletzte",
@@ -14036,7 +14030,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-29T10:07:27.853Z"
+      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
     },
     "bobbycar-tempo-weltrekord-tirol-juli-2026": {
       "canonicalTitle": "Deutscher stellt in Tirol neuen Bobbycar-Tempo-Weltrekord auf",
@@ -14303,6 +14297,71 @@
       "resonanceLevel": 5,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-29T22:07:26.817Z"
+    },
+    "kavinsky-dj-tod-juli-2026": {
+      "canonicalTitle": "Französischer DJ Kavinsky ist tot",
+      "slug": "kavinsky-dj-tod-juli-2026",
+      "firstSeenAt": "2026-07-30T00:07:28.912Z",
+      "lastUpdatedAt": "2026-07-30T00:07:28.912Z",
+      "status": "published",
+      "articlePath": "src/content/articles/kavinsky-dj-tod-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-30/kavinsky-dj-tod-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437614",
+        "https://www.derstandard.at/story/3000000333381/franzoesischer-dj-kavinsky-im-alter-von-50-verstorben",
+        "https://www.diepresse.com/40223188/song-nightcall-aus-film-drive-machte-ihn-beruehmt-franzoesischer-dj-kavinsky-ist-tot"
+      ],
+      "openQuestions": [
+        "Was ergibt die von der Staatsanwaltschaft eingeleitete Untersuchung zur Todesursache?",
+        "Gibt es Stellungnahmen von Angehörigen oder engen Weggefährten Kavinskys?",
+        "Welche näheren Umstände führten zum Auffinden in der Wohnung?",
+        "Wie reagieren internationale Musikerkolleginnen und -kollegen über die erste Wortmeldung der Kulturministerin hinaus?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-07-31T00:07:28.912Z",
+      "doNotUpdateBefore": "2026-07-30T06:07:28.912Z",
+      "pendingOutcome": "Ergebnis der von der Pariser Staatsanwaltschaft eingeleiteten Untersuchung zur Klärung der Todesursache.",
+      "pendingOutcomeUntil": "2026-08-01T00:07:28.912Z",
+      "echoPublishers": {
+        "orf": "2026-07-29T12:07:40.220Z",
+        "derstandard": "2026-07-29T12:07:42.726Z",
+        "diepresse": "2026-07-29T10:07:31.407Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
+    },
+    "wasserkraft-stromproduktion-trockenheit-juli-2026": {
+      "canonicalTitle": "Trockenheit lässt Stromproduktion aus Wasserkraft in Österreich um rund ein Drittel einbrechen",
+      "slug": "wasserkraft-stromproduktion-trockenheit-juli-2026",
+      "firstSeenAt": "2026-07-30T00:07:28.912Z",
+      "lastUpdatedAt": "2026-07-30T00:07:28.912Z",
+      "status": "published",
+      "articlePath": "src/content/articles/wasserkraft-stromproduktion-trockenheit-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-30/wasserkraft-stromproduktion-trockenheit-juli-2026.json",
+      "sourceUrls": [
+        "https://ooe.orf.at/stories/3364727",
+        "https://noe.orf.at/stories/3364591",
+        "https://www.kleinezeitung.at/artikel/40183764/wasserkraftwerke-erzeugen-um-30-prozent-weniger-strom",
+        "https://www.salzburg24.at/news/oesterreich/erste-wasserkraftwerke-wegen-trockenheit-abgeschaltet-art-333324"
+      ],
+      "openQuestions": [
+        "Wie hoch sind die konkreten Investitionssummen, die Energie AG und Verbund in zusätzliche Speicherkapazitäten stecken wollen, und bis wann sollen sie wirken?",
+        "Wird 2026 tatsächlich das schwächste Jahr seit Aufzeichnungsbeginn für die Wasserkraft-Stromproduktion in Österreich?",
+        "Wie viele Kleinwasserkraftwerke sind österreichweit bereits abgeschaltet, und in welchen Regionen genau?",
+        "Gibt es unabhängige amtliche Daten, etwa von E-Control oder Statistik Austria, die den berichteten Rückgang von rund 30 Prozent bestätigen?",
+        "Wie stark wirkt sich der vermehrte Rückgriff auf Gas und Stromimporte auf Kosten und CO2-Bilanz aus?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-07-31T00:07:28.912Z",
+      "doNotUpdateBefore": "2026-07-30T06:07:28.912Z",
+      "echoPublishers": {
+        "orf": "2026-07-29T12:07:40.957Z",
+        "kleinezeitung": "2026-07-29T08:07:31.333Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-30T00:07:28.912Z"
     }
   }
 }
