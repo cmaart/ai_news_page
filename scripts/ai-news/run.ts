@@ -1029,7 +1029,11 @@ function sanitizeDraft(draft: DraftResult): DraftResult | null {
   const claims = draft.claims
     .map((c) => ({ ...c, sourceIds: c.sourceIds.filter((id) => sourceIds.has(id)) }))
     .filter((c) => c.sourceIds.length > 0);
-  const summary = draft.summary.filter((s) => s.text.trim().length > 0);
+  // kind hart auf das Zod-Enum abbilden: Modell liefert vereinzelt andere Werte
+  // (z. B. "question") — alles außer explizitem "fact" konservativ als "open".
+  const summary = draft.summary
+    .filter((s) => s.text.trim().length > 0)
+    .map((s) => ({ ...s, kind: s.kind === 'fact' ? ('fact' as const) : ('open' as const) }));
   const body = draft.body.filter((b) => b.heading.trim() && b.markdown.trim());
   // Kompakt-Konvention hart absichern (validate.ts prüft dieselben Regeln):
   // keine Überschriften-Zeichen, maximal 3 Absätze.
