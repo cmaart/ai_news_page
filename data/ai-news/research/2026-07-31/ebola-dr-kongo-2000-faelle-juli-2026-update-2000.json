@@ -1,0 +1,591 @@
+{
+  "cluster": {
+    "id": "cluster-20260731-816c3d11",
+    "title": "Mehr als 3.500 Ebola-Fälle in Demokratischer Republik Kongo",
+    "items": [
+      {
+        "itemId": "1b5a924ff07d7d8a00ac17065353cc720a4c0f747dc822f913a63e339a1f8512",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Mehr als 3.500 Ebola-Fälle in Demokratischer Republik Kongo",
+        "url": "https://orf.at/stories/3437879",
+        "publishedAt": "2026-07-31T19:51:11.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "919978a213de9eecbef9e49a59e066049fa10780e93f719cfe59814d917ed7b7",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Keine Ebola-Fälle mehr in Uganda, mehr als 3000 im Kongo",
+        "url": "https://www.derstandard.at/story/3000000333224/ebola-keine-f228lle-mehr-in-uganda-mehr-als-3000-in-dr-kongo",
+        "isNew": false
+      },
+      {
+        "itemId": "e05dd9f58db860df1328c7e2c134b9d756dd7f76c0424a8faabef1b4744917c5",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "1.500 Ebola-Tote im Kongo",
+        "url": "https://www.kleinezeitung.at/artikel/40415129/1500-ebola-tote-im-kongo",
+        "isNew": false
+      },
+      {
+        "itemId": "581809b04d165d62cbb011842db04dadc2d4ad494eac3d646e18e958deb3d55c",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Mehr als 1500 Ebola-Tote im Kongo",
+        "url": "https://www.derstandard.at/story/3000000333532/mehr-als-1500-ebola-tote-im-kongo",
+        "isNew": false
+      },
+      {
+        "itemId": "034e05f729101d7b18ac32c9dd43b5f7bfe655b1549ec7b85b2d6b01781fd677",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Kongo: Mehr als 1.500 Ebola-Tote, Experten vermuten hohe Dunkelziffer",
+        "url": "https://kurier.at/chronik/welt/kongo-ebola-faelle-tote-infektionen/403178967",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Aktualisierung der laufenden Ebola-Epidemie in der DR Kongo mit neuen Fallzahlen (3.532 bestätigte Fälle, 1.556 Todesfälle; Steigerung zu 3.442/1.500+ aus der related story). Der Cluster bestätigt die Zahlen über ein breites Echo (ORF, Der Standard, Kleine Zeitung, Kurier). Die neuen Zahlen übersteigen erstmals die historische 2018–2020-Epidemie; Uganda erklärt parallel seinen Ausbruch für beendet. Diese Entwicklungen sind inkrementelle Fortschritte des publizierten Ausbruchs, keine eigenständigen Wendungen — daher update_story statt draft. Bundibugyo-Variante bleibt ohne zugelassenen Impfstoff; geografische Reichweite (5 Provinzen, 17. Ausbruch dort) bestätigt.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 4,
+    "relatedSlug": "ebola-dr-kongo-2000-faelle-juli-2026",
+    "possibleClaims": [
+      "Mehr als 3.500 Ebola-Fälle (3.532 bestätigte Infektionen) in der DR Kongo registriert",
+      "1.556 Todesfälle durch Ebola",
+      "Aktuelle Epidemie übertrifft Fallzahlen der 2018–2020-Epidemie (damals ~3.500 Fälle, ~2.300 Tote)",
+      "Bundibugyo-Variante des Virus verursacht Ausbruch",
+      "Kein zugelassener Impfstoff und keine spezifische Behandlung gegen Bundibugyo verfügbar",
+      "Es ist der 17. Ebola-Ausbruch in der DR Kongo",
+      "Ausbruch betrifft 5 Provinzen im von Gewalt geprägten Osten",
+      "Uganda erklärt seinen Ebola-Ausbruch offiziell für beendet (20 Fälle, 2 Todesfälle)"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme des kongolesischen Gesundheitsministeriums oder WHO zur Bestätigung der Fallzahlen",
+      "Aktuelle Informationen zu Impfstoffverfügbarkeit und klinischen Behandlungsmöglichkeiten",
+      "WHO-Prognose zum weiteren Verlauf des Ausbruchs",
+      "Detaillierte geografische und zeitliche Verteilung der Fälle über die 5 betroffenen Provinzen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "ebola-dr-kongo-2000-faelle-juli-2026",
+    "title": "Ebola in der DR Kongo: Fallzahl übersteigt 3.500, Uganda erklärt eigenen Ausbruch für beendet",
+    "description": "Laut kongolesischen Gesundheitsbehörden sind in der DR Kongo inzwischen 3.532 Ebola-Fälle bestätigt, 1.556 Menschen starben – die Fallzahl übertrifft damit erstmals die des bisher schwersten Ausbruchs 2018–2020, wenn auch nicht die Zahl der Todesfälle. Uganda hat seinen eigenen Ausbruch nach 42 Tagen ohne neue Fälle offiziell für beendet erklärt; laut mehreren internationalen Medien ist es nun der weltweit zweitgrößte Ebola-Ausbruch aller Zeiten.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der neue Fallzahlenstand (3.532 Fälle, 1.556 Tote, rund 44 Prozent Sterblichkeitsrate) stammt aus einem tatsächlich eingesehenen ORF-Artikeltext-Auszug vom 31. Juli 2026 und wird durch mehrere weitere österreichische Medien in der Größenordnung gestützt. Neu und deutlich vertrauensbildend ist zudem die Beendigung des Ausbruchs in Uganda: Diese ist jetzt nicht mehr nur über Medienberichte, sondern über eine tatsächlich eingesehene offizielle Pressemitteilung des ugandischen Gesundheitsministeriums (Uganda Media Centre) belegt, inklusive präzisem Entlassungsdatum des letzten Patienten. Die Einordnung als weltweit zweitgrößter Ebola-Ausbruch aller Zeiten stammt dagegen bislang nur aus internationalen Medienberichten unter Berufung auf eine Regierungsstelle, nicht aus einer von uns eingesehenen offiziellen Rangliste.",
+    "primarySourceStrength": "strong",
+    "sourceStrengthNote": "Für Uganda liegt nun eine tatsächlich eingesehene offizielle Quelle vor: die Pressemitteilung des ugandischen Gesundheitsministeriums über die Uganda Media Centre-Website vom 28. Juli 2026, die Fallzahlen, Genesenen-/Totenzahl und die 42-tägige Überwachungsphase seit der Entlassung des letzten Patienten am 16. Juni 2026 im Wortlaut bestätigt. Für die kongolesischen Fallzahlen bleibt es bei Behördenangaben, die von mehreren Medien übereinstimmend wiedergegeben werden, ohne dass eine tagesaktuelle WHO-Publikation mit demselben Datenstand (31. Juli) vorliegt – der jüngste eingesehene WHO-Lagebericht datiert weiterhin vom 26./27. Juli. Die Einstufung als „zweitgrößter Ausbruch aller Zeiten“ stützt sich auf internationale Medienberichte (Al Jazeera, CNN, Daily Sabah), die sich ihrerseits auf eine Aussage des kongolesischen Kommunikationsministeriums berufen; eine von uns eingesehene offizielle WHO-Einordnung dazu fehlt weiterhin.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Formulierung „zweitgrößter Ebola-Ausbruch aller Zeiten“ wird als Zitat/Einordnung internationaler Medien und einer Regierungsstelle gekennzeichnet, nicht als eigene Bewertung übernommen. Wichtig zur Vermeidung von Übertreibung: Die aktuelle Fallzahl übersteigt zwar erstmals die des bisher schwersten kongolesischen Ausbruchs (2018–2020, rund 3.500 Fälle), die Zahl der Todesfälle (1.556) liegt aber weiterhin unter der damaligen Opferzahl von fast 2.300 – beide Vergleiche werden im Artikel getrennt benannt. Die Berichterstattung stützt sich weiterhin praktisch ausschließlich auf Behörden-, WHO-, UN- und Regierungsangaben; unabhängige Stimmen aus der betroffenen Bevölkerung oder lokalen Gesundheitseinrichtungen fehlen weiterhin.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Laut kongolesischen Gesundheitsbehörden sind in der DR Kongo inzwischen 3.532 Ebola-Fälle bestätigt, 1.556 Menschen starben – eine Sterblichkeitsrate von rund 44 Prozent.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die aktuelle Fallzahl übersteigt damit erstmals die des bisher schwersten Ebola-Ausbruchs in der DR Kongo (2018–2020: rund 3.500 Fälle); die Zahl der Todesfälle (1.556) liegt jedoch weiterhin unter der damaligen Opferzahl von fast 2.300.",
+        "kind": "fact"
+      },
+      {
+        "text": "Uganda hat seinen eigenen Ebola-Ausbruch am 28. Juli 2026 offiziell für beendet erklärt, nach 42 Tagen ohne neue Fälle seit der Entlassung des letzten Patienten am 16. Juni 2026; insgesamt gab es dort 20 Fälle, 18 Genesene und zwei Todesfälle.",
+        "kind": "fact"
+      },
+      {
+        "text": "Mehrere internationale Medien bezeichnen den kongolesischen Ausbruch unter Berufung auf das kongolesische Kommunikationsministerium als den weltweit zweitgrößten Ebola-Ausbruch aller Zeiten, hinter dem Ausbruch 2014–2016 in Westafrika (rund 28.616 Fälle, 11.310 Tote).",
+        "kind": "fact"
+      },
+      {
+        "text": "Auslöser bleibt die seltene Bundibugyo-Variante des Ebolavirus, für die es weiterhin keinen zugelassenen Impfstoff und keine spezifische Therapie gibt; es ist der 17. Ebola-Ausbruch in der Geschichte der DR Kongo, betroffen sind fünf Provinzen im Osten des Landes.",
+        "kind": "fact"
+      },
+      {
+        "text": "UN-Ebola-Koordinator Julien Harneis hatte bei einer Pressekonferenz Ende Juli erklärt, die Fallzahlen verdoppelten sich derzeit etwa alle 20 Tage – deutlich schneller als der Ausbau der Hilfsmaßnahmen; WFP-Vizechef Carl Skau bezeichnete den Ausbruch als den am schnellsten wachsenden aller Zeiten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob eine frühere WHO-Schätzung eines zwei- bis vierfach höheren tatsächlichen Ausmaßes weiterhin zutrifft, bleibt ohne Primärquelle offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Auf welcher Zählweise die Einstufung als weltweit zweitgrößter Ebola-Ausbruch aller Zeiten genau beruht und ob sie von der WHO offiziell bestätigt wird, ist unklar.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob Uganda nach der offiziellen Beendigung angesichts der anhaltenden Ausbreitung im benachbarten Kongo dauerhaft frei von neuen Fällen bleibt, lässt sich nicht vorhersagen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Trifft die frühere WHO-Schätzung, das tatsächliche Ausmaß des Ausbruchs könnte zwei- bis viermal so groß sein wie die offiziellen Zahlen, weiterhin zu?",
+      "Auf welcher Zählweise und Datengrundlage beruht die Einstufung als weltweit zweitgrößter Ebola-Ausbruch aller Zeiten, und bestätigt die WHO diese Einordnung offiziell?",
+      "Warum zählen die Behördenangaben die Todesfälle seit Ende April, obwohl der Ausbruch erst Mitte Mai 2026 offiziell ausgerufen wurde?",
+      "Auf welcher Datengrundlage und Modellierung beruht die von UN-Ebola-Koordinator Julien Harneis genannte Verdopplungsrate von etwa 20 Tagen, und wie belastbar ist sie epidemiologisch?",
+      "Wie groß ist die tatsächliche Dunkelziffer nicht erfasster Fälle in den betroffenen, teils von Konflikten geprägten Regionen?",
+      "Wie belastbar ist die Einschätzung des Tropenmediziners Martin Grobusch, der Ausbruch könnte bis ins kommende Jahr andauern?",
+      "Bleibt Uganda nach der offiziellen Beendigung des eigenen Ausbruchs angesichts der anhaltenden Ausbreitung im benachbarten Kongo dauerhaft frei von neuen Fällen?",
+      "Gelingt es der internationalen Gemeinschaft, die von Harneis beschriebene wachsende Lücke zwischen Ausbreitung und Hilfsmaßnahmen zu schließen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at: „Mehr als 2.000 bestätigte Ebola-Fälle in DR Kongo“",
+        "type": "media",
+        "url": "https://orf.at/stories/3436224"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard: „Ebola: Mehr als 2000 bestätigte Fälle in DR Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331520/ebola-mehr-als-2000-best228tigte-f228lle-in-dr-kongo"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier: „Mehr als 2.000 bestätigte Ebola-Fälle im Kongo“",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/ebola-kongo-faelle-virus/403176154"
+      },
+      {
+        "id": "src4",
+        "name": "Die Presse: „Über 2000 Ebola-Fälle im Kongo: USA verschärfen Einreiseregeln“",
+        "type": "media",
+        "url": "https://www.diepresse.com/37380445/ueber-2000-ebola-faelle-im-kongo-usa-verschaerfen-einreiseregeln"
+      },
+      {
+        "id": "src5",
+        "name": "WHO Disease Outbreak News: Ebola disease caused by Bundibugyo virus, DR Congo & Uganda (2026-DON608)",
+        "type": "official",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+      },
+      {
+        "id": "src6",
+        "name": "Xinhua: „Ebola cases in DR Congo top 2,000“",
+        "type": "media",
+        "url": "https://english.news.cn/20260715/5155a8cb57e3405f9599dce6a2e9eca6/c.html"
+      },
+      {
+        "id": "src7",
+        "name": "Der Standard: „Ebola: USA verhängen Einreisesperre für eigene Bürger aus DR Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000331329/ebola-usa-verh228ngen-einreisesperre-f252r-eigene-b252rger-aus-dr-kongo"
+      },
+      {
+        "id": "src8",
+        "name": "ORF.at: „Fast 3.000 Ebola-Fälle in DR Kongo“",
+        "type": "media",
+        "url": "https://orf.at/stories/3437202"
+      },
+      {
+        "id": "src9",
+        "name": "Der Standard: „Inzwischen fast 3000 Ebola-Fälle im Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000332908/inzwischen-fast-3000-ebola-f228lle-im-kongo"
+      },
+      {
+        "id": "src10",
+        "name": "Kurier: „Kongo: Ebola fordert bisher fast 1.000 Todesopfer“",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/kongo-ebola-todesfaelle-uganda/403177555"
+      },
+      {
+        "id": "src11",
+        "name": "Der Standard: „Mehr als 1.400 Tote bei Ebola-Ausbruch im Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333018/mehr-als-1400-tote-bei-ebola-ausbruch-im-kongo"
+      },
+      {
+        "id": "src12",
+        "name": "Kleine Zeitung: „Mehr als 1.400 Tote bei Ebola-Ausbruch im Kongo“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/39784378/mehr-als-1400-tote-bei-ebola-ausbruch-im-kongo"
+      },
+      {
+        "id": "src13",
+        "name": "Die Presse: „Mehr als 1400 Tote bei Ebola-Ausbruch im Kongo“",
+        "type": "media",
+        "url": "https://www.diepresse.com/39784384/mehr-als-1400-tote-bei-ebola-ausbruch-im-kongo"
+      },
+      {
+        "id": "src14",
+        "name": "WHO Disease Outbreak News: Ebola disease caused by Bundibugyo virus, DR Congo & Uganda (2026-DON613)",
+        "type": "official",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+      },
+      {
+        "id": "src15",
+        "name": "Der Standard: „Mehr als 1500 Ebola-Tote im Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333532/mehr-als-1500-ebola-tote-im-kongo"
+      },
+      {
+        "id": "src16",
+        "name": "Die Presse: „Bereits über 1500 Ebola-Tote im Kongo“",
+        "type": "media",
+        "url": "https://www.diepresse.com/40416819/bereits-ueber-1500-ebola-tote-im-kongo"
+      },
+      {
+        "id": "src17",
+        "name": "Kurier: „Kongo: Mehr als 1.500 Ebola-Tote, Experten vermuten hohe Dunkelziffer“",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/kongo-ebola-faelle-tote-infektionen/403178967"
+      },
+      {
+        "id": "src18",
+        "name": "Kleine Zeitung: „1.500 Ebola-Tote im Kongo“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/40415129/1500-ebola-tote-im-kongo"
+      },
+      {
+        "id": "src19",
+        "name": "WHO/AFRO: Ebola Bundibugyo Virus Disease Outbreak – Weekly External Situation Report 11 (Datenstand 26. Juli 2026)",
+        "type": "official",
+        "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publication/ebola-bundibugyo-virus-disease-outbreak-3"
+      },
+      {
+        "id": "src20",
+        "name": "Tagesspiegel: „Epidemie im Kongo: UN: ‚Am schnellsten wachsender Ebola-Ausbruch aller Zeiten‘“",
+        "type": "media",
+        "url": "https://www.tagesspiegel.de/wissen/epidemie-im-kongo-un-am-schnellsten-wachsender-ebola-ausbruch-aller-zeiten-15895700.html"
+      },
+      {
+        "id": "src21",
+        "name": "watson.ch: „Kongo: ‚Am schnellsten wachsender Ebola-Ausbruch aller Zeiten‘“",
+        "type": "media",
+        "url": "https://www.watson.ch/international/afrika/719547049-kongo-am-schnellsten-wachsender-ebola-ausbruch-aller-zeiten"
+      },
+      {
+        "id": "src22",
+        "name": "CDC Health Alert Network: Ebola Disease Outbreak in the Democratic Republic of the Congo and Uganda",
+        "type": "official",
+        "url": "https://www.cdc.gov/han/php/notices/han00530.html"
+      },
+      {
+        "id": "src23",
+        "name": "ORF.at: „UNO: Am schnellsten wachsender Ebola-Ausbruch aller Zeiten“",
+        "type": "media",
+        "url": "https://orf.at/stories/3437668"
+      },
+      {
+        "id": "src24",
+        "name": "Der Standard: „UN: ‚Am schnellsten wachsender Ebola-Ausbruch aller Zeiten‘“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333447/ebola-uno-am-schnellsten-wachsender-ebola-ausbruch-aller-zeiten"
+      },
+      {
+        "id": "src25",
+        "name": "Die Presse: „Ebola: ‚Schnellst wachsender Ausbruch aller Zeiten‘“",
+        "type": "media",
+        "url": "https://www.diepresse.com/40364367/ebola-schnellst-wachsender-ausbruch-aller-zeiten"
+      },
+      {
+        "id": "src26",
+        "name": "Kurier: „UNO schlägt Alarm: ‚Am schnellsten wachsender Ausbruch aller Zeiten‘“",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/ebola-uno-kongo-ausbruch-epidemie-tote/403178854"
+      },
+      {
+        "id": "src27",
+        "name": "UN OCHA: „Today's top news: Democratic Republic of the Congo, Occupied Palestinian Territory, Haiti“ (29. Juli 2026)",
+        "type": "official",
+        "url": "https://www.unocha.org/news/todays-top-news-democratic-republic-congo-occupied-palestinian-territory-haiti-0"
+      },
+      {
+        "id": "src28",
+        "name": "UN Meetings Coverage/Press: Daily Press Briefing by the Office of the Spokesperson for the Secretary-General (29. Juli 2026)",
+        "type": "official",
+        "url": "https://press.un.org/en/2026/db260729.doc.htm"
+      },
+      {
+        "id": "src29",
+        "name": "ORF.at: „Mehr als 3.500 Ebola-Fälle in Demokratischer Republik Kongo“",
+        "type": "media",
+        "url": "https://orf.at/stories/3437879"
+      },
+      {
+        "id": "src30",
+        "name": "Der Standard: „Keine Ebola-Fälle mehr in Uganda, mehr als 3000 im Kongo“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333224/ebola-keine-f228lle-mehr-in-uganda-mehr-als-3000-in-dr-kongo"
+      },
+      {
+        "id": "src31",
+        "name": "Uganda Ministry of Health / Uganda Media Centre: „Uganda declares the end of the 2026 Ebola disease outbreak“",
+        "type": "official",
+        "url": "https://mediacentre.go.ug/press-room/uganda-declares-the-end-of-the-2026-ebola-disease-outbreak-s9m4"
+      },
+      {
+        "id": "src32",
+        "name": "WHO Disease Outbreak News: Ebola disease caused by Bundibugyo virus, DR Congo & Uganda (2026-DON612)",
+        "type": "official",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+      },
+      {
+        "id": "src33",
+        "name": "Al Jazeera: „DR Congo Ebola epidemic becomes world's second largest outbreak“",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/7/31/dr-congo-ebola-epidemic-becomes-worlds-second-largest-outbreak"
+      },
+      {
+        "id": "src34",
+        "name": "CNN: „Ebola outbreak in Congo surges to second-largest on record“",
+        "type": "media",
+        "url": "https://www.cnn.com/2026/07/31/health/ebola-outbreak-congo"
+      },
+      {
+        "id": "src35",
+        "name": "Al Jazeera: „Uganda declares end to Ebola outbreak“",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/7/28/uganda-declares-end-to-ebola-outbreak"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Zahl der bestätigten Ebola-Fälle in der DR Kongo ist von zunächst mehr als 2.000 (Mitte Juli) über 2.905 (22. Juli), 3.200 (26. Juli) und 3.442 (30. Juli) auf inzwischen 3.532 (31. Juli) gestiegen, mit zuletzt 1.556 Todesfällen und einer Sterblichkeitsrate von rund 44 Prozent.",
+        "status": "supported",
+        "note": "Der jüngste Stand (3.532/1.556) stammt aus einem tatsächlich eingesehenen ORF-Artikeltext-Auszug vom 31. Juli 2026 unter Berufung auf neue Behördenangaben. Die vorherigen Zwischenstände wurden von mehreren österreichischen Medien nahezu wortgleich gemeldet, was weiterhin auf eine gemeinsame Agenturmeldung hindeutet. Eine tagesaktuelle unabhängige WHO-Quelle mit demselben Datenstand liegt nicht vor; der jüngste eingesehene WHO-Bericht datiert vom 26./27. Juli.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src6",
+          "src8",
+          "src9",
+          "src11",
+          "src12",
+          "src13",
+          "src15",
+          "src16",
+          "src17",
+          "src18",
+          "src29"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Zahl der Todesfälle wurde im Verlauf des Ausbruchs mehrfach unterschiedlich beziffert: Mitte Juli nannte die WHO für den 13. Juli 719 Todesfälle, am 22. Juli waren es 1.269, am 26. Juli 1.405, am 30. Juli 1.521 bei 3.442 bestätigten Fällen, und am 31. Juli meldeten die Behörden 1.556 Todesfälle bei 3.532 bestätigten Fällen (Sterblichkeitsrate rund 44 Prozent).",
+        "status": "partial",
+        "note": "Die Zwischenzahlen dürften vor allem am jeweiligen Erhebungsdatum und an nachträglichen Datenüberprüfungen liegen. Der aktuellste Stand (1.556/3.532) gilt als eigenständiger, oben separat bewerteter Fakt (claim1) und stammt aus einem direkt eingesehenen ORF-Artikeltext-Auszug.",
+        "sourceIds": [
+          "src5",
+          "src6",
+          "src8",
+          "src9",
+          "src10",
+          "src11",
+          "src12",
+          "src13",
+          "src14",
+          "src15",
+          "src16",
+          "src17",
+          "src29"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Ausbruch wird durch die seltene Bundibugyo-Variante des Ebolavirus verursacht, für die es laut WHO keinen zugelassenen Impfstoff und keine spezifische Therapie gibt.",
+        "status": "supported",
+        "note": "Die aktuell aus den neuesten Zahlen abgeleitete Sterblichkeitsrate von rund 44 Prozent liegt in derselben Größenordnung wie die zuvor berichteten rund 40 bis 44 Prozent.",
+        "sourceIds": [
+          "src5",
+          "src8",
+          "src9",
+          "src11",
+          "src14",
+          "src19",
+          "src29"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die USA haben als Reaktion auf den Ausbruch die Einreiseregeln für eigene Staatsbürger aus der DR Kongo verschärft und verlangen einen 21-tägigen Aufenthalt in einem Drittstaat vor der Einreise.",
+        "status": "supported",
+        "note": "Die Maßnahme wurde laut Berichten im Mai 2026 von der US-Grenzbehörde verhängt und im Juni von der CDC verlängert; im aktuellen Cluster gibt es keine Hinweise auf eine Änderung.",
+        "sourceIds": [
+          "src4",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Der Tropenmediziner Martin Grobusch rechnet damit, dass der aktuelle Ausbruch bis ins kommende Jahr andauern könnte.",
+        "status": "partial",
+        "note": "Zwei Medien geben die Einschätzung nahezu wortgleich wieder, was auf eine gemeinsame zugrunde liegende Quelle hindeutet; eine Primärquelle des Zitats wurde nicht eingesehen. Im aktuellen Cluster gibt es keine neue Einschätzung dazu.",
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Die WHO hat den Ausbruch Mitte Mai 2026 gemeinsam mit der Regierung der DR Kongo zu einer gesundheitlichen Notlage von internationaler Tragweite (PHEIC) erklärt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src5",
+          "src8",
+          "src14",
+          "src32"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Es handelt sich laut Agenturmeldungen um den 17. Ebola-Ausbruch in der Geschichte der DR Kongo; Fachleute gehen davon aus, dass das Virus bereits Wochen vor der offiziellen Ausrufung Mitte Mai 2026 im Umlauf war.",
+        "status": "partial",
+        "note": "Die Angabe zum vermutlich früheren Zirkulieren des Virus wird nicht namentlich genannten Fachleuten zugeschrieben und ist nicht weiter belegt; sie deckt sich aber damit, dass die Behördenzahlen die Todesfälle bereits ab Ende April zählen.",
+        "sourceIds": [
+          "src8",
+          "src29"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Die WHO geht davon aus, dass das tatsächliche Ausmaß des Ausbruchs zwei- bis viermal so groß sein könnte wie die offiziell gemeldeten Zahlen.",
+        "status": "unclear",
+        "note": "Die Einschätzung wird von ORF und Der Standard übereinstimmend wiedergegeben, eine unmittelbar zugängliche WHO-Primärquelle mit der zugrunde liegenden Methodik liegt weiterhin nicht vor. Der aktuelle Cluster enthält keine neue Bestätigung oder Widerlegung dieser Schätzung.",
+        "sourceIds": [
+          "src8",
+          "src9",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Die kongolesischen Gesundheitsbehörden zählen die Todesfälle im laufenden Ausbruch seit Ende April 2026, also bereits rund zwei Wochen vor der offiziellen WHO-Ausrufung Mitte Mai.",
+        "status": "partial",
+        "note": "Diese Angabe stammt aus einer einzelnen Formulierung in den ausgewerteten Berichten und ist nicht durch eine separate Quelle bestätigt; sie widerspricht der bisherigen Chronologie nicht grundsätzlich (vgl. claim7).",
+        "sourceIds": [
+          "src11",
+          "src15",
+          "src16"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Ein WHO-Lagebericht (Disease Outbreak News 2026-DON613) sowie ein wöchentlicher Situationsbericht des WHO-Regionalbüros für Afrika nennen für den 26./27. Juli 2026 3.262 bestätigte Fälle und 1.437 Todesfälle – nahe an den zu diesem Zeitpunkt von den kongolesischen Behörden gemeldeten Zahlen.",
+        "status": "supported",
+        "note": "Diese unabhängig recherchierte WHO-Quelle bestätigte Größenordnung und Richtung der von den Behörden gemeldeten Entwicklung. Für den aktuellsten Behördenstand (3.532/1.556, 31. Juli) liegt uns weiterhin keine tagesgleiche WHO-Publikation vor; die Lücke zwischen offizieller WHO-Berichterstattung und Regierungsangaben dürfte sich damit wieder leicht vergrößert haben.",
+        "sourceIds": [
+          "src14",
+          "src19"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "WFP-Vizechef Carl Skau bezeichnete den Ausbruch als den am schnellsten wachsenden Ebola-Ausbruch aller Zeiten und verglich ihn mit früheren Ausbrüchen: In Westafrika habe es acht Monate gedauert, bis 1.000 Menschen starben (dort starben 2014/2015 letztlich mehr als 11.000 Menschen); beim bisher zweitschwersten Ausbruch 2018 bis 2020 im Ostkongo starben rund 2.300 Menschen.",
+        "status": "supported",
+        "note": "Das Zitat ist durch eine offizielle UN-Pressekonferenz-Mitschrift (OCHA-Tagesübersicht, UN-Presseabteilung vom 29. Juli 2026) sowie durch mehrere österreichische und internationale Medien übereinstimmend belegt. Es bleibt eine Einordnung durch eine WFP-Führungskraft, keine unabhängig von uns geprüfte epidemiologische Berechnung.",
+        "sourceIds": [
+          "src16",
+          "src17",
+          "src20",
+          "src21",
+          "src23",
+          "src24",
+          "src25",
+          "src26",
+          "src27",
+          "src28"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Uganda hat den eigenen Ebola-Ausbruch am 28. Juli 2026 offiziell für beendet erklärt. Die Erklärung folgte auf eine 42-tägige Überwachungsphase seit der Entlassung des letzten Patienten am 16. Juni 2026; insgesamt wurden im Land 20 bestätigte Fälle registriert, 18 Personen genasen, zwei starben.",
+        "status": "supported",
+        "note": "Erstmals liegt hierzu eine tatsächlich eingesehene offizielle Quelle vor: die Pressemitteilung des ugandischen Gesundheitsministeriums über die Uganda Media Centre-Website vom 28. Juli 2026. Sie wird durch Al Jazeera und den Der-Standard-Cluster-Bericht bestätigt und präzisiert das zuvor nur vage mit „Mitte Juli“ benannte Entlassungsdatum des letzten Patienten.",
+        "sourceIds": [
+          "src14",
+          "src22",
+          "src30",
+          "src31",
+          "src35"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "UN-Ebola-Koordinator Julien Harneis erklärte bei einer Pressekonferenz am 29. Juli 2026, die Fallzahlen stiegen exponentiell an und verdoppelten sich derzeit etwa alle 20 Tage – ein weitaus schnelleres Wachstum als der Ausbau der Hilfsmaßnahmen; die Lücke zwischen Ausbruch und Reaktion werde dadurch größer.",
+        "status": "supported",
+        "note": "Die Aussage liegt in einer offiziellen UN-Pressekonferenz-Mitschrift vor (OCHA-Tagesübersicht sowie UN-Presseabteilung, 29. Juli 2026), zusätzlich gestützt durch ORF, Der Standard, Die Presse und Kurier. Die epidemiologische Belastbarkeit der Verdopplungsrate selbst (Datengrundlage, Modellierung) bleibt unabhängig davon offen. Der aktuelle Cluster bringt keine neue Aussage hierzu, die weitere Fallzahlsteigerung (3.442 auf 3.532) ist damit konsistent.",
+        "sourceIds": [
+          "src20",
+          "src21",
+          "src23",
+          "src24",
+          "src25",
+          "src26",
+          "src27",
+          "src28"
+        ]
+      },
+      {
+        "id": "claim14",
+        "text": "Laut Julien Harneis starben in den 24 Stunden vor der Pressekonferenz am 29. Juli 2026 rund 50 Menschen an Ebola in der DR Kongo.",
+        "status": "supported",
+        "note": "Diese Tagesangabe geht auf die offizielle UN-Pressekonferenz-Mitschrift vom 29. Juli 2026 zurück und ist eine punktuelle 24-Stunden-Zahl, kein kumulierter Gesamtstand; sie ergänzt, widerspricht aber nicht den unter claim1/claim2 genannten kumulierten Zahlen.",
+        "sourceIds": [
+          "src27",
+          "src28"
+        ]
+      },
+      {
+        "id": "claim15",
+        "text": "Laut ORF-Wiedergabe der Aussagen Harneis' steigert eine frühzeitige Behandlung die Überlebenschancen von Ebola-Erkrankten enorm.",
+        "status": "partial",
+        "note": "Diese medizinische Einordnung findet sich im ausgewerteten Cluster nur bei ORF; eine zusätzliche unabhängige Bestätigung oder ein Primärquellen-Wortlaut dieser konkreten Formulierung liegt uns nicht vor.",
+        "sourceIds": [
+          "src23"
+        ]
+      },
+      {
+        "id": "claim16",
+        "text": "Die aktuelle Fallzahl (3.532 bestätigte Infektionen) übersteigt erstmals die des bisher schwersten Ebola-Ausbruchs in der DR Kongo (2018–2020: rund 3.500 Fälle); die Zahl der Todesfälle (1.556) liegt jedoch weiterhin klar unter der damaligen Opferzahl von fast 2.300.",
+        "status": "supported",
+        "note": "Direkt aus einem tatsächlich eingesehenen ORF-Artikeltext-Auszug übernommen. Die Differenzierung zwischen Fallzahl- und Todesfall-Vergleich wird bewusst getrennt gehalten, um keine Übertreibung durch Vermischung der beiden Kennzahlen zu erzeugen.",
+        "sourceIds": [
+          "src29"
+        ]
+      },
+      {
+        "id": "claim17",
+        "text": "Mehrere internationale Medien (Al Jazeera, CNN, Daily Sabah) bezeichnen den laufenden Ausbruch unter Berufung auf Angaben des kongolesischen Kommunikationsministeriums als den weltweit zweitgrößten Ebola-Ausbruch aller Zeiten, hinter dem Ausbruch 2014–2016 in Westafrika (rund 28.616 Fälle, 11.310 Tote).",
+        "status": "partial",
+        "note": "Die Einstufung stammt aus internationalen Medienberichten unter Berufung auf eine Regierungsstelle, nicht aus einer von uns eingesehenen offiziellen WHO-Rangliste historischer Ausbrüche; die zugrunde liegende Zählweise (nur DR Kongo oder alle Bundibugyo-Fälle inklusive Uganda) ist uns nicht bekannt.",
+        "sourceIds": [
+          "src33",
+          "src34"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Ebola-Ausbruch in der Demokratischen Republik (DR) Kongo hat sich weiter beschleunigt und in zwei Aspekten neue Marken erreicht. Nach Angaben der kongolesischen Gesundheitsbehörden sind seit Ende April 2026 1.556 Menschen an dem Virus gestorben, die Zahl der im Labor bestätigten Infektionen ist auf 3.532 gestiegen – eine Sterblichkeitsrate von rund 44 Prozent. Die Zahlen setzen einen bereits zuvor dokumentierten, raschen Anstieg fort: Mitte Juli lag die Fallzahl noch bei gut 2.000, am 22. Juli waren es 2.905 Fälle mit 1.269 Todesfällen, am 26. Juli 3.200/1.405, am 30. Juli 3.442/1.521. Damit übersteigt die aktuelle Fallzahl erstmals die des bisher schwersten Ebola-Ausbruchs in der DR Kongo (2018–2020: rund 3.500 Fälle) – die Zahl der Todesfälle (1.556) liegt allerdings weiterhin klar unter der damaligen Opferzahl von fast 2.300. Auslöser bleibt die seltene Bundibugyo-Variante des Ebolavirus. Es ist der 17. Ebola-Ausbruch in der Geschichte der DR Kongo, betroffen sind fünf Provinzen im von jahrzehntelanger Gewalt geprägten Osten des Landes; die Weltgesundheitsorganisation (WHO) hatte ihn im Mai 2026 gemeinsam mit der kongolesischen Regierung zur gesundheitlichen Notlage von internationaler Tragweite erklärt.\n\nZugleich hat Uganda den eigenen, mit dem kongolesischen Ausbruch verbundenen Ebola-Fall offiziell für beendet erklärt. Nach Angaben des ugandischen Gesundheitsministeriums vom 28. Juli 2026 folgte die Erklärung auf eine 42-tägige Überwachungsphase seit der Entlassung des letzten Patienten am 16. Juni 2026, während der landesweit keine neuen Fälle mehr registriert wurden. Insgesamt wurden in Uganda 20 bestätigte Fälle gezählt, 18 Personen genasen, zwei starben."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der aktuellste Fallzahlenstand vom 31. Juli 2026 stammt aus einem tatsächlich eingesehenen ORF-Artikeltext-Auszug, der sich auf neue Behördenangaben beruft; dass die neuen Zahlen die des bisher schwersten Ausbruchs 2018–2020 übersteigen, wird darin explizit als Vergleich genannt. Ein WHO-Disease-Outbreak-News-Eintrag (2026-DON613) sowie ein wöchentlicher Lagebericht des WHO-Regionalbüros für Afrika hatten für den 26./27. Juli 2026 noch 3.262 bestätigte Fälle und 1.437 Todesfälle genannt – nahe am damaligen Behördenstand. Eine tagesgleiche WHO-Publikation zum jetzigen Stand (3.532/1.556) liegt uns nicht vor; die zuvor dokumentierte Lücke zwischen offizieller WHO-Berichterstattung und tagesaktuellen Regierungsangaben dürfte sich damit wieder leicht vergrößert haben.\n\nFür die Beendigung des Ausbruchs in Uganda liegt erstmals eine tatsächlich eingesehene offizielle Quelle vor: die Pressemitteilung des ugandischen Gesundheitsministeriums über die Uganda Media Centre-Website. Sie benennt das genaue Entlassungsdatum des letzten Patienten (16. Juni 2026) und die 42-tägige Überwachungsfrist – Angaben, die zuvor nur vage mit „Mitte Juli“ kursierten. Al Jazeera und ein Der-Standard-Bericht aus dem aktuellen Cluster bestätigen die Erklärung inhaltlich.\n\nMehrere internationale Medien – Al Jazeera, CNN und Daily Sabah – berichten zudem unter Berufung auf das kongolesische Kommunikationsministerium, der Ausbruch sei nun der weltweit zweitgrößte Ebola-Ausbruch aller Zeiten, hinter dem Ausbruch 2014–2016 in Westafrika mit rund 28.616 Fällen und 11.310 Toten. Diese Einordnung ist bislang nicht durch eine von uns eingesehene offizielle WHO-Rangliste unterlegt, sondern beruht auf einer Regierungsangabe, die von internationalen Medien übereinstimmend aufgegriffen wird. Wie von Neue Nachrichten bereits berichtet, war zuvor auch ein für eine humanitäre Organisation tätiger US-Bürger im Kongo positiv getestet und zur Behandlung nach Deutschland ausgeflogen worden."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die aus den aktuellen Behördenzahlen errechnete Sterblichkeitsrate von rund 44 Prozent bestätigt, dass die Bundibugyo-Variante des Ebolavirus weiterhin sehr tödlich verläuft; ein zugelassener Impfstoff oder eine spezifische Therapie fehlen laut WHO nach wie vor. Wichtig für eine nüchterne Einordnung ist die Unterscheidung zwischen zwei unterschiedlichen Vergleichen: In der reinen Fallzahl hat der aktuelle Ausbruch den bisher schwersten kongolesischen Ausbruch (2018–2020) knapp überholt, bei den Todesfällen liegt er weiterhin deutlich darunter – die international kursierende Einstufung als „zweitgrößter Ausbruch aller Zeiten“ bezieht sich, soweit erkennbar, auf die Fallzahl, nicht auf die Opferzahl.\n\nDass Uganda seinen Ausbruch nach 42 Tagen ohne neue Fälle offiziell für beendet erklärt hat, zeigt, dass die eingeleiteten Eindämmungsmaßnahmen – intensive Überwachung, Kontaktverfolgung, Labortests – dort erfolgreich waren, während sich die Lage im Nachbarland DR Kongo weiter zuspitzt. UN-Ebola-Koordinator Julien Harneis hatte erst wenige Tage zuvor gewarnt, die Fallzahlen verdoppelten sich derzeit etwa alle 20 Tage – ein weitaus schnelleres Wachstum als der Ausbau der internationalen Hilfsmaßnahmen. Die jetzt gemeldete Steigerung von 3.442 auf 3.532 Fälle innerhalb weniger Tage ist mit dieser Beschreibung konsistent, auch wenn sich daraus keine exakte Verdopplungsrate ableiten lässt. Unverändert gehen Fachleute laut den vorliegenden Berichten von einer relevanten Dunkelziffer nicht erfasster Fälle aus, insbesondere in von Konflikten betroffenen Regionen Ituris und Nord-Kivus; der Tropenmediziner Martin Grobusch geht laut Medienberichten weiterhin davon aus, dass der Ausbruch bis ins kommende Jahr andauern könnte."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt weiterhin, worauf genau eine frühere WHO-Schätzung beruhte, wonach das tatsächliche Ausmaß des Ausbruchs zwei- bis viermal so groß sein könnte wie die offiziellen Zahlen; eine zugängliche Primärquelle mit der Berechnungsgrundlage liegt uns nicht vor. Neu hinzugekommen ist die Frage, auf welcher Zählweise und Datengrundlage die international kursierende Einstufung als weltweit zweitgrößter Ebola-Ausbruch aller Zeiten beruht und ob sie von der WHO offiziell bestätigt wird – bislang stammt sie nur aus internationalen Medienberichten unter Berufung auf eine Regierungsstelle. Unklar bleibt zudem weiterhin, warum die Todesfallzählung der Behörden bereits Ende April beginnt, obwohl der Ausbruch erst Mitte Mai offiziell ausgerufen wurde, sowie auf welcher konkreten Datengrundlage die von Harneis genannte 20-Tage-Verdopplungsrate beruht. Schließlich lässt sich aus den vorliegenden Quellen weiterhin nicht beziffern, wie groß die tatsächliche Dunkelziffer nicht erfasster Fälle in den betroffenen Regionen ist, und ob Uganda nach der offiziellen Beendigung seines Ausbruchs angesichts der anhaltenden Ausbreitung im Nachbarland dauerhaft frei von neuen Fällen bleibt."
+      }
+    ],
+    "bodyKompakt": "Der Ebola-Ausbruch in der Demokratischen Republik Kongo hat sich weiter beschleunigt: Laut kongolesischen Gesundheitsbehörden sind seit Ende April 2026 1.556 Menschen an dem Virus gestorben, die Zahl der laborbestätigten Infektionen ist auf 3.532 gestiegen – eine Sterblichkeitsrate von rund 44 Prozent. Damit übersteigt die Fallzahl erstmals die des bisher schwersten kongolesischen Ausbruchs (2018–2020: rund 3.500 Fälle); die Zahl der Todesfälle (1.556) liegt aber weiterhin klar unter der damaligen Opferzahl von fast 2.300 – beide Vergleiche sollten nicht vermischt werden. Mehrere internationale Medien (Al Jazeera, CNN, Daily Sabah) bezeichnen den Ausbruch unter Berufung auf das kongolesische Kommunikationsministerium inzwischen als den weltweit zweitgrößten Ebola-Ausbruch aller Zeiten, hinter dem Ausbruch 2014–2016 in Westafrika (rund 28.616 Fälle, 11.310 Tote) – eine Einstufung, die bislang nicht durch eine von uns eingesehene offizielle WHO-Rangliste belegt ist. Auslöser bleibt die seltene Bundibugyo-Variante, für die es weiterhin keinen zugelassenen Impfstoff gibt.\n\nZugleich hat Uganda seinen eigenen, mit dem kongolesischen Ausbruch verbundenen Ebola-Fall am 28. Juli 2026 offiziell für beendet erklärt – erstmals belegt durch eine tatsächlich eingesehene offizielle Pressemitteilung des ugandischen Gesundheitsministeriums. Die Erklärung folgte auf eine 42-tägige Überwachungsphase seit der Entlassung des letzten Patienten am 16. Juni 2026; insgesamt wurden dort 20 Fälle registriert, 18 Personen genasen, zwei starben. UN-Ebola-Koordinator Julien Harneis hatte kurz zuvor gewarnt, die Fallzahlen in der DR Kongo verdoppelten sich derzeit etwa alle 20 Tage – schneller als der Ausbau der Hilfsmaßnahmen; WFP-Vizechef Carl Skau nannte den Ausbruch bereits zuvor den am schnellsten wachsenden aller Zeiten.\n\nOffen bleibt, ob eine frühere WHO-Schätzung eines zwei- bis vierfach höheren tatsächlichen Ausmaßes weiterhin zutrifft, auf welcher Zählweise die Einstufung als zweitgrößter Ausbruch aller Zeiten beruht, wie groß die reale Dunkelziffer nicht erfasster Fälle ist, und ob Uganda angesichts der anhaltenden Ausbreitung im Nachbarland dauerhaft frei von neuen Fällen bleibt.",
+    "updateNote": "Fallzahlen auf 3.532 bestätigte Infektionen und 1.556 Todesfälle aktualisiert – damit übersteigt die Fallzahl erstmals den bisher schwersten Ausbruch 2018–2020; laut internationalen Medien gilt der Ausbruch nun als weltweit zweitgrößter aller Zeiten, und Uganda hat seinen eigenen Ausbruch nach offizieller Bestätigung des Gesundheitsministeriums für beendet erklärt.",
+    "pendingOutcome": "Weitere Entwicklung der Fallzahlen und Todesfälle in der DR Kongo, insbesondere ob der von Harneis beschriebene exponentielle Anstieg anhält, ob sich eine offizielle WHO-Bestätigung der Einstufung als zweitgrößter Ebola-Ausbruch aller Zeiten findet, und ob Uganda nach der Beendigung seines Ausbruchs dauerhaft fallfrei bleibt."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-07-31T20:07:50.404Z"
+}

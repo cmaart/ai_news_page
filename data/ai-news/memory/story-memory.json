@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T18:23:48.836Z",
+  "updatedAt": "2026-07-31T20:23:44.678Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2854,13 +2854,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-31T00:07:28.912Z",
       "doNotUpdateBefore": "2026-07-30T06:07:28.912Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-07-30T18:07:42.832Z",
-        "kurier": "2026-07-30T18:07:41.441Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-31T08:07:32.286Z"
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -5099,13 +5096,13 @@
       "doNotUpdateBefore": "2026-07-15T10:07:24.790Z"
     },
     "ebola-dr-kongo-2000-faelle-juli-2026": {
-      "canonicalTitle": "Ebola in der DR Kongo: Zahl der Toten steigt auf mehr als 1.500, Fallzahl auf 3.442",
+      "canonicalTitle": "Ebola in der DR Kongo: Fallzahl übersteigt 3.500, Uganda erklärt eigenen Ausbruch für beendet",
       "slug": "ebola-dr-kongo-2000-faelle-juli-2026",
       "firstSeenAt": "2026-07-15T06:07:27.992Z",
-      "lastUpdatedAt": "2026-07-31T02:07:36.309Z",
+      "lastUpdatedAt": "2026-07-31T20:07:50.404Z",
       "status": "published",
       "articlePath": "src/content/articles/ebola-dr-kongo-2000-faelle-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-31/ebola-dr-kongo-2000-faelle-juli-2026-update-200.json",
+      "researchPath": "data/ai-news/research/2026-07-31/ebola-dr-kongo-2000-faelle-juli-2026-update-2000.json",
       "sourceUrls": [
         "https://orf.at/stories/3436224",
         "https://www.derstandard.at/story/3000000331520/ebola-mehr-als-2000-best228tigte-f228lle-in-dr-kongo",
@@ -5134,26 +5131,37 @@
         "https://www.diepresse.com/40364367/ebola-schnellst-wachsender-ausbruch-aller-zeiten",
         "https://kurier.at/politik/ausland/ebola-uno-kongo-ausbruch-epidemie-tote/403178854",
         "https://www.unocha.org/news/todays-top-news-democratic-republic-congo-occupied-palestinian-territory-haiti-0",
-        "https://press.un.org/en/2026/db260729.doc.htm"
+        "https://press.un.org/en/2026/db260729.doc.htm",
+        "https://orf.at/stories/3437879",
+        "https://www.derstandard.at/story/3000000333224/ebola-keine-f228lle-mehr-in-uganda-mehr-als-3000-in-dr-kongo",
+        "https://mediacentre.go.ug/press-room/uganda-declares-the-end-of-the-2026-ebola-disease-outbreak-s9m4",
+        "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612",
+        "https://www.aljazeera.com/news/2026/7/31/dr-congo-ebola-epidemic-becomes-worlds-second-largest-outbreak",
+        "https://www.cnn.com/2026/07/31/health/ebola-outbreak-congo",
+        "https://www.aljazeera.com/news/2026/7/28/uganda-declares-end-to-ebola-outbreak"
       ],
       "openQuestions": [
         "Trifft die frühere WHO-Schätzung, das tatsächliche Ausmaß des Ausbruchs könnte zwei- bis viermal so groß sein wie die offiziellen Zahlen, weiterhin zu?",
+        "Auf welcher Zählweise und Datengrundlage beruht die Einstufung als weltweit zweitgrößter Ebola-Ausbruch aller Zeiten, und bestätigt die WHO diese Einordnung offiziell?",
         "Warum zählen die Behördenangaben die Todesfälle seit Ende April, obwohl der Ausbruch erst Mitte Mai 2026 offiziell ausgerufen wurde?",
         "Auf welcher Datengrundlage und Modellierung beruht die von UN-Ebola-Koordinator Julien Harneis genannte Verdopplungsrate von etwa 20 Tagen, und wie belastbar ist sie epidemiologisch?",
         "Wie groß ist die tatsächliche Dunkelziffer nicht erfasster Fälle in den betroffenen, teils von Konflikten geprägten Regionen?",
         "Wie belastbar ist die Einschätzung des Tropenmediziners Martin Grobusch, der Ausbruch könnte bis ins kommende Jahr andauern?",
-        "Bleibt der Ausbruchsherd in Uganda dauerhaft eingedämmt, oder werden erneut Fälle gemeldet?",
-        "Gelingt es der internationalen Gemeinschaft, die von Harneis beschriebene wachsende Lücke zwischen Ausbreitung und Hilfsmaßnahmen (Schutzausrüstung, Personal, Logistik) zu schließen?"
+        "Bleibt Uganda nach der offiziellen Beendigung des eigenen Ausbruchs angesichts der anhaltenden Ausbreitung im benachbarten Kongo dauerhaft frei von neuen Fällen?",
+        "Gelingt es der internationalen Gemeinschaft, die von Harneis beschriebene wachsende Lücke zwischen Ausbreitung und Hilfsmaßnahmen zu schließen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-01T02:07:36.309Z",
-      "doNotUpdateBefore": "2026-07-31T08:07:36.309Z",
-      "pendingOutcome": "Weiterentwicklung der Fallzahlen sowie Bestätigung oder Widerlegung der WHO-Schätzung eines zwei- bis vierfach höheren tatsächlichen Ausmaßes und der Verdopplungsrate von rund 20 Tagen bleiben zu beobachten; ebenso, ob die internationale Gemeinschaft die von Harneis beschriebene Lücke zwischen Ausbruchsdynamik und Hilfsmaßnahmen schließen kann.",
+      "doNotRedraftBefore": "2026-08-01T20:07:50.404Z",
+      "doNotUpdateBefore": "2026-08-01T02:07:50.404Z",
+      "pendingOutcome": "Weitere Entwicklung der Fallzahlen und Todesfälle in der DR Kongo, insbesondere ob der von Harneis beschriebene exponentielle Anstieg anhält, ob sich eine offizielle WHO-Bestätigung der Einstufung als zweitgrößter Ebola-Ausbruch aller Zeiten findet, und ob Uganda nach der Beendigung seines Ausbruchs dauerhaft fallfrei bleibt.",
       "pendingOutcomeUntil": "2026-08-01T11:47:18.512Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-31T16:07:35.395Z"
+      "echoPublishers": {
+        "orf": "2026-07-31T20:07:52.591Z",
+        "diepresse": "2026-07-31T20:07:54.836Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "armutskonferenz-gesetzesentwurf-sozialhilfe-reform-2026": {
       "canonicalTitle": "Armutskonferenz legt Gesetzesentwurf zur Reform der Sozialhilfe vor",
@@ -13691,13 +13699,13 @@
       "pendingOutcomeUntil": "2026-08-02T04:07:36.766Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-31T04:07:42.184Z",
-        "orf": "2026-07-31T08:07:34.421Z",
+        "orf": "2026-07-31T20:07:52.591Z",
         "derstandard": "2026-07-31T08:07:38.476Z",
         "kurier": "2026-07-31T08:07:36.574Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-31T08:07:32.286Z"
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "aua-flugzeug-uebernachtung-kosice-juli-2026": {
       "canonicalTitle": "Unbekannter übernachtet unbemerkt in AUA-Flugzeug am Flughafen Košice",
@@ -14349,7 +14357,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-31T08:07:32.286Z"
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "fuenf-babyleichen-orange-frankreich-juli-2026": {
       "canonicalTitle": "Fünf Babyleichen in Wohnung in Südfrankreich entdeckt – Mutter in Polizeigewahrsam",
@@ -14411,9 +14419,7 @@
       "doNotUpdateBefore": "2026-07-30T08:07:27.187Z",
       "pendingOutcome": "Ausgang der für rund 25. August 2026 angesetzten außerordentlichen Hauptversammmlung zur Kapitalerhöhung sowie Fortschritt der Käufersuche für den Standort Heiligenkreuz.",
       "pendingOutcomeUntil": "2026-08-01T02:07:27.187Z",
-      "echoPublishers": {
-        "diepresse": "2026-07-30T18:07:41.525Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-31T16:07:35.395Z"
@@ -14649,12 +14655,10 @@
       "doNotUpdateBefore": "2026-07-30T20:07:32.764Z",
       "pendingOutcome": "Ob der Festspielfonds gegen das Urteil Einspruch erhebt oder innerhalb der Sechs-Wochen-Frist die Gesamtkosten offenlegt.",
       "pendingOutcomeUntil": "2026-08-01T14:07:32.764Z",
-      "echoPublishers": {
-        "kurier": "2026-07-30T18:07:41.481Z"
-      },
-      "resonanceLevel": 5,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-30T18:07:35.905Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "korruptionsprozess-wolf-schelling-anklage-fix-2026": {
       "canonicalTitle": "Korruptionsprozess gegen Siegfried Wolf und Ex-Minister Schelling ist fix",
@@ -14828,12 +14832,13 @@
       "pendingOutcomeUntil": "2026-08-01T18:07:35.905Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-31T18:07:32.401Z",
-        "diepresse": "2026-07-31T16:07:39.340Z",
-        "kurier": "2026-07-31T18:07:30.966Z"
+        "diepresse": "2026-07-31T20:07:54.836Z",
+        "kurier": "2026-07-31T20:07:54.360Z",
+        "orf": "2026-07-31T16:07:36.642Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-31T08:07:32.286Z"
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "houthi-angriffe-vom-irak-us-saudi-vergeltung-30-juli-2026": {
       "canonicalTitle": "Huthi-Miliz griff laut Insidern erstmals vom Irak aus an – USA und Saudi-Arabien fliegen Vergeltungsschläge, Bagdad sagt Gipfeltreffen ab",
@@ -14877,13 +14882,10 @@
       "doNotUpdateBefore": "2026-07-31T00:07:35.905Z",
       "pendingOutcome": "Ob die irakische Untersuchung eine Beteiligung der Huthi-Miliz und lokaler Gruppen bestätigt, ob Kataib Hisbollah nach Ablauf der bis 6. August gesetzten Frist tatsächlich Vergeltung übt und ob der abgesagte Besuch bei Kronprinz Mohammed bin Salman nachgeholt wird, ist offen.",
       "pendingOutcomeUntil": "2026-08-01T18:07:35.905Z",
-      "echoPublishers": {
-        "kurier": "2026-07-30T20:07:33.582Z",
-        "kleinezeitung": "2026-07-30T20:07:34.964Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-31T08:07:32.286Z"
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "us-aussenministerium-afrika-karte-fehler-juli-2026": {
       "canonicalTitle": "US-Außenministerium blamiert sich mit KI-generierter Afrika-Karte bei Aids-Konferenz",
@@ -14911,15 +14913,10 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-07-31T20:07:31.370Z",
       "doNotUpdateBefore": "2026-07-31T02:07:31.370Z",
-      "echoPublishers": {
-        "derstandard": "2026-07-30T20:07:33.050Z",
-        "diepresse": "2026-07-30T18:07:41.168Z",
-        "kurier": "2026-07-30T18:07:41.441Z",
-        "kleinezeitung": "2026-07-30T18:07:42.832Z"
-      },
-      "resonanceLevel": 4,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-31T08:07:32.286Z"
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "nestle-babynahrung-klage-dornbirn-juli-2026": {
       "canonicalTitle": "Vorarlberger Familie klagt Nestlé wegen kontaminierter Babynahrung",
@@ -15142,7 +15139,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-31T08:07:32.286Z"
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "rbi-halbjahresgewinn-2026": {
       "canonicalTitle": "RBI steigert Konzerngewinn ohne Russland-Geschäft im ersten Halbjahr 2026 um ein Viertel auf 708 Millionen Euro",
@@ -15182,7 +15179,7 @@
       },
       "resonanceLevel": 5,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-31T08:07:32.286Z"
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     },
     "gerichtsgebuehren-erhoehung-august-2026": {
       "canonicalTitle": "Gerichtsgebühren steigen ab 1. August um 5,7 Prozent – Anwälte kritisieren Erhöhung scharf",
@@ -15329,6 +15326,70 @@
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-31T18:07:28.563Z"
+    },
+    "linkedin-ki-slop-button-juli-2026": {
+      "canonicalTitle": "LinkedIn führt Melde-Button gegen KI-generierte Inhalte ein",
+      "slug": "linkedin-ki-slop-button-juli-2026",
+      "firstSeenAt": "2026-07-31T20:07:50.404Z",
+      "lastUpdatedAt": "2026-07-31T20:07:50.404Z",
+      "status": "published",
+      "articlePath": "src/content/articles/linkedin-ki-slop-button-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-31/linkedin-ki-slop-button-juli-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333684/zu-viel-muell-linkedin-fuehrt-button-ein-mit-dem-user-auf-ki-slop-hinweisen-koennen",
+        "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop",
+        "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button"
+      ],
+      "openQuestions": [
+        "Wie stark sinkt der tatsächliche Anteil an KI-generierten Postings auf LinkedIn durch die neuen Maßnahmen?",
+        "Nach welchen Kriterien entscheiden die neuen Klassifizierer, ob ein Beitrag als „Slop“ gilt, und wie fehleranfällig ist diese Einstufung?",
+        "Wie reagieren Berufsverbände, PR-Branche oder Datenschutzstellen auf das private Feedback-Signal an vermeintliche Vielnutzer von KI-Schreibhilfen?",
+        "Legt LinkedIn selbst belastbare Zahlen zum bisherigen Ausmaß von KI-Inhalten auf der Plattform vor?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-01T20:07:50.404Z",
+      "doNotUpdateBefore": "2026-08-01T02:07:50.404Z",
+      "echoPublishers": {
+        "derstandard": "2026-07-31T20:07:53.745Z"
+      }
+    },
+    "hamas-entwaffnung-israel-vorleistungen-juli-2026": {
+      "canonicalTitle": "Hamas macht Entwaffnung von israelischen Vorleistungen abhängig",
+      "slug": "hamas-entwaffnung-israel-vorleistungen-juli-2026",
+      "firstSeenAt": "2026-07-31T20:07:50.404Z",
+      "lastUpdatedAt": "2026-07-31T20:07:50.404Z",
+      "status": "published",
+      "articlePath": "src/content/articles/hamas-entwaffnung-israel-vorleistungen-juli-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-07-31/hamas-entwaffnung-israel-vorleistungen-juli-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437880",
+        "https://www.derstandard.at/story/3000000333686/trump-spricht-von-vollstaendiger-entwaffnung-der-hamas-israels-zustimmung-steht-noch-aus",
+        "https://www.diepresse.com/40559105/hamas-entwaffnung-trumps-gaza-deal-steht-auf-toenernen-fuessen",
+        "https://www.aljazeera.com/news/2026/7/31/gaza-board-of-peace-announces-hamas-disarmament-agreement-what-we-know",
+        "https://www.washingtonpost.com/politics/2026/07/30/us-says-officials-reached-roadmap-hamas-disarmament-gaza/",
+        "https://www.cnn.com/2026/07/31/middleeast/trump-hamas-disarmament-announcement-intl",
+        "https://www.euronews.com/2026/07/31/trump-announces-historic-deal-for-the-complete-disarmament-of-hamas-and-israeli-withdrawal"
+      ],
+      "openQuestions": [
+        "Bestätigt Israel offiziell die von Trump verkündete Vereinbarung?",
+        "Ist die Aussage von Ghazi Hamad offiziell von der aktuellen Hamas-Führung autorisiert?",
+        "Welcher konkrete Zeitplan und welche Umsetzungsschritte sind tatsächlich zwischen allen Seiten vereinbart?",
+        "Wie reagieren EU, UNO oder andere internationale Akteure auf die aktuelle Pattsituation?",
+        "Worauf stützt sich die Einschätzung der „Presse“, der Deal stehe auf „tönernen Füßen“?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-01T20:07:50.404Z",
+      "doNotUpdateBefore": "2026-08-01T02:07:50.404Z",
+      "pendingOutcome": "Ob Israel die von Trump verkündete Vereinbarung offiziell bestätigt und ob es tatsächlich zu Entwaffnungsschritten der Hamas sowie einem israelischen Truppenabzug kommt.",
+      "pendingOutcomeUntil": "2026-08-02T20:07:50.404Z",
+      "echoPublishers": {
+        "orf": "2026-07-31T20:07:52.591Z",
+        "derstandard": "2026-07-31T16:07:41.605Z",
+        "diepresse": "2026-07-31T16:07:39.340Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
     }
   }
 }
