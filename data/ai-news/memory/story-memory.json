@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T10:22:21.750Z",
+  "updatedAt": "2026-08-01T12:21:56.333Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -4624,10 +4624,13 @@
       "doNotUpdateBefore": "2026-08-01T12:07:28.131Z",
       "pendingOutcome": "Offen sind die abschließende, unabhängig verifizierte Opferzahl der Angriffswelle vom 30. Juli 2026 sowie der weitere Verlauf des Streits um die Patriot-Lizenz zwischen der Ukraine und den USA.",
       "pendingOutcomeUntil": "2026-08-03T06:07:28.131Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "derstandard": "2026-08-01T12:07:31.380Z",
+        "kleinezeitung": "2026-08-01T04:07:34.748Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-28T02:07:34.914Z"
+      "resonanceMeasuredAt": "2026-08-01T12:07:28.817Z"
     },
     "cluster-20260714-6d1e2cbe": {
       "canonicalTitle": "K�nstliche Intelligenz: Claude 3 kann festgelegten Prinzipien folgen",
@@ -5171,8 +5174,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-01T20:07:50.404Z",
       "doNotUpdateBefore": "2026-08-01T02:07:50.404Z",
-      "pendingOutcome": "Weitere Entwicklung der Fallzahlen und Todesfälle in der DR Kongo, insbesondere ob der von Harneis beschriebene exponentielle Anstieg anhält, ob sich eine offizielle WHO-Bestätigung der Einstufung als zweitgrößter Ebola-Ausbruch aller Zeiten findet, und ob Uganda nach der Beendigung seines Ausbruchs dauerhaft fallfrei bleibt.",
-      "pendingOutcomeUntil": "2026-08-01T11:47:18.512Z",
       "echoPublishers": {
         "orf": "2026-07-31T20:07:52.591Z",
         "diepresse": "2026-07-31T20:07:54.836Z"
@@ -12149,7 +12150,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-30T18:07:31.888Z",
       "doNotUpdateBefore": "2026-07-30T00:07:31.888Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "derstandard": "2026-08-01T12:07:32.135Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-31T16:07:35.395Z"
@@ -12397,8 +12400,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-07-31T11:47:18.512Z",
       "doNotUpdateBefore": "2026-07-30T17:47:18.512Z",
-      "pendingOutcome": "Ob das für 11. August 2026 angekündigte zweite Konzert Hinterhäusers mit Igor Levit in der Kollegienkirche wie geplant stattfindet und ob es zu einer offiziellen Stellungnahme von Festspielkuratorium, Festspielleitung oder Hinterhäuser selbst zum zugrunde liegenden Konflikt kommt, ist weiterhin offen.",
-      "pendingOutcomeUntil": "2026-08-01T11:47:18.512Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -14604,8 +14605,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-07-31T10:07:40.113Z",
       "doNotUpdateBefore": "2026-07-30T16:07:40.113Z",
-      "pendingOutcome": "Entscheidung der Singapurer Behörden, ob dem Studenten wegen der Verurteilung sein Aufenthaltstitel (Studentenpass) entzogen wird.",
-      "pendingOutcomeUntil": "2026-08-01T10:07:40.113Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -14796,13 +14795,13 @@
       "resonanceMeasuredAt": "2026-07-31T16:07:35.395Z"
     },
     "ceuta-migranten-ansturm-juli-2026": {
-      "canonicalTitle": "Ceuta: Rund 60.000 Migranten binnen 24 Stunden, Sánchez spricht von „Angriff“ – Streit mit Italien über Schengen",
+      "canonicalTitle": "Ceuta: Zahl der Toten steigt auf 67 – die meisten der rund 60.000 Migranten sind nach Marokko zurückgekehrt",
       "slug": "ceuta-migranten-ansturm-juli-2026",
       "firstSeenAt": "2026-07-30T18:07:35.905Z",
-      "lastUpdatedAt": "2026-07-31T16:07:35.395Z",
+      "lastUpdatedAt": "2026-08-01T12:07:28.817Z",
       "status": "published",
       "articlePath": "src/content/articles/ceuta-migranten-ansturm-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-31/ceuta-migranten-ansturm-juli-2026-update-1600.json",
+      "researchPath": "data/ai-news/research/2026-08-01/ceuta-migranten-ansturm-juli-2026-update-1200.json",
       "sourceUrls": [
         "https://www.kleinezeitung.at/artikel/40550678/migranten-ansturm-von-marokko-auf-spanische-exklave-ceuta",
         "https://orf.at/stories/3437725",
@@ -14822,31 +14821,36 @@
         "https://www.diepresse.com/40556778/migranten-in-ceuta-italien-will-spanien-aus-schengen-raum-werfen",
         "https://kurier.at/politik/ausland/migranten-ceuta-italien-spanien-schengen-raum/403179094",
         "https://www.dailysabah.com/world/europe/italy-calls-for-spain-to-be-suspended-from-schengen-zone/amp",
-        "https://us.cnn.com/2026/07/31/europe/spain-ceuta-migrants-intl"
+        "https://us.cnn.com/2026/07/31/europe/spain-ceuta-migrants-intl",
+        "https://www.diepresse.com/40734861/zehntausende-migranten-verlassen-ceuta-zahl-der-toten-steigt-auf-67",
+        "https://www.derstandard.at/story/3000000333292/zahl-der-toten-bei-erdbeben-in-japan-steigt-auf-13",
+        "https://www.sn.at/politik/weltpolitik/fast-alle-migranten-verlassen-ceuta-67-tote-art-665328",
+        "https://www.vol.at/ceuta-erschuettert-europa-zahl-der-toten-steigt-eu-beruft-krisensitzung-ein/10362680"
       ],
       "openQuestions": [
-        "Wie hoch ist die tatsächliche, unabhängig verifizierte Zahl der Todesopfer – Angaben schwanken zwischen 19 und 57?",
-        "Wie viele Migranten sind tatsächlich bereits wieder nach Marokko zurückgekehrt – Angaben schwanken zwischen 25.000 und 37.500?",
+        "Wie hoch wird die endgültige, unabhängig verifizierte Zahl der Todesopfer sein – nach Guardia-Civil-Angaben mindestens 67, mit noch nicht abgeschlossener Suche nach Vermissten?",
+        "Wie viele der ursprünglich angekommenen Migranten sind tatsächlich zurückgekehrt und wie viele befinden sich noch in Ceuta bzw. Melilla?",
         "War der Auslöser des Massenandrangs tatsächlich das Gerichtsurteil des Obersten Gerichtshofs, Gerüchte über eine Grenzöffnung, ein Schleppernetzwerk oder politischer Druck Marokkos – die Erklärungen widersprechen sich zwischen den Quellen?",
-        "Wie positioniert sich Marokko offiziell und aus eigener Quelle zu den Ereignissen und den Berichten über ein Vorgehen seiner Sicherheitskräfte?",
+        "Wie positioniert sich Marokko offiziell und aus eigener Quelle zu den Ereignissen, zum Massenrückzug und zu Berichten über ein Vorgehen seiner Sicherheitskräfte?",
         "Wird die spanische Zentralregierung dem Ruf nach einem landesweiten Notstand noch folgen?",
         "Wie entwickelt sich der diplomatische Streit zwischen Spanien und Italien über die Schengen-Drohung weiter?",
-        "Ist die Lage an der Grenze inzwischen unter Kontrolle, oder kommt es zu weiteren Wellen von Grenzübertritten?"
+        "Was wurde bei der EU-Krisensitzung vom 1. August 2026 und dem für 3. August angesetzten Botschaftertreffen inhaltlich besprochen bzw. beschlossen?",
+        "Ist die Lage an der Grenze nach dem Truppeneinsatz und dem weitgehenden Rückzug der Migranten inzwischen stabil, oder kommt es weiterhin zu neuen Versuchen, nach Ceuta oder Melilla zu gelangen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-01T16:07:35.395Z",
-      "doNotUpdateBefore": "2026-07-31T22:07:35.395Z",
-      "pendingOutcome": "Offen bleiben die endgültige Opferzahl, die tatsächliche Zahl der Rückkehrer, die genaue Ursache des Massenandrangs, eine Stellungnahme Marokkos sowie der weitere Verlauf des diplomatischen Streits zwischen Spanien und Italien über die Schengen-Drohung.",
+      "doNotRedraftBefore": "2026-08-02T12:07:28.817Z",
+      "doNotUpdateBefore": "2026-08-01T18:07:28.817Z",
+      "pendingOutcome": "Offen bleiben die endgültige Opferzahl, die exakte Rückkehrerzahl, der Ausgang der EU-Krisensitzung vom 1. August und des Botschaftertreffens vom 3. August sowie die weitere Entwicklung des Schengen-Streits zwischen Spanien und Italien.",
       "pendingOutcomeUntil": "2026-08-01T18:07:35.905Z",
       "echoPublishers": {
         "kleinezeitung": "2026-07-31T18:07:32.401Z",
-        "diepresse": "2026-07-31T20:07:54.836Z",
+        "diepresse": "2026-08-01T12:07:32.147Z",
         "kurier": "2026-07-31T20:07:54.360Z",
         "orf": "2026-07-31T16:07:36.642Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-07-31T20:07:50.404Z"
+      "resonanceMeasuredAt": "2026-08-01T12:07:28.817Z"
     },
     "houthi-angriffe-vom-irak-us-saudi-vergeltung-30-juli-2026": {
       "canonicalTitle": "Huthi-Miliz griff laut Insidern erstmals vom Irak aus an – USA und Saudi-Arabien fliegen Vergeltungsschläge, Bagdad sagt Gipfeltreffen ab",
@@ -15663,7 +15667,7 @@
       "echoPublishers": {
         "orf": "2026-08-01T08:07:30.850Z",
         "kleinezeitung": "2026-08-01T00:07:37.719Z",
-        "kurier": "2026-08-01T06:07:31.411Z",
+        "kurier": "2026-08-01T12:07:32.086Z",
         "diepresse": "2026-08-01T08:07:31.025Z"
       },
       "resonanceLevel": 4,
@@ -15825,6 +15829,75 @@
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-01T10:07:30.615Z"
+    },
+    "schutzbrief-genitalverstuemmelung-herbst-2026": {
+      "canonicalTitle": "Bundesregierung plant Schutzbrief gegen weibliche Genitalverstümmelung ab Herbst",
+      "slug": "schutzbrief-genitalverstuemmelung-herbst-2026",
+      "firstSeenAt": "2026-08-01T12:07:28.817Z",
+      "lastUpdatedAt": "2026-08-01T12:07:28.817Z",
+      "status": "published",
+      "articlePath": "src/content/articles/schutzbrief-genitalverstuemmelung-herbst-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-01/schutzbrief-genitalverstuemmelung-herbst-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437905",
+        "https://www.diepresse.com/40739840/schutzbrief-gegen-weibliche-genitalverstuemmelung-kommt-ab-herbst",
+        "https://kurier.at/politik/inland/schutzbrief-gegen-weibliche-genitalverstuemmelung-kommt-ab-herbst/403179326"
+      ],
+      "openQuestions": [
+        "Nach welchen konkreten Kriterien werden die „Brennpunktschulen“ für die Verteilung ausgewählt?",
+        "Welche Best Practices aus dem deutschen und dem Schweizer Schutzbrief-Modell wurden übernommen, welche nicht?",
+        "Ist eine Evaluierung oder Wirkungsmessung des Schutzbriefs geplant, und anhand welcher Kriterien?",
+        "Welche weiteren Maßnahmen über den Schutzbrief hinaus sieht der Nationale Aktionsplan zum Schutz vor FGM konkret vor?",
+        "Warum stehen der geschätzten Zahl von bis zu 3.000 gefährdeten Mädchen nur so wenige strafrechtliche Ermittlungsverfahren gegenüber – liegt das an Dunkelfeld, Beweisproblemen oder Meldeverhalten?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-02T12:07:28.817Z",
+      "doNotUpdateBefore": "2026-08-01T18:07:28.817Z",
+      "pendingOutcome": "Ob der Schutzbrief wie angekündigt im Herbst 2026 tatsächlich vorliegt und wie er konkret ausgestaltet ist, dürfte bei Veröffentlichung erneut zu prüfen sein.",
+      "pendingOutcomeUntil": "2026-08-03T12:07:28.817Z",
+      "echoPublishers": {
+        "orf": "2026-08-01T12:07:30.858Z",
+        "diepresse": "2026-08-01T12:07:32.325Z",
+        "kurier": "2026-08-01T10:07:33.798Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-01T12:07:28.817Z"
+    },
+    "google-earth-ki-bildgenerator-nano-banana-abschaltung-2026": {
+      "canonicalTitle": "Google deaktiviert KI-Bildgenerator in Google Earth nach Missbrauchsfällen",
+      "slug": "google-earth-ki-bildgenerator-nano-banana-abschaltung-2026",
+      "firstSeenAt": "2026-08-01T12:07:28.817Z",
+      "lastUpdatedAt": "2026-08-01T12:07:28.817Z",
+      "status": "published",
+      "articlePath": "src/content/articles/google-earth-ki-bildgenerator-nano-banana-abschaltung-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-01/google-earth-ki-bildgenerator-nano-banana-abschaltung-2026.json",
+      "sourceUrls": [
+        "https://www.heise.de/news/Zu-viele-Fake-News-Google-stoppt-KI-Bilder-Funktion-in-Google-Earth-11394448.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images",
+        "https://the-decoder.de/google-earth-mit-ki-bildgenerator-war-eine-schlechte-idee-nutzer-faelschten-satellitenbilder",
+        "https://blog.google/products-and-platforms/products/earth/nano-banana-google-earth-image-generation/",
+        "https://x.com/NewsFromGoogle/status/2083249962150760610",
+        "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/"
+      ],
+      "openQuestions": [
+        "Wie viele KI-generierte Bilder wurden über die Funktion insgesamt erstellt oder öffentlich geteilt?",
+        "Welche konkreten technischen Maßnahmen umfassen die von Google angekündigten „strengeren Sicherungen“, und wann sollen sie umgesetzt sein?",
+        "Wie genau ließen sich die KI-Warnhinweise technisch umgehen, und wurde diese Schwachstelle inzwischen behoben?",
+        "Gab es über die zitierten Fälle hinaus (Bellingcat, Henk van Ess, BBC) weitere dokumentierte Missbrauchsfälle, etwa mit realem Schadenspotenzial?",
+        "Wie reagieren Faktencheck-Organisationen oder Regulierungsbehörden auf den Vorfall?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-02T12:07:28.817Z",
+      "doNotUpdateBefore": "2026-08-01T18:07:28.817Z",
+      "echoPublishers": {
+        "heise": "2026-08-01T12:07:33.478Z",
+        "arstechnica": "2026-07-31T22:07:33.767Z",
+        "thedecoder": "2026-08-01T10:07:35.758Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-01T12:07:28.817Z"
     }
   }
 }
