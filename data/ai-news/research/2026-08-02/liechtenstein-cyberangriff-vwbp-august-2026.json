@@ -1,0 +1,230 @@
+{
+  "cluster": {
+    "id": "cluster-20260802-970e43ec",
+    "title": "31.000 Datenkopien von Rechtsträgern in Liechtenstein gestohlen",
+    "items": [
+      {
+        "itemId": "7fa2738c31a2e4d171771f7b6d21b5ef2f35a31be133d626974c7e79b0dac25a",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "31.000 Datenkopien von Rechtsträgern in Liechtenstein gestohlen",
+        "url": "https://www.derstandard.at/story/3000000333900/31000-datenkopien-von-rechtstr228gern-in-liechtenstein-gestohlen",
+        "summary": "Ziel des Angriffs war das \"Verzeichnis wirtschaftlich berechtigter Personen\", teilte die Regierung mit",
+        "publishedAt": "2026-08-02T18:00:06.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "72309c8da62ce26ce86bd364bfdac5cc35d5a325486f20f579ff9f711b3c6544",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "31.000 Datenkopien von Rechtsträgern in Liechtenstein gestohlen",
+        "url": "https://www.derstandard.at/story/3000000333900/31000-datenkopien-von-rechtstr228gern-in-liechtenstein-gestohlen",
+        "summary": "Ziel des Angriffs war das \"Verzeichnis wirtschaftlich berechtigter Personen\", teilte die Regierung mit",
+        "publishedAt": "2026-08-02T18:00:06.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "0279181e913ea3aaf3e76040a37d65f2a223d097ade9a76f52f8808f2e790b1c",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "31.000 Datenkopien von Rechtsträgern in Liechtenstein gestohlen",
+        "url": "https://kurier.at/chronik/welt/31000-datenkopien-von-rechtstraegern-in-liechtenstein-gestohlen/403179451",
+        "summary": "Ein „Verzeichnis wirtschaftlich berechtigter Personen“ ist betroffen.",
+        "publishedAt": "2026-08-02T17:53:25.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "c7e40bceefb3abb100d37ac69b33e2cd3f433a244206ef154de6a81be3cb0608",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "31.000 Datenkopien gestohlen: Massiver Cyberangriff in Liechtenstein",
+        "url": "https://www.kleinezeitung.at/artikel/40788704/31000-datenkopien-gestohlen-massiver-cyberangriff-in-liechtenstein",
+        "summary": "Das Amt für Justiz im Fürstentum Liechtenstein hat einen Hackerangriff erlitten. Das „Verzeichnis wirtschaftlich berechtigter Personen“ ist betroffen.",
+        "publishedAt": "2026-08-02T18:04:15.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Konkreter, verifizierter Cyberangriff auf liechtensteinische Regierungsdatenbank mit EU/EWR-Relevanz (Finanzplatz, Cybersicherheit). Solide Quellenlage (3 Häuser unabhängig, 2 mit fulltextExcerpt), zeitlich aktuell (02.08.2026), offizielle Regierungsmitteilung vorliegend. Potenzielle Betroffenheit österreichischer Wirtschaftsteilnehmer und kritischer Infrastruktur im EWR. Substanziell für draft_article trotz noch offener Attribuierung.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Circa 31.000 Datensätze von Gesellschaften, Stiftungen und Treuhänderschaften wurden abgegriffen",
+      "Angriff fand in der Nacht auf 30. Juli 2026 statt",
+      "Krisenstab tägt seit Samstag abend unter Leitung von Regierungschefin Brigitte Haas und Justizminister Emanuel Schädler",
+      "Das Verzeichnis wirtschaftlich berechtigter Personen war das Angriffsziel",
+      "Bislang keine Lösegeldforderungen eingegangen",
+      "Bislang keine Daten im Darknet aufgetaucht",
+      "Keine Hinweise auf Datenänderungen oder -löschungen bekannt",
+      "Täterschaft ist unbekannt"
+    ],
+    "missingSources": [
+      "Attribuierung des Angriffs (wer steckt dahinter?)",
+      "Technische Details des Angriffsvektors und verwendete Malware",
+      "Österreichische/EU-Reaktionen und Sicherheitshinweise",
+      "Interviews mit betroffenen Unternehmen oder Wirtschaftsvertretern",
+      "Details zu Sicherheitsmaßnahmen vor und nach dem Angriff"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "liechtenstein-cyberangriff-vwbp-august-2026",
+    "title": "Cyberangriff auf Liechtenstein: 31.000 Datenkopien aus Register wirtschaftlich Berechtigter gestohlen",
+    "description": "Unbekannte haben sich Zugriff auf das liechtensteinische Verzeichnis wirtschaftlich berechtigter Personen verschafft und rund 31.000 Datenkopien von Gesellschaften, Stiftungen und Treuhänderschaften kopiert. Ein Krisenstab der Regierung unter Regierungschefin Brigitte Haas arbeitet seit Samstag an der Aufklärung.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kernvorgang – Ziel, Zeitpunkt und Umfang des Angriffs – wurde von der liechtensteinischen Regierung selbst mitgeteilt und deckt sich in drei unabhängig recherchierten Medienberichten, die diese Mitteilung wiedergeben.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Der Wortlaut der Regierungsmitteilung liegt uns nur über eine Suchergebnis-Zusammenfassung eines Nachrichtenwire-Portals vor, nicht über einen direkt aufgerufenen Text der Regierungsseite regierung.li selbst.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Bislang liegt ausschließlich die Darstellung der Regierung selbst vor; eine unabhängige technische Einschätzung (etwa von Sicherheitsforschern) oder eine Stellungnahme der – noch unbekannten – Täterseite fehlt naturgemäß.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Bei einem Cyberangriff auf das liechtensteinische Verzeichnis wirtschaftlich berechtigter Personen (VwbP) wurden rund 31.000 Datenkopien von Gesellschaften, Stiftungen und Treuhänderschaften gestohlen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der unbefugte Zugriff erfolgte laut Regierung in der Nacht auf den 30. Juli 2026; seit Samstagabend, 1. August, tagt ein Krisenstab unter Regierungschefin Brigitte Haas und Justizminister Emanuel Schädler.",
+        "kind": "fact"
+      },
+      {
+        "text": "Nach Angaben der Regierung gibt es bislang keine Hinweise darauf, dass Daten im System verändert oder gelöscht wurden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wer hinter dem Angriff steht, ist weiterhin unbekannt.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob Lösegeld gefordert wurde oder die Daten im Darknet auftauchen, ist bislang nur durch eine einzelne Quelle verneint worden und bleibt zu beobachten.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wer steckt hinter dem Angriff auf das Verzeichnis wirtschaftlich berechtigter Personen?",
+      "Welcher technische Angriffsweg bzw. welche Schwachstelle wurde ausgenutzt?",
+      "Werden im weiteren Verlauf Lösegeldforderungen gestellt oder tauchen die Daten im Darknet auf?",
+      "Wie und wann werden die rund 31.000 betroffenen Rechtsträger im Detail informiert, und welche konkreten Folgen hat dies für sie?",
+      "Was ergibt die für Montag, 3. August 2026, angekündigte weitere Information des Krisenstabs?",
+      "Gibt es Reaktionen österreichischer, EU- oder anderer internationaler Behörden bzw. Finanzmarktaufsichten auf den Vorfall?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333900/31000-datenkopien-von-rechtstr228gern-in-liechtenstein-gestohlen"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/31000-datenkopien-von-rechtstraegern-in-liechtenstein-gestohlen/403179451"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/40788704/31000-datenkopien-gestohlen-massiver-cyberangriff-in-liechtenstein"
+      },
+      {
+        "id": "src4",
+        "name": "Fürstentum Liechtenstein, Regierungsmitteilung (verbreitet über Finanznachrichten.de)",
+        "type": "official",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69192495-unberechtigter-zugriff-von-dritten-auf-verzeichnisdaten-006.htm"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Bei einem Cyberangriff auf das liechtensteinische Verzeichnis wirtschaftlich berechtigter Personen (VwbP) wurden rund 31.000 Datenkopien von Gesellschaften, Stiftungen und Treuhänderschaften abgegriffen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Nach vorläufigen Erkenntnissen der Regierung verschaffte sich die Täterschaft in der Nacht auf den 30. Juli 2026 digital Zugriff auf das Verzeichnis; Unregelmäßigkeiten fielen zunächst beim Amt für Justiz auf, worauf das Amt für Informatik das betroffene System vom Netz nahm.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Wer hinter dem Angriff steht, ist nach aktuellem Kenntnisstand der Regierung unbekannt.",
+        "status": "supported",
+        "note": "Momentaufnahme laut Regierungsangabe zum Zeitpunkt der Mitteilung; kann sich mit fortschreitenden Ermittlungen ändern.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Laut Mitteilung der Regierung gibt es bislang keine Hinweise darauf, dass Daten im betroffenen System verändert oder gelöscht wurden.",
+        "status": "supported",
+        "note": "Detail liegt uns nur über einen der drei Medienberichte vor, wird dort aber ausdrücklich der Regierungsmitteilung zugeschrieben.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Laut Regierungschefin Brigitte Haas in einem Interview mit dem Schweizer Sender SRF sind bislang weder Lösegeldforderungen eingegangen, noch sind die Daten im Darknet aufgetaucht.",
+        "status": "partial",
+        "note": "Nur ein Medium gibt dieses Detail aus einem TV-Interview wieder; eine unabhängige Zweitquelle fehlt bislang.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Die Regierung hat einen von Regierungschefin Brigitte Haas und Justizminister Emanuel Schädler geleiteten Krisenstab einberufen, der seit Samstagabend, 1. August 2026, an der Aufklärung arbeitet.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Das Fürstentum Liechtenstein ist Ziel eines umfangreichen Datendiebstahls geworden. Wie die Regierung in Vaduz mitteilte, verschaffte sich eine bislang unbekannte Täterschaft nach vorläufigen Erkenntnissen in der Nacht auf den 30. Juli 2026 widerrechtlich digitalen Zugriff auf das Verzeichnis wirtschaftlich berechtigter Personen (VwbP). Dieses Register wird zur Verhinderung von Geldwäsche und Terrorismusfinanzierung geführt und enthält Angaben zu den wirtschaftlich berechtigten Personen von Rechtsträgern – also Gesellschaften, Stiftungen und Treuhänderschaften.\n\nIm Verlauf des folgenden Tages fielen beim Amt für Justiz Unregelmäßigkeiten auf. Das in der Folge eingeschaltete Amt für Informatik nahm das betroffene System zur Sicherung vom Netz. Wie sich anschließend herausstellte, hatte die Täterschaft Datenkopien von rund 31.000 Rechtsträgern erbeutet."
+      },
+      {
+        "heading": "Reaktion der Regierung",
+        "markdown": "Die Regierung berief daraufhin einen Krisenstab ein, der seit Samstagabend, 1. August 2026, unter der Leitung von Regierungschefin Brigitte Haas und Justizminister Emanuel Schädler tagt. Parallel dazu richtete die Verwaltung eine zentrale Informationsstelle ein, bei der sich Betroffene mit Fragen per E-Mail melden können. Das VwbP selbst ist für externe Nutzer vorübergehend nicht zugänglich."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Wer hinter dem Angriff steckt, ist nach aktuellem Kenntnisstand der Regierung unbekannt – eine Zuordnung zu einer bestimmten Gruppe oder einem Staat liegt bislang nicht vor. Laut Mitteilung der Regierung gibt es zudem keine Hinweise darauf, dass Daten im System verändert oder gelöscht wurden. Regierungschefin Haas sagte gegenüber dem Schweizer Sender SRF überdies, bislang seien weder Lösegeldforderungen eingegangen noch seien die Daten im Darknet aufgetaucht. Dieses Detail stammt bislang nur aus einem einzelnen Medienbericht über ein TV-Interview und ist unabhängig nicht gegengeprüft – es kann sich mit dem weiteren Ermittlungsverlauf ändern. Offen bleibt auch, wie genau die rund 31.000 betroffenen Rechtsträger informiert werden und welche technische Schwachstelle den Zugriff ermöglichte."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Das Verzeichnis wirtschaftlich berechtigter Personen ist ein zentrales Instrument der liechtensteinischen Geldwäscheprävention und betrifft damit unmittelbar den als Finanzplatz bedeutenden Kleinstaat. Ein Abfluss von Daten aus einem solchen Register ist sensibel, weil es Informationen über die tatsächlichen Eigentümer von Gesellschaften, Stiftungen und Treuhänderschaften bündelt – Angaben, die in falschen Händen etwa für gezielte Betrugsversuche oder Erpressung genutzt werden könnten. Über konkrete Auswirkungen auf einzelne Unternehmen oder auf Geschäftsbeziehungen mit dem benachbarten Ausland liegen derzeit keine Angaben vor."
+      }
+    ],
+    "bodyKompakt": "Das Fürstentum Liechtenstein ist Ziel eines umfangreichen Datendiebstahls geworden. Nach Angaben der Regierung verschaffte sich eine bislang unbekannte Täterschaft in der Nacht auf den 30. Juli 2026 widerrechtlich Zugriff auf das Verzeichnis wirtschaftlich berechtigter Personen (VwbP), das der Geldwäsche- und Terrorismusfinanzierungsprävention dient. Dabei wurden Datenkopien von rund 31.000 Rechtsträgern – Gesellschaften, Stiftungen und Treuhänderschaften – erbeutet. Unregelmäßigkeiten waren zunächst beim Amt für Justiz aufgefallen, das Amt für Informatik nahm das System daraufhin vom Netz.\n\nSeit Samstagabend, 1. August, tagt ein von Regierungschefin Brigitte Haas und Justizminister Emanuel Schädler geleiteter Krisenstab; eine zentrale Informationsstelle für Betroffene wurde eingerichtet. Laut Regierung gibt es bislang keine Hinweise auf veränderte oder gelöschte Daten. Regierungschefin Haas sagte zudem gegenüber SRF, es seien bislang weder Lösegeldforderungen eingegangen noch Daten im Darknet aufgetaucht – dieses Detail stützt sich bislang auf nur eine Quelle.\n\nWer hinter dem Angriff steht, ist weiterhin unbekannt. Der Krisenstab hat für Montag, 3. August, weitere Informationen zum Stand der Aufklärung angekündigt.",
+    "updateNote": null,
+    "pendingOutcome": "Der Krisenstab hat für Montag, den 3. August 2026, eine weitere Information über den Stand der Aufklärung und mögliche Täterzuordnung angekündigt."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-02T18:07:34.402Z"
+}
