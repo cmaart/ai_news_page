@@ -1,0 +1,230 @@
+{
+  "cluster": {
+    "id": "cluster-20260802-e3dbeb05",
+    "title": "Ungarn schaltet AKW Paks wegen Wassermangels ganz  ab",
+    "items": [
+      {
+        "itemId": "250f99672317f46a8638e475a6c0507caf1e4a60781558fe2faeb1fc7e6a6739",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Ungarn schaltet AKW Paks wegen Wassermangels ganz  ab",
+        "url": "https://orf.at/stories/3437946",
+        "publishedAt": "2026-08-02T05:51:47.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "ce70d3691ab4425105efa6b2e75b4b7922558e9e5f01b1662c796d0facf2b007",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Mangel an Kühlwasser: Ungarn nimmt AKW Paks vom Netz",
+        "url": "https://www.kleinezeitung.at/artikel/40484217/mangel-an-kuehlwasser-ungarn-nimmt-akw-paks-vom-netz",
+        "isNew": false
+      },
+      {
+        "itemId": "ebc5a0723a25adfff97d630bb100ed9117d85e7725566f58fcf65eab193898c7",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "Mangel an Kühlwasser: Ungarn nimmt AKW Paks vom Netz",
+        "url": "https://www.diepresse.com/40556795/mangel-an-kuehlwasser-ungarn-nimmt-akw-paks-vom-netz",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Komplett-Abschaltung des ungarischen Atomkraftwerks Paks ist ein eigenständiges, hochrelevantes Ereignis für EU-Energieversorgung mit neuer Schlagzeilen-Qualität: Eskalation von bisheriger Drosselung zu Komplettausfall eines 50%-Stromlieferanten. Breite österreichische Berichterstattung (ORF, Kleine Zeitung, Die Presse) mit substanziellen Quellen (Regierungsaussage via Péter Magyar + Betreiber-Bestätigung). Rumänien-Story passt nicht als relatedSlug – sie fokussiert Cernavodă, nicht die regionale Atombilanz.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Ungarn schaltet AKW Paks am 02.08.2026 komplett ab",
+      "Grund: historisch niedriger Donau-Pegel (Kühlwassermangel)",
+      "Paks erzeugt fast die Hälfte des ungarischen Stromaufkommens",
+      "Betreiber: Abschaltung wird innerhalb 24–72 Stunden unvermeidlich",
+      "Donau-Wassermangel beeinträchtigt auch Schifffahrt und Tourismus"
+    ],
+    "missingSources": [
+      "Aktuelle Donau-Pegel-Messwerte (konkrete Zentimeter/Referenzwerte)",
+      "EU-Institution (Energiekommissar, ENTSO-E) zur regionalen Stromversorgungslage",
+      "Strompreis-Szenarien oder Importprognosen für EU-Verbund",
+      "Genaue Abschaltungszeit (nur Zeitfenster 24–72 Stunden genannt)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026",
+    "title": "Ungarn schaltet Atomkraftwerk Paks wegen Donau-Niedrigwassers vollständig ab",
+    "description": "Wegen eines historisch niedrigen Pegelstands der Donau hat Ungarn sein einziges Atomkraftwerk Paks, das fast die Hälfte des Landesstroms liefert, komplett vom Netz genommen.",
+    "topic": "wirtschaft",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Die vollständige Abschaltung von Paks ist durch die Ankündigung des Regierungschefs, die Bestätigung des Betreibers auf dessen eigener Website sowie mehrere voneinander unabhängige Medien im In- und Ausland belegt; Details wie die genaue Ausfalldauer stützen sich dagegen nur auf einzelne Berichte.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die Mitteilung des Betreibers MVM Paksi Atomerőmű wurde über dessen eigene Website-Meldung eingesehen, aber nicht im Volltext direkt abgerufen, sondern über eine Recherche-Zusammenfassung erschlossen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich im Kern auf Regierungs- und Betreiberangaben; eine unabhängige Einschätzung etwa einer EU-Energiebehörde oder von Netzbetreibern zu den Versorgungsfolgen liegt bisher nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Ungarn hat sein Atomkraftwerk Paks, das fast die Hälfte des Landesstroms erzeugt, wegen eines historischen Donau-Niedrigwassers vollständig vom Netz genommen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Grund ist der Mangel an Kühlwasser: Bei extrem niedrigem Pegel können die Pumpen der Anlage kein Wasser mehr aus der Donau ansaugen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Regierungschef Péter Magyar machte die Entscheidung öffentlich, der Betreiber MVM Paksi Atomerőmű bestätigte die Abschaltung auf seiner eigenen Website.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut internationalen Medienberichten soll es die erste vollständige Abschaltung in der rund 44-jährigen Geschichte des Kraftwerks sein – unabhängig bestätigt ist das bislang nicht.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie lange der Ausfall dauert und welche Folgen er für Strompreise und Versorgungssicherheit im EU-Stromverbund hat, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wann genau geht Paks wieder ans Netz, und bestätigt sich die von Magyar genannte Größenordnung von mehreren Wochen?",
+      "Welche konkreten Folgen hat der Ausfall von rund 2.000 Megawatt für Strompreise und Versorgungssicherheit in Ungarn und im EU-Stromverbund?",
+      "Äußert sich eine EU-Institution wie die Energiekommission oder ENTSO-E offiziell zur regionalen Versorgungslage?",
+      "Ist die Einordnung als erste vollständige Abschaltung in 44 Betriebsjahren zutreffend und offiziell bestätigt?",
+      "Wie entwickelt sich die Lage an anderen Donau-Kraftwerken wie Cernavodă in Rumänien weiter?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3437946"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/40484217/mangel-an-kuehlwasser-ungarn-nimmt-akw-paks-vom-netz"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/40556795/mangel-an-kuehlwasser-ungarn-nimmt-akw-paks-vom-netz"
+      },
+      {
+        "id": "src4",
+        "name": "MVM Paksi Atomerőmű (Betreiber-Mitteilung)",
+        "type": "official",
+        "url": "https://atomeromu.mvm.hu/hu-HU/Rolunk/Hirek/20260730_leallas"
+      },
+      {
+        "id": "src5",
+        "name": "NBC News",
+        "type": "media",
+        "url": "https://www.nbcnews.com/world/europe/hungary-braces-full-shutdown-nuclear-plant-danube-river-hits-record-lo-rcna590347"
+      },
+      {
+        "id": "src6",
+        "name": "Euronews",
+        "type": "media",
+        "url": "https://www.euronews.com/my-europe/2026/07/30/hungarys-paks-nuclear-plant-faces-shutdown-as-danube-water-levels-hit-record-low"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ungarn hat sein Atomkraftwerk Paks, das nach übereinstimmenden Angaben fast die Hälfte des Landesstroms erzeugt, wegen eines historisch niedrigen Donau-Pegels vollständig vom Netz genommen.",
+        "status": "supported",
+        "note": "Übereinstimmend bestätigt durch Regierungsankündigung, Betreiberbestätigung auf dessen Website und mehrere unabhängige heimische wie internationale Medien.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Ursache ist der akute Mangel an Kühlwasser durch den historisch niedrigen Pegelstand der Donau infolge anhaltender Trockenheit.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Betreiber MVM Paksi Atomerőmű hatte bereits Ende Juli auf seiner Website erklärt, eine vollständige Abschaltung binnen 24 bis 72 Stunden sei unvermeidlich.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Laut internationalen Medienberichten handelt es sich um die erste vollständige Abschaltung des Kraftwerks in dessen rund 44-jähriger Betriebsgeschichte.",
+        "status": "partial",
+        "note": "Diese Einordnung stammt aus internationalen Medienberichten und liegt nicht anhand einer eigenständig geprüften Primärquelle vor.",
+        "sourceIds": [
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Regierungschef Magyar rechnet Medienberichten zufolge damit, dass das Kraftwerk erst nach mehreren Wochen wieder ans Netz gehen könnte.",
+        "status": "partial",
+        "note": "Bislang nur über eine einzelne internationale Quelle referiert, keine unabhängige Zweitbestätigung vorhanden.",
+        "sourceIds": [
+          "src5"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der Wassermangel an der Donau wirkt sich laut ORF auch auf Schifffahrt und Tourismus in der Region aus.",
+        "status": "partial",
+        "note": "Diese Angabe stammt aus nur einer Quelle im Cluster.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Ungarn hat sein einziges Atomkraftwerk Paks vollständig vom Netz genommen. Grund ist ein historisch niedriger Pegelstand der Donau, deren Wasser zur Kühlung der Anlage benötigt wird. Ministerpräsident Péter Magyar teilte die Entscheidung nach Angaben von ORF.at am 1. August über Facebook mit, am 2. August wurde die Abschaltung vollzogen. Der Betreiber, die MVM Paksi Atomerőmű, bestätigte den Schritt auf seiner eigenen Website. Paks erzeugt nach übereinstimmenden Angaben fast die Hälfte des ungarischen Stroms – mit dem Komplettausfall fällt damit vorübergehend ein zentraler Baustein der ungarischen Stromversorgung weg."
+      },
+      {
+        "heading": "Wie es dazu kam",
+        "markdown": "Die Entwicklung zeichnete sich bereits seit Ende Juli ab: Der Betreiber hatte einzelne Blöcke gedrosselt und öffentlich erklärt, eine vollständige Abschaltung sei binnen 24 bis 72 Stunden nicht mehr auszuschließen – wie „Neue Nachrichten“ bereits berichtete, lief Paks zeitweise mit weniger als der Hälfte seiner üblichen Leistung. In den folgenden Tagen verschärfte sich die Lage weiter. Ursache ist stets derselbe Mechanismus: Die Kühlwasserpumpen der Anlage benötigen einen Mindestpegel, um Wasser aus der Donau ansaugen zu können. Sinkt der Pegel unter diese technische Schwelle, versagt die Kühlung – unabhängig davon, ob rechnerisch insgesamt noch genügend Wasser im Fluss vorhanden wäre."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Kernaussage – vollständige Abschaltung wegen Wassermangels – ist gut abgesichert: Sie deckt sich in der Ankündigung des Regierungschefs, der Bestätigung des Betreibers auf dessen eigener Website und der Berichterstattung mehrerer voneinander unabhängiger Medien, darunter auch internationale Häuser wie NBC News und Euronews. Weniger gesichert sind Details am Rand: Internationalen Berichten zufolge soll es sich um die erste vollständige Abschaltung in der rund 44-jährigen Betriebsgeschichte des Kraftwerks handeln, und Magyar habe laut denselben Berichten von einem möglichen Ausfall von mehreren Wochen gesprochen. Beides liegt „Neue Nachrichten“ nur über Medienberichte vor, eine eigenständige Prüfung der zugrunde liegenden Pegel- und Betriebsdaten der ungarischen Behörden war im vorgegebenen Rahmen nicht möglich."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist vor allem, wie lange der Ausfall tatsächlich dauert und ob sich die von Magyar genannte Größenordnung von mehreren Wochen bestätigt. Unklar ist auch, welche konkreten Folgen der Wegfall von rund 2.000 Megawatt Erzeugungsleistung für Strompreise und Versorgungssicherheit in Ungarn und im europäischen Stromverbund hat – eine Stellungnahme einer EU-Institution wie der Energiekommission oder des Netzbetreiber-Verbunds ENTSO-E liegt bislang nicht vor. Offen bleibt zudem, wie sich die Lage an anderen Donau-Kraftwerken weiterentwickelt, etwa am rumänischen Cernavodă, wo zuletzt widersprüchliche Berichte über eine mögliche Reaktorabschaltung kursierten."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Ausfall von Paks reiht sich in eine Serie ähnlicher Meldungen aus der Region ein: Auch in Rumänien war zuletzt wegen des historischen Donau-Niedrigwassers ein Reaktorblock des Kraftwerks Cernavodă vom Netz genommen worden, während in Österreich Energieversorger wie Verbund und Energie AG von einem Rückgang der Wasserkraft-Stromproduktion um rund ein Drittel berichten. Gemeinsamer Nenner ist die anhaltende Trockenheit und Hitze des Sommers 2026, die in mehreren Ländern gleichzeitig auf kühlwasser- und wasserkraftabhängige Stromerzeugung durchschlägt. Ob daraus kurzfristig höhere Strompreise oder zusätzlicher Importbedarf in Mitteleuropa entstehen, lässt sich derzeit seriös noch nicht beziffern."
+      }
+    ],
+    "bodyKompakt": "Ungarn hat sein einziges Atomkraftwerk Paks, das fast die Hälfte des Landesstroms liefert, wegen eines historisch niedrigen Donau-Pegels vollständig vom Netz genommen. Ministerpräsident Péter Magyar teilte die Entscheidung laut ORF am 1. August über Facebook mit, tags darauf wurde die Abschaltung vollzogen; der Betreiber MVM Paksi Atomerőmű bestätigte den Schritt auf seiner eigenen Website.\n\nDie Entwicklung deutete sich bereits Ende Juli an, als einzelne Blöcke gedrosselt und eine Komplettabschaltung binnen 24 bis 72 Stunden als unvermeidlich bezeichnet wurde. Grund ist, dass die Kühlwasserpumpen bei extrem niedrigem Pegel kein Wasser mehr aus der Donau ansaugen können – unabhängig von der insgesamt noch vorhandenen Wassermenge im Fluss.\n\nInternationalen Medienberichten zufolge ist es die erste vollständige Abschaltung in der rund 44-jährigen Geschichte der Anlage, ein Wiederanlauf könnte laut Magyar Wochen dauern – beides ist bislang nicht unabhängig bestätigt. Offen sind zudem die Folgen für Strompreise und Versorgungssicherheit im europäischen Stromverbund.",
+    "updateNote": null,
+    "pendingOutcome": "Wiederinbetriebnahme des Kraftwerks Paks bzw. Bestätigung der von Regierungschef Magyar in Aussicht gestellten mehrwöchigen Ausfalldauer."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-02T06:07:33.599Z"
+}
