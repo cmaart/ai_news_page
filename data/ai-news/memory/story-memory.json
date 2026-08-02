@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-02T12:25:40.641Z",
+  "updatedAt": "2026-08-02T14:18:34.009Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -3049,10 +3049,14 @@
       "doNotUpdateBefore": "2026-08-02T18:07:35.202Z",
       "pendingOutcome": "Offen ist, ob die von Trump behauptete Einigung mit Iran tatsächlich zustande kommt und die Angriffspause hält, oder ob Trump seine zuvor angekündigten neuen Angriffe binnen vier Wochen doch noch umsetzt.",
       "pendingOutcomeUntil": "2026-08-04T12:07:35.202Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "kleinezeitung": "2026-08-02T14:07:40.615Z",
+        "orf": "2026-08-02T10:07:34.817Z",
+        "diepresse": "2026-08-02T12:07:39.611Z"
+      },
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-25T12:07:33.269Z"
+      "resonanceMeasuredAt": "2026-08-02T14:07:36.646Z"
     },
     "borkenkaefer-kaernten-klagenfurt-brennpunkt-juli-2026": {
       "canonicalTitle": "Borkenkäfer in Kärnten: Einige Bezirke entspannt, Klagenfurt und Unterkärnten im Blick",
@@ -15876,7 +15880,7 @@
       "pendingOutcome": "Weitere Ermittlungsergebnisse zu Identität und Motiv der Frau, zur Art der privaten Veranstaltung sowie eine Klärung der widersprüchlichen Verletztenzahlen stehen aus.",
       "pendingOutcomeUntil": "2026-08-03T22:07:34.112Z",
       "echoPublishers": {
-        "orf": "2026-08-01T22:07:36.003Z",
+        "orf": "2026-08-02T14:07:38.519Z",
         "kurier": "2026-08-02T06:07:35.981Z",
         "kleinezeitung": "2026-08-02T08:07:34.667Z",
         "derstandard": "2026-08-02T10:07:37.043Z",
@@ -16161,6 +16165,104 @@
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-02T12:07:35.202Z"
+    },
+    "russland-acht-tote-drohnenangriffe-udmurtien-august-2026": {
+      "canonicalTitle": "Ukrainische Drohnen erreichen erstmals Udmurtien: Acht Tote bei neuer Angriffswelle auf Russland",
+      "slug": "russland-acht-tote-drohnenangriffe-udmurtien-august-2026",
+      "firstSeenAt": "2026-08-02T14:07:36.646Z",
+      "lastUpdatedAt": "2026-08-02T14:07:36.646Z",
+      "status": "published",
+      "articlePath": "src/content/articles/russland-acht-tote-drohnenangriffe-udmurtien-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-02/russland-acht-tote-drohnenangriffe-udmurtien-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3437976",
+        "https://www.kleinezeitung.at/artikel/40767199/tote-durch-ukrainische-drohnen-tief-im-inneren-russlands",
+        "https://www.derstandard.at/jetzt/livebericht/3000000333845/sprengsatz-verursachte-laut-ermittlern-explosion-in-moskauer-cafe"
+      ],
+      "openQuestions": [
+        "Gibt es eine ukrainische Stellungnahme oder Bestätigung zu den Angriffszielen in Udmurtien, Belgorod und Saratow/Engels vom 2. August 2026?",
+        "Ist die von Russlands Verteidigungsministerium genannte Zahl von 635 abgefangenen Drohnen unabhängig überprüfbar?",
+        "Waren die getroffenen Ziele in Udmurtien, wie von der Gouverneurin behauptet, tatsächlich zivile Objekte ohne militärischen Bezug?",
+        "Wie viele Menschen wurden bei diesem Angriff zusätzlich verletzt, und liegen dazu genauere Angaben vor als die im Cluster genannten 'mindestens fünf'?",
+        "Reiht sich der Udmurtien-Treffer in eine gezielte ukrainische Strategie von Tiefschlägen gegen Logistik- und Rüstungsziele ein, oder handelte es sich um einen Einzelfall?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-03T14:07:36.646Z",
+      "doNotUpdateBefore": "2026-08-02T20:07:36.646Z",
+      "pendingOutcome": "Eine unabhängige, nicht-russische Bestätigung der Opferzahlen und der Drohnenzahl sowie eine ukrainische Stellungnahme zu diesem Angriff stehen aus.",
+      "pendingOutcomeUntil": "2026-08-04T14:07:36.646Z",
+      "echoPublishers": {
+        "orf": "2026-08-02T14:07:38.519Z",
+        "kleinezeitung": "2026-08-02T08:07:34.667Z",
+        "derstandard": "2026-08-02T10:07:37.043Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-02T14:07:36.646Z"
+    },
+    "81-jaehriger-tot-schwarzsee-kitzbuehel-august-2026": {
+      "canonicalTitle": "81-Jähriger tot aus Schwarzsee bei Kitzbühel geborgen",
+      "slug": "81-jaehriger-tot-schwarzsee-kitzbuehel-august-2026",
+      "firstSeenAt": "2026-08-02T14:07:36.646Z",
+      "lastUpdatedAt": "2026-08-02T14:07:36.646Z",
+      "status": "published",
+      "articlePath": "src/content/articles/81-jaehriger-tot-schwarzsee-kitzbuehel-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-02/81-jaehriger-tot-schwarzsee-kitzbuehel-august-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/40775330/81-jaehriger-tot-aus-schwarzsee-in-tirol-geborgen",
+        "https://tirol.orf.at/stories/3365232",
+        "https://kurier.at/chronik/tirol/unfall-schwarzsee-rettung/403179394"
+      ],
+      "openQuestions": [
+        "Was ergibt die von der Staatsanwaltschaft Innsbruck angeordnete Obduktion zur genauen Todesursache?",
+        "Gab es Hinweise auf ein gesundheitliches Ereignis oder einen Badeunfall, die sich erst durch die Obduktion klären lassen?",
+        "Wie lange genau dauerte die Suchaktion, und zu welchem Zeitpunkt wurde sie eingeleitet?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-03T14:07:36.646Z",
+      "doNotUpdateBefore": "2026-08-02T20:07:36.646Z",
+      "pendingOutcome": "Ergebnis der von der Staatsanwaltschaft Innsbruck angeordneten Obduktion zur Klärung der Todesursache.",
+      "pendingOutcomeUntil": "2026-08-04T14:07:36.646Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-08-02T14:07:40.710Z",
+        "orf": "2026-08-02T10:07:36.025Z",
+        "kurier": "2026-08-02T10:07:36.885Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-02T14:07:36.646Z"
+    },
+    "karin-kathrein-theaterkritikerin-gestorben-2026": {
+      "canonicalTitle": "Theaterkritikerin und Nestroy-Preis-Mitbegründerin Karin Kathrein 88-jährig gestorben",
+      "slug": "karin-kathrein-theaterkritikerin-gestorben-2026",
+      "firstSeenAt": "2026-08-02T14:07:36.646Z",
+      "lastUpdatedAt": "2026-08-02T14:07:36.646Z",
+      "status": "published",
+      "articlePath": "src/content/articles/karin-kathrein-theaterkritikerin-gestorben-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-02/karin-kathrein-theaterkritikerin-gestorben-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000333883/theaterkritikerin-karin-kathrein-88-jaehrig-gestorben",
+        "https://kurier.at/kultur/theaterkritikerin-karin-kathrein-88-jaehrig-gestorben/403179343",
+        "https://wien.orf.at/stories/3365184",
+        "https://www.diepresse.com/40759239/sie-spuerte-in-der-avantgarde-das-bleibend-gueltige-auf-zum-tod-der-einstigen-presse-theaterkritikerin-karin-kathrein"
+      ],
+      "openQuestions": [
+        "Gibt es offizielle Nachrufe oder Würdigungen von Institutionen wie dem Burgtheater, den Salzburger Festspielen oder dem Nestroy-Preis-Trägerverein?",
+        "Wie und wann wird eine öffentliche Trauerfeier oder Begräbnis stattfinden?",
+        "Welche Reaktionen gibt es aus der österreichischen Theaterszene (Kolleginnen, Kollegen, Preisträger)?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-03T14:07:36.646Z",
+      "doNotUpdateBefore": "2026-08-02T20:07:36.646Z",
+      "echoPublishers": {
+        "derstandard": "2026-08-02T14:07:39.079Z",
+        "orf": "2026-08-01T22:07:36.330Z",
+        "diepresse": "2026-08-01T22:07:38.564Z",
+        "kurier": "2026-08-01T22:07:38.024Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-02T14:07:36.646Z"
     }
   }
 }
