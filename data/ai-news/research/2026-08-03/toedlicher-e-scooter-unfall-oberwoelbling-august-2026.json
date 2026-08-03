@@ -1,0 +1,204 @@
+{
+  "cluster": {
+    "id": "cluster-20260801-b12d3811",
+    "title": "50-Jähriger stirbt bei E-Scooter-Unfall in Niederösterreich",
+    "items": [
+      {
+        "itemId": "74de3c0266e97e306350e37fbd857e1c4ad9e700ab5761d08b7350fb7ae61abb",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "50-Jähriger stirbt bei E-Scooter-Unfall in Niederösterreich",
+        "url": "https://www.diepresse.com/40732119/50-jaehriger-stirbt-bei-e-scooter-unfall-in-niederoesterreich",
+        "summary": "Der Mann kam auf einem Feldweg zum Sturz. Er trug keinen Helm.",
+        "publishedAt": "2026-08-01T08:39:45.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "2c374f003f51fabe9d39ea06580cd256e3429cfbe691b1ece5a60b31f10a1bc6",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Tödlicher E-Scooter-Unfall: 50-Jähriger stirbt nach Sturz in NÖ",
+        "url": "https://kurier.at/chronik/niederoesterreich/e-scooter-unfall-polizei-ermittlungen-oberwoelbling/403179318",
+        "summary": "Ein Feldweg bei Oberwölbling wurde am Freitagabend zum Schauplatz eines tödlichen Unfalls. Die Polizei ermittelt.",
+        "publishedAt": "2026-08-01T08:00:05.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "92c5daaa1bd393b0272f300506788482fda3fe2e4b0dc6f30406f9ee908e8c62",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Tödlicher E-Scooter-Unfall: 50-Jähriger stirbt nach Sturz in NÖ",
+        "url": "https://kurier.at/chronik/niederoesterreich/e-scooter-unfall-polizei-ermittlungen-oberwoelbling/403179318",
+        "summary": "Ein Feldweg bei Oberwölbling wurde am Freitagabend zum Schauplatz eines tödlichen Unfalls. Die Polizei ermittelt.",
+        "publishedAt": "2026-08-01T08:00:05.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.75,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Konkreter Todesfall in Niederösterreich mit zwei unabhängigen Quellen (Die Presse, Kurier); beide liefern dezidierte Details zum Ereignis (Ort, Unfallhergang, Sicherheitsaspekt) und Kontextualisierung durch E-Scooter-Unfallstatistik (403 Tote 2025, Anstieg). Substanz ausreichend für eigenständigen Artikel. Passt zu keiner bestehenden related Story — unterscheidet sich klar von Traktor-, Autobahn- und Klettersteig-Unfällen in Art, Ort und Opferprofil. Hohe Sensitivität wegen Todesfall mit Ort/Kontext, aber ohne Privatpersonen-Namennung.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "50-Jähriger starb nach E-Scooter-Sturz auf Feldweg in Oberwölbling (St. Pölten-Land)",
+      "Unfallursache ungeklärt",
+      "Opfer trug keinen Helm",
+      "Tödliche Kopfverletzungen",
+      "Fremdverschulden ausgeschlossen",
+      "Zufällig vorbeikommender Autofahrer alarmierte Rettung",
+      "Notarzt konnte nur noch Tod feststellen",
+      "2025: 403 Tote durch Unfälle insgesamt; markanter Anstieg bei E-Scooter-Unfällen"
+    ],
+    "missingSources": [
+      "Direktes Statement der Polizeiinspektion Herzogenburg (nur über Agentur APA zitiert)",
+      "Technisches Gutachten zum Zustand/zur Wartung des E-Scooters",
+      "Expertise zu E-Scooter-Sicherheitsstandards oder Helm-Schutzwirkung",
+      "Stellungnahmen von Familie oder Nahestehenden",
+      "Details zum Unfallhergang aus weiteren Zeugen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "toedlicher-e-scooter-unfall-oberwoelbling-august-2026",
+    "title": "50-Jähriger stirbt nach E-Scooter-Sturz in Niederösterreich",
+    "description": "Ein 50-Jähriger ist bei einem Sturz mit dem E-Scooter auf einem Feldweg in Oberwölbling (Bezirk St. Pölten-Land) tödlich verunglückt. Die Polizei schließt Fremdverschulden aus, die genaue Unfallursache ist offen.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Die Presse kennzeichnet ihre Meldung ausdrücklich als APA-Agenturmeldung, und der Kurier berichtet unabhängig davon mit denselben Kernfakten zu Ort, Ablauf und Ermittlungsstand – die Grunddarstellung des Todesfalls gilt damit als bestätigt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine direkt eingesehene Stellungnahme der Polizeiinspektion Herzogenburg oder ein Ermittlungsbericht vor, sondern nur die Wiedergabe der Polizeiangaben durch zwei Medien.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es gibt keine widerstreitenden Darstellungen: Die Polizei selbst schließt ein Fremdverschulden aus, sodass keine Gegenseite fehlt, die eingeholt werden müsste.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein 50-jähriger Mann ist nach einem Sturz mit dem E-Scooter auf einem Feldweg in Oberwölbling (Bezirk St. Pölten-Land) tödlich verunglückt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Er erlitt tödliche Kopfverletzungen und trug keinen Helm.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Polizei schließt Fremdverschulden aus und geht von einem Alleinunfall aus.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die genaue Unfallursache ist weiterhin ungeklärt.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine im Kurier erwähnte Statistik zu E-Scooter-Unfällen 2025 bleibt ohne nähere Einordnung.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Warum der Mann die Kontrolle über den E-Scooter verlor, ist bislang ungeklärt.",
+      "Bezieht sich die vom Kurier genannte Zahl von 403 Verkehrstoten 2025 und der Anstieg bei E-Scooter-Unfällen auf ganz Österreich oder eine engere Kategorie?",
+      "Liegt mittlerweile eine direkte Stellungnahme der Polizeiinspektion Herzogenburg vor?",
+      "Wie war der technische Zustand des E-Scooters?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/40732119/50-jaehriger-stirbt-bei-e-scooter-unfall-in-niederoesterreich"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/niederoesterreich/e-scooter-unfall-polizei-ermittlungen-oberwoelbling/403179318"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein 50-jähriger Mann starb am 31. Juli 2026 nach einem Sturz mit dem E-Scooter auf einem Feldweg in Oberwölbling (Bezirk St. Pölten-Land) an schweren Kopfverletzungen.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen Medien mit übereinstimmenden Details berichtet, eines davon als APA-Meldung gekennzeichnet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Mann trug bei dem Unfall keinen Helm.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die genaue Unfallursache ist bislang ungeklärt.",
+        "status": "supported",
+        "note": "Beide Quellen bestätigen, dass die Ursache zum Zeitpunkt der Berichterstattung offen war.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Polizei schließt ein Fremdverschulden aus und geht von einem Alleinunfall aus.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Ein zufällig vorbeikommender Autofahrer entdeckte den Verunglückten und alarmierte die Rettungskette; ein Notarzt konnte nur noch den Tod feststellen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Laut Kurier gab es 2025 in Österreich 403 Verkehrstote und einen markanten Anstieg bei E-Scooter-Unfällen.",
+        "status": "unclear",
+        "note": "Nur eine Quelle nennt diese Zahl als Teaser-Verweis, ohne zu erläutern, worauf genau sie sich bezieht (ganz Österreich, alle Verkehrstoten oder speziell E-Scooter); daher nicht als eigenständiger Fakt übernommen.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Ein 50-jähriger Mann ist am Freitagabend, dem 31. Juli 2026, im Freilandgebiet von Oberwölbling im niederösterreichischen Bezirk St. Pölten-Land tödlich verunglückt. Er war mit einem E-Scooter auf einem befestigten Feldweg unterwegs und kam aus bislang ungeklärter Ursache zu Sturz. Dabei zog er sich schwere Kopfverletzungen zu, an denen er noch am Unfallort verstarb. Ein zufällig vorbeikommender Autofahrer entdeckte den Verunglückten und setzte die Rettungskette in Gang; ein Notarzt konnte jedoch nur noch den Tod des Mannes feststellen. Der Einheimische trug Arbeitshose und Arbeitsschuhe, aber keinen Helm."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Presse und der Kurier berichten unabhängig voneinander übereinstimmend über Ort, Ablauf und unmittelbare Folgen des Unfalls; die Meldung der Presse ist ausdrücklich als Agenturtext der APA gekennzeichnet. Die Polizeiinspektion Herzogenburg schloss nach ersten Erhebungen ein Fremdverschulden aus und geht von einem Alleinunfall aus. Hinweise auf einen zweiten Unfallbeteiligten liegen laut beiden Berichten nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Warum der Mann die Kontrolle über den E-Scooter verlor, ist nach derzeitigem Ermittlungsstand offen. Der Kurier verweist zudem in einer Zwischenüberschrift auf 403 Verkehrstote im Jahr 2025 und einen „markanten Anstieg“ bei E-Scooter-Unfällen, ohne dies weiter einzuordnen – etwa ob sich die Zahl auf ganz Österreich, auf alle Verkehrstoten oder speziell auf E-Scooter bezieht. Diese Angabe bleibt daher unklar und wird hier nicht als eigenständig belegter Fakt übernommen. Eine direkte Stellungnahme der Polizei oder ein technisches Gutachten zum E-Scooter liegen ebenfalls nicht vor; die vorliegenden Angaben stammen ausschließlich aus Medienberichten, die sich ihrerseits auf Polizeiangaben beziehungsweise eine APA-Meldung stützen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine Reihe tödlicher Verkehrsunfälle der vergangenen Wochen in Niederösterreich ein, etwa jenen auf der A1 bei Oed-Öhling, über den „Neue Nachrichten“ zuvor berichtet hat. Dass das Opfer keinen Helm trug, wird von beiden Quellen ausdrücklich erwähnt, ohne dass daraus eine Ursache für den Sturz selbst abgeleitet wird. Ob ein Helm die Kopfverletzungen hätte mildern können, lässt sich aus den vorliegenden Berichten nicht beurteilen."
+      }
+    ],
+    "bodyKompakt": "Ein 50-jähriger Mann ist am Freitagabend, dem 31. Juli 2026, im Freilandgebiet von Oberwölbling (Bezirk St. Pölten-Land) tödlich verunglückt. Er war mit einem E-Scooter auf einem befestigten Feldweg unterwegs, kam aus bislang ungeklärter Ursache zu Sturz und erlitt dabei schwere Kopfverletzungen, an denen er noch am Unfallort verstarb. Ein zufällig vorbeikommender Autofahrer alarmierte die Rettungskette, ein Notarzt konnte jedoch nur noch den Tod des Mannes feststellen. Er trug Arbeitskleidung, aber keinen Helm.\n\nDie Presse und der Kurier berichten unabhängig voneinander übereinstimmend über Ort und Ablauf; die Polizeiinspektion Herzogenburg schloss ein Fremdverschulden aus und geht von einem Alleinunfall aus. Offen bleibt, warum der Mann die Kontrolle über den E-Scooter verlor. Eine im Kurier genannte Statistik zu 403 Verkehrstoten 2025 und einem Anstieg bei E-Scooter-Unfällen bleibt ohne nähere Einordnung und damit unklar.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-03T00:07:31.781Z"
+}
