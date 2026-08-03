@@ -1,0 +1,211 @@
+{
+  "cluster": {
+    "id": "cluster-20260803-48d148b1",
+    "title": "USA und Japan stützen fallenden Yen",
+    "items": [
+      {
+        "itemId": "e67026806730d51ec0041dc9dbc838edfce8a0b3513db83b356b41cf48e5d4c8",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "USA und Japan stützen fallenden Yen",
+        "url": "https://orf.at/stories/3438015",
+        "publishedAt": "2026-08-03T01:25:49.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "6424fd97c8e004c18a8bcc3cd2803d82892c0647b393b938ab966ba057a764de",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Japan und USA stützen gemeinsam den Yen",
+        "url": "https://www.diepresse.com/40767339/japan-und-usa-stuetzen-gemeinsam-den-yen",
+        "isNew": false
+      },
+      {
+        "itemId": "321ab8893b44777aee86e8ad6582bde9f7e0b60f930cb68197726ff2b28ae3f8",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "Japan und USA stützen gemeinsam den Yen",
+        "url": "https://www.diepresse.com/40767339/japan-und-usa-stuetzen-gemeinsam-den-yen",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Bestätigtes, seltenes Finanzmarkt-Ereignis (erste gemeinsame US-Japan-Devisenintervention seit 15 Jahren) mit Fulltext-Quellenbelegen: Finanzministerin Katayama offizielle Bestätigung, Reuters-Insider mit Hintergrunddetails (Bessent-Notiz, Bankenwarnungen), Trump-Statement. Substanz ausreichend für eigenständigen Artikel. Medienecho über 2 unabhängige Portale (ORF, Die Presse); unterschiedliche Quellen, nicht erkennbar identischer Agenturtext. Keine Fortsetzung bestehender Story (relatedStories nicht zutreffend). Nachrichtenwert solide 3 für Finanzmarkt-Beobachter.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Yen fiel auf 40-Jahres-Tief",
+      "USA und Japan intervenierten gemeinsam am Devisenmarkt",
+      "Erste gemeinsame Intervention seit 2011",
+      "US-Finanzminister Bessent notierte intern ‚JPY kaufen 5–10 Mrd. Dollar'",
+      "US-Finanzministerium warnte Banken, sich auf weitere Maßnahmen vorzubereiten"
+    ],
+    "missingSources": [
+      "Amtliche Bestätigung des Interventions-Umfangs (Bessents Notiz ist intern, nicht offiziell)",
+      "Markteffekt: aktueller Yen-Kurs und Volatilität nach Intervention",
+      "Reaktion von EU, EZB oder anderen Zentralbanken",
+      "Experteneinschätzung zu Erfolgsaussichten und wirtschaftlichen Konsequenzen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "yen-intervention-usa-japan-august-2026",
+    "title": "Japan und USA stützen gemeinsam den Yen – erste gemeinsame Intervention seit 2011",
+    "description": "Japan und die USA sind gemeinsam am Devisenmarkt eingeschritten, um den auf ein 40-Jahres-Tief gefallenen Yen zu stützen. Finanzministerin Katayama und US-Finanzminister Bessent bestätigten die Aktion offiziell und stellten weitere Schritte in Aussicht.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die japanische Finanzministerin und der US-Finanzminister haben die gemeinsame Intervention jeweils in eigenen offiziellen Erklärungen bestätigt, zusätzlich berichten mehrere voneinander unabhängige Medien übereinstimmend darüber.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die Original-Erklärungen des japanischen Finanzministeriums und des US-Finanzministeriums wurden nicht direkt eingesehen, sondern nur über deren Wiedergabe in Medienberichten.",
+    "framingRisk": "low",
+    "framingRiskNote": "Beide beteiligten Seiten – Japans Finanzministerium und das US-Finanzministerium – kommen mit eigenen Stellungnahmen zu Wort, zusätzlich liegen unabhängige Marktdaten vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Japan und die USA haben erstmals seit 2011 gemeinsam am Devisenmarkt interveniert, um den stark gefallenen Yen zu stützen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Yen war zuvor auf ein rund 40-Jahres-Tief zum Dollar gefallen; laut Bloomberg-Daten erholte sich der Kurs von 163,73 auf 157,57 Yen je Dollar.",
+        "kind": "fact"
+      },
+      {
+        "text": "Finanzministerin Satsuki Katayama und US-Finanzminister Scott Bessent bestätigten die Aktion jeweils offiziell und kündigten Bereitschaft zu weiteren koordinierten Schritten an.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleibt die genaue eingesetzte Summe: Bloomberg schätzt rund 8,45 Billionen Yen (umgerechnet etwa 52,8 Milliarden Dollar), eine amtliche Bezifferung fehlt bislang.",
+        "kind": "open"
+      },
+      {
+        "text": "Unklar ist, ob und in welchem Umfang weitere Interventionen folgen und wie nachhaltig die Stabilisierung des Yen ist.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch war die tatsächlich eingesetzte Interventionssumme, und bestätigen Japan oder die USA die von Bloomberg geschätzten 8,45 Billionen Yen offiziell?",
+      "Werden weitere gemeinsame Interventionen folgen, und unter welchen Bedingungen wollen beide Länder erneut eingreifen?",
+      "Wie wirkt sich die Yen-Stabilisierung mittelfristig auf japanische Exporteure und die Kaufkraft der Bevölkerung aus?",
+      "Wie reagieren andere Zentralbanken, etwa die EZB, oder betroffene Handelspartner auf die Intervention?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3438015"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/40767339/japan-und-usa-stuetzen-gemeinsam-den-yen"
+      },
+      {
+        "id": "src3",
+        "name": "The Japan Times",
+        "type": "media",
+        "url": "https://www.japantimes.co.jp/business/2026/08/03/markets/japan-us-joint-yen-intervention/"
+      },
+      {
+        "id": "src4",
+        "name": "CNBC",
+        "type": "media",
+        "url": "https://www.cnbc.com/2026/08/03/yen-intervention-us-japan-trump-bessent-katayama.html"
+      },
+      {
+        "id": "src5",
+        "name": "Bloomberg",
+        "type": "media",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-02/katayama-to-say-japan-us-acted-together-on-yen-reuters-reports"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Japan und die USA haben erstmals seit 2011 gemeinsam am Devisenmarkt interveniert, um den fallenden Yen zu stützen.",
+        "status": "supported",
+        "note": "Von Finanzministerin Katayama und US-Finanzminister Bessent jeweils in eigenen Erklärungen bestätigt, zusätzlich von mehreren unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Yen war zuvor gegenüber dem US-Dollar auf den schwächsten Stand seit rund 40 Jahren gefallen.",
+        "status": "supported",
+        "note": "Übereinstimmend von ORF, Die Presse und weiteren Medien berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Laut Bloomberg-Berechnungen setzte Japan rund 8,45 Billionen Yen (umgerechnet etwa 52,8 Milliarden Dollar) für die Intervention ein, der Kurs stieg von 163,73 auf 157,57 Yen je Dollar.",
+        "status": "partial",
+        "note": "Schätzung basiert auf einem Vergleich von Notenbank-Konten und Maklerprognosen durch Bloomberg, keine amtliche Bezifferung durch Japan oder die USA.",
+        "sourceIds": [
+          "src5"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "US-Finanzminister Bessent soll laut Reuters-Insidern intern den handschriftlichen Vermerk „Japanischen Yen kaufen: 5–10 Mrd. Dollar“ notiert haben, nachdem er den Yen zuvor öffentlich als „sehr unterbewertet“ bezeichnet hatte.",
+        "status": "unclear",
+        "note": "Beruht auf anonymen Insiderangaben gegenüber Reuters, keine offizielle Bestätigung des genauen Betrags durch das US-Finanzministerium.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Beide Regierungen erklärten, im Bedarfsfall nicht vor weiteren koordinierten Interventionen zurückzuschrecken.",
+        "status": "supported",
+        "note": "Wortgleiche Ankündigung in den offiziellen Stellungnahmen Katayamas und Bessents, von mehreren Medien wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src3",
+          "src4"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Japan und die USA sind am vergangenen Freitag gemeinsam am Devisenmarkt eingeschritten, um den stark unter Druck geratenen Yen zu stützen. Finanzministerin Satsuki Katayama bestätigte den Schritt am Montag offiziell und erklärte, man habe in Abstimmung mit den USA Yen gekauft, um „übermäßige Volatilität und ungeordnete Bewegungen“ der Währung einzudämmen. Es ist die erste gemeinsame Devisenmarktintervention beider Länder seit 2011. Auch US-Finanzminister Scott Bessent bestätigte die koordinierte Aktion und erklärte, sie habe ungeordnete Kursbewegungen des Yen eingedämmt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Yen war zuvor gegenüber dem Dollar auf den schwächsten Stand seit rund 40 Jahren gefallen. Berichten zufolge, die sich auf Marktbeobachtungen und Notenbank-Daten stützen, lag der Kurs vor der Intervention bei rund 163,7 Yen je Dollar und erholte sich danach auf rund 157,6 Yen je Dollar. Zur Größenordnung der eingesetzten Mittel gibt es bislang keine amtliche Angabe; eine Schätzung beziffert den Umfang auf umgerechnet rund 52 bis 53 Milliarden Dollar, ermittelt aus einem Abgleich von Notenbank-Konten mit Markterwartungen – eine offizielle Bestätigung dieser Zahl steht aus. Reuters berichtete zudem unter Berufung auf Insider, dass US-Finanzminister Bessent bereits zuvor intern einen Vermerk zum Ankauf von Yen im Umfang von 5 bis 10 Milliarden Dollar notiert habe, nachdem er die Währung öffentlich als „sehr unterbewertet“ bezeichnet hatte. Diese Angabe stammt aus nicht namentlich genannten Quellen und ist nicht offiziell bestätigt."
+      },
+      {
+        "heading": "Reaktionen",
+        "markdown": "US-Präsident Donald Trump wertete die gemeinsame Intervention an Bord der Präsidentenmaschine als Ausdruck der guten Beziehungen zwischen Washington und Tokio: Japan habe „ein bisschen Unterstützung“ gewollt, die USA seien „immer da, um Japan zu helfen“. Der Eingriff komme aus seiner Sicht auch der Weltwirtschaft zugute. Sowohl das japanische Finanzministerium als auch das US-Finanzministerium erklärten, weiterhin eng in Kontakt zu stehen und im Bedarfsfall nicht vor weiteren koordinierten Schritten zurückzuschrecken."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie hoch die eingesetzten Mittel tatsächlich waren, da bislang keine amtliche Bezifferung vorliegt. Ebenso unklar ist, ob und in welchem Umfang weitere gemeinsame Interventionen folgen und wie nachhaltig die Stabilisierung des Yen ist. Auch zur Reaktion anderer Zentralbanken oder betroffener Handelspartner liegen bislang keine Angaben vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Eine schwache Landeswährung verbilligt zwar Exporte, worauf Japans Wirtschaft zuletzt aufgebaut hat, verteuert aber zugleich Importe und schmälert die Kaufkraft im Inland – ein Zielkonflikt, der die Dringlichkeit des Eingriffs erklärt. Die Intervention fällt zudem in eine Phase angespannter globaler Handelsbeziehungen: Wie „Neue Nachrichten“ berichtete, hatten die USA erst wenige Tage zuvor neue Zölle gegen 60 Handelspartner verhängt, darunter auch Japan. Ob und wie diese beiden wirtschaftspolitischen Entwicklungen zusammenhängen, lässt sich aus der vorliegenden Quellenlage nicht beurteilen."
+      }
+    ],
+    "bodyKompakt": "Japan und die USA sind gemeinsam am Devisenmarkt eingeschritten, um den stark gefallenen Yen zu stützen – die erste gemeinsame Intervention beider Länder seit 2011. Finanzministerin Satsuki Katayama bestätigte den Schritt offiziell und begründete ihn mit „übermäßiger Volatilität und ungeordneten Bewegungen“ der Währung. Auch US-Finanzminister Scott Bessent bestätigte die koordinierte Aktion.\n\nDer Yen war zuvor auf den schwächsten Stand seit rund 40 Jahren gefallen und erholte sich nach der Intervention spürbar. Zur genauen Höhe der eingesetzten Mittel gibt es bislang nur eine unbestätigte Schätzung im Bereich von umgerechnet rund 50 Milliarden Dollar; eine amtliche Bezifferung fehlt. Berichten zufolge soll US-Finanzminister Bessent zuvor intern bereits einen Kaufumfang von 5 bis 10 Milliarden Dollar notiert haben, wobei diese Angabe nicht offiziell bestätigt ist.\n\nUS-Präsident Donald Trump wertete den Schritt als Zeichen guter Beziehungen zwischen Washington und Tokio. Beide Finanzministerien erklärten, im Bedarfsfall weitere koordinierte Schritte zu setzen. Offen bleibt, wie nachhaltig die Stabilisierung ist und ob es zu weiteren Interventionen kommt.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-03T02:07:33.602Z"
+}
