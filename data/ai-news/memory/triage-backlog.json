@@ -1,21 +1,97 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T10:22:42.907Z",
+  "updatedAt": "2026-08-05T12:22:44.360Z",
   "entries": [
     {
-      "clusterId": "cluster-20260805-14ebe27e",
-      "title": "Teile einer SpaceX-Rakete offenbar auf Mond eingeschlagen",
+      "clusterId": "cluster-20260805-fc059762",
+      "title": "Waldbrand im Mölltal: Feuerwehr und Hubschrauber im Einsatz",
       "score": 0.8,
       "items": [
+        {
+          "itemId": "267c28cb1bc5213a5b774dc65f42f6cc739fb21bdb8690dd20260977fdde92d5",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Waldbrand im Mölltal: Feuerwehr und Hubschrauber im Einsatz",
+          "url": "https://www.kleinezeitung.at/artikel/41113356/waldbrand-im-moelltal-feuerwehr-und-hubschrauber-im-einsatz",
+          "summary": "Schwierige Löscharbeiten in steilem Gelände. Die Einsatzkräfte müssen mittels Tau vom Hubschrauber direkt bei der Einsatzstelle abgesetzt werden.",
+          "publishedAt": "2026-08-05T10:13:29.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "2e47eacb58a3fa1eea5272daf558b583b0f9d4a8e8f96d9d2a3b0c5e6e10c853",
+          "sourceId": "kleinezeitung_oesterreich",
+          "sourceType": "media",
+          "title": "Waldbrand im Mölltal: Feuerwehr und Hubschrauber im Einsatz",
+          "url": "https://www.kleinezeitung.at/artikel/41113356/waldbrand-im-moelltal-feuerwehr-und-hubschrauber-im-einsatz",
+          "summary": "Schwierige Löscharbeiten in steilem Gelände. Die Einsatzkräfte müssen mittels Tau vom Hubschrauber direkt bei der Einsatzstelle abgesetzt werden.",
+          "publishedAt": "2026-08-05T10:13:29.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "99e55c13470c6d135a8986c88c0fbe25d6f35a88678eb776667a732294fa1977",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Waldbrand in der Wiener Lobau: Feuerwehr ist im Einsatz",
+          "url": "https://kurier.at/chronik/wien/feuerwehr-waldbrand-lobau-wien/403179774",
+          "isNew": false
+        },
+        {
+          "itemId": "8ef5ffcb352521d62535f54399c27324b2bec4d0f9f400c71b80daf331d7820a",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "Waldbrand in der Wiener Lobau: Feuerwehr ist im Einsatz",
+          "url": "https://kurier.at/chronik/wien/feuerwehr-waldbrand-lobau-wien/403179774",
+          "isNew": false
+        },
+        {
+          "itemId": "f1d6494bba7f8777dd196f360e770e483daa3735567bf230f1b9387f66a0c7a5",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Waldbrand in der Lobau: 20 Feuerwehren sowie Hubschrauber im Einsatz",
+          "url": "https://www.diepresse.com/41061284/waldbrand-in-der-lobau-20-feuerwehren-sowie-hubschrauber-im-einsatz",
+          "isNew": false
+        },
+        {
+          "itemId": "121db3c9233082e4e6e582c880fecef92fb724b21916782ff2d59c0d647a9b5d",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Waldbrand in der Lobau: Mehr als 70 Feuerwehren sowie Hubschrauber im Einsatz",
+          "url": "https://www.diepresse.com/41061284/waldbrand-in-der-lobau-mehr-als-70-feuerwehren-sowie-hubschrauber-im-einsatz",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-08-05T12:07:29.155Z"
+    },
+    {
+      "clusterId": "cluster-20260805-bb73939e",
+      "title": "Falcon-Oberstufe ist mutmaßlich auf dem Mond eingeschlagen",
+      "score": 0.8,
+      "items": [
+        {
+          "itemId": "b0a5922ff2b93da9efb5dc62fda46b70d3d669887386c910d4f4e25eaf181961",
+          "sourceId": "heise_news",
+          "sourceType": "media",
+          "title": "Falcon-Oberstufe ist mutmaßlich auf dem Mond eingeschlagen",
+          "url": "https://www.heise.de/news/Falcon-Oberstufe-ist-mutmasslich-auf-dem-Mond-eingeschlagen-11399654.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+          "summary": "Die Erwartungen waren groß, sie erfüllte sich aber nicht: Der Einschlag der Falcon-9-Oberstufe war nicht zu sehen. Auf mögliche Bilder werden wir warten müssen.",
+          "publishedAt": "2026-08-05T10:44:00.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "4da8278aae7e96c8dca73128098df27b9aeed4e37a37a1f741e1ac3d44387404",
+          "sourceId": "golem_news",
+          "sourceType": "media",
+          "title": "SpaceX: Oberstufe von Falcon 9 schl�gt in K�rze auf dem Mond ein",
+          "url": "https://www.golem.de/news/spacex-oberstufe-von-falcon-9-schlaegt-in-kuerze-auf-dem-mond-ein-2608-211511.html",
+          "isNew": false
+        },
         {
           "itemId": "361b72d62c4203e587c33a18c9f49d486dfc5c9aab8f2f07724276d0359d2b9e",
           "sourceId": "diepresse_home",
           "sourceType": "media",
           "title": "Teile einer SpaceX-Rakete offenbar auf Mond eingeschlagen",
           "url": "https://www.diepresse.com/41108584/teile-einer-spacex-rakete-offenbar-auf-mond-eingeschlagen",
-          "summary": "Ein Teil einer SpaceX-Rakete mit einem Gewicht von vier Tonnen soll mit einer Geschwindigkeit von mehr als 8600 km/h auf dem Mond eingeschlagen sein. Bis zu einer finalen Bestätigung seitens der Nasa kann es aber noch Tage dauern.",
-          "publishedAt": "2026-08-05T09:25:56.000Z",
-          "isNew": true
+          "isNew": false
         },
         {
           "itemId": "33fe434edd2c595ebf82ab7710110b98107238eb67a1e0417066d1e50ab711a8",
@@ -23,9 +99,7 @@
           "sourceType": "media",
           "title": "Außer Kontrolle geratene SpaceX-Rakete krachte auf den Mond",
           "url": "https://kurier.at/politik/ausland/elon-musk-spacex-mond-rakete-teil-krater-weltraumschrott/403179891",
-          "summary": "Ein Teil einer Musk-Rakete schlug einen riesigen Krater auf dem Erdtrabanten. Geplant war das nicht - welche Folgen hat das?",
-          "publishedAt": "2026-08-05T09:15:16.000Z",
-          "isNew": true
+          "isNew": false
         },
         {
           "itemId": "723f3d41c1afd79cd205d12196320c9292e00445e8a5210a566a60abcd0e199f",
@@ -33,9 +107,7 @@
           "sourceType": "media",
           "title": "Außer Kontrolle geratene SpaceX-Rakete krachte auf den Mond",
           "url": "https://kurier.at/politik/ausland/elon-musk-spacex-mond-rakete-teil-krater-weltraumschrott/403179891",
-          "summary": "Ein Teil einer Musk-Rakete schlug einen riesigen Krater auf dem Erdtrabanten. Geplant war das nicht - welche Folgen hat das?",
-          "publishedAt": "2026-08-05T09:15:16.000Z",
-          "isNew": true
+          "isNew": false
         },
         {
           "itemId": "db2315838d529d4c11b6cad027edff8192188e3380e8dc3133f49eea8aca95eb",
@@ -43,100 +115,10 @@
           "sourceType": "media",
           "title": "Fehlgeleitete SpaceX-Rakete auf dem Mond eingeschlagen",
           "url": "https://futurezone.at/science/spacex-rakete-mond-einschlag-falcon-9-krater-aufprall/403179886",
-          "summary": "Die obere Stufe der Falcon-9-Rakete wird beim Aufprall auf der Mondoberfläche einen größeren Krater hinterlassen.",
-          "publishedAt": "2026-08-05T09:19:01.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-08-05T10:07:30.027Z"
-    },
-    {
-      "clusterId": "cluster-20260805-50cb9c23",
-      "title": "Messiaens „Saint François“ in Salzburg: Eine Harmonie, nicht von dieser Welt [premium]",
-      "score": 0.8,
-      "items": [
-        {
-          "itemId": "51c2de243956113980977fee5a3322e4675f652864ec83feadc6932ac399cb79",
-          "sourceId": "diepresse_home",
-          "sourceType": "media",
-          "title": "Messiaens „Saint François“ in Salzburg: Eine Harmonie, nicht von dieser Welt [premium]",
-          "url": "https://www.diepresse.com/41090807/messiaens-saint-francois-in-salzburg-eine-harmonie-nicht-von-dieser-welt",
-          "summary": "Romeo Castellucci findet für Messiaens einzige Oper berührende Bilder, belässt den religiösen Visionen aber ihre Rätselhaftigkeit. Die Wiener Philharmoniker lassen das klangliche Mysterium in voller Schönheit erblühen.",
-          "publishedAt": "2026-08-05T09:25:19.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "548e0f73a2872664b762809dd5bacfb385f8491a5bf8ebca560bf852b9210040",
-          "sourceId": "diepresse_kultur",
-          "sourceType": "media",
-          "title": "Messiaens „Saint François“ in Salzburg: Eine Harmonie, nicht von dieser Welt [premium]",
-          "url": "https://www.diepresse.com/41090807/messiaens-saint-francois-in-salzburg-eine-harmonie-nicht-von-dieser-welt",
-          "summary": "Romeo Castellucci findet für Messiaens einzige Oper berührende Bilder, belässt den religiösen Visionen aber ihre Rätselhaftigkeit. Die Wiener Philharmoniker lassen das klangliche Mysterium in voller Schönheit erblühen.",
-          "publishedAt": "2026-08-05T09:25:19.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "70e22f1f1bcc3f82d5fa4a57649d9358586f25d5d861064fc168b5b517aad02c",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Messiaens „Saint François d’Assise“ in Salzburg: Alle Vöglein sind schon tot",
-          "url": "https://kurier.at/kultur/musik-oper-premiere-salzburger-festspiele-messiaen-saint-francois-dassise-kritik/403179820",
-          "summary": "Ein in jeder Hinsicht außergewöhnliches Opernprojekt bei den Festspielen: Frenetischer Jubel für Dirigent Pascal, große Zustimmung für Regisseur Castellucci.",
-          "publishedAt": "2026-08-05T08:34:25.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "0bcb62dc65f6b5307f886c61ce0794b0fcac68ab41daef71d43eaecf5c821949",
-          "sourceId": "kurier_kultur",
-          "sourceType": "media",
-          "title": "Messiaens „Saint François d’Assise“ in Salzburg: Alle Vöglein sind schon tot",
-          "url": "https://kurier.at/kultur/musik-oper-premiere-salzburger-festspiele-messiaen-saint-francois-dassise-kritik/403179820",
-          "summary": "Ein in jeder Hinsicht außergewöhnliches Opernprojekt bei den Festspielen: Frenetischer Jubel für Dirigent Pascal, große Zustimmung für Regisseur Castellucci.",
-          "publishedAt": "2026-08-05T08:34:25.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "9e90d408ea600f7e4348215de10d025392de5f3aba1490e0cddc2ac37be9734c",
-          "sourceId": "diepresse_kultur",
-          "sourceType": "media",
-          "title": "Monika Helfer, die bezauberndste Erzählerin von allen, ist tot [premium]",
-          "url": "https://www.diepresse.com/40780842/monika-helfer-die-bezauberndste-erzaehlerin-von-allen-ist-tot",
-          "isNew": false
-        },
-        {
-          "itemId": "ff45191f5e682263ff8610ee9bd7eddb3607d3acc0bac293d563e52f9ab0b203",
-          "sourceId": "diepresse_kultur",
-          "sourceType": "media",
-          "title": "Dieser Rücktritt brachte Salzburgs Publikum zum Jubeln [premium]",
-          "url": "https://www.diepresse.com/40794332/dieser-ruecktritt-brachte-salzburgs-publikum-zum-jubeln",
-          "isNew": false
-        },
-        {
-          "itemId": "8391fbb9ce3ab397df7d85decad98af0c7390441c3897fe16ebeb6c355d3dccc",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "Dieser Rücktritt brachte Salzburgs Publikum zum Jubeln",
-          "url": "https://www.kleinezeitung.at/artikel/40882035/dieser-ruecktritt-brachte-salzburgs-publikum-zum-jubeln",
-          "isNew": false
-        },
-        {
-          "itemId": "022233e6724af20972a80c3209a0747d23b92a88dd945acce94dbece33f69bd8",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "Salzburg ist vom neuen \"Saint François d'Assise\" ergriffen",
-          "url": "https://www.kleinezeitung.at/artikel/41087359/salzburg-ist-vom-neuen-saint-francois-dassise-ergriffen",
-          "isNew": false
-        },
-        {
-          "itemId": "3b8daf901a6263a5fa037d4d6f589b552d2c979c0a789405627f14b5e4359da2",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "Salzburg ist vom neuen \"Saint François d'Assise\" ergriffen",
-          "url": "https://www.kleinezeitung.at/artikel/41087359/salzburg-ist-vom-neuen-saint-francois-dassise-ergriffen",
           "isNew": false
         }
       ],
-      "queuedAt": "2026-08-05T10:07:30.027Z"
+      "queuedAt": "2026-08-05T12:07:29.155Z"
     },
     {
       "clusterId": "cluster-20260805-330fbe7d",
@@ -250,64 +232,6 @@
       "queuedAt": "2026-08-05T06:07:43.095Z"
     },
     {
-      "clusterId": "cluster-20260805-2834e34a",
-      "title": "Hornstein erlebte wärmste Nacht der Messgeschichte",
-      "score": 0.8,
-      "items": [
-        {
-          "itemId": "8358efff73885cab1342e63974933cce03a29f9837ca1f7e4a431cb71f188f08",
-          "sourceId": "orf_oesterreich",
-          "sourceType": "media",
-          "title": "Hornstein erlebte wärmste Nacht der Messgeschichte",
-          "url": "https://burgenland.orf.at/stories/3365681",
-          "summary": "Am Dienstag ist mit 41 Grad in Wien-Stammersdorf ein neuer Höchstwert gemessen worden und auch die Nacht auf Mittwoch hat neue Temperaturrekorde gebracht: In Hornstein (Bez. EU) sank das Thermometer nicht unter 28,5 Grad. Damit wurde die wärmste Nacht der Messgeschichte verzeichnet.",
-          "publishedAt": "2026-08-05T08:50:54.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "2e4bf98193e6b1ca5ecff57bf8fc89cbd7b2834f602112489bc83585a4678cad",
-          "sourceId": "orf_burgenland",
-          "sourceType": "media",
-          "title": "Hornstein erlebte wärmste Nacht der Messgeschichte",
-          "url": "https://burgenland.orf.at/stories/3365681",
-          "summary": "Am Dienstag ist mit 41 Grad in Wien-Stammersdorf ein neuer Höchstwert gemessen worden und auch die Nacht auf Mittwoch hat neue Temperaturrekorde gebracht: In Hornstein (Bez. EU) sank das Thermometer nicht unter 28,5 Grad. Damit wurde die wärmste Nacht der Messgeschichte verzeichnet.",
-          "publishedAt": "2026-08-05T08:50:54.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "2932cdc286884edc5191afc8ac2e32989e54150b784e75dbd266ca2df17e222e",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "Wärmste Nacht der Messgeschichte verzeichnet",
-          "url": "https://www.kleinezeitung.at/artikel/41102113/waermste-nacht-der-messgeschichte-verzeichnet",
-          "summary": "In insgesamt sechs Landeshauptstädten hatte es nachts nicht weniger als 20 Grad - damit gilt die Nacht dort als Tropennacht.",
-          "publishedAt": "2026-08-05T09:48:53.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "d9ae05a7ebb371dba349433e1062c9ed2e2a3299df68954f4a41b3495d44e29c",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "Wasserknappheit bedroht Tier- und Futterbestand + Wärmste Nacht der Messgeschichte verzeichnet",
-          "url": "https://www.kleinezeitung.at/artikel/41107906/pegelstaende-der-seen-tief-wie-noch-nie-waermste-nacht-der-mit-41-grad",
-          "summary": "Pegelstände österreichischer Seen teilweise tief wie noch nie. Wärmste Nacht der Messgeschichte in Hornstein verzeichnet. Futtermittel- und Tierbestände in Tirol bedroht.",
-          "publishedAt": "2026-08-05T09:25:43.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "89549c205919fb04a119f9f7d421f2a1ca579746caf5f4a42322024871f015c1",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "Wärmste Nacht der Messgeschichte verzeichnet",
-          "url": "https://www.kleinezeitung.at/artikel/41102113/waermste-nacht-der-messgeschichte-verzeichnet",
-          "summary": "In insgesamt sechs Landeshauptstädten hatte es nachts nicht weniger als 20 Grad - damit gilt die Nacht dort als Tropennacht.",
-          "publishedAt": "2026-08-05T09:48:53.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-08-05T10:07:30.027Z"
-    },
-    {
       "clusterId": "cluster-20260805-e4237723",
       "title": "Radunfall: Mutter und Sohn kollidiert",
       "score": 0.8,
@@ -358,6 +282,301 @@
         }
       ],
       "queuedAt": "2026-08-05T10:07:30.027Z"
+    },
+    {
+      "clusterId": "cluster-20260805-f792a1c6",
+      "title": "U-Haft über 14-Jährigen verlängert",
+      "score": 0.8,
+      "items": [
+        {
+          "itemId": "0fff3bc80867a7f1258b9bd9c92a4a28a5ee4e442edf188889ce97fb783a9b81",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "U-Haft über 14-Jährigen verlängert",
+          "url": "https://tirol.orf.at/stories/3365709",
+          "summary": "Am Mittwochvormittag ist die Untersuchungshaft über jenen 14-jährigen Tiroler verlängert worden, der vor zwei Wochen wegen des Verdachts des versuchten Beitrags zu terroristischen Straftaten festgenommen worden war.",
+          "publishedAt": "2026-08-05T10:39:32.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "0a266e0dc8b318ca4613dbf24f0179f3d5c3e96985d624b3838b0a449fb34957",
+          "sourceId": "orf_tirol",
+          "sourceType": "media",
+          "title": "U-Haft über 14-Jährigen verlängert",
+          "url": "https://tirol.orf.at/stories/3365709",
+          "summary": "Am Mittwochvormittag ist die Untersuchungshaft über jenen 14-jährigen Tiroler verlängert worden, der vor zwei Wochen wegen des Verdachts des versuchten Beitrags zu terroristischen Straftaten festgenommen worden war.",
+          "publishedAt": "2026-08-05T10:39:32.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "22cc8a94c9ed561b18a2586f00d09a0714191c693e663a8b9d3658d412ed2d60",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Innsbruck: Terrorverdächtiger 14-Jähriger weiter in U-Haft",
+          "url": "https://kurier.at/chronik/tirol/tirol-innsbruck-terrorverdacht-14-jaehriger-ermittlungen-u-haft-verlaengert/403179923",
+          "summary": "Die Verteidigung des Teenagers verzichtete auf eine Haftprüfungsverhandlung. Darum wurde die Untersuchungshaft bis 7. September verlängert.",
+          "publishedAt": "2026-08-05T11:12:27.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "915f2d225e487ec204f1bb77c6bc14db1652b1f93b4b62d4abbacdbab22f9745",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "Innsbruck: Terrorverdächtiger 14-Jähriger weiter in U-Haft",
+          "url": "https://kurier.at/chronik/tirol/tirol-innsbruck-terrorverdacht-14-jaehriger-ermittlungen-u-haft-verlaengert/403179923",
+          "summary": "Die Verteidigung des Teenagers verzichtete auf eine Haftprüfungsverhandlung. Darum wurde die Untersuchungshaft bis 7. September verlängert.",
+          "publishedAt": "2026-08-05T11:12:27.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-08-05T12:07:29.155Z"
+    },
+    {
+      "clusterId": "cluster-20260805-1d82f514",
+      "title": "Scooter-Lenker und Polizist schwer verletzt",
+      "score": 0.8,
+      "items": [
+        {
+          "itemId": "9e0e5312481569e430920b6c2c33e750940edfd94f71c86e335a8d8291aeab2d",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Scooter-Lenker und Polizist schwer verletzt",
+          "url": "https://vorarlberg.orf.at/stories/3365682",
+          "summary": "Beim Versuch, einen E-Scooter anzuhalten, sind dessen Lenker und ein Polizist am Dienstagnachmittag schwer verletzt worden. Laut Polizeibericht war der 16-jährige Lenker mit überhöhter Geschwindigkeit unterwegs und hatte die Haltezeichen ignoriert. Beide Verletzten waren nach dem Zusammenstoß nicht ansprechbar.",
+          "publishedAt": "2026-08-05T10:12:13.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "10cc102f8a5dee6982938329f87b0b5bdf3af0422d8b03e08a6c6e13f0ab96d5",
+          "sourceId": "orf_vorarlberg",
+          "sourceType": "media",
+          "title": "Scooter-Lenker und Polizist schwer verletzt",
+          "url": "https://vorarlberg.orf.at/stories/3365682",
+          "summary": "Beim Versuch, einen E-Scooter anzuhalten, sind dessen Lenker und ein Polizist am Dienstagnachmittag schwer verletzt worden. Laut Polizeibericht war der 16-jährige Lenker mit überhöhter Geschwindigkeit unterwegs und hatte die Haltezeichen ignoriert. Beide Verletzten waren nach dem Zusammenstoß nicht ansprechbar.",
+          "publishedAt": "2026-08-05T10:12:13.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "dbffe1a75dc3c28eb8dad0067caf23fa76a8b487504c3cca05b2502c6136e2c5",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "E-Scooter-Fahrer und Polizist bei Kollision in Bregenz schwer verletzt",
+          "url": "https://www.kleinezeitung.at/artikel/41119532/e-scooter-fahrer-und-polizist-bei-kollision-schwer-verletzt",
+          "summary": "Der Teenager fiel der Polizei auf, als er kurz nach 16.00 Uhr mit einer Sturmhaube vermummt mit augenscheinlich überhöhter Geschwindigkeit in Richtung Kapfschlucht unterwegs war.",
+          "publishedAt": "2026-08-05T11:15:38.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "3365dcaec13da737fa2ef950bb569fc9fd91160842e7a6908f989583541632c9",
+          "sourceId": "kleinezeitung_oesterreich",
+          "sourceType": "media",
+          "title": "E-Scooter-Fahrer und Polizist bei Kollision in Bregenz schwer verletzt",
+          "url": "https://www.kleinezeitung.at/artikel/41119532/e-scooter-fahrer-und-polizist-bei-kollision-schwer-verletzt",
+          "summary": "Der Teenager fiel der Polizei auf, als er kurz nach 16.00 Uhr mit einer Sturmhaube vermummt mit augenscheinlich überhöhter Geschwindigkeit in Richtung Kapfschlucht unterwegs war.",
+          "publishedAt": "2026-08-05T11:15:38.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-08-05T12:07:29.155Z"
+    },
+    {
+      "clusterId": "cluster-20260805-bed21a2c",
+      "title": "Neue Vorwürfe gegen FIFA vor Krisensitzung",
+      "score": 0.8,
+      "items": [
+        {
+          "itemId": "8301fe92a1b680da03db2a92a2aa4cb5ee7c4a0a64489b7ee5fb525ca60fbf75",
+          "sourceId": "orf_sport",
+          "sourceType": "media",
+          "title": "Neue Vorwürfe gegen FIFA vor Krisensitzung",
+          "url": "https://sport.orf.at/stories/3160967",
+          "publishedAt": "2026-08-05T10:42:43.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "a8491857e3c1f61e2827d8797e3e90fd14090a779d0093c806c9ef8a98480ee5",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Neue Vorwürfe! Gianni Infantino berief Krisensitzung ein",
+          "url": "https://www.kleinezeitung.at/artikel/41125618/neue-vorwuerfe-gianni-infantino-berief-krisensitzung-ein",
+          "summary": "Die Luft wird für FIFA-Boss Gianni Infantino offenbar immer dünner. Und genau zu diesem Zeitpunkt tauchen neue Vorwürfe eines alten Rivalen auf.",
+          "publishedAt": "2026-08-05T11:50:32.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "1026eac4a81a49eef8148bf79f0d8855b3a9e60d97365a93b4ba2d3038a8ccdd",
+          "sourceId": "orf_sport",
+          "sourceType": "media",
+          "title": "Infantino beruft FIFA-Krisensitzung ein",
+          "url": "https://sport.orf.at/stories/3160952",
+          "isNew": false
+        },
+        {
+          "itemId": "bd17c3191353e7d0d652632121f5fd4b0f5f8be4559ea363b4c433fec87d0277",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Infantino beruft FIFA-Krisensitzung für Mittwoch ein -Medien",
+          "url": "https://www.kleinezeitung.at/artikel/41087339/infantino-beruft-fifa-krisensitzung-fuer-mittwoch-ein-medien",
+          "isNew": false
+        },
+        {
+          "itemId": "47ffdc60acba35dce5465ba3d055c926a61d97dac1294490c8f7b367347dc10f",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Fifa-Chef Infantino beruft Krisensitzung ein",
+          "url": "https://www.diepresse.com/41087409/fifa-chef-infantino-beruft-krisensitzung-ein",
+          "isNew": false
+        },
+        {
+          "itemId": "2ffd90e46222f9cac15349b0943d42861e97c96c6272a7a77b01c2e21f6f4319",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Österreich muss noch einmal schwitzen • Infantino beruft Fifa-Krisensitzung ein • Musk verspricht Billionenumsatz von SpaceX, Aktie bricht ein",
+          "url": "https://www.diepresse.com/41087706/oesterreich-muss-noch-einmal-schwitzen-infantino-beruft-fifa-krisensitzung-ein-musk-verspricht-billionenumsatz-von-spacex-aktie-bricht-ein",
+          "isNew": false
+        },
+        {
+          "itemId": "f373b68b8f86020448416ebd62e6ce2c5591d6505f9faeae288a209718ba7ced",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "„Diese Situation ist Erpressung“: Top-Funktionär belastet Fifa-Chef Infantino",
+          "url": "https://www.diepresse.com/41087409/diese-situation-ist-erpressung-top-funktionaer-belastet-fifa-chef-infantino",
+          "isNew": false
+        },
+        {
+          "itemId": "14f47c0d116c717f5343fb5135254fd66919fd2eef25dce05f6da19b3755140b",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Österreich schwitzt weiter: Heute noch einmal 40 Grad und mehr",
+          "url": "https://kurier.at/chronik/oesterreich/hitze-hitzewelle-oesterreich-wetter-wien-temperatur-liveticker-582026/403179111",
+          "isNew": false
+        },
+        {
+          "itemId": "20eb94facb908d3c7bc6c3aa243983c0a2ca9e24e3206e51345cf761b7d4123d",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "Österreich schwitzt weiter: Heute noch einmal 40 Grad und mehr",
+          "url": "https://kurier.at/chronik/oesterreich/hitze-hitzewelle-oesterreich-wetter-wien-temperatur-liveticker-582026/403179111",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-08-05T12:07:29.155Z"
+    },
+    {
+      "clusterId": "cluster-20260805-4953271d",
+      "title": "Der ukrainische Botschafter verlässt Wien",
+      "score": 0.8,
+      "items": [
+        {
+          "itemId": "01f84c837bbdfaeddb47baa5aab17d631eacefb9e8dd6196a7ef4023f51d0968",
+          "sourceId": "derstandard_international",
+          "sourceType": "media",
+          "title": "Der ukrainische Botschafter verlässt Wien",
+          "url": "https://www.derstandard.at/story/3000000334379/der-ukrainische-botschafter-verlaesst-wien",
+          "summary": "Seit Herbst 2021, und damit die gesamte bisherige Zeit der Vollinvasion, war Wassyl Chymynez geschätzter Vertreter der Ukraine in Österreich",
+          "publishedAt": "2026-08-05T11:15:59.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "1afe4fde5ff0bc31c1733c11db3f5d36b918f49e7923d615a38b47a378e893ea",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Ukrainischer Botschafter verlässt Wien",
+          "url": "https://www.diepresse.com/41093977/ukrainischer-botschafter-verlaesst-wien",
+          "isNew": false
+        },
+        {
+          "itemId": "e91e902693dbc3300044f42831c27061f55385fe72031f9e305da552e9b0f8ef",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Ukrainischer Botschafter verlässt Wien",
+          "url": "https://www.kleinezeitung.at/artikel/41094282/ukrainischer-botschafter-verlaesst-wien",
+          "isNew": false
+        },
+        {
+          "itemId": "6c8adc9d354dc139beaab8a2f06c187123ffb98869aad9044bb8a8f56454c3f1",
+          "sourceId": "kleinezeitung_oesterreich",
+          "sourceType": "media",
+          "title": "Ukrainischer Botschafter verlässt Wien",
+          "url": "https://www.kleinezeitung.at/artikel/41094282/ukrainischer-botschafter-verlaesst-wien",
+          "isNew": false
+        },
+        {
+          "itemId": "8c843e57df023a5e4e69350f02d78d13156bc54ac3eb35ff7de2c4a2d761bc3d",
+          "sourceId": "kleinezeitung_politik",
+          "sourceType": "media",
+          "title": "Ukrainischer Botschafter verlässt Wien",
+          "url": "https://www.kleinezeitung.at/artikel/41094282/ukrainischer-botschafter-verlaesst-wien",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-08-05T12:07:29.155Z"
+    },
+    {
+      "clusterId": "cluster-20260805-38102074",
+      "title": "Messiaens „Saint François“ in Salzburg: Solch himmlische Ekstase lässt sich nicht in Bilder fassen [premium]",
+      "score": 0.8,
+      "items": [
+        {
+          "itemId": "bba72d41365865a73e072dbcfab6027f8b8e0efc24b992a0fb3baefeb88c7f05",
+          "sourceId": "diepresse_kultur",
+          "sourceType": "media",
+          "title": "Messiaens „Saint François“ in Salzburg: Solch himmlische Ekstase lässt sich nicht in Bilder fassen [premium]",
+          "url": "https://www.diepresse.com/41090807/messiaens-saint-francois-in-salzburg-solch-himmlische-ekstase-laesst-sich-nicht-in-bilder-fassen",
+          "summary": "Romeo Castellucci findet für Messiaens einzige Oper berührende Tableaus, die religiösen Visionen bleiben bei ihm aber rätselhaft. Die Wiener Philharmoniker lassen das klangliche Mysterium in voller Schönheit erblühen.",
+          "publishedAt": "2026-08-05T09:25:19.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "022233e6724af20972a80c3209a0747d23b92a88dd945acce94dbece33f69bd8",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Salzburg ist vom neuen \"Saint François d'Assise\" ergriffen",
+          "url": "https://www.kleinezeitung.at/artikel/41087359/salzburg-ist-vom-neuen-saint-francois-dassise-ergriffen",
+          "isNew": false
+        },
+        {
+          "itemId": "3b8daf901a6263a5fa037d4d6f589b552d2c979c0a789405627f14b5e4359da2",
+          "sourceId": "kleinezeitung_oesterreich",
+          "sourceType": "media",
+          "title": "Salzburg ist vom neuen \"Saint François d'Assise\" ergriffen",
+          "url": "https://www.kleinezeitung.at/artikel/41087359/salzburg-ist-vom-neuen-saint-francois-dassise-ergriffen",
+          "isNew": false
+        },
+        {
+          "itemId": "51c2de243956113980977fee5a3322e4675f652864ec83feadc6932ac399cb79",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "Messiaens „Saint François“ in Salzburg: Eine Harmonie, nicht von dieser Welt [premium]",
+          "url": "https://www.diepresse.com/41090807/messiaens-saint-francois-in-salzburg-eine-harmonie-nicht-von-dieser-welt",
+          "isNew": false
+        },
+        {
+          "itemId": "548e0f73a2872664b762809dd5bacfb385f8491a5bf8ebca560bf852b9210040",
+          "sourceId": "diepresse_kultur",
+          "sourceType": "media",
+          "title": "Messiaens „Saint François“ in Salzburg: Eine Harmonie, nicht von dieser Welt [premium]",
+          "url": "https://www.diepresse.com/41090807/messiaens-saint-francois-in-salzburg-eine-harmonie-nicht-von-dieser-welt",
+          "isNew": false
+        },
+        {
+          "itemId": "70e22f1f1bcc3f82d5fa4a57649d9358586f25d5d861064fc168b5b517aad02c",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Messiaens „Saint François d’Assise“ in Salzburg: Alle Vöglein sind schon tot",
+          "url": "https://kurier.at/kultur/musik-oper-premiere-salzburger-festspiele-messiaen-saint-francois-dassise-kritik/403179820",
+          "isNew": false
+        },
+        {
+          "itemId": "0bcb62dc65f6b5307f886c61ce0794b0fcac68ab41daef71d43eaecf5c821949",
+          "sourceId": "kurier_kultur",
+          "sourceType": "media",
+          "title": "Messiaens „Saint François d’Assise“ in Salzburg: Alle Vöglein sind schon tot",
+          "url": "https://kurier.at/kultur/musik-oper-premiere-salzburger-festspiele-messiaen-saint-francois-dassise-kritik/403179820",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-08-05T12:07:29.155Z"
     },
     {
       "clusterId": "cluster-20260805-f4493209",
@@ -434,6 +653,50 @@
         }
       ],
       "queuedAt": "2026-08-05T08:07:36.429Z"
+    },
+    {
+      "clusterId": "cluster-20260805-ae6aa380",
+      "title": "19 Prozent weniger Getreide als im Vorjahr",
+      "score": 0.75,
+      "items": [
+        {
+          "itemId": "abb7367f02b30c75b72137cb050bd384b7706928df5187464cddd2656e493bec",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "19 Prozent weniger Getreide als im Vorjahr",
+          "url": "https://www.diepresse.com/41118914/19-prozent-weniger-getreide-als-im-vorjahr",
+          "summary": "Bauern werden laut AMA heuer Getreide in Höhe von 2,5 Mio. Tonnen ohne Mais ernten. Das sei zwar „ausreichend für die Herstellung von Brot, Mehl und Backwaren“. Jedoch liege man damit weit hinter dem Vorjahreswert. Große Sorge herrscht aufgrund der Dürre bei der Ernte von Kartoffeln, Kürbis, Mais und Zuckerrüben.",
+          "publishedAt": "2026-08-05T10:49:50.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "547bd963b5dcc03989b154ce8afcdb3500157505c6ba124e421a5acf4cc82629",
+          "sourceId": "diepresse_wirtschaft",
+          "sourceType": "media",
+          "title": "19 Prozent weniger Getreide als im Vorjahr",
+          "url": "https://www.diepresse.com/41118914/19-prozent-weniger-getreide-als-im-vorjahr",
+          "summary": "Bauern werden laut AMA heuer Getreide in Höhe von 2,5 Mio. Tonnen ohne Mais ernten. Das sei zwar „ausreichend für die Herstellung von Brot, Mehl und Backwaren“. Jedoch liege man damit weit hinter dem Vorjahreswert. Große Sorge herrscht aufgrund der Dürre bei der Ernte von Kartoffeln, Kürbis, Mais und Zuckerrüben.",
+          "publishedAt": "2026-08-05T10:49:50.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "03e3296c2525cb7c1d31bb1167bbbb19a7355c893231250a6b63ea73272ef290",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "15 Prozent weniger Flugpassagiere in Linz",
+          "url": "https://ooe.orf.at/stories/3365455",
+          "isNew": false
+        },
+        {
+          "itemId": "287cc305233322f175d3c513af9e3828910d422c2989adfcc8ce7b964a6f8a99",
+          "sourceId": "orf_ooe",
+          "sourceType": "media",
+          "title": "15 Prozent weniger Flugpassagiere in Linz",
+          "url": "https://ooe.orf.at/stories/3365455",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-08-05T12:07:29.155Z"
     },
     {
       "clusterId": "cluster-20260805-d3af3e8f",
@@ -844,189 +1107,6 @@
         }
       ],
       "queuedAt": "2026-08-04T10:07:43.652Z"
-    },
-    {
-      "clusterId": "cluster-20260805-31d50d05",
-      "title": "Ukraine: Nordkorea baut Raketeneinheit in Westrussland auf",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "7de5498718eca86c29d963106bf08a9962ccc257af0e026cf0e722d0fae6c0be",
-          "sourceId": "orf_news",
-          "sourceType": "media",
-          "title": "Ukraine: Nordkorea baut Raketeneinheit in Westrussland auf",
-          "url": "https://orf.at/stories/3438248",
-          "publishedAt": "2026-08-05T08:34:15.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "9f752152deca85f3b643c10bf028b906f9e53cd52fd6c57d0517629df07224f8",
-          "sourceId": "diepresse_home",
-          "sourceType": "media",
-          "title": "Ukraine warnt: Nordkorea baut Raketeneinheit in Westrussland auf",
-          "url": "https://www.diepresse.com/41097280/ukraine-warnt-nordkorea-baut-raketeneinheit-in-westrussland-auf",
-          "summary": "Der ukrainische Militärgeheimdienst befürchtet eine Ausweitung der bereits umfassenden militärischen Zusammenarbeit zwischen Moskau und Pjöngjang.",
-          "publishedAt": "2026-08-05T08:17:06.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-08-05T10:07:30.027Z"
-    },
-    {
-      "clusterId": "cluster-20260805-7850e24f",
-      "title": "Winziger Affennachwuchs im Haus des Meeres",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "8d215699665fd55eaed3194d5cfb23b9c8c2008ef98f55192d2d8fb610b4bd33",
-          "sourceId": "orf_oesterreich",
-          "sourceType": "media",
-          "title": "Winziger Affennachwuchs im Haus des Meeres",
-          "url": "https://wien.orf.at/stories/3365664",
-          "summary": "Das Haus des Meeres freut sich über winzigen Affennachwuchs. Der jüngste Springtamarin ist erst wenige Tage alt. Mit einer Körperlänge von rund 20 Zentimetern zählt er zu den kleinsten Affenarten der Welt.",
-          "publishedAt": "2026-08-05T08:20:25.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "427a55850c48a366ff537291a16741f954d924a58358a65956378bca2d072cf8",
-          "sourceId": "orf_wien",
-          "sourceType": "media",
-          "title": "Winziger Affennachwuchs im Haus des Meeres",
-          "url": "https://wien.orf.at/stories/3365664",
-          "summary": "Das Haus des Meeres freut sich über winzigen Affennachwuchs. Der jüngste Springtamarin ist erst wenige Tage alt. Mit einer Körperlänge von rund 20 Zentimetern zählt er zu den kleinsten Affenarten der Welt.",
-          "publishedAt": "2026-08-05T08:20:25.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "4a62f394cc902032140dff5cb17d4b7d4227b1d3ac13171c9745373f2889596e",
-          "sourceId": "kurier_chronik",
-          "sourceType": "media",
-          "title": "Haus des Meeres: Dieser winzige Nachwuchs ist da",
-          "url": "https://kurier.at/chronik/wien/winziger-affennachwuchs-im-haus-des-meeres/403179879",
-          "summary": "Springtamarine zählen zu den kleinsten Affenarten der Welt - im Tropenhaus ist der winzige Affennachwuchs zu sehen.",
-          "publishedAt": "2026-08-05T08:17:37.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-08-05T10:07:30.027Z"
-    },
-    {
-      "clusterId": "cluster-20260805-3c906e3b",
-      "title": "KI-Agenten im Stresstest: Mythos 5 versucht Menschen mit Phishing-Mails zu manipulieren [premium]",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "cb4a88e49fcf1f5b895984996ec44a2fa3472abe0cb72d7e97b65163e5b16831",
-          "sourceId": "diepresse_home",
-          "sourceType": "media",
-          "title": "KI-Agenten im Stresstest: Mythos 5 versucht Menschen mit Phishing-Mails zu manipulieren [premium]",
-          "url": "https://www.diepresse.com/41098745/ki-agenten-im-stresstest-mythos-5-versucht-menschen-mit-phishing-mails-zu-manipulieren",
-          "summary": "Was passiert, wenn Mythos 5 von Anthropic von der Leine gelassen wird? Das haben britische Forscher getestet; mit alarmierenden Ergebnissen.",
-          "publishedAt": "2026-08-05T09:06:35.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "b74eeed70d2592097a4f6db456e09b22667b3333f97d2ae2d62388b06b1e4dce",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "KI versuchte in Test Menschen mit Phishing-Mails zu manipulieren",
-          "url": "https://kurier.at/wirtschaft/kuenstliche-intelligenz-ki-test-anthropic-openai-mythus/403179885",
-          "summary": "Man habe „nicht vorhergesehen“, dass das Anthropic-Modell Mythos 5 den Internet-Zugang für Aktivitäten ausnutzen würde, die sich gegen Menschen richten.",
-          "publishedAt": "2026-08-05T08:29:28.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "f2c1c42bb3cb807d350ac589e5c4c4fb72a8fcab6386d98e3d0c94560011739d",
-          "sourceId": "kurier_wirtschaft",
-          "sourceType": "media",
-          "title": "KI versuchte in Test Menschen mit Phishing-Mails zu manipulieren",
-          "url": "https://kurier.at/wirtschaft/kuenstliche-intelligenz-ki-test-anthropic-openai-mythus/403179885",
-          "summary": "Man habe „nicht vorhergesehen“, dass das Anthropic-Modell Mythos 5 den Internet-Zugang für Aktivitäten ausnutzen würde, die sich gegen Menschen richten.",
-          "publishedAt": "2026-08-05T08:29:28.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-08-05T10:07:30.027Z"
-    },
-    {
-      "clusterId": "cluster-20260805-f73c02e0",
-      "title": "Wasserknappheit bedroht Tirols Futterbestände und den Viehbestand",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "df8084195b29a8d4c7c94184a4632898eaa82d461ea577530caa7ebe0794d950",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "Wasserknappheit bedroht Tirols Futterbestände und den Viehbestand",
-          "url": "https://www.kleinezeitung.at/artikel/41108855/wasserknappheit-bedroht-tirols-futterbestaende-und-den-viehbestand",
-          "summary": "Trockenheit auf Almen + Früherer Almabtrieb + Viehbestand bedroht + Dramatische Lage auch in Kärnten",
-          "publishedAt": "2026-08-05T09:33:02.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "fd21248b426beb6a75bf317a28b780c88108bd5b4924e1eb97a72c9bcac28944",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "Wasserknappheit bedroht Tirols Futterbestände und den Viehbestand",
-          "url": "https://www.kleinezeitung.at/artikel/41108855/wasserknappheit-bedroht-tirols-futterbestaende-und-den-viehbestand",
-          "summary": "Trockenheit auf Almen + Früherer Almabtrieb + Viehbestand bedroht + Dramatische Lage auch in Kärnten",
-          "publishedAt": "2026-08-05T09:33:02.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "377d4804569132677df2d8e673bbc8275f5fc0d0f7e2d35f28e1135e75b60c21",
-          "sourceId": "orf_oesterreich",
-          "sourceType": "media",
-          "title": "Regenmangel bedroht Viehbestand in Tirol",
-          "url": "https://tirol.orf.at/stories/3365625",
-          "isNew": false
-        },
-        {
-          "itemId": "a24847760be6a47590c3120d34eba0da49cfcdbda2e086b310208a61d0beb9c3",
-          "sourceId": "orf_tirol",
-          "sourceType": "media",
-          "title": "Regenmangel bedroht Viehbestand in Tirol",
-          "url": "https://tirol.orf.at/stories/3365625",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-08-05T10:07:30.027Z"
-    },
-    {
-      "clusterId": "cluster-20260805-30dfe7bf",
-      "title": "Florucz-Doppelpack für Union Saint-Gilloise gegen Bödo/Glimt",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "dc88d2df77290157ece11426661659c03dfaa0c105672d898b5b352f543584e5",
-          "sourceId": "derstandard_newsroom",
-          "sourceType": "media",
-          "title": "Florucz-Doppelpack für Union Saint-Gilloise gegen Bödo/Glimt",
-          "url": "https://www.derstandard.at/story/3000000334324/florucz-doppelpack-fuer-union-saint-gilloise-gegen-boedoglimt",
-          "summary": "ÖFB-Stürmer traf beim Hinspiel-3:3 zweimal sehenswert. Arnautovic und Cham beim 0:1 für Roter Stern Belgrad bei Hapoel Be'er Sheva zur Pause eingewechselt",
-          "publishedAt": "2026-08-05T07:16:44.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "3a859165ece35372527174c4c6a8fa5bb46ad10ffb779385f88dbf7c16b1901f",
-          "sourceId": "derstandard_sport",
-          "sourceType": "media",
-          "title": "Florucz-Doppelpack für Union Saint-Gilloise gegen Bödo/Glimt",
-          "url": "https://www.derstandard.at/story/3000000334324/florucz-doppelpack-fuer-union-saint-gilloise-gegen-boedoglimt",
-          "summary": "ÖFB-Stürmer traf beim Hinspiel-3:3 zweimal sehenswert. Arnautovic und Cham beim 0:1 für Roter Stern Belgrad bei Hapoel Be'er Sheva zur Pause eingewechselt",
-          "publishedAt": "2026-08-05T07:16:44.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "4e9f0dda9e13b25c27cee054e2569df6aefe9d74a441c837220a38f03675217f",
-          "sourceId": "orf_sport",
-          "sourceType": "media",
-          "title": "Florucz-Doppelpack für Union Saint-Gilloise",
-          "url": "https://sport.orf.at/stories/3160951",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-08-05T08:07:36.429Z"
     }
   ]
 }
