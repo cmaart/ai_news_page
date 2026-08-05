@@ -1,0 +1,306 @@
+{
+  "cluster": {
+    "id": "cluster-20260805-c806ca77",
+    "title": "Mit Bono & Co: Abschied von Glen Hansard in Dublin",
+    "items": [
+      {
+        "itemId": "3ddb506358da9dc5bf11182e83748c652deeeae305e3d506e52b5cb6bcff1061",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Mit Bono & Co: Abschied von Glen Hansard in Dublin",
+        "url": "https://www.kleinezeitung.at/artikel/41082107/mit-bono-and-co-abschied-von-glen-hansard-in-dublin",
+        "summary": "Der 56-jährige Musiker und Oscar-Preisträger starb vergangenen Mittwoch bei einem Verkehrsunfall. U2-Frontmann Bono hielt eine Trauerrede.",
+        "publishedAt": "2026-08-05T05:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "01b3984a80f8084f595f554ad3488598eab9cd83d3b0ba9d48102275d34db548",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Abschied von Glen Hansard in Dublin",
+        "url": "https://orf.at/stories/3438217",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.9,
+  "triage": {
+    "action": "update_story",
+    "reason": "Die Trauerfeier für Glen Hansard mit prominenten Gästen (Bono, Hozier, Chris O'Dowd) beantwortet direkt zwei offene Fragen der Originalstory: Details zum öffentlichen Gedenken und Reaktionen von Künstlerkollegen. Beide neuen Quellen (Kleine Zeitung, ORF) bieten ausreichend Substanz für ein Update statt eine neue Story.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": 2,
+    "relatedSlug": "glen-hansard-toedlicher-motorradunfall-dublin-juli-2026",
+    "possibleClaims": [
+      "Glen Hansard war ein 56-jähriger irischer Musiker und Oscar-Preisträger",
+      "Er starb bei einem Motorradunfall",
+      "Die Trauerfeier fand in der St. Patrick's Kathedrale in Dublin statt",
+      "Hunderte Fans und Prominente wie Bono, Hozier und Chris O'Dowd nahmen an der Trauerfeier teil",
+      "Bono hielt eine Trauerrede",
+      "Bono sang mit dem Publikum den U2-Hit ‚Beautiful Day'",
+      "Bob Dylans ‚Forever Young' erklang beim Abtransport des Sarges",
+      "Hansard erhielt 2008 den Oscar für den besten Song für ‚Falling Slowly' aus dem Film ‚Once'"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme der Familie oder des Managements",
+      "Direkte Reaktion von Marketa Irglová (Co-Oscargewinnerin)",
+      "Details zur geplanten Beisetzung oder weiteren Gedenkveranstaltungen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "glen-hansard-toedlicher-motorradunfall-dublin-juli-2026",
+    "title": "Irischer Musiker Glen Hansard bei Motorradunfall in Dublin gestorben",
+    "description": "Der irische Sänger und Schauspieler Glen Hansard, bekannt durch den Film \"Once\" und den Oscar-prämierten Song \"Falling Slowly\", ist im Alter von 56 Jahren bei einem Motorradunfall nahe Dublin ums Leben gekommen. Bei einer Trauerfeier in der St. Patrick's Kathedrale nahmen unter anderem Bono, The Edge, Eddie Vedder und Hozier Abschied.",
+    "topic": "kultur",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Sowohl der Tod Hansards als auch die anschließende Trauerfeier werden von zahlreichen voneinander unabhängigen österreichischen (ORF, Der Standard, Die Presse, Kurier, Kleine Zeitung) und irischen Medien (RTÉ, Irish Times) übereinstimmend berichtet; das gilt als bestätigt. Einzelne Detailschilderungen zur Zeremonie (etwa das gesungene Lied, Teilnehmerzahlen) stammen jeweils nur aus einer Quelle und werden entsprechend gekennzeichnet.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Weder zum Unfall noch zur Trauerfeier liegt eine im Original gelesene offizielle Aussendung der irischen Polizei (Gardaí), des Managements oder der Familie vor. Auch die aktuelle Arbeitshypothese der Ermittler zur Unfallursache stammt aus einem Medienbericht, der sich auf nicht namentlich genannte Ermittler beruft, nicht aus einer offiziellen Garda-Mitteilung.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um einen unstrittigen Todesfall und eine öffentliche Trauerfeier ohne widerstreitende Darstellungen; mehrere unabhängige Medien aus zwei Ländern zeichnen ein konsistentes Bild.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Glen Hansard ist im Alter von 56 Jahren bei einem Motorradunfall nahe Dublin ums Leben gekommen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Musiker und Schauspieler wurde 2008 gemeinsam mit Markéta Irglová mit dem Oscar für \"Falling Slowly\" aus dem Film \"Once\" ausgezeichnet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Am 4. August 2026 fand in der St. Patrick's Kathedrale in Dublin die Trauerfeier statt, an der unter anderem Bono, The Edge, Eddie Vedder und Hozier teilnahmen; Bono hielt eine Rede.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut irischen Medienberichten handelte es sich um einen Alleinunfall auf der R109 bei Lucan; Ermittler vermuten inzwischen, dass Hansard nach einem Kontakt mit einem weichen Straßenrand die Kontrolle über sein Motorrad verlor, eine offizielle Bestätigung der Unfallursache steht aber weiterhin aus.",
+        "kind": "fact"
+      },
+      {
+        "text": "Hansard trat zuletzt im Mai 2026 in Wien auf.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das offizielle Ergebnis der Garda-Ermittlungen bzw. des gerichtsmedizinischen Verfahrens sowie öffentliche Reaktionen von Markéta Irglová oder John Carney stehen weiterhin aus.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lautet das offizielle Ergebnis der Garda-Ermittlungen bzw. des gerichtsmedizinischen Verfahrens (Inquest) zur Unfallursache?",
+      "Gibt es eine offizielle Stellungnahme der Familie oder des Managements über die bisherigen Medienberichte hinaus?",
+      "Wie haben sich Markéta Irglová, John Carney oder andere enge künstlerische Weggefährten öffentlich zum Tod geäußert?",
+      "Sind über die Trauerfeier hinaus weitere Gedenkveranstaltungen geplant?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3437628"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000333385/irischer-musiker-und-schauspieler-glen-hansard-t246dlich-verungl252ckt"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/40254399/musiker-glen-hansard-toedlich-verunglueckt"
+      },
+      {
+        "id": "src4",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/kultur/glen-hansard-toedlich-verunglueckt/403178769"
+      },
+      {
+        "id": "src5",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/40263219/irischer-musiker-und-schauspieler-glen-hansard-ist-tot"
+      },
+      {
+        "id": "src6",
+        "name": "RTÉ News",
+        "type": "media",
+        "url": "https://www.rte.ie/news/ireland/2026/0729/1585555-dublin-crash-glen-hansard/"
+      },
+      {
+        "id": "src7",
+        "name": "The Irish Times",
+        "type": "media",
+        "url": "https://www.irishtimes.com/culture/music/2026/07/29/glen-hansard-dies-in-dublin-motorbike-crash/"
+      },
+      {
+        "id": "src8",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3438217"
+      },
+      {
+        "id": "src9",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41082107/mit-bono-and-co-abschied-von-glen-hansard-in-dublin"
+      },
+      {
+        "id": "src10",
+        "name": "The Irish Times",
+        "type": "media",
+        "url": "https://www.irishtimes.com/ireland/2026/08/04/glen-hansard-funeral-dublin-live-stream/"
+      },
+      {
+        "id": "src11",
+        "name": "RTÉ News",
+        "type": "media",
+        "url": "https://www.rte.ie/news/2026/0804/1586316-glen-hansard-funeral/"
+      },
+      {
+        "id": "src12",
+        "name": "The Irish Times",
+        "type": "media",
+        "url": "https://www.irishtimes.com/ireland/2026/08/01/gardai-trying-to-piece-together-glen-hansards-last-movements-in-west-dublin/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Glen Hansard starb im Alter von 56 Jahren bei einem Motorradunfall in Lucan, einem Außenbezirk von Dublin, am frühen Mittwochmorgen (29.07.2026).",
+        "status": "supported",
+        "note": "Von sieben voneinander unabhängigen österreichischen und irischen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Es handelte sich um einen Alleinunfall auf der R109 ohne Beteiligung anderer Verkehrsteilnehmer; die irische Polizei (Gardaí) ermittelt zur Unfallursache für ein Gerichtsmediziner-Verfahren, eine strafrechtliche Untersuchung ergibt sich laut Berichten daraus nicht.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen irischen Medien (RTÉ, Irish Times) mit Bezug auf Angaben der Gardaí berichtet; dieser Stand wurde in einem späteren Bericht der Irish Times (01.08.2026) erneut bestätigt.",
+        "sourceIds": [
+          "src6",
+          "src7",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Hansard erhielt 2008 gemeinsam mit Markéta Irglová den Oscar für den besten Filmsong für \"Falling Slowly\" aus dem Soundtrack von \"Once\".",
+        "status": "supported",
+        "note": "Konsistent über alle Quellen als bekannte biografische Tatsache wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Hansard trat zuletzt im Mai 2026 in Wien auf.",
+        "status": "supported",
+        "note": "Übereinstimmend von zwei unabhängigen österreichischen Redaktionen berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Hansard hinterlässt seine Frau, die finnische Dichterin Maire Saaritsa, und einen dreijährigen Sohn.",
+        "status": "partial",
+        "note": "Nur eine der vorliegenden Quellen berichtet diese Familiendetails; unabhängige Bestätigung liegt nicht vor.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Am 4. August 2026 fand in der St. Patrick's Kathedrale in Dublin die Trauerfeier für Glen Hansard statt; unter den Trauergästen waren U2-Frontmann Bono, Gitarrist The Edge, Pearl-Jam-Sänger Eddie Vedder und Musiker Hozier.",
+        "status": "supported",
+        "note": "Von vier voneinander unabhängigen Medien (ORF, Kleine Zeitung, Irish Times, RTÉ) übereinstimmend berichtet.",
+        "sourceIds": [
+          "src8",
+          "src9",
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Der Trauerfeier war tags zuvor eine öffentliche Totenwache vorausgegangen, zu der laut ORF-Bericht Tausende Menschen kamen; die Zeremonie selbst wurde laut Irish Times von mehr als 40.000 Menschen per Live-Stream verfolgt.",
+        "status": "partial",
+        "note": "Die genannten Teilnehmerzahlen stammen jeweils aus einer einzelnen Quelle (ORF bzw. Irish Times) und sind nicht unabhängig gegengeprüft.",
+        "sourceIds": [
+          "src8",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Bono hielt eine Trauerrede und stimmte laut Berichten der Nachrichtenagentur PA gemeinsam mit dem Publikum den U2-Song \"Beautiful Day\" an; beim Abtransport des Sargs aus der Kathedrale erklang zudem Bob Dylans \"Forever Young\".",
+        "status": "partial",
+        "note": "Einzelquellenangabe (ORF unter Berufung auf die Nachrichtenagentur PA); keine zweite unabhängige Quelle für diese Detailschilderung.",
+        "sourceIds": [
+          "src8"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Bei der Zeremonie traten laut Irish Times unter anderem Hansards Bruder Gary sowie die Musiker Damien Dempsey und Lisa O'Neill auf.",
+        "status": "partial",
+        "note": "Nur von einer Quelle (Irish Times) berichtet, keine unabhängige Zweitquelle.",
+        "sourceIds": [
+          "src10"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Ermittler der Gardaí gehen einem Bericht der Irish Times zufolge davon aus, dass Hansard auf dem Heimweg von einem Pub-Besuch in West-Dublin die Kontrolle über sein Motorrad verlor, nachdem dieses einen weichen Straßenrand touchierte; eine offiziell bestätigte Unfallursache liegt weiterhin nicht vor.",
+        "status": "partial",
+        "note": "Basiert auf einem Medienbericht, der eine Arbeitshypothese nicht namentlich genannter Ermittler wiedergibt, nicht auf einer offiziellen Garda-Mitteilung.",
+        "sourceIds": [
+          "src12"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der irische Musiker und Schauspieler Glen Hansard ist tot. Der 56-Jährige kam nach übereinstimmenden Medienberichten aus Österreich und Irland am frühen Mittwochmorgen bei einem Motorradunfall in Lucan, einem westlichen Außenbezirk von Dublin, ums Leben. Der Unfall ereignete sich irischen Berichten zufolge kurz vor 4.30 Uhr Ortszeit auf der Straße R109. Laut RTÉ und der Irish Times handelte es sich um einen Alleinunfall, an dem keine weiteren Fahrzeuge oder Verkehrsteilnehmer beteiligt waren. Hansard wurde noch am Unfallort behandelt, konnte aber nicht gerettet werden."
+      },
+      {
+        "heading": "Ermittlungen der Gardaí",
+        "markdown": "Die irische Polizei (Gardaí) hat den betroffenen Straßenabschnitt zunächst für forensische Untersuchungen gesperrt und um Zeuginnen- und Zeugenhinweise gebeten. Da nach bisherigem Kenntnisstand keine weiteren Verkehrsteilnehmer in den Unfall involviert waren, ergibt sich kein strafrechtlicher Anfangsverdacht; die Ermittlungen dienen der Vorbereitung eines Berichts für ein gerichtsmedizinisches Verfahren (Coroner's Inquest). Einem späteren Bericht der Irish Times zufolge versuchten Ermittler in der Folge zu rekonstruieren, wo sich Hansard in den Stunden vor dem Unfall aufgehalten hatte; demnach soll er zuvor an einer traditionellen Musiksession in einem Pub in West-Dublin teilgenommen haben. Ermittler gehen laut diesem Bericht mittlerweile davon aus, dass er auf dem Heimweg die Kontrolle über sein Motorrad verlor, nachdem dieses einen weichen Straßenrand touchierte – eine offiziell bestätigte, abschließende Unfallursache liegt aber weiterhin nicht vor."
+      },
+      {
+        "heading": "Wer Glen Hansard war",
+        "markdown": "Hansard begann seine musikalische Laufbahn bereits als Teenager als Straßenmusiker in Dublin. Ab 1990 war er Sänger und Gitarrist der irischen Rockband The Frames. Schauspielerische Bekanntheit erlangte er 1991 mit der Rolle des Outspan Foster in Alan Parkers Musikkomödie \"Die Commitments\". Internationalen Durchbruch brachte ihm 2007 die Hauptrolle im irischen Independent-Film \"Once\" unter der Regie seines früheren Bandkollegen John Carney, in dem er gemeinsam mit Markéta Irglová spielte und die Filmmusik beisteuerte. Für den Song \"Falling Slowly\" aus diesem Soundtrack erhielten die beiden 2008 den Oscar für den besten Filmsong. Das Duo hatte zuvor unter dem Namen The Swell Season bereits ein gemeinsames Album aufgenommen; \"Once\" wurde 2012 als Musical an den Broadway gebracht und gewann im selben Jahr acht Tony Awards. Neben seiner Solokarriere trat Hansard als Vorband von Bob Dylan auf und arbeitete wiederholt mit Eddie Vedder von Pearl Jam zusammen. In Österreich trat er zuletzt im Mai 2026 in Wien auf."
+      },
+      {
+        "heading": "Trauerfeier in Dublin",
+        "markdown": "Am 4. August 2026 nahmen in der St. Patrick's Kathedrale in Dublin zahlreiche Trauergäste Abschied von Glen Hansard. Unter ihnen waren U2-Frontmann Bono, Gitarrist The Edge, Pearl-Jam-Sänger Eddie Vedder und Musiker Hozier – Namen, die von mehreren unabhängigen österreichischen und irischen Medien übereinstimmend genannt werden. Bereits am Vortag hatte laut ORF-Bericht eine öffentliche Totenwache stattgefunden, zu der Tausende Menschen kamen; die eigentliche Zeremonie wurde laut Irish Times von mehr als 40.000 Menschen per Live-Stream mitverfolgt. Bono hielt eine Trauerrede und stimmte den Berichten der Nachrichtenagentur PA zufolge gemeinsam mit dem Publikum den U2-Song \"Beautiful Day\" an; beim Abtransport des Sargs aus der Kathedrale soll zudem Bob Dylans \"Forever Young\" erklungen sein. Musikalisch geprägt war die Feier laut Irish Times auch durch Auftritte von Hansards Bruder Gary sowie der Musiker Damien Dempsey und Lisa O'Neill. Diese Detailschilderungen zur Zeremonie stammen jeweils aus einzelnen Quellen und sind nicht unabhängig gegengeprüft."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Eine offizielle, abschließend bestätigte Unfallursache liegt weiterhin nicht vor; die von Ermittlern vermutete Rolle eines weichen Straßenrands stammt aus einem einzelnen Medienbericht und nicht aus einer offiziellen Garda-Mitteilung. Auch das Ergebnis des gerichtsmedizinischen Verfahrens steht noch aus. Reaktionen enger künstlerischer Weggefährten wie Markéta Irglová oder John Carney waren bislang nicht dokumentiert. Angaben zu Hansards Familie stützen sich weiterhin auf eine einzelne Quelle und gelten daher als nicht unabhängig bestätigt."
+      }
+    ],
+    "bodyKompakt": "Der irische Musiker und Schauspieler Glen Hansard ist im Alter von 56 Jahren bei einem Motorradunfall in Lucan, einem Außenbezirk von Dublin, ums Leben gekommen. Der Unfall ereignete sich laut irischen Medienberichten kurz vor 4.30 Uhr früh am Mittwoch auf der Straße R109; es handelte sich um einen Alleinunfall ohne Beteiligung anderer Fahrzeuge. Die Gardaí bereiten einen Bericht für ein gerichtsmedizinisches Verfahren vor; ein strafrechtlicher Anfangsverdacht ergibt sich laut Berichten nicht. Einem späteren Bericht der Irish Times zufolge vermuten Ermittler mittlerweile, dass Hansard nach einem Pub-Besuch in West-Dublin auf dem Heimweg die Kontrolle über sein Motorrad verlor, nachdem dieses einen weichen Straßenrand touchierte – eine offiziell bestätigte Unfallursache steht aber weiterhin aus.\n\nHansard wurde international vor allem durch den Independent-Film \"Once\" (2007) bekannt, für dessen Titelsong \"Falling Slowly\" er 2008 gemeinsam mit Markéta Irglová mit dem Oscar ausgezeichnet wurde. Zuvor hatte er als Sänger und Gitarrist der Band The Frames sowie als Schauspieler in \"Die Commitments\" (1991) Bekanntheit erlangt. Zuletzt trat er im Mai 2026 in Wien auf.\n\nAm 4. August 2026 fand in der St. Patrick's Kathedrale in Dublin die Trauerfeier statt, an der laut übereinstimmenden Medienberichten unter anderem Bono, The Edge, Eddie Vedder und Hozier teilnahmen; tags zuvor hatten bereits Tausende bei einer öffentlichen Totenwache Abschied genommen. Bono hielt eine Rede und stimmte laut Berichten der Nachrichtenagentur PA mit dem Publikum den U2-Song \"Beautiful Day\" an, beim Abtransport des Sargs soll Bob Dylans \"Forever Young\" erklungen sein – diese Detailschilderungen stammen jeweils aus einzelnen Quellen. Offizielle Angaben zur endgültigen Unfallursache, zum Ergebnis des gerichtsmedizinischen Verfahrens sowie Reaktionen enger Weggefährten wie Markéta Irglová oder John Carney liegen bislang nicht vor.",
+    "updateNote": "Ergänzt um Berichte zur Trauerfeier in Dublin (u. a. mit Bono, The Edge, Eddie Vedder, Hozier) sowie um einen ersten, noch unbestätigten Ermittlungsstand der Gardaí zur mutmaßlichen Unfallursache.",
+    "pendingOutcome": "Offizielles Ergebnis der Garda-Ermittlungen bzw. des gerichtsmedizinischen Verfahrens (Inquest) zur endgültigen Unfallursache sowie mögliche öffentliche Stellungnahmen von Markéta Irglová oder John Carney."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-05T06:07:43.095Z"
+}
