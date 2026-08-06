@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T10:26:02.348Z",
+  "updatedAt": "2026-08-06T12:19:19.975Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -4715,13 +4715,14 @@
       "pendingOutcome": "Weitere Entwicklung des Kriegsgeschehens, insbesondere: Aufklärung der widersprüchlichen Opferzahl in Balaklija (drei vs. sechs Tote), Ausgang des Verfahrens gegen den festgenommenen Rüstungsmesse-Organisator, Entwicklung des Streits um die Patriot-Lizenz zwischen der Ukraine und den USA sowie mögliche russische Stellungnahmen zu den Ereignissen vom 6. August 2026.",
       "pendingOutcomeUntil": "2026-08-07T00:07:35.139Z",
       "echoPublishers": {
-        "orf": "2026-08-06T06:07:38.789Z",
-        "derstandard": "2026-08-06T06:07:42.345Z",
-        "diepresse": "2026-08-06T08:07:40.463Z"
+        "orf": "2026-08-06T12:07:31.672Z",
+        "derstandard": "2026-08-06T12:07:32.447Z",
+        "diepresse": "2026-08-06T08:07:40.463Z",
+        "kleinezeitung": "2026-08-06T12:07:34.566Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-06T08:07:34.451Z"
+      "resonanceMeasuredAt": "2026-08-06T12:07:29.954Z"
     },
     "cluster-20260714-6d1e2cbe": {
       "canonicalTitle": "K�nstliche Intelligenz: Claude 3 kann festgelegten Prinzipien folgen",
@@ -12633,8 +12634,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-05T10:07:43.652Z",
       "doNotUpdateBefore": "2026-08-04T16:07:43.652Z",
-      "pendingOutcome": "Ob die ÖVP-Bundespartei einen gemeinsamen Vorschlag aus den Modellen von Korosec und Mattle übernimmt, ob die von Mattle geforderte öffentliche, live gestreamte Anhörung tatsächlich stattfindet und wie Regierung, Sozialministerium sowie ÖGB und Wirtschaftskammer offiziell reagieren, ist weiterhin offen.",
-      "pendingOutcomeUntil": "2026-08-06T10:07:43.652Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17386,8 +17385,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-05T10:07:43.652Z",
       "doNotUpdateBefore": "2026-08-04T16:07:43.652Z",
-      "pendingOutcome": "Eröffnung und Ausgang des Hauptverfahrens vor dem Landgericht Frankfurt am Main.",
-      "pendingOutcomeUntil": "2026-08-06T10:07:43.652Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18075,8 +18072,7 @@
         "derstandard": "2026-08-06T06:07:40.811Z",
         "diepresse": "2026-08-06T10:07:40.392Z",
         "kurier": "2026-08-05T16:07:34.261Z",
-        "kleinezeitung": "2026-08-06T02:07:40.119Z",
-        "golem": "2026-08-05T10:07:38.685Z"
+        "kleinezeitung": "2026-08-06T02:07:40.119Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -18360,7 +18356,7 @@
         "diepresse": "2026-08-06T06:07:40.200Z",
         "kleinezeitung": "2026-08-05T20:07:50.101Z",
         "orf": "2026-08-05T16:07:32.545Z",
-        "derstandard": "2026-08-05T18:07:39.733Z"
+        "derstandard": "2026-08-06T12:07:32.447Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
@@ -18739,37 +18735,41 @@
       }
     },
     "prozess-folter-wien-favoriten-august-2026": {
-      "canonicalTitle": "Prozess in Wien: Anklage wirft Folter an zwei jungen Männern in Favoriten vor",
+      "canonicalTitle": "Prozess in Wien: Drei Männer wegen Folter an zwei jungen Männern in Favoriten angeklagt",
       "slug": "prozess-folter-wien-favoriten-august-2026",
       "firstSeenAt": "2026-08-06T04:07:40.368Z",
-      "lastUpdatedAt": "2026-08-06T04:07:40.368Z",
+      "lastUpdatedAt": "2026-08-06T12:07:29.954Z",
       "status": "published",
       "articlePath": "src/content/articles/prozess-folter-wien-favoriten-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-06/prozess-folter-wien-favoriten-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-08-06/prozess-folter-wien-favoriten-august-2026-update-1200.json",
       "sourceUrls": [
         "https://www.kleinezeitung.at/artikel/41151464/prozess-um-zwei-schwer-gefolterte-junge-maenner-in-wien",
-        "https://kurier.at/chronik/wien/wien-prozess-misshandlung-vergewaltigung-drogenschulden-gewaltnacht/403179979"
+        "https://kurier.at/chronik/wien/wien-prozess-misshandlung-vergewaltigung-drogenschulden-gewaltnacht/403179979",
+        "https://www.diepresse.com/41153140/prozess-in-wien-zwei-junge-maenner-wegen-100-euro-schwer-gefoltert",
+        "https://kurier.at/chronik/wien/prozess-wien-maenner-gefoltert-100-euro/403180241",
+        "https://wien.orf.at/stories/3365802"
       ],
       "openQuestions": [
-        "Wie viele Personen sind angeklagt, und in welchem Verhältnis standen sie zu den beiden Opfern?",
-        "War ein Streit um rund 100 Euro Drogenschulden tatsächlich das Tatmotiv?",
-        "Welche Anklagepunkte werden im Einzelnen verhandelt (z. B. Freiheitsberaubung, schwere Körperverletzung, Vergewaltigung)?",
+        "Mit welchem Urteil und Strafmaß endet der Prozess?",
+        "Wie haben sich die drei Angeklagten im Detail zu den einzelnen Anklagepunkten geäußert – insbesondere zur vorgeworfenen sexualisierten Gewalt?",
+        "Welche Position vertritt die Verteidigung zur Tatschilderung und zur Motivfrage?",
         "Wie ist der aktuelle gesundheitliche und psychische Zustand der beiden Opfer?",
-        "Wann wird der Prozess abgeschlossen, und mit welchem Urteil ist zu rechnen?"
+        "In welchem Verhältnis standen die Angeklagten und die Opfer genau zueinander, abgesehen vom berichteten Cannabis-Handel?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-07T04:07:40.368Z",
-      "doNotUpdateBefore": "2026-08-06T10:07:40.368Z",
-      "pendingOutcome": "Fortgang und mögliches Ergebnis des am Wiener Landesgericht laufenden bzw. anstehenden Prozesses, einschließlich Zahl der Angeklagten und Urteil.",
+      "doNotRedraftBefore": "2026-08-07T12:07:29.954Z",
+      "doNotUpdateBefore": "2026-08-06T18:07:29.954Z",
+      "pendingOutcome": "Ausgang des Prozesses (Urteil und Strafmaß) am Wiener Landesgericht",
       "pendingOutcomeUntil": "2026-08-08T04:07:40.368Z",
       "echoPublishers": {
         "kleinezeitung": "2026-08-05T20:07:50.377Z",
-        "kurier": "2026-08-05T16:07:34.253Z",
-        "orf": "2026-08-06T08:07:36.746Z"
+        "kurier": "2026-08-06T12:07:32.886Z",
+        "orf": "2026-08-06T08:07:36.746Z",
+        "diepresse": "2026-08-06T12:07:32.890Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-06T06:07:37.420Z"
+      "resonanceMeasuredAt": "2026-08-06T12:07:29.954Z"
     },
     "orf-stiftungsrat-lederer-ermittlungen-noetigung-august-2026": {
       "canonicalTitle": "Staatsanwaltschaft Wien ermittelt gegen ORF-Stiftungsratschef Heinz Lederer",
@@ -18845,6 +18845,72 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-06T10:07:37.539Z"
+    },
+    "oesterreichischer-krimipreis-2026-marc-elsberg": {
+      "canonicalTitle": "Marc Elsberg erhält den Österreichischen Krimipreis 2026",
+      "slug": "oesterreichischer-krimipreis-2026-marc-elsberg",
+      "firstSeenAt": "2026-08-06T12:07:29.954Z",
+      "lastUpdatedAt": "2026-08-06T12:07:29.954Z",
+      "status": "published",
+      "articlePath": "src/content/articles/oesterreichischer-krimipreis-2026-marc-elsberg.mdx",
+      "researchPath": "data/ai-news/research/2026-08-06/oesterreichischer-krimipreis-2026-marc-elsberg.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3438390",
+        "https://www.derstandard.at/story/3000000334544/der-oesterreichische-krimipreis-geht-heuer-an-marc-elsberg",
+        "https://www.ots.at/presseaussendung/OTS_20260806_OTS0072/der-oesterreichische-krimipreis-2026-geht-an-marc-elsberg"
+      ],
+      "openQuestions": [
+        "Wer sitzt in der Jury des Österreichischen Krimipreises und nach welchen Kriterien wird der Preisträger ausgewählt?",
+        "Welche Autorinnen und Autoren wurden in den Vorjahren mit dem Preis ausgezeichnet?",
+        "Gibt es neben der Preisübergabe weitere Programmpunkte für Elsberg beim Krimifest Kärnten am 13. Oktober?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-07T12:07:29.954Z",
+      "doNotUpdateBefore": "2026-08-06T18:07:29.954Z",
+      "echoPublishers": {
+        "orf": "2026-08-06T12:07:31.672Z",
+        "derstandard": "2026-08-06T12:07:32.388Z",
+        "apa": "2026-08-06T12:07:32.619Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-06T12:07:29.954Z"
+    },
+    "lohntransparenz-schumann-entwurf-koalitionsstreit-august-2026": {
+      "canonicalTitle": "Lohntransparenz: Schumanns Gesetzesentwurf liegt seit zwei Monaten auf Eis, Koalitionspartner blockieren",
+      "slug": "lohntransparenz-schumann-entwurf-koalitionsstreit-august-2026",
+      "firstSeenAt": "2026-08-06T12:07:29.954Z",
+      "lastUpdatedAt": "2026-08-06T12:07:29.954Z",
+      "status": "published",
+      "articlePath": "src/content/articles/lohntransparenz-schumann-entwurf-koalitionsstreit-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-06/lohntransparenz-schumann-entwurf-koalitionsstreit-august-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/41152024/koalitionspartner-kritisieren-schumanns-entwurf-zur-lohntransparenz",
+        "https://kurier.at/politik/inland/lohntransparenz-eu-richtlinie-schumann-oevp-neos/403180037",
+        "https://www.kleinezeitung.at/artikel/41151897/kritik-an-schumanns-entwurf-zu-lohntransparenz",
+        "https://orf.at/stories/3438355",
+        "https://www.stol.it/artikel/chronik/eu-lohntransparenzrichtlinie-umsetzungsfrist-laeuft-sonntag-aus"
+      ],
+      "openQuestions": [
+        "Wann werden ÖVP und NEOS offiziell und im Detail zum Entwurf Stellung beziehen, und kommt es zu einer gemeinsamen Regierungslinie?",
+        "Setzt sich der von den NEOS geforderte „Stop the Clock“-Vorstoß auf EU-Ebene durch, und welche Folgen hätte das für die österreichische Umsetzung?",
+        "Welche Konsequenzen – etwa ein Vertragsverletzungsverfahren – drohen Österreich durch die EU-Kommission wegen der verstrichenen Frist?",
+        "Wie stellt sich der tatsächliche Umsetzungsstand in anderen EU-Staaten im Detail dar, und bestätigt sich die kolportierte ETUC-Übersicht bei eigenständiger Prüfung?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-07T12:07:29.954Z",
+      "doNotUpdateBefore": "2026-08-06T18:07:29.954Z",
+      "pendingOutcome": "Ob und wann sich die Koalition auf einen gemeinsamen Gesetzesentwurf zur Lohntransparenz einigt beziehungsweise wie sich die EU-Kommission zur verstrichenen Umsetzungsfrist positioniert.",
+      "pendingOutcomeUntil": "2026-08-08T12:07:29.954Z",
+      "echoPublishers": {
+        "diepresse": "2026-08-06T08:07:39.928Z",
+        "kurier": "2026-08-06T08:07:39.906Z",
+        "kleinezeitung": "2026-08-06T04:07:44.808Z",
+        "orf": "2026-08-06T06:07:38.789Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-06T12:07:29.954Z"
     }
   }
 }
