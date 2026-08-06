@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T02:21:46.776Z",
+  "updatedAt": "2026-08-06T04:26:10.108Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -16071,9 +16071,9 @@
         "techcrunch": "2026-08-05T18:07:41.145Z",
         "theverge": "2026-08-05T08:07:39.719Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-05T18:07:36.536Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-06T04:07:40.368Z"
     },
     "moskau-explosion-restaurant-balzi-rossi-august-2026": {
       "canonicalTitle": "Moskau-Anschlag: Russische Botschaft in Italien beschuldigt erstmals offiziell die Ukraine – Opferzahlen weiterhin widersprüchlich",
@@ -16493,8 +16493,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-05T04:07:27.367Z",
       "doNotUpdateBefore": "2026-08-04T10:07:27.367Z",
-      "pendingOutcome": "Nähere Umstände des Sturzes, Termin einer Trauerfeier sowie mögliche weitere institutionelle Würdigungen oder eine persönliche Stellungnahme von Michael Köhlmeier stehen noch aus.",
-      "pendingOutcomeUntil": "2026-08-06T04:07:27.367Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17222,8 +17220,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-05T04:07:27.367Z",
       "doNotUpdateBefore": "2026-08-04T10:07:27.367Z",
-      "pendingOutcome": "Entscheidung des US-Gerichts für internationalen Handel (CIT) in New York über die Klage der 25 Bundesstaaten gegen die neuen Trump-Zölle.",
-      "pendingOutcomeUntil": "2026-08-06T04:07:27.367Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18025,13 +18021,13 @@
       "sensitivity": "high"
     },
     "drohne-flughafen-leipzig-halle-ukrainisches-flugzeug-august-2026": {
-      "canonicalTitle": "Flughafen Leipzig/Halle: Sprengvorrichtung an Drohne amtlich bestätigt, zweites Flugobjekt kollidiert mit Frachtmaschine",
+      "canonicalTitle": "Flughafen Leipzig/Halle: Dobrindt spricht von „hybridem Anschlag“, Zünder der Sprengdrohne war defekt",
       "slug": "drohne-flughafen-leipzig-halle-ukrainisches-flugzeug-august-2026",
       "firstSeenAt": "2026-08-05T10:07:30.027Z",
-      "lastUpdatedAt": "2026-08-05T16:07:30.641Z",
+      "lastUpdatedAt": "2026-08-06T04:07:40.368Z",
       "status": "published",
       "articlePath": "src/content/articles/drohne-flughafen-leipzig-halle-ukrainisches-flugzeug-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-05/drohne-flughafen-leipzig-halle-ukrainisches-flugzeug-august-2026-update-1600.json",
+      "researchPath": "data/ai-news/research/2026-08-06/drohne-flughafen-leipzig-halle-ukrainisches-flugzeug-august-2026-update-400.json",
       "sourceUrls": [
         "https://orf.at/stories/3438249",
         "https://www.derstandard.at/jetzt/livebericht/3000000334302/mindestens-17-tote-und-dutzende-verletzte-bei-russischen-angriffen-auf-die-region-kyjiw",
@@ -18047,29 +18043,43 @@
         "https://www.medienservice.sachsen.de/medien/news/1099149",
         "https://www.medienservice.sachsen.de/medien/news/1099163",
         "https://www.t-online.de/nachrichten/ausland/eu/id_101158646/dhl-anschlag-in-leipzig-anklage-in-litauen-eu-ermittler-warnen-berlin.html",
-        "https://www.epochtimes.de/politik/deutschland/bundesregierung-maschine-nahe-flughafen-leipzig-mit-unbekanntem-objekt-kollidiert-drohnenfund-auf-suedbahn-a5573100.html"
+        "https://www.epochtimes.de/politik/deutschland/bundesregierung-maschine-nahe-flughafen-leipzig-mit-unbekanntem-objekt-kollidiert-drohnenfund-auf-suedbahn-a5573100.html",
+        "https://www.diepresse.com/41151888/drohnen-vorfall-auf-flughafen-leipzig-war-anschlag-infantino-bleibt-fifa-chef-spacex-teil-schlaegt-auf-mond-ein",
+        "https://www.diepresse.com/41087409/diese-situation-ist-erpressung-top-funktionaer-belastet-fifa-chef-infantino",
+        "https://www.diepresse.com/41108584/teile-einer-spacex-rakete-offenbar-auf-mond-eingeschlagen",
+        "https://kurier.at/politik/ausland/elon-musk-spacex-mond-rakete-teil-krater-weltraumschrott/403179891",
+        "https://futurezone.at/science/spacex-rakete-mond-einschlag-falcon-9-krater-aufprall/403179886",
+        "https://orf.at/stories/3438292",
+        "https://www.derstandard.at/story/3000000334420/ex-weltfussballer-figo-fordert-ruecktritt-von-infantino-jordanien-wirft-fifa-erpressung-vor",
+        "https://kurier.at/politik/ausland/chef-von-russischem-drohnen-hersteller-bei-autoexplosion-verletzt/403179952",
+        "https://www.kleinezeitung.at/artikel/41142942/schrottteil-von-spacex-rakete-trifft-offenbar-den-mond",
+        "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101376382/drohnen-in-leipzig-dobrindt-spricht-von-hybridem-anschlagsszenario-.html",
+        "https://www.handelsblatt.com/politik/deutschland/hybride-bedrohung-sprengstoff-drohne-am-flughafen-fremde-maechte-am-werk/100245388.html"
       ],
       "openQuestions": [
         "Wer hat die Drohne(n) gestartet, und woher kamen sie?",
+        "Welche konkreten Anhaltspunkte hat Bundesinnenminister Dobrindt für eine mögliche Beteiligung „fremder Mächte“, und wird diese Einschätzung durch weitere Ermittlungsergebnisse untermauert oder revidiert?",
         "Besteht tatsächlich ein Zusammenhang mit einem russischen Geheimdienst oder einem „Wegwerfagenten“-System, oder handelt es sich um Spekulation ohne amtliche Grundlage?",
         "Um welche(s) ukrainische(n) Flugzeug(e) handelte es sich konkret, und welchen Zweck hatte deren Aufenthalt in Leipzig?",
         "Welche Schäden entstanden konkret an der nach Hannover ausgewichenen Frachtmaschine, und wird amtlich bestätigt, dass es sich beim zweiten Flugobjekt ebenfalls um eine Drohne handelte?",
         "Zu welchem Ergebnis kommen die Ermittlungen von Generalstaatsanwaltschaft Dresden und LKA Sachsen, und liefert die eingerichtete Hinweis-Hotline verwertbare Spuren?",
+        "Bestätigen die Ermittlungsbehörden offiziell und im Detail, dass der Zünder tatsächlich defekt war und der Nitrattest positiv verlief, oder bleibt dies auf dem Stand eines Medienberichts?",
         "Wann wird die Südpiste wieder vollständig freigegeben?",
         "Wie steht das laufende litauische Gerichtsverfahren zum 2024er Vorfall am selben Flughafen im Detail zum aktuellen Fall, und gibt es einen belegten Bezug?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-06T16:07:30.641Z",
-      "doNotUpdateBefore": "2026-08-05T22:07:30.641Z",
-      "pendingOutcome": "Ergebnis der Ermittlungen von Generalstaatsanwaltschaft Dresden und LKA Sachsen zu Herkunft und Urheberschaft der Drohne(n) sowie mögliche Bestätigung oder Widerlegung eines Russland-Zusammenhangs.",
+      "doNotRedraftBefore": "2026-08-07T04:07:40.368Z",
+      "doNotUpdateBefore": "2026-08-06T10:07:40.368Z",
+      "pendingOutcome": "Ergebnis der Ermittlungen von Generalstaatsanwaltschaft Dresden und LKA Sachsen zu Urheberschaft und Herkunft der Drohne(n), insbesondere ob sich Dobrindts Hinweis auf mögliche Beteiligung „fremder Mächte“ konkretisiert oder bestätigt.",
       "pendingOutcomeUntil": "2026-08-07T10:07:30.027Z",
       "echoPublishers": {
         "orf": "2026-08-05T14:07:41.393Z",
         "derstandard": "2026-08-05T16:07:33.466Z",
-        "diepresse": "2026-08-05T14:07:43.875Z",
+        "diepresse": "2026-08-06T04:07:43.569Z",
         "kurier": "2026-08-05T16:07:34.261Z",
-        "kleinezeitung": "2026-08-05T10:07:34.192Z",
-        "golem": "2026-08-05T10:07:38.685Z"
+        "kleinezeitung": "2026-08-05T14:07:45.419Z",
+        "golem": "2026-08-05T10:07:38.685Z",
+        "futurezone": "2026-08-05T10:07:32.966Z"
       },
       "resonanceLevel": 5,
       "resonanceSource": "zaehlung",
@@ -18168,7 +18178,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-05T16:07:30.641Z"
+      "resonanceMeasuredAt": "2026-08-06T04:07:40.368Z"
     },
     "mattle-pensionsvorschlag-45-jahre-kritik-equal-pension-day-2026": {
       "canonicalTitle": "Equal Pension Day: Mattles Vorschlag für Pensionsantritt nach 45 Erwerbsjahren löst breite Kritik aus",
@@ -18242,7 +18252,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-05T14:07:39.348Z"
+      "resonanceMeasuredAt": "2026-08-06T04:07:40.368Z"
     },
     "bewaffneter-mann-trump-golfplatz-los-angeles-august-2026": {
       "canonicalTitle": "Bewaffneter Mann vor Trump-Besuch auf Golfplatz in Los Angeles festgenommen",
@@ -18682,6 +18692,69 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-06T02:07:34.819Z"
+    },
+    "wolf-abschuss-tirol-vorarlberg-august-2026": {
+      "canonicalTitle": "Wolfsrisse in Tirol und Vorarlberg: Zwei Abschussfreigaben, ein Tier bereits erlegt",
+      "slug": "wolf-abschuss-tirol-vorarlberg-august-2026",
+      "firstSeenAt": "2026-08-06T04:07:40.368Z",
+      "lastUpdatedAt": "2026-08-06T04:07:40.368Z",
+      "status": "published",
+      "articlePath": "src/content/articles/wolf-abschuss-tirol-vorarlberg-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-06/wolf-abschuss-tirol-vorarlberg-august-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/tirol/tirol-wolf-abschuss-schafe-sellrain-verordnung-landwirtschaft/403179994",
+        "https://vorarlberg.orf.at/stories/3365301",
+        "https://www.derstandard.at/story/3000000333898/wolf-in-vorarlberg-zum-abschuss-freigegeben",
+        "https://www.tirol.gv.at/presse/meldungen/meldung/abschussverordnung-fuer-wolf-im-bezirk-innsbruck-land/",
+        "https://vorarlberg.orf.at/stories/3365500",
+        "https://www.heute.at/s/nach-rinder-riss-in-montafon-wolf-wurde-nun-getoetet-120233146"
+      ],
+      "openQuestions": [
+        "Bestätigt die genetische Untersuchung, dass der im Montafon erlegte Wolf tatsächlich jenes Tier war, das für den Jungrind-Riss verantwortlich gemacht wurde?",
+        "Kommt es auch in Tirol im Sellraintal zu einer tatsächlichen Entnahme, und welche konkreten Jagdgebiete sind von der Verordnung betroffen?",
+        "Wie positionieren sich Tierschutz- oder Naturschutzorganisationen zu den beiden Abschussfreigaben?",
+        "Lässt sich der berichtete zusätzliche Riss eines Esels und eines weiteren Rinds im Montafon unabhängig bestätigen?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-07T04:07:40.368Z",
+      "doNotUpdateBefore": "2026-08-06T10:07:40.368Z",
+      "pendingOutcome": "Ob der im Tiroler Sellraintal zum Abschuss freigegebene Wolf innerhalb der bis 29. September 2026 laufenden Frist tatsächlich erlegt wird und ob die genetische Untersuchung des im Montafon bereits erlegten Wolfs seine Identität als das für den Jungrind-Riss verantwortliche Tier bestätigt, ist offen.",
+      "pendingOutcomeUntil": "2026-08-08T04:07:40.368Z",
+      "echoPublishers": {
+        "kurier": "2026-08-05T16:07:34.253Z"
+      }
+    },
+    "prozess-folter-wien-favoriten-august-2026": {
+      "canonicalTitle": "Prozess in Wien: Anklage wirft Folter an zwei jungen Männern in Favoriten vor",
+      "slug": "prozess-folter-wien-favoriten-august-2026",
+      "firstSeenAt": "2026-08-06T04:07:40.368Z",
+      "lastUpdatedAt": "2026-08-06T04:07:40.368Z",
+      "status": "published",
+      "articlePath": "src/content/articles/prozess-folter-wien-favoriten-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-06/prozess-folter-wien-favoriten-august-2026.json",
+      "sourceUrls": [
+        "https://www.kleinezeitung.at/artikel/41151464/prozess-um-zwei-schwer-gefolterte-junge-maenner-in-wien",
+        "https://kurier.at/chronik/wien/wien-prozess-misshandlung-vergewaltigung-drogenschulden-gewaltnacht/403179979"
+      ],
+      "openQuestions": [
+        "Wie viele Personen sind angeklagt, und in welchem Verhältnis standen sie zu den beiden Opfern?",
+        "War ein Streit um rund 100 Euro Drogenschulden tatsächlich das Tatmotiv?",
+        "Welche Anklagepunkte werden im Einzelnen verhandelt (z. B. Freiheitsberaubung, schwere Körperverletzung, Vergewaltigung)?",
+        "Wie ist der aktuelle gesundheitliche und psychische Zustand der beiden Opfer?",
+        "Wann wird der Prozess abgeschlossen, und mit welchem Urteil ist zu rechnen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-07T04:07:40.368Z",
+      "doNotUpdateBefore": "2026-08-06T10:07:40.368Z",
+      "pendingOutcome": "Fortgang und mögliches Ergebnis des am Wiener Landesgericht laufenden bzw. anstehenden Prozesses, einschließlich Zahl der Angeklagten und Urteil.",
+      "pendingOutcomeUntil": "2026-08-08T04:07:40.368Z",
+      "echoPublishers": {
+        "kleinezeitung": "2026-08-05T20:07:50.377Z",
+        "kurier": "2026-08-05T16:07:34.253Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-06T04:07:40.368Z"
     }
   }
 }
