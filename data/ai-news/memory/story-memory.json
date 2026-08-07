@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-07T14:30:56.953Z",
+  "updatedAt": "2026-08-07T16:25:09.147Z",
   "stories": {
     "schellhorn-entbuerokratisierungsbericht-juli-2026": {
       "canonicalTitle": "Schellhorn präsentiert ersten österreichischen Entbürokratisierungsbericht – Streit um Zahlen und Wirkung",
@@ -2878,11 +2878,12 @@
       "doNotRedraftBefore": "2026-08-07T08:07:34.451Z",
       "doNotUpdateBefore": "2026-08-06T14:07:34.451Z",
       "echoPublishers": {
-        "orf": "2026-08-07T10:07:34.373Z"
+        "orf": "2026-08-07T10:07:34.373Z",
+        "diepresse": "2026-08-07T16:08:11.177Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-07T08:07:35.844Z"
+      "resonanceMeasuredAt": "2026-08-07T16:08:07.188Z"
     },
     "europa-uebersterblichkeit-hitze-juni-2026": {
       "canonicalTitle": "Rund 10.000 zusätzliche Todesfälle in Europa: Berichte sehen Zusammenhang mit extremer Hitze",
@@ -4706,14 +4707,11 @@
       "doNotRedraftBefore": "2026-08-07T08:07:34.451Z",
       "doNotUpdateBefore": "2026-08-06T14:07:34.451Z",
       "echoPublishers": {
-        "orf": "2026-08-06T22:07:43.178Z",
-        "kleinezeitung": "2026-08-06T14:07:47.004Z",
-        "kurier": "2026-08-06T14:07:45.201Z",
-        "golem": "2026-08-06T14:07:47.179Z"
+        "orf": "2026-08-06T22:07:43.178Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-07T12:07:36.382Z"
+      "resonanceMeasuredAt": "2026-08-07T16:08:07.188Z"
     },
     "cluster-20260714-6d1e2cbe": {
       "canonicalTitle": "K�nstliche Intelligenz: Claude 3 kann festgelegten Prinzipien folgen",
@@ -12166,9 +12164,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-05T02:07:31.965Z",
       "doNotUpdateBefore": "2026-08-04T08:07:31.965Z",
-      "echoPublishers": {
-        "futurezone": "2026-08-06T14:07:46.090Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-07T08:07:35.844Z"
@@ -16234,8 +16230,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-06T16:07:30.641Z",
       "doNotUpdateBefore": "2026-08-05T22:07:30.641Z",
-      "pendingOutcome": "Offen ist, welche konkreten Inhalte und welchen Zeitplan der angekündigte Verhaltenskodex für Kammerfunktionäre erhält und wie Kammer-Gremien, Fraktionen sowie die Wiener ÖVP-Opposition auf die neue Führung und ihre Ankündigungen reagieren.",
-      "pendingOutcomeUntil": "2026-08-07T16:07:30.641Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -16577,31 +16571,39 @@
       "resonanceMeasuredAt": "2026-08-03T20:07:36.103Z"
     },
     "waldbrand-athen-hubschrauberabsturz-august-2026": {
-      "canonicalTitle": "Waldbrand nahe Athen: Zwei Tote bei Absturz von Löschhubschraubern",
+      "canonicalTitle": "Waldbrand nahe Athen: Zwei Tote bei Hubschrauberabsturz – zwei Unternehmer nach Brandstiftungsverdacht in U-Haft",
       "slug": "waldbrand-athen-hubschrauberabsturz-august-2026",
       "firstSeenAt": "2026-08-02T20:07:28.847Z",
-      "lastUpdatedAt": "2026-08-02T20:07:28.847Z",
+      "lastUpdatedAt": "2026-08-07T16:08:07.188Z",
       "status": "published",
       "articlePath": "src/content/articles/waldbrand-athen-hubschrauberabsturz-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-02/waldbrand-athen-hubschrauberabsturz-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-08-07/waldbrand-athen-hubschrauberabsturz-august-2026-update-1600.json",
       "sourceUrls": [
         "https://www.diepresse.com/40788345/waldbrand-nahe-athen-zwei-tote-bei-absturz-von-loeschhubschraubern",
         "https://kurier.at/politik/ausland/waldbrand-athen-griechenland-zwei-loeschhubschrauber-abgestuerzt/403179435",
         "https://www.kleinezeitung.at/artikel/40782954/loeschhubschrauber-bei-waldbrand-nahe-athen-abgestuerzt",
         "https://www.pbs.org/newshour/world/2-killed-when-firefighting-helicopters-collide-near-athens-as-europes-wildfire-emergency-rages",
-        "https://greekreporter.com/2026/08/02/firefighting-helicopters-collide-greece-rescue/"
+        "https://greekreporter.com/2026/08/02/firefighting-helicopters-collide-greece-rescue/",
+        "https://kurier.at/chronik/welt/athen-waldbrand-unternehmer-haft/403180592",
+        "https://orf.at/stories/3438482",
+        "https://www.kleinezeitung.at/artikel/41155778/u-haft-gegen-zwei-maenner-nach-waldbrand-nahe-athen"
       ],
       "openQuestions": [
         "Was war die genaue technische oder wetterbedingte Ursache der Hubschrauber-Kollision?",
         "Werden die Nationalitäten der Todesopfer und Überlebenden von griechischen Behörden offiziell bestätigt?",
-        "Wie ist der aktuelle Kontrollstatus des Großbrandes bei Megara, und wann könnten Löscharbeiten abgeschlossen sein?",
-        "Wie viele Menschen wurden insgesamt evakuiert, und wie viele Gebäude wurden konkret zerstört?",
-        "Gibt es eine Stellungnahme des Hubschrauber-Betreibers oder eine offizielle Unfalluntersuchung?",
-        "Steht die ursprüngliche Brandursache in einem Zusammenhang mit den 13 landesweiten Festnahmen wegen fahrlässiger Brandstiftung?"
+        "Handelt es sich tatsächlich um zwei oder drei Personen, die wegen Brandstiftungsverdachts in Untersuchungshaft sitzen – und ist ein Windpark-Betreiber darunter?",
+        "Wird gegen die Verdächtigen tatsächlich Anklage erhoben, und wie lautet diese im Detail?",
+        "Was ergibt die technische Untersuchung der Stromkabel als Brandursache, und gibt es dazu eine Stellungnahme des Netzbetreibers?",
+        "Äußern sich die Verdächtigen oder ihre Anwälte zu den Vorwürfen?",
+        "Stehen die Festnahmen im Zusammenhang mit den zuvor gemeldeten 13 landesweiten Festnahmen wegen fahrlässiger Brandstiftung, oder kommen sie zusätzlich dazu?",
+        "Wie viele Menschen wurden insgesamt evakuiert, und wie ist der aktuelle Kontrollstatus des Großbrandes bei Megara?",
+        "Gibt es eine Stellungnahme des Hubschrauber-Betreibers oder eine offizielle Unfalluntersuchung zum Absturz?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-08-03T20:07:28.847Z",
-      "doNotUpdateBefore": "2026-08-03T02:07:28.847Z",
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-08T16:08:07.188Z",
+      "doNotUpdateBefore": "2026-08-07T22:08:07.188Z",
+      "pendingOutcome": "Ausgang des Ermittlungs- bzw. Gerichtsverfahrens gegen die festgenommenen Unternehmer sowie Klärung, ob tatsächlich zwei oder drei Personen in Untersuchungshaft sitzen.",
+      "pendingOutcomeUntil": "2026-08-09T16:08:07.188Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17769,8 +17771,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-06T14:07:39.348Z",
       "doNotUpdateBefore": "2026-08-05T20:07:39.348Z",
-      "pendingOutcome": "Ob Apple oder Ermittlungsbehörden Durovs Erpressungs-Darstellung bestätigen und ob der angebliche Täter identifiziert oder verfolgt wird, ist offen und sollte weiterverfolgt werden.",
-      "pendingOutcomeUntil": "2026-08-07T14:07:39.348Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18119,10 +18119,10 @@
       "canonicalTitle": "Equal Pension Day 2026: AK bestätigt Pensionslücke von 39,4 Prozent, Mattles 45-Jahre-Vorschlag bleibt umstritten",
       "slug": "mattle-pensionsvorschlag-45-jahre-kritik-equal-pension-day-2026",
       "firstSeenAt": "2026-08-05T12:07:29.155Z",
-      "lastUpdatedAt": "2026-08-07T08:07:35.844Z",
+      "lastUpdatedAt": "2026-08-07T16:08:07.188Z",
       "status": "published",
       "articlePath": "src/content/articles/mattle-pensionsvorschlag-45-jahre-kritik-equal-pension-day-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-07/mattle-pensionsvorschlag-45-jahre-kritik-equal-pension-day-2026-update-800.json",
+      "researchPath": "data/ai-news/research/2026-08-07/mattle-pensionsvorschlag-45-jahre-kritik-equal-pension-day-2026-update-1600.json",
       "sourceUrls": [
         "https://orf.at/stories/3438269",
         "https://www.ots.at/presseaussendung/OTS_20260805_OTS0060/equal-pension-day-hoehere-fraueneinkommen-statt-pensionsraub",
@@ -18147,7 +18147,10 @@
         "https://www.ots.at/presseaussendung/OTS_20260806_OTS0052/oegb-kemperle-ab-9-august-gibt-es-fuer-frauen-rechnerisch-keine-pension-mehr",
         "https://www.ots.at/presseaussendung/OTS_20260806_OTS0036/junge-industrie-zum-equal-pension-day-private-vorsorge-ist-der-schnellste-weg-die-pensionsluecke-zu-schliessen",
         "https://www.ots.at/presseaussendung/OTS_20260806_OTS0035/plattform-industrie-40-oesterreich-wird-idta-hub-und-vertieft-zusammenarbeit-mit-der-industrial-digital-twin-association",
-        "https://www.ots.at/presseaussendung/OTS_20260807_OTS0014/fsg-younion-ad-equal-pension-day-2026-pensionsluecke-ist-ergebnis-struktureller-ungleichheit-kein-individuelles-versagen"
+        "https://www.ots.at/presseaussendung/OTS_20260807_OTS0014/fsg-younion-ad-equal-pension-day-2026-pensionsluecke-ist-ergebnis-struktureller-ungleichheit-kein-individuelles-versagen",
+        "https://www.kleinezeitung.at/artikel/39455544/frauen-haben-monatlich-890-euro-weniger-pension-als-maenner",
+        "https://www.ots.at/presseaussendung/OTS_20260807_OTS0034/equal-pension-day-45-versicherungsjahre-gehen-an-der-lebensrealitaet-vieler-frauen-vorbei",
+        "https://www.ots.at/presseaussendung/OTS_20260807_OTS0062/korosec-equal-pension-day-weitere-111-jahre-koennen-frauen-nicht-auf-chancengleichheitwarten"
       ],
       "openQuestions": [
         "Wie positionieren sich die ÖVP-Bundespartei und die Koalitionspartner SPÖ und NEOS offiziell und im Detail zu Mattles 45-Jahre-Vorschlag?",
@@ -18155,20 +18158,23 @@
         "Bestätigen Statistik Austria oder unabhängige Stellen die von vida genannten Teilzeitquoten (74 % der Mütter, 8,6 % der Väter) und die Angabe zur versäumten Umsetzungsfrist der EU-Lohntransparenzrichtlinie?",
         "Wie reagieren Pensionsversicherung und Arbeitgeberseite (WKO) auf Mattles Vorschlag und auf die AK-Zahlen zur Pensionslücke?",
         "Welche Institution hat die im bisherigen Bericht genannte oberösterreichische Pensionslücken-Erhebung durchgeführt, und wie verhält sie sich zu den nun vorliegenden bundesweiten AK-Zahlen?",
-        "Auf welchem konkreten OECD-Bericht und welchen Eurostat-Daten beruhen die von Kurier zitierten Vergleichswerte (Schlusslicht im deutschsprachigen Raum, zweithöchste Pensionslücke nach Malta), und bestätigen sich diese bei eigenständiger Prüfung der Primärquellen?",
-        "Welche Institution steht hinter der Kärnten-spezifischen Zahl von 13.800 Euro Pensionslücke pro Jahr, und wie ist sie methodisch abgesichert?",
+        "Auf welchem konkreten OECD-Bericht und welchen Eurostat-Daten beruhen die von Kurier zitierten Vergleichswerte, und bestätigen sich diese bei eigenständiger Prüfung der Primärquellen?",
+        "Welche Institution steht hinter den beiden widersprüchlichen Kärnten-Zahlen (13.800 Euro/Jahr vs. 890 Euro/Monat), und wie lässt sich die Differenz methodisch erklären?",
         "Führt Doskozils Vorschlag, bei den Regierungsämtern zu sparen, zu einer konkreten politischen Initiative innerhalb der SPÖ oder der Bundesregierung?",
         "Bestätigt sich Anderls Einschätzung, wonach die schrittweise Anhebung des Frauenpensionsalters seit Jänner 2024 vor allem die Arbeitslosigkeit älterer Frauen erhöht habe, anhand von AMS- oder Statistik-Austria-Daten?",
         "Wie konkret ist der von der Jungen Industrie geforderte Wegfall der KESt auf langfristige Kapitalerträge ausgestaltet, und liegt dazu ein politischer Vorstoß oder Gesetzesentwurf vor?",
-        "Welche konkreten politischen Schritte fordert FSG/younion über die allgemeine Forderung nach 'konsequentem Gegensteuern' hinaus, und liegt dazu ein ausgearbeitetes Maßnahmenpaket vor?"
+        "Welche konkreten politischen Schritte fordert FSG/younion über die allgemeine Forderung nach 'konsequentem Gegensteuern' hinaus, und liegt dazu ein ausgearbeitetes Maßnahmenpaket vor?",
+        "Setzt sich Korosecs Forderung nach automatischem Pensionssplitting mit Opt-out in einem konkreten Gesetzesvorschlag fort, und wie positionieren sich Regierungsparteien dazu?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-08-08T08:07:35.844Z",
-      "doNotUpdateBefore": "2026-08-07T14:07:35.844Z",
+      "doNotRedraftBefore": "2026-08-08T16:08:07.188Z",
+      "doNotUpdateBefore": "2026-08-07T22:08:07.188Z",
+      "pendingOutcome": "Ausgang der Debatte rund um und nach dem Equal Pension Day (9. August) sowie eine mögliche offizielle Positionierung der ÖVP-Bundespartei und der Koalitionspartner SPÖ und NEOS zu Mattles 45-Jahre-Vorschlag stehen weiterhin aus.",
+      "pendingOutcomeUntil": "2026-08-09T16:08:07.188Z",
       "echoPublishers": {
         "apa": "2026-08-07T12:07:39.112Z",
-        "derstandard": "2026-08-06T14:07:42.303Z",
-        "diepresse": "2026-08-07T10:07:36.240Z"
+        "diepresse": "2026-08-07T10:07:36.240Z",
+        "kleinezeitung": "2026-08-07T16:08:12.314Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -18315,9 +18321,7 @@
       "doNotUpdateBefore": "2026-08-06T20:07:38.736Z",
       "pendingOutcome": "Ausgang der US-Senatswahl in Michigan im November zwischen Abdul El-Sayed und dem Republikaner Mike Rogers, inklusive der Frage, ob es zu den von El-Sayed geforderten fünf TV-Debatten kommt und ob sich die von Kurier beschriebene Gefahr eines Sitzverlusts für die Demokraten bestätigt.",
       "pendingOutcomeUntil": "2026-08-08T06:07:37.420Z",
-      "echoPublishers": {
-        "kurier": "2026-08-06T14:07:45.201Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-07T12:07:36.382Z"
@@ -18600,10 +18604,13 @@
       "doNotUpdateBefore": "2026-08-06T08:07:34.819Z",
       "pendingOutcome": "Gesundheitszustand der beiden Verletzten sowie Ergebnis der polizeilichen Ermittlungen zum genauen Unfallhergang.",
       "pendingOutcomeUntil": "2026-08-08T02:07:34.819Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "orf": "2026-08-07T16:08:09.165Z",
+        "kurier": "2026-08-07T08:07:38.313Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-06T14:07:38.736Z"
+      "resonanceMeasuredAt": "2026-08-07T16:08:07.188Z"
     },
     "ukrainischer-botschafter-wien-chymynez-abberufen-august-2026": {
       "canonicalTitle": "Ukraine beruft Botschafter Chymynez nach fünf Jahren aus Wien ab",
@@ -18663,7 +18670,9 @@
       "doNotUpdateBefore": "2026-08-06T10:07:40.368Z",
       "pendingOutcome": "Ob der im Tiroler Sellraintal zum Abschuss freigegebene Wolf innerhalb der bis 29. September 2026 laufenden Frist tatsächlich erlegt wird und ob die genetische Untersuchung des im Montafon bereits erlegten Wolfs seine Identität als das für den Jungrind-Riss verantwortliche Tier bestätigt, ist offen.",
       "pendingOutcomeUntil": "2026-08-08T04:07:40.368Z",
-      "echoPublishers": {}
+      "echoPublishers": {
+        "orf": "2026-08-07T16:08:09.165Z"
+      }
     },
     "prozess-folter-wien-favoriten-august-2026": {
       "canonicalTitle": "Prozess in Wien: Drei Männer wegen Folter an zwei jungen Männern in Favoriten angeklagt",
@@ -18731,12 +18740,11 @@
       "pendingOutcome": "Ausgang der Ermittlungen der Staatsanwaltschaft Wien, Positionierung des Stiftungsrats bei der Sitzung am 11. August 2026 sowie Verlauf des Arbeitsgerichtsverfahrens Weißmann gegen ORF.",
       "pendingOutcomeUntil": "2026-08-08T10:07:37.539Z",
       "echoPublishers": {
-        "orf": "2026-08-07T08:07:37.302Z",
-        "kleinezeitung": "2026-08-06T14:07:46.991Z"
+        "orf": "2026-08-07T08:07:37.302Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-07T12:07:36.382Z"
+      "resonanceMeasuredAt": "2026-08-07T16:08:07.188Z"
     },
     "google-deepmind-fuehrungswechsel-hassabis-jeff-dean-august-2026": {
       "canonicalTitle": "Google baut KI-Führung um: Hassabis wird Alphabet-Chefwissenschaftler, Jeff Dean verlässt Konzern für eigenes Start-up",
@@ -18917,12 +18925,11 @@
       "echoPublishers": {
         "orf": "2026-08-06T22:07:43.178Z",
         "diepresse": "2026-08-06T22:07:44.790Z",
-        "kleinezeitung": "2026-08-06T22:07:46.297Z",
-        "derstandard": "2026-08-06T14:07:43.250Z"
+        "kleinezeitung": "2026-08-06T22:07:46.297Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-07T12:07:36.382Z"
+      "resonanceMeasuredAt": "2026-08-07T16:08:07.188Z"
     },
     "polizei-entsendung-wien-jugendkriminalitaet-august-2026": {
       "canonicalTitle": "Vier Bundesländer schicken täglich Polizisten nach Wien zur Unterstützung gegen Jugendkriminalität",
@@ -19561,6 +19568,39 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-07T14:07:38.044Z"
+    },
+    "spoe-bundespraesident-kandidaten-2028-wohlgemuth": {
+      "canonicalTitle": "SPÖ-Chef Wohlgemuth nennt Kaiser, Bures und Niessl als mögliche BP-Kandidaten",
+      "slug": "spoe-bundespraesident-kandidaten-2028-wohlgemuth",
+      "firstSeenAt": "2026-08-07T16:08:07.188Z",
+      "lastUpdatedAt": "2026-08-07T16:08:07.188Z",
+      "status": "published",
+      "articlePath": "src/content/articles/spoe-bundespraesident-kandidaten-2028-wohlgemuth.mdx",
+      "researchPath": "data/ai-news/research/2026-08-07/spoe-bundespraesident-kandidaten-2028-wohlgemuth.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/inland/bundespraesident-wahl-wohlgemuth-kaiser-bures-niessl/403180481",
+        "https://www.kleinezeitung.at/artikel/41154544/kaiser-bures-und-auch-niessl-fuer-wohlgemuth-bp-kandidaten",
+        "https://www.diepresse.com/41154569/bp-wahl-wohlgemuth-bringt-kaiser-bures-und-auch-niessl-ins-spiel",
+        "https://www.tt.com/artikel/30939687/kaiser-bures-und-auch-niessl-fuer-wohlgemuth-bp-kandidaten",
+        "https://www.vol.at/kaiser-bures-und-auch-niessl-fuer-wohlgemuth-bp-kandidaten/10374635",
+        "https://burgenland.orf.at/stories/3340459/"
+      ],
+      "openQuestions": [
+        "Wie reagieren Kaiser, Bures und Niessl auf ihre Nennung durch Wohlgemuth?",
+        "Wann und nach welchem Verfahren entscheidet die SPÖ über ihre Nominierung für die Bundespräsidentenwahl 2028?",
+        "Welche Kandidatinnen und Kandidaten bringen ÖVP, FPÖ und Grüne für die Wahl 2028 ins Spiel?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-08T16:08:07.188Z",
+      "doNotUpdateBefore": "2026-08-07T22:08:07.188Z",
+      "echoPublishers": {
+        "kurier": "2026-08-07T08:07:38.107Z",
+        "kleinezeitung": "2026-08-07T04:07:41.850Z",
+        "diepresse": "2026-08-07T06:07:39.768Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-07T16:08:07.188Z"
     }
   }
 }
