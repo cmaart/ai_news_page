@@ -1,0 +1,142 @@
+---
+title: Microsoft macht russische Spionagegruppe für Hackerkampagne über Hotel-WLANs verantwortlich
+description: "Microsoft warnt vor der Kampagne „CaptiveCrunch“: Kompromittierte WLAN-Login-Seiten in Hotels werden nach Angaben des Konzerns seit Mai 2026 genutzt, um Reisende weltweit mit Schadsoftware und Phishing anzugreifen und Zugangsdaten zu Microsoft-365-Konten zu stehlen."
+publishedAt: 2026-08-07T00:07:30.622Z
+topic: technologie
+country: int
+status: published
+generationMode: ai_generated
+editorialReview: none
+confidence: high
+confidenceNote: Microsoft hat die Kampagne in einem eigenen Sicherheitsbericht öffentlich gemacht, mehrere voneinander unabhängige Medien (u. a. BleepingComputer, Help Net Security sowie österreichische und deutsche Portale) berichten übereinstimmend über Ablauf und Namen der Kampagne.
+primarySourceStrength: weak
+sourceStrengthNote: Der Microsoft-Blogbeitrag wurde als Quelle über die Suche identifiziert und mit mehreren Medienberichten abgeglichen, aber nicht im vollständigen Wortlaut abgerufen und ausgewertet.
+framingRisk: medium
+framingRiskNote: Die Darstellung beruht praktisch vollständig auf Microsofts eigener Einschätzung der Angreifer-Zuordnung; eine russische Stellungnahme oder eine unabhängige technische Bestätigung der Attribution fehlt.
+newsworthiness: 3
+summary:
+  - text: "Microsoft warnte am 31. Juli 2026 vor der Kampagne „CaptiveCrunch“: Kompromittierte WLAN-Login-Seiten in Hotels werden weltweit genutzt, um Reisende mit Schadsoftware und Phishing anzugreifen."
+    kind: fact
+  - text: Die Angreifer leiten laut Microsoft den Datenverkehr über präparierte Captive Portals um und stehlen mit den Schadprogrammen „CornFlake“ und „ChocoShell“ Zugangsdaten zu Microsoft-365-Konten.
+    kind: fact
+  - text: Microsoft ordnet die Kampagne der Gruppe Storm-2945 zu, einem Ableger der mit dem russischen Auslandsgeheimdienst SVR verknüpften Gruppe Midnight Blizzard – eine unabhängige Bestätigung dieser Zuordnung fehlt.
+    kind: fact
+  - text: Wie viele Reisende oder Unternehmen weltweit tatsächlich betroffen sind, bleibt unklar.
+    kind: open
+  - text: Eine Stellungnahme russischer Stellen zu den Vorwürfen liegt nicht vor.
+    kind: open
+openQuestions:
+  - Wie viele Hotels, Flughäfen oder Konferenzzentren sind über die von Microsoft genannten Beispiele hinaus tatsächlich betroffen?
+  - Gibt es bereits bestätigte Fälle in Österreich oder anderen europäischen Ländern?
+  - Wird die Zuordnung zu Storm-2945/Midnight Blizzard von unabhängigen Sicherheitsforschern oder Behörden wie BSI oder ENISA bestätigt?
+  - Äußert sich Russland zu den Vorwürfen?
+  - Wie viele Konten oder Unternehmen wurden durch die Schadprogramme CornFlake und ChocoShell tatsächlich kompromittiert?
+sources:
+  - id: src1
+    name: Kleine Zeitung
+    type: media
+    url: https://www.kleinezeitung.at/artikel/41094446/microsoft-warnt-reisende-vor-hacker-angriffen-in-hotels
+  - id: src2
+    name: Golem
+    type: media
+    url: https://www.golem.de/news/microsoft-warnt-russische-hacker-verbreiten-malware-ueber-oeffentliche-wlans-2608-211540.html
+  - id: src3
+    name: Der Standard
+    type: media
+    url: https://www.derstandard.at/story/3000000334253/fotos-und-e-mails-microsoft-warnt-vor-hackerangriffen-in-hotel-wlans
+  - id: src4
+    name: Microsoft Security Blog
+    type: official
+    url: https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/
+  - id: src5
+    name: BleepingComputer
+    type: media
+    url: https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/
+  - id: src6
+    name: Help Net Security
+    type: media
+    url: https://www.helpnetsecurity.com/2026/08/04/midnight-blizzard-hotel-wi-fi-networks-hacking/
+claims:
+  - id: claim1
+    text: Microsoft veröffentlichte am 31. Juli 2026 einen Sicherheitsbericht zu einer Kampagne namens „CaptiveCrunch“, bei der kompromittierte WLAN-Login-Seiten in Hotels, an Flughäfen und auf Konferenzen weltweit für Angriffe auf Reisende genutzt werden.
+    status: supported
+    sourceIds:
+      - src4
+      - src5
+      - src6
+  - id: claim2
+    text: Laut Microsoft leitet die Gruppe Datenverkehr über manipulierte Captive Portals per DNS- oder HTTP-Umleitung auf eigene Infrastruktur um und nutzt NTLM-Relay-Techniken, um Zugangsdaten zu Microsoft-365-Konten abzugreifen.
+    status: supported
+    sourceIds:
+      - src4
+      - src5
+      - src6
+  - id: claim3
+    text: "Bei den Angriffen kommen laut Microsoft zwei eigens entwickelte Schadprogramme zum Einsatz: der in der Programmiersprache Go geschriebene Trojaner „CornFlake“ für dauerhaften Fernzugriff und die PowerShell-basierte Schadsoftware „ChocoShell“ zum Diebstahl von Zugangsdaten und Dateien."
+    status: supported
+    sourceIds:
+      - src4
+      - src5
+      - src6
+  - id: claim4
+    text: Microsoft ordnet die Kampagne der Gruppe Storm-2945 zu, die als Teilbereich der mit dem russischen Auslandsnachrichtendienst SVR verknüpften Hackergruppe Midnight Blizzard (auch als Cozy Bear oder APT29 bekannt) eingestuft wird.
+    status: partial
+    note: Diese Zuordnung stammt aus Microsofts eigener Einschätzung als betroffene Partei; eine unabhängige Bestätigung oder eine russische Stellungnahme liegt nicht vor.
+    sourceIds:
+      - src4
+      - src6
+  - id: claim5
+    text: Nach Microsofts Angaben wurden seit Anfang Mai 2026 kompromittierte Netzwerke unter anderem in den USA, Indien und Saudi-Arabien identifiziert; die Kampagne wird als weltweit angelegt beschrieben.
+    status: partial
+    note: Die genannten Länder sind Beispiele aus Microsofts Bericht, das tatsächliche Ausmaß der weltweiten Kampagne bleibt offen.
+    sourceIds:
+      - src4
+      - src6
+corrections: []
+image:
+  file: ../../assets/articles/microsoft-warnung-hacker-hotel-wlan-captivecrunch-august-2026/hero.webp
+  alt: Bürogebäude auf dem Microsoft-Campus in Redmond mit Microsoft-Logo-Schild im Vordergrund
+  caption: Bürogebäude auf dem Microsoft-Campus in Redmond, Washington
+  kind: symbol
+  credit:
+    author: Microsoft / Stephen Brashear
+    license: press_permission
+    sourceUrl: https://news.microsoft.com/microsoft-news-center-photos/
+    termsUrl: https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions
+    termsQuote: Images found on the News Center may be used for editorial purposes only by the press and/or industry analysts.
+    retrievedAt: 2026-08-07T00:07:30.622Z
+---
+
+<Kompakt>
+
+Microsoft warnt vor einer Kampagne namens „CaptiveCrunch“, bei der WLAN-Login-Seiten in Hotels, an Flughäfen und auf Konferenzen kompromittiert werden, um Reisende weltweit anzugreifen. Laut Microsoft läuft die Kampagne seit Anfang Mai 2026: Der Datenverkehr wird über manipulierte Captive Portals umgeleitet, mit NTLM-Relay-Techniken werden Windows-Zugangsdaten abgefangen, und zwei Schadprogramme – der Trojaner „CornFlake“ und die PowerShell-Malware „ChocoShell“ – ermöglichen Fernzugriff sowie Datendiebstahl, insbesondere auf Microsoft-365-Konten.
+
+Microsoft ordnet die Angriffe der Gruppe Storm-2945 zu, einem laut Unternehmen mit dem russischen Geheimdienst SVR verknüpften Ableger von Midnight Blizzard. Diese Zuordnung stammt jedoch allein von Microsoft selbst; eine unabhängige Bestätigung oder eine russische Stellungnahme gibt es nicht. Als Beispiele betroffener Länder werden die USA, Indien und Saudi-Arabien genannt, das tatsächliche Ausmaß der als weltweit beschriebenen Kampagne bleibt offen.
+
+Reisenden wird empfohlen, öffentliche WLANs grundsätzlich zu meiden, stattdessen mobile Datenverbindungen und VPN zu nutzen sowie auf Mehrfaktor-Authentifizierung oder Passkeys zu setzen.
+
+</Kompakt>
+
+<Standard>
+
+## Was Microsoft warnt
+
+Microsoft hat eine Kampagne öffentlich gemacht, bei der Login-Seiten von WLAN-Netzwerken in Hotels sowie an Flughäfen und auf Konferenzen kompromittiert werden, um Reisende gezielt anzugreifen. Das Unternehmen bezeichnet die Kampagne als „CaptiveCrunch“ und beschreibt sie als seit Anfang Mai 2026 aktiv. Ziel sei es, über die manipulierten Netzwerke Schadsoftware zu verbreiten und Zugangsdaten zu Microsoft-365-Konten zu stehlen. Österreichische und deutsche Medien wie Kleine Zeitung, Golem und Der Standard griffen die Warnung Anfang August 2026 auf und wiesen insbesondere auf das Risiko für Fotos, E-Mails und andere über öffentliche Netzwerke abgerufene Daten hin.
+
+## Wie die Angriffe ablaufen
+
+Nach Microsofts Darstellung nutzen die Angreifer sogenannte Captive Portals – jene Anmeldeseiten, die sich beim erstmaligen Verbinden mit einem öffentlichen WLAN öffnen. Werden diese Portale kompromittiert, leiten die Angreifer den Datenverkehr per DNS- oder HTTP-Umleitung über eigene Infrastruktur. Betroffene Nutzerinnen und Nutzer bekommen dabei unter anderem gefälschte Software-Update-Hinweise oder nachgeahmte Anmeldeseiten für Cloud-Konten angezeigt. Zusätzlich sollen sogenannte NTLM-Relay-Techniken zum Einsatz kommen, mit denen Windows-Zugangsdaten abgefangen werden. Für die eigentliche Infektion nennt Microsoft zwei Schadprogramme: den in der Programmiersprache Go geschriebenen Trojaner „CornFlake“, der dauerhaften Fernzugriff auf infizierte Geräte ermöglichen soll, sowie die PowerShell-basierte Schadsoftware „ChocoShell“, die auf das Abgreifen von Zugangsdaten und Dateien ausgelegt sei.
+
+## Wer laut Microsoft dahinterstecken soll
+
+Microsoft ordnet die Kampagne einer Gruppe mit der Bezeichnung Storm-2945 zu, die das Unternehmen als Teilbereich von Midnight Blizzard einstuft – jener Hackergruppe, die auch unter den Namen Cozy Bear, APT29 oder Nobelium bekannt ist und seit Jahren dem russischen Auslandsnachrichtendienst SVR zugerechnet wird. Diese Einordnung stammt jedoch ausschließlich von Microsoft selbst als direkt betroffener Partei. Eine unabhängige technische Bestätigung durch andere Sicherheitsbehörden oder eine Stellungnahme russischer Stellen liegt bislang nicht vor. Als Beispiele für kompromittierte Netzwerke nennt Microsoft unter anderem die USA, Indien und Saudi-Arabien, beschreibt die Kampagne insgesamt aber als weltweit angelegt.
+
+## Was unklar bleibt
+
+Offen bleibt, wie viele Hotels, Flughäfen oder Konferenzzentren tatsächlich betroffen sind und wie viele Reisende oder Unternehmen Opfer der Kampagne wurden. Auch zu möglichen Fällen in Österreich oder anderen europäischen Ländern liegen keine Angaben vor. Ob unabhängige Sicherheitsforscherinnen und -forscher oder Behörden wie das deutsche BSI oder die europäische Cybersicherheitsagentur ENISA die von Microsoft vorgenommene Zuordnung zu Storm-2945 und Midnight Blizzard bestätigen, ist bislang nicht bekannt. Eine Reaktion russischer Stellen auf die Vorwürfe fehlt ebenfalls.
+
+## Empfehlungen für Reisende
+
+Microsoft und Sicherheitsdienstleister raten dazu, öffentliche WLAN-Netzwerke in Hotels grundsätzlich als unsicher zu behandeln. Empfohlen werden mobile Datenverbindungen oder eigene Hotspots statt fremder WLANs, der Einsatz von VPN-Verbindungen sowie Mehrfaktor-Authentifizierung beziehungsweise Passkeys anstelle klassischer Passwörter. Zudem wird davon abgeraten, im Rahmen von WLAN-Anmeldeseiten angebotene Software oder angebliche Updates zu installieren.
+
+</Standard>
