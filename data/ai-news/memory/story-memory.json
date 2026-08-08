@@ -1,28 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T20:23:55.674Z",
+  "updatedAt": "2026-08-08T22:30:51.916Z",
   "stories": {
-    "cluster-20260709-031047f1": {
-      "canonicalTitle": "USA sollen Israel-Rückzug aus \"Pilotzonen\" im Südlibanon steuern",
-      "slug": "cluster-20260709-031047f1",
-      "firstSeenAt": "2026-07-09T21:36:32.896Z",
-      "lastUpdatedAt": "2026-07-09T21:36:32.896Z",
-      "status": "noted",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000330688/iran-kontert-erneute-us-attacken-mit-gegenangriffen",
-        "https://www.derstandard.at/story/3000000330688/iran-kontert-erneute-us-attacken-mit-gegenangriffen",
-        "https://www.kleinezeitung.at/artikel/19792623/wussten-die-usa-wirklich-nicht-bescheid",
-        "https://orf.at/stories/3435776"
-      ],
-      "openQuestions": [
-        "Volltext der Originalartikel (derStandard, ORF, Kleine Zeitung – nicht RSS-Extrakte)",
-        "Primäre Regierungserklärungen oder verifizierte Off-Records von USA, Israel, Iran",
-        "Exakte Zeitleiste: Wann US-Attacke, wann israelische Aktion, wann iranische Gegenaktion",
-        "Unabhängige sicherheitspolitische Quelle oder Analyse (nicht bloß Agentur-Sekundärtext)",
-        "Offizielle Stellungnahmen zur Südlibanon-Rückzug-Frage und zu Gegenangriffen"
-      ],
-      "sensitivity": "high"
-    },
     "presserat-ruegt-falter-glattauer-suizid-interview-2026": {
       "canonicalTitle": "Presserat rügt „Falter“ für Berichterstattung zu Glattauer-Interview vor assistiertem Suizid",
       "slug": "presserat-ruegt-falter-glattauer-suizid-interview-2026",
@@ -4676,11 +4655,12 @@
       "pendingOutcome": "Der gegenseitige Beschuss zwischen Russland und der Ukraine dauert an; offen bleiben insbesondere unabhängige Bestätigungen der zahlreichen einseitig gemeldeten Opferzahlen und Schäden, der Ausgang des Verfahrens gegen den Organisator der Rüstungsmesse-Veranstaltung sowie die weitere Entwicklung im Streit um die Patriot-Lizenz zwischen der Ukraine und den USA.",
       "pendingOutcomeUntil": "2026-08-10T00:07:35.044Z",
       "echoPublishers": {
-        "derstandard": "2026-08-08T08:07:35.278Z"
+        "derstandard": "2026-08-08T08:07:35.278Z",
+        "orf": "2026-08-08T22:07:32.990Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-08T08:07:30.149Z"
+      "resonanceMeasuredAt": "2026-08-08T22:07:31.228Z"
     },
     "cluster-20260714-6d1e2cbe": {
       "canonicalTitle": "K�nstliche Intelligenz: Claude 3 kann festgelegten Prinzipien folgen",
@@ -15017,14 +14997,13 @@
       "pendingOutcomeUntil": "2026-08-09T20:07:47.523Z",
       "echoPublishers": {
         "orf": "2026-08-08T00:07:36.567Z",
-        "derstandard": "2026-08-07T20:07:51.819Z",
         "kleinezeitung": "2026-08-08T12:07:39.128Z",
         "kurier": "2026-08-08T00:07:37.434Z",
         "diepresse": "2026-08-08T20:07:39.762Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-08T20:07:36.138Z"
+      "resonanceMeasuredAt": "2026-08-08T22:07:31.228Z"
     },
     "houthi-angriffe-vom-irak-us-saudi-vergeltung-30-juli-2026": {
       "canonicalTitle": "Huthi-Miliz griff laut Insidern erstmals vom Irak aus an – USA und Saudi-Arabien fliegen Vergeltungsschläge, Bagdad sagt Gipfeltreffen ab",
@@ -16113,9 +16092,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-05T08:07:37.849Z",
       "doNotUpdateBefore": "2026-08-04T14:07:37.849Z",
-      "echoPublishers": {
-        "orf": "2026-08-07T20:07:49.755Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-05T10:07:30.027Z"
@@ -19160,9 +19137,7 @@
       "doNotUpdateBefore": "2026-08-08T02:07:47.523Z",
       "pendingOutcome": "Offizielle Bestätigung von Preis, Design, Ausstattung und Marktstart durch OpenAI sowie der tatsächliche Ausgang der Apple-Klage stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-08-09T04:07:34.940Z",
-      "echoPublishers": {
-        "arstechnica": "2026-08-07T20:07:53.677Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-08T20:07:36.138Z"
@@ -19643,12 +19618,11 @@
       "pendingOutcome": "Wie der Supreme Court über eine mögliche Berufung der Trump-Regierung entscheidet und ob der Fall dort überhaupt angenommen wird, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-08-09T20:07:47.523Z",
       "echoPublishers": {
-        "diepresse": "2026-08-07T20:07:52.594Z",
         "derstandard": "2026-08-08T12:07:38.559Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-08T20:07:36.138Z"
+      "resonanceMeasuredAt": "2026-08-08T22:07:31.228Z"
     },
     "faa-boeing-737-max-rissinspektion-september-2026": {
       "canonicalTitle": "FAA ordnet Rissprüfung an rund 471 Boeing-737-MAX-Flugzeugen an",
@@ -19838,8 +19812,6 @@
       "pendingOutcomeUntil": "2026-08-10T08:07:30.149Z",
       "echoPublishers": {
         "futurezone": "2026-08-08T08:07:34.418Z",
-        "derstandard": "2026-08-07T20:07:54.939Z",
-        "thedecoder": "2026-08-07T20:07:54.933Z",
         "orf": "2026-08-08T00:07:36.567Z",
         "kurier": "2026-08-08T10:07:40.835Z",
         "golem": "2026-08-08T14:07:34.875Z"
@@ -20029,10 +20001,10 @@
       "canonicalTitle": "Selenskyj besucht erstmals Belgrad: Ukraine und Serbien vereinbaren Kooperation trotz Moskau-Nähe",
       "slug": "selenskyj-vucic-belgrad-besuch-august-2026",
       "firstSeenAt": "2026-08-08T14:07:30.130Z",
-      "lastUpdatedAt": "2026-08-08T14:07:30.130Z",
+      "lastUpdatedAt": "2026-08-08T22:07:31.228Z",
       "status": "published",
       "articlePath": "src/content/articles/selenskyj-vucic-belgrad-besuch-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-08/selenskyj-vucic-belgrad-besuch-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-08-08/selenskyj-vucic-belgrad-besuch-august-2026-update-2200.json",
       "sourceUrls": [
         "https://orf.at/stories/3438598",
         "https://www.derstandard.at/story/3000000334775/selenskyj-und-vucic-kooperation-trotz-moskau-n228he-belgrads",
@@ -20040,19 +20012,24 @@
         "https://www.kleinezeitung.at/artikel/41158561/selenskyj-bei-vucic-serbien-und-ukraine-wollen-kooperieren",
         "https://orf.at/stories/3438559",
         "https://vesti-online.com/zelenski-stize-u-beograd-predsednik-vucic-otkrio-tri-kljucne-teme-i-prelomio-pitanje-sankcija-rusiji/",
-        "https://www.bloomberg.com/news/articles/2026-08-08/zelenskyy-makes-debut-trip-to-serbia-as-russian-influence-wanes"
+        "https://www.bloomberg.com/news/articles/2026-08-08/zelenskyy-makes-debut-trip-to-serbia-as-russian-influence-wanes",
+        "https://www.diepresse.com/41158061/selenskyj-erstmals-seit-beginn-des-kriegs-in-serbien",
+        "https://orf.at/stories/3438537",
+        "https://www.kleinezeitung.at/artikel/41157497/selenskyj-erstmals-seit-kriegsbeginn-in-serbien"
       ],
       "openQuestions": [
-        "Wie wird das bis Jahresende angekündigte Freihandelsabkommen zwischen Ukraine und Serbien konkret ausgestaltet?",
+        "Wie wird das bis Jahresende angekündigte Freihandelsabkommen zwischen Ukraine und Serbien konkret ausgestaltet, und treibt es Serbiens WTO-Beitrittsgesuch tatsächlich voran?",
         "In welchem Umfang und mit welchem Zeitplan soll die von Vučić angekündigte Drohnen-Kooperation mit Israel erfolgen?",
         "Lässt sich die von ORF berichtete, informelle Waffenlieferung Serbiens an die Ukraine unabhängig bestätigen oder von serbischer bzw. ukrainischer Seite verifizieren?",
-        "Wie reagiert Russland offiziell auf die vertiefte ukrainisch-serbische Zusammenarbeit?",
-        "Welche konkreten Fortschritte gibt es in der Folge bei den EU-Beitrittsprozessen beider Länder?"
+        "Wie reagiert Russland offiziell auf die vertiefte ukrainisch-serbische Zusammenarbeit und auf die AFP zugeschriebene Aussage eines ukrainischen Regierungsvertreters, der Besuch sei ein „Schlag ins Gesicht“ für Moskau?",
+        "Welche konkreten Fortschritte gibt es in der Folge bei den EU-Beitrittsprozessen beider Länder?",
+        "Wie wirkt sich Vučićs bevorstehende vorgezogene Wahl auf den weiteren Kurs Serbiens gegenüber Ukraine und Russland aus?",
+        "Lässt sich Selenskyjs Angabe, die Ukraine habe praktisch keine intakten Wärmekraftwerke mehr, unabhängig von anderer Seite bestätigen?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-08-09T14:07:30.130Z",
-      "doNotUpdateBefore": "2026-08-08T20:07:30.130Z",
-      "pendingOutcome": "Ob und in welcher Form das bis Ende 2026 angekündigte Freihandelsabkommen zwischen Ukraine und Serbien tatsächlich ausgearbeitet und abgeschlossen wird.",
+      "doNotRedraftBefore": "2026-08-09T22:07:31.228Z",
+      "doNotUpdateBefore": "2026-08-09T04:07:31.228Z",
+      "pendingOutcome": "Konkrete Umsetzung von Freihandelsabkommen und Drohnen-Kooperation mit Israel sowie eine mögliche offizielle russische Reaktion auf den Besuch stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-08-10T14:07:30.130Z",
       "echoPublishers": {
         "orf": "2026-08-08T14:07:32.202Z",
@@ -20100,6 +20077,76 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-08T20:07:36.138Z"
+    },
+    "meinl-reisinger-rubio-washington-august-2026": {
+      "canonicalTitle": "Außenministerin Meinl-Reisinger reist zu Gesprächen mit US-Außenminister Rubio nach Washington",
+      "slug": "meinl-reisinger-rubio-washington-august-2026",
+      "firstSeenAt": "2026-08-08T22:07:31.228Z",
+      "lastUpdatedAt": "2026-08-08T22:07:31.228Z",
+      "status": "published",
+      "articlePath": "src/content/articles/meinl-reisinger-rubio-washington-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-08/meinl-reisinger-rubio-washington-august-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/41156675/meinl-reisinger-reist-zu-us-aussenminister-rubio-nach-washington",
+        "https://www.kleinezeitung.at/artikel/41157719/meinl-reisinger-trifft-us-aussenminister-rubio-am-dienstag",
+        "https://www.derstandard.at/story/3000000334739/meinl-reisinger-trifft-us-au223enminister-rubio-am-dienstag"
+      ],
+      "openQuestions": [
+        "Welchen Wortlaut hat das Außenministerium oder das US-State-Department nach dem Treffen zu den besprochenen Themen (Ukraine, Iran, Zölle, Westbalkan)?",
+        "Reist Meinl-Reisinger tatsächlich am Montag oder am Dienstag – und wie erklärt sich die Diskrepanz zwischen den Berichten?",
+        "Kommen die geplanten Treffen mit den Außenministern Frankreichs, Großbritanniens, Russlands und Chinas zustande, und wann?",
+        "Wer genau nahm am kolportierten Diplomatentreffen Ende Juni in Wien teil, und welche in Genf ansässige Organisation hat es laut Presse-Angaben eingefädelt?",
+        "Welche konkreten Ergebnisse bringt das Abendessen mit Vertretern von Meta, Google und SpaceX in der österreichischen Botschaft?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-09T22:07:31.228Z",
+      "doNotUpdateBefore": "2026-08-09T04:07:31.228Z",
+      "pendingOutcome": "Ergebnisse und offizielle Stellungnahmen nach dem tatsächlichen Treffen zwischen Meinl-Reisinger und Rubio in Washington, sowie ob und wann die geplanten Gespräche mit den Außenministern Frankreichs, Großbritanniens, Russlands und Chinas zustande kommen.",
+      "pendingOutcomeUntil": "2026-08-10T22:07:31.228Z",
+      "echoPublishers": {
+        "diepresse": "2026-08-08T08:07:34.229Z",
+        "kleinezeitung": "2026-08-08T04:07:46.270Z",
+        "derstandard": "2026-08-08T06:07:37.675Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-08T22:07:31.228Z"
+    },
+    "taiwan-han-kuang-manoever-lai-august-2026": {
+      "canonicalTitle": "Taiwan probt bei zehntägigem Großmanöver Abwehr eines möglichen chinesischen Angriffs",
+      "slug": "taiwan-han-kuang-manoever-lai-august-2026",
+      "firstSeenAt": "2026-08-08T22:07:31.228Z",
+      "lastUpdatedAt": "2026-08-08T22:07:31.228Z",
+      "status": "published",
+      "articlePath": "src/content/articles/taiwan-han-kuang-manoever-lai-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-08/taiwan-han-kuang-manoever-lai-august-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/politik/ausland/taiwan-praesident-lai-grossmanoever-kueste-abwehr/403181120",
+        "https://orf.at/stories/3438569",
+        "https://www.derstandard.at/story/3000000334744/taiwanesischer-pr228sident-lai-bei-gro223man246ver-an-k252ste",
+        "https://focustaiwan.tw/politics/202608080007",
+        "https://www.usnews.com/news/world/articles/2026-08-07/taiwan-president-oversees-coastal-strike-drill-during-annual-war-games",
+        "https://www.taipeitimes.com/News/taiwan/archives/2026/07/28/2003861536"
+      ],
+      "openQuestions": [
+        "Wie fällt die offizielle Bewertung des Manövers durch das taiwanische Verteidigungsministerium nach dessen Ende am 14. August 2026 aus?",
+        "Gibt es eine offizielle chinesische Reaktion auf das laufende Manöver, und wie fällt sie aus?",
+        "Wie wirksam sind die neu erprobten Verfahren – US-orientierte Befehlsabläufe, gedrosseltes mobiles Internet, eingebettete Journalisten – nach Einschätzung von Sicherheitsexpertinnen und -experten?",
+        "Welche konkreten Ergebnisse liefert die Einbindung der rund 20.000 Reservisten und der Küstenwache in die Übung?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-09T22:07:31.228Z",
+      "doNotUpdateBefore": "2026-08-09T04:07:31.228Z",
+      "pendingOutcome": "Abschluss und offizielle Bewertung der bis 14. August 2026 laufenden Han-Kuang-42-Übung durch das taiwanische Verteidigungsministerium sowie eine mögliche offizielle Reaktion Chinas.",
+      "pendingOutcomeUntil": "2026-08-10T22:07:31.228Z",
+      "echoPublishers": {
+        "kurier": "2026-08-08T10:07:40.831Z",
+        "orf": "2026-08-08T08:07:32.263Z",
+        "derstandard": "2026-08-08T08:07:33.372Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-08T22:07:31.228Z"
     }
   }
 }
