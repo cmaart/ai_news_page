@@ -1,0 +1,296 @@
+{
+  "cluster": {
+    "id": "cluster-20260806-2622283a",
+    "title": "Bericht: Tote Hose in der Grokipedia",
+    "items": [
+      {
+        "itemId": "fc6743a506cf4650b239e6746b4785d30211e91da9c470c42d6025f9963070f9",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Bericht: Tote Hose in der Grokipedia",
+        "url": "https://www.heise.de/news/Bericht-Tote-Hose-in-der-Grokipedia-11402428.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "summary": "Die mit großen Hoffnungen als Alternative zur Wikipedia gestartete KI-Enzyklopädie Grokipedia dümpelt offenbar nur noch vor sich hin.",
+        "publishedAt": "2026-08-06T17:19:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "6797dc7c223744644e89557d4c1e5350ca1e4fd0f01b85b0a5f9c15c16ca4c2d",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Berichte über 17 tote Migranten vor Mallorca",
+        "url": "https://orf.at/stories/3438195",
+        "isNew": false
+      },
+      {
+        "itemId": "cc5194ad1ea65e631f300b0d2f3ba01d5d6bd6e210395ff185c9312843209234",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Berichte: 17 tote Migranten vor Mallorca",
+        "url": "https://www.kleinezeitung.at/artikel/41070836/berichte-17-tote-migranten-vor-mallorca",
+        "isNew": false
+      },
+      {
+        "itemId": "7c030293378badace16d9d1adcfefdf94f9d4cd69a1f160eaf99cba43f7b1f5b",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Berichte: 17 tote Migranten vor Mallorca",
+        "url": "https://www.kleinezeitung.at/artikel/41070836/berichte-17-tote-migranten-vor-mallorca",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "update_story",
+    "reason": "Cluster mischt zwei unabhängige Themen (Grokipedia + Mallorca-Migranten). Dominant: Mallorca-Bootsunglück ist Update zur bereits publizierten Story (patera-mallorca-17-tote-august-2026). ORF und Kleine Zeitung berichten mit bestätigten spanischen Behördenangaben. Neue Quellen (ORF-Stützung, Behörden-Bestätigung via Innenministerium-Vertretung) liefern Substanz für Update. — Grokipedia-Item (reine Tech-Nische, kein Österreich-/EU-Relevanz, nur Heise-Quelle, Newsworthiness 2) wird ignoriert.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 2,
+    "relatedSlug": "patera-mallorca-17-tote-august-2026",
+    "possibleClaims": [
+      "17 Migranten sind nach Aussage der zwei geretteten Überlebenden auf der Überfahrt gestorben",
+      "Das Boot trieb 15 Tage lang manövrierunfähig auf dem Meer",
+      "Von ursprünglich 19 Menschen an Bord wurden 2 lebend gerettet, 17 starben nach Überlebendenangabe",
+      "Die spanische Vertretung des Innenministeriums bestätigt den Rettungseinsatz"
+    ],
+    "missingSources": [
+      "Unabhängige oder amtliche spanische/marokkanische Bestätigung der Opferzahl 17 (bislang nur Überlebendenaussage)",
+      "Genaue Nationalität und Herkunftsregion der verstorbenen Insassen",
+      "Behördliche Ermittlungen zur Schleuser-Organisation oder Fluchtroute-Details",
+      "Weitere medizinische/forensische Daten zu den zwei Überlebenden"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "patera-mallorca-17-tote-august-2026",
+    "title": "Zwei Überlebende vor Mallorca gerettet – 17 Mitreisende nach Überlebenden-Aussage auf See gestorben",
+    "description": "Nach 15 Tagen auf See sind zwei Männer aus dem Maghreb südwestlich von Mallorca aus einem manövrierunfähigen Boot gerettet worden. Nach ihrer Aussage starben 17 weitere Insassen während der Überfahrt – eine unabhängige Bestätigung der Zahl fehlt bislang. Eine NGO prüft einen möglichen Zusammenhang mit im Juli vermissten Booten.",
+    "topic": "gesellschaft",
+    "country": "eu",
+    "confidence": "medium",
+    "confidenceNote": "Rettung, Zustand der Überlebenden und die anschließende Suchaktion sind über spanische Behördenangaben und mehrere unabhängige Medien belegt; die zentrale Zahl von 17 Toten stützt sich weiterhin ausschließlich auf die Aussage der beiden Überlebenden. Neue Details (Alarmierung durch ein Fährschiff, Klinikname, laufende NGO-Prüfung) stammen aus zusätzlichen Medienberichten, ändern aber nichts an der Grundlage der Kernzahl.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt weiterhin keine direkt eingesehene Original-Mitteilung einer spanischen Behörde vor; alle Bestätigungen stammen aus Medienberichten, die sich auf Auskünfte der Regierungsdelegation der Balearen, der Seenotrettung und – neu – der NGO Caminando Fronteras berufen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Alle Angaben zur Opferzahl und zum Hergang gehen letztlich auf dieselbe Quelle zurück – die Aussage der zwei Überlebenden gegenüber Rettungskräften und Behörden –, eine unabhängige Gegenprüfung fehlt bislang. Die neue Angabe, wonach Leichen laut Überlebenden während der Überfahrt ins Meer geworfen worden seien, erklärt zugleich, warum eine Bergung und unabhängige Verifizierung kaum möglich ist.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Zwei Überlebende aus dem Maghreb wurden rund 25 Kilometer südwestlich von Mallorca aus einem manövrierunfähigen Boot gerettet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Nach ihrer Aussage waren ursprünglich 19 Menschen an Bord, 17 sollen während der rund 15-tägigen Überfahrt gestorben sein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine unabhängige Bestätigung der Zahl von 17 Toten liegt weiterhin nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Nach Angabe der Überlebenden wurden die Leichen der Verstorbenen im Verlauf der Überfahrt ins Meer geworfen, was eine spätere Bergung erschwert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die spanische Seenotrettung setzte eine Suchaktion mit Hubschrauber fort; am selben Tag wurden vor Ibiza 15 weitere Migranten aus einem anderen Boot gerettet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut einem Medienbericht alarmierte die Besatzung der Balearia-Fähre „Rosalind Franklin“ die Behörden, nachdem sie das treibende Boot gesichtet hatte.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die NGO Caminando Fronteras prüft, ob es sich um eines von fünf im Juli als vermisst gemeldeten Booten mit insgesamt 76 Menschen an Bord handelt; eine Bestätigung steht aus.",
+        "kind": "open"
+      },
+      {
+        "text": "Die beiden Überlebenden werden laut mehreren Medienberichten im Universitätsklinikum Son Espases in Palma behandelt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Identität, Herkunft und das weitere Schicksal möglicher zusätzlicher Vermisster sind unklar.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wird die von den Überlebenden genannte Zahl von 17 Toten durch spanische Behörden oder unabhängige Ermittlungen bestätigt?",
+      "Bestätigt die NGO Caminando Fronteras einen Zusammenhang mit einem der fünf im Juli als vermisst gemeldeten Boote mit insgesamt 76 Menschen an Bord, sobald sich die Überlebenden erholt haben?",
+      "Werden im Zuge weiterer Ermittlungen Leichen oder weitere Überlebende gefunden, obwohl die Leichen laut Aussage bereits während der Überfahrt ins Meer geworfen wurden?",
+      "Gibt es Ermittlungen zu Schleusernetzwerken oder zur Organisation der Überfahrt?",
+      "Aus welchem Land stammten die Insassen des Boots genau, und über welche Route erfolgte die Überfahrt?",
+      "Lässt sich die Angabe zur Alarmierung durch die Fährbesatzung der „Rosalind Franklin“ unabhängig bestätigen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41071571/berichte-ueber-17-tote-migranten-vor-mallorca"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3438195"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41070836/berichte-17-tote-migranten-vor-mallorca"
+      },
+      {
+        "id": "src4",
+        "name": "Infobae",
+        "type": "media",
+        "url": "https://www.infobae.com/espana/agencias/2026/08/04/ingresados-en-mallorca-dos-migrantes-de-una-patera-en-la-que-iban-otros-17-desaparecidos/?outputType=amp-type"
+      },
+      {
+        "id": "src5",
+        "name": "elDiario.es",
+        "type": "media",
+        "url": "https://www.eldiario.es/illes-balears/sociedad/mueren-17-personas-migrantes-15-dias-deriva-patera-llegar-balears_1_13426618.html"
+      },
+      {
+        "id": "src6",
+        "name": "Última Hora",
+        "type": "media",
+        "url": "https://www.ultimahora.es/noticias/local/2026/08/04/2683301/investigan-patera-migrantes-muertos-las-cinco-desaparecidas-julio.html"
+      },
+      {
+        "id": "src7",
+        "name": "Moncloa.com",
+        "type": "media",
+        "url": "https://www.moncloa.com/2026/08/04/patera-mallorca-fallecidos-deriva-3410652/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Zwei Überlebende aus dem Maghreb wurden in der Nacht auf Dienstag rund 25 Kilometer (nach spanischen Angaben 12,68 Seemeilen) südwestlich von Mallorca aus dem Meer gerettet.",
+        "status": "supported",
+        "note": "Von der Vertretung des spanischen Innenministeriums bzw. der Regierungsdelegation der Balearen bestätigt und von mehreren unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Laut Aussage der beiden Überlebenden waren ursprünglich 19 Menschen an Bord des Boots, das rund 15 Tage lang manövrierunfähig auf dem Meer trieb.",
+        "status": "partial",
+        "note": "Beruht auf der Aussage der Überlebenden, die von Behörden an Medien weitergegeben, aber nicht unabhängig überprüft wurde.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die übrigen 17 Insassen des Boots sollen nach Angabe der Überlebenden während der Überfahrt gestorben sein.",
+        "status": "unclear",
+        "note": "Ausschließlich Überlebenden-Aussage; eine unabhängige Bestätigung der Todeszahl fehlt laut den Berichten weiterhin.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die spanische Seenotrettung leitete eine Suchaktion mit Hubschraubereinsatz im Gebiet südwestlich von Mallorca ein und forderte Schiffe in der Umgebung zur Mithilfe auf.",
+        "status": "supported",
+        "note": "Von mehreren unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Am selben Tag bargen Seenotretter und die Guardia Civil rund 55 Kilometer südwestlich von Ibiza 15 weitere Migranten aus einem anderen Boot.",
+        "status": "supported",
+        "note": "Von mehreren unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Nach Angaben des spanischen Innenministeriums erreichten 2026 bereits rund 4.000 Migranten die Balearen auf dem Seeweg.",
+        "status": "supported",
+        "note": "Offizielle Angabe des Innenministeriums in Madrid, von mehreren Medien übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Nach Angabe der beiden Überlebenden wurden die Leichen der Verstorbenen im Zuge der Überfahrt fortlaufend ins Meer geworfen.",
+        "status": "partial",
+        "note": "Beruht ausschließlich auf der Aussage der Überlebenden gegenüber Rettungskräften bzw. Ermittlern und wurde so an Medien weitergegeben; erklärt zugleich, warum keine Leichen zur Bestätigung der Opferzahl vorliegen.",
+        "sourceIds": [
+          "src5",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Laut einem spanischen Medienbericht alarmierte die Besatzung der Balearia-Fähre „Rosalind Franklin“ die Behörden, nachdem sie das treibende Boot gesichtet hatte.",
+        "status": "partial",
+        "note": "Bislang nur durch eine einzelne Medienquelle berichtet, keine Bestätigung durch weitere unabhängige Quellen oder Behörden gefunden.",
+        "sourceIds": [
+          "src7"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Die NGO Caminando Fronteras prüft laut ihrer Sprecherin, ob es sich bei dem Boot um eines von fünf im Juli als vermisst gemeldeten Booten mit insgesamt 76 Menschen an Bord handelt.",
+        "status": "unclear",
+        "note": "Die NGO selbst bezeichnet die Verifizierung als schwierig und von der gesundheitlichen Erholung der beiden Überlebenden abhängig; ein Ergebnis liegt nicht vor.",
+        "sourceIds": [
+          "src6"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Die beiden Überlebenden werden im Universitätsklinikum Son Espases in Palma behandelt.",
+        "status": "supported",
+        "note": "Von mehreren spanischen Medienberichten übereinstimmend genannt.",
+        "sourceIds": [
+          "src6",
+          "src7"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Zwei Männer aus dem Maghreb sind in der Nacht auf Dienstag rund 25 Kilometer südwestlich von Mallorca aus einem manövrierunfähigen Boot gerettet worden. Die spanische Seenotrettung barg die beiden gegen drei Uhr morgens; sie zeigten Anzeichen von Dehydrierung und Unterernährung und wurden ins Universitätsklinikum Son Espases in Palma gebracht. Nach ihrer Aussage befanden sich ursprünglich 19 Menschen an Bord des kleinen Wasserfahrzeugs, das nach einem Motorschaden rund 15 Tage lang steuerlos auf dem Meer trieb. Die übrigen 17 Insassen sollen den Überlebenden zufolge während der Überfahrt gestorben sein; ihre Leichen seien im Verlauf der Fahrt ins Meer geworfen worden – eine Angabe, die zugleich erklärt, warum bislang keine Körper zur unabhängigen Bestätigung der Todeszahl vorliegen. Einem spanischen Medienbericht zufolge hatte die Besatzung der Balearia-Fähre „Rosalind Franklin“ das treibende Boot gesichtet und die Behörden alarmiert; diese Angabe stützt sich bislang auf eine einzelne Quelle."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Vertretung des spanischen Innenministeriums bestätigte auf Anfrage, dass sich der Vorfall wie berichtet zugetragen hat. Übereinstimmend berichteten der öffentlich-rechtliche Sender RTVE, die Regionalzeitung „Diario de Mallorca“ und weitere spanische Medien über den Ablauf. Die spanische Seenotrettung setzte im betroffenen Gebiet eine Suchaktion mit Hubschraubereinsatz fort und forderte Schiffe in der Umgebung auf, nach möglichen weiteren Überlebenden Ausschau zu halten. Am selben Tag bargen Seenotretter und die Guardia Civil rund 55 Kilometer südwestlich von Ibiza zusätzlich 15 weitere Migranten aus einem separaten Boot in Seenot. Die spanische NGO Caminando Fronteras prüft nach eigenen Angaben, ob es sich bei dem Boot mit den 17 Toten um eines von fünf im Juli als vermisst gemeldeten Booten mit insgesamt 76 Menschen an Bord handelt. Ihre Sprecherin erklärte, eine Verifizierung über Angehörige sei angesichts des Gesundheitszustands der beiden Überlebenden schwierig und müsse bis zu deren Erholung warten."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Die zentrale Zahl von 17 Toten stammt weiterhin ausschließlich aus der Aussage der beiden Überlebenden. Eine unabhängige behördliche Bestätigung dieser Zahl liegt nicht vor – und dürfte, sollten die Leichen tatsächlich während der Überfahrt ins Meer geworfen worden sein, kaum noch möglich sein. Offen bleiben auch Herkunftsland und genaue Fluchtroute der Insassen, mögliche Ermittlungen zu Schleusernetzwerken sowie die Frage, ob die NGO Caminando Fronteras den vermuteten Zusammenhang mit den im Juli vermissten Booten bestätigen kann. Auch die Angabe zur Alarmierung durch die Fährbesatzung ist bislang nur einfach belegt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Balearen zählen laut spanischem Innenministerium neben den Kanaren, der Mittelmeerküste sowie den Nordafrika-Exklaven Ceuta und Melilla zu den wichtigsten Ankunftsregionen der irregulären Migration nach Spanien. Nach Ministeriumsangaben erreichten allein 2026 bereits rund 4.000 Migranten die Inselgruppe auf dem Seeweg. Der Vorfall ereignet sich wenige Tage nach dem Massenandrang Zehntausender Migranten nach Ceuta, ist aber ein eigenständiges Ereignis an anderem Ort ohne bekannten unmittelbaren Zusammenhang. Er reiht sich in eine Serie tödlicher Überfahrten im westlichen Mittelmeer ein, deren Gesamtausmaß wegen unklarer Dunkelziffern bei Bootsunglücken auf offener See schwer zu beziffern bleibt – ein Umstand, den auch die laufende Prüfung durch Caminando Fronteras auf einen Zusammenhang mit im Juli verschwundenen Booten unterstreicht."
+      }
+    ],
+    "bodyKompakt": "Zwei Männer aus dem Maghreb sind in der Nacht auf Dienstag rund 25 Kilometer südwestlich von Mallorca aus einem manövrierunfähigen Boot gerettet worden. Sie zeigten Anzeichen von Dehydrierung und Unterernährung und wurden ins Universitätsklinikum Son Espases in Palma gebracht. Nach ihrer Aussage waren ursprünglich 19 Menschen an Bord, das Boot trieb nach einem Motorschaden rund 15 Tage lang steuerlos auf dem Meer. Die übrigen 17 Insassen sollen während der Überfahrt gestorben sein; ihre Leichen seien laut den Überlebenden fortlaufend ins Meer geworfen worden – eine Angabe, die erklärt, warum keine unabhängige Bestätigung der Opferzahl möglich ist. Einem einzelnen spanischen Medienbericht zufolge hatte die Besatzung der Fähre „Rosalind Franklin“ das Boot gesichtet und die Behörden alarmiert.\n\nDie Vertretung des spanischen Innenministeriums bestätigte den Vorfall auf Anfrage, mehrere spanische Medien berichteten übereinstimmend. Die Seenotrettung setzte eine Suchaktion mit Hubschrauber fort; am selben Tag wurden rund 55 Kilometer südwestlich von Ibiza 15 weitere Migranten aus einem anderen Boot gerettet. Die NGO Caminando Fronteras prüft, ob es sich um eines von fünf im Juli als vermisst gemeldeten Booten mit insgesamt 76 Menschen an Bord handelt; eine Verifizierung ist wegen des Gesundheitszustands der Überlebenden bislang nicht möglich.\n\nDie Balearen zählen neben Kanaren, Mittelmeerküste und den Exklaven Ceuta und Melilla zu den wichtigsten Ankunftsregionen irregulärer Migration nach Spanien; 2026 erreichten laut Innenministerium bereits rund 4.000 Menschen die Inseln auf dem Seeweg.",
+    "updateNote": "Ergänzt um die Angabe der Überlebenden, wonach Leichen während der Überfahrt ins Meer geworfen worden seien, um die (bislang einfach belegte) Alarmierung durch die Besatzung einer Fähre, um den Namen des behandelnden Krankenhauses sowie um die laufende Prüfung der NGO Caminando Fronteras auf einen möglichen Zusammenhang mit im Juli als vermisst gemeldeten Booten.",
+    "pendingOutcome": "Offen bleibt, ob die Zahl von 17 Toten unabhängig bestätigt wird und ob Caminando Fronteras einen Zusammenhang mit den im Juli vermissten Booten feststellt, sobald sich die beiden Überlebenden erholt haben."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-08T06:07:35.146Z"
+}
