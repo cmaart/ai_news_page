@@ -1,0 +1,317 @@
+{
+  "cluster": {
+    "id": "cluster-20260810-d73c06b1",
+    "title": "20.000 Menschen auf der Flucht: Waldbrand in Westkanada außer Kontrolle",
+    "items": [
+      {
+        "itemId": "8674b3d8e0949b19843e5a2b7f5738b0fb8d395d2e8a993b89bedb583c12dd6f",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "20.000 Menschen auf der Flucht: Waldbrand in Westkanada außer Kontrolle",
+        "url": "https://www.diepresse.com/41160854/20000-menschen-auf-der-flucht-waldbrand-in-westkanada-ausser-kontrolle",
+        "summary": "10.000 Grundstücke sind betroffen, mehrere Gemeinden sind von den Flammen bedroht, die nun das Ufer des Okanagan Lake erreicht haben. Die kanadische Regierung sichert der Region Unterstützung zu.",
+        "publishedAt": "2026-08-10T07:03:42.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "f79743fced35bded37c1c0e6f9dcb97fc418b24a4130020f6ea07bc22ab291e3",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "20.000 Menschen fliehen vor Waldbrand",
+        "url": "https://orf.at/stories/3438646",
+        "isNew": false
+      },
+      {
+        "itemId": "21cf6d955d90a9f2bb87e0ad16641ba24bcffe02a4d9fb85c7a24eeb5cb63bc5",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Waldbrand in Westkanada noch außer Kontrolle",
+        "url": "https://www.kleinezeitung.at/artikel/41160842/waldbrand-in-westkanada-noch-ausser-kontrolle",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster führt die publizierte Story zu British-Columbia-Waldbrand (Notstand, 20.000 Evakuierte) mit Zweitages-Entwicklungen fort: Brandausbreitung verlangsamt (Okanagan Lake erreicht), spezifische Rettungsdetails (50+ Menschen mit Hubschraubern), konkrete Bundesunterstützung Eleanor Olszewskis. Das sind inkrementelle Updates zur laufenden Lage, keine eigenständige neue Wendung mit separater Schlagzeile.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": 2,
+    "relatedSlug": "british-columbia-waldbraende-notstand-august-2026",
+    "possibleClaims": [
+      "20.000 Menschen evakuiert wegen Waldbrand in British Columbia",
+      "Feuer erstreckt sich auf über 100 Quadratkilometer",
+      "Etwa 10.000 Grundstücke in Summerland, Peachland und angrenzenden Gebieten betroffen",
+      "Über 50 Menschen von Flammen eingeschlossen und mit Hubschraubern gerettet",
+      "Feuerfront erreicht Okanagan Lake, Ausbreitungsgeschwindigkeit verlangsamt sich",
+      "Kanadische Bundesregierung bewilligt Hilfsgesuch British Columbias",
+      "Einsatzkräfte aus Mexiko, Australien und Neuseeland unterstützen Löscharbeiten",
+      "Über 100 Waldbrände in British Columbia registriert, etwa die Hälfte außer Kontrolle"
+    ],
+    "missingSources": [
+      "Offizielle Bestätigung des Todesfalles (bisher nur Polizeibericht unter Prüfung)",
+      "Ursachenermittlung für das Feuer",
+      "Genaue Bilanz zerstörter Häuser und Infrastruktur (wird noch erfasst)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "british-columbia-waldbraende-notstand-august-2026",
+    "title": "British Columbia ruft wegen Waldbränden Notstand aus – mehr als 20.000 Menschen evakuiert, Feuer erreicht Okanagan-See",
+    "description": "Die kanadische Provinz British Columbia kämpft weiter mit einem außer Kontrolle geratenen Waldbrand bei Summerland. Die Ausbreitung hat sich verlangsamt, nachdem die Feuerfront den Okanagan Lake erreicht hat; mehr als 50 Menschen wurden per Hubschrauber gerettet, die Bundesregierung sagte Hilfe zu.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die kanadische Provinzregierung hat den Notstand selbst offiziell verkündet, und mehrere österreichische Medien geben übereinstimmend dieselbe APA/dpa-AFX- bzw. Reuters-Agenturmeldung mit gleichen Kernzahlen wieder – auch die neuen Entwicklungen (Ausbreitung verlangsamt, Rettungen, Bundeshilfe) sind zwischen mehreren Redaktionen deckungsgleich.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Eine offizielle Stellungnahme der Provinzregierung British Columbia wurde per Suche eingesehen und stützt die zentralen Angaben; die neuen Details zur Bundeshilfe stammen aus einer über soziale Medien verbreiteten Aussage der zuständigen Bundesministerin, wiedergegeben durch Agenturen – eine vollständige Dokumentenlektüre der Behörden fand weiterhin nicht statt.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich weiterhin überwiegend auf Regierungsvertreter (Premier Eby, Bundesministerin Olszewski, Premierminister Carney) und Polizeiangaben; Stimmen von Evakuierten, Landwirten oder unabhängigen Fachleuten fehlen weiterhin.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "British Columbia hat wegen außer Kontrolle geratener Waldbrände den Notstand ausgerufen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Mehr als 20.000 Menschen wurden aufgefordert, ihre Häuser zu verlassen, laut Provinzangaben aktuell rund 21.700.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Bald-Range-Feuer bei Summerland am Okanagan-See hat sich auf mehr als 100 Quadratkilometer ausgeweitet; die Ausbreitung hat sich verlangsamt, seit die Feuerfront das Ufer des Okanagan Lake erreicht hat.",
+        "kind": "fact"
+      },
+      {
+        "text": "Rund 10.000 Grundstücke in Summerland, Peachland und umliegenden Gebieten sind von Evakuierungsanordnungen betroffen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Mehr als 50 von den Flammen eingeschlossene Menschen wurden von Einsatzkräften mit Hubschraubern gerettet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die kanadische Bundesregierung hat ein Hilfsgesuch British Columbias genehmigt und Unterstützung unter anderem bei der Unterbringung evakuierter Menschen zugesagt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Rund 1.500 Feuerwehrleute sind im Einsatz, unterstützt von internationalen Kräften unter anderem aus Mexiko, Australien, Frankreich und Neuseeland; in der Provinz wurden zuletzt mehr als 100 Waldbrände registriert, fast die Hälfte davon außer Kontrolle.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Polizei prüft einen bislang unbestätigten Bericht über einen möglichen Todesfall im Zusammenhang mit dem Brand.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie viele Häuser und Gebäude tatsächlich zerstört wurden, wodurch das Feuer ausgelöst wurde und wie lange der Notstand andauert, ist weiterhin offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie viele Häuser und Gebäude wurden durch die Brände tatsächlich zerstört?",
+      "Wodurch wurde das Bald-Range-Feuer ausgelöst? Die Ursache wird laut Behörden derzeit untersucht.",
+      "Wie lange wird der von der Provinz ausgerufene Notstand voraussichtlich andauern?",
+      "Bestätigt sich der von der Polizei geprüfte Bericht über einen möglichen Todesfall, oder wird er sich als unzutreffend erweisen?",
+      "Wie viele der aktuell mehr als 100 registrierten Waldbrände in British Columbia sind inzwischen unter Kontrolle gebracht worden?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41159322/kanadische-provinz-british-columbia-ruft-wegen-waldbraenden-notstand-aus"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3438625"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41159116/waldbraende-fuehren-zu-notstand-in-kanadas-westen"
+      },
+      {
+        "id": "src4",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000334797/waldbr228nde-kanadische-provinz-british-columbia-rief-notstand-aus"
+      },
+      {
+        "id": "src5",
+        "name": "Regierung British Columbia (Pressemitteilung des Premierministers)",
+        "type": "official",
+        "url": "https://news.gov.bc.ca/releases/2026PREM0032-000932"
+      },
+      {
+        "id": "src6",
+        "name": "Die Presse (Update)",
+        "type": "media",
+        "url": "https://www.diepresse.com/41160854/20000-menschen-auf-der-flucht-waldbrand-in-westkanada-ausser-kontrolle"
+      },
+      {
+        "id": "src7",
+        "name": "ORF.at (Update)",
+        "type": "media",
+        "url": "https://orf.at/stories/3438646"
+      },
+      {
+        "id": "src8",
+        "name": "Kleine Zeitung (Update)",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41160842/waldbrand-in-westkanada-noch-ausser-kontrolle"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Provinz British Columbia hat wegen außer Kontrolle geratener Waldbrände den Notstand ausgerufen.",
+        "status": "supported",
+        "note": "Von der Provinzregierung selbst verkündet und von mehreren Medien unter Berufung auf Agenturmeldungen bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Mehr als 20.000 Menschen wurden zur Evakuierung aufgefordert, laut Provinzangaben aktuell rund 21.700 Menschen betroffen.",
+        "status": "supported",
+        "note": "Zahl aus offizieller Quelle, Größenordnung durch mehrere Agenturmeldungen bestätigt, auch in den Folgeberichten unverändert.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src5",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Das Bald-Range-Feuer bei Summerland am Okanagan-See hat sich mittlerweile auf mehr als 100 Quadratkilometer (rund 10.000 Hektar) ausgeweitet und trifft besonders die dortige Wein- und Obstbauregion.",
+        "status": "supported",
+        "note": "Ursprüngliche Angabe von rund 9.500 Hektar durch Folgeberichte auf über 100 Quadratkilometer aktualisiert; von mehreren Redaktionen übereinstimmend übernommen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src5",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Häuser und Anwesen wurden durch die Brände zerstört, die genaue Zahl ist weiterhin unklar.",
+        "status": "partial",
+        "note": "Provinzregierung und Folgeberichte bestätigen erhebliche Schäden, eine belastbare Gesamtzahl liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Rund 1.500 Feuerwehrleute sind in ganz British Columbia im Einsatz, unterstützt von internationalen Kräften aus Mexiko, Australien, Frankreich und Neuseeland.",
+        "status": "supported",
+        "note": "Angabe stammt aus APA/Reuters- bzw. APA/dpa-AFX-Agenturmeldungen, wiedergegeben von mehreren Redaktionen zu beiden Zeitpunkten.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Waldbrände haben in Kanada im bisherigen Jahresverlauf 2026 landesweit rund vier Millionen Hektar erfasst.",
+        "status": "partial",
+        "note": "Zahl beruht auf einer einzelnen Agenturmeldung mit Verweis auf das nationale Waldbrandzentrum, eine unabhängige Zweitquelle liegt für diesen konkreten Wert nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Mehr als 50 Menschen, die von den Flammen eingeschlossen worden waren, wurden von Einsatzkräften mit Hilfe von Hubschraubern gerettet.",
+        "status": "supported",
+        "note": "Von Behördenangaben gestützt und übereinstimmend von mehreren Redaktionen berichtet.",
+        "sourceIds": [
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Die kanadische Bundesregierung hat ein Hilfsgesuch British Columbias genehmigt; die zuständige Ministerin Eleanor Olszewski kündigte unter anderem Unterstützung bei der Unterbringung evakuierter Menschen an.",
+        "status": "supported",
+        "note": "Aussage der Ministerin über soziale Medien, von mehreren Redaktionen unter Berufung auf dieselbe Agenturmeldung wiedergegeben.",
+        "sourceIds": [
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Die Feuerfront hat das Ufer des Okanagan Lake erreicht, wodurch sich die Ausbreitungsgeschwindigkeit zuletzt verlangsamt hat; rund 10.000 Grundstücke in Summerland, Peachland und umliegenden Gebieten sind von Evakuierungsanordnungen betroffen.",
+        "status": "supported",
+        "note": "Übereinstimmend aus mehreren Redaktionen unter Berufung auf dieselbe Agenturmeldung.",
+        "sourceIds": [
+          "src6",
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Die Polizei prüft einen Bericht über einen möglichen Todesfall im Zusammenhang mit dem Brand; dieser war zuletzt nicht bestätigt.",
+        "status": "unclear",
+        "note": "Bislang nur ein einzelner, ausdrücklich als nicht bestätigt bezeichneter Bericht, konservativ eingestuft.",
+        "sourceIds": [
+          "src6"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "In British Columbia wurden zuletzt mehr als 100 Waldbrände registriert, fast die Hälfte davon war außer Kontrolle.",
+        "status": "partial",
+        "note": "Angabe wird von den Redaktionen selbst als „Medienberichten zufolge“ relativiert, keine direkte Behördenzahl in den vorliegenden Quellen.",
+        "sourceIds": [
+          "src6",
+          "src7"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die westkanadische Provinz British Columbia kämpft weiterhin mit einem außer Kontrolle geratenen Waldbrand rund um die Gemeinde Summerland am Okanagan-See. Auslöser war das sogenannte Bald-Range-Feuer, das sich zunächst rasant ausbreitete und mittlerweile mehr als 100 Quadratkilometer umfasst – ungefähr ein Viertel der Fläche Wiens. Laut Provinzregierung sind derzeit rund 21.700 Menschen aus ihren Häusern vertrieben, mehr als 20.000 wurden zur Evakuierung aufgefordert; rund 10.000 Grundstücke in Summerland, Peachland und umliegenden Gebieten sind betroffen. Ein Großteil der Feuerfront hat inzwischen das Ufer des Okanagan Lake erreicht, wodurch sich die Ausbreitung zuletzt verlangsamt hat. Einsatzkräfte versuchten dennoch weiterhin, Häuser am Rand der rund 12.000 Einwohner zählenden Gemeinde zu schützen."
+      },
+      {
+        "heading": "Rettungen, Schäden und Bundeshilfe",
+        "markdown": "Mehr als 50 Menschen, die von den Flammen eingeschlossen worden waren, wurden nach Behördenangaben mit Hubschraubern gerettet. Die Provinzregierung spricht weiterhin von erheblichen Schäden an Häusern und Gebäuden, deren genaues Ausmaß bislang nicht abschließend erfasst wurde. Die Polizei prüft zudem einen Bericht über einen möglichen Todesfall im Zusammenhang mit dem Brand – dieser war zuletzt nicht bestätigt und sollte entsprechend zurückhaltend behandelt werden. Die kanadische Bundesregierung hat inzwischen konkrete Hilfe zugesagt: Ein Hilfsgesuch British Columbias wurde genehmigt, wie die zuständige Bundesministerin Eleanor Olszewski mitteilte. Der Bund werde unter anderem bei der Unterbringung der wegen der Brände obdachlos gewordenen Menschen helfen."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Provinzregierung selbst hat den Notstand offiziell verkündet, was den Kernvorgang eindeutig bestätigt. Übereinstimmend berichten mehrere österreichische Medien unter Berufung auf APA/dpa-AFX- bzw. Reuters-Agenturmeldungen von rund 1.500 Feuerwehrleuten, die derzeit in ganz British Columbia im Einsatz sind, unterstützt von internationalen Kräften aus Mexiko, Australien, Frankreich und Neuseeland. Laut denselben Berichten wurden in der Provinz zuletzt mehr als 100 Waldbrände registriert, von denen fast die Hälfte außer Kontrolle war – diese Zahl wird von den Redaktionen selbst als „Medienberichten zufolge“ relativiert und liegt nicht als direkte Behördenangabe vor. Die Ursache des Bald-Range-Feuers wird laut den vorliegenden Berichten derzeit untersucht."
+      },
+      {
+        "heading": "Einordnung: eine schwere Waldbrandsaison in Kanada",
+        "markdown": "Die Ereignisse in British Columbia reihen sich in eine insgesamt intensive kanadische Waldbrandsaison 2026 ein. Nach Angaben des nationalen Waldbrandzentrums, wiedergegeben in einer zugrunde liegenden Agenturmeldung, haben Brände im bisherigen Jahresverlauf landesweit bereits eine Fläche von rund vier Millionen Hektar erfasst; auch die Provinzen Ontario und Quebec hatten 2026 bereits mit größeren Waldbränden zu kämpfen. Kanadas Premierminister Mark Carney dankte den Einsatzkräften und sicherte weitere Unterstützung des Bundes zu. Wie berichtet, hatte bereits im Juli Rauch von Waldbränden in Nordwest-Ontario zeitweise die Luftqualität in Toronto und im Großraum New York stark beeinträchtigt – ein anderes Ereignis in einer anderen Region, das aber denselben übergeordneten Trend besonders trockener und brandanfälliger Bedingungen in Kanada widerspiegelt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist weiterhin, wie viele Häuser und Gebäude durch die Brände tatsächlich zerstört wurden – die vorliegenden Quellen sprechen übereinstimmend von einer noch nicht abschließend erfassten Zahl. Auch die Brandursache des Bald-Range-Feuers ist nach wie vor nicht geklärt, wird laut Berichten aber untersucht. Unklar bleibt zudem, wie lange der Notstand andauern wird und ob der von der Polizei geprüfte Bericht über einen möglichen Todesfall sich bestätigt oder nicht. Wie viele der aktuell mehr als 100 gemeldeten Waldbrände in der Provinz inzwischen eingedämmt wurden, geht aus den bisher vorliegenden Quellen ebenfalls nicht hervor."
+      }
+    ],
+    "bodyKompakt": "Die kanadische Provinz British Columbia kämpft weiterhin mit dem außer Kontrolle geratenen Bald-Range-Feuer bei Summerland am Okanagan-See. Es hat sich inzwischen auf mehr als 100 Quadratkilometer ausgeweitet, ein Großteil der Feuerfront hat aber das Ufer des Okanagan Lake erreicht, wodurch sich die Ausbreitung zuletzt verlangsamt hat. Laut Provinzregierung sind rund 21.700 Menschen aus ihren Häusern vertrieben, mehr als 20.000 wurden zur Evakuierung aufgefordert, rund 10.000 Grundstücke in Summerland, Peachland und Umgebung sind betroffen. Mehr als 50 von den Flammen eingeschlossene Menschen wurden mit Hubschraubern gerettet; die Provinzregierung spricht weiterhin von erheblichen, noch nicht abschließend erfassten Schäden. Die Polizei prüft zudem einen bislang unbestätigten Bericht über einen möglichen Todesfall.\n\nDie kanadische Bundesregierung hat ein Hilfsgesuch British Columbias genehmigt und laut Ministerin Eleanor Olszewski unter anderem Unterstützung bei der Unterbringung evakuierter Menschen zugesagt. Rund 1.500 Feuerwehrleute sind in der Provinz im Einsatz, verstärkt durch internationale Kräfte aus Mexiko, Australien, Frankreich und Neuseeland. In British Columbia wurden zuletzt mehr als 100 Waldbrände registriert, fast die Hälfte davon außer Kontrolle – die Lage reiht sich in eine insgesamt schwere kanadische Waldbrandsaison ein, die landesweit bereits rund vier Millionen Hektar erfasst hat.\n\nWie viele Gebäude tatsächlich zerstört wurden, welche Ursache das Bald-Range-Feuer hatte, wie lange der Notstand andauert und ob sich der geprüfte Todesfall-Bericht bestätigt, ist weiterhin offen.",
+    "updateNote": "Zwischenstand aktualisiert: Das Feuer hat den Okanagan Lake erreicht und breitet sich langsamer aus, mehr als 50 Eingeschlossene wurden per Hubschrauber gerettet, die Bundesregierung sagte konkrete Hilfe zu, und die Polizei prüft einen bislang unbestätigten Bericht über einen möglichen Todesfall.",
+    "pendingOutcome": "Offen sind weiterhin die genaue Zahl zerstörter Gebäude, die Brandursache, die Dauer des Notstands sowie die Bestätigung oder Widerlegung des von der Polizei geprüften Berichts über einen möglichen Todesfall."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-10T08:07:36.684Z"
+}
