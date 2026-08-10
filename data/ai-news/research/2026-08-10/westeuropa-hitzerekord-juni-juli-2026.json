@@ -1,0 +1,187 @@
+{
+  "cluster": {
+    "id": "cluster-20260810-b6bc53f9",
+    "title": "Juni und Juli waren in Westeuropa so warm wie noch nie",
+    "items": [
+      {
+        "itemId": "1746b812b4b90deab045addda49acd27742c3ee1068270d50cacece88f51bc2c",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Juni und Juli waren in Westeuropa so warm wie noch nie",
+        "url": "https://orf.at/stories/3438704",
+        "publishedAt": "2026-08-10T02:47:21.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "bd4ccff32d22e0a431f459b2678d8d9147baea3786f296980851087f6b8c6b3a",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Juni und Juli in Westeuropa so warm wie noch nie",
+        "url": "https://www.kleinezeitung.at/artikel/41160614/juni-und-juli-in-westeuropa-so-warm-wie-noch-nie",
+        "summary": "Im Juni und Juli war es in Westeuropa so heiß wie nie zuvor in den beiden Sommermonaten. Die Durchschnittstemperatur in der Region betrug in dem Zeitraum 21,62 Grad, wie der Klimawandeldienst des EU-Programms Copernicus in Bonn mitteilte. Damit lag sie 2,79 Grad über dem langjährigen Juni-Mittel von 1991 bis 2020. Rekorde gab es auch bei den Wassertemperaturen in den Weltmeeren.",
+        "publishedAt": "2026-08-10T02:41:18.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Offizielle Klimadatenveröffentlichung des EU-Copernicus-Dienstes mit konkreten Temperaturdaten (21,62°C, +2,79°C über Baseline), mehrfach veröffentlicht (orf.at, kleinezeitung.at), direkte Relevanz für Westeuropa/Österreich und klare öffentliche Bedeutung (Temperaturrekorde, vier Hitzewellen seit Mai). Ausreichend Substanz und Quellenlage für eigenständigen Artikel.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Durchschnittstemperatur Westeuropa Juni–Juli: 21,62°C",
+      "Abweichung: 2,79°C über Mittel 1991–2020",
+      "Juli 2026 global zweitwärmster (mit 2024 gleichauf, ~16,90°C)",
+      "Juli 2023 bleibt Rekordhalter (16,95°C)",
+      "Vier Hitzewellen in Westeuropa seit Mai",
+      "Weltmeere verzeichnen Temperaturrekorde",
+      "Copernicus-Datenbasis reicht bis 1950 zurück"
+    ],
+    "missingSources": [
+      "WMO-Bestätigung oder Paralleldaten",
+      "Nationale meteorologische Institute (Geosphere Austria, DWD)",
+      "Gesundheits- und Wirtschaftsfolgen der Hitzewellen",
+      "Landwirtschaftliche Auswirkungen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "westeuropa-hitzerekord-juni-juli-2026",
+    "title": "Westeuropa erlebt wärmsten Juni und Juli seit Messbeginn 1950",
+    "description": "Copernicus-Daten zeigen für Juni und Juli 2026 eine Durchschnittstemperatur von 21,62 Grad in Westeuropa – 2,79 Grad über dem langjährigen Mittel und der höchste Wert der Messreihe.",
+    "topic": "wissenschaft",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Die zentralen Zahlen (21,62 Grad, +2,79 Grad, weltweit zweitwärmster Juli) werden von mehreren voneinander unabhängigen Medien in unterschiedlichen Ländern und Sprachen übereinstimmend auf dieselbe Copernicus-Datenveröffentlichung zurückgeführt, was auf eine verlässliche institutionelle Datenlage hindeutet.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die Original-Veröffentlichung des Copernicus-Klimawandeldienstes wurde nicht direkt eingesehen, sondern nur über Medienberichte, die daraus zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Alle Zahlen stammen letztlich aus einer einzigen Quelle – dem Copernicus-Dienst –, eine zweite fachliche Einordnung oder Gegenperspektive liegt nicht vor, auch wenn es sich um reine Messdaten ohne offensichtlichen Interessenkonflikt handelt.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Juni und Juli 2026 waren in Westeuropa die wärmsten seit Beginn der Copernicus-Messreihe, mit einer Durchschnittstemperatur von 21,62 Grad.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Wert liegt 2,79 Grad über dem langjährigen Mittel von 1991 bis 2020.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Juli 2026 war weltweit gemeinsam mit 2024 der zweitwärmste Juli der Messgeschichte, Rekordhalter bleibt Juli 2023.",
+        "kind": "fact"
+      },
+      {
+        "text": "Seit Mai gab es in Westeuropa laut Copernicus vier Hitzewellen – wie viele davon unabhängig eingeordnet wurden, ist unklar.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie sich die Rekordwerte konkret auf Gesundheit, Landwirtschaft und Wirtschaft in der Region ausgewirkt haben, ist aus den vorliegenden Quellen nicht ersichtlich.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Bestätigen die Weltorganisation für Meteorologie (WMO) oder nationale Wetterdienste wie Geosphere Austria oder der Deutsche Wetterdienst die Copernicus-Zahlen unabhängig?",
+      "Welche konkreten gesundheitlichen und wirtschaftlichen Folgen hatten die vier Hitzewellen seit Mai 2026 in Westeuropa?",
+      "Wie wirkte sich die anhaltende Hitze auf Landwirtschaft, Wasserversorgung und Waldbrandgefahr in den betroffenen Ländern aus?",
+      "Setzt sich der Rekordtrend im weiteren Verlauf des Sommers 2026 fort, oder normalisieren sich die Temperaturen wieder?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3438704"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41160614/juni-und-juli-in-westeuropa-so-warm-wie-noch-nie"
+      },
+      {
+        "id": "src3",
+        "name": "t-online.de",
+        "type": "media",
+        "url": "https://www.t-online.de/nachrichten/panorama/wetter/id_101381394/hitzewellen-juni-und-juli-bringen-westeuropa-rekordtemperaturen.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Durchschnittstemperatur in Westeuropa lag im Juni und Juli 2026 bei 21,62 Grad – dem höchsten Wert seit Beginn der Copernicus-Messreihe.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet von ORF und Kleine Zeitung unter Berufung auf Copernicus, zusätzlich durch mehrere international unabhängige Medienberichte mit identischem Wert bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Wert liegt 2,79 Grad über dem langjährigen Mittel der Jahre 1991 bis 2020.",
+        "status": "supported",
+        "note": "Gleichlautend in mehreren voneinander unabhängigen Quellen genannt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Weltweit war der Juli 2026 gemeinsam mit 2024 mit rund 16,90 Grad der zweitwärmste Juli der Messgeschichte; Rekordhalter bleibt Juli 2023 mit 16,95 Grad, aktuell lag der Monat global 1,47 Grad über dem vorindustriellen Niveau.",
+        "status": "supported",
+        "note": "Detailangabe aus dem ORF-Bericht, thematisch durch weitere Recherche zu globalen Copernicus-Werten für Juli 2026 gestützt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Seit Mai 2026 habe es in Westeuropa laut Copernicus vier Hitzewellen gegeben – eine für die Region außergewöhnlich hohe Zahl.",
+        "status": "partial",
+        "note": "Diese konkrete Zählung stammt aus einer einzigen Quelle (ORF) und ließ sich in weiterer Recherche nicht durch eine zweite, unabhängig genannte Zahl bestätigen, auch wenn andere Medien allgemein von anhaltender Hitze seit Mai berichten.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Auch bei den Wassertemperaturen der Weltmeere wurden im Berichtszeitraum Rekordwerte gemessen.",
+        "status": "supported",
+        "note": "Im ORF-Bericht genannt und durch weitere Recherche zu Copernicus-Meeresoberflächentemperaturdaten für Juli 2026 unabhängig bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Klimawandeldienst des EU-Programms Copernicus hat in Bonn Daten veröffentlicht, wonach Juni und Juli 2026 in Westeuropa die wärmste Zweimonatsperiode seit Beginn der Messreihe waren. Die Durchschnittstemperatur in der Region lag bei 21,62 Grad – um 2,79 Grad über dem langjährigen Mittel von 1991 bis 2020. Copernicus verweist zudem auf ein ausgeprägtes Temperaturgefälle von West- nach Osteuropa und Skandinavien, wo es deutlich kühler blieb. Auch innerhalb Deutschlands zeigen die Daten laut Bericht einen klaren Unterschied zwischen einem wärmeren Südwesten und einem kühleren Nordosten."
+      },
+      {
+        "heading": "Was die Zahlen zeigen",
+        "markdown": "Für Gesamteuropa fällt die Einordnung differenzierter aus: Mit einer Mitteltemperatur von 20,49 Grad war der vergangene Juli hier nur der elftwärmste. Weltweit betrachtet reihte er sich dagegen gemeinsam mit 2024 mit rund 16,90 Grad als zweitwärmster Juli der Messgeschichte ein. Rekordhalter bleibt weiterhin der Juli 2023 mit nach damaligen Angaben 16,95 Grad. Global lag der vergangene Monat um 1,47 Grad über dem vorindustriellen Juli-Niveau. Neben den Lufttemperaturen verzeichnete Copernicus auch bei den Wassertemperaturen der Weltmeere neue Höchstwerte. Für Westeuropa hebt der Dienst besonders die lange Dauer der Hitzephase hervor: Seit dem späten Frühjahr habe es seit Mai vier Hitzewellen gegeben, was für die Region als außergewöhnlich viel gilt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Die vorliegenden Berichte beruhen auf der Copernicus-Veröffentlichung selbst; eine unabhängige Bestätigung durch die Weltorganisation für Meteorologie oder nationale Wetterdienste wie Geosphere Austria oder den Deutschen Wetterdienst liegt in der aktuellen Quellenlage nicht vor. Auch die genaue Zählung von vier Hitzewellen seit Mai stützt sich bislang nur auf eine Nennung und ist nicht durch eine zweite, unabhängig berichtete Angabe gegengeprüft. Offen bleibt außerdem, welche konkreten gesundheitlichen, landwirtschaftlichen und wirtschaftlichen Folgen die anhaltende Hitze in den betroffenen Ländern hatte – dazu liegen aus den vorliegenden Quellen keine belastbaren Angaben vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Copernicus-Daten basieren auf einer Reanalyse, die bis in das Jahr 1950 zurückreicht, teilweise sind auch frühere Werte verfügbar. Die Meldung reiht sich in eine Serie ähnlicher Copernicus-Veröffentlichungen der vergangenen Monate ein, die für Westeuropa wiederholt neue Rekordwerte einzelner Sommermonate gemeldet hatten. Dass nun auch der kombinierte Wert für Juni und Juli den bisherigen Höchststand übertrifft, unterstreicht laut den vorliegenden Berichten die außergewöhnliche Persistenz der Hitzephase seit dem Frühjahr 2026 – eine tiefergehende wissenschaftliche Einordnung der Ursachen liefert die aktuelle Quellenlage jedoch nicht."
+      }
+    ],
+    "bodyKompakt": "Juni und Juli 2026 waren in Westeuropa die wärmste Zweimonatsperiode seit Beginn der Copernicus-Messreihe. Der Klimawandeldienst des EU-Programms Copernicus meldete eine Durchschnittstemperatur von 21,62 Grad – 2,79 Grad über dem langjährigen Mittel von 1991 bis 2020. Innerhalb Europas gab es dabei ein deutliches West-Ost-Gefälle: Während Westeuropa Rekordwerte verzeichnete, war der Juli für Gesamteuropa nur der elftwärmste.\n\nWeltweit betrachtet war der vergangene Juli gemeinsam mit 2024 der zweitwärmste seit Messbeginn, mit rund 16,90 Grad und 1,47 Grad über dem vorindustriellen Niveau. Rekordhalter bleibt der Juli 2023. Auch bei den Wassertemperaturen der Weltmeere wurden neue Höchstwerte gemessen. Für Westeuropa hebt Copernicus zudem hervor, dass es seit Mai bereits vier Hitzewellen gegeben habe – eine für die Region ungewöhnlich hohe Zahl.\n\nEine unabhängige Bestätigung durch die WMO oder nationale Wetterdienste liegt bislang nicht vor, ebenso wenig belastbare Angaben zu den gesundheitlichen und wirtschaftlichen Folgen der anhaltenden Hitze.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-10T04:07:34.808Z"
+}
