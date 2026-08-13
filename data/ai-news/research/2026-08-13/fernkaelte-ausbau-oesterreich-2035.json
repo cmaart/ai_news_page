@@ -1,0 +1,214 @@
+{
+  "cluster": {
+    "id": "cluster-20260812-72cb89e8",
+    "title": "Fernkälte wird bis 2035 stark ausgebaut",
+    "items": [
+      {
+        "itemId": "cc40b20bfad6b6c08e58d0796db4e3802b7c8fd5e99ef135f536a0c1ed765e3f",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Fernkälte wird bis 2035 stark ausgebaut",
+        "url": "https://orf.at/stories/3438948",
+        "publishedAt": "2026-08-12T09:31:02.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "dd6ed0b4a3434ff9c75e4924d1dfd2d14a55b415ecd12f5aec25c6d09f9d180d",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "Fernkälte soll bis 2035 stark ausgebaut werden",
+        "url": "https://www.derstandard.at/story/3000000335282/fernkaelte-soll-bis-2035-stark-ausgebaut-werden",
+        "summary": "Für Fernkälte wird in einer zentralen Anlage Kälte erzeugt und das kalte Wasser über ein unterirdisches Rohrleitungsnetz in Gebäude transportiert",
+        "publishedAt": "2026-08-12T10:54:44.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "ee186d2a6579c72a98d7e1103c63bf4e47feaba8227df85cc1f6ff069de59d20",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "Fernkälte wird bis 2035 stark ausgebaut",
+        "url": "https://www.diepresse.com/41168416/fernkaelte-wird-bis-2035-stark-ausgebaut",
+        "summary": "Fernkälte funktioniert im Prinzip wie Fernwärme. Bis 2035 will die Fernwärmewirtschaft in diese Form der Kühlung knapp 200 Millionen Euro investieren.",
+        "publishedAt": "2026-08-12T09:31:26.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substantielle Infrastruktur-Story mit konkreten Investitionsplänen (193,2 Mio. Euro bis 2035, 200 MW Zielleistung), Zahlenentwicklung (45 km Netzlänge, 211 MW aktuell), detaillierten Beispielen aus mehreren Bundesländern (Wien, Linz, Graz, St. Pölten, Bregenz) und breiter Medienberichterstattung (ORF, derStandard, Die Presse). Klimarelevant und bundesweit öffentlich relevant. Keine Bezugnahme auf bestehende published Story.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Fernwärmewirtschaft plant bis 2035 Investition von 193,2 Millionen Euro in Fernkälte",
+      "Zielleistung von 200 MW neuer Fernkälteleistung bis 2035",
+      "Fernkälteleistung stieg von 186 MW auf 211 MW",
+      "Fernkältenetze waren Ende 2025 über 45 Kilometer lang",
+      "Fernkälte spart 50% CO₂-Emissionen im Vergleich zu konventionellen Klimageräten",
+      "Linz AG investiert 95 Millionen Euro in Fernkälteprojekt Klimatunnel",
+      "Wien Energie nahm Juni 2026 neue Kältezentrale im Donaufeld in Betrieb"
+    ],
+    "missingSources": [
+      "Verifizierung der 50%-CO₂-Einsparungsbehauptung durch unabhängige Quellen (Umweltbundesamt, technische Institute)",
+      "Detaillierte Begründung oder Prognose für die 193,2-Millionen-Euro-Summe",
+      "Vollständige Roadmap/Meilensteine für Ausbau bis 2035",
+      "Stellungnahme zu wirtschaftlichen oder rechtlichen Hürden beim Ausbau"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "fernkaelte-ausbau-oesterreich-2035",
+    "title": "Fernwärmewirtschaft plant 193,2 Millionen Euro für Fernkälte-Ausbau bis 2035",
+    "description": "Österreichs Fernwärmebranche will bis 2035 rund 200 zusätzliche Megawatt Fernkälteleistung schaffen. Projekte laufen bereits in Wien, Linz, Graz, St. Pölten und neu in Bregenz – der Rest der Bundesländer wartet noch auf den Ausbau.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Die zentralen Zahlen – 193,2 Millionen Euro Investitionsvolumen und 200 MW Zielleistung bis 2035 – stammen aus einer öffentlichen Aussage der stellvertretenden Fachverbands-Geschäftsführerin und werden von ORF (mit Agenturvermerk), derStandard und Die Presse übereinstimmend wiedergegeben; das gilt als bestätigt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine eigene Presseaussendung, Studie oder Statistik des Fachverbands Gas Wärme abgerufen und gelesen, sondern nur Medienberichte darüber – die Primärquellenlage bleibt daher schwach.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Zu Wort kommen ausschließlich die Branchenvertretung und beteiligte Energieversorger; eine unabhängige Einschätzung etwa zu Finanzierung, Kostenfolgen für Kundinnen und Kunden oder Netzbelastung liegt in den vorliegenden Quellen nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Die österreichische Fernwärmewirtschaft plant, bis 2035 insgesamt 193,2 Millionen Euro in den Ausbau von Fernkälte zu investieren und dabei rund 200 zusätzliche Megawatt Leistung zu schaffen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die installierte Fernkälteleistung stieg zuletzt von 186 auf 211 Megawatt, das Leitungsnetz war Ende 2025 österreichweit mehr als 45 Kilometer lang.",
+        "kind": "fact"
+      },
+      {
+        "text": "Einzelprojekte treiben den Ausbau bereits voran: Die Linz AG investiert 95 Millionen Euro in den „Klimatunnel“, Wien Energie nahm im Juni 2026 eine neue Kältezentrale im Donaufeld in Betrieb, Bregenz kam 2025 als neuer Standort hinzu.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie die 193,2-Millionen-Euro-Summe im Detail berechnet wurde und nach welchem Zeitplan die einzelnen Projekte bis 2035 verteilt sind, geht aus den vorliegenden Quellen nicht hervor.",
+        "kind": "open"
+      },
+      {
+        "text": "Die von der Branchenvertretung genannte CO2-Einsparung von rund 50 Prozent gegenüber klassischen Klimaanlagen ist unabhängig nicht überprüft.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Nach welchem Zeitplan und in welchen Bundesländern werden die rund 200 MW neue Fernkälteleistung konkret bis 2035 realisiert?",
+      "Ist die von der Branchenvertretung genannte CO2-Einsparung von 50 Prozent gegenüber Klimaanlagen unabhängig untersucht worden?",
+      "Warum lässt der Fernkälte-Ausbau in den übrigen Bundesländern abseits von Wien, Linz, Graz, St. Pölten und Bregenz noch auf sich warten?",
+      "Wer trägt die Kosten der angekündigten Investitionen – Kundinnen und Kunden über Tarife, öffentliche Förderungen oder die Unternehmen selbst?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at: „Fernkälte wird bis 2035 stark ausgebaut“",
+        "type": "media",
+        "url": "https://orf.at/stories/3438948"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard: „Fernkälte soll bis 2035 stark ausgebaut werden“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000335282/fernkaelte-soll-bis-2035-stark-ausgebaut-werden"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse: „Fernkälte wird bis 2035 stark ausgebaut“",
+        "type": "media",
+        "url": "https://www.diepresse.com/41168416/fernkaelte-wird-bis-2035-stark-ausgebaut"
+      },
+      {
+        "id": "src4",
+        "name": "ooe.ORF.at: „Fernkälte-Ausbau: Linz AG investiert 95 Millionen Euro“",
+        "type": "media",
+        "url": "https://ooe.orf.at/stories/3258129/"
+      },
+      {
+        "id": "src5",
+        "name": "wien.ORF.at: „Kältezentrale für Donaufeld geht in Betrieb“",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3356418/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die österreichische Fernwärmewirtschaft plant, bis 2035 in Summe 193,2 Millionen Euro in den Ausbau von Fernkälte zu investieren, um rund 200 MW zusätzliche Leistung zu schaffen.",
+        "status": "supported",
+        "note": "Aussage der stellvertretenden Fachverbands-Geschäftsführerin, von drei Medien übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die installierte Fernkälteleistung in Österreich stieg zuletzt von 186 auf 211 Megawatt, das Netz war Ende 2025 über 45 Kilometer lang.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Linz AG investiert 95 Millionen Euro in ihr neues Fernkälteprojekt „Klimatunnel“.",
+        "status": "supported",
+        "note": "Zusätzlich durch eigenständige regionale Berichterstattung bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Gegenüber konventionellen Klimaanlagen sollen mit Fernkälte rund 50 Prozent der CO2-Emissionen eingespart werden.",
+        "status": "partial",
+        "note": "Angabe stammt von der Branchenvertretung selbst und ist unabhängig nicht geprüft.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Wien Energie nahm im Juni 2026 eine neue Kältezentrale im Donaufeld in Betrieb.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src5"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Österreichs Fernwärmewirtschaft will die Kühlung von Gebäuden über unterirdische Rohrleitungsnetze in den kommenden Jahren deutlich ausbauen. Bis 2035 sollen laut Fachverband Gas Wärme in Summe 193,2 Millionen Euro in Fernkälte fließen, um rund 200 zusätzliche Megawatt Leistung zu schaffen. Katalin Griessmair-Farkas, stellvertretende Geschäftsführerin des Fachverbands, begründete den Schritt mit den Hitzerekorden der vergangenen Jahre, die die Nachfrage im gesamten Bundesgebiet ansteigen ließen. Fernkälte funktioniert nach demselben Prinzip wie Fernwärme: In einer zentralen Anlage wird Kälte erzeugt, kaltes Wasser wird anschließend über ein unterirdisches Leitungsnetz in Gebäude transportiert und kühlt diese herunter."
+      },
+      {
+        "heading": "Die Zahlen im Detail",
+        "markdown": "Ende 2025 umfasste das heimische Fernkältenetz mehr als 45 Kilometer, die installierte Leistung stieg zuletzt von 186 auf 211 Megawatt. Als Vorteil gegenüber klassischen Klimaanlagen nennt die Branchenvertretung, dass bei Fernkälte keine Abwärme direkt an die Umgebung abgegeben wird, die diese zusätzlich aufheizen würde. Gegenüber konventionellen Klimageräten könnten dadurch rund 50 Prozent der CO2-Emissionen eingespart werden – eine Einschätzung, die von der Branche selbst stammt und in den vorliegenden Quellen nicht unabhängig überprüft wird."
+      },
+      {
+        "heading": "Projekte in den Bundesländern",
+        "markdown": "Konkrete Vorhaben laufen bereits an mehreren Standorten. In Wien werden unter anderem der Austria Campus, das Naturhistorische Museum, das Musiktheater Ronacher, das Rathaus, das AKH und der Hauptbahnhof mit Fernkälte versorgt; Wien Energie nahm im Juni 2026 zusätzlich eine neue Kältezentrale im Donaufeld in Betrieb. Die Linz AG investiert 95 Millionen Euro in ihr Fernkälteprojekt „Klimatunnel“, mit dem größere Gebäude gekühlt werden sollen. Auch in Graz und St. Pölten werden Krankenhäuser, Wohngebäude und Fachhochschulen an Fernkälte angeschlossen. Neu in diesem Kreis ist Bregenz, das 2025 mit der Versorgung von Gebäuden startete. In den übrigen Bundesländern lässt der Ausbau laut den vorliegenden Berichten noch auf sich warten."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie sich die Summe von 193,2 Millionen Euro auf einzelne Projekte und Jahre verteilt und nach welchem konkreten Zeitplan die zusätzlichen 200 Megawatt bis 2035 entstehen sollen. Auch die Frage, warum der Ausbau außerhalb von Wien, Linz, Graz, St. Pölten und Bregenz bislang kaum vorankommt, wird in den Quellen nicht beantwortet. Wer die Investitionskosten letztlich trägt – etwa über Tarife, Förderungen oder Unternehmensbudgets – bleibt ebenfalls offen. Die genannte CO2-Einsparung von 50 Prozent ist eine Angabe der Branchenvertretung selbst und keine unabhängig geprüfte Zahl."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der angekündigte Ausbau fällt in eine Zeit, in der steigende Sommertemperaturen den Kühlbedarf von Gebäuden in Österreich zunehmend zum Thema machen. Dass ausschließlich Branchenvertretung und Energieversorger die Zahlen liefern, während unabhängige Einschätzungen zu Kosten, Förderbedarf oder Netzbelastung fehlen, ist bei der Bewertung der Ankündigung mitzudenken. Die Investitionspläne selbst gelten als gut belegt, ihre konkrete Umsetzung bis 2035 lässt sich anhand der vorliegenden Quellen jedoch noch nicht nachvollziehen."
+      }
+    ],
+    "bodyKompakt": "Österreichs Fernwärmewirtschaft plant, bis 2035 insgesamt 193,2 Millionen Euro in den Ausbau von Fernkälte zu investieren und dabei rund 200 zusätzliche Megawatt Leistung zu schaffen. Das teilte die stellvertretende Geschäftsführerin des Fachverbands Gas Wärme, Katalin Griessmair-Farkas, mit Verweis auf die steigende Nachfrage infolge der Hitzerekorde der vergangenen Jahre mit. Ende 2025 umfasste das heimische Fernkältenetz mehr als 45 Kilometer, die installierte Leistung stieg zuletzt von 186 auf 211 Megawatt.\n\nKonkrete Projekte laufen bereits: In Wien werden unter anderem Austria Campus, AKH und Hauptbahnhof mit Fernkälte versorgt, Wien Energie nahm im Juni 2026 eine neue Kältezentrale im Donaufeld in Betrieb. Die Linz AG investiert 95 Millionen Euro in ihr Projekt „Klimatunnel“, auch Graz und St. Pölten kühlen Krankenhäuser und Wohngebäude über Fernkälte. Neu dabei ist Bregenz, das 2025 startete.\n\nOffen bleibt, wie sich die Investitionssumme auf einzelne Vorhaben und Jahre verteilt, warum der Ausbau in den übrigen Bundesländern noch aussteht und wer die Kosten letztlich trägt. Die von der Branche genannte CO2-Einsparung von rund 50 Prozent gegenüber Klimaanlagen ist eine Eigenangabe und unabhängig nicht überprüft.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-13T04:07:34.330Z"
+}
