@@ -1,0 +1,221 @@
+{
+  "cluster": {
+    "id": "cluster-20260814-7f741833",
+    "title": "Peking stoppt für Essenslieferanten an roten Ampeln die Uhr",
+    "items": [
+      {
+        "itemId": "0621809d1dc640cfa22ee41c7c2933e15cef73de93fb5b90d080c7bed0b9cb07",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Peking stoppt für Essenslieferanten an roten Ampeln die Uhr",
+        "url": "https://orf.at/stories/3439129",
+        "publishedAt": "2026-08-14T07:53:55.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e4aa4394cf592b3d81641f6db0da5ea4b36566a009575c7fe773de769e150c4b",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Peking stoppt für Essenslieferanten an roten Ampeln die Uhr",
+        "url": "https://www.diepresse.com/41173473/peking-stoppt-fuer-essenslieferanten-an-roten-ampeln-die-uhr",
+        "summary": "Da der Arbeitsalltag der Essenskuriere weitgehend von Algorithmen gesteuert wurde, versuchten viele, durch zu schnelles Fahren oder Verkehrsverstöße Zeit aufzuholen.  Das soll sich nun ändern.",
+        "publishedAt": "2026-08-14T07:52:01.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "3844f62adc7040543afe28f055a4fc950db845aeeed26c4e99e255bcd32ed503",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Keine Angst für Essenslieferanten in China vor roten Ampeln",
+        "url": "https://www.kleinezeitung.at/artikel/41173485/keine-angst-fuer-essenslieferanten-in-china-vor-roten-ampeln",
+        "summary": "Mit einer ungewöhnlichen Regel wollen Pekings Behörden und die großen Lieferplattformen den Zeitdruck für Essenskuriere senken: Wartezeiten an roten Ampeln werden künftig gutgeschrieben. Essenskuriere in China haben einen harten, weitgehend von Algorithmen gesteuerten Arbeitsalltag. Die Systeme teilen Bestellungen zu, berechnen Routen und legen fest, bis wann das Essen ankommen soll. Bisher lief die Uhr auch an roten Ampeln weiter.",
+        "publishedAt": "2026-08-14T07:52:20.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle Behördenmaßnahme mit Auswirkungen auf Millionen Arbeiter. Mehrere österreichische Medienportale (ORF, Die Presse, Kleine Zeitung) berichten unabhängig und deckungsgleich. Bedeutsam für Gig-Economy-Diskussion in Österreich/EU, konkreter Pilotstart im September.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Peking und drei große Lieferplattformen vereinbaren neues Algorithmus-System",
+      "Wartezeiten an roten Ampeln werden automatisch aus der Lieferzeit-Berechnung herausgerechnet",
+      "Fahrer erhalten Ampeldaten der Pekinger Verkehrsbehörden",
+      "Im September wird das System zunächst in Teilen Pekings erprobt",
+      "Lieferzeitberechnung basiert auf max. 15 km/h Durchschnittsgeschwindigkeit",
+      "Bei schlechtem Wetter und schwierigen Verkehrsverhältnissen erhalten Fahrer mehr Zeit",
+      "Essenslieferanten in China arbeiten unter hohem Zeitdruck, gesteuert durch Algorithmen",
+      "Fahrer versuchen oft, durch zu schnelles Fahren oder Verkehrsverstöße Zeit aufzuholen",
+      "Millionen Menschen liefern Essen und Waren in Chinas Großstädten",
+      "Direkte Abzüge wegen Verspätung wurden weitgehend abgeschafft, Angst vor schlechteren Bewertungen bleibt"
+    ],
+    "missingSources": [
+      "Namen der drei beteiligten Lieferplattformen",
+      "Offizielle Publikation oder Pressemitteilung der Pekinger Marktaufsichtsbehörde",
+      "Konkrete Stellungnahmen von Fahrervertretern",
+      "Zeitplan und Scope des Pilotprogramms (welche Stadtteile konkret)",
+      "Geplante Evaluierung oder Erfolgskriterien für die Maßnahme"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "peking-rotlicht-lieferzeit-essenskuriere-september-2026",
+    "title": "Peking rechnet Essenskurieren Wartezeit an roten Ampeln künftig aus der Lieferzeit heraus",
+    "description": "Peking und drei große Essenslieferplattformen haben sich darauf geeinigt, Wartezeiten an roten Ampeln aus der für Fahrerbewertungen maßgeblichen Lieferzeit herauszurechnen. Ab September soll das System zunächst in Teilen der Stadt erprobt werden.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kernvorgang – die Einigung zwischen Peking und den Lieferplattformen sowie der Pilotstart im September – wird von einer APA/dpa-Agenturmeldung getragen, die mehrere Medien unabhängig übernommen haben, und deckt sich mit Berichten der chinesischen Staatsagentur Xinhua sowie mehrerer chinesischer Medien.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die Mitteilung der Pekinger Marktaufsichtsbehörde selbst wurde nicht im Original eingesehen, nur über Agentur- und Medienberichte.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die vorliegenden Quellen geben im Wesentlichen die Darstellung von Behörde und Plattformen wieder; eine eigenständige Stimme von Fahrervertretern oder unabhängigen Arbeitsrechtsorganisationen fehlt in den eingesehenen Berichten.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Peking und drei große Essenslieferplattformen vereinbarten, Wartezeiten an roten Ampeln künftig automatisch von der für Fahrerbewertungen maßgeblichen Lieferzeit abzuziehen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Plattformen erhalten dafür Ampeldaten der Verkehrsbehörden; ab September soll das System zunächst in Teilen Pekings erprobt werden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Zusätzlich soll die Lieferzeit künftig mit maximal 15 km/h Durchschnittsgeschwindigkeit berechnet werden, bei Schlechtwetter gibt es mehr Zeit.",
+        "kind": "fact"
+      },
+      {
+        "text": "Chinesische Medien nennen als beteiligte Plattformen Meituan, Taobao Shanshou und JD Waimai sowie konkrete Pilotbezirke – das lässt sich aus den ursprünglichen österreichischen Quellen allein nicht bestätigen.",
+        "kind": "open"
+      },
+      {
+        "text": "Offen bleibt, wie stark sich der tatsächliche Zeitdruck für die Fahrer dadurch senkt und wie die Maßnahme evaluiert werden soll.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie genau werden die drei beteiligten Plattformen offiziell bestätigt, und decken sich die Namen aus chinesischen Medien (Meituan, Taobao Shanshou, JD Waimai) mit der Mitteilung der Pekinger Marktaufsicht?",
+      "In welchen konkreten Stadtbezirken startet der Pilotbetrieb im September, und nach welchem Zeitplan soll auf ganz Peking ausgeweitet werden?",
+      "Wie wird der Erfolg der Maßnahme gemessen, und ist eine Ausweitung auf andere chinesische Städte geplant?",
+      "Wie bewerten unabhängige Fahrervertreter oder Arbeitsrechtsorganisationen die Maßnahme, jenseits der in den Berichten erwähnten Gespräche mit Behörden?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at (Red./Agenturen)",
+        "type": "media",
+        "url": "https://orf.at/stories/3439129"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse (APA/dpa)",
+        "type": "media",
+        "url": "https://www.diepresse.com/41173473/peking-stoppt-fuer-essenslieferanten-an-roten-ampeln-die-uhr"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41173485/keine-angst-fuer-essenslieferanten-in-china-vor-roten-ampeln"
+      },
+      {
+        "id": "src4",
+        "name": "Xinhua (news.cn)",
+        "type": "agency",
+        "url": "http://www.news.cn/government/20260814/b00e64b7f50f4283926d337feb5230da/c.html"
+      },
+      {
+        "id": "src5",
+        "name": "Qianlong.com (Beijing)",
+        "type": "media",
+        "url": "https://beijing.qianlong.com/2026/0814/8711963.shtml"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Peking und drei große Essenslieferplattformen haben vereinbart, Wartezeiten an roten Ampeln künftig automatisch aus der für Fahrerbewertungen maßgeblichen Lieferzeit herauszurechnen, gestützt auf Ampeldaten der Verkehrsbehörden.",
+        "status": "supported",
+        "note": "Von APA/dpa-Meldung getragen und durch Xinhua sowie weitere chinesische Medien unabhängig bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das neue System soll im September zunächst in Teilen Pekings erprobt und danach schrittweise ausgeweitet werden.",
+        "status": "supported",
+        "note": "Übereinstimmend in österreichischen und chinesischen Quellen berichtet; genaue Bezirke variieren leicht zwischen den chinesischen Berichten.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Bei den drei beteiligten Plattformen handelt es sich laut chinesischen Medienberichten um Meituan, Taobao Shanshou und JD Waimai.",
+        "status": "partial",
+        "note": "In den österreichischen Quellen des Clusters nicht namentlich genannt; Namen stammen aus zusätzlich recherchierten chinesischen Medienberichten, die untereinander übereinstimmen.",
+        "sourceIds": [
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Lieferzeit soll künftig auf Basis einer Durchschnittsgeschwindigkeit von maximal 15 km/h berechnet werden, bei Schlechtwetter oder schwierigen Verkehrsverhältnissen erhalten Fahrer zusätzliche Zeit.",
+        "status": "supported",
+        "note": "Deckungsgleich in allen eingesehenen Quellen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Direkte Bewertungsabzüge wegen verspäteter Lieferung wurden in China bereits weitgehend abgeschafft oder zurückgedrängt, Fahrer berichten aber weiterhin von hohem Zeitdruck und Angst vor schlechteren Bewertungen.",
+        "status": "partial",
+        "note": "Allgemeine Einordnung ohne konkrete Zahlen oder benannte Fahrerstimmen in den vorliegenden Quellen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Peking und drei große Essenslieferplattformen haben sich darauf verständigt, Wartezeiten an roten Ampeln künftig automatisch von der Lieferzeit abzuziehen, die für die Bewertung der Fahrer entscheidend ist. Bislang lief die Uhr in den Algorithmen der Plattformen auch dann weiter, wenn Kuriere an einer Kreuzung auf Grün warten mussten. Wie die Pekinger Marktaufsichtsbehörde mitteilte, einigten sich die Plattformen bei Gesprächen mit Behörden und Fahrervertretern darauf, dafür Ampeldaten der Verkehrsbehörden zu nutzen: Wartet ein Fahrer etwa 90 Sekunden an Rot, werden ihm 90 Sekunden auf die reguläre Lieferzeit aufgeschlagen. Ab September soll das System zunächst in Teilen der Stadt erprobt und danach schrittweise ausgeweitet werden."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Maßnahme geht über die Rotlicht-Regel hinaus: Die Plattformen wollen die Lieferzeiten insgesamt neu berechnen und dabei künftig höchstens 15 Kilometer pro Stunde Durchschnittsgeschwindigkeit zugrunde legen. Bei schlechtem Wetter oder schwierigen Verkehrsverhältnissen soll es zusätzliche Zeit geben, ebenso wenn Aufträge zwischen Fahrern weitergegeben werden. Zusätzlich zu den drei österreichischen Medienberichten im Cluster zeigen chinesische Quellen – darunter die staatliche Nachrichtenagentur Xinhua sowie mehrere Pekinger Medien – übereinstimmend, dass es sich bei den beteiligten Plattformen um Meituan, Taobao Shanshou und JD Waimai handelt und dass die Pekinger Marktaufsicht damit nach eigenen Angaben einen landesweit ersten ständigen Dialogmechanismus zwischen Plattformen, Plattformbeschäftigten und Verbänden verankert. Diese Details liefern zusätzlichen Kontext, stammen aber ausschließlich aus Medien- und Agenturberichten, nicht aus einem selbst eingesehenen Originaldokument der Behörde."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, in welchen konkreten Bezirken der Pilotbetrieb im September genau startet – chinesische Medien nennen dazu leicht unterschiedliche Angaben – und nach welchem Zeitplan eine Ausweitung auf ganz Peking oder andere Städte erfolgen soll. Unklar bleibt auch, anhand welcher Kriterien die Behörden und Plattformen den Erfolg der neuen Regeln messen wollen und ob unabhängige Fahrervertretungen oder Arbeitsrechtsorganisationen die Maßnahme eigenständig bewerten. Wie stark sich der tatsächliche Zeitdruck für die geschätzt Millionen Essenskuriere in Chinas Großstädten dadurch im Alltag verändert, lässt sich aus den vorliegenden Berichten nicht ablesen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Essenslieferungen in China werden weitgehend algorithmisch gesteuert: Systeme teilen Bestellungen zu, berechnen Routen und legen Lieferfristen fest, wovon für viele Fahrer der Verdienst unmittelbar abhängt. Direkte Abzüge wegen verspäteter Lieferung wurden Berichten zufolge bereits weitgehend zurückgedrängt, dennoch berichten Fahrer weiter von hohem Zeitdruck und der Sorge vor schlechteren Bewertungen. Die neue Regel reiht sich in eine Serie chinesischer Eingriffe der vergangenen Jahre ein, mit denen Behörden auf wiederholte öffentliche Kritik an den Arbeitsbedingungen in der Plattformökonomie reagiert haben. Ob die Maßnahme den Zeitdruck spürbar senkt oder vor allem symbolischen Charakter hat, lässt sich erst nach dem Pilotbetrieb im September beurteilen."
+      }
+    ],
+    "bodyKompakt": "Peking und drei große Essenslieferplattformen haben vereinbart, Wartezeiten an roten Ampeln künftig automatisch von der für Fahrerbewertungen maßgeblichen Lieferzeit abzuziehen. Bislang lief die Uhr in den Liefer-Algorithmen auch bei Rotlicht weiter. Laut Pekinger Marktaufsichtsbehörde sollen die Plattformen dafür Ampeldaten der Verkehrsbehörden nutzen; ab September wird das System zunächst in Teilen der Stadt erprobt und soll danach schrittweise ausgeweitet werden.\n\nZusätzlich wollen die Plattformen die Lieferzeiten neu berechnen: Grundlage soll künftig eine Durchschnittsgeschwindigkeit von höchstens 15 km/h sein, bei Schlechtwetter oder schwierigen Verkehrsverhältnissen gibt es mehr Zeit. Chinesische Medien und die Staatsagentur Xinhua nennen als beteiligte Plattformen Meituan, Taobao Shanshou und JD Waimai – eine Angabe, die über die österreichischen Ausgangsquellen hinausgeht und nicht aus einem Originaldokument der Behörde stammt.\n\nDirekte Abzüge wegen verspäteter Lieferung wurden bereits weitgehend zurückgedrängt, Fahrer berichten aber weiterhin von hohem Zeitdruck und Angst vor schlechteren Bewertungen. Offen bleibt, in welchen Bezirken der Pilotbetrieb genau startet und wie sein Erfolg gemessen werden soll.",
+    "updateNote": null,
+    "pendingOutcome": "Start und erste Erfahrungen des im September beginnenden Pilotbetriebs in Teilen Pekings."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-14T08:07:29.232Z"
+}
