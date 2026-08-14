@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T08:22:29.028Z",
+  "updatedAt": "2026-08-14T10:26:13.384Z",
   "stories": {
     "google-rechenzentrum-kronstorf-ausbau-2026": {
       "canonicalTitle": "Google-Rechenzentrum Kronstorf: Demonstration mit rund 200 Teilnehmern, Grüne legen konkreten UVP-Schwellenwert vor",
@@ -1452,33 +1452,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-01T22:07:34.112Z"
-    },
-    "kufstein-gabel-attacke-mordverdacht-juli-2026": {
-      "canonicalTitle": "Kufstein: Frau nach Gabel-Attacke schwerverletzt, Mann wegen Mordverdachts festgenommen",
-      "slug": "kufstein-gabel-attacke-mordverdacht-juli-2026",
-      "firstSeenAt": "2026-07-15T10:07:41.799Z",
-      "lastUpdatedAt": "2026-07-15T10:07:41.799Z",
-      "status": "published",
-      "articlePath": "src/content/articles/kufstein-gabel-attacke-mordverdacht-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-15/kufstein-gabel-attacke-mordverdacht-juli-2026.json",
-      "sourceUrls": [
-        "https://tirol.orf.at/stories/3362775",
-        "https://www.derstandard.at/story/3000000331575/mann-stiess-frau-in-tirol-gabel-ins-gesicht-ermittlungen-wegen-versuchten-mordes",
-        "https://www.diepresse.com/37420974/mann-rammt-in-tirol-seiner-freundin-gabel-ins-gesicht",
-        "https://kurier.at/chronik/tirol/mann-frau-tirol-gabel-gesicht-mordversuch/403176225",
-        "https://www.kleinezeitung.at/artikel/37424803/frau-in-tirol-bei-gabel-attacke-schwerstverletzt"
-      ],
-      "openQuestions": [
-        "Was war der konkrete Auslöser der Auseinandersetzung?",
-        "Wie äußert sich der Tatverdächtige zu den Vorwürfen?",
-        "In welchem Verhältnis standen Opfer und Tatverdächtiger tatsächlich zueinander?",
-        "Wie ist der weitere gesundheitliche Verlauf beim Opfer, sobald es vernehmungsfähig ist?",
-        "Wie geht das gerichtliche Verfahren weiter (U-Haft-Prüfung, Anklage)?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-16T10:07:41.799Z",
-      "doNotUpdateBefore": "2026-07-15T16:07:41.799Z",
-      "echoPublishers": {}
     },
     "fpoe-popularbeschwerde-orf-generaldirektor-pig-juli-2026": {
       "canonicalTitle": "FPÖ bringt Popularbeschwerde gegen Wahl von ORF-Chef Clemens Pig ein",
@@ -16937,9 +16910,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-13T18:07:50.944Z",
       "doNotUpdateBefore": "2026-08-13T00:07:50.944Z",
-      "echoPublishers": {
-        "diepresse": "2026-08-13T08:07:40.316Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-13T20:07:39.663Z"
@@ -16990,8 +16961,7 @@
       "doNotUpdateBefore": "2026-08-14T06:07:39.480Z",
       "echoPublishers": {
         "derstandard": "2026-08-13T12:12:38.008Z",
-        "kleinezeitung": "2026-08-13T16:07:42.253Z",
-        "kurier": "2026-08-13T08:07:39.867Z"
+        "kleinezeitung": "2026-08-13T16:07:42.253Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -17241,11 +17211,11 @@
       "doNotRedraftBefore": "2026-08-14T00:07:38.765Z",
       "doNotUpdateBefore": "2026-08-13T06:07:38.765Z",
       "echoPublishers": {
-        "kurier": "2026-08-14T08:07:31.888Z"
+        "kurier": "2026-08-14T10:07:37.575Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-14T08:07:29.232Z"
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
     },
     "trump-truth-social-klage-intercept-pressefreiheit-august-2026": {
       "canonicalTitle": "Klage gegen Trump: The Intercept und Freedom of the Press Foundation ziehen wegen Truth-Social-Bezahlzugang vor Gericht",
@@ -17482,9 +17452,9 @@
         "kurier": "2026-08-13T14:07:35.805Z",
         "kleinezeitung": "2026-08-13T14:07:37.236Z"
       },
-      "resonanceLevel": 4,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-13T08:07:35.953Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
     },
     "ice-elektroschock-handschuhe-glove-august-2026": {
       "canonicalTitle": "US-Einwanderungsbehörde ICE plant Kauf von Elektroschock-Handschuhen",
@@ -17512,10 +17482,12 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-14T06:07:35.869Z",
       "doNotUpdateBefore": "2026-08-13T12:07:35.869Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-14T06:07:31.596Z"
+      "echoPublishers": {
+        "golem": "2026-08-14T10:07:38.924Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
     },
     "erdbeben-kolumbien-265-tote-august-2026": {
       "canonicalTitle": "Erdbeben in Kolumbien: Mindestens 265 Tote, kritische Stunden für Rettungskräfte",
@@ -17580,8 +17552,6 @@
       "doNotUpdateBefore": "2026-08-13T14:07:35.953Z",
       "echoPublishers": {
         "derstandard": "2026-08-13T10:07:38.756Z",
-        "diepresse": "2026-08-13T08:07:40.316Z",
-        "kurier": "2026-08-13T08:07:39.867Z",
         "orf": "2026-08-13T12:12:35.794Z"
       },
       "resonanceLevel": 4,
@@ -17589,13 +17559,13 @@
       "resonanceMeasuredAt": "2026-08-13T12:12:34.114Z"
     },
     "kabelbrand-praterstern-s-bahn-stammstrecke-august-2026": {
-      "canonicalTitle": "Kabelbrand am Praterstern: Schwerer Schaden an Wiener S-Bahn-Stammstrecke, Notfahrplan vorgezogen",
+      "canonicalTitle": "Kabelbrand am Praterstern: Notfahrplan in Kraft, Sperre trifft praktisch die halbe Wiener S-Bahn-Stammstrecke",
       "slug": "kabelbrand-praterstern-s-bahn-stammstrecke-august-2026",
       "firstSeenAt": "2026-08-13T08:07:35.953Z",
-      "lastUpdatedAt": "2026-08-13T20:07:39.663Z",
+      "lastUpdatedAt": "2026-08-14T10:07:33.659Z",
       "status": "published",
       "articlePath": "src/content/articles/kabelbrand-praterstern-s-bahn-stammstrecke-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-13/kabelbrand-praterstern-s-bahn-stammstrecke-august-2026-update-2000.json",
+      "researchPath": "data/ai-news/research/2026-08-14/kabelbrand-praterstern-s-bahn-stammstrecke-august-2026-update-1000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000335377/kabelbrand-legt-s-bahn-stammstrecke-zwischen-praterstern-und-quartier-belvedere-lahm",
         "https://kurier.at/chronik/wien/kabelbrand-s-bahn-stammstrecke-praterstern-oebb-pendler/403183334",
@@ -17604,30 +17574,32 @@
         "https://www.diepresse.com/41170298/kein-zugverkehr-nach-kabelbrand-moeglich-wiener-s-bahn-stammstrecke-bleibt-gesperrt-notfahrplan-wird-vorgezogen",
         "https://kurier.at/chronik/wien/wien-s-bahn-sperre-kabelbrand-stammstrecke-upgrade-gesperrt/403183514",
         "https://kurier.at/video/aktuelle-videos/wien-kabelbrand-sorgt-fuer-s-bahn-sperre-dauer-unklar/403183525",
-        "https://www.kleinezeitung.at/artikel/41170567/schwerer-schaden-bei-wiener-s-bahn-nach-kabelbrand"
+        "https://www.kleinezeitung.at/artikel/41170567/schwerer-schaden-bei-wiener-s-bahn-nach-kabelbrand",
+        "https://www.derstandard.at/story/3000000335562/halbe-s-bahn-in-wien-gesperrt-welche-verzoegerungen-oeffi-fahrgaeste-in-kauf-nehmen-muessen",
+        "https://wien.orf.at/stories/3366932"
       ],
       "openQuestions": [
         "Was genau hat den Kabelbrand am Praterstern ausgelöst?",
         "Wann wird der reguläre S-Bahn-Betrieb auf der Stammstrecke über den 7. September 2026 hinaus vollständig wieder aufgenommen?",
         "Welche Streckenabschnitte sind exakt und dauerhaft von der Sperre betroffen – die Berichte nennen weiterhin unterschiedliche Endpunkte (Hauptbahnhof vs. Quartier Belvedere, teils Rennweg/Vienna Sankt Marx)?",
         "Gab es Personen im Bereich des Brandes, und war eine Evakuierung notwendig?",
-        "Wie wirken sich die vorgezogenen, verdichteten Intervalle der Wiener Linien in der Praxis auf die Kapazitäten aus, sobald sie umgesetzt sind?"
+        "Wann werden die verdichteten Intervalle der Wiener Linien tatsächlich umgesetzt, und wie wirken sie sich in der Praxis auf die Kapazitäten aus?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-08-14T20:07:39.663Z",
-      "doNotUpdateBefore": "2026-08-14T02:07:39.663Z",
-      "pendingOutcome": "Ursache des Kabelbrands sowie exakter Termin für die vollständige Wiederaufnahme des Regelbetriebs über den 7. September 2026 hinaus stehen noch aus.",
+      "doNotRedraftBefore": "2026-08-15T10:07:33.659Z",
+      "doNotUpdateBefore": "2026-08-14T16:07:33.659Z",
+      "pendingOutcome": "Beobachtet werden: die noch ungeklärte Brandursache, der exakte Termin für die vollständige Wiederherstellung des Regelbetriebs nach dem 7. September 2026, sowie die noch ausstehende Umsetzung der verdichteten Wiener-Linien-Intervalle.",
       "pendingOutcomeUntil": "2026-08-15T08:07:35.953Z",
       "echoPublishers": {
-        "derstandard": "2026-08-13T08:07:39.791Z",
+        "derstandard": "2026-08-14T10:07:39.045Z",
         "kurier": "2026-08-13T18:07:33.744Z",
         "diepresse": "2026-08-13T20:07:44.312Z",
         "kleinezeitung": "2026-08-13T18:07:34.755Z",
         "orf": "2026-08-14T08:07:31.084Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-14T08:07:29.232Z"
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
     },
     "uganda-rueckfuehrungszentrum-fpoe-kritik-august-2026": {
       "canonicalTitle": "Rückführungszentrum in Uganda: Innenministerium bestätigt Drittstaaten-Gespräche, FPÖ und Grüne kritisieren Pläne",
@@ -17668,9 +17640,7 @@
       "doNotUpdateBefore": "2026-08-13T22:07:37.768Z",
       "pendingOutcome": "Ausgang des Ministertreffens der beteiligten Staaten am 4. September 2026 in Kopenhagen sowie eine mögliche offizielle, Uganda-spezifische Bestätigung oder ein Dementi durch eine beteiligte Regierung oder durch Uganda selbst.",
       "pendingOutcomeUntil": "2026-08-15T08:07:35.953Z",
-      "echoPublishers": {
-        "kurier": "2026-08-13T08:07:39.867Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-14T08:07:29.232Z"
@@ -17842,12 +17812,11 @@
       "echoPublishers": {
         "diepresse": "2026-08-13T16:07:40.881Z",
         "kleinezeitung": "2026-08-13T16:07:42.233Z",
-        "kurier": "2026-08-13T08:07:39.879Z",
         "derstandard": "2026-08-13T10:07:36.779Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-14T06:07:31.596Z"
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
     },
     "mladenovic-bronze-schwimm-em-paris-2026": {
       "canonicalTitle": "Luka Mladenovic gewinnt EM-Bronze über 200 m Brust in Paris",
@@ -17948,7 +17917,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-13T20:07:39.663Z"
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
     },
     "gaza-polizeichef-abu-kamil-luftangriff-august-2026": {
       "canonicalTitle": "Israel tötet Gazas Polizeichef bei Luftangriff – Militär spricht von Hamas-Kommandeur",
@@ -18177,9 +18146,7 @@
       "doNotUpdateBefore": "2026-08-14T10:07:29.836Z",
       "pendingOutcome": "Ob der Flughafen Catania-Fontanarossa wie zuletzt angekündigt am Freitag um 2.00 Uhr wieder öffnet und wie sich Flugausfälle sowie die geschätzten Tourismusschäden in den Folgetagen weiterentwickeln.",
       "pendingOutcomeUntil": "2026-08-16T04:07:29.836Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-08-13T08:07:41.519Z"
-      }
+      "echoPublishers": {}
     },
     "moor-renaturierung-tools-oesterreich-2026": {
       "canonicalTitle": "Österreich muss bis September Moor-Wiederherstellungsplan vorlegen – neue Tools sollen Landwirten und Gemeinden helfen",
@@ -18311,8 +18278,11 @@
       "pendingOutcomeUntil": "2026-08-16T06:07:31.596Z",
       "echoPublishers": {
         "orf": "2026-08-14T06:07:33.686Z",
-        "derstandard": "2026-08-14T06:07:37.537Z",
-        "diepresse": "2026-08-14T04:07:33.423Z"
+        "derstandard": "2026-08-14T06:07:39.680Z",
+        "diepresse": "2026-08-14T04:07:33.626Z",
+        "kurier": "2026-08-14T10:07:37.562Z",
+        "kleinezeitung": "2026-08-14T04:07:35.028Z",
+        "heise": "2026-08-14T06:07:38.773Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
@@ -18419,13 +18389,11 @@
       "pendingOutcome": "Unterzeichnung des Gesetzes durch Präsidentin Catherine Connolly und formales Inkrafttreten von „Jennie's Law“.",
       "pendingOutcomeUntil": "2026-08-16T08:07:29.232Z",
       "echoPublishers": {
-        "kurier": "2026-08-14T08:07:31.888Z",
-        "derstandard": "2026-08-13T08:07:39.800Z",
-        "kleinezeitung": "2026-08-13T08:07:41.519Z"
+        "kurier": "2026-08-14T08:07:31.888Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-14T08:07:29.232Z"
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
     },
     "peking-rotlicht-lieferzeit-essenskuriere-september-2026": {
       "canonicalTitle": "Peking rechnet Essenskurieren Wartezeit an roten Ampeln künftig aus der Lieferzeit heraus",
@@ -18456,11 +18424,73 @@
       "echoPublishers": {
         "orf": "2026-08-14T08:07:30.966Z",
         "diepresse": "2026-08-14T08:07:31.876Z",
-        "kleinezeitung": "2026-08-14T08:07:32.947Z"
+        "kleinezeitung": "2026-08-14T08:07:32.947Z",
+        "derstandard": "2026-08-14T10:07:39.045Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
+    },
+    "delfin-canal-grande-venedig-august-2026": {
+      "canonicalTitle": "Delfin schwimmt nahe Rialtobrücke durch Venedigs Canal Grande",
+      "slug": "delfin-canal-grande-venedig-august-2026",
+      "firstSeenAt": "2026-08-14T10:07:33.659Z",
+      "lastUpdatedAt": "2026-08-14T10:07:33.659Z",
+      "status": "published",
+      "articlePath": "src/content/articles/delfin-canal-grande-venedig-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-14/delfin-canal-grande-venedig-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3439131",
+        "https://www.derstandard.at/story/3000000335571/delfin-nahe-rialtobr252cke-im-canal-grande-in-venedig-gesichtet",
+        "https://kurier.at/chronik/welt/delfin-rialtobruecke-canal-grande-venedig/403183571",
+        "https://www.ansa.it/veneto/notizie/2026/08/13/delfino-nel-canal-grande-a-venezia-sindaco-tutelarne-lincolumita_fc4f74df-c534-4a40-9da3-9eff1318b7c3.html"
+      ],
+      "openQuestions": [
+        "Ob es sich um den bereits bekannten Delfin Mimmo/Nane handelt oder um ein anderes Tier.",
+        "Ob es seither weitere Sichtungen im Canal Grande oder anderen Teilen der Lagune gab.",
+        "Wie sich die Situation für das Tier im dicht befahrenen Kanal weiterentwickelt."
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-15T10:07:33.659Z",
+      "doNotUpdateBefore": "2026-08-14T16:07:33.659Z",
+      "echoPublishers": {
+        "orf": "2026-08-14T10:07:35.255Z",
+        "derstandard": "2026-08-14T08:07:31.686Z",
+        "kurier": "2026-08-14T08:07:31.888Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-14T08:07:29.232Z"
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
+    },
+    "vorarlberg-radfahren-aktive-mobilitaet-studie-2026": {
+      "canonicalTitle": "In Vorarlberg wird österreichweit am meisten Rad gefahren",
+      "slug": "vorarlberg-radfahren-aktive-mobilitaet-studie-2026",
+      "firstSeenAt": "2026-08-14T10:07:33.659Z",
+      "lastUpdatedAt": "2026-08-14T10:07:33.659Z",
+      "status": "published",
+      "articlePath": "src/content/articles/vorarlberg-radfahren-aktive-mobilitaet-studie-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-14/vorarlberg-radfahren-aktive-mobilitaet-studie-2026.json",
+      "sourceUrls": [
+        "https://vorarlberg.orf.at/stories/3366951",
+        "https://www.kleinezeitung.at/artikel/41172900/in-vorarlberg-und-salzburg-fahren-die-meisten-mit-dem-rad",
+        "https://salzburg.orf.at/stories/3366940"
+      ],
+      "openQuestions": [
+        "Liegt die Studie „Aktive Mobilität 2026“ des Verkehrsministeriums öffentlich vor, und welche weiteren Detailergebnisse nach Bundesländern enthält sie?",
+        "Wie hat sich der Anteil der täglichen Radfahrerinnen und Radfahrer in Vorarlberg seit der Vorgängererhebung 2023 verändert?",
+        "Welche konkreten Infrastrukturmaßnahmen in Vorarlberg werden als Grund für die hohe Radnutzung genannt?",
+        "Wie äußert sich das Verkehrsministerium selbst zu den Ergebnissen der von ihm beauftragten Studie?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-15T10:07:33.659Z",
+      "doNotUpdateBefore": "2026-08-14T16:07:33.659Z",
+      "echoPublishers": {
+        "orf": "2026-08-14T10:07:37.033Z",
+        "kleinezeitung": "2026-08-14T04:07:34.734Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
     }
   }
 }
