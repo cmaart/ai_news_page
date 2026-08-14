@@ -1,0 +1,261 @@
+{
+  "cluster": {
+    "id": "cluster-20260814-3b8ca932",
+    "title": "USA verhängen Zölle auf Drohnen und Bauteile",
+    "items": [
+      {
+        "itemId": "155004a6d69916724183803354168aeed37243f999c2033a23ce59c277aaec34",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "USA verhängen Zölle auf Drohnen und Bauteile",
+        "url": "https://orf.at/stories/3439113",
+        "publishedAt": "2026-08-14T05:09:22.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "fa1ab54b6245eafc49542c36baff84fc9944f5402b5caa29cf2331d763ac6eab",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "Weißes Haus: USA verhängen Zölle auf Drohnen und Bauteile",
+        "url": "https://www.derstandard.at/story/3000000335564/wei223es-haus-usa-verh228ngen-z246lle-auf-drohnen-und-bauteile",
+        "summary": "Auf bestimmte Drohnen kann ein Wertzoll von bis zu 100 Prozent erhoben werden.",
+        "publishedAt": "2026-08-14T05:31:02.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "f913ef64dae3dbaeca6729ac0725c3208c57b22d80e28898da7c152d2c0c0f32",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "15 bis 100 Prozent: Trump verhängt Zölle auf Drohnen und Bauteile",
+        "url": "https://www.diepresse.com/41172889/15-bis-100-prozent-trump-verhaengt-zoelle-auf-drohnen-und-bauteile",
+        "isNew": false
+      },
+      {
+        "itemId": "e4f7694e5538b7659800b615776ee5456b7a19c59cc0fe4a5299c8211501c3d6",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "15 bis 100 Prozent: Trump verhängt Zölle auf Drohnen und Bauteile",
+        "url": "https://www.diepresse.com/41172889/15-bis-100-prozent-trump-verhaengt-zoelle-auf-drohnen-und-bauteile",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.9,
+  "triage": {
+    "action": "update_story",
+    "reason": "Spezifizierung der Juli-Zollwelle auf Drohnen; Trump verhängt differenzierte Wertzölle (100%, 25%, 15%, 10% je nach Kategorie/Herkunftsregion). Berichterstattung über 3 österreichische Portale (ORF und Der Standard teilweise syndikat), klare Relevanz für EU-Wirtschaft und Österreich. Update der bestehenden Trump-Zoll-Story gemäß E53 (update vor draft).",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": 2,
+    "relatedSlug": "us-zoelle-60-handelspartner-zwangsarbeit-juli-2026",
+    "possibleClaims": [
+      "Trump verhängt 100% Wertzoll auf Drohnen ab bestimmter Größe oder mit Sicherheitsfähigkeiten",
+      "Trump verhängt 25% Wertzoll auf kleinere Drohnen ohne diese Eigenschaften",
+      "EU, Japan, Liechtenstein, Südkorea, Schweiz, Taiwan: 15% Drohnen-Wertzölle",
+      "Großbritannien: 10% Drohnen-Wertzölle",
+      "Begründung: USA zu abhängig von ausländischen Drohnen-Anbietern"
+    ],
+    "missingSources": [
+      "Direktes Statement oder unterzeichnete Executive Order des Weißen Hauses",
+      "Offizielle Stellungnahme der EU oder betroffener Länder",
+      "Reaktion europäischer Drohnen-Hersteller oder Industrieverbände",
+      "Konkrete wirtschaftliche Auswirkungen auf europäische Exporte oder österreichische Betriebe",
+      "Präzise Definition der betroffenen Drohnen-Kategorien, Größenklassen und Bauteile"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "us-zoelle-drohnen-section-232-august-2026",
+    "title": "Neue US-Zölle auf Drohnen: Trump verhängt bis zu 100 Prozent, EU mit 15 Prozent",
+    "description": "Trump verhängt per Proklamation gestaffelte Zölle von 10 bis 100 Prozent auf Drohnen und Drohnenbauteile – diesmal über eine eigene Section-232-Sicherheitsbegründung, getrennt von der Zwangsarbeits-Zollwelle vom Juli.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Kernfakten (Zollsätze, betroffene Länder, Zeitplan) stammen aus einem offiziellen Fact Sheet des Weißen Hauses und werden von ORF, Der Standard und Die Presse übereinstimmend wiedergegeben. Details zur Marktdominanz chinesischer Hersteller und zur genauen Historie der zugrunde liegenden Untersuchung stützen sich dagegen nur auf einzelne Medienberichte und bleiben unsicherer.",
+    "primarySourceStrength": "strong",
+    "sourceStrengthNote": "Das Weiße Haus hat ein eigenes Fact Sheet zur Proklamation veröffentlicht, das Zollsätze, betroffene Kategorien und Zeitplan konkret benennt – eine echte Primärquelle für die Kernzahlen. Die Einordnung zu chinesischen Herstellern wie DJI stammt dagegen nur aus Medienberichten, nicht aus dem offiziellen Text.",
+    "framingRiskNote": "Die Maßnahme lässt sich sowohl als reine Sicherheits- und Industriepolitik als auch als weiterer Baustein einer protektionistischen Handelsstrategie gegen China und Verbündete lesen; die China-Dimension wird von manchen Medien stärker betont als vom Weißen Haus selbst.",
+    "framingRisk": "medium",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "US-Präsident Trump unterzeichnete am 13. August 2026 (Ortszeit) eine Proklamation, mit der gestaffelte Zölle auf Drohnen und deren Bauteile verhängt werden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Für Drohnen mit einem Startgewicht über 25 Kilogramm, mit Wärmebildfähigkeiten oder anderen sicherheitsrelevanten Merkmalen sowie für bestimmte kritische Bauteile solcher Drohnen gilt ein Wertzoll von 100 Prozent, für kleinere Drohnen ohne diese Eigenschaften 25 Prozent.",
+        "kind": "fact"
+      },
+      {
+        "text": "Drohnen und Bauteile aus der EU, Japan, Liechtenstein, Südkorea, der Schweiz und Taiwan werden künftig mit 15 Prozent verzollt, aus Großbritannien mit 10 Prozent.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die meisten Zollsätze treten laut Weißem Haus 21 Tage nach Unterzeichnung in Kraft, Zölle auf weniger sicherheitsrelevante Bauteile erst nach 180 Tagen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als Rechtsgrundlage dient eine nationale Sicherheitsbegründung nach Section 232 des US-Handelsausdehnungsgesetzes – ein anderes Instrument als die im Juli verhängten, mit Zwangsarbeitsvorwürfen begründeten Zölle gegen 60 Handelspartner.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und wie die EU, Japan, Südkorea, die Schweiz, Taiwan oder Großbritannien offiziell auf diese sektorspezifische Maßnahme reagieren, ist noch offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Medienberichte bringen die Maßnahme mit der Marktdominanz chinesischer Hersteller wie DJI in Verbindung; eine namentliche Nennung Chinas oder einzelner Hersteller im offiziellen Fact Sheet des Weißen Hauses liegt uns nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie reagieren die EU-Kommission, Japan, Südkorea, die Schweiz, Liechtenstein und Taiwan offiziell auf die neuen, sektorspezifischen Drohnen-Zölle?",
+      "Welche wirtschaftlichen Auswirkungen haben die gestaffelten Zölle konkret auf europäische und österreichische Drohnenhersteller, -importeure und -anwender (etwa in Landwirtschaft oder Logistik)?",
+      "Wird die Section-232-Rechtsgrundlage dieser Drohnen-Zölle rechtlich angefochten, ähnlich wie zuvor die vom Supreme Court gekippten Notstandszölle?",
+      "Treten die Zölle auf weniger sicherheitsrelevante Bauteile tatsächlich erst nach 180 Tagen in Kraft, oder gibt es bis dahin Anpassungen oder Ausnahmen?",
+      "Nennt eine offizielle US-Stelle explizit chinesische Hersteller wie DJI als Zielrichtung der Maßnahme, oder bleibt dies eine mediale Zuschreibung?"
+    ],
+    "sources": [
+      {
+        "id": "whitehouse_factsheet",
+        "name": "The White House – Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components",
+        "type": "official",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-drones-and-their-parts-and-components/"
+      },
+      {
+        "id": "orf",
+        "name": "ORF.at – USA verhängen Zölle auf Drohnen und Bauteile",
+        "type": "media",
+        "url": "https://orf.at/stories/3439113"
+      },
+      {
+        "id": "standard",
+        "name": "Der Standard – Weißes Haus: USA verhängen Zölle auf Drohnen und Bauteile",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000335564/wei223es-haus-usa-verh228ngen-z246lle-auf-drohnen-und-bauteile"
+      },
+      {
+        "id": "presse",
+        "name": "Die Presse – 15 bis 100 Prozent: Trump verhängt Zölle auf Drohnen und Bauteile",
+        "type": "media",
+        "url": "https://www.diepresse.com/41172889/15-bis-100-prozent-trump-verhaengt-zoelle-auf-drohnen-und-bauteile"
+      },
+      {
+        "id": "investing_dji",
+        "name": "Investing.com – Trump administration imposes sweeping tariffs on foreign drone imports",
+        "type": "media",
+        "url": "https://www.investing.com/news/economy-news/trump-administration-imposes-sweeping-tariffs-on-foreign-drone-imports-4859451"
+      },
+      {
+        "id": "bloomberg_china",
+        "name": "Bloomberg – Trump Imposes 100% Tariffs on Certain Drones, Countering China",
+        "type": "media",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-13/trump-imposes-100-tariffs-on-certain-drones-countering-china"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Trump unterzeichnete am 13. August 2026 (Ortszeit) eine Proklamation, mit der Zölle auf den Import von Drohnen und deren Bauteilen verhängt werden; das Weiße Haus veröffentlichte dazu ein eigenes Fact Sheet.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "whitehouse_factsheet",
+          "orf",
+          "standard"
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Für Drohnen mit einem Startgewicht über 25 Kilogramm, mit Wärmebildfähigkeiten oder anderen als sicherheitsrelevant eingestuften Merkmalen sowie für bestimmte kritische Bauteile dieser Drohnen gilt ein Wertzoll von 100 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "whitehouse_factsheet",
+          "orf"
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Für kleinere Drohnen ohne diese sicherheitsrelevanten Eigenschaften sowie für sonstige Bauteile gilt ein Wertzoll von 25 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "whitehouse_factsheet",
+          "orf"
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Drohnen und Bauteile aus der EU, Japan, Liechtenstein, Südkorea, der Schweiz und Taiwan werden künftig mit 15 Prozent verzollt, aus Großbritannien mit 10 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "whitehouse_factsheet",
+          "orf",
+          "standard"
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Die meisten der neuen Zollsätze treten laut Weißem Haus 21 Tage nach Unterzeichnung in Kraft, Zölle auf Bauteile, die als weniger sicherheitsrelevant eingestuft werden, erst nach 180 Tagen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "whitehouse_factsheet"
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "Als Rechtsgrundlage dient eine nationale Sicherheitsbegründung nach Section 232 des US-Handelsausdehnungsgesetzes – ein anderes Instrument als die im Juli 2026 gegen 60 Handelspartner verhängten, mit Zwangsarbeitsvorwürfen begründeten Zölle.",
+        "status": "supported",
+        "note": "Die konkrete Historie der zugrunde liegenden Section-232-Untersuchung (Einleitungsdatum etc.) liegt uns nicht aus einer Primärquelle vor.",
+        "sourceIds": [
+          "whitehouse_factsheet"
+        ]
+      },
+      {
+        "id": "c7",
+        "text": "Als offizielle Begründung nennt die US-Regierung eine zu große Abhängigkeit von ausländischen Drohnen-Anbietern und das Ziel, heimische Lieferketten und Produktion zu stärken.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "whitehouse_factsheet",
+          "orf",
+          "standard"
+        ]
+      },
+      {
+        "id": "c8",
+        "text": "Medienberichte bringen die Maßnahme mit der Marktdominanz chinesischer Hersteller wie DJI in Verbindung, der laut diesen Berichten einen Großteil des US-Marktes für Consumer-Drohnen kontrolliert und seit 2022 auf einer US-Liste von Unternehmen mit mutmaßlichen Verbindungen zum chinesischen Militär steht.",
+        "status": "partial",
+        "note": "Diese Einordnung stammt aus einzelnen Medienberichten, nicht aus dem offiziellen Fact Sheet des Weißen Hauses, das China oder DJI nach unserer Kenntnis nicht namentlich nennt.",
+        "sourceIds": [
+          "investing_dji",
+          "bloomberg_china"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Neue, eigene Zollstufe für Drohnen",
+        "markdown": "US-Präsident Donald Trump hat eine weitere Zollmaßnahme auf den Weg gebracht: Mit einer am 13. August 2026 unterzeichneten Proklamation verhängt er gestaffelte Wertzölle auf Drohnen und deren Bauteile. Das Weiße Haus begründet den Schritt damit, die USA seien zu abhängig von ausländischen Anbietern, und will mit den Zöllen heimische Lieferketten und Produktion stärken.\n\nDie Staffelung folgt der Sicherheitsrelevanz der jeweiligen Drohne: Für Modelle mit einem Startgewicht über 25 Kilogramm, mit Wärmebildfähigkeiten oder anderen als sicherheitsrelevant eingestuften Eigenschaften sowie für bestimmte kritische Bauteile solcher Drohnen fällt künftig ein Wertzoll von 100 Prozent an. Kleinere Drohnen ohne diese Merkmale werden mit 25 Prozent belegt."
+      },
+      {
+        "heading": "Unterschiedliche Sätze je nach Herkunft",
+        "markdown": "Zusätzlich zur Größen- und Sicherheitsstaffelung gilt eine regionale Differenzierung: Drohnen und Bauteile aus der EU, Japan, Liechtenstein, Südkorea, der Schweiz und Taiwan werden mit 15 Prozent verzollt, Einfuhren aus Großbritannien mit 10 Prozent. Rechtsgrundlage ist laut Fact Sheet des Weißen Hauses eine nationale Sicherheitsbegründung nach Section 232 des US-Handelsausdehnungsgesetzes – jenem Instrument, das US-Präsidenten erlaubt, Zölle mit Verweis auf die nationale Sicherheit zu verhängen, unabhängig von klassischen Handelsdefiziten.\n\nZeitlich gestaffelt tritt die Maßnahme ebenfalls in Kraft: Die meisten Sätze gelten laut Weißem Haus 21 Tage nach Unterzeichnung, während Zölle auf Bauteile, die als weniger sicherheitsrelevant eingestuft werden, erst nach 180 Tagen greifen sollen."
+      },
+      {
+        "heading": "Vorgeschichte: eine weitere Zollwelle neben der Zwangsarbeits-Begründung",
+        "markdown": "Erst Ende Juli hatten die USA, wie im bisherigen Bericht zu den Zöllen gegen 60 Handelspartner dargestellt, Einfuhrzölle von 10 beziehungsweise 12,5 Prozent gegen zahlreiche Länder – darunter die EU – verhängt, damals gestützt auf den Vorwurf unzureichender Maßnahmen gegen Importe aus Zwangsarbeit. Die neue Drohnen-Zollstufe ist rechtlich und inhaltlich davon getrennt: Sie stützt sich auf eine eigene Section-232-Sicherheitsbegründung und betrifft ausschließlich Drohnen und deren Bauteile, nicht das breite Warenspektrum der Juli-Maßnahme. Beide Aktionen zusammen zeigen aber ein Muster: Die US-Regierung erweitert ihr Zollinstrumentarium um immer neue, sektor- oder themenspezifische Rechtsgrundlagen, statt eine einzelne, umfassende Zollrunde anzuwenden."
+      },
+      {
+        "heading": "Einordnung: China, DJI und offene Reaktionen",
+        "markdown": "Mehrere Medien bringen die Drohnen-Zölle mit der Marktstellung chinesischer Hersteller wie DJI in Verbindung, der Berichten zufolge einen Großteil des US-Marktes für Consumer-Drohnen kontrolliert und seit 2022 auf einer US-Liste von Unternehmen mit mutmaßlichen Verbindungen zum chinesischen Militär geführt wird. Das Fact Sheet des Weißen Hauses selbst nennt nach unserer Kenntnis weder China noch einzelne Hersteller namentlich – die China-Einordnung stammt aus der medialen Berichterstattung, nicht aus der Primärquelle.\n\nOffizielle Reaktionen der EU, Japans, Südkoreas, der Schweiz, Liechtensteins, Taiwans oder Großbritanniens auf diese konkrete, sektorspezifische Maßnahme liegen bislang nicht vor. Auch mögliche Auswirkungen auf europäische oder österreichische Drohnenhersteller, -importeure oder -anwender in Landwirtschaft und Logistik sind derzeit nicht beziffert."
+      }
+    ],
+    "bodyKompakt": "US-Präsident Donald Trump hat am 13. August 2026 eine Proklamation unterzeichnet, mit der gestaffelte Zölle auf Drohnen und deren Bauteile verhängt werden. Für Drohnen mit einem Startgewicht über 25 Kilogramm, mit Wärmebildfähigkeiten oder anderen sicherheitsrelevanten Merkmalen sowie für bestimmte kritische Bauteile solcher Drohnen fällt künftig ein Wertzoll von 100 Prozent an, für kleinere Drohnen ohne diese Eigenschaften 25 Prozent. Zusätzlich gilt eine regionale Staffelung: 15 Prozent für Drohnen und Bauteile aus der EU, Japan, Liechtenstein, Südkorea, der Schweiz und Taiwan, 10 Prozent für Großbritannien. Rechtsgrundlage ist laut Fact Sheet des Weißen Hauses eine nationale Sicherheitsbegründung nach Section 232 des US-Handelsausdehnungsgesetzes; die meisten Sätze treten 21 Tage nach Unterzeichnung in Kraft, Zölle auf weniger sicherheitsrelevante Bauteile erst nach 180 Tagen.\n\nDie Maßnahme ist von der Ende Juli verhängten, mit Zwangsarbeitsvorwürfen begründeten Zollwelle gegen 60 Handelspartner – darunter ebenfalls die EU –, wie im bisherigen Bericht dargestellt, rechtlich getrennt: Sie stützt sich auf eine eigene Sicherheitsbegründung und betrifft ausschließlich den Drohnensektor. Mehrere Medien bringen die neuen Zölle zusätzlich mit der Marktdominanz chinesischer Hersteller wie DJI in Verbindung, die im offiziellen Fact Sheet selbst aber nicht namentlich genannt werden.\n\nOffen bleiben offizielle Reaktionen der betroffenen Partner EU, Japan, Südkorea, Schweiz, Liechtenstein, Taiwan und Großbritannien sowie die konkreten wirtschaftlichen Folgen für europäische und österreichische Drohnenhersteller, -importeure und -anwender. Auch ob die Section-232-Rechtsgrundlage rechtlich angefochten wird, ist derzeit nicht absehbar.",
+    "updateNote": null,
+    "pendingOutcome": "Offizielle Reaktionen der EU und anderer betroffener Handelspartner sowie mögliche rechtliche Schritte gegen die Section-232-Begründung stehen noch aus."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-14T06:07:31.596Z"
+}
