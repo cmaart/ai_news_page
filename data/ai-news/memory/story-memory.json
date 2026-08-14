@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T20:22:05.184Z",
+  "updatedAt": "2026-08-14T22:32:31.228Z",
   "stories": {
     "google-rechenzentrum-kronstorf-ausbau-2026": {
       "canonicalTitle": "Google-Rechenzentrum Kronstorf: Demonstration mit rund 200 Teilnehmern, Grüne legen konkreten UVP-Schwellenwert vor",
@@ -630,10 +630,15 @@
       "doNotUpdateBefore": "2026-08-14T08:07:41.317Z",
       "pendingOutcome": "Offen bleibt, ob die Straße von Hormus tatsächlich weiter faktisch blockiert bleibt oder sich – entgegen Irans PGSA-Erklärung und den UKMTO-Angaben – eine tatsächliche Öffnung gemäß Trumps Kontrollbehauptung bestätigt, ob zwischen den USA und Iran echte Verhandlungen zustande kommen, und ob Trump seine angekündigten neuen Angriffe binnen vier Wochen noch umsetzt.",
       "pendingOutcomeUntil": "2026-08-15T00:07:38.765Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "orf": "2026-08-14T22:07:37.742Z",
+        "derstandard": "2026-08-14T22:07:39.235Z",
+        "kurier": "2026-08-14T22:07:38.672Z",
+        "kleinezeitung": "2026-08-14T22:07:40.251Z"
+      },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-14T02:07:41.317Z"
+      "resonanceMeasuredAt": "2026-08-14T22:07:35.676Z"
     },
     "eu-bericht-mindestalter-social-media-juli-2026": {
       "canonicalTitle": "Social-Media-Mindestalter: Pröll bestätigt Details zu Österreichs Gesetzesentwurf, Frankreichs Verbot startet im September, neue italienische Studie verknüpft frühen Social-Media-Start mit schlechteren Schulnoten",
@@ -1499,25 +1504,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-20T20:07:34.132Z"
-    },
-    "cluster-20260715-88f5f82e": {
-      "canonicalTitle": "Nobelpreisträger Hassabis schlägt unabhängige Organisation zur KI-Regulierung vor",
-      "slug": "cluster-20260715-88f5f82e",
-      "firstSeenAt": "2026-07-15T22:07:29.036Z",
-      "lastUpdatedAt": "2026-07-15T22:07:29.036Z",
-      "status": "noted",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000331545/nobelpreistraeger-hassabis-schlaegt-unabhaengige-organisation-zur-ki-regulierung-vor",
-        "https://www.derstandard.at/story/3000000331545/nobelpreistraeger-hassabis-schlaegt-unabhaengige-organisation-zur-ki-regulierung-vor"
-      ],
-      "openQuestions": [
-        "Primärquelle: Volltext der Rede, des Statements oder des Interviews von Demis Hassabis",
-        "Kontext: Wo, wann und in welchem Zusammenhang wurde der Vorschlag geäußert?",
-        "Details des Vorschlags: Testkriterien, Governance-Struktur, Timeline, Anwendungsbereich",
-        "Zweitquelle: Unabhängiger Bericht von einem anderen Medien-Outlet",
-        "Reaktionen: Stellungnahmen von EU-Regulierern, anderen KI-Führungsleuten oder Fachexperten"
-      ],
-      "sensitivity": "low"
     },
     "kritische-rohstoffe-europa-china-abhaengigkeit-2026": {
       "canonicalTitle": "Europas Rohstoffhunger wächst – und führt zurück zu China",
@@ -15847,13 +15833,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-14T20:07:39.663Z",
       "doNotUpdateBefore": "2026-08-14T02:07:39.663Z",
-      "echoPublishers": {
-        "orf": "2026-08-13T20:07:42.055Z",
-        "kleinezeitung": "2026-08-13T20:07:45.686Z"
-      },
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-13T20:07:39.663Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-14T22:07:35.676Z"
     },
     "taiwan-han-kuang-manoever-lai-august-2026": {
       "canonicalTitle": "Taiwan probt bei zehntägigem Großmanöver Abwehr eines möglichen chinesischen Angriffs",
@@ -16750,9 +16733,7 @@
       "pendingOutcome": "Unabhängige Tests zu GPS-Genauigkeit, Gesundheitsfunktionen und Kamera/KI der neuen Pixel-Geräte sowie offizielle EU-Preise für die Pixel-11-Serie stehen noch aus.",
       "pendingOutcomeUntil": "2026-08-15T12:12:34.114Z",
       "echoPublishers": {
-        "theverge": "2026-08-14T18:07:38.868Z",
-        "thedecoder": "2026-08-13T20:07:45.688Z",
-        "arstechnica": "2026-08-13T20:07:44.614Z"
+        "theverge": "2026-08-14T18:07:38.868Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
@@ -17223,7 +17204,6 @@
       "pendingOutcomeUntil": "2026-08-15T08:07:35.953Z",
       "echoPublishers": {
         "derstandard": "2026-08-14T10:07:39.045Z",
-        "diepresse": "2026-08-13T20:07:44.312Z",
         "orf": "2026-08-14T08:07:31.084Z"
       },
       "resonanceLevel": 4,
@@ -17278,27 +17258,33 @@
       "canonicalTitle": "Burgenland führt ab 2027 Lkw-Maut auf drei Landesstraßen ein",
       "slug": "burgenland-lkw-maut-landesstrassen-2027",
       "firstSeenAt": "2026-08-13T12:12:34.114Z",
-      "lastUpdatedAt": "2026-08-13T12:12:34.114Z",
+      "lastUpdatedAt": "2026-08-14T22:07:35.676Z",
       "status": "published",
       "articlePath": "src/content/articles/burgenland-lkw-maut-landesstrassen-2027.mdx",
-      "researchPath": "data/ai-news/research/2026-08-13/burgenland-lkw-maut-landesstrassen-2027.json",
+      "researchPath": "data/ai-news/research/2026-08-14/burgenland-lkw-maut-landesstrassen-2027-update-2200.json",
       "sourceUrls": [
         "https://burgenland.orf.at/stories/3366805",
         "https://www.diepresse.com/41170942/lkw-maut-im-burgenland-startet-2027-auf-drei-landesstrassen",
         "https://kurier.at/chronik/burgenland/lkw-maut-burgenland-landesstrassen-heinrich-dorner/403183387",
-        "https://www.bvz.at/burgenland/politik/geld-fuer-instandhaltung-lkw-maut-im-burgenland-startet-naechstes-jahr-auf-drei-landesstrassen-534808074"
+        "https://www.bvz.at/burgenland/politik/geld-fuer-instandhaltung-lkw-maut-im-burgenland-startet-naechstes-jahr-auf-drei-landesstrassen-534808074",
+        "https://kurier.at/chronik/steiermark/lkw-maut-landesstrassen-steiermark-fpoe-oevp/403183697",
+        "https://www.kleinezeitung.at/artikel/41174651/steirische-politik-lkw-maut-kein-vorbild-sondern-ein-alarmsignal",
+        "https://www.derstandard.at/story/3000000335503/lkw-maut-im-burgenland-startet-2027-auf-drei-landesstra223en",
+        "https://www.ots.at/presseaussendung/OTS_20260813_OTS0088/spoe-moitzi-begruesst-neue-lkw-maut-im-burgenland-wer-kosten-verursacht-muss-auch-dafuer-aufkommen",
+        "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/burgenland-fuehrt-benutzungsgebuehr-fuer-schwerverkehr-auf-ausweichrouten-ein-fairness-fuer-anrainer-und-steuerzahler/",
+        "https://www.ots.at/presseaussendung/OTS_20260813_OTS0052/wirtschaftskammer-appelliert-geplante-lkw-maut-nochmals-ueberdenken"
       ],
       "openQuestions": [
-        "Wie fällt die Stellungnahme der Wirtschaftskammer und der Speditionsbranche zur geplanten Maut im Detail aus?",
-        "Wird der Gesetzesentwurf im Zuge der vierwöchigen Begutachtung noch inhaltlich verändert?",
-        "Stimmt der burgenländische Landtag im Oktober 2026 wie angekündigt zu, oder verzögert sich der Beschluss?",
+        "Stimmt der burgenländische Landtag im Oktober 2026 wie angekündigt zu, oder verzögert sich der Beschluss angesichts der Kritik der Wirtschaftskammer?",
+        "Führt der Widerstand der Wirtschaftskammer Burgenland zu inhaltlichen Anpassungen des Gesetzesentwurfs während der laufenden Begutachtung?",
+        "Werden weitere Bundesländer dem burgenländischen Beispiel folgen, oder bleibt es wie in der Steiermark bei einer ablehnenden Haltung?",
         "Welche zusätzlichen Streckenabschnitte könnten im Fall der von Dorner angedeuteten Ausweitung künftig hinzukommen?",
         "Wie wird die Kontrolle per Kamerasystem technisch und datenschutzrechtlich konkret umgesetzt?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-08-14T12:12:34.114Z",
-      "doNotUpdateBefore": "2026-08-13T18:12:34.114Z",
-      "pendingOutcome": "Ausgang der vierwöchigen Begutachtung und der für Oktober 2026 angekündigte Landtagsbeschluss über den Gesetzesentwurf.",
+      "doNotRedraftBefore": "2026-08-15T22:07:35.676Z",
+      "doNotUpdateBefore": "2026-08-15T04:07:35.676Z",
+      "pendingOutcome": "Ausgang offen: Der Beschluss des burgenländischen Landtags im Oktober 2026, mögliche Anpassungen des Gesetzesentwurfs während der Begutachtung sowie Reaktionen weiterer Bundesländer auf das Burgenland-Modell stehen noch aus.",
       "pendingOutcomeUntil": "2026-08-15T12:12:34.114Z",
       "echoPublishers": {
         "kurier": "2026-08-14T16:07:33.444Z",
@@ -17523,14 +17509,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-14T20:07:39.663Z",
       "doNotUpdateBefore": "2026-08-14T02:07:39.663Z",
-      "echoPublishers": {
-        "derstandard": "2026-08-13T20:07:44.997Z",
-        "kurier": "2026-08-13T20:07:43.785Z",
-        "kleinezeitung": "2026-08-13T20:07:45.686Z"
-      },
-      "resonanceLevel": 3,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
+      "resonanceMeasuredAt": "2026-08-14T22:07:35.676Z"
     },
     "gaza-polizeichef-abu-kamil-luftangriff-august-2026": {
       "canonicalTitle": "Israel tötet Gazas Polizeichef bei Luftangriff – Militär spricht von Hamas-Kommandeur",
@@ -18050,7 +18032,7 @@
       },
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
+      "resonanceMeasuredAt": "2026-08-14T22:07:35.676Z"
     },
     "delfin-canal-grande-venedig-august-2026": {
       "canonicalTitle": "Delfin schwimmt nahe Rialtobrücke durch Venedigs Canal Grande",
@@ -18112,7 +18094,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-14T10:07:33.659Z"
+      "resonanceMeasuredAt": "2026-08-14T22:07:35.676Z"
     },
     "rose-oscar-kandidat-oesterreich-2027": {
       "canonicalTitle": "Österreich schickt Schleinzers Schwarz-Weiß-Drama „Rose“ ins Rennen um den Auslandsoscar",
@@ -18365,6 +18347,69 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-14T20:07:37.428Z"
+    },
+    "em-leichtathletik-800m-werro-gold-august-2026": {
+      "canonicalTitle": "Audrey Werro gewinnt EM-Gold über 800 m in Birmingham",
+      "slug": "em-leichtathletik-800m-werro-gold-august-2026",
+      "firstSeenAt": "2026-08-14T22:07:35.676Z",
+      "lastUpdatedAt": "2026-08-14T22:07:35.676Z",
+      "status": "published",
+      "articlePath": "src/content/articles/em-leichtathletik-800m-werro-gold-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-14/em-leichtathletik-800m-werro-gold-august-2026.json",
+      "sourceUrls": [
+        "https://sport.orf.at/stories/3161310",
+        "https://www.derstandard.at/story/3000000335680/schweizerin-werro-holt-em-gold-im-showdown-ueber-800-m",
+        "https://www.kleinezeitung.at/artikel/41175441/800-m-showdown-bei-em-an-schweizerin-werro",
+        "https://www.olympics.com/en/news/2026-european-athletics-championships-audrey-werro-beats-keely-hodgkinson-800m-title",
+        "https://www.sportschau.de/leichtathletik/em/ard-dopingexperte-seppelt-ansah-war-ueber-konsequenzen-informiert,la-em-2026-birmingham-owen-ansah-nada-100.html",
+        "https://ran.joyn.de/sports/mehr-sport/leichtathletik-em-owen-ansah-fragen-und-antworten-zum-doping-vorwurf-um-den-europameister-sperre-oder-viel-luft-um-nichts-170697"
+      ],
+      "openQuestions": [
+        "Wie entscheidet die zuständige Anti-Doping-Instanz im Fall Owen Ansah, und wird die vierjährige Sperre tatsächlich verhängt?",
+        "Werden Ansah rückwirkend Medaillen (100 m Bronze, 200 m Gold) aberkannt, falls die Sperre bestätigt wird?",
+        "Wie äußern sich European Athletics oder die deutsche Anti-Doping-Agentur NADA offiziell zu dem Verfahren?",
+        "Gibt es Stellungnahmen von Werro, Hodgkinson oder Broeders-Bol zum Rennverlauf über die Medienzitate hinaus?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-15T22:07:35.676Z",
+      "doNotUpdateBefore": "2026-08-15T04:07:35.676Z",
+      "pendingOutcome": "Entscheidung im Anti-Doping-Verfahren gegen Owen Ansah, einschließlich möglicher Sperre und Aberkennung seiner EM-Medaillen.",
+      "pendingOutcomeUntil": "2026-08-16T22:07:35.676Z",
+      "echoPublishers": {
+        "orf": "2026-08-14T22:07:38.881Z",
+        "derstandard": "2026-08-14T22:07:40.259Z",
+        "kleinezeitung": "2026-08-14T22:07:40.230Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-14T22:07:35.676Z"
+    },
+    "falscher-polizist-festnahme-wien-meidling-august-2026": {
+      "canonicalTitle": "Falscher Polizist in Wien-Meidling festgenommen: 75-Jährige um 70.000 Euro betrogen",
+      "slug": "falscher-polizist-festnahme-wien-meidling-august-2026",
+      "firstSeenAt": "2026-08-14T22:07:35.676Z",
+      "lastUpdatedAt": "2026-08-14T22:07:35.676Z",
+      "status": "published",
+      "articlePath": "src/content/articles/falscher-polizist-festnahme-wien-meidling-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-14/falscher-polizist-festnahme-wien-meidling-august-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3367003",
+        "https://kaernten.orf.at/stories/3366716",
+        "https://www.kleinezeitung.at/artikel/41169723/warnung-vor-anrufen-von-falschen-polizisten-in-feldkirchen"
+      ],
+      "openQuestions": [
+        "Wer war der bislang unbekannte Anrufer, der sich als Leiter des Landeskriminalamts Wien ausgab?",
+        "Gibt es weitere Mittäter oder ein größeres Betrugsnetzwerk im Hintergrund dieses Falls?",
+        "Wie äußert sich der 35-Jährige bzw. seine Verteidigung zu den Vorwürfen?",
+        "Besteht ein Zusammenhang zu anderen bereits bekannten Fällen des sogenannten Polizistentricks in Wien?",
+        "Wann wird die Staatsanwaltschaft Wien Anklage erheben, und was folgt aus der Beschlagnahme der Waffen strafrechtlich?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-15T22:07:35.676Z",
+      "doNotUpdateBefore": "2026-08-15T04:07:35.676Z",
+      "echoPublishers": {
+        "orf": "2026-08-14T12:07:36.560Z"
+      }
     }
   }
 }
