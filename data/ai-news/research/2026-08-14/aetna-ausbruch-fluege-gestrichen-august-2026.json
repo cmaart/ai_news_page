@@ -1,0 +1,208 @@
+{
+  "cluster": {
+    "id": "cluster-20260813-40263e03",
+    "title": "Hunderte Flüge durch Ätna-Ausbruch gestrichen",
+    "items": [
+      {
+        "itemId": "6b8fc6b32c72bee8dd278d2460a4a5be8fe3e8d2c771b722db913b5398251b5d",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Hunderte Flüge durch Ätna-Ausbruch gestrichen",
+        "url": "https://www.kleinezeitung.at/artikel/41170421/hunderte-fluege-durch-aetna-ausbruch-gestrichen",
+        "summary": "Der Ausbruch des Ätna verursacht auf Sizilien hohe wirtschaftliche Schäden. Nach Schätzungen des Handelsverbands Assoesercenti belaufen sich die Verluste für den Tourismussektor inzwischen auf etwa 24 Millionen Euro. Gleichzeitig bleibt der Flughafen Catania-Fontanarossa wegen der Vulkanasche bis Freitag um 2.00 Uhr geschlossen. Von Freitag bis Dienstag wurden bis einschließlich 12. August rund 700 Flüge gestrichen.",
+        "publishedAt": "2026-08-13T06:28:52.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "bcc8bafa82ca5afe427e8796eb867fb7aa5b074713d35f9910a1e6c040cbc7b3",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Ätna stößt weiter Asche aus: Flüge gestrichen",
+        "url": "https://www.derstandard.at/story/3000000335056/196tna-st246223t-weiter-asche-aus-fl252ge-wurden-gestrichen",
+        "isNew": false
+      },
+      {
+        "itemId": "b7293e53a620b280effa90d530c33df51227a1d99e2bf37ea30a9382a23f6974",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "700 Flüge gestrichen: Ätna sorgt weiter für Chaos im Reiseverkehr",
+        "url": "https://www.diepresse.com/41167800/700-fluege-gestrichen-aetna-sorgt-weiter-fuer-chaos-im-reiseverkehr",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Naturkatastrophe mit dokumentierten wirtschaftlichen und verkehrlichen Folgen. Drei unabhängige österreichische Medien (Kleine Zeitung, DER STANDARD, Die Presse) berichten mit konkreten Zahlen: ca. 700 Flüge gestrichen, etwa 24 Mio. Euro Tourismusschaden (Schätzung Handelsverband Assoesercenti), Flughafen Catania-Fontanarossa bis Freitag 2:00 Uhr geschlossen. Keine der relatedStories bildet eine Fortführung derselben Story; diese sind unrelated (LinkedIn KI, Ukraine/Russland, Ceuta Migration). Ausreichend Substanz und Quellenlage für eigenständigen Artikel; öffentliche Relevanz gegeben (Reiseverkehr, österreichische Touristen).",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Der Ätna stößt durch seinen Ausbruch Vulkanasche aus",
+      "Glühende Lavaströme bewegen sich am Hang des Vulkans talwärts",
+      "Der Flughafen Catania-Fontanarossa bleibt wegen der Vulkanasche bis Freitag um 2:00 Uhr geschlossen",
+      "Von Freitag bis Dienstag (bis einschließlich 12. August) wurden etwa 700 Flüge gestrichen oder umgeleitet",
+      "Der Tourismussektor verzeichnete Verluste von etwa 24 Millionen Euro (Schätzung des Handelsverbands Assoesercenti)"
+    ],
+    "missingSources": [
+      "Unabhängige Bestätigung der 24-Millionen-Euro-Schadensschätzung außer vom Handelsverband",
+      "Offizielle italienische Behördenstellungnahme oder Flughafen-Pressemitteilung zur Schließungsdauer",
+      "Wissenschaftliche/vulkanologische Einschätzung zur erwarteten Aktivitätsdauer",
+      "Umfang der Auswirkungen auf andere Flughäfen oder Flugverkehr außerhalb Catanias"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "aetna-ausbruch-fluege-gestrichen-august-2026",
+    "title": "Ätna-Ausbruch: Rund 700 Flüge in Catania gestrichen, Tourismusschäden von bis zu 24 Millionen Euro geschätzt",
+    "description": "Eine anhaltende Aschewolke des Ätna legt seit Tagen den Flugverkehr über Sizilien lahm: Der Flughafen Catania-Fontanarossa bleibt gesperrt, rund 700 Flüge wurden bereits gestrichen oder umgeleitet, und der Handelsverband Assoesercenti beziffert die bisherigen Tourismusschäden auf bis zu 24 Millionen Euro.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die zentralen Zahlen – rund 700 gestrichene Flüge, die Schließung des Flughafens Catania bis Freitag früh und die Schadensschätzung von bis zu 24 Millionen Euro – werden übereinstimmend von mehreren voneinander unabhängigen österreichischen und italienischen Medien sowie einer italienischen Nachrichtenagentur berichtet.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine offizielle Stellungnahme des Flughafenbetreibers, der Vulkanologie-Behörde INGV oder des Handelsverbands Assoesercenti selbst eingesehen, sondern ausschließlich Medienberichte.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um ein Naturereignis mit dokumentierten Auswirkungen ohne gegensätzliche Interessenspositionen; eine „Gegenseite“ ist bei dieser Art Ereignis nicht einschlägig.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Der Ätna ist erneut ausgebrochen und stößt seit mehreren Tagen eine dichte Aschewolke aus, die den Flugverkehr über Sizilien erheblich stört.",
+        "kind": "fact"
+      },
+      {
+        "text": "Von Anfang bis einschließlich 12. August wurden rund 700 Flüge am Flughafen Catania-Fontanarossa gestrichen, umgeleitet oder verspätet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Flughafen blieb zuletzt bis Freitag, 2.00 Uhr früh, gesperrt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Handelsverband Assoesercenti schätzt die bisherigen Einbußen für den Tourismussektor der Region auf bis zu rund 24 Millionen Euro.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie lange die eruptive Aktivität noch anhält und ob sich die Schadenssumme durch amtliche Stellen bestätigt, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lange wird die eruptive Tätigkeit des Ätna und damit die Aschebelastung für den Flugverkehr noch anhalten?",
+      "Bestätigt sich die Schadensschätzung von bis zu 24 Millionen Euro durch unabhängige oder amtliche Stellen, oder bleibt es bei der Verbandseinschätzung?",
+      "Öffnet der Flughafen Catania-Fontanarossa tatsächlich wie zuletzt angekündigt am Freitag um 2.00 Uhr wieder durchgehend?",
+      "In welchem Ausmaß sind neben Catania weitere sizilianische Flughäfen wie Palermo oder Comiso durch Umleitungen betroffen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41170421/hunderte-fluege-durch-aetna-ausbruch-gestrichen"
+      },
+      {
+        "id": "src2",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000335056/196tna-st246223t-weiter-asche-aus-fl252ge-wurden-gestrichen"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41167800/700-fluege-gestrichen-aetna-sorgt-weiter-fuer-chaos-im-reiseverkehr"
+      },
+      {
+        "id": "src4",
+        "name": "AGI (Agenzia Giornalistica Italia)",
+        "type": "agency",
+        "url": "https://www.agi.it/cronaca/news/2026-08-13/aeroporto-catania-quando-riapre-38514098/"
+      },
+      {
+        "id": "src5",
+        "name": "Giornale di Sicilia",
+        "type": "media",
+        "url": "https://catania.gds.it/articoli/economia/2026/08/12/caos-voli-a-catania-persi-gia-24-milioni-di-euro-assoesercenti-urge-una-cabina-di-regia-cdeb336d-9039-46c6-9b4a-33a9b988b9af/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der Ätna stößt seit mehreren Tagen anhaltend Vulkanasche aus, die den Flugverkehr am Flughafen Catania-Fontanarossa erheblich beeinträchtigt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Flughafen Catania-Fontanarossa blieb wegen der Aschewolke gesperrt, eine Öffnung war zuletzt für Freitag, 2.00 Uhr (14. August), vorgesehen.",
+        "status": "supported",
+        "note": "Die konkrete Uhrzeit stammt aus zwei unabhängigen Quellen (österreichisch und italienisch), kann sich aber bei anhaltender Aktivität noch verschieben.",
+        "sourceIds": [
+          "src1",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Zwischen Anfang und einschließlich 12. August wurden in Catania rund 700 Flüge gestrichen, umgeleitet oder verspätet.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Handelsverband Assoesercenti schätzt die bisherigen Einbußen für den Tourismussektor der Region Catania auf bis zu rund 24 Millionen Euro.",
+        "status": "supported",
+        "note": "Es handelt sich laut übereinstimmenden Berichten um eine Schätzung des Verbands selbst, keine amtlich geprüfte Schadenssumme.",
+        "sourceIds": [
+          "src1",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Am Hang des Vulkans bewegen sich glühende Lavaströme talwärts.",
+        "status": "partial",
+        "note": "Nur eine Quelle beschreibt explizit Lavaströme; andere Berichte sprechen allgemeiner von anhaltender eruptiver beziehungsweise effusiver Aktivität, ohne den Lavafluss näher zu beschreiben.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Ätna auf Sizilien ist erneut ausgebrochen und sorgt seit mehreren Tagen für eine dichte Aschewolke über dem Osten der Insel. Die Aktivität beeinträchtigt den Flugverkehr am Flughafen Catania-Fontanarossa, dem größten Sizilien, massiv: Der Airport blieb wegen der Vulkanasche gesperrt, eine Öffnung war zuletzt für Freitag, 2.00 Uhr früh, vorgesehen. Bereits von Anfang bis einschließlich 12. August wurden nach übereinstimmenden Berichten rund 700 Flüge gestrichen, umgeleitet oder erheblich verspätet."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Kleine Zeitung, DER STANDARD und Die Presse berichten unabhängig voneinander über die Sperre des Flughafens und die Flugausfälle. Die Zahl von rund 700 betroffenen Flügen wird zusätzlich durch die italienische Nachrichtenagentur AGI und die Regionalzeitung Giornale di Sicilia bestätigt, ebenso die für Freitagfrüh angepeilte Wiedereröffnung. Der Handelsverband Assoesercenti bezifferte die bisherigen wirtschaftlichen Einbußen für den Tourismussektor der Region auf bis zu rund 24 Millionen Euro – eine Schätzung, die sowohl von der Kleinen Zeitung als auch vom Giornale di Sicilia unter Berufung auf den Verband wiedergegeben wird. DER STANDARD beschreibt zudem glühende Lavaströme, die sich am Hang des Vulkans talwärts bewegen; diese Detailbeschreibung findet sich in den übrigen Quellen nicht in derselben Form, allgemein ist aber von anhaltender eruptiver Tätigkeit die Rede."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie lange die eruptive Aktivität noch anhält und ob der Flughafen tatsächlich wie zuletzt angekündigt am Freitag früh wieder durchgehend öffnet – solche Prognosen wurden bei früheren Ätna-Ausbrüchen bereits mehrfach nach hinten verschoben. Auch die Schadensschätzung von bis zu 24 Millionen Euro stammt bislang ausschließlich vom betroffenen Handelsverband selbst und wurde nicht durch eine amtliche oder unabhängige Stelle geprüft. Unklar bleibt zudem, in welchem Ausmaß neben Catania weitere sizilianische Flughäfen, etwa Palermo oder Comiso, durch Umleitungen zusätzlich belastet werden."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Flughafen Catania-Fontanarossa liegt in unmittelbarer Nähe des Ätna und ist bei stärkeren Ausbrüchen regelmäßig von Aschesperren betroffen – die aktuelle Situation reiht sich in eine länger diskutierte Debatte über die Standortwahl des Airports ein. Für den Tourismus der Region, die stark von Sommergästen abhängt, kommen Ausfälle dieser Größenordnung zu einem wirtschaftlich sensiblen Zeitpunkt in der Hauptsaison."
+      }
+    ],
+    "bodyKompakt": "Der Ätna auf Sizilien ist erneut ausgebrochen und stößt seit mehreren Tagen eine dichte Aschewolke aus, die den Flugverkehr über der Insel erheblich stört. Der Flughafen Catania-Fontanarossa, der größte Siziliens, blieb deshalb gesperrt, eine Öffnung war zuletzt für Freitag, 2.00 Uhr früh, vorgesehen. Rund 700 Flüge wurden bis einschließlich 12. August bereits gestrichen, umgeleitet oder verspätet.\n\nDie Zahlen zu Flugausfällen und Schließungszeit werden von mehreren unabhängigen österreichischen und italienischen Medien sowie einer italienischen Nachrichtenagentur übereinstimmend berichtet. Der Handelsverband Assoesercenti schätzt die bisherigen Einbußen für den regionalen Tourismussektor auf bis zu rund 24 Millionen Euro – eine Verbandsschätzung, die bislang nicht amtlich geprüft wurde.\n\nOffen bleibt, wie lange die eruptive Aktivität noch andauert, ob der Flughafen tatsächlich wie angekündigt wieder öffnet und wie belastbar die Schadenssumme letztlich ist. Auch mögliche zusätzliche Belastungen für andere sizilianische Flughäfen sind derzeit nicht abschließend geklärt.",
+    "updateNote": null,
+    "pendingOutcome": "Ob der Flughafen Catania-Fontanarossa wie zuletzt angekündigt am Freitag um 2.00 Uhr wieder öffnet und wie sich Flugausfälle sowie die geschätzten Tourismusschäden in den Folgetagen weiterentwickeln."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-14T04:07:29.836Z"
+}
