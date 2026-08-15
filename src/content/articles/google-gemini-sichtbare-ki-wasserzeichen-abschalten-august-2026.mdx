@@ -1,0 +1,123 @@
+---
+title: Google erlaubt Nutzern, sichtbare KI-Wasserzeichen bei Gemini-Inhalten auszuschalten
+description: Google führt in Gemini und dem Videotool Flow eine Einstellung ein, mit der sich das sichtbare „Sparkle“-Wasserzeichen auf KI-generierten Bildern, Videos und Musikstücken deaktivieren lässt – unsichtbare SynthID- und C2PA-Kennzeichnungen bleiben laut Unternehmen in jedem Fall erhalten.
+publishedAt: 2026-08-15T00:07:35.108Z
+topic: technologie
+country: int
+status: published
+generationMode: ai_generated
+editorialReview: none
+confidence: high
+confidenceNote: Die Kernfakten stammen aus einer eigenen Ankündigung des offiziellen Gemini-Accounts und werden von zwei unabhängig recherchierenden Medien (The Verge, TechCrunch) mit übereinstimmenden Kernaussagen bestätigt.
+primarySourceStrength: medium
+sourceStrengthNote: Der offizielle Gemini-Account und Googles Entwicklerblog zu Credentio wurden direkt eingesehen, ein ausführliches offizielles Dokument speziell zur Wasserzeichen-Einstellung selbst liegt aber nicht vor.
+framingRisk: medium
+framingRiskNote: Die Darstellung stützt sich fast ausschließlich auf Googles eigene Formulierung vom Ausgleich zwischen kreativer Kontrolle und Sicherheit; unabhängige kritische Einschätzungen zu möglichen Desinformationsrisiken kommen in den Quellen nur am Rande vor.
+newsworthiness: 3
+summary:
+  - text: Google führt für Gemini und das Videotool Flow eine neue Einstellung „Media Watermark“ ein, mit der sich das sichtbare Wasserzeichen auf KI-generierten Bildern, Videos und Musikstücken ausschalten lässt.
+    kind: fact
+  - text: Unsichtbare SynthID-Wasserzeichen und C2PA-Metadaten bleiben laut Google unabhängig von dieser Einstellung erhalten und weiterhin über Gemini oder die Suche abfragbar.
+    kind: fact
+  - text: Die Funktion betrifft die Modelle Nano Banana, Omni und Lyria und soll künftig auch in der Google-Suche verfügbar sein.
+    kind: fact
+  - text: Parallel hat Google die quelloffene Prüfbibliothek Credentio veröffentlicht, mit der sich C2PA-Kennzeichnungen lokal verifizieren lassen.
+    kind: fact
+  - text: In welchen Ländern das Abschalten wegen gesetzlicher Kennzeichnungspflichten nicht möglich sein wird, benennt Google bislang nicht konkret.
+    kind: open
+openQuestions:
+  - In welchen Ländern das Abschalten des sichtbaren Wasserzeichens wegen gesetzlicher Kennzeichnungspflichten nicht möglich sein wird.
+  - Ab welchem genauen Datum die Funktion vollständig in Gemini, Flow und der Google-Suche ausgerollt ist.
+  - Wie unabhängige Fachleute und Regulierungsbehörden die Entscheidung im Hinblick auf Desinformations- und Deepfake-Risiken bewerten.
+  - Ob und wie sich der Schritt zu bestehenden Transparenzvorgaben für KI-generierte Inhalte in der EU verhält.
+sources:
+  - id: src1
+    name: The Verge
+    type: media
+    url: https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal
+  - id: src2
+    name: TechCrunch
+    type: media
+    url: https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations
+  - id: src3
+    name: Gemini App (offizieller X-Account)
+    type: official
+    url: https://x.com/GeminiApp/status/2088277477672255830
+  - id: src4
+    name: "Google Developers Blog: Credentio"
+    type: official
+    url: https://developers.googleblog.com/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/
+  - id: src5
+    name: Ars Technica
+    type: media
+    url: https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product
+claims:
+  - id: claim1
+    text: Google führt eine neue Einstellung „Media Watermark“ ein, mit der sich das sichtbare Wasserzeichen auf mit Gemini und Flow erzeugten Bildern, Videos und Musikstücken abschalten lässt, Rollout „in den kommenden Tagen“.
+    status: supported
+    sourceIds:
+      - src1
+      - src2
+      - src3
+  - id: claim2
+    text: Unsichtbare SynthID-Wasserzeichen und C2PA-Metadaten bleiben laut Google unabhängig von der neuen Einstellung erhalten.
+    status: supported
+    sourceIds:
+      - src1
+      - src2
+      - src3
+  - id: claim3
+    text: Die Option gilt für die Modelle Nano Banana, Omni und Lyria, soll auch in der Google-Suche ausgerollt werden, ist aber in Ländern mit gesetzlicher Kennzeichnungspflicht eingeschränkt.
+    status: partial
+    note: Welche Länder konkret betroffen sind und wie die Einschränkung technisch umgesetzt wird, bleibt in den Quellen unspezifisch.
+    sourceIds:
+      - src1
+      - src2
+  - id: claim4
+    text: Google hat parallel zur Wasserzeichen-Einstellung die quelloffene C++-Bibliothek Credentio veröffentlicht, mit der sich C2PA-Content-Credentials lokal ohne Cloud-Abgleich prüfen lassen.
+    status: supported
+    sourceIds:
+      - src2
+      - src4
+  - id: claim5
+    text: Gemini hat laut Google im gleichen Zeitraum die Marke von einer Milliarde monatlich aktiven Nutzern überschritten.
+    status: supported
+    note: Separate Ankündigung, zeitlich parallel, aber ohne belegten inhaltlichen Zusammenhang zur Wasserzeichen-Änderung.
+    sourceIds:
+      - src5
+corrections: []
+resonance:
+  level: 2
+  measuredAt: 2026-08-15T00:07:35.108Z
+  source: zaehlung
+---
+
+<Kompakt>
+
+Google führt in Gemini und dem KI-Videotool Flow eine neue Einstellung namens „Media Watermark“ ein, mit der sich das sichtbare „Sparkle“-Wasserzeichen auf Bildern, Videos und Musikstücken ausschalten lässt, die mit den Modellen Nano Banana, Omni und Lyria erzeugt wurden. Der Rollout beginnt laut dem offiziellen Gemini-Account in den kommenden Tagen; die Option findet sich unter Einstellungen > Media Watermark und soll später auch in der Google-Suche verfügbar sein – nicht jedoch in Ländern mit gesetzlicher Kennzeichnungspflicht, die Google nicht näher benennt.
+
+Unabhängig von dieser Einstellung bleiben unsichtbare SynthID-Wasserzeichen und C2PA-Metadaten erhalten, wie Google-Manager Josh Woodward gegenüber The Verge und TechCrunch betonte. Parallel hat Google die quelloffene Bibliothek Credentio veröffentlicht, mit der sich C2PA-Kennzeichnungen lokal prüfen lassen.
+
+Die Ankündigung fällt in dieselbe Woche, in der Google vermeldet, Gemini habe die Marke von einer Milliarde monatlich aktiven Nutzern überschritten. Offen bleiben die betroffenen Länder, der genaue Rollout-Zeitplan sowie unabhängige Einschätzungen zu möglichen Desinformationsrisiken.
+
+</Kompakt>
+
+<Standard>
+
+## Was passiert ist
+
+Google erweitert Gemini und das KI-Videotool Flow um eine neue Einstellung namens „Media Watermark“. Nutzer können damit das sichtbare, meist rechts unten platzierte „Sparkle“-Symbol auf Bildern, Videos und Musikstücken abschalten, die mit den hauseigenen Modellen Nano Banana, Omni und Lyria erzeugt wurden. Die Ankündigung über den offiziellen Account @GeminiApp beschreibt den Rollout als schrittweise Einführung in den kommenden Tagen; die Option findet sich künftig unter Einstellungen > Media Watermark. Auch für die Google-Suche ist die Funktion laut Unternehmen geplant – allerdings nicht in Ländern, in denen sichtbare Kennzeichnungen gesetzlich vorgeschrieben sind. Welche Länder das konkret betrifft, benennt Google bislang nicht.
+
+## Was die Quellen zeigen
+
+The Verge und TechCrunch berichteten unabhängig voneinander am 14. August 2026 über die Ankündigung und zitieren übereinstimmend Josh Woodward, Vice President für Google Labs, Gemini und AI Studio: Man wolle einen Ausgleich zwischen kreativer Kontrolle und Sicherheit schaffen. Auch wenn das sichtbare Wasserzeichen optional werde, blieben die unsichtbaren SynthID-Marker und die C2PA-Metadaten im Hintergrund erhalten – Nutzer könnten über Gemini oder die Google-Suche weiterhin abfragen, ob ein Inhalt KI-generiert wurde. Der offizielle Gemini-Account bestätigte diese Kernaussagen in einem eigenen Beitrag auf X. Parallel zur Ankündigung hat Google laut TechCrunch und dem eigenen Entwicklerblog die quelloffene C++-Bibliothek Credentio veröffentlicht, mit der sich C2PA-Content-Credentials lokal und ohne Cloud-Abgleich prüfen lassen – nach Unternehmensangaben bereits in rund 40 eigenen Produkten im Einsatz.
+
+## Einordnung
+
+Die Entscheidung fällt in eine Phase, in der Anbieter von KI-Bild- und Videogeneratoren die Wasserzeichen-Frage unterschiedlich handhaben: Laut den Berichten verzichten OpenAI und Meta bereits auf sichtbare Marker und setzen stattdessen auf unsichtbare Kennzeichnungen beziehungsweise Metas „Content Seal“-Standard, während Anthropic erst kürzlich unsichtbare Wasserzeichen für Text- und Bildausgaben von Claude eingeführt hat. Die Änderung fällt zudem in dieselbe Woche, in der Google vermeldet, dass Gemini die Marke von einer Milliarde monatlich aktiven Nutzern überschritten hat – ein nach mehreren Medienberichten bislang beispiellos schnelles Wachstum für ein Google-Produkt. Ein inhaltlicher Zusammenhang zwischen beiden Ankündigungen lässt sich aus den vorliegenden Quellen nicht belegen, beide unterstreichen aber, welches Gewicht Google der KI-Mediengenerierung derzeit beimisst.
+
+## Was unklar bleibt
+
+Offen bleibt, welche Länder konkret von der Deaktivierungsoption ausgenommen sind, weil dort sichtbare Kennzeichnungen gesetzlich vorgeschrieben sind – ein Hinweis, der auf regulatorische Rahmen für KI-generierte Inhalte hindeuten könnte, ohne dass Google das in den vorliegenden Quellen näher ausführt. Ebenso unklar ist der genaue Zeitplan für den vollständigen Rollout in Gemini, Flow und der Google-Suche. Unabhängige Einschätzungen von Regulierungsbehörden oder Fachleuten zu möglichen Risiken der Änderung – etwa für die Erkennung von Deepfakes, worauf The Verge in einem verlinkten Hintergrundbeitrag hinweist – liegen bislang nicht vor.
+
+</Standard>
