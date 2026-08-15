@@ -1,0 +1,202 @@
+{
+  "cluster": {
+    "id": "cluster-20260814-3d5b4631",
+    "title": "Ideologie hilft nicht gegen Dürre",
+    "items": [
+      {
+        "itemId": "d77f8f33e69e74c7915f5863da8271d55e6cfaae485306fc0e3d789b0b5ba64f",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Ideologie hilft nicht gegen Dürre",
+        "url": "https://kurier.at/meinung/leitartikel/duerre-hilfe-bauern-koalition-streit-totschnig-leitartikel/403183766",
+        "summary": "Die Regierung konnte sich nicht auf ein Hilfspaket für die Landwirtschaft einigen. Parteipolitik scheint da wichtiger zu sein als Unterstützung in der Not.",
+        "publishedAt": "2026-08-14T16:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "89e0e16d2e51c5d03d8932f467cd0e64de372f3cba76f43cd4a4811a57676ffe",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Nach der Dürre ist vor der Dürre",
+        "url": "https://www.derstandard.at/story/3000000335288/nach-der-duerre-ist-vor-der-duerre",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Koalitionskonflikt um österreichisches Dürre-Hilfspaket nach massiver Hitzewelle 2026; konkrete Forderung des Landwirtschaftsministers (250 Mio €), Ablehnung durch SPÖ/Neos, Schadensumme ca. 1 Mrd €. Zwei unabhängige österreichische Quellen mit Volltext; klare politische und wirtschaftliche Relevanz für Österreich (Versorgungssicherheit, Koalitionsstabilität). Keine passende Related Story vorhanden.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Dürre-Schäden in österreichischer Landwirtschaft 2026: etwa 1 Milliarde Euro",
+      "Landwirtschaftsminister Norbert Totschnig fordert 250 Millionen Euro Hilfspaket",
+      "SPÖ-Finanzminister Markus Marterbauer und Neos-Budgetsprecherin lehnen Paket ab – Argument: fehlende Gegenfinanzierung",
+      "Nur ein Teil der Dürre-Schäden ist versichert",
+      "Hagelversicherung hat Schadensumme mit Zahlen untermauert"
+    ],
+    "missingSources": [
+      "Exakte Schadensquantifizierung und Versicherungsquote (Prozent) von der Hagelversicherung",
+      "Direktes Statement von SPÖ-Finanzministerium und Neos-Budgetsprecherin (aktuell nur über Meinungsartikel mittelbar)",
+      "Positionierung des Landwirtschaftsministeriums zum Versicherungs-Argument",
+      "Verfügbare Rückfinanzierungsoptionen oder konkrete Regierungspläne nach Gipfel-Scheitern"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "duerre-hilfspaket-bauern-koalition-streit-august-2026",
+    "title": "Koalition scheitert vorerst an Dürre-Hilfspaket für die Landwirtschaft",
+    "description": "Nach Dürreschäden von rund einer Milliarde Euro in der österreichischen Landwirtschaft ist ein Gipfeltreffen der Koalition zu einem von Landwirtschaftsminister Norbert Totschnig geforderten 250-Millionen-Euro-Hilfspaket am Freitag ohne Einigung zu Ende gegangen.",
+    "topic": "politik",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Mehrere voneinander unabhängige österreichische Medien (u. a. ORF, Kurier, Der Standard, Salzburger Nachrichten) sowie eine Presseaussendung der Hagelversicherung zu den eigenen Schadenszahlen stimmen in den Kernfakten überein.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde kein Dokument einer Regierungsstelle oder Partei direkt abgerufen und gelesen; die Zahlen der Hagelversicherung stammen aus einer Presseaussendung, die nur über Suchergebnisse und Medienberichte, nicht im Volltext, eingesehen wurde.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die vorliegenden Texte sind überwiegend Kommentare bzw. Berichte, die die Position der ÖVP/Landwirtschaft prominent wiedergeben; direkte, im Volltext gelesene Stellungnahmen von SPÖ, Neos oder dem Landwirtschaftsministerium selbst liegen nicht vor.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Die Dürre 2026 hat in der österreichischen Landwirtschaft laut Hagelversicherung Schäden von rund einer Milliarde Euro verursacht.",
+        "kind": "fact"
+      },
+      {
+        "text": "Landwirtschaftsminister Norbert Totschnig (ÖVP) fordert ein Hilfspaket von rund 250 Millionen Euro für betroffene Bäuerinnen und Bauern.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein Gipfeltreffen mit Finanzminister Marterbauer, Staatssekretärin Schmidt (beide SPÖ) und Neos-Vertreterin Doppelbauer ging am Freitag ohne Einigung zu Ende – Streitpunkt ist die Gegenfinanzierung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und wie die Koalition die Blockade auflöst und ob nicht versicherte Betriebe eigens unterstützt werden, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie und wann will die Koalition die Blockade beim Hilfspaket auflösen?",
+      "Wird es eine gesonderte Unterstützung für nicht versicherte Landwirtschaftsbetriebe geben?",
+      "Wie positionieren sich SPÖ, Neos und das Landwirtschaftsministerium in eigenen, direkt einsehbaren Stellungnahmen zur Gegenfinanzierung?",
+      "Setzt die FPÖ ihre angekündigte Drohung mit einer Sondersitzung des Parlaments tatsächlich um?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier – Leitartikel „Ideologie hilft nicht gegen Dürre“",
+        "type": "media",
+        "url": "https://kurier.at/meinung/leitartikel/duerre-hilfe-bauern-koalition-streit-totschnig-leitartikel/403183766"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard – „Nach der Dürre ist vor der Dürre“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000335288/nach-der-duerre-ist-vor-der-duerre"
+      },
+      {
+        "id": "src3",
+        "name": "ORF.at – „Dürre: Koalition bei Bauernhilfen weiter uneins“",
+        "type": "media",
+        "url": "https://orf.at/stories/3439140/"
+      },
+      {
+        "id": "src4",
+        "name": "Salzburger Nachrichten – „Dürre – Regierungstreffen ergebnislos zu Ende gegangen“",
+        "type": "media",
+        "url": "https://www.sn.at/wirtschaft/oesterreich/duerre-regierungstreffen-ergebnislos-zu-ende-gegangen-art-667549"
+      },
+      {
+        "id": "src5",
+        "name": "Österreichische Hagelversicherung – Presseaussendung „Rekord-Dürreschäden in der Landwirtschaft“ (via OTS)",
+        "type": "press_release",
+        "url": "https://www.ots.at/presseaussendung/OTS_20260810_OTS0049/hagelversicherung-rekord-duerreschaeden-in-der-landwirtschaft"
+      },
+      {
+        "id": "src6",
+        "name": "Heute.at – „Sorge um Bauern! Jetzt geht Kickl auf Regierung los“",
+        "type": "media",
+        "url": "https://www.heute.at/s/sorge-um-bauern-jetzt-geht-kickl-auf-regierung-los-120237946"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Dürre 2026 hat in der österreichischen Landwirtschaft Schäden von rund einer Milliarde Euro verursacht, wovon die Hagelversicherung rund 400 Millionen Euro deckt (rund 80 Prozent der Ackerflächen, rund 40 Prozent des Grünlands sind versichert).",
+        "status": "supported",
+        "note": "Von der Hagelversicherung selbst kommunizierte Schadenszahlen, durch mehrere unabhängige Medien übereinstimmend wiedergegeben; die Presseaussendung selbst wurde nicht im Volltext, sondern über Suchergebnisse eingesehen.",
+        "sourceIds": [
+          "src5",
+          "src3",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Landwirtschaftsminister Norbert Totschnig (ÖVP) fordert ein Dürre-Hilfspaket von rund 250 Millionen Euro für betroffene Landwirtinnen und Landwirte.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Ein Gipfeltreffen von Totschnig mit Finanzminister Marterbauer und Staatssekretärin Schmidt (beide SPÖ) sowie Neos-Vertreterin Karin Doppelbauer ist am Freitag, den 14. August 2026, ohne Einigung zu Ende gegangen; SPÖ und Neos verweisen auf eine fehlende Gegenfinanzierung.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Umstritten ist auch, ob Betriebe, die sich nicht gegen Dürre versichert haben, eigens unterstützt werden sollen.",
+        "status": "partial",
+        "note": "Der Punkt wird in den Quellen unterschiedlich gerahmt – einmal als offene Verhandlungsfrage, einmal als kommentierende Forderung –, eine direkte Stellungnahme der Koalitionspartner dazu liegt nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "FPÖ-Chef Herbert Kickl positioniert sich in der Debatte als Fürsprecher der Bauern und erhöht den politischen Druck auf die Koalition.",
+        "status": "partial",
+        "note": "Die allgemeine Positionierung wird von zwei Quellen unabhängig beschrieben; ein konkretes Ultimatum bzw. eine angekündigte Sondersitzung des Parlaments stammt nur aus einer Quelle und wurde nicht im Volltext geprüft.",
+        "sourceIds": [
+          "src1",
+          "src6"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Nach einer der schwersten Dürreperioden der vergangenen Jahre ist ein Hilfspaket für die österreichische Landwirtschaft vorerst am Widerstand der Koalitionspartner gescheitert. Landwirtschaftsminister Norbert Totschnig (ÖVP) fordert rund 250 Millionen Euro, um Bäuerinnen und Bauern für die Ernteausfälle zu entschädigen. Ein eigens dafür angesetztes Gipfeltreffen mit Finanzminister Markus Marterbauer und Staatssekretärin Michaela Schmidt (beide SPÖ) sowie der Neos-Vertreterin Karin Doppelbauer endete am Freitag ohne Ergebnis. Als Begründung nennen SPÖ und Neos vor allem die fehlende Gegenfinanzierung der Summe.\n\nHintergrund ist eine historische Hitze- und Trockenperiode, die laut der Österreichischen Hagelversicherung heuer zu Schäden von rund einer Milliarde Euro in der Landwirtschaft geführt hat – ein Vielfaches der Werte vergangener Jahre. Ein Teil davon ist über die Hagelversicherung gedeckt, ein erheblicher Teil bleibt nach den vorliegenden Zahlen aber unversichert."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Übereinstimmend berichten mehrere österreichische Medien, dass die Positionen in der Koalition nach dem gescheiterten Gipfel weit auseinanderliegen: Die ÖVP drängt auf rasche und umfangreiche Hilfe, SPÖ und Neos verweisen auf das Budget und darauf, dass eine Nachschärfung im Frühjahr beschlossene Budgetgrenzen sprengen würde. Diskutiert wird dabei auch, ob und wie Betriebe unterstützt werden sollen, die sich nicht gegen Dürre abgesichert haben.\n\nDer Kurier ordnet das Scheitern in seinem Leitartikel als ideologisch geprägten Konflikt zwischen Landwirtschaft und Arbeiterkammer-Klientel ein und kritisiert zugleich, dass auch das Landwirtschaftsministerium mit den Forderungen spät dran gewesen sei. Der Standard wiederum hält fest, dass weder Marterbauer noch Totschnig bislang eine überzeugende Linie zur Finanzierung vorgelegt hätten. Aus dem Konflikt zieht laut Berichten auch FPÖ-Chef Herbert Kickl politischen Nutzen, indem er sich als Anwalt der Bauern positioniert und Druck auf die Regierungsparteien aufbaut."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wann und mit welchem Kompromiss die Koalition die Blockade auflösen will. Unklar bleibt auch, wie eine mögliche Sonderregelung für nicht versicherte Betriebe konkret aussehen könnte und wer eine solche Regelung mittragen würde. Zur genauen Aufteilung der Schadenssumme zwischen Acker- und Grünlandflächen sowie zu den exakten Modalitäten der Hagelversicherung liegt keine im Volltext gelesene Originalquelle vor, sondern nur über Medien und Suchergebnisse vermittelte Angaben. Ebenso wenig lässt sich aus den vorliegenden Quellen abschließend beurteilen, ob und in welcher Form die von der FPÖ ins Spiel gebrachte Drohung mit einer Sondersitzung des Parlaments tatsächlich umgesetzt wird."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Streit fällt in eine Phase, in der die Dürre 2026 die Wasser- und Ressourcenpolitik insgesamt stärker in den Fokus rückt: Wie berichtet, entfällt laut Industriellenvereinigung und einer Umweltbundesamt-Studie rund 70 Prozent der Wasserentnahme in Österreich auf Industrie und Gewerbe – ein Umstand, der die Debatte über Wasserknappheit und ihre Verteilung auf verschiedene Sektoren zusätzlich befeuert. Die aktuelle Auseinandersetzung um das Bauern-Hilfspaket zeigt zudem ein wiederkehrendes Muster in der heimischen Innenpolitik: Verteilungskonflikte zwischen ÖVP-nahen Interessenvertretungen und den übrigen Koalitionsparteien, die sich in Budgetfragen zuspitzen. Kommentare wie jener des Kurier bewerten das Verhalten der Beteiligten explizit – diese Einschätzungen sind als Meinung der jeweiligen Redaktion zu lesen, nicht als über alle Quellen hinweg gesicherter Fakt."
+      }
+    ],
+    "bodyKompakt": "Ein Hilfspaket für die von der Dürre 2026 schwer getroffene österreichische Landwirtschaft ist vorerst am Widerstand der Koalitionspartner gescheitert. Landwirtschaftsminister Norbert Totschnig (ÖVP) fordert rund 250 Millionen Euro für betroffene Bäuerinnen und Bauern. Ein Gipfeltreffen mit Finanzminister Markus Marterbauer und Staatssekretärin Michaela Schmidt (beide SPÖ) sowie der Neos-Vertreterin Karin Doppelbauer endete am Freitag ohne Einigung – als Grund nennen SPÖ und Neos die fehlende Gegenfinanzierung.\n\nHintergrund ist eine historische Trockenperiode, die laut Österreichischer Hagelversicherung heuer Schäden von rund einer Milliarde Euro in der Landwirtschaft verursacht hat, von denen nur ein Teil versichert ist. Umstritten ist unter anderem, ob auch nicht versicherte Betriebe eigens unterstützt werden sollen. Berichten zufolge nutzt FPÖ-Chef Herbert Kickl den Konflikt, um sich als Fürsprecher der Bauern zu positionieren und Druck auf die Koalition aufzubauen.\n\nOffen bleibt, wann und mit welchem Kompromiss die Regierungsparteien die Blockade auflösen wollen und wie eine mögliche Sonderregelung für unversicherte Betriebe aussehen könnte. Eigene, im Volltext gelesene Stellungnahmen von SPÖ, Neos oder dem Landwirtschaftsministerium liegen bislang nicht vor.",
+    "updateNote": null,
+    "pendingOutcome": "Ergebnis der weiteren Koalitionsverhandlungen über ein Dürre-Hilfspaket für die Landwirtschaft, einschließlich einer möglichen Einigung auf Gegenfinanzierung und Umgang mit unversicherten Betrieben."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-15T04:07:38.517Z"
+}
