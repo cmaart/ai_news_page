@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T16:21:45.573Z",
+  "updatedAt": "2026-08-16T08:23:20.587Z",
   "stories": {
     "google-rechenzentrum-kronstorf-ausbau-2026": {
       "canonicalTitle": "Google-Rechenzentrum Kronstorf: Demonstration mit rund 200 Teilnehmern, Grüne legen konkreten UVP-Schwellenwert vor",
@@ -628,15 +628,10 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-15T02:07:41.317Z",
       "doNotUpdateBefore": "2026-08-14T08:07:41.317Z",
-      "echoPublishers": {
-        "orf": "2026-08-14T22:07:37.742Z",
-        "derstandard": "2026-08-15T00:07:38.095Z",
-        "kurier": "2026-08-14T22:07:38.672Z",
-        "kleinezeitung": "2026-08-14T22:07:40.251Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-15T04:07:38.517Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "eu-bericht-mindestalter-social-media-juli-2026": {
       "canonicalTitle": "Social-Media-Mindestalter: Pröll bestätigt Details zu Österreichs Gesetzesentwurf, Frankreichs Verbot startet im September, neue italienische Studie verknüpft frühen Social-Media-Start mit schlechteren Schulnoten",
@@ -1289,50 +1284,6 @@
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-01T22:07:34.112Z"
     },
-    "openai-smart-speaker-hardware-2026": {
-      "canonicalTitle": "OpenAI bringt mit „Codex Micro“ erste erhältliche Hardware heraus – Smart-Speaker-Pläne bleiben Berichtssache, Apple-Klage jetzt offiziell eingereicht",
-      "slug": "openai-smart-speaker-hardware-2026",
-      "firstSeenAt": "2026-07-15T12:07:30.734Z",
-      "lastUpdatedAt": "2026-07-17T06:07:26.099Z",
-      "status": "published",
-      "articlePath": "src/content/articles/openai-smart-speaker-hardware-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/openai-smart-speaker-hardware-2026-update-600.json",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000331535/openais-erstes-geraet-soll-ein-beweglicher-smarter-lautsprecher-sein",
-        "https://www.golem.de/news/smart-home-openai-baut-angeblich-einen-mobilen-ki-lautsprecher-2607-210880.html",
-        "https://www.diepresse.com/37387121/erstes-hardware-projekt-openai-arbeitet-an-ki-lautsprecher",
-        "https://www.heise.de/news/OpenAIs-erstes-KI-Geraet-soll-ein-Smart-Speaker-mit-mechanischen-Elementen-sein-11365030.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://the-decoder.de/openais-erstes-ki-hardware-soll-ein-mobiler-lautsprecher-ohne-bildschirm-werden",
-        "https://www.heise.de/news/OpenAIs-erstes-KI-Geraet-soll-ein-Smart-Speaker-mit-mechanischen-Elementen-sein-11365030.html",
-        "https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion",
-        "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
-        "https://www.macrumors.com/2026/07/14/openai-ai-hardware-device-speaker/",
-        "https://futurezone.at/produkte/openai-chatgpt-geraet-codex-mikro-coding-tastatur-coding-hardware/403176531",
-        "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-        "https://www.zdfheute.de/wirtschaft/unternehmen/apple-klage-openai-diebstahl-geschaeftsgeheimnisse-100.html",
-        "https://t3n.de/news/geschaeftsgeheimnisse-apple-openai-1752432/",
-        "https://openai.com/index/introducing-gpt-live/",
-        "https://www.heise.de/news/OpenAI-Erstes-Hardware-Geraet-ist-ein-Makro-Pad-fuer-230-US-Dollar-11368264.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://www.heise.de/news/OpenAI-Erstes-Hardware-Geraet-ist-ein-Makro-Pad-fuer-230-US-Dollar-11368264.html",
-        "https://openai.com/supply/co-lab/work-louder/",
-        "https://worklouder.cc/codex-micro"
-      ],
-      "openQuestions": [
-        "Wie ist der aktuelle Verfahrensstand der Apple-Klage, und wie reagieren OpenAI sowie die namentlich genannten Beschuldigten offiziell darauf?",
-        "Bestätigt OpenAI offiziell die Rolle von Jony Ive, Tang Tan, Evans Hankey und Paul Meade beim Smart-Speaker-Projekt?",
-        "Hält OpenAI an einem Marktstart des Smart Speakers 2027 fest, oder verschiebt sich der Zeitplan erneut?",
-        "Wie lauten die genauen technischen Spezifikationen des Smart Speakers (Akkulaufzeit, Sensorik, Preis)?",
-        "Ist GPT-Live tatsächlich die für den geplanten Smart Speaker vorgesehene Sprachtechnologie, oder handelt es sich um zwei unabhängige Entwicklungsstränge?",
-        "Wird „Codex Micro“ über die limitierte Erstauflage hinaus in größerer Stückzahl nachproduziert?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
-      "doNotUpdateBefore": "2026-07-17T12:07:26.099Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-18T06:07:27.202Z"
-    },
     "ukraine-verteidigungsminister-fedorow-ruecktritt-juli-2026": {
       "canonicalTitle": "Ukraine: Nach Protesten entlässt Selenskyj auch Oberbefehlshaber Syrskyj – General Drapatyj übernimmt",
       "slug": "ukraine-verteidigungsminister-fedorow-ruecktritt-juli-2026",
@@ -1434,115 +1385,6 @@
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-20T20:07:34.132Z"
     },
-    "hegseth-testosterontest-us-soldaten-2026": {
-      "canonicalTitle": "US-Verteidigungsminister Hegseth ordnet Testosteron-Screening für Soldaten ab 30 an – erste Kritik aus dem Kongress",
-      "slug": "hegseth-testosterontest-us-soldaten-2026",
-      "firstSeenAt": "2026-07-16T09:31:48.821Z",
-      "lastUpdatedAt": "2026-07-16T18:07:38.908Z",
-      "status": "published",
-      "articlePath": "src/content/articles/hegseth-testosterontest-us-soldaten-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/hegseth-testosterontest-us-soldaten-2026-update-1800.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3436322",
-        "https://www.derstandard.at/story/3000000331688/hegseth-fordert-fuer-us-soldaten-testosteron-tests",
-        "https://www.diepresse.com/37659083/us-verteidigungsminister-hegseth-will-soldaten-auf-testosteronmangel-ueberpruefen",
-        "https://kurier.at/politik/ausland/hegseth-fordert-fuer-soldaten-ab-30-tests-der-testosteronwerte/403176371",
-        "https://www.nbcnews.com/politics/trump-administration/pete-hegseth-says-military-will-test-service-members-testosterone-leve-rcna587682",
-        "https://www.stripes.com/theaters/us/2026-07-15/hegseth-approve-testosterone-testing-troops-22274442.html",
-        "https://www.kleinezeitung.at/artikel/37909786/ein-minister-im-rambo-modus",
-        "https://thehill.com/policy/defense/5969935-hegseth-testosterone-testing-dod/",
-        "https://www.pbs.org/newshour/world/hegseth-announces-new-policy-to-test-troops-for-low-testosterone-and-offer-them-hormone-replacement-therapy"
-      ],
-      "openQuestions": [
-        "Wann genau tritt das Screening-Programm in Kraft und wie wird die Umsetzung in den Streitkräften kontrolliert?",
-        "Existiert eine schriftliche, offiziell veröffentlichte Pentagon-Direktive zu der Maßnahme, oder bleibt es bei der Video-Ankündigung?",
-        "Wie bewerten Militärmedizinerinnen und -mediziner einen pauschalen Alters-Schwellenwert von 30 Jahren?",
-        "Wird das Hormon-Screening künftig, wie von Teilen des Kongresses gefordert, auch für weibliche Soldatinnen angeboten?",
-        "Was genau sieht die im Zusammenhang genannte Bestimmung des NDAA 2025 zur Berichtspflicht an den Kongress konkret vor?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-17T18:07:38.908Z",
-      "doNotUpdateBefore": "2026-07-17T00:07:38.908Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T20:07:26.390Z"
-    },
-    "uber-delivery-hero-uebernahme-juli-2026": {
-      "canonicalTitle": "Uber übernimmt Delivery Hero für rund 12,7 Milliarden Euro – auch Foodora Österreich betroffen",
-      "slug": "uber-delivery-hero-uebernahme-juli-2026",
-      "firstSeenAt": "2026-07-16T10:07:25.369Z",
-      "lastUpdatedAt": "2026-07-16T18:07:38.908Z",
-      "status": "published",
-      "articlePath": "src/content/articles/uber-delivery-hero-uebernahme-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/uber-delivery-hero-uebernahme-juli-2026-update-1800.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3436339",
-        "https://www.derstandard.at/story/3000000331684/uber-252bernimmt-delivery-hero-f252r-etwa-127-milliarden-euro",
-        "https://www.diepresse.com/37667007/uber-uebernimmt-delivery-hero-um-etwa-12-7-milliarden-euro",
-        "https://kurier.at/wirtschaft/uber-uebernimmt-delivery-hero-um-etwa-127-milliarden-euro/403176407",
-        "https://www.heise.de/news/Uber-uebernimmt-Delivery-Hero-fuer-Milliardensumme-11367051.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://www.golem.de/news/ubernahme-uber-kauft-berliner-delivery-hero-fuer-12-7-milliarden-euro-2607-210931.html",
-        "https://www.heise.de/news/Delivery-Hero-bestaetigt-fortgeschrittene-Uebernahmeverhandlungen-mit-Uber-11366278.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://www.heise.de/news/Uber-uebernimmt-Delivery-Hero-fuer-Milliardensumme-11367051.html",
-        "https://www.heise.de/news/Delivery-Hero-bestaetigt-fortgeschrittene-Uebernahmeverhandlungen-mit-Uber-11366278.html",
-        "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Acquisition-Offer-for-Delivery-Hero/default.aspx",
-        "https://www.tradingview.com/news/eqs:3fbac5f79094b:0-delivery-hero-enters-into-a-business-combination-agreement-with-uber-technologies-and-into-a-sale-and-purchase-agreement-with-ssw-partners-regarding-certain-businesses/",
-        "https://exxpress.at/news/wegen-delivery-hero-deal-uber-eats-kommt-doch-nicht-nach-oesterreich/",
-        "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint",
-        "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
-        "https://www.sec.gov/Archives/edgar/data/0001543151/000155278126000382/e26302_ex99-1.htm",
-        "https://www.tagesspiegel.de/wirtschaft/lieferdienst-uber-ubernimmt-delivery-hero-fur-milliardensumme-15845140.html",
-        "https://www.drweb.de/uber-will-delivery-hero-ganz-uebernehmen-warum-37-prozent-zum-kartellrisiko-geworden-sind/"
-      ],
-      "openQuestions": [
-        "Wie wirkt sich der Verkauf des Foodora-Geschäfts in Österreich an SSW Partners konkret auf Kundinnen, Fahrer:innen und Beschäftigte aus?",
-        "Wie verläuft die kartellrechtliche Prüfung in den rund 22 Ländern mit Geschäftsüberlappung (davon neun in Europa), und hält der für das zweite Halbjahr 2027 avisierte Zeitplan?",
-        "Kommt Uber Eats nun doch nicht als eigenständiger Dienst nach Österreich, wie ein einzelner Bericht andeutet?",
-        "Welche Rolle spielt die frühere EU-Kartellstrafe gegen Delivery Hero und Glovo (Juni 2025) für die aktuelle Prüfung der Uber-Übernahme durch Wettbewerbsbehörden?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-17T18:07:38.908Z",
-      "doNotUpdateBefore": "2026-07-17T00:07:38.908Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-17T20:07:26.390Z"
-    },
-    "morandi-bruecke-urteil-castellucci-juli-2026": {
-      "canonicalTitle": "Morandi-Brückeneinsturz: Zwölf Jahre Haft für Ex-Autobahnchef Castellucci",
-      "slug": "morandi-bruecke-urteil-castellucci-juli-2026",
-      "firstSeenAt": "2026-07-16T14:07:31.670Z",
-      "lastUpdatedAt": "2026-07-16T22:07:29.344Z",
-      "status": "published",
-      "articlePath": "src/content/articles/morandi-bruecke-urteil-castellucci-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/morandi-bruecke-urteil-castellucci-juli-2026-update-2200.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3436386",
-        "https://www.derstandard.at/story/3000000331769/zwoelf-jahre-haft-nach-morandi-bruecken-einsturz-in-genua",
-        "https://www.diepresse.com/37827541/einsturz-der-morandi-bruecke-in-genua-gericht-verurteilt-betreiber-castellucci-zu-zwoelf-jahren-haft",
-        "https://kurier.at/chronik/welt/genua-morandi-bruecke-einsturz-haft/403176532",
-        "https://orf.at/stories/3436180",
-        "https://www.ansa.it/sito/notizie/cronaca/2026/07/16/ponte-morandi-castellucci-condannato-a-12-anni-la-procura-aveva-chiesto-18-anni-e-6-mesi_bac48c70-639e-4d68-9ae4-4f1424dec84b.html",
-        "https://us.cnn.com/2026/07/16/europe/italy-giovanni-castellucci-genoa-bridge-sentencing-intl",
-        "https://www.ilfattoquotidiano.it/2026/07/16/ponte-morandi-castellucci-condannato-notizie/8450579/",
-        "https://en.ilsole24ore.com/art/morandi-bridge-verdict-expected-today-eight-years-on-letter-of-apology-from-aspi-AJVe2UL",
-        "https://www.irishtimes.com/world/europe/2026/07/16/former-italian-motorway-chief-jailed-for-12-years-over-fatal-2018-genoa-bridge-collapse/",
-        "https://www.euronews.com/my-europe/2026/07/16/ex-ceo-of-italian-motorway-operator-among-32-convicted-over-genoa-bridge-collapse",
-        "https://www.firenzepost.it/2026/07/16/sentenza-crollo-ponte-morandi-condannato-a-12-anni-ex-ad-di-asp-castellucci-11-anni-a-donferri-mitelli-5-a-berti/",
-        "https://www.ilfattoquotidiano.it/2026/07/16/sentenza-ponte-morandi-i-familiari-delle-vittime-e-stato-un-omicidio-di-massa-la-sindaca-salis-la-sicurezza-non-si-puo-eludere/8450909/",
-        "https://www.genovatoday.it/cronaca/sentenza-morandi-commento-egle-possetti.html"
-      ],
-      "openQuestions": [
-        "Wird Castelluccis angekündigte Berufung tatsächlich eingelegt, und wie könnte ein zweitinstanzliches Urteil ausfallen?",
-        "Wie begründet das Gericht schriftlich die im Vergleich zur Anklage niedrigeren Strafen sowie die Freisprüche bzw. Verjährungen bei 25 der 57 Angeklagten?",
-        "Welche zivilrechtlichen Entschädigungsansprüche der Opferfamilien sind mit dem Urteil noch nicht abgegolten?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-17T22:07:29.344Z",
-      "doNotUpdateBefore": "2026-07-17T04:07:29.344Z",
-      "echoPublishers": {}
-    },
     "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026": {
       "canonicalTitle": "Italiens Abgeordnetenkammer billigt Melonis umstrittene Wahlrechtsreform – Senat berät nun über Vorzugsstimmen",
       "slug": "italien-wahlrechtsreform-abgeordnetenkammer-juli-2026",
@@ -1578,90 +1420,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-19T02:07:30.949Z"
-    },
-    "bozen-gerichtsgebaeude-einsturz-juli-2026": {
-      "canonicalTitle": "Mussolini-Bau in Bozen: Teil des Gerichtsgebäudes eingestürzt",
-      "slug": "bozen-gerichtsgebaeude-einsturz-juli-2026",
-      "firstSeenAt": "2026-07-16T18:07:38.908Z",
-      "lastUpdatedAt": "2026-07-16T18:07:38.908Z",
-      "status": "published",
-      "articlePath": "src/content/articles/bozen-gerichtsgebaeude-einsturz-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/bozen-gerichtsgebaeude-einsturz-juli-2026.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3436356",
-        "https://orf.at/stories/3436346",
-        "https://tirol.orf.at/stories/3362905",
-        "https://www.derstandard.at/story/3000000331695/teil-des-gerichtsgeb228udes-im-s252dtiroler-bozen-eingest252rzt",
-        "https://www.diepresse.com/37695676/grosser-teil-des-gerichtsgebaeudes-im-suedtiroler-bozen-eingestuerzt",
-        "https://kurier.at/chronik/welt/gerichtsgebaeude-suedtirol-bozen-einsturz-loch/403176427",
-        "https://www.kleinezeitung.at/artikel/37660011/faschistisches-gebaeude-in-bozen-teilweise-eingestuerzt",
-        "https://de.euronews.com/my-europe/2026/07/16/gericht-bozen-einsturz",
-        "https://www.suedtirolnews.it/politik/beinahe-tragoedie-am-gericht-normalerweise-arbeiten-hier-rund-150-menschen",
-        "https://www.stol.it/artikel/chronik/stol-live-es-sind-vier-stoecke-eingebrochen",
-        "https://de.wikipedia.org/wiki/Justizpalast_(Bozen)"
-      ],
-      "openQuestions": [
-        "Wodurch genau gaben die tragenden Säulen nach – reicht die bisherige Einschätzung als gesicherte Ursache?",
-        "Welche Rolle spielten die laufenden Umbau- und Sanierungsarbeiten konkret?",
-        "Wo und wie wird der Gerichtsbetrieb in der Zwischenzeit organisiert, welche Verfahren sind betroffen?",
-        "Wird der eingestürzte Gebäudeteil saniert oder abgerissen?",
-        "Werden Verantwortliche für mögliche Baumängel oder Planungsfehler identifiziert?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-17T18:07:38.908Z",
-      "doNotUpdateBefore": "2026-07-17T00:07:38.908Z"
-    },
-    "drei-tote-harzturm-altenau-sturz-juli-2026": {
-      "canonicalTitle": "Drei Tote nach Sturz von Aussichtsturm im Harz",
-      "slug": "drei-tote-harzturm-altenau-sturz-juli-2026",
-      "firstSeenAt": "2026-07-16T20:07:34.320Z",
-      "lastUpdatedAt": "2026-07-16T20:07:34.320Z",
-      "status": "published",
-      "articlePath": "src/content/articles/drei-tote-harzturm-altenau-sturz-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/drei-tote-harzturm-altenau-sturz-juli-2026.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3436421",
-        "https://www.derstandard.at/story/3000000331826/drei-tote-bei-sturz-von-aussichtsturm-in-deutschland",
-        "https://kurier.at/chronik/welt/sturz-von-aussichtsturm-in-deutschland-harz-3-tote/403176611",
-        "https://www.tagesspiegel.de/gesellschaft/panorama/im-harz-drei-tote-bei-sturz-von-harzturm-15847964.html",
-        "https://www.t-online.de/nachrichten/panorama/ungluecke/id_101347224/altenau-in-niedersachsen-drei-tote-bei-sturz-von-aussichtsturm-im-harz.html",
-        "https://www.goslarsche.de/lokales/torfhaus-harzturm-toedlicher-sturz-grosseinsatz-756613.html",
-        "https://www.oberharz.de/en/activities/excursions/harzturm"
-      ],
-      "openQuestions": [
-        "Wie genau es zu dem Sturz kam",
-        "Ob sich der in einem Bericht genannte Verdacht eines suizidalen Hintergrunds bestätigt",
-        "Welchen Stand die behördlichen Ermittlungen haben",
-        "Ob ein technischer Defekt am Turm ausgeschlossen wurde"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-17T20:07:34.320Z",
-      "doNotUpdateBefore": "2026-07-17T02:07:34.320Z"
-    },
-    "eu-kommissar-brunner-binnengrenzkontrollen-juli-2026": {
-      "canonicalTitle": "EU-Migrationskommissar Brunner fordert Ende der Binnengrenzkontrollen",
-      "slug": "eu-kommissar-brunner-binnengrenzkontrollen-juli-2026",
-      "firstSeenAt": "2026-07-16T20:07:34.320Z",
-      "lastUpdatedAt": "2026-07-16T20:07:34.320Z",
-      "status": "published",
-      "articlePath": "src/content/articles/eu-kommissar-brunner-binnengrenzkontrollen-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/eu-kommissar-brunner-binnengrenzkontrollen-juli-2026.json",
-      "sourceUrls": [
-        "https://www.kleinezeitung.at/artikel/37657713/eu-kommissar-brunner-binnengrenzkontrollen-abschaffen",
-        "https://orf.at/stories/3436325",
-        "https://www.diepresse.com/37658232/brunner-es-ist-zeit-die-binnengrenzkontrollen-abzuschaffen",
-        "https://www.tt.com/artikel/30938259/eu-kommissar-brunner-binnengrenzkontrollen-abschaffen",
-        "https://www.exxtra24.at/grenzraumkontrollen-bleiben-oesterreich-verlaengert-trotz-eu-empfehlung"
-      ],
-      "openQuestions": [
-        "Wie reagiert die österreichische Regierung offiziell und im Detail auf Brunners Forderung?",
-        "Nach welchem Zeitplan sollen die Binnengrenzkontrollen konkret abgebaut werden?",
-        "Ist der von Brunner genannte Rückgang der irregulären Ankünfte um 37 Prozent unabhängig überprüfbar, etwa durch Frontex-Daten?",
-        "Wie positionieren sich andere betroffene Schengen-Staaten zu der Forderung?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-17T20:07:34.320Z",
-      "doNotUpdateBefore": "2026-07-17T02:07:34.320Z"
     },
     "weisses-haus-teleprompter-mitarbeiter-wetten-trump-reden-juli-2026": {
       "canonicalTitle": "Teleprompter-Mitarbeiter des Weißen Hauses soll mit Insiderwissen auf Trump-Reden gewettet haben",
@@ -1706,251 +1464,6 @@
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-18T14:07:30.241Z"
     },
-    "eu-google-android-ki-suchdaten-dma-juli-2026": {
-      "canonicalTitle": "EU verpflichtet Google zu Öffnung von Suchdaten und Android-KI",
-      "slug": "eu-google-android-ki-suchdaten-dma-juli-2026",
-      "firstSeenAt": "2026-07-16T22:07:29.344Z",
-      "lastUpdatedAt": "2026-07-16T22:07:29.344Z",
-      "status": "published",
-      "articlePath": "src/content/articles/eu-google-android-ki-suchdaten-dma-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/eu-google-android-ki-suchdaten-dma-juli-2026.json",
-      "sourceUrls": [
-        "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android",
-        "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai",
-        "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
-        "https://www.golem.de/news/epic-games-google-kapituliert-im-app-store-streit-2607-210886.html",
-        "https://arstechnica.com/gadgets/2026/07/third-party-app-stores-coming-to-google-play-next-week-as-epic-settlement-withdrawn",
-        "https://www.ots.at/presseaussendung/OTE_20260716_OTE0001/gruenenthal-strengthens-its-genetic-medicine-capabilities-and-joins-the-cluster-for-nucleic-acid-therapeutics-munich",
-        "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
-        "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps",
-        "https://techcrunch.com/2026/07/16/period-tracker-stardust-shares-users-health-data-with-analytics-firm-says-mozilla-research",
-        "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
-        "https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai",
-        "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app",
-        "https://blog.google/company-news/inside-google/around-the-globe/google-europe/the-dma-should-not-undercut-security-privacy-for-europeans/"
-      ],
-      "openQuestions": [
-        "Wie genau und ab wann die Weitergabe von Search-Daten technisch und rechtlich konkret umgesetzt wird, ist nicht abschließend geklärt.",
-        "Wie viele Android-Funktionen tatsächlich geöffnet werden und ab welchem Android-Release, wird in den Berichten unterschiedlich beziffert.",
-        "Ob Google rechtliche Schritte gegen die Entscheidung der EU-Kommission plant, ist derzeit nicht bekannt.",
-        "Welche praktischen Auswirkungen die Maßnahmen kurzfristig auf Nutzer:innen in Österreich und der EU haben, lässt sich derzeit nicht beurteilen."
-      ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-17T22:07:29.344Z",
-      "doNotUpdateBefore": "2026-07-17T04:07:29.344Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-18T18:07:27.613Z"
-    },
-    "tuchel-kritik-england-wm-halbfinale-argentinien-2026": {
-      "canonicalTitle": "England scheitert im WM-Halbfinale an Argentinien – Tuchel gerät nach Umstellungen in die Kritik",
-      "slug": "tuchel-kritik-england-wm-halbfinale-argentinien-2026",
-      "firstSeenAt": "2026-07-16T22:07:29.344Z",
-      "lastUpdatedAt": "2026-07-16T22:07:29.344Z",
-      "status": "published",
-      "articlePath": "src/content/articles/tuchel-kritik-england-wm-halbfinale-argentinien-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-16/tuchel-kritik-england-wm-halbfinale-argentinien-2026.json",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000331763/sixty-years-of-hurt-werden-verlaengert-england-trainer-tuchel-steht-in-der-kritik",
-        "https://kurier.at/sport/fussball/thomas-tuchel-fussball-wm-ernst-happel-george-raynor-england/403176113",
-        "https://www.kleinezeitung.at/artikel/37712548/thomas-tuchel-bleibt-trotz-scharfer-kritik-wohl-england-trainer",
-        "https://kurier.at/sport/fussball/thomas-tuchel-england-teamchef-kritik-wechsel/403176456",
-        "https://www.espn.com/soccer/story/_/id/49369105/england-argentina-2026-fifa-world-cup-semifinal-final",
-        "https://www.aljazeera.com/sports/2026/7/15/argentina-stun-england-in-2-1-comeback-win-to-reach-2026-world-cup-final",
-        "https://www.aljazeera.com/sports/2026/7/15/tuchel-defends-tactics-after-argentina-send-england-packing-from-world-cup",
-        "https://www.sportschau.de/fussball/fifa-wm-2026/harsche-kritik-an-tuchel-trainer-darf-wohl-weitermachen,wm-tuchel-denkt-nicht-an-ruecktritt-100.html",
-        "https://www.t-online.de/sport/fussball/wm/id_101345624/england-gegen-argentinien-tuchels-wechsel-loesen-fassungslosigkeit-aus.html",
-        "https://sports.yahoo.com/soccer/article/thomas-tuchel-says-he-has-no-regrets-on-tactics-in-englands-semifinals-loss-to-argentina-022422201.html"
-      ],
-      "openQuestions": [
-        "Bleibt Tuchel nach dem Turnier als England-Trainer im Amt, oder kommt es doch zu einer Trennung?",
-        "Wie genau lief die Wechsel-Choreografie in der Schlussphase ab – die englischsprachigen und deutschsprachigen Quellen beschreiben teils unterschiedliche Spieler und Zeitpunkte.",
-        "Gibt es eine offizielle Stellungnahme der englischen Football Association zur Trainerfrage?"
-      ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-17T22:07:29.344Z",
-      "doNotUpdateBefore": "2026-07-17T04:07:29.344Z"
-    },
-    "chauffeur-falsche-polizisten-wien-urteil-juli-2026": {
-      "canonicalTitle": "Wiener Landesgericht verurteilt Chauffeur von falschen Polizisten zu zwei Jahren Haft",
-      "slug": "chauffeur-falsche-polizisten-wien-urteil-juli-2026",
-      "firstSeenAt": "2026-07-17T00:07:25.651Z",
-      "lastUpdatedAt": "2026-07-17T00:07:25.651Z",
-      "status": "published",
-      "articlePath": "src/content/articles/chauffeur-falsche-polizisten-wien-urteil-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/chauffeur-falsche-polizisten-wien-urteil-juli-2026.json",
-      "sourceUrls": [
-        "https://kurier.at/chronik/oesterreich/falsche-polizisten-chauffeur-haftstrafe/403176508",
-        "https://www.kleinezeitung.at/artikel/37380460/falscher-schoenheitsaerztin-drohen-in-wien-mehrere-jahre-haft",
-        "https://kurier.at/chronik/wien/falsche-schoenheitsaerztin-wien-anklage-festnahme-koerperverletzung/403176169",
-        "https://wien.orf.at/stories/3362963",
-        "https://www.derstandard.at/story/3000000331757/falsche-polizisten-in-wien-herumchauffiert-zwei-jahre-haft",
-        "https://www.sn.at/panorama/oesterreich/chauffeur-von-falschen-polizisten-in-wien-verurteilt-art-662498",
-        "https://www.meinbezirk.at/c-lokales/falsche-polizisten-ergaunern-23-millionen-euro-von-2000-opfern_a7868276"
-      ],
-      "openQuestions": [
-        "Wie hoch ist der tatsächliche, aktuell gültige Gesamtschaden des Betrugsnetzwerks – die Angaben schwanken zwischen rund 23 und 25 Millionen Euro?",
-        "Wie viele weitere Bandenmitglieder wurden bislang ermittelt oder angeklagt, und stehen weitere Verfahren bevor?",
-        "Haben die betroffenen Opfer zumindest einen Teil des erbeuteten Geldes zurückerhalten?",
-        "Liegt ein offizielles Urteilsdokument oder eine Stellungnahme von Gericht bzw. WKStA vor, das die Medienberichte bestätigt?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-18T00:07:25.651Z",
-      "doNotUpdateBefore": "2026-07-17T06:07:25.651Z"
-    },
-    "waldbrandrauch-toronto-new-york-wm-finale-juli-2026": {
-      "canonicalTitle": "Waldbrandrauch über Toronto und New York: Luftqualitätskrise überschattet WM-Finalwoche",
-      "slug": "waldbrandrauch-toronto-new-york-wm-finale-juli-2026",
-      "firstSeenAt": "2026-07-17T00:07:25.651Z",
-      "lastUpdatedAt": "2026-07-17T00:07:25.651Z",
-      "status": "published",
-      "articlePath": "src/content/articles/waldbrandrauch-toronto-new-york-wm-finale-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/waldbrandrauch-toronto-new-york-wm-finale-juli-2026.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3436328",
-        "https://www.derstandard.at/story/3000000331674/rauch-von-waldbraenden-legt-sich-ueber-toronto-und-new-york",
-        "https://www.diepresse.com/37657896/rauch-von-waldbraenden-legt-sich-ueber-toronto-und-new-york",
-        "https://www.canada.ca/en/public-safety-canada/news/2026/07/the-government-of-canada-provides-an-update-regarding-the-2026-wildfire-season--july-update.html",
-        "https://www.cbc.ca/news/canada/toronto/fifa-watch-parties-cancelled-smoke-poor-air-quality-9.7271161",
-        "https://www.cp24.com/weather/2026/07/16/toronto-air-quality-improves-but-is-still-among-the-worst-in-the-world-live-updates-here/",
-        "https://www.france24.com/en/environment/20260716-canadian-wildfire-smoke-pushes-toronto-air-quality-to-world-s-worst-reaches-us"
-      ],
-      "openQuestions": [
-        "Wie entwickelt sich die Luftqualität in New York und New Jersey bis zum WM-Finale am Sonntag konkret?",
-        "Kommt es zu weiteren Absagen von Rahmenprogramm oder Sicherheitsauflagen rund um das Finale?",
-        "Wie wirken sich Hitze und Rauch tatsächlich auf Spieler:innen und Zuschauer:innen beim Finale aus?",
-        "Warum weichen die genannten Zahlen zu aktiven Waldbränden und verbrannter Fläche je nach Quelle und Stichtag voneinander ab?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-18T00:07:25.651Z",
-      "doNotUpdateBefore": "2026-07-17T06:07:25.651Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-18T18:07:27.613Z"
-    },
-    "eibinger-miedl-private-vorsorge-steuerbeguenstigung-2026": {
-      "canonicalTitle": "Eibinger-Miedl will private Altersvorsorge steuerlich begünstigen",
-      "slug": "eibinger-miedl-private-vorsorge-steuerbeguenstigung-2026",
-      "firstSeenAt": "2026-07-17T02:07:25.183Z",
-      "lastUpdatedAt": "2026-07-17T02:07:25.183Z",
-      "status": "published",
-      "articlePath": "src/content/articles/eibinger-miedl-private-vorsorge-steuerbeguenstigung-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/eibinger-miedl-private-vorsorge-steuerbeguenstigung-2026.json",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000331814/eibinger-miedl-will-private-vorsorge-steuerlich-beg252nstigen",
-        "https://orf.at/stories/3436324",
-        "https://www.diepresse.com/37658266/staatssekretaerin-eibinger-miedl-will-private-vorsorge-steuerlich-beguenstigen",
-        "https://www.sn.at/politik/innenpolitik/finanz-staatssekretaerin-will-private-vorsorge-beguenstigen-art-662403",
-        "https://www.trend.at/politik/eibinger-miedl-neuer-anlauf-fuer-attraktivierung-von-aktienbesitz",
-        "https://www.trendingtopics.eu/wertpapier-kest-soll-mit-10-jahre-behaltefrist-kommen-ausnahmen-fuer-vorsorge/"
-      ],
-      "openQuestions": [
-        "Wie hoch wären die budgetären Kosten einer Steuerbegünstigung für private Vorsorge?",
-        "Gibt es bereits einen konkreten Gesetzesentwurf oder einen Zeitplan für die Umsetzung?",
-        "Wie positioniert sich die SPÖ offiziell zu dem Vorstoß?",
-        "Bleibt eine zehnjährige Behaltefrist bei der Wertpapier-KESt der favorisierte Vorschlag, oder werden andere Modelle geprüft?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-18T02:07:25.183Z",
-      "doNotUpdateBefore": "2026-07-17T08:07:25.183Z"
-    },
-    "stocker-israel-reise-verschoben-juli-2026": {
-      "canonicalTitle": "Netanyahu bat Stocker erneut um Verschiebung der Israel-Reise",
-      "slug": "stocker-israel-reise-verschoben-juli-2026",
-      "firstSeenAt": "2026-07-17T02:07:25.183Z",
-      "lastUpdatedAt": "2026-07-17T02:07:25.183Z",
-      "status": "published",
-      "articlePath": "src/content/articles/stocker-israel-reise-verschoben-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/stocker-israel-reise-verschoben-juli-2026.json",
-      "sourceUrls": [
-        "https://kurier.at/politik/inland/nahost-israel-christian-stocker-israel-eise/403176561",
-        "https://orf.at/stories/3436367",
-        "https://www.derstandard.at/story/3000000331743/nahost-netanyahu-bat-stocker-um-verschiebung-von-israel-reise",
-        "https://www.timesofisrael.com/liveblog_entry/israel-asks-austrian-chancellor-to-postpone-trip-as-netanyahu-will-be-at-lindsey-grahams-funeral/",
-        "https://orf.at/stories/3418652",
-        "https://www.washingtonpost.com/politics/2026/07/12/lindsey-graham-longtime-south-carolina-senator-dies-71/"
-      ],
-      "openQuestions": [
-        "Kommt die Israel-Reise Stockers nun zu einem neuen Termin zustande, nachdem Netanyahus USA-Reise vorerst entfallen ist?",
-        "Liegt eine offizielle, im Wortlaut zugängliche Stellungnahme des Bundeskanzleramts zur endgültigen Reiseentscheidung vor?",
-        "Ist ein Treffen zwischen Netanyahu und Trump im Zusammenhang mit der Graham-Trauerfeier tatsächlich geplant oder bereits erfolgt?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-18T02:07:25.183Z",
-      "doNotUpdateBefore": "2026-07-17T08:07:25.183Z"
-    },
-    "oneplus-rueckzug-europa-usa-juli-2026": {
-      "canonicalTitle": "OnePlus beendet laut übereinstimmenden Berichten Geschäft in Europa und den USA",
-      "slug": "oneplus-rueckzug-europa-usa-juli-2026",
-      "firstSeenAt": "2026-07-17T02:07:25.183Z",
-      "lastUpdatedAt": "2026-07-17T02:07:25.183Z",
-      "status": "published",
-      "articlePath": "src/content/articles/oneplus-rueckzug-europa-usa-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/oneplus-rueckzug-europa-usa-juli-2026.json",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000331796/offiziell-oneplus-zieht-sich-komplett-aus-europa-und-den-usa-zurueck",
-        "https://www.heise.de/news/Aus-fuer-OnePlus-Hersteller-zieht-sich-aus-Europa-und-Nordamerika-zurueck-11367112.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://futurezone.at/produkte/oneplus-europa-rueckzug-aus-smartphone-software-updates-kunden/403176491",
-        "https://www.derstandard.at/story/3000000331796/offiziell-oneplus-zieht-sich-komplett-aus-europa-und-des-usa-zurueck",
-        "https://www.heise.de/news/Aus-fuer-OnePlus-Hersteller-zieht-sich-aus-Europa-und-Nordamerika-zurueck-11367112.html",
-        "https://9to5google.com/2026/07/16/oneplus-us-europe-shut-down-official/",
-        "https://www.androidauthority.com/oneplus-north-america-europe-exit-plans-reasons-future-3687095/"
-      ],
-      "openQuestions": [
-        "Wie viele OnePlus-Nutzer:innen in Europa und den USA sind von der Umstellung betroffen?",
-        "Nach welchem konkreten Zeitplan und für welche Gerätemodelle erfolgt der Wechsel zu ColorOS?",
-        "Welche über allgemeine Strategie-Formulierungen hinausgehenden Gründe nennen OnePlus und Oppo für den Marktrückzug?",
-        "Wie reagieren Verbraucherschutzorganisationen oder große Nutzer-Communities auf die Ankündigung?"
-      ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-18T02:07:25.183Z",
-      "doNotUpdateBefore": "2026-07-17T08:07:25.183Z"
-    },
-    "cluster-20260716-6e08a2fc": {
-      "canonicalTitle": "32-Jähriger schießt in Vorarlberg auf vor ihm fahrendes Auto",
-      "slug": "cluster-20260716-6e08a2fc",
-      "firstSeenAt": "2026-07-17T02:07:25.183Z",
-      "lastUpdatedAt": "2026-07-17T02:07:25.183Z",
-      "status": "noted",
-      "sourceUrls": [
-        "https://www.diepresse.com/37907770/32-jaehriger-schiesst-in-vorarlberg-auf-vor-ihm-fahrendes-auto",
-        "https://kurier.at/chronik/oesterreich/32-jaehriger-vorarlberg-schuss-auf-fahrendes-auto/403176560",
-        "https://kurier.at/chronik/oesterreich/32-jaehriger-vorarlberg-schuss-auf-fahrendes-auto/403176560",
-        "https://www.kleinezeitung.at/artikel/37912872/32-jaehriger-schoss-in-vorarlberg-auf-vor-ihm-fahrendes-auto"
-      ],
-      "openQuestions": [
-        "Keine unabhängigen Medienquellen außer APA-Syndikation",
-        "Keine Stellungnahme von Verdächtigen, Anwälten oder Opfern",
-        "Kontext zu Drogenhandel-Zusammenhängen in Vorarlberg fehlend",
-        "Gerichts-Termine und Verfahrens-Zeitplan unklar",
-        "Hintergrund zu beteiligten Personen, Bande-Struktur oder vorherigen Delikten"
-      ],
-      "sensitivity": "high"
-    },
-    "vandalismus-pfarrkirche-deutschlandsberg-juli-2026": {
-      "canonicalTitle": "Vandalen zerstören historische Kreuzigungsgruppe an Pfarrkirche Deutschlandsberg",
-      "slug": "vandalismus-pfarrkirche-deutschlandsberg-juli-2026",
-      "firstSeenAt": "2026-07-17T04:07:33.034Z",
-      "lastUpdatedAt": "2026-07-17T04:07:33.034Z",
-      "status": "published",
-      "articlePath": "src/content/articles/vandalismus-pfarrkirche-deutschlandsberg-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/vandalismus-pfarrkirche-deutschlandsberg-juli-2026.json",
-      "sourceUrls": [
-        "https://www.kleinezeitung.at/artikel/37893883/unbekannte-beschaedigten-kirchenfiguren-der-pfarrkirche",
-        "https://steiermark.orf.at/stories/3362960"
-      ],
-      "openQuestions": [
-        "Wie hoch ist der tatsächliche Schaden laut Restaurator und Pfarre?",
-        "Gibt es Verdächtige oder Zeugenhinweise, die zur Aufklärung beigetragen haben?",
-        "Welches Motiv steckt hinter der Tat — gezielter Angriff oder unbeabsichtigte Beschädigung?",
-        "Wird eine offizielle Stellungnahme von Polizei oder Diözese folgen?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-18T04:07:33.034Z",
-      "doNotUpdateBefore": "2026-07-17T10:07:33.034Z"
-    },
     "nolan-die-odyssee-kinostart-juli-2026": {
       "canonicalTitle": "Nolans „Die Odyssee“: Kinostart, Besetzungsstreit – und Musks Ankündigung eines eigenen KI-Films",
       "slug": "nolan-die-odyssee-kinostart-juli-2026",
@@ -1992,76 +1505,6 @@
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-20T18:07:37.280Z"
     },
-    "cluster-20260716-23665043": {
-      "canonicalTitle": "Von Solarenergie zu Gasturbinen: Elon Musk kauft fossiles Energieunternehmen",
-      "slug": "cluster-20260716-23665043",
-      "firstSeenAt": "2026-07-17T04:07:33.034Z",
-      "lastUpdatedAt": "2026-07-17T04:07:33.034Z",
-      "status": "noted",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000331578/von-solarenergie-zu-gasturbinen-elon-musk-kauft-fossiles-energieunternehmen",
-        "https://www.derstandard.at/story/3000000331578/von-solarenergie-zu-gasturbinen-elon-musk-kauft-fossiles-energieunternehmen",
-        "https://www.golem.de/news/eine-milliarde-us-dollar-elon-musk-kauft-heimlich-unternehmen-fuer-mobile-gasturbinen-2607-210887.html"
-      ],
-      "openQuestions": [
-        "Identifikation des gekauften Energieunternehmens (Name, Sitz, Geschäftsfeld)",
-        "Genaues Kaufdatum und offizielle Bestätigung durch Musk, xAI oder das Unternehmen",
-        "Verifikation des Kaufpreises (golem-Headline nennt ‚eine Milliarde', aber Excerpt unlesbar)",
-        "Technische Spezifikationen der mobilen Turbinen und ihre Kapazität",
-        "Lokation und Energiebedarf der xAI-Rechenzentren",
-        "Regulatorische Bewertung für österreichische/EU-Energiewende-Kontext"
-      ],
-      "sensitivity": "medium"
-    },
-    "badeunfall-schafbergbad-wien-juli-2026": {
-      "canonicalTitle": "Badegast im Schafbergbad reanimiert und mit Hubschrauber ins Spital gebracht",
-      "slug": "badeunfall-schafbergbad-wien-juli-2026",
-      "firstSeenAt": "2026-07-17T06:07:26.099Z",
-      "lastUpdatedAt": "2026-07-17T06:07:26.099Z",
-      "status": "published",
-      "articlePath": "src/content/articles/badeunfall-schafbergbad-wien-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/badeunfall-schafbergbad-wien-juli-2026.json",
-      "sourceUrls": [
-        "https://wien.orf.at/stories/3362980",
-        "https://kurier.at/chronik/wien/badeunfall-schafbergbad-polizei-reanimierung/403176520",
-        "https://wien.orf.at/stories/3362595"
-      ],
-      "openQuestions": [
-        "Wie ist der aktuelle Gesundheitszustand des Mannes?",
-        "Was war die Ursache des Vorfalls — etwa ein gesundheitlicher Notfall oder ein Ertrinkungsunfall?",
-        "In welches Spital wurde der Mann gebracht und wie lange dauerte die Reanimation?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-18T06:07:26.099Z",
-      "doNotUpdateBefore": "2026-07-17T12:07:26.099Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-18T10:07:28.883Z"
-    },
-    "inflation-oesterreich-juni-2026": {
-      "canonicalTitle": "Inflation in Österreich im Juni 2026 auf 3,2 Prozent gefallen",
-      "slug": "inflation-oesterreich-juni-2026",
-      "firstSeenAt": "2026-07-17T08:07:29.689Z",
-      "lastUpdatedAt": "2026-07-17T08:07:29.689Z",
-      "status": "published",
-      "articlePath": "src/content/articles/inflation-oesterreich-juni-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/inflation-oesterreich-juni-2026.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3436453",
-        "https://www.diepresse.com/37969678/inflation-im-juni-auf-3-2-prozent-gefallen",
-        "https://kurier.at/wirtschaft/inflation-juni-teuerung-preise/403176642",
-        "https://www.statistik.at/fileadmin/announcement/2026/06/20260701VPIFlashEstimateJuni2026.pdf"
-      ],
-      "openQuestions": [
-        "Wie hoch fällt die Kerninflation (ohne Energie und Nahrungsmittel) im Juni 2026 konkret aus?",
-        "Wie schneidet Österreich im Juni 2026 im Vergleich zur Eurozone bzw. zum EU-Durchschnitt ab?",
-        "Bleibt der rückläufige Trend bei Energiepreisen auch in den Folgemonaten bestehen, oder handelt es sich um einen Einmaleffekt?"
-      ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-18T08:07:29.689Z",
-      "doNotUpdateBefore": "2026-07-17T14:07:29.689Z"
-    },
     "auto-woerthersee-unfall-schiefling-juli-2026": {
       "canonicalTitle": "21-Jähriger landet nach Unfall mit Auto im Wörthersee – leicht verletzt ins Spital",
       "slug": "auto-woerthersee-unfall-schiefling-juli-2026",
@@ -2089,34 +1532,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-07-18T00:07:23.420Z"
-    },
-    "zdf-ein-fall-fuer-zwei-serienende-2027": {
-      "canonicalTitle": "ZDF stellt Kultkrimi „Ein Fall für zwei“ nach 46 Jahren ein",
-      "slug": "zdf-ein-fall-fuer-zwei-serienende-2027",
-      "firstSeenAt": "2026-07-17T08:07:29.689Z",
-      "lastUpdatedAt": "2026-07-17T08:07:29.689Z",
-      "status": "published",
-      "articlePath": "src/content/articles/zdf-ein-fall-fuer-zwei-serienende-2027.mdx",
-      "researchPath": "data/ai-news/research/2026-07-17/zdf-ein-fall-fuer-zwei-serienende-2027.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3436452",
-        "https://kurier.at/kultur/medien/zdf-tv-krimi-ein-fall-fuer-zwei-staffel-film/403176622",
-        "https://www.kleinezeitung.at/artikel/37946724/zdf-stellt-tv-krimi-ein-fall-fuer-zwei-nach-46-jahren-ein",
-        "https://www.t-online.de/unterhaltung/tv/id_101347616/-ein-fall-fuer-zwei-zdf-beendet-krimi-serie-nach-46-jahren.html",
-        "https://www.tagesspiegel.de/kultur/die-geschichte-zu-einem-wurdigen-abschluss-fuhren-nach-46-jahren-stellt-das-ein-fall-fur-zwei-ein-15848227.html",
-        "https://www.quotenmeter.de/n/173702/zdf-beendet-ein-fall-fuer-zwei-nach-46-jahren",
-        "https://www.news.de/tv/859829176/nach-46-jahren-zdf-stellt-ein-fall-fuer-zwei-ein-tv-news-der-dpa-aktuell-zu-medien-leuten-und-krimi/1/"
-      ],
-      "openQuestions": [
-        "Handelt es sich bei den angekündigten vier Episoden um die tatsächlich letzte Staffel oder um eine vorletzte Staffel vor dem Abschlussfilm – die Angaben in den Quellen weichen hier ab.",
-        "Wie genau begründet das ZDF die Entscheidung inhaltlich, über die knappe Formulierung einer 'Neuausrichtung' des Freitagskrimis hinaus?",
-        "Wie reagieren Wanja Mues, Antoine Monot, Bettina Zimmermann und das Publikum auf das Serienende?",
-        "Wird der Abschlussfilm 2027 zuerst im linearen Programm oder in der ZDF-Mediathek gezeigt?"
-      ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-18T08:07:29.689Z",
-      "doNotUpdateBefore": "2026-07-17T14:07:29.689Z",
-      "echoPublishers": {}
     },
     "foodwatch-mcdonalds-energydrinks-kinder-juli-2026": {
       "canonicalTitle": "Foodwatch: McDonald's verkauft Energydrink laut Testkauf ohne Alterskontrolle an Kinder",
@@ -14281,13 +13696,11 @@
       "pendingOutcome": "Ob sich die ab September verlängerte und verstärkte Entsendung wie angekündigt umsetzen lässt, wie die neu betroffenen Landespolizeidirektionen Salzburg und Kärnten sowie Personalvertretungen darauf reagieren, und ob sich die Jugendkriminalitätszahlen in Wien dadurch messbar verändern, ist noch offen.",
       "pendingOutcomeUntil": "2026-08-17T06:07:33.149Z",
       "echoPublishers": {
-        "kurier": "2026-08-15T04:07:41.776Z",
-        "kleinezeitung": "2026-08-15T12:07:41.469Z",
-        "derstandard": "2026-08-15T06:07:36.178Z"
+        "kleinezeitung": "2026-08-15T12:07:41.469Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-15T06:07:33.149Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "waldbrand-foehrenwald-st-egyden-august-2026": {
       "canonicalTitle": "Waldbrand im Föhrenwald bei St. Egyden: Munitionsteile aus Zweitem Weltkrieg als Ursache ermittelt, Nachlöscharbeiten dauern an",
@@ -16309,12 +15722,12 @@
       "doNotRedraftBefore": "2026-08-16T00:07:35.108Z",
       "doNotUpdateBefore": "2026-08-15T06:07:35.108Z",
       "echoPublishers": {
-        "theverge": "2026-08-14T18:07:38.868Z",
-        "arstechnica": "2026-08-15T12:07:40.329Z"
+        "arstechnica": "2026-08-15T12:07:40.329Z",
+        "techcrunch": "2026-08-16T08:07:32.935Z"
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T12:07:36.323Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "ludwig-wien-wahl-2030-kandidatur": {
       "canonicalTitle": "Wiens Bürgermeister Ludwig kündigt Kandidatur für Wien-Wahl 2030 an",
@@ -16660,9 +16073,9 @@
       "pendingOutcome": "Offen ist, wie das US-Heimatschutzministerium auf die Kritik von Hochul, James, Frost und der ACLU reagiert, in welcher Form der Auftrag konkret vergeben wird und ob die Beschaffung wie angekündigt bis Ende März 2027 abgeschlossen wird.",
       "pendingOutcomeUntil": "2026-08-16T18:07:34.334Z",
       "echoPublishers": {},
-      "resonanceLevel": 2,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-14T18:07:34.334Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "erdbeben-kolumbien-265-tote-august-2026": {
       "canonicalTitle": "Erdbeben in Kolumbien: Mindestens 265 Tote, kritische Stunden für Rettungskräfte",
@@ -16694,10 +16107,13 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-14T06:07:35.869Z",
       "doNotUpdateBefore": "2026-08-13T12:07:35.869Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "orf": "2026-08-16T08:07:31.617Z",
+        "derstandard": "2026-08-16T08:07:32.155Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-14T08:07:29.232Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "krah-haftbefehl-boehmermann-august-2026": {
       "canonicalTitle": "Haftbefehl gegen AfD-Politiker Maximilian Krah: Gericht prüft Aufhebung seiner Immunität",
@@ -16846,12 +16262,11 @@
       "doNotRedraftBefore": "2026-08-15T22:07:35.676Z",
       "doNotUpdateBefore": "2026-08-15T04:07:35.676Z",
       "echoPublishers": {
-        "orf": "2026-08-15T14:07:46.352Z",
-        "apa": "2026-08-15T06:07:36.313Z"
+        "orf": "2026-08-15T14:07:46.352Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T16:07:38.965Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "bundesheer-warnung-russische-spione-august-2026": {
       "canonicalTitle": "Bundesheer warnt Soldaten vor Kontakt mit 21 mutmaßlichen russischen Spionen",
@@ -16996,9 +16411,7 @@
       "doNotUpdateBefore": "2026-08-14T18:07:34.619Z",
       "pendingOutcome": "Ergebnisse des Finales über 200 m Kraul (Giefing) sowie der Semifinals über 50 m Brust (Mladenovic, Bayer) und 200 m Delfin (Espernberger)",
       "pendingOutcomeUntil": "2026-08-16T12:07:34.619Z",
-      "echoPublishers": {
-        "derstandard": "2026-08-14T20:07:39.904Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-15T12:07:36.323Z"
@@ -17029,8 +16442,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-14T18:07:31.390Z",
       "doNotUpdateBefore": "2026-08-14T00:07:31.390Z",
-      "pendingOutcome": "Entscheidung des Rechtsmittelgerichts über die laut Berichten von der Verteidigung angemeldete Nichtigkeitsbeschwerde und Berufung gegen das Urteil.",
-      "pendingOutcomeUntil": "2026-08-15T18:07:31.390Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17179,8 +16590,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-15T00:07:39.480Z",
       "doNotUpdateBefore": "2026-08-14T06:07:39.480Z",
-      "pendingOutcome": "Ausgang der Verhandlungen zwischen Regierung und Grünen bzw. FPÖ über die Wehrdienstreform, insbesondere ob und wann eine Zweidrittelmehrheit im Parlament zustande kommt.",
-      "pendingOutcomeUntil": "2026-08-16T00:07:39.480Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17254,8 +16663,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-15T16:07:30.115Z",
       "doNotUpdateBefore": "2026-08-14T22:07:30.115Z",
-      "pendingOutcome": "Ob die Staatsanwaltschaft bzw. WKStA einen Anfangsverdacht gegen Ruck und Ludwig bejaht und ein Ermittlungsverfahren einleitet, ob sich die Beschleunigungs-These trotz der Zurückweisung durch die Stadt Wien bestätigt, und ob sich Ludwig oder Ruck inhaltlich äußern.",
-      "pendingOutcomeUntil": "2026-08-16T02:07:41.317Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17285,8 +16692,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-15T04:07:29.836Z",
       "doNotUpdateBefore": "2026-08-14T10:07:29.836Z",
-      "pendingOutcome": "Ob der Flughafen Catania-Fontanarossa wie zuletzt angekündigt am Freitag um 2.00 Uhr wieder öffnet und wie sich Flugausfälle sowie die geschätzten Tourismusschäden in den Folgetagen weiterentwickeln.",
-      "pendingOutcomeUntil": "2026-08-16T04:07:29.836Z",
       "echoPublishers": {}
     },
     "moor-renaturierung-tools-oesterreich-2026": {
@@ -17312,8 +16717,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-15T04:07:29.836Z",
       "doNotUpdateBefore": "2026-08-14T10:07:29.836Z",
-      "pendingOutcome": "Ob Österreich den nationalen Wiederherstellungsplan mit den Vorgaben zu Mooren fristgerecht bis September 2026 bei der EU-Kommission einreicht und wie ambitioniert dieser ausfällt.",
-      "pendingOutcomeUntil": "2026-08-16T04:07:29.836Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17356,8 +16759,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-16T14:07:41.864Z",
       "doNotUpdateBefore": "2026-08-15T20:07:41.864Z",
-      "pendingOutcome": "Ob der Flughafen Catania nach der zunächst nur teilweisen Wiederöffnung dauerhaft im Normalbetrieb bleibt oder es bei erneuter Zunahme der Vulkanaktivität zu einer weiteren Sperre kommt.",
-      "pendingOutcomeUntil": "2026-08-16T04:07:29.836Z",
       "echoPublishers": {
         "orf": "2026-08-15T14:07:45.445Z"
       },
@@ -17428,8 +16829,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-15T06:07:31.596Z",
       "doNotUpdateBefore": "2026-08-14T12:07:31.596Z",
-      "pendingOutcome": "Offizielle Reaktionen der EU und anderer betroffener Handelspartner sowie mögliche rechtliche Schritte gegen die Section-232-Begründung stehen noch aus.",
-      "pendingOutcomeUntil": "2026-08-16T06:07:31.596Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17522,8 +16921,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-15T08:07:29.232Z",
       "doNotUpdateBefore": "2026-08-14T14:07:29.232Z",
-      "pendingOutcome": "Unterzeichnung des Gesetzes durch Präsidentin Catherine Connolly und formales Inkrafttreten von „Jennie's Law“.",
-      "pendingOutcomeUntil": "2026-08-16T08:07:29.232Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17553,8 +16950,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-15T08:07:29.232Z",
       "doNotUpdateBefore": "2026-08-14T14:07:29.232Z",
-      "pendingOutcome": "Start und erste Erfahrungen des im September beginnenden Pilotbetriebs in Teilen Pekings.",
-      "pendingOutcomeUntil": "2026-08-16T08:07:29.232Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17695,7 +17090,7 @@
       },
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T16:07:38.965Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "liva-kerschbaum-entlassung-olg-bestaetigt-august-2026": {
       "canonicalTitle": "OLG Linz bestätigt Entlassung von Brucknerhaus-Chef Kerschbaum",
@@ -17756,46 +17151,49 @@
       "doNotUpdateBefore": "2026-08-15T20:07:41.864Z",
       "echoPublishers": {
         "orf": "2026-08-15T12:07:38.475Z",
-        "derstandard": "2026-08-15T12:07:39.834Z",
-        "diepresse": "2026-08-14T18:07:37.915Z"
+        "derstandard": "2026-08-15T12:07:39.834Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T08:07:34.053Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "spacex-boersengang-investoren-offengelegt-august-2026": {
-      "canonicalTitle": "SpaceX nach dem Börsengang: Musk hält 48,4 Prozent, weitere Großinvestoren öffentlich",
+      "canonicalTitle": "SpaceX nach dem Börsengang: Musk hält 48,4 Prozent, auch Nvidia legt Milliarden-Beteiligung offen",
       "slug": "spacex-boersengang-investoren-offengelegt-august-2026",
       "firstSeenAt": "2026-08-14T18:07:34.334Z",
-      "lastUpdatedAt": "2026-08-14T18:07:34.334Z",
+      "lastUpdatedAt": "2026-08-16T08:07:30.153Z",
       "status": "published",
       "articlePath": "src/content/articles/spacex-boersengang-investoren-offengelegt-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-14/spacex-boersengang-investoren-offengelegt-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-08-16/spacex-boersengang-investoren-offengelegt-august-2026-update-800.json",
       "sourceUrls": [
         "https://orf.at/stories/3439186",
         "https://www.derstandard.at/story/3000000335290/google-gruender-gibt-100-millionen-dollar-im-kampf-gegen-milliardaerssteuer-aus",
         "https://www.golem.de/news/ceo-entlohnung-2025-musk-verdient-158-milliarden-us-dollar-bekommt-sie-aber-nicht-2608-211923.html",
         "https://marketscreener.com/news/spacex-s-musk-discloses-48-4-stake-in-sec-filing-ce7859dedc8eff22",
-        "https://t3n.de/news/spacex-aktienstruktur-elon-musk-kontrolle-1758095/"
+        "https://t3n.de/news/spacex-aktienstruktur-elon-musk-kontrolle-1758095/",
+        "https://www.derstandard.at/story/3000000335741/googles-fruehe-beteiligung-an-spacex-mittlerweile-hundertmal-so-viel-wert",
+        "https://www.heise.de/news/Nvidia-legt-Milliarden-Beteiligung-an-SpaceX-und-Intel-offen-11415117.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Nvidia-legt-Milliarden-Beteiligung-an-SpaceX-und-Intel-offen-11415117.html"
       ],
       "openQuestions": [
         "Wie groß sind die SpaceX-Anteile von Fidelity Investments, dem saudischen Staatsfonds PIF und Hancock Prospecting jeweils genau?",
+        "Wie hoch ist die von Nvidia offengelegte SpaceX-Beteiligung genau, und wie kam sie zustande?",
         "Wie äußern sich SpaceX oder Elon Musk zur Offenlegung der Beteiligungsstruktur?",
-        "Wie ordnet Alphabet die eigene Position angesichts der nun bekannten Gesamtaktionärsstruktur strategisch ein?",
+        "Wie ordnet Alphabet die eigene Position angesichts der nun bekannten, um Nvidia erweiterten Aktionärsstruktur strategisch ein?",
         "Wann laufen die Lock-up-Fristen für die einzelnen Investorengruppen ab, und welche Verkäufe sind danach zu erwarten?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-08-15T18:07:34.334Z",
-      "doNotUpdateBefore": "2026-08-15T00:07:34.334Z",
-      "pendingOutcome": "Konkrete Anteilshöhen von Fidelity, PIF und Hancock Prospecting sowie mögliche Stellungnahmen von SpaceX oder Alphabet zur neuen Offenlegung stehen noch aus.",
+      "doNotRedraftBefore": "2026-08-17T08:07:30.153Z",
+      "doNotUpdateBefore": "2026-08-16T14:07:30.153Z",
+      "pendingOutcome": "Offen sind weiterhin die genauen Anteilshöhen von Fidelity, PIF und Hancock Prospecting sowie Details und Bestätigung der berichteten Nvidia-Beteiligung an SpaceX und Intel.",
       "pendingOutcomeUntil": "2026-08-16T18:07:34.334Z",
       "echoPublishers": {
-        "orf": "2026-08-14T18:07:36.042Z",
-        "heise": "2026-08-15T16:07:43.036Z"
+        "heise": "2026-08-15T16:07:43.036Z",
+        "derstandard": "2026-08-16T08:07:32.135Z"
       },
       "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T16:07:38.965Z"
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "j0148-4214-drei-schwarze-loecher-august-2026": {
       "canonicalTitle": "James Webb entdeckt Galaxie mit drei supermassereichen Schwarzen Löchern",
@@ -17822,9 +17220,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-15T20:07:37.428Z",
       "doNotUpdateBefore": "2026-08-15T02:07:37.428Z",
-      "echoPublishers": {
-        "derstandard": "2026-08-14T20:07:40.065Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-15T16:07:38.965Z"
@@ -17884,14 +17280,10 @@
       "doNotUpdateBefore": "2026-08-15T04:07:35.676Z",
       "pendingOutcome": "Entscheidung im Anti-Doping-Verfahren gegen Owen Ansah, einschließlich möglicher Sperre und Aberkennung seiner EM-Medaillen.",
       "pendingOutcomeUntil": "2026-08-16T22:07:35.676Z",
-      "echoPublishers": {
-        "orf": "2026-08-14T22:07:38.881Z",
-        "derstandard": "2026-08-14T22:07:40.259Z",
-        "kleinezeitung": "2026-08-14T22:07:40.230Z"
-      },
-      "resonanceLevel": 3,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T12:07:36.323Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "falscher-polizist-festnahme-wien-meidling-august-2026": {
       "canonicalTitle": "Falscher Polizist in Wien-Meidling festgenommen: 75-Jährige um 70.000 Euro betrogen",
@@ -17947,13 +17339,10 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-16T00:07:35.108Z",
       "doNotUpdateBefore": "2026-08-15T06:07:35.108Z",
-      "echoPublishers": {
-        "theverge": "2026-08-14T18:07:38.868Z",
-        "techcrunch": "2026-08-14T18:07:38.944Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T12:07:36.323Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "gemini-3-7-flash-veroeffentlichung-august-2026": {
       "canonicalTitle": "Nur drei Wochen nach 3.6 Flash: Google bringt Gemini 3.7 Flash – Spitzenmodell 3.5 Pro bleibt weiter aus",
@@ -18071,9 +17460,7 @@
       "doNotUpdateBefore": "2026-08-15T10:07:38.517Z",
       "pendingOutcome": "Ergebnis der weiteren Koalitionsverhandlungen über ein Dürre-Hilfspaket für die Landwirtschaft, einschließlich einer möglichen Einigung auf Gegenfinanzierung und Umgang mit unversicherten Betrieben.",
       "pendingOutcomeUntil": "2026-08-17T04:07:38.517Z",
-      "echoPublishers": {
-        "kurier": "2026-08-14T18:07:38.016Z"
-      }
+      "echoPublishers": {}
     },
     "eu-verpackungsverordnung-kleinhaendler-oesterreich-august-2026": {
       "canonicalTitle": "EU-Verpackungsverordnung verunsichert kleine Online-Händler in Österreich",
@@ -18188,9 +17575,7 @@
       "doNotUpdateBefore": "2026-08-15T12:07:33.149Z",
       "pendingOutcome": "Veröffentlichung und Marktstart der angekündigten Watermarking-Prüf-API für Drittanbieter, deren genauer Zeitpunkt bislang nicht benannt wurde.",
       "pendingOutcomeUntil": "2026-08-17T06:07:33.149Z",
-      "echoPublishers": {
-        "thedecoder": "2026-08-14T22:07:40.590Z"
-      }
+      "echoPublishers": {}
     },
     "jason-arday-cambridge-professor-tod-august-2026": {
       "canonicalTitle": "Cambridge-Professor Jason Arday nach Plagiatsvorwürfen tot aufgefunden",
@@ -18222,14 +17607,12 @@
       "pendingOutcomeUntil": "2026-08-17T08:07:34.053Z",
       "echoPublishers": {
         "diepresse": "2026-08-15T08:07:38.106Z",
-        "kleinezeitung": "2026-08-14T22:07:40.230Z",
-        "kurier": "2026-08-15T06:07:36.788Z",
         "orf": "2026-08-15T12:07:38.347Z",
         "derstandard": "2026-08-15T12:07:41.339Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T12:07:36.323Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "suedkorea-nordkorea-friedensangebot-august-2026": {
       "canonicalTitle": "Südkoreas Präsident Lee bietet Nordkorea Verhandlungen über Friedensvertrag an",
@@ -18265,43 +17648,52 @@
       },
       "resonanceLevel": 5,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T08:07:34.053Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "erdbeben-flores-indonesien-august-2026": {
-      "canonicalTitle": "Erdbeben der Stärke 7,7 vor Indonesiens Insel Flores: mindestens 20 Tote",
+      "canonicalTitle": "Erdbeben der Stärke 7,7 vor Indonesiens Insel Flores: Zahl der Toten auf mindestens 51 gestiegen",
       "slug": "erdbeben-flores-indonesien-august-2026",
       "firstSeenAt": "2026-08-15T08:07:34.053Z",
-      "lastUpdatedAt": "2026-08-15T08:07:34.053Z",
+      "lastUpdatedAt": "2026-08-16T08:07:30.153Z",
       "status": "published",
       "articlePath": "src/content/articles/erdbeben-flores-indonesien-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-15/erdbeben-flores-indonesien-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-08-16/erdbeben-flores-indonesien-august-2026-update-800.json",
       "sourceUrls": [
         "https://orf.at/stories/3439209",
         "https://www.diepresse.com/41175475/mindestens-20-menschen-sterben-bei-schwerem-erdbeben-in-indonesien",
         "https://www.kleinezeitung.at/artikel/41175450/schweres-erdbeben-vor-der-kueste-indonesiens",
-        "https://www.derstandard.at/story/3000000335682/schweres-erdbeben-vor-der-k252ste-indonesiens"
+        "https://www.derstandard.at/story/3000000335682/schweres-erdbeben-vor-der-k252ste-indonesiens",
+        "https://orf.at/stories/3439286",
+        "https://www.derstandard.at/story/3000000335730/schweres-erdbeben-in-indonesien-zahl-der-toten-steigt-auf-51",
+        "https://www.diepresse.com/41176672/mindestens-51-tote-bei-schwerem-erdbeben-in-indonesien",
+        "https://kurier.at/chronik/welt/erdbeben-indonesien-ost-nusa-tenggara-sikka-tote-verletzte/403184144",
+        "https://orf.at/stories/3439201",
+        "https://kurier.at/chronik/welt/flores-indonesien-erdbeben-tsunami-warnung-tote/403183784",
+        "https://en.antaranews.com/news/427285/bnpb-says-flores-quake-leaves-47-dead-9290-displaced"
       ],
       "openQuestions": [
-        "Wie viele Menschen sind letztlich ums Leben gekommen, und wird sich die Zahl noch weiter erhöhen?",
-        "Wie groß ist das tatsächliche Ausmaß der Gebäude- und Infrastrukturschäden, und wie viele Menschen mussten evakuiert werden?",
-        "Wie ist der Stand der Suche nach den zuletzt gemeldeten zwei Verschütteten?",
+        "Wie viele Menschen werden noch vermisst, und wie viele davon mutmaßlich unter Trümmern?",
+        "Wird sich die Zahl von mindestens 51 Toten in den kommenden Tagen noch weiter erhöhen?",
+        "Wie ist der genaue Stand der Rettungsarbeiten in der zeitweise abgeschnittenen Hafenstadt Maumere?",
+        "Wie lassen sich die unterschiedlichen Angaben zu evakuierten bzw. in Notunterkünften untergebrachten Menschen (rund 5.000 laut österreichischen Medien, 9.290 laut einer BNPB-nahen Agenturmeldung vom Vortag) erklären?",
+        "Bestätigt eine direkt eingesehene BNPB- oder BMKG-Quelle die aktuelle Zahl von 51 Toten unabhängig?",
         "Gibt es weitere, gegebenenfalls stärkere Nachbeben, und wie schätzen die Behörden die weitere Gefährdungslage ein?",
         "Werden internationale Hilfsangebote unterbreitet oder von Indonesien angenommen?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-16T08:07:34.053Z",
-      "doNotUpdateBefore": "2026-08-15T14:07:34.053Z",
-      "pendingOutcome": "Aktualisierte, möglicherweise weiter steigende Opferzahlen sowie der Abschluss der Suche nach den zuletzt gemeldeten Verschütteten.",
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-17T08:07:30.153Z",
+      "doNotUpdateBefore": "2026-08-16T14:07:30.153Z",
+      "pendingOutcome": "Weitere Entwicklung der Opferbilanz, Fortgang der Suche nach Vermissten in Maumere und Umgebung sowie mögliche internationale Hilfsangebote.",
       "pendingOutcomeUntil": "2026-08-17T08:07:34.053Z",
       "echoPublishers": {
-        "orf": "2026-08-15T08:07:36.064Z",
-        "diepresse": "2026-08-15T12:07:39.877Z",
-        "kleinezeitung": "2026-08-15T00:07:40.593Z",
-        "derstandard": "2026-08-15T06:07:36.178Z"
+        "orf": "2026-08-16T08:07:31.617Z",
+        "diepresse": "2026-08-16T08:07:32.444Z",
+        "derstandard": "2026-08-16T08:07:32.155Z",
+        "kurier": "2026-08-16T08:07:32.466Z"
       },
-      "resonanceLevel": 4,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T08:07:34.053Z"
+      "resonanceLevel": 5,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "cluster-20260815-8f02a457": {
       "canonicalTitle": "Motorradfahrer (61) kam bei Ausweichmanöver in Graz schwer zu Sturz",
@@ -18386,16 +17778,16 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T12:07:36.323Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "moussab-abou-r-festnahme-syrien-august-2026": {
       "canonicalTitle": "In Wien verurteilter Ex-Assad-Beamter in Syrien festgenommen",
       "slug": "moussab-abou-r-festnahme-syrien-august-2026",
       "firstSeenAt": "2026-08-15T16:07:38.965Z",
-      "lastUpdatedAt": "2026-08-15T16:07:38.965Z",
+      "lastUpdatedAt": "2026-08-16T08:07:30.153Z",
       "status": "published",
       "articlePath": "src/content/articles/moussab-abou-r-festnahme-syrien-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-15/moussab-abou-r-festnahme-syrien-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-08-16/moussab-abou-r-festnahme-syrien-august-2026-update-800.json",
       "sourceUrls": [
         "https://orf.at/stories/3439258",
         "https://www.diepresse.com/41176475/in-wien-verurteilter-syrischer-ex-polizeichef-in-syrien-festgenommen",
@@ -18405,30 +17797,33 @@
         "https://www.profil.at/ausland/beteiligter-in-folter-prozess-gegen-assad-beamte-wohl-aus-oesterreich-geflohen-mussab-a-syrien/403179168",
         "https://www.nachrichten.at/politik/aussenpolitik/wiener-folterprozess-acht-jahre-fuer-die-beiden-angeklagten-aus-syrien;art391,4189262",
         "https://www.news.at/politik/folterprozess-syrien-wien-moussab-abu-r-flucht",
-        "https://www.sn.at/politik/weltpolitik/rueckkehr-von-ex-polizeichef-kritik-an-oesterreichs-behoerden-art-667606"
+        "https://www.sn.at/politik/weltpolitik/rueckkehr-von-ex-polizeichef-kritik-an-oesterreichs-behoerden-art-667606",
+        "https://www.kleinezeitung.at/artikel/41176445/in-wien-verurteilter-ex-polizeichef-in-syrien-festgenommen",
+        "https://www.ots.at/presseaussendung/OTS_20260816_OTS0002/fpoe-hafenecker-syrischer-geheimdienst-fasst-folterknecht-den-oesterreichs-behoerden-laufen-liessen-blamage-fuer-sporrer-und-karner"
       ],
       "openQuestions": [
         "Lässt sich das von Medien genannte Einreisedatum (29. Juli) und die Fluchtroute über die Türkei unabhängig von der Angabe des Privatermittlers bestätigen?",
         "Welche konkreten 'Terrorismusfälle' wirft die syrische Seite laut SANA R. vor, und welche rechtlichen Schritte werden tatsächlich eingeleitet?",
         "Äußert sich R. selbst oder seine Verteidigung zu Flucht und Festnahme?",
-        "Wie reagiert das österreichische Justizministerium auf die erneute Kritik, R. sei trotz der Verurteilung unbehelligt ausgereist?",
+        "Wie reagieren Justizministerin Sporrer und Innenminister Karner auf die FPÖ-Forderung nach einem sofortigen Auslieferungsbegehren, und stellt Österreich ein solches tatsächlich?",
         "Wie geht es mit der anhängigen Nichtigkeitsbeschwerde gegen das Wiener Juli-Urteil weiter?",
         "Was passiert mit dem Verfahren gegen den laut Berichten weiterhin in Wien in Untersuchungshaft sitzenden Mitangeklagten Khaled Al H.?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-16T16:07:38.965Z",
-      "doNotUpdateBefore": "2026-08-15T22:07:38.965Z",
-      "pendingOutcome": "Ausgang der von Syrien angekündigten rechtlichen Schritte gegen R. sowie der Entscheidung über die anhängige Nichtigkeitsbeschwerde gegen das Wiener Urteil.",
+      "doNotRedraftBefore": "2026-08-17T08:07:30.153Z",
+      "doNotUpdateBefore": "2026-08-16T14:07:30.153Z",
+      "pendingOutcome": "Offen ist, ob Österreich ein Auslieferungsbegehren stellt, wie Justiz- und Innenministerium auf die FPÖ-Kritik reagieren, und wie es mit der Nichtigkeitsbeschwerde sowie dem Verfahren gegen den Mitangeklagten Khaled Al H. weitergeht.",
       "pendingOutcomeUntil": "2026-08-17T16:07:38.965Z",
       "echoPublishers": {
         "orf": "2026-08-15T16:07:40.460Z",
         "diepresse": "2026-08-15T16:07:41.630Z",
         "kurier": "2026-08-15T16:07:41.143Z",
-        "derstandard": "2026-08-15T12:07:41.339Z"
+        "derstandard": "2026-08-15T12:07:41.339Z",
+        "kleinezeitung": "2026-08-16T08:07:33.387Z"
       },
-      "resonanceLevel": 4,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T16:07:38.965Z"
+      "resonanceLevel": 5,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "liechtenstein-thronfolge-frauen-august-2026": {
       "canonicalTitle": "Liechtenstein öffnet Thronfolge für Frauen",
@@ -18460,7 +17855,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T16:07:38.965Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     },
     "e-scooter-flucht-doebling-august-2026": {
       "canonicalTitle": "16-Jähriger rammt auf Flucht vor Polizei Fußgängerin in Wien-Döbling",
@@ -18494,7 +17889,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T16:07:38.965Z"
+      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
     }
   }
 }
