@@ -1,0 +1,245 @@
+{
+  "cluster": {
+    "id": "cluster-20260816-d9c33364",
+    "title": "Hurrikan Lala zog an Hawaii vorbei",
+    "items": [
+      {
+        "itemId": "b45e8c37ed537d543213c1e5c01a68530be55d3c5564347c1733c2205775c486",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Hurrikan Lala zog an Hawaii vorbei",
+        "url": "https://www.derstandard.at/story/3000000335789/hurrikan-lala-zog-an-hawaii-vorbei",
+        "summary": "Ein Mensch verstarb bei einem Autounfall auf der Hauptinsel. Fast 130.000 Stromkunden waren ohne Versorgung",
+        "publishedAt": "2026-08-16T17:18:17.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "d5e9074aff2e2f8fdf67bb797569ab601166ea5c84687684f35a22cd3e8d2b22",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Hurrikan droht: Hawaii ruft vor Sturm 'Lala' Notstand aus",
+        "url": "https://kurier.at/chronik/welt/hurrikanwarnung-auf-hawaii-sturm-lala-naehert-sich/403183678",
+        "isNew": false
+      },
+      {
+        "itemId": "699c6918e4b46ed9a37fdb5d4ba49a423a75ee8d0084d15b1ee82dbb0940d04c",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Hurrikan „Lala“: Zehntausende in Hawaii ohne Strom",
+        "url": "https://orf.at/stories/3439285",
+        "isNew": false
+      },
+      {
+        "itemId": "feaa9e6971d650c387fece05a5efaa8f41a3231fc7fa658bffa19aa3839dd8e0",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Sturm „Lala“: Starkregen und Stromausfälle auf Hawaii",
+        "url": "https://orf.at/stories/3439278",
+        "isNew": false
+      },
+      {
+        "itemId": "e42218fdcdc8367e4dcab4a18624b774e436387fc9ee557aee891601ca4c8dd7",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Hurrikan \"Lala\" vor Hawaii bringt bereits viel Zerstörung",
+        "url": "https://www.kleinezeitung.at/artikel/41176950/hurrikan-lala-vor-hawaii-bringt-bereits-viel-zerstoerung",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Naturereignis mit konkreten, messbaren Folgen (1 Todesopfer, ca. 130.000 Stromausfälle) an populärem Touristenziel Hawaii; breit in österreichischen Medien (≥4 Portale: derstandard, kurier, orf, kleinezeitung) mit substantieller Quellenlage berichtet (NHC, Gouverneur, Behördenmeldungen). Ohne direkten Österreich-Bezug, aber solide Nachricht mit nachvollziehbarer Relevanz für internationale Leserschaft.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Hurrikan Lala zog mit Windgeschwindigkeiten bis 120 Stundenkilometern an Hawaiis Hauptinsel Big Island vorbei",
+      "Der Sturm traf nicht direkt auf Land",
+      "Ein Mensch starb bei einem Autounfall im Süden der Hauptinsel",
+      "Fast 130.000 Stromkunden waren ohne Versorgung",
+      "Es kam zu heftigen Regenfällen auf den Inseln",
+      "Gouverneur Josh Green hatte Notstand ausgerufen"
+    ],
+    "missingSources": [
+      "Detaillierte Schadensersatz- und Sachschadensschätzungen",
+      "Langzeitauswirkungen auf Tourismus und Infrastruktur",
+      "Einsatzberichte lokaler hawaiianischer Katastrophenschutzbehörden",
+      "Vergleiche zu historischen Hurrikans (kurier erwähnt 1959/1992, aber wenig Detailinformation)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "hurrikan-lala-hawaii-august-2026",
+    "title": "Hurrikan „Lala“ zieht an Hawaii vorbei: ein Toter, Zehntausende ohne Strom",
+    "description": "Der Sturm „Lala“ streifte mit Windgeschwindigkeiten von rund 120 Stundenkilometern die Südspitze von Hawaiis Big Island, ohne dort direkt auf Land zu treffen. Bei einem sturmbedingten Autounfall kam ein Mensch ums Leben, rund 125.000 bis knapp 130.000 Stromkunden waren zeitweise ohne Versorgung.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Sturmverlauf, Todesfall und Stromausfälle werden übereinstimmend vom offiziellen US-Hurrikanzentrum, von US-Nachrichtenagentur- bzw. Sendermeldungen (AP/CBS) und von mehreren österreichischen Medien berichtet — das erfüllt die Schwelle für ein bestätigtes Ereignis.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die Angaben des US-Hurrikanzentrums stammen aus einer Suchergebnis-Zusammenfassung seiner Vorhersagetexte, nicht aus dem vollständig gelesenen Originaldokument.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es liegen mehrere unabhängige Perspektiven vor (Behördenprognose, US-Medien, österreichische Medien); ein Naturereignis ohne gegnerische Partei, daher keine strukturelle Einseitigkeit erkennbar.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Hurrikan „Lala“ zog mit Windgeschwindigkeiten von bis zu rund 120 km/h an der Südspitze von Big Island vorbei, traf dort aber nicht direkt auf Land.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei einem sturmbedingten Autounfall im Süden der Hauptinsel kam ein Mensch ums Leben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Rund 125.000 bis knapp 130.000 Stromkunden, vor allem auf Big Island, waren zeitweise ohne Versorgung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Gouverneur Josh Green hatte laut Medienberichten bereits vor Eintreffen des Sturms den Notstand ausgerufen.",
+        "kind": "open"
+      },
+      {
+        "text": "Laut US-Hurrikanzentrum bestand am Sonntag weiterhin Gefahr lebensbedrohlicher Überflutungen, und der Sturm könnte sich Mitte der Woche erneut zu einem Hurrikan verstärken.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch ist die endgültige, verifizierte Gesamtzahl der betroffenen Stromkunden und wie lange dauerten die Ausfälle an?",
+      "Wie groß ist das Ausmaß der Sachschäden (Gebäude, Infrastruktur, Straßen) und welche Folgen hat das für den Tourismus auf Hawaii?",
+      "Verstärkt sich „Lala“ wie vom US-Hurrikanzentrum prognostiziert Mitte der Woche erneut zu einem Hurrikan, und welche Inseln wären dann betroffen?",
+      "Wie verlaufen die Rettungs- und Aufräumeinsätze der lokalen Katastrophenschutzbehörden vor Ort?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard – Panorama",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000335789/hurrikan-lala-zog-an-hawaii-vorbei"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier – Chronik",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/hurrikanwarnung-auf-hawaii-sturm-lala-naehert-sich/403183678"
+      },
+      {
+        "id": "src3",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439285"
+      },
+      {
+        "id": "src4",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439278"
+      },
+      {
+        "id": "src5",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41176950/hurrikan-lala-vor-hawaii-bringt-bereits-viel-zerstoerung"
+      },
+      {
+        "id": "src6",
+        "name": "National Hurricane Center (NOAA) – Public/Forecast Advisory",
+        "type": "official",
+        "url": "https://www.nhc.noaa.gov/mobile/text/refresh/HFOTCPCP2+html/161150.shtml"
+      },
+      {
+        "id": "src7",
+        "name": "AP (via WRAL.com)",
+        "type": "agency",
+        "url": "https://www.wral.com/news/ap/hurricane-lala-lashes-hawaii-one-dead-august-2026/"
+      },
+      {
+        "id": "src8",
+        "name": "CBS News",
+        "type": "media",
+        "url": "https://www.cbsnews.com/news/tropical-storm-lala-big-island-hawaii-hurricane-track/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Hurrikan Lala zog mit Windgeschwindigkeiten von bis zu rund 120 km/h an der Südspitze von Big Island vorbei, ohne dort direkt auf Land zu treffen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Bei einem sturmbedingten Autounfall im Süden der Hauptinsel kam ein Mensch ums Leben.",
+        "status": "supported",
+        "note": "Von österreichischen, US-Agentur- und US-Sendermedien unabhängig übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Rund 125.000 bis knapp 130.000 Stromkunden, vor allem auf Big Island, waren zeitweise ohne Versorgung.",
+        "status": "supported",
+        "note": "Genaue Zahl schwankt leicht je nach Meldezeitpunkt und Quelle, liegt aber in allen Berichten in derselben Größenordnung.",
+        "sourceIds": [
+          "src1",
+          "src3",
+          "src4",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Gouverneur Josh Green hatte bereits vor Eintreffen des Sturms den Notstand ausgerufen.",
+        "status": "partial",
+        "note": "In der herangezogenen Quellenauswahl nur von einer österreichischen Quelle explizit berichtet; nicht durch eine der hier gelesenen internationalen Quellen zusätzlich bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Laut US-Hurrikanzentrum bestand am Sonntag weiterhin Gefahr lebensbedrohlicher Überflutungen, und der Sturm könnte sich Mitte der Woche erneut zu einem Hurrikan verstärken.",
+        "status": "partial",
+        "note": "Prognosewert des US-Hurrikanzentrums zum Zeitpunkt der Recherche; kann sich mit neueren Vorhersagen ändern.",
+        "sourceIds": [
+          "src6"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Sturm „Lala“ zog am Wochenende an der Insel Hawaii im Pazifik vorbei und brachte dem US-Bundesstaat heftige Regenfälle. Nach Angaben des US-Hurrikanzentrums NHC erreichte „Lala“ Samstagabend Ortszeit Windgeschwindigkeiten von bis zu rund 120 Stundenkilometern und zog damit als Hurrikan an der Südspitze der auch als Big Island bekannten Hauptinsel vorbei, traf dort aber nicht direkt auf Land. Bereits Tage zuvor hatte sich der damalige Tropensturm von Südosten kommend genähert; das NHC hatte für Big Island eine Hurrikanwarnung, für die übrigen Inseln Tropensturm-Warnungen ausgegeben."
+      },
+      {
+        "heading": "Folgen auf Hawaii",
+        "markdown": "Im Süden der Hauptinsel kam es zu einem Autounfall, bei dem ein Mensch starb. Der Sturm sorgte zudem für großflächige Stromausfälle: Übereinstimmend berichten österreichische wie internationale Quellen von in Summe rund 125.000 bis knapp 130.000 betroffenen Stromkunden, der überwiegende Teil davon auf Big Island. Berichte sprechen zudem von abgedeckten Hausdächern, überfluteten Straßen und weggeschwemmten Gebäuden in einzelnen Ortschaften im Süden der Insel; eine belastbare Gesamtschadensbilanz liegt nach derzeitiger Quellenlage nicht vor."
+      },
+      {
+        "heading": "Vorgeschichte: Notstand vor dem Sturm",
+        "markdown": "Bereits vor dem Erreichen der Inseln hatte Hawaiis Gouverneur Josh Green laut einer österreichischen Quelle den Notstand ausgerufen, um Einsatzkräfte zu mobilisieren und den Zugang zu Bundesmitteln zu erleichtern. Er rief die Bevölkerung auf, Häuser zu sichern, Notfallpläne zu überprüfen und offizielle Warnungen zu verfolgen. Laut dieser Quelle wird Hawaii nur selten direkt von Hurrikanen getroffen: Seit Beginn der Aufzeichnungen der US-Wetterbehörde NOAA im Jahr 1950 sind demnach nur die Stürme „Dot“ (1959) und „Iniki“ (1992) unmittelbar auf Land getroffen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Die genaue Gesamtzahl der betroffenen Stromkunden schwankt je nach Meldezeitpunkt zwischen den Berichten, auch wenn sie sich in etwa derselben Größenordnung bewegt. Offen ist ebenso das Ausmaß der Sachschäden an Gebäuden und Infrastruktur sowie mögliche Auswirkungen auf den Tourismus. Nach Prognose des US-Hurrikanzentrums bestand am Sonntag weiterhin die Gefahr lebensbedrohlicher Überflutungen, und der Sturm könnte sich der Vorhersage zufolge Mitte der Woche erneut zu einem Hurrikan verstärken — der weitere Verlauf und dessen Folgen sind damit zum Zeitpunkt dieser Recherche nicht abschließend absehbar."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die zentralen Eckdaten des Ereignisses — Sturmverlauf ohne direkten Landgang, ein Todesopfer, großflächige Stromausfälle — werden von einer offiziellen Behördenquelle sowie von österreichischen wie internationalen Medien übereinstimmend getragen und gelten damit als gesichert. Einzelangaben zu Schadensausmaß, exakten Betroffenenzahlen und dem weiteren Sturmverlauf beruhen dagegen auf vorläufigen Behördenprognosen beziehungsweise einzelnen Medienberichten und sind entsprechend vorsichtig zu lesen."
+      }
+    ],
+    "bodyKompakt": "Der Sturm „Lala“ ist am Wochenende an der Insel Hawaii im Pazifik vorbeigezogen, ohne dort direkt auf Land zu treffen. Nach Angaben des US-Hurrikanzentrums NHC erreichte er als Hurrikan Windgeschwindigkeiten von bis zu rund 120 Stundenkilometern und zog an der Südspitze der Hauptinsel Big Island vorbei. Im Süden der Insel kam es zu einem Autounfall mit einem Todesopfer, und rund 125.000 bis knapp 130.000 Stromkunden waren übereinstimmenden Berichten zufolge zeitweise ohne Versorgung.\n\nVor Eintreffen des Sturms hatte Gouverneur Josh Green laut einer österreichischen Quelle den Notstand ausgerufen, um Einsatzkräfte zu mobilisieren. Hurrikane treffen die Inselgruppe nur selten direkt: Seit 1950 geschah dies laut NOAA-Aufzeichnungen nur zweimal.\n\nOffen bleiben das genaue Schadensausmaß, die exakte Gesamtzahl der Betroffenen sowie der weitere Sturmverlauf. Das US-Hurrikanzentrum warnte am Sonntag weiterhin vor lebensbedrohlichen Überflutungen und hält eine erneute Verstärkung zu einem Hurrikan Mitte der Woche für möglich.",
+    "updateNote": null,
+    "pendingOutcome": "Weiterer Verlauf des Sturms „Lala“ — laut US-Hurrikanzentrum mögliche erneute Verstärkung zu einem Hurrikan Mitte der Woche sowie die endgültige Schadensbilanz auf Hawaii."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-16T18:07:31.192Z"
+}
