@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T14:25:56.627Z",
+  "updatedAt": "2026-08-17T16:23:00.011Z",
   "stories": {
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – US-Justizministerium zieht Vorladungen zurück",
@@ -1644,58 +1644,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-20T14:07:33.513Z"
-    },
-    "toedlicher-motorradunfall-fahrerflucht-scharfling-juli-2026": {
-      "canonicalTitle": "Motorradfahrer bei Unfall in Scharfling getötet – Pkw-Lenker flüchtig",
-      "slug": "toedlicher-motorradunfall-fahrerflucht-scharfling-juli-2026",
-      "firstSeenAt": "2026-07-18T16:07:30.663Z",
-      "lastUpdatedAt": "2026-07-18T16:07:30.663Z",
-      "status": "published",
-      "articlePath": "src/content/articles/toedlicher-motorradunfall-fahrerflucht-scharfling-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/toedlicher-motorradunfall-fahrerflucht-scharfling-juli-2026.json",
-      "sourceUrls": [
-        "https://salzburg.orf.at/stories/3363227",
-        "https://kurier.at/chronik/oberoesterreich/ooe-motorrad-unfall-fahrer-fluechtig/403176868"
-      ],
-      "openQuestions": [
-        "Wie genau kam es zu dem Unfall und wer trug welche Verantwortung – dazu liegt keine offizielle Unfallanalyse vor.",
-        "Konnte der flüchtige Pkw-Lenker mittlerweile ausgeforscht werden?",
-        "Welche exakte Fahrzeugbeschreibung und welches Kennzeichen liegen der Polizei tatsächlich vor?",
-        "Wie lautet die offizielle Todesursache laut Obduktion bzw. Rettungseinsatz?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-19T16:07:30.663Z",
-      "doNotUpdateBefore": "2026-07-18T22:07:30.663Z"
-    },
-    "tirol-lebensgefaehrtin-betaeubt-vergewaltigt-verdacht-juli-2026": {
-      "canonicalTitle": "Verdacht auf Betäubung und Vergewaltigung der Lebensgefährtin: 44-Jähriger in Tirol in Untersuchungshaft",
-      "slug": "tirol-lebensgefaehrtin-betaeubt-vergewaltigt-verdacht-juli-2026",
-      "firstSeenAt": "2026-07-18T16:07:30.663Z",
-      "lastUpdatedAt": "2026-07-18T16:07:30.663Z",
-      "status": "published",
-      "articlePath": "src/content/articles/tirol-lebensgefaehrtin-betaeubt-vergewaltigt-verdacht-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/tirol-lebensgefaehrtin-betaeubt-vergewaltigt-verdacht-juli-2026.json",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000331993/mann-soll-in-tirol-lebensgef228hrtin-bet228ubt-und-vergewaltigt-haben",
-        "https://www.diepresse.com/38257546/mann-in-tirol-soll-lebensgefaehrtin-mehrmals-betaeubt-und-vergewaltigt-haben",
-        "https://kurier.at/chronik/tirol/tirol-mann-lebensgefaehrtin-betaeubt-vergewaltigt/403176858",
-        "https://tirol.orf.at/stories/3363207/",
-        "https://www.tt.com/artikel/30938398/lebensgefaehrtin-mehrfach-betaeubt-und-vergewaltigt-44-jaehriger-in-innsbruck-in-u-haft"
-      ],
-      "openQuestions": [
-        "Wie viele mutmaßliche Taten und welcher Zeitraum sind konkret betroffen?",
-        "Ist auch eine frühere Partnerin des Verdächtigen zum Opfer geworden – und wird dieser Verdacht von der Staatsanwaltschaft noch bestätigt?",
-        "Wie und durch wen wurden die Ermittlungen ursprünglich ausgelöst?",
-        "Liegt mittlerweile eine Stellungnahme des Verdächtigen oder seiner Verteidigung vor?",
-        "Wann ist mit einer Anklage oder weiteren Verfahrensschritten zu rechnen?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-19T16:07:30.663Z",
-      "doNotUpdateBefore": "2026-07-18T22:07:30.663Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-07-22T20:07:33.174Z"
     },
     "offener-brief-oekonomen-warnung-ki-juli-2026": {
       "canonicalTitle": "Offener Brief aus Stanford: Rund 2000 Ökonomen warnen vor Folgen der KI",
@@ -15149,8 +15097,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-16T14:07:41.864Z",
       "doNotUpdateBefore": "2026-08-15T20:07:41.864Z",
-      "pendingOutcome": "Ob ein Antrag auf Aufhebung von Krahs Immunität gestellt, vom Bundestag behandelt und der Haftbefehl in der Folge tatsächlich vollstreckt wird, ist offen und wird weiterverfolgt.",
-      "pendingOutcomeUntil": "2026-08-17T14:07:41.864Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -16608,10 +16554,16 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-18T04:07:29.522Z",
       "doNotUpdateBefore": "2026-08-17T10:07:29.522Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "orf": "2026-08-17T16:07:37.351Z",
+        "kurier": "2026-08-17T16:07:37.896Z",
+        "derstandard": "2026-08-16T16:07:41.232Z",
+        "diepresse": "2026-08-16T18:07:35.204Z",
+        "kleinezeitung": "2026-08-16T18:07:36.583Z"
+      },
+      "resonanceLevel": 5,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-16T16:07:34.836Z"
+      "resonanceMeasuredAt": "2026-08-17T16:07:35.264Z"
     },
     "suedkorea-nordkorea-friedensangebot-august-2026": {
       "canonicalTitle": "Südkoreas Präsident Lee bietet Nordkorea Verhandlungen über Friedensvertrag an",
@@ -17727,6 +17679,104 @@
         "FAA oder Behörden-Statement zum USA-Vorfall AA2482"
       ],
       "sensitivity": "high"
+    },
+    "ebola-dr-kongo-toedlichster-ausbruch-rekord-august-2026": {
+      "canonicalTitle": "Ebola in der DR Kongo: Ausbruch wird zum tödlichsten der Landesgeschichte",
+      "slug": "ebola-dr-kongo-toedlichster-ausbruch-rekord-august-2026",
+      "firstSeenAt": "2026-08-17T16:07:35.264Z",
+      "lastUpdatedAt": "2026-08-17T16:07:35.264Z",
+      "status": "published",
+      "articlePath": "src/content/articles/ebola-dr-kongo-toedlichster-ausbruch-rekord-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-17/ebola-dr-kongo-toedlichster-ausbruch-rekord-august-2026.json",
+      "sourceUrls": [
+        "https://science.orf.at/stories/3236937",
+        "https://www.kleinezeitung.at/artikel/41177830/toedlichster-ebola-ausbruch-in-der-geschichte-des-kongos",
+        "https://www.derstandard.at/story/3000000335800/ebola-t246dlichster-ausbruch-in-der-geschichte-des-kongos",
+        "https://www.diepresse.com/41177834/toedlichster-ebola-ausbruch-in-der-geschichte-des-kongo",
+        "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
+        "https://english.news.cn/africa/20260817/388222131d9140ee87e27713e5b7dd2f/c.html"
+      ],
+      "openQuestions": [
+        "Ist der Ebola-Erreger im aktuellen Ausbruch mutiert, wie derzeit geprüft wird, und welche Folgen hätte das für Übertragbarkeit oder Schwere der Erkrankung?",
+        "Liefern die seit Anfang Juli laufenden klinischen Tests der zwei antiviralen Therapieverfahren erste Wirksamkeitsdaten?",
+        "Wird sich der Ausbruch über die sechs bereits betroffenen Provinzen hinaus weiter ausbreiten, oder gelingt eine Eindämmung?",
+        "Bestätigt die WHO offiziell und mit belastbaren Daten die Befürchtung, dass der Ausbruch noch nie dagewesene Ausmaße erreichen könnte?",
+        "Wie entwickelt sich die Fallsterblichkeitsrate von rechnerisch rund 47 Prozent weiter, und wie verlässlich ist diese Zahl angesichts möglicher Untererfassung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-18T16:07:35.264Z",
+      "doNotUpdateBefore": "2026-08-17T22:07:35.264Z",
+      "pendingOutcome": "Ob der Erreger mutiert ist, ob die laufenden Therapiestudien Wirksamkeitsdaten liefern und ob sich der Ausbruch über die sechs bislang betroffenen Provinzen hinaus weiter ausbreitet.",
+      "pendingOutcomeUntil": "2026-08-19T16:07:35.264Z",
+      "echoPublishers": {
+        "orf": "2026-08-17T16:07:37.800Z",
+        "kleinezeitung": "2026-08-17T02:07:38.727Z",
+        "derstandard": "2026-08-17T04:07:36.376Z",
+        "diepresse": "2026-08-17T06:07:37.126Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-17T16:07:35.264Z"
+    },
+    "noe-umfrage-oevp-fpoe-abstand-august-2026": {
+      "canonicalTitle": "Umfrage: Abstand zwischen ÖVP und FPÖ in Niederösterreich schrumpft, FPÖ erreicht Höchstwert",
+      "slug": "noe-umfrage-oevp-fpoe-abstand-august-2026",
+      "firstSeenAt": "2026-08-17T16:07:35.264Z",
+      "lastUpdatedAt": "2026-08-17T16:07:35.264Z",
+      "status": "published",
+      "articlePath": "src/content/articles/noe-umfrage-oevp-fpoe-abstand-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-17/noe-umfrage-oevp-fpoe-abstand-august-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000335906/umfrage-abstand-zwischen-214vp-und-fp214-in-nieder246sterreich-schrumpft",
+        "https://noe.orf.at/stories/3366912",
+        "https://kurier.at/chronik/niederoesterreich/umfrage-abstand-zwischen-oevp-und-fpoe-in-niederoesterreich-schrumpft/403184246"
+      ],
+      "openQuestions": [
+        "Wie reagieren ÖVP, FPÖ, SPÖ, Grüne und NEOS in Niederösterreich auf die Umfrageergebnisse?",
+        "Wie hat sich der Trend im Vergleich zu vorangegangenen Umfragen aus 2025/2026 entwickelt?",
+        "Wann genau findet die nächste Landtagswahl in Niederösterreich statt?",
+        "Wirkt sich das Umfrageergebnis auf die aktuelle Regierungsarbeit der ÖVP-FPÖ-Koalition in Niederösterreich aus?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-18T16:07:35.264Z",
+      "doNotUpdateBefore": "2026-08-17T22:07:35.264Z",
+      "echoPublishers": {
+        "derstandard": "2026-08-17T14:07:35.265Z",
+        "orf": "2026-08-17T06:07:35.612Z",
+        "kurier": "2026-08-17T08:07:33.626Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-17T16:07:35.264Z"
+    },
+    "trump-carroll-supreme-court-einspruch-august-2026": {
+      "canonicalTitle": "US-Supreme Court weist Trumps Einspruch im Fall Carroll ab",
+      "slug": "trump-carroll-supreme-court-einspruch-august-2026",
+      "firstSeenAt": "2026-08-17T16:07:35.264Z",
+      "lastUpdatedAt": "2026-08-17T16:07:35.264Z",
+      "status": "published",
+      "articlePath": "src/content/articles/trump-carroll-supreme-court-einspruch-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-17/trump-carroll-supreme-court-einspruch-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3439447",
+        "https://www.kleinezeitung.at/artikel/41182261/trump-scheitert-nach-missbrauchsurteil-mit-einspruch"
+      ],
+      "openQuestions": [
+        "Wie reagieren Donald Trump oder das Weiße Haus offiziell auf die Zurückweisung des Rechtsmittels?",
+        "Hat sich E. Jean Carroll selbst zur nun rechtskräftigen Entscheidung geäußert?",
+        "Aus welchen Gründen bleibt die Vollstreckung des separaten 83,3-Millionen-Dollar-Urteils weiterhin ausgesetzt, und wie geht dieses Verfahren weiter?",
+        "Bestehen noch weitere offene Rechtsmittel zwischen Trump und Carroll?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-18T16:07:35.264Z",
+      "doNotUpdateBefore": "2026-08-17T22:07:35.264Z",
+      "echoPublishers": {
+        "orf": "2026-08-17T16:07:37.351Z",
+        "kleinezeitung": "2026-08-17T16:07:39.915Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-17T16:07:35.264Z"
     }
   }
 }
