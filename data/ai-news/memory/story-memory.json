@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T20:23:25.813Z",
+  "updatedAt": "2026-08-17T22:21:20.509Z",
   "stories": {
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – US-Justizministerium zieht Vorladungen zurück",
@@ -1639,29 +1639,6 @@
       "doNotRedraftBefore": "2026-07-20T12:07:28.466Z",
       "doNotUpdateBefore": "2026-07-19T18:07:28.466Z",
       "echoPublishers": {}
-    },
-    "fifa-social-media-loeschungen-wm-2026-juli-2026": {
-      "canonicalTitle": "FIFA meldet mehr als sieben Millionen gelöschte Hass-Beiträge zur WM 2026",
-      "slug": "fifa-social-media-loeschungen-wm-2026-juli-2026",
-      "firstSeenAt": "2026-07-18T22:07:29.919Z",
-      "lastUpdatedAt": "2026-07-18T22:07:29.919Z",
-      "status": "published",
-      "articlePath": "src/content/articles/fifa-social-media-loeschungen-wm-2026-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-18/fifa-social-media-loeschungen-wm-2026-juli-2026.json",
-      "sourceUrls": [
-        "https://sport.orf.at/stories/3160295",
-        "https://www.diepresse.com/38277692/hass-im-netz-zur-wm-fifa-loescht-mehr-als-sieben-millionen-beitraege"
-      ],
-      "openQuestions": [
-        "Auf welcher Datengrundlage und mit welcher Methodik stuft die FIFA Beiträge als „potenziell schädlich“ ein?",
-        "Wie verteilen sich die gelöschten Beiträge auf einzelne Plattformen wie X, Instagram, TikTok oder Facebook?",
-        "Welcher Anteil der Löschungen erfolgte automatisiert versus durch menschliche Prüfung?",
-        "Wie haben die betroffenen Plattformbetreiber selbst auf die FIFA-Zahlen reagiert?",
-        "Gab es Stellungnahmen von Nationalmannschaften, Spielerverbänden oder Betroffenen zu den gemeldeten Drohungen?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-19T22:07:29.919Z",
-      "doNotUpdateBefore": "2026-07-19T04:07:29.919Z"
     },
     "selenskyj-polen-geschichtsstreit-juli-2026": {
       "canonicalTitle": "Selenskyj kündigt Schritte zur Beilegung des Geschichtsstreits mit Polen an",
@@ -16410,10 +16387,10 @@
       "canonicalTitle": "Cambridge-Professor Jason Arday nach Plagiatsvorwürfen tot aufgefunden",
       "slug": "jason-arday-cambridge-professor-tod-august-2026",
       "firstSeenAt": "2026-08-15T08:07:34.053Z",
-      "lastUpdatedAt": "2026-08-17T04:07:29.522Z",
+      "lastUpdatedAt": "2026-08-17T22:07:28.339Z",
       "status": "published",
       "articlePath": "src/content/articles/jason-arday-cambridge-professor-tod-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-17/jason-arday-cambridge-professor-tod-august-2026-update-400.json",
+      "researchPath": "data/ai-news/research/2026-08-17/jason-arday-cambridge-professor-tod-august-2026-update-2200.json",
       "sourceUrls": [
         "https://www.diepresse.com/41175517/cambridge-professor-jason-arday-nach-plagiatsvorwuerfen-tot-aufgefunden",
         "https://www.kleinezeitung.at/artikel/41175425/nach-plagiatsvorwuerfen-cambridge-professor-tot-aufgefunden",
@@ -16424,26 +16401,38 @@
         "https://www.timeshighereducation.com/news/cambridge-v-c-promises-independent-arday-investigation",
         "https://www.diepresse.com/41177839/schikane-durch-presse-petition-fordert-untersuchung-des-todes-von-cambridge-professor-arday",
         "https://orf.at/stories/3439364",
-        "https://www.kleinezeitung.at/artikel/41177825/tod-von-cambridge-professor-arday-untersuchung-gefordert"
+        "https://www.kleinezeitung.at/artikel/41177825/tod-von-cambridge-professor-arday-untersuchung-gefordert",
+        "https://orf.at/stories/3439421",
+        "https://kurier.at/politik/ausland/tod-eines-cambridge-professors-opfer-einer-boesartigen-hexenjagd/403184374",
+        "https://www.derstandard.at/story/3000000335762/der-tod-des-cambridge-professors-eine-tragoedie-auf-so-vielen-ebenen",
+        "https://www.diepresse.com/41176988/resultat-der-medienberichterstattung-vorwuerfe-nach-tod-von-cambridge-akademiker-arday",
+        "https://www.kleinezeitung.at/artikel/41177442/nach-dem-tod-des-cambridge-akademikers-arday-stehen-medien-in-der",
+        "https://www.rte.ie/news/uk/2026/0817/1588279-jason-arday-vigil/",
+        "https://www.irishtimes.com/world/uk/2026/08/17/prof-jason-arday-had-been-victim-of-public-execution-vigil-hears/",
+        "https://www.euronews.com/my-europe/2026/08/17/calls-for-uk-public-inquiry-into-hounding-of-ex-cambridge-academic-jason-arday",
+        "https://www.dawn.com/news/2023438/cambridge-head-slams-racist-feeding-frenzy-over-dead-academic"
       ],
       "openQuestions": [
         "Was ergibt die gerichtliche bzw. polizeiliche Klärung der genauen Todesursache?",
-        "Zu welchem Ergebnis kommt die von Cambridge angekündigte unabhängige Untersuchung zu Ardays Berufung und akademischem Werdegang, die laut Berichten in eine breitere Überprüfung der Berufungsverfahren für Spitzenprofessuren münden soll?",
-        "Wie reagiert Premierminister Andy Burnham auf die Petition, und kommt es zu der geforderten staatlichen Untersuchung?",
+        "Zu welchem Ergebnis kommt die von Cambridge angekündigte unabhängige Untersuchung zu Ardays Berufung und akademischem Werdegang?",
+        "Wie reagiert Premierminister Andy Burnham auf die Petition und die Rufe nach einer öffentlichen Untersuchung, und kommt es dazu?",
         "Äußert sich der US-Forscher Nathan Cofnas, dem die ursprünglichen Plagiatsvorwürfe zugeschrieben werden, zu dem Fall und zu Ardays Tod?",
         "Welche konkreten Textstellen bzw. akademischen Angaben waren von den Plagiatsvorwürfen betroffen?",
-        "Wie viele Unterschriften erreicht die Petition letztlich, und wie verläuft die für den 17. August 2026 angekündigte Mahnwache am Trafalgar Square?"
+        "Wie belastbar ist die Auswertung von '249 Artikeln in 22 Tagen' durch 'Fact Check Politics', und liegt ihr eine nachvollziehbare Methodik zugrunde?",
+        "Wer sprach bei der Mahnwache laut Irish Times von einer 'öffentlichen Hinrichtung', und in welchem Kontext fiel diese Aussage?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-18T04:07:29.522Z",
-      "doNotUpdateBefore": "2026-08-17T10:07:29.522Z",
+      "doNotRedraftBefore": "2026-08-18T22:07:28.339Z",
+      "doNotUpdateBefore": "2026-08-18T04:07:28.339Z",
+      "pendingOutcome": "Ausgang der Cambridge-Untersuchung, der Petition für eine staatliche Untersuchung sowie die endgültige Todesursache stehen weiterhin aus.",
+      "pendingOutcomeUntil": "2026-08-19T22:07:28.339Z",
       "echoPublishers": {
         "orf": "2026-08-17T16:07:37.351Z",
         "kurier": "2026-08-17T16:07:37.896Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-17T20:07:34.988Z"
+      "resonanceMeasuredAt": "2026-08-17T22:07:28.339Z"
     },
     "suedkorea-nordkorea-friedensangebot-august-2026": {
       "canonicalTitle": "Südkoreas Präsident Lee bietet Nordkorea Verhandlungen über Friedensvertrag an",
@@ -17819,6 +17808,77 @@
         "Untersuchungsbericht zu unmittelbaren Auslösern der Panik"
       ],
       "sensitivity": "medium"
+    },
+    "fifa-trennt-sich-von-lamour-infantino-kritik-august-2026": {
+      "canonicalTitle": "FIFA trennt sich von Betriebsdirektor Kevin Lamour nach Kritik an Infantino",
+      "slug": "fifa-trennt-sich-von-lamour-infantino-kritik-august-2026",
+      "firstSeenAt": "2026-08-17T22:07:28.339Z",
+      "lastUpdatedAt": "2026-08-17T22:07:28.339Z",
+      "status": "published",
+      "articlePath": "src/content/articles/fifa-trennt-sich-von-lamour-infantino-kritik-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-17/fifa-trennt-sich-von-lamour-infantino-kritik-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3439461",
+        "https://sport.orf.at/stories/3161416",
+        "https://www.derstandard.at/story/3000000335964/fu223ball-fifa-trennte-sich-von-infantino-kritiker-lamour",
+        "https://kurier.at/sport/fussball/kevin-lamour-fifa-gianni-infantino-kritik-investorenplaene/403184394",
+        "https://www.kleinezeitung.at/artikel/41182503/infantino-kritiker-lamour-verlaesst-die-fifa",
+        "https://www.abc.net.au/news/2026-08-18/fifa-sacks-senior-executive-kevin-lamour-after-criticism/107048594"
+      ],
+      "openQuestions": [
+        "Wurde die Trennung von der FIFA veranlasst, oder handelt es sich um eine einvernehmliche Auflösung?",
+        "Wird sich Gianni Infantino persönlich zu Lamours Vorwürfen äußern?",
+        "Welche konkreten Details hatten die verworfenen Investorenpläne, und warum wurden sie zurückgezogen?",
+        "Gibt es Reaktionen von FIFA-Mitgliedsverbänden oder anderen Funktionären auf den Vorgang?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-18T22:07:28.339Z",
+      "doNotUpdateBefore": "2026-08-18T04:07:28.339Z",
+      "echoPublishers": {
+        "orf": "2026-08-17T22:07:31.664Z",
+        "derstandard": "2026-08-17T22:07:34.757Z",
+        "kurier": "2026-08-17T22:07:32.135Z",
+        "kleinezeitung": "2026-08-17T22:07:33.352Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-17T22:07:28.339Z"
+    },
+    "oesterreich-trockenste-zwoelf-monate-messgeschichte-august-2026": {
+      "canonicalTitle": "Österreich erlebt die trockensten zwölf Monate seit Messbeginn 1850",
+      "slug": "oesterreich-trockenste-zwoelf-monate-messgeschichte-august-2026",
+      "firstSeenAt": "2026-08-17T22:07:28.339Z",
+      "lastUpdatedAt": "2026-08-17T22:07:28.339Z",
+      "status": "published",
+      "articlePath": "src/content/articles/oesterreich-trockenste-zwoelf-monate-messgeschichte-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-17/oesterreich-trockenste-zwoelf-monate-messgeschichte-august-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000335812/die-vergangenen-zwoelf-monate-waren-in-oesterreich-die-trockensten-der-messgeschichte",
+        "https://www.diepresse.com/41178664/die-letzten-zwoelf-monate-waren-die-trockensten-in-oesterreich-in-176-jahren-messgeschichte",
+        "https://kurier.at/chronik/oesterreich/trockenheit-2026-hitze-duerre-oesterreich-bilanz-geosphere-austria/403184245",
+        "https://www.kleinezeitung.at/artikel/41179223/trockenste-zwoelf-monate-in-oesterreich-in-176-jahren-messgeschichte",
+        "https://orf.at/stories/3439390",
+        "https://www.diepresse.com/41178664/geosphere-austria-trockenste-zwoelf-monate-der-messgeschichte"
+      ],
+      "openQuestions": [
+        "Welche konkreten Maßnahmen planen Landwirtschafts-, Wasser- und Energiewirtschaft angesichts der anhaltenden Trockenheit?",
+        "Wie ordnen unabhängige Klimaforschungseinrichtungen außerhalb von Geosphere Austria den Befund langfristig ein?",
+        "Gibt es bereits politische Reaktionen oder angekündigte Hilfsprogramme für betroffene Regionen?",
+        "Wie schneidet Österreich im Vergleich zu Nachbarländern und der übrigen Alpenregion ab?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-18T22:07:28.339Z",
+      "doNotUpdateBefore": "2026-08-18T04:07:28.339Z",
+      "echoPublishers": {
+        "derstandard": "2026-08-17T10:07:34.629Z",
+        "diepresse": "2026-08-17T10:07:34.992Z",
+        "kurier": "2026-08-17T10:07:34.718Z",
+        "kleinezeitung": "2026-08-17T10:07:36.667Z",
+        "orf": "2026-08-17T08:07:32.411Z"
+      },
+      "resonanceLevel": 5,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-17T22:07:28.339Z"
     }
   }
 }
