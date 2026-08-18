@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T16:21:45.208Z",
+  "updatedAt": "2026-08-18T18:22:17.331Z",
   "stories": {
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – US-Justizministerium zieht Vorladungen zurück",
@@ -827,10 +827,13 @@
       "doNotUpdateBefore": "2026-08-18T10:07:33.713Z",
       "pendingOutcome": "Weitere Angriffswellen zwischen Ukraine und Russland sowie deren jeweilige unabhängige oder gegnerische Bestätigung bleiben offen und werden bei neuen Entwicklungen nachgetragen.",
       "pendingOutcomeUntil": "2026-08-20T04:07:33.713Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "orf": "2026-08-18T18:07:53.967Z",
+        "kleinezeitung": "2026-08-18T18:07:56.591Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-12T15:17:36.814Z"
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
     },
     "vorwuerfe-marktamt-chef-kutheil-juli-2026": {
       "canonicalTitle": "Wiener Marktamt: Nach Kutheils Rücktritt wird auch sein Stellvertreter wegen Fake-Account-Vorwürfen versetzt",
@@ -1810,28 +1813,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-21T22:07:30.155Z"
-    },
-    "monsun-indien-tote-juli-2026": {
-      "canonicalTitle": "Monsun-Regen in Indien: Mindestens 19 Tote nach Überschwemmungen und Erdrutschen",
-      "slug": "monsun-indien-tote-juli-2026",
-      "firstSeenAt": "2026-07-19T18:07:30.423Z",
-      "lastUpdatedAt": "2026-07-19T18:07:30.423Z",
-      "status": "published",
-      "articlePath": "src/content/articles/monsun-indien-tote-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-19/monsun-indien-tote-juli-2026.json",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000332080/monsun-regen-in-indien-mindestens-19-menschen-ums-leben-gekommen",
-        "https://www.diepresse.com/38340425/monsun-regen-mindestens-19-tote-in-indien"
-      ],
-      "openQuestions": [
-        "Wie hoch ist das genaue Schadensausmaß an Infrastruktur und Gebäuden?",
-        "Wird die Opferzahl von offizieller indischer Seite noch bestätigt oder revidiert?",
-        "Wie entwickelt sich die Regenlage in Jammu und Kaschmir in den kommenden Tagen?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-20T18:07:30.423Z",
-      "doNotUpdateBefore": "2026-07-20T00:07:30.423Z",
-      "echoPublishers": {}
     },
     "wm-finale-spanien-argentinien-halbzeit-0-0-juli-2026": {
       "canonicalTitle": "WM-Finale: Spanien und Argentinien gehen torlos in die Halbzeitpause – Yamal vergibt beste Chance",
@@ -15488,9 +15469,9 @@
         "diepresse": "2026-08-18T04:07:38.915Z",
         "kleinezeitung": "2026-08-18T16:07:35.314Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-18T16:07:29.926Z"
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
     },
     "liva-kerschbaum-entlassung-olg-bestaetigt-august-2026": {
       "canonicalTitle": "OLG Linz bestätigt Entlassung von Brucknerhaus-Chef Kerschbaum",
@@ -16008,10 +15989,7 @@
       "doNotUpdateBefore": "2026-08-18T04:07:28.339Z",
       "pendingOutcome": "Ausgang der Cambridge-Untersuchung, der Petition für eine staatliche Untersuchung sowie die endgültige Todesursache stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-08-19T22:07:28.339Z",
-      "echoPublishers": {
-        "orf": "2026-08-17T16:07:37.351Z",
-        "kurier": "2026-08-17T16:07:37.896Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-08-17T22:07:28.339Z"
@@ -16491,8 +16469,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-17T16:07:34.836Z",
       "doNotUpdateBefore": "2026-08-16T22:07:34.836Z",
-      "pendingOutcome": "Ob Israel die angekündigten weiteren Angriffe tatsächlich ausführt und ob die Hisbollah wie angedroht Vergeltung übt.",
-      "pendingOutcomeUntil": "2026-08-18T16:07:34.836Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -16586,8 +16562,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-18T14:07:29.667Z",
       "doNotUpdateBefore": "2026-08-17T20:07:29.667Z",
-      "pendingOutcome": "Offizielle Gesamtschadensbilanz für Big Island, Zeitrahmen für Straßenreparatur und vollständige Stromwiederherstellung, Klärung des Sturmzusammenhangs beim tödlichen Autounfall sowie eine mögliche erneute Verstärkung zu einem Hurrikan Mitte der Woche stehen noch aus.",
-      "pendingOutcomeUntil": "2026-08-18T18:07:31.192Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -16759,8 +16733,7 @@
       "pendingOutcome": "Offizielle Angabe der Todesursache bzw. Ergebnis der laufenden Ermittlungen, auf die US-Medien und ihre Publizistin verwiesen haben.",
       "pendingOutcomeUntil": "2026-08-19T06:07:33.404Z",
       "echoPublishers": {
-        "diepresse": "2026-08-18T08:07:30.488Z",
-        "kurier": "2026-08-17T16:07:37.875Z"
+        "diepresse": "2026-08-18T08:07:30.488Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -17133,9 +17106,7 @@
       "doNotUpdateBefore": "2026-08-17T22:07:35.264Z",
       "pendingOutcome": "Ob der Erreger mutiert ist, ob die laufenden Therapiestudien Wirksamkeitsdaten liefern und ob sich der Ausbruch über die sechs bislang betroffenen Provinzen hinaus weiter ausbreitet.",
       "pendingOutcomeUntil": "2026-08-19T16:07:35.264Z",
-      "echoPublishers": {
-        "orf": "2026-08-17T16:07:37.800Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-18T08:07:28.085Z"
@@ -17188,14 +17159,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-18T16:07:35.264Z",
       "doNotUpdateBefore": "2026-08-17T22:07:35.264Z",
-      "echoPublishers": {
-        "orf": "2026-08-17T16:07:37.351Z",
-        "kleinezeitung": "2026-08-17T16:07:39.915Z",
-        "derstandard": "2026-08-17T18:07:32.669Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-17T18:07:27.100Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
     },
     "falsche-medikamente-seniorenheim-leopoldau-august-2026": {
       "canonicalTitle": "Wiener Heim Leopoldau: Nachberichte erklären Kontrollmechanismen bei falscher Medikamentenabgabe",
@@ -17447,13 +17414,10 @@
       "doNotUpdateBefore": "2026-08-18T06:07:33.371Z",
       "pendingOutcome": "Ausgang des von Schlosberg und Jabloko angekündigten Berufungsverfahrens gegen das Urteil.",
       "pendingOutcomeUntil": "2026-08-20T00:07:33.371Z",
-      "echoPublishers": {
-        "diepresse": "2026-08-17T16:07:38.570Z",
-        "kurier": "2026-08-17T16:07:37.896Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-18T16:07:29.926Z"
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
     },
     "openai-preparedness-team-aufloesung-august-2026": {
       "canonicalTitle": "OpenAI hat sein Preparedness-Team für katastrophale KI-Risiken aufgelöst",
@@ -17478,9 +17442,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-19T00:07:33.371Z",
       "doNotUpdateBefore": "2026-08-18T06:07:33.371Z",
-      "echoPublishers": {
-        "heise": "2026-08-17T18:07:32.197Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-18T04:07:33.713Z"
@@ -17632,12 +17594,11 @@
       "pendingOutcome": "Offen sind das tatsächliche Flächenausmaß des zweiten Brands, mögliche Verletzte, sowie ob Behörden nach nun zwei Großbränden binnen einer Woche zusätzliche Sicherungs- oder Räummaßnahmen im munitionsbelasteten Föhrenwald ergreifen.",
       "pendingOutcomeUntil": "2026-08-20T04:07:33.713Z",
       "echoPublishers": {
-        "kurier": "2026-08-17T16:07:37.875Z",
         "diepresse": "2026-08-18T08:07:30.488Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-18T10:07:39.659Z"
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
     },
     "asyl-erstantraege-zehnjahrestief-juli-2026": {
       "canonicalTitle": "Asylstatistik Juli 2026: Erstanträge auf Zehn-Jahres-Tief, Grundversorgung so leer wie seit über 20 Jahren nicht",
@@ -17671,7 +17632,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-18T06:07:31.823Z"
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
     },
     "google-spirit-airlines-daten-ki-training-august-2026": {
       "canonicalTitle": "Google sichert sich Datenpaket der insolventen Spirit Airlines für KI-Training",
@@ -17743,7 +17704,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-18T06:07:31.823Z"
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
     },
     "meinl-reisinger-reformdividende-sommergespraech-august-2026": {
       "canonicalTitle": "Meinl-Reisinger fordert im ORF-\"Sommergespräch\" \"Reformdividende\" bei Budgetüberschuss",
@@ -18159,6 +18120,122 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-18T16:07:29.926Z"
+    },
+    "apple-app-store-eu-regeln-oktober-2026": {
+      "canonicalTitle": "Apple ändert App-Store-Regeln in der EU ab 1. Oktober",
+      "slug": "apple-app-store-eu-regeln-oktober-2026",
+      "firstSeenAt": "2026-08-18T18:07:52.295Z",
+      "lastUpdatedAt": "2026-08-18T18:07:52.295Z",
+      "status": "published",
+      "articlePath": "src/content/articles/apple-app-store-eu-regeln-oktober-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-18/apple-app-store-eu-regeln-oktober-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3439550",
+        "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
+        "https://techcrunch.com/2026/08/18/apple-overhauls-its-eu-app-store-fees-loosens-rules-for-alternative-app-stores",
+        "https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store",
+        "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze",
+        "https://techcrunch.com/2026/08/14/read-it-later-app-pocket-is-shutting-down-here-are-the-best-alternatives",
+        "https://www.golem.de/news/luxury-goods-the-new-ai-super-rich-are-reshaping-the-market-for-jets-yachts-and-cars-2608-212005.html",
+        "https://www.theverge.com/tech/980977/apple-app-tracking-transparency-settlement-germany",
+        "https://techcrunch.com/2026/08/17/spotifys-new-playlist-notes-let-users-and-editors-explain-their-song-picks",
+        "https://www.ots.at/presseaussendung/OTS_20260818_OTS0025/rhi-magnesita-opens-a-new-chapter-with-the-appointment-of-gustavo-franco-as-chief-executive-officer",
+        "https://www.ots.at/presseaussendung/OTS_20260818_OTS0019/rhi-magnesita-schlaegt-neues-kapitel-auf-gustavo-franco-zum-chief-executive-officer-ernannt",
+        "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
+        "https://techcrunch.com/2026/08/18/daniel-eks-body-scanning-startup-neko-health-opens-first-us-office-in-new-york",
+        "https://www.heise.de/news/Apple-und-die-EU-Kommission-einigen-sich-Neue-App-Store-Regeln-ab-1-Oktober-11418522.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Apple-und-die-EU-Kommission-einigen-sich-Neue-App-Store-Regeln-ab-1-Oktober-11418522.html",
+        "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/"
+      ],
+      "openQuestions": [
+        "Wie reagieren Entwicklerverbände oder einzelne große App-Anbieter auf die neue Gebührenstruktur?",
+        "Wie genau will die EU-Kommission die tatsächliche Umsetzung der neuen Bedingungen ab Oktober überprüfen?",
+        "Wie lassen sich die unterschiedlich detaillierten Angaben zu den Gebührensätzen (u. a. 26/20/15 Prozent laut The Verge) mit anderen, knapperen Zusammenfassungen der Änderungen in Einklang bringen?",
+        "Bewertet die EU-Kommission die Änderungen als ausreichend, um die DMA-Vorwürfe endgültig auszuräumen, oder drohen weitere Verfahren?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-19T18:07:52.295Z",
+      "doNotUpdateBefore": "2026-08-19T00:07:52.295Z",
+      "pendingOutcome": "Ob die EU-Kommission die ab 1. Oktober 2026 tatsächlich umgesetzten Änderungen als ausreichend bewertet oder weitere Schritte gegen Apple einleitet.",
+      "pendingOutcomeUntil": "2026-08-20T18:07:52.295Z",
+      "echoPublishers": {
+        "orf": "2026-08-18T18:07:53.967Z",
+        "theverge": "2026-08-18T18:07:56.119Z",
+        "techcrunch": "2026-08-18T18:07:56.062Z",
+        "apa": "2026-08-18T08:07:30.109Z",
+        "heise": "2026-08-18T16:07:34.882Z"
+      },
+      "resonanceLevel": 5,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
+    },
+    "deutschland-grenzkontrollen-verlaengerung-maerz-2027": {
+      "canonicalTitle": "Deutschland verlängert Grenzkontrollen an allen Landgrenzen bis März 2027",
+      "slug": "deutschland-grenzkontrollen-verlaengerung-maerz-2027",
+      "firstSeenAt": "2026-08-18T18:07:52.295Z",
+      "lastUpdatedAt": "2026-08-18T18:07:52.295Z",
+      "status": "published",
+      "articlePath": "src/content/articles/deutschland-grenzkontrollen-verlaengerung-maerz-2027.mdx",
+      "researchPath": "data/ai-news/research/2026-08-18/deutschland-grenzkontrollen-verlaengerung-maerz-2027.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3439558",
+        "https://www.derstandard.at/story/3000000336111/deutschland-verl228ngert-grenzkontrollen-bis-m228rz-2027",
+        "https://www.diepresse.com/41185055/deutschland-verlaengert-grenzkontrollen-bis-maerz-2027",
+        "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/grenzkontrollen-eu-kommission-kritik-dobrindt-polizei-2026-06-02"
+      ],
+      "openQuestions": [
+        "Widerspricht die EU-Kommission dem Gesuch, oder tritt die Verlängerung wie in der Vergangenheit automatisch in Kraft?",
+        "Welche aktuellen Migrationszahlen oder Risikoanalysen liegen der Begründung konkret zugrunde?",
+        "Wie positioniert sich die österreichische Bundesregierung zu der erneuten Verlängerung der Kontrollen an der gemeinsamen Grenze?",
+        "Wie reagieren die übrigen betroffenen Nachbarländer (u. a. Polen, Tschechien, Schweiz, Frankreich) auf den Schritt?",
+        "Bewertet die EU-Kommission dieses Gesuch ähnlich kritisch wie frühere Verlängerungsanträge, bei denen sie Begründung und Verhältnismäßigkeit infrage gestellt hatte?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-19T18:07:52.295Z",
+      "doNotUpdateBefore": "2026-08-19T00:07:52.295Z",
+      "pendingOutcome": "Ob die EU-Kommission dem Verlängerungsgesuch widerspricht oder die Kontrollen wie beantragt automatisch bis 15. März 2027 fortgesetzt werden.",
+      "pendingOutcomeUntil": "2026-08-20T18:07:52.295Z",
+      "echoPublishers": {
+        "orf": "2026-08-18T18:07:53.967Z",
+        "derstandard": "2026-08-18T18:07:54.908Z",
+        "diepresse": "2026-08-18T18:07:55.442Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
+    },
+    "grasser-richterin-gefaelschte-mails-verfahren-eingestellt-august-2026": {
+      "canonicalTitle": "Gefälschte Mails gegen Grasser-Richterin: Ermittlungen eingestellt",
+      "slug": "grasser-richterin-gefaelschte-mails-verfahren-eingestellt-august-2026",
+      "firstSeenAt": "2026-08-18T18:07:52.295Z",
+      "lastUpdatedAt": "2026-08-18T18:07:52.295Z",
+      "status": "published",
+      "articlePath": "src/content/articles/grasser-richterin-gefaelschte-mails-verfahren-eingestellt-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-18/grasser-richterin-gefaelschte-mails-verfahren-eingestellt-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3439548",
+        "https://www.derstandard.at/story/3000000336102/mutmasslicher-betrueger-bot-grasser-verteidigung-gefaelschtes-material-ueber-richterin-an",
+        "https://www.diepresse.com/41184914/grasser-richterin-sollte-mit-gefaelschten-unterlagen-denunziert-werden",
+        "https://www.falter.at/zeitung/20260818/die-verleumdung-der-grasser-richterin"
+      ],
+      "openQuestions": [
+        "Welche Identität und welchen beruflichen Hintergrund hat der 60-Jährige genau, und läuft inzwischen ein Strafverfahren gegen ihn?",
+        "Aus welchen Motiven brachte Dieter Böhmdorfer die Sachverhaltsdarstellung ungewöhnlicherweise direkt beim Leiter der Oberstaatsanwaltschaft Wien ein?",
+        "Wie äußern sich Richterin Marion Hohenecker beziehungsweise ihr Umfeld zur Einstellung des Verfahrens?",
+        "Welche detaillierte Begründung liefert die Staatsanwaltschaft Wien für die Einstellung, über die bisher zitierten Auszüge hinaus?",
+        "Welche Konsequenzen hat der Vorgang für Grassers Rechtsvertreter Manfred Ainedter, an dessen Kanzlei sich der 60-Jährige zuerst gewandt hatte?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-19T18:07:52.295Z",
+      "doNotUpdateBefore": "2026-08-19T00:07:52.295Z",
+      "echoPublishers": {
+        "orf": "2026-08-18T18:07:53.967Z",
+        "derstandard": "2026-08-18T16:07:34.927Z",
+        "diepresse": "2026-08-18T16:07:34.318Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
     }
   }
 }
