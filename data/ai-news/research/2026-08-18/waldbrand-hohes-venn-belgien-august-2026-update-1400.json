@@ -1,0 +1,366 @@
+{
+  "cluster": {
+    "id": "cluster-20260818-bb9133dd",
+    "title": "Waldbrand in belgischem Naturschutzgebiet tobt weiter",
+    "items": [
+      {
+        "itemId": "a2be89eb2b7e80dcb3315ce2b7f7cde3166925e7dc74b91677bb2069a0f28612",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Waldbrand in belgischem Naturschutzgebiet tobt weiter",
+        "url": "https://www.derstandard.at/story/3000000336064/waldbr228nde-feuer-in-belgischem-naturschutzgebiet-tobt-weiter",
+        "summary": "Brandgeruch und Rauchbelastung sind bis Köln bemerkbar. Lage im Hürtgenwald weiter entspannt",
+        "publishedAt": "2026-08-18T11:57:04.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "67cc8c0f75715ee4c37ee84482f00797da222a3e62875b1bdeaad545647c58d8",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Feuer in belgischem Naturschutzgebiet tobt weiter",
+        "url": "https://www.kleinezeitung.at/artikel/41183914/feuer-in-belgischem-naturschutzgebiet-tobt-weiter",
+        "summary": "Der unermüdliche Kampf gegen die Flammen im belgischen Naturschutzgebiet Hohes Venn und gegen deren Übergreifen auf die deutsche Grenzstadt Monschau in der Eifel (Nordrhein-Westfalen) geht auch an Tag vier unvermindert weiter. Das Feuer habe sich in der Nacht und am Vormittag nicht weiter Richtung deutsche Grenze ausgebreitet, sagte ein Feuerwehrsprecher am Dienstag. Die Flammen seien weiter gut zwei Kilometer entfernt.",
+        "publishedAt": "2026-08-18T11:29:56.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "2054a5df631d8aa3a34b3bc6a76e74e8714b4ac620b206f7398b2e0acc673823",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Brandbekämpfung in belgischem Naturschutzgebiet geht weiter",
+        "url": "https://www.kleinezeitung.at/artikel/41177900/brandbekaempfung-in-belgischem-naturschutzgebiet-geht-weiter",
+        "isNew": false
+      },
+      {
+        "itemId": "f5e030b355249f6e12c31b0c657c568f1c8df71b0d7d218810d3979367256ae9",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Brandbekämpfung in belgischem Schutzgebiet geht weiter",
+        "url": "https://orf.at/stories/3439377",
+        "isNew": false
+      },
+      {
+        "itemId": "0a75c2632f05448f99b8f03b58605e455c35feee64e88f949feab17a2202af73",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Brandbekämpfung in belgischem Naturschutzgebiet geht weiter",
+        "url": "https://www.derstandard.at/story/3000000335805/brandbek228mpfung-in-belgischem-naturschutzgebiet-geht-weiter",
+        "isNew": false
+      },
+      {
+        "itemId": "15f672405345cbfdc8d312f239c814b046a2eb78f3081262829d4213a4c81576",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Brandbekämpfung in belgischem Naturschutzgebiet geht weiter",
+        "url": "https://www.derstandard.at/story/3000000335805/brandbek228mpfung-in-belgischem-naturschutzgebiet-geht-weiter",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Statusupdate zur laufenden Waldbrand-Story im belgischen Hohen Venn. Cluster liefert neue Info zur Brandverlauf-Vorhersage (keine Ausbreitung Richtung deutsche Grenze nachts/vormittags, Abstand stabil 2 km) und bestätigt Tag-4-Status. Direkter Bezug zur publizierten Story ‚waldbrand-hohes-venn-belgien-august-2026'. Mehrere Items erkennen als Syndikation (derstandard 2x, kleinezeitung 2x mit identischem Text), kein neuer Hauptakteur oder eigenständiges Teil-Ereignis — inkrementeller Statusbericht, passt Standard-Regel für Story-Fortsetzung (E53).",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": 2,
+    "relatedSlug": "waldbrand-hohes-venn-belgien-august-2026",
+    "possibleClaims": [
+      "Waldbrand im belgischen Naturschutzgebiet Hohes Venn dauert an Tag vier an",
+      "Feuer rückt nicht weiter in Richtung deutscher Grenze vor",
+      "Flammen etwa 2 Kilometer von der deutschen Grenzstadt Monschau entfernt",
+      "Brandrauch bis Köln bemerkbar"
+    ],
+    "missingSources": [
+      "Genaue aktualisierte Angaben zur verbrannten Fläche",
+      "Prognose für Dauer der Löscharbeiten",
+      "Offizielle Behördenmeldung von belgischen oder deutschen Stellen zu Evakuierungen oder Gefährdungsänderung"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "waldbrand-hohes-venn-belgien-august-2026",
+    "title": "Größter Waldbrand der belgischen Geschichte: Feuer im Hohen Venn rückt auch an Tag vier nicht Richtung deutsche Grenze vor",
+    "description": "Der Waldbrand im Naturschutzgebiet Hohes Venn an der belgisch-deutschen Grenze hält auch am vierten Tag an: Die Flammen rücken nicht weiter Richtung Monschau vor, Rauchgeruch ist inzwischen bis Köln wahrnehmbar.",
+    "topic": "gesellschaft",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Die zentralen Fakten – anhaltender Großbrand im Hohen Venn als größter in der belgischen Geschichte, ausbleibendes Vorrücken Richtung deutsche Grenze auch an Tag vier, stabiler Abstand von rund zwei Kilometern zu Monschau – werden von unabhängigen Redaktionen aus Österreich (DER STANDARD, Kleine Zeitung, ORF), Belgien und Deutschland übereinstimmend berichtet. Die Rauchbelastung bis Köln und die Entspannung beim separaten Brand im Hürtgenwald sind durch mehrere deutsche Medien bestätigt. Kein offizielles Dokument wurde im Volltext eingesehen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Auch nach vier Tagen liegt kein im Volltext eingesehenes Dokument einer Behörde vor; Aussagen von Feuerwehrsprechern, Amtsträgern und dem Verteidigungsministerium sind ausschließlich in medial wiedergegebener Form verfügbar. Eine offizielle Informationsseite der Wallonischen Region zum Brand existiert, wurde für diesen Artikel aber nicht im Volltext geprüft.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es kommen weiterhin Stimmen aus Belgien und Deutschland zu Wort, ergänzt um Berichte aus drei Ländern. Der Status zur Eindämmung am Nachmittag des 18. August (Bereich Nordost noch offen, drehender Wind) stützt sich ausschließlich auf belgische Medien und ist daher als weniger gesichert markiert.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Der Waldbrand im belgischen Naturschutzgebiet Hohes Venn gilt weiterhin als größter in der Geschichte Belgiens und dauert auch am vierten Tag, dem 18. August, an.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Feuer ist auch in der Nacht auf den 18. August und am Vormittag nicht weiter Richtung deutsche Grenze vorgerückt; die Flammen liegen laut einem Feuerwehrsprecher weiterhin rund zwei Kilometer von der Grenzstadt Monschau entfernt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Rauchgeruch durch den Brand ist inzwischen auch in Köln, mehr als 100 Kilometer entfernt, wahrnehmbar; die dortige Feuerwehr sprach von einer großflächigen Geruchslage ohne Gefahr für die Bevölkerung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die deutsche Bundeswehr unterstützt weiterhin mit Hubschraubern aus der Luft, während sich die Lage bei einem separaten, kleineren Waldbrand im deutschen Hürtgenwald bei Düren laut Berichten weiter entspannt hat.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie groß die aktuell verbrannte Fläche im Hohen Venn genau ist, bleibt unklar – Schätzungen schwanken zwischen rund 2.700 und 3.200 Hektar.",
+        "kind": "open"
+      },
+      {
+        "text": "Wann der Brand vollständig unter Kontrolle sein wird und was ihn ausgelöst hat, ist weiterhin offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie groß ist die aktuell tatsächlich verbrannte Fläche im Hohen Venn – Schätzungen liegen zwischen rund 2.700 und 3.200 Hektar?",
+      "Was ist die genaue Ursache des Brandausbruchs?",
+      "Wann wird der Brand voraussichtlich vollständig unter Kontrolle sein?",
+      "Kommt es zu weiteren Evakuierungen auf deutscher oder belgischer Seite?",
+      "Wie wirkt sich der laut belgischen Berichten drehende Wind weiterhin auf die Ausbreitung Richtung Südosten aus?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439377"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439312/"
+      },
+      {
+        "id": "src3",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000335805/brandbek228mpfung-in-belgischem-naturschutzgebiet-geht-weiter"
+      },
+      {
+        "id": "src4",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41177900/brandbekaempfung-in-belgischem-naturschutzgebiet-geht-weiter"
+      },
+      {
+        "id": "src5",
+        "name": "VRT NWS",
+        "type": "media",
+        "url": "https://www.vrt.be/vrtnws/de/2026/08/15/_schwerster-waldbrand-in-der-belgischen-geschichte-durch-den-wa/"
+      },
+      {
+        "id": "src6",
+        "name": "Aachener Zeitung",
+        "type": "media",
+        "url": "https://www.aachener-zeitung.de/region-nrw/bundeswehr-hilft-in-belgien-gegen-waldbrand/160106886.html"
+      },
+      {
+        "id": "src7",
+        "name": "Der Tagesspiegel",
+        "type": "media",
+        "url": "https://www.tagesspiegel.de/gesellschaft/panorama/grosser-waldbrand-wutet-in-belgien-einsatzkrafte-in-der-nahen-eifelstadt-monschau-geben-aber-vorerst-entwarnung-15941179.html"
+      },
+      {
+        "id": "src8",
+        "name": "Ostbelgien Direkt",
+        "type": "media",
+        "url": "https://ostbelgiendirekt.be/grossbrand-im-hohen-venn-441449"
+      },
+      {
+        "id": "src9",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000336064/waldbr228nde-feuer-in-belgischem-naturschutzgebiet-tobt-weiter"
+      },
+      {
+        "id": "src10",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41183914/feuer-in-belgischem-naturschutzgebiet-tobt-weiter"
+      },
+      {
+        "id": "src11",
+        "name": "RTBF Actus",
+        "type": "media",
+        "url": "https://www.rtbf.be/article/direct-incendie-dans-les-fagnes-habitants-evacues-2700-hectares-partis-en-fumee-les-pompiers-continuent-a-lutter-contre-le-feu-11770992"
+      },
+      {
+        "id": "src12",
+        "name": "L'Avenir",
+        "type": "media",
+        "url": "https://www.lavenir.net/regions/verviers/baelen/2026/08/18/incendie-historique-dans-les-hautes-fagnes-le-point-sur-la-situation-ce-mardi-18-aout-direct-AUY5XSA7H5EMVAFXXWJYAKQPEI/"
+      },
+      {
+        "id": "src13",
+        "name": "t-online (Köln)",
+        "type": "media",
+        "url": "https://koeln.t-online.de/region/koeln/id_101393618/waldbrand-im-hohen-venn-rauchwolke-ueber-koeln-nrw-warnung-an-bevoelkerung.html"
+      },
+      {
+        "id": "src14",
+        "name": "Westdeutsche Zeitung",
+        "type": "media",
+        "url": "https://www.wz.de/nrw/feuer-im-hohen-venn-mit-brandgeruch-bis-koeln_aid-153315613"
+      },
+      {
+        "id": "src15",
+        "name": "Westdeutsche Zeitung",
+        "type": "media",
+        "url": "https://www.wz.de/nrw/waldbrand-im-huertgenwald-lage-hat-sich-weiter-entspannt_aid-153280275"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der Waldbrand im Naturschutzgebiet Hohes Venn ist der größte in der bisherigen Geschichte Belgiens.",
+        "status": "supported",
+        "note": "Wird von österreichischen, belgischen und deutschen Medien unabhängig voneinander so berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das Feuer ist in der Nacht auf den 17. August nicht weiter vorgerückt; bei leichtem Regen wurden die Löschmaßnahmen bei Tageslicht wieder intensiviert.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Ein Übergreifen des Feuers auf deutsches Gebiet wird nach derzeitiger Einschätzung nicht erwartet.",
+        "status": "partial",
+        "note": "Nur eine offizielle Einzelstimme (Stellvertreter der Bürgermeisterin von Monschau) liegt dazu vor, keine unabhängige Zweitbestätigung.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Rund 30 Bewohnerinnen und Bewohner von Monschau-Kalterherberg wurden am Vorabend wegen möglicher starker Rauchbelastung vorübergehend andernorts untergebracht.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die deutsche Bundeswehr unterstützt die Brandbekämpfung mit zwei Transporthubschraubern vom Typ NH90 aus der Luft; laut Verteidigungsministerium war der Einsatz zunächst für rund eine Woche angesetzt.",
+        "status": "supported",
+        "note": "Ankündigung des Ministeriums nur in medialer Wiedergabe vorliegend, nicht im Wortlaut eingesehen.",
+        "sourceIds": [
+          "src1",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der Brand brach Medienberichten zufolge bereits um den 14. August aus und hat seither eine für Belgien beispiellose Fläche erfasst; der bisherige Rekordbrand von 2011 umfasste rund 1.400 Hektar.",
+        "status": "partial",
+        "note": "Die kursierenden Flächenangaben stammen von unterschiedlichen Zeitpunkten und Quellen und sind nicht deckungsgleich; eine aktuelle, konsolidierte Zahl liegt nicht vor.",
+        "sourceIds": [
+          "src5",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Auch in der Nacht auf den 18. August und am Vormittag ist das Feuer nicht weiter in Richtung der deutschen Grenze vorgerückt; die Flammen liegen laut einem Feuerwehrsprecher weiterhin rund zwei Kilometer von Monschau entfernt.",
+        "status": "supported",
+        "note": "Übereinstimmend von zwei unabhängigen österreichischen Redaktionen unter Berufung auf einen Feuerwehrsprecher berichtet.",
+        "sourceIds": [
+          "src9",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Der Waldbrand sorgt mittlerweile auch in Köln, mehr als 100 Kilometer entfernt, für Geruchsbelästigung durch Rauch; die Kölner Feuerwehr sprach von einer großflächigen Geruchslage ohne Gefahr für die Bevölkerung.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src13",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Nach belgischen Medienberichten war der Brand am Nachmittag des 18. August mit Ausnahme des Nordostteils der Hochmoore weitgehend eingegrenzt, insgesamt aber weiterhin nicht vollständig unter Kontrolle; ein drehender Nordwind trieb die Flammen zeitweise Richtung Südosten in ein Nadelwaldgebiet.",
+        "status": "partial",
+        "note": "Bislang nur durch belgische Medien berichtet, keine unabhängige Bestätigung durch österreichische oder deutsche Quellen in diesem Cluster.",
+        "sourceIds": [
+          "src11",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Die insgesamt verbrannte Fläche wird von belgischen und deutschen Medien mittlerweile auf rund 2.700 bis 3.200 Hektar geschätzt; eine konsolidierte, offizielle Zahl liegt weiterhin nicht vor.",
+        "status": "partial",
+        "note": "Zahlen schwanken je nach Quelle und Zeitpunkt der Erhebung weiterhin deutlich.",
+        "sourceIds": [
+          "src11",
+          "src12",
+          "src13"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Bei einem separaten, kleineren Waldbrand im deutschen Hürtgenwald bei Düren – nicht identisch mit dem Brand im Hohen Venn – hat sich die Lage laut Medienberichten weiter entspannt, offene Flammen gibt es dort nicht mehr.",
+        "status": "supported",
+        "note": "Betrifft einen eigenständigen Brand auf deutscher Seite, der zeitlich und örtlich in Zusammenhang mit dem Hohen Venn steht, aber nicht dasselbe Ereignis ist.",
+        "sourceIds": [
+          "src15"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Waldbrand im Naturschutzgebiet Hohes Venn in Belgien, direkt an der Grenze zu Deutschland, beschäftigt die Einsatzkräfte auch am vierten Tag intensiv. Nach vorliegenden Quellen ist er der größte Flächenbrand in der Geschichte Belgiens. Bereits am Morgen des 17. August waren die Löschmaßnahmen bei Tageslicht wieder verstärkt worden, nachdem das Feuer in der Nacht nicht weiter vorgerückt war. Auch in der Nacht auf den 18. August und am Vormittag hat sich daran nichts geändert: Laut einem Feuerwehrsprecher hat sich das Feuer nicht weiter in Richtung der deutschen Grenze ausgebreitet, die Flammen liegen weiterhin rund zwei Kilometer von der Grenzstadt Monschau entfernt."
+      },
+      {
+        "heading": "Lage an der Grenze zu Deutschland",
+        "markdown": "Am Abend des 16. August waren rund 30 Bewohnerinnen und Bewohner des Monschauer Ortsteils Kalterherberg wegen einer möglichen starken Rauchbelastung vorübergehend andernorts untergebracht worden. Ein Übergreifen des Feuers auf deutsches Gebiet wurde bereits zu diesem Zeitpunkt nicht erwartet – eine Einschätzung, die durch das ausbleibende Vorrücken der Flammen an Tag vier zumindest im Ergebnis bestätigt wird. Die deutsche Bundeswehr unterstützt die belgischen Einsatzkräfte weiterhin aus der Luft: Laut einer Mitteilung des Verteidigungsministeriums sind zwei Transporthubschrauber vom Typ NH90 im Einsatz, die mit sogenannten Bambi-Buckets Löschwasser abwerfen. Der Einsatz war zunächst für rund eine Woche angesetzt."
+      },
+      {
+        "heading": "Rauch bis Köln",
+        "markdown": "Der Rauch des Brandes ist inzwischen weit über die unmittelbare Umgebung hinaus wahrnehmbar: Medienberichten zufolge sorgt er auch in Köln, mehr als 100 Kilometer vom Brandort entfernt, für Geruchsbelästigung. Die Kölner Feuerwehr sprach von einer großflächigen Geruchslage, gab aber Entwarnung – eine Gefahr für die Bevölkerung bestehe nicht."
+      },
+      {
+        "heading": "Warum die Löscharbeiten schwierig sind",
+        "markdown": "Der belgische Feuerwehrkommandant Luc Burette hatte die Bekämpfung bereits zuvor als besonders schwierig beschrieben: Der Untergrund des Hohen Venn bestehe größtenteils aus Torf, an der Oberfläche wachse Gras – eine Kombination, durch die sich Brände seinen Angaben zufolge rasch ausbreiten könne. Belgischen Medienberichten zufolge war der Brand am Nachmittag des 18. August mit Ausnahme des Nordostteils der Hochmoore weitgehend eingegrenzt, insgesamt aber weiterhin nicht vollständig unter Kontrolle. Ein drehender Nordwind habe die Flammen zeitweise Richtung Südosten in ein Nadelwaldgebiet getrieben, was die Lage zusätzlich erschwert habe. Diese Angaben stammen bislang ausschließlich aus belgischen Quellen und sind durch die österreichischen und deutschen Medien in diesem Cluster nicht unabhängig bestätigt."
+      },
+      {
+        "heading": "Ausmaß und Vorgeschichte",
+        "markdown": "Übereinstimmenden Medienberichten zufolge war der Brand bereits um den 14. August ausgebrochen und hat seither eine für belgische Verhältnisse beispiellose Fläche erfasst. Zu unterschiedlichen Zeitpunkten kursierten teils stark voneinander abweichende Flächenangaben; mittlerweile schätzen belgische und deutsche Medien die verbrannte Fläche auf rund 2.700 bis 3.200 Hektar. Eine konsolidierte, offizielle Zahl liegt weiterhin nicht vor. Der bislang größte bekannte Waldbrand in Belgien ereignete sich demnach 2011 und umfasste rund 1.400 Hektar."
+      },
+      {
+        "heading": "Ein separater Brand im Hürtgenwald",
+        "markdown": "In der Region gab es zusätzlich einen eigenständigen, kleineren Waldbrand auf deutscher Seite im Hürtgenwald bei Düren, der zeitlich in dieselben Tage fiel, aber ein anderes Ereignis als der Brand im Hohen Venn ist. Dort hat sich die Lage laut Medienberichten mittlerweile deutlich entspannt: Offene Flammen gebe es nicht mehr, es handle sich nur noch um Glutnester."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist weiterhin, wie groß die tatsächlich verbrannte Fläche im Hohen Venn derzeit exakt ist, wie die genaue Brandursache lautet und wann die Löscharbeiten vollständig abgeschlossen sein werden. Eine belastbare, aktuelle Gesamtbilanz der eingesetzten Kräfte und Fahrzeuge liegt aus den vorliegenden Quellen nicht vor. Ob es zu weiteren Evakuierungen auf deutscher oder belgischer Seite kommt, hängt vom weiteren Wetterverlauf, insbesondere vom Wind, und vom Fortschritt der Löscharbeiten ab."
+      }
+    ],
+    "bodyKompakt": "Der Waldbrand im Naturschutzgebiet Hohes Venn in Belgien, direkt an der Grenze zu Deutschland, gilt als größter in der Geschichte des Landes und dauert auch am vierten Tag, dem 18. August, an. Das Feuer ist auch in der Nacht und am Vormittag nicht weiter Richtung deutsche Grenze vorgerückt: Laut einem Feuerwehrsprecher liegen die Flammen weiterhin rund zwei Kilometer von der Grenzstadt Monschau entfernt. Am Vorabend des 16. August waren rund 30 Bewohnerinnen und Bewohner von Monschau-Kalterherberg wegen möglicher starker Rauchbelastung vorübergehend andernorts untergebracht worden. Die deutsche Bundeswehr unterstützt weiterhin mit NH90-Hubschraubern aus der Luft. Neu ist, dass der Rauch mittlerweile auch in Köln, mehr als 100 Kilometer entfernt, für Geruchsbelästigung sorgt – die Kölner Feuerwehr gab aber Entwarnung für die Bevölkerung.\n\nBelgischen Medienberichten zufolge war der Brand am Nachmittag des 18. August mit Ausnahme des Nordostteils der Hochmoore weitgehend eingegrenzt, insgesamt aber weiterhin nicht vollständig unter Kontrolle; ein drehender Nordwind trieb die Flammen zeitweise Richtung Südosten in ein Nadelwaldgebiet. Diese Angaben stammen bislang nur aus belgischen Quellen. Die verbrannte Fläche wird von belgischen und deutschen Medien inzwischen auf rund 2.700 bis 3.200 Hektar geschätzt, eine offizielle, konsolidierte Zahl fehlt weiterhin. Der bisherige belgische Rekordbrand von 2011 umfasste rund 1.400 Hektar. Ein separater, kleinerer Waldbrand im deutschen Hürtgenwald bei Düren – ein anderes Ereignis als der Brand im Hohen Venn – hat sich laut Berichten unterdessen weiter entspannt, offene Flammen gibt es dort nicht mehr.\n\nOffen bleibt, wie groß die aktuell verbrannte Fläche im Hohen Venn exakt ist, was den Brand ausgelöst hat und wann die Löscharbeiten vollständig abgeschlossen sein werden. Ob es zu weiteren Evakuierungen kommt, hängt vom weiteren Wetter- und Windverlauf ab.",
+    "updateNote": "Update vom 18. August (Tag vier): Das Feuer ist auch in der Nacht und am Vormittag nicht weiter Richtung deutsche Grenze vorgerückt, die Flammen liegen weiterhin rund zwei Kilometer von Monschau entfernt; Rauchgeruch ist inzwischen bis Köln wahrnehmbar, belgische Medien berichten von teilweiser Eingrenzung bei weiter steigenden Flächenschätzungen (2.700–3.200 Hektar), und ein separater Brand im deutschen Hürtgenwald hat sich beruhigt.",
+    "pendingOutcome": "Vollständige Eindämmung des Waldbrands im Hohen Venn, eine konsolidierte Zahl zur verbrannten Fläche sowie die endgültige Klärung der Brandursache stehen noch aus."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-18T14:07:29.818Z"
+}
