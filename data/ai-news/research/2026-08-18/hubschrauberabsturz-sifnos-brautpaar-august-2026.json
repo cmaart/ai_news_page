@@ -1,0 +1,199 @@
+{
+  "cluster": {
+    "id": "cluster-20260818-3faab867",
+    "title": "Brautpaar stürzt mit Hubschrauber auf griechischer Insel ab",
+    "items": [
+      {
+        "itemId": "37e04056c25c5dcdf4be047733bb70265c064f1b30f80fb56dbf31ebb962c64b",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Brautpaar stürzt mit Hubschrauber auf griechischer Insel ab",
+        "url": "https://orf.at/stories/3439486",
+        "publishedAt": "2026-08-18T08:08:02.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "7a6ee238573c0d0137aac8330e590ad3603f2089903030cef9d73502a375d38f",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Tragödie auf Hochzeitsreise: Paar stürzt mit Hubschrauber auf griechischer Insel in den Tod",
+        "url": "https://www.diepresse.com/41183196/tragoedie-auf-hochzeitsreise-paar-stuerzt-mit-hubschrauber-auf-griechischer-insel-in-den-tod",
+        "summary": "Die britischen Touristen waren auf Flitterwochen in Griechenland. Kurz vor der Landung verlor der Pilot aus noch ungeklärten Umständen die Kontrolle, alle drei Personen an Bord kamen ums Leben.",
+        "publishedAt": "2026-08-18T09:01:04.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "bba785f5b12867ad0164a939ca95bcbdbf7706fb5ab56461327f7fafbec95d37",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Brautpaar stürzte mit Hubschrauber auf griechischer Insel ab",
+        "url": "https://www.kleinezeitung.at/artikel/41183201/brautpaar-stuerzte-mit-hubschrauber-auf-griechischer-insel-ab",
+        "summary": "Auf der griechischen Kykladen-Insel Sifnos ist ein Hubschrauber aus bisher ungeklärter Ursache beim Landeanflug abgestürzt, explodiert und in Flammen aufgegangen. Alle drei Insassen kamen ums Leben, wie die Zeitung \"Kathimerini\" unter Berufung auf die örtlichen Behörden berichtete. Bei den zwei Fluggästen soll es sich demnach um ein frisch vermähltes britisches Paar handeln, das auf der Insel die Flitterwochen verbringen wollte.",
+        "publishedAt": "2026-08-18T08:58:41.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Solide Quellenlage von 3 österreichischen Medien (ORF, Die Presse, Kleine Zeitung) mit Fulltext-Auszügen. Tragischer Flugunfall mit 3 Todesfällen auf griechischer Insel, konkrete Details vorhanden (Ort Sifnos, Zeitpunkt Landeanflug, Pilot-Erfahrung, Wetterbedingungen). Flugverkehrssicherheit ist relevantes Thema für EU/Österreich. Keine passende related story zum Update (die erwähnte story ‚waldbrand-athen-hubschrauberabsturz' betrifft anderes Ereignis mit Brandstiftung und anderen Opfern). Ausreichend Substanz für eigenen Artikel.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Brautpaar war auf Flitterwochen auf der Insel Sifnos",
+      "Hubschrauber stürzte beim Landeanflug ab und stand sofort in Flammen",
+      "Alle drei Insassen (Pilot und zwei Fluggäste) kamen ums Leben",
+      "Der Pilot war griechisch und hatte Tausende Flugstunden Erfahrung",
+      "Wetterbedingungen waren zum Zeitpunkt des Absturzes gut",
+      "Ursache bisher unklar, Ermittlungen konzentrieren sich auf technischen Defekt oder menschliches Versagen",
+      "Zeugen berichteten von ungewöhnlichem Geräusch kurz vor dem Absturz"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme des Hubschrauber-Betreibers/Charter-Unternehmens",
+      "Technische Details und Typ des Hubschraubers",
+      "Offizielle Flugunfall-Untersuchungsergebnisse oder aktueller Stand der Ermittlungen",
+      "Identität und Qualifikation des Piloten (über allgemeine Erfahrungsangaben hinaus)",
+      "Unabhängige Luftfahrt-/Sicherheitsexpertisen zum möglichen Unfallhergang",
+      "Informationen zu bisherigen Sicherheitsvorfällen dieses Betreibers"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "hubschrauberabsturz-sifnos-brautpaar-august-2026",
+    "title": "Britisches Paar und Pilot sterben bei Hubschrauberabsturz auf griechischer Insel Sifnos",
+    "description": "Auf der griechischen Kykladen-Insel Sifnos ist ein Hubschrauber beim Landeanflug abgestürzt, explodiert und ausgebrannt. Alle drei Insassen kamen ums Leben – laut Berichten ein frisch verheiratetes britisches Paar auf Flitterwochen und der griechische Pilot. Die Absturzursache ist noch ungeklärt.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Der Absturz und die drei Todesopfer werden von mehreren Medien übereinstimmend berichtet, einer davon ausdrücklich unter Berufung auf die Agenturen APA/dpa – das trägt den Kernvorfall; Details wie Nationalität, Beziehungsstatus und Flugerfahrung des Piloten stammen aber letztlich alle aus derselben Kathimerini-Meldung unter Berufung auf unbenannte örtliche Behörden und sind im Wortlaut selbst als „soll“ gekennzeichnet.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es liegt keine direkt eingesehene Stellungnahme einer Behörde, des Charterunternehmens oder einer offiziellen Unfalluntersuchungsstelle vor, nur von Agenturen weitergegebene Medienberichte.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die gesamte Darstellung stützt sich auf eine einzige durchgereichte Quellenkette (Kathimerini/örtliche Behörden über APA/dpa), eine unabhängige zweite Perspektive – etwa von Ermittlern, Betreiber oder Angehörigen – fehlt bisher.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Auf der griechischen Kykladen-Insel Sifnos ist ein Hubschrauber beim Landeanflug abgestürzt, explodiert und in Flammen aufgegangen; alle drei Insassen kamen ums Leben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei den beiden Fluggästen soll es sich laut den örtlichen Behörden um ein frisch verheiratetes britisches Paar auf Flitterwochen gehandelt haben, unabhängig bestätigt ist das bislang nicht.",
+        "kind": "open"
+      },
+      {
+        "text": "Der griechische Pilot des gecharterten Hubschraubers soll über tausende Flugstunden Erfahrung verfügt haben.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob ein technischer Defekt oder menschliches Versagen zum Absturz führte, ist Gegenstand laufender Ermittlungen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was genau hat den Absturz verursacht – technischer Defekt oder menschliches Versagen?",
+      "Wie lauten Namen, Alter und weitere Identitätsdaten der Opfer, und werden diese offiziell bestätigt?",
+      "Um welches Charterunternehmen und welchen Hubschraubertyp handelte es sich?",
+      "Gibt es eine Stellungnahme des Betreibers oder einer griechischen Unfalluntersuchungsstelle?",
+      "Welches ungewöhnliche Geräusch haben Anrainer vor dem Absturz genau gehört, und steht es im Zusammenhang mit der Absturzursache?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439486"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41183196/tragoedie-auf-hochzeitsreise-paar-stuerzt-mit-hubschrauber-auf-griechischer-insel-in-den-tod"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41183201/brautpaar-stuerzte-mit-hubschrauber-auf-griechischer-insel-ab"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Auf Sifnos stürzte ein Hubschrauber beim Landeanflug ab, explodierte und stand in Flammen; alle drei Insassen kamen ums Leben.",
+        "status": "supported",
+        "note": "Von drei österreichischen Medien übereinstimmend berichtet, eine Quelle nennt ausdrücklich APA/dpa als Träger der Meldung.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Bei den beiden Fluggästen soll es sich um ein frisch verheiratetes britisches Paar auf Flitterwochen gehandelt haben.",
+        "status": "partial",
+        "note": "Alle Quellen verwenden im Wortlaut die Konjunktiv-Formulierung „soll es sich handeln“ und berufen sich letztlich auf dieselbe Kathimerini-Meldung ohne Namen oder unabhängige Bestätigung.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der griechische Pilot des gecharterten Hubschraubers soll über tausende Flugstunden Erfahrung verfügt haben.",
+        "status": "partial",
+        "note": "Ebenfalls konjunktivisch berichtet, ohne unabhängige Überprüfung von Lizenz oder Flugstunden.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Ursache des Absturzes ist ungeklärt; Ermittlungen prüfen sowohl einen technischen Defekt als auch menschliches Versagen.",
+        "status": "unclear",
+        "note": "Beide Quellen benennen dies ausdrücklich als offene Frage der laufenden Untersuchung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Wetterbedingungen zum Zeitpunkt der Landung waren gut, Anrainer hörten aber kurz vor dem Absturz ein ungewöhnliches Geräusch.",
+        "status": "partial",
+        "note": "Angabe stammt aus Zeugenberichten gegenüber griechischen Medien, ohne unabhängige technische Bestätigung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Auf der griechischen Kykladen-Insel Sifnos ist ein Hubschrauber beim Landeanflug auf den örtlichen Hubschrauberlandeplatz abgestürzt. Die Maschine explodierte und ging in Flammen auf. Alle drei Insassen kamen ums Leben. Nach Angaben der Zeitung „Kathimerini“, die sich auf örtliche Behörden beruft, verlor der Pilot in der Endphase der Landung offenbar plötzlich die Kontrolle über den Hubschrauber. Die Ursache dafür ist bislang nicht geklärt."
+      },
+      {
+        "heading": "Wer betroffen war",
+        "markdown": "Bei den beiden Fluggästen soll es sich laut den Behördenangaben um ein frisch verheiratetes britisches Paar handeln, das auf Sifnos die Flitterwochen verbringen wollte. Namen oder weitere Identitätsdetails der beiden liegen nicht vor. Der Pilot des gecharterten Hubschraubers war laut den Berichten Grieche und soll über tausende Flugstunden Erfahrung verfügt haben. Auch diese Angabe stammt aus der ursprünglichen Behördenmitteilung und ist bislang nicht unabhängig überprüft."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, ob ein technischer Defekt an der Maschine oder menschliches Versagen zum Absturz führte – genau darauf konzentrieren sich nun die Ermittlungen. Anrainer berichteten gegenüber griechischen Medien, kurz vor dem Absturz ein ungewöhnliches Geräusch gehört zu haben, ein möglicher Zusammenhang mit der Absturzursache ist nicht belegt. Die Wetterbedingungen sollen zum Zeitpunkt der Landung gut gewesen sein. In sozialen Netzwerken kursieren Videoaufnahmen, die das Feuer nach dem Absturz zeigen. Eine Stellungnahme des Charterunternehmens, Angaben zum Hubschraubertyp oder ein offizieller Untersuchungsbericht liegen bislang nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Charterflüge mit Hubschraubern zwischen den griechischen Inseln sind vor allem im Tourismusgeschäft verbreitet, etwa für Ausflüge oder Landeplatz-Transfers auf kleineren Inseln wie Sifnos. Der Unfall ist nicht mit dem Absturz zweier Löschhubschrauber bei den Waldbränden nahe Athen Anfang August 2026 zu verwechseln, über den „Neue Nachrichten“ bereits berichtet hat – dort ging es um im Feuerwehreinsatz kollidierte Maschinen, hier um einen gecharterten Passagierflug ohne erkennbaren Bezug zu den aktuellen Waldbränden im Land."
+      }
+    ],
+    "bodyKompakt": "Auf der griechischen Kykladen-Insel Sifnos ist ein Hubschrauber beim Landeanflug abgestürzt, explodiert und ausgebrannt. Alle drei Insassen kamen ums Leben. Laut der Zeitung „Kathimerini“, die sich auf örtliche Behörden beruft, verlor der Pilot in der Endphase der Landung plötzlich die Kontrolle – aus bisher ungeklärter Ursache.\n\nBei den beiden Fluggästen soll es sich um ein frisch verheiratetes britisches Paar auf Flitterwochen handeln, Namen sind nicht bekannt. Der griechische Pilot soll über tausende Flugstunden Erfahrung verfügt haben. Beide Angaben stammen aus derselben Behördenquelle und sind bislang nicht unabhängig bestätigt.\n\nAnrainer berichteten von einem ungewöhnlichen Geräusch kurz vor dem Absturz, die Wetterbedingungen sollen gut gewesen sein. Ermittler prüfen nun, ob ein technischer Defekt oder menschliches Versagen vorlag. Eine Stellungnahme des Charterunternehmens oder ein offizieller Untersuchungsbericht liegen bislang nicht vor; der Unfall steht nicht im Zusammenhang mit den aktuellen Waldbränden in Griechenland.",
+    "updateNote": null,
+    "pendingOutcome": "Ergebnis der behördlichen Ermittlungen zur Absturzursache (technischer Defekt oder menschliches Versagen)."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-18T10:07:39.659Z"
+}
