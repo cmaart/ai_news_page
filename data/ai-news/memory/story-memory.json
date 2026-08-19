@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T00:22:42.544Z",
+  "updatedAt": "2026-08-19T02:23:40.438Z",
   "stories": {
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – US-Justizministerium zieht Vorladungen zurück",
@@ -831,9 +831,9 @@
         "orf": "2026-08-18T18:07:53.967Z",
         "kleinezeitung": "2026-08-18T18:07:56.591Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 2,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-18T20:07:31.221Z"
+      "resonanceMeasuredAt": "2026-08-19T02:07:45.819Z"
     },
     "vorwuerfe-marktamt-chef-kutheil-juli-2026": {
       "canonicalTitle": "Wiener Marktamt: Nach Kutheils Rücktritt wird auch sein Stellvertreter wegen Fake-Account-Vorwürfen versetzt",
@@ -14411,8 +14411,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-18T02:07:32.006Z",
       "doNotUpdateBefore": "2026-08-17T08:07:32.006Z",
-      "pendingOutcome": "Ob und wie die Trump-Regierung auf die kolumbianische Bitte um eine Zollaussetzung reagiert, ist offen.",
-      "pendingOutcomeUntil": "2026-08-19T02:07:32.006Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -16557,8 +16555,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-18T02:07:32.006Z",
       "doNotUpdateBefore": "2026-08-17T08:07:32.006Z",
-      "pendingOutcome": "Offen ist, ob Trumps Ankündigung Folgen hat oder wie zuvor die Hormuz-Maut wieder kassiert wird, ob die 60-Tage-Frist ohne Anschlussregelung verstreicht und wer für den jüngsten ADNOC-Schiffsangriff verantwortlich ist.",
-      "pendingOutcomeUntil": "2026-08-19T02:07:32.006Z",
       "echoPublishers": {}
     },
     "wien-nachtzug-spitzenreiter-eu-august-2026": {
@@ -17516,9 +17512,9 @@
       "echoPublishers": {
         "diepresse": "2026-08-18T08:07:30.488Z"
       },
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-18T18:07:52.295Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-19T02:07:45.819Z"
     },
     "asyl-erstantraege-zehnjahrestief-juli-2026": {
       "canonicalTitle": "Asylstatistik Juli 2026: Erstanträge auf Zehn-Jahres-Tief, Grundversorgung so leer wie seit über 20 Jahren nicht",
@@ -17935,7 +17931,7 @@
       },
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-18T14:07:29.818Z"
+      "resonanceMeasuredAt": "2026-08-19T02:07:45.819Z"
     },
     "abc-klage-fcc-lizenzentzug-august-2026": {
       "canonicalTitle": "US-Sender ABC klagt gegen Medienaufsichtsbehörde FCC",
@@ -18408,6 +18404,108 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-19T00:07:32.894Z"
+    },
+    "openai-chatgpt-for-teens-launch-august-2026": {
+      "canonicalTitle": "OpenAI startet ChatGPT for Teens mit automatischer Alterserkennung",
+      "slug": "openai-chatgpt-for-teens-launch-august-2026",
+      "firstSeenAt": "2026-08-19T02:07:45.819Z",
+      "lastUpdatedAt": "2026-08-19T02:07:45.819Z",
+      "status": "published",
+      "articlePath": "src/content/articles/openai-chatgpt-for-teens-launch-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-19/openai-chatgpt-for-teens-launch-august-2026.json",
+      "sourceUrls": [
+        "https://www.heise.de/news/ChatGPT-for-Teens-soll-zu-Nutzung-von-KI-mit-Selbstbewusstsein-fuehren-11418666.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://the-decoder.de/openai-startet-chatgpt-for-teens-mit-strengeren-schutzregeln",
+        "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
+        "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it",
+        "https://www.heise.de/news/ChatGPT-for-Teens-soll-zu-Nutzung-von-KI-mit-Selbstbewusstsein-fuehren-11418666.html",
+        "https://www.cnbc.com/2026/08/18/openai-chatgpt-for-teens-safety.html",
+        "https://www.axios.com/2026/08/18/openai-chatgpt-for-teens"
+      ],
+      "openQuestions": [
+        "Wie zuverlässig erkennt der auf über 2.000 Signalen basierende Alterserkennungs-Algorithmus tatsächlich minderjährige Nutzer, und wie oft liegt er falsch?",
+        "Wann und in welcher konkreten Form will OpenAI Verdachtsfälle von Essstörungen an Eltern melden?",
+        "Wie wirkt sich der Start von ChatGPT for Teens auf die laufenden Klagen von Familien und die Klage des Bundesstaats Florida gegen OpenAI aus?",
+        "Äußern sich Kinderschutzorganisationen oder unabhängige Fachleute zur Wirksamkeit der neuen Schutzmaßnahmen?",
+        "Wie verhält sich OpenAIs Vorstoß zum norwegischen Verbot generativer KI im Schulunterricht und zu ähnlichen regulatorischen Debatten in Europa?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-20T02:07:45.819Z",
+      "doNotUpdateBefore": "2026-08-19T08:07:45.819Z",
+      "echoPublishers": {
+        "heise": "2026-08-18T22:07:44.533Z",
+        "thedecoder": "2026-08-18T12:07:33.637Z",
+        "theverge": "2026-08-18T12:07:32.588Z",
+        "techcrunch": "2026-08-18T14:07:33.773Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-19T02:07:45.819Z"
+    },
+    "e-scooter-raser-donauinsel-wien-august-2026": {
+      "canonicalTitle": "Polizei stoppt E-Scooter-Raser mit 129 km/h auf der Wiener Donauinsel",
+      "slug": "e-scooter-raser-donauinsel-wien-august-2026",
+      "firstSeenAt": "2026-08-19T02:07:45.819Z",
+      "lastUpdatedAt": "2026-08-19T02:07:45.819Z",
+      "status": "published",
+      "articlePath": "src/content/articles/e-scooter-raser-donauinsel-wien-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-19/e-scooter-raser-donauinsel-wien-august-2026.json",
+      "sourceUrls": [
+        "https://wien.orf.at/stories/3367486",
+        "https://www.diepresse.com/41183743/mit-129-km-h-auf-der-donauinsel-polizei-stoppt-e-scooter-lenker",
+        "https://www.vienna.at/e-scooter-mit-129-km-h-wiener-polizei-stoppt-rasante-flucht-auf-donauinsel/10396208"
+      ],
+      "openQuestions": [
+        "Wer ist der zweite, geflüchtete E-Scooter-Lenker, und wurde er mittlerweile ausgeforscht?",
+        "Welche technischen Modifikationen ermöglichten dem Gerät eine derart hohe Geschwindigkeit, und woher stammte es?",
+        "Zu welchem Ergebnis kommt das Verfahren bei der Staatsanwaltschaft wegen des Verdachts der Gefährdung der körperlichen Sicherheit?",
+        "Wurden bei der Verfolgungsjagd Passanten tatsächlich verletzt, oder blieb es bei Beinahe-Zusammenstößen?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-20T02:07:45.819Z",
+      "doNotUpdateBefore": "2026-08-19T08:07:45.819Z",
+      "echoPublishers": {
+        "orf": "2026-08-18T12:07:30.259Z",
+        "diepresse": "2026-08-18T12:07:31.605Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-19T02:07:45.819Z"
+    },
+    "hayden-panettiere-tod-klitschko-reaktion-august-2026": {
+      "canonicalTitle": "Hayden Panettiere gestorben: Klitschko und Filmkollegen nehmen Abschied",
+      "slug": "hayden-panettiere-tod-klitschko-reaktion-august-2026",
+      "firstSeenAt": "2026-08-19T02:07:45.819Z",
+      "lastUpdatedAt": "2026-08-19T02:07:45.819Z",
+      "status": "published",
+      "articlePath": "src/content/articles/hayden-panettiere-tod-klitschko-reaktion-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-19/hayden-panettiere-tod-klitschko-reaktion-august-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/41182683/klitschko-ueber-tod-von-panettiere-bestuerzt-sie-hat-diese-welt-viel-zu-frueh-verlassen",
+        "https://kurier.at/stars/wladimir-klitschko-aeussert-sich-erstmals-zum-tod-von-hayden-panettiere/403184504",
+        "https://www.kleinezeitung.at/artikel/41182915/wladimir-klitschko-ueber-hayden-panettiere-diese-welt-viel-zu-frueh",
+        "https://kurier.at/stars/raetsel-um-hayden-panettiere-tod-gesundheitliche-probleme-enthuellt/403184251",
+        "https://kurier.at/stars/hayden-panettiere-details-zu-notruf-und-rettungseinsatz-moegliche-ueberdosis/403184367"
+      ],
+      "openQuestions": [
+        "Wie lautet die offizielle, von Behörden oder Gerichtsmedizin bestätigte Todesursache?",
+        "Bestätigt sich der in einem Medienbericht angedeutete Verdacht auf eine Überdosis?",
+        "Welche gesundheitlichen Probleme gab es unmittelbar vor ihrem Tod, und wie hängen sie mit dem Todesfall zusammen?",
+        "Werden die Ermittlungsergebnisse der Polizei in Greenville noch offiziell veröffentlicht?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-20T02:07:45.819Z",
+      "doNotUpdateBefore": "2026-08-19T08:07:45.819Z",
+      "pendingOutcome": "Offizielle Bestätigung der Todesursache durch Behörden in Greenville, South Carolina",
+      "pendingOutcomeUntil": "2026-08-21T02:07:45.819Z",
+      "echoPublishers": {
+        "diepresse": "2026-08-18T10:07:43.341Z",
+        "kurier": "2026-08-18T10:07:43.207Z",
+        "kleinezeitung": "2026-08-18T10:07:45.063Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-19T02:07:45.819Z"
     }
   }
 }
