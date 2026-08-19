@@ -1,0 +1,279 @@
+{
+  "cluster": {
+    "id": "cluster-20260819-3c47d87a",
+    "title": "Apple reduziert die Preise im App Store",
+    "items": [
+      {
+        "itemId": "d37e25423091b5dc278e4565f3a99c793daced2ff6273bb405bf3692a2c48eb5",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Apple reduziert die Preise im App Store",
+        "url": "https://www.diepresse.com/41186970/apple-reduziert-die-preise-im-app-store",
+        "summary": "Nachdem die EU Apple zu einer Geldstrafe verurteilt hat, beugt sich der kalifornische Konzern und nimmt Änderungen an seinem App-Store-Geschäftsmodell vor. Nicht nur für Anbieter eine gute Nachricht, auch Nutzer profitieren von der Änderung.",
+        "publishedAt": "2026-08-19T12:57:30.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "54de8610cd410168290dfeb56b26d7d67e620e451c6933ab385883148c52d770",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Apple und die EU-Kommission einigen sich: Neue App-Store-Regeln ab 1. Oktober",
+        "url": "https://www.heise.de/news/Apple-und-die-EU-Kommission-einigen-sich-Neue-App-Store-Regeln-ab-1-Oktober-11418522.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "isNew": false
+      },
+      {
+        "itemId": "d64e80182e26f591ee5d26b2780571a4e7655acae4286fb46dd3e52c9d602386",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Apple nimmt nach EU-Strafe Änderungen im App-Store vor",
+        "url": "https://orf.at/stories/3439550",
+        "isNew": false
+      },
+      {
+        "itemId": "1b331c5a27e09f278134d7346ad2009e11c8d015105bed756c5fe5babeab5313",
+        "sourceId": "theverge",
+        "sourceType": "media",
+        "title": "Apple squashes EU beef with new App Store rules",
+        "url": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
+        "isNew": false
+      },
+      {
+        "itemId": "1fc93fd2c3f9467bfb8f869ad7367679177a7b9c8c1b19e89fc07deb54d83f26",
+        "sourceId": "techcrunch",
+        "sourceType": "media",
+        "title": "Apple overhauls its EU App Store fees, loosens rules for alternative app stores",
+        "url": "https://techcrunch.com/2026/08/18/apple-overhauls-its-eu-app-store-fees-loosens-rules-for-alternative-app-stores",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "update_story",
+    "reason": "Dieser Cluster behandelt die gleiche regulatorische Story wie der bereits publizierte Artikel 'Apple ändert App-Store-Regeln in der EU ab 1. Oktober' (slug: apple-app-store-eu-regeln-oktober-2026). Der Cluster liefert substanzielle neue Konkretisierungen: differenzierte Gebührensätze (26%/15%/20%/10% je nach Modell), die Rolle von Tim Cooks persönlichen Verhandlungen, die Verhandlungsdauer (über ein Jahr), und die neue 'Core Technology Commission' von 5% auf Transaktionen außerhalb des App Stores. Laut E53 wird dieser Bezug standardmäßig als Update behandelt und die neuen Details in den bestehenden Artikel integriert.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": 5,
+    "relatedSlug": "apple-app-store-eu-regeln-oktober-2026",
+    "possibleClaims": [
+      "Apple ändert App-Store-Gebührenmodell in der EU ab 1. Oktober 2026",
+      "In-App-Käufe über Apples System kosten künftig 26%, automatische Verlängerungen 15%",
+      "Externe Zahlungsabwickler werden mit 20% belastet, 15% beim Linken aus der App, 10% bei Abos",
+      "Neue 'Core Technology Commission' von 5% auf digitale Transaktionen außerhalb des App Stores ersetzt Core Technology Fee",
+      "Alternative App-Marktplätze werden nicht mehr durch Gebührensätze abschreckend behandelt",
+      "Verhandlungen dauerten über ein Jahr mit wöchentlichen Treffen",
+      "Tim Cook hat persönlich mit EU-Kommission verhandelt"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme der EU-Kommission zur Bewertung als vollständige DMA-Compliance",
+      "Reaktion von Entwicklerverbänden und großen App-Anbietern (z.B. Spotify, Epic Games) auf konkrete Gebührensätze",
+      "Details zu Kontroll-/Überprüfungsmechanismen ab Oktober 2026",
+      "Konkrete Liste der Unternehmen, die bereits alternative Marktplätze planen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "apple-app-store-eu-regeln-oktober-2026",
+    "title": "Apple ändert App-Store-Regeln in der EU ab 1. Oktober",
+    "description": "Nach der 500-Millionen-Euro-Strafe der EU-Kommission wegen Verstößen gegen den Digital Markets Act überarbeitet Apple Gebühren und Vertriebswege im App Store für Entwicklerinnen und Entwickler in der EU.",
+    "topic": "politik",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Der Kern der Änderungen (einheitliche neue Bedingungen ab 1. Oktober 2026, 5-Prozent-Kernkommission, gestaffelte App-Store-Gebühren) wird inzwischen von fünf voneinander unabhängigen Redaktionen (ORF, The Verge, TechCrunch, Heise, Die Presse) übereinstimmend berichtet. Die zuvor nur von einer Quelle (The Verge) stammende detaillierte Prozentstaffelung ist jetzt durch eine zweite, unabhängige Quelle (Die Presse) mit zusätzlicher Nuance bestätigt. Details zur Verhandlungsdauer und zu Tim Cooks persönlicher Rolle stammen bislang ausschließlich von Heise.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Apples offizielle Ankündigung wurde weiterhin nur über eine Suchanfrage aufgefunden – ein Snippet bestätigt u. a. die 26-Prozent- und 5-Prozent-Sätze –, aber nicht per vollständigem Seitenabruf gelesen und geprüft; die Einstufung bleibt deshalb vorsichtig bei 'weak'. Die Detailfakten stützen sich primär auf mittlerweile fünf unabhängige Medienberichte mit Volltext- bzw. Auszugszugriff.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung folgt weiterhin überwiegend Apples eigener Version der Einigung und der knappen Bestätigung durch die EU-Kommission. Die Presse liefert zusätzlich historische Kritik von Wettbewerbern wie Spotify an Apples bisheriger Praxis, doch aktuelle Reaktionen von Entwicklerverbänden oder Kritikern auf die nun bekannten konkreten Gebührensätze fehlen weiterhin in den vorliegenden Quellen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Apple ändert ab 1. Oktober 2026 die Bedingungen für den App Store in der EU: mehr Wahlfreiheit bei Vertrieb und Bezahlung von Apps.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Maßnahme soll den Streit mit der EU-Kommission um die 500-Millionen-Euro-Strafe wegen Verstößen gegen den Digital Markets Act (DMA) vom April 2025 beilegen; laut Heise hatte die Kommission bereits im Juni 2024 einen Verstoß festgestellt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Kernstück ist eine neue, einheitliche Gebührenstruktur mit einer 5-Prozent-'Core Technology Commission' auf Zahlungen außerhalb des App Store sowie erleichterter Web- und Drittanbieter-Distribution.",
+        "kind": "fact"
+      },
+      {
+        "text": "Zwei voneinander unabhängige Quellen (The Verge, Die Presse) nennen inzwischen übereinstimmend gestaffelte App-Store-Provisionen von 26/20/15/10 Prozent je nach Zahlungsweg, mit reduziertem Satz für bestimmte Förderprogramme.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Heise gingen den Änderungen über ein Jahr dauernde, nahezu wöchentliche Verhandlungen voraus, an denen sich auch der inzwischen als Apple-Chef zurückgetretene Tim Cook persönlich beteiligt haben soll.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie Entwicklerverbände und Kritiker wie Spotify auf die nun konkretisierte Gebührenstruktur reagieren, ist aus den vorliegenden Quellen nicht ersichtlich.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob die EU-Kommission die Umsetzung ab Oktober als ausreichend bewertet oder weitere Schritte einleitet, bleibt offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie reagieren Entwicklerverbände oder einzelne große App-Anbieter wie Spotify auf die nun detaillierter bestätigte Gebührenstruktur?",
+      "Wie genau will die EU-Kommission die tatsächliche Umsetzung der neuen Bedingungen ab Oktober überprüfen, und bewertet sie die Änderungen als ausreichend?",
+      "Bestätigt eine weitere unabhängige Quelle die von Heise berichtete, über einjährige Verhandlungsdauer und Tim Cooks persönliche Beteiligung?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439550"
+      },
+      {
+        "id": "src2",
+        "name": "The Verge",
+        "type": "media",
+        "url": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission"
+      },
+      {
+        "id": "src3",
+        "name": "TechCrunch",
+        "type": "media",
+        "url": "https://techcrunch.com/2026/08/18/apple-overhauls-its-eu-app-store-fees-loosens-rules-for-alternative-app-stores"
+      },
+      {
+        "id": "src4",
+        "name": "Heise Online",
+        "type": "media",
+        "url": "https://www.heise.de/news/Apple-und-die-EU-Kommission-einigen-sich-Neue-App-Store-Regeln-ab-1-Oktober-11418522.html"
+      },
+      {
+        "id": "src5",
+        "name": "Apple Newsroom (über Suchanfrage aufgefunden, nicht vollständig verifiziert)",
+        "type": "official",
+        "url": "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/"
+      },
+      {
+        "id": "src6",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41186970/apple-reduziert-die-preise-im-app-store"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Apple ändert ab 1. Oktober 2026 die App-Store-Bedingungen in der EU, mit mehr Wahlfreiheit bei Vertrieb und Bezahlung von Apps.",
+        "status": "supported",
+        "note": "Von ORF, The Verge, TechCrunch, Heise und Die Presse übereinstimmend berichtet, zusätzlich durch eine über Suche aufgefundene Apple-eigene Ankündigung gestützt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Änderungen sollen den Streit mit der EU-Kommission um die im April 2025 verhängte 500-Millionen-Euro-Strafe wegen Verstößen gegen den Digital Markets Act beilegen; die Kommission hatte laut Heise bereits im Juni 2024 einen Verstoß gegen die DMA-Regeln festgestellt.",
+        "status": "supported",
+        "note": "ORF nennt die Strafe und deren Datum explizit, The Verge beschreibt die Einigung als Beilegung der 'disagreements with the Commission'; Heise ergänzt die frühere Verstoßfeststellung von Juni 2024.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Für digitale Transaktionen in Apps, die außerhalb des App Store vertrieben werden, fällt künftig eine einheitliche 'Core Technology Commission' von 5 Prozent an, anstelle der bisherigen installationsbasierten Core Technology Fee.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Innerhalb des App Store gelten künftig gestaffelte Provisionssätze: 26 Prozent bei Nutzung von Apples eigenem Zahlungssystem, 20 Prozent bei alternativen Zahlungsabwicklern innerhalb der App, 15 Prozent bei Verweisen auf externe Bezahlseiten und 10 Prozent bei darüber abgeschlossenen Abos; für bestimmte Förderprogramme sowie automatisch verlängernde Abos nach einem Jahr gilt ein reduzierter Satz von 15 Prozent.",
+        "status": "supported",
+        "note": "Ursprünglich nur von The Verge berichtet und als 'partial' eingestuft; Die Presse bestätigt inzwischen als zweite, unabhängige Quelle dieselbe Grundstruktur und ergänzt den 10-Prozent-Satz für externe Abo-Abschlüsse sowie den reduzierten 15-Prozent-Satz für Förderprogramme.",
+        "sourceIds": [
+          "src2",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Entwickler können Apps in der EU künftig leichter auch über eigene Webseiten und Drittanbieter-Marktplätze vertreiben, wobei Apple Zulassungskriterien für Marktplatzbetreiber festlegt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Apple führt zugleich neue Kindersicherheitsfunktionen ein, etwa ein Verbot von Zahlungslinks für Nutzer unter 13 Jahren und eine Zustimmungspflicht der Eltern für alternative Zahlungsmethoden bei Nutzern unter 18 Jahren.",
+        "status": "supported",
+        "note": "Nur von The Verge berichtet, nicht durch eine zweite unabhängige Quelle bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Den ab 1. Oktober 2026 geltenden Bedingungen gingen laut Heise mehr als einjährige, nahezu wöchentliche Verhandlungen zwischen Apple und der EU-Kommission voraus; auch der inzwischen als Apple-Chef zurückgetretene Tim Cook soll sich laut Heise persönlich eingeschaltet haben.",
+        "status": "partial",
+        "note": "Bislang nur von Heise berichtet, keine zweite unabhängige Quelle in den vorliegenden Daten bestätigt Verhandlungsdauer, Frequenz oder Cooks konkrete Rolle.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Wettbewerber wie der Streaming-Anbieter Spotify hatten Apples bisherige Regeln und Gebühren kritisiert, weil diese Entwickler von der Nutzung alternativer Vertriebswege abhalten und die Kosten für Nutzer erhöhen sollten.",
+        "status": "partial",
+        "note": "Bislang nur von Die Presse berichtet, keine zweite unabhängige Quelle in den vorliegenden Daten.",
+        "sourceIds": [
+          "src6"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Apple nimmt ab 1. Oktober 2026 weitreichende Änderungen an den Bedingungen für seinen App Store in der Europäischen Union vor. Das geht aus einer eigenen Mitteilung des Konzerns sowie aus Angaben der EU-Kommission hervor, wie ORF.at berichtet. Nutzerinnen und Nutzer in der EU sollen künftig mehr Wahlfreiheit beim Herunterladen und Bezahlen von Apps erhalten. Entwicklerinnen und Entwickler dürfen demnach freier entscheiden, wie sie ihre Software vertreiben und wie Kundinnen und Kunden dafür bezahlen – neben dem App Store also auch über eigene Webseiten oder Marktplätze von Drittanbietern.\n\nDie Brüsseler Wettbewerbshüter hatten Apple zuvor vorgeworfen, Entwickler mit Gebühren von solchen alternativen Vertriebswegen abzuhalten. Die Kommission kündigte laut ORF an, die tatsächliche Umsetzung der neuen Bedingungen ab Oktober genau zu beobachten. Eine ausführliche eigene Bewertung der Einigung hat die Kommission laut Heise bislang nicht veröffentlicht."
+      },
+      {
+        "heading": "Die neue Gebühren- und Vertriebsstruktur",
+        "markdown": "Nach Angaben von The Verge, das sich auf Apples neue Geschäftsbedingungen bezieht, werden künftig alle Entwickler, die Apps in der EU vertreiben, auf ein einheitliches Vertragswerk umgestellt. Für digitale Transaktionen in Apps, die außerhalb des App Store – etwa über die eigene Webseite oder einen Drittanbieter-Marktplatz – vertrieben werden, soll eine sogenannte Core Technology Commission von 5 Prozent anfallen. Sie ersetzt die bisherige Core Technology Fee, eine Pauschale von 0,50 Euro pro Installation ab der millionsten jährlichen Installation. Auch Heise bestätigt diese neue, pauschale 5-Prozent-Kommission auf Zahlungen außerhalb des App Store.\n\nInnerhalb des App Store selbst liegt inzwischen eine zweite, unabhängige Bestätigung der Gebührenstaffelung vor: Sowohl The Verge als auch Die Presse berichten übereinstimmend von 26 Prozent Provision bei Nutzung von Apples eigenem Zahlungssystem und 20 Prozent bei alternativen Zahlungsabwicklern innerhalb der App. Die Presse ergänzt zusätzlich, dass beim Verweis aus der App auf eine externe Bezahlseite 15 Prozent fällig werden, bei darüber abgeschlossenen Abos reduziert sich der Satz auf 10 Prozent. Für bestimmte Apple-Förderprogramme sowie für Abos, die sich nach einem Jahr automatisch verlängern, gilt laut Die Presse ein ebenfalls reduzierter Satz von 15 Prozent. Entwickler müssen ein einmal gewähltes Zahlungsmodell laut Apple zwölf Monate beibehalten. Für Betreiber alternativer App-Marktplätze über das Web gelten zudem Zulassungskriterien, etwa der Status als börsennotiertes Unternehmen oder ein abgeschlossenes Finanz-Audit."
+      },
+      {
+        "heading": "Verhandlungsverlauf: über ein Jahr, Tim Cook persönlich beteiligt",
+        "markdown": "Was die überraschende Einigung konkret ausgelöst hat, verrät Apple laut Heise nicht. Laut dem Bericht gingen der Ankündigung jedoch mehr als einjährige, nahezu wöchentliche Verhandlungen zwischen Apple und der EU-Kommission voraus – ein deutlicher Kontrast zu früheren Klagen des Konzerns, in Brüssel keine verlässlichen Ansprechpartner zu haben. Heise berichtet zudem, dass sich schon vor einigen Wochen bekannt gewordenermaßen der inzwischen als Apple-Chef zurückgetretene Tim Cook persönlich in die Gespräche mit der EU-Kommission eingeschaltet haben soll. Diese Angaben stammen bislang ausschließlich aus einer Quelle und sind nicht durch einen zweiten unabhängigen Bericht bestätigt."
+      },
+      {
+        "heading": "Hintergrund: DMA-Strafe und Gatekeeper-Pflichten",
+        "markdown": "Die EU-Kommission hatte im April 2025 wegen Verstößen gegen das Gesetz über digitale Märkte (Digital Markets Act, DMA) eine Strafe von 500 Millionen Euro gegen Apple verhängt. Grundlage war laut ORF die Einstufung Apples als sogenannter Torwächter (Gatekeeper) – ein Unternehmen, dessen Angebote ein zentrales Zugangstor zu Verbraucherinnen und Verbrauchern darstellen. Laut Heise hatte die Kommission bereits im Juni 2024 einen entsprechenden Verstoß festgestellt, bevor die Geldstrafe folgte. Torwächter wie Apple, Alphabet und Amazon müssen sich nach dem DMA an besondere Pflichten halten, um fairen Wettbewerb auf digitalen Märkten sicherzustellen.\n\nWettbewerber wie der Streaming-Anbieter Spotify hatten laut Die Presse kritisiert, dass Apples bisherige Regeln und Gebühren Entwickler gezielt von der Nutzung alternativer Vertriebswege und Zahlungsabwickler abhalten und dadurch letztlich die Kosten für Nutzerinnen und Nutzer erhöhen sollten. Wie berichtet, hatte die EU-Kommission erst im Juli 2026 auch gegen Google wegen ähnlicher DMA-Verstöße eine Strafe von 890 Millionen Euro verhängt – ein Hinweis darauf, dass die Kommission die Durchsetzung des Digital Markets Act gegenüber mehreren großen Plattformbetreibern gleichzeitig vorantreibt. Laut The Verge war Apple zuletzt zudem mit dem Versuch gescheitert, App Store und iOS ganz aus dem Anwendungsbereich des DMA herauszuhalten."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Aus den vorliegenden Quellen geht nicht hervor, wie Entwicklerverbände, kleinere App-Anbieter oder Wettbewerber wie Spotify konkret auf die nun detaillierter bekannte Gebührenstruktur reagieren. Ebenso wenig ist bekannt, mit welchen konkreten Mitteln die EU-Kommission die tatsächliche Umsetzung ab 1. Oktober überprüfen will und was geschieht, sollte sie die Änderungen als unzureichend bewerten. Auch die von Heise berichtete Verhandlungsdauer von über einem Jahr sowie die persönliche Rolle Tim Cooks in den Gesprächen sind bislang nur einfach belegt. Eine abschließende, primärquellenbasierte Prüfung der vollständigen neuen Geschäftsbedingungen liegt weiterhin nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Ankündigung reiht sich in eine Serie von EU-Maßnahmen gegenüber großen US-Technologiekonzernen ein, die als Gatekeeper eingestuft sind. Nach der Google-Strafe im Juli und dem langjährigen Streit um Apples App-Store-Praktiken zeigt der aktuelle Schritt, dass Brüssel bei der Durchsetzung des Digital Markets Act auf konkrete Verhaltensänderungen der Konzerne drängt, statt sich mit Geldstrafen allein zu begnügen. Dass laut Heise über ein Jahr lang nahezu wöchentlich verhandelt wurde und sich zuletzt auch der scheidende Konzernchef persönlich einschaltete, unterstreicht das Gewicht, das Apple dem Konflikt beimaß. Für Nutzerinnen und Nutzer in Österreich und der übrigen EU dürften die Änderungen ab Oktober vor allem beim Download und bei der Bezahlung von Apps spürbar werden – etwa wenn Entwickler künftig eigene Vertriebswege außerhalb des App Store anbieten."
+      }
+    ],
+    "bodyKompakt": "Apple ändert ab 1. Oktober 2026 die Bedingungen für seinen App Store in der Europäischen Union. Nutzerinnen und Nutzer sollen künftig mehr Wahlfreiheit beim Herunterladen und Bezahlen von Apps erhalten, Entwickler mehr Freiheit beim Vertrieb über eigene Webseiten oder Drittanbieter-Marktplätze. Die Maßnahme soll den Streit mit der EU-Kommission um die im April 2025 verhängte 500-Millionen-Euro-Strafe wegen Verstößen gegen den Digital Markets Act beilegen; laut Heise hatte die Kommission bereits im Juni 2024 einen entsprechenden Verstoß festgestellt.\n\nKernstück ist eine neue, einheitliche Vertragsstruktur mit einer 5-Prozent-'Core Technology Commission' auf Zahlungen außerhalb des App Store anstelle der bisherigen Pauschalgebühr pro Installation. Innerhalb des App Store selbst bestätigen inzwischen zwei voneinander unabhängige Quellen – The Verge und Die Presse – übereinstimmend gestaffelte Provisionssätze: 26 Prozent bei Apples eigenem Zahlungssystem, 20 Prozent bei alternativen Zahlungsabwicklern in der App, 15 Prozent bei Verweisen auf externe Bezahlseiten und 10 Prozent bei darüber abgeschlossenen Abos, mit einem reduzierten Satz von 15 Prozent für bestimmte Förderprogramme und automatisch verlängernde Abos. Laut Heise gingen den Änderungen über ein Jahr dauernde, nahezu wöchentliche Verhandlungen voraus, an denen sich auch der inzwischen als Apple-Chef zurückgetretene Tim Cook persönlich beteiligt haben soll – bislang nur von dieser einen Quelle berichtet.\n\nOffen bleibt, wie Entwicklerverbände und Kritiker wie Spotify, das Apples bisherige Praxis in der Vergangenheit kritisiert hatte, auf die nun konkretisierte Gebührenstruktur reagieren und wie genau die EU-Kommission die Umsetzung ab Oktober bewerten und kontrollieren will. Der Schritt folgt auf eine ähnliche DMA-Strafe gegen Google im Juli und zeigt die verstärkte Durchsetzung der EU-Digitalmarktregeln gegenüber großen Plattformbetreibern.",
+    "updateNote": "Ein Bericht von Die Presse bestätigt als zweite unabhängige Quelle die gestaffelten App-Store-Gebühren (26/20/15/10 Prozent) und ergänzt Details zu reduzierten Sätzen sowie zu früherer Spotify-Kritik; Heise liefert zusätzliche Hintergründe zur über einjährigen, wöchentlichen Verhandlungsdauer und zur persönlichen Beteiligung des inzwischen als Apple-Chef zurückgetretenen Tim Cook.",
+    "pendingOutcome": "Ob die neuen Bedingungen zum 1. Oktober 2026 wie angekündigt in Kraft treten, wie Entwicklerverbände und Kritiker wie Spotify auf die konkrete Umsetzung reagieren und ob die EU-Kommission die Änderungen als ausreichend bewertet, ist weiterhin offen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-19T14:07:38.207Z"
+}
