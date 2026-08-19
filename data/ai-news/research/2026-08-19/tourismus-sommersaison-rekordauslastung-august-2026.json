@@ -1,0 +1,209 @@
+{
+  "cluster": {
+    "id": "cluster-20260819-4b1c6180",
+    "title": "Tourismus in Österreich: Rekordauslastung, aber weniger Gewinn",
+    "items": [
+      {
+        "itemId": "f9d2777c8cfee21c69c5008292d6661e56b3af7141fa9780d7158ec89f2617e7",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Tourismus in Österreich: Rekordauslastung, aber weniger Gewinn",
+        "url": "https://kurier.at/wirtschaft/tourismus-gastronomie-hotellerie-wkoe-bilanz/403184815",
+        "summary": "Während die Auslastung in den Betrieben zunimmt, drücken hohe Kosten für Energie und Lebensmittel auf die Erträge.",
+        "publishedAt": "2026-08-19T14:28:48.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "f418a6379011f750d30e6af7b3db362a572a8f8583dba623cce3f344c0834dad",
+        "sourceId": "kurier_wirtschaft",
+        "sourceType": "media",
+        "title": "Tourismus in Österreich: Rekordauslastung, aber weniger Gewinn",
+        "url": "https://kurier.at/wirtschaft/tourismus-gastronomie-hotellerie-wkoe-bilanz/403184815",
+        "summary": "Während die Auslastung in den Betrieben zunimmt, drücken hohe Kosten für Energie und Lebensmittel auf die Erträge.",
+        "publishedAt": "2026-08-19T14:28:48.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "82b156af10dd2a9b933a35e2afdd7f2a11118f48986dcd1bd2dd2359d0db215f",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Zu wenig Erwachsenenvertreter in Österreich",
+        "url": "https://orf.at/stories/3439616",
+        "isNew": false
+      },
+      {
+        "itemId": "e1bbaf4eaa76b79e3a7c3f802ac9b2e2b0a53b8f765598719f95090f5c181d6d",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Angehörige beklagen Missstände: In Österreich gibt es zu wenig Erwachsenenvertreter",
+        "url": "https://www.diepresse.com/41186060/angehoerige-beklagen-missstaende-in-oesterreich-gibt-es-zu-wenig-erwachsenenvertreter",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Österreich-relevante Branchenumfrage zur Sommersaison mit konkreten Daten (78% Zufriedenheit, 1,5% höhere Auslastung, 260.000 Beschäftigte auf Rekordhöhe) und zeitaktueller Kollektivvertrag-Nachricht (3,02% Gehaltserhöhung ab 1. Oktober). Wirtschaftliche Bedeutung für Österreich vorhanden. Kurier-Duplikate vorhanden (kurier_home/kurier_wirtschaft = gleiche URL). Anmerkung: ORF-Item zu Erwachsenenvertretern ist Clustering-Fehler und gehört nicht in diesen Cluster.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Hotelauslastung ist um rund 1,5% zum Vorjahr gestiegen",
+      "78% der Hotellerie- und Gastronomiebetriebe sind mit der Sommersaison zufrieden",
+      "260.000 Personen sind in Hotellerie und Gastronomie beschäftigt (Rekordzahl)",
+      "Hohe Kosten für Energie, Lebensmittel, Steuern und Abgaben drücken auf die Erträge",
+      "Neuer Kollektivvertrag sieht 3,02% Gehaltserhöhung ab 1. Oktober vor",
+      "Ein Drittel der Betriebe kann nur noch 'absolut notwendige' Investitionen tätigen",
+      "Mehr als ein Drittel der Hoteliers blickt verhalten auf die Herbstsaison"
+    ],
+    "missingSources": [
+      "Methodologische Details der WKÖ-Befragung (Stichprobengröße, Repräsentativität, Erhebungszeitraum)",
+      "Verlinkung zur WKÖ-Quelle oder Originalumfrage-Ergebnisse",
+      "Unabhängige Bestätigung der Auslastungs-Steigerung durch externe Quellen (Statistik Austria, E-Control)",
+      "Detaillierte Positionen beider Seiten beim Kollektivvertrag-Abschluss über die Stellungnahme Imlauerś hinaus"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "tourismus-sommersaison-rekordauslastung-august-2026",
+    "title": "Tourismus in Österreich: Rekordauslastung und Beschäftigtenhoch bei steigendem Kostendruck",
+    "description": "Eine Umfrage der Wirtschaftskammer unter rund 600 Betrieben zeigt: 78 Prozent der Hotellerie- und Gastronomiebetriebe sind mit der Sommersaison 2026 zufrieden, die Beschäftigung erreichte mit rund 260.000 Personen einen Rekordwert. Zugleich drücken hohe Energie-, Lebensmittel- und Steuerkosten auf die Erträge, und ein neuer Kollektivvertrag bringt ab 1. Oktober eine durchschnittliche Gehaltserhöhung von 3,02 Prozent.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Die zentralen Zahlen zu Umfragezufriedenheit, Auslastung, Beschäftigung und Kollektivvertrag werden von mindestens zwei voneinander unabhängigen Medien übereinstimmend berichtet, während einzelne Detailzahlen wie der genaue Gewinnrückgang nur in einem Bericht auftauchen.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde kein Original-Dokument der Wirtschaftskammer mit den Umfragedaten selbst gelesen, sondern nur Medienberichte über deren Sommer-Pressegespräch – die Quellenlage stützt sich ausschließlich auf Sekundärberichterstattung.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Zahlen und Einschätzungen stammen praktisch ausschließlich von den WKÖ-Spartenobmännern der Arbeitgeberseite, eine Stellungnahme der Gewerkschaft oder unabhängiger Ökonomen liegt in den gesichteten Quellen nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "78 Prozent von rund 600 befragten Hotellerie- und Gastronomiebetrieben sind mit der Sommersaison 2026 zufrieden, die Hotelauslastung stieg um rund 1,5 Prozent gegenüber dem Vorjahr.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Beschäftigung in beiden Branchen erreichte mit rund 260.000 Personen einen Rekordwert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Hohe Kosten für Energie, Lebensmittel sowie Steuern und Abgaben drücken auf die Erträge; ein Drittel der Betriebe kann laut Umfrage nur noch absolut notwendige Investitionen tätigen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein neuer Kollektivvertrag für die Tourismusbranche bringt ab 1. Oktober 2026 eine durchschnittliche Gehaltserhöhung von 3,02 Prozent.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie belastbar die zusätzlich berichtete Zahl ist, wonach bei rund 30 Prozent der Betriebe der Gewinn im Schnitt um 18 Prozent sank, sowie der genaue Herbstausblick der Branche bleiben unklar.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie ist die WKÖ-Umfrage methodisch angelegt (Stichprobenauswahl über die rund 600 Betriebe hinaus, Repräsentativität, genauer Erhebungszeitraum)?",
+      "Wie belastbar ist die von einem Medienbericht genannte Zahl, wonach bei rund 30 Prozent der Betriebe der Gewinn im Schnitt um 18 Prozent zurückging?",
+      "Wie fällt der Herbstausblick der Betriebe im Detail aus, da Medienberichte hier unterschiedliche Anteile nennen?",
+      "Wie viele Beschäftigte genau vom neuen Kollektivvertrag erfasst sind und welche weiteren Details (Lehrlinge, einzelne Lohngruppen) gelten?",
+      "Wie positioniert sich die Gewerkschaftsseite zum Kollektivvertragsabschluss über die Einschätzung des WKÖ-Spartenobmanns hinaus?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/tourismus-gastronomie-hotellerie-wkoe-bilanz/403184815"
+      },
+      {
+        "id": "src2",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3439654"
+      },
+      {
+        "id": "src3",
+        "name": "Aviation.Direct",
+        "type": "media",
+        "url": "https://aviation.direct/tarifabschluss-im-oesterreichischen-tourismus-lohnerhoehungen-unter-der-inflationsrate"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "78 Prozent von rund 600 befragten Hotellerie- und Gastronomiebetrieben sind mit dem bisherigen Verlauf der Sommersaison 2026 zufrieden, die Hotelauslastung stieg um rund 1,5 Prozent gegenüber dem Vorjahr.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Beschäftigung in Hotellerie und Gastronomie erreichte mit rund 260.000 Personen einen Rekordwert.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Steigende Kosten für Energie, Lebensmittel sowie Steuern und Abgaben belasten die Erträge; ein Drittel der befragten Betriebe kann sich nur noch absolut notwendige Investitionen leisten.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Ein neuer Kollektivvertrag für die Tourismusbranche sieht ab 1. Oktober 2026 eine durchschnittliche Gehaltserhöhung von 3,02 Prozent vor.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Bei rund 30 Prozent der Betriebe sei der Gewinn binnen Jahresfrist im Schnitt um 18 Prozent gesunken, der Herbstausblick der Branche fällt in den Berichten uneinheitlich aus.",
+        "status": "partial",
+        "note": "Diese Zahl findet sich nur in einem der beiden gesichteten Medienberichte, eine WKÖ-Originalquelle mit den Umfragedaten wurde nicht eingesehen.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Bei einem Sommer-Pressegespräch der Wirtschaftskammer Österreich (WKÖ) haben die Fachverbände Hotellerie und Gastronomie am 19. August 2026 eine Zwischenbilanz zur laufenden Sommersaison gezogen. Rund 78 Prozent von etwa 600 befragten Betrieben aus beiden Branchen sind mit dem bisherigen Saisonverlauf zufrieden, die Auslastung in den heimischen Hotels stieg im Vergleich zum Vorjahr um rund 1,5 Prozent. Fast zeitgleich wurde bekannt, dass sich die Sozialpartner nach monatelangem Ringen auf einen neuen Kollektivvertrag für die Tourismusbranche geeinigt haben."
+      },
+      {
+        "heading": "Was die Zahlen zeigen",
+        "markdown": "Die Beschäftigung in Hotellerie und Gastronomie erreichte mit rund 260.000 Personen einen Rekordwert – laut Gastronomie-Spartenobmann Alois Rainer so viele wie noch nie. Gleichzeitig berichten die Betriebe von spürbarem Kostendruck: Vor allem Energie, Lebensmittel sowie Steuern und Abgaben verteuerten sich stark. Hotellerie-Spartenobmann Georg Imlauer spricht davon, dass den Betrieben „die Kosten davonlaufen“. Ein Drittel der befragten Unternehmen gab an, nur noch absolut notwendige Investitionen tätigen zu können, während rund ein Fünftel seine Investitionspläne vollständig umsetzen kann. In der Gastronomie macht sich zudem eine gewisse Konsumzurückhaltung bemerkbar – Gäste würden bewusster und weniger konsumieren."
+      },
+      {
+        "heading": "Kollektivvertrag nach zähem Ringen",
+        "markdown": "Nach monatelangen Verhandlungen zwischen den Sozialpartnern steht seit kurzem fest, dass die Gehälter in der Tourismusbranche mit 1. Oktober 2026 im Schnitt um 3,02 Prozent steigen. Auf Arbeitgeberseite wird der Abschluss als Kompromiss an der Belastungsgrenze dargestellt – Imlauer bezeichnete ihn als „das absolute Maximum, das wir geben können“. Dass der Weg zur Einigung als zäh beschrieben wird, deutet auf unterschiedliche Ausgangspositionen der Verhandlungspartner hin; wie sich die Arbeitnehmerseite konkret zu diesem Ergebnis positioniert, geht aus den vorliegenden Quellen nicht hervor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Zur Methodik der WKÖ-Umfrage – etwa zur genauen Zusammensetzung der rund 600 befragten Betriebe oder zum Erhebungszeitraum – liegen keine detaillierten Angaben vor. Eine zusätzlich berichtete Zahl, wonach bei rund 30 Prozent der Betriebe der Gewinn im Schnitt um 18 Prozent zurückgegangen sei, taucht nur in einem der beiden ausgewerteten Medienberichte auf und lässt sich nicht unabhängig gegenprüfen. Auch der Herbstausblick der Branche wird in den Quellen nicht einheitlich beziffert. Eine WKÖ-Originalveröffentlichung mit den vollständigen Umfragedaten wurde nicht eingesehen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Darstellung der Saisonbilanz stammt praktisch ausschließlich von der Arbeitgeberseite: Beide zitierten Spartenobmänner vertreten die Wirtschaftskammer, eine Einschätzung der Gewerkschaftsseite oder unabhängiger Wirtschaftsforscher fehlt in den vorliegenden Berichten. Das Bild aus Rekordbeschäftigung einerseits und Kostendruck auf die Erträge andererseits deckt sich zwischen den beiden ausgewerteten Medien, was die Kernaussagen stützt – für ein vollständigeres Bild der Branchenlage wären aber weitere, unabhängige Datenquellen nötig."
+      }
+    ],
+    "bodyKompakt": "Eine Umfrage der Wirtschaftskammer Österreich (WKÖ) unter rund 600 Hotellerie- und Gastronomiebetrieben zeigt für die Sommersaison 2026 ein gemischtes Bild: 78 Prozent der Betriebe sind zufrieden, die Hotelauslastung stieg um rund 1,5 Prozent gegenüber dem Vorjahr, und die Beschäftigung in beiden Branchen erreichte mit rund 260.000 Personen einen Rekordwert. Gleichzeitig drücken stark gestiegene Kosten für Energie, Lebensmittel sowie Steuern und Abgaben auf die Erträge – ein Drittel der Betriebe kann laut Umfrage nur noch absolut notwendige Investitionen tätigen.\n\nFast zeitgleich wurde bekannt, dass sich die Sozialpartner nach monatelangem Ringen auf einen neuen Kollektivvertrag für die Tourismusbranche geeinigt haben: Ab 1. Oktober 2026 steigen die Gehälter im Schnitt um 3,02 Prozent. WKÖ-Hotellerie-Spartenobmann Georg Imlauer bezeichnete den Abschluss als „das absolute Maximum“, das die Arbeitgeberseite geben könne.\n\nOffen bleiben Details zur Umfragemethodik sowie eine zusätzlich berichtete, aber nur einfach belegte Zahl zu Gewinnrückgängen bei rund 30 Prozent der Betriebe. Auch eine Einschätzung der Gewerkschaftsseite zum Kollektivvertrag liegt in den ausgewerteten Quellen nicht vor.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-19T20:07:30.995Z"
+}
