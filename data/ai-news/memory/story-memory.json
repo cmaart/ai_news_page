@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T16:20:13.931Z",
+  "updatedAt": "2026-08-19T18:23:12.843Z",
   "stories": {
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – US-Justizministerium zieht Vorladungen zurück",
@@ -1978,31 +1978,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-22T14:07:28.277Z"
-    },
-    "ryanair-fensterunfall-fremdkoerper-juli-2026": {
-      "canonicalTitle": "Ryanair-Chef: Fensterunfall an Bord wohl durch Fremdkörperschaden verursacht",
-      "slug": "ryanair-fensterunfall-fremdkoerper-juli-2026",
-      "firstSeenAt": "2026-07-20T18:07:37.280Z",
-      "lastUpdatedAt": "2026-07-20T18:07:37.280Z",
-      "status": "published",
-      "articlePath": "src/content/articles/ryanair-fensterunfall-fremdkoerper-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-20/ryanair-fensterunfall-fremdkoerper-juli-2026.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3436721",
-        "https://www.derstandard.at/story/3000000332174/ryanair-unfall-mit-flugzeugfenster-wohl-durch-fremdk246rper",
-        "https://www.diepresse.com/38443719/passagier-fast-aus-flugzeugfenster-gesaugt-ryanair-chef-geht-von-unfall-mit-fremdkoerper-aus",
-        "https://www.rte.ie/news/2026/0717/1583767-ryanair-probe/",
-        "https://airlinegeeks.com/2026/07/17/ntsb-to-lead-probe-of-window-blowout-on-ryanair-flight/"
-      ],
-      "openQuestions": [
-        "Bestätigt die NTSB in ihrem noch ausständigen Bericht die Fremdkörper-These offiziell?",
-        "Um welche Art von Fremdkörper könnte es sich gehandelt haben und woher stammte er?",
-        "Wie schwer war der betroffene Passagier tatsächlich verletzt, und wie ist sein aktueller Zustand?",
-        "Welche Konsequenzen hätte eine bestätigte Fremdkörper-Ursache für die Haftungsfrage zwischen Ryanair und Boeing?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-21T18:07:37.280Z",
-      "doNotUpdateBefore": "2026-07-21T00:07:37.280Z"
     },
     "korneuburg-bankraub-fahndung-juli-2026": {
       "canonicalTitle": "5.000 Euro Belohnung: Polizei fahndet mit Fotos nach mutmaßlichem Bankräuber in Korneuburg",
@@ -14000,13 +13975,13 @@
       "resonanceMeasuredAt": "2026-08-16T16:07:34.836Z"
     },
     "kabelbrand-praterstern-s-bahn-stammstrecke-august-2026": {
-      "canonicalTitle": "Kabelbrand am Praterstern: Notfahrplan in Kraft, CAT setzt jetzt Busersatzverkehr zum Flughafen Wien ein",
+      "canonicalTitle": "Kabelbrand am Praterstern: Kurzschluss als Ursache bestätigt, Notfahrplan bleibt in Kraft",
       "slug": "kabelbrand-praterstern-s-bahn-stammstrecke-august-2026",
       "firstSeenAt": "2026-08-13T08:07:35.953Z",
-      "lastUpdatedAt": "2026-08-19T00:07:32.894Z",
+      "lastUpdatedAt": "2026-08-19T18:07:34.363Z",
       "status": "published",
       "articlePath": "src/content/articles/kabelbrand-praterstern-s-bahn-stammstrecke-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-19/kabelbrand-praterstern-s-bahn-stammstrecke-august-2026-update-000.json",
+      "researchPath": "data/ai-news/research/2026-08-19/kabelbrand-praterstern-s-bahn-stammstrecke-august-2026-update-1800.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000335377/kabelbrand-legt-s-bahn-stammstrecke-zwischen-praterstern-und-quartier-belvedere-lahm",
         "https://kurier.at/chronik/wien/kabelbrand-s-bahn-stammstrecke-praterstern-oebb-pendler/403183334",
@@ -14020,21 +13995,25 @@
         "https://wien.orf.at/stories/3366932",
         "https://kurier.at/chronik/wien/s-bahn-sperre-wien-flughafen-wie-komme-ich-hin-weg/403184589",
         "https://www.diepresse.com/41172319/ausfall-der-s-bahn-stammstrecke-wie-komme-ich-jetzt-zum-flughafen",
-        "https://www.derstandard.at/story/3000000336003/s-bahn-sperren-wie-komme-ich-noch-zum-flughafen-wien"
+        "https://www.derstandard.at/story/3000000336003/s-bahn-sperren-wie-komme-ich-noch-zum-flughafen-wien",
+        "https://kurier.at/chronik/wien/isolierung-ursache-kabelbrand-wien-s-bahn/403184791",
+        "https://wien.orf.at/stories/3367653",
+        "https://www.diepresse.com/41186860/s-bahn-sperre-ursache-fuer-kabelbrand-steht-fest"
       ],
       "openQuestions": [
-        "Was genau hat den Kabelbrand am Praterstern ausgelöst?",
-        "Wann wird der reguläre S-Bahn-Betrieb auf der Stammstrecke über den 7. September 2026 hinaus vollständig wieder aufgenommen?",
+        "Wann wird der reguläre S-Bahn-Betrieb auf der Stammstrecke über den 7. September 2026 hinaus vollständig wieder aufgenommen, und hält die von Kurier genannte Dauer der Hauptsperre bis Oktober 2027?",
         "Welche Streckenabschnitte sind exakt und dauerhaft von der Sperre betroffen – die Berichte nennen weiterhin unterschiedliche Endpunkte (Hauptbahnhof vs. Quartier Belvedere, teils Rennweg/Vienna Sankt Marx)?",
         "Gab es Personen im Bereich des Brandes, und war eine Evakuierung notwendig?",
         "Wann werden die verdichteten Intervalle der Wiener Linien tatsächlich umgesetzt, und wie wirken sie sich in der Praxis auf die Kapazitäten aus?",
         "Wird ab 7. September 2026 die S7 tatsächlich wie angekündigt ab St. Marx fahren und werden die zusätzlichen Vienna-Airport-Bus-Linien VAB4 und VAB5 planmäßig starten?",
-        "Wie belastbar sind die Kapazitäten des CAT-Busersatzverkehrs und der Vienna Airport Busse bei hohem Fahrgastaufkommen, etwa zu Ferien- oder Stoßzeiten am Flughafen?"
+        "Wie belastbar sind die Kapazitäten des CAT-Busersatzverkehrs und der Vienna Airport Busse bei hohem Fahrgastaufkommen, etwa zu Ferien- oder Stoßzeiten am Flughafen?",
+        "Kehrt der City Airport Train wie von Kurier berichtet im Herbst 2027 tatsächlich mit neuen Stadler-KISS-Doppelstockzügen auf die Schiene zurück?",
+        "Gibt es weitere Konsequenzen aus der Erkenntnis, dass das beschädigte Bestandskabel wegen seiner kurzen Außerbetriebszeit nicht einzeln geprüft wurde – etwa eine Anpassung der ÖBB-internen Prüfvorgaben?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-08-20T00:07:32.894Z",
-      "doNotUpdateBefore": "2026-08-19T06:07:32.894Z",
-      "pendingOutcome": "Ob ab 7. September 2026 die S7 wie angekündigt bereits ab St. Marx Richtung Flughafen fährt, die zusätzlichen Vienna-Airport-Bus-Linien VAB4 und VAB5 planmäßig starten und der volle Regelbetrieb auf der Stammstrecke absehbar wieder aufgenommen wird, ist weiterhin offen.",
+      "doNotRedraftBefore": "2026-08-20T18:07:34.363Z",
+      "doNotUpdateBefore": "2026-08-20T00:07:34.363Z",
+      "pendingOutcome": "Beginn der Hauptsperre der Stammstrecke am 7. September 2026 sowie die angekündigten Verbesserungen (S7 ab St. Marx, zusätzliche VAB-Linien) und die weitere Instandsetzung bis zur vollständigen Wiederaufnahme des Regelbetriebs abwarten.",
       "pendingOutcomeUntil": "2026-08-21T00:07:32.894Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
@@ -15671,8 +15650,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-19T08:07:28.085Z",
       "doNotUpdateBefore": "2026-08-18T14:07:28.085Z",
-      "pendingOutcome": "Offen bleibt, ob Justizministerin Sporrer oder Außenministerin Meinl-Reisinger sich selbst äußern, zu welchem Ergebnis die vom Landesgericht Wien angekündigte Prüfung kommt, ob Österreich ein Auslieferungs- oder Strafvollstreckungsübernahme-Verfahren einleitet und wie es mit der Nichtigkeitsbeschwerde sowie dem Verfahren gegen den Mitangeklagten Khaled Al H. weitergeht.",
-      "pendingOutcomeUntil": "2026-08-19T18:07:27.100Z",
       "echoPublishers": {
         "apa": "2026-08-19T08:07:40.686Z"
       },
@@ -16649,8 +16626,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-19T14:07:29.818Z",
       "doNotUpdateBefore": "2026-08-18T20:07:29.818Z",
-      "pendingOutcome": "Ergebnis der externen Prüfung durch Facharzt und Anwaltskanzlei, der Prüfung durch die MA 40 sowie der Entscheidung der Staatsanwaltschaft Wien; zudem der genaue Gesamtzeitraum der Vorfälle und eine unabhängige Bestätigung der gesundheitlichen Einschätzung.",
-      "pendingOutcomeUntil": "2026-08-19T18:07:27.100Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17648,33 +17623,39 @@
       "canonicalTitle": "USA verhängen konkrete Sanktionen gegen IStGH-Präsidentin Akane und Juristen Seye",
       "slug": "usa-sanktionen-istgh-praesidentin-akane-august-2026",
       "firstSeenAt": "2026-08-18T20:07:31.221Z",
-      "lastUpdatedAt": "2026-08-18T20:07:31.221Z",
+      "lastUpdatedAt": "2026-08-19T18:07:34.363Z",
       "status": "published",
       "articlePath": "src/content/articles/usa-sanktionen-istgh-praesidentin-akane-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-18/usa-sanktionen-istgh-praesidentin-akane-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-08-19/usa-sanktionen-istgh-praesidentin-akane-august-2026-update-1800.json",
       "sourceUrls": [
         "https://orf.at/stories/3439563",
         "https://www.derstandard.at/story/3000000336112/usa-verhaengen-sanktionen-gegen-praesidentin-des-internationalen-strafgerichtshofs",
         "https://www.diepresse.com/41185082/usa-eskalieren-streit-mit-internationalem-strafgerichtshof",
         "https://www.kleinezeitung.at/artikel/41185079/usa-eskalieren-streit-mit-internationalem-strafgerichtshof",
         "https://www.cnn.com/2026/08/18/politics/us-announces-sanctions-on-icc-officials",
-        "https://tribune.com.pk/story/2624612/us-sanctions-international-criminal-courts-president-official"
+        "https://tribune.com.pk/story/2624612/us-sanctions-international-criminal-courts-president-official",
+        "https://www.diepresse.com/41185316/wie-die-usa-den-internationalen-strafgerichtshof-zerschlagen-wollen",
+        "https://orf.at/stories/3436116/",
+        "https://www.berliner-zeitung.de/article/gericht-in-der-krise-auch-der-tschad-verlaesst-den-internationalen-strafgerichtshof-10245595",
+        "https://www.t-online.de/nachrichten/ausland/id_101359408/venezuela-tritt-aus-internationalem-strafgerichtshof-aus.html"
       ],
       "openQuestions": [
-        "Wie reagieren IStGH-Vertragsstaaten, die EU und Österreich konkret auf die Sanktionen gegen Akane und Seye?",
+        "Wie reagieren IStGH-Vertragsstaaten, die EU und Österreich konkret auf die Sanktionen gegen Akane und Seye sowie auf Rubios angekündigte Demontage-Strategie?",
         "Nimmt IStGH-Präsidentin Akane persönlich und im Wortlaut Stellung?",
         "Sanktioniert die US-Regierung weitere IStGH-Vertreter, und wie viele Personen sind insgesamt von der zugrunde liegenden Verordnung betroffen?",
-        "Welche praktischen Auswirkungen haben die Sanktionen auf laufende IStGH-Verfahren, etwa zu Gaza oder zu früheren Afghanistan-Ermittlungen?"
+        "Welche praktischen Auswirkungen haben die Sanktionen auf laufende IStGH-Verfahren, etwa zu Gaza oder zu früheren Afghanistan-Ermittlungen?",
+        "Was genau enthält der Ende Juni verschickte Brief von US-Justizminister Todd Blanche, und liegt dazu eine überprüfbare Quelle über Die Presse hinaus vor?",
+        "Treten weitere Staaten dem Beispiel Tschads und Venezuelas folgend aus dem IStGH aus?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-08-19T20:07:31.221Z",
-      "doNotUpdateBefore": "2026-08-19T02:07:31.221Z",
-      "pendingOutcome": "Offen sind Reaktionen von EU, IStGH-Vertragsstaaten und Österreich, eine mögliche persönliche Stellungnahme Akanes sowie ob die US-Regierung weitere IStGH-Vertreter sanktioniert.",
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-20T18:07:34.363Z",
+      "doNotUpdateBefore": "2026-08-20T00:07:34.363Z",
+      "pendingOutcome": "Wie reagieren IStGH-Vertragsstaaten, EU und Österreich auf die Sanktionen und die angekündigte Demontage-Strategie; äußert sich Präsidentin Akane persönlich; verhängt die US-Regierung weitere Sanktionen; treten weitere Staaten aus dem Gerichtshof aus?",
       "pendingOutcomeUntil": "2026-08-20T20:07:31.221Z",
       "echoPublishers": {
         "orf": "2026-08-18T20:07:33.473Z",
         "derstandard": "2026-08-18T20:07:35.255Z",
-        "diepresse": "2026-08-18T20:07:35.455Z",
+        "diepresse": "2026-08-19T18:07:38.607Z",
         "kleinezeitung": "2026-08-18T20:07:36.867Z"
       },
       "resonanceLevel": 4,
@@ -18025,7 +18006,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-19T06:07:27.995Z"
+      "resonanceMeasuredAt": "2026-08-19T18:07:34.363Z"
     },
     "gaza-cafe-angriff-nuchba-kommandeure-kushner-netanjahu-august-2026": {
       "canonicalTitle": "Gaza: Armee bestätigt Ziel des tödlichen Café-Angriffs – Kushner und Netanjahu einigen sich auf Teilschritt bei Hamas-Entwaffnung",
@@ -18100,7 +18081,7 @@
       },
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-19T06:07:27.995Z"
+      "resonanceMeasuredAt": "2026-08-19T18:07:34.363Z"
     },
     "inflation-oesterreich-juli-2026-endgueltig-2-8-prozent-19-august": {
       "canonicalTitle": "Inflation im Juli 2026 endgültig bei 2,8 Prozent – Statistik Austria korrigiert Schnellschätzung leicht nach oben",
@@ -18469,13 +18450,45 @@
       "pendingOutcome": "Eine Reaktion des Innenministeriums auf die FPÖ-Vorwürfe sowie eine unabhängige Bestätigung der genannten Personal- und Kriminalitätszahlen stehen noch aus.",
       "pendingOutcomeUntil": "2026-08-21T16:07:36.022Z",
       "echoPublishers": {
-        "kurier": "2026-08-19T16:07:38.983Z",
+        "kurier": "2026-08-19T18:07:37.952Z",
         "orf": "2026-08-19T12:07:31.550Z",
         "diepresse": "2026-08-19T12:07:33.043Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-19T16:07:36.022Z"
+    },
+    "oesterreich-asyl-rueckueberstellung-italien-dublin-august-2026": {
+      "canonicalTitle": "Österreich überstellt erstmals vier Asylsuchende nach Italien zurück",
+      "slug": "oesterreich-asyl-rueckueberstellung-italien-dublin-august-2026",
+      "firstSeenAt": "2026-08-19T18:07:34.363Z",
+      "lastUpdatedAt": "2026-08-19T18:07:34.363Z",
+      "status": "published",
+      "articlePath": "src/content/articles/oesterreich-asyl-rueckueberstellung-italien-dublin-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-19/oesterreich-asyl-rueckueberstellung-italien-dublin-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3439661",
+        "https://kurier.at/politik/ausland/oesterreich-schickt-asylsuchende-nach-italien-zurueck/403184838",
+        "https://www.kleinezeitung.at/artikel/41187665/agentur-oesterreich-schickt-asylsuchende-nach-italien-zurueck"
+      ],
+      "openQuestions": [
+        "Wie viele weitere Personen könnten aus Österreich in den kommenden Monaten nach Italien überstellt werden?",
+        "Gilt die Regelung nur für Personen, die nach dem 12. Juni 2026 nach Österreich weitergereist sind, oder auch für zuvor Eingereiste?",
+        "Wie reagieren die italienische Regierung und Behörden konkret auf die österreichischen Überstellungen, insbesondere angesichts der engeren italienischen Auslegung des Pakts?",
+        "Äußern sich Asylrechtsorganisationen wie Asylkoordination Österreich oder UNHCR zur praktischen Umsetzung der Rückführungen?",
+        "Bestätigt das österreichische Innenministerium die Zahlen und Modalitäten direkt gegenüber österreichischen Medien?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-20T18:07:34.363Z",
+      "doNotUpdateBefore": "2026-08-20T00:07:34.363Z",
+      "echoPublishers": {
+        "orf": "2026-08-19T18:07:36.519Z",
+        "kurier": "2026-08-19T18:07:37.993Z",
+        "kleinezeitung": "2026-08-19T18:07:40.251Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-19T18:07:34.363Z"
     }
   }
 }
