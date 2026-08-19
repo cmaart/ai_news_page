@@ -1,0 +1,459 @@
+{
+  "cluster": {
+    "id": "cluster-20260818-ddd752b6",
+    "title": "S-Bahn-Sperre: Wie Reisende jetzt noch zum Flughafen Wien kommen",
+    "items": [
+      {
+        "itemId": "02a9287755f3ea853c9ad7faf73865acdf0c0c4b1fe8440e8950201653bba2a9",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "S-Bahn-Sperre: Wie Reisende jetzt noch zum Flughafen Wien kommen",
+        "url": "https://kurier.at/chronik/wien/s-bahn-sperre-wien-flughafen-wie-komme-ich-hin-weg/403184589",
+        "summary": "Seit dem Kabelbrand bei der Station Praterstern ist es etwas schwieriger geworden, mit Öffis zum Flughafen zu kommen. Der City Airport Train (CAT) schickt nun elf Busse als Alternative auf die Straße.",
+        "publishedAt": "2026-08-18T15:01:04.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "92e2ed9bec915d789f8fa04ffe304565fb23e0eb29d09cf2031e7f5e4fd4e97a",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "S-Bahn-Sperre: Wie Reisende jetzt noch zum Flughafen Wien kommen",
+        "url": "https://kurier.at/chronik/wien/s-bahn-sperre-wien-flughafen-wie-komme-ich-hin-weg/403184589",
+        "summary": "Seit dem Kabelbrand bei der Station Praterstern ist es etwas schwieriger geworden, mit Öffis zum Flughafen zu kommen. Der City Airport Train (CAT) schickt nun elf Busse als Alternative auf die Straße.",
+        "publishedAt": "2026-08-18T15:01:04.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "9de757749044a13de341b4c94a85c8190437acd60adf84553129ec3f44cf342c",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Ausfall der S-Bahn-Stammstrecke: Wie komme ich jetzt zum Flughafen? [premium]",
+        "url": "https://www.diepresse.com/41172319/ausfall-der-s-bahn-stammstrecke-wie-komme-ich-jetzt-zum-flughafen",
+        "isNew": false
+      },
+      {
+        "itemId": "3d6a75d68dc5c25cc2c77e5a74d400b730c527671bd704f3f7c71cbda84c665f",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "S-Bahn-Sperren: Wie komme ich noch zum Flughafen Wien?",
+        "url": "https://www.derstandard.at/story/3000000336003/s-bahn-sperren-wie-komme-ich-noch-zum-flughafen-wien",
+        "isNew": false
+      },
+      {
+        "itemId": "b03d346ff114353332fd90179b1e355d337e69f8f87a47eb5ba7ee50f97888ae",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "S-Bahn-Sperren: Wie komme ich noch zum Flughafen Wien?",
+        "url": "https://www.derstandard.at/story/3000000336003/s-bahn-sperren-wie-komme-ich-noch-zum-flughafen-wien",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster dokumentiert praktische Konsequenzen des bereits publizierten Kabelbrands am Praterstern (Slug: 'kabelbrand-praterstern-s-bahn-stammstrecke-august-2026'). Die Berichterstattung beantwortet eine implizite offene Frage der bestehenden Story: Wie reisen Fluggäste jetzt konkret zum Flughafen? Das ist eine inkrementelle, serviceorientierte Detaillierung, keine neue Wendung mit eigenständiger Schlagzeile (kein neuer Hauptakteur, kein neues Teil-Ereignis). Die Quellenlage ist solide (ÖBB, CAT-Geschäftsführer zitiert), Zahlen und Zeitpunkte sind konkret (11 Busse, 12-Minuten-Takt ab 24.8., 21 Min Fahrzeit, 14,90€). Die Medienabdeckung ist breit, aber erkennbar syndikalisiert (sehr ähnliche Struktur und Inhalte bei Kurier, Presse, Standard). Nach E53 gehört das standardmäßig zu update_story.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": 2,
+    "relatedSlug": "kabelbrand-praterstern-s-bahn-stammstrecke-august-2026",
+    "possibleClaims": [
+      "Kabelbrand bei Station Praterstern führte zu Verlegung des Sperrstarts auf diese Woche",
+      "S7 startet ab sofort erst bei Station Geiselbergstraße statt Floridsdorf",
+      "Ab 7. September soll S7 ab Station St. Marx Richtung Flughafen fahren (wie geplant)",
+      "CAT betreibt 11 Busse als Schienenersatzverkehr (vorgezogen aus September)",
+      "CAT-Busse fahren ab 24. August 7–19 Uhr alle 12 Minuten, sonst alle 15 Minuten",
+      "CAT-Busfahrt zum Flughafen dauert 21 Minuten",
+      "CAT-Ticket: 14,90€ Erwachsene, 7€ mit Vorteilscard/Klimaticket/Studentenausweis",
+      "Vienna Airport Bus (VAB1–VAB3) fahren unverändert, ab 7. September kommen VAB4 (Karlsplatz) und VAB5 (Praterstern) hinzu",
+      "Vienna Airport Bus kostet 11€ einfache Fahrt für Erwachsene",
+      "Fernzüge RJX/RJ/IC fahren vom Hauptbahnhof und Bahnhof Meidling zum Flughafen",
+      "Gepäck kann in den CAT-Bussen mitgenommen werden, aber nicht in Wien eingecheckt"
+    ],
+    "missingSources": [
+      "Offizielle ÖBB-Stellungnahme zu exaktem Umfang und Dauer der Stammstreckensperre (über 7.9.2026 hinaus)",
+      "Prognose zur Fahrgastbelastung und Kapazitätsreserven der Bus-Alternativen",
+      "Reaktion des Flughafens Wien zu Verkehrslenkung und Vorkehrungen für Stoßzeiten",
+      "Aussage zum CAT-Gepäck-Check-in: Welche Fluglinien sind ausgenommen, welche betroffen?",
+      "Kosten-Nutzen-Analyse: Wirtschaftliche Auswirkungen der Sperre auf CAT und Airport Services"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "kabelbrand-praterstern-s-bahn-stammstrecke-august-2026",
+    "title": "Kabelbrand am Praterstern: Notfahrplan in Kraft, CAT setzt jetzt Busersatzverkehr zum Flughafen Wien ein",
+    "description": "Nach dem Kabelbrand am Bahnhof Wien-Praterstern gilt weiterhin der vorgezogene ÖBB-Notfahrplan. Laut Kurier und Die Presse betreibt der City Airport Train mittlerweile elf Ersatzbusse zum Flughafen, die S7 startet vorübergehend erst ab Geiselbergstraße, und auch der Vienna Airport Bus sowie Fernzüge dienen als Alternativen.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Der Kernvorfall (Kabelbrand, Streckensperre, vorgezogener Notfahrplan) gilt weiterhin durch mehrere unabhängige Medien als bestätigt. Die neuen Details zu den Ausweichmöglichkeiten zum Flughafen (S7 ab Geiselbergstraße, CAT-Busersatzverkehr mit elf Bussen, Vienna Airport Bus) werden von zwei unabhängigen Medien mit Volltext (Kurier, Die Presse) übereinstimmend berichtet und gelten damit als gut abgesichert; Der Standard bestätigt das Thema per Titel, ohne dass dessen Volltext vorlag. Einzelne Zahlen wie Ticketpreise (14,90 €/7 € CAT, 11 € Vienna Airport Bus) und die genaue Fahrzeit des CAT-Busersatzverkehrs stammen bislang nur aus einer einzelnen Quelle mit Volltext (Die Presse bzw. Kurier) und sind daher als einzelquellig zu behandeln.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt weiterhin keine ÖBB-Presseaussendung oder Behördenmitteilung direkt vor. Die neuen Angaben zum CAT-Busersatzverkehr stützen sich auf ein in Medien wiedergegebenes Zitat des CAT-Geschäftsführers sowie auf Angaben, die die Medien den ÖBB zuschreiben, nicht auf ein von der Redaktion eingesehenes Originaldokument.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um eine sachliche Serviceinformation zu Ausweichrouten während einer Infrastrukturstörung, ohne erkennbare gegenläufige Interessen oder einseitige Darstellung.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Ein Kabelbrand hat in der Nacht auf Donnerstag, 13. August 2026, beim Bahnhof Wien-Praterstern das dortige Stellwerk und weitere Bahninfrastruktur schwer beschädigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Die Presse müssen rund 20 Kilometer Kabel für Stellwerk, Telematik und Oberleitungen ausgetauscht werden; die S-Bahn-Stammstrecke zwischen Praterstern und Hauptbahnhof sowie der S7-Abschnitt Wien-Mitte–Geiselbergstraße bleiben gesperrt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der ursprünglich für 7. September geplante große Notfahrplan der ÖBB wurde durch den Kabelbrand faktisch um rund drei Wochen vorgezogen und ist seit 14. August in Kraft.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Flughafenschnellbahn S7 startet seither nicht in Floridsdorf, sondern erst bei der Station Geiselbergstraße in Simmering; ab 7. September soll sie wie ohnehin geplant bereits ab St. Marx Richtung Flughafen fahren.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der City Airport Train hat seinen ursprünglich erst für September geplanten Busersatzverkehr vorgezogen: Elf Busse verkehren zwischen Wien Mitte und Flughafen, ab 24. August im 12-Minuten-Takt zur Hauptverkehrszeit, sonst alle 15 Minuten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als weitere Alternativen nennen Medien den unveränderten Vienna Airport Bus (ab 7. September mit zwei zusätzlichen Linien) sowie Fernzüge (RJX, RJ, IC) vom Hauptbahnhof und von Meidling.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ticketpreise für CAT-Busersatzverkehr (14,90 €/7 €) und Vienna Airport Bus (11 €) sowie die genaue Ursache des Kabelbrands und der exakte Sperrenumfang bleiben teils einzelquellig belegt bzw. ungeklärt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was genau hat den Kabelbrand am Praterstern ausgelöst?",
+      "Wann wird der reguläre S-Bahn-Betrieb auf der Stammstrecke über den 7. September 2026 hinaus vollständig wieder aufgenommen?",
+      "Welche Streckenabschnitte sind exakt und dauerhaft von der Sperre betroffen – die Berichte nennen weiterhin unterschiedliche Endpunkte (Hauptbahnhof vs. Quartier Belvedere, teils Rennweg/Vienna Sankt Marx)?",
+      "Gab es Personen im Bereich des Brandes, und war eine Evakuierung notwendig?",
+      "Wann werden die verdichteten Intervalle der Wiener Linien tatsächlich umgesetzt, und wie wirken sie sich in der Praxis auf die Kapazitäten aus?",
+      "Wird ab 7. September 2026 die S7 tatsächlich wie angekündigt ab St. Marx fahren und werden die zusätzlichen Vienna-Airport-Bus-Linien VAB4 und VAB5 planmäßig starten?",
+      "Wie belastbar sind die Kapazitäten des CAT-Busersatzverkehrs und der Vienna Airport Busse bei hohem Fahrgastaufkommen, etwa zu Ferien- oder Stoßzeiten am Flughafen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000335377/kabelbrand-legt-s-bahn-stammstrecke-zwischen-praterstern-und-quartier-belvedere-lahm"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/wien/kabelbrand-s-bahn-stammstrecke-praterstern-oebb-pendler/403183334"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41170298/kabelbrand-legt-restliche-s-bahn-stammstrecke-lahm"
+      },
+      {
+        "id": "src4",
+        "name": "Die Presse (Update: Schwerer Schaden, Notfahrplan vorgezogen)",
+        "type": "media",
+        "url": "https://www.diepresse.com/41170298/schwerer-schaden-nach-kabelbrand-wiener-s-bahn-stammstrecke-bleibt-gesperrt-notfahrplan-wird-vorgezogen"
+      },
+      {
+        "id": "src5",
+        "name": "Kurier (Update: Sperre wird vorgezogen)",
+        "type": "media",
+        "url": "https://kurier.at/chronik/wien/wien-s-bahn-sperre-kabelbrand-stammstrecke-upgrade-gesperrt/403183514"
+      },
+      {
+        "id": "src6",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41170567/schwerer-schaden-bei-wiener-s-bahn-nach-kabelbrand"
+      },
+      {
+        "id": "src7",
+        "name": "Der Standard (Update: Halbe S-Bahn gesperrt)",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000335562/halbe-s-bahn-in-wien-gesperrt-welche-verzoegerungen-oeffi-fahrgaeste-in-kauf-nehmen-muessen"
+      },
+      {
+        "id": "src8",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3366932"
+      },
+      {
+        "id": "src9",
+        "name": "Kurier (Video: Dauer unklar)",
+        "type": "media",
+        "url": "https://kurier.at/video/aktuelle-videos/wien-kabelbrand-sorgt-fuer-s-bahn-sperre-dauer-unklar/403183525"
+      },
+      {
+        "id": "src10",
+        "name": "Kurier (Update: CAT setzt elf Busse zum Flughafen ein)",
+        "type": "media",
+        "url": "https://kurier.at/chronik/wien/s-bahn-sperre-wien-flughafen-wie-komme-ich-hin-weg/403184589"
+      },
+      {
+        "id": "src11",
+        "name": "Die Presse (Update: Alternativen zum Flughafen)",
+        "type": "media",
+        "url": "https://www.diepresse.com/41172319/ausfall-der-s-bahn-stammstrecke-wie-komme-ich-jetzt-zum-flughafen"
+      },
+      {
+        "id": "src12",
+        "name": "Der Standard (Update: Alternativen zum Flughafen)",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000336003/s-bahn-sperren-wie-komme-ich-noch-zum-flughafen-wien"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "In der Nacht auf Donnerstag, 13. August 2026, brach beim Bahnhof Wien-Praterstern gegen 1:30 Uhr ein Kabelbrand aus; Einsatzkräfte der Wiener Berufsfeuerwehr waren bis 4 Uhr im Einsatz, anschließend wurde der Bereich entraucht.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die S-Bahn-Stammstrecke im Bereich Wien-Praterstern blieb auch über mehrere Tage nach dem Brand gesperrt; ein regulärer Bahnverkehr war weiterhin nicht möglich.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der exakt betroffene zweite Streckenabschnitt wird in den Quellen unterschiedlich angegeben: Die Presse spricht vom Abschnitt Praterstern–Hauptbahnhof, Kurier vom Abschnitt Praterstern–Quartier Belvedere, eine ältere Kurier-Angabe nannte zudem Rennweg/Vienna Sankt Marx.",
+        "status": "unclear",
+        "note": "Die Angaben könnten sich auf denselben bzw. überlappende Streckenteile beziehen, eine eindeutige Klärung liegt aber nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Für den betroffenen S7-Abschnitt zwischen Wien-Mitte und Geiselbergstraße wurde ein Schienenersatzverkehr mit Bussen eingerichtet, der auch nach dem ersten Tag aufrechtbleibt; Fahrscheine werden auch bei den Wiener Linien anerkannt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Der City Airport Train (CAT) zum Flughafen Wien war zunächst allgemein von der Sperre betroffen; mittlerweile betreibt der CAT einen vorgezogenen Busersatzverkehr, und zusätzlich stehen Fernverkehrszüge vom Hauptbahnhof als Alternative zur Verfügung.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src4",
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Ein genauer Termin für die vollständige Wiederaufnahme des regulären S-Bahn-Betriebs liegt weiterhin nicht vor; laut Die Presse dauern die Reparaturen aber mindestens bis zum 7. September 2026, dem Beginn der ohnehin bereits angekündigten Streckensperre Praterstern–Hauptbahnhof.",
+        "status": "partial",
+        "note": "Der 7.-September-Termin stammt bislang nur aus einer Quelle mit Volltext (Die Presse); ein Kurier-Video verweist zusätzlich per Titel darauf, dass die Dauer weiterhin unklar sei, ohne dass dessen Inhalt vorlag.",
+        "sourceIds": [
+          "src4",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Rund 20 Kilometer Kabel, die für die Versorgung des Stellwerks, die Telematik und die Oberleitungen relevant sind, müssen laut Die Presse ausgetauscht werden.",
+        "status": "partial",
+        "note": "Angabe stammt aus einer einzelnen Quelle mit Volltext; eine zweite Quelle mit eigenständiger Bestätigung des exakten Umfangs liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Der ursprünglich für 7. September geplante Notfahrplan der ÖBB wurde durch den Kabelbrand faktisch um rund drei Wochen vorgezogen und ist seit Freitag, 14. August 2026, in Kraft.",
+        "status": "supported",
+        "note": "Die Presse und Kurier berichteten zunächst über die Ankündigung; ORF bestätigt per Titel, dass der Notfahrplan mittlerweile in Kraft ist. Kurier und Die Presse bestätigen in ihren jüngsten Updates übereinstimmend, dass die für 7. September geplante große Sperre durch den Brand faktisch vorgezogen wurde.",
+        "sourceIds": [
+          "src4",
+          "src5",
+          "src8",
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Das beim Brand beschädigte Stellwerk am Praterstern regelt Weichen und Signale; durch dessen Ausfall konnten Züge nicht mehr weiterfahren und blieben laut einer ÖBB-Sprecherin in der Station stehen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Die genaue Ursache des Kabelbrands war auch mehrere Tage nach dem Vorfall noch nicht geklärt.",
+        "status": "unclear",
+        "note": "Zum Zeitpunkt der jüngsten vorliegenden Berichte war die Ursache weiterhin offen; keine der Quellen liefert dazu neue Angaben. Die Presse berichtete zudem, dass ein Fremdverschulden aus aktueller Sicht nicht vorliegen soll.",
+        "sourceIds": [
+          "src4",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Die verdichteten Intervalle der Wiener Linien, die im Rahmen des vorgezogenen Notfahrplans Fahrgäste auffangen sollen, waren am 14. August 2026 laut ÖBB weiterhin nicht in Kraft.",
+        "status": "supported",
+        "note": "Zwei unabhängige Quellen (Die Presse, Der Standard) bestätigen den unveränderten Umsetzungsstand zu unterschiedlichen Zeitpunkten.",
+        "sourceIds": [
+          "src4",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Weil zeitgleich zur Kabelbrand-Sperre auch die bereits laufende Sommerbaustelle zwischen Floridsdorf und Praterstern besteht, ist die S-Bahn-Stammstrecke laut Der Standard faktisch durchgehend zwischen Floridsdorf und Hauptbahnhof für den Zugverkehr unterbrochen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src7",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "Die Flughafenschnellbahn S7 fährt seit dem Kabelbrand nicht mehr ab Floridsdorf, sondern startet vorübergehend erst bei der Station Geiselbergstraße in Simmering Richtung Flughafen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim14",
+        "text": "Ab 7. September 2026 soll die S7 laut ÖBB-Angaben wie ohnehin bereits geplant bereits ab der Station St. Marx Richtung Flughafen fahren, trotz des Kabelbrands.",
+        "status": "partial",
+        "note": "Es handelt sich um eine Ankündigung für ein zukünftiges Datum; ob die Umsetzung wie angekündigt erfolgt, ist noch nicht bestätigt.",
+        "sourceIds": [
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim15",
+        "text": "Der City Airport Train hat den ursprünglich erst für September geplanten Busersatzverkehr vorgezogen und setzt aktuell elf Busse zwischen Wien Mitte und Flughafen ein; ab 24. August soll zwischen 7 und 19 Uhr ein 12-Minuten-Takt gelten, davor und danach ein 15-Minuten-Takt.",
+        "status": "supported",
+        "note": "Kurier und Die Presse berichten übereinstimmend über Busanzahl und Taktung; Kurier zitiert dazu CAT-Geschäftsführer Christoph Korherr.",
+        "sourceIds": [
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim16",
+        "text": "Die Busfahrt des CAT-Ersatzverkehrs zwischen Wien Mitte und Flughafen soll laut Kurier rund 21 Minuten dauern.",
+        "status": "partial",
+        "note": "Die Fahrzeitangabe stammt bislang nur aus einer Quelle mit Volltext; eine unabhängige Zweitbestätigung liegt nicht vor.",
+        "sourceIds": [
+          "src10"
+        ]
+      },
+      {
+        "id": "claim17",
+        "text": "Ein CAT-Busticket kostet laut Die Presse 14,90 Euro für Erwachsene bzw. 7 Euro mit ÖBB-Vorteilscard, Klimaticket oder Schüler- bzw. Studentenausweis.",
+        "status": "partial",
+        "note": "Preisangabe liegt bislang nur einzelquellig vor.",
+        "sourceIds": [
+          "src11"
+        ]
+      },
+      {
+        "id": "claim18",
+        "text": "Der bereits bestehende Vienna Airport Bus (Linien VAB1 bis VAB3 ab Westbahnhof, Schwedenplatz bzw. Donauzentrum) fährt unverändert weiter; ab 7. September 2026 sollen zwei zusätzliche Linien hinzukommen, VAB4 ab Karlsplatz und VAB5 ab Praterstern.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim19",
+        "text": "Eine einfache Fahrt mit dem Vienna Airport Bus kostet laut Die Presse 11 Euro für Erwachsene.",
+        "status": "partial",
+        "note": "Preisangabe liegt bislang nur einzelquellig vor.",
+        "sourceIds": [
+          "src11"
+        ]
+      },
+      {
+        "id": "claim20",
+        "text": "Als weitere Alternative zum Flughafen können Fernzüge (RJX, RJ bzw. IC) vom Hauptbahnhof und vom Bahnhof Meidling genutzt werden.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim21",
+        "text": "Beim CAT-Busersatzverkehr kann Reisegepäck weiterhin mitgenommen werden, ein vorab-Gepäck-Check-in in Wien Mitte ist derzeit für die betroffenen Fluglinien jedoch nicht mehr möglich.",
+        "status": "partial",
+        "note": "Angabe stammt aus einer einzelnen Quelle mit Volltext; welche Fluglinien konkret betroffen sind, bleibt offen.",
+        "sourceIds": [
+          "src10"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In der Nacht auf Donnerstag, den 13. August 2026, ist beim Bahnhof Wien-Praterstern gegen 1:30 Uhr ein Kabelbrand ausgebrochen. Einsatzkräfte der Wiener Berufsfeuerwehr waren bis 4 Uhr im Einsatz, anschließend wurde der betroffene Bereich noch entraucht. Der Brand beschädigte laut ÖBB-Angaben das Stellwerk am Praterstern, das für das Stellen von Weichen und das Senden von Signalen zuständig ist – durch den Ausfall konnten Züge nicht mehr weiterfahren und blieben in der Station stehen.\n\nAuch mehrere Tage nach dem Brand blieb die S-Bahn-Stammstrecke im Bereich Praterstern gesperrt. Laut Die Presse müssen rund 20 Kilometer Kabel, die für die Versorgung des Stellwerks, die Telematik und die Oberleitungen relevant sind, ausgetauscht werden – ein deutlich größerer Schaden, als zunächst absehbar war."
+      },
+      {
+        "heading": "Notfahrplan mittlerweile in Kraft",
+        "markdown": "Der für 7. September 2026 ohnehin bereits angekündigte große Notfahrplan der ÖBB – ursprünglich an den Start der langfristig geplanten Sperre des Abschnitts Praterstern–Hauptbahnhof gekoppelt – wurde durch den Kabelbrand faktisch um rund drei Wochen vorgezogen und ist seit Freitag, 14. August 2026, in Kraft. Das bestätigen neben Die Presse und Kurier mittlerweile auch ORF Wien sowie die jüngsten Updates von Kurier und Die Presse zu den Ausweichrouten zum Flughafen. Nahverkehrszüge von und nach Süden (Richtung Liesing) enden bzw. starten demnach in Wien Hauptbahnhof beziehungsweise teilweise in Wien Meidling.\n\nDie Reparaturarbeiten sollen laut Die Presse mindestens so lange dauern, bis am 7. September ohnehin die bereits länger angekündigte Sperre des Abschnitts Praterstern–Hauptbahnhof beginnt. Ein exakter Termin, wann der volle Regelbetrieb über den 7. September hinaus wieder möglich sein wird, liegt weiterhin nicht vor."
+      },
+      {
+        "heading": "Faktisch halbe Stammstrecke gesperrt",
+        "markdown": "Wie ein Bericht von Der Standard vom 14. August zeigte, verschärft der Kabelbrand die ohnehin herausfordernde Öffi-Situation in Wien zusätzlich: Neben der Kabelbrand-Sperre zwischen Praterstern und Hauptbahnhof läuft zeitgleich die bereits seit dem Sommer bekannte Baustellensperre zwischen Floridsdorf und Praterstern. In Summe ist damit faktisch die gesamte S-Bahn-Stammstrecke zwischen Floridsdorf und Hauptbahnhof für den regulären Zugverkehr unterbrochen.\n\nTrotz dieser zusätzlichen Belastung blieben die Intervalle der Wiener Linien laut diesem Bericht zunächst unverändert – dieselbe Einschätzung, die zuvor bereits Die Presse getroffen hatte. Mit einer zweiten unabhängigen Quelle galt der Umsetzungsstand der verdichteten Intervalle damit als bestätigt."
+      },
+      {
+        "heading": "Wie Reisende jetzt zum Flughafen kommen",
+        "markdown": "Weil auch der S7-Abschnitt zwischen Wien-Mitte und Geiselbergstraße betroffen ist, müssen Flughafenreisende derzeit umdisponieren – Kurier und Die Presse haben die verfügbaren Alternativen mittlerweile im Detail beschrieben. Die Flughafenschnellbahn S7 startet seit dem Kabelbrand nicht mehr in Floridsdorf, sondern fährt vorübergehend erst ab der Station Geiselbergstraße in Simmering Richtung Flughafen. Ab 7. September 2026 soll die S7 – wie ohnehin schon vor dem Brand geplant – bereits ab der Station St. Marx Richtung Flughafen fahren; laut ÖBB-Angaben soll das trotz des Kabelbrands so umgesetzt werden, bestätigt ist das aber erst mit Eintreten des Termins.\n\nDer City Airport Train (CAT) hat seinen ursprünglich erst für September geplanten Schienenersatzverkehr mit Bussen („CAT by bus“) vorgezogen. Zwischen Wien Mitte (Marxergasse 1A) und dem Flughafen sind derzeit bereits Busse im Halbstundentakt im Einsatz; ab 24. August wird die Frequenz auf elf planmäßig eingesetzte Busse mit je 57 Sitzplätzen erhöht, die laut CAT-Geschäftsführer Christoph Korherr zwischen 7 und 19 Uhr alle 12 Minuten und außerhalb dieser Zeiten alle 15 Minuten fahren sollen – bei Bedarf sollen zusätzliche Busse den Takt absichern. Die Fahrt soll laut Kurier rund 21 Minuten dauern; ein Ticket kostet laut Die Presse 14,90 Euro für Erwachsene bzw. 7 Euro mit ÖBB-Vorteilscard, Klimaticket oder Schüler- beziehungsweise Studentenausweis – diese Preisangabe liegt bislang nur einzelquellig vor. Reisegepäck kann laut Kurier weiterhin mitgenommen werden, ein vorab-Gepäck-Check-in in Wien Mitte ist für die betroffenen Fluglinien derzeit aber nicht mehr möglich.\n\nUnverändert verkehrt daneben der Vienna Airport Bus der ÖBB-Tochter Postbus mit den Linien VAB1 (Westbahnhof), VAB2 (Schwedenplatz) und VAB3 (Donauzentrum); eine einfache Fahrt kostet laut Die Presse 11 Euro für Erwachsene. Ab 7. September, dem Tag, an dem die große Stammstreckensperre ursprünglich beginnen hätte sollen, sollen zwei weitere Linien hinzukommen: VAB4 ab Karlsplatz und VAB5 ab Praterstern. Als weitere Alternative nennen beide Medien die Fernzüge RJX, RJ beziehungsweise IC, die vom Hauptbahnhof und vom Bahnhof Meidling zum Flughafen fahren."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Zur genauen Ursache des Kabelbrands liegen weiterhin keine gesicherten Angaben vor; laut Die Presse soll ein Fremdverschulden aus aktueller Sicht aber nicht vorliegen. Die Angaben zum exakt betroffenen zweiten Streckenabschnitt bleiben uneinheitlich: Die Presse nennt Praterstern–Hauptbahnhof, Kurier spricht von Praterstern–Quartier Belvedere, eine frühere Kurier-Angabe hatte zudem Rennweg/Vienna Sankt Marx genannt. Die konkrete Zahl zum Schadensausmaß (rund 20 Kilometer Kabel) liegt bislang nur mit Volltext von Die Presse vor. Ob sich Personen im Bereich des Brandes befanden und ob eine Evakuierung notwendig war, ist aus den vorliegenden Berichten weiterhin nicht ersichtlich.\n\nAuch bei den neuen Details zu den Flughafenverbindungen bleiben Fragen offen: Die Ticketpreise für CAT-Busersatzverkehr (14,90 €/7 €) und Vienna Airport Bus (11 €) stammen jeweils nur aus einer einzelnen Quelle. Ob die für 7. September angekündigte Umstellung der S7 auf den Start ab St. Marx sowie die neuen Linien VAB4 und VAB5 tatsächlich wie geplant umgesetzt werden, ist naturgemäß erst mit Erreichen dieses Datums zu klären. Der genaue Termin für die vollständige Wiederherstellung des Regelbetriebs über den 7. September hinaus steht ebenfalls weiterhin nicht fest."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Störung reiht sich in eine Serie von Einschränkungen im Wiener öffentlichen Verkehr im Sommer 2026 ein: Wie berichtet, war die U4 bis Anfang August rund einen Monat lang unterbrochen, die U3 ist wegen Modernisierungsarbeiten bis Ende August zwischen Hütteldorfer Straße und Westbahnhof gesperrt, und auch die S-Bahn-Stammstrecke war schon vor dem Kabelbrand von Sommerbaustellen betroffen. Mit dem Kabelbrand verschmilzt eine akute Störung mit der ohnehin für den 7. September angekündigten größeren Streckensperre, wodurch faktisch die halbe Stammstrecke zwischen Floridsdorf und Hauptbahnhof außer Betrieb ist. Für Flughafenreisende hat sich die Lage inzwischen konkretisiert: Statt einer allgemeinen Betroffenheit stehen mit dem vorgezogenen CAT-Busersatzverkehr, dem unveränderten Vienna Airport Bus und den Fernzügen ab Hauptbahnhof bzw. Meidling nun mehrere konkret beschriebene Alternativen zur Verfügung – mit dem 7. September als nächstem Stichtag, an dem sich zeigen wird, ob die angekündigten Verbesserungen (S7 ab St. Marx, zusätzliche VAB-Linien) tatsächlich greifen."
+      }
+    ],
+    "bodyKompakt": "In der Nacht auf Donnerstag, den 13. August 2026, ist beim Bahnhof Wien-Praterstern gegen 1:30 Uhr ein Kabelbrand ausgebrochen, der das dortige Stellwerk beschädigte. Laut Die Presse müssen rund 20 Kilometer Kabel für Stellwerk, Telematik und Oberleitungen ausgetauscht werden. Die S-Bahn-Stammstrecke im Bereich Praterstern bleibt deshalb gesperrt, ebenso der S7-Abschnitt zwischen Wien-Mitte und Geiselbergstraße. Der ursprünglich erst für 7. September 2026 angekündigte große Notfahrplan der ÖBB wurde durch den Brand faktisch um rund drei Wochen vorgezogen und ist seit 14. August in Kraft; weil zeitgleich auch die Sommerbaustelle zwischen Floridsdorf und Praterstern läuft, ist faktisch die gesamte Stammstrecke zwischen Floridsdorf und Hauptbahnhof für den Zugverkehr unterbrochen.\n\nFür Flughafenreisende hat sich die Lage inzwischen konkretisiert: Die Flughafenschnellbahn S7 startet derzeit erst ab der Station Geiselbergstraße statt Floridsdorf, soll ab 7. September aber wie ohnehin geplant bereits ab St. Marx Richtung Flughafen fahren. Der City Airport Train hat seinen für September geplanten Busersatzverkehr vorgezogen: Elf Busse verkehren zwischen Wien Mitte und Flughafen, ab 24. August im 12-Minuten-Takt zur Hauptverkehrszeit und sonst alle 15 Minuten, die Fahrt soll laut Kurier rund 21 Minuten dauern. Ein Ticket kostet laut Die Presse 14,90 Euro bzw. 7 Euro ermäßigt – diese Preisangabe liegt bislang nur einzelquellig vor. Daneben verkehrt unverändert der Vienna Airport Bus (VAB1–VAB3, 11 Euro laut Die Presse), ab 7. September ergänzt um die Linien VAB4 und VAB5; auch Fernzüge vom Hauptbahnhof und von Meidling stehen als Alternative zur Verfügung. Reisegepäck kann in den CAT-Bussen laut Kurier weiterhin mitgenommen werden, ein vorab-Gepäck-Check-in in Wien Mitte ist derzeit aber nicht mehr möglich.\n\nOffen bleiben weiterhin die genaue Ursache des Brands sowie ein exakter Termin für die vollständige Wiederaufnahme des Regelbetriebs über den 7. September hinaus. Auch der exakt betroffene zweite Streckenabschnitt wird in den Quellen uneinheitlich angegeben, mehrere Zahlen (Schadensausmaß, Ticketpreise) stützen sich bislang nur auf jeweils eine Quelle, und ob die für 7. September angekündigten Verbesserungen (S7 ab St. Marx, neue VAB-Linien) tatsächlich wie geplant umgesetzt werden, lässt sich erst mit Erreichen dieses Termins beurteilen.",
+    "updateNote": "Neu: Konkrete Ausweichrouten zum Flughafen Wien während der Stammstreckensperre – die S7 startet derzeit erst ab Geiselbergstraße statt Floridsdorf, der City Airport Train setzt einen vorgezogenen Busersatzverkehr mit elf Bussen ein, und auch der unveränderte Vienna Airport Bus sowie Fernzüge dienen als Alternativen; ab 7. September sollen die S7 ab St. Marx sowie zwei zusätzliche VAB-Linien hinzukommen.",
+    "pendingOutcome": "Ob ab 7. September 2026 die S7 wie angekündigt bereits ab St. Marx Richtung Flughafen fährt, die zusätzlichen Vienna-Airport-Bus-Linien VAB4 und VAB5 planmäßig starten und der volle Regelbetrieb auf der Stammstrecke absehbar wieder aufgenommen wird, ist weiterhin offen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-19T00:07:32.894Z"
+}
