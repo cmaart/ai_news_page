@@ -1,0 +1,272 @@
+{
+  "cluster": {
+    "id": "cluster-20260820-89cf86a1",
+    "title": "Für 7,5 Milliarden US-Dollar: Stripe übernimmt OpenRouter",
+    "items": [
+      {
+        "itemId": "79a6dfe8d1b96405c6ffdb18cb3a64289562d4f14eb2cc4409c2334eeaf41cd9",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Für 7,5 Milliarden US-Dollar: Stripe übernimmt OpenRouter",
+        "url": "https://www.heise.de/news/Fuer-7-5-Milliarden-US-Dollar-Stripe-uebernimmt-OpenRouter-11420312.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "summary": "OpenRouter ermöglicht den direkten Vergleich von KI-Modellen bei einer besseren Kostenkontrolle. Nun übernimmt Stripe den gerade einmal drei Jahre alten Dienst.",
+        "publishedAt": "2026-08-20T09:50:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "632777aa8998518f764220ecc094f115b14d0f8459e0c9639d07da8f1fa5e5b2",
+        "sourceId": "thedecoder",
+        "sourceType": "media",
+        "title": "Stripe kauft wohl KI-Startup OpenRouter für mehr als 7 Milliarden Dollar",
+        "url": "https://the-decoder.de/stripe-kauft-wohl-ki-startup-openrouter-fuer-mehr-als-7-milliarden-dollar",
+        "isNew": false
+      },
+      {
+        "itemId": "bf7d83b7755b7d4f2fd44211c246954199125a383e5fe1df6a20377625b89082",
+        "sourceId": "golem_news",
+        "sourceType": "media",
+        "title": "7 Milliarden US-Dollar: Stripe soll KI-Startup Openrouter gekauft haben",
+        "url": "https://www.golem.de/news/7-milliarden-us-dollar-stripe-soll-ki-startup-openrouter-gekauft-haben-2608-212001.html",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.875,
+  "triage": {
+    "action": "update_story",
+    "reason": "Offizielle Bestätigung des zuvor von Bloomberg berichteten Deals. Heise meldet am 20. August die öffentliche Ankündigung beider Unternehmen mit konkreten Preisdetails (€7,5B Kaufpreis, Aufteilung €1,5B Gründer/€6B Investoren) und weiteren Substantialis. Substanzielle Fortsetzung der publizierten Story vom August.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": 3,
+    "relatedSlug": "stripe-openrouter-uebernahme-august-2026",
+    "possibleClaims": [
+      "Stripe übernimmt OpenRouter für 7,5 Milliarden US-Dollar",
+      "Kaufpreis verteilt sich auf 1,5 Milliarden für Gründer und 6 Milliarden für Investoren",
+      "OpenRouter wurde im Mai 2026 mit 1,3 Milliarden US-Dollar bewertet",
+      "OpenRouter hat über 10 Millionen Nutzer (heise) bzw. 8 Millionen Nutzer (the-decoder)",
+      "OpenRouter bietet Zugang zu über 500 KI-Modellen (heise) bzw. über 400 Modellen (the-decoder)",
+      "Investoren hatten vorher 164 Millionen US-Dollar in OpenRouter investiert",
+      "Die Übernahme soll in den kommenden Wochen abgeschlossen werden",
+      "Nach Übernahme sind keine Veränderungen geplant"
+    ],
+    "missingSources": [
+      "Primäre offizielle Ankündigung von Stripe und OpenRouter mit Originalstatement",
+      "Erklärung der Nutzer-Diskrepanz zwischen 8M und 10M+ Nutzern",
+      "Unabhängige Verifizierung der Kaufpreisaufteilung und Investoren-Rücklauf",
+      "Bestätigung der Model-Anzahl (400 vs. 500+)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "stripe-openrouter-uebernahme-august-2026",
+    "title": "Stripe und OpenRouter bestätigen Übernahme – Kaufpreis laut New York Times bei 7,5 Milliarden Dollar",
+    "description": "Der US-Zahlungsdienstleister Stripe und die KI-Plattform OpenRouter haben ihre zuvor von Bloomberg gemeldete Übernahme in offiziellen Mitteilungen bestätigt. Einen Kaufpreis nennen beide Unternehmen selbst nicht – laut einem Bericht der New York Times sollen es rund 7,5 Milliarden US-Dollar sein.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kern der Meldung – dass Stripe OpenRouter übernimmt – ist inzwischen durch offizielle Mitteilungen beider Unternehmen (Stripe-Newsroom, OpenRouter-Blog) bestätigt, nicht mehr nur durch einen einzelnen Bloomberg-Bericht. Die konkrete Kaufsumme von 7,5 Milliarden US-Dollar sowie deren Aufteilung stammen dagegen weiterhin aus einem einzigen, nicht direkt gelesenen New-York-Times-Bericht mit anonymer Quelle, den Heise wiedergibt; die Unternehmen selbst beziffern den Preis nicht.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Stripe und OpenRouter haben die Übernahme über eigene Kanäle bestätigt (Stripe-Newsroom-Meldung, OpenRouter-Blogbeitrag); deren Inhalt wurde über Suchergebnisse und die Heise-Wiedergabe erschlossen, ein direkter Volltext-Abruf der Originaltexte war technisch nicht möglich. Die zentrale Preisangabe (7,5 Mrd. US-Dollar, Aufteilung Gründer/Investoren, frühere Investitionssumme) stammt weiterhin ausschließlich aus einem New-York-Times-Bericht mit anonymer Quelle, keine offizielle Unternehmensangabe.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Verschiedene Medien nennen leicht unterschiedliche Kaufpreise (7, 7,5, teils über 8 Milliarden US-Dollar) sowie abweichende Nutzer- (8 vs. über 10 Millionen) und Modellzahlen (über 400 vs. über 500). Ohne saubere Trennung zwischen offiziell bestätigten Fakten und einzelquellenbasierten Detailzahlen entstünde der Eindruck vollständiger Klarheit, wo tatsächlich noch Unschärfen bestehen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Stripe und OpenRouter haben ihre zuvor von Bloomberg gemeldete Übernahme in offiziellen Mitteilungen beider Unternehmen bestätigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Einen Kaufpreis haben Stripe und OpenRouter selbst nicht genannt; laut einem Bericht der New York Times liegt er bei rund 7,5 Milliarden US-Dollar, davon 1,5 Milliarden für die OpenRouter-Gründer und 6 Milliarden für die bisherigen Investoren.",
+        "kind": "fact"
+      },
+      {
+        "text": "OpenRouter vermittelt Zugang zu KI-Modellen verschiedener Anbieter über eine gemeinsame Schnittstelle und war erst im Mai 2026 mit 1,3 Milliarden US-Dollar bewertet worden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut OpenRouter soll sich am Produkt nach Abschluss der Übernahme nichts ändern – gleicher Name, gleiche Mission, gleiches Produkt, gleiche Roadmap.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleibt, wie hoch der von den Unternehmen selbst nicht bezifferte Kaufpreis tatsächlich ist und wie sich die abweichenden Nutzer- und Modellzahlen (8 vs. über 10 Millionen Nutzer, über 400 vs. über 500 Modelle) erklären.",
+        "kind": "open"
+      },
+      {
+        "text": "Unklar ist, wann genau der für die kommenden Wochen angekündigte Abschluss der Übernahme erfolgt und ob noch behördliche Freigaben nötig sind.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch ist der von Stripe und OpenRouter selbst nicht genannte Kaufpreis tatsächlich, und wie ist der Deal finanziert (Bar, Aktien, Mischform)?",
+      "Wie erklärt sich die Diskrepanz bei Nutzer- (8 vs. über 10 Millionen) und Modellzahlen (über 400 vs. über 500) zwischen den verschiedenen Quellen?",
+      "Wie verläuft der für die kommenden Wochen angekündigte Abschluss der Übernahme, und sind noch kartellrechtliche oder andere behördliche Freigaben nötig?",
+      "Wie werden die laut New-York-Times-Bericht 6 Milliarden US-Dollar, die an die Investoren fließen sollen, konkret unter Sequoia, Andreessen Horowitz, Menlo Ventures, Alphabets CapitalG und weiteren verteilt?",
+      "Wie ordnet sich die OpenRouter-Übernahme neben dem laut Reuters parallel laufenden Stripe/Advent-Übernahmeangebot für PayPal strategisch ein?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Golem.de",
+        "type": "media",
+        "url": "https://www.golem.de/news/7-milliarden-us-dollar-stripe-soll-ki-startup-openrouter-gekauft-haben-2608-212001.html"
+      },
+      {
+        "id": "src2",
+        "name": "TechCrunch",
+        "type": "media",
+        "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b"
+      },
+      {
+        "id": "src3",
+        "name": "The Decoder",
+        "type": "media",
+        "url": "https://the-decoder.de/stripe-kauft-wohl-ki-startup-openrouter-fuer-mehr-als-7-milliarden-dollar"
+      },
+      {
+        "id": "src4",
+        "name": "heise online",
+        "type": "media",
+        "url": "https://www.heise.de/news/Fuer-7-5-Milliarden-US-Dollar-Stripe-uebernimmt-OpenRouter-11420312.html"
+      },
+      {
+        "id": "src5",
+        "name": "Stripe Newsroom",
+        "type": "official",
+        "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-openrouter"
+      },
+      {
+        "id": "src6",
+        "name": "OpenRouter Blog",
+        "type": "official",
+        "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Stripe und OpenRouter haben die zuvor von Bloomberg gemeldete Übernahme in offiziellen Mitteilungen der beiden Unternehmen bestätigt.",
+        "status": "supported",
+        "note": "Bestätigt durch eine Stripe-Newsroom-Meldung und einen OpenRouter-Blogbeitrag, beide über Suche identifiziert und durch Heises Berichterstattung über die öffentliche Ankündigung gestützt.",
+        "sourceIds": [
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das Wall Street Journal hatte bereits im Juli 2026 über laufende Übernahmegespräche zwischen Stripe und OpenRouter berichtet.",
+        "status": "unclear",
+        "note": "Dieser Hinweis stammt aus dem TechCrunch-Artikel als Verweis auf eine weitere Quelle; der WSJ-Bericht selbst wurde nicht eingesehen.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "OpenRouter erhielt im Mai 2026 eine Series-B-Finanzierung von 113 Millionen US-Dollar bei einer Bewertung von 1,3 Milliarden US-Dollar, mit Investoren wie Sequoia, Andreessen Horowitz, Menlo Ventures und Alphabets CapitalG.",
+        "status": "partial",
+        "note": "Diese Angaben stammen ursprünglich aus dem TechCrunch-Artikel; die Bewertung von 1,3 Milliarden US-Dollar im Mai wird von Heise im Kontext der jetzt gemeldeten Kaufsumme bestätigend wiederholt, eine unabhängige zweite Quelle für die Finanzierungsdetails fehlt weiterhin.",
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "OpenRouter gibt Nutzer- und Modellzahlen an, die je nach Quelle und Zeitpunkt schwanken: rund 8 Millionen Nutzer und über 400 Modelle (TechCrunch, vor der offiziellen Bestätigung) beziehungsweise mehr als 10 Millionen Nutzer und über 500 Modelle (Heise, nach der offiziellen Bestätigung).",
+        "status": "partial",
+        "note": "Es handelt sich um unternehmenseigene Angaben ohne unabhängige Überprüfung; die Diskrepanz kann auf unterschiedliche Erhebungszeitpunkte oder unterschiedliche Zählweisen zurückgehen, ist aber nicht aufgeklärt.",
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Ein Stripe-Sprecher erklärte gegenüber TechCrunch vor der offiziellen Bestätigung, das Unternehmen kommentiere Gerüchte oder Spekulationen nicht.",
+        "status": "supported",
+        "note": "Diese Aussage bezieht sich auf die Phase vor der offiziellen Bestätigung des Deals und ist durch die inzwischen erfolgte offizielle Ankündigung überholt, bleibt als zeitlicher Beleg für den Gesprächsverlauf aber zutreffend.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der Kaufpreis soll laut einem Bericht der New York Times, die sich auf eine informierte Person beruft, bei 7,5 Milliarden US-Dollar liegen, davon 1,5 Milliarden US-Dollar für die OpenRouter-Gründer und 6 Milliarden US-Dollar für die Investoren.",
+        "status": "partial",
+        "note": "Stripe und OpenRouter selbst haben den Kaufpreis nicht offiziell beziffert. Die Zahl stammt aus einem New-York-Times-Bericht mit anonymer Quelle, der uns nur über die Wiedergabe bei Heise vorliegt, nicht im Original.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Die Investoren sollen laut demselben New-York-Times-Bericht zuvor rund 164 Millionen US-Dollar in OpenRouter investiert haben.",
+        "status": "partial",
+        "note": "Ebenfalls aus dem nicht direkt gelesenen New-York-Times-Bericht mit anonymer Quelle, wiedergegeben von Heise.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Die Übernahme soll in den kommenden Wochen abgeschlossen werden, vorbehaltlich üblicher Abschlussbedingungen.",
+        "status": "supported",
+        "note": "Sowohl Heise als auch weitere über Suche eingesehene Medienberichte zum offiziellen Closing-Zeitplan stimmen in diesem Punkt überein.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "OpenRouter soll nach Abschluss der Übernahme unverändert weiterbestehen: gleicher Name, gleiche Mission, gleiches Produkt, gleiche Roadmap.",
+        "status": "supported",
+        "note": "Diese Zusage wird sowohl von Heise zitiert als auch durch den Wortlaut des OpenRouter-Blogbeitrags zur Übernahme gestützt.",
+        "sourceIds": [
+          "src4",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "OpenRouter hat seinen Marktwert von 1,3 Milliarden US-Dollar im Mai 2026 auf rund 7,5 Milliarden US-Dollar im August 2026 mehr als verfünffacht.",
+        "status": "partial",
+        "note": "Rechnerische Einordnung von Heise auf Basis der Mai-Bewertung und der NYT-Kaufpreisangabe; da Letztere nicht offiziell bestätigt ist, gilt das auch für die daraus abgeleitete Steigerung.",
+        "sourceIds": [
+          "src4"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der US-Zahlungsdienstleister Stripe und das kalifornische KI-Startup OpenRouter haben ihre Übernahme jetzt offiziell bestätigt. Beide Unternehmen haben dazu eigene Mitteilungen veröffentlicht – Stripe über seinen Newsroom, OpenRouter in einem eigenen Blogbeitrag. Damit ist aus dem zuvor nur von Bloomberg gemeldeten und von TechCrunch, Golem sowie The Decoder aufgegriffenen Gerücht ein bestätigter Deal geworden. OpenRouter betreibt eine Vermittlungsplattform, über die Firmenkunden je nach Aufgabe und Budget zwischen verschiedenen KI-Modellen unterschiedlicher Anbieter wählen können, ohne sich an einen einzelnen Anbieter zu binden."
+      },
+      {
+        "heading": "Der Kaufpreis: offiziell unbeziffert, laut New York Times 7,5 Milliarden Dollar",
+        "markdown": "Weder Stripe noch OpenRouter haben in ihren offiziellen Mitteilungen einen Kaufpreis genannt. Die Zahl, die seither kursiert, stammt laut Heise aus einem Bericht der New York Times, die sich auf eine informierte Person beruft: Demnach zahlt Stripe insgesamt 7,5 Milliarden US-Dollar, davon 1,5 Milliarden US-Dollar an die OpenRouter-Gründer und 6 Milliarden US-Dollar an die bisherigen Investoren, die laut derselben Quelle zuvor rund 164 Millionen US-Dollar in das Unternehmen gesteckt hatten. Diese Aufteilung liegt uns nur über die Wiedergabe bei Heise vor, nicht im NYT-Original, und ist damit weiterhin eine einzelquellenbasierte Angabe. Rechnerisch ergäbe sich daraus eine Steigerung von OpenRouters Marktwert von 1,3 Milliarden US-Dollar im Mai 2026 auf 7,5 Milliarden US-Dollar im August – mehr als eine Verfünffachung innerhalb von drei Monaten."
+      },
+      {
+        "heading": "Was sich für OpenRouter ändert – und was nicht",
+        "markdown": "Laut den vorliegenden Quellen soll sich am Produkt selbst nichts ändern: OpenRouter werde mit gleichem Namen, gleicher Mission, gleichem Produkt und gleicher Roadmap weiterbetrieben. OpenRouter-Chef Alex Atallah hatte sein Unternehmen bereits im Mai als eine Art „KI-Äquivalent von Stripe“ beschrieben, weil es Kundinnen und Kunden einen einzigen Zugangspunkt zu unterschiedlichen KI-Systemen biete. Zur Nutzerbasis und zum Modellangebot kursieren unterschiedliche Zahlen: TechCrunch hatte vor der offiziellen Bestätigung von rund 8 Millionen Nutzerinnen und Nutzern sowie mehr als 400 Modellen berichtet, Heise nennt nach der Ankündigung mehr als 10 Millionen Nutzerinnen und Nutzer sowie über 500 Modelle. Ob diese Differenz auf einen realen Zuwachs oder unterschiedliche Zählweisen zurückgeht, ist nicht geklärt. Der Abschluss der Übernahme soll laut übereinstimmenden Berichten in den kommenden Wochen erfolgen, vorbehaltlich der üblichen Abschlussbedingungen."
+      },
+      {
+        "heading": "Hintergrund zu OpenRouter und Stripe",
+        "markdown": "OpenRouter ist laut Heise erst rund drei Jahre alt und hatte im Mai 2026 eine Series-B-Finanzierungsrunde über 113 Millionen US-Dollar bei einer Bewertung von rund 1,3 Milliarden US-Dollar bekanntgegeben. Zu den Investoren zählen laut TechCrunch unter anderem Sequoia, Andreessen Horowitz, Menlo Ventures und Alphabets Investmentsparte CapitalG. Stripe wurde 2010 in Palo Alto von den Brüdern Patrick und John Collison gegründet und hat seinen Sitz heute in San Francisco und Dublin; das Unternehmen ist vor allem für die Abwicklung von Zahlungen bekannt. Eine direkte Verbindung zum aktuellen KI-Boom gab es laut Heise bislang kaum, abgesehen von einer zuvor bekannt gewordenen Zusammenarbeit mit OpenAI an einem Protokoll für sogenannte agentische Einkäufe."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die nun bestätigte Übernahme fällt in eine Phase intensiver Expansionsaktivität von Stripe: Wie „Neue Nachrichten“ berichtet hat, haben Stripe und der Investor Advent International parallel dazu laut Reuters ein rund 53,4 Milliarden US-Dollar schweres Übernahmeangebot für den Zahlungsdienstleister PayPal vorgelegt, das ebenfalls noch nicht offiziell abgeschlossen ist. Mit der bestätigten OpenRouter-Übernahme baut Stripe sein Geschäft gleichzeitig im klassischen Zahlungsverkehr und im Zugang zu KI-Infrastruktur aus – Beobachter werten den Schritt als Positionierung für eine wachsende „Token-Ökonomie“, in der Unternehmen zunehmend für KI-Nutzung statt für klassische Transaktionen zahlen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wie hoch der von den Unternehmen selbst nicht genannte Kaufpreis tatsächlich ist und wie er finanziert wird. Unklar ist außerdem, wie sich die abweichenden Nutzer- und Modellzahlen erklären und wie genau sich die 6 Milliarden US-Dollar, die laut New-York-Times-Bericht an die Investoren fließen sollen, auf die einzelnen Geldgeber verteilen. Schließlich bleibt abzuwarten, wann der für die kommenden Wochen angekündigte Abschluss tatsächlich erfolgt und ob dafür noch behördliche oder kartellrechtliche Freigaben nötig sind."
+      }
+    ],
+    "bodyKompakt": "Der US-Zahlungsdienstleister Stripe und das kalifornische KI-Startup OpenRouter haben ihre zuvor nur von Bloomberg gemeldete Übernahme jetzt in offiziellen Mitteilungen bestätigt – Stripe über seinen Newsroom, OpenRouter in einem eigenen Blogbeitrag. OpenRouter vermittelt Firmenkunden Zugang zu verschiedenen KI-Modellen über eine gemeinsame Schnittstelle. Einen Kaufpreis haben beide Unternehmen selbst nicht genannt; laut einem Bericht der New York Times, der sich auf eine informierte Person beruft und uns nur über die Wiedergabe bei Heise vorliegt, sollen es 7,5 Milliarden US-Dollar sein – 1,5 Milliarden für die Gründer, 6 Milliarden für die Investoren, die zuvor rund 164 Millionen US-Dollar investiert hatten. Das wäre eine Verfünffachung von OpenRouters Bewertung seit der Series-B-Runde im Mai 2026 (1,3 Milliarden US-Dollar) innerhalb von nur drei Monaten.\n\nLaut den Unternehmen soll sich am Produkt nichts ändern: gleicher Name, gleiche Mission, gleiche Roadmap. Zu Nutzer- und Modellzahlen kursieren unterschiedliche Angaben – rund 8 Millionen Nutzer und über 400 Modelle laut TechCrunch vor der Bestätigung, mehr als 10 Millionen Nutzer und über 500 Modelle laut Heise danach; die Diskrepanz ist nicht aufgeklärt. Der Abschluss der Übernahme soll laut übereinstimmenden Berichten in den kommenden Wochen erfolgen.\n\nDie Meldung fällt in eine Phase aggressiver Expansion von Stripe, das parallel laut Reuters auch ein rund 53,4 Milliarden US-Dollar schweres Übernahmeangebot für PayPal vorgelegt haben soll, wie „Neue Nachrichten“ berichtet hat. Offen bleiben die genaue Finanzierung des OpenRouter-Deals, die Verteilung der Investorensumme sowie der exakte Zeitpunkt des Abschlusses.",
+    "updateNote": "Stripe und OpenRouter haben die zuvor nur von Bloomberg gemeldete Übernahme in offiziellen Mitteilungen bestätigt; laut New York Times soll der von den Unternehmen selbst nicht bezifferte Kaufpreis bei 7,5 Milliarden US-Dollar liegen (1,5 Mrd. für die Gründer, 6 Mrd. für die Investoren).",
+    "pendingOutcome": "Formeller Abschluss der Übernahme, der laut Ankündigung in den kommenden Wochen erfolgen soll, sowie eine mögliche offizielle Bestätigung oder Präzisierung des Kaufpreises durch Stripe oder OpenRouter selbst."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-20T20:08:15.670Z"
+}
