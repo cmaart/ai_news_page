@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T14:23:50.058Z",
+  "updatedAt": "2026-08-20T16:20:42.366Z",
   "stories": {
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – US-Justizministerium zieht Vorladungen zurück",
@@ -1845,35 +1845,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-23T08:07:30.505Z"
-    },
-    "tod-abderrahim-fakir-bologna-proteste-juli-2026": {
-      "canonicalTitle": "Tod eines Marokkaners bei Polizeieinsatz in Bologna löst Proteste in Italien aus",
-      "slug": "tod-abderrahim-fakir-bologna-proteste-juli-2026",
-      "firstSeenAt": "2026-07-21T16:07:28.905Z",
-      "lastUpdatedAt": "2026-07-21T16:07:28.905Z",
-      "status": "published",
-      "articlePath": "src/content/articles/tod-abderrahim-fakir-bologna-proteste-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-21/tod-abderrahim-fakir-bologna-proteste-juli-2026.json",
-      "sourceUrls": [
-        "https://kurier.at/politik/ausland/italien-tod-marokkaner-proteste-bologna-abderrahim-fakir/403177371",
-        "https://orf.at/stories/3436786",
-        "https://www.diepresse.com/38621380/schuetzt-meloni-gesetz-polizisten-nach-dem-tod-eines-marokkaners-in-bologna-eskalieren-proteste-zur-gewalt",
-        "https://www.amnesty.it/commento-sulla-morte-di-abderrahim-fakir-a-bologna/",
-        "https://www.ansa.it/sito/notizie/cronaca/2026/07/21/guerriglia-a-bologna-fino-a-notte-incendiata-anche-unauto-del-comune_5e512a40-7ef6-47a1-8d8c-b364832957c4.html",
-        "https://www.ilpost.it/2026/07/20/agenti-bologna-non-sono-indagati-perche-modello-45-bis/",
-        "https://tg24.sky.it/cronaca/2026/07/21/meloni-abderrahim-fakir-bologna"
-      ],
-      "openQuestions": [
-        "Was ergibt die noch ausständige Obduktion zur genauen Todesursache?",
-        "Zu welchem Ergebnis kommen die strafrechtlichen Vorermittlungen gegen die zwei Polizisten und vier Sanitäter?",
-        "Hatte Fakir, wie berichtet, eine gesundheitliche oder psychische Vorgeschichte, und wie belastbar ist das?",
-        "Wie positioniert sich die Questura Bologna offiziell zum Ablauf des Einsatzes?",
-        "Wie entwickeln sich die Proteste in den kommenden Tagen weiter, und bleibt es bei vereinzelten Ausschreitungen?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-22T16:07:28.905Z",
-      "doNotUpdateBefore": "2026-07-21T22:07:28.905Z",
-      "echoPublishers": {}
     },
     "guelle-almkanal-salzburg-badegaeste-krank-juli-2026": {
       "canonicalTitle": "Salzburg: Serie von Magen-Darm-Erkrankungen bei Badegästen im Almkanal",
@@ -14148,11 +14119,12 @@
       "doNotRedraftBefore": "2026-08-19T02:07:30.620Z",
       "doNotUpdateBefore": "2026-08-18T08:07:30.620Z",
       "echoPublishers": {
-        "orf": "2026-08-20T14:08:15.017Z"
+        "orf": "2026-08-20T14:08:15.017Z",
+        "diepresse": "2026-08-20T16:07:34.906Z"
       },
-      "resonanceLevel": 1,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-15T08:07:34.053Z"
+      "resonanceMeasuredAt": "2026-08-20T16:07:31.615Z"
     },
     "kassenaerzte-stellen-97-prozent-besetzt-august-2026": {
       "canonicalTitle": "Kassenarztstellen in Österreich zu mehr als 97 Prozent besetzt",
@@ -16884,8 +16856,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-19T16:07:29.926Z",
       "doNotUpdateBefore": "2026-08-18T22:07:29.926Z",
-      "pendingOutcome": "Entscheidung des Bundesgerichts in Washington über ABCs Antrag auf eine einstweilige Verfügung gegen die vorgezogene FCC-Lizenzüberprüfung.",
-      "pendingOutcomeUntil": "2026-08-20T16:07:29.926Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -16914,8 +16884,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-19T16:07:29.926Z",
       "doNotUpdateBefore": "2026-08-18T22:07:29.926Z",
-      "pendingOutcome": "Ob das Urteil rechtskräftig wird oder eine der Parteien innerhalb der Frist ein Rechtsmittel einlegt.",
-      "pendingOutcomeUntil": "2026-08-20T16:07:29.926Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -16943,8 +16911,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-19T16:07:29.926Z",
       "doNotUpdateBefore": "2026-08-18T22:07:29.926Z",
-      "pendingOutcome": "Urteil des Landgerichts Koblenz im Mordprozess gegen den 81-Jährigen.",
-      "pendingOutcomeUntil": "2026-08-20T16:07:29.926Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17407,7 +17373,9 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-20T02:07:45.819Z",
       "doNotUpdateBefore": "2026-08-19T08:07:45.819Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kleinezeitung": "2026-08-20T16:07:36.603Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-19T14:07:38.207Z"
@@ -18477,6 +18445,115 @@
       "resonanceLevel": 2,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-08-20T14:08:13.263Z"
+    },
+    "photovoltaik-foerderung-speicher-2027": {
+      "canonicalTitle": "Photovoltaik-Förderung in Österreich wird ab 2027 auf Speicher umgestellt",
+      "slug": "photovoltaik-foerderung-speicher-2027",
+      "firstSeenAt": "2026-08-20T16:07:31.615Z",
+      "lastUpdatedAt": "2026-08-20T16:07:31.615Z",
+      "status": "published",
+      "articlePath": "src/content/articles/photovoltaik-foerderung-speicher-2027.mdx",
+      "researchPath": "data/ai-news/research/2026-08-20/photovoltaik-foerderung-speicher-2027.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3439737",
+        "https://www.derstandard.at/story/3000000336398/photovoltaik-foerderung-kuenftig-fuer-speicher-statt-kleine-pv-anlagen",
+        "https://www.diepresse.com/41189973/photovoltaik-foerderung-kuenftig-fuer-speicher-statt-kleine-pv-anlagen",
+        "https://kurier.at/wirtschaft/speicher-photovoltaik-foerderung-offensive-reform-eag-investition/403185033",
+        "https://orf.at/stories/3439734"
+      ],
+      "openQuestions": [
+        "Wie sieht die konkrete gesetzliche Fassung der EAG-Novelle mit den neuen Speicher-Förderkriterien aus?",
+        "Welche Position vertreten die Koalitionspartner SPÖ und NEOS sowie Branchenverbände wie die Wirtschaftskammer zu der Neuregelung?",
+        "Wie schätzen unabhängige Energieexpertinnen und -experten den tatsächlichen Speicherbedarf und die Wirtschaftlichkeit der neuen Förderlogik ein?",
+        "Welches Fördervolumen ist künftig für Speicher im Vergleich zur bisherigen PV-Förderung vorgesehen?",
+        "Wie reagiert die E-Control auf die von Minister Hattmannsdorfer geforderte Nachschärfung der Kriterien für „systemdienliche“ Speicher?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-21T16:07:31.615Z",
+      "doNotUpdateBefore": "2026-08-20T22:07:31.615Z",
+      "pendingOutcome": "Die konkrete gesetzliche Ausgestaltung der neuen Speicher-Förderkriterien (EAG-Novelle bzw. Verordnung) sowie die von Minister Hattmannsdorfer geforderten Nachschärfungen der E-Control-Kriterien stehen noch aus.",
+      "pendingOutcomeUntil": "2026-08-22T16:07:31.615Z",
+      "echoPublishers": {
+        "orf": "2026-08-20T16:07:33.271Z",
+        "derstandard": "2026-08-20T16:07:35.861Z",
+        "diepresse": "2026-08-20T16:07:34.906Z",
+        "kurier": "2026-08-20T16:07:34.904Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-20T16:07:31.615Z"
+    },
+    "schnellster-stern-milchstrasse-s301-august-2026": {
+      "canonicalTitle": "S301: Astronomen entdecken schnellsten bekannten Stern der Milchstraße",
+      "slug": "schnellster-stern-milchstrasse-s301-august-2026",
+      "firstSeenAt": "2026-08-20T16:07:31.615Z",
+      "lastUpdatedAt": "2026-08-20T16:07:31.615Z",
+      "status": "published",
+      "articlePath": "src/content/articles/schnellster-stern-milchstrasse-s301-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-20/schnellster-stern-milchstrasse-s301-august-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/41190309/bis-zu-90-millionen-stundenkilometer-schnellster-stern-der-milchstrasse-entdeckt",
+        "https://www.kleinezeitung.at/artikel/41190171/schnellster-stern-der-milchstrasse-gefunden",
+        "https://www.heise.de/news/90-000-000-km-h-Schnellster-Stern-der-Milchstrasse-rast-um-Schwarzes-Loch-Sgr-A-11418977.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.derstandard.at/story/3000000336241/stern-entdeckung-wirft-neues-licht-auf-groesstes-schwarzes-loch-der-milchstrasse",
+        "https://www.heise.de/news/90-000-000-km-h-Schnellster-Stern-der-Milchstrasse-rast-um-Schwarzes-Loch-Sgr-A-11418977.html",
+        "https://www.mpe.mpg.de/8219735/news20260819",
+        "https://www.eso.org/public/news/eso2612/",
+        "https://www.nature.com/articles/s41586-026-10894-w"
+      ],
+      "openQuestions": [
+        "Welche methodischen Zwischenschritte und Beobachtungskampagnen sind bis zur geplanten Spin-Messung konkret vorgesehen, insbesondere mit dem erst im Bau befindlichen MICADO-Instrument am Extremely Large Telescope?",
+        "Wie bewerten von der Studie unabhängige Astronominnen und Astronomen die Methodik und Tragweite der Entdeckung?",
+        "Wie verlässlich ist die vollständige Rekonstruktion der Sternbahn bis ins Jahr 2017 angesichts der Größe der Messfehler bei so schwachen, weit entfernten Objekten?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-21T16:07:31.615Z",
+      "doNotUpdateBefore": "2026-08-20T22:07:31.615Z",
+      "echoPublishers": {
+        "diepresse": "2026-08-20T16:07:34.906Z",
+        "kleinezeitung": "2026-08-20T16:07:36.516Z",
+        "heise": "2026-08-19T16:07:40.084Z",
+        "derstandard": "2026-08-20T10:07:37.963Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-20T16:07:31.615Z"
+    },
+    "merck-moderna-mrna-hautkrebs-impfstoff-phase3-august-2026": {
+      "canonicalTitle": "Merck und Moderna verkünden positive Phase-3-Ergebnisse für mRNA-Therapie gegen Hautkrebs",
+      "slug": "merck-moderna-mrna-hautkrebs-impfstoff-phase3-august-2026",
+      "firstSeenAt": "2026-08-20T16:07:31.615Z",
+      "lastUpdatedAt": "2026-08-20T16:07:31.615Z",
+      "status": "published",
+      "articlePath": "src/content/articles/merck-moderna-mrna-hautkrebs-impfstoff-phase3-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-20/merck-moderna-mrna-hautkrebs-impfstoff-phase3-august-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000336371/merck-und-moderna-testen-erfolgreich-hautkrebs-impfstoff",
+        "https://www.kleinezeitung.at/artikel/41187729/moderna-und-merck-mit-positiven-tests-fuer-hautkrebs-impfung",
+        "https://kurier.at/wissen/gesundheit/hautkrebs-impfstoff-moderna-und-merck-melden-positive-tests/403184843",
+        "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/",
+        "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma",
+        "https://www.t-online.de/gesundheit/aktuelles/id_101396450/hautkrebs-impfstoff-moderna-studie-erreicht-ziele-aktie-verdoppelt-sich.html",
+        "https://www.blick.ch/wirtschaft/invest/boersen-ticker-und-news-vom-19-august-durchbruch-bei-krebsimpfung-beschert-moderna-mega-boom-an-der-boerse-id20253021.html"
+      ],
+      "openQuestions": [
+        "Wie hoch ist die konkrete Reduktion des Rückfall- beziehungsweise Metastasierungsrisikos in der Phase-3-Studie INTerpath-001 im Vergleich zu Keytruda allein?",
+        "Welche detaillierten Sicherheits- und Verträglichkeitsdaten liegen zur neuen Studie vor?",
+        "Wann und auf welchem Weg (Fachkongress, Fachzeitschrift) werden die vollständigen Studiendaten veröffentlicht?",
+        "Wann ist mit einem Zulassungsantrag bei FDA beziehungsweise EMA zu rechnen, und wann könnte die Therapie in Österreich oder der EU verfügbar sein?",
+        "Wie bewerten unabhängige Onkologinnen und Onkologen die Bedeutung dieser Ergebnisse im Vergleich zu bestehenden Standardtherapien?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-21T16:07:31.615Z",
+      "doNotUpdateBefore": "2026-08-20T22:07:31.615Z",
+      "echoPublishers": {
+        "derstandard": "2026-08-20T14:08:17.022Z",
+        "kleinezeitung": "2026-08-19T18:07:39.635Z",
+        "kurier": "2026-08-19T20:07:34.145Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-20T16:07:31.615Z"
     }
   }
 }

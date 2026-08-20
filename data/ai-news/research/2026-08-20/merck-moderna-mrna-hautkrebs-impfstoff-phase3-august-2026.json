@@ -1,0 +1,215 @@
+{
+  "cluster": {
+    "id": "cluster-20260820-ffba8af0",
+    "title": "Merck und Moderna testen erfolgreich Hautkrebs-Impfstoff",
+    "items": [
+      {
+        "itemId": "d24d4a44801dfa505a734d05f1871a99751b72799884d6df1a6b0795b12a7b0d",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "Merck und Moderna testen erfolgreich Hautkrebs-Impfstoff",
+        "url": "https://www.derstandard.at/story/3000000336371/merck-und-moderna-testen-erfolgreich-hautkrebs-impfstoff",
+        "summary": "Erstmals hat ein mRNA-Vakzin gegen Krebs in einer zulassungsrelevanten Studie seine Ziele erreicht. Die Daten sorgten auch an der Börse für Euphorie",
+        "publishedAt": "2026-08-20T12:14:02.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "d6f84ee59acb09b5c1be32859d0eab00056c7609acd56abb7998fb462e01c3fe",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Moderna und Merck mit positiven Tests für Hautkrebs-Impfung",
+        "url": "https://www.kleinezeitung.at/artikel/41187729/moderna-und-merck-mit-positiven-tests-fuer-hautkrebs-impfung",
+        "isNew": false
+      },
+      {
+        "itemId": "3f65c58e354cbcc67eaf92f793d7c6c3cedd2dfb18343b2a8acd010ed8d434b3",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Moderna und Merck melden positive Tests für Hautkrebs-Impfstoff",
+        "url": "https://kurier.at/wissen/gesundheit/hautkrebs-impfstoff-moderna-und-merck-melden-positive-tests/403184843",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.9,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Medizinischer Durchbruch mit hohem Nachrichtenwert: Erste positive Phase-3-Ergebnisse für eine mRNA-basierte Krebstherapie (Merck/Moderna gegen schwarzen Hautkrebs). Substanzielle Quellenlage mit drei unabhängigen österreichischen Medien (Der Standard, Kleine Zeitung, Kurier). Keine Bezug zu publizierten Artikeln; klare Erststory.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Merck und Moderna melden erste positive Phase-3-Ergebnisse für ihren mRNA-Impfstoff gegen schwarzen Hautkrebs im fortgeschrittenen Stadium",
+      "Dies ist die erste öffentliche Ankündigung positiver Phase-3-Ergebnisse für eine mRNA-basierte Krebstherapie",
+      "Börse reagierte mit Kursgewinnen bei beiden Unternehmen auf die Ankündigung"
+    ],
+    "missingSources": [
+      "Genaue Studienergebnisse: konkrete Überlebensvorteil-Rate, Remissionsrate, Patientenzahl, Sicherheitsdaten, Verträglichkeit",
+      "Regulatorische Timeline: wann FDA/EMA-Zulassung erwartet",
+      "Marktprognose und Verfügbarkeit in Österreich/EU",
+      "Unabhängige ärztliche/onkologische Bewertung der Bedeutung",
+      "Vergleich zu Standardtherapien und deren Erfolgsraten bei schwarzem Hautkrebs"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "merck-moderna-mrna-hautkrebs-impfstoff-phase3-august-2026",
+    "title": "Merck und Moderna verkünden positive Phase-3-Ergebnisse für mRNA-Therapie gegen Hautkrebs",
+    "description": "Die individualisierte mRNA-Krebstherapie von Merck und Moderna hat in der entscheidenden Studie INTerpath-001 bei operiertem Hautkrebs ihre Hauptziele erreicht – nach Angaben der Unternehmen die erste positive Spätphasen-Bekanntgabe für eine mRNA-basierte Krebstherapie.",
+    "topic": "wissenschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Merck und Moderna haben die Ergebnisse in einer gemeinsamen Mitteilung selbst verkündet, was als Bestätigung durch die handelnden Institutionen gilt; drei unabhängige österreichische Medien und mehrere internationale Fachportale geben den Kerninhalt übereinstimmend wieder.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die offiziellen Mitteilungen von Merck und Moderna wurden über gezielte Web-Recherche eingesehen und bestätigen die Kernaussagen direkt, liefern aber nur Topline-Angaben ohne konkrete Prozentwerte, vollständige Studiendaten oder Peer-Review.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich bislang fast ausschließlich auf die Eigenpräsentation der beiden Studiensponsoren; eine unabhängige fachärztliche oder wissenschaftliche Einordnung liegt noch nicht vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Merck und Moderna haben laut eigener Mitteilung in der Phase-3-Studie INTerpath-001 mit ihrer mRNA-Krebstherapie bei operiertem Hautkrebs (Melanom Stadium IIB–IV) den primären und einen wichtigen sekundären Endpunkt erreicht.",
+        "kind": "fact"
+      },
+      {
+        "text": "Nach Angaben der Unternehmen ist dies die erste Bekanntgabe positiver Phase-3-Ergebnisse für eine mRNA-basierte Krebstherapie und für eine individualisierte Neoantigen-Therapie.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Ankündigung ließ die Aktien von Moderna und Merck sowie weiterer Biotech-Werte deutlich steigen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Konkrete Zahlen zur Höhe der Risikoreduktion, zu Sicherheitsdaten und zur Patientenzahl der neuen Studie sind bislang nicht im Detail veröffentlicht.",
+        "kind": "open"
+      },
+      {
+        "text": "Ein Zeitplan für eine mögliche Zulassung bei FDA oder EMA sowie eine Verfügbarkeit in Österreich/der EU ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch ist die konkrete Reduktion des Rückfall- beziehungsweise Metastasierungsrisikos in der Phase-3-Studie INTerpath-001 im Vergleich zu Keytruda allein?",
+      "Welche detaillierten Sicherheits- und Verträglichkeitsdaten liegen zur neuen Studie vor?",
+      "Wann und auf welchem Weg (Fachkongress, Fachzeitschrift) werden die vollständigen Studiendaten veröffentlicht?",
+      "Wann ist mit einem Zulassungsantrag bei FDA beziehungsweise EMA zu rechnen, und wann könnte die Therapie in Österreich oder der EU verfügbar sein?",
+      "Wie bewerten unabhängige Onkologinnen und Onkologen die Bedeutung dieser Ergebnisse im Vergleich zu bestehenden Standardtherapien?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000336371/merck-und-moderna-testen-erfolgreich-hautkrebs-impfstoff"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41187729/moderna-und-merck-mit-positiven-tests-fuer-hautkrebs-impfung"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wissen/gesundheit/hautkrebs-impfstoff-moderna-und-merck-melden-positive-tests/403184843"
+      },
+      {
+        "id": "src4",
+        "name": "Merck & Co. – offizielle Pressemitteilung",
+        "type": "official",
+        "url": "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/"
+      },
+      {
+        "id": "src5",
+        "name": "Moderna – offizielle Pressemitteilung",
+        "type": "official",
+        "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma"
+      },
+      {
+        "id": "src6",
+        "name": "t-online",
+        "type": "media",
+        "url": "https://www.t-online.de/gesundheit/aktuelles/id_101396450/hautkrebs-impfstoff-moderna-studie-erreicht-ziele-aktie-verdoppelt-sich.html"
+      },
+      {
+        "id": "src7",
+        "name": "Blick",
+        "type": "media",
+        "url": "https://www.blick.ch/wirtschaft/invest/boersen-ticker-und-news-vom-19-august-durchbruch-bei-krebsimpfung-beschert-moderna-mega-boom-an-der-boerse-id20253021.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Merck und Moderna haben in der Phase-3-Studie INTerpath-001 mit ihrer individualisierten mRNA-Krebstherapie (intismeran autogene, auch bekannt als mRNA-4157/V940) in Kombination mit Pembrolizumab (Keytruda) bei Patientinnen und Patienten mit vollständig operiertem Hautkrebs (Melanom Stadium IIB–IV) sowohl den primären Endpunkt rückfallfreies Überleben als auch den sekundären Endpunkt Fernmetastasen-freies Überleben erreicht.",
+        "status": "supported",
+        "note": "Von den Unternehmen selbst in einer gemeinsamen Mitteilung bekanntgegeben und von mehreren unabhängigen Medien übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src4",
+          "src5",
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Laut den beiden Unternehmen handelt es sich um die erste Bekanntgabe positiver Phase-3-Ergebnisse für eine mRNA-basierte Krebstherapie sowie für eine individualisierte Neoantigen-Therapie.",
+        "status": "supported",
+        "note": "Eigenaussage der Unternehmen aus der gemeinsamen Erklärung, wortgleich von mehreren Medien übernommen; eine unabhängige Bestätigung dieser historischen Einordnung liegt nicht vor.",
+        "sourceIds": [
+          "src4",
+          "src5",
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Ankündigung ließ die Aktienkurse von Moderna und Merck sowie weiterer Biotech-Unternehmen deutlich steigen.",
+        "status": "supported",
+        "note": "Von mehreren unabhängigen Wirtschaftsmedien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Konkrete Prozentwerte zur Risikoreduktion, zur Patientenzahl und zum Sicherheitsprofil der neuen Phase-3-Studie selbst wurden in der Ankündigung nicht im Detail veröffentlicht.",
+        "status": "partial",
+        "note": "Die Unternehmen sprechen von einer „statistisch signifikanten und klinisch bedeutsamen“ Verbesserung ohne konkrete Zahlen zur aktuellen Studie; ältere, öffentlich bekannte Phase-2b-Daten zu einem Vorläufer der Therapie sind nicht automatisch auf die neue Phase-3-Studie übertragbar.",
+        "sourceIds": [
+          "src4",
+          "src5"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Merck und Moderna haben mitgeteilt, dass ihre gemeinsam entwickelte mRNA-Krebstherapie in einer zulassungsrelevanten Studie ihre Hauptziele erreicht hat. Betroffen ist die Phase-3-Studie INTerpath-001, in der das individualisierte mRNA-Präparat intismeran autogene (auch als mRNA-4157 oder V940 bezeichnet) in Kombination mit dem bereits zugelassenen Wirkstoff Pembrolizumab (Keytruda) bei Patientinnen und Patienten getestet wurde, deren schwarzer Hautkrebs im fortgeschrittenen Stadium (IIB bis IV) vollständig operativ entfernt worden war. Die Kombination erreichte laut den Unternehmen sowohl den primären Endpunkt – rückfallfreies Überleben – als auch einen wichtigen sekundären Endpunkt, das Fernmetastasen-freie Überleben, im Vergleich zur alleinigen Behandlung mit Keytruda."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Kernaussage stammt aus einer gemeinsamen Mitteilung der beiden Unternehmen und wird von mehreren österreichischen Medien – Der Standard, Kleine Zeitung und Kurier – inhaltlich übereinstimmend wiedergegeben. Auch internationale Fachmedien und die offiziellen Pressemitteilungen von Merck und Moderna bestätigen den Ablauf: Die Studie habe bei einer vorab geplanten Zwischenanalyse ihre Endpunkte erreicht, neue Sicherheitssignale seien nicht aufgetreten. Die Unternehmen bezeichnen dies als erste positive Spätphasen-Bekanntgabe überhaupt für eine mRNA-basierte Krebstherapie und für eine individualisierte, auf das Erbgut einzelner Tumoren zugeschnittene Neoantigen-Therapie – eine Einschätzung, die bislang nur von den Studiensponsoren selbst stammt."
+      },
+      {
+        "heading": "Reaktion an den Börsen",
+        "markdown": "Die Ankündigung sorgte an den Finanzmärkten für deutliche Ausschläge: Die Moderna-Aktie legte im vorbörslichen Handel massiv zu, Merck-Anteile gewannen ebenfalls, wenn auch moderater, was angesichts der Unternehmensgröße von Merck als größerem, breiter aufgestelltem Pharmakonzern nachvollziehbar ist. Auch Aktien anderer mRNA- und Biotech-Unternehmen zogen im Sog der Nachricht an. Die Kursreaktion selbst ist ein wirtschaftliches Faktum, das unabhängig von der medizinischen Bewertung der Studienergebnisse besteht."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt vorerst, wie groß der Vorteil in Zahlen tatsächlich ausfällt: Die Unternehmen sprechen von „statistisch signifikanten und klinisch bedeutsamen“ Verbesserungen, nennen aber keine konkreten Prozentwerte zur Risikoreduktion, zur genauen Patientenzahl oder zu detaillierten Nebenwirkungsdaten der aktuellen Phase-3-Studie. Aus einer früheren, kleineren Vorläuferstudie (Phase 2b) zur selben Wirkstoffkombination sind öffentlich Zahlen zu einer Risikoreduktion bekannt – diese lassen sich aber nicht automatisch auf die neuen Phase-3-Ergebnisse übertragen. Ebenfalls offen ist der weitere regulatorische Zeitplan: Wann Merck und Moderna einen Zulassungsantrag bei der US-Arzneimittelbehörde FDA oder der europäischen EMA stellen wollen und wann die Therapie gegebenenfalls in Österreich oder der EU verfügbar sein könnte, ist derzeit nicht bekannt. Eine unabhängige fachärztliche Einordnung der Ergebnisse liegt ebenfalls noch nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Meldung betrifft zunächst Topline-Ergebnisse aus einer Zwischenanalyse, nicht die vollständige Veröffentlichung der Studiendaten in einer Fachzeitschrift oder auf einem medizinischen Fachkongress – dort dürfte die wissenschaftliche Gemeinschaft die Ergebnisse detaillierter prüfen. Intismeran autogene ist Teil eines größeren klinischen Entwicklungsprogramms von Merck und Moderna, das nach eigenen Angaben mehrere Phase-2- und Phase-3-Studien zu verschiedenen Krebsarten umfasst. Sollte sich der Nutzen in der vollständigen Auswertung bestätigen, wäre dies ein bedeutender Schritt für individualisierte Krebsimpfstoffe – bis zu einer möglichen Zulassung und einem tatsächlichen Einsatz in der Behandlung dürften aber noch weitere Prüfschritte nötig sein."
+      }
+    ],
+    "bodyKompakt": "Merck und Moderna haben mitgeteilt, dass ihre gemeinsam entwickelte mRNA-Krebstherapie in der Phase-3-Studie INTerpath-001 ihre Hauptziele erreicht hat. Getestet wurde das individualisierte Präparat intismeran autogene (mRNA-4157/V940) in Kombination mit dem Wirkstoff Pembrolizumab (Keytruda) bei Menschen mit vollständig operiertem Hautkrebs im fortgeschrittenen Stadium. Laut den Unternehmen wurden sowohl der primäre Endpunkt rückfallfreies Überleben als auch das Fernmetastasen-freie Überleben erreicht, neue Sicherheitssignale seien nicht aufgetreten.\n\nDie Unternehmen bezeichnen dies als erste positive Spätphasen-Bekanntgabe für eine mRNA-basierte Krebstherapie – eine Einschätzung, die bislang nur von den Studiensponsoren selbst stammt. Österreichische Medien wie Der Standard, Kleine Zeitung und Kurier geben die Ankündigung übereinstimmend wieder. An den Börsen sorgten die Daten für deutliche Kursgewinne bei Moderna, Merck und weiteren Biotech-Werten.\n\nOffen bleiben konkrete Zahlen zur Risikoreduktion, zu Patientenzahl und Sicherheitsprofil der aktuellen Studie sowie der weitere Zeitplan bis zu einer möglichen Zulassung bei FDA oder EMA und einer Verfügbarkeit in Österreich oder der EU. Eine unabhängige fachärztliche Bewertung der Ergebnisse steht noch aus.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-20T16:07:31.615Z"
+}
