@@ -1,0 +1,138 @@
+---
+title: "Sicherheitslücke bei Klimaanlage Midea Portasplit: Fremde können Gerät per Bluetooth fernsteuern"
+description: Die im Hitzesommer 2026 populäre mobile Klimaanlage Portasplit von Midea lässt sich über eine undokumentierte Bluetooth-Schnittstelle ohne Pairing und PIN-Kenntnis fernsteuern. Der Angriff funktioniert nur in Bluetooth-Reichweite, ein Fernzugriff über das Internet ist nicht möglich.
+publishedAt: 2026-08-20T08:07:29.050Z
+topic: technologie
+country: int
+status: published
+generationMode: ai_generated
+editorialReview: none
+confidence: high
+confidenceNote: Drei voneinander unabhängige Redaktionen (DER STANDARD, heise, Golem) berichten übereinstimmend über die Schwachstelle, und heise hat den Angriff mit einem eigenen Testgerät selbst nachvollzogen — das erfüllt die Schwelle für eine bestätigte Kernaussage auch ohne Stellungnahme des Herstellers zum Zeitpunkt der ersten Berichte.
+primarySourceStrength: none
+sourceStrengthNote: Es liegt keine direkt eingesehene Primärquelle vor (keine Midea-Presseaussendung, kein CERT-Advisory, keine CVE-Datenbank eingesehen); alles stammt aus Medienberichten, teils mit von den Redaktionen selbst durchgeführten Tests.
+framingRisk: medium
+framingRiskNote: Die technische Schilderung stützt sich auf einen anonymen Hinweisgeber und die Recherche einer Redaktion; die Herstellerseite ist nur über ein knappes, von einem Medium wiedergegebenes Zitat vertreten, nicht aus erster Hand eingesehen.
+newsworthiness: 3
+summary:
+  - text: Die mobile Klimaanlage Portasplit des Herstellers Midea verfügt über eine undokumentierte Bluetooth-Schnittstelle, über die sich das Gerät ohne App-Kopplung und ohne Kenntnis der Geräte-PIN fernsteuern lässt.
+    kind: fact
+  - text: Ein Angreifer kann die eigentlich AES-verschlüsselten Steuerbefehle korrekt erzeugen, weil das Gerät die zur Schlüsselberechnung nötigen Informationen unverschlüsselt per Bluetooth-Broadcast aussendet.
+    kind: fact
+  - text: Der Angriff funktioniert nur innerhalb der Bluetooth-Reichweite von einigen Metern rund um das Gerät, ein Zugriff über das Internet oder die Midea-Cloud ist nicht möglich.
+    kind: fact
+  - text: Laut einem Bericht hielt Midea die Bluetooth-Steuerbarkeit zunächst nicht für ein Sicherheitsproblem, kündigte inzwischen aber ein Firmware-Update an – ein genauer Zeitplan dafür ist derzeit nicht bekannt.
+    kind: open
+  - text: Offen sind die Zahl betroffener Geräte, eine mögliche CVE-Einstufung sowie eine unabhängige Sicherheitsbewertung der Schwachstelle.
+    kind: open
+openQuestions:
+  - Wann genau erscheint das von Midea angekündigte Firmware-Update, und schließt es die Bluetooth-Lücke vollständig?
+  - Wie viele Portasplit-Geräte sind weltweit beziehungsweise in Österreich im Umlauf und damit potenziell betroffen?
+  - Gibt es inzwischen eine offizielle CVE-Nummer oder eine CERT-Warnung zu der Schwachstelle?
+  - Wie bewerten unabhängige IT-Sicherheitsexpertinnen und -experten das tatsächliche Risiko im Alltag und die von Midea vorgeschlagene Lösung?
+sources:
+  - id: src1
+    name: Der Standard
+    type: media
+    url: https://www.derstandard.at/story/3000000336157/sicherheitsluecke-in-midea-portasplit-anlage-laesst-sich-durch-fremde-fernsteuern
+  - id: src2
+    name: heise online
+    type: media
+    url: https://www.heise.de/hintergrund/Mobile-Klimaanlage-Midea-PortaSplit-laesst-sich-von-jedermann-fernsteuern-11417163.html
+  - id: src3
+    name: Golem.de
+    type: media
+    url: https://www.golem.de/news/beliebte-klimaanlage-firmware-luecke-in-midea-portasplit-ermoeglicht-fernsteuerung-2608-212073.html
+  - id: src4
+    name: heise online (Update/englische Fassung)
+    type: media
+    url: https://www.heise.de/en/background/Mobile-air-conditioner-Midea-PortaSplit-can-be-remotely-controlled-by-anyone-11418685.html
+claims:
+  - id: claim1
+    text: Midea Portasplit besitzt eine undokumentierte Bluetooth-Schnittstelle (OEM-SDK com.midea.oem.iot.sdk.ble), über die sich das Gerät ohne App-Pairing und ohne PIN steuern lässt.
+    status: supported
+    note: Von DER STANDARD, heise und Golem übereinstimmend berichtet; heise hat dies mit einem eigenen Testgerät nachvollzogen.
+    sourceIds:
+      - src1
+      - src2
+      - src3
+  - id: claim2
+    text: Angreifer können die AES-verschlüsselten Steuerbefehle korrekt berechnen, weil das Gerät die dafür nötigen Informationen unverschlüsselt per Bluetooth-Broadcast aussendet.
+    status: supported
+    note: Technische Detailbeschreibung aus dem von heise selbst durchgeführten Test, durch die Berichterstattung der anderen Medien gestützt.
+    sourceIds:
+      - src2
+  - id: claim3
+    text: Der Angriff ist nur innerhalb der Bluetooth-Reichweite von wenigen Metern möglich, ein Fernzugriff über das Internet oder die Hersteller-Cloud besteht nicht.
+    status: supported
+    note: Explizit von heise so beschrieben, keine gegenteiligen Angaben in den anderen Quellen.
+    sourceIds:
+      - src2
+  - id: claim4
+    text: Ein anonymer Hinweisgeber entwickelte mit Unterstützung von KI-Tools einen Proof-of-Concept (Android-App, Python-Skripte), den die heise-Redaktion mit einem eigenen Testgerät nachstellen konnte.
+    status: supported
+    note: Direkt aus dem Erfahrungsbericht der heise-Redaktion, die den Test selbst durchführte.
+    sourceIds:
+      - src2
+  - id: claim5
+    text: Midea hielt die Bluetooth-Steuerbarkeit auf Anfrage zunächst nicht für ein Sicherheitsproblem.
+    status: partial
+    note: Beruht bislang auf der Wiedergabe einer Herstelleraussage durch eine einzelne Redaktion, keine direkt eingesehene Stellungnahme von Midea selbst.
+    sourceIds:
+      - src4
+  - id: claim6
+    text: Midea kündigte in der Folge an, an einem OTA-Firmware-Update zur Behebung der Schwachstelle zu arbeiten.
+    status: partial
+    note: Ebenfalls nur über eine Redaktion überliefert, kein offizieller Midea-Kanal oder Zeitplan eingesehen.
+    sourceIds:
+      - src4
+corrections: []
+image:
+  file: ../../assets/articles/midea-portasplit-bluetooth-sicherheitsluecke-august-2026/hero.webp
+  alt: Rechenzentrum Potsdam Eingang
+  caption: Rechenzentrum Potsdam Eingang
+  kind: symbol
+  credit:
+    author: Fridolin freudenfett
+    license: CC BY-SA 4.0
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Rechenzentrum_Potsdam_Eingang.jpg
+    termsUrl: https://creativecommons.org/licenses/by-sa/4.0
+    termsQuote: Lizenzangabe „CC BY-SA 4.0“ laut Dateibeschreibungsseite auf Wikimedia Commons.
+    retrievedAt: 2026-08-20T08:07:29.050Z
+resonance:
+  level: 2
+  measuredAt: 2026-08-20T08:07:29.050Z
+  source: zaehlung
+---
+
+<Kompakt>
+
+Die im Hitzesommer 2026 populäre mobile Klimaanlage Portasplit von Midea lässt sich über eine undokumentierte Bluetooth-Schnittstelle fernsteuern — ohne App-Kopplung und ohne Kenntnis der Geräte-PIN. Ein anonymer Hinweisgeber hat laut heise online, DER STANDARD und Golem eine separate Programmierschnittstelle für Zulieferer genutzt, die zwar verschlüsselte Befehle verlangt, deren Schlüssel sich aber aus unverschlüsselt per Bluetooth gesendeten Geräteinformationen berechnen lässt. Die heise-Redaktion hat den Angriff mit einem eigenen Testgerät nachgestellt. Eingeschränkt wird das Risiko dadurch, dass es nur innerhalb der Bluetooth-Reichweite von wenigen Metern funktioniert; ein Zugriff über das Internet besteht nicht.
+
+Laut einem Bericht sah Midea auf Anfrage zunächst kein Sicherheitsproblem, kündigte in der Folge aber ein Firmware-Update an, das die Lücke schließen soll. Eine direkt eingesehene offizielle Stellungnahme des Herstellers liegt für diesen Artikel nicht vor. Offen bleiben unter anderem der Zeitplan für das Update, die Zahl betroffener Geräte und eine unabhängige Sicherheitsbewertung der Schwachstelle.
+
+</Kompakt>
+
+<Standard>
+
+## Was passiert ist
+
+Die mobile Split-Klimaanlage Portasplit des chinesischen Herstellers Midea hat sich im diesjährigen Hitzesommer als Bestseller erwiesen — nicht zuletzt, weil sie sich bequem per Smartphone-App steuern lässt. Genau diese Vernetzung erweist sich nun als Sicherheitsrisiko: Wie DER STANDARD, heise online und Golem übereinstimmend berichten, besitzt das Gerät eine undokumentierte Bluetooth-Schnittstelle, über die sich jede Portasplit-Einheit fernsteuern lässt — unabhängig davon, ob sie mit der Hersteller-App gekoppelt ist, und ohne dass eine eingerichtete Geräte-PIN einen Schutz bietet.
+
+## Wie der Angriff funktioniert
+
+Aufgedeckt hat die Lücke laut heise ein anonymer Hinweisgeber, der sich an die Redaktion gewandt hatte. Er setzte nicht am offiziellen Endpunkt der Steuer-App an, sondern an einer separaten Programmierschnittstelle für Original Equipment Manufacturer namens com.midea.oem.iot.sdk.ble. Diese Schnittstelle kennt keine Geräte-PIN und verlangt zwar AES-verschlüsselte Befehle, doch die Klimaanlage sendet die zur Schlüsselberechnung notwendigen Informationen unverschlüsselt per Bluetooth-Broadcast aus. Wer diese Broadcasts empfängt, kann daraus gültige Steuerbefehle berechnen und die Anlage ein- und ausschalten, die Temperatur ändern oder zwischen Kühlen und Heizen wechseln. Der Hinweisgeber hatte dafür mit KI-Unterstützung eine Android-App und Python-Skripte entwickelt; die heise-Redaktion hat den Angriff mit einem eigenen Testgerät nachgestellt und konnte ihn reproduzieren. Eingeschränkt wird das Risiko dadurch, dass die Attacke nur innerhalb der Bluetooth-Reichweite von einigen Metern rund um das Gerät funktioniert — ein Zugriff über das offene Internet oder die Midea-Cloud ist nach den vorliegenden Berichten nicht möglich.
+
+## Reaktion des Herstellers
+
+Laut einem Bericht von heise online stufte Midea die Bluetooth-Steuerbarkeit auf Anfrage zunächst nicht als Sicherheitsproblem ein. Nach weiterer Rückfrage soll der Hersteller demnach mittlerweile angekündigt haben, an einem Firmware-Update über die Luftschnittstelle (OTA) zu arbeiten, um das gemeldete Problem zu beheben. Eine direkt eingesehene, offizielle Stellungnahme oder Presseaussendung von Midea selbst liegt für diesen Artikel nicht vor — die Angaben zur Herstellerreaktion stammen aus der Berichterstattung einer einzelnen Redaktion.
+
+## Was unklar bleibt
+
+Offen ist, wann das angekündigte Firmware-Update tatsächlich erscheint und ob es die Schwachstelle vollständig schließt. Auch fehlen belastbare Angaben dazu, wie viele Portasplit-Geräte weltweit oder in Österreich im Umlauf und damit potenziell betroffen sind. Eine offizielle CVE-Nummer, eine CERT-Warnung oder eine unabhängige Einschätzung von IT-Sicherheitsexpertinnen und -experten zum tatsächlichen Alltagsrisiko liegen bislang nicht vor.
+
+## Einordnung
+
+Der Fall reiht sich in eine wiederkehrende Problematik bei vernetzten Haushaltsgeräten ein: Komfortfunktionen wie eine Fernsteuerung per App bringen zusätzliche Funkschnittstellen mit sich, die nicht immer mit derselben Sorgfalt abgesichert sind wie der offizielle Nutzungsweg. Dass die Lücke von einem anonymen Hinweisgeber mit Unterstützung von KI-Werkzeugen aufgedeckt und von einer Redaktion technisch nachvollzogen wurde, spricht für die Stichhaltigkeit des Befunds — ersetzt aber keine unabhängige, systematische Sicherheitsprüfung des Geräts oder eine offizielle Einordnung durch den Hersteller.
+
+</Standard>
