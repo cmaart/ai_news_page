@@ -1,0 +1,352 @@
+{
+  "cluster": {
+    "id": "cluster-20260819-c28dd833",
+    "title": "Nasa veröffentlicht Fotos vom Krater einer Space-X-Rakete auf dem Mond",
+    "items": [
+      {
+        "itemId": "d7ce03794ff3452a5e685bc8213d351ae84a12ae19eefd57cd20bcbaa5e7a2ef",
+        "sourceId": "derstandard_wissenschaft",
+        "sourceType": "media",
+        "title": "Nasa veröffentlicht Fotos vom Krater einer Space-X-Rakete auf dem Mond",
+        "url": "https://www.derstandard.at/story/3000000336145/nasa-veroeffentlicht-fotos-vom-krater-einer-space-x-rakete-auf-dem-mond",
+        "summary": "Der ungeplante Einschlag vor zwei Wochen erzeugte einen 18 Meter breiten Krater, der auch für die Wissenschaft interessant ist",
+        "publishedAt": "2026-08-19T08:38:03.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "3d8878c6bcc2efc2d3512c58d1e98c277da511e99be1e8734158ce3aa8f8371a",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "NASA-Bilder zeigen Krater durch SpaceX-Raketenteil auf Mond",
+        "url": "https://orf.at/stories/3439575",
+        "isNew": false
+      },
+      {
+        "itemId": "066fe109b32a66d72af5d3c01153863149439837a255c7f0e9a3ae0072ceb35c",
+        "sourceId": "orf_science",
+        "sourceType": "media",
+        "title": "NASA-Bilder zeigen Krater durch SpaceX-Rakete",
+        "url": "https://science.orf.at/stories/3236958",
+        "isNew": false
+      },
+      {
+        "itemId": "03eaab3b551a61c93698117bdb6564ec65622c15eb7ef709b1a1243ba690d8d7",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "NASA-Bilder von Krater des SpaceX-Teils auf dem Mond",
+        "url": "https://www.kleinezeitung.at/artikel/41185302/nasa-bilder-von-krater-des-spacex-teils-auf-dem-mond",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Die NASA-Fotos und -Messungen beantworten direkt die offenen Fragen der bestehenden Story (Kratorgröße, LRO-Aufnahmen-Verfügbarkeit). Follow-up mit konkreten neuen Daten (18m Durchmesser, ~3m Tiefe, Aufnahmedatum 11.–12. August) von autorisierter Quelle (NASA via ORF, Der Standard, Kleine Zeitung). Substanzieller genug für ein Update, aber keine eigenständige Wendung – eine Reaktion auf die vorige Story, die deren offene Fragen beantwortet. Daher Update-vor-Draft-Regel.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": 3,
+    "relatedSlug": "spacex-mondeinschlag-eingetreten-scheiman-august-2026",
+    "possibleClaims": [
+      "Der Krater hat einen Durchmesser von etwa 18 Metern",
+      "Der Krater ist knapp 3 Meter tief",
+      "Die Tiefenmessung basiert auf Kraterschattenwurf-Berechnung der NASA-Fachleute",
+      "Die Aufnahmen stammen vom Lunar Reconnaissance Orbiter und wurden am 11. und 12. August 2026 aufgenommen",
+      "Der Einschlag ereignete sich am 5. August 2026",
+      "Das Raketenteil wog vier Tonnen",
+      "Es handelte sich um die Oberstufe einer Falcon-9-Rakete",
+      "Die Falcon-9 beförderte im Januar 2025 zwei Mondlandegeräte ins All",
+      "Die Kursabweichung wurde durch eine Mischung aus Sonnenaktivität und Schwerkraft verursacht"
+    ],
+    "missingSources": [
+      "Direkter Link zur NASA-Pressemitteilung oder offiziellem NASA-Statement",
+      "Technische Details zur Kratermess-Methodik (Kalibrierung des Schattenwurfs)",
+      "Vergleich der gemessenen Kratergröße mit vorab berechneten Einschlag-Modellen",
+      "Stellungnahme von SpaceX zu den Auswirkungen auf zukünftige Mondmissionen",
+      "Spekulationen oder Fachkommentare zur Bedeutung für Mondbasen-Sicherheit"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "spacex-mondeinschlag-eingetreten-scheiman-august-2026",
+    "title": "SpaceX-Raketenteil auf dem Mond eingeschlagen – NASA veröffentlicht Fotos vom 18-Meter-Krater",
+    "description": "Die NASA hat rund zwei Wochen nach dem Einschlag Aufnahmen des Lunar Reconnaissance Orbiter veröffentlicht, die einen etwa 18 Meter breiten und knapp 3 Meter tiefen Krater zeigen. Zuvor hatte bereits die Europäische Südsternwarte (ESO) den Einschlag der ausgebrannten Falcon-9-Oberstufe spektroskopisch bestätigt.",
+    "topic": "wissenschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Zur bereits vorliegenden ESO-Spektroskopie und der breiten, übereinstimmenden Berichterstattung mehrerer österreichischer Medienhäuser kommt nun eine direkte NASA-Quelle hinzu: Die eigene NASA-Science-Seite beschreibt Aufnahmen und Messmethodik des Lunar Reconnaissance Orbiter im Detail (Kratergröße, Aufnahmedatum, Kameratyp). Damit liegt neben der spektroskopischen nun auch eine fotografische, direkt von der NASA selbst dokumentierte Bestätigung vor. Eine Bestätigung durch die südkoreanische Raumfahrtagentur mit eigenen Bildern fehlt weiterhin.",
+    "primarySourceStrength": "strong",
+    "sourceStrengthNote": "Die Kratermessung (rund 18 Meter Durchmesser, knapp 3 Meter Tiefe) sowie die Aufnahmedaten und die Messmethodik stammen direkt von der offiziellen NASA-Science-Seite (science.nasa.gov), nicht nur aus Medienzitaten. Die ESO-Spektroskopie wird weiterhin nur über Medienberichte wiedergegeben, eine eigene ESO-Pressemitteilung mit direkter URL wurde nicht aufgefunden. Eine SpaceX-Stellungnahme zu den Konsequenzen liegt weiterhin nur indirekt über frühere Agenturzitate vor.",
+    "framingRisk": "low",
+    "framingRiskNote": "Rein naturwissenschaftlich-technisches Ereignis ohne politische oder personenbezogene Zuspitzung; Risiko liegt allenfalls in reißerischer Bildsprache einzelner Boulevard-Überschriften (\"Krater so groß wie eine Bowlingbahn\"), die im Artikel nicht übernommen wird.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Der für 5. August 2026 vorausberechnete Einschlag einer rund vier Tonnen schweren SpaceX-Raketenoberstufe auf dem Mond ist eingetreten und wurde von der Europäischen Südsternwarte (ESO) mittels Spektroskopie am Very Large Telescope bestätigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Rund zwei Wochen nach dem Einschlag hat die NASA Aufnahmen des Lunar Reconnaissance Orbiter (LRO) vom 11. und 12. August 2026 veröffentlicht: Sie zeigen einen etwa 18 Meter breiten und knapp 3 Meter tiefen Krater mit hell-dunklen, „schmetterlingsflügelartigen“ Auswurfstreifen.",
+        "kind": "fact"
+      },
+      {
+        "text": "SpaceX-Direktorin Julianna Scheiman erklärte laut Agenturmeldungen, eine Mischung aus Sonnenaktivität und Schwerkraft habe die Stufe von ihrem berechneten Kurs abgebracht.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine mit eigenen Bildern belegte Bestätigung durch die südkoreanische Raumfahrtagentur steht weiterhin aus.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie gut die nun gemessene Kratergröße mit den vorab berechneten Einschlagsmodellen (u. a. Aufprallgeschwindigkeit, vermutete Lage nahe den Kratern Einstein und Bell) übereinstimmt, ist weiterhin offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Gibt es eine direkt zugängliche ESO-Pressemitteilung oder Fachpublikation mit weiteren Details zur Spektralanalyse?",
+      "Bestätigt eine zweite, unabhängige Sternwarte die von der ESO gemessenen Spektrallinien?",
+      "Bestätigt auch die südkoreanische Raumfahrtagentur den Einschlag mit eigenen Sondenbildern?",
+      "Wie gut stimmt der von der NASA gemessene, rund 18 Meter breite Krater mit den vorab berechneten Einschlagsmodellen (u. a. Aufprallgeschwindigkeit von rund 8.700 km/h, vermutete Lage nahe den Kratern Einstein und Bell) überein?",
+      "Äußert sich SpaceX offiziell zu den Konsequenzen des Einschlags für die Sicherheit künftiger Mondmissionen?",
+      "Wie ordnen Fachleute den Vergleich zwischen diesem Einschlag und dem bislang unklar zugeordneten Mondeinschlag von 2022 wissenschaftlich ein, sobald weitere Daten vorliegen?"
+    ],
+    "sources": [
+      {
+        "id": "orf-3438292",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3438292"
+      },
+      {
+        "id": "kleinezeitung-41142942",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41142942/schrottteil-von-spacex-rakete-trifft-offenbar-den-mond"
+      },
+      {
+        "id": "diepresse-41108584",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41108584/teile-einer-spacex-rakete-offenbar-auf-mond-eingeschlagen"
+      },
+      {
+        "id": "kurier-403179891",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/elon-musk-spacex-mond-rakete-teil-krater-weltraumschrott/403179891"
+      },
+      {
+        "id": "futurezone-403179886",
+        "name": "futurezone",
+        "type": "media",
+        "url": "https://futurezone.at/science/spacex-rakete-mond-einschlag-falcon-9-krater-aufprall/403179886"
+      },
+      {
+        "id": "nasa-official",
+        "name": "NASA",
+        "type": "official",
+        "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact/"
+      },
+      {
+        "id": "spacecom",
+        "name": "Space.com",
+        "type": "media",
+        "url": "https://www.space.com/astronomy/moon/a-spacex-rocket-will-crash-into-the-moon-next-week-and-scientists-arent-sure-what-to-expect"
+      },
+      {
+        "id": "orf-3438348",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3438348"
+      },
+      {
+        "id": "diepresse-41151877",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41151877/wissenschaftler-bestaetigen-spacex-raketenteil-auf-mond-eingeschlagen"
+      },
+      {
+        "id": "kleinezeitung-41151876",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41151876/wissenschaftler-spacex-raketenteil-auf-mond-eingeschlagen"
+      },
+      {
+        "id": "derstandard-3000000334332",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000334332/space-x-raketenteil-ungeplant-auf-dem-mond-eingeschlagen"
+      },
+      {
+        "id": "nasa-science-lro-crater",
+        "name": "NASA Science (science.nasa.gov)",
+        "type": "official",
+        "url": "https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/"
+      },
+      {
+        "id": "orf-3439575",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439575"
+      },
+      {
+        "id": "orf-science-3236958",
+        "name": "science.ORF.at",
+        "type": "media",
+        "url": "https://science.orf.at/stories/3236958"
+      },
+      {
+        "id": "kleinezeitung-41185302",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41185302/nasa-bilder-von-krater-des-spacex-teils-auf-dem-mond"
+      },
+      {
+        "id": "derstandard-3000000336145",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000336145/nasa-veroeffentlicht-fotos-vom-krater-einer-space-x-rakete-auf-dem-mond"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim-1",
+        "text": "Das rund vier Tonnen schwere SpaceX-Raketenteil ist am 5. August 2026 wie vorausberechnet auf dem Mond eingeschlagen.",
+        "status": "supported",
+        "note": "Die Europäische Südsternwarte (ESO) hat den Einschlag mittels ihres Very Large Telescope spektroskopisch bestätigt (charakteristische Natrium-/Lithium-Spektrallinien in der Einschlagwolke, genau wie erwartet); zusätzlich berichten sechs österreichische Medienhäuser unter Berufung auf Agenturen übereinstimmend. Inzwischen liegt zusätzlich eine direkte NASA-Bestätigung mit eigenen Aufnahmen des Einschlagsorts vor (siehe claim-7).",
+        "sourceIds": [
+          "orf-3438292",
+          "kleinezeitung-41142942",
+          "diepresse-41108584",
+          "kurier-403179891",
+          "futurezone-403179886",
+          "orf-3438348",
+          "diepresse-41151877",
+          "kleinezeitung-41151876",
+          "derstandard-3000000334332"
+        ]
+      },
+      {
+        "id": "claim-2",
+        "text": "SpaceX-Direktorin Julianna Scheiman erklärte, eine Mischung aus Sonnenaktivität und Schwerkraft habe die Raketenstufe von ihrem berechneten Kurs abgebracht.",
+        "status": "supported",
+        "note": "Zitat laut ORF unter Berufung auf Agenturen, unverändert auch in der neuen Berichtswelle wiedergegeben. Dass diese Aussage getroffen wurde, gilt als belegt; die inhaltliche Ursachenerklärung selbst stammt von SpaceX und wurde nicht unabhängig überprüft.",
+        "sourceIds": [
+          "orf-3438292",
+          "orf-3438348"
+        ]
+      },
+      {
+        "id": "claim-3",
+        "text": "NASA sowie die südkoreanische Raumfahrtagentur kündigten an, mit ihren Mondsonden Aufnahmen der vermuteten Einschlagstelle zu machen; eine offizielle Bestätigung von dieser Seite lag am 6. August 2026 noch nicht vor.",
+        "status": "supported",
+        "note": "Deckt sich mit der auf der NASA-Website beschriebenen Beobachtungsplanung über den Lunar Reconnaissance Orbiter sowie mit den österreichischen Medienberichten. Der Stand vom 6. August ist historisch weiterhin korrekt; die NASA hat die Bestätigung inzwischen (19. August) mit eigenen LRO-Aufnahmen nachgereicht (claim-7). Von der südkoreanischen Raumfahrtagentur liegt weiterhin keine eigene Bestätigung vor.",
+        "sourceIds": [
+          "orf-3438292",
+          "kleinezeitung-41142942",
+          "nasa-official",
+          "orf-3438348"
+        ]
+      },
+      {
+        "id": "claim-4",
+        "text": "Zwischen Einschlag und den ersten LRO-Aufnahmen der Einschlagstelle lagen rund sechs Tage, zwischen Einschlag und Veröffentlichung dieser Aufnahmen rund zwei Wochen.",
+        "status": "supported",
+        "note": "Löst die zuvor zwischen den Quellen uneinheitliche Zeitangabe auf: Laut NASA entstanden die LRO-Aufnahmen am 11. und 12. August 2026 – sechs Tage nach dem Einschlag am 5. August –, veröffentlicht wurden sie rund zwei Wochen nach dem Einschlag, am 19. August 2026.",
+        "sourceIds": [
+          "nasa-science-lro-crater",
+          "orf-3439575"
+        ]
+      },
+      {
+        "id": "claim-5",
+        "text": "Internationalen Medienberichten zufolge lag die vermutete Einschlagsregion nahe den Kratern Einstein und Bell, bei einer Aufprallgeschwindigkeit von rund 8.700 km/h.",
+        "status": "unclear",
+        "note": "Stützt sich weiterhin auf eine einzelne internationale Quelle außerhalb des österreichischen Medienclusters. Die NASA hat inzwischen zwar eine konkrete Kratergröße (rund 18 Meter Durchmesser) veröffentlicht, ein direkter Abgleich dieser Messung mit den vorab berechneten Modellen (Lage, Geschwindigkeit) liegt aber in keiner der gesichteten Quellen vor.",
+        "sourceIds": [
+          "spacecom"
+        ]
+      },
+      {
+        "id": "claim-6",
+        "text": "Das Very Large Telescope der ESO in Chile registrierte in der Einschlagwolke charakteristische Spektrallinien von Natrium und Lithium, die rund 5 bis 10 Minuten nach dem Einschlag sichtbar waren – wie bei einem Mondeinschlag erwartet.",
+        "status": "supported",
+        "note": "Von der ESO mitgeteilt und übereinstimmend von ORF, Die Presse und Kleiner Zeitung mit technischen Details zur Methode (Spektroskopie am VLT) wiedergegeben. Eine unabhängige Reproduktion der Messung durch ein zweites Observatorium oder eine eigene ESO-Pressemitteilung mit direkt einsehbarer URL liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "orf-3438348",
+          "diepresse-41151877",
+          "kleinezeitung-41151876"
+        ]
+      },
+      {
+        "id": "claim-7",
+        "text": "Die NASA hat rund zwei Wochen nach dem Einschlag mit eigenen Aufnahmen des Lunar Reconnaissance Orbiter die zuvor noch ausstehende, fotografisch belegte Bestätigung des Einschlagsorts nachgereicht.",
+        "status": "supported",
+        "note": "Direkt von der offiziellen NASA-Science-Seite dokumentiert und übereinstimmend von ORF, Der Standard und Kleiner Zeitung berichtet. Schließt die zuvor offene Frage nach einer mit eigenen Bildern belegten NASA-Bestätigung; ergänzt die bereits vorliegende ESO-Spektroskopie um eine zweite, unabhängige Bestätigungsebene. Eine analoge Bestätigung durch die südkoreanische Raumfahrtagentur steht weiterhin aus.",
+        "sourceIds": [
+          "nasa-science-lro-crater",
+          "orf-3439575",
+          "derstandard-3000000336145",
+          "kleinezeitung-41185302"
+        ]
+      },
+      {
+        "id": "claim-8",
+        "text": "Der durch den Einschlag entstandene Krater ist laut NASA rund 18 Meter breit und knapp 3 Meter tief; die Breite wurde anhand von Aufnahmen mit klar erkennbarem Kraterrand bestimmt, die Tiefe anhand der Länge des Schattenwurfs berechnet.",
+        "status": "supported",
+        "note": "Direkt von der NASA-Science-Seite mit Angabe der Messmethodik dokumentiert, übereinstimmend wiedergegeben von ORF, Der Standard und Kleiner Zeitung. Damit liegt erstmals eine von der NASA selbst genannte, konkrete Kratergröße vor.",
+        "sourceIds": [
+          "nasa-science-lro-crater",
+          "orf-3439575",
+          "derstandard-3000000336145",
+          "kleinezeitung-41185302"
+        ]
+      },
+      {
+        "id": "claim-9",
+        "text": "Die veröffentlichten Aufnahmen entstanden am 11. und 12. August 2026 mit der Schmalwinkelkamera des Lunar Reconnaissance Orbiter, die Details ab rund einem Meter Größe auflösen kann; die Sonde wurde für die Aufnahmen eigens ausgerichtet.",
+        "status": "supported",
+        "note": "Direkt von der NASA-Science-Seite mit technischen Details zu Kamera und Vorgehen dokumentiert.",
+        "sourceIds": [
+          "nasa-science-lro-crater",
+          "orf-3439575"
+        ]
+      },
+      {
+        "id": "claim-10",
+        "text": "Die Aufnahmen zeigen helle und dunkle, „schmetterlingsflügelartige“ Auswurfstreifen rund um den Krater: Die dunkleren Streifen bestehen aus länger der Mondoberfläche ausgesetztem, durch Sonnenwind, kosmische Strahlung und Mikrometeoriteneinschläge verändertem Material, die helleren aus frisch aus tieferen Schichten freigelegtem Gestein.",
+        "status": "supported",
+        "note": "Direkt von der NASA-Science-Seite beschrieben.",
+        "sourceIds": [
+          "nasa-science-lro-crater"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "NASA veröffentlicht Fotos vom Krater",
+        "markdown": "Rund zwei Wochen nach dem Einschlag hat die NASA nun auch die zuvor noch ausstehende, mit eigenen Bildern belegte Bestätigung nachgereicht: Aufnahmen des Lunar Reconnaissance Orbiter (LRO) vom 11. und 12. August 2026 zeigen den durch die ausgebrannte Falcon-9-Oberstufe verursachten Krater. Laut NASA ist er rund 18 Meter breit und knapp 3 Meter tief. Die Breite bestimmten NASA-Fachleute anhand von Bildausschnitten, in denen der Kraterrand klar von der Umgebung abgegrenzt zu erkennen war, die Tiefe berechneten sie anhand der Länge des vom Krater geworfenen Schattens. Für die Aufnahmen wurde die Sonde eigens ausgerichtet und ihre Schmalwinkelkamera eingesetzt, die Details ab rund einem Meter Größe auflösen kann. Die Bilder zeigen zudem helle und dunkle, „schmetterlingsflügelartige“ Auswurfstreifen rund um den Krater: Die dunkleren Bereiche bestehen aus Material, das lange der Mondoberfläche ausgesetzt und dadurch durch Sonnenwind, kosmische Strahlung und Mikrometeoriteneinschläge verändert war, die helleren aus frisch aus tieferen Schichten herausgeschleudertem Gestein. Eine analoge, mit eigenen Bildern belegte Bestätigung durch die südkoreanische Raumfahrtagentur steht weiterhin aus."
+      },
+      {
+        "heading": "ESO hatte den Einschlag bereits spektroskopisch bestätigt",
+        "markdown": "Schon zuvor hatte die in Chile ansässige Europäische Südsternwarte (ESO) mitgeteilt, mit ihrem Very Large Telescope (VLT) charakteristische Spektrallinien in der Einschlagwolke entdeckt zu haben. Konkret registrierte das Teleskop rund 5 bis 10 Minuten lang Signaturen von Natrium und Lithium – ein Muster, wie es bei einem tatsächlichen Einschlag zu erwarten war. Diese spektroskopische Bestätigung steht nun neben der fotografischen Bestätigung durch die NASA; beide Belege stützen sich gegenseitig, stammen aber aus unabhängigen Messverfahren. Eine eigene, direkt einsehbare ESO-Pressemitteilung mit weiteren Details zur Methodik wurde weiterhin nicht aufgefunden."
+      },
+      {
+        "heading": "SpaceX nennt Ursache der Kursabweichung",
+        "markdown": "Bereits mit dem Eintreten des Einschlags am 5. August 2026 hatte sich SpaceX erstmals öffentlich zur Kursabweichung geäußert: SpaceX-Direktorin Julianna Scheiman erklärte laut Agenturmeldungen, eine Mischung aus Sonnenaktivität und Schwerkraft habe die rund vier Tonnen schwere Raketenstufe von ihrer berechneten Flugbahn abgebracht, sodass sie unbeabsichtigt auf Kollisionskurs mit dem Mond geriet. Diese Erklärung stammt von SpaceX selbst und wurde bislang nicht unabhängig nachvollzogen."
+      },
+      {
+        "heading": "Vorgeschichte",
+        "markdown": "Wie im bisherigen Bericht dargestellt, hatte der Astronom Bill Gray den Einschlag der ausgebrannten Falcon-9-Oberstufe – Überrest eines Starts vom Jänner 2025, bei dem zwei Mondlandegeräte ins All gebracht worden waren – bereits Wochen zuvor für den 5. August 2026 nahe dem Krater Einstein am Mondrand vorausberechnet und als von der Erde aus kaum beobachtbar eingeschätzt. Genau zu diesem Zeitpunkt und in dieser Region trat der Einschlag nun offenbar auch ein, wie sowohl die ESO-Messung als auch die neuen NASA-Aufnahmen nahelegen."
+      },
+      {
+        "heading": "Was weiterhin offen bleibt",
+        "markdown": "Internationale Fachmedien hatten als mögliche Einschlagsregion auch den benachbarten Krater Bell und eine Aufprallgeschwindigkeit von rund 8.700 km/h genannt; ob und wie gut diese Vorab-Modelle mit dem nun von der NASA gemessenen, rund 18 Meter breiten Krater übereinstimmen, wurde in keiner der gesichteten Quellen ausgewertet. Auch eine offizielle Bestätigung durch die südkoreanische Raumfahrtagentur mit eigenen Sondenbildern steht weiterhin aus, ebenso eine Stellungnahme von SpaceX zu möglichen Konsequenzen für die Sicherheit künftiger Mondmissionen. Die NASA verweist zudem darauf, dass Kollisionen mit Raketenteilen oder anderem Weltraumschrott auf dem Mond – anders als reguläre Meteoriteneinschläge – selten sind; solche Erkenntnisse sind für die geplante NASA-Weltraumbasis auf dem Mond von Bedeutung. Schätzungen der europäischen Weltraumbehörde ESA zufolge befinden sich derzeit mehr als 46.000 Teile Weltraumschrott mit einem Gesamtgewicht von rund 17.000 Tonnen allein in der Erdumlaufbahn."
+      }
+    ],
+    "bodyKompakt": "Rund zwei Wochen nach dem Mondeinschlag einer ausgebrannten SpaceX-Raketenstufe hat die NASA nun auch die zuvor noch ausstehende, mit eigenen Bildern belegte Bestätigung nachgereicht: Aufnahmen des Lunar Reconnaissance Orbiter vom 11. und 12. August 2026 zeigen einen rund 18 Meter breiten und knapp 3 Meter tiefen Krater – die Breite anhand des sichtbaren Kraterrands bestimmt, die Tiefe über die Länge des Schattenwurfs berechnet. Die Bilder zeigen zudem helle und dunkle, „schmetterlingsflügelartige“ Auswurfstreifen: Dunklere Bereiche bestehen aus lange der Mondoberfläche ausgesetztem, durch Sonnenwind und Mikrometeoriten verändertem Material, hellere aus frisch freigelegtem Gestein aus tieferen Schichten. Zuvor hatte bereits die Europäische Südsternwarte (ESO) den Einschlag mit ihrem Very Large Telescope spektroskopisch bestätigt (charakteristische Natrium-/Lithium-Linien in der Einschlagwolke); damit liegen nun zwei unabhängige Bestätigungsebenen vor. Eine analoge Bestätigung durch die südkoreanische Raumfahrtagentur mit eigenen Bildern steht weiterhin aus.\n\nSpaceX-Direktorin Julianna Scheiman hatte bereits beim Eintreten des Einschlags am 5. August 2026 erklärt, eine Mischung aus Sonnenaktivität und Schwerkraft habe die rund vier Tonnen schwere Raketenstufe von ihrer berechneten Flugbahn abgebracht. Diese Erklärung stammt von SpaceX selbst und wurde nicht unabhängig überprüft. Wie berichtet, geht die Stufe auf einen Start vom Jänner 2025 zurück, bei dem zwei Mondlandegeräte ins All gebracht worden waren; der Astronom Bill Gray hatte den Einschlag nahe dem Krater Einstein bereits Wochen zuvor vorausberechnet.\n\nOffen bleibt, wie gut die nun gemessene Kratergröße mit den vorab genannten Modellen (u. a. Aufprallgeschwindigkeit von rund 8.700 km/h, Lage nahe den Kratern Einstein und Bell) übereinstimmt – dazu liegt in keiner gesichteten Quelle ein Abgleich vor. Auch eine Stellungnahme von SpaceX zu möglichen Konsequenzen für künftige Mondmissionen sowie eine unabhängige Bestätigung durch die südkoreanische Raumfahrtagentur stehen weiterhin aus. Die NASA betont, dass solche Kollisionen mit Weltraumschrott auf dem Mond selten sind – für die geplante eigene Mondbasis seien entsprechende Erkenntnisse aber relevant.",
+    "updateNote": "NASA hat rund zwei Wochen nach dem Einschlag Aufnahmen des Lunar Reconnaissance Orbiter veröffentlicht, die einen etwa 18 Meter breiten und knapp 3 Meter tiefen Krater zeigen und damit die zuvor fehlende fotografische Bestätigung liefern.",
+    "pendingOutcome": "Ob auch die südkoreanische Raumfahrtagentur den Einschlag mit eigenen Sondenbildern bestätigt und wie sich die gemessene Kratergröße zu den vorab berechneten Einschlagsmodellen verhält, ist weiterhin offen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-20T00:07:34.292Z"
+}
