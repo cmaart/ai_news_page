@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21T04:24:24.667Z",
+  "updatedAt": "2026-08-21T06:24:54.225Z",
   "stories": {
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – US-Justizministerium zieht Vorladungen zurück",
@@ -1763,26 +1763,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-24T06:07:26.229Z"
-    },
-    "cluster-20260721-7cfce5da": {
-      "canonicalTitle": "Anschlag auf Infrastruktur geplant? Russischer Geheimdienst tötet Mann bei Festnahme",
-      "slug": "cluster-20260721-7cfce5da",
-      "firstSeenAt": "2026-07-22T06:07:29.885Z",
-      "lastUpdatedAt": "2026-07-22T06:07:29.885Z",
-      "status": "noted",
-      "sourceUrls": [
-        "https://www.diepresse.com/38662695/anschlag-auf-infrastruktur-geplant-russischer-geheimdienst-toetet-mann-bei-festnahme",
-        "https://kurier.at/politik/ausland/russischer-geheimdienst-fsb-schuesse-toetet-mann-bei-festnahme/403177313",
-        "https://kurier.at/politik/ausland/russischer-geheimdienst-fsb-schuesse-toetet-mann-bei-festnahme/403177313"
-      ],
-      "openQuestions": [
-        "Offizielle Stellungnahme des ukrainischen Militärgeheimdienstes HUR",
-        "Unabhängige Medienbestätigung oder Augenwitness-Berichte",
-        "Technische Dokumentation oder fotografische Belege des angeblichen Sprengsatzes",
-        "Vergleichbare nachweislich bestätigte Sabotage-Fälle (nicht nur FSB-Behauptungen) zur Kontextualisierung",
-        "Einordnung durch unabhängige Sicherheitsexperten oder Kriegsbeobachter zur Plausibilität der Vorwürfe"
-      ],
-      "sensitivity": "high"
     },
     "olaf-tufte-olympiasieger-rudern-gestorben-juli-2026": {
       "canonicalTitle": "Rudern: Norwegens Doppel-Olympiasieger Olaf Tufte mit 50 Jahren gestorben",
@@ -13176,10 +13156,13 @@
       "doNotUpdateBefore": "2026-08-21T10:07:37.699Z",
       "pendingOutcome": "Wie der überarbeitete Gesetzesentwurf konkret aussieht und ob der Landtag im Oktober 2026 wie ursprünglich geplant über die Lkw-Maut entscheidet, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-08-23T04:07:37.699Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "derstandard": "2026-08-21T06:07:31.576Z",
+        "kurier": "2026-08-20T06:07:39.225Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-16T08:07:30.153Z"
+      "resonanceMeasuredAt": "2026-08-21T06:07:28.872Z"
     },
     "bundesheer-warnung-russische-spione-august-2026": {
       "canonicalTitle": "Bundesheer warnt Soldaten vor Kontakt mit 21 mutmaßlichen russischen Spionen",
@@ -14408,13 +14391,16 @@
       "pendingOutcome": "Ausgang der für 21. August 2026 angesetzten Gesprächsrunde zwischen Totschnig, SPÖ und Neos über Dürrehilfe und Klimaschutzgesetz sowie eine mögliche endgültige Einigung.",
       "pendingOutcomeUntil": "2026-08-22T10:07:32.185Z",
       "echoPublishers": {
-        "derstandard": "2026-08-20T14:08:16.524Z",
+        "derstandard": "2026-08-20T16:07:35.763Z",
         "apa": "2026-08-20T08:07:31.373Z",
-        "kurier": "2026-08-20T10:07:35.469Z"
+        "kurier": "2026-08-20T18:07:34.254Z",
+        "diepresse": "2026-08-21T06:07:32.213Z",
+        "orf": "2026-08-20T20:08:18.016Z",
+        "kleinezeitung": "2026-08-20T20:08:21.298Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 5,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-20T14:08:13.263Z"
+      "resonanceMeasuredAt": "2026-08-21T06:07:28.872Z"
     },
     "eu-verpackungsverordnung-kleinhaendler-oesterreich-august-2026": {
       "canonicalTitle": "EU-Verpackungsverordnung verunsichert kleine Online-Händler in Österreich",
@@ -16760,8 +16746,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-20T06:07:27.995Z",
       "doNotUpdateBefore": "2026-08-19T12:07:27.995Z",
-      "pendingOutcome": "Ausgang des Strafverfahrens gegen den 60-Jährigen (Anklage, Prozess, Urteil) sowie mögliche Konsequenzen für Grassers Rechtsvertreter bleiben offen.",
-      "pendingOutcomeUntil": "2026-08-21T06:07:27.995Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -16799,11 +16783,13 @@
       "doNotRedraftBefore": "2026-08-20T18:07:34.363Z",
       "doNotUpdateBefore": "2026-08-20T00:07:34.363Z",
       "echoPublishers": {
-        "orf": "2026-08-20T22:07:39.461Z"
+        "orf": "2026-08-20T22:07:39.461Z",
+        "derstandard": "2026-08-21T06:07:31.886Z",
+        "diepresse": "2026-08-21T04:07:41.645Z"
       },
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-19T22:07:30.998Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-21T06:07:28.872Z"
     },
     "lufthansa-a380-landung-muenchen-zu-frueh-august-2026": {
       "canonicalTitle": "Lufthansa-A380 setzt in München vor der Landebahnschwelle auf – zweiter Zwischenfall binnen zwei Tagen",
@@ -17181,8 +17167,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-20T06:07:27.995Z",
       "doNotUpdateBefore": "2026-08-19T12:07:27.995Z",
-      "pendingOutcome": "Ob bis zur laut kanadischen Berichten auf 22. August 2026 verlängerten Frist eine endgültige, von beiden Seiten im Detail bestätigte Einigung samt Klärung der Keystone-XL-Frage zustande kommt oder die Zölle doch noch in Kraft treten.",
-      "pendingOutcomeUntil": "2026-08-21T06:07:27.995Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18100,38 +18084,44 @@
       "canonicalTitle": "Photovoltaik-Förderung in Österreich wird ab 2027 auf Speicher umgestellt",
       "slug": "photovoltaik-foerderung-speicher-2027",
       "firstSeenAt": "2026-08-20T16:07:31.615Z",
-      "lastUpdatedAt": "2026-08-20T16:07:31.615Z",
+      "lastUpdatedAt": "2026-08-21T06:07:28.872Z",
       "status": "published",
       "articlePath": "src/content/articles/photovoltaik-foerderung-speicher-2027.mdx",
-      "researchPath": "data/ai-news/research/2026-08-20/photovoltaik-foerderung-speicher-2027.json",
+      "researchPath": "data/ai-news/research/2026-08-21/photovoltaik-foerderung-speicher-2027-update-600.json",
       "sourceUrls": [
         "https://orf.at/stories/3439737",
         "https://www.derstandard.at/story/3000000336398/photovoltaik-foerderung-kuenftig-fuer-speicher-statt-kleine-pv-anlagen",
         "https://www.diepresse.com/41189973/photovoltaik-foerderung-kuenftig-fuer-speicher-statt-kleine-pv-anlagen",
         "https://kurier.at/wirtschaft/speicher-photovoltaik-foerderung-offensive-reform-eag-investition/403185033",
-        "https://orf.at/stories/3439734"
+        "https://orf.at/stories/3439734",
+        "https://www.kleinezeitung.at/artikel/41190704/warum-eine-neuregelung-der-photovoltaik-foerderung-sinnvoll-ist",
+        "https://www.ots.at/presseaussendung/OTS_20260820_OTS0110/hattmannsdorfer-hitzesommer-bestaetigt-fokus-auf-speicheroffensive",
+        "https://www.ots.at/presseaussendung/OTS_20260820_OTS0114/fpoe-kasseggerhammerl-hattmannsdorfers-speicheroffensive-ist-alter-wein-in-neuen-schlaeuchen",
+        "https://www.top-news.at/2026/08/20/pvb-austria-zur-neuerlichen-ankuendigung-einer-speicheroffensive-von-bm-hattmannsdorfer-auf-worte-muessen-endlich-taten-folgen/",
+        "https://www.ots.at/presseaussendung/OTS_20260710_OTS0067/energie-staatssekretaerin-zehetner-pv-foerderung-muss-raus-aus-der-giesskanne"
       ],
       "openQuestions": [
-        "Wie sieht die konkrete gesetzliche Fassung der EAG-Novelle mit den neuen Speicher-Förderkriterien aus?",
-        "Welche Position vertreten die Koalitionspartner SPÖ und NEOS sowie Branchenverbände wie die Wirtschaftskammer zu der Neuregelung?",
-        "Wie schätzen unabhängige Energieexpertinnen und -experten den tatsächlichen Speicherbedarf und die Wirtschaftlichkeit der neuen Förderlogik ein?",
-        "Welches Fördervolumen ist künftig für Speicher im Vergleich zur bisherigen PV-Förderung vorgesehen?",
-        "Wie reagiert die E-Control auf die von Minister Hattmannsdorfer geforderte Nachschärfung der Kriterien für „systemdienliche“ Speicher?"
+        "Wie sieht die konkrete gesetzliche Fassung der EAG-Novelle mit den neuen Speicher-Förderkriterien aus, und wann wird sie beschlossen?",
+        "Welche Position vertreten die Koalitionspartner SPÖ und NEOS offiziell zu der Neuregelung?",
+        "Wie reagiert die E-Control auf die von Minister Hattmannsdorfer geforderte Nachschärfung der Kriterien für „systemdienliche“ Speicher?",
+        "Welches Fördervolumen ist künftig konkret für Speicher vorgesehen, und wie hoch fällt der Bonus für europäische Komponenten aus?",
+        "Wie schätzen unabhängige Energieexpertinnen und -experten den tatsächlichen Speicherbedarf und die Wirtschaftlichkeit der neuen Förderlogik ein?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-08-21T16:07:31.615Z",
-      "doNotUpdateBefore": "2026-08-20T22:07:31.615Z",
-      "pendingOutcome": "Die konkrete gesetzliche Ausgestaltung der neuen Speicher-Förderkriterien (EAG-Novelle bzw. Verordnung) sowie die von Minister Hattmannsdorfer geforderten Nachschärfungen der E-Control-Kriterien stehen noch aus.",
+      "doNotRedraftBefore": "2026-08-22T06:07:28.872Z",
+      "doNotUpdateBefore": "2026-08-21T12:07:28.872Z",
+      "pendingOutcome": "Offen ist, ob und in welcher gesetzlichen Form (EAG-Novelle) die angekündigte Reform 2027 tatsächlich umgesetzt wird, welches Fördervolumen dafür vorgesehen ist und wie sich Koalitionspartner sowie E-Control dazu positionieren.",
       "pendingOutcomeUntil": "2026-08-22T16:07:31.615Z",
       "echoPublishers": {
         "orf": "2026-08-20T16:07:33.271Z",
         "derstandard": "2026-08-20T20:08:19.776Z",
         "diepresse": "2026-08-20T16:07:34.906Z",
-        "kurier": "2026-08-20T16:07:34.904Z"
+        "kurier": "2026-08-20T16:07:34.904Z",
+        "kleinezeitung": "2026-08-21T06:07:33.237Z"
       },
-      "resonanceLevel": 4,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-21T04:07:37.699Z"
+      "resonanceLevel": 5,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-21T06:07:28.872Z"
     },
     "schnellster-stern-milchstrasse-s301-august-2026": {
       "canonicalTitle": "S301: Astronomen entdecken schnellsten bekannten Stern der Milchstraße",
@@ -18541,6 +18531,77 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-21T02:07:28.928Z"
+    },
+    "luger-untreue-prozess-urteil-august-2026": {
+      "canonicalTitle": "Untreue-Prozess gegen Ex-Bürgermeister Klaus Luger: Urteil in Linz erwartet",
+      "slug": "luger-untreue-prozess-urteil-august-2026",
+      "firstSeenAt": "2026-08-21T06:07:28.872Z",
+      "lastUpdatedAt": "2026-08-21T06:07:28.872Z",
+      "status": "published",
+      "articlePath": "src/content/articles/luger-untreue-prozess-urteil-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-21/luger-untreue-prozess-urteil-august-2026.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/41190805/untreue-prozess-faellt-heute-das-urteil-gegen-ex-buergermeister-luger",
+        "https://kurier.at/chronik/oesterreich/prozess-untreue-klaus-luger-spoe-ooe-ex-buergermeister-linz/403184855",
+        "https://ooe.orf.at/stories/3367796"
+      ],
+      "openQuestions": [
+        "Wie entscheidet das Landesgericht Linz im aktuellen Verfahren, und wird das Urteil wie angekündigt am Freitag verkündet?",
+        "Was genau enthält die laut Kurier bei der Staatsanwaltschaft Linz eingelangte neue Sachverhaltsdarstellung, und nimmt die Behörde einen Anfangsverdacht an?",
+        "Wie reagiert Klaus Luger beziehungsweise seine Verteidigung auf die neuen Vorwürfe?",
+        "Wie legt die Linzer SPÖ unter Bürgermeister Dietmar Prammer die Kosten für den PR-Berater Stefan Illek vollständig offen, wie von der ÖVP gefordert?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-22T06:07:28.872Z",
+      "doNotUpdateBefore": "2026-08-21T12:07:28.872Z",
+      "pendingOutcome": "Das Urteil im Untreue-Prozess gegen Klaus Luger, das für Freitag, 21. August 2026, am Landesgericht Linz erwartet wird.",
+      "pendingOutcomeUntil": "2026-08-23T06:07:28.872Z",
+      "echoPublishers": {
+        "diepresse": "2026-08-21T06:07:32.213Z",
+        "kurier": "2026-08-20T12:07:31.369Z",
+        "orf": "2026-08-21T04:07:40.366Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-21T06:07:28.872Z"
+    },
+    "luger-untreue-prozess-urteil-august-2026-2": {
+      "canonicalTitle": "Untreue-Prozess gegen Ex-Bürgermeister Luger: Landesgericht Linz erwartet Urteil am Freitag",
+      "slug": "luger-untreue-prozess-urteil-august-2026-2",
+      "firstSeenAt": "2026-08-21T06:07:28.872Z",
+      "lastUpdatedAt": "2026-08-21T06:07:28.872Z",
+      "status": "published",
+      "articlePath": "src/content/articles/luger-untreue-prozess-urteil-august-2026-2.mdx",
+      "researchPath": "data/ai-news/research/2026-08-21/luger-untreue-prozess-urteil-august-2026-2.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000336425/untreue-prozess-gegen-zur252ckgetretenen-linzer-stadtchef-geht-weiter",
+        "https://www.kleinezeitung.at/artikel/41190662/untreue-prozess-gegen-linzer-ex-stadtchef-geht-weiter",
+        "https://kurier.at/politik/inland/untreue-prozess-luger-linz-buergermeister-ruecktritt-liva/403185073",
+        "https://www.nachrichten.at/politik/landespolitik/am-21-august-soll-es-im-prozess-gegen-klaus-luger-ein-urteil-geben;art383,4193232",
+        "https://ooe.orf.at/stories/3349127/",
+        "https://www.justiz.gv.at/olg-linz/oberlandesgericht-linz/medienstelle/pressemitteilungen/causa-luger-beschwerde-der-sta-folge-gegeben-strafverfahren-ist-fortzusetzen.12a7.de.html",
+        "https://www.justiz.gv.at/lg-linz/landesgericht-linz/medienstelle/pressemitteilungen/pressemitteilungen-2026/verfahren-gegen-ehem-bgm-klaus-peter-luger-zustellung-der-diversionsentscheidung-an-sta.11cd.de.html"
+      ],
+      "openQuestions": [
+        "Wie entscheidet das Gericht am Freitag, und mit welcher Begründung?",
+        "Äußert sich Luger bzw. seine Verteidigung inhaltlich zu den Vorwürfen?",
+        "Wird im Fall einer Verurteilung ein Rechtsmittel ergriffen?",
+        "Welche genauen Inhalte hatten das umstrittene Gutachten und die beiden verlesenen Gutachter-Stellungnahmen?",
+        "Wie sind die Umstände der ursprünglich gewährten und später vom Oberlandesgericht Linz aufgehobenen Diversion im Detail zu bewerten?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-22T06:07:28.872Z",
+      "doNotUpdateBefore": "2026-08-21T12:07:28.872Z",
+      "pendingOutcome": "Urteil im Untreue-Prozess gegen Klaus Luger vor dem Landesgericht Linz, erwartet noch am Freitag, 21. August 2026, im Anschluss an die Verhandlung.",
+      "pendingOutcomeUntil": "2026-08-23T06:07:28.872Z",
+      "echoPublishers": {
+        "derstandard": "2026-08-21T06:07:31.582Z",
+        "kleinezeitung": "2026-08-20T20:08:21.504Z",
+        "kurier": "2026-08-21T04:07:42.260Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-21T06:07:28.872Z"
     }
   }
 }
