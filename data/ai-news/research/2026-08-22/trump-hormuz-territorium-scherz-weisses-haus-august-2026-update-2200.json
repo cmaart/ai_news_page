@@ -1,0 +1,512 @@
+{
+  "cluster": {
+    "id": "cluster-20260822-6144f5bf",
+    "title": "Wirtschaftskrieg: Iran droht Verbündeten der USA",
+    "items": [
+      {
+        "itemId": "2f5242107df6c191443170a365ff75ca1570a3f02a4fa830a45d3233c10aec6b",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Wirtschaftskrieg: Iran droht Verbündeten der USA",
+        "url": "https://orf.at/stories/3439944",
+        "publishedAt": "2026-08-22T21:07:22.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "ec3348f2494f628755b45a4ac8bafefb7d339f8587d275693a27a28c439bd068",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Trump droht Iran mit \"Wirtschaftskrieg\"",
+        "url": "https://www.kleinezeitung.at/artikel/41187826/trump-droht-iran-mit-wirtschaftskrieg",
+        "isNew": false
+      },
+      {
+        "itemId": "2be2106ee0cd53d9ba001a755a13d1852bcffbe9c7c9bd9324e6f02ab8655e73",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Trump droht Iran mit \"Wirtschaftskrieg\"",
+        "url": "https://www.derstandard.at/story/3000000336265/trump-droht-iran-mit-wirtschaftskrieg",
+        "isNew": false
+      },
+      {
+        "itemId": "475e20d29a389e85b4ddbe3664d115ba1af4372778ef985030aaffb5cbc4e5dc",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Trump will Iran mit „Wirtschaftskrieg“ in den Bankrott treiben [premium]",
+        "url": "https://www.diepresse.com/41188105/trump-will-iran-mit-wirtschaftskrieg-in-den-bankrott-treiben",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster rapportiert Irans Gegendrohe zu Trumps Wirtschaftskrieg-Ankündigung, die bereits in der RelatedStory 'trump-hormuz-territorium-scherz-weisses-haus-august-2026' behandelt wurde. Neue Substanz: Konkrete Statements von Irans Nationaler Sicherheitsrat (Resai) und Außenminister (Araqchi) mit spezifischer Gegendrohung (Angriffe auf Erdöl-/Unternehmen bei weiteren US-Sanktionen). Dies beantwortet offene Fragen der bestehenden Story und ist substanziell genug für ein Update, rechtfertigt aber keine eigenständige Schlagzeile—es ist eine Reaktion, keine neue Wendung mit neuem Hauptakteur.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 3,
+    "relatedSlug": "trump-hormuz-territorium-scherz-weisses-haus-august-2026",
+    "possibleClaims": [
+      "Mohsen Resai, Leiter des Nationalen Sicherheitsrats Iran, droht im Staatsfernsehen: Länder, die am US-Wirtschaftskrieg gegen Iran teilnehmen, werden vom Iran als Feinde betrachtet",
+      "Trump kündigte eine umfassende wirtschaftliche Gegenmaßnahme als die vernichtendste Wirtschaftsoperation aller Zeiten an",
+      "Iran warnt, Erdöl- und andere US-amerikanische Unternehmen rund um Iran anzugreifen, sollten die USA weitere Sanktionen verhängen",
+      "Irans Außenminister Abbas Araqchi bezeichnet Trumps Drohung als Ablenkungsmanöver von US-Wirtschaftsproblemen",
+      "US-Finanzminister Scott Bessent plant eine Pressekonferenz am Montag zur wirtschaftlichen Druckstrategie gegen Iran"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme des US-Außenministeriums oder Weißen Hauses zur iranischen Gegendrohe",
+      "Genaue Details der von Bessent angekündigten Sanktionsmaßnahmen (noch ausstehend für Montag)",
+      "Reaktionen von EU, Golfstaaten oder anderen Verbündeten auf beidseitige Drohungen",
+      "Unabhängige Experteneinschätzung zur Durchsetzbarkeit und Eskalationsdynamik"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "trump-hormuz-territorium-scherz-weisses-haus-august-2026",
+    "title": "Straße von Hormuz: Iran droht USA-Verbündeten als „Feinde“ – Bessent kündigt für Montag „härteste Sanktionen der Geschichte“ an",
+    "description": "Irans Sicherheitsratschef Mohsen Resai droht Ländern, die sich am US-„Wirtschaftskrieg“ gegen Iran beteiligen, mit Einstufung als „Feind“ und mit Angriffen auf US-Erdölunternehmen bei weiteren Sanktionen. US-Finanzminister Bessent kündigte für Montag „härteste Sanktionen der Geschichte“ an; neu eingeordnet wird auch der Kriegsbeginn Ende Februar mit der Tötung Ali Chameneis.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Gut belegt sind Trumps eigene Ankündigung und Bessents Pressekonferenz-Ankündigung samt Zitaten („härteste Sanktionen der Geschichte“), da diese inzwischen von mehreren voneinander unabhängigen internationalen Medien (u. a. Al Jazeera, Times of Israel) übereinstimmend mit Direktzitaten wiedergegeben werden. Ebenfalls gut belegt ist die Tötung Ali Chameneis Ende Februar 2026 und die Nachfolge durch Mojtaba Chamenei, bestätigt durch Al Jazeera und ORF. Deutlich schwächer belegt bleiben die iranischen Gegendrohungen: Resais Aussage, Länder als „Feind“ einzustufen und im Fall neuer Sanktionen US-Erdölunternehmen anzugreifen, sowie die angebliche Zurückweisung des US-Aufrufs durch China stammen jeweils nur aus einer einzelnen österreichischen Medienquelle (ORF/Agenturen) ohne eigene Übersetzung der Originalaussage.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Trumps Truth-Social-Post, Bessents Fernseh- und Pressekonferenz-Ankündigungen sind eigene, direkt zitierte Äußerungen der handelnden Personen. Eine Pressemitteilung des US-Außenministeriums vom 7. August 2026 belegt frühere Sanktionsschritte, die Angaben zum Schiffsverkehr stützen sich auf Veröffentlichungen der Trackingfirma Kpler. Resais neue Position als Leiter des Nationalen Sicherheitsrats ist durch einen ausführlichen Bericht von Iran International gestützt. Es fehlt weiterhin ein offizielles Dokument zu den konkreten neuen US-Sanktionen selbst, eine namentliche Bestätigung der früheren „Scherz“-Einordnung durch das Weiße Haus, eine offizielle chinesische Stellungnahme sowie eine unabhängige Übersetzung von Resais Originalaussage im iranischen Staatsfernsehen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die beiderseitige Rhetorik von „Wirtschaftskrieg“, „härtesten Sanktionen der Geschichte“ und Resais „Feind“-Drohung lädt dazu ein, verbale Eskalation mit einer tatsächlichen militärischen Zuspitzung gleichzusetzen, obwohl es sich laut vorliegenden Quellen bislang um Ankündigungen und Drohungen handelt. Ebenso besteht das Risiko, Irans angekündigte Angriffe auf US-Erdölunternehmen als bereits beschlossene Operation statt als bedingte Drohung darzustellen. Der Artikel trennt Ankündigung, Umsetzung und Reaktionen bewusst und kennzeichnet einfach belegte iranische Aussagen als solche.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "US-Präsident Donald Trump kündigte auf Truth Social einen umfassenden „Wirtschaftskrieg“ gegen den Iran an, verglich sein Vorhaben mit einem „wirtschaftlichen D-Day“ und drohte Ländern, die dem Iran eine „Rettungsleine“ reichten, mit „enormen“ wirtschaftlichen Konsequenzen; laut ORF bezeichnete er die geplante Operation zudem als „die vernichtendste Wirtschaftsoperation“ aller Zeiten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Mohsen Resai, Leiter des Nationalen Sicherheitsrats Irans und früherer Kommandeur der Revolutionsgarden, warnte im Staatsfernsehen alle Länder weltweit davor, sich dem US-„Wirtschaftskrieg“ anzuschließen – sie würden sonst von Iran als „Feind“ betrachtet; im Fall weiterer US-Sanktionen kündigte er Angriffe auf amerikanische Erdöl- und andere Unternehmen rund um den Iran an.",
+        "kind": "fact"
+      },
+      {
+        "text": "US-Finanzminister Scott Bessent kündigte für Montag, 24. August, eine Pressekonferenz im Finanzministerium an und erklärte laut mehreren internationalen Medien, es werde „die härtesten Sanktionen der Geschichte“ gegen Iran geben, die die iranische Wirtschaft „zum Einsturz bringen“ sollten; zudem rief er China zur Kooperation auf.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die US-Regierung hatte laut ORF zuvor bereits allgemein ihre Verbündeten sowie China zur Unterstützung des „Wirtschaftskriegs“ aufgerufen; Peking soll dies zurückgewiesen haben – bislang nur einfach belegt.",
+        "kind": "open"
+      },
+      {
+        "text": "Der reale Schiffsverkehr durch die Straße von Hormuz bleibt laut der Trackingfirma Kpler stark eingebrochen, die vereinbarte 60-Tage-Frist für eine Regelung gilt inzwischen als ausgelaufen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Irans Präsident Massud Peseschkian räumte wachsende Wirtschaftsprobleme ein, Berichten zufolge haben sich Lebensmittelpreise binnen eines Jahres mehr als verdoppelt – unabhängig geprüft sind diese Zahlen nicht.",
+        "kind": "open"
+      },
+      {
+        "text": "Iranische Staatsmedien (Fars) wiesen Trumps Drohung als „psychologische Kriegsführung“ zurück; Außenminister Abbas Araghchi (auch: Araqchi) bezeichnete sie als Ablenkung von US-Wirtschaftsproblemen – diese Aussage Araghchis wird inzwischen von zwei voneinander unabhängigen Medien (ORF, Kleine Zeitung) übereinstimmend wiedergegeben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut einem einzelnen, unbestätigten Bericht sollen zudem die Vereinigten Arabischen Emirate ihre Handelsbeziehungen mit Iran ausgesetzt haben.",
+        "kind": "open"
+      },
+      {
+        "text": "Der seit Ende Februar 2026 laufende Krieg zwischen den USA, Israel und Iran begann mit gezielten US-israelischen Angriffen, bei denen der langjährige Oberste Führer Irans, Ali Chamenei, am 28. Februar 2026 getötet wurde; sein Sohn Mojtaba Chamenei trat die Nachfolge als Oberster Führer an.",
+        "kind": "fact"
+      },
+      {
+        "text": "Zuvor hatte ein anonymer Vertreter des Weißen Hauses Trumps separate Ankündigung, die Straße von Hormuz zu US-Territorium zu erklären, als Scherz bezeichnet – eine offizielle Bestätigung fehlt weiterhin; wiederholt wurden zudem Tanker und ein Schiff des Ölkonzerns ADNOC in der Meerenge angegriffen, ohne dass sich eine Seite dazu bekannt hätte.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob Iran seine Drohung gegen US-Erdölunternehmen tatsächlich umsetzt, was Bessent am Montag konkret ankündigt und wie China und die Golfstaaten offiziell reagieren, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche konkreten neuen Sanktionsmaßnahmen kündigt Finanzminister Bessent bei seiner Pressekonferenz am Montag, 24. August, tatsächlich an, und wie unterscheiden sie sich von bereits laufenden OFAC-Maßnahmen?",
+      "Setzt der Iran seine Drohung um, bei weiteren US-Sanktionen amerikanische Erdöl- und andere Unternehmen rund um den Iran anzugreifen?",
+      "Bestätigt die chinesische Regierung offiziell, den US-Aufruf zur Unterstützung des „Wirtschaftskriegs“ gegen Iran zurückzuweisen, und wie reagiert Peking auf Bessents Aufruf zur Kooperation?",
+      "Bestätigen die Vereinigten Arabischen Emirate offiziell eine Aussetzung ihrer Handelsbeziehungen mit dem Iran, und was war der genaue Auslöser?",
+      "Wie reagieren Golfstaaten, die EU oder internationale Institutionen offiziell auf die wechselseitigen Drohungen zwischen Washington und Teheran?",
+      "Lassen sich die berichteten Zahlen zu iranischen Lebensmittelpreisen und zur Wirtschaftsleistung unabhängig, etwa durch internationale Institutionen, bestätigen?",
+      "War Trumps frühere Ankündigung, die Straße von Hormuz zu US-Territorium zu erklären, tatsächlich nur ein Scherz, oder wird eine Umsetzung innerhalb der US-Regierung doch erwogen – eine namentliche Bestätigung durch das Weiße Haus fehlt weiterhin?",
+      "Wer steckt hinter den wiederholten Angriffen auf Tanker und ADNOC-Schiffe in der Straße von Hormuz, und bekennt sich eine Seite offiziell dazu?",
+      "Öffnet der Iran die Straße von Hormuz tatsächlich wieder stärker für die Schifffahrt, oder verschärft sich die Blockade unter dem neuen wirtschaftlichen Druck weiter?",
+      "Welche Rolle spielt der neue Sicherheitsratschef Mohsen Resai künftig in der iranischen Iran-Politik gegenüber den USA, und wie unterscheidet sich sein Kurs von dem seines Vorgängers?"
+    ],
+    "sources": [
+      {
+        "id": "diepresse",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41175478/strasse-von-hormuz-zum-us-territorium-erklaeren-trump-sorgt-mit-vorstoss-fuer-aufsehen"
+      },
+      {
+        "id": "orf",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439196"
+      },
+      {
+        "id": "jpost",
+        "name": "The Jerusalem Post",
+        "type": "media",
+        "url": "https://www.jpost.com/international/article-905560"
+      },
+      {
+        "id": "nbcnews",
+        "name": "NBC News",
+        "type": "media",
+        "url": "https://www.nbcnews.com/world/iran/iran-rejects-delusions-trump-strait-hormuz-us-territory-rcna592666"
+      },
+      {
+        "id": "washtimes",
+        "name": "The Washington Times",
+        "type": "media",
+        "url": "https://www.washingtontimes.com/news/2026/aug/16/iran-slams-trump-comment-making-strait-hormuz-us-territory/"
+      },
+      {
+        "id": "schwartzx",
+        "name": "Brian Schwartz (WSJ-Reporter) auf X",
+        "type": "other",
+        "url": "https://x.com/schwartzbWSJ/status/2088390756901716206"
+      },
+      {
+        "id": "aljazeera",
+        "name": "Al Jazeera",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz"
+      },
+      {
+        "id": "diepresse2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41188105/trump-will-iran-mit-wirtschaftskrieg-in-den-bankrott-treiben"
+      },
+      {
+        "id": "orf2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439678"
+      },
+      {
+        "id": "orf3",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439609/"
+      },
+      {
+        "id": "kleinezeitung",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41187826/trump-droht-iran-mit-wirtschaftskrieg"
+      },
+      {
+        "id": "derstandard",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000336265/trump-droht-iran-mit-wirtschaftskrieg"
+      },
+      {
+        "id": "kurier",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/iran-trump-wirtschaftskrieg-sanktionen-usa-verhandlungen/403184851"
+      },
+      {
+        "id": "bessentnewsmax",
+        "name": "Newsmax (Interview mit Scott Bessent)",
+        "type": "media",
+        "url": "https://www.newsmax.com/newsmax-tv/scott-bessent-iran-economic/2026/08/13/id/1266059/"
+      },
+      {
+        "id": "statedept",
+        "name": "U.S. Department of State",
+        "type": "official",
+        "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/severing-irans-illicit-cash-pipeline"
+      },
+      {
+        "id": "kplerblog",
+        "name": "Kpler (Firmen-Blog)",
+        "type": "study",
+        "url": "https://www.kpler.com/blog/60-days-of-a-broken-us-iran-mou-the-market-stopped-waiting-for-hormuz"
+      },
+      {
+        "id": "orf4",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439944"
+      },
+      {
+        "id": "aljazeera2",
+        "name": "Al Jazeera",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/2/28/irans-supreme-leader-ali-khamenei-killed-in-us-israeli-attacks-reports"
+      },
+      {
+        "id": "aljazeera3",
+        "name": "Al Jazeera",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran"
+      },
+      {
+        "id": "timesofisrael",
+        "name": "The Times of Israel",
+        "type": "media",
+        "url": "https://www.timesofisrael.com/liveblog_entry/us-treasury-secretary-bessent-to-hold-press-conference-on-new-iran-sanctions-on-monday/"
+      },
+      {
+        "id": "iranintl",
+        "name": "Iran International",
+        "type": "media",
+        "url": "https://www.iranintl.com/en/202608106603"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Trump kündigte bei einem Wahlkampfauftritt in Garden City, New York (Nassau County Police Academy), an, die Straße von Hormuz nach einem Sieg über den Iran zu US-Territorium zu erklären.",
+        "status": "supported",
+        "note": "Deutschsprachige Erstmeldungen widersprachen sich beim Ort (Die Presse: New York, ORF: New Jersey); internationale Berichte mit Direktzitat bestätigen übereinstimmend Garden City, New York.",
+        "sourceIds": [
+          "diepresse",
+          "orf",
+          "jpost",
+          "nbcnews"
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Irans Vize-Außenminister Kazem Gharibabadi wies den Vorstoß auf X zurück und erklärte, die Straße von Hormuz sei und bleibe iranisch und lasse sich nicht durch Drohungen oder Ankündigungen erobern.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "diepresse",
+          "orf",
+          "nbcnews"
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Ein nicht namentlich genannter Vertreter des Weißen Hauses erklärte gegenüber einem Reporter des Wall Street Journal, Trump habe die Territorialfrage nicht mit seinen Beratern besprochen und bei der Aussage gescherzt.",
+        "status": "partial",
+        "note": "Einzelquellen-Kette: anonymer Regierungsvertreter, wiedergegeben von einem einzelnen Journalisten. Zahlreiche Medien haben die Einordnung übernommen, das ersetzt aber keine offizielle, namentliche Bestätigung durch das Weiße Haus oder Trump selbst. Bis zur jüngsten Eskalation ist keine solche Bestätigung hinzugekommen.",
+        "sourceIds": [
+          "washtimes",
+          "schwartzx"
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Erneut wurde ein Schiff des staatlichen emiratischen Ölkonzerns ADNOC in der Straße von Hormuz angegriffen; laut Angaben der Vereinigten Arabischen Emirate handelte es sich um den dritten derartigen Vorfall binnen rund einer Woche, Verletzte wurden nicht gemeldet.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "diepresse",
+          "aljazeera"
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Die Vereinigten Arabischen Emirate forderten Iran auf, die Angriffe auf die Schifffahrt zu beenden und die Straße von Hormuz vollständig wieder zu öffnen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "aljazeera"
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "Die zwischen den USA und dem Iran vereinbarte 60-tägige Frist zu einer Regelung für die Straße von Hormuz läuft laut Berichten an diesem Wochenende aus, eine Verlängerung ist nicht bekannt.",
+        "status": "partial",
+        "note": "Frühere von Trump oder in diesem Konflikt genannte Fristen und Ankündigungen haben sich wiederholt verschoben oder nicht wie angekündigt bewahrheitet; ob dieser Termin tatsächlich folgenreich verstreicht, ist offen. Ein Kpler-Firmenbericht vom 19. August bestätigt, dass die Frist inzwischen als ausgelaufen behandelt wird, ohne dass der Schiffsverkehr sich normalisiert hätte.",
+        "sourceIds": [
+          "diepresse",
+          "orf",
+          "kplerblog"
+        ]
+      },
+      {
+        "id": "c7",
+        "text": "Trump kündigte auf Truth Social einen umfassenden „Wirtschaftskrieg“ gegen den Iran an, verglich sein Vorhaben mit einem „wirtschaftlichen D-Day“ und drohte Ländern, die dem Iran über Finanzinstitute, Unternehmen, Flughäfen oder Behörden eine „Rettungsleine“ reichten, mit „enormen wirtschaftlichen Konsequenzen“; laut ORF bezeichnete er die geplante Operation zudem als „die vernichtendste Wirtschaftsoperation“ aller Zeiten.",
+        "status": "supported",
+        "note": "Direktzitat aus Trumps eigenem Post, von mehreren voneinander unabhängigen österreichischen Medien übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "diepresse2",
+          "orf2",
+          "kurier",
+          "kleinezeitung",
+          "derstandard",
+          "orf4"
+        ]
+      },
+      {
+        "id": "c8",
+        "text": "US-Finanzminister Scott Bessent kündigte im Sender Newsmax an, der Iran werde binnen der folgenden Woche einer „noch nie dagewesenen“ wirtschaftlichen Isolation unterworfen, kombiniert mit der bestehenden US-Seeblockade iranischer Häfen.",
+        "status": "supported",
+        "note": "Direktes Interviewzitat, durch die Originalausstrahlung sowie durch Medien übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "diepresse2",
+          "bessentnewsmax"
+        ]
+      },
+      {
+        "id": "c9",
+        "text": "Der Schiffsverkehr durch die Straße von Hormuz ist gegenüber der Zeit vor Kriegsbeginn drastisch eingebrochen: Statt mehr als hundert Schiffen täglich passieren derzeit nur noch einzelne Frachtschiffe, laut der Trackingfirma Kpler rund 40 Prozent des Schiffsverkehrsniveaus von 2025.",
+        "status": "supported",
+        "note": "Exakte Tageszahlen schwanken je nach Quelle und Stichtag (X-Post: zehn Schiffe am Dienstag; Kpler-Blog: sechs Schiffe am 18. August, Zehn-Tages-Schnitt elf), der Trend eines drastischen Rückgangs ist aber durch zwei Kpler-Veröffentlichungen übereinstimmend belegt.",
+        "sourceIds": [
+          "diepresse2",
+          "kplerblog"
+        ]
+      },
+      {
+        "id": "c10",
+        "text": "Irans Präsident Massud Peseschkian räumte ein, dass sich die wirtschaftlichen Probleme des Landes durch den Krieg verschärft haben, unter anderem durch sinkende Ölausfuhren wegen der Seeblockade und Zerstörung von Industriebetrieben bei Luftangriffen; Berichten zufolge haben sich die Lebensmittelpreise binnen eines Jahres mehr als verdoppelt.",
+        "status": "partial",
+        "note": "Die Angaben zu Lebensmittelpreisen und Wirtschaftsentwicklung stammen aus einem einzelnen Korrespondentenbericht und sind nicht mit offiziellen iranischen oder internationalen Statistiken gegengeprüft.",
+        "sourceIds": [
+          "diepresse2"
+        ]
+      },
+      {
+        "id": "c11",
+        "text": "Die iranische Nachrichtenagentur Fars wies Trumps Wirtschaftskriegs-Drohung als „psychologische Kriegsführung und Propagandakampagne“ zurück.",
+        "status": "partial",
+        "note": "Aussage einer regierungsnahen iranischen Nachrichtenagentur, nur durch ORF-Berichterstattung belegt, keine unabhängige Zweitquelle.",
+        "sourceIds": [
+          "orf2",
+          "orf3"
+        ]
+      },
+      {
+        "id": "c12",
+        "text": "Die Vereinigten Arabischen Emirate sollen laut einem Bericht ihre Handelsbeziehungen mit dem Iran ausgesetzt haben, nachdem Raketen vor der emiratischen Küste ins Meer gestürzt seien.",
+        "status": "unclear",
+        "note": "Bislang nur durch einen einzelnen Medienbericht gestützt, keine offizielle Bestätigung durch die VAE oder eine unabhängige Zweitquelle vorliegend; angesichts der Tragweite mit besonderer Vorsicht zu behandeln.",
+        "sourceIds": [
+          "orf3"
+        ]
+      },
+      {
+        "id": "c13",
+        "text": "Das US-Finanzministerium (OFAC) hatte bereits vor Trumps jüngster Ankündigung wiederholt Sanktionen gegen iranische Finanznetzwerke verhängt, unter anderem am 7. August 2026 gegen ein Wechselstuben- und Scheinfirmennetzwerk, im Rahmen der von der US-Regierung als „Maximum Pressure“-Kampagne bezeichneten Politik.",
+        "status": "supported",
+        "note": "Offizielle Pressemitteilung des US-Außenministeriums; sie belegt frühere Sanktionsschritte, nicht die konkrete Ausgestaltung der jüngsten Ankündigung.",
+        "sourceIds": [
+          "statedept"
+        ]
+      },
+      {
+        "id": "c14",
+        "text": "Irans Außenminister Abbas Araghchi (auch: Araqchi) bezeichnete Trumps Wirtschaftskriegs-Ankündigung als Ablenkungsmanöver von den wirtschaftlichen Problemen der USA und erklärte, weiterer Druck werde scheitern.",
+        "status": "supported",
+        "note": "Wird inzwischen von zwei voneinander unabhängigen Medien (ORF und Kleine Zeitung) übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "orf2",
+          "orf3",
+          "kleinezeitung"
+        ]
+      },
+      {
+        "id": "c15",
+        "text": "Der Leiter des Nationalen Sicherheitsrats des Iran, Mohsen Resai, warnte im iranischen Staatsfernsehen alle Länder „in der Region und auf der ganzen Welt“ davor, sich dem von den USA geführten „Wirtschaftskrieg“ gegen Iran anzuschließen – andernfalls würden sie von Iran als „Feind“ betrachtet.",
+        "status": "partial",
+        "note": "Beruht auf einer einzelnen österreichischen Medienquelle (ORF/Agenturen), die über einen Auftritt im iranischen Staatsfernsehen berichtet; eine eigene Übersetzung oder ein Transkript der Originalaussage liegt nicht vor.",
+        "sourceIds": [
+          "orf4"
+        ]
+      },
+      {
+        "id": "c16",
+        "text": "Resai erklärte laut ORF, Iran habe bislang keine wirtschaftlichen Interessen der USA angegriffen, sondern ausschließlich Militärstützpunkte; sollten die USA weitere Sanktionen gegen Iran verhängen, werde sein Land Erdöl- und andere Unternehmen angreifen, die die USA nach eigener Darstellung rund um den Iran besäßen.",
+        "status": "partial",
+        "note": "Konkrete Drohung gegen Wirtschaftsziele, nur über eine einzelne Medienquelle referenziert; ob und wie eine Umsetzung erfolgen könnte, ist offen. Angesichts der Kriegsthematik besonders vorsichtig einzuordnen.",
+        "sourceIds": [
+          "orf4"
+        ]
+      },
+      {
+        "id": "c17",
+        "text": "Finanzminister Bessent forderte bei seiner Ankündigung ausdrücklich auch China auf, den wirtschaftlichen Druck auf Iran zu unterstützen bzw. zu kooperieren.",
+        "status": "supported",
+        "note": "Durch mehrere voneinander unabhängige internationale Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "orf4",
+          "aljazeera3"
+        ]
+      },
+      {
+        "id": "c18",
+        "text": "Die Regierung in Peking wies den vorangegangenen allgemeinen US-Aufruf zur Unterstützung des „Wirtschaftskriegs“ gegen Iran laut ORF zurück.",
+        "status": "partial",
+        "note": "Nur durch eine einzelne Medienquelle (ORF/Agenturen) belegt, keine eigene chinesische Stellungnahme oder Zweitquelle vorliegend.",
+        "sourceIds": [
+          "orf4"
+        ]
+      },
+      {
+        "id": "c19",
+        "text": "US-Finanzminister Scott Bessent kündigte für Montag, 24. August 2026, eine Pressekonferenz im US-Finanzministerium an und erklärte, es werde „die härtesten Sanktionen der Geschichte“ gegen Iran geben, die die iranische Wirtschaft „zum Einsturz bringen“ sollten.",
+        "status": "supported",
+        "note": "Direktes Zitat, durch mehrere voneinander unabhängige internationale Medien (u. a. Al Jazeera, Times of Israel) auf Basis von Agenturmaterial übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "orf4",
+          "aljazeera3",
+          "timesofisrael"
+        ]
+      },
+      {
+        "id": "c20",
+        "text": "Resai, ein früherer Kommandeur der iranischen Revolutionsgarden, wurde laut Berichten Anfang August 2026 zum neuen Leiter des Nationalen Sicherheitsrats Irans ernannt.",
+        "status": "supported",
+        "note": "Bestätigt durch einen ausführlichen Bericht von Iran International sowie mehrere auf Agenturmaterial basierende Wirtschaftsmedien; die genauen Umstände der Personalentscheidung sind darüber hinaus nicht abschließend geklärt.",
+        "sourceIds": [
+          "iranintl"
+        ]
+      },
+      {
+        "id": "c21",
+        "text": "Der seit Ende Februar 2026 laufende Krieg zwischen den USA, Israel und Iran begann mit gezielten US-israelischen Angriffen, bei denen der langjährige Oberste Führer Irans, Ali Chamenei, am 28. Februar 2026 getötet wurde; sein Sohn Mojtaba Chamenei trat die Nachfolge als Oberster Führer an. Trump begründete die Angriffe mit der vom iranischen Atomprogramm ausgehenden Gefahr.",
+        "status": "supported",
+        "note": "Bestätigt durch Al Jazeera und ORF; Chameneis Tod wurde seinerzeit sowohl von iranischer als auch von US-amerikanischer und israelischer Seite bestätigt.",
+        "sourceIds": [
+          "orf4",
+          "aljazeera2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Neue Eskalationsstufe: Trump droht mit „Wirtschaftskrieg“",
+        "markdown": "US-Präsident Donald Trump hat die Drohkulisse gegenüber dem Iran deutlich verschärft. Auf seiner Plattform Truth Social kündigte er einen umfassenden „Wirtschaftskrieg“ an und verglich sein Vorhaben mit einem „wirtschaftlichen D-Day“ für den Iran. Jedes Land, das dem Iran über Finanzinstitute, Unternehmen, Flughäfen oder staatliche Stellen irgendeine Art von „Rettungsleine“ reiche, müsse selbst mit „enormen wirtschaftlichen Konsequenzen“ rechnen, schrieb Trump weiter. Laut ORF bezeichnete er die geplante Operation zudem als „die vernichtendste Wirtschaftsoperation“ aller Zeiten. Als Beispiele nannte er Ölschmuggel, Bargeldtransfers, Wechselstuben, Schiffsregister und Scheinfirmen – welche Länder er konkret meinte, ließ er offen.\n\nZiel der Drohung ist laut Berichten, den Iran zur weiteren Öffnung der Straße von Hormuz für die Schifffahrt zu bewegen."
+      },
+      {
+        "heading": "Iran droht mit Vergeltung gegen US-Unternehmen",
+        "markdown": "Auf diese Ankündigung reagierte nun der Leiter des Nationalen Sicherheitsrats Irans, Mohsen Resai, ein früherer Kommandeur der Revolutionsgarden, der laut Berichten erst Anfang August 2026 in diese Position berufen wurde. Im iranischen Staatsfernsehen warnte er alle Länder „in der Region und auf der ganzen Welt“ davor, sich dem von den USA geführten „Wirtschaftskrieg“ anzuschließen – andernfalls würden sie von Iran als „Feind“ betrachtet. Resai erklärte laut ORF, sein Land habe bislang keinerlei wirtschaftliche Interessen der USA angegriffen, sondern ausschließlich Militärstützpunkte. Sollten die USA jedoch weitere Sanktionen gegen Iran verhängen, werde Iran Erdöl- und andere Unternehmen angreifen, die die USA nach eigener Darstellung rund um den Iran besäßen.\n\nDiese konkrete Drohung liegt bislang nur über eine einzelne österreichische Medienquelle vor, die sich auf den iranischen Staatssender und Agenturmeldungen stützt; eine eigenständige Übersetzung der Originalaussage oder eine Reaktion der US-Regierung darauf steht noch aus. Angesichts der Kriegsthematik und der Schwere der angedrohten Konsequenzen ist die Aussage entsprechend vorsichtig einzuordnen."
+      },
+      {
+        "heading": "Bessents Pressekonferenz: „Härteste Sanktionen der Geschichte“",
+        "markdown": "Bereits kurz vor Trumps Truth-Social-Post hatte US-Finanzminister Scott Bessent im Sender Newsmax angekündigt, Washington werde in den kommenden Tagen die Daumenschrauben auf „noch nie dagewesene“ Weise anziehen, verbunden mit der bestehenden US-Seeblockade iranischer Häfen. Inzwischen ist der Termin konkretisiert: Bessent kündigte für Montag, 24. August, eine eigene Pressekonferenz im US-Finanzministerium an. Dabei werde es laut mehreren voneinander unabhängigen internationalen Medien „die härtesten Sanktionen der Geschichte“ gegen Iran geben, die die iranische Wirtschaft „zum Einsturz bringen“ sollten; zugleich rief er China ausdrücklich zur Kooperation auf.\n\nBereits jetzt ist der iranische Außenhandel durch internationale Sanktionen wegen des Teheraner Atomprogramms stark eingeschränkt; das US-Außenministerium hatte allein am 7. August 2026 ein Netzwerk aus Wechselstuben und Scheinfirmen sanktioniert, über das nach eigenen Angaben Öleinnahmen am Sanktionsregime vorbeigeschleust wurden. Laut ORF hatte die US-Regierung zuvor auch allgemein ihre Verbündeten sowie China zur Unterstützung des „Wirtschaftskriegs“ aufgerufen, was Peking zurückgewiesen haben soll – diese konkrete Zurückweisung ist bislang nur einfach belegt. Was an den jetzt angekündigten Maßnahmen im Detail neu ist, bleibt offen, bis Bessent am Montag Einzelheiten nennt."
+      },
+      {
+        "heading": "Schiffsverkehr durch die Straße von Hormuz weiter eingebrochen",
+        "markdown": "Der reale Schiffsverkehr durch die Meerenge liefert unterdessen ein Bild anhaltender Blockade: Nach Angaben der auf Öl- und Schiffsverkehr spezialisierten Trackingfirma Kpler durchquerten Mitte August nur noch einzelne Frachtschiffe täglich die Straße von Hormuz – vor Kriegsbeginn waren es mehr als hundert Schiffe pro Tag. Nach eigenen Kpler-Angaben liegt der Verkehr aktuell bei rund 40 Prozent des Niveaus von 2025. Die zwischen den USA und dem Iran vereinbarte 60-tägige Frist zu einer Regelung der Meerengen-Frage gilt laut diesen Angaben inzwischen als ausgelaufen, ohne dass sich der Schiffsverkehr normalisiert hätte."
+      },
+      {
+        "heading": "Irans wirtschaftliche Lage und Reaktion der Staatsmedien",
+        "markdown": "Irans Präsident Massud Peseschkian räumte ein, dass der Krieg die ohnehin bestehenden Wirtschaftsprobleme des Landes verschärft habe – vor allem wegen sinkender Ölausfuhren durch die Seeblockade und der Zerstörung von Industriebetrieben bei Luftangriffen. Berichten zufolge ist das Bruttoinlandsprodukt geschrumpft, die Lebensmittelpreise sollen sich binnen eines Jahres mehr als verdoppelt haben; diese Angaben stammen aus einem einzelnen Korrespondentenbericht und sind nicht unabhängig mit offiziellen Statistiken gegengeprüft.\n\nIranische Staatsmedien reagierten auf Trumps Drohung unbeeindruckt: Die Nachrichtenagentur Fars bezeichnete sie als übliche „psychologische Kriegsführung und Propagandakampagne“. Irans Außenminister Abbas Araghchi wies die Vorwürfe als Ablenkungsmanöver von wirtschaftlichen Problemen der USA zurück und erklärte, weiterer Druck werde scheitern – diese Aussage wird inzwischen von zwei voneinander unabhängigen Medien übereinstimmend wiedergegeben. Laut einem einzelnen, bislang nicht offiziell bestätigten Bericht sollen zudem die Vereinigten Arabischen Emirate ihre Handelsbeziehungen mit dem Iran ausgesetzt haben, nachdem Raketen vor der emiratischen Küste ins Meer gestürzt seien."
+      },
+      {
+        "heading": "Vorgeschichte: Kriegsbeginn, Territorialanspruch und Tankerangriffe",
+        "markdown": "Der seit Ende Februar 2026 laufende Krieg zwischen den USA, Israel und Iran begann mit gezielten US-israelischen Angriffen, bei denen der langjährige Oberste Führer Irans, Ali Chamenei, am 28. Februar 2026 getötet wurde; sein Sohn Mojtaba Chamenei trat die Nachfolge als Oberster Führer an. Trump begründete die Angriffe mit der vom iranischen Atomprogramm ausgehenden Gefahr. Auf eine Waffenruhe im April folgte im Juni die Unterzeichnung des 14-Punkte-Rahmenabkommens von Islamabad, das binnen 60 Tagen zu einer dauerhaften Friedensregelung führen sollte – eine solche Lösung ist bis heute weder diplomatisch noch militärisch in Sicht.\n\nIn diesen Konflikt reiht sich auch der bereits seit Wochen andauernde Schlagabtausch um die Straße von Hormuz ein. Wie zuvor berichtet, hatte Trump bei einem Wahlkampfauftritt in Garden City, New York, angekündigt, die Meerenge nach einem Sieg über den Iran zu US-Territorium zu erklären. Ein nicht namentlich genannter Vertreter des Weißen Hauses erklärte damals gegenüber einem Reporter des Wall Street Journal, Trump habe diese Frage nie mit seinen Beratern besprochen und lediglich gescherzt – eine offizielle, namentliche Bestätigung oder ein Dementi durch das Weiße Haus selbst steht bis heute aus. Irans Vize-Außenminister Kazem Gharibabadi hatte den Territorialanspruch unabhängig davon zurückgewiesen: Die Meerenge sei und bleibe iranisch.\n\nParallel dazu war wiederholt ein Schiff des staatlichen emiratischen Ölkonzerns ADNOC in der Straße von Hormuz angegriffen worden; die Vereinigten Arabischen Emirate machten dafür Iran verantwortlich, ohne dass sich eine Seite offiziell zu den Angriffen bekannt hätte."
+      },
+      {
+        "heading": "Was offen bleibt",
+        "markdown": "Weiterhin unklar ist, welche konkreten neuen Sanktionsmaßnahmen die US-Regierung bei Bessents Pressekonferenz am Montag tatsächlich vorstellt und wie sich diese von den bereits laufenden OFAC-Schritten unterscheiden. Offen ist auch, ob Iran seine Drohung gegen US-Erdölunternehmen tatsächlich umsetzt, ob China offiziell auf Bessents Aufruf zur Kooperation reagiert, und ob die Vereinigten Arabischen Emirate ihre Handelsbeziehungen mit dem Iran tatsächlich ausgesetzt haben. Ebenfalls ungeklärt bleibt, ob Trumps frühere Ankündigung zur Straße von Hormuz als US-Territorium tatsächlich nur ein Scherz war, wer für die wiederholten Angriffe auf Tanker und ADNOC-Schiffe verantwortlich ist, und ob der Iran als Reaktion auf den wirtschaftlichen Druck tatsächlich wieder mehr Schiffsverkehr durch die Meerenge zulässt."
+      }
+    ],
+    "bodyKompakt": "US-Präsident Donald Trump hat die Drohkulisse gegenüber dem Iran weiter verschärft: Auf Truth Social kündigte er einen umfassenden „Wirtschaftskrieg“ an, den er laut ORF als „die vernichtendste Wirtschaftsoperation aller Zeiten“ bezeichnete. Als Reaktion drohte der Leiter des iranischen Nationalen Sicherheitsrats, Mohsen Resai, im Staatsfernsehen allen Ländern, die sich dem US-„Wirtschaftskrieg“ anschließen, mit Einstufung als „Feind“ – und kündigte für den Fall weiterer US-Sanktionen Angriffe auf amerikanische Erdöl- und andere Unternehmen rund um den Iran an. Diese konkrete Drohung ist bislang nur über eine einzelne österreichische Medienquelle belegt und mit entsprechender Vorsicht zu lesen. US-Finanzminister Scott Bessent kündigte unterdessen für Montag, 24. August, eine Pressekonferenz an, bei der es laut mehreren unabhängigen internationalen Medien „die härtesten Sanktionen der Geschichte“ gegen Iran geben und zugleich China zur Kooperation aufgerufen werden soll; Details stehen noch aus.\n\nDer reale Schiffsverkehr durch die Straße von Hormuz bleibt stark eingebrochen: Laut der Trackingfirma Kpler liegt er nur noch bei rund 40 Prozent des Niveaus vor Kriegsbeginn, die vereinbarte 60-Tage-Frist für eine Regelung gilt inzwischen als ausgelaufen. Irans Präsident Massud Peseschkian räumte wachsende Wirtschaftsprobleme ein, Berichten zufolge haben sich Lebensmittelpreise binnen eines Jahres mehr als verdoppelt – unabhängig geprüft sind diese Zahlen nicht. Iranische Staatsmedien wiesen Trumps Drohung als „psychologische Kriegsführung“ zurück, Außenminister Abbas Araghchi sprach von einer Ablenkung von US-Problemen – diese Aussage wird inzwischen von zwei unabhängigen Medien bestätigt; laut einem einzelnen, unbestätigten Bericht sollen zudem die Vereinigten Arabischen Emirate ihre Handelsbeziehungen mit Iran ausgesetzt haben.\n\nDer seit Ende Februar 2026 laufende Krieg zwischen den USA, Israel und Iran hatte mit US-israelischen Angriffen begonnen, bei denen der langjährige Oberste Führer Ali Chamenei getötet wurde; sein Sohn Mojtaba Chamenei übernahm die Nachfolge. Ein anonymer Vertreter des Weißen Hauses hatte Trumps separate Ankündigung, die Straße von Hormuz zu US-Territorium zu erklären, zuvor als Scherz bezeichnet – eine offizielle Bestätigung fehlt weiterhin; Iran wies den Anspruch unabhängig davon zurück, und wiederholt wurden Tanker sowie ein Schiff des Ölkonzerns ADNOC angegriffen, ohne Bekennerschreiben einer Seite. Offen bleiben die konkrete Ausgestaltung von Bessents neuen Sanktionen, ob Iran seine Drohung gegen US-Unternehmen umsetzt, wie China und die Golfstaaten offiziell reagieren, und ob der Schiffsverkehr durch die Meerenge unter dem wachsenden Druck wieder zunimmt.",
+    "updateNote": "Ergänzt um Irans Gegendrohung (Sicherheitsratschef Mohsen Resai droht Verbündeten der USA als „Feinde“ und mit Angriffen auf US-Erdölunternehmen), Details zu Bessents für Montag angekündigter Pressekonferenz mit „härtesten Sanktionen der Geschichte“, sowie neu eingeordneten Hintergrund zum Kriegsbeginn (Tötung Ali Chameneis Ende Februar 2026, Nachfolge durch Mojtaba Chamenei) und Resais Ernennung zum Sicherheitsratschef.",
+    "pendingOutcome": "Bessents für Montag, 24. August 2026, angekündigte Pressekonferenz zu den neuen Sanktionsmaßnahmen sowie eine mögliche Umsetzung von Irans Drohung gegen US-Erdölunternehmen und eine offizielle chinesische Reaktion stehen noch aus."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-22T22:07:27.711Z"
+}
