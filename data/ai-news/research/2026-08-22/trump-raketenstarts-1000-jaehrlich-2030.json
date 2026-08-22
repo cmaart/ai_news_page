@@ -1,0 +1,206 @@
+{
+  "cluster": {
+    "id": "cluster-20260821-505fb06e",
+    "title": "Trump will Zahl der US-Raumfahrt-Raketenstarts drastisch erhöhen",
+    "items": [
+      {
+        "itemId": "37bdbd77dd56887534a497b901a0379b157f121347a74ca33763d3e5b621fb74",
+        "sourceId": "derstandard_wissenschaft",
+        "sourceType": "media",
+        "title": "Trump will Zahl der US-Raumfahrt-Raketenstarts drastisch erhöhen",
+        "url": "https://www.derstandard.at/story/3000000336420/trump-will-zahl-der-us-raumfahrt-raketenstarts-drastisch-erh246hen",
+        "summary": "Die Raketenstarts sollen Auf mindestens 1000 jährlich bis 2030. Die private Raumfahrtindustrie soll gestärkt werden",
+        "publishedAt": "2026-08-21T04:36:44.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "48532b19dde69211c1b672db766713e46feeaf56bf1491d1d9940faa5cd56cbf",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Trump will mehr Raketenstarts für Raumfahrt",
+        "url": "https://www.kleinezeitung.at/artikel/41190751/trump-will-mehr-raketenstarts-fuer-raumfahrt",
+        "isNew": false
+      },
+      {
+        "itemId": "a0578b7bc33124b760ad00bbcce5df5ec13b7754b8ee36ba352cc829c02d97f1",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Trump will Zahl der US-Raumfahrt-Raketenstarts drastisch erhöhen",
+        "url": "https://www.diepresse.com/41190763/trump-will-zahl-der-us-raumfahrt-raketenstarts-drastisch-erhoehen",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Mehrere österreichische Medien (derstandard, kleinezeitung, diepresse) berichten unabhängig über eine konkrete Trump-Anordnung zur US-Raumfahrtpolitik mit messbaren Zielen (1000 Starts/Jahr bis 2030). Fulltext-Auszüge zeigen substantielles, strukturiertes Reporting — keine reine Presseaussendung. Keine der relatedStories behandelt Raumfahrtthemen; als Erststory relevant. Newsworthiness mäßig (Spezialistenthema ohne direkten Österreich-Bezug), aber sachlich dokumentiert und mehrfach bestätigt.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Trump hat eine Executive Order zur drastischen Erhöhung von Raketenstarts unterzeichnet",
+      "Ziel ist mindestens 1000 Starts und Rückflüge jährlich bis 2030",
+      "Wiederverwendbarkeit der Raketen ist Schlüssel für die hohe Startfrequenz",
+      "US-Behörden sollen Staatsliegenschaften für neue Launch- und Landeplätze prüfen"
+    ],
+    "missingSources": [
+      "Volltext oder Referenzlink zum Trump-Executive Order",
+      "Stellungnahme privater US-Raumfahrtunternehmen (SpaceX, Blue Origin, Relativity, etc.) zur Machbarkeit",
+      "Unabhängige technische Analyse der 1000-Starts-Quote",
+      "ESA- oder EU-Reaktion und Auswirkungen auf europäische Raumfahrtwirtschaft",
+      "Konkrete Liste geplanter neuer Start- und Landeplätze"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "trump-raketenstarts-1000-jaehrlich-2030",
+    "title": "Trump unterzeichnet Anordnung für mehr als 1.000 US-Raketenstarts pro Jahr bis 2030",
+    "description": "US-Präsident Donald Trump hat eine Anordnung unterzeichnet, mit der die USA bis 2030 jährlich mindestens 1.000 Raketenstarts und Rückflüge ermöglichen sollen. Bundesbehörden sollen dafür Staatsland für neue Start- und Landeplätze prüfen und Genehmigungsverfahren beschleunigen.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Das Weiße Haus hat die Anordnung selbst per offizieller Aussendung und Memorandum-Text bestätigt, zusätzlich berichten mehrere unabhängige österreichische und internationale Medien übereinstimmend über Inhalt und Zeitpunkt.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Über gezielte Suche wurden die offizielle Fact Sheet-Seite und die Memorandum-Seite des Weißen Hauses identifiziert und ausgewertet, jedoch nicht als vollständiger Volltext abgerufen, sondern über deren im Web sichtbaren Inhalt.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Verfügbar ist im Wesentlichen die Darstellung der US-Regierung selbst, die von unabhängigen Medien referiert wird; eine eigenständig geprüfte Gegenposition etwa von Umweltorganisationen, anderen Staaten oder der Raumfahrtindustrie liegt nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Trump hat ein National Security Presidential Memorandum unterzeichnet, das bis 2030 mehr als 1.000 US-Raketenstarts und Rückflüge pro Jahr zum Ziel hat.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bundesbehörden sollen laut Weißem Haus Ländereien in Staatsbesitz auf neue Start- und Landeplätze prüfen und Genehmigungs- sowie Umweltprüfverfahren beschleunigen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wiederverwendbare Raketen gelten laut Berichten als Schlüssel, um die angestrebte Startfrequenz zu erreichen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie viele neue Standorte konkret entstehen und wie private Anbieter wie SpaceX oder Blue Origin auf die Vorgabe reagieren, ist offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie Umweltorganisationen, andere Staaten oder die Raumfahrtindustrie außerhalb der USA die Anordnung bewerten, ist bislang kaum dokumentiert.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche konkreten Standorte werden als neue Start- und Landeplätze auf Staatsland ausgewählt?",
+      "Wie reagieren private US-Raumfahrtunternehmen wie SpaceX, Blue Origin oder Rocket Lab auf die Vorgabe?",
+      "Halten unabhängige technische Einschätzungen eine Verfünffachung bis Versechsfachung der aktuellen Startrate für 2030 für realistisch?",
+      "Wie bewerten Umweltorganisationen oder andere Staaten (etwa ESA-Mitgliedsländer) die beschleunigten Genehmigungs- und Umweltprüfverfahren?",
+      "Setzt sich die parallel laufende Lockerung von FAA-Umweltauflagen für Startinfrastruktur unverändert fort?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000336420/trump-will-zahl-der-us-raumfahrt-raketenstarts-drastisch-erh246hen"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41190751/trump-will-mehr-raketenstarts-fuer-raumfahrt"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41190763/trump-will-zahl-der-us-raumfahrt-raketenstarts-drastisch-erhoehen"
+      },
+      {
+        "id": "src4",
+        "name": "The White House – Fact Sheet: President Donald J. Trump Launches the Golden Age of Space Transportation",
+        "type": "official",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-launches-the-golden-age-of-space-transportation/"
+      },
+      {
+        "id": "src5",
+        "name": "The White House – The National Space Transportation Policy (NSPM-17)",
+        "type": "official",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/08/national-security-presidential-memorandum-nspm-17/"
+      },
+      {
+        "id": "src6",
+        "name": "Washington Post",
+        "type": "media",
+        "url": "https://www.washingtonpost.com/nation/2026/08/21/white-house-space-policy-aims-1000-launches-year-by-2030/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Trump hat eine Anordnung unterzeichnet, die bis 2030 mehr als 1.000 Raketenstarts und Rückflüge pro Jahr von US-Boden aus zum Ziel hat.",
+        "status": "supported",
+        "note": "Vom Weißen Haus selbst per Fact Sheet und Memorandum bestätigt sowie von mehreren unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Bundesbehörden werden angewiesen, Ländereien in Staatsbesitz für neue Start- und Landeplätze zu prüfen und Genehmigungs- sowie Umweltprüfverfahren zu beschleunigen.",
+        "status": "supported",
+        "note": "Deckt sich zwischen den österreichischen Medienberichten und der offiziellen Darstellung des Weißen Hauses.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Wiederverwendbarkeit von Raketen gilt als Schlüssel, um die angestrebte hohe Startfrequenz zu erreichen.",
+        "status": "partial",
+        "note": "Diese Einordnung stammt aus den ausgewerteten Medienberichten, nicht wörtlich aus der offiziellen Aussendung des Weißen Hauses.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Das Memorandum ersetzt eine ältere nationale Raumtransportpolitik und knüpft an eine im Dezember 2025 unterzeichnete Anordnung mit ähnlicher Zielsetzung an, die zusätzlich eine bemannte Mondlandung bis 2028 vorsieht.",
+        "status": "partial",
+        "note": "Zusammenhang und Details stammen aus der offiziellen Memorandum-Seite und einem internationalen Medienbericht; ein vollständiger Volltextabgleich der beiden Dokumente wurde nicht durchgeführt.",
+        "sourceIds": [
+          "src5",
+          "src6"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "US-Präsident Donald Trump hat am Donnerstag ein sogenanntes National Security Presidential Memorandum unterzeichnet, das die Zahl der Raketenstarts in den USA drastisch erhöhen soll. Ziel der als „National Space Transportation Policy“ bezeichneten Anordnung ist es, bis 2030 mehr als 1.000 Starts und Rückflüge pro Jahr von US-Boden aus zu ermöglichen. Mit Rückflügen ist die Wiederverwendbarkeit von Raketen gemeint, die nach Einschätzung der ausgewerteten Berichte als Voraussetzung für eine derart hohe Startfrequenz gilt.\n\nDas Weiße Haus wies Bundesbehörden an, Ländereien in Staatsbesitz auf ihre Eignung für neue Start- und Landeplätze zu prüfen. Zudem sollen Genehmigungsverfahren und Umweltprüfungen für Startinfrastruktur beschleunigt und die private Raumfahrtindustrie stärker in den Ausbau der Infrastruktur eingebunden werden."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Standard, die Kleine Zeitung und Die Presse berichteten nahezu wortgleich über die Anordnung, was auf eine gemeinsame zugrunde liegende Agenturmeldung hindeutet. Die offizielle Fact-Sheet-Seite des Weißen Hauses sowie die Memorandum-Seite selbst bestätigen den Kern: die Zielmarke von über 1.000 Starts und Rückflügen jährlich bis 2030, die Anweisung an Behörden zur Prüfung von Staatsland sowie die Beschleunigung von Genehmigungsverfahren.\n\nLaut der Washington Post und weiteren internationalen Medien ersetzt das Memorandum eine ältere, aus der Obama-Ära stammende nationale Raumtransportpolitik und schließt an eine bereits im Dezember 2025 unterzeichnete Anordnung mit ähnlicher Zielsetzung an. Diese frühere Anordnung soll laut Berichten zusätzlich eine bemannte Mondlandung bis 2028 sowie erste Elemente einer Mondbasis bis 2030 vorsehen; die NASA werde zudem aufgefordert, kommerzielle Wege für bemannte Mars-Missionen zu prüfen. Ein direkter Volltextvergleich der beiden Dokumente wurde im Rahmen dieser Recherche nicht vorgenommen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, welche konkreten Standorte auf Staatsland tatsächlich als neue Start- oder Landeplätze ausgewählt werden. Ebenso fehlt bislang eine dokumentierte Reaktion der großen privaten US-Raumfahrtunternehmen wie SpaceX, Blue Origin oder Rocket Lab, die von der Vorgabe unmittelbar betroffen wären. Zur Frage, wie realistisch eine derartige Steigerung der Startrate innerhalb weniger Jahre technisch und logistisch ist, liegt keine unabhängige Prüfung vor.\n\nEbenfalls unklar bleibt, wie Umweltorganisationen, andere Staaten oder europäische Raumfahrtakteure wie die ESA auf die beschleunigten Genehmigungs- und Umweltprüfverfahren reagieren. Parallel dazu hatte die US-Luftfahrtbehörde FAA im Juli 2026 laut Berichten eine Lockerung von Umweltauflagen für Startinfrastruktur vorgeschlagen; ob und wie beide Vorhaben zusammenhängen, ist aus den vorliegenden Quellen nicht abschließend zu klären."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Anordnung reiht sich in eine Serie raumfahrtpolitischer Vorstöße der Trump-Regierung ein, die einen „commercial-first“-Ansatz verfolgt und dabei explizit von einer älteren, stärker staatlich geprägten Raumtransportpolitik abrückt. Berichten zufolge lag die Zahl der US-Starts zuletzt bei rund 178 im Jahr 2025 – die angepeilte Marke von über 1.000 würde diese Zahl um ein Vielfaches übertreffen. Ob und in welchem Tempo sich dieses Ziel umsetzen lässt, hängt maßgeblich von Infrastrukturausbau, privater Investitionsbereitschaft und dem Ausgang der angekündigten Genehmigungserleichterungen ab und lässt sich derzeit nicht abschließend beurteilen."
+      }
+    ],
+    "bodyKompakt": "US-Präsident Donald Trump hat am Donnerstag ein Memorandum unterzeichnet, das die Zahl der US-Raketenstarts drastisch erhöhen soll. Ziel ist es, bis 2030 jährlich mehr als 1.000 Starts und Rückflüge von US-Boden aus zu ermöglichen. Mit Rückflügen ist die Wiederverwendbarkeit von Raketen gemeint, die als Voraussetzung für eine so hohe Frequenz gilt. Bundesbehörden sollen Staatsland auf neue Start- und Landeplätze prüfen und Genehmigungs- sowie Umweltverfahren beschleunigen.\n\nÖsterreichische Medien wie Der Standard, Kleine Zeitung und Die Presse berichteten übereinstimmend über die Anordnung, deren Kerninhalt sich auch in der offiziellen Darstellung des Weißen Hauses wiederfindet. Das Memorandum ersetzt laut internationalen Berichten eine ältere nationale Raumtransportpolitik und knüpft an eine bereits im Dezember 2025 unterzeichnete Anordnung mit ähnlichen Zielen an, die zusätzlich eine bemannte Mondlandung bis 2028 vorsieht.\n\nOffen bleibt, welche konkreten Standorte ausgewählt werden, wie private Anbieter wie SpaceX reagieren und wie realistisch die angestrebte Steigerung der Startrate ist. Auch Reaktionen von Umweltorganisationen oder anderen Staaten sind bislang kaum dokumentiert.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-22T00:07:30.559Z"
+}

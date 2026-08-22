@@ -1,0 +1,195 @@
+{
+  "cluster": {
+    "id": "cluster-20260821-70a067cb",
+    "title": "Bankräuber nutzte ChatGPT für Tatplanung",
+    "items": [
+      {
+        "itemId": "5092371dcb162b0c0e78de3949c52ca78cd270b1aaea529b618bb0464f4c4b28",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Bankräuber nutzte ChatGPT für Tatplanung",
+        "url": "https://orf.at/stories/3439780",
+        "publishedAt": "2026-08-21T04:29:19.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "b40b4cc093e3ec70043050deaf088e6bf182123f00a9b720e4f4f36849f3eb26",
+        "sourceId": "derstandard_web",
+        "sourceType": "media",
+        "title": "Unmaskierter US-Bankräuber nutzte ChatGPT bei Tatplanung",
+        "url": "https://www.derstandard.at/story/3000000336427/unmaskierter-us-bankraeuber-nutzte-chatgpt-bei-tatplanung",
+        "summary": "Fragte nach Einsatzgeschwindigkeit der Polizei und Anleitung für Pistolenreparatur. 10 Jahre Haft",
+        "publishedAt": "2026-08-21T05:03:54.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Breit berichteter Fall mit globalem Nachrichtenwert: ChatGPT-Missbrauch für Kriminalität (Bankraub in Omaha, Februar 2026). Zwei unabhängige österreichische Medien (ORF, DER STANDARD) berichten eigenständig. Kein direkter Österreich/EU-Bezug, aber sicherheitspolitisch relevantes Ereignis — zeigt Missbrauchs-potenzial von KI-Chatbots — mit konkreten Details (Überfall, Festnahme, Verurteilung zu ~10 Jahren Haft) und abgeschlossenem Ausgang.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Ein 23-jähriger Bankräuber aus Nebraska nutzte ChatGPT zur Planung eines Banküberfalls",
+      "Er fragte ChatGPT nach Einsatzgeschwindigkeit der Polizei und Anleitung zur Pistolenreparatur",
+      "Der Überfall fand im Februar 2026 in Omaha statt",
+      "Er erbeutete 9.175 US-Dollar",
+      "Das unmaskierte Gesicht wurde auf Bankenkameras gefilmt",
+      "Er hinterließ Geld bei seiner Flucht und wurde später bei Einkäufen gefilmt",
+      "Die ChatGPT-Konversationen wurden auf seinem Telefon gefunden",
+      "Er wurde zu etwa 10 Jahren Haft verurteilt (37 Monate für Überfall, 84 Monate für Waffenbedrohung)"
+    ],
+    "missingSources": [
+      "Genaue Namen des Täters und des verurteilenden Gerichts (Gerichtsdaten)",
+      "Stellungnahme oder Reaktion von OpenAI zu ChatGPT-Sicherheitsmaßnahmen",
+      "Kontext: Gibt es bekannte ähnliche Fälle von KI-Chatbot-Missbrauch für Kriminalität"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "bankraub-omaha-chatgpt-tatplanung-haftstrafe-2026",
+    "title": "US-Bankräuber nutzte ChatGPT zur Tatplanung – zu über zehn Jahren Haft verurteilt",
+    "description": "Ein 23-Jähriger aus Omaha (Nebraska) ist zu 121 Monaten Haft verurteilt worden, weil er im Februar 2026 eine Bank überfallen hatte – laut US-Staatsanwaltschaft hatte er sich zuvor bei ChatGPT über Polizei-Reaktionszeiten und die Reparatur seiner Pistole informiert.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die Kernfakten – Tatort, Datum, Beute, ChatGPT-Nutzung und Strafmaß – sind durch eine offizielle Pressemitteilung der US-Staatsanwaltschaft für den Bezirk Nebraska bestätigt und stimmen mit zwei unabhängig berichtenden österreichischen Medien (ORF, DER STANDARD) überein.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Eine passende Pressemitteilung der US-Staatsanwaltschaft (District of Nebraska) mit Name, Gericht, Tatdatum und Strafmaß wurde per Suche aufgefunden und deren Inhalt ausgewertet, jedoch nicht im Volltext direkt abgerufen; einzelne Randdetails zum Tathergang stützen sich weiterhin nur auf Medienberichte.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es liegt bislang nur die Darstellung der Ermittlungsbehörden und des Gerichts vor; eine Stellungnahme der Verteidigung des Verurteilten oder von OpenAI zu dem Fall fehlt.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein 23-jähriger Mann aus Omaha (Nebraska) wurde am 13. August 2026 zu 121 Monaten (gut zehn Jahren) Haft verurteilt, weil er im Februar 2026 eine Bankfiliale überfallen hatte.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut US-Staatsanwaltschaft und übereinstimmenden Medienberichten nutzte er vor der Tat ChatGPT, um sich unter anderem über Polizei-Reaktionszeiten und die Reparatur seiner Pistole zu informieren.",
+        "kind": "fact"
+      },
+      {
+        "text": "Überwachungskameras filmten sein unmaskiertes Gesicht; später wurde er beim Einkaufen mit dem erbeuteten Bargeld erfasst.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die ChatGPT-Unterhaltungen fanden Ermittler auf seinem Mobiltelefon, nachdem er bei der Festnahme dessen Herausgabe erlaubt hatte, obwohl er eine Tatbeteiligung zunächst bestritt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und wie OpenAI auf den Fall reagiert und wie häufig KI-Chatbots bereits vergleichbar für Straftaten genutzt wurden, ist bislang nicht bekannt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Mit welchem genauen Wortlaut wurden die Anfragen an ChatGPT gestellt, und wie reagierte der Chatbot auf erkennbar strafbare Absichten?",
+      "Gibt es eine Stellungnahme von OpenAI zu dem Fall oder zu Sicherheitsvorkehrungen gegen einen solchen Missbrauch?",
+      "Liegt eine Stellungnahme der Verteidigung des Verurteilten vor?",
+      "Wie häufig haben KI-Chatbots bereits in vergleichbaren Strafverfahren als Tatwerkzeug oder Beweismittel eine Rolle gespielt?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439780"
+      },
+      {
+        "id": "src2",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000336427/unmaskierter-us-bankraeuber-nutzte-chatgpt-bei-tatplanung"
+      },
+      {
+        "id": "src3",
+        "name": "US Attorney's Office, District of Nebraska (US-Justizministerium)",
+        "type": "official",
+        "url": "https://www.justice.gov/usao-ne/pr/omaha-man-who-used-chat-gpt-plan-robbery-sentenced-121-months-bank-robbery-and"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein 23-jähriger Mann aus Omaha (Nebraska) wurde am 13. August 2026 von einem US-Bundesgericht zu 121 Monaten (gut zehn Jahren) Haft verurteilt, weil er im Februar 2026 einen bewaffneten Überfall auf eine Bankfiliale in Omaha verübt hatte.",
+        "status": "supported",
+        "note": "Bestätigt durch offizielle Pressemitteilung der US-Staatsanwaltschaft sowie übereinstimmend durch ORF und DER STANDARD.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Vor der Tat informierte er sich laut Ermittlungsbehörden beim Chatbot ChatGPT unter anderem über die Reaktionszeit der Polizei und die Reparatur bzw. Zerlegung seiner Pistole; laut US-Staatsanwaltschaft erkundigte er sich zudem nach der Beschaffung von Munition als vorbestrafter Straftäter.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Beim Überfall erbeutete er rund 9.175 US-Dollar; sein unmaskiertes Gesicht wurde dabei von den Überwachungskameras der Bank gefilmt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Nach der Tat wurde sein Fluchtfahrzeug von Nachbarschaftskameras erfasst, er selbst später beim Einkaufen mit dem erbeuteten Bargeld gefilmt; bei einer Polizeisichtung in der Nähe seines Wohnsitzes flüchtete er zu Fuß und ließ dabei Bargeld fallen.",
+        "status": "supported",
+        "note": "Beruht auf übereinstimmenden Angaben zweier unabhängiger Medien unter Berufung auf Behörden; nicht im ausgewerteten DOJ-Auszug enthalten.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die ChatGPT-Unterhaltungen wurden von Ermittlern auf seinem Mobiltelefon gefunden, nachdem er bei seiner Festnahme dessen Herausgabe erlaubt hatte, obwohl er eine Tatbeteiligung zunächst bestritten hatte.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Ein 23-jähriger Mann aus Omaha im US-Bundesstaat Nebraska ist am 13. August 2026 von einem Bundesgericht zu 121 Monaten Haft – umgerechnet gut zehn Jahren – verurteilt worden. Laut einer Pressemitteilung der US-Staatsanwaltschaft für den Bezirk Nebraska sowie übereinstimmenden Berichten von ORF und DER STANDARD hatte er im Februar 2026 eine Filiale der i3Bank in Omaha überfallen, Angestellte mit einer Pistole bedroht und dabei rund 9.175 US-Dollar erbeutet – umgerechnet je nach Kursstand rund 7.900 Euro. Vor der Tat hatte er sich den Ermittlungen zufolge beim Chatbot ChatGPT unter anderem darüber informiert, wie schnell die Polizei nach einem Überfall eintreffen dürfte und wie sich seine Pistole zerlegen und reparieren lasse."
+      },
+      {
+        "heading": "Wie die Ermittler ihn überführten",
+        "markdown": "Trotz der Vorbereitung mit dem Chatbot lief für den Täter mehrfach etwas schief, wie ORF und DER STANDARD unter Berufung auf Behördenangaben schildern. Er betrat die Bank unmaskiert, sodass die Überwachungskameras sein Gesicht aufzeichneten. Auch sein Fluchtfahrzeug samt Kennzeichen wurde von Sicherheitskameras in der Nachbarschaft erfasst. Später sei er auf Videoaufnahmen mehrerer Geschäfte in einem Einkaufszentrum zu sehen gewesen, wie er mit dem erbeuteten Bargeld einkaufte. Als er in der Nähe seines Wohnsitzes Polizisten bemerkte, flüchtete er zu Fuß und ließ dabei ein Bündel Geld fallen. Bei der Festnahme bestritt er zunächst eine Beteiligung an dem Überfall, erlaubte den Ermittlern aber Zugriff auf sein Mobiltelefon – dort fanden sie die ChatGPT-Unterhaltungen. Der US-Staatsanwaltschaft zufolge geht daraus auch hervor, dass er sich zusätzlich über die Beschaffung von Munition erkundigt habe, obwohl er als vorbestrafter Straftäter keine Waffen besitzen durfte."
+      },
+      {
+        "heading": "Das Urteil",
+        "markdown": "Das Bundesgericht in Omaha verurteilte den Mann zu insgesamt 121 Monaten Haft: 37 Monate für den Bankraub selbst und weitere, im Anschluss zu verbüßende 84 Monate dafür, dass er bei der Tat eine Schusswaffe gezogen und Angestellte damit bedroht hatte. Nach der Haftentlassung ist laut der Pressemitteilung der Staatsanwaltschaft eine fünfjährige Bewährungsaufsicht vorgesehen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall wird international als Beispiel dafür angeführt, dass frei verfügbare KI-Chatbots auch zur Vorbereitung von Straftaten genutzt werden können. Überführt wurde der Mann letztlich aber nicht wegen, sondern trotz seiner Recherchen mit ChatGPT – ausschlaggebend waren klassische Ermittlungsmethoden wie Überwachungskameras und die Auswertung des sichergestellten Telefons. Ob und wie OpenAI, das Unternehmen hinter ChatGPT, auf den Fall reagiert oder welche Vorkehrungen gegen einen solchen Missbrauch bestehen, ist derzeit nicht bekannt; eine Stellungnahme des Unternehmens liegt nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, mit welchem genauen Wortlaut die Anfragen an ChatGPT gestellt wurden und ob der Chatbot dabei auf erkennbar strafbare Absichten reagierte. Auch eine Stellungnahme der Verteidigung des Verurteilten liegt nicht vor. Unklar ist zudem, wie häufig KI-Chatbots bereits in vergleichbaren Strafverfahren als Beweismittel oder Tatwerkzeug eine Rolle gespielt haben."
+      }
+    ],
+    "bodyKompakt": "Ein 23-jähriger Mann aus Omaha im US-Bundesstaat Nebraska ist am 13. August 2026 zu 121 Monaten Haft – gut zehn Jahren – verurteilt worden. Laut einer Pressemitteilung der US-Staatsanwaltschaft für den Bezirk Nebraska sowie übereinstimmenden Berichten von ORF und DER STANDARD hatte er im Februar 2026 eine Bankfiliale in Omaha überfallen, Angestellte mit einer Pistole bedroht und rund 9.175 US-Dollar erbeutet. Zuvor hatte er sich beim Chatbot ChatGPT unter anderem über Polizei-Reaktionszeiten und die Reparatur seiner Waffe informiert.\n\nTrotzdem lief die Tat aus seiner Sicht schief: Er betrat die Bank unmaskiert, wurde von Überwachungskameras gefilmt, später beim Einkaufen mit dem Bargeld erfasst und flüchtete schließlich zu Fuß vor der Polizei, wobei er einen Teil des Geldes verlor. Bei der Festnahme bestritt er zunächst seine Beteiligung, erlaubte den Ermittlern aber Zugriff auf sein Handy, wo die ChatGPT-Unterhaltungen gefunden wurden. Das Gericht verhängte 37 Monate für den Raub und 84 Monate für die Bedrohung mit der Waffe, danach folgen fünf Jahre Bewährungsaufsicht.\n\nOffen bleibt, wie OpenAI auf den Fall reagiert und wie oft KI-Chatbots bereits vergleichbar für Straftaten genutzt wurden.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-22T00:07:30.559Z"
+}
