@@ -1,0 +1,197 @@
+{
+  "cluster": {
+    "id": "cluster-20260822-d91843a4",
+    "title": "US-Gericht kippt Trumps Visa-Stopp für 75 Staaten",
+    "items": [
+      {
+        "itemId": "3b647740d914ceb5c50e7a233b268ff4662f9867d4691df14da582502d4ec990",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "US-Gericht kippt Trumps Visa-Stopp für 75 Staaten",
+        "url": "https://orf.at/stories/3439876",
+        "publishedAt": "2026-08-22T02:42:55.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e775dcfb4f5e9fff4ef6858f8c9d1f2712e1988d3725ca69698279fa68ab60f9",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "US-Gericht kippt Trumps Visa-Stopp für 75 Länder",
+        "url": "https://www.kleinezeitung.at/artikel/41193869/us-gericht-kippt-trumps-visa-stopp-fuer-75-laender",
+        "summary": "Eine US-Bundesrichterin hat die von der Regierung unter Präsident Donald Trump verhängte Aussetzung der Erteilung von Einwanderungsvisa an Staatsangehörige aus 75 Ländern gekippt. Die im Jänner vom Außenministerium verkündete Regelung sei \"offensichtlich rechtswidrig\" und überschreite die gesetzlichen Befugnisse von Außenminister Marco Rubio, erklärte US-Bundesrichterin Jeannette A. Vargas in Manhattan am Freitag (Ortszeit).",
+        "publishedAt": "2026-08-22T02:43:23.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e31ba72c9185f6edf7aa5026fe8180f6691d268de4a0281ff0388b6c34a35b33",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "US-Gericht kippt Trumps Visa-Stopp für 75 Länder",
+        "url": "https://www.kleinezeitung.at/artikel/41193869/us-gericht-kippt-trumps-visa-stopp-fuer-75-laender",
+        "summary": "Eine US-Bundesrichterin hat die von der Regierung unter Präsident Donald Trump verhängte Aussetzung der Erteilung von Einwanderungsvisa an Staatsangehörige aus 75 Ländern gekippt. Die im Jänner vom Außenministerium verkündete Regelung sei \"offensichtlich rechtswidrig\" und überschreite die gesetzlichen Befugnisse von Außenminister Marco Rubio, erklärte US-Bundesrichterin Jeannette A. Vargas in Manhattan am Freitag (Ortszeit).",
+        "publishedAt": "2026-08-22T02:43:23.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Konkretes Gerichtsurteil gegen Trump-Visa-Stopp mit benannter Richterin (Jeannette A. Vargas), veröffentlichter Begründung und 75 betroffenen Ländern; breite österreichische Resonanz (ORF + Kleine Zeitung). Indirekte EU-Relevanz (Migration, Balkan-/Osteuropa-Länder betroffen wie Albanien und Bosnien). Keine verwandte Story mit eigenständiger Story-Logik (neues Gerichtsurteil, keine Trump-Verwaltungsaktion wie die relatedStories), daher Erststory für NN.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "US-Bundesrichterin Jeannette A. Vargas kippt Trump-Visa-Stopp für 75 Länder",
+      "Stopp aus Jänner 2026 vom US-Außenministerium unter Marco Rubio",
+      "Richterin: Regelung ‚offensichtlich rechtswidrig' und übersteigt gesetzliche Befugnisse",
+      "75 betroffene Länder: Lateinamerika (Brasilien, Kolumbien, Uruguay), Balkan (Bosnien, Albanien), Südasien (Pakistan, Bangladesch), Afrika, Mittlerer Osten, Karibik",
+      "Außenministerium begründete Stopp mit ‚hohem Risiko öffentlicher Belastung und Sozialleistungsabzug'",
+      "Kläger: Einwandererrechtsorganisationen, Visa-Antragsteller, US-Bürger mit Familiensponsering"
+    ],
+    "missingSources": [
+      "Gerichtsurteil-Docket oder offizielle Urteilsnummer (implizit: US District Court, Southern District of New York, aber nicht explicit zitiert)",
+      "Explizite Agentur-Quelle statt pauschales ‚Agenturen' (Reuters/AP/AFP-Link oder Originaldepesche)",
+      "Konkrete Zahl betroffener Visa-Antragsteller oder Kläger",
+      "Außenministerium-/Trump-Stellungnahme zur Berufung oder weiteren Schritte",
+      "Präzises Datum der Klageeinreichung und Timeline (wann Urteil angekündigt, wann gültig)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "us-gericht-kippt-visa-stopp-75-laender-august-2026",
+    "title": "US-Gericht kippt Trumps Visa-Stopp für 75 Länder",
+    "description": "Eine US-Bundesrichterin hat die von der Trump-Regierung verhängte Aussetzung von Einwanderungsvisa für Staatsangehörige aus 75 Ländern für rechtswidrig erklärt und damit eine seit Jänner geltende Regelung des Außenministeriums gekippt.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kernvorgang – Urteil, Richterin, Begründung und betroffene Länder – wird von zwei unabhängigen österreichischen Medien (ORF, Kleine Zeitung, beide mit Agenturbezug) und zusätzlich von einer über Websuche gefundenen, breit syndizierten US-Agenturmeldung übereinstimmend berichtet.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Das Urteil selbst (Gerichtsdokument, Aktenzeichen) wurde nicht eingesehen, nur Medien- und Agenturberichte darüber.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Quellenlage bildet vor allem die Position des Gerichts und der Kläger ab; eine aktuelle Stellungnahme des Außenministeriums oder der Trump-Regierung zu diesem konkreten Urteil liegt nicht vor, nur die ursprüngliche Begründung der Regelung.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Eine US-Bundesrichterin hat den im Jänner 2026 verhängten Visa-Stopp für Einwanderungsvisa-Antragsteller aus 75 Ländern für rechtswidrig erklärt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Außenministerium unter Marco Rubio hatte die Regelung mit dem Risiko begründet, Betroffene könnten der öffentlichen Hand zur Last fallen und Sozialleistungen beanspruchen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Geklagt hatten unter anderem Einwandererrechtsorganisationen, betroffene Antragsteller und US-Bürger, die Familienangehörige sponserten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob die US-Regierung gegen das Urteil Berufung einlegt und wie viele Menschen konkret betroffen waren, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Legt die Trump-Regierung Berufung gegen das Urteil ein?",
+      "Wie viele Visa-Antragsteller waren durch die Aussetzung konkret betroffen?",
+      "Ab welchem Zeitpunkt wird die Visa-Bearbeitung für die betroffenen 75 Länder wieder regulär aufgenommen?",
+      "Wie reagiert das US-Außenministerium offiziell auf die Entscheidung?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439876"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41193869/us-gericht-kippt-trumps-visa-stopp-fuer-75-laender"
+      },
+      {
+        "id": "src3",
+        "name": "Townhall (US-Agenturmeldung)",
+        "type": "media",
+        "url": "https://townhall.com/news/scott-mcclallen/2026/08/21/federal-judge-strikes-down-trump-administrations-75-country-visa-suspension-n2681712"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "US-Bezirksrichterin Jeannette A. Vargas erklärte in Manhattan die Aussetzung der Erteilung von Einwanderungsvisa für Staatsangehörige aus 75 Ländern für rechtswidrig, weil sie die gesetzlichen Befugnisse von Außenminister Marco Rubio überschreite.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet von ORF, Kleine Zeitung und einer unabhängigen US-Agenturmeldung; das Gerichtsdokument selbst wurde nicht eingesehen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Regelung war im Jänner 2026 vom US-Außenministerium verkündet worden.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Das Außenministerium begründete den Visa-Stopp mit einem hohen Risiko, dass Betroffene der öffentlichen Hand zur Last fallen und Sozialleistungen beanspruchen könnten.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Geklagt hatten Einwandererrechtsorganisationen, darunter das Catholic Legal Immigration Network, sowie Visa-Antragsteller und US-Bürger, die Familienangehörige sponserten.",
+        "status": "partial",
+        "note": "ORF und Kleine Zeitung nennen die Klägergruppen allgemein; die Nennung der konkreten Organisation stammt aus einer zusätzlich recherchierten US-Agenturmeldung.",
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Von der Aussetzung betroffen waren Staatsangehörige aus Ländern in Lateinamerika (u. a. Brasilien, Kolumbien, Uruguay), am Balkan (u. a. Bosnien und Herzegowina, Albanien), in Südasien (u. a. Pakistan, Bangladesch) sowie in Afrika, dem Nahen Osten und der Karibik.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Eine US-Bundesrichterin hat eine zentrale einwanderungspolitische Maßnahme der Regierung von Präsident Donald Trump für rechtswidrig erklärt. Jeannette A. Vargas, Bundesrichterin am US-Bezirksgericht in Manhattan, kippte am Freitag (Ortszeit) die Aussetzung der Erteilung von Einwanderungsvisa an Staatsangehörige aus 75 Ländern. Die im Jänner vom Außenministerium unter Marco Rubio verkündete Regelung sei „offensichtlich rechtswidrig“ gewesen und habe die gesetzlichen Befugnisse des Außenministers überschritten, so die Richterin laut übereinstimmenden Berichten. Die Richtlinie habe die Erteilung von Visa kategorisch aufgrund der Staatsangehörigkeit verboten und damit geltendes Einwanderungsrecht außer Kraft gesetzt."
+      },
+      {
+        "heading": "Wer geklagt hat und warum",
+        "markdown": "Geklagt hatten laut den vorliegenden Quellen Einwandererrechtsorganisationen, Antragsteller auf Einwanderungsvisa und US-Bürger, die Familienangehörige im Ausland sponserten. Eine zusätzlich recherchierte US-Agenturmeldung nennt als eine der klagenden Organisationen das Catholic Legal Immigration Network. Die Kläger hatten argumentiert, die Regelung verletze unter anderem geltendes Einwanderungsrecht und rechtsstaatliche Verfahrensgarantien. Das Außenministerium hatte den Visa-Stopp ursprünglich damit begründet, bei Antragstellern aus den betroffenen 75 Staaten bestehe ein hohes Risiko, dass sie der öffentlichen Hand zur Last fallen und Sozialleistungen in Anspruch nehmen würden. Betroffen waren Menschen aus lateinamerikanischen Ländern wie Brasilien, Kolumbien und Uruguay, aus Balkanstaaten wie Bosnien und Herzegowina und Albanien, aus südasiatischen Ländern wie Pakistan und Bangladesch sowie aus zahlreichen Staaten Afrikas, des Nahen Ostens und der Karibik."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, ob die Trump-Regierung gegen die Entscheidung Berufung einlegt und wie sich das Außenministerium konkret dazu äußert. Auch eine belastbare Zahl, wie viele Visa-Antragsteller durch die monatelange Aussetzung tatsächlich betroffen waren, liegt aus den vorliegenden Quellen nicht vor. Unklar ist zudem, ab welchem genauen Zeitpunkt die Visa-Bearbeitung für Antragsteller aus den 75 Ländern wieder regulär aufgenommen wird und ob das Urteil sofort wirksam ist oder von der Regierung im Berufungsverfahren vorerst ausgesetzt werden könnte. Das eigentliche Gerichtsdokument mit Aktenzeichen wurde für diesen Artikel nicht eingesehen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Entscheidung reiht sich in eine Serie gerichtlicher Auseinandersetzungen um die restriktive Einwanderungspolitik der Trump-Regierung ein, die seit Amtsantritt einen erklärt harten Kurs in diesem Bereich verfolgt. Die Aussetzung der Visa-Erteilung für Staatsangehörige aus 75 Ländern zählte zu den weiterreichenderen Maßnahmen dieses Kurses, weil sie Antragsteller unabhängig von individuellen Umständen allein aufgrund ihrer Nationalität betraf. Mit der Entscheidung von Richterin Vargas ist zumindest diese konkrete Regelung vorerst gestoppt – ob sie vor höheren Gerichten Bestand haben wird, ist damit noch nicht entschieden."
+      }
+    ],
+    "bodyKompakt": "Eine US-Bundesrichterin hat eine zentrale einwanderungspolitische Maßnahme der Trump-Regierung für rechtswidrig erklärt. Jeannette A. Vargas, Bundesrichterin in Manhattan, kippte die im Jänner vom Außenministerium unter Marco Rubio verkündete Aussetzung der Erteilung von Einwanderungsvisa an Staatsangehörige aus 75 Ländern. Die Regelung sei „offensichtlich rechtswidrig“ gewesen und habe die gesetzlichen Befugnisse des Außenministers überschritten, da sie Visa kategorisch aufgrund der Nationalität verweigert habe.\n\nGeklagt hatten Einwandererrechtsorganisationen – darunter laut einer Agenturmeldung das Catholic Legal Immigration Network –, Visa-Antragsteller und US-Bürger, die Familienangehörige sponserten. Das Außenministerium hatte den Stopp mit dem Risiko begründet, Betroffene könnten Sozialleistungen beanspruchen. Betroffen waren Staaten in Lateinamerika, am Balkan, in Südasien, Afrika, dem Nahen Osten und der Karibik.\n\nOffen bleibt, ob die Regierung Berufung einlegt, wie viele Menschen konkret betroffen waren und ab wann die Visa-Bearbeitung wieder regulär läuft. Das Gerichtsdokument selbst wurde für diese Zusammenfassung nicht eingesehen.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-22T04:07:34.585Z"
+}
