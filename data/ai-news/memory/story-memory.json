@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T16:19:09.836Z",
+  "updatedAt": "2026-08-23T18:23:04.366Z",
   "stories": {
     "nyt-reporter-vorladung-air-force-one-juli-2026": {
       "canonicalTitle": "„New York Times“-Reporter vor Grand Jury vorgeladen – US-Justizministerium zieht Vorladungen zurück",
@@ -1452,33 +1452,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-25T20:07:36.216Z"
-    },
-    "signa-insolvenz-postsparkasse-georg-coch-platz-juli-2026": {
-      "canonicalTitle": "Drei weitere Signa-Tochterfirmen rund um Wiener Postsparkasse insolvent",
-      "slug": "signa-insolvenz-postsparkasse-georg-coch-platz-juli-2026",
-      "firstSeenAt": "2026-07-24T18:07:30.693Z",
-      "lastUpdatedAt": "2026-07-24T18:07:30.693Z",
-      "status": "published",
-      "articlePath": "src/content/articles/signa-insolvenz-postsparkasse-georg-coch-platz-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-24/signa-insolvenz-postsparkasse-georg-coch-platz-juli-2026.json",
-      "sourceUrls": [
-        "https://wien.orf.at/stories/3364004",
-        "https://www.derstandard.at/story/3000000332745/drei-weitere-unternehmen-der-signa-gruppe-insolvent",
-        "https://www.diepresse.com/39390097/drei-weitere-unternehmen-der-signa-gruppe-insolvent",
-        "https://kurier.at/wirtschaft/signa-gruppe-drei-weitere-unternehmen-insolvent/403177889",
-        "https://www.leadersnet.at/news/100847,postsparkassengebaeude-glaeubiger-fordern-324-millionen-euro.html"
-      ],
-      "openQuestions": [
-        "Welche konkreten Vermögenswerte und Schulden entfallen auf die drei neu insolventen Gesellschaften?",
-        "Mit welchem Käufer wurde der gescheiterte Sharedeal verhandelt, und woran ist er gescheitert?",
-        "Welche Folgen haben die neuen Insolvenzanträge für die Nutzung und Entwicklung des Postsparkasse-Gebäudes?",
-        "Wie viele Gläubiger und in welcher Gesamthöhe sind von den drei neuen Verfahren betroffen?",
-        "Wie äußern sich Signa-Verantwortliche oder der zuständige Insolvenzverwalter zu den neuen Anträgen?",
-        "Eröffnet das Handelsgericht Wien die drei beantragten Konkursverfahren tatsächlich, oder werden sie mangels Masse abgewiesen?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-07-25T18:07:30.693Z",
-      "doNotUpdateBefore": "2026-07-25T00:07:30.693Z"
     },
     "eu-strafe-google-trump-zoll-juli-2026": {
       "canonicalTitle": "EU verhängt 890-Millionen-Euro-Strafe gegen Google – Trump droht mit Zöllen",
@@ -6208,7 +6181,6 @@
       "pendingOutcomeUntil": "2026-08-25T00:07:30.943Z",
       "echoPublishers": {
         "derstandard": "2026-08-23T12:07:42.074Z",
-        "orf": "2026-08-22T16:07:35.584Z",
         "diepresse": "2026-08-22T18:07:32.630Z"
       },
       "resonanceLevel": 3,
@@ -10923,7 +10895,8 @@
       "pendingOutcome": "Eine offizielle Reaktion oder Stellungnahme von Google zum wiederholten Biegetest-Scheitern des Pixel 11 Pro Fold sowie systematische unabhängige Vergleichstests zu GPS-Genauigkeit und Gesundheitsfunktionen stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-08-25T04:07:35.326Z",
       "echoPublishers": {
-        "golem": "2026-08-23T10:08:02.770Z"
+        "golem": "2026-08-23T10:08:02.770Z",
+        "heise": "2026-08-23T18:07:32.697Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -14728,32 +14701,39 @@
       "resonanceMeasuredAt": "2026-08-19T14:07:38.207Z"
     },
     "britische-drohnen-ukraine-russland-drohung-august-2026": {
-      "canonicalTitle": "Moskau droht Großbritannien nach Bericht über britische Drohnen für die Ukraine",
+      "canonicalTitle": "Russland zieht nach Streit über britische Ukraine-Hilfe Botschafter aus London ab",
       "slug": "britische-drohnen-ukraine-russland-drohung-august-2026",
       "firstSeenAt": "2026-08-18T12:07:28.538Z",
-      "lastUpdatedAt": "2026-08-18T12:07:28.538Z",
+      "lastUpdatedAt": "2026-08-23T18:07:27.654Z",
       "status": "published",
       "articlePath": "src/content/articles/britische-drohnen-ukraine-russland-drohung-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-18/britische-drohnen-ukraine-russland-drohung-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-08-23/britische-drohnen-ukraine-russland-drohung-august-2026-update-1800.json",
       "sourceUrls": [
         "https://orf.at/stories/3439516",
         "https://kurier.at/politik/ausland/grossbritannien-drohnen-russland-ukraine-krieg-einsaetze/403184525",
         "https://www.derstandard.at/jetzt/livebericht/3000000335954/ukraine-soll-britische-drohnen-eingesetzt-haben-russland-reagiert-mit-drohung",
         "https://www.diepresse.com/41182548/komplizen-und-mittaeter-moskau-droht-nach-einsatz-britischer-drohnen-in-russland",
         "https://www.bloomberg.com/news/articles/2026-08-18/russia-threatens-uk-over-ukraine-using-british-drones-in-attacks",
-        "https://www.upi.com/Top_News/World-News/2026/08/18/warns-Britain-Ukraine-drones/8771787040339/"
+        "https://www.upi.com/Top_News/World-News/2026/08/18/warns-Britain-Ukraine-drones/8771787040339/",
+        "https://orf.at/stories/3440010",
+        "https://www.diepresse.com/41196592/russland-zieht-botschafter-aus-london-ab",
+        "https://www.kleinezeitung.at/artikel/41196602/russland-zieht-botschafter-aus-london-ab"
       ],
       "openQuestions": [
-        "Welche zwei britischen Unternehmen sollen die Drohnen tatsächlich geliefert haben?",
+        "Hängt der jetzt bekanntgegebene Botschafter-Abzug tatsächlich ursächlich mit dem Drohnen-Streit vom 18. August zusammen, obwohl Kelin laut Sunday Times bereits am 21. Juli abgereist war?",
+        "Benennt Russland einen Nachfolger für Andrei Kelin als Botschafter in London, und wenn ja, wann?",
+        "Wie reagieren NATO, EU oder weitere Verbündete auf den Botschafter-Abzug?",
+        "Welche zwei britischen Unternehmen sollen die im August thematisierten Drohnen tatsächlich geliefert haben?",
         "Bestätigt die ukrainische Regierung offiziell den Einsatz britischer Drohnen bei Angriffen im russischen Hinterland?",
         "Welche konkreten Ziele wurden getroffen, und wie belastbar sind Angaben zu daraus entstandenen wirtschaftlichen Schäden?",
-        "Wie reagieren die USA, die NATO oder die EU auf die russische Drohung gegen ein Bündnismitglied?",
-        "Setzt Russland seine angekündigten „Konsequenzen“ gegen Großbritannien in konkrete Maßnahmen um, und wenn ja, welche?",
+        "Setzt Großbritannien seinerseits diplomatische Schritte gegenüber Russland – etwa eine vergleichbare Herabstufung der eigenen Vertretung in Moskau?",
         "Seit wann genau und in welchem Umfang sollen die britischen Drohnen bereits eingesetzt worden sein?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-19T12:07:28.538Z",
-      "doNotUpdateBefore": "2026-08-18T18:07:28.538Z",
+      "doNotRedraftBefore": "2026-08-24T18:07:27.654Z",
+      "doNotUpdateBefore": "2026-08-24T00:07:27.654Z",
+      "pendingOutcome": "Ob Russland einen Nachfolger für Botschafter Kelin benennt und ob es zu weiteren diplomatischen Schritten zwischen Moskau und London kommt, ist offen.",
+      "pendingOutcomeUntil": "2026-08-25T18:07:27.654Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -15498,10 +15478,13 @@
       "doNotUpdateBefore": "2026-08-22T20:07:32.197Z",
       "pendingOutcome": "Wie Kanadas angekündigte Gegenzölle konkret ausgestaltet sind, wann sie in Kraft treten und ob die Verhandlungen zwischen den USA und Kanada wieder aufgenommen werden.",
       "pendingOutcomeUntil": "2026-08-24T06:07:31.297Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-23T14:07:35.169Z"
+      "echoPublishers": {
+        "kurier": "2026-08-23T18:07:31.285Z",
+        "diepresse": "2026-08-23T16:07:37.876Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-23T18:07:27.654Z"
     },
     "inflation-oesterreich-juli-2026-endgueltig-2-8-prozent-19-august": {
       "canonicalTitle": "Inflation im Juli 2026 endgültig bei 2,8 Prozent – Statistik Austria korrigiert Schnellschätzung leicht nach oben",
@@ -16998,8 +16981,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-24T14:07:35.169Z",
       "doNotUpdateBefore": "2026-08-23T20:07:35.169Z",
-      "pendingOutcome": "Offen sind weiterhin das Motiv der Tat, eine mögliche formelle Anklageerhebung gegen den Verdächtigen sowie eine offizielle behördliche Bestätigung der Opfer- und Verletztenangaben.",
-      "pendingOutcomeUntil": "2026-08-23T16:07:33.869Z",
       "echoPublishers": {
         "derstandard": "2026-08-23T14:07:39.958Z",
         "kleinezeitung": "2026-08-23T10:08:02.865Z"
@@ -17034,8 +17015,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-22T16:07:33.869Z",
       "doNotUpdateBefore": "2026-08-21T22:07:33.869Z",
-      "pendingOutcome": "Ausgang eines möglichen Antrags auf schriftliche Begründung der FIFA-Entscheidung binnen zehn Tagen sowie mögliche Reaktionen von Paredes, weiteren Betroffenen oder dem Verband AFA.",
-      "pendingOutcomeUntil": "2026-08-23T16:07:33.869Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17069,8 +17048,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-23T10:07:30.588Z",
       "doNotUpdateBefore": "2026-08-22T16:07:30.588Z",
-      "pendingOutcome": "Ausgang der von Uber eingelegten Rechtsmittel gegen die Bußgelder von 2023, 2024 und 2026 sowie die endgültige Platzierung im DSGVO-Bußgeld-Ranking.",
-      "pendingOutcomeUntil": "2026-08-23T16:07:33.869Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17770,13 +17747,13 @@
       "resonanceMeasuredAt": "2026-08-23T14:07:35.169Z"
     },
     "duerrehilfe-bauern-kritik-fpoe-august-2026": {
-      "canonicalTitle": "Dürre-Hilfspaket für Bauern: FPÖ verschärft Kritik mit Detailrechnung und fordert Neuwahlen, Bericht sieht scharfen Koalitionsstreit",
+      "canonicalTitle": "Dürre-Hilfspaket für Bauern: Umfrage zeigt breite Zustimmung, FPÖ hält an Kritik mit Detailrechnung und Neuwahlforderung fest",
       "slug": "duerrehilfe-bauern-kritik-fpoe-august-2026",
       "firstSeenAt": "2026-08-22T16:07:33.299Z",
-      "lastUpdatedAt": "2026-08-23T04:07:35.326Z",
+      "lastUpdatedAt": "2026-08-23T18:07:27.654Z",
       "status": "published",
       "articlePath": "src/content/articles/duerrehilfe-bauern-kritik-fpoe-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-23/duerrehilfe-bauern-kritik-fpoe-august-2026-update-400.json",
+      "researchPath": "data/ai-news/research/2026-08-23/duerrehilfe-bauern-kritik-fpoe-august-2026-update-1800.json",
       "sourceUrls": [
         "https://vorarlberg.orf.at/stories/3368066",
         "https://www.diepresse.com/41192330/mehr-kritik-von-fpoe-als-von-der-caritas",
@@ -17789,24 +17766,26 @@
         "https://www.derstandard.at/story/3000000336368/die-duerre-setzt-auch-der-regierung-zu-hilfe-fuer-bauern-ein-streitfall-bleibt",
         "https://www.ots.at/presseaussendung/OTS_20260820_OTS0113/vpnoe-zauner-die-fpoe-fordert-neuwahlen-wir-fordern-hilfe-fuer-unsere-bauern",
         "https://www.ots.at/presseaussendung/OTS_20260821_OTS0034/fpoe-schnedlitz-zu-duerrehilfe-nur-ruecktritt-der-regierung-und-neuwahlen-koennen-oesterreich-retten",
-        "https://www.ots.at/presseaussendung/OTS_20260822_OTS0004/fpoe-schnedlitz-keine-hilfe-sondern-verschlechterung-regierung-nimmt-bauern-mit-diesem-plan-110-millionen-euro-weg"
+        "https://www.ots.at/presseaussendung/OTS_20260822_OTS0004/fpoe-schnedlitz-keine-hilfe-sondern-verschlechterung-regierung-nimmt-bauern-mit-diesem-plan-110-millionen-euro-weg",
+        "https://kurier.at/politik/inland/deutliche-mehrheit-fuer-duerre-hilfen-ogm-umfrage/403185271",
+        "https://www.derstandard.at/story/3000000336295/illegale-us-zoelle-oesterreichische-unternehmen-erhalten-von-trump-regierung-millionen-zurueck",
+        "https://www.diepresse.com/41192678/dortmund-verliert-supercup-transfers-fuer-ueber-100-millionen-euro-machen-noch-keine-revolution"
       ],
       "openQuestions": [
         "Wird die Bundesregierung selbst inhaltlich auf die detaillierte FPÖ-Rechnung (140 Mio. Erlass, 50 Mio. jährliche Gegenfinanzierung) reagieren, oder bleibt die Erwiderung bei der Landwirtschaftskammer?",
         "Wie wird das Rückzahlungsmodell über künftig reduzierte Zuschüsse konkret ausgestaltet, und wie hoch fällt die tatsächliche langfristige Belastung der Betriebe aus?",
         "Prüft eine unabhängige Stelle, etwa der Budgetdienst des Parlaments, die widersprüchlichen Zahlen von FPÖ und Landwirtschaftskammer?",
-        "Wie geht die Debatte um eine mögliche Versicherungspflicht für Landwirte weiter, die Moosbrugger ablehnt?",
+        "Wie geht die Debatte um eine mögliche Versicherungspflicht für Landwirte weiter, die Moosbrugger ablehnt, obwohl laut OGM-Umfrage 76 Prozent der Bevölkerung dafür sind?",
         "Bestätigen weitere Medien die von Der Standard geschilderten internen Spannungen zwischen ÖVP und SPÖ/Neos während der Verhandlungen (Fristsetzung, „soziale Kälte“)?",
-        "Bleibt die FPÖ-Forderung nach Rücktritt der Regierung und Neuwahlen eine symbolische Positionierung, oder verfolgt die Partei sie mit konkreten parlamentarischen Schritten weiter?"
+        "Bleibt die FPÖ-Forderung nach Rücktritt der Regierung und Neuwahlen eine symbolische Positionierung, oder verfolgt die Partei sie mit konkreten parlamentarischen Schritten weiter?",
+        "Bestätigen unabhängige, nicht von einem einzelnen Medium beauftragte Umfragen die von OGM ermittelte breite Zustimmung zu den Dürre-Hilfen und zur Versicherungspflicht?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-08-24T04:07:35.326Z",
-      "doNotUpdateBefore": "2026-08-23T10:07:35.326Z",
-      "pendingOutcome": "Offen bleibt, ob die Bundesregierung inhaltlich auf die FPÖ-Zahlen reagiert, ob eine unabhängige Stelle die widersprüchlichen Rechnungen prüft und ob sich die von Der Standard berichteten internen Koalitionsspannungen durch weitere Quellen bestätigen.",
+      "doNotRedraftBefore": "2026-08-24T18:07:27.654Z",
+      "doNotUpdateBefore": "2026-08-24T00:07:27.654Z",
+      "pendingOutcome": "Offen bleibt, ob die Bundesregierung auf die FPÖ-Rechnung reagiert, ob eine unabhängige Stelle die widersprüchlichen Finanzierungszahlen prüft, ob sich die von Der Standard geschilderten Koalitionsspannungen sowie die OGM-Umfrageergebnisse durch weitere Quellen bestätigen, und wie die Debatte um eine Versicherungspflicht für Landwirte weitergeht.",
       "pendingOutcomeUntil": "2026-08-25T04:07:35.326Z",
-      "echoPublishers": {
-        "orf": "2026-08-22T16:07:35.980Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-23T12:07:36.761Z"
@@ -17839,9 +17818,7 @@
       "doNotUpdateBefore": "2026-08-22T22:07:33.299Z",
       "pendingOutcome": "Der tatsächliche Zeitpunkt und Ort des Wiedereintritts von Swift in die Erdatmosphäre in den kommenden Monaten.",
       "pendingOutcomeUntil": "2026-08-24T16:07:33.299Z",
-      "echoPublishers": {
-        "derstandard": "2026-08-22T16:07:37.953Z"
-      }
+      "echoPublishers": {}
     },
     "putin-parteitag-geeintes-russland-duma-wahl-2026": {
       "canonicalTitle": "Putin ruft beim Parteitag der Kremlpartei zu Zusammenhalt im Ukraine-Krieg auf",
@@ -17868,13 +17845,11 @@
       "pendingOutcome": "Ergebnis und internationale Bewertung der russischen Duma-Wahl vom 18. bis 20. September 2026.",
       "pendingOutcomeUntil": "2026-08-24T18:07:28.430Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-08-22T18:07:33.934Z",
-        "orf": "2026-08-22T16:07:35.584Z",
-        "diepresse": "2026-08-22T16:07:36.893Z"
+        "kleinezeitung": "2026-08-22T18:07:33.934Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-23T06:07:33.426Z"
+      "resonanceMeasuredAt": "2026-08-23T18:07:27.654Z"
     },
     "pentagon-feuert-stars-and-stripes-fuehrung-august-2026": {
       "canonicalTitle": "Pentagon feuert Chefredakteur, Herausgeber und Nahost-Reporterin von „Stars and Stripes“",
@@ -18590,6 +18565,39 @@
         "Also-Funding-Details (Investoren, Bewertung, Missionsänderung im Detail)"
       ],
       "sensitivity": "low"
+    },
+    "death-valley-franzose-hitzetod-august-2026": {
+      "canonicalTitle": "68-jähriger Franzose stirbt nach Autopanne im Death Valley bei 46 Grad",
+      "slug": "death-valley-franzose-hitzetod-august-2026",
+      "firstSeenAt": "2026-08-23T18:07:27.654Z",
+      "lastUpdatedAt": "2026-08-23T18:07:27.654Z",
+      "status": "published",
+      "articlePath": "src/content/articles/death-valley-franzose-hitzetod-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-23/death-valley-franzose-hitzetod-august-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/welt/usa-franzose-death-valley-extremhitze-autopanne/403185739",
+        "https://orf.at/stories/3439938",
+        "https://www.kleinezeitung.at/artikel/41194999/usa-franzose-starb-bei-extremhitze-im-death-valley",
+        "https://www.diepresse.com/41195160/franzose-im-death-valley-bei-extremhitze-gestorben"
+      ],
+      "openQuestions": [
+        "Namen und nähere Umstände der beiden Franzosen sind nicht öffentlich bekannt.",
+        "Die genaue Todesursache (etwa Hitzschlag) wurde in den Berichten nicht ausdrücklich bestätigt, sondern nur nahegelegt.",
+        "Die exakte Uhrzeit des Vorfalls sowie Dauer und Ablauf der Suchaktion sind nicht bekannt.",
+        "Unklar ist, ob die für das Wochenende vorhergesagten Temperaturen von über 47 Grad tatsächlich erreicht wurden."
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-08-24T18:07:27.654Z",
+      "doNotUpdateBefore": "2026-08-24T00:07:27.654Z",
+      "echoPublishers": {
+        "kurier": "2026-08-23T10:08:01.370Z",
+        "orf": "2026-08-22T20:07:34.420Z",
+        "kleinezeitung": "2026-08-22T20:07:37.287Z",
+        "diepresse": "2026-08-23T08:07:42.360Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-23T18:07:27.654Z"
     }
   }
 }
