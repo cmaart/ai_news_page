@@ -1,0 +1,239 @@
+{
+  "cluster": {
+    "id": "cluster-20260823-3d6da4db",
+    "title": "Britische Regierung bestätigt Cyberattacke auf Kraftwerk",
+    "items": [
+      {
+        "itemId": "ee43b64782183807c7163e38007f9ddd4bdd740983c6be7e7469158319c442ef",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Britische Regierung bestätigt Cyberattacke auf Kraftwerk",
+        "url": "https://www.heise.de/news/Britische-Regierung-bestaetigt-Cyberattacke-auf-Kraftwerk-11422989.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "summary": "Für vier Tage haben Angreifer in Großbritannien ein Kraftwerk abgeschaltet. Die Behörden warnen und besänftigten zugleich.",
+        "publishedAt": "2026-08-23T14:46:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "417b2a0f33337b485755906f87f129f707b21a47a7a25c2b0aa62e369d5f3fb1",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Cyberattacke auf britische Energieinfrastruktur",
+        "url": "https://orf.at/stories/3439971",
+        "isNew": false
+      },
+      {
+        "itemId": "42d04eb045a6b856c9d4f52dcf479b778030598ab23e1aba363236709aabdfba",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Cyberattacke auf britische Energieinfrastruktur",
+        "url": "https://www.kleinezeitung.at/artikel/41195724/cyberattacke-auf-britische-energieinfrastruktur",
+        "isNew": false
+      },
+      {
+        "itemId": "fb24ccec579ac3c5df5a0e156f448fb87790ab7ec86d7ea299805df949fded88",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Cyberattacke auf britische Energieinfrastruktur",
+        "url": "https://www.kleinezeitung.at/artikel/41195724/cyberattacke-auf-britische-energieinfrastruktur",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Eigenständiges Cyber-Sicherheitsereignis mit hohem geopolitischen Kontext. Regierungsbestätigung 23.08.2026 macht es aktuell. Neue Dimension (Cyber-Angriffe) der Iran-USA-Eskalation mit eigener Schlagzeile und Nachrichtenwert. Solide Quellenlage (heise mit Details, orf, kleine zeitung), aber Irani-Verantwortung bleibt Spekulation. Relevant für EU-Infrastruktur-Sicherheitsdiskurs; kein direkter Österreich-Bezug.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": "usa-iran-luftangriffe-strasse-von-hormus-juli-2026",
+    "possibleClaims": [
+      "Britische Regierung bestätigt Cyberattacke auf kleines Kraftwerk im Juli 2026",
+      "Anlage lag unter Meldeschwelle, daher keine Meldepflicht",
+      "Kraftwerk vier Tage offline, aber keine Gefährdung der Stromversorgung",
+      "Telegraph berichtete zuerst, Regierung bestätigte später",
+      "Verdacht auf irani-motivierte Cybergruppe CyberAv3ngers, angeblich von Revolutionsgarden gesteuert",
+      "Spezialisierung auf Angriffe auf speicherprogrammierbare Steuerungen"
+    ],
+    "missingSources": [
+      "Volltext der britischen Regierungserklärung",
+      "NCSC-Originaldaten zur Bedrohungslage",
+      "Unabhängige technische Analyse des Angriffsvektors",
+      "Nicht-iranische Bestätigung der CyberAv3ngers-Identität und IRGC-Verbindung",
+      "Standort und Name des betroffenen Kraftwerks"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "cyberangriff-kraftwerk-grossbritannien-regierung-bestaetigt-august-2026",
+    "title": "Cyberangriff auf britisches Kraftwerk: Regierung bestätigt Vorfall, Iran-Spur bleibt unbestätigt",
+    "description": "Die britische Regierung hat einen mehrtägigen Ausfall eines kleinen Kraftwerks durch einen Cyberangriff im Juli 2026 bestätigt. Medien vermuten eine iranisch gesteuerte Gruppe hinter dem Angriff – offizielle Bestätigung dafür gibt es nicht.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Der Kernfakt – Cyberangriff legte im Juli 2026 ein kleines britisches Kraftwerk vier Tage lang außer Betrieb, ohne Gefährdung der Gesamtversorgung – wird von der britischen Regierung selbst bestätigt und von mehreren unabhängigen Medien (heise, ORF, Kleine Zeitung sowie internationale Titel) übereinstimmend berichtet. Die Zuschreibung an eine iranisch gesteuerte Gruppe (\"CyberAv3ngers\"/Revolutionsgarden) stützt sich dagegen bislang primär auf eine Exklusivmeldung des \"Telegraph\" und ist von den Behörden nicht bestätigt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine gelesene Primärquelle (offizielle Regierungsmitteilung, NCSC-Dokument) vor, nur Regierungszitate und -angaben, die über mehrere Medien übereinstimmend wiedergegeben werden. Das erhöht die Verlässlichkeit des Kernfakts, ersetzt aber keine Primärquelle.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Ausgangsmeldung des \"Telegraph\" schrieb den Angriff bereits in der Schlagzeile dem Iran zu, während die britische Regierung dazu keine Angaben machte. Es besteht das Risiko, eine Verdachtslage als bestätigte Täterschaft eines Staates darzustellen; der Artikel trennt daher bestätigten Vorfall und unbestätigte Zuschreibung konsequent.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Die britische Regierung hat am Wochenende bestätigt, dass ein Cyberangriff im Juli 2026 ein kleines Kraftwerk im Vereinigten Königreich für vier Tage vom Netz genommen hat.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Anlage sei so klein gewesen, dass der Ausfall unter der Meldeschwelle für kritische Infrastruktur gelegen habe; laut Regierungsangaben bestand zu keinem Zeitpunkt eine Gefahr für die übergeordnete Stromversorgung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Name und Standort des betroffenen Kraftwerks wurden von den Behörden nicht offengelegt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Zeitung \"The Telegraph\" macht in ihrer Exklusivmeldung eine iranisch gesteuerte Gruppe namens „CyberAv3ngers“ verantwortlich, die den iranischen Revolutionsgarden zugeordnet wird; eine offizielle britische Bestätigung dieser Zuschreibung liegt nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Die britische Cyberabwehrbehörde NCSC soll Betreiber kritischer Infrastruktur laut Berichten bereits vor und nach dem Angriff über eine erhöhte Bedrohungslage informiert haben, die seit Beginn der US-israelischen Angriffe auf den Iran im Februar 2026 bestehen soll.",
+        "kind": "open"
+      },
+      {
+        "text": "Offen bleibt, ob und wie die Zuschreibung an iranische Akteure unabhängig verifiziert wird und welche technischen Details zum Angriffsweg noch bekannt werden.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Lässt sich die Zuschreibung des Angriffs an die Gruppe „CyberAv3ngers“ und die iranischen Revolutionsgarden unabhängig von der Telegraph-Exklusivmeldung bestätigen?",
+      "Welche Art von Anlage war betroffen (Standort, Betreiber, Energieträger), und warum halten die Behörden diese Information zurück?",
+      "Welche technischen Details zum Angriffsweg – etwa über speicherprogrammierbare Steuerungen – werden noch bekannt?",
+      "Wie viele weitere Betreiber kritischer Infrastruktur wurden von der NCSC-Warnung erfasst, und welche konkreten Schutzmaßnahmen wurden seither ergriffen?",
+      "Zieht der Vorfall eine Reaktion der britischen Regierung auf Iran nach sich, etwa diplomatisch oder durch neue Sicherheitsauflagen für Energieversorger?",
+      "Gibt es einen Zusammenhang zu den von US-Behörden gemeldeten CyberAv3ngers-Angriffen auf die Wasserversorgung in den USA im Juli 2026, der über die zeitliche Nähe hinausgeht?"
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "name": "heise online",
+        "type": "media",
+        "url": "https://www.heise.de/news/Britische-Regierung-bestaetigt-Cyberattacke-auf-Kraftwerk-11422989.html"
+      },
+      {
+        "id": "s2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3439971"
+      },
+      {
+        "id": "s3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41195724/cyberattacke-auf-britische-energieinfrastruktur"
+      },
+      {
+        "id": "s4",
+        "name": "The Irish Times",
+        "type": "media",
+        "url": "https://www.irishtimes.com/world/uk/2026/08/23/iran-linked-hackers-accused-of-cyberattack-that-shut-down-british-power-plant/"
+      },
+      {
+        "id": "s5",
+        "name": "CNBC",
+        "type": "media",
+        "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Die britische Regierung hat einen Cyberangriff bestätigt, der im Juli 2026 ein kleines Kraftwerk im Vereinigten Königreich für vier Tage außer Betrieb setzte.",
+        "status": "supported",
+        "note": "Von der Regierung selbst bestätigt und von mehreren unabhängigen Medien (heise, ORF, Kleine Zeitung, Irish Times, CNBC) übereinstimmend berichtet.",
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Laut Regierungsangaben lag die betroffene Anlage unter der Meldeschwelle für kritische Infrastruktur, und es bestand zu keinem Zeitpunkt eine Gefahr für die übergeordnete Stromversorgung.",
+        "status": "supported",
+        "note": "Regierungssprecher-Zitat wird von mehreren Quellen übereinstimmend wiedergegeben (u. a. ORF, CNBC).",
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s5"
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Name, Standort und Betreiber des betroffenen Kraftwerks wurden von den Behörden nicht offengelegt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s5"
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Eine iranisch gesteuerte Hackergruppe namens „CyberAv3ngers“, die den iranischen Revolutionsgarden zugeordnet wird, soll für den Angriff verantwortlich sein.",
+        "status": "partial",
+        "note": "Stammt primär aus der Exklusivmeldung des „Telegraph“; britische Behörden haben diese Zuschreibung nicht offiziell bestätigt oder dementiert.",
+        "sourceIds": [
+          "s1",
+          "s5"
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Die britische Cyberabwehrbehörde NCSC habe Betreiber kritischer Infrastruktur vor und nach dem Angriff über eine seit Februar 2026 bestehende erhöhte Bedrohungslage informiert, die mit den US-israelischen Angriffen auf den Iran zusammenhängen soll.",
+        "status": "unclear",
+        "note": "Beruht laut heise auf Berichterstattung der Financial Times über NCSC-Informationen; keine direkt einsehbare NCSC-Originalmitteilung, keine unabhängige Zweitquelle für den Kausalzusammenhang.",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "Es soll sich um den ersten bekannten erfolgreichen Cyberangriff handeln, der eine britische Energieerzeugungsanlage tatsächlich vom Netz genommen hat.",
+        "status": "partial",
+        "note": "Framing internationaler Medienberichte (u. a. Irish Times, CNBC); von britischen Behörden nicht ausdrücklich als „erster“ Fall bestätigt.",
+        "sourceIds": [
+          "s4",
+          "s5"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Regierung bestätigt, was Medien zuerst berichteten",
+        "markdown": "Die britische Regierung hat am Wochenende offiziell bestätigt, dass ein Cyberangriff im Juli 2026 ein kleines Kraftwerk im Vereinigten Königreich für vier Tage außer Betrieb gesetzt hat. Zuvor hatte die Zeitung „The Telegraph“ exklusiv über den Vorfall berichtet, den daraufhin auch die „Financial Times“ mit einer Bestätigung aus Regierungskreisen aufgriff. Ein Regierungssprecher betonte laut mehreren übereinstimmenden Medienberichten, dass es sich um einen „kleinen Energieerzeuger“ gehandelt habe und zu keinem Zeitpunkt eine Gefahr für das übergeordnete Energiesystem bestanden habe. Die Anlage sei sogar so klein gewesen, dass der Ausfall unter die Meldeschwelle für Vorfälle bei kritischer Infrastruktur gefallen sei – offiziell hätte der Betreiber den Ausfall also gar nicht melden müssen. Name, Standort und Betreiber der Anlage wurden weder von der Regierung noch von den bisher berichtenden Medien genannt."
+      },
+      {
+        "heading": "Vorgeschichte: Iran-Konflikt im Hintergrund",
+        "markdown": "Der Vorfall reiht sich in eine seit Monaten anhaltende militärische Eskalation zwischen den USA, Israel und dem Iran ein, über die „Neue Nachrichten“ bereits berichtet hat – etwa zu Angriffen auf Öltanker in der Straße von Hormus, auf die Wasserversorgung im iranischen Jask und auf Ziele in mehreren Golfstaaten. Der jetzt bekannt gewordene Cyberangriff auf das britische Kraftwerk fällt in denselben Zeitraum (Juli 2026) und wird von britischen Medien in diesen größeren Kontext gestellt, ohne dass die Details des bisherigen Kriegsverlaufs hier wiederholt werden müssten."
+      },
+      {
+        "heading": "Verdacht auf iranische Akteure, aber keine offizielle Bestätigung",
+        "markdown": "Für die Täterfrage gilt eine deutlich schwächere Beleglage als für den Vorfall selbst: Der „Telegraph“ macht in seinem ersten Bericht ausdrücklich den Iran verantwortlich und nennt eine Gruppe namens „CyberAv3ngers“, die den iranischen Revolutionsgarden zugeschrieben wird und sich laut Berichten auf Angriffe gegen speicherprogrammierbare Steuerungen spezialisiert haben soll, wie sie in Kraftwerken und anderen Versorgungsanlagen verwendet werden. Diese Gruppe wird von US-Stellen bereits mit einer separaten Angriffswelle auf die Wasserversorgung in den USA im Juli 2026 in Verbindung gebracht. Die britische Regierung selbst hat diese Zuschreibung bislang nicht bestätigt und auch nicht dementiert – sie äußerte sich ausschließlich zum Ausmaß des Schadens, nicht zur Täterfrage. Damit bleibt offen, ob es sich um eine belastbare Zuordnung oder um eine vorläufige Einschätzung einzelner Medien handelt."
+      },
+      {
+        "heading": "Einordnung: Warum der Umgang der Behörden auffällt",
+        "markdown": "Bemerkenswert ist nach Einschätzung von heise online nicht nur der Angriff selbst, sondern auch der Umgang der Behörden damit: Berichten zufolge soll die Cyberabwehrbehörde NCSC – eine Abteilung des Geheimdienstes GCHQ – Betreiber kritischer Infrastruktur bereits vor und nach dem Angriff über eine anhaltende, erhöhte Bedrohungslage informiert haben, die seit Beginn der US-israelischen Angriffe auf den Iran im Februar 2026 bestehen soll. Dieser Punkt stützt sich auf Berichterstattung der „Financial Times“ und ist unabhängig nicht näher belegt. Das Vereinigte Königreich gilt als engster Verbündeter der USA und ist mit ihnen im Geheimdienstverbund der „Five Eyes“ organisiert, was den Vorfall in die laufende sicherheitspolitische Debatte über den Schutz europäischer und westlicher Energieinfrastruktur einordnet."
+      },
+      {
+        "heading": "Was noch offen ist",
+        "markdown": "Unklar bleibt vor allem, ob sich die Iran-Zuschreibung unabhängig erhärten lässt, welche Anlage konkret betroffen war und welche technischen Details zum Angriffsweg noch bekannt werden. Auch eine mögliche politische oder diplomatische Reaktion der britischen Regierung gegenüber Iran steht bislang aus."
+      }
+    ],
+    "bodyKompakt": "Die britische Regierung hat einen Cyberangriff bestätigt, der im Juli 2026 ein kleines Kraftwerk im Vereinigten Königreich vier Tage lang vom Netz nahm. Ein Regierungssprecher betonte, es habe sich um einen sehr kleinen Energieerzeuger gehandelt, dessen Ausfall sogar unter der offiziellen Meldeschwelle gelegen habe – eine Gefahr für die Gesamtstromversorgung habe zu keinem Zeitpunkt bestanden. Name und Standort der Anlage wurden nicht genannt. Bekannt wurde der Vorfall zunächst durch eine Exklusivmeldung des „Telegraph“, die später von der „Financial Times“ mit Regierungsbestätigung aufgegriffen wurde.\n\nDer Angriff fällt in den Zeitraum der anhaltenden militärischen Eskalation zwischen USA, Israel und Iran, über die bereits berichtet wurde. Für die Täterfrage gilt jedoch eine deutlich schwächere Beleglage als für den Vorfall selbst: Der „Telegraph“ schreibt den Angriff einer iranisch gesteuerten Gruppe namens „CyberAv3ngers“ zu, die den Revolutionsgarden zugeordnet wird und auch mit Angriffen auf die US-Wasserversorgung in Verbindung gebracht wird. Die britische Regierung hat diese Zuschreibung bislang nicht bestätigt.\n\nBerichten zufolge soll die Cyberabwehrbehörde NCSC Betreiber kritischer Infrastruktur bereits vor und nach dem Angriff über eine erhöhte Bedrohungslage informiert haben, die seit Februar 2026 bestehen soll – ein Punkt, der sich auf Sekundärberichterstattung stützt und unabhängig nicht näher belegt ist. Offen bleiben insbesondere die Verifikation der Iran-Zuschreibung, technische Details zum Angriffsweg und eine mögliche Reaktion Londons gegenüber Teheran.",
+    "updateNote": null,
+    "pendingOutcome": "Ob sich die von britischen Medien vorgenommene Zuschreibung an eine iranisch gesteuerte Hackergruppe unabhängig bestätigt und ob weitere technische oder behördliche Details zu dem Vorfall bekannt werden, ist derzeit offen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-23T16:07:33.610Z"
+}
