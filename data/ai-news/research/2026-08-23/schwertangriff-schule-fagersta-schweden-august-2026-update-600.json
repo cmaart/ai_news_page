@@ -1,0 +1,291 @@
+{
+  "cluster": {
+    "id": "cluster-20260822-6a16f78a",
+    "title": "17-Jährige bei Schwert-Angriff an Schule in Schweden getötet",
+    "items": [
+      {
+        "itemId": "55ed0d0a2dbf754832c8659bcfff8c8768a1dac484e617014b776fc2852969c9",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "17-Jährige bei Schwert-Angriff an Schule in Schweden getötet",
+        "url": "https://www.diepresse.com/41194205/17-jaehrige-bei-schwert-angriff-an-schule-in-schweden-getoetet",
+        "summary": "Der mutmaßliche Täter - ein 18-jähriger Mann - wurde unmittelbar nach der Tat festgenommen. Zum Motiv ist noch nichts bekannt.",
+        "publishedAt": "2026-08-22T10:19:11.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "0ec6548d2c151fde36d44aaab728471bc78bc04f9818a41cffda14e2fd7ed7f5",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "17-Jährige stirbt bei Schwert-Angriff an Schule in Schweden",
+        "url": "https://www.kleinezeitung.at/artikel/41194164/17-jaehrige-stirbt-bei-schwert-angriff-an-schule-in-schweden",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.75,
+  "triage": {
+    "action": "update_story",
+    "reason": "Substanzielle Aktualisierung des bereits publizierten Artikels 'Schwert-Angriff an Schule in Fagersta: Mehrere Verletzte, Verdächtiger in Polizeigewahrsam' mit neuen Details: Opfer nun identifiziert als 17-jähriges Mädchen (bestätigt durch Familie), Täter bestätigt als 18-jähriger ehemaliger Schüler der Schule, Status der Verletzten präzisiert (einer entlassen, zwei in stabilen Zustand). Dieser Cluster beantwortet mehrere der offenen Fragen der bestehenden Story, kann aber in diese integriert werden, da keine eigenständige neue Wendung, sondern inkrementelle Details und Zwischenstände der laufenden Ermittlung vorliegen.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 1,
+    "relatedSlug": "schwertangriff-schule-fagersta-schweden-august-2026",
+    "possibleClaims": [
+      "Todesopfer bei Schwertangriff in Fagersta ist 17-jähriges Mädchen",
+      "Mutmaßlicher Täter ist 18-jähriger Mann und ehemaliger Schüler der Schule",
+      "Täter wurde unmittelbar nach der Tat festgenommen und befindet sich in Polizeigewahrsam",
+      "Insgesamt drei weitere Jugendliche verletzt, zwei davon schwer",
+      "Ein verletztes Opfer bereits aus dem Krankenhaus entlassen",
+      "Zwei weitere Verletzte mit stabilem Zustand im Krankenhaus",
+      "Motiv der Tat noch unbekannt",
+      "Polizei gab Schüsse ab und schoss dem Angreifer ins Bein"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme schwedischer Behörden/Polizei zum Motiv und zur Vorgeschichte des Verdächtigen",
+      "Statement der Schulleitung oder zuständigen Schulbehörden",
+      "Aussagen von Zeugen oder Schülern",
+      "Ermittlungsstand, Anklage-Ankündigung oder offizielle Charges gegen den Verdächtigen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "schwertangriff-schule-fagersta-schweden-august-2026",
+    "title": "Schwert-Angriff an Schule in Fagersta: 17-jähriges Mädchen getötet, Verdächtiger weiter in Gewahrsam",
+    "description": "Nach dem Schwertangriff an der Brinellskolan in der schwedischen Stadt Fagersta ist das Todesopfer nach Angaben der Familie und weiteren Medienberichten ein 17 Jahre altes Mädchen. Der festgenommene Verdächtige ist ein 18-jähriger früherer Schüler der Schule.",
+    "topic": "gesellschaft",
+    "country": "eu",
+    "confidence": "medium",
+    "confidenceNote": "Der Kernvorfall – Schwertangriff an der Brinellskolan, ein Todesopfer, mehrere Verletzte, sofortige Festnahme des mutmaßlichen Täters – wird inzwischen von zahlreichen voneinander unabhängigen Medien in Schweden, Österreich und international übereinstimmend berichtet, ebenso die Angaben zu Alter und Geschlecht des Opfers sowie zu Alter und Status des Verdächtigen als früherer Schüler. Motiv, Vorgeschichte des Verdächtigen und ein etwaiger offizieller Anklagestatus sind weiterhin nicht durch eine direkt eingesehene Behördenquelle bestätigt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Aussagen von Polizei, Familie des Opfers und Behörden liegen weiterhin nur in Form von Zitaten und Zusammenfassungen in Medienberichten (u. a. APA/dpa, Fagersta-Posten, internationale Agenturen) vor; eine Presseaussendung, ein Polizeistatement oder ein Gerichtsdokument wurde nicht direkt eingesehen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich weiterhin überwiegend auf Medienberichte, die selbst auf Polizei-, Familien- und Behördenangaben verweisen; eine unabhängig geprüfte Perspektive des Verdächtigen fehlt naturgemäß bei laufendem Ermittlungsverfahren. Berichte zu Vorgeschichte oder Online-Aktivitäten des Verdächtigen, die in einzelnen internationalen Medien kursieren, wurden bewusst nicht übernommen, da sie nicht anhand von selbst gelesenem Quellentext bestätigt werden konnten.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein Angreifer verletzte an der Brinellskolan in Fagersta (Schweden) mehrere Menschen mit einem Schwert; eine Person kam dabei ums Leben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Todesopfer ist nach Angaben der Familie gegenüber der Zeitung „Fagersta-Posten“, die von weiteren schwedischen und internationalen Medien übernommen wurden, ein 17 Jahre altes Mädchen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der festgenommene Verdächtige ist ein 18 Jahre alter Mann; nach übereinstimmenden schwedischen Medienberichten handelt es sich um einen früheren Schüler der Schule.",
+        "kind": "fact"
+      },
+      {
+        "text": "Von den drei weiteren verletzten Jugendlichen konnte einer laut aktuelleren Berichten bereits aus dem Krankenhaus entlassen werden; zwei Burschen im Alter zwischen 12 und 17 Jahren, von denen einer notoperiert werden musste, werden weiter behandelt, ihr Zustand gilt als stabil.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Polizei nahm den Verdächtigen unmittelbar nach der Tat fest; laut mehreren Medien wurde ihm dabei ins Bein geschossen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Zum Motiv der Tat ist weiterhin nichts Gesichertes bekannt.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob und mit welchem Vorwurf gegen den Verdächtigen mittlerweile formell Anklage erhoben wurde, ist anhand der vorliegenden Quellen nicht abschließend geklärt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welches Motiv hatte die Tat, und gibt es eine offizielle Einordnung durch Polizei oder Staatsanwaltschaft?",
+      "Wurde gegen den 18-jährigen Verdächtigen mittlerweile formell Anklage erhoben, und mit welchem Vorwurf?",
+      "Gibt es eine offizielle Bestätigung der Opferidentität und der Verletztenzahl durch Polizei oder Krankenhausbehörden direkt, über die bisherigen Medien- und Familienangaben hinaus?",
+      "Zu welchem Ergebnis kommt die von Kommune und Polizei ursprünglich angekündigte, zunächst verschobene Pressekonferenz?",
+      "Welche Vorgeschichte hat der Verdächtige als früherer Schüler der Schule, und lässt sich das unabhängig, etwa durch Gerichts- oder Behördendokumente, bestätigen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/schweden-schule-schwertangriff-fagersta-verletzte-amok/403185265"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41192964/verletzte-bei-schwert-angriff-an-schwedischer-schule"
+      },
+      {
+        "id": "src3",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3439839"
+      },
+      {
+        "id": "src4",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000336532/angreifer-fest-mehrere-verletzte-bei-schwert-angriff-an-schwedischer-schule"
+      },
+      {
+        "id": "src5",
+        "name": "SVT Nyheter",
+        "type": "media",
+        "url": "https://www.svt.se/nyheter/lokalt/vastmanland/stor-polisinsats-vid-skola-i-fagersta"
+      },
+      {
+        "id": "src6",
+        "name": "TV4",
+        "type": "media",
+        "url": "https://www.tv4.se/artikel/2I76yFTA1yLx5OQTXEMCjT/uppgifter-18-arig-tidigare-elev-gripen-foer-skoldadet"
+      },
+      {
+        "id": "src7",
+        "name": "Al Jazeera",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/8/21/several-people-injured-in-sword-attack-in-swedish-school"
+      },
+      {
+        "id": "src8",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41194205/17-jaehrige-bei-schwert-angriff-an-schule-in-schweden-getoetet"
+      },
+      {
+        "id": "src9",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41194164/17-jaehrige-stirbt-bei-schwert-angriff-an-schule-in-schweden"
+      },
+      {
+        "id": "src10",
+        "name": "Al Jazeera",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/8/22/swedish-police-identify-17-year-old-girl-as-victim-in-school-sword-attack"
+      },
+      {
+        "id": "src11",
+        "name": "CBS News",
+        "type": "media",
+        "url": "https://www.cbsnews.com/news/sweden-school-sword-attack-fagersta/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein Angreifer griff am 21. August 2026 die Brinellskolan in Fagersta mit einem Schwert an und tötete dabei eine Person, drei weitere wurden verletzt.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet von österreichischer Agenturmeldung (APA/dpa), schwedischen Medien (SVT, TV4) und internationalen Medien (Al Jazeera, CBS News).",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src7",
+          "src8",
+          "src9",
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das Todesopfer ist ein 17 Jahre altes Mädchen.",
+        "status": "supported",
+        "note": "Ursprünglich von der Familie des Opfers gegenüber der Zeitung „Fagersta-Posten“ bestätigt, von weiteren schwedischen Medien übernommen und über APA/dpa sowie internationale Medien (Al Jazeera) wiedergegeben; kein Name wird genannt.",
+        "sourceIds": [
+          "src8",
+          "src9",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der festgenommene Verdächtige ist ein 18 Jahre alter Mann; die Polizei nahm ihn unmittelbar nach der Tat fest, laut mehreren Medienberichten nachdem sie ihm ins Bein geschossen hatte. Er befindet sich in Polizeigewahrsam.",
+        "status": "supported",
+        "note": "Alter und Festnahme mehrfach unabhängig berichtet, u. a. von APA/dpa und internationalen Agenturmeldungen; die Angabe zum Schuss ins Bein stammt aus Boulevardmedien und wird als solche gekennzeichnet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src5",
+          "src7",
+          "src8",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Beim Verdächtigen soll es sich um einen früheren Schüler der Brinellskolan handeln.",
+        "status": "supported",
+        "note": "Zunächst einzelquellig von TV4 berichtet, inzwischen unabhängig auch vom schwedischen Rundfunk (laut Die Presse/APA/dpa) sowie internationalen Medien bestätigt.",
+        "sourceIds": [
+          "src6",
+          "src8",
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Von den drei verletzten Jugendlichen wurde einer inzwischen aus dem Krankenhaus entlassen; zwei Burschen im Alter zwischen 12 und 17 Jahren, von denen einer notoperiert werden musste, werden weiterhin behandelt, ihr Zustand gilt als stabil.",
+        "status": "partial",
+        "note": "Aktuellere Angabe laut APA/dpa (wiedergegeben von Die Presse) unter Berufung auf schwedische Berichte; eine direkte Bestätigung durch Krankenhaus oder Behörden liegt nicht vor, die frühere, weniger präzise Zahl aus Kurier/Kleine Zeitung deckt sich aber mit der Gesamtzahl von drei Verletzten.",
+        "sourceIds": [
+          "src2",
+          "src5",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Schwedens Ministerpräsident Ulf Kristersson und Justizminister Gunnar Strömmer äußerten sich öffentlich zu dem Einsatz und betonten die intensive Arbeit der Polizei.",
+        "status": "supported",
+        "note": "Direkte Zitate werden von österreichischer Agenturmeldung (Strömmer) und internationalen Medien (Kristersson) wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Nach Angaben der Polizei besteht keine Gefahr mehr für die Allgemeinheit.",
+        "status": "supported",
+        "note": "Übereinstimmend von mehreren Medien unter Berufung auf Polizeisprecher wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Zum Motiv der Tat liegen bislang keine gesicherten Informationen vor.",
+        "status": "unclear",
+        "note": "Sowohl die ursprüngliche als auch die aktuellere Berichterstattung (u. a. Die Presse/APA/dpa) bestätigen ausdrücklich, dass zum Motiv nichts bekannt ist; ein Ermittlungssprecher wird mit dem Hinweis zitiert, die Arbeit habe gerade erst begonnen.",
+        "sourceIds": [
+          "src8"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "An der Brinellskolan, einer weiterführenden Schule in der schwedischen Stadt Fagersta nordwestlich von Stockholm, hat am Freitagnachmittag, dem 21. August 2026, ein Angreifer mit einem Schwert mehrere Menschen verletzt. Der Alarm ging laut Polizeiangaben gegen 14.06 Uhr ein. Zehn Minuten später hatte die Polizei den Angreifer überwältigt und festgenommen; dabei gab sie nach Polizeiangaben Schüsse ab, laut Boulevardmedien traf einer davon den Angreifer ins Bein. Der Verdächtige befindet sich seither in Polizeigewahrsam. Wie mittlerweile berichtet wird, kam bei dem Angriff eine Person zu Tode, drei weitere Jugendliche wurden verletzt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Das Todesopfer ist nach Angaben der Familie gegenüber der Lokalzeitung „Fagersta-Posten“ ein 17 Jahre altes Mädchen; die Meldung wurde von weiteren schwedischen Medien und über die Agenturen APA/dpa auch von österreichischen und internationalen Medien übernommen. Ein Name wird bewusst nicht genannt. Beim festgenommenen Verdächtigen handelt es sich nach inzwischen mehrfach unabhängig bestätigten Berichten um einen 18 Jahre alten Mann, der zuvor selbst Schüler der Brinellskolan gewesen sein soll – eine Angabe, die zunächst nur von einem einzelnen schwedischen Sender stammte und inzwischen auch vom schwedischen Rundfunk sowie internationalen Medien wiedergegeben wird.\n\nZum Zustand der Verletzten liegen aktuellere Angaben vor: Ein Jugendlicher konnte laut Berichten vom Samstag bereits aus dem Krankenhaus entlassen werden. Zwei Burschen im Alter zwischen 12 und 17 Jahren – einer von ihnen musste notoperiert werden – befinden sich weiterhin in stationärer Behandlung, ihr Zustand wird als stabil beschrieben. Eine unabhängige Bestätigung dieser Angaben durch Krankenhaus oder Behörden direkt liegt nicht vor, sie stützt sich auf Medienberichte, die auf schwedische Quellen zurückgehen.\n\nSchwedens Justizminister Gunnar Strömmer sagte dem Sender SVT, die Regierung stehe in engem Kontakt mit der Polizei. Ministerpräsident Ulf Kristersson sprach von einem schweren Vorfall kurz nach den Sommerferien und betonte, man wisse noch nicht, was hinter der Tat stecke. Nach Polizeiangaben besteht keine Gefahr mehr für die Allgemeinheit."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Zum Motiv der Tat ist weiterhin nichts Gesichertes bekannt; ein Sprecher der Ermittlungsbehörden wurde am Tag nach der Tat mit dem Hinweis zitiert, die Arbeit habe gerade erst begonnen. Ob und mit welchem Vorwurf gegen den 18-jährigen Verdächtigen mittlerweile formell Anklage erhoben wurde, lässt sich anhand der vorliegenden, selbst eingesehenen Quellen nicht abschließend beurteilen; in einzelnen internationalen Medien kursierende Angaben zu einer möglichen Anklage sowie zu einer Vorgeschichte des Verdächtigen wurden hier bewusst nicht übernommen, da sie nicht anhand von selbst gelesenem Quellentext bestätigt werden konnten. Ebenso offen bleiben eine offizielle, direkt eingesehene Bestätigung der Opfer- und Verletztenzahlen durch Polizei oder Krankenhausbehörden sowie das Ergebnis der ursprünglich angekündigten, zunächst verschobenen Pressekonferenz von Kommune und Polizei."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Vorfall ereignet sich kurz nach Ende der Sommerferien und reiht sich in eine Serie von Gewalttaten an Schulen in Europa ein. Da es sich um ein laufendes Ermittlungsverfahren mit einem minderjährigen Todesopfer und mehreren jugendlichen Verletzten handelt, nennt dieser Artikel bewusst keine Namen von Privatpersonen und kennzeichnet Angaben zu Motiv, Vorgeschichte und etwaigem Anklagestatus des Verdächtigen als unbestätigt beziehungsweise offen. Gegenüber der ersten Berichterstattung haben sich vor allem Alter und Geschlecht des Opfers sowie Alter und Status des Verdächtigen als früherer Schüler inzwischen durch mehrere voneinander unabhängige Quellen bestätigt; eine direkt eingesehene behördliche Stellungnahme zum Ermittlungsstand steht weiterhin aus."
+      }
+    ],
+    "bodyKompakt": "An der Brinellskolan in der schwedischen Stadt Fagersta hat ein Angreifer am 21. August 2026 mehrere Menschen mit einem Schwert verletzt, eine Person kam dabei ums Leben. Die Polizei nahm den mutmaßlichen Täter zehn Minuten nach dem Alarm fest, nachdem sie ihm nach Boulevardmedien-Berichten ins Bein geschossen hatte; er befindet sich in Gewahrsam. Nach Polizeiangaben besteht keine Gefahr mehr für die Allgemeinheit.\n\nDas Todesopfer ist nach Angaben der Familie gegenüber der Zeitung „Fagersta-Posten“, die von weiteren schwedischen und internationalen Medien übernommen wurden, ein 17 Jahre altes Mädchen; ein Name wird nicht genannt. Beim Verdächtigen handelt es sich nach inzwischen mehrfach unabhängig bestätigten Berichten um einen 18 Jahre alten Mann und früheren Schüler der Schule. Von den drei weiteren Verletzten wurde einer laut aktuelleren Berichten bereits aus dem Krankenhaus entlassen, zwei Burschen im Alter zwischen 12 und 17 Jahren – einer notoperiert – werden mit stabilem Zustand weiterbehandelt. Justizminister Gunnar Strömmer und Ministerpräsident Ulf Kristersson äußerten sich öffentlich zum Einsatz.\n\nOffen bleiben weiterhin das Motiv der Tat sowie eine offizielle, direkt eingesehene Bestätigung der Angaben durch Polizei, Krankenhaus oder Staatsanwaltschaft; in einzelnen internationalen Medien kursierende Angaben zu einer möglichen Anklage oder zur Vorgeschichte des Verdächtigen wurden hier bewusst nicht übernommen, solange sie nicht anhand selbst gelesener Quellen bestätigt werden konnten. Eine gemeinsame Pressekonferenz von Kommune und Polizei war zunächst verschoben worden.",
+    "updateNote": "Aktualisiert: Das Todesopfer ist nach Familienangaben ein 17 Jahre altes Mädchen, der Verdächtige ein 18-jähriger früherer Schüler der Schule; zudem präzisierte sich der Zustand der Verletzten (einer entlassen, zwei stabil im Krankenhaus).",
+    "pendingOutcome": "Bestätigung von Motiv, Ermittlungsstand und einem etwaigen offiziellen Anklagestatus des Verdächtigen durch schwedische Behörden, sowie Ergebnis der angekündigten Pressekonferenz."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-23T06:07:33.426Z"
+}
