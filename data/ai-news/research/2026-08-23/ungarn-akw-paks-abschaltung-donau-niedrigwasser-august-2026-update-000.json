@@ -1,0 +1,378 @@
+{
+  "cluster": {
+    "id": "cluster-20260822-7ec2dfa1",
+    "title": "Ungarisches AKW Paks fährt Stromproduktion wieder hoch",
+    "items": [
+      {
+        "itemId": "d421f4323383018a75d077de8f329ba4e51141bb9692b80e4b84fb36ce8a7b74",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Ungarisches AKW Paks fährt Stromproduktion wieder hoch",
+        "url": "https://www.diepresse.com/41194874/ungarisches-akw-paks-faehrt-stromproduktion-wieder-hoch",
+        "summary": "Bis Ende der Woche sollen alle vier Blöcke erneut bei voller Kapazität Strom liefern und damit die drohende Energiekrise abwenden.",
+        "publishedAt": "2026-08-22T16:16:11.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "5d0162952a714ba9326770dcc4ca25137ed172bd69ec8d2c189410c3b3fa7f3c",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Ungarn: AKW Paks fährt Stromproduktion wieder hoch",
+        "url": "https://orf.at/stories/3439926",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "update_story",
+    "reason": "Substanzielle Fortentwicklung zu einer publizieren Story: Block 3 des AKW Paks wurde am 22.8.2026 hochgefahren, alle vier Blöcke sollen bis 28.8. volle Kapazität (2000 MW) erreichen. Die geplante Sohlschwelle mit Einsatz von ca. 150.000 m³ Gestein wurde gebaut und hebt den Donau-Wasserpegel an. Berichtet von zwei österreichischen Medien (Die Presse, ORF); beide Texte basieren jedoch auf identischen APA-Informationen. Beantwortet offene Frage der Vorgängerstory (Wiederinbetriebnahme-Zeitplan) und rechtfertigt Integration in bestehenden Artikel.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": 1,
+    "relatedSlug": "ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026",
+    "possibleClaims": [
+      "Block 3 des AKW Paks wurde am Samstagabend 22.8.2026 hochgefahren",
+      "Alle vier Blöcke sollen bis 28.8.2026 volle Kapazität von 2000 Megawatt erreichen",
+      "Donau-Wasserpegel wurde durch Sohlschwelle mit rund 150.000 Kubikmeter Gestein angehoben",
+      "Notfallmaßnahmen (Versenken von zwei 80-Meter-Lastkränen) ermöglichten Wiederinbetriebnahme",
+      "AKW Paks deckt etwa Hälfte des ungarischen Strombedarfs",
+      "Zuvor lief nur Block 2 mit 25 Prozent Leistung (zwei von acht Turbinen)"
+    ],
+    "missingSources": [
+      "Stellungnahmen von EU-Institutionen (Energiekommission, ENTSO-E) zur regionalen Versorgungssicherheit",
+      "Offizielle Reaktionen Österreichs oder der Slowakei als Donau-Anrainerstaaten",
+      "Ökologische oder schifffahrtstechnische Folgenabschätzung der Sohlschwelle",
+      "Unabhängige Verifikation des Hochfahren-Plans von nicht-ungarischen Quellen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026",
+    "title": "Ungarn fährt AKW Paks nach Bau der Sohlschwelle wieder hoch – volle Leistung bis 28. August geplant",
+    "description": "Nach dem Bau einer „Sohlschwelle“ in der Donau und dem Versenken zweier Lastkräne hat Ungarn Block 3 des Kraftwerks Paks wieder hochgefahren. Laut offiziellen Angaben sollen bis 28. August alle vier Blöcke wieder volle Kapazität erreichen.",
+    "topic": "wirtschaft",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Die Kernentwicklung – vollständige Abschaltung, schrittweise Wiederinbetriebnahme und nun der Neustart von Block 3 am 22. August mit Zieldatum 28. August für volle Kapazität – ist durch mehrere voneinander unabhängige österreichische Medien (derStandard, Die Presse, ORF) über den gesamten Verlauf hinweg übereinstimmend belegt. Die jüngste Meldung zum Neustart von Block 3 stammt aus zwei österreichischen Medien, die beide auf derselben APA-Meldung beruhen – keine zusätzliche voneinander unabhängige Bestätigung. Ob der Zeitplan bis 28. August tatsächlich eingehalten wird, ist eine Prognose und bleibt offen.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Auch die jüngste Entwicklung (Neustart Block 3, Zeitplan bis 28. August) liegt „Neue Nachrichten“ nur über eine Facebook-Ankündigung von Premier Péter Magyar vor, wiedergegeben in einer APA-Meldung, auf der beide neuen Medienquellen (Die Presse, ORF) beruhen. Eine eigenständige Regierungs- oder MVM-Pressemitteilung im Volltext wurde weiterhin nicht abgerufen; die technischen Details zur Sohlschwelle (150.000 Kubikmeter Gestein) und zu den versenkten Lastkränen stammen ebenfalls aus dieser einen Quellenkette.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Berichterstattung beruht weiterhin überwiegend auf Ankündigungen und Erfolgsmeldungen des Regierungschefs selbst, einschließlich der Einordnung durch den Verteidigungsminister, die Maßnahmen seien eine Frage der „Sicherheit des Landes“. Eine unabhängige technische oder energiewirtschaftliche Einschätzung Dritter (z. B. ENTSO-E, Umweltbehörden) liegt weiterhin nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Ungarn hat sein Atomkraftwerk Paks Anfang August wegen historischen Donau-Niedrigwassers vollständig vom Netz genommen und seither schrittweise wieder hochgefahren.",
+        "kind": "fact"
+      },
+      {
+        "text": "Am Abend des 22. August wurde Block 3 laut Premier Péter Magyar früher als geplant wieder hochgefahren; möglich wurde dies durch den gestiegenen Donau-Pegel und den Bau einer Sohlschwelle.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut offiziellen Angaben sollen bis zum 28. August alle vier Blöcke wieder bei voller Kapazität von 2.000 Megawatt Strom liefern; zuvor lief nur Block 2 mit rund 25 Prozent Leistung.",
+        "kind": "open"
+      },
+      {
+        "text": "Für die Sohlschwelle wurden nach übereinstimmenden Medienberichten rund 150.000 Kubikmeter Gestein verbaut, zusätzlich wurden zwei 80 Meter lange Lastkräne im Fluss versenkt, um den Pegel künstlich anzuheben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ungarns Verteidigungsminister betonte den Einsatz des Militärs beim Bau der Sohlschwelle und bezeichnete die Maßnahmen als Frage der Sicherheit des Landes.",
+        "kind": "fact"
+      },
+      {
+        "text": "Auch Bayern reagiert auf die Niedrigwasserlage und plant, die Donau zwischen Deggendorf und Vilshofen weiter auszubaggern – gegen Widerstand von Naturschützern und Grünen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleibt, ob der Zeitplan bis 28. August eingehalten wird und welche Folgen die Lage für Strompreise und Versorgungssicherheit im EU-Stromverbund hat.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Erreichen tatsächlich alle vier Blöcke von Paks wie angekündigt bis zum 28. August wieder volle Kapazität von 2.000 Megawatt?",
+      "Hebt die Sohlschwelle den Wasserstand dauerhaft in der ursprünglich genannten Größenordnung von bis zu einem Meter, auch über die aktuelle Wetterlage hinaus?",
+      "Welche konkreten Folgen hatte bzw. hat die reduzierte Stromproduktion für Strompreise und Versorgungssicherheit in Ungarn und im EU-Stromverbund?",
+      "Äußert sich eine EU-Institution wie die Energiekommission oder ENTSO-E offiziell zur regionalen Versorgungslage?",
+      "Welche ökologischen oder schifffahrtstechnischen Folgen haben Sohlschwelle und versenkte Lastkräne für die Donau, und gibt es dazu Stellungnahmen aus Österreich oder der Slowakei als Anrainerstaaten?",
+      "Ist die Einordnung als erste vollständige Abschaltung in 44 Betriebsjahren zutreffend und offiziell bestätigt?",
+      "Wie entwickelt sich die Lage an anderen Donau-Kraftwerken wie Cernavodă in Rumänien weiter?",
+      "Liegt inzwischen eine offizielle Regierungs- oder MVM-Pressemitteilung im Volltext zum aktuellen Betriebsstand vor?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3437946"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/40484217/mangel-an-kuehlwasser-ungarn-nimmt-akw-paks-vom-netz"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/40556795/mangel-an-kuehlwasser-ungarn-nimmt-akw-paks-vom-netz"
+      },
+      {
+        "id": "src4",
+        "name": "MVM Paksi Atomerőmű (Betreiber-Mitteilung)",
+        "type": "official",
+        "url": "https://atomeromu.mvm.hu/hu-HU/Rolunk/Hirek/20260730_leallas"
+      },
+      {
+        "id": "src5",
+        "name": "NBC News",
+        "type": "media",
+        "url": "https://www.nbcnews.com/world/europe/hungary-braces-full-shutdown-nuclear-plant-danube-river-hits-record-lo-rcna590347"
+      },
+      {
+        "id": "src6",
+        "name": "Euronews",
+        "type": "media",
+        "url": "https://www.euronews.com/my-europe/2026/07/30/hungarys-paks-nuclear-plant-faces-shutdown-as-danube-water-levels-hit-record-low"
+      },
+      {
+        "id": "src7",
+        "name": "Der Standard (Sohlschwelle-Ankündigung)",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000335331/niedrigwasser-ungarn-will-donau-f252r-atomkraftwerk-k252nstlich-anheben"
+      },
+      {
+        "id": "src8",
+        "name": "Der Standard (Turbine wieder in Betrieb)",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000334931/donau-pegel-gestiegen-atomkraftwerk-in-ungarn-faehrt-leistung-wieder-hoch"
+      },
+      {
+        "id": "src9",
+        "name": "Die Presse (Bayern/Ungarn Niedrigwasser)",
+        "type": "media",
+        "url": "https://www.diepresse.com/41169857/niedrigwasser-in-der-donau-bayern-will-flussbett-ausbaggern-ungarn-will-donau-kuenstlich-anheben"
+      },
+      {
+        "id": "src10",
+        "name": "ORF.at (Sohlschwelle)",
+        "type": "media",
+        "url": "https://orf.at/stories/3438986"
+      },
+      {
+        "id": "src11",
+        "name": "Xinhua",
+        "type": "media",
+        "url": "https://english.news.cn/20260812/42d584251b0b458cbeb33ab8e02a9e11/c.html"
+      },
+      {
+        "id": "src12",
+        "name": "ABC News (Agenturmeldung)",
+        "type": "media",
+        "url": "https://abcnews.com/International/wireStory/hungarys-government-plans-interventions-danube-river-nuclear-plant-135578854"
+      },
+      {
+        "id": "src13",
+        "name": "Die Presse (Wiederinbetriebnahme Block 3)",
+        "type": "media",
+        "url": "https://www.diepresse.com/41194874/ungarisches-akw-paks-faehrt-stromproduktion-wieder-hoch"
+      },
+      {
+        "id": "src14",
+        "name": "ORF.at (Wiederinbetriebnahme Block 3)",
+        "type": "media",
+        "url": "https://orf.at/stories/3439926"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ungarn hat sein Atomkraftwerk Paks, das nach übereinstimmenden Angaben fast die Hälfte des Landesstroms erzeugt, wegen eines historisch niedrigen Donau-Pegels vollständig vom Netz genommen.",
+        "status": "supported",
+        "note": "Übereinstimmend bestätigt durch Regierungsankündigung, Betreiberbestätigung auf dessen Website und mehrere unabhängige heimische wie internationale Medien.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Ursache ist der akute Mangel an Kühlwasser durch den historisch niedrigen Pegelstand der Donau infolge anhaltender Trockenheit.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Betreiber MVM Paksi Atomerőmű hatte bereits Ende Juli auf seiner Website erklärt, eine vollständige Abschaltung binnen 24 bis 72 Stunden sei unvermeidlich.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Laut internationalen Medienberichten handelt es sich um die erste vollständige Abschaltung des Kraftwerks in dessen rund 44-jähriger Betriebsgeschichte.",
+        "status": "partial",
+        "note": "Diese Einordnung stammt aus internationalen Medienberichten und liegt nicht anhand einer eigenständig geprüften Primärquelle vor.",
+        "sourceIds": [
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Regierungschef Magyar rechnete Medienberichten zufolge zunächst mit einer Wiederherstellung der vollen Leistung nach mehreren Wochen; dieser grobe Zeitrahmen deckt sich näherungsweise mit dem tatsächlichen Verlauf, da rund drei Wochen nach der Abschaltung Block 3 wieder hochgefahren wurde und die volle Kapazität aller vier Blöcke für 28. August angekündigt ist.",
+        "status": "supported",
+        "note": "Ob der neu angekündigte Zeitpunkt 28. August exakt eingehalten wird, ist als eigener Punkt weiterhin offen (siehe claim14).",
+        "sourceIds": [
+          "src5",
+          "src13",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der Wassermangel an der Donau wirkt sich laut ORF auch auf Schifffahrt und Tourismus in der Region aus.",
+        "status": "partial",
+        "note": "Diese Angabe stammt aus nur einer Quelle im Cluster.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Nachdem der Donau-Pegel leicht gestiegen war, nahm Ungarn ab 10. August nach Angaben von Ministerpräsident Magyar eine erste Turbine des Kraftwerks Paks wieder in Betrieb.",
+        "status": "partial",
+        "note": "Diese Angabe stammt bislang nur aus einer einzelnen Medienquelle, die sich auf eine Aussage Magyars stützt.",
+        "sourceIds": [
+          "src8"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Am 12. August lief Paks nach Regierungsangaben nur zu rund 25 Prozent seiner Kapazität, von acht Turbinen waren zwei in Betrieb.",
+        "status": "partial",
+        "note": "Von zwei unabhängigen Medien berichtet, beide beziehen sich letztlich auf dieselbe Ankündigung Magyars – keine eigenständig geprüfte Betriebsdatenquelle.",
+        "sourceIds": [
+          "src7",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Ministerpräsident Magyar kündigte am 12. August per Facebook-Video den Bau einer sogenannten „Sohlschwelle“ in der Donau an, um den Wasserstand künstlich anzuheben und die Kühlung von Paks langfristig zu sichern.",
+        "status": "supported",
+        "note": "Von drei voneinander unabhängigen österreichischen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src7",
+          "src9",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Internationalen Agenturmeldungen zufolge waren für die Sohlschwelle rund 150.000 Kubikmeter Gestein sowie umgerechnet knapp 16 Millionen Euro (rund sechs Milliarden Forint) veranschlagt; das Bauwerk soll den Wasserstand um bis zu einen Meter heben.",
+        "status": "partial",
+        "note": "Die veranschlagte Gesteinsmenge deckt sich mit der später von Presse/ORF gemeldeten tatsächlich verbauten Menge (siehe claim15); die Kostenangabe wurde bislang jedoch durch keine neue Quelle bestätigt und liegt weiterhin nur über internationale Agenturmeldungen vor, nicht über eine eigenständig geprüfte offizielle Quelle.",
+        "sourceIds": [
+          "src11",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Bayern plant, die Donau zwischen Deggendorf und Vilshofen weiter auszubaggern, um die Abladetiefe für die Binnenschifffahrt zu verbessern; Naturschützer und Grüne kritisieren die Maßnahme als bloße Symptombekämpfung.",
+        "status": "partial",
+        "note": "Diese Angabe stammt aus nur einer Quelle im Cluster.",
+        "sourceIds": [
+          "src9"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Block 3 des Kraftwerks Paks wurde am Abend des 22. August 2026 früher als geplant wieder hochgefahren; ermöglicht wurde dies laut Premier Magyar durch den gestiegenen Donau-Pegel und Baumaßnahmen an der Kühlwassersicherung.",
+        "status": "supported",
+        "note": "Von zwei österreichischen Medien berichtet, die sich beide auf dieselbe APA-Meldung stützen – keine zusätzliche, davon unabhängige Quelle.",
+        "sourceIds": [
+          "src13",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "Laut offiziellen Angaben sollen bis zum 28. August 2026 alle vier Blöcke von Paks wieder bei voller Kapazität von 2.000 Megawatt Strom liefern; zuvor lief nur Block 2 mit rund 25 Prozent Leistung, also zwei von acht Turbinen.",
+        "status": "partial",
+        "note": "Es handelt sich um eine Zielankündigung für ein Datum, das zum Zeitpunkt der Berichterstattung noch nicht erreicht war; ob der Zeitplan eingehalten wird, ist offen.",
+        "sourceIds": [
+          "src13",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim14",
+        "text": "Zur Anhebung des Donau-Pegels wurden rund 150.000 Kubikmeter Gestein für den Bau einer Sohlschwelle verbaut sowie zwei 80 Meter lange Lastkräne im Fluss versenkt.",
+        "status": "supported",
+        "note": "Beide neuen Medienquellen berichten übereinstimmend, beruhen aber auf derselben APA-Meldung.",
+        "sourceIds": [
+          "src13",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim15",
+        "text": "Ungarns Verteidigungsminister Romulusz Ruzsin-Szendi betonte den Einsatz des Militärs beim Bau der Sohlschwelle und bezeichnete die Maßnahmen nicht nur als technische Aufgabe, sondern als Frage des Funktionierens und der Sicherheit des Landes.",
+        "status": "supported",
+        "note": "Beide neuen Medienquellen berichten übereinstimmend, beruhen aber auf derselben APA-Meldung.",
+        "sourceIds": [
+          "src13",
+          "src14"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Ungarn hat sein einziges Atomkraftwerk Paks Anfang August vollständig vom Netz genommen, nachdem der Donau-Pegel auf ein historisches Tief gefallen war. Ministerpräsident Péter Magyar teilte die Entscheidung nach Angaben von ORF.at am 1. August über Facebook mit, am 2. August wurde die Abschaltung vollzogen. Der Betreiber, die MVM Paksi Atomerőmű, bestätigte den Schritt auf seiner eigenen Website. Paks erzeugt nach übereinstimmenden Angaben fast die Hälfte des ungarischen Stroms.\n\nNachdem der Pegel wieder leicht gestiegen war, nahm Ungarn laut Magyar ab 10. August eine erste Turbine wieder in Betrieb. Am 12. August lief die Anlage nach Angaben aus dem Regierungsumfeld allerdings weiterhin nur mit reduzierter Leistung: rund einem Viertel der Kapazität, mit zwei von acht Turbinen im Betrieb.\n\nAm Abend des 22. August folgte der nächste Schritt: Block 3 wurde nach Angaben Magyars früher als ursprünglich geplant wieder hochgefahren. Möglich wurde dies laut dem Premier durch den weiter gestiegenen Donau-Pegel sowie durch Baumaßnahmen an der Kühlwassersicherung. Laut offiziellen Angaben sollen bis zum 28. August alle vier Blöcke des Kraftwerks wieder bei voller Kapazität von 2.000 Megawatt Strom liefern. Ob dieser Zeitplan eingehalten wird, war zum Zeitpunkt der Berichterstattung noch nicht abzusehen."
+      },
+      {
+        "heading": "Wie es dazu kam",
+        "markdown": "Die Entwicklung zeichnete sich bereits seit Ende Juli ab: Der Betreiber hatte einzelne Blöcke gedrosselt und öffentlich erklärt, eine vollständige Abschaltung sei binnen 24 bis 72 Stunden nicht mehr auszuschließen – wie „Neue Nachrichten“ bereits berichtete, lief Paks zeitweise mit weniger als der Hälfte seiner üblichen Leistung. In den folgenden Tagen verschärfte sich die Lage weiter. Ursache ist stets derselbe Mechanismus: Die Kühlwasserpumpen der Anlage benötigen einen Mindestpegel, um Wasser aus der Donau ansaugen zu können. Sinkt der Pegel unter diese technische Schwelle, versagt die Kühlung – unabhängig davon, ob rechnerisch insgesamt noch genügend Wasser im Fluss vorhanden wäre."
+      },
+      {
+        "heading": "Die Sohlschwelle: von der Ankündigung zum Bauwerk",
+        "markdown": "Am 12. August kündigte Magyar per Facebook-Video an, den Wasserstand der Donau bei Paks nicht mehr nur abzuwarten, sondern aktiv anzuheben: Geplant war der Bau einer sogenannten Sohlschwelle, einer Art Staustufe, die Wasser vor dem Kraftwerk aufstauen soll, um die Kühlung dauerhaft zu sichern. Über diesen Plan berichteten mehrere österreichische Medien übereinstimmend.\n\nZehn Tage später ist die Maßnahme nach Medienberichten so weit fortgeschritten, dass sie zur Wiederinbetriebnahme von Block 3 beigetragen hat: Laut Die Presse und ORF wurden für die Sohlschwelle rund 150.000 Kubikmeter Gestein verbaut – eine Menge, die sich mit früheren Schätzungen aus internationalen Agenturmeldungen deckt. Zusätzlich wurden als Notfallmaßnahme zwei 80 Meter lange Lastkräne im Fluss versenkt, um den Pegel weiter künstlich anzuheben. Ungarns Verteidigungsminister Romulusz Ruzsin-Szendi betonte den Bau unter Einsatz des Militärs und bezeichnete die Maßnahmen nicht nur als technische, sondern auch als sicherheitspolitische Aufgabe für das Land. Diese jüngsten Angaben stammen aus zwei österreichischen Medien, die sich beide auf dieselbe Nachrichtenagentur-Meldung stützen – eine zusätzliche, davon unabhängige Bestätigung liegt „Neue Nachrichten“ nicht vor. Die zuvor über internationale Agenturen kolportierten Kostenangaben von umgerechnet knapp 16 Millionen Euro wurden durch die neuen Berichte weder bestätigt noch widerlegt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Kernaussagen – vollständige Abschaltung wegen Wassermangels, schrittweise Teil-Wiederinbetriebnahme, Bau der Sohlschwelle und nun der Neustart von Block 3 mit Zieldatum 28. August – sind über den gesamten Verlauf hinweg gut abgesichert: Sie decken sich in den Ankündigungen des Regierungschefs, der Bestätigung des Betreibers auf dessen eigener Website und der Berichterstattung mehrerer voneinander unabhängiger Medien, darunter auch internationale Häuser wie NBC News und Euronews. Bei der jüngsten Meldung zum Neustart von Block 3 handelt es sich allerdings nicht um eine erneut unabhängig verifizierte Entwicklung: Beide neuen Quellen (Die Presse, ORF) beziehen sich auf dieselbe APA-Meldung, die wiederum eine Facebook-Ankündigung Magyars wiedergibt. Weniger gesichert bleiben zudem Details am Rand: Dass es sich um die erste vollständige Abschaltung in der rund 44-jährigen Betriebsgeschichte des Kraftwerks handeln soll, stammt nur aus internationalen Medienberichten, und die ursprünglich genannten Kosten der Sohlschwelle sind weiterhin nicht offiziell bestätigt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist vor allem, ob der neu genannte Zeitplan bis 28. August tatsächlich eingehalten wird und alle vier Blöcke wie angekündigt wieder volle Kapazität erreichen. Unklar ist auch, ob die Sohlschwelle den Wasserstand dauerhaft in der ursprünglich genannten Größenordnung von bis zu einem Meter anhebt oder nur eine kurzfristige Wirkung entfaltet. Ebenso offen bleibt, welche konkreten Folgen die wochenlang reduzierte Erzeugungsleistung für Strompreise und Versorgungssicherheit in Ungarn und im europäischen Stromverbund hatte oder noch hat – eine Stellungnahme einer EU-Institution wie der Energiekommission oder des Netzbetreiber-Verbunds ENTSO-E liegt weiterhin nicht vor. Unklar sind zudem mögliche ökologische oder schifffahrtstechnische Folgen von Sohlschwelle und versenkten Lastkränen für die Donau sowie Reaktionen von Anrainerstaaten. Offen bleibt schließlich, wie sich die Lage an anderen Donau-Kraftwerken weiterentwickelt, etwa am rumänischen Cernavodă, wo zuletzt widersprüchliche Berichte über eine mögliche Reaktorabschaltung kursierten."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall Paks reiht sich in eine Serie ähnlicher Reaktionen auf das historische Donau-Niedrigwasser des Sommers 2026 ein: In Rumänien war zuletzt wegen derselben Ursache ein Reaktorblock des Kraftwerks Cernavodă vom Netz genommen worden, österreichische Energieversorger wie Verbund und Energie AG melden Einbußen bei der Wasserkraft-Stromproduktion, und in Bayern will die Landesregierung die Donau zwischen Deggendorf und Vilshofen weiter ausbaggern, um die Binnenschifffahrt zu sichern – gegen Widerstand von Naturschützern und den bayerischen Grünen, die die Maßnahme als bloße Symptombekämpfung kritisieren. Ungarns Ansatz, mit Sohlschwelle und versenkten Lastkränen aktiv in den Flusslauf einzugreifen, ging deutlich weiter als die reine Symptombekämpfung anderswo und wird von der Regierung selbst als Erfolg dargestellt – bis hin zur Einordnung durch den Verteidigungsminister als Frage der nationalen Sicherheit. Ob die bauliche Lösung tatsächlich nachhaltig wirkt oder die Anlage bei erneutem Niedrigwasser wieder gedrosselt werden muss, lässt sich anhand der bisherigen, überwiegend regierungsnahen Quellenlage seriös noch nicht beurteilen."
+      }
+    ],
+    "bodyKompakt": "Ungarn hat sein einziges Atomkraftwerk Paks, das fast die Hälfte des Landesstroms liefert, Anfang August wegen eines historisch niedrigen Donau-Pegels vollständig vom Netz genommen und seither schrittweise wieder hochgefahren. Ab 10. August lief eine erste Turbine wieder, am 12. August kündigte Ministerpräsident Péter Magyar zusätzlich den Bau einer „Sohlschwelle“ in der Donau an, um den Wasserstand künstlich anzuheben. Am Abend des 22. August wurde nun Block 3 früher als geplant wieder hochgefahren – ermöglicht laut Magyar durch den weiter gestiegenen Pegel sowie den fortschreitenden Bau der Sohlschwelle, für die nach Medienberichten rund 150.000 Kubikmeter Gestein verbaut wurden, zusätzlich wurden zwei 80 Meter lange Lastkräne im Fluss versenkt.\n\nLaut offiziellen Angaben sollen bis zum 28. August alle vier Blöcke wieder bei voller Kapazität von 2.000 Megawatt Strom liefern; zuvor lief nur Block 2 mit rund 25 Prozent Leistung. Ungarns Verteidigungsminister betonte den Einsatz des Militärs beim Bau und bezeichnete die Maßnahmen als Frage der Sicherheit des Landes. Diese jüngsten Angaben stammen aus zwei österreichischen Medien, die sich beide auf dieselbe Agenturmeldung stützen – eine unabhängige Bestätigung fehlt bislang, ebenso wie eine offizielle Regierungs- oder Betreibermitteilung im Volltext.\n\nAuch andernorts wird auf das Niedrigwasser reagiert: In Bayern plant die Landesregierung, die Donau zwischen Deggendorf und Vilshofen weiter auszubaggern, wogegen Naturschützer und Grüne protestieren. Offen bleibt, ob der Zeitplan bis 28. August eingehalten wird, ob die Sohlschwelle dauerhaft wirkt und welche Folgen die anhaltende Trockenheit für Strompreise und Versorgungssicherheit im EU-Stromverbund hat.",
+    "updateNote": "Block 3 des AKW Paks wurde am 22. August wieder hochgefahren; laut offiziellen Angaben sollen bis 28. August alle vier Blöcke wieder volle Kapazität erreichen, ermöglicht durch die fortschreitende Sohlschwelle (rund 150.000 m³ Gestein) und versenkte Lastkräne.",
+    "pendingOutcome": "Ob alle vier Blöcke des Kraftwerks Paks wie angekündigt bis zum 28. August 2026 tatsächlich wieder volle Kapazität von 2.000 Megawatt erreichen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-23T00:07:30.943Z"
+}
