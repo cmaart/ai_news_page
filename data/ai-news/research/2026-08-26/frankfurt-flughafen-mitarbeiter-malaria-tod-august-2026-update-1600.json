@@ -1,0 +1,295 @@
+{
+  "cluster": {
+    "id": "cluster-20260826-ac736174",
+    "title": "Zwei Tote durch Malaria auf Frankfurter Flughafen",
+    "items": [
+      {
+        "itemId": "9a7f814cbf03cc86bcac46b0c678e3f0320d21340f870a1227524d652af29a92",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Zwei Tote durch Malaria auf Frankfurter Flughafen",
+        "url": "https://orf.at/stories/3440309",
+        "publishedAt": "2026-08-26T15:22:12.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "90682b20e8fc60e79294a9e42bb32197caaf1705c594d991dcadae992ef89a41",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Zwei Tote durch Malaria am Frankfurter Flughafen",
+        "url": "https://kurier.at/chronik/welt/malaria-frankfurter-flughafen-tote-infektion-muecke/403186499",
+        "summary": "Unbeabsichtigt importierte Mücken für sogenannte Flughafenmalaria verantwortlich.",
+        "publishedAt": "2026-08-26T15:16:44.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "52120050692f1d15d47aa3c6c12c61bfd667972815f71b19b4b7df71efb3033c",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Zwei Tote durch Malaria am Frankfurter Flughafen",
+        "url": "https://kurier.at/chronik/welt/malaria-frankfurter-flughafen-tote-infektion-muecke/403186499",
+        "summary": "Unbeabsichtigt importierte Mücken für sogenannte Flughafenmalaria verantwortlich.",
+        "publishedAt": "2026-08-26T15:16:44.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "ccd6b8b92a5c79a66b215af1da34b0310551b7d31fd5b667f83957781dd40ef3",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Flughafen Frankfurt: Mitarbeiter an Malaria gestorben",
+        "url": "https://orf.at/stories/3440256",
+        "isNew": false
+      },
+      {
+        "itemId": "d56d4257d9f672e033f8f70578c9a69ba0ff6fb654d6c5fbf52c93cb34017c8e",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Mitarbeiter des Frankfurter Flughafens an Malaria gestorben",
+        "url": "https://www.derstandard.at/story/3000000337027/mitarbeiter-des-frankfurter-flughafens-an-malaria-gestorben",
+        "isNew": false
+      },
+      {
+        "itemId": "24d8cf1b19aaa5c4935196ee81a3370389cf312ec64b489b9121052f1314f250",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Mitarbeiter des Flughafens Frankfurt stirbt an Malaria",
+        "url": "https://www.diepresse.com/41204251/mitarbeiter-des-flughafens-frankfurt-stirbt-an-malaria",
+        "isNew": false
+      },
+      {
+        "itemId": "11bf7d1ab2d493d314d634c84844c60e3a6127a35ba98b481b8610c616640165",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Mitarbeiter des Frankfurter Flughafens an Malaria gestorben",
+        "url": "https://www.kleinezeitung.at/artikel/41204263/mitarbeiter-des-frankfurter-flughafens-an-malaria-gestorben",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster liefert substanziell neue Entwicklungen zur bereits publizierten Story: Bestätigung eines zweiten Todesfalls (heute bekannt gegeben, August-Ereignis), Klarstellung dass insgesamt 6 Beschäftigte betroffen waren (nicht nur einer), RKI-Bestätigung und Laboruntersuchungen der gefangenen Mücken. Dies rechtfertigt eine Erweiterung des bestehenden Artikels gemäß E53 (Update-vor-Delta). Die beobachtete Quellenlage (ORF, Kurier, derstandard, diePresse, kleinezeitung mit identischen Kernfakten aus Flughafenbetreiber und Gesundheitsamt) ist eine typische Agentur-Welle ohne erkennbare neuen Primärquellen; die Substanz liegt in der Kumulierung behördlicher Bestätigungen.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 5,
+    "relatedSlug": "frankfurt-flughafen-mitarbeiter-malaria-tod-august-2026",
+    "possibleClaims": [
+      "Zwei Beschäftigte des Frankfurter Flughafens sind an Malaria tropica gestorben (einer Anfang Juli, einer im August 2026).",
+      "Insgesamt sechs Flughafenbeschäftigte wurden mit Malaria tropica infiziert; vier sind genesen, zwei verstorben.",
+      "Die Infektionen wurden durch eine Anophelesmücke übertragen, die mit einem Flugzeug aus einem Malaria-Endemiegebiet importiert wurde.",
+      "Das Robert Koch-Institut bestätigte einen Ausbruch von vier Fällen Mitte Juli mit Infektionszeitraum 4.–6. Juli 2026.",
+      "Fraport hat Gelsenfallen aufgestellt und Mücken gefangen; diese werden laborchemisch untersucht.",
+      "Nach Aussage des Frankfurter Gesundheitsamtes ist das Risiko für die Zivilbevölkerung vernachlässigbar; eine Mensch-zu-Mensch-Übertragung ist unwahrscheinlich.",
+      "Der letzte dokumentierte vergleichbare Fall an einem deutschen Flughafen ereignete sich 2023 ebenfalls in Frankfurt."
+    ],
+    "missingSources": [
+      "Unabhängige, außerbehördliche Bestätigung der beiden Todesfälle (bisher nur über Flughafenbetreiber und Gesundheitsamt)",
+      "Konkrete Daten und Namen der verstorbenen Beschäftigten (nur: Juli, August; berufsgruppe unbekannt)",
+      "Ergebnisse der Laboruntersuchungen der gefangenen Mücken und Identifikation der Herkunftsregion",
+      "Reaktion von Fraport oder Gesundheitsbehörden zu strukturellen Präventionsmaßnahmen über Fallen hinaus",
+      "Stellungnahme oder Reaktion der betroffenen Arbeitnehmervertretung / Gewerkschaften"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "frankfurt-flughafen-mitarbeiter-malaria-tod-august-2026",
+    "title": "Zwei Mitarbeiter des Frankfurter Flughafens sterben an Malaria",
+    "description": "Nach einem ersten Todesfall im Juli ist im August ein zweiter Fraport-Beschäftigter an Malaria tropica gestorben; von insgesamt sechs betroffenen Mitarbeitern gelten vier als genesen.",
+    "topic": "gesellschaft",
+    "country": "de",
+    "confidence": "high",
+    "confidenceNote": "Der Kernfakt – zwei verstorbene und insgesamt sechs infizierte Fraport-Beschäftigte – wird nun übereinstimmend vom Frankfurter Gesundheitsamt (namentlich Amtsleiter Peter Tinnemann) und vom Flughafenbetreiber Fraport bestätigt und von mehreren voneinander unabhängigen Medien (ORF, Kurier, Der Standard, Die Presse, Kleine Zeitung) gleichlautend wiedergegeben; er gilt damit als bestätigt. Die Zahl der Infektionszeitpunkte und der Übertragungsweg stützen sich zusätzlich auf ein direkt zitiertes RKI-Bulletin.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es liegt weiterhin keine selbst eingesehene Original-Aussendung von Fraport, des Gesundheitsamts Frankfurt oder eine direkt aufgerufene RKI-Bulletin-Seite vor. Die Aussagen von Amtsleiter Tinnemann und der Ärztin Ellwanger Berry sind zwar namentlich und wörtlich zitiert, erreichen uns aber ausschließlich über Medienberichte (ORF, Kurier) mit Fulltext-Auszug – das macht diese Medien nicht zu Primärquellen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich stark auf offizielle Beruhigungs-Formulierungen von Fraport und dem Gesundheitsamt ('Risiko vernachlässigbar'); eine unabhängige epidemiologische Einordnung außerhalb der beteiligten Institutionen selbst liegt nicht vor. Zugleich ist die Quellenlage durch die namentliche Nennung verantwortlicher Amtsträger belastbarer als beim ursprünglichen, allein auf eine Fraport-Sprecherstimme gestützten Bericht.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Zwei Beschäftigte des Frankfurter Flughafens sind nach einer Infektion mit Malaria tropica gestorben – einer Anfang Juli, der zweite im August 2026, wie das Frankfurter Gesundheitsamt und Flughafenbetreiber Fraport bestätigten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Insgesamt haben sich sechs Beschäftigte mit Malaria tropica angesteckt; die vier übrigen gelten laut Gesundheitsamt inzwischen als behandelt und wieder wohlauf.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Robert Koch-Institut erkrankten die ersten vier Betroffenen zwischen 4. und 6. Juli 2026; Ursache soll eine mit dem Flugzeug eingeschleppte, infizierte Anophelesmücke sein – die sogenannte Flughafenmalaria.",
+        "kind": "fact"
+      },
+      {
+        "text": "Fraport hat Mückenfallen aufgestellt und gefangene Insekten zur Untersuchung in ein Labor gebracht, um Herkunft und Art der Mücke einzugrenzen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Leiter des Frankfurter Gesundheitsamts bezeichnete das Risiko für die Bevölkerung als vernachlässigbar; eine Übertragung von Mensch zu Mensch sei nicht zu erwarten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleiben die Ergebnisse der Laboruntersuchung der gefangenen Mücken sowie Details zu den Arbeitsbereichen und Umständen der beiden Todesfälle.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Zu welchem Ergebnis kommt die Laboruntersuchung der von Fraport gefangenen Mücken – lässt sich die Herkunftsregion bestimmen?",
+      "In welchen Arbeitsbereichen des Flughafens waren die beiden verstorbenen Beschäftigten tätig, und zu welchen genauen Zeitpunkten erfolgten ihre Infektionen?",
+      "Gibt es über die bekannten sechs Fälle hinaus weitere Verdachtsfälle, und wie lange bleibt das Gesundheitsamt wachsam?",
+      "Lässt sich die RKI-Angabe zum vergleichbaren Fall von 2023 am Frankfurter Flughafen anhand einer direkt eingesehenen RKI-Quelle nachvollziehen?",
+      "Welche strukturellen Präventionsmaßnahmen über die aktuellen Mückenfallen hinaus plant Fraport langfristig?",
+      "Gibt es eine Stellungnahme der Arbeitnehmervertretung bzw. Gewerkschaften der betroffenen Beschäftigten?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337027/mitarbeiter-des-frankfurter-flughafens-an-malaria-gestorben"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41204251/mitarbeiter-des-flughafens-frankfurt-stirbt-an-malaria"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41204263/mitarbeiter-des-frankfurter-flughafens-an-malaria-gestorben"
+      },
+      {
+        "id": "src4",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3440256"
+      },
+      {
+        "id": "src5",
+        "name": "t-online",
+        "type": "media",
+        "url": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101405666/malaria-ausbruch-in-frankfurt-am-main-sechs-infizierte-ein-toter.html"
+      },
+      {
+        "id": "src6",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3440309"
+      },
+      {
+        "id": "src7",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/malaria-frankfurter-flughafen-tote-infektion-muecke/403186499"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Zwei Mitarbeiter des Frankfurter Flughafens sind nach einer Malaria-tropica-Infektion gestorben – der erste Anfang Juli, der zweite im August 2026.",
+        "status": "supported",
+        "note": "Vom Frankfurter Gesundheitsamt und von Fraport bestätigt, übereinstimmend von ORF und Kurier (mit Fulltext-Auszug) sowie weiteren Medien berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Insgesamt haben sich sechs Beschäftigte des Flughafens mit Malaria tropica infiziert; vier gelten als behandelt und genesen, zwei sind gestorben.",
+        "status": "supported",
+        "note": "Vom Frankfurter Gesundheitsamt mitgeteilt, übereinstimmend von ORF und Kurier wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Ursache der Infektionen soll eine mit dem Flugzeug eingeschleppte, infizierte Anophelesmücke aus einem Malaria-Gebiet sein (sogenannte Flughafenmalaria).",
+        "status": "supported",
+        "note": "Übereinstimmende Angabe von Fraport, Gesundheitsamt und RKI laut ORF- und Kurier-Berichten.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Das Robert Koch-Institut bestätigte in seinem Epidemiologischen Bulletin einen Ausbruch von zunächst vier Malaria-Fällen bei Flughafenbeschäftigten, die zwischen 4. und 6. Juli 2026 erkrankten.",
+        "status": "supported",
+        "note": "Wörtlich aus dem RKI-Bulletin zitiert, unabhängig voneinander von ORF und Kurier wiedergegeben; die RKI-Seite selbst wurde nicht direkt eingesehen.",
+        "sourceIds": [
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Fraport hat als Reaktion Mückenfallen aufgestellt, Mücken eingefangen und lässt diese in einem Labor untersuchen, um die Herkunft einzugrenzen.",
+        "status": "supported",
+        "note": "Aussage eines Fraport-Sprechers, übereinstimmend von ORF und Kurier berichtet; Ergebnis der Laboruntersuchung liegt noch nicht vor.",
+        "sourceIds": [
+          "src2",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der Leiter des Frankfurter Gesundheitsamts, Peter Tinnemann, bezeichnete das Risiko einer Ausbreitung für die Frankfurter Bevölkerung als vernachlässigbar und eine Mensch-zu-Mensch-Übertragung als nicht gegeben.",
+        "status": "supported",
+        "note": "Namentlich zitierte Aussage des Amtsleiters, wortgleich in ORF- und Kurier-Berichten wiedergegeben.",
+        "sourceIds": [
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Bereits 2023 soll es am Flughafen Frankfurt einen vergleichbaren Fall von Flughafenmalaria gegeben haben, den letzten vor dem aktuellen Ausbruch.",
+        "status": "partial",
+        "note": "Laut Kurier eine Angabe des RKI selbst ('schreibt das Institut'), aber nur über eine einzelne Medienquelle mit Fulltext-Zitat belegt, keine direkt eingesehene RKI-Originalquelle; zusätzlich durch eine ältere, nicht im aktuellen Cluster enthaltene t-online-Meldung gestützt.",
+        "sourceIds": [
+          "src5",
+          "src7"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Am Frankfurter Flughafen sind zwei Beschäftigte nach einer Malaria-Infektion gestorben. Der erste Todesfall ereignete sich bereits Anfang Juli, wie das Gesundheitsamt der Stadt Frankfurt mitteilte – die Ursache habe sich allerdings erst nach dem Tod des Patienten geklärt. Der zweite Todesfall ereignete sich im August und wurde von Flughafenbetreiber Fraport bekanntgegeben. Damit ist die zuvor bekannte Zahl von einem Todesfall auf zwei gestiegen.\n\nInsgesamt waren laut Gesundheitsamt sechs Beschäftigte betroffen, die sich im Rahmen ihrer Arbeit mit Malaria tropica ansteckten – der gefährlichsten Verlaufsform der Krankheit. Den anderen vier Infizierten gehe es laut Behörde mittlerweile wieder gut, alle seien behandelt worden."
+      },
+      {
+        "heading": "Wie es zu den Infektionen kam",
+        "markdown": "Als Ursache gilt die sogenannte Flughafenmalaria: Eine infektiöse Mücke wurde unbeabsichtigt per Flugzeug oder im Gepäck aus einem Malaria-Gebiet eingeschleppt und infizierte Beschäftigte im Flughafenbereich. Das Robert Koch-Institut bestätigte bereits Mitte Juli in seinem Epidemiologischen Bulletin einen Ausbruch von zunächst vier Fällen und schrieb, die betroffenen Personen seien zwischen 4. und 6. Juli 2026 erkrankt; man gehe davon aus, dass die Infektion durch eine mit dem Flugzeug importierte, infizierte Anophelesmücke übertragen wurde.\n\nFraport hat nach eigenen Angaben als Reaktion Mückenfallen am Flughafengelände aufgestellt und Insekten eingefangen. Diese werden nun in einem Labor untersucht, um Herkunft und Art der Mücke näher zu bestimmen; ein Ergebnis lag zum Zeitpunkt der Berichterstattung noch nicht vor."
+      },
+      {
+        "heading": "Risikoeinschätzung der Behörden",
+        "markdown": "Der Leiter des Frankfurter Gesundheitsamts, Peter Tinnemann, äußerte sich zur Gefahr für die Allgemeinbevölkerung: Die eingeschleppte Mücke sei wahrscheinlich bereits tot, eine Ausbreitung von Mensch zu Mensch sei nicht gegeben. Das Risiko für die Frankfurter Bevölkerung bezeichnete er als vernachlässigbar. Auch eine Ärztin des Gesundheitsamts betonte laut Kurier die Seltenheit der Flughafenmalaria. Diese Einschätzungen stammen direkt von der zuständigen Behörde, sind aber – wie der gesamte Bericht – ausschließlich über Medienzitate und nicht über eine selbst eingesehene amtliche Mitteilung dokumentiert."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist weiterhin, in welchen Arbeitsbereichen des Flughafens die beiden verstorbenen Beschäftigten tätig waren und zu welchen genauen Zeitpunkten sich die einzelnen Infektionen ereigneten. Auch das Ergebnis der Laboruntersuchung der gefangenen Mücken steht noch aus. Unklar bleibt zudem, ob es über die bekannten sechs Fälle hinaus weitere Verdachtsfälle geben könnte. Ein Bericht verweist unter Berufung auf das RKI auf einen vergleichbaren früheren Fall aus dem Jahr 2023 am selben Flughafen – dies ließ sich anhand der vorliegenden Quellen jedoch nicht anhand einer direkt eingesehenen RKI-Quelle nachvollziehen. Namen der Betroffenen werden aus Persönlichkeitsschutzgründen nicht recherchiert und sind nicht Gegenstand dieses Artikels."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Frankfurt ist einer der größten Flughäfen Europas mit dichtem interkontinentalem Flugverkehr, was das Risiko einer zufälligen Einschleppung tropischer Insekten grundsätzlich erhöht. Dass daraus mehrere Infektionen mit zwei Todesfällen entstanden sind, bleibt laut Gesundheitsamt und RKI dennoch ein sehr seltenes Ereignis. Für Reisende oder Fluggäste ergibt sich aus den vorliegenden Informationen weiterhin kein unmittelbar erhöhtes Risiko, da alle bekannten Fälle bislang Beschäftigte im Arbeitsumfeld des Flughafens betreffen. Eine von den beteiligten Institutionen unabhängige Einschätzung durch externe Tropenmediziner oder Epidemiologen liegt weiterhin nicht vor."
+      }
+    ],
+    "bodyKompakt": "Am Frankfurter Flughafen sind zwei Beschäftigte nach einer Malaria-Infektion gestorben: einer Anfang Juli, der zweite im August 2026. Das teilten das Frankfurter Gesundheitsamt und Flughafenbetreiber Fraport mit. Insgesamt waren sechs Mitarbeiter betroffen, die sich mit Malaria tropica – der gefährlichsten Verlaufsform – ansteckten; die übrigen vier gelten inzwischen als behandelt und genesen.\n\nAls Ursache gilt die sogenannte Flughafenmalaria: Eine per Flugzeug eingeschleppte, infizierte Anophelesmücke aus einem Malaria-Gebiet soll die Beschäftigten im Flughafenbereich infiziert haben. Das Robert Koch-Institut bestätigte in seinem Epidemiologischen Bulletin, dass die ersten vier Betroffenen zwischen 4. und 6. Juli 2026 erkrankten. Fraport hat Mückenfallen aufgestellt und gefangene Insekten zur Untersuchung in ein Labor gebracht; Ergebnisse stehen noch aus.\n\nDer Leiter des Frankfurter Gesundheitsamts bezeichnete das Risiko für die Bevölkerung als vernachlässigbar, eine Übertragung von Mensch zu Mensch sei nicht zu erwarten. Offen bleiben unter anderem die Arbeitsbereiche der Verstorbenen, das Laborergebnis zu den gefangenen Mücken und ob es weitere Fälle geben könnte; ein möglicher Vergleichsfall aus 2023 am selben Flughafen ließ sich bislang nicht anhand einer direkt eingesehenen RKI-Quelle bestätigen.",
+    "updateNote": "Zweiter Todesfall bestätigt: Von insgesamt sechs infizierten Flughafenbeschäftigten sind nun zwei gestorben, vier gelten als genesen; zudem liegen erstmals direkte Zitate des Frankfurter Gesundheitsamts und des RKI zu Infektionszeitraum und Risikoeinschätzung vor.",
+    "pendingOutcome": "Ergebnis der Laboruntersuchung der von Fraport gefangenen Mücken sowie mögliche weitere Verdachtsfälle."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-26T16:07:38.757Z"
+}
