@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T18:21:08.916Z",
+  "updatedAt": "2026-08-26T20:24:26.359Z",
   "stories": {
     "us-angriffswelle-iran-juli-2026": {
       "canonicalTitle": "Iran-Konflikt: Iran will laut Berichten Verbot für US- und israelische Schiffe in Straße von Hormus – Route mit Oman vereinbart, Übergangsdeal mit den USA weiter offen",
@@ -4390,13 +4390,13 @@
       "echoPublishers": {}
     },
     "ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026": {
-      "canonicalTitle": "Ungarn fährt AKW Paks weiter hoch – mehrere Turbinen wieder am Netz, volle Leistung binnen Tagen angekündigt",
+      "canonicalTitle": "Ungarns AKW Paks wieder mit voller Leistung am Netz – Netzbetreiber hebt Krisenmodus auf",
       "slug": "ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026",
       "firstSeenAt": "2026-08-02T06:07:33.599Z",
-      "lastUpdatedAt": "2026-08-23T12:07:36.761Z",
+      "lastUpdatedAt": "2026-08-26T20:08:16.003Z",
       "status": "published",
       "articlePath": "src/content/articles/ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-23/ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026-update-1200.json",
+      "researchPath": "data/ai-news/research/2026-08-26/ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026-update-2000.json",
       "sourceUrls": [
         "https://orf.at/stories/3437946",
         "https://www.kleinezeitung.at/artikel/40484217/mangel-an-kuehlwasser-ungarn-nimmt-akw-paks-vom-netz",
@@ -4415,26 +4415,33 @@
         "https://orf.at/stories/3439926",
         "https://www.derstandard.at/story/3000000336616/gestiegener-donaupegel-ungarisches-akw-paks-geht-wieder-schrittweise-ans-netz",
         "https://english.news.cn/europe/20260823/662eaaf417e049f9b7efd818bc05dc63/c.html",
-        "https://www.bloomberg.com/news/articles/2026-08-22/hungary-to-restart-a-nuclear-reactor-as-danube-starts-to-rise"
+        "https://www.bloomberg.com/news/articles/2026-08-22/hungary-to-restart-a-nuclear-reactor-as-danube-starts-to-rise",
+        "https://orf.at/stories/3440329",
+        "https://www.derstandard.at/story/3000000337139/ungarn-akw-paks-ging-wieder-mit-maximalleistung-ans-netz",
+        "https://kurier.at/politik/ausland/ungarn-akw-paks-maximalleistung-ans-netz-donau/403186522",
+        "https://telex.hu/gazdasag/2026/08/25/mavir-megszunt-a-krizishelyzet-normalizalodott-az-eromuvi-aramellatas"
       ],
       "openQuestions": [
-        "Erreicht Paks tatsächlich alle acht Turbinen und die volle Kapazität von 2.000 Megawatt bis Mittwoch, 26. August – wie von Bloomberg und Xinhua berichtet – oder gilt weiterhin das zuvor über APA gemeldete Zieldatum 28. August?",
-        "Warum unterscheiden sich die Medienangaben zur Zahl der am 22./23. August laufenden Turbinen (drei bzw. vier)?",
-        "Hebt die Sohlschwelle den Wasserstand dauerhaft in der ursprünglich genannten Größenordnung von bis zu einem Meter, auch über die aktuelle Wetterlage hinaus?",
-        "Welche konkreten Folgen hatte bzw. hat die reduzierte Stromproduktion für Strompreise und Versorgungssicherheit in Ungarn und im EU-Stromverbund?",
+        "Sichert die Sohlschwelle den Wasserstand dauerhaft, auch über die aktuelle Wetterlage hinaus, oder droht bei erneuter Trockenheit eine neuerliche Drosselung von Paks?",
+        "Wie hoch war der Umfang der laut ORF durch den Ausfall nötig gewordenen Stromimporte, und welche Folgen hatte dies für Strompreise in Ungarn und im EU-Stromverbund?",
         "Äußert sich eine EU-Institution wie die Energiekommission oder ENTSO-E offiziell zur regionalen Versorgungslage?",
         "Welche ökologischen oder schifffahrtstechnischen Folgen haben Sohlschwelle und versenkte Lastkähne für die Donau, und gibt es dazu Stellungnahmen aus Österreich oder der Slowakei als Anrainerstaaten?",
         "Ist die Einordnung als erste vollständige Abschaltung in 44 Betriebsjahren zutreffend und offiziell bestätigt?",
         "Wie entwickelt sich die Lage an anderen Donau-Kraftwerken wie Cernavodă in Rumänien weiter?",
-        "Liegt inzwischen eine offizielle Regierungs- oder MVM-Pressemitteilung im Volltext zum aktuellen Betriebsstand vor?"
+        "Liegt inzwischen eine offizielle, im Volltext geprüfte Presseaussendung von Regierung, MAVIR oder Betreiber MVM zum aktuellen Betriebsstand vor?",
+        "Handelt es sich bei den unterschiedlichen Angaben zur Deckungsquote des Strombedarfs (rund 40 Prozent vs. „fast die Hälfte“) um dieselbe Größenordnung mit unterschiedlicher Rundung, oder liegen unterschiedliche Berechnungsgrundlagen vor?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-08-24T12:07:36.761Z",
-      "doNotUpdateBefore": "2026-08-23T18:07:36.761Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-24T14:07:38.461Z"
+      "doNotRedraftBefore": "2026-08-27T20:08:16.003Z",
+      "doNotUpdateBefore": "2026-08-27T02:08:16.003Z",
+      "echoPublishers": {
+        "orf": "2026-08-26T20:08:17.466Z",
+        "derstandard": "2026-08-26T20:08:18.560Z",
+        "kurier": "2026-08-26T20:08:18.804Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-26T20:08:16.003Z"
     },
     "wien-favoriten-luftgewehr-maedchen-verletzt-august-2026": {
       "canonicalTitle": "15-Jährige in Wien-Favoriten durch Luftgewehrprojektil verletzt – zwei Jugendliche festgenommen",
@@ -15763,7 +15770,7 @@
       "pendingOutcome": "Amtliches Ergebnis der Landtagswahl in Sachsen-Anhalt am 6. September 2026 und die anschließende Regierungsbildung stehen noch aus.",
       "pendingOutcomeUntil": "2026-08-28T04:07:35.326Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-08-26T00:07:41.570Z",
+        "kleinezeitung": "2026-08-26T20:08:19.956Z",
         "derstandard": "2026-08-26T04:07:38.516Z"
       },
       "resonanceLevel": 2,
@@ -18291,15 +18298,10 @@
       "doNotUpdateBefore": "2026-08-26T02:07:34.582Z",
       "pendingOutcome": "Offizielle Bekanntgabe einer verbindlichen Fallzahl sowie des konkreten Umsetzungsverfahrens durch das US-Außenministerium.",
       "pendingOutcomeUntil": "2026-08-27T20:07:34.582Z",
-      "echoPublishers": {
-        "orf": "2026-08-25T20:07:37.135Z",
-        "derstandard": "2026-08-25T20:07:40.491Z",
-        "diepresse": "2026-08-25T20:07:39.743Z",
-        "kleinezeitung": "2026-08-25T20:07:41.525Z"
-      },
-      "resonanceLevel": 4,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-26T08:07:36.866Z"
+      "resonanceMeasuredAt": "2026-08-26T20:08:16.003Z"
     },
     "schlangenbisse-studie-plos-medicine-august-2026": {
       "canonicalTitle": "Schlangenbisse töten laut neuer Studie deutlich mehr Menschen als bisher angenommen",
@@ -18331,9 +18333,6 @@
       "pendingOutcome": "Ob und um welchen Faktor die WHO ihre offiziellen Schätzungen zur weltweiten Schlangenbiss-Sterblichkeit aufgrund der Studie anpasst, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-08-28T12:07:32.155Z",
       "echoPublishers": {
-        "derstandard": "2026-08-25T20:07:41.246Z",
-        "diepresse": "2026-08-25T20:07:39.743Z",
-        "kurier": "2026-08-25T20:07:39.594Z",
         "kleinezeitung": "2026-08-26T12:07:37.063Z"
       },
       "resonanceLevel": 5,
@@ -18398,9 +18397,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-26T22:07:38.748Z",
       "doNotUpdateBefore": "2026-08-26T04:07:38.748Z",
-      "echoPublishers": {
-        "diepresse": "2026-08-25T20:07:39.743Z"
-      }
+      "echoPublishers": {}
     },
     "hornissenstich-todesfall-mettmach-august-2026": {
       "canonicalTitle": "32-Jähriger stirbt nach Hornissenstich in Oberösterreich",
@@ -18465,7 +18462,7 @@
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-26T06:07:33.839Z"
+      "resonanceMeasuredAt": "2026-08-26T20:08:16.003Z"
     },
     "dolly-parton-tot-august-2026": {
       "canonicalTitle": "Country-Legende Dolly Parton ist im Alter von 80 Jahren gestorben",
@@ -18690,8 +18687,6 @@
       "doNotUpdateBefore": "2026-08-26T12:07:33.839Z",
       "echoPublishers": {
         "diepresse": "2026-08-26T06:07:38.028Z",
-        "arstechnica": "2026-08-25T20:07:40.770Z",
-        "techcrunch": "2026-08-25T20:07:40.851Z",
         "orf": "2026-08-25T22:07:41.266Z",
         "derstandard": "2026-08-25T22:07:45.916Z",
         "kleinezeitung": "2026-08-25T22:07:44.591Z",
@@ -19011,11 +19006,75 @@
       "echoPublishers": {
         "kurier": "2026-08-26T18:08:30.271Z",
         "kleinezeitung": "2026-08-26T18:08:31.802Z",
-        "orf": "2026-08-26T16:07:40.891Z"
+        "orf": "2026-08-26T16:07:40.891Z",
+        "diepresse": "2026-08-26T20:08:19.051Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-26T20:08:16.003Z"
+    },
+    "vig-halbjahresgewinn-2026": {
+      "canonicalTitle": "Vienna Insurance Group steigert Gewinn vor Steuern im ersten Halbjahr 2026 um 20,7 Prozent",
+      "slug": "vig-halbjahresgewinn-2026",
+      "firstSeenAt": "2026-08-26T20:08:16.003Z",
+      "lastUpdatedAt": "2026-08-26T20:08:16.003Z",
+      "status": "published",
+      "articlePath": "src/content/articles/vig-halbjahresgewinn-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-26/vig-halbjahresgewinn-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000337003/vig-steigerte-gewinn-vor-steuern-im-ersten-halbjahr-um-ein-fuenftel",
+        "https://www.diepresse.com/41204082/vig-steigert-gewinn-vor-steuern-im-ersten-halbjahr",
+        "https://kurier.at/wirtschaft/vig-steigerte-gewinn-halbjahr-2026/403186321"
+      ],
+      "openQuestions": [
+        "Wie reagierten Aktienkurs und Analysten am 26. August 2026 auf die Halbjahreszahlen?",
+        "Wie schneidet die VIG im Vergleich zu anderen börsennotierten Versicherern und Finanzkonzernen der Region ab?",
+        "Welche konkreten Pläne verfolgt die VIG bei der weiteren Integration der Nürnberger Versicherung?",
+        "Warum wurde das Wachstum im Spezialmarkt Türkei bewusst gedrosselt, und welche strategischen Folgen hat das?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-27T20:08:16.003Z",
+      "doNotUpdateBefore": "2026-08-27T02:08:16.003Z",
+      "echoPublishers": {
+        "derstandard": "2026-08-26T08:07:42.356Z",
+        "diepresse": "2026-08-26T08:07:43.383Z",
+        "kurier": "2026-08-26T08:07:42.976Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-26T18:08:26.151Z"
+      "resonanceMeasuredAt": "2026-08-26T20:08:16.003Z"
+    },
+    "erdbeben-neunkirchen-niederoesterreich-august-2026": {
+      "canonicalTitle": "Leichtes Erdbeben der Stärke 2,2 erschüttert Niederösterreich bei Neunkirchen",
+      "slug": "erdbeben-neunkirchen-niederoesterreich-august-2026",
+      "firstSeenAt": "2026-08-26T20:08:16.003Z",
+      "lastUpdatedAt": "2026-08-26T20:08:16.003Z",
+      "status": "published",
+      "articlePath": "src/content/articles/erdbeben-neunkirchen-niederoesterreich-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-26/erdbeben-neunkirchen-niederoesterreich-august-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000336994/leichtes-erdbeben-in-nieder246sterreich-bei-neunkirchen",
+        "https://kurier.at/chronik/niederoesterreich/erdbeben-neunkirchen/403186313",
+        "https://noe.orf.at/stories/3368467",
+        "https://www.kleinezeitung.at/artikel/41203876/leichtes-erdbeben-in-niederoesterreich-bei-neunkirchen"
+      ],
+      "openQuestions": [
+        "Wurde das Beben über Ternitz und Seebenstein hinaus noch in weiteren Orten wahrgenommen?",
+        "In welcher Tiefe ereignete sich das Beben, und gibt es Hinweise auf Nachbeben in der Region?",
+        "Wie häufig registriert GeoSphere Austria vergleichbare leichte Beben im südlichen Wiener Becken, und ordnet die Behörde dieses Ereignis in ein größeres Muster ein?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-08-27T20:08:16.003Z",
+      "doNotUpdateBefore": "2026-08-27T02:08:16.003Z",
+      "echoPublishers": {
+        "derstandard": "2026-08-26T06:07:37.390Z",
+        "kurier": "2026-08-26T06:07:37.724Z",
+        "orf": "2026-08-26T04:07:37.763Z",
+        "kleinezeitung": "2026-08-26T04:07:40.995Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-26T20:08:16.003Z"
     }
   }
 }
