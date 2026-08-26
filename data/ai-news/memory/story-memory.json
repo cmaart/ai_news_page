@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T22:27:15.567Z",
+  "updatedAt": "2026-08-26T00:20:39.261Z",
   "stories": {
     "us-angriffswelle-iran-juli-2026": {
       "canonicalTitle": "Iran-Konflikt: Iran will laut Berichten Verbot für US- und israelische Schiffe in Straße von Hormus – Route mit Oman vereinbart, Übergangsdeal mit den USA weiter offen",
@@ -1419,56 +1419,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-07-31T16:07:35.395Z"
-    },
-    "dlauhy-oelv-rekord-400m-huerden-juli-2026": {
-      "canonicalTitle": "Anja Dlauhy läuft neuen ÖLV-Rekord über 400 m Hürden",
-      "slug": "dlauhy-oelv-rekord-400m-huerden-juli-2026",
-      "firstSeenAt": "2026-07-27T00:07:35.033Z",
-      "lastUpdatedAt": "2026-07-27T00:07:35.033Z",
-      "status": "published",
-      "articlePath": "src/content/articles/dlauhy-oelv-rekord-400m-huerden-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-27/dlauhy-oelv-rekord-400m-huerden-juli-2026.json",
-      "sourceUrls": [
-        "https://sport.orf.at/stories/3160669",
-        "https://www.kleinezeitung.at/artikel/39725350/dlauhy-mit-oelv-rekord-ueber-400-m-huerden",
-        "https://www.derstandard.at/story/3000000332448/oelv-rekorde-von-williams-ueber-100-m-und-strohmayer-dangl-ueber-400-m-huerden"
-      ],
-      "openQuestions": [
-        "Wer hielt den bisherigen ÖLV-Rekord über 400 m Hürden der Frauen, und um wie viel Zeit wurde er von Dlauhy unterboten?",
-        "Was besagt die von Der Standard separat gemeldete Rekordleistung von Strohmayer-Dangl über 400 m Hürden – handelt es sich um einen Männer-Rekord bei denselben Staatsmeisterschaften oder um ein anderes Ereignis?",
-        "Gibt es eine offizielle Stellungnahme des ÖLV mit weiteren Einzelheiten zum Wettkampf und zur Vorbereitung Dlauhys auf die EM in Birmingham?",
-        "Wie schnitten die übrigen österreichischen Athletinnen und Athleten am zweiten Tag der Staatsmeisterschaften ab?"
-      ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-07-28T00:07:35.033Z",
-      "doNotUpdateBefore": "2026-07-27T06:07:35.033Z",
-      "echoPublishers": {}
-    },
-    "nato-praktikantin-spionageverdacht-mons-juli-2026": {
-      "canonicalTitle": "Kanadische NATO-Praktikantin wegen Spionageverdachts festgenommen",
-      "slug": "nato-praktikantin-spionageverdacht-mons-juli-2026",
-      "firstSeenAt": "2026-07-27T00:07:35.033Z",
-      "lastUpdatedAt": "2026-07-27T00:07:35.033Z",
-      "status": "published",
-      "articlePath": "src/content/articles/nato-praktikantin-spionageverdacht-mons-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-07-27/nato-praktikantin-spionageverdacht-mons-juli-2026.json",
-      "sourceUrls": [
-        "https://kurier.at/politik/ausland/kanada-nato-praktikantin-spionage-festnahme/403178158",
-        "https://www.kleinezeitung.at/artikel/39680389/nato-praktikantin-wegen-spionageverdachts-festgenommen",
-        "https://www.cbc.ca/news/politics/canadian-intern-nato-spying-9.7283752",
-        "https://www.bloomberg.com/news/articles/2026-07-25/canadian-intern-at-nato-arrested-on-espionage-charges-in-belgium"
-      ],
-      "openQuestions": [
-        "Für welches Drittland oder welche Organisation soll die Praktikantin spioniert haben?",
-        "Welche konkreten Beweise liegen der Anklage wegen Spionage und Mitgliedschaft in einer kriminellen Vereinigung zugrunde?",
-        "Wie reagieren die kanadische Regierung und chinesische Stellen offiziell auf die Festnahme?",
-        "Gibt es eine Stellungnahme der Verdächtigen oder ihrer Verteidigung?",
-        "Zu welchem Ergebnis kommen die noch laufenden Ermittlungen, und wird Anklage erhoben?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-07-28T00:07:35.033Z",
-      "doNotUpdateBefore": "2026-07-27T06:07:35.033Z",
-      "echoPublishers": {}
     },
     "gleitschirmabsturz-mitterbach-gemeindealpe-juli-2026": {
       "canonicalTitle": "70-Jähriger stürzt bei Mitterbach am Erlaufsee mit Gleitschirm ab",
@@ -16105,10 +16055,12 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-24T00:07:30.943Z",
       "doNotUpdateBefore": "2026-08-23T06:07:30.943Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-24T02:07:34.841Z"
+      "echoPublishers": {
+        "kleinezeitung": "2026-08-26T00:07:41.570Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-26T00:07:35.215Z"
     },
     "orf-93-millionen-kuerzung-beitragserhoehung-2028": {
       "canonicalTitle": "ORF verliert 93 Millionen Euro Bundeszuschuss – Beitragserhöhung 2028 bleibt offen",
@@ -17531,9 +17483,9 @@
       "pendingOutcome": "Dauer des Krankenhausaufenthalts, Zeitpunkt einer möglichen Entlassung sowie eine Einschätzung der tatsächlich behandelnden Ärzte stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-08-26T06:07:32.151Z",
       "echoPublishers": {},
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-25T00:07:35.007Z"
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-26T00:07:35.215Z"
     },
     "crans-montana-moretti-haeusliche-gewalt-u-haft-august-2026": {
       "canonicalTitle": "Crans-Montana: Bar-Mitbesitzer Jacques Moretti wegen Verdachts auf häusliche Gewalt in Untersuchungshaft",
@@ -17637,10 +17589,10 @@
       "canonicalTitle": "Mann in Wien-Floridsdorf tot aufgefunden – Obduktion findet keine Hinweise auf Fremdverschulden",
       "slug": "mann-tot-wien-floridsdorf-fremdverschulden-august-2026",
       "firstSeenAt": "2026-08-24T12:07:31.452Z",
-      "lastUpdatedAt": "2026-08-25T08:07:35.198Z",
+      "lastUpdatedAt": "2026-08-26T00:07:35.215Z",
       "status": "published",
       "articlePath": "src/content/articles/mann-tot-wien-floridsdorf-fremdverschulden-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-25/mann-tot-wien-floridsdorf-fremdverschulden-august-2026-update-800.json",
+      "researchPath": "data/ai-news/research/2026-08-26/mann-tot-wien-floridsdorf-fremdverschulden-august-2026-update-000.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000336717/mann-tot-in-wien-gefunden-fremdverschulden-nicht-ausgeschlossen",
         "https://kurier.at/chronik/wien/floridsdorf-mann-tot-gefunden-streit-polizei-leopoldau/403185909",
@@ -17649,7 +17601,8 @@
         "https://wien.orf.at/stories/3368343",
         "https://wien.orf.at/stories/3368223",
         "https://www.diepresse.com/41199422/nach-lautstarkem-streit-leiche-in-wiener-wohnung-gefunden",
-        "https://www.diepresse.com/41199422/mord-in-floridsdorf-polizei-entdeckt-leiche-nach-streit-in-wiener-wohnung"
+        "https://www.diepresse.com/41199422/mord-in-floridsdorf-polizei-entdeckt-leiche-nach-streit-in-wiener-wohnung",
+        "https://www.derstandard.at/story/3000000336912/mann-tot-in-wien-gefunden-kein-fremdverschulden"
       ],
       "openQuestions": [
         "Wer hielt sich zum Zeitpunkt des Todes in der Wohnung auf, und welche Rolle spielte diese Person bzw. spielten diese Personen?",
@@ -17659,17 +17612,17 @@
         "Wie entwickelt sich das Ermittlungsverfahren des Landeskriminalamts Wien in den kommenden Tagen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-26T08:07:35.198Z",
-      "doNotUpdateBefore": "2026-08-25T14:07:35.198Z",
-      "pendingOutcome": "Ob sich der Verdacht auf ein Unterlassungsdelikt erhärtet und wer sich zum Todeszeitpunkt in der Wohnung aufgehalten hat, ist noch offen; die Ermittlungen des Landeskriminalamts Wien dauern an.",
+      "doNotRedraftBefore": "2026-08-27T00:07:35.215Z",
+      "doNotUpdateBefore": "2026-08-26T06:07:35.215Z",
+      "pendingOutcome": "Weiterentwicklung der Ermittlungen zu einem möglichen Unterlassungsdelikt, Identität des Mannes sowie Details zu den nachgewiesenen Drogen stehen noch aus.",
       "pendingOutcomeUntil": "2026-08-26T12:07:31.452Z",
       "echoPublishers": {
         "derstandard": "2026-08-25T12:07:39.871Z",
         "orf": "2026-08-25T08:07:37.536Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-25T14:07:43.889Z"
+      "resonanceMeasuredAt": "2026-08-26T00:07:35.215Z"
     },
     "linkedin-melde-button-eine-million-klicks-40-prozent-august-2026": {
       "canonicalTitle": "LinkedIn zieht erste Bilanz zum KI-Melde-Button: über eine Million Klicks, 40 Prozent weniger „Slop“-Views",
@@ -18841,6 +18794,76 @@
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-25T22:07:38.748Z"
+    },
+    "cia-chef-ratcliffe-moskau-besuch-august-2026": {
+      "canonicalTitle": "CIA-Chef Ratcliffe laut übereinstimmenden Berichten überraschend in Moskau eingetroffen",
+      "slug": "cia-chef-ratcliffe-moskau-besuch-august-2026",
+      "firstSeenAt": "2026-08-26T00:07:35.215Z",
+      "lastUpdatedAt": "2026-08-26T00:07:35.215Z",
+      "status": "published",
+      "articlePath": "src/content/articles/cia-chef-ratcliffe-moskau-besuch-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-26/cia-chef-ratcliffe-moskau-besuch-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3440205",
+        "https://www.diepresse.com/41203467/bericht-cia-chef-ratcliffe-ueberraschend-in-moskau",
+        "https://www.kleinezeitung.at/artikel/41203596/cia-direktor-ratcliffe-soll-zu-gespraechen-in-moskau-sein",
+        "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia",
+        "https://www.washingtonpost.com/national-security/2026/08/25/cia-director-moscow-rare-unannounced-trip/"
+      ],
+      "openQuestions": [
+        "Was genau war Gegenstand der mutmaßlichen Gespräche Ratcliffes in Moskau – Ukraine-Krieg, Iran oder andere Themen?",
+        "Wer waren die russischen Gesprächspartner Ratcliffes, und kam es tatsächlich zu einem persönlichen Treffen mit Auslandsgeheimdienstchef Naryschkin?",
+        "Bestätigen CIA, Weißes Haus oder Kreml den Besuch zu einem späteren Zeitpunkt offiziell?",
+        "Hat die Ukraine die berichtete Bitte der USA um eine Angriffspause erhalten, und wie hat sie darauf reagiert?",
+        "Führt der Besuch zu konkreten diplomatischen Schritten im Ukraine-Krieg oder bleibt er folgenlos?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-27T00:07:35.215Z",
+      "doNotUpdateBefore": "2026-08-26T06:07:35.215Z",
+      "pendingOutcome": "Offizielle Bestätigung und nähere Details zu Zweck, Gesprächspartnern und Ergebnis des mutmaßlichen Moskau-Besuchs von CIA-Chef Ratcliffe durch CIA, Weißes Haus oder Kreml.",
+      "pendingOutcomeUntil": "2026-08-28T00:07:35.215Z",
+      "echoPublishers": {
+        "orf": "2026-08-25T16:07:38.651Z",
+        "diepresse": "2026-08-25T16:07:40.218Z",
+        "kleinezeitung": "2026-08-25T16:07:42.124Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-26T00:07:35.215Z"
+    },
+    "dolly-parton-tot-august-2026": {
+      "canonicalTitle": "Country-Legende Dolly Parton ist im Alter von 80 Jahren gestorben",
+      "slug": "dolly-parton-tot-august-2026",
+      "firstSeenAt": "2026-08-26T00:07:35.215Z",
+      "lastUpdatedAt": "2026-08-26T00:07:35.215Z",
+      "status": "published",
+      "articlePath": "src/content/articles/dolly-parton-tot-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-26/dolly-parton-tot-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3407738",
+        "https://www.diepresse.com/41203748/country-ikone-dolly-parton-ist-tot",
+        "https://kurier.at/kultur/musik-country-dolly-parton-todesfall/403186307",
+        "https://www.kleinezeitung.at/artikel/41203742/musik-ikone-dolly-parton-ist-tot",
+        "https://www.derstandard.at/story/3000000336979/musik-ikone-dolly-parton-verstorben"
+      ],
+      "openQuestions": [
+        "Was war die genaue Todesursache?",
+        "Wird es über die private Trauerfeier der Familie hinaus offizielle öffentliche Gedenkveranstaltungen geben?",
+        "Wie hängt der Tod mit den zuvor berichteten gesundheitlichen Problemen (u. a. Nierensteine, Immun- und Verdauungssystem) zusammen?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-08-27T00:07:35.215Z",
+      "doNotUpdateBefore": "2026-08-26T06:07:35.215Z",
+      "echoPublishers": {
+        "orf": "2026-08-25T20:07:37.135Z",
+        "diepresse": "2026-08-25T20:07:39.743Z",
+        "kurier": "2026-08-25T20:07:39.342Z",
+        "kleinezeitung": "2026-08-25T20:07:41.205Z",
+        "derstandard": "2026-08-25T18:07:36.419Z"
+      },
+      "resonanceLevel": 5,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-26T00:07:35.215Z"
     }
   }
 }
