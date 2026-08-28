@@ -1,0 +1,198 @@
+{
+  "cluster": {
+    "id": "cluster-20260828-a15eafb8",
+    "title": "Iran-Krieg: Mehrkosten in Milliardenhöhe bei Öl und Gas",
+    "items": [
+      {
+        "itemId": "0c19108f4425e74b92db467bd37ebf1947c5d37f9e89c4c55a23a1e71fff99c9",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Iran-Krieg: Mehrkosten in Milliardenhöhe bei Öl und Gas",
+        "url": "https://orf.at/stories/3440492",
+        "publishedAt": "2026-08-28T10:23:43.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "dd9b97717e5aa035d721393623f5c8548e2f5656275af674de7bba39705a11ea",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Österreich zahlt drauf: Milliarden an Mehrkosten für Öl und Gas",
+        "url": "https://www.kleinezeitung.at/artikel/41210095/oelpreisrechnung-oesterreichs-mehrkosten-gehen-in-die-milliarden",
+        "summary": "Öl- und Gasabhängigkeit kommt Österreich durch kriegsbedingte Aufschläge teuer zu stehen. Private Autofahrer zahlten heuer bereits 228 Millionen Euro mehr.",
+        "publishedAt": "2026-08-28T10:10:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "13e2f51645f4ebc6113236e8a53b3ae20924d072d099bd494df0b8005ba58397",
+        "sourceId": "kleinezeitung_oesterreich",
+        "sourceType": "media",
+        "title": "Österreich zahlt drauf: Milliarden an Mehrkosten für Öl und Gas",
+        "url": "https://www.kleinezeitung.at/artikel/41210095/oelpreisrechnung-oesterreichs-mehrkosten-gehen-in-die-milliarden",
+        "summary": "Öl- und Gasabhängigkeit kommt Österreich durch kriegsbedingte Aufschläge teuer zu stehen. Private Autofahrer zahlten heuer bereits 228 Millionen Euro mehr.",
+        "publishedAt": "2026-08-28T10:10:00.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Österreichische Energieagentur quantifiziert heute (28.08.2026) die wirtschaftlichen Mehrkosten des Iran-Krieges für Österreich: Gas 500 Mio. Euro, Diesel 1,1 Mrd. Euro, Rohöl 680 Mio. Euro in 6 Monaten. Sachlich fundierte Zahlen mit direktem AT-Bezug (Haushalte, Betriebe), breite öffentliche Relevanz. Nicht nur Reaktion auf militärische Eskalation, sondern eigenständige Kostenanalyse mit eigener Schlagzeilen-Berechtigung. ORF und Kleine Zeitung berichten mit Fulltext-Details.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Österreichs Gaspreise (TTF-Index) haben sich in den vergangenen 6 Monaten verdoppelt und liegen derzeit bei etwa 66 Euro pro Megawattstunde.",
+      "Die Mehrausgaben für Erdgas in Österreich belaufen sich laut Energieagentur auf 500 Millionen Euro in 6 Monaten.",
+      "Diesel-Mehrkosten in Österreich: 1,1 Milliarden Euro (netto) in 6 Monaten.",
+      "Rohöl-Mehrkosten (Brent) summierten sich laut Energieagentur auf etwa 680 Millionen Euro.",
+      "Der Brent-Rohölpreis stieg von 67 Dollar auf über 120 Dollar pro Barrel und notiert derzeit bei 90 Dollar.",
+      "Österreich verkauft täglich im Durchschnitt 18 Millionen Liter Diesel.",
+      "Österreich importiert jährlich Kohle, Öl und Gas im Gesamtwert von 9 bis 10 Milliarden Euro."
+    ],
+    "missingSources": [
+      "Direkter Link oder Volltext der heutigen Energieagentur-Aussendung",
+      "Unabhängige Bestätigung der Kostenrechnung (zB. WIFO, IHS Markit, Statistik Austria)",
+      "Historische TTF- und Brent-Preisdaten zur Bestätigung der Baseline und Verdopplung seit Iran-Kriegsbeginn",
+      "Detaillierte Methodik der Energieagentur-Berechnung und Annahmen (zB. Umlagung auf Verbraucher vs. Industrie)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "iran-krieg-oesterreich-energiemehrkosten-august-2026",
+    "title": "Iran-Krieg treibt Öl- und Gaskosten in Österreich in Milliardenhöhe",
+    "description": "Die Österreichische Energieagentur beziffert die kriegsbedingten Mehrkosten für Gas, Diesel und Rohöl in Österreich seit Beginn des Iran-Kriegs auf zusammen mehrere Milliarden Euro.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Die Zahlen stammen aus einer eigenen Aussendung der Österreichischen Energieagentur, die laut ORF-Kennzeichnung über Agenturen (APA) verbreitet und von mehreren Medien inhaltlich übereinstimmend wiedergegeben wurde.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die Aussendung der Energieagentur selbst wurde nicht direkt gefunden oder gelesen, sondern nur über Medienberichte, die daraus zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es liegt ausschließlich die Kostenschätzung der Energieagentur selbst vor; eine unabhängige Prüfung der Berechnungsmethode oder eine Einordnung durch andere Institutionen (etwa WIFO) fehlt in den vorliegenden Quellen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Seit Beginn des Iran-Kriegs vor rund sechs Monaten summierten sich die Mehrkosten für Öl und Gas in Österreich laut Österreichischer Energieagentur auf einen Milliardenbetrag.",
+        "kind": "fact"
+      },
+      {
+        "text": "Höhere Gaspreise verursachten rund 500 Millionen Euro Mehrkosten, Diesel schlug mit 1,1 Milliarden Euro netto zu Buche, der Rohölpreisanstieg mit rund 680 Millionen Euro.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der europäische Gaspreis (TTF) hat sich seit Kriegsbeginn verdoppelt, der Rohölpreis (Brent) liegt derzeit rund ein Drittel über dem Vorkriegsniveau.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine laut Kleine Zeitung zusätzliche Zahl zu Mehrkosten privater Autofahrer (228 Millionen Euro) ist bislang nur einfach belegt.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie die Energieagentur ihre Kostenschätzung methodisch genau berechnet und ob sie unabhängig überprüft wurde, bleibt offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie hat die Österreichische Energieagentur die Kostenschätzung methodisch berechnet, und welche Annahmen liegen ihr zugrunde?",
+      "Bestätigen unabhängige Institutionen wie WIFO oder IHS die Kostenrechnung der Energieagentur?",
+      "Lässt sich die von Kleine Zeitung genannte Zahl von 228 Millionen Euro Mehrkosten für private Autofahrer heuer unabhängig bestätigen?",
+      "In welchem Ausmaß werden die Mehrkosten an Haushalte und Betriebe weitergegeben und in welchem Ausmaß von Unternehmen selbst getragen?",
+      "Wie entwickeln sich die Energiepreise weiter, sollte sich der Iran-Krieg fortsetzen oder eskalieren?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at: „Iran-Krieg: Mehrkosten in Milliardenhöhe bei Öl und Gas“",
+        "type": "media",
+        "url": "https://orf.at/stories/3440492"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung: „Österreich zahlt drauf: Milliarden an Mehrkosten für Öl und Gas“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41210095/oelpreisrechnung-oesterreichs-mehrkosten-gehen-in-die-milliarden"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Seit Beginn des Iran-Kriegs vor rund sechs Monaten summierten sich die Mehrkosten durch gestiegene Öl- und Gaspreise in Österreich laut Schätzung der Österreichischen Energieagentur auf einen Milliardenbetrag.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der europäische Gaspreis (TTF) hat sich laut Energieagentur seit Kriegsbeginn verdoppelt und liegt derzeit bei rund 66 Euro je Megawattstunde; die dadurch bedingten Mehrkosten beziffert die Agentur mit rund 500 Millionen Euro in sechs Monaten.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Für Diesel fielen laut Energieagentur in sechs Monaten Mehrkosten von 1,1 Milliarden Euro netto an, bei einem in Österreich durchschnittlichen Tagesverbrauch von rund 18 Millionen Litern.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Anstieg des Rohölpreises (Brent) – von 67 US-Dollar vor Kriegsbeginn über zeitweise mehr als 120 Dollar bis derzeit rund 90 Dollar je Barrel – schlug laut Energieagentur mit rund 680 Millionen Euro zu Buche.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Private Autofahrerinnen und Autofahrer in Österreich zahlten heuer bereits um 228 Millionen Euro mehr für Treibstoff.",
+        "status": "partial",
+        "note": "Nur von Kleine Zeitung genannt, im ORF-Text nicht enthalten; Herkunft und Berechnungsgrundlage der Zahl sind aus den vorliegenden Quellen nicht ersichtlich.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Österreich importiert normalerweise jährlich Kohle, Öl und Gas im Gesamtwert von neun bis zehn Milliarden Euro.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Energiekosten für Haushalte und Betriebe in Österreich sind seit Beginn des Iran-Kriegs deutlich gestiegen. Das geht aus einer Aussendung der Österreichischen Energieagentur hervor, über die ORF.at berichtet. Seit Kriegsbeginn vor rund sechs Monaten summierten sich die Mehrkosten durch gestiegene Preise bei Erdöl und Gas laut der Agentur auf einen Milliardenbetrag. Der Iran-Krieg zwischen den USA, Israel und Iran läuft seit Ende Februar 2026 und hat seither wiederholt zu Störungen bei Energielieferungen und Preisausschlägen geführt, wie auch in eigener Berichterstattung zur Lage rund um die Straße von Hormuz dokumentiert."
+      },
+      {
+        "heading": "Was die Zahlen zeigen",
+        "markdown": "Die Energieagentur schlüsselt die Mehrkosten nach Energieträgern auf. Beim Gas verdoppelte sich der Preis binnen sechs Monaten: Der europäische Referenzpreis TTF liegt derzeit bei rund 66 Euro je Megawattstunde. Das bescherte laut Schätzung der Agentur Mehrkosten von rund 500 Millionen Euro. Noch stärker schlägt der Diesel zu Buche: Bei einem in Österreich durchschnittlichen Tagesverbrauch von rund 18 Millionen Litern fielen in sechs Monaten Mehrkosten von 1,1 Milliarden Euro netto an, ohne Mehrwertsteuer gerechnet. Insgesamt summierten sich die Treibstoffausgaben demnach auf sechs Milliarden Euro netto. Ein wesentlicher Teil dieser Mehrkosten geht laut Energieagentur auf den Anstieg des Rohölpreises zurück: Rund 680 Millionen Euro entfallen demnach auf die Verteuerung von Rohöl der Sorte Brent, das von 67 US-Dollar vor Kriegsbeginn zeitweise auf über 120 Dollar je Barrel stieg und aktuell bei rund 90 Dollar notiert. Zum Vergleich nennt die Agentur die üblichen Importwerte: Normalerweise führt Österreich jährlich Kohle, Öl und Gas im Wert von neun bis zehn Milliarden Euro ein. Die Kleine Zeitung berichtet zusätzlich, private Autofahrerinnen und Autofahrer hätten heuer bereits um 228 Millionen Euro mehr für Treibstoff bezahlt; diese Zahl findet sich nur in dieser einen Quelle."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Aus den vorliegenden Berichten geht nicht hervor, nach welcher genauen Methode die Energieagentur ihre Schätzung berechnet hat, etwa welche Annahmen zur Weitergabe der Preissteigerungen an Verbraucherinnen und Verbraucher oder zur Abgrenzung zwischen Haushalten und Unternehmen zugrunde liegen. Eine unabhängige Bestätigung der Zahlen durch andere Institutionen wie WIFO oder IHS liegt nicht vor, ebenso wenig ein direkt einsehbarer Volltext der Aussendung. Auch die von Kleine Zeitung genannte Zahl von 228 Millionen Euro Mehrkosten für private Autofahrer ist bislang nur einfach belegt und nicht näher erläutert."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die gemeldeten Mehrkosten reihen sich in eine Serie von Berichten ein, die den Iran-Krieg als Preistreiber für die österreichische Wirtschaft beschreiben. In eigener Berichterstattung zur Inflation im Juli 2026 hatte ein WIFO-Ökonom bereits davor gewarnt, dass sich kriegsbedingt höhere Transport- und Düngemittelkosten erst in den kommenden Monaten stärker in den Lebensmittelpreisen niederschlagen dürften. Die nun bezifferten Öl- und Gasmehrkosten liefern dazu eine weitere, eigenständige Kennzahl, ersetzen aber keine unabhängige Prüfung der zugrunde liegenden Berechnung."
+      }
+    ],
+    "bodyKompakt": "Die Energiekosten für Haushalte und Betriebe in Österreich sind seit Beginn des Iran-Kriegs deutlich gestiegen. Laut einer Aussendung der Österreichischen Energieagentur, über die ORF.at berichtet, summierten sich die Mehrkosten durch höhere Öl- und Gaspreise seit Kriegsbeginn vor rund sechs Monaten auf einen Milliardenbetrag. Der Gaspreis verdoppelte sich in diesem Zeitraum auf rund 66 Euro je Megawattstunde, was Mehrkosten von etwa 500 Millionen Euro verursachte. Bei Diesel fielen 1,1 Milliarden Euro netto an Mehrkosten an, ein wesentlicher Teil davon – rund 680 Millionen Euro – geht auf den gestiegenen Rohölpreis zurück, der von 67 auf zeitweise über 120 US-Dollar je Barrel kletterte und aktuell bei rund 90 Dollar liegt.\n\nDie Kleine Zeitung ergänzt, private Autofahrerinnen und Autofahrer hätten heuer bereits 228 Millionen Euro mehr bezahlt – eine Zahl, die bislang nur diese eine Quelle nennt. Offen bleibt, nach welcher Methode die Energieagentur rechnet und ob unabhängige Institutionen die Schätzung bestätigen. Die Zahlen passen zu Warnungen von WIFO-Ökonomen, wonach der Iran-Krieg über höhere Transport- und Düngemittelkosten mittelfristig auch die Lebensmittelpreise weiter treiben dürfte.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-28T12:07:30.347Z"
+}
