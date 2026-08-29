@@ -1,0 +1,212 @@
+{
+  "cluster": {
+    "id": "cluster-20260828-f2cc50bf",
+    "title": "Google passt im Spam-Streit mit EU-Kommission Richtlinien an",
+    "items": [
+      {
+        "itemId": "474ca872433fb5124a08aa11dba01962228f2daac07a7da0c9da13dc93c59960",
+        "sourceId": "derstandard_web",
+        "sourceType": "media",
+        "title": "Google passt im Spam-Streit mit EU-Kommission Richtlinien an",
+        "url": "https://www.derstandard.at/story/3000000337436/google-passt-im-spam-streit-mit-eu-kommission-richtlinien-an",
+        "summary": "Bei Verstößen gegen den DMA drohen Unternehmen Strafen von bis zu zehn Prozent ihres weltweiten Jahresumsatzes",
+        "publishedAt": "2026-08-28T09:27:04.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "335e6a8d0a19ebea24d08a711ed82f4211417f29d7733b324b447d762d8dc8f4",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Google passt im Streit mit EU-Kommission Richtlinien an",
+        "url": "https://www.diepresse.com/41209838/google-passt-im-streit-mit-eu-kommission-richtlinien-an",
+        "summary": "Um eine drohende Wettbewerbsstrafe abzuwenden, passt Google seine Richtlinien an und reagiert damit auf die Beschwerden von Verlagen.",
+        "publishedAt": "2026-08-28T08:02:02.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "4a0170c7c2877baf6bf3077b3f969e1b0a0caf12e2d886d4e84b940eb931f738",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "Google passt im Streit mit EU-Kommission Richtlinien an",
+        "url": "https://www.diepresse.com/41209838/google-passt-im-streit-mit-eu-kommission-richtlinien-an",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Eigenständige, aktuelle News mit regulatorischem Kontext (DMA-Verfahren) und konkretem Datum (30. August). Breit berichtet in österreichischen Medien (Der Standard, Die Presse). Substanz für Artikel vorhanden: konkrete Regeländerung bei Google, geografischer Geltungsbereich (EU27 + Island/Norwegen/Liechtenstein), Hintergrund (Verlag-Beschwerde über 'Site Reputation Abuse'), Strafen-Drohung. Relevanz für EU/Österreich gegeben (Tech-Regulierung, Mediensektor). Kein Kandidat aus relatedStories passt (Apple/App-Store, Ceuta-Krise und Google-Earth sind separate Stories).",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Google ändert Spam-Erkennungsrichtlinien (‚Site Reputation Abuse') in Europa am 30. August 2026",
+      "Regeländerung betrifft EU27 sowie Island, Norwegen und Liechtenstein",
+      "Grund: Beschwerde von Verlagen, die sich durch die Richtlinien benachteiligt sehen",
+      "EU-Kommission führt Verfahren auf Basis des Digital Markets Act (DMA) durch",
+      "Verstöße gegen DMA können mit Strafen bis zu 10 Prozent des weltweiten Jahresumsatzes geahndet werden",
+      "Regelung außerhalb des EWR bleibt unverändert",
+      "Google hatte die bisherige Praxis in der Vergangenheit verteidigt"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme oder Zeitplan von der EU-Kommission zum DMA-Verfahren",
+      "Konkrete Identifikation der beschwerdeten Verlage oder Verlagsverbände",
+      "Technische Details: Wie genau ändern sich die Spam-Filter konkret?",
+      "Reaktion von Verlagen auf Googles Anpassung",
+      "Bewertung durch Medienpolitik-Experten oder Wettbewerbsrechtsanwälte"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "google-site-reputation-abuse-eu-dma-august-2026",
+    "title": "Google setzt Spam-Richtlinie gegen Verlage im EWR nach EU-Druck aus",
+    "description": "Google wendet seine „Site Reputation Abuse“-Regel ab 30. August 2026 im gesamten Europäischen Wirtschaftsraum nicht mehr an – Reaktion auf ein DMA-Verfahren der EU-Kommission, das Google die Benachteiligung von Verlagen in der Google-Suche vorwirft.",
+    "topic": "wirtschaft",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Google hat die Änderung selbst offiziell verkündet (eigener Search-Central-Blogeintrag), und die zugrunde liegende EU-Untersuchung ist durch eine eigene Pressemitteilung der EU-Kommission dokumentiert – damit gilt der Kernvorgang nach der Rubrik als bestätigt, auch wenn die beiden Medienberichte erkennbar dieselbe Agenturmeldung wiedergeben.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Es wurden sowohl Googles eigener Blogeintrag zur Richtlinienänderung als auch die offizielle Pressemitteilung der EU-Kommission zur Verfahrenseröffnung recherchiert und ausgewertet, aber nicht als vollständiger Rohtext eingesehen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es liegen die Positionen von Google und der EU-Kommission vor, aber keine direkten Stellungnahmen einzelner betroffener Verlage oder Verlegerverbände zur nun erfolgten Anpassung.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Google setzt ab 30. August 2026 im gesamten Europäischen Wirtschaftsraum (EU-27 sowie Island, Norwegen, Liechtenstein) die Durchsetzung seiner „Site Reputation Abuse“-Richtlinie aus.",
+        "kind": "fact"
+      },
+      {
+        "text": "Hintergrund ist ein Verfahren der EU-Kommission nach dem Digital Markets Act, das im November 2025 eröffnet wurde und Google vorwirft, Verlage in der Google-Suche benachteiligt zu haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei einem bestätigten DMA-Verstoß drohen Google Strafen von bis zu 10, im Wiederholungsfall bis zu 20 Prozent des weltweiten Jahresumsatzes.",
+        "kind": "fact"
+      },
+      {
+        "text": "Außerhalb des EWR bleibt Googles bisherige Praxis unverändert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob die EU-Kommission ihr Verfahren nun einstellt oder weitere Nachbesserungen von Google verlangt, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Stellt die EU-Kommission ihr DMA-Verfahren gegen Google nach dieser Anpassung ein, oder verlangt sie weitere Änderungen?",
+      "Wie reagieren betroffene Verlage oder Verlegerverbände konkret auf die neue Regelung?",
+      "Welche technischen und inhaltlichen Details umfasst die Änderung genau, etwa wie bestehende manuelle Maßnahmen im EWR künftig behandelt werden?",
+      "Wird die EU-Kommission die Umsetzung der Änderung ab 30. August aktiv überprüfen, ähnlich wie im parallelen Apple-App-Store-Verfahren?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337436/google-passt-im-spam-streit-mit-eu-kommission-richtlinien-an"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41209838/google-passt-im-streit-mit-eu-kommission-richtlinien-an"
+      },
+      {
+        "id": "src3",
+        "name": "Google Search Central Blog",
+        "type": "primary",
+        "url": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy"
+      },
+      {
+        "id": "src4",
+        "name": "Europäische Kommission – Pressemitteilung",
+        "type": "official",
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_2675"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Google setzt ab 30. August 2026 im gesamten Europäischen Wirtschaftsraum (EU-27 sowie Island, Norwegen und Liechtenstein) die Durchsetzung manueller Maßnahmen gegen sogenannten „Site Reputation Abuse“ aus.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die EU-Kommission hatte im November 2025 ein Verfahren nach dem Digital Markets Act eröffnet, um zu prüfen, ob Google mit dieser Richtlinie Verlage in der Google-Suche benachteiligt und damit gegen die Artikel 6(5) und 6(12) DMA verstößt.",
+        "status": "supported",
+        "note": "Datum und Rechtsgrundlage stammen aus der Pressemitteilung der EU-Kommission; die beiden Medienberichte erwähnen die Untersuchung nur allgemein, ohne Datum.",
+        "sourceIds": [
+          "src4",
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Bei einem bestätigten DMA-Verstoß drohen Google Geldstrafen von bis zu 10 Prozent des weltweiten Jahresumsatzes, im Wiederholungsfall bis zu 20 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Außerhalb des Europäischen Wirtschaftsraums bleibt Googles bisherige Praxis bei der Durchsetzung der Richtlinie unverändert.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Verlage hatten sich zuvor darüber beschwert, dass Googles Richtlinie sie in der Suche benachteilige, wenn ihre Seiten Inhalte kommerzieller Partner enthalten.",
+        "status": "partial",
+        "note": "Die Presse spricht von Beschwerden der Verlage; die EU-Kommission selbst führt die Untersuchung dagegen auf eigene Monitoring-Erkenntnisse zurück, ohne explizit von einer förmlichen Verlagsbeschwerde zu sprechen.",
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Alphabet-Tochter Google ändert auf Druck der EU-Kommission ihre Spam-Richtlinien in Europa. Konkret setzt Google ab Sonntag, 30. August 2026, die Durchsetzung manueller Maßnahmen gegen sogenannten „Site Reputation Abuse“ im gesamten Europäischen Wirtschaftsraum aus – das betrifft die 27 EU-Staaten sowie Island, Norwegen und Liechtenstein. Als „Site Reputation Abuse“ bezeichnet Google die Praxis, dass Drittinhalte auf einer Seite vor allem deshalb veröffentlicht werden, um von deren bereits etablierten Ranking-Signalen zu profitieren – ein Vorgehen, das in der Suchmaschinenoptimierung auch „Parasite SEO“ genannt wird. Außerhalb des EWR bleibt die bisherige Praxis laut Google unverändert."
+      },
+      {
+        "heading": "Hintergrund: das DMA-Verfahren",
+        "markdown": "Die EU-Kommission hatte im November 2025 ein förmliches Verfahren gegen Google nach dem Gesetz über digitale Märkte (Digital Markets Act, DMA) eröffnet. Geprüft wird, ob Google mit der „Site Reputation Abuse“-Richtlinie gegen die Artikel 6(5) und 6(12) DMA verstößt, die faire und diskriminierungsfreie Bedingungen für Geschäftsnutzer der Google-Suche vorschreiben – auch bei der Platzierung in den Suchergebnissen. Nach Angaben der Kommission zeigte deren eigene Beobachtung, dass Googles Richtlinie Nachrichtenmedien und andere Verlage in der Google-Suche zurückstufte, sobald deren Websites Inhalte kommerzieller Partner enthielten. Die Presse berichtet zudem, dass sich Verlage direkt über diese Benachteiligung beschwert und Google vorgeworfen hätten, damit den Wettbewerb zu verzerren. Bei einem bestätigten DMA-Verstoß drohen Unternehmen Strafen von bis zu 10 Prozent des weltweiten Jahresumsatzes, bei wiederholten Verstößen bis zu 20 Prozent."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Standard und Die Presse berichteten am 28. August 2026 nahezu wortgleich über die Ankündigung – beide stützen sich erkennbar auf dieselbe Agenturmeldung (Reuters) und geben damit inhaltlich eine einzige Quelle wieder. Google bestätigt die Kernfakten – Termin, geografischer Geltungsbereich, unveränderte Regelung außerhalb des EWR – in einem eigenen Eintrag im Search-Central-Blog. Die EU-Kommission wiederum dokumentiert in einer eigenen Pressemitteilung Datum, Rechtsgrundlage und Gegenstand ihres Verfahrens. Google selbst hatte die bisherige Praxis nach Angaben der Presse in der Vergangenheit verteidigt; eine aktuelle inhaltliche Stellungnahme Googles zur Kritik der Verlage liegt nicht vor, ebenso wenig eine Reaktion einzelner Verlage auf die nun erfolgte Anpassung."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, ob die EU-Kommission ihr laufendes DMA-Verfahren angesichts der Anpassung einstellt oder weitere Nachbesserungen von Google verlangt – eine solche Entscheidung liegt bislang nicht vor. Ebenso unklar ist, wie einzelne Verlage oder Verlegerverbände auf die neue Regelung reagieren, und welche technischen Details die Umsetzung im EWR konkret umfasst, etwa der Umgang mit bereits verhängten manuellen Maßnahmen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine Serie von DMA-Verfahren ein, in denen große US-Techkonzerne ihre Geschäftspraktiken in der EU anpassen, um drohende Strafen abzuwenden – etwa, wie berichtet, Apples Änderungen an den App-Store-Regeln ab Oktober 2026 im Streit um dieselbe Verordnung. Wie in jenem Fall bleibt auch hier offen, ob die EU-Kommission die tatsächliche Umsetzung als ausreichend ansieht oder das Verfahren fortsetzt."
+      }
+    ],
+    "bodyKompakt": "Google setzt ab Sonntag, 30. August 2026, im gesamten Europäischen Wirtschaftsraum – den 27 EU-Staaten sowie Island, Norwegen und Liechtenstein – die Durchsetzung seiner „Site Reputation Abuse“-Richtlinie aus. Das bestätigte der Konzern selbst in einem Blogeintrag. Betroffen ist die Praxis, Websites herabzustufen, die Drittinhalte hauptsächlich wegen deren etablierter Ranking-Signale veröffentlichen. Außerhalb des EWR ändert sich nichts.\n\nHintergrund ist ein DMA-Verfahren, das die EU-Kommission im November 2025 gegen Google eröffnet hatte. Geprüft wird, ob die Richtlinie gegen Vorgaben zu fairen, diskriminierungsfreien Bedingungen für Geschäftsnutzer verstößt. Nach Beobachtungen der Kommission wurden Verlage in der Suche zurückgestuft, wenn ihre Seiten Inhalte kommerzieller Partner enthielten; Die Presse berichtet zudem von direkten Beschwerden der Verlage. Bei bestätigten DMA-Verstößen drohen Strafen bis zu 10, im Wiederholungsfall bis zu 20 Prozent des weltweiten Jahresumsatzes.\n\nOb die EU-Kommission ihr Verfahren nun einstellt oder weitere Schritte verlangt, ist offen. Ebenso unklar bleiben Reaktionen einzelner Verlage und technische Details der Umsetzung.",
+    "updateNote": null,
+    "pendingOutcome": "Entscheidung der EU-Kommission, ob sie das DMA-Verfahren gegen Google nach der Richtlinienänderung einstellt oder weitere Nachbesserungen verlangt."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-29T04:07:29.611Z"
+}
