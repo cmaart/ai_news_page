@@ -1,0 +1,597 @@
+{
+  "cluster": {
+    "id": "cluster-20260829-963cc289",
+    "title": "Norwegens neuer König Haakon VIII. dankt „Papa“",
+    "items": [
+      {
+        "itemId": "ba270cafd47df7aa1d97bff3384ddf8f693139f750038f0a395a9e13eb96a9ba",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Norwegens neuer König Haakon VIII. dankt „Papa“",
+        "url": "https://orf.at/stories/3440628",
+        "publishedAt": "2026-08-29T18:17:51.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "69a0c4a3529215f9e96419d964cebd266835a299c216f89fe18a3d57e6c674eb",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Zwischen Sorgen und Skandalen: Norwegens neuer König Haakon",
+        "url": "https://kurier.at/stars/royals/zwischen-sorgen-und-skandalen-norwegens-neuer-koenig-haakon/403186830",
+        "isNew": false
+      },
+      {
+        "itemId": "f7affd9f37154e7a98d60e247dbbb25995e80aa4517a77293e6db855823f439b",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Norwegens neuer König Haakon muss in große Fußstapfen treten",
+        "url": "https://www.derstandard.at/story/3000000337417/norwegens-neuer-koenig-haakon-muss-in-grosse-fussstapfen-treten",
+        "isNew": false
+      },
+      {
+        "itemId": "d46c6d4ae5fc5743a7d82c584852579792de3ea40cf7b84e10e2169be1f9c3e8",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Norwegens neuer König Haakon muss in große Fußstapfen treten",
+        "url": "https://www.derstandard.at/story/3000000337417/norwegens-neuer-koenig-haakon-muss-in-grosse-fussstapfen-treten",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Cluster fortsetzt die Harald-V.-Todesstory mit Haakons Amtsantritt und erster öffentlicher Rede als neuer König (Amtsbezeichnung 'Haakon VIII.' bestätigt, Eid-Termin Dienstag). Beantwortet teilweise offene Fragen der Harald-Story zur Amtsantritt-Zeremonie und ersten Worten des neuen Königs. Substanziell für Update zu bekanntem Event, aber nicht eigenständig genug für separate Story (Rede ist erwartet, keine neuen Skandale oder Policy-Wendungen). Zwei eigenständige Häuser im 24h-Fenster (ORF mit Rede-Transkript und Zitaten, Kurier mit Umfrage und Hintergrundprofil; Der Standard doppelt kategorisiert). Sensitivity durch Kontext-Skandale erhöht: Marius Borg Høiby Verurteilung (4 Jahre Haft wegen Vergewaltigungsvorwürfe, Berufung läuft, Hausarrest), Mette-Marits Lungentransplantation nach Fibrose-Diagnose, Epstein-Kontakte.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": 2,
+    "relatedSlug": "koenig-harald-gesundheitszustand-august-2026",
+    "possibleClaims": [
+      "Haakon VIII. ist nun König Norwegens",
+      "König Harald V. ist im Alter von 89 Jahren gestorben",
+      "Haakons erste Rede als König bestand aus persönlichen Erinnerungen an seinen verstorbenen Vater",
+      "Haakon studierte Politikwissenschaft an UC Berkeley und Entwicklungswissenschaften an der London School of Economics",
+      "Mette-Marit hat eine neue Lunge erhalten (Sommer 2026)",
+      "Mette-Marit leidet an unheilbarer Lungenfibrose",
+      "Marius Borg Høiby wurde zu 4 Jahren Haft verurteilt (Juni 2026, erste Instanz, Berufung eingelegt, Hausarrest mit Fußfessel)",
+      "Mette-Marit hatte Kontakte zu Jeffrey Epstein (verstorben 2019)",
+      "Etwa 79 Prozent der Norweger bewerteten Haakon im März 2026 als 'sehr guten' oder 'ziemlich guten' zukünftigen König",
+      "Haakon legt am Dienstag den Eid auf die Verfassung im norwegischen Parlament ab",
+      "Harald und Sonja sind seit 58 Jahren verheiratet (Hochzeitstag 29. August)"
+    ],
+    "missingSources": [
+      "Offizielle Reaktionen europäischer Königshäuser und internationaler Staats- und Regierungschefs",
+      "Details zu Form, Datum und Ablauf von Trauerfeierlichkeiten und Beisetzung König Haralds",
+      "Genaue medizinische Todesursache König Haralds über 'schwere gesundheitliche Probleme' hinaus",
+      "Institut, Fallzahl, Methodik der März-2026-Umfrage zu Haakons Eignung",
+      "Originalquellen der Zitate aus Haakons Rede (direkter Zugriff auf Redetext via NRK oder Königshof)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "koenig-harald-gesundheitszustand-august-2026",
+    "title": "Norwegens neuer König Haakon VIII. hält erste Rede und legt Eid am 1. September ab",
+    "description": "Nach dem Tod König Haralds V. hat sein Sohn Haakon VIII. in einer ersten Fernsehansprache seines verstorbenen Vaters gedacht. Der Amtseid vor dem Storting soll laut mehreren norwegischen Medien am 1. September stattfinden, die offizielle Bestätigung des Königsnamens liegt inzwischen als Pressemitteilung des Königshauses vor.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Tod von König Harald V. und die Nachfolge durch Haakon VIII. gelten weiterhin als bestätigt. Neu hinzugekommen ist eine über eine Suche aufgefundene Pressemitteilung des norwegischen Königshauses selbst („Kong Haakon VIII holder tale“), die den Königsnamen offiziell bestätigt – zuvor stützte sich dies nur auf Medienberichte. Haakons erste Rede und ihre wörtlichen Inhalte stammen aus einem ausführlichen ORF-Bericht mit Redetranskript; der Termin des Amtseids (1. September, 13 Uhr, Storting) wird von mehreren unabhängigen norwegischen Medien übereinstimmend genannt, beruht aber auf Suchergebnis-Auszügen und nicht auf eigener Einsicht in eine offizielle Ankündigung. Biografische Details zu Haakon sowie die familiären Belastungen (Høiby-Verurteilung, Mette-Marits Erkrankung, Epstein-Kontakte) sind nun durch einen zweiten, unabhängigen Kurier-Bericht zusätzlich zum bisherigen ORF-Nachruf gestützt.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Eine Suche ergab die Pressemitteilung des norwegischen Königshauses selbst unter kongehuset.no mit dem Titel „Kong Haakon VIII holder tale“, was die Verwendung des Namens Haakon VIII. durch den Hof direkt bestätigt. Der Volltext dieser Mitteilung wurde jedoch nicht eingesehen, ebenso wenig eine offizielle Ankündigung zu Ablauf und Uhrzeit des Amtseids – dafür liegen nur Medienberichte (TV2, Nettavisen) vor, die sich ihrerseits auf Aussagen des Stortingspräsidenten berufen. Die Einstufung bleibt daher „medium“ statt „strong“.",
+    "framingRisk": "low",
+    "framingRiskNote": "Die neu hinzugekommenen Fakten (Rede, Eidestermin, Umfragewerte, biografische Details) werden von mehreren unabhängigen Medien übereinstimmend wiedergegeben. Zitate aus Haakons Rede werden als solche kenntlich gemacht, nicht als eigene redaktionelle Bewertung. Emotionale Formulierungen stammen aus dem direkten Redetext des neuen Königs.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Norwegens König Harald V. ist am 28. August 2026 im Alter von 89 Jahren gestorben; sein Sohn Kronprinz Haakon (53) ist umgehend als Haakon VIII. neuer König geworden – ein Name, der inzwischen auch durch eine Pressemitteilung des Königshauses selbst bestätigt ist.",
+        "kind": "fact"
+      },
+      {
+        "text": "In seiner ersten Fernseh- und Radioansprache am Abend des 29. August erinnerte sich Haakon persönlich an seinen Vater, dankte ihm als „Papa“ und gratulierte seiner Mutter Königin Sonja zum 58. Hochzeitstag der Eltern.",
+        "kind": "fact"
+      },
+      {
+        "text": "Den vorgeschriebenen Amtseid auf die Verfassung soll Haakon laut mehreren norwegischen Medien am Dienstag, den 1. September 2026, vor dem Storting ablegen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Haakon genießt laut einer Umfrage vom März 2026 hohen Rückhalt, während die Königsfamilie zugleich durch die Verurteilung von Mette-Marits Sohn Marius Borg Høiby, ihre Erkrankung an Lungenfibrose und frühere Kontakte zu Jeffrey Epstein belastet ist.",
+        "kind": "fact"
+      },
+      {
+        "text": "Termin und Ablauf der Trauerfeierlichkeiten für König Harald, eine genauere offizielle Todesursache sowie offizielle internationale Reaktionen stehen weiterhin aus.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wann und in welcher Form finden Trauerfeierlichkeiten und die Beisetzung für König Harald V. statt?",
+      "Wird eine genauere offizielle Todesursache über die allgemeine Angabe „von Krankheit geprägte letzte Jahre“ hinaus bekanntgegeben?",
+      "Welche offiziellen Reaktionen kommen von anderen europäischen Königshäusern sowie von Staats- und Regierungschefs?",
+      "Bestätigt sich Ablauf und genaue Uhrzeit des Amtseids am 1. September auch durch eine eigene Einsicht in eine offizielle Ankündigung des Storting oder Königshauses?",
+      "Welches Institut hat die im März 2026 zitierte Umfrage zu Haakons Beliebtheit mit welcher Methodik und Fallzahl durchgeführt?",
+      "Bestätigt sich die von der Kleinen Zeitung berichtete Anwesenheit von Marius Borg Høiby am Krankenbett in den Tagen vor Haralds Tod durch weitere Quellen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000336657/zustand-verschlechtert-sorgen-um-norwegens-k246nig-harald"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440013"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41196657/zustand-verschlechtert-sorgen-um-norwegens-koenig-harald"
+      },
+      {
+        "id": "src4",
+        "name": "Tages-Anzeiger",
+        "type": "media",
+        "url": "https://www.tagesanzeiger.ch/koenig-harald-v-norwegen-sorgt-sich-um-kranken-monarchen-204624834625"
+      },
+      {
+        "id": "src5",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41198764/norwegens-koenig-harald-v-laut-experten-in-ernstem-zustand"
+      },
+      {
+        "id": "src6",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/stars/royals/norwegen-koenig-harald-gesundheit/403185844"
+      },
+      {
+        "id": "src7",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440365"
+      },
+      {
+        "id": "src8",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337173/gesundheitszustand-von-k246nig-harald-v-sehr-ernst"
+      },
+      {
+        "id": "src9",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41206893/norwegen-gesundheitszustand-von-koenig-harald-sehr-kritisch"
+      },
+      {
+        "id": "src10",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/stars/royals/gesundheitszustand-von-koenig-harald-v-sehr-ernst/403186607"
+      },
+      {
+        "id": "src11",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41207071/gesundheitszustand-von-koenig-harald-v-sehr-ernst"
+      },
+      {
+        "id": "src12",
+        "name": "ABC News",
+        "type": "media",
+        "url": "https://abcnews.com/International/wireStory/norwegian-king-haralds-health-condition-palace-135997679"
+      },
+      {
+        "id": "src13",
+        "name": "Al Jazeera",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/8/27/norways-king-harald-in-extremely-serious-condition-palace-says"
+      },
+      {
+        "id": "src14",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440380"
+      },
+      {
+        "id": "src15",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337345/norwegens-nahbarer-koenig-harald-v-ist-tot"
+      },
+      {
+        "id": "src16",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/stars/royals/koenig-harald-norwegen-tot-gestorben-tot/403186820"
+      },
+      {
+        "id": "src17",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41209478/norwegens-koenig-harald-v-mit-89-verstorben"
+      },
+      {
+        "id": "src18",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/stars/royals/norwegens-koenig-harald-v-mit-89-jahren-verstorben/403186696"
+      },
+      {
+        "id": "src19",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440466"
+      },
+      {
+        "id": "src20",
+        "name": "Kongehuset (norwegisches Königshaus)",
+        "type": "official",
+        "url": "https://www.kongehuset.no/taler-og-budskap/kong-harald-v"
+      },
+      {
+        "id": "src21",
+        "name": "AP (verbreitet u. a. über U.S. News)",
+        "type": "agency",
+        "url": "https://www.usnews.com/news/world/articles/2026-08-28/norways-crown-prince-becomes-king-haakon-viii-after-his-fathers-death"
+      },
+      {
+        "id": "src22",
+        "name": "t-online.de",
+        "type": "media",
+        "url": "https://www.t-online.de/unterhaltung/royals/id_101407768/nach-tod-von-harald-v-haakon-ist-jetzt-norwegens-neuer-koenig.html"
+      },
+      {
+        "id": "src23",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440628"
+      },
+      {
+        "id": "src24",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/stars/royals/zwischen-sorgen-und-skandalen-norwegens-neuer-koenig-haakon/403186830"
+      },
+      {
+        "id": "src25",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337417/norwegens-neuer-koenig-haakon-muss-in-grosse-fussstapfen-treten"
+      },
+      {
+        "id": "src26",
+        "name": "Kongehuset (norwegisches Königshaus)",
+        "type": "official",
+        "url": "https://www.kongehuset.no/presse/pressemeldinger/kong-haakon-viii-holder-tale"
+      },
+      {
+        "id": "src27",
+        "name": "TV2",
+        "type": "media",
+        "url": "https://www.tv2.no/direkte/ml070/kong-harald-v/6a9196042d57ddf65d225503/kong-haakon-avlegger-sin-ed-for-stortinget-tirsdag"
+      },
+      {
+        "id": "src28",
+        "name": "Nettavisen",
+        "type": "media",
+        "url": "https://www.nettavisen.no/nyheter/nettavisen-erfarer-kong-haakons-edsavleggelse-skjer-tirsdag/s/80-95-38366"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "König Harald V. lag seit Montag der Vorwoche im Rikshospitalet in Oslo und wurde wegen einer bakteriellen Infektion des Blutkreislaufs mit Antibiotika behandelt.",
+        "status": "supported",
+        "note": "Übereinstimmend von Der Standard, ORF, Kleine Zeitung und Kurier unter Berufung auf eine Mitteilung des Königshauses berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Zustand des Königs hatte sich Mitte/Ende August zunächst verschlechtert, wurde nach Ansprechen auf die Antibiotika-Behandlung aber vorübergehend als stabil beschrieben, bevor sich die Lage am 27. August erneut deutlich und am 28. August tödlich verschlechterte.",
+        "status": "supported",
+        "note": "Mehrere Medien gaben dieselbe Palastmitteilung inhaltlich deckungsgleich wieder; der Verlauf ist inzwischen durch den Tod des Königs abgeschlossen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src6",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Harald litt an hämolytischer Anämie; die Blutinfektion trat als Komplikation einer Kortisonbehandlung dieser Erkrankung auf.",
+        "status": "supported",
+        "note": "Detail von ORF sowohl in früheren Mitteilungen als auch im Nachruf unter Berufung auf das Königshaus bestätigt.",
+        "sourceIds": [
+          "src2",
+          "src7",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Harald war seit 1991 rund 35 Jahre lang König von Norwegen und galt zuletzt als Europas ältester regierender Monarch.",
+        "status": "supported",
+        "note": "Allgemein bekannte, unstrittige biografische Angabe, von ORF sowohl vor als auch nach seinem Tod so wiedergegeben.",
+        "sourceIds": [
+          "src2",
+          "src7",
+          "src14",
+          "src17"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Kronprinz Haakon vertrat seinen Vater in dessen letzten Lebensjahren bei Krankheit wiederholt als Regent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Vor zwei Jahren musste Harald nach einer Infektion bereits eine rund zweimonatige Auszeit nehmen.",
+        "status": "partial",
+        "note": "Nur eine Quelle nennt diesen Zeitraum, ohne genaues Datum oder weitere Bestätigung.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Ein externer Geriatrie-Professor eines norwegischen Universitätskrankenhauses bezeichnete die gesundheitliche Lage des Königs Mitte/Ende August gegenüber Medien als möglicherweise „ernsten Zustand“.",
+        "status": "partial",
+        "note": "Die Einschätzung stammt von einem außenstehenden Experten ohne eigene Untersuchung des Patienten; im Rückblick eine frühe, vorsichtige Vorahnung, kein medizinisches Urteil der behandelnden Ärzte.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Die Kortisonbehandlung der hämolytischen Anämie hatte zu einer Flüssigkeitsansammlung im Körper geführt, die zusätzlich zur bakteriellen Blutinfektion eine Behandlung im Krankenhaus erforderlich machte.",
+        "status": "partial",
+        "note": "Detail bislang nur in einer Quelle genannt, keine unabhängige Zweitbestätigung.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Das norwegische Königshaus teilte am Morgen des 27. August 2026 in einer Pressemitteilung eine erneute, deutliche Verschlechterung des Gesundheitszustands von König Harald V. mit und bezeichnete die Lage als „extrem ernst“ (ORF) beziehungsweise „sehr ernst“ (Der Standard, Die Presse, Kurier, Kleine Zeitung).",
+        "status": "supported",
+        "note": "Die Kernaussage wurde von fünf voneinander unabhängig berichtenden Medien übereinstimmend wiedergegeben; im Rückblick der letzte Zwischenschritt vor dem Tod des Königs am Folgetag.",
+        "sourceIds": [
+          "src7",
+          "src8",
+          "src9",
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Königin Sonja und das Kronprinzenpaar sagten als Reaktion auf die Verschlechterung vom 27. August ihre Termine ab.",
+        "status": "supported",
+        "note": "ORF berichtet von der Absage „aller“ Termine von Königin Sonja und Kronprinzenpaar, Der Standard konkret vom abgesagten Donnerstagsprogramm – im Umfang leicht abweichende, aber inhaltlich übereinstimmende Darstellung.",
+        "sourceIds": [
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Mehrere Mitglieder der norwegischen Königsfamilie – laut Berichten internationaler Nachrichtenagenturen namentlich Königin Sonja, Kronprinz Haakon, Kronprinzessin Mette-Marit, Prinzessin Ingrid Alexandra, Prinz Sverre Magnus und Prinzessin Astrid – wurden am 27. August beim Eintreffen im Krankenhaus gesehen.",
+        "status": "supported",
+        "note": "Diese Sichtung wurde von mehreren voneinander unabhängigen internationalen Nachrichtenagenturen übereinstimmend berichtet, im Rückblick am Vortag des Todes.",
+        "sourceIds": [
+          "src7",
+          "src12",
+          "src13"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Laut einem Bericht der Kleinen Zeitung war unter den am Krankenbett versammelten Familienmitgliedern am 27. August auch Marius Borg Høiby, der Sohn von Kronprinzessin Mette-Marit aus einer früheren Beziehung.",
+        "status": "partial",
+        "note": "Dieses Detail wurde bislang nur von einer einzelnen Quelle genannt und durch keinen der anderen recherchierten Berichte bestätigt.",
+        "sourceIds": [
+          "src11"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "König Harald V. ist am Freitag, den 28. August 2026, im Alter von 89 Jahren gestorben.",
+        "status": "supported",
+        "note": "Von sechs voneinander unabhängig berichtenden österreichischen Medien (ORF, Der Standard, Kurier, Kleine Zeitung) unter Berufung auf eine Mitteilung des norwegischen Königshauses übereinstimmend berichtet.",
+        "sourceIds": [
+          "src14",
+          "src15",
+          "src16",
+          "src17",
+          "src18",
+          "src19"
+        ]
+      },
+      {
+        "id": "claim15",
+        "text": "Nach dem Tod seines Vaters ist Kronprinz Haakon nach norwegischer Tradition unmittelbar und ohne Übergangsphase neuer König geworden und tritt als Haakon VIII. auf.",
+        "status": "supported",
+        "note": "Ursprünglich nur durch eine breit über mehrere US-Medien verbreitete Agenturmeldung sowie unabhängig davon die Kleine Zeitung und einen deutschen Medienbericht (t-online.de) belegt. Inzwischen zusätzlich durch eine Pressemitteilung des norwegischen Königshauses selbst bestätigt, deren Titel den Namen „Haakon VIII.“ verwendet – der Volltext dieser Mitteilung wurde allerdings nicht eingesehen.",
+        "sourceIds": [
+          "src17",
+          "src21",
+          "src22",
+          "src26"
+        ]
+      },
+      {
+        "id": "claim16",
+        "text": "Der neue König Haakon ist 53 Jahre alt.",
+        "status": "supported",
+        "note": "Von Kleiner Zeitung, der über US-Medien verbreiteten Agenturmeldung und dem Kurier übereinstimmend genannt. Eine frühere Version dieses Artikels hatte in anderem Zusammenhang ein Alter von 50 Jahren genannt; dieser Wert wurde bereits präzisiert.",
+        "sourceIds": [
+          "src17",
+          "src21",
+          "src24"
+        ]
+      },
+      {
+        "id": "claim17",
+        "text": "In den vergangenen Jahren musste sich Harald mehreren Operationen unterziehen, unter anderem am Herzen und am Bein.",
+        "status": "partial",
+        "note": "Bislang nur aus einem einzelnen, ausführlichen ORF-Nachruf bekannt, keine unabhängige Zweitquelle.",
+        "sourceIds": [
+          "src14"
+        ]
+      },
+      {
+        "id": "claim18",
+        "text": "Harald wurde am 21. Februar 1937 in der Gemeinde Asker bei Oslo geboren; er floh 1940 nach dem deutschen Einmarsch mit seiner Mutter und seinen Schwestern zunächst nach Schweden und dann in die USA und kehrte nach rund fünf Jahren Besatzung nach Norwegen zurück.",
+        "status": "partial",
+        "note": "Biografische Angaben aus einem einzelnen, ausführlichen ORF-Nachruf; unstrittige, aber bislang nicht durch eine zweite Quelle in dieser Ausführlichkeit bestätigte Details.",
+        "sourceIds": [
+          "src14"
+        ]
+      },
+      {
+        "id": "claim19",
+        "text": "Harald trat als Segler bei drei Olympischen Spielen an und war 1964 bei der Eröffnungsfeier in Tokio Fahnenträger.",
+        "status": "partial",
+        "note": "Bislang nur aus einem einzelnen ORF-Nachruf bekannt.",
+        "sourceIds": [
+          "src14"
+        ]
+      },
+      {
+        "id": "claim20",
+        "text": "Nach den Anschlägen von Anders Behring Breivik 2011 in Oslo und auf der Insel Utøya spendete Harald der Bevölkerung öffentlich Trost und rief zum Festhalten an einer offenen Demokratie auf.",
+        "status": "partial",
+        "note": "Zitat und Einordnung stammen aus einem einzelnen, ausführlichen ORF-Nachruf.",
+        "sourceIds": [
+          "src14"
+        ]
+      },
+      {
+        "id": "claim21",
+        "text": "Die norwegische Königsfamilie war zuletzt durch mehrere Belastungen geprägt: die öffentliche Kontroverse um Kronprinzessin Mette-Marits frühere Kontakte zum 2019 verstorbenen US-Sexualstraftäter Jeffrey Epstein, ihre Erkrankung an der unheilbaren Lungenfibrose mit einer Lungentransplantation im Sommer 2026 sowie die Verurteilung ihres Sohnes Marius Borg Høiby zu vier Jahren Haft in erster Instanz wegen Vergewaltigungsvorwürfen; gegen das Urteil ist Berufung eingelegt, Høiby befindet sich mit Fußfessel im Hausarrest.",
+        "status": "supported",
+        "note": "Ursprünglich nur aus einem einzelnen ORF-Nachruf bekannt, inzwischen unabhängig durch einen Kurier-Bericht bestätigt. Da es sich um strafrechtliche Vorwürfe gegen eine identifizierbare Person sowie um Gesundheitsdaten handelt, wird die Darstellung bewusst zurückhaltend und ohne eigene Wertung wiedergegeben; das Urteil ist nicht rechtskräftig.",
+        "sourceIds": [
+          "src14",
+          "src24"
+        ]
+      },
+      {
+        "id": "claim22",
+        "text": "In seiner ersten Fernseh- und Radioansprache am Abend des 29. August 2026 erinnerte sich Haakon VIII. mit persönlichen Worten an seinen verstorbenen Vater und dankte ihm dafür, „so ein guter Papa für Märtha und mich“ gewesen zu sein.",
+        "status": "supported",
+        "note": "Beruht auf einem ausführlichen ORF-Bericht mit direktem Redetranskript; die Existenz und Ausstrahlung der Rede wird zusätzlich durch eine Pressemitteilung des Königshauses selbst bestätigt.",
+        "sourceIds": [
+          "src23",
+          "src26"
+        ]
+      },
+      {
+        "id": "claim23",
+        "text": "In derselben Rede gratulierte Haakon seiner Mutter, Königin Sonja, zum 58. Hochzeitstag seiner Eltern und kündigte an, gemeinsam mit seiner Frau Mette-Marit „präsent zu sein, zuzuhören“ und sich für ein Norwegen einzusetzen, „in dem es Platz für alle gibt“.",
+        "status": "supported",
+        "note": "Zitate laut ORF-Redetranskript; nicht durch eine zweite Quelle mit eigenem Volltext gegengeprüft.",
+        "sourceIds": [
+          "src23"
+        ]
+      },
+      {
+        "id": "claim24",
+        "text": "Haakon soll den vorgeschriebenen Amtseid auf die Verfassung am Dienstag, den 1. September 2026, vor dem norwegischen Parlament (Storting) ablegen.",
+        "status": "supported",
+        "note": "Der Wochentag „Dienstag“ wird bereits von ORF genannt; das konkrete Datum (1. September) sowie eine Berufung auf den Stortingspräsidenten stammen aus mehreren unabhängigen norwegischen Medien, deren Berichte über eine Suche eingesehen wurden, nicht im Volltext einer offiziellen Ankündigung.",
+        "sourceIds": [
+          "src23",
+          "src27",
+          "src28"
+        ]
+      },
+      {
+        "id": "claim25",
+        "text": "Einer im März 2026 durchgeführten Umfrage zufolge hielten rund vier von fünf befragten Norwegerinnen und Norwegern Haakon für einen „sehr guten“ oder „ziemlich guten“ künftigen König.",
+        "status": "partial",
+        "note": "Institut, Fallzahl und Methodik der Umfrage werden im Kurier-Bericht nicht genannt.",
+        "sourceIds": [
+          "src24"
+        ]
+      },
+      {
+        "id": "claim26",
+        "text": "Haakon absolvierte die norwegische Marineakademie, studierte Politikwissenschaft an der University of California in Berkeley und Entwicklungswissenschaften an der London School of Economics.",
+        "status": "supported",
+        "note": "Unstrittige biografische Angaben laut Kurier.",
+        "sourceIds": [
+          "src24"
+        ]
+      },
+      {
+        "id": "claim27",
+        "text": "Haakon heiratete 2001 gegen gesellschaftliche Widerstände die damals bürgerliche, alleinerziehende Mette-Marit Tjessem Høiby; 2004 und 2005 kamen die gemeinsamen Kinder Erbprinzessin Ingrid Alexandra und Prinz Sverre Magnus zur Welt.",
+        "status": "supported",
+        "note": "Laut Kurier; im Kern unstrittige, bereits länger öffentlich bekannte biografische Angabe.",
+        "sourceIds": [
+          "src24"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Norwegens König Harald V. ist am Freitag, den 28. August 2026, im Alter von 89 Jahren gestorben. Das teilte das norwegische Königshaus laut übereinstimmenden Berichten von ORF, Der Standard, Kurier und Kleine Zeitung mit. Wie berichtet, hatte sich sein Gesundheitszustand am Vortag laut einer Mitteilung des Königshauses erneut und deutlich verschlechtert; Königin Sonja und das Kronprinzenpaar hatten daraufhin bereits ihre Termine abgesagt. Eine offizielle, genauere Todesursache wurde in den ausgewerteten Berichten weiterhin nicht genannt. Harald war zuletzt seit Mitte August im Rikshospitalet in Oslo wegen einer bakteriellen Infektion des Blutkreislaufs behandelt worden, einer Komplikation der Kortisonbehandlung seiner hämolytischen Anämie."
+      },
+      {
+        "heading": "Nachfolge: Kronprinz Haakon wird König",
+        "markdown": "Nach norwegischer Tradition ist mit dem Tod des Königs automatisch sein ältester Sohn, Kronprinz Haakon, neuer Monarch geworden – eine Übergangsphase ist dabei nicht vorgesehen. Dass der neue, 53-jährige König dabei den Namen Haakon VIII. trägt, war zunächst nur durch eine breit über US-Medien verbreitete Agenturmeldung sowie unabhängig davon durch die Kleine Zeitung und einen deutschen Medienbericht (t-online.de) belegt. Inzwischen bestätigt eine eigene Pressemitteilung des norwegischen Königshauses unter dem Titel „Kong Haakon VIII holder tale“ diesen Namen; der Volltext dieser Mitteilung wurde allerdings nicht eingesehen, weshalb sie nicht als vollständig geprüfte Primärquelle, sondern als starke zusätzliche Bestätigung gilt. Haakon hatte seinen Vater in dessen letzten Lebensjahren bei Krankheit bereits wiederholt als Regent vertreten."
+      },
+      {
+        "heading": "Erste Rede als neuer König",
+        "markdown": "In seiner ersten Fernseh- und Radioansprache am Abend des 29. August 2026 erinnerte sich Haakon laut einem ausführlichen ORF-Bericht mit einem Redetranskript persönlich an seinen verstorbenen Vater. „Danke, dass du so ein guter Papa für Märtha und mich warst“, sagte er über Harald und beschrieb ihn als warmherzigen, humorvollen Großvater und fürsorglichen Ehemann, den er insbesondere für sein Lachen und seine Fähigkeit vermissen werde, Menschen zum Entspannen zu bringen. Für seine Mutter, Königin Sonja, habe Harald eine große Stütze gehabt; an sie gerichtet gratulierte Haakon „zum Hochzeitstag“ – die Eltern hatten genau an diesem Tag vor 58 Jahren geheiratet. Er sei nun, wie schon sein Vater nach dessen Vater Olav, an der Reihe: Gemeinsam mit seiner Frau, Königin Mette-Marit, wolle er „präsent sein, zuhören“ und versuchen, die Lebenssituation unterschiedlicher Menschen zu verstehen – man glaube „an ein Norwegen, in dem es Platz für alle gibt“. Diese Zitate stammen aus einem einzelnen, wenn auch ausführlichen Medienbericht und wurden nicht im Volltext einer offiziellen Quelle gegengeprüft; dass die Rede stattgefunden hat, wird jedoch zusätzlich durch eine eigene Pressemitteilung des Königshauses bestätigt."
+      },
+      {
+        "heading": "Amtseid am 1. September vor dem Storting",
+        "markdown": "Laut mehreren norwegischen Medien soll Haakon den in der Verfassung vorgeschriebenen Amtseid am Dienstag, den 1. September 2026, vor dem norwegischen Parlament, dem Storting, ablegen – die Ausstrahlung soll im norwegischen Fernsehen live zu verfolgen sein. Diese Angaben stammen aus einer Recherche zu norwegischen Medienberichten, die sich ihrerseits auf Aussagen des Stortingspräsidenten berufen; eine eigene Einsicht in eine offizielle Ankündigung des Storting oder des Königshauses liegt nicht vor, weshalb der genaue Ablauf und die Uhrzeit noch nicht abschließend verifiziert sind."
+      },
+      {
+        "heading": "Regentschaft und Werdegang Haralds",
+        "markdown": "Harald bestieg 1991 nach dem Tod seines beliebten Vaters Olav V. den Thron und regierte rund 35 Jahre lang unter dem Motto „Alt for Norge“ (Alles für Norwegen) – zuletzt als ältester amtierender Monarch Europas. Laut einem ausführlichen ORF-Nachruf wurde er am 21. Februar 1937 in der Gemeinde Asker bei Oslo geboren, als erster in Norwegen geborener Prinz seit 567 Jahren. Nach dem deutschen Einmarsch 1940 floh die Königsfamilie zunächst nach Schweden und dann in die USA; nach rund fünf Jahren Besatzung kehrte sie unter Jubel nach Norwegen zurück. Harald begeisterte sich früh für den Segelsport und trat bei drei Olympischen Spielen an, 1964 war er bei der Eröffnungsfeier in Tokio Fahnenträger. Als prägenden Moment seiner Regentschaft nennt der Bericht seine Reaktion auf die Anschläge von Anders Behring Breivik 2011 in Oslo und auf Utøya, als er der Bevölkerung unter Tränen Trost spendete und zum Festhalten an einer offenen Demokratie aufrief; auch durch die Coronavirus-Pandemie führte er sein Land mit ruhigen Appellen. Diese biografischen Details stammen bislang aus nur einer einzelnen, wenn auch ausführlichen Quelle und sind nicht durch weitere Berichte querbestätigt."
+      },
+      {
+        "heading": "Werdegang und Rückhalt für Haakon",
+        "markdown": "Haakon absolvierte laut Kurier die norwegische Marineakademie und studierte anschließend Politikwissenschaft an der University of California in Berkeley sowie Entwicklungswissenschaften an der London School of Economics. Bereits seit dem Tod seines Großvaters Olav V. 1991 trägt er als Kronprinz Verantwortung; als sein Vater in dessen letzten Lebensjahren wiederholt schwer erkrankte, übernahm er zeitweise die Amtsgeschäfte als Regent. Bekannt ist zudem sein Engagement für Gleichberechtigung, klimafreundliche Technologien und Armutsbekämpfung. 2001 heiratete er, gegen gesellschaftliche Widerstände, die damals bürgerliche, alleinerziehende Mette-Marit Tjessem Høiby; 2004 und 2005 kamen die gemeinsamen Kinder Erbprinzessin Ingrid Alexandra und Prinz Sverre Magnus zur Welt – eine Patchwork-Familie, die vielfach als Ausdruck einer moderneren Monarchie wahrgenommen wurde. Einer im März 2026 durchgeführten Umfrage zufolge hielten rund vier von fünf befragten Norwegerinnen und Norwegern Haakon für einen „sehr guten“ oder „ziemlich guten“ künftigen König; Institut und Methodik dieser Erhebung sind bislang nicht näher bekannt."
+      },
+      {
+        "heading": "Zuletzt: Krankheit und familiäre Belastungen",
+        "markdown": "In den vergangenen Jahren musste sich Harald laut ORF mehreren Operationen unterziehen, unter anderem am Herzen und am Bein; vor zwei Jahren hatte er bereits nach einer Infektion eine rund zweimonatige Auszeit nehmen müssen. Zuletzt war die Königsfamilie zusätzlich durch mehrere Belastungen geprägt, die inzwischen nicht mehr nur von einer einzelnen Quelle, sondern übereinstimmend auch vom Kurier berichtet werden: die öffentliche Kontroverse um Kronprinzessin Mette-Marits frühere Kontakte zum 2019 verstorbenen US-Sexualstraftäter Jeffrey Epstein, ihre Erkrankung an der unheilbaren Lungenfibrose, wegen der sie im Sommer 2026 eine neue Lunge erhielt, sowie die Verurteilung ihres Sohnes aus früherer Beziehung, Marius Borg Høiby, zu vier Jahren Haft in erster Instanz wegen Vergewaltigungsvorwürfen. Gegen dieses Urteil ist Berufung eingelegt, Høiby befindet sich mit einer Fußfessel im Hausarrest. Eine für den Sommer geplante Feier zur Silberhochzeit von Haakon und Mette-Marit wurde wegen ihrer Genesung verschoben. Viele Norwegerinnen und Norweger beschrieben Harald in seinen letzten Wochen dennoch als bodenständigen, nahbaren „Fels in der Brandung“; mehrere österreichische Medien greifen diese Charakterisierung als „Volkskönig“ auf."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist weiterhin, wann und in welcher Form Trauerfeierlichkeiten und die Beisetzung für König Harald stattfinden. Unklar ist auch, ob das Königshaus noch eine genauere offizielle Todesursache über die allgemeine Angabe „von Krankheit geprägte letzte Jahre“ hinaus mitteilt. Der genaue Ablauf und die Uhrzeit von Haakons Amtseid am 1. September sind bislang nur über Medienberichte, nicht über eine eigene Einsicht in eine offizielle Ankündigung bestätigt. Offizielle Reaktionen anderer europäischer Königshäuser sowie von Staats- und Regierungschefs liegen in den ausgewerteten Quellen weiterhin nicht vor. Auch Institut und Methodik der zitierten März-Umfrage zu Haakons Beliebtheit sowie die zuvor von der Kleinen Zeitung berichtete Anwesenheit von Marius Borg Høiby am Krankenbett sind weiterhin nicht durch weitere Quellen bestätigt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Kern der Meldung – Tod des Königs, Nachfolge durch Haakon VIII. – gilt als bestätigt und wird inzwischen zusätzlich durch eine Pressemitteilung des norwegischen Königshauses selbst gestützt, was die Quellenlage gegenüber der vorherigen Version dieses Artikels verbessert. Haakons erste Rede beruht auf einem einzelnen, ausführlichen Medienbericht mit Redetranskript, dessen wörtliche Zitate nicht unabhängig gegengeprüft wurden; der Termin des Amtseids stammt aus mehreren unabhängigen norwegischen Medien, jedoch ohne eigene Einsicht in eine offizielle Ankündigung. Die zuvor nur einzeln belegten familiären Belastungen der Königsfamilie (Høiby-Verurteilung, Mette-Marits Erkrankung, Epstein-Kontakte) gelten nun als unabhängig durch eine zweite Quelle bestätigt, werden angesichts der strafrechtlichen und gesundheitlichen Dimension aber weiterhin zurückhaltend und ohne eigene Wertung wiedergegeben."
+      }
+    ],
+    "bodyKompakt": "Norwegens König Harald V. ist am Freitag, den 28. August 2026, im Alter von 89 Jahren gestorben; noch am selben Wochenende ist sein Sohn, Kronprinz Haakon, nach norwegischer Tradition automatisch als Haakon VIII. neuer König geworden – ein Name, der inzwischen auch durch eine Pressemitteilung des norwegischen Königshauses selbst bestätigt ist. In seiner ersten Fernseh- und Radioansprache am Abend des 29. August erinnerte sich der 53-Jährige mit bewegten Worten an seinen Vater, dankte ihm als „Papa“ für dessen Warmherzigkeit und gratulierte seiner Mutter, Königin Sonja, zum 58. Hochzeitstag seiner Eltern. Gemeinsam mit seiner Frau, Königin Mette-Marit, wolle er „präsent sein, zuhören“ und sich für ein Norwegen einsetzen, „in dem es Platz für alle gibt“, so Haakon laut einem Redetranskript von ORF. Den vorgeschriebenen Amtseid auf die Verfassung soll er laut mehreren norwegischen Medien am Dienstag, den 1. September 2026, vor dem norwegischen Parlament, dem Storting, ablegen – eine eigene Einsicht in eine offizielle Ankündigung dazu liegt nicht vor.\n\nHaakon genießt trotz jüngster Belastungen der Königsfamilie hohes Ansehen: Einer im März 2026 durchgeführten Umfrage zufolge hielten ihn rund vier von fünf befragte Norwegerinnen und Norweger für einen „sehr guten“ oder „ziemlich guten“ künftigen König – Institut und Methodik der Umfrage sind bislang nicht näher bekannt. Der studierte Politikwissenschaftler (UC Berkeley) und Absolvent der London School of Economics hatte seinen Vater in dessen letzten, von Krankheit geprägten Jahren wiederholt als Regent vertreten. Belastet war der Hof zuletzt zusätzlich durch die Verurteilung von Mette-Marits Sohn aus früherer Beziehung, Marius Borg Høiby, zu vier Jahren Haft in erster Instanz wegen Vergewaltigungsvorwürfen – dagegen ist Berufung eingelegt, er befindet sich mit Fußfessel im Hausarrest –, durch Mette-Marits frühere Kontakte zum 2019 verstorbenen US-Sexualstraftäter Jeffrey Epstein sowie durch ihre Erkrankung an unheilbarer Lungenfibrose, wegen der sie im Sommer 2026 eine neue Lunge erhielt. Diese familiären Belastungen werden inzwischen von zwei unabhängigen Medien übereinstimmend berichtet.\n\nOffen bleiben weiterhin Termin und Ablauf der Trauerfeierlichkeiten für König Harald, eine genauere offizielle Todesursache sowie offizielle internationale Reaktionen von Staats- und Regierungschefs und anderen Königshäusern.",
+    "updateNote": "Ergänzt um Haakons erste Rede als König mit persönlichen Erinnerungen an seinen Vater, den durch mehrere norwegische Medien genannten Termin des Amtseids am 1. September vor dem Storting, die inzwischen durch eine eigene Pressemitteilung des Königshauses bestätigte Namensführung „Haakon VIII.“ sowie biografischen Hintergrund und zusätzlich bestätigte Details zu den jüngsten familiären Belastungen des norwegischen Königshauses.",
+    "pendingOutcome": "Ausgang und genauer Ablauf von Haakons Amtseid vor dem Storting am 1. September 2026 sowie Termin und Form der Trauerfeierlichkeiten für König Harald V. stehen noch aus und sollen bei Bekanntwerden nachrecherchiert werden."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-29T20:07:42.164Z"
+}
