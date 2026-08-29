@@ -1,0 +1,217 @@
+{
+  "cluster": {
+    "id": "cluster-20260828-bfd6903d",
+    "title": "Mammografie erkennt Herz-Kreislauf-Erkrankungen",
+    "items": [
+      {
+        "itemId": "3f38b8b0c01f837b5f83f77a0a396e3ce2a5606a0f2f9c2521b364431a9ce54e",
+        "sourceId": "orf_science",
+        "sourceType": "media",
+        "title": "Mammografie erkennt Herz-Kreislauf-Erkrankungen",
+        "url": "https://science.orf.at/stories/3237097",
+        "summary": "In Österreich werden pro Jahr mehr als 800.000 Mammografien bei Frauen zur Brustkrebs-Früherkennung durchgeführt. Ein Forschungsteam aus Israel entwickelte jetzt ein KI-System, das einen Zusatznutzen ermöglicht: die Entdeckung von Herz-Kreislauf-Erkrankungen.",
+        "publishedAt": "2026-08-28T09:11:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "a7506a9cd3fe66821280dc6d1a3dbb41936931b8258a058193d74baa08c2fe41",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Mammografie kann auch Herz-Kreislauf-Erkrankungen erkennen",
+        "url": "https://www.kleinezeitung.at/artikel/41209887/mammografie-kann-auch-herz-kreislauf-erkrankungen-erkennen",
+        "summary": "Durch Mammografien können auch Herz-Kreislauf-Erkrankungen erkannt werden. Das wäre eine enorme Chance, Leid zu verhindern, denn diese Erkrankungen sind bei Frauen unterdiagnostiziert.",
+        "publishedAt": "2026-08-28T08:22:54.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "007dcabdea89053284403248c1be91651c8272eadd3c0e589e540c1f5acc6afd",
+        "sourceId": "kleinezeitung_oesterreich",
+        "sourceType": "media",
+        "title": "Mammografie kann auch Herz-Kreislauf-Erkrankungen erkennen",
+        "url": "https://www.kleinezeitung.at/artikel/41209887/mammografie-kann-auch-herz-kreislauf-erkrankungen-erkennen",
+        "summary": "Durch Mammografien können auch Herz-Kreislauf-Erkrankungen erkannt werden. Das wäre eine enorme Chance, Leid zu verhindern, denn diese Erkrankungen sind bei Frauen unterdiagnostiziert.",
+        "publishedAt": "2026-08-28T08:22:54.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "88bf3922689c83106b5037bd22220855ff094fd6986b66d13a1cba3ad4de0eb8",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Mammografie erkennt Herz-Kreislauf-Erkrankungen",
+        "url": "https://www.diepresse.com/41209327/mammografie-erkennt-herz-kreislauf-erkrankungen",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Wissenschaftliche Studie mit klarer Österreich-Relevanz: Israelisches Forschungsteam stellt KI-System vor, das Herz-Kreislauf-Erkrankungen aus Mammografiebildern erkennt (AUROC 0,78–0,86). Drei unabhängige österreichische Medienportale berichten (ORF Science, Kleine Zeitung, Die Presse), ORF liefert detaillierte Hintergrundinformationen. In Österreich 800.000 Mammografien pro Jahr — hohe praktische Relevanz für Millionen Frauen. Noch experimentell, aber substantieller Nachrichtenwert mit ausreichender Substanz.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Ein Deep-Learning-Modell kann Bluthochdruck aus Mammografiebildern mit AUROC 0,79 vorhersagen",
+      "Das Modell erreicht AUROC 0,78 für koronare Herzkrankheit und 0,86 für Schlaganfall-Historie",
+      "Die Studie analysierte Daten von knapp 30.000 Frauen mit insgesamt etwa 100.000 Mammografien",
+      "Mittleres Alter der Studienteilnehmerinnen: 54 Jahre",
+      "16 % der Frauen hatten erhöhten Blutdruck, je 2,5 % koronare Herzkrankheit oder Schlaganfall-Geschichte",
+      "Das System könnte ohne zusätzliche bildgebende Untersuchung eingesetzt werden",
+      "In Österreich werden pro Jahr über 800.000 Mammografien durchgeführt"
+    ],
+    "missingSources": [
+      "Originalveröffentlichung oder Presseaussendung des Chaim Sheba Medical Centers Tel Aviv",
+      "Methodische Details: externe Validierung, Größe der Testgruppe, Kreuzvalidierungsstrategie",
+      "Stellungnahmen österreichischer Fachgesellschaften (Radiolog:innen, Kardiologe:innen)",
+      "Fachliche Bewertung zur praktischen Implementierbarkeit in klinischen Routinen",
+      "Zeitrahmen für potenzielle klinische Anwendung",
+      "Vergleich mit etablierten kardiovaskulären Risikoscores"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "ki-mammografie-herz-kreislauf-erkennung-august-2026",
+    "title": "KI-Analyse von Mammografie-Bildern erkennt Hinweise auf Herz-Kreislauf-Erkrankungen",
+    "description": "Ein israelisches Forschungsteam hat beim Kardiologiekongress ESC 2026 in München ein KI-System vorgestellt, das aus Mammografie-Aufnahmen Bluthochdruck, koronare Herzkrankheit und frühere Schlaganfälle mit hoher Trefferquote erkennt.",
+    "topic": "wissenschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die zentralen Eckdaten – Studienpräsentation, Teilnehmerinnenzahl und AUROC-Werte – decken sich zwischen der offiziellen Pressemitteilung der Europäischen Gesellschaft für Kardiologie (ESC) und mehreren Medienberichten, gelten damit als bestätigt.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die ESC-Pressemitteilung zur Studie wurde per Websuche mit Zitaten und Zahlenangaben eingesehen, aber keine vollständige Fachpublikation mit Peer-Review oder Methodendokument gelesen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es kommen bislang nur die Studienautorin und die kongressorganisierende Fachgesellschaft selbst zu Wort; eine unabhängige fachliche Einordnung, etwa durch nicht beteiligte Radiologie- oder Kardiologie-Expertise, liegt nicht vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein Forschungsteam um Viana Copeland vom Chaim Sheba Medical Center (Israel) hat beim ESC-Kongress 2026 in München ein KI-System vorgestellt, das aus Mammografie-Bildern Hinweise auf Herz-Kreislauf-Erkrankungen ableitet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Deep-Learning-Modell erreichte in der Analyse von Daten fast 30.000 Frauen mit rund 100.000 Mammografien AUROC-Werte von 0,79 für Bluthochdruck, 0,78 für koronare Herzkrankheit und 0,86 für einen zurückliegenden Schlaganfall.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ziel ist laut Forschungsteam ein Zusatznutzen des ohnehin verbreiteten Brustkrebs-Screenings, ohne dass eine zusätzliche bildgebende Untersuchung nötig würde.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob und wann ein solches System klinisch eingesetzt werden könnte und wie es sich in unabhängig validierten Studien schlägt, ist offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Eine vollständige, peer-review-geprüfte Fachpublikation zu den Ergebnissen liegt nach aktuellem Kenntnisstand noch nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wann und in welcher Fachzeitschrift werden die Ergebnisse als vollständig begutachtete Publikation erscheinen?",
+      "Wie schlägt sich das Modell in einer externen, vom Studienteam unabhängigen Validierungskohorte?",
+      "Wie will das Team die Rate falsch-positiver und falsch-negativer Befunde konkret senken?",
+      "Gibt es bereits Pläne oder einen Zeitrahmen für eine klinische Erprobung, etwa im Rahmen von Mammografie-Screening-Programmen wie dem österreichischen?",
+      "Wie bewerten unabhängige Radiologie- oder Kardiologie-Fachleute, die nicht an der Studie beteiligt waren, den Ansatz?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Science (science.orf.at)",
+        "type": "media",
+        "url": "https://science.orf.at/stories/3237097"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41209887/mammografie-kann-auch-herz-kreislauf-erkrankungen-erkennen"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41209327/mammografie-erkennt-herz-kreislauf-erkrankungen"
+      },
+      {
+        "id": "src4",
+        "name": "European Society of Cardiology (ESC) – Pressemitteilung",
+        "type": "official",
+        "url": "https://www.escardio.org/news/press/press-releases/ai-could-help-detect-common-cardiovascular-diseases-from-mammograms/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein Forschungsteam um Viana Copeland vom Chaim Sheba Medical Center präsentierte beim ESC-Kongress 2026 in München ein KI-System, das aus Mammografien Hinweise auf Herz-Kreislauf-Erkrankungen ableitet.",
+        "status": "supported",
+        "note": "Von der ESC selbst per Pressemitteilung bestätigt und von mehreren Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Das trainierte Deep-Learning-Modell erreichte AUROC-Werte von 0,79 für Bluthochdruck, 0,78 für koronare Herzkrankheit und 0,86 für einen zurückliegenden Schlaganfall.",
+        "status": "supported",
+        "note": "Zahlen stimmen zwischen ESC-Pressemitteilung und ORF-Bericht überein.",
+        "sourceIds": [
+          "src1",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Analyse basierte auf Daten von knapp 30.000 Frauen mit rund 100.000 Mammografie-Untersuchungen, mittleres Alter 54 Jahre.",
+        "status": "supported",
+        "note": "Deckt sich zwischen ESC-Pressemitteilung und Medienbericht.",
+        "sourceIds": [
+          "src1",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "In Österreich werden pro Jahr mehr als 800.000 Mammografien zur Brustkrebs-Früherkennung durchgeführt.",
+        "status": "partial",
+        "note": "Diese österreichspezifische Zahl stammt bislang nur aus dem ORF-Bericht, nicht aus der ESC-Pressemitteilung oder einer weiteren unabhängigen Quelle.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Laut Studienautorin Copeland könnte die Methode einen Zusatznutzen ohne weitere bildgebende Untersuchung bieten, da Mammografie-Screening bereits weit verbreitet ist.",
+        "status": "supported",
+        "note": "Zitat/Aussage wird sowohl von der ESC-Pressemitteilung als auch vom ORF-Bericht wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src4"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Ein Forschungsteam um Viana Copeland vom Chaim Sheba Medical Center in Tel Aviv hat beim Kongress der Europäischen Gesellschaft für Kardiologie (ESC) 2026 in München ein KI-System vorgestellt, das Mammografie-Aufnahmen nicht nur auf Brustkrebs-Anzeichen, sondern auch auf Hinweise für Herz-Kreislauf-Erkrankungen hin auswertet. Die Idee dahinter: Mammografie-Screenings sind bei Frauen bereits breit etabliert und könnten so einen zusätzlichen medizinischen Nutzen liefern, ohne dass eine eigene bildgebende Untersuchung nötig wird. Herz-Kreislauf-Erkrankungen gelten bei Frauen laut der Fachgesellschaft als unterdiagnostiziert, obwohl sie weltweit die häufigste Todesursache bei Frauen sind."
+      },
+      {
+        "heading": "Was die Studie zeigt",
+        "markdown": "Für die Untersuchung wertete das Team Daten von knapp 30.000 Frauen mit einem mittleren Alter von 54 Jahren aus, die zusammen rund 100.000 Mammografie-Untersuchungen hinter sich hatten. Aus elektronischen Patientinnenakten und weiteren Quellen wurde erhoben, wer bereits an Bluthochdruck, koronarer Herzkrankheit oder einem Schlaganfall litt beziehungsweise gelitten hatte: 16 Prozent der Frauen hatten erhöhten Blutdruck, je 2,5 Prozent eine diagnostizierte koronare Herzkrankheit oder einen früheren Schlaganfall. Ein darauf trainiertes Deep-Learning-Modell erzielte für die Erkennung dieser drei Erkrankungen aus den Mammografie-Bildern AUROC-Werte von 0,79 für Bluthochdruck, 0,78 für koronare Herzkrankheit und 0,86 für einen zurückliegenden Schlaganfall – Werte, die laut ESC deutlich über dem Zufallsniveau von 0,5 liegen und sich einer perfekten Vorhersage (1,0) annähern."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Copeland betonte laut ESC-Pressemitteilung, dass die gleichzeitige Auswertung ohnehin vorhandener Mammografie-Bilder auf kardiovaskuläre Informationen einen skalierbaren Ansatz bieten könnte, weil keine zusätzliche Untersuchung nötig wäre. Die Mammografie erreiche viele Frauen genau in der Lebensphase, in der sich ein erhöhtes Herz-Kreislauf-Risiko oft erstmals zeigt. Auch ein Mitglied des ESC-Kommunikationsausschusses ordnete die Arbeit als Hinweis darauf ein, dass eine Mammografie künftig mehr leisten könnte als reine Brustkrebs-Vorsorge. Eine von der Studie unabhängige fachliche Bewertung, etwa durch nicht beteiligte Radiologie- oder Kardiologie-Fachleute, liegt bislang nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Es handelt sich um Ergebnisse, die auf einem Fachkongress präsentiert wurden; eine vollständige, unabhängig begutachtete Fachpublikation mit sämtlichen Methodendetails ist nach derzeitigem Kenntnisstand noch nicht öffentlich verfügbar. Offen ist damit unter anderem, wie das Modell in einer von den Autorinnen und Autoren unabhängigen Validierungskohorte abschneidet, wie stark falsch-positive und falsch-negative Befunde bislang ins Gewicht fallen und in welchem Zeitrahmen ein klinischer Einsatz überhaupt realistisch wäre. Das Forschungsteam selbst kündigte laut den vorliegenden Berichten an, die Genauigkeit weiter verbessern und künftig auch prüfen zu wollen, ob sich mit Mammografien weitere Herz-Kreislauf-Erkrankungen erkennen lassen. Die häufig zitierte Zahl von mehr als 800.000 jährlichen Mammografien in Österreich stammt bislang nur aus einer der Quellen und ist nicht gesondert amtlich bestätigt."
+      }
+    ],
+    "bodyKompakt": "Ein Forschungsteam um Viana Copeland vom Chaim Sheba Medical Center in Tel Aviv hat beim ESC-Kardiologiekongress 2026 in München ein KI-System vorgestellt, das aus Mammografie-Aufnahmen nicht nur Brustkrebs-Anzeichen, sondern auch Hinweise auf Herz-Kreislauf-Erkrankungen ableitet. Die Grundidee: Mammografie-Screenings sind bei Frauen ohnehin weit verbreitet und könnten so einen medizinischen Zusatznutzen liefern, ohne eine eigene Untersuchung nötig zu machen.\n\nFür die Studie wertete das Team Daten von knapp 30.000 Frauen mit rund 100.000 Mammografien aus. Ein trainiertes Deep-Learning-Modell erreichte AUROC-Werte von 0,79 für Bluthochdruck, 0,78 für koronare Herzkrankheit und 0,86 für einen zurückliegenden Schlaganfall – Werte deutlich über dem Zufallsniveau. Laut Copeland könnte der Ansatz besonders in der Lebensmitte helfen, ein erhöhtes Herz-Kreislauf-Risiko frühzeitig zu erkennen.\n\nOffen bleibt, wie das Modell in unabhängigen Validierungsstudien abschneidet, wie hoch die Fehlerraten in der Praxis tatsächlich sind und wann ein klinischer Einsatz realistisch wäre. Eine vollständige, begutachtete Fachpublikation liegt bislang nicht vor; das Team kündigte an, Genauigkeit und Fehlerraten weiter verbessern zu wollen.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-29T00:07:36.688Z"
+}
