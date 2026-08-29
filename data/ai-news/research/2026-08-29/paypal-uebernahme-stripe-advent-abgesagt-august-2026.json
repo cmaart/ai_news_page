@@ -1,0 +1,218 @@
+{
+  "cluster": {
+    "id": "cluster-20260828-0541be17",
+    "title": "Paypal: Stripe und Advent geben Pläne zur Übernahme auf",
+    "items": [
+      {
+        "itemId": "14d3ecb138fa2db5a73da13e2c8691804c6ef31a8b0dce52587b9dda8f685c85",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "Paypal: Stripe und Advent geben Pläne zur Übernahme auf",
+        "url": "https://www.derstandard.at/story/3000000337460/stripe-und-advent-geben-pl228ne-zur-paypal-220bernahme-auf-kreise",
+        "summary": "Die Übernahmespekulation bei PayPal ist geplatzt. Vertreter von Advent, PayPal und Stripe lehnten eine Stellungnahme vorerst ab",
+        "publishedAt": "2026-08-28T13:46:23.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "aa7c92d35920006bbb11abbee500ffd3062a910e093724ccbcca68c276b05d6b",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "PayPal: Advent und Stripe haben Übernahmeversuch angeblich aufgegeben",
+        "url": "https://www.heise.de/news/PayPal-Advent-und-Stripe-haben-Uebernahmeversuch-angeblich-aufgegeben-11432628.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "isNew": false
+      },
+      {
+        "itemId": "582a8d3ca932f55551b03167ba29f729465c8d7b1f004776b5fd0d2b66270649",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Stripe will Paypal doch nicht mehr: Übernahme wird abgesagt, die Aktie bricht ein [premium]",
+        "url": "https://www.diepresse.com/41209521/stripe-will-paypal-doch-nicht-mehr-uebernahme-wird-abgesagt-die-aktie-bricht-ein",
+        "isNew": false
+      },
+      {
+        "itemId": "78b1e9f418d8ffa260fd47999870768e31c073bd4dfc56916013388b5b32ea36",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "Stripe will Paypal doch nicht mehr: Übernahme wird abgesagt, die Aktie bricht ein [premium]",
+        "url": "https://www.diepresse.com/41209521/stripe-will-paypal-doch-nicht-mehr-uebernahme-wird-abgesagt-die-aktie-bricht-ein",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Abbruch des Übernahmeangebots durch Stripe und Advent ist eine dramatische Wendung der Juli-Story ‚Stripe-und-Advent-PayPal-Uebernahmeangebot'. Die neuen Items liefern substanziell Neues (Entscheidung liegt vor, nicht spekulativ; 14%-Kursfall dokumentiert) und beantworten die offene Frage der bestehenden Story konkret. Breite, nahezu synchrone Berichterstattung (3 unabhängige deutsche/österreichische Häuser). Im Zweifel update_story — nicht draft_article, da kein neuer Hauptakteur und kein eigenständiges Teil-Ereignis mit separater Schlagzeilen-Berechtigung.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": 3,
+    "relatedSlug": "stripe-advent-paypal-uebernahmeangebot-juli-2026",
+    "possibleClaims": [
+      "Stripe und Advent haben ihre Übernahmepläne für PayPal aufgegeben",
+      "Das Übernahmeangebot lag bei über 50 Milliarden US-Dollar",
+      "Der PayPal-Vorstand wies das Angebot als unzureichend ab",
+      "Der PayPal-Aktienkurs fiel um bis zu 14 Prozent nach Handelsschluss",
+      "PayPal hatte Schwierigkeiten, Marktanteile gegen Apple Pay und Google Pay zu behaupten",
+      "Der PayPal-CEO wurde im Februar abgesetzt",
+      "Der neue CEO Enrique Lores schloss eine Übernahme nicht grundsätzlich aus"
+    ],
+    "missingSources": [
+      "Direkte Stellungnahme von Stripe, Advent oder PayPal (alle lehnten Kommentar ab)",
+      "Offizielle Bestätigung der genauen Angebotssumme durch die beteiligten Parteien",
+      "Detaillierte Begründung der PayPal-Verwaltungsrats für die Ablehnung",
+      "Stellungnahme von Kartellbehörden zu kartellrechtlichen Bedenken des Deals",
+      "Information über mögliche konkurrierende Angebote"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "paypal-uebernahme-stripe-advent-abgesagt-august-2026",
+    "title": "PayPal-Übernahme geplatzt: Stripe und Advent ziehen sich zurück, Aktie bricht zweistellig ein",
+    "description": "Stripe und der Finanzinvestor Advent International haben ihr milliardenschweres Übernahmeangebot für PayPal einem Bloomberg-Bericht zufolge aufgegeben. Die PayPal-Aktie stürzte danach zweistellig ab, offizielle Stellungnahmen fehlen bislang.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Fünf voneinander unabhängige, seriöse Medien (DER STANDARD, heise online, Die Presse, Bloomberg, Forbes) berichten übereinstimmend über den Rückzug und den Kursabsturz. Ursprung ist jedoch durchgehend ein Bloomberg-Bericht unter Berufung auf nicht namentlich genannte, mit der Sache vertraute Personen – eine offizielle Bestätigung von PayPal, Stripe oder Advent liegt nicht vor, alle drei lehnten eine Stellungnahme ab.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es liegt keine offizielle Mitteilung der beteiligten Unternehmen, keine Behörden- oder Gerichtsquelle vor. Sämtliche Berichte stützen sich auf anonyme Insider-Angaben gegenüber Bloomberg; PayPal, Stripe und Advent haben eine Stellungnahme ausdrücklich verweigert.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um klassische Wirtschafts-/M&A-Berichterstattung ohne erkennbare Skandalisierungstendenz. Einziges Risiko: Die berichteten Kursverlust-Prozentsätze schwanken je nach Quelle und Messzeitpunkt (nachbörslich vs. vorbörslich) zwischen rund 13 und 17 Prozent – das wird im Text als Bandbreite kenntlich gemacht statt als einzelne exakte Zahl behauptet.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Stripe und Advent International haben ihr Übernahmeangebot für PayPal laut einem Bloomberg-Bericht aufgegeben; PayPal, Stripe und Advent lehnten eine Stellungnahme ab.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die PayPal-Aktie brach nach Bekanntwerden der Nachricht im nachbörslichen und vorbörslichen US-Handel zweistellig ein – Berichte nennen Werte zwischen rund 13 und 17 Prozent.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die zuvor offene Frage, ob der PayPal-Verwaltungsrat verhandelt oder das Angebot ablehnt, ist damit beantwortet: Es kommt vorerst zu keinem Deal, die Gespräche wurden von Käuferseite abgebrochen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Warum genau die Gespräche scheiterten, ist nicht offiziell bestätigt; kursierende Angaben zu Bewertungsstreit und regulatorischen Bedenken stammen bislang nur aus anonymen Kreisen.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob es künftig neue oder konkurrierende Übernahmeversuche für PayPal geben wird, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie begründen Stripe, Advent oder PayPal den Rückzug offiziell, sobald sie sich äußern?",
+      "Treffen die kolportierten Gründe – Bewertungsstreit und regulatorische Bedenken – tatsächlich zu?",
+      "Gibt es nach dem Ende der Gespräche neue oder konkurrierende Übernahmeinteressenten für PayPal?",
+      "Wie wirkt sich das Scheitern des Deals auf die strategische Ausrichtung von PayPal unter CEO Enrique Lores aus?"
+    ],
+    "sources": [
+      {
+        "id": "derstandard",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337460/stripe-und-advent-geben-pl228ne-zur-paypal-220bernahme-auf-kreise"
+      },
+      {
+        "id": "heise",
+        "name": "heise online",
+        "type": "media",
+        "url": "https://www.heise.de/news/PayPal-Advent-und-Stripe-haben-Uebernahmeversuch-angeblich-aufgegeben-11432628.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+      },
+      {
+        "id": "diepresse",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41209521/stripe-will-paypal-doch-nicht-mehr-uebernahme-wird-abgesagt-die-aktie-bricht-ein"
+      },
+      {
+        "id": "bloomberg",
+        "name": "Bloomberg",
+        "type": "media",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal"
+      },
+      {
+        "id": "forbes",
+        "name": "Forbes",
+        "type": "media",
+        "url": "https://www.forbes.com/sites/fionariley/2026/08/28/paypal-plunges-15-after-reports-that-advent-stripe-abandon-53-billion-bid/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Stripe und Advent International haben ihre Übernahmepläne für PayPal aufgegeben.",
+        "status": "supported",
+        "note": "Von mindestens fünf unabhängigen Medien übereinstimmend berichtet, letztlich alle auf denselben Bloomberg-Insiderbericht zurückgehend; keine offizielle Bestätigung der Unternehmen selbst.",
+        "sourceIds": [
+          "derstandard",
+          "heise",
+          "diepresse",
+          "bloomberg"
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Vertreter von PayPal, Stripe und Advent lehnten eine Stellungnahme zu dem Rückzug ab.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "derstandard",
+          "heise"
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Der PayPal-Aktienkurs brach nach Bekanntwerden der Nachricht im nachbörslichen bzw. vorbörslichen US-Handel zweistellig ein.",
+        "status": "supported",
+        "note": "Exakte Prozentangaben variieren je nach Quelle und Messzeitpunkt zwischen rund 13 und 17 Prozent; der Kernfakt eines zweistelligen Kurseinbruchs gilt über mehrere Quellen hinweg als bestätigt.",
+        "sourceIds": [
+          "heise",
+          "bloomberg",
+          "forbes"
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Der Rückzug soll unter anderem mit Uneinigkeit über die Bewertung sowie regulatorischen Bedenken zusammenhängen.",
+        "status": "unclear",
+        "note": "Diese Begründung ist bislang nur über sekundäre, nicht namentlich autorisierte Angaben verbreitet und wurde von keiner der beteiligten Parteien offiziell bestätigt.",
+        "sourceIds": [
+          "forbes"
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Erste Signale für Übernahmeinteresse an PayPal reichten laut Bloomberg bereits in den Februar 2026 zurück, im zeitlichen Zusammenhang mit einem Wechsel an der PayPal-Unternehmensspitze.",
+        "status": "partial",
+        "note": "Beantwortet teilweise die aus dem bisherigen Bericht offene Frage nach frühen informellen Kontakten; Details zum Führungswechsel stammen aus einer Einzelquelle (heise) und sind nicht durch eine offizielle PayPal-Mitteilung belegt.",
+        "sourceIds": [
+          "heise",
+          "bloomberg"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Übernahmegespräche abgebrochen",
+        "markdown": "Das im Juli öffentlich gewordene Übernahmeangebot von Stripe und dem Finanzinvestor Advent International für den US-Zahlungsdienstleister PayPal ist einem Bericht der Nachrichtenagentur Bloomberg zufolge vom Tisch. Bloomberg beruft sich dabei auf mit dem Vorgang vertraute Personen; PayPal, Stripe und Advent äußerten sich auf Anfrage mehrerer Medien – darunter DER STANDARD und heise online – nicht offiziell zu der Entwicklung. Die zuvor offene Frage, ob der PayPal-Verwaltungsrat verhandelt, das Angebot ablehnt oder annimmt, ist damit vorerst beantwortet: Es kommt zu keinem Abschluss, die Käuferseite hat sich zurückgezogen."
+      },
+      {
+        "heading": "Kursreaktion",
+        "markdown": "An der Börse fiel die Reaktion deutlich aus: Laut heise-Bericht brach der PayPal-Aktienkurs nach Bekanntwerden der Nachricht im nachbörslichen US-Handel um bis zu 14 Prozent ein. Weitere Berichte, etwa von Bloomberg und Forbes, sprechen für den anschließenden vorbörslichen Handel von Kursverlusten zwischen rund 13 und 17 Prozent – die genaue Größenordnung schwankt je nach Meldezeitpunkt und Quelle, ein zweistelliger Einbruch gilt aber über mehrere unabhängige Berichte hinweg als gesichert. Die Aktie hatte seit dem Bekanntwerden des Übernahmeinteresses im Juli spürbar zugelegt; ein Teil dieser Kursgewinne dürfte mit dem Rückzug nun wieder verloren gegangen sein."
+      },
+      {
+        "heading": "Hintergrund",
+        "markdown": "Wie im bisherigen Bericht dargestellt, hatten Stripe und Advent International im Juli laut Reuters ein gemeinsames Angebot von rund 53,4 Milliarden US-Dollar beziehungsweise 60,50 US-Dollar je Aktie für PayPal vorgelegt, gedeckt durch rund 50 Milliarden US-Dollar zugesagter Bankfinanzierung. Laut Bloomberg reichen erste Signale für Übernahmeinteresse bereits in den Februar 2026 zurück, als PayPal nach einer längeren Kursschwäche auch an der Unternehmensspitze einen Wechsel vollzog; seither führt laut heise-Bericht Enrique Lores das Unternehmen."
+      },
+      {
+        "heading": "Was offen bleibt",
+        "markdown": "Warum die Gespräche konkret scheiterten, ist nicht offiziell bestätigt. Angaben, wonach Streit über die Unternehmensbewertung und regulatorische Hürden eine Rolle gespielt haben sollen, stammen bislang ausschließlich aus nicht namentlich genannten Kreisen und wurden von keiner der beteiligten Parteien autorisiert. Unklar bleibt zudem, ob es künftig neue oder konkurrierende Übernahmeversuche für PayPal geben wird und wie sich das Unternehmen strategisch neu ausrichtet, nachdem sich der bislang bekannte Übernahmeversuch zerschlagen hat."
+      }
+    ],
+    "bodyKompakt": "Das im Juli bekannt gewordene Übernahmeangebot von Stripe und dem Finanzinvestor Advent International für PayPal ist einem Bloomberg-Bericht zufolge vom Tisch. Die Nachrichtenagentur beruft sich auf mit der Sache vertraute Personen; PayPal, Stripe und Advent lehnten gegenüber mehreren Medien eine Stellungnahme ab. Die zuvor offene Frage, wie der PayPal-Verwaltungsrat auf das rund 53-Milliarden-Dollar-Angebot reagiert, ist damit vorerst beantwortet: Es kommt zu keinem Deal.\n\nAn der Börse sorgte die Nachricht für einen deutlichen Einbruch. Laut heise-Bericht fiel die PayPal-Aktie im nachbörslichen US-Handel um bis zu 14 Prozent; Bloomberg und Forbes berichten für den vorbörslichen Handel von Verlusten zwischen rund 13 und 17 Prozent. Die genaue Zahl schwankt je nach Quelle und Zeitpunkt, ein zweistelliger Kursrückgang gilt aber als über mehrere unabhängige Berichte hinweg abgesichert. Die Aktie hatte seit dem Bekanntwerden des Übernahmeinteresses im Juli deutlich zugelegt – ein Teil dieser Gewinne dürfte nun wieder verloren gegangen sein.\n\nWie im bisherigen Bericht dargestellt, hatte das Konsortium 60,50 US-Dollar je Aktie geboten, gedeckt durch rund 50 Milliarden US-Dollar Bankfinanzierung. Laut Bloomberg reichen erste Signale für Übernahmeinteresse bereits in den Februar 2026 zurück, im zeitlichen Umfeld eines Wechsels an der PayPal-Unternehmensspitze hin zu Enrique Lores. Warum die Gespräche letztlich scheiterten, ist nicht offiziell bestätigt: Kursierende Hinweise auf Bewertungsstreit und regulatorische Bedenken stammen bislang nur aus anonymen Kreisen. Offen bleibt auch, ob es neue oder konkurrierende Übernahmeversuche für PayPal geben wird.",
+    "updateNote": null,
+    "pendingOutcome": "Eine offizielle Stellungnahme von PayPal, Stripe oder Advent zu Ablauf und Gründen des Rückzugs sowie mögliche neue Übernahmeinteressenten stehen noch aus."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-29T02:07:37.410Z"
+}
