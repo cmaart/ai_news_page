@@ -1,0 +1,200 @@
+{
+  "cluster": {
+    "id": "cluster-20260829-f064e5cb",
+    "title": "Boot mit Österreichern vor Triest gekentert – alle gerettet",
+    "items": [
+      {
+        "itemId": "10b8f71062cf777b5145291cdf052e9071ad5c789ee0e588b463f6ea7ed195fa",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Boot mit Österreichern vor Triest gekentert – alle gerettet",
+        "url": "https://orf.at/stories/3440625",
+        "publishedAt": "2026-08-29T17:32:28.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "691bc4fdb0084e844b14153cf7041c2ca8c0d072987d3ab38b7771bbb3e8ae83",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Boot mit zehn Österreichern vor Triest gekentert: Alle gerettet",
+        "url": "https://www.derstandard.at/story/3000000337548/boot-mit-zehn-214sterreichern-vor-triest-gekentert-alle-gerettet",
+        "summary": "Durch einen Defekt drang offenbar Wasser ins Boot und brachte dieses in kurzer Zeit zum Sinken",
+        "publishedAt": "2026-08-29T17:53:26.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "499f3bbb0a4c8a1c958e5c9bfcb187aac7497b469594c9b4f8b60856c75c0100",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Insassen gerettet: Boot mit zehn Österreichern vor Triest gekentert",
+        "url": "https://kurier.at/chronik/welt/boot-mit-zehn-oesterreichern-vor-triest-gekentert/403187333",
+        "summary": "Ein Fehler am Motor führte offenbar zu dem Notfall.",
+        "publishedAt": "2026-08-29T17:33:01.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "d3ff5d6a9d8fb81c90c31c06ece53195b6488d314379c8931c2d7d41a41a66f6",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Insassen gerettet: Boot mit zehn Österreichern vor Triest gekentert",
+        "url": "https://kurier.at/chronik/welt/boot-mit-zehn-oesterreichern-vor-triest-gekentert/403187333",
+        "summary": "Ein Fehler am Motor führte offenbar zu dem Notfall.",
+        "publishedAt": "2026-08-29T17:33:01.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Konkretes Notfall-Ereignis mit direktem Österreich-Bezug (zehn österreichische Bürger an Bord). Gute österreichische Medienabdeckung (ORF, Der Standard, Kurier auf ANSA-Basis). Alle Insassen wurden gerettet, keine Todesopfer. Substanz für kuratorierten Artikel ausreichend. Keine verwandte bereits publizierte Story im System (die relatedStories behandeln andere Fährunglücke in Dritt-Ländern mit Todesfällen).",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Motorboot »Diwa II« unter österreichischer Flagge mit zehn österreichischen Bürgern an Bord sank am Samstag, 29. August 2026, in der Adria.",
+      "Das Boot sank etwa 300 Meter vom Hafen Triest entfernt.",
+      "Starthafen war Portopiccolo Sistiana, Zielort Izola in Slowenien.",
+      "Ursache war vermutlich ein Defekt am Antriebssystem, durch den Wasser eindrang.",
+      "Alle zehn Insassen wurden durch eine Rettungsaktion gerettet und zur Hafenbehörde Triest gebracht.",
+      "Die Geretteten wurden medizinisch versorgt."
+    ],
+    "missingSources": [
+      "Primärquelle ist Nachrichtenagentur ANSA; Originalaussagen österreichischer Behörden oder des Konsulats Italien nicht vorhanden.",
+      "Keine offizielle oder technische Unfallursachen-Analyse.",
+      "Keine Angaben zu Boot-Eigentümer, Charter-Unternehmen, Boot-Alter oder technischem Zustand.",
+      "Keine Zeugenbericht oder detaillierte Beschreibung der Rettungsmaßnahmen."
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "boot-oesterreicher-triest-gekentert-august-2026",
+    "title": "Boot mit zehn Österreichern vor Triest gesunken – alle Insassen gerettet",
+    "description": "Ein unter österreichischer Flagge fahrendes Motorboot mit zehn Österreichern an Bord ist am Samstag nahe dem Hafen von Triest gesunken. Laut der Nachrichtenagentur ANSA wurden alle Schiffbrüchigen gerettet und medizinisch versorgt.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "ORF, Der Standard und Kurier berichten übereinstimmend, stützen sich dabei aber erkennbar alle auf dieselbe Agenturmeldung der italienischen Nachrichtenagentur ANSA – das zählt als eine Quelle, nicht als unabhängige Bestätigung.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Keine eigene Primärquelle (Behörde, Konsulat, Hafenverwaltung) eingesehen; alle Angaben beruhen auf der von ANSA verbreiteten und von österreichischen Medien übernommenen Meldung.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um ein unstrittiges Rettungsereignis ohne widerstreitende Interessen oder Konfliktparteien, daher kein einseitiges Framing-Risiko erkennbar.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Ein Motorboot mit zehn Österreichern an Bord ist am Samstag rund 300 Meter vor dem Hafen von Triest gesunken.",
+        "kind": "fact"
+      },
+      {
+        "text": "Alle zehn Insassen wurden gerettet und zur Hafenbehörde Triest gebracht, wo sie medizinisch versorgt wurden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als Ursache gilt ein vermuteter Defekt am Antriebssystem, durch den Wasser eindrang.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Boot war von Portopiccolo Sistiana in Italien mit Ziel Izola in Slowenien unterwegs.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen sind Details zur Rettungsaktion, zum Zustand der Geretteten und zum Eigentümer bzw. Zustand des Boots.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wer betreibt oder besitzt das Boot „Diwa II“, und in welchem technischen Zustand befand es sich vor der Ausfahrt?",
+      "Wie genau verlief die Rettungsaktion, und welche Einsatzkräfte waren beteiligt?",
+      "Wie geht es den zehn Geretteten inzwischen gesundheitlich, und wurden sie inzwischen entlassen?",
+      "Gibt es eine offizielle Stellungnahme italienischer Behörden, der Hafenverwaltung Triest oder österreichischer Vertretungsbehörden in Italien zu dem Vorfall?",
+      "Wird es eine technische Untersuchung zur genauen Unfallursache geben?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440625"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337548/boot-mit-zehn-214sterreichern-vor-triest-gekentert-alle-gerettet"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/boot-mit-zehn-oesterreichern-vor-triest-gekentert/403187333"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein unter österreichischer Flagge fahrendes Motorboot mit zehn Österreichern an Bord ist am Samstag, 29. August 2026, rund 300 Meter vor dem Hafen Triest gesunken.",
+        "status": "supported",
+        "note": "Von ORF, Der Standard und Kurier übereinstimmend berichtet, wenn auch erkennbar auf derselben ANSA-Meldung basierend.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Alle zehn Insassen wurden gerettet und zur Hafenbehörde Triest gebracht, wo sie medizinisch versorgt wurden.",
+        "status": "supported",
+        "note": "Übereinstimmend in allen drei Medienberichten, die sich auf ANSA berufen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Das Boot „Diwa II“ war von Portopiccolo Sistiana mit Ziel Izola in Slowenien unterwegs.",
+        "status": "partial",
+        "note": "Nur im ORF-Bericht mit Bootsnamen und Streckendetails genannt, keine unabhängige Zweitquelle für diese Details vorhanden.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Ursache des Sinkens war vermutlich ein Defekt am Antriebssystem, durch den Wasser eindrang.",
+        "status": "partial",
+        "note": "Als Vermutung formuliert, nicht durch eine technische Untersuchung bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Ein unter österreichischer Flagge fahrendes Motorboot mit zehn Österreichern an Bord ist am Samstag in der Adria gesunken, rund 300 Meter vom Hafen Triest entfernt. Das berichteten übereinstimmend ORF, Der Standard und der Kurier, die sich dabei auf die italienische Nachrichtenagentur ANSA berufen. Alle zehn Schiffbrüchigen wurden im Zuge einer Rettungsaktion per Boot geborgen und zur Hafenbehörde Triest gebracht, wo sie medizinisch versorgt wurden. Von den Vorfällen betroffene Personen kamen damit ohne Todesopfer davon."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Laut ORF handelte es sich um das Boot „Diwa II“, das am Vormittag von Portopiccolo Sistiana bei Triest mit Ziel Izola in Slowenien ausgelaufen war. Als Ursache für das Sinken vermuten die Berichte einen Defekt am Antriebssystem, durch den in kurzer Zeit Wasser ins Boot eindrang und es zum Kentern brachte. Der Standard und der Kurier bestätigen den Kernhergang – zehn Österreicher an Bord, Rettung aller Insassen, vermuteter technischer Defekt –, liefern aber, anders als ORF, keine zusätzlichen Details zum Bootsnamen oder zur genauen Route. Alle drei österreichischen Medien stützen sich erkennbar auf dieselbe ANSA-Meldung, eine zweite, unabhängige Quelle liegt nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, wem das Boot gehörte oder wer es betrieb, in welchem technischen Zustand es sich vor der Ausfahrt befand und wie die Rettungsaktion im Detail ablief. Auch der aktuelle Gesundheitszustand der zehn Geretteten sowie eine mögliche offizielle Stellungnahme italienischer Behörden, der Triestiner Hafenverwaltung oder österreichischer Vertretungsbehörden in Italien sind aus den vorliegenden Quellen nicht ersichtlich. Ob es zu einer technischen Untersuchung der genauen Unfallursache kommt, ist ebenfalls unklar."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Anders als etwa die zuletzt berichteten Fährunglücke auf dem Karibasee in Simbabwe oder vor Guyana, bei denen jeweils zahlreiche Menschen ums Leben kamen, verlief dieser Vorfall glimpflich: Alle Insassen überlebten und wurden zeitnah gerettet. Die Faktenlage stützt sich derzeit ausschließlich auf eine von ANSA verbreitete und von mehreren österreichischen Medien wortgleich übernommene Darstellung, was die Einstufung als bestätigtes, aber nicht durch mehrere unabhängige Quellen abgesichertes Ereignis begründet."
+      }
+    ],
+    "bodyKompakt": "Ein unter österreichischer Flagge fahrendes Motorboot mit zehn Österreichern an Bord ist am Samstag in der Adria gesunken, rund 300 Meter vom Hafen Triest entfernt. Alle zehn Schiffbrüchigen wurden gerettet und zur Hafenbehörde Triest gebracht, wo sie medizinisch versorgt wurden. Das berichteten ORF, Der Standard und der Kurier übereinstimmend unter Berufung auf die italienische Nachrichtenagentur ANSA.\n\nLaut ORF handelte es sich um das Boot „Diwa II“, das von Portopiccolo Sistiana mit Ziel Izola in Slowenien unterwegs war. Als Ursache vermuten die Berichte einen Defekt am Antriebssystem, durch den Wasser eindrang und das Boot in kurzer Zeit zum Sinken brachte. Eine unabhängige Zweitquelle neben ANSA liegt für diese Details nicht vor.\n\nOffen bleiben Details zur Rettungsaktion, zum Eigentümer und technischen Zustand des Boots sowie zum aktuellen Gesundheitszustand der Geretteten. Eine offizielle Stellungnahme italienischer oder österreichischer Behörden ist bislang nicht bekannt, ebenso wenig eine technische Unfallursachen-Analyse.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-29T22:07:28.114Z"
+}
