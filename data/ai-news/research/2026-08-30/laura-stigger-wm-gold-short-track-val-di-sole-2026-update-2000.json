@@ -1,0 +1,374 @@
+{
+  "cluster": {
+    "id": "cluster-20260830-23a8d48b",
+    "title": "Laura Stigger im Cross Country auf WM-Rang acht",
+    "items": [
+      {
+        "itemId": "8ff9a024fea50e0bc7dee1b60b1e434e0fd568ec5195c27738b75e21fa0049f4",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Laura Stigger im Cross Country auf WM-Rang acht",
+        "url": "https://www.kleinezeitung.at/artikel/41216516/laura-stigger-im-cross-country-auf-wm-rang-acht",
+        "summary": "Weltmeisterin nicht mehr so spritzig – Max Foidl bei Pidcock-Show auf Rang 22.",
+        "publishedAt": "2026-08-30T16:45:49.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "cc0c1453e61070dcdaa2903f9e267f38e4a0034f6271bb4b7983a257593975a9",
+        "sourceId": "orf_sport",
+        "sourceType": "media",
+        "title": "Stigger bei WM im Cross-Country Achte",
+        "url": "https://sport.orf.at/stories/3161874",
+        "isNew": false
+      },
+      {
+        "itemId": "0c8405259ff7c7287193fb4d71ae710078ff125ed452c09a2bdab7341bb63b2f",
+        "sourceId": "orf_tirol",
+        "sourceType": "media",
+        "title": "Laura Stigger im Cross Country Achte",
+        "url": "https://tirol.orf.at/stories/3369110",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.775,
+  "triage": {
+    "action": "update_story",
+    "reason": "Cross-Country-Ergebnis (Platz 8) beantwortet explizite offene Frage des bestehenden Short-Track-WM-Artikels (‚Wie schneidet Stigger beim Cross-Country ab?'). Substanziell neuer Wettkampf derselben WM-Serie; Update-vor-Delta-Regel greift; keine eigenständige Schlagzeile gerechtfertigt für inkrementelle Fortsetzung.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": 1,
+    "relatedSlug": "laura-stigger-wm-gold-short-track-val-di-sole-2026",
+    "possibleClaims": [
+      "Laura Stigger wurde beim Cross-Country der WM in Val di Sol 8. Platz",
+      "Stigger fehlten 1:34 Minuten aufs Podest",
+      "Sina Frei (Schweiz) gewann das Cross-Country-Rennen",
+      "Martina Bertag (Italien) holte Silber, Nicole Koller (Schweiz) Bronze",
+      "Thomas Pidcock (Großbritannien) holte seinen zweiten WM-Titel im Cross Country",
+      "Max Foidl (Tirol) wurde 22.",
+      "Katrin Embacher (Tirol) wurde U23-8.",
+      "Mona Mitterwallner kam nicht über Platz 28 hinaus"
+    ],
+    "missingSources": [
+      "Aussage oder Reaktion von Laura Stigger zum Rennergebnis und zum Unterschied zur Short-Track-Form",
+      "Rennverlauf und Gründe für das Nicht-Podest (Tagesform, Taktik, Konkurrenz)",
+      "Detaillierte Zwischenzeitvergleiche zwischen Stigger und Podest-Finisherinnen",
+      "Originalquelle zu Pidcock-Sieg (APA oder direkt UCI bestätigt?)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "laura-stigger-wm-gold-short-track-val-di-sole-2026",
+    "title": "Laura Stigger holt WM-Gold im Short-Track, im Cross-Country reicht es zu Platz acht",
+    "description": "Die 25-jährige Tirolerin gewinnt bei der Mountainbike-WM in Val di Sole Gold im Short-Track-Bewerb und wird drei Tage später im olympischen Cross-Country-Rennen WM-Achte. Cross-Country-Weltmeisterin wurde die Schweizerin Sina Frei, bei den Männern siegte Thomas Pidcock.",
+    "topic": "sport",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Für beide Rennen berichten mehrere unabhängige Medien übereinstimmend über Ergebnis und Podium: zum Short-Track-Titel ORF Tirol, ORF Sport, DER STANDARD, Kurier und Kleine Zeitung; zum Cross-Country-Ergebnis zusätzlich Kleine Zeitung, ORF Sport und ORF Tirol mit einem zweiten Artikel sowie zur Einordnung des Gesamtresultats der Schweizer Sender SRF. Der zusätzlich gemeldete Status Stiggers als Korporal und Heeressportlerin des Bundesheeres stammt weiterhin nur aus einer einzelnen APA-Presseaussendung und wurde in den gesichteten Medienberichten nicht unabhängig bestätigt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt weiterhin keine offizielle UCI-Ergebnisliste oder Verbandsmitteilung vor, sondern nur Medienberichte – für das Cross-Country-Rennen mit einem Volltext-Artikel (ORF Sport) inklusive konkreter Zeitangaben. Ein zweiter Medienbericht (Tiroler Tageszeitung) mit einer paraphrasierten Einschätzung Stiggers zum Rennen wurde nur als Suchtreffer-Zusammenfassung gesichtet, nicht im Volltext gelesen; die dort wiedergegebene Aussage wird daher zurückhaltend behandelt.",
+    "framingRisk": "low",
+    "framingRiskNote": "Sportergebnisse ohne konkurrierende Interessen oder Streitfrage; mehrere unabhängige Portale schildern Ablauf und Platzierungen übereinstimmend. Die Presseaussendung des Bundesheeres bleibt erkennbar eigeninteressiert formuliert; ihr Sachgehalt wurde weiterhin als einzelquellig gekennzeichnet.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Laura Stigger hat am Donnerstag bei der Mountainbike-WM in Val di Sole Gold im Short-Track-Bewerb gewonnen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Sie setzte sich im Zielsprint zeitgleich vor der Britin Evie Richards durch, Bronze ging an die Schweizerin Sina Frei.",
+        "kind": "fact"
+      },
+      {
+        "text": "Für die 25-jährige Tirolerin war es die erste WM-Medaille in der Eliteklasse, nachdem sie zuvor schon mehrfach Junioren-Weltmeisterin geworden war.",
+        "kind": "fact"
+      },
+      {
+        "text": "Drei Tage später wurde Stigger im olympischen Cross-Country-Rennen derselben WM Achte, mit rund 2:41 Minuten Rückstand auf die Siegerin.",
+        "kind": "fact"
+      },
+      {
+        "text": "Den Cross-Country-Titel holte sich die Schweizerin Sina Frei erstmals; Silber ging an die Italienerin Martina Berta, Bronze an die Schweizerin Nicole Koller – jene Fahrerin, die im Short-Track noch Bronze vor Stigger geholt hatte, siegte hier also im Cross Country.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei den Männern gewann der Brite Thomas Pidcock seinen zweiten Cross-Country-WM-Titel, der Tiroler Max Foidl wurde 22.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut einer APA-Presseaussendung ist Stigger als Korporal Heeressportlerin des österreichischen Bundesheeres; eine unabhängige Bestätigung dieses Status liegt weiterhin nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lief der Zielsprint im Short-Track-Rennen im Detail ab, und wie knapp war der Vorsprung auf Evie Richards tatsächlich in Zehntelsekunden?",
+      "Wie viele Punkte oder Podestplätze hatte Stigger im laufenden Short-Track-Weltcup 2026 vor diesem WM-Titel bereits gesammelt?",
+      "Lässt sich der in der Bundesheer-Presseaussendung genannte Status Stiggers als Korporal und Heeressportlerin unabhängig, etwa durch Medienberichte oder eine offizielle Bundesheer-Mitteilung außerhalb der APA-OTS-Aussendung, bestätigen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Tirol",
+        "type": "media",
+        "url": "https://tirol.orf.at/stories/3368769"
+      },
+      {
+        "id": "src2",
+        "name": "ORF Sport (sport.orf.at, Stigger erobert im Short Track WM-Gold)",
+        "type": "media",
+        "url": "https://sport.orf.at/stories/3161760"
+      },
+      {
+        "id": "src3",
+        "name": "ORF Sport (sport.orf.at, Stigger holt WM-Gold im MTB-Short-Track)",
+        "type": "media",
+        "url": "https://sport.orf.at/stories/3161758"
+      },
+      {
+        "id": "src4",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337302/mountainbike-wm-gold-f252r-laura-stigger-im-short-track"
+      },
+      {
+        "id": "src5",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/sport/mountainbike-weltmeisterschaft-gold-laura-stigger-short-track/403186769"
+      },
+      {
+        "id": "src6",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41209099/wm-gold-im-short-track-fuer-laura-stigger"
+      },
+      {
+        "id": "src7",
+        "name": "APA-OTS-Presseaussendung (Bundesheer): „Bundesheer: Gold-Coup für Korporal Laura Stigger“",
+        "type": "press_release",
+        "url": "https://www.ots.at/presseaussendung/OTS_20260828_OTS0082/bundesheer-gold-coup-fuer-korporal-laura-stigger"
+      },
+      {
+        "id": "src8",
+        "name": "Kleine Zeitung (Laura Stigger im Cross Country auf WM-Rang acht)",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41216516/laura-stigger-im-cross-country-auf-wm-rang-acht"
+      },
+      {
+        "id": "src9",
+        "name": "ORF Sport (sport.orf.at, Stigger bei WM im Cross-Country Achte)",
+        "type": "media",
+        "url": "https://sport.orf.at/stories/3161874"
+      },
+      {
+        "id": "src10",
+        "name": "ORF Tirol (Laura Stigger im Cross Country Achte)",
+        "type": "media",
+        "url": "https://tirol.orf.at/stories/3369110"
+      },
+      {
+        "id": "src11",
+        "name": "SRF (MTB-WM: Cross Country, Frauen – Europameisterin Frei holt WM-Titel, Koller wird Dritte)",
+        "type": "media",
+        "url": "https://www.srf.ch/sport/rad/mountainbike/mtb-wm-cross-country-frauen-europameisterin-frei-holt-wm-titel-koller-wird-dritte"
+      },
+      {
+        "id": "src12",
+        "name": "Tiroler Tageszeitung (Es blieb bei einer Goldenen: Stigger im Cross-Country nicht am Podium)",
+        "type": "media",
+        "url": "https://www.tt.com/artikel/30941190/es-blieb-bei-einer-goldenen-stigger-im-cross-country-nicht-am-podium"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Laura Stigger hat am Donnerstag bei der Mountainbike-WM im italienischen Val di Sole Gold im Short-Track-Bewerb gewonnen.",
+        "status": "supported",
+        "note": "Von allen sechs gesichteten Medienartikeln übereinstimmend berichtet, zusätzlich bestätigt durch die Presseaussendung des Bundesheeres.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Sie setzte sich im Zielsprint zeitgleich vor der Britin Evie Richards durch, Bronze ging eine Sekunde zurück an die Schweizerin Sina Frei.",
+        "status": "supported",
+        "note": "Übereinstimmend von ORF Tirol und DER STANDARD berichtet, inklusive identischer Zeitangabe.",
+        "sourceIds": [
+          "src1",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Für die 25-jährige Tirolerin ist der Titel die erste WM-Medaille in der Eliteklasse; zuvor war sie mehrfach Junioren-Weltmeisterin.",
+        "status": "supported",
+        "note": "ORF Tirol und DER STANDARD nennen es die erste Elite-Medaille; ORF Sport zählt den Erfolg unter Einbeziehung der Junioren-Titel als dritten WM-Titel insgesamt (nach Junioren-Gold im Cross-Country und im Straßenrennen).",
+        "sourceIds": [
+          "src1",
+          "src4",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Vor neun Jahren war Stigger in Val di Sole bereits Junioren-Weltmeisterin und holte dort auch U23-WM-Silber.",
+        "status": "supported",
+        "note": "Aus dem Volltext-Zitat der Sportlerin bei ORF Tirol.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Im laufenden Short-Track-Weltcup 2026 stand Stigger bereits auf dem Podest.",
+        "status": "partial",
+        "note": "Nur eine Quelle nennt dies, ohne Angabe von Rennort oder genauer Platzierung.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Das WM-Rennen über die olympische Cross-Country-Distanz fand am Sonntag statt.",
+        "status": "supported",
+        "note": "Terminangabe aus dem ORF-Tirol-Artikel, bestätigt durch die tatsächliche Berichterstattung über das Rennergebnis am selben Tag.",
+        "sourceIds": [
+          "src1",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Laura Stigger ist als Korporal Heeressportlerin beim österreichischen Bundesheer.",
+        "status": "partial",
+        "note": "Bislang nur durch eine APA-Presseaussendung des Bundesheeres belegt; keines der gesichteten Medienberichte erwähnt diesen Status oder den Dienstgrad, eine unabhängige Bestätigung liegt daher weiterhin nicht vor.",
+        "sourceIds": [
+          "src7"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Beim Cross-Country-Rennen der WM in Val di Sole wurde Laura Stigger am Sonntag Achte.",
+        "status": "supported",
+        "note": "Übereinstimmend von Kleine Zeitung, ORF Sport und ORF Tirol berichtet.",
+        "sourceIds": [
+          "src8",
+          "src9",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Stigger lag im Ziel 2:41 Minuten hinter der Siegerin, aufs Podest fehlten ihr 1:34 Minuten.",
+        "status": "partial",
+        "note": "Die genauen Zeitangaben stammen bislang nur aus dem Volltext von ORF Sport, die anderen Quellen nennen nur die Platzierung ohne exakte Zeiten.",
+        "sourceIds": [
+          "src9"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Die Schweizerin Sina Frei gewann das Cross-Country-Rennen und wurde damit nach EM-Titel und Silber bei den Olympischen Spielen erstmals Cross-Country-Weltmeisterin.",
+        "status": "supported",
+        "note": "Von ORF Sport und dem Schweizer Sender SRF übereinstimmend berichtet.",
+        "sourceIds": [
+          "src9",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Silber ging an die Italienerin Martina Berta, die sich knapp gegen die Schweizerin Nicole Koller durchsetzte, welche Bronze holte.",
+        "status": "supported",
+        "note": "ORF schreibt den Namen der Zweitplatzierten im Cluster-Text als „Bertag“; SRF und weitere italienische bzw. Schweizer Medien führen sie als „Martina Berta“, diese Schreibweise wurde hier übernommen. Dass Koller Bronze holte, wird von SRF explizit genannt, ORF Sport beschreibt nur den knappen Sieg gegen sie.",
+        "sourceIds": [
+          "src9",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Bei den Männern gewann der Brite Thomas Pidcock seinen zweiten WM-Titel im Cross Country nach 2023; er ist zudem Olympiasieger 2021 und 2024.",
+        "status": "supported",
+        "note": "Aus dem Volltext von ORF Sport.",
+        "sourceIds": [
+          "src9"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "Der Tiroler Max Foidl wurde bei den Männern 22.",
+        "status": "supported",
+        "note": "Von Kleine Zeitung und ORF Sport übereinstimmend berichtet.",
+        "sourceIds": [
+          "src8",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim14",
+        "text": "Im U23-Rennen wurde die Tirolerin Katrin Embacher Achte.",
+        "status": "supported",
+        "note": "Aus dem Volltext von ORF Sport.",
+        "sourceIds": [
+          "src9"
+        ]
+      },
+      {
+        "id": "claim15",
+        "text": "Mona Mitterwallner kam beim Cross-Country-Rennen der Frauen nicht über Platz 28 hinaus.",
+        "status": "supported",
+        "note": "Aus dem Volltext von ORF Sport.",
+        "sourceIds": [
+          "src9"
+        ]
+      },
+      {
+        "id": "claim16",
+        "text": "Stigger habe nach dem Rennen sinngemäß erklärt, nicht ihren besten Tag erwischt und am Limit gefahren zu sein.",
+        "status": "partial",
+        "note": "Nur über eine Suchtreffer-Zusammenfassung eines Berichts der Tiroler Tageszeitung bekannt, nicht im Originalwortlaut gesichtet; daher als paraphrasierte Einzelquellen-Angabe und nicht als wörtliches Zitat behandelt.",
+        "sourceIds": [
+          "src12"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Laura Stigger hat am Donnerstag bei den Mountainbike-Weltmeisterschaften im italienischen Val di Sole Gold im Short-Track-Bewerb geholt. Die 25-jährige Tirolerin setzte sich in einem engen Zielsprint zeitgleich vor der Britin Evie Richards durch. Bronze ging, eine Sekunde zurück, an die Schweizerin Sina Frei. Für Stigger war es die erste WM-Medaille in der Eliteklasse ihrer Karriere.\n\nDrei Tage später, am Sonntag, ging Stigger bei derselben WM auch im olympischen Cross-Country-Rennen an den Start – und verpasste dort eine zweite Medaille. Nach sieben Runden kam sie als Achte ins Ziel, 2:41 Minuten hinter der Siegerin, auf das Podest fehlten ihr 1:34 Minuten."
+      },
+      {
+        "heading": "Stiggers Weg zu Gold im Short Track",
+        "markdown": "Val di Sole ist für Stigger kein unbeschriebenes Blatt: Vor neun Jahren hatte sie am selben Ort ihren ersten Junioren-WM-Titel geholt, außerdem stand sie dort schon einmal als U23-Weltmeisterschaftszweite auf dem Podest. „Mir fehlen die Worte. Das ist einfach unglaublich und unwirklich, einfach pure Emotionen. Es ist mehr als nur ein Traum, der wahr geworden ist. Meine Familie ist auch hier, das bedeutet mir sehr viel“, wird die aus dem Ötztal stammende Athletin nach dem Short-Track-Rennen zitiert. Nach Medienangaben stand sie im laufenden Short-Track-Weltcup 2026 bereits auf dem Podest, ohne dass die vorliegenden Berichte Rennort oder genaue Platzierung nennen. Der ORF-Sportredaktion zufolge ist der Erfolg in Val di Sole – rechnet man die Junioren-Titel im Cross-Country und im Straßenrennen mit – bereits Stiggers dritter WM-Titel insgesamt; in der Erwachsenenklasse handelt es sich jedoch um ihre erste WM-Medaille."
+      },
+      {
+        "heading": "Cross-Country: Achter Platz drei Tage nach Gold",
+        "markdown": "Im olympischen Cross-Country-Rennen, dem prestigeträchtigsten Bewerb der WM, konnte Stigger an ihre Short-Track-Form nicht anschließen. Sie beendete das Rennen als Achte, mit einem Rückstand von 2:41 Minuten auf die Siegerin und 1:34 Minuten auf das Podest. Den Titel sicherte sich die Schweizerin Sina Frei überlegen und praktisch im Alleingang – nach EM-Titel und Silber bei den Olympischen Spielen damit erstmals auch WM-Gold im Cross Country. Silber ging an die Italienerin Martina Berta, die sich in einem knappen Sprint gegen die Schweizerin Nicole Koller durchsetzte; Koller sicherte sich damit Bronze. Bemerkenswert: Ausgerechnet Frei, die im Short Track noch hinter Stigger auf Bronzerang gelandet war, drehte den Spieß im Cross Country um und ließ ihr im Gesamtklassement keine Chance.\n\nAuch die zweite Tirolerin im Rennen, Mona Mitterwallner, blieb ohne Podestchance und kam nicht über Platz 28 hinaus. Bei den Männern gewann der Brite Thomas Pidcock, der auch amtierender Olympiasieger von 2021 und 2024 ist, seinen zweiten Cross-Country-WM-Titel nach 2023. Der Tiroler Max Foidl wurde 22., im parallel ausgetragenen U23-Rennen kam die Tirolerin Katrin Embacher auf Rang acht. Einem Medienbericht zufolge soll Stigger ihre Cross-Country-Leistung selbst zurückhaltend eingeordnet und sinngemäß erklärt haben, nicht ihren besten Tag erwischt und am Limit gefahren zu sein; eine wörtliche Bestätigung dieser Aussage im Original liegt nicht vor."
+      },
+      {
+        "heading": "Bundesheer-Hintergrund",
+        "markdown": "Nach der WM-Goldmedaille im Short Track meldete sich auch das österreichische Bundesheer per Presseaussendung zu Wort: Darin wird Stigger als Korporal und Heeressportlerin des Bundesheeres bezeichnet, die Rede ist von einem „Gold-Coup“. Diese werbende Zuspitzung stammt erkennbar von der Institution selbst und wurde hier nicht übernommen. Der eigentliche Sachgehalt – dass Stigger dem Heeressportbereich angehört und den Dienstgrad Korporal trägt – ist weiterhin nur durch diese eine Presseaussendung belegt; keiner der gesichteten Medienberichte zu beiden Rennen erwähnt einen Bundesheer-Bezug oder einen Dienstgrad. Eine unabhängige Bestätigung steht daher weiterhin aus."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Zum genauen Ablauf des Short-Track-Zielsprints, etwa zur exakten Zeitdifferenz zu den Verfolgerinnen in Zehntelsekunden, liegen keine detaillierten Angaben vor. Offen bleibt auch, wie viele Podestplätze oder Weltcup-Punkte Stigger vor dem WM-Titel in der laufenden Saison bereits gesammelt hatte. Und ob sich der von der Bundesheer-Presseaussendung genannte Status als Korporal und Heeressportlerin noch anderweitig, etwa durch Medienberichte oder eine offizielle Mitteilung außerhalb der APA-OTS-Aussendung, bestätigen lässt, ist ebenfalls weiterhin unklar."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Für Stigger bleibt der Short-Track-Titel der bisher größte Erfolg ihrer Elite-Karriere, auch wenn das Cross-Country-Rennen drei Tage später zeigte, dass sie über die klassische olympische Distanz aktuell nicht zur engsten Weltspitze zählt. Die breite und weitgehend übereinstimmende Berichterstattung mehrerer österreichischer und internationaler Medien – ORF, DER STANDARD, Kurier, Kleine Zeitung und der Schweizer Sender SRF – stützt die zentralen Fakten zu beiden Rennergebnissen; für Detailfragen zum Rennverlauf liegt weiterhin keine unabhängig eingesehene Primärquelle wie eine offizielle UCI-Ergebnisliste vor. Die zusätzlich per Presseaussendung verbreitete Information zum Bundesheer-Status der Athletin betrifft nicht die Rennergebnisse selbst und wird hier weiterhin bewusst zurückhaltend als einzelquellig gekennzeichnet."
+      }
+    ],
+    "bodyKompakt": "Laura Stigger hat am Donnerstag bei den Mountainbike-Weltmeisterschaften im italienischen Val di Sole Gold im Short-Track-Bewerb geholt. Die 25-jährige Tirolerin setzte sich im Zielsprint zeitgleich vor der Britin Evie Richards durch, Bronze ging an die Schweizerin Sina Frei. Für Stigger war es die erste WM-Medaille in ihrer Elite-Karriere – „Mir fehlen die Worte. Das ist einfach unglaublich und unwirklich, einfach pure Emotionen“, sagte sie danach.\n\nDrei Tage später, am Sonntag, verpasste Stigger im olympischen Cross-Country-Rennen derselben WM eine zweite Medaille: Sie wurde Achte, mit 2:41 Minuten Rückstand auf die Siegerin und 1:34 Minuten auf das Podest. Den Titel holte sich die Schweizerin Sina Frei überlegen und damit erstmals nach EM-Titel und Olympia-Silber; Silber ging an die Italienerin Martina Berta vor der Schweizerin Nicole Koller (Bronze). Auch Mona Mitterwallner blieb chancenlos und wurde 28. Bei den Männern gewann Thomas Pidcock seinen zweiten Cross-Country-WM-Titel, der Tiroler Max Foidl wurde 22., Katrin Embacher im U23-Rennen Achte.\n\nNach dem Short-Track-Sieg meldete sich zudem das Bundesheer per Presseaussendung zu Wort und bezeichnete Stigger als Korporal und Heeressportlerin. Dieser Status ist bislang nur durch diese eine Presseaussendung belegt, keiner der gesichteten Medienberichte zu beiden Rennen erwähnt einen Bundesheer-Bezug – eine unabhängige Bestätigung fehlt also weiterhin.",
+    "updateNote": "Ergänzt um das Ergebnis des Cross-Country-Rennens vom Sonntag: Stigger wurde WM-Achte, Sina Frei (Schweiz) holte den Titel vor Martina Berta (Italien) und Nicole Koller (Schweiz), bei den Männern siegte Thomas Pidcock, Max Foidl wurde 22.",
+    "pendingOutcome": "Unabhängige Bestätigung von Stiggers per Bundesheer-Presseaussendung gemeldetem Status als Korporal und Heeressportlerin steht weiterhin aus."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-30T20:07:30.055Z"
+}
