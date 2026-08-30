@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T08:20:59.311Z",
+  "updatedAt": "2026-08-30T10:34:13.638Z",
   "stories": {
     "us-angriffswelle-iran-juli-2026": {
       "canonicalTitle": "Iran-Konflikt: Iran will laut Berichten Verbot für US- und israelische Schiffe in Straße von Hormus – Route mit Oman vereinbart, Übergangsdeal mit den USA weiter offen",
@@ -8456,10 +8456,12 @@
       "doNotUpdateBefore": "2026-08-28T22:08:24.852Z",
       "pendingOutcome": "Offen bleiben insbesondere: ob und wie die EU-Kommission die berichtete Abkehr vom strikten Under-13-Verbot offiziell bestätigt bzw. in der für September 2026 erwarteten Rede zur Lage der EU präsentiert, der Ausgang des Meta-Prozesses in Oakland (Aussage Zuckerbergs erwartet Ende September 2026), die konkrete Ausgestaltung von Frankreichs Neuentwurf bis Frühjahr 2027 sowie die Reaktion der österreichischen Regierungsparteien auf FPÖ-Kritik, die Position der Bundesjugendvertretung und die EU-Pläne.",
       "pendingOutcomeUntil": "2026-08-30T16:08:24.852Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-19T20:07:30.995Z"
+      "echoPublishers": {
+        "heise": "2026-08-30T10:07:31.013Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-30T10:07:27.229Z"
     },
     "liva-kerschbaum-entlassung-olg-bestaetigt-august-2026": {
       "canonicalTitle": "OLG Linz bestätigt Entlassung von Brucknerhaus-Chef Kerschbaum",
@@ -16918,32 +16920,36 @@
       "resonanceMeasuredAt": "2026-08-27T16:08:27.224Z"
     },
     "kleinflugzeug-absturz-attersee-august-2026": {
-      "canonicalTitle": "Attersee: Bergung von abgestürztem Kleinflugzeug aus 160 Metern Tiefe schwierig, zwei Deutsche tot",
+      "canonicalTitle": "Attersee: Bergung von abgestürztem Kleinflugzeug aus 160 Metern Tiefe erneut verschoben – nun Montag geplant",
       "slug": "kleinflugzeug-absturz-attersee-august-2026",
       "firstSeenAt": "2026-08-26T12:07:32.155Z",
-      "lastUpdatedAt": "2026-08-29T10:07:30.911Z",
+      "lastUpdatedAt": "2026-08-30T10:07:27.229Z",
       "status": "published",
       "articlePath": "src/content/articles/kleinflugzeug-absturz-attersee-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-29/kleinflugzeug-absturz-attersee-august-2026-update-1000.json",
+      "researchPath": "data/ai-news/research/2026-08-30/kleinflugzeug-absturz-attersee-august-2026-update-1000.json",
       "sourceUrls": [
         "https://ooe.orf.at/stories/3368525",
         "https://www.derstandard.at/story/3000000337068/polizei-bestaetigt-absturz-eines-kleinflugzeugs-in-den-attersee",
         "https://www.kleinezeitung.at/artikel/41204941/polizei-bestaetigt-absturz-eines-kleinflugzeuges-in-den-attersee",
         "https://www.derstandard.at/story/3000000337525/bergung-von-flugzeug-aus-attersee-gestaltet-sich-schwierig",
         "https://kurier.at/chronik/oberoesterreich/bergung-flugzeug-attersee-oberoesterreich-absturz/403187087",
-        "https://ooe.orf.at/stories/3368950"
+        "https://ooe.orf.at/stories/3368950",
+        "https://kurier.at/chronik/oberoesterreich/bergung-flugzeug-attersee-oberoesterreich-absturz/403187354",
+        "https://www.kleinezeitung.at/artikel/41214996/bergung-von-flugzeug-aus-attersee-neuerlich-verschoben",
+        "https://www.derstandard.at/story/3000000337567/bergung-von-flugzeug-aus-attersee-auf-montag-verschoben"
       ],
       "openQuestions": [
-        "Ist die Bergung des Flugzeugwracks aus dem Attersee erfolgreich abgeschlossen worden, und was zeigt die Untersuchung des geborgenen Wracks?",
+        "Ist die Bergung des Flugzeugwracks aus dem Attersee am Montag erfolgreich abgeschlossen worden, und was zeigt die Untersuchung des geborgenen Wracks?",
         "Was ergeben die Ermittlungen von Landeskriminalamt Oberösterreich, Sicherheitsuntersuchungsstelle des Bundes und dem von der Staatsanwaltschaft Wels bestellten Sachverständigen zur Unfallursache?",
         "Was genau hat den plötzlichen Höhenverlust und Kontaktabbruch der Maschine verursacht?",
+        "Welche konkreten Umstände haben die für Samstag geplante Bergung letztlich verhindert?",
         "In welchem Verhältnis standen die beiden ums Leben gekommenen jungen Männer zueinander – etwa als Fluglehrer und Flugschüler –, und lässt sich das aus verlässlichen Quellen bestätigen?",
         "Werden weitere technische Details zur Maschine oder zum Flugverlauf amtlich bestätigt, über die bislang nur einzelne Medien berichten?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-30T10:07:30.911Z",
-      "doNotUpdateBefore": "2026-08-29T16:07:30.911Z",
-      "pendingOutcome": "Ausgang der Bergung des Flugzeugwracks aus dem Attersee sowie Ergebnisse der Ermittlungen zur Unfallursache durch Landeskriminalamt Oberösterreich, Sicherheitsuntersuchungsstelle des Bundes und den von der Staatsanwaltschaft Wels bestellten Sachverständigen.",
+      "doNotRedraftBefore": "2026-08-31T10:07:27.229Z",
+      "doNotUpdateBefore": "2026-08-30T16:07:27.229Z",
+      "pendingOutcome": "Ob die Bergung des Flugzeugwracks am Montag gelingt und was die anschließende Untersuchung des Wracks sowie die laufenden Ermittlungen zur Unfallursache ergeben, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-08-31T10:07:30.911Z",
       "echoPublishers": {
         "derstandard": "2026-08-30T08:07:36.160Z",
@@ -16954,13 +16960,13 @@
       "resonanceMeasuredAt": "2026-08-30T04:07:28.061Z"
     },
     "meta-vergleich-jugendschutz-16-milliarden-august-2026": {
-      "canonicalTitle": "Meta zahlt rund 16,68 Milliarden Dollar Vergleich wegen Jugendschutz-Vorwürfen – Florida steigt aus, Österreichs Babler fordert Verbot unter 14, deutsche Verbraucherschützer fordern Nachbesserung",
+      "canonicalTitle": "Meta zahlt rund 16,68 Milliarden Dollar Vergleich wegen Jugendschutz-Vorwürfen – Florida steigt aus, Österreichs Babler fordert Verbot unter 14, deutsche Verbraucherschützer und Familienministerin Prien fordern EU-Regulierung",
       "slug": "meta-vergleich-jugendschutz-16-milliarden-august-2026",
       "firstSeenAt": "2026-08-26T18:08:26.151Z",
-      "lastUpdatedAt": "2026-08-28T14:07:40.524Z",
+      "lastUpdatedAt": "2026-08-30T10:07:27.229Z",
       "status": "published",
       "articlePath": "src/content/articles/meta-vergleich-jugendschutz-16-milliarden-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-28/meta-vergleich-jugendschutz-16-milliarden-august-2026-update-1400.json",
+      "researchPath": "data/ai-news/research/2026-08-30/meta-vergleich-jugendschutz-16-milliarden-august-2026-update-1000.json",
       "sourceUrls": [
         "https://orf.at/stories/3440306",
         "https://www.derstandard.at/story/3000000337106/vergleich-meta-entkommt-rekordstrafe-und-muss-nur-16-milliarden-dollar-zahlen",
@@ -16995,7 +17001,11 @@
         "https://t3n.de/news/nach-us-prozess-gegen-meta-auch-deutsche-verbraucherschuetzer-fordern-besseren-jugendschutz-1760318/",
         "https://www.horizont.net/medien/nachrichten/jugendschutz-verbraucherschuetzer-forden-social-media-schutz-auch-in-deutschland-235584",
         "https://www.handelsblatt.com/technik/it-internet/facebook-und-instagram-verbraucherschuetzer-social-media-schutz-auch-in-deutschland/100250259.html",
-        "https://www.heise.de/news/Meta-Vergleich-in-den-USA-sollte-Plattform-Design-auch-hier-veraendern-11432856.html"
+        "https://www.heise.de/news/Meta-Vergleich-in-den-USA-sollte-Plattform-Design-auch-hier-veraendern-11432856.html",
+        "https://www.heise.de/news/Social-Media-Prien-erwartet-Konsequenzen-aus-Meta-Vergleich-in-den-USA-11434567.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Meta-Vergleich-in-den-USA-sollte-Plattform-Design-auch-hier-veraendern-11432856.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/Social-Media-Prien-erwartet-Konsequenzen-aus-Meta-Vergleich-in-den-USA-11434567.html",
+        "https://www.handelsblatt.com/politik/deutschland/meta-prien-erwartet-konsequenzen-aus-meta-vergleich/100250441.html"
       ],
       "openQuestions": [
         "Wie viele US-Bundesstaaten sind dem finalen Vergleich exakt beigetreten, nachdem Florida ausgestiegen ist, und wie verteilt sich die Summe im Detail auf sie, die betroffenen Territorien und Washington, D.C.?",
@@ -17006,11 +17016,15 @@
         "Wie reagiert die gesamte österreichische Bundesregierung – nicht nur die SPÖ – auf den Vergleich, und beeinflusst er den Zeitplan des eigenen Social-Media-Mindestalter-Gesetzes?",
         "Bestätigt sich der Vorwurf, Meta habe Daten von Kindern unrechtmäßig zum Training von KI-Modellen verwendet?",
         "Welche konkreten gesetzlichen oder regulatorischen Schritte fordert der vzbv über Nachtsperren und Zeitlimits hinaus, und greift die deutsche Bundesregierung diese Forderungen auf?",
-        "Reagiert Meta öffentlich auf die Forderungen des vzbv, und plant der Konzern freiwillige Änderungen für den deutschen bzw. europäischen Markt über die DSA-Vorgaben hinaus?"
+        "Reagiert Meta öffentlich auf die Forderungen des vzbv oder von Familienministerin Prien, und plant der Konzern freiwillige Änderungen für den deutschen bzw. europäischen Markt über die DSA-Vorgaben hinaus?",
+        "Legt die EU-Kommission im September 2026 wie von Prien erwartet einen Regulierungsvorschlag zum Jugendschutz vor, und welche konkreten Elemente des Meta-Vergleichs bzw. welche Altersgrenze enthält er?",
+        "Bereitet Karin Prien tatsächlich ein eigenständiges deutsches Gesetz vor, falls die EU nicht rechtzeitig handelt, und wie sähe dessen Mindestalter-Regelung – insbesondere die kolportierte Grenze von 13 Jahren – konkret aus?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-29T14:07:40.524Z",
-      "doNotUpdateBefore": "2026-08-28T20:07:40.524Z",
+      "doNotRedraftBefore": "2026-08-31T10:07:27.229Z",
+      "doNotUpdateBefore": "2026-08-30T16:07:27.229Z",
+      "pendingOutcome": "Offen ist, ob die EU-Kommission im September 2026 wie erwartet einen Regulierungsvorschlag vorlegt und ob dieser Elemente des Meta-Vergleichs sowie eine einheitliche Altersgrenze enthält, ob Prien im Fall ausbleibender EU-Einigung tatsächlich ein eigenes deutsches Gesetz vorlegt, wie Floridas separates Verfahren gegen Meta ausgeht und ob der vzbv oder Meta auf die jeweiligen Forderungen reagieren.",
+      "pendingOutcomeUntil": "2026-09-01T10:07:27.229Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18287,9 +18301,7 @@
       "pendingOutcome": "Ergebnis der angeordneten Obduktion und toxikologischen Analyse, amtliche Bestätigung der Identität der Toten sowie ein mögliches Ermittlungsergebnis zu einem Drogen-Lieferanten stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-08-30T22:07:33.656Z",
       "echoPublishers": {
-        "diepresse": "2026-08-29T14:07:38.649Z",
-        "kurier": "2026-08-29T08:07:32.511Z",
-        "kleinezeitung": "2026-08-29T08:07:34.820Z"
+        "diepresse": "2026-08-29T14:07:38.649Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -18806,39 +18818,51 @@
       "resonanceMeasuredAt": "2026-08-30T04:07:28.061Z"
     },
     "dsn-mayer-verbot-politischer-islam-august-2026": {
-      "canonicalTitle": "DSN-Chefin Mayer begrüßt Stockers Vorstoß für ein Verbot des politischen Islam",
+      "canonicalTitle": "Politischer Islam: Ministerin Bauer arbeitet an Verbotsvorschlag, DSN-Chefin unterstützt Stockers Vorstoß",
       "slug": "dsn-mayer-verbot-politischer-islam-august-2026",
       "firstSeenAt": "2026-08-29T16:07:35.745Z",
-      "lastUpdatedAt": "2026-08-29T16:07:35.745Z",
+      "lastUpdatedAt": "2026-08-30T10:07:27.229Z",
       "status": "published",
       "articlePath": "src/content/articles/dsn-mayer-verbot-politischer-islam-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-29/dsn-mayer-verbot-politischer-islam-august-2026.json",
+      "researchPath": "data/ai-news/research/2026-08-30/dsn-mayer-verbot-politischer-islam-august-2026-update-1000.json",
       "sourceUrls": [
         "https://www.kleinezeitung.at/artikel/41214149/dsn-chefin-mayer-wuerde-verbot-von-politischem-islam-begruessen",
         "https://www.ots.at/presseaussendung/OTS_20260828_OTS0095/fpoe-schnedlitz-stockers-forderung-nach-verbot-des-politischen-islam-ist-unglaubwuerdiges-schmierentheater",
         "https://www.ots.at/presseaussendung/OTS_20260829_OTS0018/dsn-begruesst-diskussion-ueber-weitere-massnahmen-gegen-politischen-islam",
         "https://orf.at/stories/3440595",
-        "https://www.ots.at/presseaussendung/OTS_20260829_OTS0008/fpoe-kickl-oevp-und-die-anderen-systemparteien-blockieren-seit-jahren-ein-verbotsgesetz-gegen-den-politischen-islam"
+        "https://www.ots.at/presseaussendung/OTS_20260829_OTS0008/fpoe-kickl-oevp-und-die-anderen-systemparteien-blockieren-seit-jahren-ein-verbotsgesetz-gegen-den-politischen-islam",
+        "https://orf.at/stories/3440656",
+        "https://www.derstandard.at/story/3000000337574/politischer-islam-bauer-arbeitet-an-verbot",
+        "https://www.diepresse.com/41215198/nach-stockers-vorstoss-bauer-arbeitet-an-verbot-des-politischen-islam",
+        "https://www.kleinezeitung.at/artikel/41215137/ministerin-bauer-arbeitet-an-einem-verbot-des-politischen-islam",
+        "https://www.ots.at/presseaussendung/OTS_20260829_OTS0004/hanger-fpoe-hatte-zeit-fuer-ein-verbot-des-politischen-islam-und-hat-nichts-geliefert",
+        "https://www.top-news.at/2026/08/29/hanger-fpoe-hatte-zeit-fuer-ein-verbot-des-politischen-islam-und-hat-nichts-geliefert/"
       ],
       "openQuestions": [
-        "Wie soll das verfassungsrechtliche Verbot des „politischen Islam“ konkret ausgestaltet werden und was würde darunterfallen?",
-        "Wie reagieren die Koalitionspartner SPÖ und Grüne auf diesen aktuellen Vorstoß?",
-        "Welche konkreten freiheitlichen Anträge hat die ÖVP in der Vergangenheit abgelehnt, auf die sich Kickl bezieht?",
+        "Wie soll das verfassungsrechtliche Verbot des „Politischen Islam“ konkret ausgestaltet werden und was würde darunterfallen?",
+        "Wie reagieren die Koalitionspartner SPÖ und NEOS auf Bauers angekündigte Punktation?",
+        "Wann wird die Punktation tatsächlich an SPÖ und NEOS übermittelt, und in welchem Zeitrahmen könnte ein Gesetzesentwurf folgen?",
+        "Was genau soll das von Bauer angekündigte begleitende Maßnahmenpaket im Vereins- und Kultusrecht umfassen?",
+        "Welche konkreten freiheitlichen Anträge meinen Schnedlitz und Kickl, wenn sie der ÖVP eine Blockade vorwerfen, und auf welche konkreten Vorhaben bezieht sich umgekehrt Hangers Vorwurf an die FPÖ?",
         "Wird die FPÖ ihre Forderung erneut zur Abstimmung im Nationalrat bringen?",
         "Wie positionieren sich Religionsgemeinschaften und Menschenrechtsorganisationen zu dem Vorschlag?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-30T16:07:35.745Z",
-      "doNotUpdateBefore": "2026-08-29T22:07:35.745Z",
+      "doNotRedraftBefore": "2026-08-31T10:07:27.229Z",
+      "doNotUpdateBefore": "2026-08-30T16:07:27.229Z",
+      "pendingOutcome": "Wie die Koalitionspartner SPÖ und NEOS auf die von Bauer angekündigte Punktation reagieren, wann ein konkreter Gesetzesentwurf vorliegt und wie ein verfassungsrechtliches Verbot des Politischen Islam rechtlich ausgestaltet werden soll, ist weiterhin offen.",
+      "pendingOutcomeUntil": "2026-09-01T10:07:27.229Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-08-29T16:07:42.531Z",
+        "kleinezeitung": "2026-08-30T10:07:31.761Z",
         "apa": "2026-08-29T12:07:33.595Z",
-        "orf": "2026-08-29T14:07:35.667Z",
-        "kurier": "2026-08-29T18:07:38.974Z"
+        "orf": "2026-08-30T10:07:28.918Z",
+        "kurier": "2026-08-29T18:07:38.974Z",
+        "derstandard": "2026-08-30T10:07:28.955Z",
+        "diepresse": "2026-08-30T10:07:29.987Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 5,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-29T18:07:33.173Z"
+      "resonanceMeasuredAt": "2026-08-30T10:07:27.229Z"
     },
     "gaza-israel-angriff-hamas-kommandant-al-aksa-krankenhaus-august-2026": {
       "canonicalTitle": "Israel greift Hamas-Kommandanten auf Gelände des Al-Aksa-Krankenhauses in Gaza an",
@@ -18910,7 +18934,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-29T20:07:42.164Z"
+      "resonanceMeasuredAt": "2026-08-30T10:07:27.229Z"
     },
     "boot-oesterreicher-triest-gekentert-august-2026": {
       "canonicalTitle": "Boot mit zehn Österreichern vor Triest gesunken – alle Insassen gerettet",
@@ -19151,11 +19175,12 @@
       "echoPublishers": {
         "derstandard": "2026-08-30T08:07:36.732Z",
         "kleinezeitung": "2026-08-30T00:07:37.914Z",
-        "orf": "2026-08-30T06:07:35.276Z"
+        "orf": "2026-08-30T06:07:35.276Z",
+        "diepresse": "2026-08-30T10:07:29.987Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-30T08:07:32.366Z"
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-30T10:07:27.229Z"
     },
     "e-scooter-unfall-kufstein-august-2026": {
       "canonicalTitle": "Kufstein: Zwei 17-Jährige bei E-Scooter-Unfall mit 86 km/h schwer verletzt",
@@ -19185,12 +19210,13 @@
       "doNotRedraftBefore": "2026-08-31T08:07:32.366Z",
       "doNotUpdateBefore": "2026-08-30T14:07:32.366Z",
       "echoPublishers": {
-        "orf": "2026-08-30T08:07:35.469Z",
-        "kleinezeitung": "2026-08-29T18:07:42.298Z"
+        "orf": "2026-08-30T10:07:29.207Z",
+        "kleinezeitung": "2026-08-29T18:07:42.298Z",
+        "kurier": "2026-08-30T10:07:29.673Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-30T08:07:32.366Z"
+      "resonanceMeasuredAt": "2026-08-30T10:07:27.229Z"
     },
     "verkehrsunfall-ternberg-gruenburg-oberoesterreich-august-2026": {
       "canonicalTitle": "Zwei Männer sterben bei schwerem Verkehrsunfall in Oberösterreich",
