@@ -1,0 +1,317 @@
+{
+  "cluster": {
+    "id": "cluster-20260829-373611ec",
+    "title": "27-jährige Österreicherin in Friaul tot aufgefunden: Obduktion angeordnet",
+    "items": [
+      {
+        "itemId": "9d5a6045e21f8d90c227e9632dfefd92fc123793e96869d989ab54e075219a50",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "27-jährige Österreicherin in Friaul tot aufgefunden: Obduktion angeordnet",
+        "url": "https://www.diepresse.com/41211145/27-jaehrige-oesterreicherin-in-friaul-tot-aufgefunden-obduktion-angeordnet",
+        "summary": "Als wahrscheinlichste Todesursache gilt eine tödliche Drogenüberdosis. Eine Beteiligung anderer Personen wird ausgeschlossen.",
+        "publishedAt": "2026-08-29T12:07:41.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "13f55910d70d763d952e0bb2fa06bff04a74c5377c6bcc9f3ebfa53c05f24b91",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "27-jährige Österreicherin tot in Kleintransporter in Friaul gefunden",
+        "url": "https://www.derstandard.at/story/3000000337488/27-j228hrige-214sterreicherin-tot-in-kleintransporter-in-friaul-gefunden",
+        "isNew": false
+      },
+      {
+        "itemId": "e57afa0de2f87ec3401bd8341cd76fe693a6e926406b8239446ad130633f7f5b",
+        "sourceId": "kleinezeitung_oesterreich",
+        "sourceType": "media",
+        "title": "Tote in Kleintransporter in Friaul: Frau war 27-jährige Kärntnerin",
+        "url": "https://www.kleinezeitung.at/artikel/41211169/oesterreicherin-und-hund-tot-in-udine-gefunden",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "update_story",
+    "reason": "Cluster liefert Ermittlungs-Updates und neue Details zu einer bereits publizierten Story: Bestätigung der Kärntnerin-Herkunft, Drogenüberdosis als wahrscheinliche Todesursache, geplante Obduktion, Details zu Fahrzeug und Fundort. Diese inkrementellen Entwicklungen rechtfertigen eine Integration in den bestehenden Artikel, nicht eine eigenständige neue Geschichte.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": 4,
+    "relatedSlug": "frau-hund-tot-kleintransporter-friaul-august-2026",
+    "possibleClaims": [
+      "Österreicherin (Kärntnerin) tot in Friaul in Kleintransporter mit AT-Kennzeichen gefunden",
+      "Hund (Pitbull) ebenfalls tot im Fahrzeug",
+      "Fahrzeug stand mehrere Tage auf Parkplatz nahe Pontebba (Provinz Udine)",
+      "Wahrscheinliche Todesursache: tödliche Drogenüberdosis laut Ermittlern",
+      "Beteiligung Dritter wird ausgeschlossen",
+      "Staatsanwaltschaft Udine ordnet Obduktion und toxikologische Analysen an",
+      "Fahrzeug war von innen verschlossen, Leiche nicht von außen sichtbar"
+    ],
+    "missingSources": [
+      "Offizielle Bestätigung der Identität durch österreichische oder italienische Behörden",
+      "Ergebnis der angeordneten Obduktion und toxikologischen Analysen",
+      "Stellungnahme österreichischer Stellen (Außenministerium, Botschaft Rom)",
+      "Ermittlungsergebnis der Staatsanwaltschaft Udine zu möglichen Drogen-Lieferanten",
+      "Überprüfung der Überwachungskamera-Aufnahmen hinsichtlich Ankunft des Fahrzeugs"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "frau-hund-tot-kleintransporter-friaul-august-2026",
+    "title": "Frau und Hund tot in Kleintransporter mit österreichischem Kennzeichen in Friaul gefunden",
+    "description": "In der italienischen Gemeinde Pontebba (Provinz Udine) wurden eine Frau und ihr Hund tot in einem Kleintransporter mit österreichischem Kennzeichen entdeckt. Ermittler halten laut Medienberichten eine tödliche Drogenüberdosis für die wahrscheinlichste Todesursache und schließen eine Beteiligung Dritter aus; die Staatsanwaltschaft Udine hat eine Obduktion angekündigt. Amtlich bestätigt sind weder die Identität der 27-jährigen Frau noch die Todesursache.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Der Kernfakt – eine Frau und ihr Hund wurden tot in einem Kleintransporter mit österreichischem Kennzeichen in Friaul gefunden – wird von zahlreichen österreichischen und italienischen Medien übereinstimmend berichtet und gilt als gesichert. Neue Berichte (u. a. Die Presse unter Berufung auf die APA) bezeichnen eine tödliche Drogenüberdosis nun deutlicher als wahrscheinlichste Todesursache und schließen eine Fremdbeteiligung aus; eine toxikologische Bestätigung steht aber weiterhin aus. Die Kleine Zeitung nennt die Tote in der Schlagzeile direkt als 27-jährige Kärntnerin, während ORF im selben Zeitraum ausdrücklich von einem noch ungeklärten „Rätsel um die Identität“ berichtet – eine amtliche Identifizierung liegt damit weiterhin nicht vor.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt weiterhin keine direkt eingesehene amtliche Mitteilung der Staatsanwaltschaft Udine vor. Mehrere österreichische und italienische Medien – darunter Die Presse unter Berufung auf die APA – berichten aber übereinstimmend über Aussagen von Carabinieri, Gerichtsmedizin und Staatsanwaltschaft vor Ort, inklusive der geplanten Obduktion und laufender Ermittlungsschritte (Suche nach einem möglichen Lieferanten, Auswertung von Überwachungskameras). Das stützt die Sachlage zur Ermittlungsarbeit, ersetzt aber keine Primärquelle.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Dass Ermittler laut mehreren unabhängigen Quellen eine Beteiligung Dritter ausschließen, verringert das Risiko einer Verbrechens-Spekulation. Zugleich divergieren Medien inzwischen im Ton: Manche stellen die Kärntner Herkunft der Frau als feststehend dar, andere (ORF) betonen ausdrücklich die noch ungeklärte Identität. Diese Uneinheitlichkeit sowie die Zuspitzung auf eine vermutete Drogenüberdosis bleiben sensibel, solange weder Identität noch Todesursache amtlich bestätigt sind.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Eine Frau und ihr Hund wurden am Freitag tot in einem Kleintransporter mit österreichischem Kennzeichen in Pontebba (Provinz Udine, Friaul) gefunden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Fahrzeug stand auf einem Parkplatz in Pietratagliata nahe einer Brücke über die Staatsstraße 13 und war von innen verriegelt; die Leiche der Frau lag auf den hinteren Sitzen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Nach Einschätzung der Ermittler vor Ort schließen die bisherigen Spuren am Fahrzeug eine Beteiligung Dritter an ihrem Tod aus.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Staatsanwaltschaft Udine plant eine Obduktion und toxikologische Analysen; Ermittler suchen zudem nach einem möglichen Lieferanten der vermuteten Substanz und werten Überwachungskameras aus, um die Standzeit des Fahrzeugs zu klären.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut mehreren österreichischen und italienischen Medien soll es sich bei der Toten um eine 27-jährige Frau aus Kärnten (Gailtal) handeln; die Kleine Zeitung nennt dies mittlerweile in der Schlagzeile direkt, ORF berichtet dagegen weiterhin von einem ungeklärten „Rätsel um die Identität“ – eine amtliche Bestätigung steht aus.",
+        "kind": "open"
+      },
+      {
+        "text": "Als wahrscheinlichste Todesursache gilt laut Ermittlern eine tödliche Drogenüberdosis; die toxikologische Bestätigung ist laut Berichten noch nicht abgeschlossen.",
+        "kind": "open"
+      },
+      {
+        "text": "Der Hund dürfte laut italienischen Medienberichten durch große Hitze im Fahrzeug sowie fehlendes Futter und Wasser über mehrere Tage gestorben sein.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wird die Identität der Toten amtlich als 27-jährige Frau aus dem Gailtal (Kärnten) bestätigt?",
+      "Bestätigt die toxikologische Untersuchung die vermutete Überdosis als Todesursache?",
+      "Aus welchem Grund hielt sich die Frau in Friaul auf, und seit wann genau stand das Fahrzeug dort?",
+      "Wurden Angehörige informiert, und liegt eine Stellungnahme österreichischer Stellen (Außenministerium, Botschaft Rom) vor?",
+      "Führt die Suche nach einem möglichen Drogen-Lieferanten zu Ermittlungsergebnissen, und was ergibt die Auswertung der Überwachungskameras?",
+      "Wie lautet das offizielle Ermittlungsergebnis der Staatsanwaltschaft Udine?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337488/27-j228hrige-214sterreicherin-tot-in-kleintransporter-in-friaul-gefunden"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41211770/frau-tot-in-oesterreichischem-kleintransporter-in-friaul-gefunden"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/friaul-pontebba-oesterreicherin-hund-tot-kleintransporter/403186968"
+      },
+      {
+        "id": "src4",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3440518"
+      },
+      {
+        "id": "src5",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41211169/oesterreicherin-und-hund-tot-in-udine-gefunden"
+      },
+      {
+        "id": "src6",
+        "name": "Messaggero Veneto",
+        "type": "media",
+        "url": "https://www.messaggeroveneto.it/cronaca/pietratagliata-donna-trovata-morta-in-auto-con-il-cane-il-corpo-scoperto-da-un-passante-vz50v6zq"
+      },
+      {
+        "id": "src7",
+        "name": "Il Dolomiti",
+        "type": "media",
+        "url": "https://www.ildolomiti.it/cronaca/2026/donna-e-cane-trovati-morti-dentro-un-furgone-potrebbe-essere-stata-overdose-la-bestiola-deceduta-perche-senza-acqua-e-cibo-per-giorni"
+      },
+      {
+        "id": "src8",
+        "name": "MeinBezirk Gailtal",
+        "type": "media",
+        "url": "https://www.meinbezirk.at/gailtal/c-lokales/kleintransporter-hatte-kaerntner-kennzeichen_a8871086"
+      },
+      {
+        "id": "src9",
+        "name": "Die Presse (Update: Obduktion angeordnet)",
+        "type": "media",
+        "url": "https://www.diepresse.com/41211145/27-jaehrige-oesterreicherin-in-friaul-tot-aufgefunden-obduktion-angeordnet"
+      },
+      {
+        "id": "src10",
+        "name": "ORF (Ermittlungen zur Identität)",
+        "type": "media",
+        "url": "https://orf.at/stories/3440578"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Eine Frau und ihr Hund wurden tot in einem Kleintransporter mit österreichischem Kennzeichen in Pontebba (Provinz Udine, Friaul) gefunden.",
+        "status": "supported",
+        "note": "Von zahlreichen österreichischen und italienischen Medien übereinstimmend berichtet, laut Die Presse auf eine APA-Meldung gestützt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6",
+          "src7",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Bei der Toten soll es sich um eine 27-jährige Österreicherin aus dem Gailtal in Kärnten handeln.",
+        "status": "partial",
+        "note": "Mehrere österreichische Medien und mittlerweile auch die Kleine Zeitung in der Schlagzeile bezeichnen die Frau direkt als 27-jährige Kärntnerin. ORF berichtet im selben Zeitraum jedoch ausdrücklich von einem noch ungeklärten „Rätsel um die Identität“ der Frau – eine amtliche Bestätigung der Identität liegt weiterhin nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src5",
+          "src8",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Das Fahrzeug stand auf einem Parkplatz in der Ortschaft Pietratagliata nahe einer Brücke über die Staatsstraße 13.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src6",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Bei dem Fahrzeug soll es sich laut örtlichen Medien um einen Volkswagen Caddy handeln.",
+        "status": "partial",
+        "note": "Angabe aus italienischen und österreichischen Medien als Übernahme aus Lokalberichten, nicht amtlich bestätigt.",
+        "sourceIds": [
+          "src2",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Todesursache ist nach derzeitigem Stand nicht amtlich geklärt; Spuren am Fahrzeug und medizinische Befunde werden weiter ausgewertet.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet; sowohl italienische Lokalmedien als auch Die Presse ergänzen, dass eine toxikologische Untersuchung noch aussteht.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src6",
+          "src7",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Nach ersten Erkenntnissen könnte die Frau bereits seit mehreren Tagen tot gewesen sein.",
+        "status": "partial",
+        "note": "Frühe Einschätzung, keine amtlich bestätigte Zeitangabe. Ermittler werten dazu auch Überwachungskamera-Aufnahmen aus der Umgebung aus.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src6",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Als wahrscheinlichste Todesursache gilt bei den Ermittlern eine tödliche Drogenüberdosis.",
+        "status": "partial",
+        "note": "Die Kleine Zeitung sowie mehrere italienische Lokalmedien und nun auch Die Presse (gestützt auf die APA) berichten übereinstimmend von dieser Ermittlungs-Einschätzung; eine toxikologische Bestätigung steht laut denselben Quellen noch aus.",
+        "sourceIds": [
+          "src5",
+          "src6",
+          "src7",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Nach Einschätzung der Ermittler vor Ort schließen die bisherigen Spuren eine Beteiligung Dritter an ihrem Tod aus; das Fahrzeug war von innen verriegelt, Waffen oder Hinweise auf Gewalteinwirkung wurden nicht gefunden.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet von mehreren italienischen Lokalmedien sowie neuerdings Die Presse unter Berufung auf die APA; keine direkt eingesehene amtliche Mitteilung.",
+        "sourceIds": [
+          "src6",
+          "src7",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Der Hund dürfte durch große Hitze im Fahrzeug sowie fehlendes Futter und Wasser über mehrere Tage gestorben sein.",
+        "status": "partial",
+        "note": "Einzelne Einschätzung eines italienischen Lokalmediums; Die Presse ergänzt, dass auch die Todesursache des Hundes gerichtsmedizinisch untersucht werden soll. Keine amtliche Bestätigung.",
+        "sourceIds": [
+          "src7",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Die Ermittler versuchen, einen möglichen Lieferanten der mutmaßlichen Droge ausfindig zu machen, und werten Überwachungskamera-Aufnahmen aus der Umgebung aus, um zu klären, seit wann sich der Kleintransporter in Italien befand.",
+        "status": "partial",
+        "note": "Laufender Ermittlungsschritt laut Die Presse (APA); Ergebnis steht aus.",
+        "sourceIds": [
+          "src9"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Am Freitag wurden in der Gemeinde Pontebba in der italienischen Provinz Udine (Friaul) eine Frau und ihr Hund tot in einem Kleintransporter mit österreichischem Kennzeichen gefunden. Der Wagen, nach Angaben örtlicher Medien ein Volkswagen Caddy, stand auf einem Parkplatz in der Ortschaft Pietratagliata nahe einer Brücke über die Staatsstraße 13. Ein Passant bemerkte das Fahrzeug gegen 11.00 Uhr und alarmierte die Einsatzkräfte, wie Behörden bestätigten. Die Leiche der Frau lag auf den hinteren Sitzen des Fahrzeugs, das laut übereinstimmenden Medienberichten von innen verriegelt war; wegen abgedunkelter Scheiben waren die Frau und ihr Hund von außen nicht zu sehen."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Mehrere österreichische Medien – darunter Der Standard, Die Presse, Kurier, ORF und Kleine Zeitung – sowie italienische Lokalmedien wie Messaggero Veneto und Il Dolomiti berichteten übereinstimmend über den Fund. Die Presse verweist dabei mehrfach auf Meldungen der Austria Presse Agentur (APA) und berichtet nun konkreter über den Ermittlungsstand: Die Staatsanwaltschaft Udine hat gegen Unbekannt ein Verfahren eingeleitet und plant, in den kommenden Tagen eine Obduktion sowie toxikologische Analysen anzuordnen. Investigatoren halten eine tödliche Drogenüberdosis für die derzeit wahrscheinlichste Todesursache; eine im Fahrzeug gefundene Substanz stützt diesen Verdacht, eine Bestätigung steht aber aus. Eine Beteiligung Dritter wird nach den bisherigen Erkenntnissen ausgeschlossen – das Fahrzeug war von innen verschlossen, Waffen oder Hinweise auf Gewalteinwirkung wurden nicht gefunden. Die Ermittler versuchen zudem, einen möglichen Lieferanten der Substanz ausfindig zu machen, und werten Aufnahmen von Überwachungskameras in der Umgebung aus, um zu klären, seit wann der Kleintransporter in Italien stand. Zur Herkunft der Frau berichtet ein Kärntner Lokalmedium (MeinBezirk Gailtal) von einem Kennzeichen aus dem Bezirk Hermagor; die Kleine Zeitung bezeichnet die Tote inzwischen direkt in der Schlagzeile als 27-jährige Kärntnerin. Gleichzeitig berichtet ORF im selben Zeitraum ausdrücklich von einem weiterhin ungeklärten „Rätsel um die Identität“ der Frau – die endgültige, amtlich bestätigte Identifizierung steht damit nach wie vor aus. Zum Tod des Hundes, eines Pitbulls, wird vermutet, dass große Hitze im Fahrzeug sowie fehlendes Futter und Wasser über mehrere Tage die Ursache waren; auch dies soll gerichtsmedizinisch geklärt werden."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Mehrere zentrale Fragen sind nach derzeitigem Berichtsstand weiterhin offen. Ob es sich bei der Toten tatsächlich um eine 27-jährige Frau aus dem Gailtal in Kärnten handelt, ist trotz zunehmend direkterer Medienberichte amtlich nicht bestätigt – ORF spricht selbst noch von einem „Rätsel um die Identität“. Auch die Todesursache steht nicht amtlich fest: Eine Überdosis gilt als Hypothese der Ermittler, die toxikologische Untersuchung zur Bestätigung ist laut Berichten noch nicht abgeschlossen. Offen bleibt zudem, aus welchem Grund sich die Frau in Friaul aufhielt, wie lange das Fahrzeug dort tatsächlich stand – die Auswertung der Überwachungskameras läuft noch –, ob ein möglicher Drogen-Lieferant ermittelt werden kann, und ob sowie wie Angehörige informiert wurden. Eine amtliche Mitteilung der Staatsanwaltschaft Udine oder österreichischer Stellen, etwa des Außenministeriums, liegt weiterhin nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Es handelt sich um einen laufenden Ermittlungsfall, bei dem sich die Sachlage in mehreren Details – vermutete Todesursache, ausgeschlossene Fremdbeteiligung, laufende Ermittlungsschritte – zunehmend konkretisiert, ohne amtlich abgeschlossen zu sein. Dass Ermittler laut mehreren unabhängigen Quellen eine Beteiligung Dritter ausschließen, reduziert das Risiko einer Verbrechens-Spekulation. Zugleich zeigt der Vergleich der jüngsten Berichte ein uneinheitliches Bild bei der Identitätsfrage: Während manche Medien die Kärntner Herkunft bereits als feststehend darstellen, betont ORF ausdrücklich die weiterhin offene Identifizierung. Solange weder Identität noch Todesursache amtlich bestätigt sind, bleiben Angaben zu Person und Todesumständen mit Vorsicht zu behandeln – insbesondere angesichts der sensiblen Kombination aus vermuteter Drogenüberdosis und einer zunehmend eingrenzbaren Person. Neue Nachrichten wird berichten, sobald belastbare amtliche Angaben vorliegen."
+      }
+    ],
+    "bodyKompakt": "Am Freitag wurden in der Gemeinde Pontebba in der italienischen Provinz Udine (Friaul) eine Frau und ihr Hund tot in einem Kleintransporter mit österreichischem Kennzeichen gefunden. Das Fahrzeug, nach Angaben örtlicher Medien ein Volkswagen Caddy, stand auf einem Parkplatz in Pietratagliata nahe einer Brücke über die Staatsstraße 13 und war von innen verriegelt. Ein Passant entdeckte den Fund am Freitagvormittag und alarmierte die Einsatzkräfte. Mehrere österreichische und italienische Medien berichteten übereinstimmend, Die Presse unter Berufung auf die APA.\n\nDie Staatsanwaltschaft Udine hat ein Verfahren gegen Unbekannt eingeleitet und plant eine Obduktion sowie toxikologische Analysen. Ermittler halten eine tödliche Drogenüberdosis für die derzeit wahrscheinlichste Todesursache und schließen eine Beteiligung Dritter aus – das Fahrzeug war von innen verschlossen, Hinweise auf Gewalteinwirkung fehlen. Zusätzlich suchen die Ermittler nach einem möglichen Lieferanten der Substanz und werten Überwachungskameras aus, um die Standzeit des Fahrzeugs zu klären. Auch die Todesursache des Hundes, vermutlich Hitze sowie fehlendes Futter und Wasser über mehrere Tage, soll gerichtsmedizinisch geklärt werden.\n\nLaut mehreren Medien, unter anderem einem Kärntner Lokalmedium und der Kleinen Zeitung, soll es sich bei der Toten um eine 27-jährige Frau aus dem Gailtal handeln; ORF berichtet jedoch im selben Zeitraum ausdrücklich von einem weiterhin ungeklärten „Rätsel um die Identität“. Eine amtliche Bestätigung von Identität und Todesursache steht damit weiterhin aus.",
+    "updateNote": "Neue Berichte, unter anderem von Die Presse (APA), präzisieren eine tödliche Drogenüberdosis als wahrscheinlichste Todesursache, bestätigen den Ausschluss einer Fremdbeteiligung und beschreiben laufende Ermittlungsschritte (Suche nach einem Lieferanten, Auswertung von Überwachungskameras) – während ORF zugleich weiterhin von ungeklärter Identität berichtet, auch wenn die Kleine Zeitung die Tote inzwischen direkter als 27-jährige Kärntnerin bezeichnet.",
+    "pendingOutcome": "Ergebnis der angeordneten Obduktion und toxikologischen Analyse, amtliche Bestätigung der Identität der Toten sowie ein mögliches Ermittlungsergebnis zu einem Drogen-Lieferanten stehen weiterhin aus."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-30T02:07:28.246Z"
+}
