@@ -1,0 +1,263 @@
+{
+  "cluster": {
+    "id": "cluster-20260830-2faeb23a",
+    "title": "Schüsse bei Rave stellen Polizei vor Rätsel",
+    "items": [
+      {
+        "itemId": "1beb0649ad250cca18920e8691e7d575486c0412a80a15fd6512c47497bba828",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Schüsse bei Rave stellen Polizei vor Rätsel",
+        "url": "https://orf.at/stories/3440695",
+        "summary": "Nach den Schüssen bei einem Rave in Aarau in der Schweiz laufen Ermittlungen und Fahndung auf Hochtouren. Eine junge Frau starb, fünf weitere Menschen wurden teils schwer verletzt. Erkenntnisse über die Täterschaft oder mögliche Motive gibt es bisher noch nicht. Die Schweizer Polizei tappt noch im Dunkeln.",
+        "publishedAt": "2026-08-30T17:02:46.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "69689a99a24aaf2ee0f83d986c6b28de7538b5e1cd4d2ca952b836d5d9269003",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Schüsse bei Rave in der Schweiz: Polizei tappt bei Fahndung im Dunkel",
+        "url": "https://www.diepresse.com/41216675/schuesse-bei-rave-in-der-schweiz-polizei-tappt-bei-fahndung-im-dunkel",
+        "summary": "Eine 22-jährige Italienerin ist tot, fünf Personen teils schwer verletzt, nachdem bei einem Rave in Aarau in der Schweiz Schüsse gefallen sind. Die Hintergründe sich unklar.",
+        "publishedAt": "2026-08-30T16:46:28.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "update_story",
+    "reason": "Substanzielle neue Entwicklung zur bestehenden Aarau-Rave-Schießerei: Pressekonferenz der Kantonspolizei bestätigt 1 Todesfall (22-jährige Italienerin Maria Spinelli), 5 Verletzte, Täterschaft auf der Flucht unbekannt. Italienisches Außenministerium und Ministerpräsidentin Meloni reagieren auf höchster Ebene. Zusätzlich: Zeugenberichte (Blick) und DJ-Statement über Trauma und Sicherheit. Beantwortet zentrale offene Fragen der publizierten Story (Todesfälle ja/nein, Identität Opfer) – sollte dort integriert werden, nicht als eigene Story.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 2,
+    "relatedSlug": "aarau-schuesse-rave-schachen-august-2026",
+    "possibleClaims": [
+      "Eine 22-jährige italienische Bürgerin ist gestorben",
+      "Fünf weitere Personen wurden teils schwer verletzt (vier Männer und eine Frau im Alter von 24–27 Jahren)",
+      "Täterschaft ist auf der Flucht und ihr Aufenthaltsort ist unbekannt",
+      "Eine größere Zahl Schüsse fiel am frühen Sonntagmorgen",
+      "Polizei schließt aus, dass Täterschaft erneut aktiv werden könnte",
+      "Italienisches Außenministerium bestätigt: zwei weitere Italiener leicht verletzt",
+      "Veranstaltung war auf einer Pferderennbahn und erwartete rund 3.500 Personen"
+    ],
+    "missingSources": [
+      "Identität und Motiv der oder des Täterin/Täter",
+      "Detaillierte Verletztenberichte zu allen 5 Verletzten (Namen, Nationalitäten, Verletzungsschweregrad)",
+      "Begründung, warum Polizei Anschlag-Szenario ausschließt",
+      "Ballistische oder sonstige forensische Erkenntnisse",
+      "Offizielle Aussage zur genauen Personenzahl auf dem Gelände zum Tatzeitpunkt"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "aarau-schuesse-rave-schachen-august-2026",
+    "title": "Schüsse bei Rave in Aarau: Kantonspolizei bestätigt eine Tote und fünf Verletzte",
+    "description": "Bei einer Pressekonferenz hat die Kantonspolizei Aargau bestätigt, dass eine 22-jährige Italienerin bei den Schüssen am Rave im Schachen in Aarau starb und fünf weitere Menschen teils schwer verletzt wurden. Die Täterschaft ist weiterhin flüchtig, das Motiv unklar.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kern des Ereignisses – ein Todesopfer und fünf teils schwer Verletzte – wurde von der Kantonspolizei Aargau bei einer öffentlichen Pressekonferenz selbst mitgeteilt und von mehreren unabhängigen Medien (ORF, Die Presse, zuvor Der Standard, Kurier, Kleine Zeitung, 20 Minuten, Salzburg24) übereinstimmend wiedergegeben, zusätzlich durch eine Stellungnahme der italienischen Regierung gestützt. Täterschaft, genaue Tatumstände und Motiv bleiben davon unabhängig offen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt weiterhin keine selbst eingesehene Medienmitteilung der Kantonspolizei Aargau oder Keystone-SDA-Meldung vor, sondern nur die journalistische Wiedergabe einer Pressekonferenz durch mehrere Medien sowie eine öffentliche Stellungnahme des Büros der italienischen Regierungschefin.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich weiterhin überwiegend auf Polizeiangaben sowie auf eine offizielle Reaktion der italienischen Regierung; Zeugenaussagen sind nur indirekt über eine Schweizer Boulevardzeitung eingeflossen, eine Perspektive der Täterschaft fehlt naturgemäß. Die Nennung der Nationalität des Opfers birgt zudem Risiko einer unangemessenen Fokussierung, die hier bewusst sachlich gehalten wird.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Bei den Schüssen am Rave auf der Pferderennbahn im Schachen in Aarau ist eine 22-jährige Italienerin gestorben, fünf weitere Menschen wurden teils schwer verletzt – das bestätigte die Kantonspolizei Aargau bei einer Pressekonferenz.",
+        "kind": "fact"
+      },
+      {
+        "text": "Verletzt wurden vier Männer und eine Frau im Alter von 24 bis 27 Jahren; laut italienischem Außenministerium erlitten zudem zwei weitere italienische Staatsbürger leichte Verletzungen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Italiens Regierungschefin Giorgia Meloni sprach den Angehörigen der Getöteten ihr Beileid aus.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Täterschaft ist weiterhin auf der Flucht; die Polizei hat nach eigenen Angaben keine Erkenntnisse zu Identität, Zahl der Beteiligten oder Aufenthaltsort.",
+        "kind": "open"
+      },
+      {
+        "text": "Das Motiv der Tat bleibt unklar; ein Anschlag gilt laut Polizei eher als unwahrscheinlich, eine Auseinandersetzung wird als mögliches Szenario genannt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wer sind die Täterin oder der Täter bzw. die Täter, und wie viele Personen waren an der Tat beteiligt?",
+      "Wo hält sich die Täterschaft auf, und gelingt der Polizei eine Festnahme?",
+      "Was ist das genaue Motiv der Tat – Amoktat, Auseinandersetzung oder etwas anderes?",
+      "Wie ist der aktuelle Gesundheitszustand der fünf teils schwer Verletzten?",
+      "Welche weiteren Details zum Tatablauf (Zahl der Schüsse, Tatwaffen, genauer Zeitpunkt) wird die Kantonspolizei Aargau nachliefern?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440641"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337559/mehrere-opfer-nach-sch252ssen-bei-veranstaltung-in-der-schweiz"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/schweiz-veranstaltung-rave-schuesse-tote/403187339"
+      },
+      {
+        "id": "src4",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41214759/mehrere-opfer-nach-schuessen-bei-veranstaltung-in-der-schweiz"
+      },
+      {
+        "id": "src5",
+        "name": "20 Minuten",
+        "type": "media",
+        "url": "https://www.20min.ch/story/grosseinsatz-im-aargau-mehrere-schuesse-und-verletzte-bei-aarauer-rave-103624617"
+      },
+      {
+        "id": "src6",
+        "name": "Salzburg24",
+        "type": "media",
+        "url": "https://www.salzburg24.at/news/welt/schuesse-bei-rave-in-der-schweiz-mehrere-opfer-grosseinsatz-der-polizei-art-336442"
+      },
+      {
+        "id": "src7",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440695"
+      },
+      {
+        "id": "src8",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41216675/schuesse-bei-rave-in-der-schweiz-polizei-tappt-bei-fahndung-im-dunkel"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Bei einer Rave-Veranstaltung auf der Pferderennbahn im Schachen in Aarau sind in der Nacht auf Sonntag, 30. August 2026, Schüsse gefallen.",
+        "status": "supported",
+        "note": "Von der Kantonspolizei Aargau selbst mitgeteilt und bei einer Pressekonferenz bestätigt, durch mehrere unabhängige Medien übereinstimmend getragen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6",
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Kantonspolizei Aargau bestätigte mehrere Opfer und stand mit einem Großaufgebot an Polizei- und Rettungskräften im Einsatz.",
+        "status": "supported",
+        "note": "Von der Polizei öffentlich gemacht und von mehreren Medien unabhängig übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Eine 22-jährige Italienerin starb an den Folgen der Schüsse; fünf weitere Personen – vier Männer und eine Frau im Alter von 24 bis 27 Jahren – wurden teils schwer verletzt.",
+        "status": "supported",
+        "note": "Bei einer Pressekonferenz von der Kantonspolizei Aargau mitgeteilt, zusätzlich durch die Bestätigung der italienischen Regierung zur Nationalität des Todesopfers gestützt; von zwei unabhängigen Medien (ORF, Die Presse) übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Wer die Schüsse abgegeben hat und welches Motiv dahintersteht, konnte die Polizei auch bei der Pressekonferenz nicht mitteilen; die Täterschaft ist auf der Flucht.",
+        "status": "unclear",
+        "note": "Explizit als offen kommuniziert; laut Polizeisprecher gibt es keine Kenntnis über Aufenthaltsort oder Zahl der Täter, keine Festnahmen bekannt.",
+        "sourceIds": [
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die zuvor über vereinzelte Medienberichte kursierenden, nicht offiziell bestätigten Opferzahlen wurden bei der Pressekonferenz der Kantonspolizei Aargau im Kern bestätigt.",
+        "status": "supported",
+        "note": "Ein Todesopfer und fünf Verletzte entsprechen den ursprünglich unbestätigten Angaben; nun offiziell durch die Polizei bei einer Pressekonferenz mitgeteilt.",
+        "sourceIds": [
+          "src5",
+          "src6",
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Laut italienischem Außenministerium wurden zwei weitere italienische Staatsbürger bei dem Vorfall leicht verletzt.",
+        "status": "partial",
+        "note": "Nur über eine Angabe des römischen Außenministeriums bekannt, wie von den Medien wiedergegeben; keine unabhängige Bestätigung durch Schweizer Behörden eingesehen.",
+        "sourceIds": [
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Ein Anschlag gilt laut Polizeisprecher als eher unwahrscheinlich, da der Rave bereits in Auflösung begriffen war; als mögliches Szenario wird auch eine Auseinandersetzung genannt.",
+        "status": "partial",
+        "note": "Einschätzung eines einzelnen Polizeisprechers bei einer Pressekonferenz, keine abschließende Festlegung auf ein Tatmotiv oder -szenario.",
+        "sourceIds": [
+          "src7"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Augenzeugen berichteten laut der Schweizer Zeitung „Blick“ von Panik, einem Zuruf zum Hinlegen und der Evakuierung der Besucher in eine Turnhalle; der auftretende DJ äußerte sich betroffen.",
+        "status": "unclear",
+        "note": "Indirekte Quellenkette: Die Angaben stammen aus Zeugenaussagen, die von der Schweizer Zeitung „Blick“ eingeholt wurden und hier nur über deren Wiedergabe durch Die Presse vorliegen; nicht eigenständig geprüft.",
+        "sourceIds": [
+          "src8"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In der Nacht auf Sonntag sind bei einer Rave-Veranstaltung auf der Pferderennbahn im Schachen in der Schweizer Stadt Aarau Schüsse gefallen. Bei einer Pressekonferenz am Sonntagnachmittag bestätigte die Kantonspolizei Aargau, dass eine 22-jährige Italienerin bei dem Vorfall starb und fünf weitere Menschen teils schwer verletzt wurden: vier Männer und eine Frau im Alter von 24 bis 27 Jahren. Nach Angaben des Polizeisprechers Bernhard Graser muss von einer „größeren Zahl“ abgegebener Schüsse ausgegangen werden."
+      },
+      {
+        "heading": "Bestätigte Opferzahlen und internationale Reaktion",
+        "markdown": "Das italienische Außenministerium in Rom bestätigte die Nationalität des Todesopfers und teilte mit, zwei weitere italienische Staatsbürger seien leicht verletzt worden. Italiens Ministerpräsidentin Giorgia Meloni sprach den Angehörigen der Getöteten laut ihrem Büro ihr tiefstes Beileid aus; ihr Gedanke gelte auch den Verletzten. Von den Schweizer Behörden hieß es, alle Opfer hätten ihren Wohnsitz in der Schweiz."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Angaben zur Zahl der Toten und Verletzten stammen von der Kantonspolizei Aargau selbst und wurden bei einer öffentlichen Pressekonferenz gemacht, über die zwei voneinander unabhängige Medien – ORF und Die Presse – übereinstimmend berichten. Damit sind die zuvor nur vereinzelt kursierenden, nicht offiziell bestätigten Opferzahlen im Kern bestätigt. Laut Polizeisprecher Graser sei ein Anschlag eher unwahrscheinlich, weil der Rave zum Tatzeitpunkt bereits in Auflösung begriffen gewesen sei; denkbar sei auch eine Auseinandersetzung. Die Veranstalter hatten laut eigener Website rund 3.500 Besucherinnen und Besucher für den als „größten Rave in der Nordwestschweiz“ beworbenen Event erwartet. Laut Zeugenberichten, die die Schweizer Zeitung „Blick“ eingeholt hat, hielten Besucherinnen und Besucher die Schüsse zunächst für ein Feuerwerk, bis jemand zum Hinlegen aufrief; die Anwesenden wurden von der Polizei in eine Turnhalle gebracht. Der auftretende DJ äußerte sich in einer Instagram-Story tief betroffen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt weiterhin, wer die Schüsse abgegeben hat. Laut Polizei gibt es keine Erkenntnisse dazu, wo sich die Täterschaft aufhält, und auch nicht, ob es sich um eine oder mehrere Personen handelt. Ein Motiv wurde bislang nicht genannt; die Einschätzung des Polizeisprechers zu Anschlag versus Auseinandersetzung ist eine vorläufige Einordnung, keine abschließende Festlegung. Die Angabe zu den zwei leicht verletzten weiteren Italienern stützt sich bislang ausschließlich auf das römische Außenministerium und wurde nicht eigenständig durch Schweizer Stellen bestätigt gesehen. Die Zeugenschilderungen liegen nur über eine indirekte Quellenkette (Blick-Zitate, wiedergegeben durch Die Presse) vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Mit der Pressekonferenz der Kantonspolizei Aargau ist der zentrale Kern des Ereignisses – ein Todesopfer und fünf teils schwer Verletzte – nun von der zuständigen Behörde selbst bestätigt und durch zwei unabhängige Medien sowie eine offizielle Reaktion der italienischen Regierung gestützt. Die für die öffentliche Sicherheitsbewertung entscheidenden Fragen nach Täterschaft, Motiv und dem aktuellen Fahndungsstand bleiben jedoch offen. Weitere Angaben der Kantonspolizei Aargau werden im Zuge der laufenden Ermittlungen erwartet."
+      }
+    ],
+    "bodyKompakt": "Bei den Schüssen am Rave auf der Pferderennbahn im Schachen in Aarau ist laut einer Pressekonferenz der Kantonspolizei Aargau eine 22-jährige Italienerin gestorben; fünf weitere Menschen – vier Männer und eine Frau im Alter von 24 bis 27 Jahren – wurden teils schwer verletzt. Laut italienischem Außenministerium erlitten zudem zwei weitere italienische Staatsbürger leichte Verletzungen. Italiens Regierungschefin Giorgia Meloni sprach den Angehörigen der Getöteten ihr Beileid aus; von den Schweizer Behörden hieß es, alle Opfer hätten ihren Wohnsitz in der Schweiz.\n\nDie Angaben stammen von der Polizei selbst und werden von zwei unabhängigen Medien übereinstimmend wiedergegeben, womit die zuvor nur vereinzelt kursierenden Opferzahlen im Kern bestätigt sind. Ein Anschlag gilt laut Polizeisprecher als eher unwahrscheinlich, da der Rave bereits in Auflösung begriffen war; eine Auseinandersetzung wird als mögliches Szenario genannt. Augenzeugen schilderten laut der Zeitung „Blick“ Panik und eine Evakuierung der rund 3.500 erwarteten Besucherinnen und Besucher in eine Turnhalle.\n\nOffen bleibt weiterhin, wer die Schüsse abgegeben hat: Die Täterschaft ist auf der Flucht, die Polizei hat nach eigenen Angaben keine Kenntnis über Identität, Zahl der Beteiligten oder Aufenthaltsort. Auch das Motiv der Tat ist ungeklärt. Weitere Erkenntnisse der Kantonspolizei Aargau werden im Zuge der laufenden Ermittlungen erwartet.",
+    "updateNote": "Die Kantonspolizei Aargau bestätigte bei einer Pressekonferenz eine Tote (22-jährige Italienerin) und fünf teils schwer Verletzte; die Täterschaft ist weiterhin flüchtig und unbekannt, das Motiv unklar.",
+    "pendingOutcome": "Offen sind Identität und Motiv der Täterschaft sowie der Fortgang der Fahndung durch die Kantonspolizei Aargau; sobald es dazu belastbare offizielle Angaben gibt, ist der Artikel erneut zu aktualisieren."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-30T18:07:29.702Z"
+}
