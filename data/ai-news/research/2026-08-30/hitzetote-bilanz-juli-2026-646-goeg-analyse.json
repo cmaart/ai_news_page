@@ -1,0 +1,205 @@
+{
+  "cluster": {
+    "id": "cluster-20260830-3061ebc4",
+    "title": "Rekord an Hitzetoten in Monaten Juni und Juli",
+    "items": [
+      {
+        "itemId": "81bd4a5056b4e8863e46174ef8c540e1868201e1d9e989f091d15ec817061cb3",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Rekord an Hitzetoten in Monaten Juni und Juli",
+        "url": "https://orf.at/stories/3440640",
+        "publishedAt": "2026-08-30T03:29:58.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "5201287dc35cfaeaf370e8d9bef5389bafc47692ea6c40f88bafc662c89e8c1c",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Rekord an Hitzetoten in Monaten Juni und Juli",
+        "url": "https://www.kleinezeitung.at/artikel/41214745/rekord-an-hitzetoten-in-monaten-juni-und-juli",
+        "summary": "In den Monaten Juni und Juli hat es nach Berechnungen der Agentur für Gesundheit und Ernährungssicherheit (AGES) 646 hitzebedingte Todesfälle gegeben. Das ist ein Höchstwert für diesen Zeitraum, teilte das Gesundheitsministerium mit. Im ebenfalls sehr heißen Sommer 2024 hatte es bis Ende Juli 570 Hitzetote gegeben, im Vorjahr waren es 284. Am 31. Juli war mit 40,3 Grad in Wieselburg ein neuer Temperaturrekord für einen Juli-Tag in Österreich erreicht worden.",
+        "publishedAt": "2026-08-30T03:09:54.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "b357577dd0793f8ef70b7525d67f458bd08e4e406abebdd082e449a710b3ca37",
+        "sourceId": "kleinezeitung_oesterreich",
+        "sourceType": "media",
+        "title": "Rekord an Hitzetoten in Monaten Juni und Juli",
+        "url": "https://www.kleinezeitung.at/artikel/41214745/rekord-an-hitzetoten-in-monaten-juni-und-juli",
+        "summary": "In den Monaten Juni und Juli hat es nach Berechnungen der Agentur für Gesundheit und Ernährungssicherheit (AGES) 646 hitzebedingte Todesfälle gegeben. Das ist ein Höchstwert für diesen Zeitraum, teilte das Gesundheitsministerium mit. Im ebenfalls sehr heißen Sommer 2024 hatte es bis Ende Juli 570 Hitzetote gegeben, im Vorjahr waren es 284. Am 31. Juli war mit 40,3 Grad in Wieselburg ein neuer Temperaturrekord für einen Juli-Tag in Österreich erreicht worden.",
+        "publishedAt": "2026-08-30T03:09:54.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster setzt die bereits publizierte Juni-Story (395 Hitzetote) mit vollständiger Juli-Bilanz (251) und Gesamtzahl 646 fort. Gleiches Kernereignis und gleiche Akteure (AGES, Gesundheitsministerium), neuer Schwerpunkt auf Gesundheitssystem-Belastung (GÖG-Analyse). Keine eigenständige neue Wendung, die separate Schlagzeile rechtfertigt – Update des bestehenden Artikels ist Standard. Mehrere unabhängige Quellen (ORF, Kleine Zeitung) bestätigen die Zahlen.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 2,
+    "relatedSlug": "ages-hitzetote-juni-2026-rekord",
+    "possibleClaims": [
+      "646 hitzebedingte Todesfälle in Juni und Juli 2026 nach AGES-Berechnungen",
+      "Das ist ein Höchstwert für den Juni-Juli-Zeitraum in Österreich",
+      "40,3 Grad in Wieselburg am 31. Juli ist neuer Juli-Temperaturrekord für Österreich",
+      "Über 70% der Krankenanstalten und Senioren-/Pflegeeinrichtungen waren bis Ende Juli mindestens 20 Hitzetagen ausgesetzt",
+      "80% der Primärversorgungseinheiten waren bis Ende Juli mindestens 20 Hitzetagen ausgesetzt",
+      "Die AGES-Zahlen beruhen auf einem statistischen Modell mit Sterbe- und Wetterdaten, nicht auf Primärerfassung"
+    ],
+    "missingSources": [
+      "Unabhängige epidemiologische Validierung oder kritische Bewertung der AGES-Methodik",
+      "Detaillierte Aufschlüsselung der 646 Hitzetoten nach Bundesland, Alter, Geschlecht, Vorerkrankungen",
+      "Internationale Vergleichsdaten (EU, andere europäische Länder) für Hitze-Mortalität 2026",
+      "Konkrete gesundheitspolitische Maßnahmen oder Ankündigungen über die laufende Analyse hinaus"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "hitzetote-bilanz-juli-2026-646-goeg-analyse",
+    "title": "646 Hitzetote bis Ende Juli: Neue Bilanz übertrifft alle bisherigen Sommer – GÖG-Analyse warnt vor überlasteten Gesundheitseinrichtungen",
+    "description": "Nach der vorläufigen Junibilanz liegt nun die vollständige Zahl für Juli vor: Laut AGES-Berechnungen starben im Juni und Juli 2026 zusammen 646 Menschen an Hitzefolgen – ein Höchstwert. Eine neue GÖG-Analyse zeigt zudem laut einem Medienbericht eine wachsende Belastung von Krankenanstalten und Pflegeeinrichtungen.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Die Gesamtzahl 646 sowie die Vergleichswerte zu 2024/2025 werden von zwei Medien (ORF, Kleine Zeitung) übereinstimmend unter Berufung auf dieselbe Mitteilung des Gesundheitsministeriums berichtet – beide gehen auf dieselbe amtliche Quelle zurück, keine unabhängige Zweitquelle. Der Juli-Temperaturrekord in Wieselburg ist durch mehrere unabhängige Medienberichte bestätigt. Die Detailzahlen zur GÖG-Analyse der Gesundheitseinrichtungen stammen dagegen nur aus einem einzigen Artikel und sind nicht gegengeprüft.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Weder eine AGES-Publikation noch eine Presseaussendung des Gesundheitsministeriums oder eine GÖG-Studie selbst liegen vor – nur Medienberichte, die daraus zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Mortalitätszahlen zu Hitzetoten laden zu zugespitzter Schlagzeilenbildung ein; die GÖG-Prozentwerte stammen aus einer einzigen Quelle und werden hier bewusst als vorläufig gekennzeichnet, um keinen falschen Grad an Absicherung zu suggerieren.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Nach der bereits bekannten Junibilanz (395 Hitzetote) sind laut AGES-Berechnungen im Juli 2026 weitere 251 Menschen an Hitzefolgen gestorben – zusammen 646 Fälle für Juni und Juli, der höchste bekannte Wert für diesen Zeitraum.",
+        "kind": "fact"
+      },
+      {
+        "text": "Im vergleichbar heißen Sommer 2024 waren es bis Ende Juli 570 Hitzetote, im Jahr 2025 rund 284 – die aktuelle Zahl liegt damit deutlich darüber.",
+        "kind": "fact"
+      },
+      {
+        "text": "Am 31. Juli wurde in Wieselburg (Niederösterreich) mit 40,3 Grad ein neuer Rekord für einen Juli-Tag in Österreich gemessen, unabhängig von mehreren Medien bestätigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut einem Bericht der Kleinen Zeitung zeigt eine neue Analyse der Gesundheit Österreich GmbH (GÖG), dass bis Ende Juli mehr als 70 Prozent der Krankenanstalten sowie Senioren- und Pflegeeinrichtungen und rund 80 Prozent der Primärversorgungseinheiten mindestens 20 Hitzetagen ausgesetzt waren.",
+        "kind": "fact"
+      },
+      {
+        "text": "Gesundheitsministerin Korinna Schumann (SPÖ) wird mit der Aussage zitiert, man befinde sich „mitten in der Analyse“, um besonders betroffene Einrichtungen zu identifizieren – konkrete Maßnahmen wurden darüber hinaus nicht genannt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob die für Herbst angekündigte AGES-Jahresbilanz die vorläufigen Sommerzahlen bestätigt, aus welcher genauen Datengrundlage die GÖG-Prozentwerte stammen und welche konkreten Maßnahmen aus der Analyse folgen, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Bestätigt die für Herbst angekündigte AGES-Jahresbilanz die nun vorläufig genannte Sommerzahl von 646 Hitzetoten, oder wird sie durch Lag-Effekte noch nach oben oder unten korrigiert?",
+      "Auf welcher genauen Datengrundlage und Methodik beruhen die von der Kleinen Zeitung berichteten GÖG-Prozentwerte zur Hitzebelastung von Krankenanstalten, Pflege- und Primärversorgungseinrichtungen, und liegt dazu ein öffentlich zugänglicher Bericht vor?",
+      "Welche konkreten Maßnahmen zieht das Gesundheitsministerium aus der laufenden GÖG-Analyse, über die von Ministerin Schumann angekündigte weitere Auswertung hinaus?",
+      "Wie ordnet sich die österreichische Zwei-Monats-Bilanz von 646 Hitzetoten im internationalen Vergleich ein, etwa zu den parallel gemeldeten sehr hohen Zahlen in Deutschland?",
+      "Wird Greenpeace oder eine andere unabhängige Stelle, die für den Juni bereits eine niedrigere Schätzung vorgelegt hatte, auch zur Juli-Zahl bzw. zur Gesamtbilanz eine eigene Berechnung veröffentlichen?"
+    ],
+    "sources": [
+      {
+        "id": "orf",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440640"
+      },
+      {
+        "id": "kleinezeitung",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41214745/rekord-an-hitzetoten-in-monaten-juni-und-juli"
+      },
+      {
+        "id": "bvz_wieselburg",
+        "name": "BVZ.at",
+        "type": "media",
+        "url": "https://m.bvz.at/in-ausland/rekorde-40-3-grad-in-wieselburg-juli-rekord-fuer-oesterreich-gebrochen-533221625"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Im Juli 2026 kamen laut AGES-Berechnungen weitere 251 hitzebedingte Todesfälle hinzu, zusätzlich zu den bereits im Juni verzeichneten 395 Fällen.",
+        "status": "supported",
+        "note": "Von ORF und Kleine Zeitung übereinstimmend unter Berufung auf dieselbe Mitteilung des Gesundheitsministeriums berichtet.",
+        "sourceIds": [
+          "orf",
+          "kleinezeitung"
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Insgesamt starben in den Monaten Juni und Juli 2026 laut AGES-Berechnungen 646 Menschen an Hitzefolgen – der bisher höchste Wert für diesen Zeitraum.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf",
+          "kleinezeitung"
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Im vergleichbar heißen Sommer 2024 waren es bis Ende Juli 570 Hitzetote, im Jahr 2025 rund 284.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf",
+          "kleinezeitung"
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Am 31. Juli 2026 wurde in Wieselburg (Niederösterreich) mit 40,3 Grad ein neuer Temperaturrekord für einen Juli-Tag in Österreich gemessen.",
+        "status": "supported",
+        "note": "Unabhängig auch von weiteren Medien unter Berufung auf GeoSphere-Austria-Messdaten bestätigt.",
+        "sourceIds": [
+          "orf",
+          "kleinezeitung",
+          "bvz_wieselburg"
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Laut einer Analyse der Gesundheit Österreich GmbH (GÖG) waren bis Ende Juli 2026 mehr als 70 Prozent der Krankenanstalten sowie Senioren- und Pflegeeinrichtungen und rund 80 Prozent der Primärversorgungseinheiten in Österreich mindestens 20 Hitzetagen ausgesetzt, rund ein Viertel aller untersuchten Einrichtungen mindestens 30 Hitzetagen.",
+        "status": "partial",
+        "note": "Nur von einem Medium berichtet, keine GÖG-Publikation oder zweite Quelle gefunden, die die genauen Prozentwerte bestätigt.",
+        "sourceIds": [
+          "kleinezeitung"
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "Gesundheitsministerin Korinna Schumann (SPÖ) erklärte laut Kleine Zeitung, man befinde sich „mitten in der Analyse“, um herauszufinden, welche Einrichtungen besonders von Hitze betroffen sind und wo gezielt angesetzt werden müsse.",
+        "status": "partial",
+        "note": "Wörtliches Zitat nur in einem Artikel dokumentiert, keine Zweitquelle.",
+        "sourceIds": [
+          "kleinezeitung"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "646 Hitzetote in zwei Monaten – neuer Höchstwert",
+        "markdown": "Nach der bereits bekannten vorläufigen Junibilanz liegt nun die vollständige Zahl für Juli vor: Laut Berechnungen der Agentur für Gesundheit und Ernährungssicherheit (AGES) starben im Juli 2026 weitere 251 Menschen an den Folgen der Hitze, wie das Gesundheitsministerium mitteilte. Zusammen mit den 395 Fällen aus dem Juni ergibt das für die beiden Monate eine Gesamtzahl von 646 hitzebedingten Todesfällen – der höchste Wert, der für einen Juni-Juli-Zeitraum in Österreich bislang berechnet wurde.\n\nZum Vergleich nennt das Ministerium den ebenfalls sehr heißen Sommer 2024, in dem bis Ende Juli 570 Menschen an Hitzefolgen starben, sowie das Jahr 2025 mit rund 284 Fällen im selben Zeitraum. Damit beantwortet sich eine bisher offene Frage aus der Berichterstattung zum Juni: Die anhaltende Hitzebelastung hat tatsächlich zu einer weiteren, insgesamt rekordhohen Zahl an Hitzetoten geführt. Als ein Faktor hinter der neuerlichen Belastung gilt der 31. Juli, an dem die Messstation Wieselburg in Niederösterreich mit 40,3 Grad einen neuen Rekord für einen Juli-Tag in Österreich verzeichnete."
+      },
+      {
+        "heading": "Gesundheitssystem laut GÖG-Analyse zunehmend gefordert",
+        "markdown": "Über die reinen Todesfallzahlen hinaus berichtet die Kleine Zeitung erstmals über eine österreichweite Auswertung der Gesundheit Österreich GmbH (GÖG), die zeigen soll, welche Krankenanstalten, Senioren- und Pflegeeinrichtungen sowie Primärversorgungseinheiten besonders stark von Hitze betroffen sind. Im langjährigen Durchschnitt seien rund 20 Prozent der untersuchten Einrichtungen einer hohen Hitzebelastung ausgesetzt gewesen. Im Sommer 2026 waren es demnach bis Ende Juli bereits mehr als 70 Prozent der Krankenanstalten sowie der Senioren- und Pflegeeinrichtungen und rund 80 Prozent der Primärversorgungseinheiten mit mindestens 20 Hitzetagen, rund ein Viertel aller Einrichtungen sogar mit mindestens 30 Hitzetagen. Diese Zahlen liegen bislang nur in diesem einen Bericht vor und sind nicht unabhängig gegengeprüft.\n\nGesundheitsministerin Korinna Schumann (SPÖ) wird mit den Worten zitiert, es gehe nicht nur um die Zahl der Hitzetoten, sondern auch darum, was zunehmende Hitze für das Gesundheitssystem selbst bedeute. Man sei „mitten in der Analyse“, um herauszufinden, wo die Problemstellen liegen und welche Einrichtungen besonders betroffen sind. Über diese Ankündigung hinaus nannte sie laut dem Bericht keine konkreten Maßnahmen."
+      },
+      {
+        "heading": "Vorgeschichte",
+        "markdown": "Wie im bisherigen Bericht zur Junibilanz dargestellt, hatte die AGES bereits für Juni 2026 mit 395 Fällen einen Rekordwert für diesen Monat ermittelt, während die Umweltorganisation Greenpeace mit einer eigenen, methodisch anderen Berechnung auf einen niedrigeren Wert kam. Die aktuelle Meldung liefert nun die vervollständigte Zwei-Monats-Bilanz und ergänzt sie um die neue Systemanalyse zur Belastung von Gesundheitseinrichtungen."
+      }
+    ],
+    "bodyKompakt": "Nach der bereits bekannten Junibilanz liegt nun die vollständige Zahl für Juli vor: Laut AGES-Berechnungen starben im Juli 2026 weitere 251 Menschen an Hitzefolgen, wie das Gesundheitsministerium mitteilte. Zusammen mit den 395 Fällen aus dem Juni ergibt das für die beiden Monate eine Gesamtzahl von 646 hitzebedingten Todesfällen – der höchste bekannte Wert für diesen Zeitraum. Zum Vergleich: Im ebenfalls sehr heißen Sommer 2024 waren es bis Ende Juli 570, im Jahr 2025 rund 284 Fälle. Am 31. Juli hatte die Messstation Wieselburg in Niederösterreich mit 40,3 Grad zudem einen neuen Rekord für einen Juli-Tag in Österreich verzeichnet.\n\nÜber die Todesfallzahlen hinaus berichtet die Kleine Zeitung erstmals über eine Analyse der Gesundheit Österreich GmbH (GÖG), wonach bis Ende Juli mehr als 70 Prozent der Krankenanstalten sowie Senioren- und Pflegeeinrichtungen und rund 80 Prozent der Primärversorgungseinheiten mindestens 20 Hitzetagen ausgesetzt waren – deutlich mehr als im langjährigen Schnitt von rund 20 Prozent. Diese Detailzahlen stammen bislang nur aus einem einzigen Bericht und sind nicht unabhängig bestätigt. Gesundheitsministerin Korinna Schumann (SPÖ) erklärte dazu, man befinde sich mitten in der Analyse, um besonders betroffene Einrichtungen zu identifizieren; konkrete Maßnahmen darüber hinaus nannte sie laut dem Bericht nicht.\n\nWie im bisherigen Bericht zur Junibilanz dargestellt, hatte die AGES für Juni bereits einen Rekordwert von 395 Fällen ermittelt, während Greenpeace mit einer eigenen Berechnung niedriger lag. Ob die für den Herbst angekündigte AGES-Jahresbilanz die jetzige Sommerzahl bestätigt und welche konkreten Schritte aus der GÖG-Analyse folgen, ist offen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-30T04:07:28.061Z"
+}
