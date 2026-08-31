@@ -1,0 +1,199 @@
+{
+  "cluster": {
+    "id": "cluster-20260830-88e258a5",
+    "title": "Sieben Tote bei Schiffsunglück vor Küste Zyperns",
+    "items": [
+      {
+        "itemId": "633b633357f3b8e415c4abaf5937cf6b1ce504c44bf06c752467efbf07f2110e",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Sieben Tote bei Schiffsunglück vor Küste Zyperns",
+        "url": "https://orf.at/stories/3440674",
+        "publishedAt": "2026-08-30T12:33:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "b3f76879ca7c2bd06e0a374b73d971bc46c910af2596bb73c9d5b85707a741de",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Mindestens sieben Tote nach Schiffsunglück vor der Küste Nordzyperns",
+        "url": "https://www.diepresse.com/41216235/mindestens-sieben-tote-nach-schiffsunglueck-vor-der-kueste-nordzyperns",
+        "summary": "Eine Fähre mit 267 Personen an Bord ist in Seenot geraten.",
+        "publishedAt": "2026-08-30T13:55:33.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.7,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzieller Cluster mit zwei unabhängigen deutschsprachigen Quellen (ORF, Die Presse) und ausführlichen Fulltext-Excerpts. Klare Faktenlage: Fähre vor Nordzypern gekentert, mindestens 7 Tote, 267 Passagiere insgesamt, 237 gerettet, 23 vermisst. Offizielle Statements (nordzyprischer Regierungschef Ünal Üstel, türkischer Vizepräsident Cevdet Yilmaz). Kein passender related Slug — echte Erststory. Öffentliche Relevanz für Europa (östliches Mittelmeer, Zypern EU-Mitglied).",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Mindestens sieben Menschen sind bei einem Schiffsunglück vor der Küste Nordzyperns ums Leben gekommen",
+      "Die Fähre ist kurz nach dem Auslaufen aus Kyrenia gekentert",
+      "267 Menschen befanden sich an Bord (259 Passagiere, 8 Besatzungsmitglieder)",
+      "237 Menschen wurden von Rettungskräften in Sicherheit gebracht, 23 werden noch vermisst",
+      "Wasser drang in das Schiff ein; die genaue Ursache ist unklar",
+      "Ein Passagier berichtete von einer ‚Explosion' im Bug (nicht verifiziert, Einzelquelle)",
+      "Der Passagier warf dem Kapitän vor, ohne Koordination die Fähre verlassen zu haben (nicht verifiziert, Einzelquelle)",
+      "Das Schiff ist vollständig gesunken"
+    ],
+    "missingSources": [
+      "Offizielle Unfalluntersuchung und Ursachenanalyse",
+      "Verifikation und mögliche Revision der Todesopferzahl",
+      "Identifikation und Status der 23 vermissten Personen",
+      "Offizielle Angaben zu Schiffsbetreiber/Reederei und Schiffsname",
+      "Behördliche Reaktion auf Vorwürfe gegen den Kapitän",
+      "Wetterbedingungen und Seezustand zum Unglückszeitpunkt",
+      "Sicherheitshistorie des Schiffs und der Reederei",
+      "Stellungnahme der nordzyprischen oder türkischen Behörden zu Ermittlungen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "faehrunglueck-nordzypern-august-2026",
+    "title": "Mindestens sieben Tote nach Fährunglück vor der Küste Nordzyperns",
+    "description": "Eine Fähre mit 267 Menschen an Bord ist kurz nach dem Auslaufen aus Kyrenia gekentert und gesunken. Mindestens sieben Menschen starben, 237 wurden gerettet, 23 werden noch vermisst – die Unglücksursache ist unklar.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Zwei unabhängige Medien (ORF, Die Presse) berichten übereinstimmend über Kentern, Opferzahl, Passagierzahl sowie Rettungs- und Vermisstenzahlen, gestützt auf Aussagen des nordzyprischen Regierungschefs und türkischer Behörden, die als für ihr eigenes Zuständigkeitsgebiet handelnde Institutionen das Ereignis selbst bestätigt haben.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine offizielle Erklärung, Pressemitteilung oder Behördenseite direkt eingesehen, sondern nur Medienberichte, die Regierungsvertreter und Behörden zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Alle vorliegenden Angaben stammen letztlich aus türkischen bzw. nordzyprischen Regierungs- und Medienkanälen (Üstel, türkisches Innenministerium, Anadolu, TRT, CNN Türk); eine unabhängige Stimme, etwa von Ermittlern, Angehörigen oder der Republik Zypern, fehlt bislang.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Bei einem Fährunglück vor der Küste Nordzyperns sind mindestens sieben Menschen ums Leben gekommen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Von den 267 Menschen an Bord (259 Passagiere, 8 Besatzungsmitglieder) wurden 237 gerettet, 23 werden noch vermisst.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Fähre kenterte kurz nach dem Auslaufen aus dem Hafen Kyrenia und ist inzwischen vollständig gesunken; die Unglücksursache ist noch unklar.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ob das Schiff nach Tasucu oder nach Mersin unterwegs war, wird in den beiden Quellen unterschiedlich angegeben.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob es tatsächlich zu einer Explosion an Bord kam und ob dem Kapitän ein Fehlverhalten vorzuwerfen ist, ist bislang nur die Aussage eines einzelnen geretteten Passagiers und nicht bestätigt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie viele der 23 vermissten Personen können noch lebend geborgen werden, und wird sich die Zahl der Todesopfer weiter erhöhen?",
+      "Was war die tatsächliche Ursache dafür, dass Wasser in das Schiff eindrang und es kenterte?",
+      "War das Ziel des Schiffs Taşucu oder Mersin, und wie ist die widersprüchliche Angabe in den Quellen zu erklären?",
+      "Trifft die Schilderung eines Passagiers zu, wonach es im Bug zu einer Explosion kam?",
+      "Ist der Vorwurf zutreffend, der Kapitän habe das Schiff verlassen, ohne die Rettung zu organisieren, und gibt es dazu eine behördliche Untersuchung?",
+      "Welche Reederei betrieb die Fähre, wie hieß das Schiff, und welche Sicherheitshistorie hatte es?",
+      "Werden die Republik Zypern, die EU oder andere internationale Stellen zu dem Unglück Stellung nehmen, da es sich um internationale Gewässer nahe eines EU-Mitgliedstaats handelt?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at: \"Sieben Tote bei Schiffsunglück vor Küste Zyperns\"",
+        "type": "media",
+        "url": "https://orf.at/stories/3440674"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse: \"Mindestens sieben Tote nach Schiffsunglück vor der Küste Nordzyperns\"",
+        "type": "media",
+        "url": "https://www.diepresse.com/41216235/mindestens-sieben-tote-nach-schiffsunglueck-vor-der-kueste-nordzyperns"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Bei einem Fährunglück vor der Küste Nordzyperns sind mindestens sieben Menschen ums Leben gekommen; die Fähre kenterte kurz nach dem Auslaufen aus dem Hafen Kyrenia.",
+        "status": "supported",
+        "note": "Von ORF und Die Presse übereinstimmend berichtet, gestützt auf Aussagen des nordzyprischen Regierungschefs Ünal Üstel.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "An Bord befanden sich 267 Menschen, davon laut Angaben des nordzyprischen Verkehrsministers Erhan Arikli 259 Passagiere und 8 Besatzungsmitglieder.",
+        "status": "supported",
+        "note": "Gesamtzahl von beiden Quellen bestätigt, Aufschlüsselung nach Passagieren/Besatzung stammt aus der Presse-Quelle.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "237 Menschen wurden von Rettungskräften in Sicherheit gebracht, 23 Personen werden noch vermisst.",
+        "status": "supported",
+        "note": "Übereinstimmende Angaben beider Quellen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "In das Schiff drang Wasser ein, es kenterte und sank inzwischen vollständig; die genaue Unglücksursache ist bislang unklar.",
+        "status": "partial",
+        "note": "Beide Medien berichten übereinstimmend, dass die Ursache noch nicht geklärt ist; belastbare Ermittlungsergebnisse liegen nicht vor.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Das genaue Fahrtziel der Fähre ist unklar: ORF nennt den türkischen Hafen Tasucu, Die Presse den Hafen Mersin.",
+        "status": "contradicted",
+        "note": "Die beiden Quellen widersprechen sich in diesem Detail; welche Angabe zutrifft, lässt sich derzeit nicht feststellen.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Ein geretteter Passagier berichtete von einer Explosion im vorderen Schiffsteil und warf dem Kapitän vor, das Schiff verlassen zu haben, ohne die Rettung zu koordinieren.",
+        "status": "unclear",
+        "note": "Schilderung eines einzelnen, namentlich nicht genannten Augenzeugen gegenüber türkischem Fernsehen; unabhängig nicht bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Vor der Küste Nordzyperns ist am Sonntag eine Fähre mit 267 Menschen an Bord gekentert und später vollständig gesunken. Nach übereinstimmenden Berichten von ORF und Die Presse kamen dabei mindestens sieben Menschen ums Leben. Das Schiff war kurz zuvor aus dem Hafen Kyrenia ausgelaufen. Der nordzyprische Regierungschef Ünal Üstel bestätigte den Vorfall gegenüber türkischen Medien."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "An Bord befanden sich laut dem nordzyprischen Verkehrsminister Erhan Arikli 259 Passagiere und 8 Besatzungsmitglieder, insgesamt also 267 Personen. 237 von ihnen konnten von Rettungskräften in Sicherheit gebracht werden, nach 23 weiteren wurde zum Zeitpunkt der Berichterstattung noch gesucht. Ein Notruf sei rund vier Seemeilen vor der Küste abgesetzt worden, nachdem Wasser in das Katamaran-Schiff eingedrungen war. An dem Rettungseinsatz waren nach Angaben des türkischen Innenministeriums mehrere Militärschiffe sowie Hubschrauber und Privatboote beteiligt. Der türkische Vizepräsident Cevdet Yilmaz erklärte, die türkische Küstenwache leiste jede erforderliche Unterstützung."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Zum eigentlichen Fahrtziel der Fähre gibt es widersprüchliche Angaben: ORF nennt den südtürkischen Hafen Tasucu, Die Presse den Hafen Mersin. Auch die Ursache dafür, dass Wasser eindringen und das Schiff kentern konnte, ist nach beiden Berichten noch nicht geklärt. Ein geretteter Passagier schilderte im türkischen Fernsehen eine „Explosion“ im Bugbereich und warf dem Kapitän vor, das Schiff als Erster verlassen zu haben, ohne die Rettung zu organisieren. Diese Schilderung stammt von einer einzelnen, nicht namentlich genannten Person und ist bislang nicht unabhängig bestätigt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Das Unglück ereignete sich in Gewässern vor der Türkischen Republik Nordzypern, die völkerrechtlich nur von der Türkei anerkannt wird, während die international anerkannte Republik Zypern seit 2004 EU-Mitglied ist. Zu den Ermittlungen, einer möglichen Verantwortlichkeit von Besatzung oder Reederei sowie zu Reaktionen der Republik Zypern oder der EU liegen bislang keine Angaben vor."
+      }
+    ],
+    "bodyKompakt": "Vor der Küste Nordzyperns ist am Sonntag eine Fähre mit 267 Menschen an Bord gekentert und später vollständig gesunken. Nach übereinstimmenden Berichten von ORF und Die Presse kamen dabei mindestens sieben Menschen ums Leben. Das Schiff war kurz zuvor aus dem Hafen Kyrenia ausgelaufen; an Bord befanden sich laut nordzyprischem Verkehrsminister 259 Passagiere und 8 Besatzungsmitglieder. 237 Menschen wurden gerettet, nach 23 weiteren wurde noch gesucht.\n\nEin Notruf war rund vier Seemeilen vor der Küste abgesetzt worden, nachdem Wasser in das Schiff eingedrungen war. An der Rettung waren mehrere türkische Militärschiffe, Hubschrauber und Privatboote beteiligt. Zum genauen Fahrtziel gibt es widersprüchliche Angaben: Die Rede ist wahlweise vom türkischen Hafen Tasucu oder von Mersin. Auch die Unglücksursache ist bislang ungeklärt.\n\nEin geretteter Passagier berichtete im türkischen Fernsehen von einer Explosion im Bugbereich und warf dem Kapitän vor, ohne Koordination der Rettung als Erster von Bord gegangen zu sein. Diese Angaben stammen von einer einzelnen Person und sind unabhängig nicht bestätigt. Zu Ermittlungen oder Reaktionen der Republik Zypern liegen noch keine Informationen vor.",
+    "updateNote": null,
+    "pendingOutcome": "Ausgang der Suche nach den 23 vermissten Personen und mögliche Bestätigung oder Korrektur der bisherigen Opferzahl."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-31T04:07:33.731Z"
+}
