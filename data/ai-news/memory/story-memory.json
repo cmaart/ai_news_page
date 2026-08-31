@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-31T10:32:27.106Z",
+  "updatedAt": "2026-08-31T12:23:24.036Z",
   "stories": {
     "us-angriffswelle-iran-juli-2026": {
       "canonicalTitle": "Iran-Konflikt: Iran will laut Berichten Verbot für US- und israelische Schiffe in Straße von Hormus – Route mit Oman vereinbart, Übergangsdeal mit den USA weiter offen",
@@ -1524,34 +1524,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-04T04:07:27.367Z"
-    },
-    "schutzbrief-genitalverstuemmelung-herbst-2026": {
-      "canonicalTitle": "Bundesregierung plant Schutzbrief gegen weibliche Genitalverstümmelung ab Herbst",
-      "slug": "schutzbrief-genitalverstuemmelung-herbst-2026",
-      "firstSeenAt": "2026-08-01T12:07:28.817Z",
-      "lastUpdatedAt": "2026-08-01T12:07:28.817Z",
-      "status": "published",
-      "articlePath": "src/content/articles/schutzbrief-genitalverstuemmelung-herbst-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-01/schutzbrief-genitalverstuemmelung-herbst-2026.json",
-      "sourceUrls": [
-        "https://orf.at/stories/3437905",
-        "https://www.diepresse.com/40739840/schutzbrief-gegen-weibliche-genitalverstuemmelung-kommt-ab-herbst",
-        "https://kurier.at/politik/inland/schutzbrief-gegen-weibliche-genitalverstuemmelung-kommt-ab-herbst/403179326"
-      ],
-      "openQuestions": [
-        "Nach welchen konkreten Kriterien werden die „Brennpunktschulen“ für die Verteilung ausgewählt?",
-        "Welche Best Practices aus dem deutschen und dem Schweizer Schutzbrief-Modell wurden übernommen, welche nicht?",
-        "Ist eine Evaluierung oder Wirkungsmessung des Schutzbriefs geplant, und anhand welcher Kriterien?",
-        "Welche weiteren Maßnahmen über den Schutzbrief hinaus sieht der Nationale Aktionsplan zum Schutz vor FGM konkret vor?",
-        "Warum stehen der geschätzten Zahl von bis zu 3.000 gefährdeten Mädchen nur so wenige strafrechtliche Ermittlungsverfahren gegenüber – liegt das an Dunkelfeld, Beweisproblemen oder Meldeverhalten?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-02T12:07:28.817Z",
-      "doNotUpdateBefore": "2026-08-01T18:07:28.817Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-02T12:07:35.202Z"
     },
     "google-earth-ki-bildgenerator-nano-banana-abschaltung-2026": {
       "canonicalTitle": "Google deaktiviert KI-Bildgenerator in Google Earth nach Missbrauchsfällen",
@@ -16079,8 +16051,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-30T12:07:30.734Z",
       "doNotUpdateBefore": "2026-08-29T18:07:30.734Z",
-      "pendingOutcome": "Offen ist, ob und mit welchem Ergebnis die Metro Nashville Airport Authority über die von Gouverneur Bill Lee vorgeschlagene Umbenennung des Flughafens Nashville (BNA) nach Dolly Parton entscheidet, laut US-Medienberichten bei einem Treffen am 17. September 2026.",
-      "pendingOutcomeUntil": "2026-08-31T12:07:30.734Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17890,7 +17860,9 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-30T00:07:36.688Z",
       "doNotUpdateBefore": "2026-08-29T06:07:36.688Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kurier": "2026-08-31T12:07:34.481Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-29T18:07:33.173Z"
@@ -18220,8 +18192,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-30T12:07:30.734Z",
       "doNotUpdateBefore": "2026-08-29T18:07:30.734Z",
-      "pendingOutcome": "Entscheidung der Regierung, ob und in welcher Form die Spritpreisbremse nach ihrem Auslaufen am Montag fortgesetzt wird.",
-      "pendingOutcomeUntil": "2026-08-31T12:07:30.734Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18358,11 +18328,12 @@
       "echoPublishers": {
         "kurier": "2026-08-30T14:07:35.312Z",
         "derstandard": "2026-08-30T14:07:34.871Z",
-        "apa": "2026-08-31T08:07:34.053Z"
+        "apa": "2026-08-31T08:07:34.053Z",
+        "orf": "2026-08-31T12:07:32.946Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-30T14:07:32.190Z"
+      "resonanceMeasuredAt": "2026-08-31T12:07:31.420Z"
     },
     "gaza-israel-angriff-hamas-kommandant-al-aksa-krankenhaus-august-2026": {
       "canonicalTitle": "Israel greift Hamas-Kommandanten auf Gelände des Al-Aksa-Krankenhauses in Gaza an",
@@ -18532,33 +18503,38 @@
       "echoPublishers": {}
     },
     "hitzetote-bilanz-juli-2026-646-goeg-analyse": {
-      "canonicalTitle": "646 Hitzetote bis Ende Juli: Ministerin Schumann und ÖGB fordern Konsequenzen aus GÖG-Analyse zur überlasteten Gesundheitsversorgung",
+      "canonicalTitle": "646 Hitzetote im heißesten Sommer seit Messbeginn: Schumann und ÖGB fordern Konsequenzen aus GÖG-Analyse",
       "slug": "hitzetote-bilanz-juli-2026-646-goeg-analyse",
       "firstSeenAt": "2026-08-30T04:07:28.061Z",
-      "lastUpdatedAt": "2026-08-30T16:07:30.727Z",
+      "lastUpdatedAt": "2026-08-31T12:07:31.420Z",
       "status": "published",
       "articlePath": "src/content/articles/hitzetote-bilanz-juli-2026-646-goeg-analyse.mdx",
-      "researchPath": "data/ai-news/research/2026-08-30/hitzetote-bilanz-juli-2026-646-goeg-analyse-update-1600.json",
+      "researchPath": "data/ai-news/research/2026-08-31/hitzetote-bilanz-juli-2026-646-goeg-analyse-update-1200.json",
       "sourceUrls": [
         "https://orf.at/stories/3440640",
         "https://www.kleinezeitung.at/artikel/41214745/rekord-an-hitzetoten-in-monaten-juni-und-juli",
         "https://m.bvz.at/in-ausland/rekorde-40-3-grad-in-wieselburg-juli-rekord-fuer-oesterreich-gebrochen-533221625",
         "https://orf.at/stories/3440660",
         "https://www.diepresse.com/41214891/rekord-an-hitzetoten-in-oesterreich-im-juni-und-juli",
-        "https://www.derstandard.at/story/3000000337600/hitze-rekord-an-hitzetoten-in-monaten-juni-und-juli"
+        "https://www.derstandard.at/story/3000000337600/hitze-rekord-an-hitzetoten-in-monaten-juni-und-juli",
+        "https://orf.at/stories/3440726",
+        "https://www.derstandard.at/story/3000000337730/der-sommer-2026-ist-der-heisseste-seit-messbeginn-in-oesterreich",
+        "https://www.diepresse.com/41218980/2026-beschert-oesterreich-den-heissesten-sommer-der-messgeschichte"
       ],
       "openQuestions": [
-        "Bestätigt die für Herbst angekündigte AGES-Jahresbilanz die nun vorläufig genannte Sommerzahl von 646 Hitzetoten, oder wird sie durch Lag-Effekte noch nach oben oder unten korrigiert?",
+        "Bestätigt die für Herbst angekündigte AGES-Jahresbilanz die nun vorläufig genannte Sommerzahl von 646 Hitzetoten für Juni/Juli, oder wird sie durch Lag-Effekte noch nach oben oder unten korrigiert?",
+        "Wie hoch fällt die Zahl der hitzebedingten Todesfälle für August 2026 aus, die laut AGES noch nicht vorliegt?",
         "Auf welcher genauen Datengrundlage und Methodik beruhen die berichteten GÖG-Prozentwerte zur Hitzebelastung von Krankenanstalten, Pflege- und Primärversorgungseinrichtungen, und liegt dazu ein öffentlich zugänglicher Bericht vor?",
         "Welche konkreten Maßnahmen zieht das Gesundheitsministerium aus der laufenden GÖG-Analyse, über die von Ministerin Schumann angekündigte weitere Auswertung hinaus?",
         "Welche konkreten Hitzeschutzmaßnahmen für Arbeitnehmerinnen und Arbeitnehmer plant die Regierung laut dem von ÖGB-Chef Katzian angesprochenen Regierungsprogramm, und in welchem Zeitrahmen?",
-        "Wie ordnet sich die österreichische Zwei-Monats-Bilanz von 646 Hitzetoten im internationalen Vergleich ein, etwa zu den parallel gemeldeten sehr hohen Zahlen in Deutschland und den Rekordwerten für Westeuropa insgesamt?",
-        "Wird Greenpeace oder eine andere unabhängige Stelle, die für den Juni bereits eine niedrigere Schätzung vorgelegt hatte, auch zur Juli-Zahl bzw. zur Gesamtbilanz eine eigene Berechnung veröffentlichen?"
+        "Wie ordnet sich die österreichische Zwei-Monats-Bilanz von 646 Hitzetoten im internationalen Vergleich ein, etwa zu parallel gemeldeten Zahlen in Deutschland und Westeuropa?",
+        "Wird Greenpeace oder eine andere unabhängige Stelle, die für den Juni bereits eine niedrigere Schätzung vorgelegt hatte, auch zur Gesamtbilanz oder zur Sommerbilanz eine eigene Berechnung veröffentlichen?",
+        "Liegt eine direkt zugängliche Pressemitteilung oder ein Datensatz der GeoSphere Austria zur Sommerbilanz 2026 vor, mit dem sich die von Medien berichteten Detailzahlen (Stationszahl, Bregenz-Rekord) unabhängig gegenprüfen ließen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-31T16:07:30.727Z",
-      "doNotUpdateBefore": "2026-08-30T22:07:30.727Z",
-      "pendingOutcome": "Bestätigt die für Herbst 2026 angekündigte AGES-Jahresbilanz die Sommerzahl von 646 Hitzetoten, und welche konkreten Maßnahmen leiten Gesundheitsministerium und Regierung aus der GÖG-Analyse sowie der ÖGB-Forderung nach Hitzeschutz für Arbeitnehmer ab?",
+      "doNotRedraftBefore": "2026-09-01T12:07:31.420Z",
+      "doNotUpdateBefore": "2026-08-31T18:07:31.420Z",
+      "pendingOutcome": "Die für Herbst angekündigte AGES-Jahresbilanz zu den Hitzetoten 2026 sowie die noch ausständige Zahl der hitzebedingten Todesfälle für August 2026.",
       "pendingOutcomeUntil": "2026-09-01T16:07:30.727Z",
       "echoPublishers": {
         "orf": "2026-08-30T16:07:33.010Z",
@@ -18955,7 +18931,8 @@
         "golem": "2026-08-31T06:07:42.273Z",
         "derstandard": "2026-08-30T12:07:37.304Z",
         "heise": "2026-08-31T08:07:36.468Z",
-        "futurezone": "2026-08-31T10:07:42.183Z"
+        "futurezone": "2026-08-31T10:07:42.183Z",
+        "kurier": "2026-08-31T12:07:34.481Z"
       },
       "resonanceLevel": 5,
       "resonanceSource": "triage",
@@ -19331,8 +19308,8 @@
       "pendingOutcome": "Ergebnis der laufenden Suche nach den 18 Vermissten sowie der angekündigten Bergung des Schiffsdatenschreibers zur Klärung der Unglücksursache.",
       "pendingOutcomeUntil": "2026-09-02T08:07:30.407Z",
       "echoPublishers": {
-        "orf": "2026-08-31T08:07:32.570Z",
-        "derstandard": "2026-08-31T08:07:33.924Z",
+        "orf": "2026-08-31T12:07:32.946Z",
+        "derstandard": "2026-08-31T12:07:34.038Z",
         "kleinezeitung": "2026-08-31T08:07:36.786Z"
       },
       "resonanceLevel": 3,
@@ -19472,11 +19449,84 @@
         "orf": "2026-08-31T10:07:38.939Z",
         "derstandard": "2026-08-31T10:07:41.646Z",
         "diepresse": "2026-08-31T10:07:41.426Z",
-        "kurier": "2026-08-31T10:07:41.127Z"
+        "kurier": "2026-08-31T10:07:41.127Z",
+        "kleinezeitung": "2026-08-31T12:07:36.189Z",
+        "apa": "2026-08-31T10:07:40.557Z"
+      },
+      "resonanceLevel": 5,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-08-31T12:07:31.420Z"
+    },
+    "rave-schweiz-aargau-toedliche-schuesse-festnahme-august-2026": {
+      "canonicalTitle": "Tote bei Rave in der Schweiz: Polizei nimmt 43-jährigen Verdächtigen fest",
+      "slug": "rave-schweiz-aargau-toedliche-schuesse-festnahme-august-2026",
+      "firstSeenAt": "2026-08-31T12:07:31.420Z",
+      "lastUpdatedAt": "2026-08-31T12:07:31.420Z",
+      "status": "published",
+      "articlePath": "src/content/articles/rave-schweiz-aargau-toedliche-schuesse-festnahme-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-31/rave-schweiz-aargau-toedliche-schuesse-festnahme-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3440766",
+        "https://www.derstandard.at/story/3000000337757/todesschuesse-nach-rave-event-in-der-schweiz-festnahme",
+        "https://orf.at/stories/3440747",
+        "https://www.diepresse.com/41218802/todesschuesse-bei-rave-event-in-der-schweiz-polizei-stellt-drei-thesen-auf",
+        "https://www.nzz.ch/panorama/grosseinsatz-in-aarau-schuesse-auf-menschenmenge-bei-aarau-rave-vol-7-hintergruende-noch-unklar-ld.10021629",
+        "https://www.watson.ch/schweiz/justiz/390667335-aarauer-rave-polizei-nimmt-43-jaehrigen-nach-toedlichen-schuessen-fest"
+      ],
+      "openQuestions": [
+        "Welches Motiv hatte der mutmaßliche Täter, und bestätigt sich eine der kursierenden Thesen (Terroranschlag, Amoktat, kriminelle Abrechnung)?",
+        "Wie lauten die vollständigen Ermittlungsergebnisse der für Anfang September angekündigten Pressekonferenz?",
+        "Werden Nationalität und genaue Zahl der Verletzten von der Polizei offiziell und im Detail bestätigt?",
+        "Woher stammten die verwendeten Waffen, und wie ist der Verdächtige an sie gelangt?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-01T12:07:31.420Z",
+      "doNotUpdateBefore": "2026-08-31T18:07:31.420Z",
+      "pendingOutcome": "Ergebnisse und weitere Details der von den Schweizer Behörden für Anfang September angekündigten Pressekonferenz zu Ermittlungsstand und möglichem Motiv.",
+      "pendingOutcomeUntil": "2026-09-02T12:07:31.420Z",
+      "echoPublishers": {
+        "orf": "2026-08-31T12:07:32.946Z",
+        "derstandard": "2026-08-31T12:07:34.038Z",
+        "diepresse": "2026-08-31T10:07:41.286Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-31T12:07:31.420Z"
+    },
+    "villach-toetungsdelikt-28-jaehrige-august-2026": {
+      "canonicalTitle": "Villach: Obduktion bestätigt Tötungsdelikt an 28-Jähriger, 39-Jähriger in U-Haft",
+      "slug": "villach-toetungsdelikt-28-jaehrige-august-2026",
+      "firstSeenAt": "2026-08-31T12:07:31.420Z",
+      "lastUpdatedAt": "2026-08-31T12:07:31.420Z",
+      "status": "published",
+      "articlePath": "src/content/articles/villach-toetungsdelikt-28-jaehrige-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-31/villach-toetungsdelikt-28-jaehrige-august-2026.json",
+      "sourceUrls": [
+        "https://kaernten.orf.at/stories/3369193",
+        "https://www.derstandard.at/story/3000000337755/28-jaehrige-frau-in-villach-getoetet-partner-festgenommen",
+        "https://www.diepresse.com/41219701/obduktion-ergab-28-jaehrige-in-villach-getoetet",
+        "https://kurier.at/chronik/kaernten/obduktion-28-jaehrige-villach-tot/403187522"
+      ],
+      "openQuestions": [
+        "Wie kam es unter der Stadtbrücke genau zu den tödlichen Verletzungen, und was war laut Ermittlungen der Auslöser?",
+        "Waren Opfer und Verdächtiger tatsächlich ein Paar, wie ein Bericht unter Berufung auf den Ermittlungsstand nahelegt?",
+        "Welche Anklage wird die Staatsanwaltschaft Klagenfurt erheben, und wann könnte ein Verfahren beginnen?",
+        "Was ergaben die Befragungen der weiteren Personen, die an dem Abend unter der Brücke anwesend waren?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-01T12:07:31.420Z",
+      "doNotUpdateBefore": "2026-08-31T18:07:31.420Z",
+      "pendingOutcome": "Ergebnis der laufenden Ermittlungen des Landeskriminalamts und eine mögliche Anklage der Staatsanwaltschaft Klagenfurt gegen den 39-Jährigen.",
+      "pendingOutcomeUntil": "2026-09-02T12:07:31.420Z",
+      "echoPublishers": {
+        "orf": "2026-08-31T12:07:33.860Z",
+        "derstandard": "2026-08-31T12:07:33.998Z",
+        "diepresse": "2026-08-31T12:07:34.371Z",
+        "kurier": "2026-08-31T12:07:34.481Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-31T10:07:36.354Z"
+      "resonanceMeasuredAt": "2026-08-31T12:07:31.420Z"
     }
   }
 }
