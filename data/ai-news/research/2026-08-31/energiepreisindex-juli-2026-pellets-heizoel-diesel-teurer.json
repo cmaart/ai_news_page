@@ -1,0 +1,250 @@
+{
+  "cluster": {
+    "id": "cluster-20260831-4c45e08f",
+    "title": "Haushaltsenergie im Juli spürbar verteuert",
+    "items": [
+      {
+        "itemId": "ffe012cdceab044f9e26ff5dfd9ed569c5f4a8c061eceac9fb3eb0583d4a5da1",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "Haushaltsenergie im Juli spürbar verteuert",
+        "url": "https://www.derstandard.at/story/3000000337639/haushaltsenergie-im-juli-sp252rbar-verteuert",
+        "summary": "Energiepreisindex stieg im Jahresabstand um 5,7 Prozent und im Vergleich zum Vormonat um 1,1 Prozent. Holzpellets verteuerten sich um fast ein Drittel – Treibstoffpreise legen zu",
+        "publishedAt": "2026-08-31T06:17:16.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e30f6d2eeb12c548b3f540d799cbc93d12cf4b5bf474fa68bb36eaa10b62c64e",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Haushaltsenergie im Juli spürbar verteuert",
+        "url": "https://orf.at/stories/3440716",
+        "isNew": false
+      },
+      {
+        "itemId": "0a16377026f3e8d6f446e6bbe84293b0add1e10e7cb32a086f23e6b9bab27e8e",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Haushaltsenergie im Juli spürbar verteuert",
+        "url": "https://www.diepresse.com/41216840/haushaltsenergie-im-juli-spuerbar-verteuert",
+        "isNew": false
+      },
+      {
+        "itemId": "aabc43a953e0ad6e2fae4462fb383ec64575ec8cc958edf3338bb8282c632887",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "Haushaltsenergie im Juli spürbar verteuert",
+        "url": "https://www.diepresse.com/41216840/haushaltsenergie-im-juli-spuerbar-verteuert",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.9,
+  "triage": {
+    "action": "update_story",
+    "reason": "Cluster liefert detaillierte Energiepreisdaten für Juli 2026 (EPI +5,7% YoY, Pellets +31%, Heizöl +27%, differenzierter nach Energieträgern). Passt als Konkretisierung des Inflations-Artikels vom Juli 2026, der Energiepreise nur als allgemeine Treiberkraft erwähnt. Substanziell genug für Integration, nicht für eigenständigen Artikel (inkrementelle Detail, nicht neue Wendung). Agenturtext bei derstandard/orf identisch (Syndikatsrabatt auf 2 Häuser: derstandard+orf vs. diepresse).",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": 2,
+    "relatedSlug": "inflation-oesterreich-juli-2026-mehrwertsteuersenkung-lebensmittel",
+    "possibleClaims": [
+      "Energiepreisindex im Juli 2026 um 5,7% gegenüber Vorjahr gestiegen",
+      "Energiepreisindex im Juli 2026 um 1,1% gegenüber Juni gestiegen",
+      "Holzpellets um 31,3% teurer als Juli 2025",
+      "Heizöl um 26,9% teurer als Juli 2025",
+      "Strompreise um 10,4% billiger als Vorjahr",
+      "Gaspreise um 4,6% teurer als Vorjahr",
+      "Dieseltreibstoff um 19,3% teurer als Vorjahr",
+      "Superbenzin um 15,1% teurer als Vorjahr",
+      "Energiepreise sind relevanter Preistreiber als allgemeine Teuerungsrate"
+    ],
+    "missingSources": [
+      "Direktlink zu Datensatz der Österreichischen Energieagentur",
+      "Spezifikation: welche geopolitischen Unsicherheiten genau",
+      "Spezifikation: welche wetterbedingten Einschränkungen in Europa"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "energiepreisindex-juli-2026-pellets-heizoel-diesel-teurer",
+    "title": "Energiepreise im Juli 2026: Pellets und Heizöl treiben Anstieg, Strom deutlich günstiger als vor einem Jahr",
+    "description": "Eine Aufschlüsselung des Energiepreisindex für Juli 2026 zeigt: Nicht alle Energieträger wurden teurer. Während Pellets, Heizöl und Treibstoffe kräftig zulegten, sank der Strompreis im Jahresabstand deutlich – ein differenzierteres Bild als die zuvor gemeldete Gesamtkennzahl.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Die Zahlen stammen laut übereinstimmenden Medienberichten (Der Standard, ORF, Die Presse) von der Österreichischen Energieagentur und sind in den vorliegenden Texten nahezu wortgleich – ein Hinweis auf eine gemeinsame Agenturquelle statt unabhängiger Mehrfach-Recherche. Die Primärpublikation der Energieagentur wurde nicht selbst eingesehen, weshalb die Einzelwerte als medienvermittelt gelten.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Alle Zahlen werden der Österreichischen Energieagentur zugeschrieben, deren Energiepreisindex-Publikation aber nicht direkt eingesehen werden konnte. Es liegt daher keine eigene Primärquellen-Prüfung vor, nur die konsistente Wiedergabe durch mehrere Medien.",
+    "framingRisk": "low",
+    "framingRiskNote": "Reine Zahlenberichterstattung ohne erkennbare Zuspitzung; Risiko besteht allenfalls darin, die pauschale Schlagzeile 'Energie teurer' unreflektiert zu übernehmen, obwohl Strom im Jahresabstand deutlich günstiger wurde.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Der Energiepreisindex (EPI) der Österreichischen Energieagentur ist im Juli 2026 gegenüber dem Vorjahresmonat um 5,7 Prozent und gegenüber Juni um 1,1 Prozent gestiegen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Entwicklung fällt je nach Energieträger sehr unterschiedlich aus: Strom wurde im Jahresabstand um 10,4 Prozent billiger, Gas dagegen um 4,6 Prozent teurer.",
+        "kind": "fact"
+      },
+      {
+        "text": "Am stärksten verteuerten sich Holzpellets (+31,3 Prozent) und Heizöl (+26,9 Prozent) gegenüber Juli 2025, gefolgt von Brennholz (+5,2 Prozent) und Fernwärme (+2,1 Prozent).",
+        "kind": "fact"
+      },
+      {
+        "text": "An der Zapfsäule zogen die Preise ebenfalls an: Diesel kostete um 19,3 Prozent, Superbenzin um 15,1 Prozent mehr als vor einem Jahr, beide auch im Monatsabstand teurer.",
+        "kind": "fact"
+      },
+      {
+        "text": "Damit setzt sich der im bisherigen Bericht offen gelassene Trend fort: Treibstoffe und Heizöl verteuerten sich im Juli tatsächlich weiter.",
+        "kind": "fact"
+      },
+      {
+        "text": "Welche 'geopolitischen Unsicherheiten' und 'wetterbedingten Einschränkungen' die Energieagentur konkret als Treiber nennt, wird in den vorliegenden Berichten nicht näher spezifiziert.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob sich die vom WIFO für den Herbst erwartete Verteuerung von Gas- und Stromverträgen tatsächlich einstellt, bleibt offen – die Juli-Daten zeigen bei Strom vorerst das Gegenteil.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was genau sind die von der Österreichischen Energieagentur genannten 'geopolitischen Unsicherheiten' und 'wetterbedingten Einschränkungen' – welche Ereignisse sind konkret gemeint?",
+      "Bestätigt die Statistik Austria in der finalen VPI-Veröffentlichung für Juli eine Energiekomponente von rund 5,7 Prozent im Einklang mit dem EPI der Energieagentur, oder handelt es sich um zwei methodisch unterschiedliche Kennzahlen, die zufällig ähnlich ausfallen?",
+      "Bestätigt sich die von WIFO-Ökonom Baumgartner erwartete Verteuerung von Gas- und Stromverträgen ab Herbst 2026, nachdem Strom im Juli noch deutlich billiger war als vor einem Jahr?",
+      "Wie lange hält der Preisauftrieb bei Pellets und Heizöl an, und wie stark wirkt sich das auf die Heizkosten im kommenden Winter aus?",
+      "Setzt sich der Anstieg bei Diesel und Superbenzin in den Folgemonaten fort oder kehrt sich die Entwicklung wieder um?"
+    ],
+    "sources": [
+      {
+        "id": "derstandard",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000337639/haushaltsenergie-im-juli-sp252rbar-verteuert"
+      },
+      {
+        "id": "orf",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3440716"
+      },
+      {
+        "id": "diepresse",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41216840/haushaltsenergie-im-juli-spuerbar-verteuert"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Der Energiepreisindex (EPI) stieg im Juli 2026 gegenüber Juli 2025 um 5,7 Prozent.",
+        "status": "supported",
+        "note": "Von der Österreichischen Energieagentur ermittelt, übereinstimmend berichtet.",
+        "sourceIds": [
+          "derstandard",
+          "orf",
+          "diepresse"
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Der EPI stieg im Juli 2026 gegenüber Juni 2026 um 1,1 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "derstandard",
+          "orf"
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Die Strompreise sanken im Jahresabstand um 10,4 Prozent und im Monatsabstand um 0,8 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf"
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Die Gaspreise stiegen im Jahresabstand um 4,6 Prozent, sanken aber im Monatsabstand um 0,6 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf"
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Holzpellets verteuerten sich um 31,3 Prozent gegenüber Juli 2025.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf",
+          "derstandard"
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "Heizöl verteuerte sich um 26,9 Prozent gegenüber Juli 2025.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf"
+        ]
+      },
+      {
+        "id": "c7",
+        "text": "Brennholz kostete um 5,2 Prozent, Fernwärme um 2,1 Prozent mehr als vor einem Jahr.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf"
+        ]
+      },
+      {
+        "id": "c8",
+        "text": "Diesel verteuerte sich im Jahresabstand um 19,3 Prozent und im Monatsabstand um 3 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf"
+        ]
+      },
+      {
+        "id": "c9",
+        "text": "Superbenzin verteuerte sich im Jahresabstand um 15,1 Prozent und im Monatsabstand um 3,2 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf"
+        ]
+      },
+      {
+        "id": "c10",
+        "text": "Geopolitische Unsicherheiten und wetterbedingte Einschränkungen belasten laut Energieagentur die europäischen Energiemärkte.",
+        "status": "unclear",
+        "note": "In den vorliegenden Berichten nicht näher spezifiziert, welche konkreten Ereignisse gemeint sind.",
+        "sourceIds": [
+          "derstandard",
+          "orf"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Nicht alle Energieträger ziehen gleich mit",
+        "markdown": "Der Energiepreisindex (EPI) der Österreichischen Energieagentur ist im Juli 2026 im Jahresabstand um 5,7 Prozent und gegenüber Juni um 1,1 Prozent gestiegen – nach einer kurzen Verschnaufpause im Vormonat. Hinter dieser Gesamtzahl verbirgt sich allerdings ein sehr uneinheitliches Bild: Strom wurde im Jahresvergleich um 10,4 Prozent billiger, während Gas um 4,6 Prozent teurer wurde. Im Monatsabstand gaben beide leitungsgebundenen Energieträger nach.\n\nDeutlich anders sieht es bei Heizstoffen und Treibstoffen aus. Holzpellets verteuerten sich um 31,3 Prozent gegenüber Juli 2025, Heizöl um 26,9 Prozent. Auch Brennholz (+5,2 Prozent) und Fernwärme (+2,1 Prozent) legten zu. An der Tankstelle kostete Diesel um 19,3 Prozent und Superbenzin um 15,1 Prozent mehr als vor einem Jahr, beide zogen auch gegenüber Juni nochmals um rund drei Prozent an.\n\nWelche geopolitischen Unsicherheiten und wetterbedingten Einschränkungen die Energieagentur dabei konkret als Treiber sieht, benennen die vorliegenden Berichte nicht näher – diese Einordnung bleibt vage und lässt sich derzeit nicht überprüfen."
+      },
+      {
+        "heading": "Was das für die bisherige Berichterstattung bedeutet",
+        "markdown": "Wie im bisherigen Bericht zur Juli-Inflation dargestellt, war eine der offenen Fragen, ob sich der Anstieg der Energiepreise durch teurere Treibstoffe und Heizöl in den kommenden Monaten fortsetzt. Die nun vorliegende Aufschlüsselung des Energiepreisindex beantwortet das für den Berichtsmonat Juli mit Ja: Sowohl bei den Treibstoffen als auch bei Heizöl und Pellets setzte sich die Verteuerung fort, teils deutlich beschleunigt.\n\nOffen bleibt dagegen die im bisherigen Bericht zitierte WIFO-Erwartung, wonach ab Herbst auch Gas- und Strompreise durch neue Verträge steigen dürften. Die Juli-Zahlen zeigen für Strom vorerst das Gegenteil – einen deutlichen Rückgang im Jahresabstand –, während Gas nur moderat teurer wurde und im Monatsvergleich sogar leicht nachgab. Ob und wie stark sich das im Herbst mit neuen Vertragskonditionen ändert, lässt sich aus den Juli-Daten nicht ablesen. Ebenfalls ungeklärt bleibt, ob die vom Energiepreisindex ausgewiesene Teuerungsrate von 5,7 Prozent mit der im Verbraucherpreisindex der Statistik Austria ausgewiesenen Energiekomponente – die für Juli denselben Wert nannte – methodisch tatsächlich vergleichbar ist oder ob beide Kennzahlen unabhängig voneinander auf diesen Wert kommen."
+      }
+    ],
+    "bodyKompakt": "Der Energiepreisindex (EPI) der Österreichischen Energieagentur ist im Juli 2026 gegenüber dem Vorjahr um 5,7 Prozent und gegenüber Juni um 1,1 Prozent gestiegen. Hinter dieser Gesamtzahl steckt aber ein uneinheitliches Bild: Strom wurde im Jahresabstand um 10,4 Prozent billiger, Gas dagegen um 4,6 Prozent teurer. Deutlich stärker zogen Heizstoffe an – Holzpellets kosteten um 31,3 Prozent, Heizöl um 26,9 Prozent mehr als vor einem Jahr, dazu kamen Anstiege bei Brennholz und Fernwärme. Auch an der Zapfsäule wurde es teurer: Diesel legte um 19,3 Prozent, Superbenzin um 15,1 Prozent zu, beide auch gegenüber Juni nochmals spürbar. Welche geopolitischen und wetterbedingten Faktoren die Energieagentur dafür konkret verantwortlich macht, bleibt in den vorliegenden Berichten unklar.\n\nWie im bisherigen Bericht zur Juli-Inflation dargestellt, war offen, ob sich die Verteuerung bei Treibstoffen und Heizöl fortsetzt – die neuen Daten bestätigen das für Juli. Weiterhin offen ist dagegen, ob wie vom WIFO erwartet ab Herbst auch Gas- und Stromverträge teurer werden: Die Juli-Zahlen zeigen bei Strom bislang einen deutlichen Rückgang im Jahresabstand, bei Gas nur eine moderate Verteuerung mit leichtem Rückgang zum Vormonat. Auch das Verhältnis zwischen diesem Energiepreisindex und der Energiekomponente des Verbraucherpreisindex der Statistik Austria, die für Juli denselben Prozentwert auswies, ist aus den vorliegenden Quellen nicht abschließend zu klären.",
+    "updateNote": null,
+    "pendingOutcome": "Offen ist, ob sich die Verteuerung bei Heizstoffen und Treibstoffen in den Herbst- und Wintermonaten fortsetzt und ob die von WIFO-Ökonom Baumgartner erwartete Verteuerung von Gas- und Stromverträgen ab Herbst tatsächlich eintritt, nachdem beide Energieträger im Juli noch günstiger bzw. nur moderat teurer waren."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-08-31T08:07:30.407Z"
+}

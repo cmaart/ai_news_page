@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-31T06:22:21.640Z",
+  "updatedAt": "2026-08-31T08:21:22.632Z",
   "stories": {
     "us-angriffswelle-iran-juli-2026": {
       "canonicalTitle": "Iran-Konflikt: Iran will laut Berichten Verbot für US- und israelische Schiffe in Straße von Hormus – Route mit Oman vereinbart, Übergangsdeal mit den USA weiter offen",
@@ -1530,35 +1530,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-02T10:07:33.020Z"
-    },
-    "open-secure-ai-alliance-nvidia-microsoft-juli-2026": {
-      "canonicalTitle": "Nvidia und Microsoft gründen nach OpenAI-Sicherheitsvorfall die Open Secure AI Alliance",
-      "slug": "open-secure-ai-alliance-nvidia-microsoft-juli-2026",
-      "firstSeenAt": "2026-08-01T08:07:28.201Z",
-      "lastUpdatedAt": "2026-08-01T08:07:28.201Z",
-      "status": "published",
-      "articlePath": "src/content/articles/open-secure-ai-alliance-nvidia-microsoft-juli-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-01/open-secure-ai-alliance-nvidia-microsoft-juli-2026.json",
-      "sourceUrls": [
-        "https://www.heise.de/meinung/Nvidias-KI-Security-Buendnis-Sicherheit-open-source-Verantwortung-closed-shop-11385967.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://www.golem.de/news/open-secure-ai-alliance-warum-microsoft-openai-und-nvidia-ploetzlich-auf-open-source-ki-setzen-2607-211359.html",
-        "https://the-decoder.de/openai-veroeffentlicht-codex-security-cli-als-open-source-tool-zur-automatischen-schwachstellenerkennung",
-        "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-        "https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can",
-        "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html",
-        "https://www.ad-hoc-news.de/wissenschaft/ki-ausbruch-gpt-5-6-attackiert-hugging-face-mit-17-000-angriffen/69885922"
-      ],
-      "openQuestions": [
-        "Welche technischen Details des Vorfalls (genaue Sicherheitslücke, Ausmaß der Datenkompromittierung) bestätigen OpenAI und Hugging Face offiziell?",
-        "Wie reagieren Nvidia, Microsoft oder andere Allianz-Mitglieder auf den Vorwurf, die Initiative diene primär der Verantwortungsabwälzung?",
-        "Welche konkrete Form nehmen die in den USA diskutierten zusätzlichen Meldepflichten und eine mögliche NSA-Prüfung leistungsfähiger Modelle an?",
-        "Welchen Funktionsumfang hat das von OpenAI angekündigte Open-Source-Tool 'Codex Security CLI' genau, und steht es im Zusammenhang mit dem Vorfall?",
-        "Wie weit kommt der AI Kill Switch Act im weiteren Gesetzgebungsprozess des US-Kongresses?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-08-02T08:07:28.201Z",
-      "doNotUpdateBefore": "2026-08-01T14:07:28.201Z",
-      "echoPublishers": {}
     },
     "massive-attack-einreiseverbot-singapur-palaestinenserflagge-2026": {
       "canonicalTitle": "Massive Attack meldet sich nach Singapur-Einreiseverbot: „surreale Erfahrung“",
@@ -8033,11 +8004,12 @@
       "pendingOutcomeUntil": "2026-09-02T04:07:33.731Z",
       "echoPublishers": {
         "heise": "2026-08-30T10:07:31.013Z",
-        "kleinezeitung": "2026-08-31T04:07:40.263Z"
+        "kleinezeitung": "2026-08-31T04:07:40.263Z",
+        "derstandard": "2026-08-31T08:07:35.131Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-31T04:07:33.731Z"
+      "resonanceMeasuredAt": "2026-08-31T08:07:30.407Z"
     },
     "liva-kerschbaum-entlassung-olg-bestaetigt-august-2026": {
       "canonicalTitle": "OLG Linz bestätigt Entlassung von Brucknerhaus-Chef Kerschbaum",
@@ -15629,7 +15601,9 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-08-29T12:07:30.347Z",
       "doNotUpdateBefore": "2026-08-28T18:07:30.347Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "apa": "2026-08-31T08:07:34.057Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-29T16:07:35.745Z"
@@ -16448,7 +16422,6 @@
       "doNotRedraftBefore": "2026-08-31T06:07:32.984Z",
       "doNotUpdateBefore": "2026-08-30T12:07:32.984Z",
       "echoPublishers": {
-        "derstandard": "2026-08-30T06:07:38.531Z",
         "diepresse": "2026-08-30T08:07:36.489Z"
       },
       "resonanceLevel": 2,
@@ -17552,9 +17525,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-08-31T06:07:32.984Z",
       "doNotUpdateBefore": "2026-08-30T12:07:32.984Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-08-30T06:07:39.755Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-31T06:07:36.415Z"
@@ -18435,7 +18406,8 @@
         "orf": "2026-08-30T10:07:28.918Z",
         "kurier": "2026-08-30T14:07:35.312Z",
         "derstandard": "2026-08-30T14:07:34.871Z",
-        "diepresse": "2026-08-30T10:07:29.987Z"
+        "diepresse": "2026-08-30T10:07:29.987Z",
+        "apa": "2026-08-31T08:07:34.053Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -18707,13 +18679,10 @@
       "doNotUpdateBefore": "2026-08-31T00:07:29.702Z",
       "pendingOutcome": "Offen sind Identität und Motiv der Täterschaft sowie der Fortgang der Fahndung durch die Kantonspolizei Aargau; sobald es dazu belastbare offizielle Angaben gibt, ist der Artikel erneut zu aktualisieren.",
       "pendingOutcomeUntil": "2026-09-01T06:07:32.984Z",
-      "echoPublishers": {
-        "derstandard": "2026-08-30T06:07:38.531Z",
-        "kurier": "2026-08-30T06:07:37.371Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-31T06:07:36.415Z"
+      "resonanceMeasuredAt": "2026-08-31T08:07:30.407Z"
     },
     "nordkorea-verteidigungsminister-entlassung-august-2026": {
       "canonicalTitle": "Nordkorea entlässt Verteidigungsminister No Kwang-chol",
@@ -18780,7 +18749,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-30T20:07:30.055Z"
+      "resonanceMeasuredAt": "2026-08-31T08:07:30.407Z"
     },
     "verkehrsunfall-ternberg-gruenburg-oberoesterreich-august-2026": {
       "canonicalTitle": "Zwei Männer sterben bei schwerem Verkehrsunfall in Oberösterreich",
@@ -18843,7 +18812,7 @@
       "echoPublishers": {
         "thedecoder": "2026-08-30T10:07:32.013Z",
         "heise": "2026-08-30T16:07:37.939Z",
-        "golem": "2026-08-31T06:07:42.273Z"
+        "golem": "2026-08-31T08:07:36.474Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "triage",
@@ -19047,7 +19016,8 @@
         "orf": "2026-08-30T12:07:34.043Z",
         "diepresse": "2026-08-30T14:07:35.182Z",
         "golem": "2026-08-31T06:07:42.273Z",
-        "derstandard": "2026-08-30T12:07:37.304Z"
+        "derstandard": "2026-08-30T12:07:37.304Z",
+        "heise": "2026-08-31T08:07:36.468Z"
       },
       "resonanceLevel": 5,
       "resonanceSource": "triage",
@@ -19364,6 +19334,108 @@
       "echoPublishers": {
         "kleinezeitung": "2026-08-30T10:07:31.761Z"
       }
+    },
+    "momentum-gender-budgeting-report-doppelbudget-2027-28": {
+      "canonicalTitle": "Momentum Institut: Frauen tragen laut Report größeren Anteil der Budgetkürzungen",
+      "slug": "momentum-gender-budgeting-report-doppelbudget-2027-28",
+      "firstSeenAt": "2026-08-31T08:07:30.407Z",
+      "lastUpdatedAt": "2026-08-31T08:07:30.407Z",
+      "status": "published",
+      "articlePath": "src/content/articles/momentum-gender-budgeting-report-doppelbudget-2027-28.mdx",
+      "researchPath": "data/ai-news/research/2026-08-31/momentum-gender-budgeting-report-doppelbudget-2027-28.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3440715",
+        "https://www.derstandard.at/story/3000000337637/momentum-institut-frauen-von-budgetkuerzungen-ueberproportional-betroffen",
+        "https://kurier.at/politik/inland/momentum-frauen-von-budgetkuerzungen-ueberproportional-betroffen/403187423",
+        "https://www.kleinezeitung.at/artikel/41216818/momentum-frauen-von-budgetkuerzungen-staerker-betroffen"
+      ],
+      "openQuestions": [
+        "Wie bewerten Finanzministerium bzw. Bundesregierung die Berechnungen und die Kritik des Momentum Instituts?",
+        "Gibt es eine Prüfung der Methodik durch eine von der Gewerkschaftsnähe unabhängige Stelle?",
+        "Welche genauen elf Maßnahmen hat die Regierung laut Kritik des Instituts auf ihre Auswirkungen für Frauen und Männer untersucht, und warum nicht mehr?",
+        "Zieht die Regierung aus der Kritik Konsequenzen für künftige Budgetplanungen oder das Gender-Budgeting-Verfahren?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-01T08:07:30.407Z",
+      "doNotUpdateBefore": "2026-08-31T14:07:30.407Z",
+      "echoPublishers": {
+        "orf": "2026-08-31T06:07:38.471Z",
+        "derstandard": "2026-08-31T06:07:41.212Z",
+        "kurier": "2026-08-31T06:07:39.944Z",
+        "kleinezeitung": "2026-08-31T04:07:40.263Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-31T08:07:30.407Z"
+    },
+    "faehrunglueck-zypern-filo-jet-august-2026": {
+      "canonicalTitle": "Fähre vor Nordzypern gesunken: mindestens acht Tote, Kapitän und Crew festgenommen",
+      "slug": "faehrunglueck-zypern-filo-jet-august-2026",
+      "firstSeenAt": "2026-08-31T08:07:30.407Z",
+      "lastUpdatedAt": "2026-08-31T08:07:30.407Z",
+      "status": "published",
+      "articlePath": "src/content/articles/faehrunglueck-zypern-filo-jet-august-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-08-31/faehrunglueck-zypern-filo-jet-august-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3440725",
+        "https://www.derstandard.at/story/3000000337651/ermittlungen-nach-toedlichem-faehrunglueck-vor-zypern",
+        "https://www.kleinezeitung.at/artikel/41217282/ermittler-suchen-ursache-von-faehrunglueck-vor-zypern"
+      ],
+      "openQuestions": [
+        "Was hat den Wassereinbruch und das Kentern der Fähre technisch verursacht?",
+        "Wie viele der Vermissten werden noch lebend gefunden, und wie hoch ist die endgültige Zahl der Todesopfer?",
+        "Bestätigen sich die Vorwürfe, dass der Kapitän flüchtete und Fluchtwege bzw. Türen versperrt waren?",
+        "Was ergibt die angekündigte separate Untersuchung zu Betriebserlaubnis, Seetauglichkeit und Sicherheitsvorkehrungen der Fähre?",
+        "Gelingt die Bergung des Schiffsdatenschreibers aus rund 500 Metern Tiefe, und was zeigt er?",
+        "Waren österreichische oder andere EU-Staatsangehörige unter den Passagieren betroffen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-01T08:07:30.407Z",
+      "doNotUpdateBefore": "2026-08-31T14:07:30.407Z",
+      "pendingOutcome": "Ergebnis der laufenden Suche nach den 18 Vermissten sowie der angekündigten Bergung des Schiffsdatenschreibers zur Klärung der Unglücksursache.",
+      "pendingOutcomeUntil": "2026-09-02T08:07:30.407Z",
+      "echoPublishers": {
+        "orf": "2026-08-31T08:07:32.570Z",
+        "derstandard": "2026-08-31T08:07:33.924Z",
+        "kleinezeitung": "2026-08-31T08:07:36.786Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-31T08:07:30.407Z"
+    },
+    "energiepreisindex-juli-2026-pellets-heizoel-diesel-teurer": {
+      "canonicalTitle": "Energiepreise im Juli 2026: Pellets und Heizöl treiben Anstieg, Strom deutlich günstiger als vor einem Jahr",
+      "slug": "energiepreisindex-juli-2026-pellets-heizoel-diesel-teurer",
+      "firstSeenAt": "2026-08-31T08:07:30.407Z",
+      "lastUpdatedAt": "2026-08-31T08:07:30.407Z",
+      "status": "published",
+      "articlePath": "src/content/articles/energiepreisindex-juli-2026-pellets-heizoel-diesel-teurer.mdx",
+      "researchPath": "data/ai-news/research/2026-08-31/energiepreisindex-juli-2026-pellets-heizoel-diesel-teurer.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000337639/haushaltsenergie-im-juli-sp252rbar-verteuert",
+        "https://orf.at/stories/3440716",
+        "https://www.diepresse.com/41216840/haushaltsenergie-im-juli-spuerbar-verteuert"
+      ],
+      "openQuestions": [
+        "Was genau sind die von der Österreichischen Energieagentur genannten 'geopolitischen Unsicherheiten' und 'wetterbedingten Einschränkungen' – welche Ereignisse sind konkret gemeint?",
+        "Bestätigt die Statistik Austria in der finalen VPI-Veröffentlichung für Juli eine Energiekomponente von rund 5,7 Prozent im Einklang mit dem EPI der Energieagentur, oder handelt es sich um zwei methodisch unterschiedliche Kennzahlen, die zufällig ähnlich ausfallen?",
+        "Bestätigt sich die von WIFO-Ökonom Baumgartner erwartete Verteuerung von Gas- und Stromverträgen ab Herbst 2026, nachdem Strom im Juli noch deutlich billiger war als vor einem Jahr?",
+        "Wie lange hält der Preisauftrieb bei Pellets und Heizöl an, und wie stark wirkt sich das auf die Heizkosten im kommenden Winter aus?",
+        "Setzt sich der Anstieg bei Diesel und Superbenzin in den Folgemonaten fort oder kehrt sich die Entwicklung wieder um?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-09-01T08:07:30.407Z",
+      "doNotUpdateBefore": "2026-08-31T14:07:30.407Z",
+      "pendingOutcome": "Offen ist, ob sich die Verteuerung bei Heizstoffen und Treibstoffen in den Herbst- und Wintermonaten fortsetzt und ob die von WIFO-Ökonom Baumgartner erwartete Verteuerung von Gas- und Stromverträgen ab Herbst tatsächlich eintritt, nachdem beide Energieträger im Juli noch günstiger bzw. nur moderat teurer waren.",
+      "pendingOutcomeUntil": "2026-09-02T08:07:30.407Z",
+      "echoPublishers": {
+        "derstandard": "2026-08-31T08:07:35.140Z",
+        "orf": "2026-08-31T06:07:38.471Z",
+        "diepresse": "2026-08-31T06:07:40.438Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-08-31T08:07:30.407Z"
     }
   }
 }
