@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-01T20:33:00.460Z",
+  "updatedAt": "2026-09-01T22:26:28.951Z",
   "stories": {
     "us-angriffswelle-iran-juli-2026": {
       "canonicalTitle": "Iran-Konflikt: Iran will laut Berichten Verbot für US- und israelische Schiffe in Straße von Hormus – Route mit Oman vereinbart, Übergangsdeal mit den USA weiter offen",
@@ -1650,32 +1650,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-03T20:07:36.103Z"
-    },
-    "esperanto-weltkongress-graz-august-2026": {
-      "canonicalTitle": "Esperanto-Weltkongress in Graz versammelt mehr als 1.100 Teilnehmer aus 62 Ländern",
-      "slug": "esperanto-weltkongress-graz-august-2026",
-      "firstSeenAt": "2026-08-02T22:07:39.152Z",
-      "lastUpdatedAt": "2026-08-02T22:07:39.152Z",
-      "status": "published",
-      "articlePath": "src/content/articles/esperanto-weltkongress-graz-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-02/esperanto-weltkongress-graz-august-2026.json",
-      "sourceUrls": [
-        "https://steiermark.orf.at/stories/3365272",
-        "https://www.kleinezeitung.at/artikel/40608404/bonvenon-al-graz-esperanto-weltkongress-gastiert-an-der-mur",
-        "https://www.unesco.at/en/culture/intangible-cultural-heritage/inventory/element/esperantokultur-in-oesterreich-esperantokulturo-en-austrio",
-        "https://www.esperanto.at/esperanto-kultur-als-immaterielles-kulturerbe-in-oesterreich-anerkannt/",
-        "https://www.graztourismus.at/kongress/en/congress-calendar/111-a-universala-kongreso-de-esperanto-2026_ccd_10235"
-      ],
-      "openQuestions": [
-        "Wie viele der angemeldeten Teilnehmerinnen und Teilnehmer sind tatsächlich in Graz anwesend?",
-        "Welche konkreten Programmpunkte umfasst der Kongress im Detail?",
-        "Welchen genauen wirtschaftlichen Effekt hat die Veranstaltung für Graz?",
-        "Wie weit reicht die Grazer Esperanto-Geschichte über den Esperantoplatz hinaus zurück?"
-      ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-08-03T22:07:39.152Z",
-      "doNotUpdateBefore": "2026-08-03T04:07:39.152Z",
-      "echoPublishers": {}
     },
     "toedlicher-e-scooter-unfall-oberwoelbling-august-2026": {
       "canonicalTitle": "50-Jähriger stirbt nach E-Scooter-Sturz in Niederösterreich",
@@ -10481,10 +10455,16 @@
       "doNotUpdateBefore": "2026-09-02T02:07:33.464Z",
       "pendingOutcome": "Weiterhin offen sind der genaue Anreicherungsgrad und die exakten Standorte des Materials, der Volltext von Grossis Bericht sowie eine mögliche Reaktion Israels oder anderer Staaten.",
       "pendingOutcomeUntil": "2026-09-03T20:07:33.464Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-19T20:07:30.995Z"
+      "echoPublishers": {
+        "orf": "2026-09-01T22:07:33.829Z",
+        "derstandard": "2026-09-01T18:07:41.231Z",
+        "diepresse": "2026-09-01T18:07:40.464Z",
+        "kleinezeitung": "2026-09-01T18:07:42.441Z",
+        "kurier": "2026-09-01T20:07:37.850Z"
+      },
+      "resonanceLevel": 5,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-01T22:07:31.938Z"
     },
     "israel-markierung-palaestinenser-nummern-westjordanland-august-2026": {
       "canonicalTitle": "Israelische Soldaten markierten palästinensische Gefangene mit Nummern im Westjordanland",
@@ -10793,7 +10773,9 @@
       "echoPublishers": {
         "arstechnica": "2026-08-31T22:07:54.798Z",
         "kurier": "2026-09-01T12:07:40.633Z",
-        "kleinezeitung": "2026-09-01T12:07:42.350Z"
+        "kleinezeitung": "2026-09-01T12:07:42.350Z",
+        "theverge": "2026-09-01T22:07:35.737Z",
+        "futurezone": "2026-09-01T14:07:43.711Z"
       },
       "resonanceLevel": 3,
       "resonanceSource": "triage",
@@ -17262,11 +17244,12 @@
         "derstandard": "2026-09-01T04:07:38.572Z",
         "apa": "2026-09-01T10:07:39.517Z",
         "kleinezeitung": "2026-09-01T20:07:39.527Z",
-        "orf": "2026-09-01T16:07:37.925Z"
+        "orf": "2026-09-01T16:07:37.925Z",
+        "kurier": "2026-09-01T22:07:34.676Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 5,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-01T20:07:33.464Z"
+      "resonanceMeasuredAt": "2026-09-01T22:07:31.938Z"
     },
     "ceuta-frontex-hilfeersuchen-august-2026": {
       "canonicalTitle": "Ceuta-Krise: Spanien bittet EU offiziell um Frontex-, Europol- und Asylagentur-Hilfe",
@@ -17992,7 +17975,6 @@
       "pendingOutcome": "Offen bleibt, ob und wann Ministerin Bauer die angekündigte Punktation tatsächlich übermittelt, ob ein Gesetzesentwurf zum Verbot des Politischen Islam mit einer rechtlich haltbaren Definition folgt, und wie der für 9. Oktober angekündigte Schulstreik gegen das Kopftuchverbot verläuft – dies wird weiterverfolgt.",
       "pendingOutcomeUntil": "2026-09-03T16:07:35.495Z",
       "echoPublishers": {
-        "derstandard": "2026-08-31T20:07:44.925Z",
         "apa": "2026-09-01T12:07:39.734Z",
         "orf": "2026-09-01T16:07:37.925Z",
         "kurier": "2026-09-01T18:07:40.340Z"
@@ -19198,12 +19180,10 @@
       "doNotUpdateBefore": "2026-09-01T16:07:36.349Z",
       "pendingOutcome": "Offen bleibt, wie viele Schüler:innen sich dem Streik am 9. Oktober tatsächlich anschließen, ob die angekündigten rechtlichen Anfechtungen des Kopftuchverbots konkret eingebracht werden und ob sich die Islamische Glaubensgemeinschaft (IGGÖ) noch offiziell zu dem Aufruf äußert.",
       "pendingOutcomeUntil": "2026-09-02T18:07:38.107Z",
-      "echoPublishers": {
-        "derstandard": "2026-08-31T20:07:44.925Z"
-      },
-      "resonanceLevel": 3,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-08-31T20:07:41.648Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-01T22:07:31.938Z"
     },
     "ceuta-sanchez-russland-israel-desinformation-august-2026": {
       "canonicalTitle": "Ceuta-Krise: Sánchez macht Russland und Israel für Desinformationskampagne verantwortlich",
@@ -19348,7 +19328,6 @@
       "echoPublishers": {
         "orf": "2026-08-31T22:07:50.171Z",
         "derstandard": "2026-08-31T22:07:51.600Z",
-        "kleinezeitung": "2026-08-31T20:07:47.743Z",
         "kurier": "2026-09-01T10:07:39.940Z"
       },
       "resonanceLevel": 4,
@@ -19479,7 +19458,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-01T08:07:39.744Z"
+      "resonanceMeasuredAt": "2026-09-01T22:07:31.938Z"
     },
     "tupac-shakur-mordprozess-duane-davis-schuldspruch-2026": {
       "canonicalTitle": "Ex-Gangchef Duane Davis wegen Mordes an Tupac Shakur schuldig gesprochen",
@@ -19594,7 +19573,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-01T08:07:39.744Z"
+      "resonanceMeasuredAt": "2026-09-01T22:07:31.938Z"
     },
     "ja-klagenfurt-haeftling-tot-mordverdacht-september-2026": {
       "canonicalTitle": "19-jähriger Häftling in Justizanstalt Klagenfurt tot – Mitinsasse dringend tatverdächtig",
@@ -19817,6 +19796,115 @@
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-01T20:07:33.464Z"
+    },
+    "pollmann-sanierungsverfahren-september-2026": {
+      "canonicalTitle": "Autozulieferer Pollmann beantragt Sanierungsverfahren für drei Gesellschaften",
+      "slug": "pollmann-sanierungsverfahren-september-2026",
+      "firstSeenAt": "2026-09-01T22:07:31.938Z",
+      "lastUpdatedAt": "2026-09-01T22:07:31.938Z",
+      "status": "published",
+      "articlePath": "src/content/articles/pollmann-sanierungsverfahren-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-01/pollmann-sanierungsverfahren-september-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000337925/industrieflaute-autozulieferer-pollmann-beantragt-sanierungsverfahren",
+        "https://kurier.at/wirtschaft/autozulieferer-pollmann-beantragt-sanierungsverfahren-fuer-drei-gesellschaften/403187730",
+        "https://noe.orf.at/stories/3369356",
+        "https://kurier.at/wirtschaft/autozulieferer-pollmann-beantragt-sanierungsverfahren-fuer-drei-gesellschaften-500-jobs/403187730",
+        "https://www.sn.at/wirtschaft/oesterreich/sanierungsverfahren-fuer-pollmann-gesellschaften-beantragt-art-670631"
+      ],
+      "openQuestions": [
+        "Findet sich ein Investor für die Pollmann-Gruppe, und zu welchen Konditionen?",
+        "Wie viele der rund 500 österreichischen Arbeitsplätze bleiben nach Abschluss des Verfahrens erhalten?",
+        "Nimmt das Landesgericht Krems die Sanierungsverfahren an, und welchen Zeitrahmen sehen die angenommenen Sanierungspläne vor?",
+        "Welche konkreten Managementfehler räumte Firmenchef Stefan Pollmann im Herbst 2025 ein?",
+        "Wie wirkt sich das Verfahren auf laufende Lieferbeziehungen zu Automobilherstellern aus?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-02T22:07:31.938Z",
+      "doNotUpdateBefore": "2026-09-02T04:07:31.938Z",
+      "pendingOutcome": "Ausgang des Sanierungsverfahrens: Entscheidung des Landesgerichts Krems, Ergebnis der Investorensuche und Umfang des tatsächlichen Arbeitsplatzerhalts.",
+      "pendingOutcomeUntil": "2026-09-03T22:07:31.938Z",
+      "echoPublishers": {
+        "derstandard": "2026-09-01T14:07:42.426Z",
+        "kurier": "2026-09-01T12:07:40.279Z",
+        "orf": "2026-09-01T12:07:38.744Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-01T22:07:31.938Z"
+    },
+    "toni-hubmann-freilandeier-pionier-gestorben-september-2026": {
+      "canonicalTitle": "Freilandeier-Pionier Toni Hubmann ist tot",
+      "slug": "toni-hubmann-freilandeier-pionier-gestorben-september-2026",
+      "firstSeenAt": "2026-09-01T22:07:31.938Z",
+      "lastUpdatedAt": "2026-09-01T22:07:31.938Z",
+      "status": "published",
+      "articlePath": "src/content/articles/toni-hubmann-freilandeier-pionier-gestorben-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-01/toni-hubmann-freilandeier-pionier-gestorben-september-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000337922/freilandeier-pionier-toni-hubmann-mit-68-jahren-gestorben",
+        "https://www.diepresse.com/41221843/tonis-freilandeier-gruender-toni-hubmann-gestorben",
+        "https://www.ots.at/presseaussendung/OTS_20260901_OTS0045/toni-hubmann-19572026-der-visionaer-und-pionier-der-den-huehnern-die-freiheit-gab",
+        "https://www.ots.at/presseaussendung/OTS_20260901_OTS0101/toni-hubmann-19572026-ein-pionier-ist-gegangen-der-oesterreich-und-den-huehnern-eine-bessere-loesung-gezeigt-hat",
+        "https://steiermark.orf.at/stories/3369326/",
+        "https://steiermark.orf.at/v2/news/stories/2719240/"
+      ],
+      "openQuestions": [
+        "Was war die genaue Todesursache?",
+        "Wie genau liefen Betrugsprozess und die wirtschaftlichen Turbulenzen um „Toni's Freilandeier“ ab, und wann exakt wurde die Marke an die Rewe Group verkauft?",
+        "Gibt es weitere Reaktionen von Geschäftspartnern, politischen Vertretern oder der Rewe Group auf Hubmanns Tod?",
+        "Wie ordnet die Branche sein Lebenswerk im Verhältnis zum Betrugsprozess langfristig ein?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-02T22:07:31.938Z",
+      "doNotUpdateBefore": "2026-09-02T04:07:31.938Z",
+      "echoPublishers": {
+        "derstandard": "2026-09-01T12:07:39.630Z",
+        "diepresse": "2026-09-01T12:07:40.539Z",
+        "apa": "2026-09-01T10:07:39.517Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-01T22:07:31.938Z"
+    },
+    "arbeitslosigkeit-oesterreich-august-2026-frauenluecke-waechst": {
+      "canonicalTitle": "Arbeitslosigkeit in Österreich im August 2026 weiter gestiegen – Schere zwischen Frauen und Männern vertieft sich",
+      "slug": "arbeitslosigkeit-oesterreich-august-2026-frauenluecke-waechst",
+      "firstSeenAt": "2026-09-01T22:07:31.938Z",
+      "lastUpdatedAt": "2026-09-01T22:07:31.938Z",
+      "status": "published",
+      "articlePath": "src/content/articles/arbeitslosigkeit-oesterreich-august-2026-frauenluecke-waechst.mdx",
+      "researchPath": "data/ai-news/research/2026-09-01/arbeitslosigkeit-oesterreich-august-2026-frauenluecke-waechst.json",
+      "sourceUrls": [
+        "https://salzburg.orf.at/stories/3369349",
+        "https://tirol.orf.at/stories/3369321",
+        "https://orf.at/stories/3440847",
+        "https://www.derstandard.at/story/3000000337866/zahl-der-arbeitslosen-im-august-neuerlich-gestiegen",
+        "https://kurier.at/wirtschaft/arbeitslosigkeit-oesterreich-august-2026/403187701",
+        "https://exxpress.at/economy/ams-zahlen-arbeitslosigkeit-legt-in-allen-bundeslaendern-zu/",
+        "https://orf.at/stories/3440861/",
+        "https://www.top-news.at/2026/09/01/bmasgpk-arbeitslosigkeit-bleibt-trotz-steigender-beschaeftigung-weiterhin-hoch/"
+      ],
+      "openQuestions": [
+        "Setzt sich der Anstieg im September fort, oder tritt die von AMS-Chef Kopf skizzierte leichte Verbesserung nun ein?",
+        "Bleibt die überdurchschnittlich steigende Frauenarbeitslosigkeit ein struktureller, länger anhaltender Effekt des gestiegenen Pensionsantrittsalters, oder normalisiert sich der Wert mittelfristig?",
+        "Wie ist die Differenz zwischen der vielzitierten AMS-Gesamtzahl (375.730, inklusive Schulungsteilnehmer) und der engeren, vom Sozialministerium genannten Zahl von rund 311.400 methodisch im Detail zu erklären?",
+        "Bestätigen Wirtschaftsforschungsinstitute wie WIFO oder IHS die These, dass vor allem Gesundheits- und Handelsbranche die Frauenarbeitslosigkeit treiben?",
+        "Wie entwickelt sich die Arbeitslosigkeit in den übrigen Bundesländern abseits von Salzburg und Tirol?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-02T22:07:31.938Z",
+      "doNotUpdateBefore": "2026-09-02T04:07:31.938Z",
+      "pendingOutcome": "Ob sich die Arbeitslosigkeit in den kommenden Monatszahlen wie von AMS-Chef Kopf skizziert abschwächt oder der Anstieg – insbesondere bei Frauen – anhält, ist offen und wird sich erst mit den September-Zahlen zeigen.",
+      "pendingOutcomeUntil": "2026-09-03T22:07:31.938Z",
+      "echoPublishers": {
+        "orf": "2026-09-01T10:07:39.279Z",
+        "derstandard": "2026-09-01T08:07:46.042Z",
+        "kurier": "2026-09-01T08:07:44.307Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-01T22:07:31.938Z"
     }
   }
 }
