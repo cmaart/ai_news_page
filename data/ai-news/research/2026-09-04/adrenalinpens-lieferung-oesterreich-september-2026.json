@@ -1,0 +1,202 @@
+{
+  "cluster": {
+    "id": "cluster-20260904-4b3d8da7",
+    "title": "20.000 Adrenalinpens in Österreich eingetroffen",
+    "items": [
+      {
+        "itemId": "18ecbaff56c80e50d4c051f018e3c54b427d07d15f01c52512917a0d10434062",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "20.000 Adrenalinpens in Österreich eingetroffen",
+        "url": "https://orf.at/stories/3441176",
+        "publishedAt": "2026-09-04T08:24:22.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "bbe02c7b10aea163b5526fb5fb58e47c29b1b881ca8ec81222983dc8365e52a7",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Adrenalin für Allergiker: 20.000 Epi-Pens in Österreich eingetroffen",
+        "url": "https://www.diepresse.com/41230741/adrenalin-fuer-allergiker-20000-epi-pens-in-oesterreich-eingetroffen",
+        "summary": "In Österreich sind etwa 300.000 Personen schwer allergisch gegen das Gift einer Biene oder Wespe.",
+        "publishedAt": "2026-09-04T08:54:04.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "33f6d6a54890518b2c356869449fbb2f7381e2e1e3b61fae41d42b9010dcf8d7",
+        "sourceId": "apa_ots_chronik",
+        "sourceType": "press_release_wire",
+        "title": "20.000 Adrenalin-Pens in Österreich eingetroffen",
+        "url": "https://www.ots.at/presseaussendung/OTS_20260904_OTS0018/20000-adrenalin-pens-in-oesterreich-eingetroffen",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Mehrere unabhängige österreichische Medienquellen (ORF, Die Presse) berichten mit Volltext über die Ankunft von 20.000 Adrenalinpens und die Entschärfung einer Versorgungskrise. Solide Substanz mit konkreten Zahlen (300.000 Betroffene, 40% Nachfrage-Steigerung Mai–Juli 2026), nationale Relevanz für österreichisches Gesundheitssystem. Keine verwandte bereits publizierte Story vorhanden.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "20.000 Adrenalinpens sind in Österreich eingetroffen",
+      "Etwa 300.000 Österreicher sind schwer allergisch gegen Bienen- oder Wespengift",
+      "Die Versorgungslage mit Adrenalinpens war zuletzt angespannt",
+      "Im Mai bis Juli 2026 wurden über 40% mehr Adrenalinpens ausgeliefert als im Vorjahr",
+      "Ein Wespenstich kann für schwer Allergische potenziell lebensbedrohlich sein",
+      "Die Verteilung der neuen Lieferung an Apotheken läuft bereits"
+    ],
+    "missingSources": [
+      "Direktes Zitat oder Stellungnahme von Phago zur genauen Ankunftszeit und Gesamtstrategie",
+      "Reaktion von österreichischen Apothekerverbänden",
+      "Einschätzung von Allergie-/Immunologie-Fachverbänden",
+      "Zeitplan für zusätzliche Nachlieferungen"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "adrenalinpens-lieferung-oesterreich-september-2026",
+    "title": "20.000 Adrenalin-Pens in Österreich eingetroffen – Engpass entspannt sich",
+    "description": "Der Arzneimittel-Großhändler Phago meldet die Ankunft von rund 20.000 Adrenalin-Autoinjektoren; die zuletzt wegen starker Wespensaison angespannte Versorgung von Allergikern soll sich damit entspannen.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Der Arzneimittelgroßhändler Phago hat die Lieferung selbst per Presseaussendung bekanntgegeben, und mehrere Medien (ORF, Die Presse) berichten übereinstimmend darüber – die Kernaussage gilt damit als bestätigt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die Presseaussendung von Phago liegt nur als Link und über Medienberichte vor, ein direkter Volltext-Abruf der Aussendung war nicht möglich.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die aktuelle Meldung stammt praktisch ausschließlich aus der Perspektive des Großhändlers Phago; eine unabhängige Einordnung der Apothekerkammer bezieht sich nur auf den vorangegangenen Engpass, nicht auf die neue Lieferung selbst.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Rund 20.000 Adrenalin-Pens sind laut dem Arzneimittel-Großhändler Phago in Österreich eingetroffen, die Verteilung an Apotheken läuft bereits.",
+        "kind": "fact"
+      },
+      {
+        "text": "In Österreich sind schätzungsweise 300.000 Menschen schwer allergisch gegen Bienen- oder Wespengift, ein Stich kann für sie lebensbedrohlich sein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wegen der heuer besonders starken Wespensaison war die Versorgung mit bestimmten Adrenalin-Autoinjektoren laut Apothekerkammer zuletzt angespannt, Rezepte konnten teils nicht beliefert werden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Phago-Angaben stieg die Nachfrage nach den Notfallspritzen von Mai bis Juli 2026 um über 40 Prozent gegenüber dem Vorjahr – eine unabhängige Bestätigung dieser Zahl liegt nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Offen ist, ob und wann weitere Nachlieferungen geplant sind und wie lange die Entspannung anhalten wird.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Sind weitere Nachlieferungen von Adrenalin-Pens geplant, und nach welchem Zeitplan?",
+      "Wie viele Rezepte konnten während des Engpasses tatsächlich nicht beliefert werden?",
+      "Wie bewertet die Apothekerkammer die aktuelle Lieferung konkret?",
+      "Bleibt die Versorgungslage auch bei weiterhin starker Wespenaktivität stabil?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at: „20.000 Adrenalinpens in Österreich eingetroffen“",
+        "type": "media",
+        "url": "https://orf.at/stories/3441176"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse: „Adrenalin für Allergiker: 20.000 Epi-Pens in Österreich eingetroffen“",
+        "type": "media",
+        "url": "https://www.diepresse.com/41230741/adrenalin-fuer-allergiker-20000-epi-pens-in-oesterreich-eingetroffen"
+      },
+      {
+        "id": "src3",
+        "name": "Phago (OTS-Presseaussendung): „20.000 Adrenalin-Pens in Österreich eingetroffen“",
+        "type": "press_release",
+        "url": "https://www.ots.at/presseaussendung/OTS_20260904_OTS0018/20000-adrenalin-pens-in-oesterreich-eingetroffen"
+      },
+      {
+        "id": "src4",
+        "name": "SN.at: „Engpass bei Allergie-Pens: Immuntherapie schützt langfristig“",
+        "type": "media",
+        "url": "https://www.sn.at/panorama/wissen/engpass-bei-allergie-pens-immuntherapie-schuetzt-langfristig-art-667563"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Rund 20.000 Adrenalin-Pens sind in Österreich eingetroffen, die Verteilung an Apotheken hat begonnen.",
+        "status": "supported",
+        "note": "Vom Absender Phago selbst per Presseaussendung verkündet und von mehreren Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "In Österreich sind etwa 300.000 Menschen schwer allergisch gegen Bienen- oder Wespengift.",
+        "status": "supported",
+        "note": "Übereinstimmend in beiden Medienberichten genannt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Nachfrage nach Adrenalin-Pens stieg von Mai bis Juli 2026 laut Phago um über 40 Prozent gegenüber dem Vorjahreszeitraum.",
+        "status": "partial",
+        "note": "Zahl stammt allein von Phago selbst, keine unabhängige Prüfung oder Zweitquelle für diesen konkreten Wert.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Vor der neuen Lieferung war die Versorgung mit bestimmten Adrenalin-Autoinjektoren angespannt, Apotheken konnten laut Apothekerkammer Rezepte teils nicht beliefern.",
+        "status": "supported",
+        "note": "Unabhängig bestätigt durch eine Stellungnahme der Apothekerkammer.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Ein Bienen- oder Wespenstich kann für schwer Allergiker potenziell lebensbedrohlich sein.",
+        "status": "supported",
+        "note": "Allgemein anerkannte medizinische Einordnung, in den Berichten übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Arzneimittel-Vollgroßhändler Phago hat die Ankunft von rund 20.000 Adrenalin-Autoinjektoren in Österreich bekanntgegeben. Die Verteilung der Notfallmedikamente an die Apotheken läuft nach Angaben des Unternehmens bereits. Damit soll sich eine zuletzt angespannte Versorgungslage entspannen: Wegen der heuer besonders starken Wespensaison waren bestimmte Adrenalin-Pens, auch als Epi-Pens bekannt, phasenweise nur schwer erhältlich."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Sowohl ORF als auch Die Presse berichten inhaltlich übereinstimmend über die Lieferung, gestützt auf die Presseaussendung von Phago sowie – im Fall der Presse – zusätzlich auf eine APA-Meldung. In Österreich gelten schätzungsweise 300.000 Menschen als schwer allergisch gegen das Gift von Bienen oder Wespen; für sie kann ein Stich potenziell lebensbedrohlich sein. Laut Phago-Angaben wurden im Zeitraum von Mai bis Juli 2026 über 40 Prozent mehr Notfallspritzen ausgeliefert als im Vorjahreszeitraum, was den gestiegenen Bedarf illustriert. Eine unabhängige Bestätigung dieser konkreten Prozentzahl liegt jedoch nicht vor, sie stammt allein vom Großhändler selbst. Dass die Versorgungslage tatsächlich angespannt war, bestätigt unabhängig davon auch die Apothekerkammer: Deren Vizepräsident Gerhard Kobinger hatte im Zusammenhang mit der Wespensaison berichtet, dass Kundinnen und Kunden wiederholt mit Rezepten in Apotheken kamen, die mangels Ware nicht beliefert werden konnten. Als – ebenfalls nur eingeschränkt verfügbare – Alternative wurde dabei der Adrenalin-Pen Jext des dänischen Herstellers ALK-Abelló genannt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, ob und in welchem zeitlichen Abstand weitere Nachlieferungen geplant sind und wie lange die jetzige Entspannung anhalten wird. Auch eine genaue Zahl, wie viele Rezepte während des Engpasses tatsächlich nicht beliefert werden konnten, liegt nicht vor. Eine aktuelle Stellungnahme der Apothekerkammer oder von Allergie-Fachgesellschaften zur nun eingetroffenen Lieferung selbst wurde in den vorliegenden Quellen nicht gefunden."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Meldung stützt sich im Kern auf die Selbstauskunft des Großhändlers Phago, der als unmittelbar handelnde Institution die Lieferung und den Verteilungsstart selbst verkündet – dieser Kernpunkt gilt damit als gesichert. Für die begleitenden Zahlen zur Nachfrageentwicklung gibt es hingegen keine von Phago unabhängige Quelle. Die generelle Aussage, dass die Versorgung zuvor angespannt war, deckt sich mit einer unabhängigen Einschätzung der Apothekerkammer aus der Berichterstattung über die Wespensaison."
+      }
+    ],
+    "bodyKompakt": "Der Arzneimittel-Großhändler Phago meldet die Ankunft von rund 20.000 Adrenalin-Autoinjektoren in Österreich. Die Verteilung an Apotheken läuft bereits, wie das Unternehmen mitteilte. Damit soll sich eine zuletzt angespannte Versorgungslage entspannen: Wegen der heuer besonders starken Wespensaison waren bestimmte Adrenalin-Pens, auch Epi-Pens genannt, teils schwer erhältlich.\n\nIn Österreich gelten schätzungsweise 300.000 Menschen als schwer allergisch gegen Bienen- oder Wespengift, für sie kann ein Stich lebensbedrohlich sein. Laut Phago stieg die Nachfrage nach den Notfallspritzen von Mai bis Juli 2026 um über 40 Prozent gegenüber dem Vorjahr – eine unabhängige Bestätigung dieser Zahl gibt es nicht. Dass die Versorgung angespannt war, bestätigt aber unabhängig auch die Apothekerkammer: Kundinnen und Kunden kamen wiederholt mit Rezepten, die mangels Ware nicht beliefert werden konnten.\n\nOffen bleibt, ob weitere Lieferungen geplant sind und wie lange die Entspannung anhält. Eine aktuelle Reaktion der Apothekerkammer auf die neue Lieferung liegt bisher nicht vor.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-04T12:07:32.098Z"
+}
