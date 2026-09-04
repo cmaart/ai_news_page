@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T08:23:40.962Z",
+  "updatedAt": "2026-09-04T10:27:34.741Z",
   "stories": {
     "us-angriffswelle-iran-juli-2026": {
       "canonicalTitle": "Iran-Konflikt: Iran will laut Berichten Verbot für US- und israelische Schiffe in Straße von Hormus – Route mit Oman vereinbart, Übergangsdeal mit den USA weiter offen",
@@ -1315,33 +1315,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-12T15:17:36.814Z"
-    },
-    "wohnhausbrand-enzersdorf-fischa-august-2026": {
-      "canonicalTitle": "Wohnhausbrand in Enzersdorf an der Fischa: Zwei Verletzte ins Spital gebracht",
-      "slug": "wohnhausbrand-enzersdorf-fischa-august-2026",
-      "firstSeenAt": "2026-08-05T10:07:30.027Z",
-      "lastUpdatedAt": "2026-08-05T10:07:30.027Z",
-      "status": "published",
-      "articlePath": "src/content/articles/wohnhausbrand-enzersdorf-fischa-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-05/wohnhausbrand-enzersdorf-fischa-august-2026.json",
-      "sourceUrls": [
-        "https://noe.orf.at/stories/3365692",
-        "https://kurier.at/chronik/niederoesterreich/bruck-grossbrand-wohnhaeuser-140-feuerwehrmitglieder/403179888",
-        "https://www.noen.at/bruck/vier-verletzte-grossbrand-in-margarethen-fordert-12-feuerwehren-533731714"
-      ],
-      "openQuestions": [
-        "Wie erklärt sich die Diskrepanz zwischen den bei ORF und Kurier genannten zwei Verletzten und der von der NÖN berichteten Zahl von vier Verletzten?",
-        "Was war die genaue Ursache des Brands im Zubau des Wohnobjekts?",
-        "Wie hoch ist der Sachschaden an den betroffenen Gebäuden?",
-        "Wie geht es den verletzten Personen inzwischen gesundheitlich?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-08-06T10:07:30.027Z",
-      "doNotUpdateBefore": "2026-08-05T16:07:30.027Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-06T10:07:37.539Z"
     },
     "island-walfang-sabotage-aktivisten-ausgewiesen-august-2026": {
       "canonicalTitle": "Island weist 21 Aktivisten nach gescheitertem Walfang-Sabotageversuch aus",
@@ -9022,7 +8995,9 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-03T04:07:33.563Z",
       "doNotUpdateBefore": "2026-09-02T10:07:33.563Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kleinezeitung": "2026-09-04T10:09:35.905Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-03T16:07:38.103Z"
@@ -15546,11 +15521,12 @@
       "doNotRedraftBefore": "2026-09-03T10:07:33.018Z",
       "doNotUpdateBefore": "2026-09-02T16:07:33.018Z",
       "echoPublishers": {
-        "apa": "2026-09-03T12:07:33.866Z"
+        "apa": "2026-09-03T12:07:33.866Z",
+        "profil": "2026-09-04T10:09:33.836Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-03T22:09:40.626Z"
+      "resonanceMeasuredAt": "2026-09-04T10:09:28.292Z"
     },
     "ceuta-frontex-hilfeersuchen-august-2026": {
       "canonicalTitle": "Ceuta-Krise: Spanien bittet EU offiziell um Frontex-, Europol- und Asylagentur-Hilfe",
@@ -16318,9 +16294,7 @@
       "doNotRedraftBefore": "2026-09-04T12:07:31.065Z",
       "doNotUpdateBefore": "2026-09-03T18:07:31.065Z",
       "echoPublishers": {
-        "diepresse": "2026-09-03T10:07:32.695Z",
-        "orf": "2026-09-03T16:07:39.854Z",
-        "derstandard": "2026-09-03T10:07:33.508Z"
+        "orf": "2026-09-03T16:07:39.854Z"
       },
       "resonanceLevel": 5,
       "resonanceSource": "triage",
@@ -16492,13 +16466,13 @@
       "echoPublishers": {}
     },
     "hitzetote-bilanz-juli-2026-646-goeg-analyse": {
-      "canonicalTitle": "646 Hitzetote im heißesten Sommer seit Messbeginn: Schumann und ÖGB fordern Konsequenzen aus GÖG-Analyse",
+      "canonicalTitle": "646 Hitzetote im heißesten Sommer seit Messbeginn: Ministerium bestätigt auch angespannte Grundwassersituation",
       "slug": "hitzetote-bilanz-juli-2026-646-goeg-analyse",
       "firstSeenAt": "2026-08-30T04:07:28.061Z",
-      "lastUpdatedAt": "2026-08-31T12:07:31.420Z",
+      "lastUpdatedAt": "2026-09-04T10:09:28.292Z",
       "status": "published",
       "articlePath": "src/content/articles/hitzetote-bilanz-juli-2026-646-goeg-analyse.mdx",
-      "researchPath": "data/ai-news/research/2026-08-31/hitzetote-bilanz-juli-2026-646-goeg-analyse-update-1200.json",
+      "researchPath": "data/ai-news/research/2026-09-04/hitzetote-bilanz-juli-2026-646-goeg-analyse-update-1000.json",
       "sourceUrls": [
         "https://orf.at/stories/3440640",
         "https://www.kleinezeitung.at/artikel/41214745/rekord-an-hitzetoten-in-monaten-juni-und-juli",
@@ -16508,7 +16482,10 @@
         "https://www.derstandard.at/story/3000000337600/hitze-rekord-an-hitzetoten-in-monaten-juni-und-juli",
         "https://orf.at/stories/3440726",
         "https://www.derstandard.at/story/3000000337730/der-sommer-2026-ist-der-heisseste-seit-messbeginn-in-oesterreich",
-        "https://www.diepresse.com/41218980/2026-beschert-oesterreich-den-heissesten-sommer-der-messgeschichte"
+        "https://www.diepresse.com/41218980/2026-beschert-oesterreich-den-heissesten-sommer-der-messgeschichte",
+        "https://www.ots.at/presseaussendung/OTS_20260904_OTS0078/sommer-2026-in-oesterreich-aussergewoehnlich-heiss-und-trocken-weiter-angespannte-grundwassersituation",
+        "https://tirol.orf.at/stories/3369191",
+        "https://www.derstandard.at/story/3000000338280/der-august-2026-war-der-heisseste-in-oesterreich-seit-messbeginn"
       ],
       "openQuestions": [
         "Bestätigt die für Herbst angekündigte AGES-Jahresbilanz die nun vorläufig genannte Sommerzahl von 646 Hitzetoten für Juni/Juli, oder wird sie durch Lag-Effekte noch nach oben oder unten korrigiert?",
@@ -16516,16 +16493,19 @@
         "Auf welcher genauen Datengrundlage und Methodik beruhen die berichteten GÖG-Prozentwerte zur Hitzebelastung von Krankenanstalten, Pflege- und Primärversorgungseinrichtungen, und liegt dazu ein öffentlich zugänglicher Bericht vor?",
         "Welche konkreten Maßnahmen zieht das Gesundheitsministerium aus der laufenden GÖG-Analyse, über die von Ministerin Schumann angekündigte weitere Auswertung hinaus?",
         "Welche konkreten Hitzeschutzmaßnahmen für Arbeitnehmerinnen und Arbeitnehmer plant die Regierung laut dem von ÖGB-Chef Katzian angesprochenen Regierungsprogramm, und in welchem Zeitrahmen?",
-        "Wie ordnet sich die österreichische Zwei-Monats-Bilanz von 646 Hitzetoten im internationalen Vergleich ein, etwa zu parallel gemeldeten Zahlen in Deutschland und Westeuropa?",
-        "Wird Greenpeace oder eine andere unabhängige Stelle, die für den Juni bereits eine niedrigere Schätzung vorgelegt hatte, auch zur Gesamtbilanz oder zur Sommerbilanz eine eigene Berechnung veröffentlichen?",
-        "Liegt eine direkt zugängliche Pressemitteilung oder ein Datensatz der GeoSphere Austria zur Sommerbilanz 2026 vor, mit dem sich die von Medien berichteten Detailzahlen (Stationszahl, Bregenz-Rekord) unabhängig gegenprüfen ließen?"
+        "Wie erklärt sich die geringfügige Differenz zwischen der von GeoSphere Austria genannten Temperaturabweichung (2,6 Grad) und der vom Landwirtschaftsministerium für den Wasserhaushalt genannten Abweichung (2,7 Grad)?",
+        "Wann und wie stark entspannt sich die Grundwassersituation, nachdem laut Ministerium kurzfristig keine breite Erholung zu erwarten ist?",
+        "Liegt eine direkt zugängliche Pressemitteilung oder ein Datensatz der GeoSphere Austria zur Sommerbilanz 2026 vor, mit dem sich die von Medien berichteten Detailzahlen (Stationszahl, Bregenz-Rekord, regionale Tirol-Werte) unabhängig gegenprüfen ließen?",
+        "Wird Greenpeace oder eine andere unabhängige Stelle, die für den Juni bereits eine niedrigere Schätzung vorgelegt hatte, auch zur Gesamtbilanz oder zur Sommerbilanz eine eigene Berechnung veröffentlichen?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-09-01T12:07:31.420Z",
-      "doNotUpdateBefore": "2026-08-31T18:07:31.420Z",
+      "doNotRedraftBefore": "2026-09-05T10:09:28.292Z",
+      "doNotUpdateBefore": "2026-09-04T16:09:28.292Z",
+      "pendingOutcome": "Bestätigung der für Herbst angekündigten AGES-Jahresbilanz, Veröffentlichung der Hitzetoten-Zahl für August 2026 sowie Angaben dazu, ob und wann sich die laut Ministerium angespannte Grundwassersituation entspannt, stehen noch aus.",
+      "pendingOutcomeUntil": "2026-09-06T10:09:28.292Z",
       "echoPublishers": {
         "derstandard": "2026-09-03T12:07:33.546Z",
-        "apa": "2026-09-03T10:07:32.170Z",
+        "apa": "2026-09-04T10:09:32.384Z",
         "orf": "2026-09-04T06:08:31.512Z"
       },
       "resonanceLevel": 3,
@@ -16650,9 +16630,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-08-31T08:07:32.366Z",
       "doNotUpdateBefore": "2026-08-30T14:07:32.366Z",
-      "echoPublishers": {
-        "kurier": "2026-09-03T10:07:32.405Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-04T08:11:02.881Z"
@@ -18557,9 +18535,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-03T14:07:31.006Z",
       "doNotUpdateBefore": "2026-09-02T20:07:31.006Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-09-03T10:07:33.735Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-03T16:07:38.103Z"
@@ -18744,13 +18720,11 @@
       "pendingOutcome": "Offen bleibt, ob Google den laut Wall-Street-Journal-Bericht erfolgten Verzicht auf Gemini 3.5 Pro zugunsten von Gemini 4 offiziell bestätigt und wann Gemini 4 erscheint, ob unabhängige Tests die Benchmark- und Kostenangaben zu Gemini 3.8 Flash und Flash Cyber bestätigen, und wie viele Mitglieder das Fairwind-Programm tatsächlich hat.",
       "pendingOutcomeUntil": "2026-09-04T22:07:36.185Z",
       "echoPublishers": {
-        "golem": "2026-09-03T10:07:33.278Z",
-        "techcrunch": "2026-09-03T18:07:37.487Z",
-        "heise": "2026-09-03T10:07:33.265Z"
+        "techcrunch": "2026-09-03T18:07:37.487Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-03T22:09:40.626Z"
+      "resonanceMeasuredAt": "2026-09-04T10:09:28.292Z"
     },
     "fpoe-orf-volksbegehren-ankuendigung-september-2026": {
       "canonicalTitle": "FPÖ kündigt für September Volksbegehren gegen ORF-„Zwangsgebühren“ an",
@@ -18782,12 +18756,10 @@
       "doNotUpdateBefore": "2026-09-03T16:07:29.793Z",
       "pendingOutcome": "Offen ist weiterhin, ob die FPÖ das angekündigte ORF-Volksbegehren fristgerecht im September 2026 formal einbringt, wie viele Unterschriften es sammelt und ob die 100.000er-Marke für eine Nationalrats-Behandlung erreicht wird sowie wie ORF, Clemens Pig, ÖVP und SPÖ darauf reagieren.",
       "pendingOutcomeUntil": "2026-09-04T22:07:36.185Z",
-      "echoPublishers": {
-        "apa": "2026-09-03T10:07:32.181Z"
-      },
-      "resonanceLevel": 5,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-03T10:07:29.793Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-04T10:09:28.292Z"
     },
     "cluster-20260901-0f46150c": {
       "canonicalTitle": "15-Jähriger vergewaltigt: Zwei Jahre Haft",
@@ -18932,12 +18904,11 @@
       "pendingOutcome": "Todesursache sowie Termin einer möglichen Trauerfeier oder öffentlichen Würdigung sind noch nicht bekannt.",
       "pendingOutcomeUntil": "2026-09-05T14:07:32.004Z",
       "echoPublishers": {
-        "derstandard": "2026-09-03T14:07:35.530Z",
-        "diepresse": "2026-09-03T10:07:32.695Z"
+        "derstandard": "2026-09-03T14:07:35.530Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-04T06:08:29.194Z"
+      "resonanceMeasuredAt": "2026-09-04T10:09:28.292Z"
     },
     "daenemark-pet-warnung-russische-sabotage-september-2026": {
       "canonicalTitle": "Dänischer Geheimdienst PET deckt russische Sabotagepläne gegen Verteidigungsindustrie auf",
@@ -18968,9 +18939,7 @@
       "doNotUpdateBefore": "2026-09-03T22:07:38.103Z",
       "pendingOutcome": "Offen bleiben die konkret betroffenen Unternehmen, die Zahl dokumentierter Anwerbungsversuche, eine mögliche russische Reaktion sowie nähere Details zur berichteten deutschen Gefährdungseinschätzung.",
       "pendingOutcomeUntil": "2026-09-05T16:07:38.103Z",
-      "echoPublishers": {
-        "derstandard": "2026-09-03T10:07:32.008Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-04T06:08:29.194Z"
@@ -19102,38 +19071,40 @@
       "canonicalTitle": "Grazer FPÖ-Chef Kassegger zieht sich aus der Politik zurück",
       "slug": "kassegger-fpoe-graz-ruecktritt-september-2026",
       "firstSeenAt": "2026-09-03T10:07:29.793Z",
-      "lastUpdatedAt": "2026-09-03T10:07:29.793Z",
+      "lastUpdatedAt": "2026-09-04T10:09:28.292Z",
       "status": "published",
       "articlePath": "src/content/articles/kassegger-fpoe-graz-ruecktritt-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-03/kassegger-fpoe-graz-ruecktritt-september-2026.json",
+      "researchPath": "data/ai-news/research/2026-09-04/kassegger-fpoe-graz-ruecktritt-september-2026-update-1000.json",
       "sourceUrls": [
         "https://steiermark.orf.at/stories/3369645",
         "https://www.derstandard.at/story/3000000338246/fp214-abgeordneter-kassegger-zieht-sich-aus-politik-zur252ck",
         "https://www.kleinezeitung.at/artikel/41227155/knalleffekt-fpoe-abgeordneter-kassegger-legt-alle-funktionen-zurueck",
         "https://orf.at/stories/3441072",
         "https://www.ots.at/presseaussendung/OTS_20260903_OTS0039/fpoe-nationalratsabgeordneter-axel-kassegger-scheidet-aus-gesundheitlichen-gruenden-aus-der-politik-aus",
-        "https://www.derstandard.at/consent/tcf/story/3000000337471/ns-wiederbetaetigung-und-wohnsitz-causa-staatsanwaltschaft-geht-gegen-grazer-fpoe-chef-vor"
+        "https://www.derstandard.at/consent/tcf/story/3000000337471/ns-wiederbetaetigung-und-wohnsitz-causa-staatsanwaltschaft-geht-gegen-grazer-fpoe-chef-vor",
+        "https://www.diepresse.com/41230702/fpoe-abgeordneter-kassegger-zieht-sich-aus-politik-zurueck",
+        "https://www.kleinezeitung.at/artikel/41229603/wer-die-nachfolge-von-fpoe-mann-kassegger-in-graz-und-wien-antritt"
       ],
       "openQuestions": [
-        "Wer übernimmt Kasseggers Mandat im Nationalrat sowie seine Funktionen als FPÖ-Graz-Obmann und FBI-Präsident?",
+        "Wer übernimmt dauerhaft Kasseggers Mandat im Nationalrat sowie seine Funktion als FBI-Präsident?",
+        "Wann findet der von der FPÖ Graz angekündigte außerordentliche Stadtparteitag statt, und wer wird dort zum permanenten Obmann gewählt?",
         "Wie ist der aktuelle Stand der laut Der Standard laufenden Ermittlungen gegen Kassegger, und worauf genau beziehen sie sich?",
         "Gibt es eine offizielle Stellungnahme der FPÖ-Bundespartei oder der Staatsanwaltschaft Graz zu den Vorwürfen?",
         "Um welchen gesundheitlichen Hintergrund und welche Operation handelt es sich konkret?",
         "Besteht ein tatsächlicher Zusammenhang zwischen der Kritik an Kasseggers Wohnsitzangaben bzw. den Ermittlungen und seinem Rückzug aus der Politik?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-09-04T10:07:29.793Z",
-      "doNotUpdateBefore": "2026-09-03T16:07:29.793Z",
-      "pendingOutcome": "Wer Kasseggers Mandat im Nationalrat sowie seine Parteifunktionen übernimmt und wie sich die gegen ihn berichteten Ermittlungen weiterentwickeln.",
+      "doNotRedraftBefore": "2026-09-05T10:09:28.292Z",
+      "doNotUpdateBefore": "2026-09-04T16:09:28.292Z",
+      "pendingOutcome": "Wer dauerhaft Kasseggers Nationalratsmandat und die FBI-Präsidentschaft übernimmt, wann der außerordentliche Stadtparteitag der FPÖ Graz stattfindet und wie der Ausgang der laut Der Standard laufenden Ermittlungen ist, sind offene Fragen für ein weiteres Update.",
       "pendingOutcomeUntil": "2026-09-05T10:07:29.793Z",
       "echoPublishers": {
-        "orf": "2026-09-03T10:07:31.826Z",
-        "derstandard": "2026-09-03T10:07:31.986Z",
-        "kleinezeitung": "2026-09-03T10:07:33.735Z"
+        "kleinezeitung": "2026-09-04T08:11:08.103Z",
+        "diepresse": "2026-09-04T10:09:33.567Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-04T08:11:02.881Z"
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-04T10:09:28.292Z"
     },
     "graz-frau-getoetet-festnahme-september-2026": {
       "canonicalTitle": "Frau in Grazer Innenstadt getötet: Tatverdächtiger aus familiärem Umfeld festgenommen",
@@ -19503,12 +19474,11 @@
       "pendingOutcomeUntil": "2026-09-06T00:11:24.695Z",
       "echoPublishers": {
         "orf": "2026-09-03T16:07:40.130Z",
-        "derstandard": "2026-09-03T10:07:31.978Z",
         "kurier": "2026-09-03T12:07:34.203Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-04T00:11:24.695Z"
+      "resonanceMeasuredAt": "2026-09-04T10:09:28.292Z"
     },
     "spoe-klausur-mauerbach-babler-sturz-geruechte-september-2026": {
       "canonicalTitle": "Vor SPÖ-Klausur in Mauerbach: Gerüchte über Sturz von Parteichef Babler",
@@ -19574,12 +19544,11 @@
       "pendingOutcomeUntil": "2026-09-06T06:08:29.194Z",
       "echoPublishers": {
         "orf": "2026-09-04T06:08:31.512Z",
-        "apa": "2026-09-03T10:07:32.170Z",
         "derstandard": "2026-09-03T12:07:33.546Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-04T06:08:29.194Z"
+      "resonanceMeasuredAt": "2026-09-04T10:09:28.292Z"
     },
     "oevp-gastpatienten-suendenbock-wien-kostenproblem-september-2026": {
       "canonicalTitle": "Wiener ÖVP wirft Stadtregierung Kostenproblem statt Gastpatientenproblem vor",
@@ -19606,7 +19575,7 @@
       "doNotRedraftBefore": "2026-09-05T08:11:02.881Z",
       "doNotUpdateBefore": "2026-09-04T14:11:02.881Z",
       "echoPublishers": {
-        "apa": "2026-09-04T08:11:06.451Z",
+        "apa": "2026-09-04T10:09:32.384Z",
         "kurier": "2026-09-03T16:07:43.656Z",
         "derstandard": "2026-09-03T18:07:38.807Z"
       },
@@ -19635,6 +19604,43 @@
         "Konkrete Maßnahmen oder politische Reaktionen über ÖAMTC-Aussage hinaus"
       ],
       "sensitivity": "medium"
+    },
+    "vw-zukunftsplan-2030-stellenabbau-september-2026": {
+      "canonicalTitle": "Volkswagen streicht weitere 50.000 Stellen – FPÖ macht EU-Klimapolitik verantwortlich",
+      "slug": "vw-zukunftsplan-2030-stellenabbau-september-2026",
+      "firstSeenAt": "2026-09-04T10:09:28.292Z",
+      "lastUpdatedAt": "2026-09-04T10:09:28.292Z",
+      "status": "published",
+      "articlePath": "src/content/articles/vw-zukunftsplan-2030-stellenabbau-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-04/vw-zukunftsplan-2030-stellenabbau-september-2026.json",
+      "sourceUrls": [
+        "https://www.ots.at/presseaussendung/OTS_20260904_OTS0047/fpoe-haider-zu-vw-green-deal-kostet-weitere-50000-jobs",
+        "https://orf.at/stories/3441141",
+        "https://www.diepresse.com/41228742/sabotageverdacht-in-nrw-vw-streicht-weitere-50000-jobs-neues-von-helene-fischer",
+        "https://www.diepresse.com/41229826/einigung-bei-vw-weitere-50000-jobs-sollen-wegfallen",
+        "https://www.diepresse.com/41228742/vw-streicht-weitere-50000-jobs-neos-wollen-integrations-hotspots-markieren-neues-von-helene-fischer",
+        "https://www.volkswagen-group.com/en/press-releases/supervisory-board-approves-future-plan-2030-a-strong-signal-for-volkswagen-group-20662"
+      ],
+      "openQuestions": [
+        "Wie viele Arbeitsplätze in Österreich, etwa bei VW-nahen Zulieferbetrieben, sind von dem Plan mittelbar betroffen?",
+        "Werden die vier genannten Werke langfristig geschlossen oder nur ohne neue Modelle weiterbetrieben?",
+        "Wie fallen die noch ausständigen Beschlüsse des Aufsichtsrats zu den konkreten Investitionsdetails aus?",
+        "Reagiert die österreichische Bundesregierung auf die Kritik der FPÖ?",
+        "Wie ordnen die EU-Kommission oder unabhängige Wirtschaftsforscher die von der FPÖ hergestellte Verbindung zwischen Green Deal und dem VW-Stellenabbau ein?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-05T10:09:28.292Z",
+      "doNotUpdateBefore": "2026-09-04T16:09:28.292Z",
+      "pendingOutcome": "Endgültige Beschlussfassung des VW-Aufsichtsrats über die konkreten Investitionsdetails des Zukunftsplans 2030",
+      "pendingOutcomeUntil": "2026-09-06T10:09:28.292Z",
+      "echoPublishers": {
+        "apa": "2026-09-04T10:09:32.380Z",
+        "orf": "2026-09-03T22:09:42.817Z",
+        "diepresse": "2026-09-04T06:08:31.980Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-04T10:09:28.292Z"
     }
   }
 }
