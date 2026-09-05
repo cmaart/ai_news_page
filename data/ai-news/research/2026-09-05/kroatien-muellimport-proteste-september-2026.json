@@ -1,0 +1,198 @@
+{
+  "cluster": {
+    "id": "cluster-20260905-71c27e52",
+    "title": "Illegale Müllimporte: Zehntausende protestieren in Kroatien",
+    "items": [
+      {
+        "itemId": "05974f9e45dd0c1b8e320bc3a3d1f717e5ec38a9211de7f70586e459c1f53798",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Illegale Müllimporte: Zehntausende protestieren in Kroatien",
+        "url": "https://orf.at/stories/3441313",
+        "publishedAt": "2026-09-05T14:52:12.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e20d9616687f49401333f544b3e4fffbb931410fe480a2b713e9949557e38d9f",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Illegale Müllimporte: Zehntausende protestieren in Kroatien",
+        "url": "https://www.derstandard.at/story/3000000338567/illegale-m252llimporte-zehntausende-protestieren-in-kroatien",
+        "summary": "Europol ermittelt zu mindestens 35.000 Tonnen illegal entsorgtem Problem-Müll auf mehreren Deponien in Kroatien",
+        "publishedAt": "2026-09-05T14:49:41.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "fce84cf130b22009b0f6a9b6948d4a7cf1f2fab1f82560296204cf91f235548c",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Proteste gegen illegale Müllimporte in Kroatien",
+        "url": "https://www.kleinezeitung.at/artikel/41233956/proteste-gegen-illegale-muellimporte-in-kroatien",
+        "summary": "Im Urlaubsparadies Kroatien wächst die Empörung über eine illegale Mülldeponie nahe der Ortschaft Gospic, auf der giftige Abfälle unter anderem aus Italien und Deutschland gelagert sein sollen. Zehntausende Kroatinnen und Kroaten demonstrierten im Zentrum der Hauptstadt Zagreb nach Angaben des Nachrichtenportals \"index.hr\" gegen die Mitte-Rechts-Regierung von Ministerpräsident Andrej Plenkovic, der sie Untätigkeit vorwerfen.",
+        "publishedAt": "2026-09-05T14:45:48.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substantielle Umwelt- und Governance-Story mit Massenprotest (Zehntausende in Zagreb) und EU-Relevanz. Mehrfache unabhängige österreichische Medienberichterstattung (ORF, Der Standard, Kleine Zeitung) auf Basis von Index.hr und Europol-Dokumentation. Konkrete Fakten vorhanden (35.000 t Müll, Länder-Provenienz DE/IT/SI, Europol-Ermittlung, 2025-Verhaftungen). Kein passendes relatedSlug-Match unter den Kandidaten → eigenständige Erststory.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Europol ermittelt zu mindestens 35.000 Tonnen illegal entsorgtem Müll auf mehreren Deponien in Kroatien",
+      "Der Müll stammte laut Europol größtenteils aus Italien, daneben auch aus Slowenien und Deutschland",
+      "Die illegalen Importe umfassten Kunststoffmüll sowie giftige Abfälle aus Krankenhäusern",
+      "Tatverdächtige erzielten laut Europol-Ermittlung mindestens 4 Millionen Euro Gewinn mit den illegalen Exporten",
+      "Kroatiens Staatsanwaltschaft verhaftete 2025 mit Unterstützung von Europol 13 Personen in Zusammenhang mit der Mülldeponie von Gospic",
+      "Am 5. September 2026 demonstrierten Zehntausende Kroaten in Zagreb gegen die illegale Mülldeponie und werfen der Regierung Plenkovic Untätigkeit vor",
+      "Demonstranten fordern Sanierung aller illegalen Mülldeponien in Kroatien, ein temporäres Importverbot für Müll und einen neuen Abfallmanagement-Plan"
+    ],
+    "missingSources": [
+      "Amtliche Stellungnahme oder Gegenäußerung durch Ministerpräsident Plenkovic oder die kroatische Regierung",
+      "Verifikation von Grundwasserschäden durch unabhängige Umweltbehörde oder Fachgutachten",
+      "Genaue Teilnehmerzahl der Demonstration (bisher nur 'Zehntausende' nach Index.hr)",
+      "Persönliche Daten und rechtlicher Status der 13 2025 verhafteten Verdächtigen",
+      "Aktueller Stand der Ermittlungen und angestrebter Abschluss-Zeithorizont"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "kroatien-muellimport-proteste-september-2026",
+    "title": "Zehntausende protestieren in Zagreb gegen illegale Müllimporte in Kroatien",
+    "description": "Nach Europol-Ermittlungen zu einer illegalen Mülldeponie bei Gospić sind in Zagreb Zehntausende gegen die Regierung von Ministerpräsident Andrej Plenković auf die Straße gegangen und werfen ihr Untätigkeit vor.",
+    "topic": "politik",
+    "country": "eu",
+    "confidence": "medium",
+    "confidenceNote": "Dass Zehntausende in Zagreb demonstrierten, bestätigen drei voneinander unabhängige österreichische Medien übereinstimmend – die zentralen Zahlen zu Müllmenge, Verhaftungen und Gewinn stammen jedoch nur aus einem der drei Berichte und lassen sich nicht gegenprüfen.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine Europol-Mitteilung, kein Gerichtsdokument und keine kroatische Behördenquelle direkt eingesehen, sondern ausschließlich Berichterstattung dreier Medien, die sich ihrerseits auf das Portal Index.hr und ältere Europol-Angaben stützen.",
+    "framingRisk": "high",
+    "framingRiskNote": "Alle vorliegenden Quellen geben im Wesentlichen die Perspektive der Demonstrierenden und deren Vorwürfe wieder; eine Stellungnahme der Regierung Plenković oder der kroatischen Behörden fehlt vollständig.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Am 5. September 2026 demonstrierten laut übereinstimmenden Medienberichten Zehntausende Menschen in Zagreb gegen die Regierung von Ministerpräsident Andrej Plenković und werfen ihr Untätigkeit bei illegalen Mülldeponien vor.",
+        "kind": "fact"
+      },
+      {
+        "text": "Anlass ist eine illegale Deponie nahe Gospić, auf der laut Europol-Ermittlungen mindestens 35.000 Tonnen Problemmüll unter anderem aus Italien, Slowenien und Deutschland gelagert worden sein sollen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Kroatiens Staatsanwaltschaft hatte 2025 mit Europol-Unterstützung 13 Personen verhaften lassen; die Ermittlungen dauern nach vorliegenden Berichten weiter an.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Demonstrierenden fordern die Sanierung aller illegalen Deponien, ein vorübergehendes Müll-Importverbot und einen neuen Abfallmanagementplan.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen ist, wie die Regierung Plenković auf die Proteste und die Vorwürfe reagiert und wie weit die Grundwasserverschmutzung bei Gospić tatsächlich reicht.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie reagieren Ministerpräsident Plenković oder die kroatische Regierung offiziell auf die Proteste und die Vorwürfe der Untätigkeit?",
+      "Gibt es eine unabhängige Bestätigung der behaupteten Grundwasserverschmutzung bei Gospić durch Umweltbehörden oder Fachgutachten?",
+      "Wie viele Menschen nahmen nach amtlicher Zählung tatsächlich an der Demonstration in Zagreb teil?",
+      "Welchen rechtlichen Status haben die 2025 verhafteten 13 Verdächtigen, und wann ist mit einem Verfahrensabschluss zu rechnen?",
+      "Reagiert die Regierung auf die Forderungen nach einem Importverbot und einem neuen Abfallmanagementplan?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3441313"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000338567/illegale-m252llimporte-zehntausende-protestieren-in-kroatien"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41233956/proteste-gegen-illegale-muellimporte-in-kroatien"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Am 5. September 2026 demonstrierten Zehntausende Menschen in Zagreb gegen die Regierung Plenković und werfen ihr Untätigkeit bei illegalen Mülldeponien vor.",
+        "status": "supported",
+        "note": "Drei unabhängige österreichische Medien berichten übereinstimmend über die Kundgebung; die Teilnehmerzahl beruht letztlich auf Angaben des Portals Index.hr.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Europol ermittelt zu mindestens 35.000 Tonnen illegal auf Deponien in Kroatien verteiltem Problemmüll, darunter Plastikmüll und giftige Abfälle aus Krankenhäusern.",
+        "status": "supported",
+        "note": "Die Zahl wird sowohl von ORF als auch von Der Standard unter Berufung auf Europol genannt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Müll stammte laut Europol größtenteils aus Italien, daneben auch aus Slowenien und Deutschland.",
+        "status": "partial",
+        "note": "Nur ORF nennt Slowenien explizit als Herkunftsland; Der Standard und Kleine Zeitung erwähnen ausdrücklich nur Italien und Deutschland.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Kroatiens Staatsanwaltschaft hatte 2025 mit Unterstützung von Europol 13 Personen im Zusammenhang mit der Deponie von Gospić verhaften lassen, die Verdächtigen sollen mindestens vier Millionen Euro Gewinn gemacht haben.",
+        "status": "partial",
+        "note": "Diese Details stammen ausschließlich aus dem ORF-Bericht und ließen sich nicht durch eine zweite Quelle bestätigen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Demonstrierenden fordern die Sanierung aller illegalen Mülldeponien in Kroatien, ein vorübergehendes generelles Importverbot für Müll sowie einen neuen Plan zum Abfallmanagement.",
+        "status": "partial",
+        "note": "Die konkreten Forderungen werden nur im ORF-Bericht im Detail aufgeführt.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In Zagreb sind am 5. September 2026 nach übereinstimmenden Berichten mehrerer österreichischer Medien Zehntausende Menschen auf die Straße gegangen, um gegen die Mitte-rechts-Regierung von Ministerpräsident Andrej Plenković zu protestieren. Die Demonstrierenden werfen der Regierung vor, seit Jahren untätig gegenüber einer illegalen Mülldeponie nahe der Ortschaft Gospić geblieben zu sein. Gospić liegt gut 25 Kilometer landeinwärts von der dalmatinischen Adriaküste, etwa auf halber Strecke zwischen Rijeka und Split. Auf Transparenten wurde der Vorwurf erhoben, die Behörden hätten es versäumt, die Deponie zu beseitigen, obwohl sie das Grundwasser der Region vergifte. Die Teilnehmenden waren den Berichten zufolge aus dem ganzen Land angereist."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die drei vorliegenden Medienberichte – ORF, Der Standard und Kleine Zeitung – stimmen im Kernbefund überein: Der Protest fand statt, richtete sich gegen die Regierung Plenković, und Auslöser war die Deponie bei Gospić. Ausführlicher ist der ORF-Bericht, der auf ältere Europol-Ermittlungen verweist: Bereits 2025 hatte Kroatiens Staatsanwaltschaft mit Unterstützung von Europol 13 Personen im Zusammenhang mit der Deponie verhaften lassen. Europol hatte damals mitgeteilt, der überwiegende Teil des Mülls sei über verschiedene Firmen illegal aus Italien importiert worden, ein weiterer Teil aus Slowenien und Deutschland. Es soll sich um Plastikmüll sowie giftige Abfälle aus Krankenhäusern handeln; insgesamt seien mindestens 35.000 Tonnen Problemmüll auf mehreren kroatischen Deponien verteilt worden, die Tatverdächtigen sollen damit mindestens vier Millionen Euro Gewinn erzielt haben. Die Forderungen der Demonstrierenden umfassen laut ORF die Sanierung aller illegalen Deponien im Land, ein vorübergehendes generelles Importverbot für Müll sowie einen neuen Plan zum Abfallmanagement."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Keiner der drei Berichte enthält eine Stellungnahme der Regierung Plenković oder anderer kroatischer Behörden zu den Vorwürfen der Untätigkeit. Auch eine unabhängige Bestätigung der behaupteten Grundwasserverschmutzung durch Umweltbehörden oder Fachgutachten liegt nicht vor. Die genaue Teilnehmerzahl der Demonstration wird nur mit „Zehntausende“ angegeben und stützt sich auf Angaben des kroatischen Portals Index.hr, ohne dass eine amtliche Zählung genannt wird. Ebenso offen ist der aktuelle Stand der seit 2025 laufenden Ermittlungen gegen die 13 verhafteten Personen sowie deren rechtlicher Status."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine Serie EU-weiter Ermittlungen zu illegalem Abfallhandel ein, bei denen Müll aus wirtschaftlich stärkeren EU-Staaten – hier laut Europol-Angaben vor allem Italien, daneben Slowenien und Deutschland – in andere Mitgliedsstaaten verbracht wird. Die Proteste treffen die Regierung Plenković in einer Phase, in der Umwelt- und Verwaltungsversagen zunehmend öffentlich mit politischer Verantwortung verknüpft werden. Ohne eine Stellungnahme der Regierung oder unabhängige Prüfergebnisse zur Grundwasserbelastung bleibt die Darstellung derzeit einseitig auf die Perspektive der Protestierenden und der zitierten Ermittlungsergebnisse gestützt."
+      }
+    ],
+    "bodyKompakt": "In Zagreb sind am 5. September 2026 laut übereinstimmenden Berichten mehrerer österreichischer Medien Zehntausende Menschen gegen die Regierung von Ministerpräsident Andrej Plenković auf die Straße gegangen. Sie werfen den Behörden vor, eine illegale Mülldeponie nahe der Ortschaft Gospić nicht beseitigt zu haben, die das Grundwasser der Region vergifte.\n\nHintergrund ist eine seit 2025 laufende Ermittlung, in der Kroatiens Staatsanwaltschaft mit Unterstützung von Europol 13 Personen verhaften ließ. Laut Europol-Angaben, die vor allem der ORF-Bericht wiedergibt, wurden mindestens 35.000 Tonnen Problemmüll – Plastikabfälle sowie giftige Abfälle aus Krankenhäusern – illegal aus Italien sowie aus Slowenien und Deutschland nach Kroatien gebracht; die Tatverdächtigen sollen damit mindestens vier Millionen Euro Gewinn gemacht haben. Die Demonstrierenden fordern die Sanierung aller illegalen Deponien, ein vorübergehendes Müll-Importverbot und einen neuen Abfallmanagementplan.\n\nEine Stellungnahme der Regierung Plenković liegt bislang nicht vor, ebenso wenig eine unabhängige Bestätigung der Grundwasserverschmutzung. Auch die genaue Teilnehmerzahl der Demonstration und der aktuelle Ermittlungsstand bleiben offen.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-05T16:07:29.339Z"
+}
