@@ -1,0 +1,209 @@
+{
+  "cluster": {
+    "id": "cluster-20260904-89848612",
+    "title": "Wartezeiten bei Physikalischer Medizin und Reha",
+    "items": [
+      {
+        "itemId": "600c0e76655820c6bf478d8db0f568606cd465feb0bd31668ca0392936b51bcf",
+        "sourceId": "orf_wien",
+        "sourceType": "media",
+        "title": "Wartezeiten bei Physikalischer Medizin und Reha",
+        "url": "https://wien.orf.at/stories/3369833",
+        "summary": "Physikalische Medizin und Rehabilitation haben das Ziel, Mobilität von Menschen möglichst lange zu erhalten. Der durch eine alternde Gesellschaft stetig höhere Bedarf verursache bereits Wartezeiten, Tendenz steigend, warnten Fachleute am Freitag.",
+        "publishedAt": "2026-09-04T10:06:49.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "2056808f67bd449ab8c17499ad3881812312c61e1c80280ba172a96d877321be",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Wartezeiten bei Physikalischer Medizin und Reha",
+        "url": "https://wien.orf.at/stories/3369833",
+        "isNew": false
+      },
+      {
+        "itemId": "383a10a19e830582779f33b1b9567fe7d1f993acf66d210b5edb97015b600ce6",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Reha und Physikalische Medizin: Wartezeiten haben sich verfünffacht",
+        "url": "https://www.diepresse.com/41230872/reha-und-physikalische-medizin-wartezeiten-haben-sich-verfuenffacht",
+        "isNew": false
+      },
+      {
+        "itemId": "a844894d38aee6e42ce64444584c080d9d6244fa5e5113edd2863c29d0d8e975",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Physikalische Medizin und Reha: Wartezeiten steigen auf bis zu zehn Wochen",
+        "url": "https://kurier.at/wissen/gesundheit/physikalische-medizin-rehabilitation-wartezeiten-wien/403188434",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Wartezeiten bei Physikalischer Medizin und Rehabilitation sind ein relevantes österreichisches Gesundheitssystem-Thema mit konkretem Zahlenmaterial: Steigerung von 8 Tagen (2012) auf 39 Tage (2024), aktuell 9,6 Wochen in Wien-Stichprobe. Demografischer Hintergrund (Bevölkerung über 65 Jahren) und Health-Economic-Potenzial (862 Mio Euro/Jahr Kostendämpfungseffekt) sind dokumentiert. Mehrere unabhängige Medien (ORF Wien, Die Presse, Kurier) berichten über ÖGPMR-Pressekonferenz vom 04.09.2026. Keine kritischen Gegenstimmen berichtet, Stichproben-Methodik sollte vor Artikel-Schreiben geklärt werden.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Mittlere Wartezeit bei PMR ist von 8 Tagen (2012) auf 39 Tage (2024) gestiegen",
+      "Stichprobe in Wiener Vertragsinstituten und Ordinationen zeigt durchschnittliche Wartezeit von 9,6 Wochen (Ende 2025/Anfang 2026)",
+      "Über 20% der österreichischen Bevölkerung ist älter als 65 Jahre, bis 2040 Anstieg auf 2,46 Millionen",
+      "Fast 50% der Personen über 75 Jahren haben Schwierigkeiten beim Stiegensteigen",
+      "47% der Frauen über 75 Jahren sind von Arthrose betroffen",
+      "Hypothesenmodell prognostiziert potenziellen Kostendämpfungseffekt von bis zu 862 Millionen Euro pro Jahr durch verkürzte Arbeitsunfähigkeit"
+    ],
+    "missingSources": [
+      "Methodik der Wiener Stichprobe (Umfang, Auswahlverfahren der Ordinationen, genaue Erhebungsdauer)",
+      "Datenbasis der ÖGPMR-Statistik (Erfassungsumfang für 8 Tage 2012 bzw. 39 Tage 2024 – österreichweit oder regional?)",
+      "Offizielle Reaktion von Gesundheitsministerium oder Krankenkassen auf die Wartezeiten-Problematik",
+      "Unabhängige Validierung der 862-Mio-Euro-Prognose (derzeit nur ÖGPMR-Hypothesenmodell)",
+      "Kritische Gegenpositionen oder alternative Interpretationen der Wartezeit-Entwicklung"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "wartezeiten-physikalische-medizin-reha-wien-2026",
+    "title": "Wartezeiten in der Physikalischen Medizin und Reha in Wien deutlich gestiegen",
+    "description": "Die Fachgesellschaft ÖGPMR berichtet von einer mittleren Wartezeit, die von acht Tagen 2012 auf 39 Tage 2024 gewachsen ist – eine Wiener Stichprobe weist zuletzt sogar rund 9,6 Wochen aus. Als Hintergrund nennen die Fachleute eine alternde Gesellschaft und wachsenden Reha-Bedarf.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Drei voneinander unabhängige Medien (ORF Wien, Die Presse, Kurier) berichten übereinstimmend über dieselbe ÖGPMR-Pressekonferenz und dieselben Kernzahlen, was den Ablauf und die präsentierten Grunddaten als bestätigt gelten lässt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine offizielle ÖGPMR-Aussendung oder Studienunterlage direkt gelesen, sondern nur Presseberichte, die Zitate aus dem Pressestatement wiedergeben.",
+    "framingRisk": "high",
+    "framingRiskNote": "Alle Angaben stammen aus einer einzigen Pressekonferenz der Fachgesellschaft selbst; eine Einordnung durch Gesundheitsministerium, Sozialversicherung oder unabhängige Fachleute fehlt in der vorliegenden Berichterstattung vollständig.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Die mittlere Wartezeit für Physikalische Medizin und Rehabilitation ist laut ÖGPMR von acht Tagen im Jahr 2012 auf 39 Tage im Jahr 2024 gestiegen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine Stichprobe in Wiener Vertragsinstituten und Ordinationen ergab für Ende 2025/Anfang 2026 eine durchschnittliche Wartezeit von rund 9,6 Wochen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als Hintergrund nennen die Fachleute eine alternde Bevölkerung: Die Zahl der über 65-Jährigen in Österreich soll bis 2040 auf 2,46 Millionen steigen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die ÖGPMR beziffert ein mögliches jährliches Einsparpotenzial durch verkürzte Krankenstände mit bis zu 862 Millionen Euro – belegt ist dies bislang nur durch ein eigenes Hypothesenmodell der Fachgesellschaft.",
+        "kind": "open"
+      },
+      {
+        "text": "Offen bleibt, wie Gesundheitsministerium, Sozialversicherung oder unabhängige Fachleute die Zahlen und die vorgeschlagenen Gegenmaßnahmen bewerten.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Nach welcher Methodik wurde die Wiener Stichprobe (Umfang, Auswahl der Institute, genauer Erhebungszeitraum) erhoben?",
+      "Auf welcher Datenbasis beruht der langjährige Vergleich von acht Tagen (2012) zu 39 Tagen (2024) – bundesweit oder regional erhoben?",
+      "Wie reagieren Gesundheitsministerium und Sozialversicherung auf die berichteten Wartezeiten?",
+      "Ist das Hypothesenmodell zum Kostendämpfungseffekt von 862 Millionen Euro unabhängig überprüft oder nachvollziehbar dokumentiert?",
+      "Welche konkreten Schritte plant die Politik, um die ambulante Versorgungskapazität an den steigenden Bedarf anzupassen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3369833"
+      },
+      {
+        "id": "src2",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41230872/reha-und-physikalische-medizin-wartezeiten-haben-sich-verfuenffacht"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wissen/gesundheit/physikalische-medizin-rehabilitation-wartezeiten-wien/403188434"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die mittlere Wartezeit für Physikalische Medizin und Rehabilitation ist von acht Tagen im Jahr 2012 auf 39 Tage im Jahr 2024 gestiegen.",
+        "status": "supported",
+        "note": "Die Zahl stammt aus einer Erhebung der ÖGPMR selbst, wird aber von drei unabhängigen Medien identisch wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Eine Stichprobe in Wiener Vertragsinstituten und Ordinationen zeigt für Ende 2025/Anfang 2026 eine durchschnittliche Wartezeit von rund 9,6 Wochen.",
+        "status": "partial",
+        "note": "Umfang, Auswahlkriterien und genauer Erhebungszeitraum der Stichprobe sind nicht dokumentiert.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die ÖGPMR beziffert das gesundheitsökonomische Potenzial verkürzter Krankenstände mit bis zu 862 Millionen Euro pro Jahr.",
+        "status": "unclear",
+        "note": "Von den Fachleuten selbst als 'Hypothesenmodell' bezeichnet, keine unabhängige Prüfung oder Veröffentlichung der Berechnungsgrundlage bekannt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Zahl der über 65-Jährigen in Österreich soll bis 2040 auf 2,46 Millionen steigen.",
+        "status": "partial",
+        "note": "Als demografische Prognose plausibel und mit bekannten Bevölkerungstrends konsistent, aber nicht anhand einer amtlichen Statistik-Austria-Quelle direkt geprüft.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Fast jede zweite Person über 75 Jahre hat laut ÖGPMR Schwierigkeiten beim Stiegensteigen, rund 45 Prozent beim Gehen; Arthrose betrifft rund 28 Prozent der Männer und 47 Prozent der Frauen dieser Altersgruppe.",
+        "status": "partial",
+        "note": "Einzelquellenangabe der Fachgesellschaft ohne genannte Studien- oder Erhebungsquelle.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Österreichische Gesellschaft für Physikalische Medizin und Rehabilitation (ÖGPMR) hat am 4. September 2026 bei einer Pressekonferenz in Wien auf steigende Wartezeiten in ihrem Fachbereich hingewiesen. Physikalische Medizin und Rehabilitation soll Mobilität und Selbstständigkeit von Menschen möglichst lange erhalten oder wiederherstellen – ein Ziel, das laut den Fachleuten durch eine alternde Gesellschaft und einen entsprechend steigenden Bedarf zunehmend unter Druck gerät. Die mittlere Wartezeit sei von acht Tagen im Jahr 2012 auf 39 Tage im Jahr 2024 gewachsen, hieß es von der Fachgesellschaft. Eine Stichprobe in Wiener Vertragsinstituten und Ordinationen habe für Ende 2025 und Anfang 2026 sogar eine durchschnittliche Wartezeit von rund 9,6 Wochen ergeben."
+      },
+      {
+        "heading": "Was die Fachleute vorbringen",
+        "markdown": "Thomas Kienbacher, Facharzt für Physikalische Medizin und allgemeine Rehabilitation im Rehab Zentrum Liesing, wurde in einem Pressestatement mit dem Hinweis zitiert, Wien verfüge zwar über eine flächendeckende und gut erreichbare ambulante Versorgungsstruktur, diese müsse jedoch mit dem Bedarf Schritt halten. Der Grundsatz „ambulant vor stationär“ funktioniere nur, wenn Patientinnen und Patienten ambulante Leistungen zeitgerecht erhielten. ÖGPMR-Seniorpräsident Richard Crevenna verwies auf die demografische Entwicklung: Schon jetzt sei mehr als jede fünfte Person in Österreich 65 Jahre oder älter, gleichzeitig lebten immer mehr Menschen über Jahre mit chronischen Erkrankungen. Die gesundheitspolitische Frage laute deshalb zunehmend nicht mehr nur, wie Krankheiten behandelt, sondern wie verhindert werde, dass sie dauerhaft zu Funktionsverlust, Pflegebedürftigkeit oder Verlust der Arbeitsfähigkeit führten. Laut den bei der Pressekonferenz präsentierten Zahlen hat fast jede zweite Person über 75 Jahre Schwierigkeiten beim Stiegensteigen, rund 45 Prozent beim Gehen; Arthrose soll in dieser Altersgruppe rund 28 Prozent der Männer und 47 Prozent der Frauen betreffen. Bis 2040 werde die Zahl der über 65-Jährigen in Österreich auf 2,46 Millionen steigen, so die Fachgesellschaft."
+      },
+      {
+        "heading": "Ökonomisches Argument und Telemedizin",
+        "markdown": "Roland Celoud, stellvertretender PMR-Bundesfachgruppenobmann in der Österreichischen Ärztekammer, brachte bei der Pressekonferenz ein eigenes Hypothesenmodell der ÖGPMR ins Spiel: Für 2024 weise dieses einen potenziellen Kostendämpfungseffekt von bis zu 862 Millionen Euro pro Jahr durch verkürzte Arbeitsunfähigkeit aus. Eine integrierte Versorgung könne demnach Komplikationen reduzieren, frühere Spitalsentlassungen unterstützen und langfristig Pflegebedürftigkeit verringern. Als ergänzenden Hebel nannten die Fachleute Telemedizin: Sie könne Reha-Übungen auch zu Hause fachlich begleiten, Therapieverläufe kontrollieren und Patientinnen und Patienten zwischen persönlichen Terminen kontinuierlicher betreuen – bei gerade für mobilitätseingeschränkte Menschen kürzeren Wegen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Sämtliche in diesem Artikel wiedergegebenen Zahlen – vom langjährigen Wartezeit-Vergleich über die Wiener Stichprobe bis zum 862-Millionen-Euro-Modell – stammen aus der Pressekonferenz der ÖGPMR selbst und wurden bislang nicht unabhängig geprüft oder mit Primärquellen wie Statistik Austria, dem Gesundheitsministerium oder der Sozialversicherung abgeglichen. Wie die Wiener Stichprobe methodisch zustande kam, welche Institute sie umfasste und wie lange die Erhebung dauerte, wurde nicht näher ausgeführt. Auch das Kostendämpfungsmodell wird von den Fachleuten selbst als „Hypothesenmodell“ bezeichnet, ohne dass dessen Berechnungsgrundlage öffentlich einsehbar wäre. Eine Stellungnahme des Gesundheitsministeriums, der Sozialversicherung oder unabhängiger Fachleute zu den Wartezeiten liegt in den ausgewerteten Medienberichten nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Debatte um Wartezeiten in der ambulanten Versorgung reiht sich in ein breiteres Bild einer alternden Gesellschaft mit steigendem Reha- und Therapiebedarf ein. Kapazitätsengpässe sind dabei kein rein Wiener Phänomen: Auch in anderen Bundesländern wurden zuletzt neue Versorgungsangebote geschaffen, etwa mit einer ab Oktober 2026 geplanten ME/CFS-Ambulanz an der Klinik Oberwart im Burgenland, wie berichtet. Ob und wie die von der ÖGPMR aufgezeigten Engpässe politisch aufgegriffen werden, ist derzeit offen."
+      }
+    ],
+    "bodyKompakt": "Die Österreichische Gesellschaft für Physikalische Medizin und Rehabilitation (ÖGPMR) hat bei einer Pressekonferenz am 4. September 2026 in Wien auf steigende Wartezeiten in ihrem Fachbereich hingewiesen. Die mittlere Wartezeit sei von acht Tagen im Jahr 2012 auf 39 Tage im Jahr 2024 gewachsen; eine Stichprobe in Wiener Vertragsinstituten und Ordinationen habe für Ende 2025/Anfang 2026 sogar rund 9,6 Wochen ergeben. Als Hintergrund nannten die Fachleute eine alternde Gesellschaft: Schon jetzt sei mehr als jede fünfte Person in Österreich über 65, bis 2040 solle diese Gruppe auf 2,46 Millionen anwachsen.\n\nDie Fachgesellschaft brachte zudem ein eigenes Hypothesenmodell ins Spiel, wonach verkürzte Krankenstände durch bessere Reha-Versorgung ein jährliches Einsparpotenzial von bis zu 862 Millionen Euro bergen könnten. Als ergänzenden Hebel nannten die Fachleute Telemedizin, mit der Reha-Übungen auch zu Hause begleitet werden könnten.\n\nAlle Zahlen stammen aus der Pressekonferenz der ÖGPMR selbst und wurden bislang nicht unabhängig geprüft; Details zur Methodik der Wiener Stichprobe fehlen ebenso wie eine Stellungnahme von Gesundheitsministerium oder Sozialversicherung.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-05T00:07:28.285Z"
+}
