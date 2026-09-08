@@ -1,0 +1,210 @@
+{
+  "cluster": {
+    "id": "cluster-20260907-c339cf5e",
+    "title": "Auto: Elektroautos im Betrieb g�nstiger als Benziner",
+    "items": [
+      {
+        "itemId": "80bf6dca5da20e9c8029fa992de0d6cb4ce92a05ac6170288c84f8f95eccc376",
+        "sourceId": "golem_news",
+        "sourceType": "media",
+        "title": "Auto: Elektroautos im Betrieb g�nstiger als Benziner",
+        "url": "https://www.golem.de/news/auto-elektroautos-im-betrieb-guenstiger-als-benziner-2609-212707.html",
+        "summary": "Fallende Batteriepreise und steigende Treibstoffkosten machen Elektroautos im Betrieb zur g�nstigeren Alternative. Auch die Anschaffungskosten sinken. (Elektroauto, Auto)",
+        "publishedAt": "2026-09-07T09:12:01.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "965cb256e38583e39d1f2b7317d8e087f95117f359cc9a972eae01b3cff82c0d",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "E-Autos im Betrieb rund ein Drittel günstiger als Benziner",
+        "url": "https://kurier.at/motor/e-autos-beim-fahren-ein-drittel-guenstiger-als-benziner/403189041",
+        "isNew": false
+      },
+      {
+        "itemId": "927f6bd5601b041142898142ac2229dfe50c6860980eafdfb8b32143adadef31",
+        "sourceId": "futurezone_home",
+        "sourceType": "media",
+        "title": "Mit E-Autos fährt man ein Drittel günstiger als mit Benzinern",
+        "url": "https://futurezone.at/digital-life/elektroauto-e-auto-kosten-fahrt-benzin-billiger-studie/403189044",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.775,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzieller EU-Report (ICCT) mit konkreten Zahlen zu E-Auto-Kostenersparnissen (33 % beim Fahren) und europäischer Produktionsverschiebung. Breit in Österreich und Deutschland berichtet (3 Quellen, mindestens 2 unabhängige Häuser). Wirtschaftlich signifikant für Verbraucherkäufe und Automobilindustrie. Primärquelle wird am 09.09.2026 in Brüssel offiziell vorgestellt.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "In der EU waren batteriebetriebene Elektroautos 2025 beim Fahren 33 Prozent günstiger als Benziner",
+      "Anschaffungskosten für E-Autos nähern sich Benziner-Preisen an (2025, 3 größte Fahrzeugsegmente, Deutschland)",
+      "Öl-Preisanstieg seit Ende Februar 2026 erhöhte Verbrauchskosten für Verbrenner um 12–36 Prozent",
+      "Zahl der E-Autos in Deutschland vervierfachte sich von 2020 bis 2025",
+      "Anteil Verbrenner an EU-Fahrzeugproduktion fiel von 91 Prozent (2020) auf 72 Prozent (2025)",
+      "Anteil batteriebetriebener E-Autos an EU-Fahrzeugproduktion 2025: 19 Prozent"
+    ],
+    "missingSources": [
+      "Vollständiger ICCT-Bericht (Veröffentlichung am 09.09.2026)",
+      "Reaktionen europäischer Autohersteller (BMW, VW, Tesla, etc.)",
+      "Detaillierte Kostenaufschlüsselung (Strompreise, Versicherung, Wartung, Batterie-Recycling)",
+      "Perspektive Energiesektor und Ladeinfrastruktur-Verfügbarkeit",
+      "Kritische Gegenperspektive oder Studien-Einwände"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "e-autos-guenstiger-als-benziner-icct-bericht-september-2026",
+    "title": "Elektroautos in der EU 2025 im Betrieb rund ein Drittel günstiger als Benziner",
+    "description": "Ein Bericht des International Council on Clean Transportation (ICCT) zeigt: Batteriebetriebene Pkw kosteten 2025 in der EU im laufenden Betrieb rund 33 Prozent weniger als vergleichbare Benziner – auch die Anschaffungskosten nähern sich an.",
+    "topic": "wirtschaft",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Die zentrale 33-Prozent-Kernaussage wird von mehreren unabhängigen Medien sowie der eigenen ICCT-Pressemitteilung getragen, zusätzliche Detailzahlen zur Fahrzeugproduktion stammen aus einer erkennbar agenturgestützten Meldung.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die ICCT-Pressemitteilung und Studienseite wurden nur über Suchergebnisse eingesehen, nicht per vollständigem Volltext-Abruf gelesen, daher gilt die Primärquelle nur als schwach belastbar.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es liegt bislang ausschließlich die Perspektive des Forschungsinstituts ICCT vor; Stellungnahmen der Automobil- oder Mineralölbranche zu den Zahlen fehlen in den vorliegenden Quellen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Batteriebetriebene Elektroautos waren in der EU 2025 im laufenden Betrieb rund 33 Prozent günstiger als Benziner, so ein Bericht des International Council on Clean Transportation (ICCT).",
+        "kind": "fact"
+      },
+      {
+        "text": "Anschaffungskosten für E-Autos lagen 2025 in den drei größten Fahrzeugsegmenten in Deutschland laut einer Auswertung von rund 100.000 Fahrzeugpreisen etwa auf dem Niveau von Benzinern.",
+        "kind": "fact"
+      },
+      {
+        "text": "Seit Ende Februar 2026 gestiegene Ölpreise erhöhten die Verbrauchskosten von Verbrennern laut Bericht um 12 bis 36 Prozent.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Anteil von Verbrennern an der EU-Fahrzeugproduktion sank von 2020 bis 2025 von 91 auf 72 Prozent, jener batteriebetriebener E-Autos stieg auf 19 Prozent.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie belastbar der zusätzlich kursierende Wert von 22 Prozent Neuzulassungsanteil für das erste Halbjahr 2026 ist und wie die Autobranche auf den Bericht reagiert, bleibt offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie reagieren europäische Automobilhersteller (z. B. VW, BMW, Stellantis) auf den ICCT-Bericht?",
+      "Welche genaue Kostenaufschlüsselung (Strompreise, Wartung, Versicherung, Wertverlust) liegt der 33-Prozent-Zahl zugrunde?",
+      "Gibt es methodische Kritik oder Gegenstudien zur ICCT-Berechnung?",
+      "Wie verlässlich ist der nur über eine Zusammenfassung ersichtliche Wert von 22 Prozent EU-Neuzulassungsanteil im ersten Halbjahr 2026?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Golem.de",
+        "type": "media",
+        "url": "https://www.golem.de/news/auto-elektroautos-im-betrieb-guenstiger-als-benziner-2609-212707.html"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/motor/e-autos-beim-fahren-ein-drittel-guenstiger-als-benziner/403189041"
+      },
+      {
+        "id": "src3",
+        "name": "futurezone",
+        "type": "media",
+        "url": "https://futurezone.at/digital-life/elektroauto-e-auto-kosten-fahrt-benzin-billiger-studie/403189044"
+      },
+      {
+        "id": "src4",
+        "name": "International Council on Clean Transportation (ICCT) – Pressemitteilung",
+        "type": "study",
+        "url": "https://theicct.org/pr-electric-cars-cheaper-drive-gasoline/"
+      },
+      {
+        "id": "src5",
+        "name": "International Council on Clean Transportation – Studienseite „EV Transition Check 2026“",
+        "type": "study",
+        "url": "https://theicct.org/publication/ev-transition-check-2026/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Batteriebetriebene Elektroautos waren in der EU 2025 im laufenden Betrieb rund 33 Prozent günstiger als Benziner.",
+        "status": "supported",
+        "note": "Übereinstimmend bei Kurier, futurezone und in der ICCT-Pressemitteilung selbst genannt; golem.de nennt den Effekt nur allgemein ohne Prozentzahl.",
+        "sourceIds": [
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Anschaffungskosten für batteriebetriebene E-Autos lagen 2025 in den drei größten Fahrzeugsegmenten in Deutschland laut einer Auswertung von rund 100.000 Fahrzeugpreisen etwa auf dem Niveau von Benzinern.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der seit Ende Februar 2026 gestiegene Ölpreis erhöhte die Verbrauchskosten von Verbrennern laut Bericht um 12 bis 36 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Anteil von Verbrennern an der gesamten EU-Fahrzeugproduktion sank von 2020 bis 2025 von 91 auf 72 Prozent, jener batteriebetriebener E-Autos stieg im selben Zeitraum auf 19 Prozent.",
+        "status": "supported",
+        "note": "Nur durch eine erkennbar agenturgestützte Medienquelle belegt, in der eingesehenen ICCT-Pressemitteilungs-Zusammenfassung nicht separat bestätigt.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Laut ICCT lag der Anteil batteriebetriebener Pkw an den EU-weiten Neuzulassungen im ersten Halbjahr 2026 bei 22 Prozent.",
+        "status": "partial",
+        "note": "Nur aus einer Suchergebnis-Zusammenfassung der ICCT-Pressemitteilung ersichtlich, nicht durch vollständige Lektüre des Originaldokuments oder eine zweite Quelle bestätigt.",
+        "sourceIds": [
+          "src4"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Batteriebetriebene Elektroautos waren in der Europäischen Union im Jahr 2025 im laufenden Betrieb rund ein Drittel günstiger als vergleichbare Benziner. Das geht aus einem Bericht des International Council on Clean Transportation (ICCT) hervor, der am Montag in Brüssel vorgestellt wurde. Als Ursachen nennt die Organisation sinkende Batteriekosten sowie gestiegene Treibstoffpreise. Der zugrunde liegende Bericht trägt den Titel „EV Transition Check 2026“ und wurde von ICCT als eigene Pressemitteilung veröffentlicht. Golem.de, Kurier und futurezone griffen die Zahlen am selben Tag auf."
+      },
+      {
+        "heading": "Was die Zahlen zeigen",
+        "markdown": "Laut dem Bericht lagen die Betriebskosten batteriebetriebener Pkw 2025 in der EU rund 33 Prozent unter jenen von Benzinern, wenn eine Mischung aus privatem und öffentlichem Laden zugrunde gelegt wird; ausschließlich öffentlich geladene E-Autos kamen demnach noch auf einen Kostenvorteil von rund 28 Prozent. Der seit Ende Februar 2026 gestiegene Ölpreis habe die Verbrauchskosten von Verbrennern zusätzlich um 12 bis 36 Prozent erhöht, während sie bei batteriebetriebenen Fahrzeugen laut Bericht weitgehend stabil geblieben seien. Einer Auswertung von Preisdaten von rund 100.000 Fahrzeugen in Deutschland, dem größten europäischen Automarkt, zufolge lagen zudem die Anschaffungskosten für batteriebetriebene E-Autos in den drei größten Fahrzeugsegmenten 2025 etwa auf dem Niveau von Benzinern. Global seien die Batteriekosten zwischen 2020 und 2025 um rund 35 Prozent gesunken, was laut Bericht zu einem Rückgang der Anschaffungskosten von E-Autos in Deutschland um 18 Prozent im selben Zeitraum beigetragen habe."
+      },
+      {
+        "heading": "Produktion und Marktanteile",
+        "markdown": "Die Verschiebung zeigt sich laut Bericht auch in der Fahrzeugproduktion: Der Anteil von Verbrennern an der gesamten EU-Fahrzeugproduktion sei von 2020 bis 2025 von 91 auf 72 Prozent gefallen, während batteriebetriebene E-Autos im selben Zeitraum einen Produktionsanteil von 19 Prozent erreicht hätten. Die Zahl batteriebetriebener Elektroautos in Deutschland habe sich von 2020 bis 2025 vervierfacht. Der eigenen Pressemitteilung von ICCT zufolge lag der Anteil batteriebetriebener Pkw an den EU-weiten Neuzulassungen im ersten Halbjahr 2026 bei 22 Prozent – dieser Wert ließ sich bei der Recherche nur über eine Zusammenfassung der Pressemitteilung nachvollziehen, nicht über eine vollständige Lektüre des Originalberichts oder eine zweite unabhängige Quelle."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Laut Kurier, der sich auf den Bericht beruft, geht die leitende Autorin Marie Rajon Bernard davon aus, dass sich batterieelektrische Fahrzeuge europaweit weiter verbreiten werden, sofern die derzeitige Politik beibehalten wird. Der Europa-Direktor der Organisation, Peter Mock, wird mit der Einschätzung zitiert, europäische Automobilhersteller müssten ihre Investitionen in die Elektrifizierung fortsetzen statt den Kurs zu ändern, da sich der Marktwettbewerb verschärfe. Die vorliegenden Quellen bilden damit bislang ausschließlich die Perspektive der Studienautoren ab; Stellungnahmen von Automobilherstellern, der Mineralölbranche oder unabhängigen Fachleuten zur Methodik liegen nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist unter anderem, wie sich die 33-Prozent-Ersparnis im Detail auf einzelne Kostenfaktoren wie Strompreise, Wartung, Versicherung oder Wertverlust aufschlüsselt. Ebenso unklar ist, wie belastbar der nur über eine Zusammenfassung zugängliche Wert zum Neuzulassungsanteil von 22 Prozent im ersten Halbjahr 2026 ist, und ob Automobilhersteller, Ölindustrie oder unabhängige Fachleute methodische Einwände gegen die ICCT-Berechnung vorbringen. Der vollständige Bericht „EV Transition Check 2026“ war zum Zeitpunkt der Recherche nur in Auszügen über die Pressemitteilung und Sekundärberichte zugänglich."
+      }
+    ],
+    "bodyKompakt": "Batteriebetriebene Elektroautos waren 2025 in der EU im laufenden Betrieb rund ein Drittel günstiger als vergleichbare Benziner. Das zeigt ein Bericht des International Council on Clean Transportation (ICCT), der am Montag in Brüssel vorgestellt wurde. Als Gründe nennt die Organisation sinkende Batteriekosten und gestiegene Treibstoffpreise – Letztere verteuerten Verbrenner seit Ende Februar 2026 laut Bericht um 12 bis 36 Prozent.\n\nAuch bei der Anschaffung nähern sich die Preise an: Einer Auswertung von rund 100.000 Fahrzeugpreisen in Deutschland zufolge lagen E-Autos 2025 in den drei größten Segmenten etwa gleichauf mit Benzinern. Die EU-weite Fahrzeugproduktion verschob sich zwischen 2020 und 2025 spürbar: Der Verbrenner-Anteil sank von 91 auf 72 Prozent, jener batteriebetriebener E-Autos stieg auf 19 Prozent.\n\nDie vorliegenden Quellen geben bislang nur die Perspektive der Studienautoren wieder; Reaktionen der Autobranche und eine unabhängige Prüfung der Methodik stehen noch aus. Ein zusätzlich genannter Neuzulassungsanteil von 22 Prozent für das erste Halbjahr 2026 ließ sich nur über eine Zusammenfassung der Pressemitteilung nachvollziehen.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-08T04:07:27.809Z"
+}
