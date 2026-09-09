@@ -1,0 +1,219 @@
+{
+  "cluster": {
+    "id": "cluster-20260909-6bc11754",
+    "title": "Weg von Microsoft: Schweizer Regierung baut weiter ihre IT um",
+    "items": [
+      {
+        "itemId": "0509e24f6235487119fa7ebce373fb310805e70f5f4bebd11f80cac783f04d54",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Weg von Microsoft: Schweizer Regierung baut weiter ihre IT um",
+        "url": "https://www.derstandard.at/story/3000000338886/weg-von-microsoft-schweizer-regierung-baut-weiter-ihre-it-um",
+        "summary": "Ein Pilotprojekt soll die Abnabelung von Microsoft 365 schnell vorantreiben. In Sachen Cybersicherheit stellt man wohl bereits Ende Oktober auf OpenDesk aus Deutschland um",
+        "publishedAt": "2026-09-09T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "599fb663a2e65d645b9ad3852ce132e5d78035606fd776f18926cafb85b86ca9",
+        "sourceId": "derstandard_web",
+        "sourceType": "media",
+        "title": "Weg von Microsoft: Schweizer Regierung baut weiter ihre IT um",
+        "url": "https://www.derstandard.at/story/3000000338886/weg-von-microsoft-schweizer-regierung-baut-weiter-ihre-it-um",
+        "summary": "Ein Pilotprojekt soll die Abnabelung von Microsoft 365 schnell vorantreiben. In Sachen Cybersicherheit stellt man wohl bereits Ende Oktober auf OpenDesk aus Deutschland um",
+        "publishedAt": "2026-09-09T07:00:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "6c520fbd4c50b239804ebabb942907c7c5b0c6bc7f16d0e1136f92377f0787dc",
+        "sourceId": "golem_news",
+        "sourceType": "media",
+        "title": "Digitale Souver�nit�t: Schweizer Regierung will weg von Microsoft",
+        "url": "https://www.golem.de/news/digitale-souveraenitaet-schweizer-regierung-will-weg-von-microsoft-2609-212758.html",
+        "isNew": false
+      },
+      {
+        "itemId": "7bd629df215539e9d59416c42d398781b948443f3a66603c398493bcb6cdbc23",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Schweiz baut Alternative zu Microsoft 365 auf",
+        "url": "https://www.heise.de/news/Schweiz-startet-Open-Source-Arbeitsplatz-fuer-3000-Beschaeftigte-11444842.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Publizierte Berichterstattung von mindestens zwei unabhängigen Medienportalen (DER STANDARD AT, Golem DE) zu einer strukturellen Regierungsentscheidung mit europäischem Policy-Kontext (Digitale Souveränität). Substanz ausreichend für eigenständigen Artikel. Kein Bezug zu publizierten Related Stories. Low sensitivity (Regierungspolitik, keine personenbezogenen/heiklen Vorwürfe).",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Schweizer Regierung führt Pilotprojekt zur Abnabelung von Microsoft 365 durch.",
+      "Das Pilotprojekt soll die Migration zu Open-Source-Alternativen beschleunigen.",
+      "Bis Ende Oktober soll ein Umstieg auf OpenDesk (deutsche Open-Source-Suite) in der Cybersecurity-Abteilung erfolgen.",
+      "Dies passt in den europäischen Trend zur Digitalen Souveränität und Unabhängigkeit von US-Services."
+    ],
+    "missingSources": [
+      "Offizielle Presseaussendung oder Statement des zuständigen Schweizer Departements für Digitalisierung/IT.",
+      "Bestätigung und technische Details durch OpenDesk-Hersteller oder -Partner.",
+      "Detaillierter Projektplan (Umfang, betroffene Abteilungen, Kosten, Zeitrahmen).",
+      "Stellungnahme der Schweizer Regierungspräsidentin oder zuständigen Ministerin/Ministers mit Gründen und Kosten-Nutzen-Analyse."
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "schweiz-microsoft-365-ausstieg-opendesk-2026",
+    "title": "Schweizer Bundeskanzlei startet Pilotprojekt zum Ausstieg aus Microsoft 365",
+    "description": "Mit dem Programm „BOSS“ testet die Schweizer Bundesverwaltung ab sofort für rund 3000 Arbeitsplätze die Open-Source-Suite openDesk als Alternative zu Microsoft 365. Parallel dazu will das Kommando Cyber der Armee laut Berichten bereits bis Oktober auf die deutsche Software umstellen.",
+    "topic": "technologie",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die Schweizer Bundeskanzlei hat das Pilotprojekt in einer eigenen Medienmitteilung verkündet, zusätzlich berichten mehrere unabhängige Medien (DER STANDARD, Golem, heise) übereinstimmend darüber – das erfüllt die Bestätigungs-Kriterien klar.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die offizielle Medienmitteilung der Bundeskanzlei und die zugehörige Programmseite wurden über die Suche identifiziert und ihr Kerninhalt bestätigt, ein vollständiger Direktabruf des Volltexts war im Rahmen dieser Recherche aber nicht möglich.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es dominiert die Perspektive der Bundeskanzlei bzw. des Souveränitäts-Narrativs; eine Gegenstimme etwa von Microsoft oder von Kritikern der Kosten und Machbarkeit liegt in den vorliegenden Quellen nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Die Schweizer Bundeskanzlei hat das Pilotprogramm „BOSS“ gestartet, das rund 3000 der insgesamt etwa 54.000 Arbeitsplätze der Bundesverwaltung von Microsoft 365 auf die Open-Source-Suite openDesk umstellen soll.",
+        "kind": "fact"
+      },
+      {
+        "text": "Für die erste Phase bis Ende 2027 veranschlagt die Bundeskanzlei Kosten von rund 9 Millionen Schweizer Franken aus vom Parlament bewilligten Mitteln.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein vorangegangener Testlauf mit 172 Beschäftigten bewertete Dokumentbearbeitung, Mail und Kalender positiv, zeigte aber Grenzen etwa bei großen Videokonferenzen auf.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Berichten will das Kommando Cyber der Schweizer Armee sicherheitsrelevante Arbeitsplätze bereits bis Ende Oktober 2026 separat auf openDesk umstellen.",
+        "kind": "open"
+      },
+      {
+        "text": "Offen bleibt, wie sich das Pilotprojekt über 2027 hinaus auf die gesamte Bundesverwaltung ausweiten lässt und welche Kosten ein Vollausbau verursachen würde.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche technischen und organisatorischen Probleme traten beim Proof-of-Concept mit 172 Beschäftigten im Detail auf, und wie sollen sie bis zum Pilotstart gelöst werden?",
+      "Wird die für Ende Oktober 2026 anvisierte openDesk-Umstellung beim Kommando Cyber tatsächlich fristgerecht abgeschlossen?",
+      "Wie will die Bundeskanzlei nach Abschluss der Pilotphase Ende 2027 über eine Ausweitung auf die restlichen rund 51.000 Arbeitsplätze der Bundesverwaltung entscheiden?",
+      "Welche Gesamtkosten würde ein vollständiger Umstieg der Schweizer Bundesverwaltung auf openDesk verursachen, und wie verhalten sie sich zu den bisherigen Microsoft-365-Lizenzkosten?",
+      "Wie äußert sich Microsoft offiziell zu dem Vorhaben der Schweizer Bundesverwaltung?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "DER STANDARD: „Weg von Microsoft: Schweizer Regierung baut weiter ihre IT um“",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000338886/weg-von-microsoft-schweizer-regierung-baut-weiter-ihre-it-um"
+      },
+      {
+        "id": "src2",
+        "name": "Golem: „Digitale Souveränität: Schweizer Regierung will weg von Microsoft“",
+        "type": "media",
+        "url": "https://www.golem.de/news/digitale-souveraenitaet-schweizer-regierung-will-weg-von-microsoft-2609-212758.html"
+      },
+      {
+        "id": "src3",
+        "name": "heise online: „Schweiz startet Open-Source-Arbeitsplatz für 3000 Beschäftigte“",
+        "type": "media",
+        "url": "https://www.heise.de/news/Schweiz-startet-Open-Source-Arbeitsplatz-fuer-3000-Beschaeftigte-11444842.html"
+      },
+      {
+        "id": "src4",
+        "name": "Bundeskanzlei (Schweiz): „Bundeskanzlei lanciert Programm für einen digital souveränen Arbeitsplatz“",
+        "type": "official",
+        "url": "https://www.admin.ch/de/newnsb/EgX1XHIfGtUN"
+      },
+      {
+        "id": "src5",
+        "name": "Bundeskanzlei (Schweiz): Programmseite „PoC BOSS“",
+        "type": "official",
+        "url": "https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/standarddienste/bueroautomation/poc-boss.html"
+      },
+      {
+        "id": "src6",
+        "name": "Netzwoche: „Kommando Cyber steigt aus Microsoft Office aus“",
+        "type": "media",
+        "url": "https://www.netzwoche.ch/news/2026-07-13/kommando-cyber-steigt-aus-microsoft-office-aus"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Schweizer Bundeskanzlei hat das Pilotprogramm „BOSS“ gestartet, mit dem rund 3000 von insgesamt rund 54.000 Arbeitsplätzen der Bundesverwaltung bis Ende 2027 von Microsoft 365 auf die Open-Source-Suite openDesk umgestellt werden sollen.",
+        "status": "supported",
+        "note": "Von der Bundeskanzlei selbst verkündet und durch mehrere unabhängige Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Für die erste Phase veranschlagt die Bundeskanzlei Kosten von rund 9 Millionen Schweizer Franken, finanziert aus vom Parlament bereits bewilligten Mitteln für eine souveräne Open-Source-Bürosoftware.",
+        "status": "supported",
+        "note": "Angabe stammt aus der offiziellen Ankündigung der Bundeskanzlei.",
+        "sourceIds": [
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Dem Pilotprojekt ging ein Testlauf mit 172 Beschäftigten voraus, bei dem Dokumentbearbeitung, Mail- und Kalenderfunktionen positiv bewertet wurden, während sich bei großen Videokonferenzen technische Grenzen zeigten.",
+        "status": "partial",
+        "note": "Details zum Proof-of-Concept stammen aus der Programmseite der Bundeskanzlei und werden von mehreren Medien wiedergegeben, liegen der Redaktion aber nicht im vollen Wortlaut der Studie vor.",
+        "sourceIds": [
+          "src5",
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Das Kommando Cyber der Schweizer Armee plant laut Medienberichten, besonders sicherheitsrelevante Arbeitsplätze bereits bis Ende Oktober 2026 separat auf openDesk umzustellen – zeitlich vorgezogen gegenüber dem zivilen Pilotprojekt der Bundeskanzlei.",
+        "status": "partial",
+        "note": "Beruht auf Medienberichten zu einem eigenständigen Vorhaben der Armee, nicht auf einer eigenen Bestätigung der Bundeskanzlei-Pressestelle für dieses Datum.",
+        "sourceIds": [
+          "src1",
+          "src6"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Schweizer Bundeskanzlei hat ein Pilotprogramm gestartet, um einen Teil der Bundesverwaltung von Microsoft 365 auf eine Open-Source-Alternative umzustellen. Rund 3000 Arbeitsplätze – etwa sieben Prozent der insgesamt rund 54.000 Stellen in der Bundesverwaltung – sollen künftig mit der in Deutschland entwickelten Kollaborationssuite openDesk arbeiten. Das Programm trägt den internen Namen „BOSS“ und soll bis Ende 2027 umgesetzt werden. Die Bundeskanzlei hat das Vorhaben in einer eigenen Mitteilung bekanntgegeben; DER STANDARD, Golem und heise online berichteten unabhängig voneinander darüber."
+      },
+      {
+        "heading": "Zahlen und Zeitrahmen",
+        "markdown": "Für die erste Phase rechnet die Bundeskanzlei mit Kosten von rund 9 Millionen Schweizer Franken. Das Geld stammt aus Mitteln, die das Parlament bereits für den Aufbau einer souveränen, quelloffenen Büroplattform bewilligt hat. Zu den Kernfunktionen, die openDesk abdecken soll, zählen E-Mail, Kalender, Dokumentbearbeitung, Präsentationen, Telefonie sowie Audio- und Videokonferenzen. Vorausgegangen war eine Machbarkeitsstudie, in der 172 Beschäftigte die Software im Praxisbetrieb testeten. Dabei fielen Dokumentbearbeitung sowie Mail- und Kalenderfunktionen positiv auf, während sich bei umfangreicheren Videokonferenzen technische und organisatorische Grenzen zeigten."
+      },
+      {
+        "heading": "Die Cybersicherheits-Spur beim Kommando Cyber",
+        "markdown": "Parallel zum zivilen Pilotprojekt der Bundeskanzlei berichten mehrere Medien von einem eigenständigen, zeitlich vorgezogenen Vorhaben: Das Kommando Cyber der Schweizer Armee soll besonders sicherheitsrelevante Arbeitsplätze bereits bis Ende Oktober 2026 auf openDesk umstellen. Als Gründe werden dabei unter anderem hohe Sicherheitsanforderungen, der US-amerikanische Cloud Act und Vorgaben zur Datenklassifizierung genannt, die eine auf US-Cloud-Infrastruktur angewiesene Lösung für bestimmte militärische Zwecke als ungeeignet erscheinen lassen. Dieses Vorhaben ist von der Bundeskanzlei-Ankündigung formal getrennt und betrifft zunächst nur einen kleineren, besonders sensiblen Personenkreis."
+      },
+      {
+        "heading": "Einordnung: Digitale Souveränität in Europa",
+        "markdown": "Der Schweizer Vorstoß reiht sich in einen breiteren europäischen Trend ein, öffentliche Verwaltungen unabhängiger von US-Cloud-Anbietern wie Microsoft zu machen. openDesk selbst ist ein in Deutschland entwickeltes Open-Source-Softwarepaket, das von Bund und Ländern dort bereits in mehreren Verwaltungseinheiten erprobt wird. Als Hauptmotive nennt die Bundeskanzlei neben möglichen Kosteneinsparungen vor allem Datenschutz und die Verringerung der Abhängigkeit von internationalen Cloud-Anbietern – ein Argument, das seit Jahren in Debatten um digitale Souveränität in Europa auftaucht."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie robust sich die beim Proof-of-Concept aufgetretenen technischen Probleme, etwa bei großen Videokonferenzen, bis zum breiteren Pilotbetrieb tatsächlich lösen lassen. Unklar ist auch, ob und wie die Bundeskanzlei nach Abschluss der Pilotphase Ende 2027 über eine Ausweitung auf die übrigen rund 51.000 Arbeitsplätze der Bundesverwaltung entscheiden will und welche Gesamtkosten ein solcher Vollausbau verursachen würde. Beim Kommando Cyber ist zudem nicht abschließend bestätigt, ob der für Ende Oktober 2026 anvisierte Zeitplan tatsächlich eingehalten wird. Eine Stellungnahme von Microsoft zu dem Vorhaben liegt in den vorliegenden Quellen nicht vor."
+      }
+    ],
+    "bodyKompakt": "Die Schweizer Bundeskanzlei hat mit dem Programm „BOSS“ ein Pilotprojekt gestartet, um rund 3000 der insgesamt etwa 54.000 Arbeitsplätze der Bundesverwaltung von Microsoft 365 auf die in Deutschland entwickelte Open-Source-Suite openDesk umzustellen. Für die bis Ende 2027 laufende erste Phase veranschlagt die Bundeskanzlei rund 9 Millionen Schweizer Franken aus bereits vom Parlament bewilligten Mitteln. Ein vorangegangener Testlauf mit 172 Beschäftigten bewertete Dokumentbearbeitung sowie Mail- und Kalenderfunktionen positiv, zeigte aber Grenzen etwa bei großen Videokonferenzen.\n\nParallel dazu berichten mehrere Medien von einem separaten, zeitlich vorgezogenen Vorhaben: Das Kommando Cyber der Schweizer Armee soll besonders sicherheitsrelevante Arbeitsplätze bereits bis Ende Oktober 2026 auf openDesk umstellen, unter Verweis auf hohe Sicherheitsanforderungen und den US-Cloud-Act. Der Vorstoß reiht sich in den europäischen Trend zu mehr digitaler Souveränität gegenüber US-Cloud-Anbietern ein.\n\nOffen bleibt, wie belastbar die technischen Lösungen bis zum vollen Pilotbetrieb werden, wie eine mögliche Ausweitung über 2027 hinaus aussehen könnte und ob der Zeitplan beim Kommando Cyber eingehalten wird. Eine Stellungnahme von Microsoft dazu liegt bislang nicht vor.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-09T08:07:32.732Z"
+}
