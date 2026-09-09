@@ -1,0 +1,226 @@
+{
+  "cluster": {
+    "id": "cluster-20260909-1c438cec",
+    "title": "E-Scooter-Unfall in Gmünd: Zwölfjähriger schwer verletzt",
+    "items": [
+      {
+        "itemId": "de02eec2581319223f4a59a1676c42104507467e4a4553900b18d639b68670a8",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "E-Scooter-Unfall in Gmünd: Zwölfjähriger schwer verletzt",
+        "url": "https://kurier.at/chronik/niederoesterreich/e-scooter-unfall-in-gmuend-zwoelfjaehriger-schwer-verletzt/403189596",
+        "summary": "Der Bursche trug keinen Helm und erlitt bei dem Sturz schwere Kopfverletzungen. Er wurde ins AKH Linz geflogen.",
+        "publishedAt": "2026-09-09T10:00:56.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "093420fb3bef233d8e070a9cf0bdaa780e8b7aa5959804637b6e4d52251d1daf",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "E-Scooter-Fahrer in Klagenfurt bei Frontalkollision schwer verletzt",
+        "url": "https://www.kleinezeitung.at/artikel/41242427/e-scooter-fahrer-in-klagenfurt-bei-frontalkollision-schwer-verletzt",
+        "isNew": false
+      },
+      {
+        "itemId": "e0e6e0dbd34671e323d6c614191cfb2e2ad2a50b1d094299a10a5bf3db6c6a32",
+        "sourceId": "kleinezeitung_oesterreich",
+        "sourceType": "media",
+        "title": "E-Scooter-Fahrer in Klagenfurt bei Frontalkollision schwer verletzt",
+        "url": "https://www.kleinezeitung.at/artikel/41242427/e-scooter-fahrer-in-klagenfurt-bei-frontalkollision-schwer-verletzt",
+        "isNew": false
+      },
+      {
+        "itemId": "8fb37a9121f89174c0ff7f8edae1a06b6e0cb991cb2a39452ab3b1ab8ecb3d25",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Sturz mit E-Scooter: Zwölfjähriger schwer verletzt",
+        "url": "https://noe.orf.at/stories/3370429",
+        "isNew": false
+      },
+      {
+        "itemId": "7fe1e0714cb99df293c1f47505bb09b66376e6b1c8bdafc685acf438cc2b6dcc",
+        "sourceId": "orf_noe",
+        "sourceType": "media",
+        "title": "Sturz mit E-Scooter: Zwölfjähriger schwer verletzt",
+        "url": "https://noe.orf.at/stories/3370429",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Lokales Unfall-Ereignis mit öffentlicher Relevanz: 12-Jähriger mit E-Scooter in Gmünd gestürzt, schwere Kopfverletzungen, Hubschrauberrettung ins AKH Linz. Substanzielle Nachrichtenkern (Ort, Zeit, Rettungseinsatz konkret vorhanden). Keine Relation zu bestehenden Artikeln. Eigenständiger Artikel gerechtfertigt.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Zwölfjähriger mit E-Scooter auf Geh-/Radweg in Gmünd gestürzt",
+      "Unfall ereignete sich Dienstag mittags auf der Emerich-Berger-Straße, Höhe Lieferanteneingang eines Lebensmittelmarktes",
+      "Junge trug keinen Helm und erlitt schwere Kopfverletzungen",
+      "Passanten leisteten Erste Hilfe",
+      "Notarzt versetzte Zwölfjährigen in Tiefschlaf vor Ort",
+      "Notarzthubschrauber transportierte Jungen ins AKH Linz",
+      "Ursache des Sturzes unbekannt"
+    ],
+    "missingSources": [
+      "Polizeibericht: Genaue Unfallursache und Ermittlungsergebnisse",
+      "AKH Linz: Aktueller Gesundheitszustand und medizinische Prognose",
+      "E-Scooter-Verleiher oder Hersteller: Technische Details und Wartungszustand",
+      "Behördliche Stellungnahme zur E-Scooter-Sicherheit für Minderjährige"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "e-scooter-unfall-kufstein-august-2026",
+    "title": "Kufstein: Zwei 17-Jährige bei E-Scooter-Unfall mit 86 km/h schwer verletzt",
+    "description": "In Kufstein sind am Samstag zwei 17-Jährige mit einem E-Scooter verunglückt, der laut Polizei am Prüfgerät 86 km/h erreichte – mehr als das Dreifache des gesetzlichen Limits für solche Fahrzeuge in Österreich.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Die Kernfakten – Unfallzeit, Ort, Alter der Beteiligten, gemessene 86 km/h und Anzeige – werden von drei redaktionell unabhängigen Medien (ORF Tirol, meinbezirk.at, Tiroler Tageszeitung) übereinstimmend berichtet, auch wenn alle letztlich auf dieselbe Polizeimitteilung zurückgehen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die eigentliche Unfallschilderung stammt ausschließlich aus Medienberichten über eine Polizeimitteilung, nicht aus einem selbst gelesenen Polizeidokument; lediglich die Einordnung zur gesetzlichen Höchstgeschwindigkeit stützt sich auf eine offizielle Behördenseite.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es liegt nur die Polizeiperspektive vor, wie sie über die Medien wiedergegeben wird – Stellungnahmen der Jugendlichen, ihrer Familien oder unabhängiger Verkehrsexperten fehlen.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Zwei 17-Jährige wurden am Samstagvormittag in Kufstein bei einem Sturz mit einem E-Scooter schwer verletzt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der E-Scooter erreichte laut Polizei auf einem Rollenprüfgerät eine Geschwindigkeit von 86 km/h – deutlich über dem gesetzlichen Limit von 25 km/h für solche Fahrzeuge in Österreich.",
+        "kind": "fact"
+      },
+      {
+        "text": "Lenker und Mitfahrer sollen den Scooter nach dem Unfall zunächst von der Unfallstelle entfernt haben, ehe die Polizei ihn sicherstellte.",
+        "kind": "fact"
+      },
+      {
+        "text": "Beide Jugendlichen wurden ins Krankenhaus gebracht, der Mitfahrer per Hubschrauber in die Klinik Innsbruck; die Beteiligten wurden angezeigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen sind der aktuelle Gesundheitszustand der beiden sowie das Ergebnis der Ermittlungen und mögliche rechtliche Konsequenzen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie ist der aktuelle Gesundheitszustand und die medizinische Prognose der beiden 17-Jährigen?",
+      "War der E-Scooter technisch manipuliert ('frisiert'), und wenn ja, wie und durch wen?",
+      "Zu welchem Ergebnis kommen die Ermittlungen der Staatsanwaltschaft Innsbruck und der Bezirkshauptmannschaft Kufstein?",
+      "Welche konkreten rechtlichen Konsequenzen (verwaltungs- oder strafrechtlich) drohen den Beteiligten?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Tirol",
+        "type": "media",
+        "url": "https://tirol.orf.at/stories/3369054"
+      },
+      {
+        "id": "src2",
+        "name": "meinbezirk.at (Kufstein)",
+        "type": "media",
+        "url": "https://www.meinbezirk.at/kufstein/c-lokales/jugendliche-rasten-in-kufstein-mit-86-kmh-auf-e-scooter_a8871965"
+      },
+      {
+        "id": "src3",
+        "name": "Tiroler Tageszeitung (tt.com)",
+        "type": "media",
+        "url": "https://www.tt.com/artikel/30941152/nach-unfall-in-kufstein-17-jaehriger-versteckte-frisierten-e-scooter"
+      },
+      {
+        "id": "src4",
+        "name": "oesterreich.gv.at – Amtlicher Rechts- und Serviceportal",
+        "type": "official",
+        "url": "https://www.oesterreich.gv.at/de/themen/mobilitaet/Elektro-Scooter-Quads-und-Co/Seite.610110"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Zwei 17-jährige Burschen wurden am Samstag gegen 11.00 Uhr in Kufstein bei einem Sturz mit einem gemeinsam genutzten E-Scooter schwer verletzt.",
+        "status": "supported",
+        "note": "Übereinstimmend berichtet von ORF Tirol, meinbezirk.at und Tiroler Tageszeitung.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der E-Scooter erreichte auf einem Rollenprüfgerät der Polizei eine Geschwindigkeit von 86 km/h.",
+        "status": "supported",
+        "note": "Konkrete Messangabe, von allen drei Medienquellen genannt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der E-Scooter dürfte technisch verändert ('frisiert') gewesen sein, um derart hohe Geschwindigkeiten zu erreichen.",
+        "status": "partial",
+        "note": "Nur die Tiroler Tageszeitung verwendet explizit den Begriff 'frisiert'; ORF und meinbezirk.at berichten nur die gemessene Geschwindigkeit, ohne die Ursache der Manipulation zu benennen.",
+        "sourceIds": [
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Lenker und ein Angehöriger versuchten nach dem Unfall, den E-Scooter von der Unfallstelle zu entfernen; die Polizei konnte ihn kurz darauf sicherstellen.",
+        "status": "supported",
+        "note": "Von ORF-Volltext und TT-Berichterstattung ('versteckte') übereinstimmend beschrieben.",
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Beteiligten wurden an die Staatsanwaltschaft Innsbruck und die Bezirkshauptmannschaft Kufstein angezeigt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "E-Scooter dürfen in Österreich laut geltender Rechtslage bauartbedingt höchstens 25 km/h erreichen, andernfalls gelten sie als Kraftfahrzeug.",
+        "status": "supported",
+        "note": "Grundlage ist das amtliche Informationsportal der Republik Österreich.",
+        "sourceIds": [
+          "src4"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Am Samstagvormittag gegen 11.00 Uhr ist es auf der Salurner Straße in Kufstein zu einem schweren Unfall mit einem E-Scooter gekommen. Zwei 17-jährige Burschen waren gemeinsam auf dem Gefährt unterwegs, als der Lenker laut Polizei vermutlich wegen überhöhter Geschwindigkeit die Kontrolle verlor. Beide kamen zu Sturz und wurden schwer verletzt. Der Mitfahrer wurde in die Klinik Innsbruck gebracht, der Lenker ins Krankenhaus Kufstein.\n\nNach dem Sturz sollen der Lenker und ein Angehöriger versucht haben, den E-Scooter von der Unfallstelle verschwinden zu lassen. Gegenüber der Polizei gaben sie zunächst an, nicht zu wissen, wo sich das Fahrzeug befinde. Kurz darauf konnte es sichergestellt werden. Auf einem Rollenprüfgerät maß die Polizei eine Geschwindigkeit von 86 km/h – ein Wert, der weit über dem liegt, was für E-Scooter in Österreich zulässig ist."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Ablauf wird von drei redaktionell unabhängigen Medien im Kern übereinstimmend wiedergegeben: ORF Tirol berichtete unter Berufung auf eine Polizeimitteilung, ergänzend berichteten meinbezirk.at und die Tiroler Tageszeitung. Alle drei nennen dieselbe Uhrzeit, denselben Unfallort, dieselben Altersangaben und denselben Messwert von 86 km/h, was die Kernaussagen der Meldung stützt.\n\nEinzelne Details variieren allerdings in der Formulierung: Die Tiroler Tageszeitung spricht explizit von einem 'frisierten', also technisch manipulierten E-Scooter, während ORF und meinbezirk.at lediglich die gemessene Geschwindigkeit anführen, ohne die Ursache dafür ausdrücklich zu benennen. Da alle Berichte erkennbar auf derselben Polizeimitteilung beruhen, handelt es sich nicht um mehrere voneinander unabhängig recherchierte Quellen im engeren Sinn, sondern um mehrere Medien, die dieselbe amtliche Darstellung wiedergeben."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie es den beiden Jugendlichen mittlerweile gesundheitlich geht und wie die Ärzte ihre Verletzungen einschätzen. Unklar bleibt auch, wie genau der E-Scooter auf eine derart hohe Geschwindigkeit gebracht wurde, woher er stammte und wer für eine allfällige Manipulation verantwortlich sein könnte – dazu liegt bislang nur eine Einzelquellen-Andeutung vor. Zum Stand der Ermittlungen bei Staatsanwaltschaft Innsbruck und Bezirkshauptmannschaft Kufstein sowie zu möglichen rechtlichen Konsequenzen für die Beteiligten gibt es bislang keine öffentlich zugänglichen Angaben."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Nach geltender österreichischer Rechtslage gelten Fahrzeuge nur dann als E-Scooter, wenn ihre bauartbedingte Höchstgeschwindigkeit 25 km/h nicht überschreitet; wird dieser Wert überschritten, handelt es sich rechtlich um ein Kraftfahrzeug. Die in Kufstein gemessenen 86 km/h liegen damit weit außerhalb dessen, was für ein derartiges Gefährt zulässig ist. Der Fall reiht sich in eine wiederkehrende Debatte um technisch manipulierte E-Scooter ein, zu der aus diesem einzelnen Vorfall aber keine belastbaren Rückschlüsse auf die Häufigkeit solcher Manipulationen gezogen werden können."
+      }
+    ],
+    "bodyKompakt": "In Kufstein sind am Samstagvormittag gegen 11.00 Uhr zwei 17-jährige Burschen bei einem Sturz mit einem gemeinsam genutzten E-Scooter schwer verletzt worden. Der Lenker dürfte laut Polizei wegen überhöhter Geschwindigkeit die Kontrolle verloren haben. Der Mitfahrer wurde in die Klinik Innsbruck gebracht, der Lenker ins Krankenhaus Kufstein. Auf einem Rollenprüfgerät maß die Polizei am E-Scooter eine Geschwindigkeit von 86 km/h – deutlich mehr als die in Österreich für solche Fahrzeuge zulässigen 25 km/h.\n\nNach dem Unfall sollen der Lenker und ein Angehöriger versucht haben, den E-Scooter von der Unfallstelle zu entfernen, ehe die Polizei ihn sicherstellen konnte. Die Beteiligten wurden an die Staatsanwaltschaft Innsbruck und die Bezirkshauptmannschaft Kufstein angezeigt. Drei voneinander unabhängige Medien berichten übereinstimmend über diese Eckdaten, auch wenn sie erkennbar auf derselben Polizeimitteilung beruhen.\n\nOffen bleiben der aktuelle Gesundheitszustand der beiden Jugendlichen, die genaue technische Ursache für die hohe Geschwindigkeit sowie der Ausgang der Ermittlungen und mögliche rechtliche Folgen.",
+    "updateNote": null,
+    "pendingOutcome": "Gesundheitszustand der beiden 17-Jährigen, technische Ursache der 86 km/h sowie Ergebnis der Ermittlungen von Staatsanwaltschaft Innsbruck und Bezirkshauptmannschaft Kufstein sind weiterhin offen; die aktuelle Cluster-Nachrecherche betrifft einen eigenständigen, nicht verwandten E-Scooter-Unfall in Gmünd (NÖ) und liefert keine neuen Informationen zum Kufstein-Fall."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-09T12:07:34.166Z"
+}
