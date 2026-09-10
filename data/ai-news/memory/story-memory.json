@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T16:21:57.488Z",
+  "updatedAt": "2026-09-10T20:25:40.301Z",
   "stories": {
     "us-iran-eskalation-strasse-von-hormuz-juli-2026": {
       "canonicalTitle": "US-Iran-Krieg: Nach Drohnenangriffen auf Kuwait und Bahrain kündigt Trump neue Angriffe an – Stunden später vorläufiger Stopp wegen angeblicher „Einigung“, die Iran als Lüge zurückweist; Trump kündigt Gespräche für den 3. August an, die Irans Außenamt am selben Tag bestreitet, während Trump mit „letzter Chance vor der Enthauptung“ droht; Mitte August behauptet Trump erneut volle US-Kontrolle über eine „vollständig entminte“ Straße von Hormus, was Irans neue Meerengen-Behörde PGSA – nun von mehreren unabhängigen Medien mit Volltext-Zitaten bestätigt – zurückweist: Die Blockade bleibe bestehen, bis Iran seine Bedingungen erfüllt sieht",
@@ -17603,7 +17603,7 @@
       "pendingOutcome": "Offen sind weiterhin die Ursache des Sicherungsversagens sowie der aktuelle Gesundheitszustand des verletzten Kletterers nach der Einlieferung in die Universitätsklinik Innsbruck.",
       "pendingOutcomeUntil": "2026-09-11T10:07:34.066Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-09-10T10:07:46.515Z"
+        "kleinezeitung": "2026-09-10T20:07:45.233Z"
       },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18589,8 +18589,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-09T18:07:30.347Z",
       "doNotUpdateBefore": "2026-09-09T00:07:30.347Z",
-      "pendingOutcome": "Offen ist, wie Mistral die 3 Milliarden Euro konkret einsetzt, welche Anteile die einzelnen Co-Investoren halten und ob sich Samsung noch mit einer eigenen Stellungnahme zu den strategischen Motiven äußert.",
-      "pendingOutcomeUntil": "2026-09-10T18:07:30.347Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18716,12 +18714,13 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-09T20:07:33.888Z",
       "doNotUpdateBefore": "2026-09-09T02:07:33.888Z",
-      "pendingOutcome": "Weitere Tranchen der insgesamt rund 170.000 Seiten sollen laut Ankündigung binnen zwölf Monaten über das neue Online-Portal veröffentlicht werden; zudem stehen Reaktionen früherer Verantwortlicher wie Rudy Giuliani oder Michael Bloomberg noch aus.",
-      "pendingOutcomeUntil": "2026-09-10T20:07:33.888Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "derstandard": "2026-09-10T20:07:44.414Z",
+        "kleinezeitung": "2026-09-10T20:07:44.892Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-10T04:07:33.494Z"
+      "resonanceMeasuredAt": "2026-09-10T20:07:38.665Z"
     },
     "oesterreich-hilft-oesterreich-hochwasserhilfe-bilanz-september-2026": {
       "canonicalTitle": "„Österreich hilft Österreich“ zahlte 25,5 Millionen Euro an Hochwasseropfer aus",
@@ -18748,7 +18747,9 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-09T22:07:32.013Z",
       "doNotUpdateBefore": "2026-09-09T04:07:32.013Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "profil": "2026-09-10T20:07:43.519Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-09T16:07:35.418Z"
@@ -18963,10 +18964,10 @@
       "canonicalTitle": "ÖVP schlägt Finanzierung des ORF aus dem Bundesbudget vor – Babler und Neos widersprechen beim Zukunftsforum",
       "slug": "oevp-orf-bundesbudget-positionspapier-september-2026",
       "firstSeenAt": "2026-09-09T04:07:33.840Z",
-      "lastUpdatedAt": "2026-09-10T08:07:30.440Z",
+      "lastUpdatedAt": "2026-09-10T20:07:38.665Z",
       "status": "published",
       "articlePath": "src/content/articles/oevp-orf-bundesbudget-positionspapier-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-10/oevp-orf-bundesbudget-positionspapier-september-2026-update-800.json",
+      "researchPath": "data/ai-news/research/2026-09-10/oevp-orf-bundesbudget-positionspapier-september-2026-update-2000.json",
       "sourceUrls": [
         "https://kurier.at/kultur/medien/oevp-finanzierung-orf-bundesbudget-zukunftsforum/403189457",
         "https://www.derstandard.at/story/3000000338941/oevp-schlaegt-vor-orf-beitrag-zu-streichen-und-orf-aus-staatsbudget-zu-finanzieren",
@@ -18975,22 +18976,28 @@
         "https://www.derstandard.at/jetzt/livebericht/3000000339172/orf-zukunftsforum-fuer-medienminister-babler-keine-notwendigkeit-finanzierung-zu-aendern",
         "https://kurier.at/kultur/andreas-babler-orf-zukunftsforum-livestream/403189758",
         "https://www.diepresse.com/41230510/wie-soll-der-orf-der-zukunft-sein-minister-babler-laedt-zum-sesselkreis",
-        "https://www.derstandard.at/story/3000000339092/orf-aus-budget-finanzieren-neos-irritiert-ueber-populistischen-oevp-vorstoss"
+        "https://www.derstandard.at/story/3000000339092/orf-aus-budget-finanzieren-neos-irritiert-ueber-populistischen-oevp-vorstoss",
+        "https://www.diepresse.com/41248610/bablers-orf-zukunftsforum-fuenf-themen-am-tisch-eins-wird-ausgespart",
+        "https://www.ots.at/presseaussendung/OTS_20260910_OTS0004/fpoe-hafenecker-bablers-orf-zukunftsforum-ist-mit-ausschluss-von-kritikern-und-nicht-genehmen-stiftungsraeten-eine-farce",
+        "https://medianet.at/news/marketing-and-media/orf-zukunftsforum-nimmt-fuenf-themen-in-den-fokus-76474.html"
       ],
       "openQuestions": [
-        "Wie reagiert die ORF-Führung (Generaldirektorin Ingrid Thurnher) offiziell und im Detail auf das ÖVP-Papier, über die allgemeinen Eröffnungsworte beim Zukunftsforum hinaus?",
+        "Wie reagiert die ORF-Führung (Generaldirektorin Ingrid Thurnher) offiziell und im Detail auf das ÖVP-Papier, über die allgemeinen Eröffnungsworte und das Kooperationsangebot beim Zukunftsforum hinaus?",
         "Was ergeben die fünf Arbeitsgruppen des Zukunftsforums sowie der zweite Veranstaltungstag am 11. September 2026 inhaltlich, und fließen die ÖVP-Vorschläge dort konkret ein?",
+        "Warum wurde die ORF-Finanzierung, obwohl sie den zentralen Streitpunkt der aktuellen Debatte bildet, nicht als eigenes Arbeitsgruppen-Thema in das offizielle Forumsprogramm aufgenommen?",
         "Wie sähe eine 'Anpassung der Haushaltsabgabe an einen enger gefassten öffentlich-rechtlichen Auftrag' konkret aus, und welche Kürzung würde das für Haushalte bedeuten?",
         "Welche budgetären Auswirkungen hätte ein vollständiger Umstieg auf Bundesbudget-Finanzierung im Vergleich zur bestehenden Haushaltsabgabe?",
         "Wie reagiert die ÖVP offiziell auf Bablers Zurückweisung ihres Vorstoßes und den Vorwurf der Selbstprofilierung durch Generalsekretär Gstöttner?",
-        "Wie positionieren sich private Medienunternehmen und Branchenverbände zu den konkreten ÖVP-Vorschlägen?",
+        "Wie positionieren sich private Medienunternehmen und Branchenverbände zu den konkreten ÖVP-Vorschlägen sowie zu Thurnhers Kooperationsangeboten?",
         "Ist die verfassungs- und unionsrechtliche Zulässigkeit einer reinen Bundesbudget-Finanzierung des ORF bereits geprüft worden?",
+        "Nach welchen Kriterien wurden die rund 200 Teilnehmerinnen und Teilnehmer des Zukunftsforums sowie die Mitglieder der Arbeitsgruppen ausgewählt, und trifft der FPÖ-Vorwurf zu, dass Kritiker und bestimmte Stiftungsräte gezielt ausgeschlossen wurden?",
+        "Was bedeutet die im Zusammenhang mit dem Forum genannte „digitale Entfesselung“ des ORF konkret, und welche regulatorischen Schritte stehen dahinter?",
         "Setzt sich innerhalb der Koalition am Ende die ÖVP-Position, Bablers Ablehnung oder ein Kompromiss durch?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-09-11T08:07:30.440Z",
-      "doNotUpdateBefore": "2026-09-10T14:07:30.440Z",
-      "pendingOutcome": "Ergebnisse der fünf Arbeitsgruppen und des zweiten Forumstags am 11. September 2026, eine inhaltliche Stellungnahme der ORF-Führung sowie der weitere politische Umgang mit dem ÖVP-Finanzierungsvorschlag innerhalb der Koalition stehen noch aus.",
+      "doNotRedraftBefore": "2026-09-11T20:07:38.665Z",
+      "doNotUpdateBefore": "2026-09-11T02:07:38.665Z",
+      "pendingOutcome": "Ergebnisse der fünf Arbeitsgruppen sowie des zweiten Zukunftsforum-Tages am 11. September 2026, offizielle ORF-Reaktion auf das ÖVP-Papier, weiterer Verlauf der Finanzierungsdebatte und etwaige Reaktionen auf die FPÖ-Kritik an der Teilnehmerauswahl.",
       "pendingOutcomeUntil": "2026-09-11T04:07:33.840Z",
       "echoPublishers": {
         "derstandard": "2026-09-10T08:07:34.684Z",
@@ -19179,9 +19186,9 @@
       "echoPublishers": {
         "apa": "2026-09-10T08:07:33.516Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 1,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-10T12:07:33.496Z"
+      "resonanceMeasuredAt": "2026-09-10T20:07:38.665Z"
     },
     "oelpreis-100-dollar-gaspreis-80-euro-hormus-eskalation-september-2026": {
       "canonicalTitle": "Neue Eskalation zwischen USA und Iran: Ölpreis wieder über 100 Dollar, Gaspreis nahe 80-Euro-Marke",
@@ -19441,7 +19448,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-10T08:07:30.440Z"
+      "resonanceMeasuredAt": "2026-09-10T20:07:38.665Z"
     },
     "graz-gruenangerpark-exhibitionismus-fahndung-september-2026": {
       "canonicalTitle": "Grazer Polizei fahndet nach Mann nach Exhibitionismus-Vorfällen mit Kindern im Grünangerpark",
@@ -19476,7 +19483,7 @@
       },
       "resonanceLevel": 5,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-10T08:07:30.440Z"
+      "resonanceMeasuredAt": "2026-09-10T20:07:38.665Z"
     },
     "hoiby-berufung-zugelassen-september-2026": {
       "canonicalTitle": "Berufung gegen Verurteilung von Marius Borg Høiby zugelassen",
@@ -19687,13 +19694,83 @@
       "doNotUpdateBefore": "2026-09-10T22:07:44.244Z",
       "echoPublishers": {
         "orf": "2026-09-10T16:07:47.059Z",
-        "derstandard": "2026-09-10T16:07:47.019Z",
+        "derstandard": "2026-09-10T20:07:44.414Z",
         "heise": "2026-09-10T04:07:37.999Z",
         "diepresse": "2026-09-10T10:07:45.163Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-10T20:07:38.665Z"
+    },
+    "fpoe-hilferufe-polizei-dienstzeitmodell-testbezirke-september-2026": {
+      "canonicalTitle": "„Hilferufe“ aus Wiener Testbezirken: FPÖ meldet Kritik am neuen Polizei-Dienstzeitmodell",
+      "slug": "fpoe-hilferufe-polizei-dienstzeitmodell-testbezirke-september-2026",
+      "firstSeenAt": "2026-09-10T20:07:38.665Z",
+      "lastUpdatedAt": "2026-09-10T20:07:38.665Z",
+      "status": "published",
+      "articlePath": "src/content/articles/fpoe-hilferufe-polizei-dienstzeitmodell-testbezirke-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-10/fpoe-hilferufe-polizei-dienstzeitmodell-testbezirke-september-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/wien/wien-fpoe-dienstzeitmodell-polizei/403189851",
+        "https://www.ots.at/presseaussendung/OTS_20260910_OTS0077/fpoe-wien-aeussert-bedenken-zum-neuen-dienstzeitmodell-der-polizei",
+        "https://wien.orf.at/stories/3370634",
+        "https://www.ots.at/presseaussendung/OTS_20260910_OTS0125/fpoe-ranzmaier-wien-muss-schutzmachtinteresse-unabhaengig-von-hilferufen-der-politik-wahrnehmen"
+      ],
+      "openQuestions": [
+        "Wie fällt die Antwort des Innenministeriums auf die von Nepp angekündigte parlamentarische Anfrage aus?",
+        "Bestätigen sich die von der FPÖ berichteten Angaben zu elf aufeinanderfolgenden Diensttagen und reduzierten Funkwagenschichten durch unabhängige Quellen, etwa die Personalvertretung der Polizei?",
+        "Legt das Innenministerium im Zuge der laufenden Evaluierung eigene Daten zu Dienstplänen, Ruhezeiten und Funkwagenverfügbarkeit in den Testbezirken vor?",
+        "Bestätigt eine amtliche Kriminalstatistik die von der FPÖ genannte Häufung von Einbrüchen am Vorgartenmarkt sowie generell in Brigittenau und Leopoldstadt?",
+        "Wie entwickelt sich die für 2027 geplante österreichweite Ausrollung des Modells angesichts der anhaltenden Kritik aus Wien und den anderen Testbezirken (Bregenz, Linz, Leibnitz, Gänserndorf)?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-11T20:07:38.665Z",
+      "doNotUpdateBefore": "2026-09-11T02:07:38.665Z",
+      "pendingOutcome": "Offen sind die Antwort des Innenministeriums auf die von Nepp angekündigte parlamentarische Anfrage sowie die Ergebnisse der laufenden ministeriellen Evaluierung des Testbetriebs; beide könnten die bislang unbestätigten FPÖ-Angaben zu Diensttagen, Funkwagenschichten und Ruhezeiten erhärten oder widerlegen.",
+      "pendingOutcomeUntil": "2026-09-12T20:07:38.665Z",
+      "echoPublishers": {
+        "kurier": "2026-09-10T16:07:47.593Z",
+        "apa": "2026-09-10T12:07:38.227Z",
+        "orf": "2026-09-10T12:07:35.941Z"
+      },
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-10T16:07:44.244Z"
+      "resonanceMeasuredAt": "2026-09-10T20:07:38.665Z"
+    },
+    "steffen-krach-ermittlungen-vorteilsannahme-september-2026": {
+      "canonicalTitle": "Staatsanwaltschaft Hannover ermittelt gegen Berliner SPD-Spitzenkandidaten Steffen Krach wegen Vorteilsannahme",
+      "slug": "steffen-krach-ermittlungen-vorteilsannahme-september-2026",
+      "firstSeenAt": "2026-09-10T20:07:38.665Z",
+      "lastUpdatedAt": "2026-09-10T20:07:38.665Z",
+      "status": "published",
+      "articlePath": "src/content/articles/steffen-krach-ermittlungen-vorteilsannahme-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-10/steffen-krach-ermittlungen-vorteilsannahme-september-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3441821",
+        "https://www.kleinezeitung.at/artikel/41251614/ermittlungen-gegen-berliner-spd-spitzenkandidaten-krach",
+        "https://www.derstandard.at/story/3000000339148/hausdurchsuchung-bei-berliner-spd-spitzenkandidat-steffen-krach",
+        "https://www.ad-hoc-news.de/politik/am-mittwoch-war-bekanntgeworden-dass-die-staatsanwaltschaft-hannover/70083020",
+        "https://www.t-online.de/nachrichten/deutschland/id_101428194/berlin-spd-spitzenkandidat-steffen-krach-im-visier-hausdurchsuchung.html",
+        "https://taz.de/Ermittlungen-wegen-Bestechlichkeit/!6212050/",
+        "https://www.handelsblatt.com/politik/deutschland/berlin-wahl-hausdurchsuchung-bei-berliner-spd-spitzenkandidat-krach/100253285.html"
+      ],
+      "openQuestions": [
+        "Wie lautet der vollständige, im Detail dokumentierte Sachverhalt hinter dem Vorwurf der Vorteilsannahme?",
+        "Welche konkrete Rolle spielt das genannte Vergabeverfahren im Gesundheitsbereich der Region Hannover, und ist der Bezug zu einem Krankenhaus in Lehrte zutreffend?",
+        "Wie äußern sich SPD-Bundes- und Landesführung offiziell zu den Ermittlungen gegen ihren Spitzenkandidaten?",
+        "Welchen Einfluss haben die Ermittlungen auf den Ausgang der Berliner Abgeordnetenhauswahl am 20. September 2026?",
+        "Wie ist der weitere Verfahrensstand nach den Hausdurchsuchungen – kommt es zu einer Anklage oder zu einer Einstellung des Verfahrens?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-11T20:07:38.665Z",
+      "doNotUpdateBefore": "2026-09-11T02:07:38.665Z",
+      "echoPublishers": {
+        "orf": "2026-09-10T20:07:41.179Z",
+        "kleinezeitung": "2026-09-10T20:07:44.892Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-10T20:07:38.665Z"
     }
   }
 }
