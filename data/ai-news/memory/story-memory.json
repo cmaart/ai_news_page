@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T02:31:57.498Z",
+  "updatedAt": "2026-09-11T04:29:03.379Z",
   "stories": {
     "us-iran-eskalation-strasse-von-hormuz-juli-2026": {
       "canonicalTitle": "US-Iran-Krieg: Nach Drohnenangriffen auf Kuwait und Bahrain kündigt Trump neue Angriffe an – Stunden später vorläufiger Stopp wegen angeblicher „Einigung“, die Iran als Lüge zurückweist; Trump kündigt Gespräche für den 3. August an, die Irans Außenamt am selben Tag bestreitet, während Trump mit „letzter Chance vor der Enthauptung“ droht; Mitte August behauptet Trump erneut volle US-Kontrolle über eine „vollständig entminte“ Straße von Hormus, was Irans neue Meerengen-Behörde PGSA – nun von mehreren unabhängigen Medien mit Volltext-Zitaten bestätigt – zurückweist: Die Blockade bleibe bestehen, bis Iran seine Bedingungen erfüllt sieht",
@@ -7764,9 +7764,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-10T06:07:31.056Z",
       "doNotUpdateBefore": "2026-09-09T12:07:31.056Z",
-      "echoPublishers": {
-        "kurier": "2026-09-10T04:07:36.846Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 3,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-09-11T02:07:29.469Z"
@@ -15965,13 +15963,13 @@
       "resonanceMeasuredAt": "2026-09-04T20:07:31.381Z"
     },
     "bekennerschreiben-anschlag-stromnetz-brandenburg-september-2026": {
-      "canonicalTitle": "Stromnetz-Sabotage in Deutschland: Tatverdächtiger nach tagelanger Fahndung bei Weisweiler festgenommen",
+      "canonicalTitle": "Stromnetz-Sabotage in Deutschland: Bundesanwaltschaft übernimmt Ermittlungen nach Festnahme bei Weisweiler",
       "slug": "bekennerschreiben-anschlag-stromnetz-brandenburg-september-2026",
       "firstSeenAt": "2026-09-03T18:07:33.375Z",
-      "lastUpdatedAt": "2026-09-08T14:07:36.012Z",
+      "lastUpdatedAt": "2026-09-11T04:07:38.917Z",
       "status": "published",
       "articlePath": "src/content/articles/bekennerschreiben-anschlag-stromnetz-brandenburg-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-08/bekennerschreiben-anschlag-stromnetz-brandenburg-september-2026-update-1400.json",
+      "researchPath": "data/ai-news/research/2026-09-11/bekennerschreiben-anschlag-stromnetz-brandenburg-september-2026-update-400.json",
       "sourceUrls": [
         "https://orf.at/stories/3441125",
         "https://www.derstandard.at/story/3000000338355/bekennerschreiben-nach-anschlag-auf-stromnetz-in-brandenburg",
@@ -16009,29 +16007,36 @@
         "https://www.kleinezeitung.at/artikel/41243804/deutsche-polizei-fasst-mutmasslichen-stromnetz-saboteur",
         "https://www.golem.de/news/sabotage-am-stromnetz-mutmasslicher-saboteur-der-umspannwerke-gefasst-2609-212771.html",
         "https://www.kleinezeitung.at/artikel/41243233/strom-sabotage-deutsche-polizei-findet-bekennerschreiben",
-        "https://koeln.polizei.nrw/presse/sabotage-an-hochspannungsleitung-in-weisweiler-0"
+        "https://koeln.polizei.nrw/presse/sabotage-an-hochspannungsleitung-in-weisweiler-0",
+        "https://www.kleinezeitung.at/artikel/41251356/deutsche-bundesanwaltschaft-ermittelt-zu-strom-sabotage",
+        "https://www.presseportal.de/blaulicht/pm/14981/6349857",
+        "https://www.zdfheute.de/politik/deutschland/sabotage-stromnetz-ermittlungen-bundesanwaltschaft-100.html",
+        "https://www.t-online.de/nachrichten/deutschland/id_101430220/ueber-160-sabotageziele-bundesanwaltschaft-ermittelt-nun.html",
+        "https://www.berliner-zeitung.de/article/strom-saboteur-notizbuch-160-anschlagsziele-10380772",
+        "https://www.handelsblatt.com/politik/deutschland/stromversorgung-bundesanwaltschaft-uebernimmt-ermittlungen-zu-strom-sabotage/100253666.html"
       ],
       "openQuestions": [
-        "Wird gegen den festgenommenen Verdächtigen Haftbefehl erlassen bzw. Anklage erhoben, und welche konkreten Tatvorwürfe werden ihm gemacht?",
+        "Wird gegen den Verdächtigen infolge der Übernahme durch die Bundesanwaltschaft Haftbefehl erlassen bzw. Anklage erhoben, und wann?",
         "Handelte der Mann tatsächlich allein, oder gab es Unterstützer beziehungsweise ein Netzwerk?",
         "Bestätigt sich sein vollständiger Name amtlich, oder bleibt es bei der Kurzform „Daniel V.“?",
-        "Was genau enthält das zuletzt gefundene Bekennerschreiben, und weshalb hält die Polizei den Inhalt zurück?",
-        "Stammt der Sachsen-Fund (Bautzen/Graustein) tatsächlich vom selben Verfasser?",
+        "Was genau enthält das zuletzt gefundene, dritte Bekennerschreiben, und weshalb hält die Polizei den Inhalt zurück?",
+        "Enthielt das kolportierte Notizbuch im Wohnmobil des Verdächtigen tatsächlich handschriftliche Notizen zu über 160 Sabotagezielen, und was bedeutet das für den möglichen Umfang der Taten?",
+        "Wurden die zuvor bei den Staatsanwaltschaften Dresden, Cottbus und Köln geführten Verfahren vollständig oder nur teilweise von der Bundesanwaltschaft übernommen?",
         "Hängt der Zaunschaden am Umspannwerk in Wesel tatsächlich mit der Sabotage-Serie zusammen?",
-        "Übernimmt die Generalbundesanwaltschaft die Ermittlungen zu allen Vorfällen in Brandenburg, Nordrhein-Westfalen und Sachsen gemeinsam?",
-        "Wurden bei der weiteren Absuche des Umfelds von Weisweiler zusätzliche Abschussvorrichtungen gefunden?",
         "Was genau war Dobrindts Wortlaut – „Klimaextremismus“ oder „Klimaterrorismus“ –, und warum geben Medien ihn unterschiedlich wieder?",
-        "War der frühere Hinweis auf einen möglichen Aufenthalt des Verdächtigen im Raum Potsdam zutreffend, oder hat er sich nicht bestätigt?"
+        "Wird die Bundesanwaltschaft zu den Ermittlungen weitere Details veröffentlichen, etwa zum genauen Tatvorwurf je Bundesland?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-09-09T14:07:36.012Z",
-      "doNotUpdateBefore": "2026-09-08T20:07:36.012Z",
+      "doNotRedraftBefore": "2026-09-12T04:07:38.917Z",
+      "doNotUpdateBefore": "2026-09-11T10:07:38.917Z",
+      "pendingOutcome": "Ausgang der von der Bundesanwaltschaft geführten Ermittlungen (Haftbefehl, Anklage, genauer Umfang der übernommenen Verfahren) sowie Klärung der bislang nur schwach belegten Angaben zu einem angeblichen Notizbuch mit über 160 Sabotagezielen.",
+      "pendingOutcomeUntil": "2026-09-13T04:07:38.917Z",
       "echoPublishers": {
         "kleinezeitung": "2026-09-10T16:07:49.055Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 5,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-10T22:07:31.349Z"
+      "resonanceMeasuredAt": "2026-09-11T04:07:38.917Z"
     },
     "iran-todesurteil-ali-sarei-september-2026": {
       "canonicalTitle": "Iranischer Regierungsgegner Ali Sarei zum Tode verurteilt",
@@ -17342,13 +17347,13 @@
       "resonanceMeasuredAt": "2026-09-06T16:07:32.177Z"
     },
     "mladic-gedenkzeremonie-belgrad-september-2026": {
-      "canonicalTitle": "Serbien: Hochrangige Politiker bei Gedenkzeremonie für Kriegsverbrecher Mladić",
+      "canonicalTitle": "Serbien beerdigt Kriegsverbrecher Mladić mit militärischen Ehren – EU droht mit Konsequenzen",
       "slug": "mladic-gedenkzeremonie-belgrad-september-2026",
       "firstSeenAt": "2026-09-05T20:07:27.822Z",
-      "lastUpdatedAt": "2026-09-05T20:07:27.822Z",
+      "lastUpdatedAt": "2026-09-11T04:07:38.917Z",
       "status": "published",
       "articlePath": "src/content/articles/mladic-gedenkzeremonie-belgrad-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-05/mladic-gedenkzeremonie-belgrad-september-2026.json",
+      "researchPath": "data/ai-news/research/2026-09-11/mladic-gedenkzeremonie-belgrad-september-2026-update-400.json",
       "sourceUrls": [
         "https://orf.at/stories/3441325",
         "https://www.derstandard.at/story/3000000338581/serbien-minister-bei-gedenken-f252r-kriegsverbrecher-mladic",
@@ -17356,16 +17361,24 @@
         "https://www.diepresse.com/41234416/serbien-minister-bei-gedenken-fuer-kriegsverbrecher-mladic",
         "https://www.rferl.org/a/serbia-draws-international-criticism-for-honoring-war-criminal-mladic/33847116.html",
         "https://balkaninsight.com/2026/09/04/serbias-vucic-slates-eu-condemnation-of-mladic-tributes-as-stupid/btj/",
-        "https://www.euronews.com/2026/09/05/bosnian-serb-war-criminal-mladic-commemorated-in-belgrade-but-no-state-honours"
+        "https://www.euronews.com/2026/09/05/bosnian-serb-war-criminal-mladic-commemorated-in-belgrade-but-no-state-honours",
+        "https://kurier.at/politik/ausland/serbien-ratko-mladic-kriegsverbrecher-eu-konsequenzen/403189559",
+        "https://www.diepresse.com/41235373/serbien-richtet-das-mladic-begraebnis-als-staatsspektakel-aus",
+        "https://www.kleinezeitung.at/artikel/41235674/serbien-richtet-das-mladic-begraebnis-als-staatsspektakel-aus",
+        "https://www.consilium.europa.eu/en/european-council/president/x-posts/2026-09-08-091500/",
+        "https://www.euronews.com/my-europe/2026/09/08/eu-institution-leaders-blast-serbia-over-shocking-ratko-mladics-funeral",
+        "https://taz.de/Gedenken-an-Ratko-Mladic/!6210835/"
       ],
       "openQuestions": [
-        "Wird die für Montag angekündigte Beisetzung tatsächlich mit vollen staatlichen Ehren abgehalten, oder handelt es sich, wie einzelne internationale Medien berichten, um eine Zeremonie ohne offizielle Staatstrauer?",
-        "Wie reagieren bosnische Behörden und Srebrenica-Opferverbände konkret auf die Gedenkzeremonie und die geplante Beisetzung?",
-        "Setzt die EU über die Absage des Besuchs von Kommissarin Kos hinaus weitere diplomatische Schritte gegenüber Serbien?"
+        "Beschließt die EU-Kommission konkrete Konsequenzen gegen Serbien – etwa einen Stopp von Beitrittsfortschritten oder das Einfrieren von Unterstützungszahlungen – und wenn ja, in welchem Umfang und ab wann?",
+        "Wie reagieren bosnische Behörden und Srebrenica-Opferverbände offiziell auf die Beisetzung mit militärischen Ehren?",
+        "Wie genau lässt sich die Zeremonie protokollarisch einordnen – Berichte variieren zwischen „militärischen und staatlichen Ehren“ und einer engeren Einstufung als rein militärische Ehrung ohne formale Staatstrauer."
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-09-06T20:07:27.822Z",
-      "doNotUpdateBefore": "2026-09-06T02:07:27.822Z",
+      "doNotRedraftBefore": "2026-09-12T04:07:38.917Z",
+      "doNotUpdateBefore": "2026-09-11T10:07:38.917Z",
+      "pendingOutcome": "Ob die EU-Kommission über die derzeitige Prüfung hinaus konkrete Konsequenzen (Stopp von Beitrittsfortschritten, Einfrieren von Zahlungen) beschließt, ist offen.",
+      "pendingOutcomeUntil": "2026-09-13T04:07:38.917Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18917,8 +18930,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-10T02:07:31.951Z",
       "doNotUpdateBefore": "2026-09-09T08:07:31.951Z",
-      "pendingOutcome": "Ergebnis der DNA-Analyse zur Bestätigung des Rissverursachers sowie der behördlichen Prüfung, ob die rechtlichen Voraussetzungen für den Abschuss ohne Abschussverordnung vorlagen; beides wird in den kommenden Wochen erwartet.",
-      "pendingOutcomeUntil": "2026-09-11T02:07:31.951Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18996,8 +19007,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-11T20:07:38.665Z",
       "doNotUpdateBefore": "2026-09-11T02:07:38.665Z",
-      "pendingOutcome": "Ergebnisse der fünf Arbeitsgruppen sowie des zweiten Zukunftsforum-Tages am 11. September 2026, offizielle ORF-Reaktion auf das ÖVP-Papier, weiterer Verlauf der Finanzierungsdebatte und etwaige Reaktionen auf die FPÖ-Kritik an der Teilnehmerauswahl.",
-      "pendingOutcomeUntil": "2026-09-11T04:07:33.840Z",
       "echoPublishers": {
         "derstandard": "2026-09-10T08:07:34.684Z",
         "kurier": "2026-09-10T10:07:44.636Z",
@@ -19143,7 +19152,6 @@
         "orf": "2026-09-10T08:07:32.562Z",
         "diepresse": "2026-09-10T08:07:33.616Z",
         "kurier": "2026-09-10T12:07:38.625Z",
-        "kleinezeitung": "2026-09-10T04:07:38.518Z",
         "apa": "2026-09-10T10:07:44.186Z",
         "derstandard": "2026-09-10T08:07:33.379Z"
       },
@@ -19343,13 +19351,13 @@
       "resonanceMeasuredAt": "2026-09-10T22:07:31.349Z"
     },
     "apple-iphone-preiserhoehung-100-dollar-september-2026": {
-      "canonicalTitle": "Apple erhöht Preise aller älteren iPhone-Modelle um 100 Dollar",
+      "canonicalTitle": "Apple erhöht Preise aller älteren iPhone-Modelle – in Europa deutlicher als in den USA",
       "slug": "apple-iphone-preiserhoehung-100-dollar-september-2026",
       "firstSeenAt": "2026-09-09T20:07:37.362Z",
-      "lastUpdatedAt": "2026-09-09T20:07:37.362Z",
+      "lastUpdatedAt": "2026-09-11T04:07:38.917Z",
       "status": "published",
       "articlePath": "src/content/articles/apple-iphone-preiserhoehung-100-dollar-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-09/apple-iphone-preiserhoehung-100-dollar-september-2026.json",
+      "researchPath": "data/ai-news/research/2026-09-11/apple-iphone-preiserhoehung-100-dollar-september-2026-update-400.json",
       "sourceUrls": [
         "https://www.theverge.com/tech/992551/apple-iphone-17-17e-air-price-increase",
         "https://techcrunch.com/2026/09/09/there-are-new-shiny-iphones-so-apple-is-making-you-pay-more-for-older-models",
@@ -19358,26 +19366,31 @@
         "https://www.heise.de/tests/Oura-Ring-5-im-Langzeitest-Smarter-Ring-zum-Wohlfuehlen-11347985.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
         "https://www.ots.at/presseaussendung/OTE_20260909_OTE0001/for-the-sake-of-democracy-europe-must-get-its-governance-act-together-urges-new-report",
         "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up",
-        "https://www.macrumors.com/2026/09/09/apple-discontinues-iphone-17-pro-max/"
+        "https://www.macrumors.com/2026/09/09/apple-discontinues-iphone-17-pro-max/",
+        "https://www.derstandard.at/story/3000000339179/europaeer-zahlen-extra-apple-erhoeht-die-preise-fuer-alte-iphones-deutlich",
+        "https://www.golem.de/news/aeltere-iphone-apple-erhoeht-preise-bisheriger-iphone-modelle-teilweise-erheblich-2609-212857.html",
+        "https://www.heise.de/news/iPhone-Preise-Alte-Modelle-werden-teurer-zunaechst-bei-Apple-11449098.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.heise.de/news/iPhone-Preise-Alte-Modelle-werden-teurer-zunaechst-bei-Apple-11449098.html",
+        "https://winfuture.de/news,161204.html"
       ],
       "openQuestions": [
-        "Äußert sich Apple offiziell zur Preisstrategie und zur Rolle der Speicherchip-Knappheit?",
-        "Wie stark wirkt sich die Preiserhöhung auf die Verkaufszahlen aus, insbesondere in preissensiblen Märkten wie Indien?",
+        "Äußert sich Apple offiziell zur Preisstrategie und insbesondere dazu, warum die Aufschläge in Europa (rund 150 Euro) höher ausfallen als die reine Dollar-Euro-Umrechnung der US-Erhöhung (100 Dollar) nahelegen würde?",
+        "Wie stark wirkt sich die Preiserhöhung auf die Verkaufszahlen aus, insbesondere in preissensiblen Märkten wie Indien, wo Berichten zufolge noch höhere Aufschläge gelten?",
         "Reagieren Samsung und Google mit eigenen Preisanpassungen, wie von TechCrunch als mögliches Motiv genannt?",
-        "Wie stark nutzen Kundinnen und Kunden das neue Apple-Ratenzahlungsprogramm ‚Upgrade‘ als Reaktion auf die höheren Einstiegspreise?"
+        "Wie stark nutzen Kundinnen und Kunden das neue Apple-Ratenzahlungsprogramm ‚Upgrade‘ als Reaktion auf die höheren Einstiegspreise?",
+        "Wie schlägt sich die Speicherchip-Knappheit in den kommenden Monaten auf Verfügbarkeit und Preise weiterer Apple-Produkte nieder?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-09-10T20:07:37.362Z",
-      "doNotUpdateBefore": "2026-09-10T02:07:37.362Z",
-      "pendingOutcome": "Ob Apple sich offiziell zur Preisstrategie äußert, wie stark die Verkaufszahlen in preissensiblen Märkten wie Indien reagieren und ob Samsung oder Google mit eigenen Preisanpassungen folgen, ist derzeit offen.",
+      "doNotRedraftBefore": "2026-09-12T04:07:38.917Z",
+      "doNotUpdateBefore": "2026-09-11T10:07:38.917Z",
+      "pendingOutcome": "Offen bleibt, ob sich Apple offiziell zur Preisstrategie äußert, insbesondere zu den stärkeren Aufschlägen in Europa im Vergleich zu den USA, und ob sich Berichte über besonders hohe Aufschläge in Märkten wie Indien unabhängig bestätigen lassen.",
       "pendingOutcomeUntil": "2026-09-11T20:07:37.362Z",
       "echoPublishers": {
-        "theverge": "2026-09-10T16:07:48.551Z",
-        "arstechnica": "2026-09-10T04:07:37.811Z"
+        "theverge": "2026-09-10T16:07:48.551Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-10T22:07:31.349Z"
+      "resonanceMeasuredAt": "2026-09-11T04:07:38.917Z"
     },
     "apple-watch-series-12-ultra-4-health-sensing-september-2026": {
       "canonicalTitle": "Apple stellt Watch Series 12 und Ultra 4 mit neuem Gesundheitssensor-System vor",
@@ -19423,12 +19436,11 @@
       "echoPublishers": {
         "golem": "2026-09-10T16:07:48.965Z",
         "theverge": "2026-09-10T16:07:48.551Z",
-        "techcrunch": "2026-09-10T16:07:48.565Z",
-        "arstechnica": "2026-09-10T04:07:37.811Z"
+        "techcrunch": "2026-09-10T16:07:48.565Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-10T22:07:31.349Z"
+      "resonanceMeasuredAt": "2026-09-11T04:07:38.917Z"
     },
     "hundertdreizehn-deutscher-fernsehpreis-september-2026": {
       "canonicalTitle": "ORF/ARD-Serie „Hundertdreizehn“ beim Deutschen Fernsehpreis als beste Dramaserie ausgezeichnet",
@@ -19453,12 +19465,11 @@
       "doNotUpdateBefore": "2026-09-10T14:07:30.440Z",
       "echoPublishers": {
         "orf": "2026-09-10T08:07:32.562Z",
-        "diepresse": "2026-09-10T08:07:33.616Z",
-        "apa": "2026-09-10T04:07:36.730Z"
+        "diepresse": "2026-09-10T08:07:33.616Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-10T20:07:38.665Z"
+      "resonanceMeasuredAt": "2026-09-11T04:07:38.917Z"
     },
     "graz-gruenangerpark-exhibitionismus-fahndung-september-2026": {
       "canonicalTitle": "Grazer Polizei fahndet nach Mann nach Exhibitionismus-Vorfällen mit Kindern im Grünangerpark",
@@ -19703,7 +19714,6 @@
       "echoPublishers": {
         "orf": "2026-09-10T16:07:47.059Z",
         "derstandard": "2026-09-10T20:07:44.414Z",
-        "heise": "2026-09-10T04:07:37.999Z",
         "diepresse": "2026-09-10T10:07:45.163Z"
       },
       "resonanceLevel": 3,
