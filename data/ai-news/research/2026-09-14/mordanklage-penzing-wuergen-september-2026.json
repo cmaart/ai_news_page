@@ -1,0 +1,212 @@
+{
+  "cluster": {
+    "id": "cluster-20260914-e4400bd1",
+    "title": "Mordanklage: Freund bei Streit erwürgt",
+    "items": [
+      {
+        "itemId": "bcc9175b324b74d1086537ea1ff6dba817dad42626f36759565045d96e601e0b",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Mordanklage: Freund bei Streit erwürgt",
+        "url": "https://wien.orf.at/stories/3371088",
+        "summary": "Die Staatsanwaltschaft Wien hat Mordanklage gegen einen 36-jährigen Mann erhoben. Er soll im Frühjahr einen 41 Jahre alten Freund im Zuge eines Streits erwürgt und dann wochenlang in seiner Wohnung liegen gelassen haben.",
+        "publishedAt": "2026-09-14T10:08:42.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "0963c0d7a041f3ef91cda8f367402d3390874291da79f12899a4a72c17e347af",
+        "sourceId": "orf_wien",
+        "sourceType": "media",
+        "title": "Mordanklage: Freund bei Streit erwürgt",
+        "url": "https://wien.orf.at/stories/3371088",
+        "summary": "Die Staatsanwaltschaft Wien hat Mordanklage gegen einen 36-jährigen Mann erhoben. Er soll im Frühjahr einen 41 Jahre alten Freund im Zuge eines Streits erwürgt und dann wochenlang in seiner Wohnung liegen gelassen haben.",
+        "publishedAt": "2026-09-14T10:08:42.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "8c0036b1ceb1af05df35086813016b0549afdff85d062b0cf0de6276a1ea21b0",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Mordanklage: 36-Jähriger soll Freund in Wohnung erwürgt haben",
+        "url": "https://kurier.at/chronik/wien/penzing-polizei-gericht-mordanklage-staatsanwaltschft/403190673",
+        "summary": "Die Leiche blieb in der Wohnung in Penzing zurück. Tatverdächtiger muss sich am 23. Oktober vor Geschworenen verantworten.",
+        "publishedAt": "2026-09-14T10:05:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "1cea29974e56ea93a86419765e2e2e1dfd972b171d91c1a2f4726030cf2926e8",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Erwürgten Freund wochenlang in Wiener Wohnung gelagert: Mordanklage",
+        "url": "https://www.diepresse.com/41260856/erwuergten-freund-wochenlang-in-wiener-wohnung-gelagert-mordanklage",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzieller Bericht über Mordanklage gegen 36-Jährigen in Wien mit konkretem Prozesstermin und gerichtsmedizinischen Befunden. Breitere Medienabdeckung (ORF Österreich, Kurier) mit detaillierten fulltextExcerpts aus Anklageschrift und Obduktionsergebnissen. Hohe Sensitivität wegen Gerichtsverfahren und Tötungsdelikt erfordert konservative Formulierung (Qualifizierungen wie ‚soll', ‚laut Anklage'). Keine relatedStory vorhanden.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "36-Jähriger soll Freund durch Halskompression getötet haben",
+      "Staatsanwaltschaft Wien erhebt Mordanklage",
+      "Leiche wurde wochenlang unter Bett aufbewahrt",
+      "Todesursache: Halskompression nach längerem Würgen (gerichtsmedizinisch bestätigt)",
+      "Beschuldigter war zur Tatzeit erheblich alkoholisiert und leidet unter Persönlichkeitsstörung",
+      "Gerichtsmediziner schließt versuchte Leichenzerstückelung nicht aus",
+      "Prozess mit Geschworenen am 23. Oktober 2026"
+    ],
+    "missingSources": [
+      "Stellungnahme oder Reaktion der Verteidigung über Einspruchsverzicht hinaus",
+      "Aussage oder Reaktion von Opfer-Familie oder Angehörigen",
+      "Kontext zum Beschuldigten (bisherige Straftaten, soziales Umfeld)",
+      "Weitere Details zu psychiatrischem Gutachten oder Begutachtung",
+      "Aussage oder Perspektive von Ermittlungsbehörden"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "mordanklage-penzing-wuergen-september-2026",
+    "title": "Mordanklage gegen 36-Jährigen nach Tod eines Freundes in Wien-Penzing",
+    "description": "Die Staatsanwaltschaft Wien hat gegen einen 36-jährigen Mann Mordanklage erhoben: Er soll im Frühjahr einen befreundeten 41-Jährigen im Zuge eines Streits erwürgt und die Leiche wochenlang in seiner Wohnung liegen gelassen haben. Der Prozess vor Geschworenen ist für 23. Oktober angesetzt.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Dass die Staatsanwaltschaft Wien Mordanklage gegen den 36-Jährigen erhoben hat, sowie Kernfakten wie Leichenfund, Obduktionsbefund und Prozesstermin werden von zwei voneinander unabhängigen Medien (ORF, Kurier) übereinstimmend berichtet, der Kurier beruft sich zudem auf die der APA vorliegende Anklageschrift.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die Anklageschrift selbst wurde nicht eingesehen, nur über Medienberichte referiert, die daraus zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich fast ausschließlich auf die Anklage und das psychiatrische Gutachten; eine eigene Stellungnahme der Verteidigung über den Verzicht auf Einspruch hinaus sowie Reaktionen des Umfelds des Opfers fehlen.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Die Staatsanwaltschaft Wien hat gegen einen 36-jährigen Mann Mordanklage erhoben, nachdem im Frühjahr die stark verweste Leiche eines 41-Jährigen in einer Wohnung in Wien-Penzing gefunden wurde.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut Anklage soll der Beschuldigte den befreundeten Mann im Zuge eines eskalierten Streits um eine umgestoßene Wodkaflasche gewürgt haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein gerichtsmedizinisches Gutachten stufte eine Halskompression durch längeres Würgen als Todesursache ein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Anklage beantragt zugleich die Unterbringung des Mannes in einem forensisch-therapeutischen Zentrum wegen einer diagnostizierten Persönlichkeits- und Verhaltensstörung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Prozess vor Geschworenen ist für 23. Oktober angesetzt, der Ausgang ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie das Geschworenengericht die Tat rechtlich qualifizieren wird (Mord, ein anderes Tötungsdelikt oder eine Unterbringung ohne Schuldspruch)",
+      "Wie sich die Verteidigung im Prozess selbst zur Sache äußert",
+      "Ob und wie sich Angehörige des Opfers öffentlich äußern"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3371088"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/wien/penzing-polizei-gericht-mordanklage-staatsanwaltschft/403190673"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41260856/erwuergten-freund-wochenlang-in-wiener-wohnung-gelagert-mordanklage"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Staatsanwaltschaft Wien hat beim Landesgericht für Strafsachen Mordanklage gegen einen 36-jährigen Mann eingebracht.",
+        "status": "supported",
+        "note": "Von ORF, Kurier und Die Presse übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Laut Anklage soll der 36-Jährige den befreundeten 41-Jährigen im Zuge eines eskalierten Streits um eine umgestoßene Wodkaflasche gewürgt haben, bis dieser sich nicht mehr rührte.",
+        "status": "partial",
+        "note": "Schilderung basiert auf der noch nicht gerichtlich verhandelten Anklageschrift; die endgültige Beurteilung obliegt den Geschworenen im Prozess am 23. Oktober.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Ein Gerichtsmediziner stellte als Todesursache eine Halskompression infolge längeren Würgens fest; die Leiche wurde erst am 3. April nach Hinweisen von Nachbarn wegen Verwesungsgeruchs entdeckt.",
+        "status": "supported",
+        "note": "Forensischer Befund und Fundumstände werden von ORF und Kurier übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Anklage beantragt gemäß § 21 Abs. 2 StGB die Unterbringung des Mannes in einem forensisch-therapeutischen Zentrum, da ein psychiatrisches Gutachten eine schwere Persönlichkeits- und Verhaltensstörung infolge jahrelangen Drogen- und Alkoholmissbrauchs sowie Gefährlichkeit attestiert, bei grundsätzlich angenommener Schuldfähigkeit.",
+        "status": "supported",
+        "note": "Von ORF und Kurier übereinstimmend aus der Anklageschrift referiert.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Der Prozess vor Geschworenen ist für 23. Oktober 2026 angesetzt, der Beschuldigte hat sich nach seiner Festnahme grundsätzlich geständig gezeigt und auf einen Einspruch gegen die Anklage verzichtet.",
+        "status": "supported",
+        "note": "Termin und Verzicht auf Einspruch werden von ORF und Kurier übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Staatsanwaltschaft Wien hat gegen einen 36-jährigen Mann beim Landesgericht für Strafsachen Wien Mordanklage erhoben. Ihm wird vorgeworfen, im Frühjahr einen mit ihm befreundeten 41-Jährigen in dessen bzw. seiner eigenen Wohnung in Wien-Penzing im Zuge eines Streits erwürgt zu haben. Die Leiche blieb den Berichten zufolge wochenlang in der Wohnung zurück und wurde erst in der Nacht auf den 3. April entdeckt, nachdem Nachbarn wegen des Verwesungsgeruchs die Polizei alarmiert hatten. Die stark verweste Leiche war laut Anklage unter dem Bett des Angeklagten abgelegt."
+      },
+      {
+        "heading": "Was die Anklage schildert",
+        "markdown": "Nach den in den Medienberichten wiedergegebenen Angaben der Anklageschrift trafen sich die beiden befreundeten Männer zum Konsum von Alkohol und Drogen-Ersatz-Präparaten in einer Wohnung. Ein Streit soll entstanden sein, weil einer der beiden versehentlich eine noch gefüllte Wodkaflasche umstieß. Der spätere Getötete habe dem Beschuldigten dabei zunächst mit einer leeren Bierflasche eine Kopfverletzung zugefügt, was diesen laut Staatsanwalt „in Rage“ versetzt habe. Der 36-Jährige soll daraufhin seinerseits mit einer Bierflasche zugeschlagen haben, worauf der andere Mann stürzte, und ihn schließlich gewürgt haben, bis er sich nicht mehr rührte. Diese Abfolge ist bislang eine Anklagebehauptung – ob eine vorsätzliche Tötung im Sinne von Mord oder ein anderes Delikt vorliegt, soll erst der Prozess vor Geschworenen klären."
+      },
+      {
+        "heading": "Gerichtsmedizinischer Befund",
+        "markdown": "Ein Gerichtsmediziner stellte laut übereinstimmenden Berichten als Todesursache eine Halskompression infolge längeren Würgens fest. Der Kurier berichtet unter Berufung auf die Anklageschrift zusätzlich, dass bei der Obduktion Schnittverletzungen im Hals- und Nackenbereich festgestellt wurden, deren Entstehungszeitpunkt nicht restlos geklärt sei – ein Versuch der postmortalen Abtrennung könne laut Anklageschrift nicht ausgeschlossen werden. Am Tatort soll zudem eine abgebrochene Messerklinge sichergestellt worden sein. Diese Details stammen aus der Anklageschrift und wurden nicht durch eigene Einsicht in Gerichtsdokumente bestätigt."
+      },
+      {
+        "heading": "Zurechnungsfähigkeit und Unterbringungsantrag",
+        "markdown": "Die Anklage geht laut den Berichten von grundsätzlicher Schuldfähigkeit aus, räumt dem Beschuldigten aber eine zum Tatzeitpunkt erhebliche Berauschung sowie eine schwere Persönlichkeits- und Verhaltensstörung ein, die einem psychiatrischen Gutachten zufolge auf langjährigen Drogen- und Alkoholmissbrauch zurückgehe. Das zielgerichtete Verhalten nach der Tat spreche laut Gutachten dennoch für Zurechnungsfähigkeit, allenfalls für eine verminderte Steuerungsfähigkeit. Der Gutachter stufte den Mann zugleich als gefährlich ein, weshalb die Anklage gemäß § 21 Absatz 2 StGB seine Unterbringung in einem forensisch-therapeutischen Zentrum beantragt. Der Beschuldigte selbst hat sich nach seiner Festnahme den Berichten zufolge grundsätzlich geständig gezeigt, verwies aber auf Erinnerungslücken. Auf einen Einspruch gegen die Anklage wurde verzichtet."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie die Geschworenen die Tat rechtlich einordnen werden – ob als Mord, als anderes Tötungsdelikt oder im Rahmen einer Unterbringung ohne klassischen Schuldspruch. Eine eigene Stellungnahme der Verteidigung über den Verzicht auf Einspruch hinaus liegt bislang nicht vor, ebenso wenig Reaktionen aus dem Umfeld des Opfers. Die verwendeten Quellen stützen sich durchgehend auf dieselbe, den Medien vorliegende Anklageschrift; eine davon unabhängige Bestätigung der Details lag für diesen Artikel nicht vor."
+      }
+    ],
+    "bodyKompakt": "Die Staatsanwaltschaft Wien hat gegen einen 36-jährigen Mann Mordanklage erhoben. Er soll im Frühjahr einen befreundeten 41-Jährigen in einer Wohnung in Wien-Penzing im Zuge eines eskalierten Streits um eine umgestoßene Wodkaflasche erwürgt haben. Die stark verweste Leiche wurde laut übereinstimmenden Berichten erst in der Nacht auf den 3. April entdeckt, nachdem Nachbarn wegen des Geruchs die Polizei alarmiert hatten; sie war unter dem Bett des Beschuldigten abgelegt. Ein Gerichtsmediziner stellte als Todesursache eine Halskompression durch längeres Würgen fest.\n\nLaut Anklage war der 36-Jährige zur Tatzeit erheblich berauscht und leidet einem psychiatrischen Gutachten zufolge an einer schweren Persönlichkeits- und Verhaltensstörung. Die Anklage geht dennoch von Schuldfähigkeit aus, beantragt aber wegen attestierter Gefährlichkeit seine Unterbringung in einem forensisch-therapeutischen Zentrum. Der Mann zeigte sich nach seiner Festnahme grundsätzlich geständig und verzichtete auf einen Einspruch gegen die Anklage.\n\nDer Prozess vor Geschworenen ist für 23. Oktober angesetzt. Offen ist, wie das Gericht die Tat rechtlich qualifizieren wird; Stellungnahmen der Verteidigung über den Einspruchsverzicht hinaus oder Reaktionen des Opferumfelds liegen bislang nicht vor.",
+    "updateNote": null,
+    "pendingOutcome": "Ausgang des für 23. Oktober 2026 vor Geschworenen angesetzten Prozesses, insbesondere die rechtliche Qualifikation der Tat und eine mögliche Unterbringung im Maßnahmenvollzug."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-14T12:07:32.240Z"
+}
