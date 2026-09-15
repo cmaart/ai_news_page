@@ -1,0 +1,213 @@
+{
+  "cluster": {
+    "id": "cluster-20260915-84ef604b",
+    "title": "Flughafen-Chefs schlagen Alarm: 2 Millionen Passagiere weniger",
+    "items": [
+      {
+        "itemId": "e2ab9a0816de3d5ea42784a58f3ffe18f44c81d630447dcb5f3f4acd0ae3c902",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Flughafen-Chefs schlagen Alarm: 2 Millionen Passagiere weniger",
+        "url": "https://kurier.at/wirtschaft/flughafen-chefs-schlagen-alarm-2-millionen-passagiere-weniger/403190972",
+        "summary": "Passagierzahlen konstant  im Sinkflug, dringende Forderung an die Regierung nach Halbierung der Ticketsteuer",
+        "publishedAt": "2026-09-15T12:58:08.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "b5237fc736bd65a4b59602b69e69cd3a73992e0745aca1f8f4930009034d8d2c",
+        "sourceId": "kurier_wirtschaft",
+        "sourceType": "media",
+        "title": "Flughafen-Chefs schlagen Alarm: 2 Millionen Passagiere weniger",
+        "url": "https://kurier.at/wirtschaft/flughafen-chefs-schlagen-alarm-2-millionen-passagiere-weniger/403190972",
+        "summary": "Passagierzahlen konstant  im Sinkflug, dringende Forderung an die Regierung nach Halbierung der Ticketsteuer",
+        "publishedAt": "2026-09-15T12:58:08.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "7e989670bd2c757aba8e87aae67a959f0e3c9f778a1d4ca97466394590d8a23a",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Flughafen: Weniger Passagiere im Sommer",
+        "url": "https://noe.orf.at/stories/3371230",
+        "isNew": false
+      },
+      {
+        "itemId": "b4b26cdc312db5e5019466821a5dafa7617a5aab5f1beb4f6b4df156d14d4873",
+        "sourceId": "orf_noe",
+        "sourceType": "media",
+        "title": "Flughafen: Weniger Passagiere im Sommer",
+        "url": "https://noe.orf.at/stories/3371230",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Konkrete Flughafen-Passagierzahlen (ORF: 6,3 Mio. Juli–August, −5,8% YoY; August −6,9%) mit Ursachenerklärung (Billigflug-Rückgang, Nahost-Situation). Österreich-Infrastruktur mit öffentlicher Relevanz. ORF-Fulltext substanzhaltig; Kurier-Schlagzeile »2 Millionen weniger« und Ticketsteuer-Forderung ohne Fulltext nicht verifizierbar — Kandidat für Recherche nach Originalquellen (Flughafen-Pressekonferenz, Regierungs-Schreiben). Zwei unabhängige Portale (Kurier, ORF), kein bestehender Artikel zum Fortsetzen.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Wien-Schwechat abgefertigte 6,3 Millionen Passagiere in Juli und August 2026",
+      "Das Passagieraufkommen lag um 5,8 Prozent unter dem Niveau des Vorjahrs",
+      "Im August 3,17 Millionen Passagiere, ein Rückgang von 6,9 Prozent gegenüber Vorjahr",
+      "Rückgang bei Nahost-Verbindungen um knapp 13 Prozent",
+      "Ursachen: reduzierte Flugverbindungen aufgrund Nahost-Situation, geringeres Angebot von Billigfluglinien",
+      "Ryanair und Wizz Air haben ihr Angebot in Wien zurückgefahren",
+      "Flughafen-Chefs fordern Halbierung der Ticketsteuer"
+    ],
+    "missingSources": [
+      "Primärkontakt zu Flughafen-Chefs / Gremium, das Ticketsteuer-Forderung formuliert hat",
+      "Originaltext / Zitate der Ticketsteuer-Forderung (Pressekonferenz, Schreiben, Datum)",
+      "Erläuterung der Schlagzahl »2 Millionen Passagiere weniger« (Zeitraum, Basis, Hochrechnung?)",
+      "Reaktion / Stellungnahme des Finanzministeriums oder der Regierung zur Steuerforderung"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "flughafen-wien-passagierrueckgang-sommer-2026",
+    "title": "Flughafen Wien-Schwechat: Passagierzahlen im Sommer 2026 um 5,8 Prozent gesunken",
+    "description": "Am Flughafen Wien-Schwechat wurden im Juli und August 2026 rund 6,3 Millionen Passagiere abgefertigt, im August allein sank die Zahl um 6,9 Prozent. Ein Kurier-Bericht spricht zusätzlich von einer Forderung der Flughafenverantwortlichen nach einer Halbierung der Ticketsteuer, die sich aus den vorliegenden Quellen aber nicht im Detail nachvollziehen lässt.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Die Kernzahlen zum Passagierrückgang stammen aus einem ORF-Bericht mit Agenturkennzeichnung und sind damit solide belegt, während die vom Kurier gemeldete Zahl 'rund 2 Millionen Passagiere weniger' und die Forderung nach einer Ticketsteuer-Halbierung bislang nur aus einer einzigen Quelle ohne Volltext stammen.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine offizielle Aussendung des Flughafens Wien, des Verbands AÖV oder einer Behörde direkt gelesen, sondern ausschließlich Medienberichte ausgewertet.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Passagierstatistik ist neutral berichtet, die Forderung nach einer niedrigeren Ticketsteuer wird aber nur aus Sicht der Flughafenbranche wiedergegeben; eine Stellungnahme von Regierung oder Finanzministerium liegt in den Quellen nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Am Flughafen Wien-Schwechat wurden im Juli und August 2026 rund 6,3 Millionen Passagiere abgefertigt – 5,8 Prozent weniger als im Vorjahressommer.",
+        "kind": "fact"
+      },
+      {
+        "text": "Im August allein sank das Passagieraufkommen auf rund 3,17 Millionen, ein Minus von 6,9 Prozent; Verbindungen in den Nahen und Mittleren Osten gingen um knapp 13 Prozent zurück.",
+        "kind": "fact"
+      },
+      {
+        "text": "Als Ursachen nennt der Flughafen ein geringeres Angebot von Billigfluglinien wie Ryanair und Wizz Air sowie reduzierte Nahost-Verbindungen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein Kurier-Bericht spricht zusätzlich von rund 2 Millionen Passagieren weniger und einer Forderung der Flughafen-Verantwortlichen nach einer Halbierung der Ticketsteuer – Zeitraum, Berechnungsbasis und Urheber der Forderung bleiben aus den vorliegenden Quellen unklar.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob und wie die Regierung auf eine mögliche Forderung nach niedrigerer Ticketsteuer reagiert, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Auf welchen Zeitraum und welche Vergleichsbasis bezieht sich die vom Kurier genannte Zahl von 'rund 2 Millionen Passagieren weniger'?",
+      "Wer genau – Flughafen Wien AG allein, der Verband AÖV oder mehrere österreichische Flughäfen gemeinsam – hat die Forderung nach einer Ticketsteuer-Halbierung erhoben, und in welchem Rahmen (Pressekonferenz, Schreiben) geschah dies?",
+      "Wie reagieren Regierung bzw. Finanzministerium auf eine solche Forderung?",
+      "Wie wirkt sich der anhaltende Passagierrückgang mittelfristig auf Streckenangebot und Beschäftigung am Flughafen Wien aus?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier: \"Flughafen-Chefs schlagen Alarm: 2 Millionen Passagiere weniger\"",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/flughafen-chefs-schlagen-alarm-2-millionen-passagiere-weniger/403190972"
+      },
+      {
+        "id": "src2",
+        "name": "noe.ORF.at: \"Flughafen: Weniger Passagiere im Sommer\"",
+        "type": "media",
+        "url": "https://noe.orf.at/stories/3371230"
+      },
+      {
+        "id": "src3",
+        "name": "Austrian Wings: \"Erstes Halbjahr 2026: Österreichs Verkehrsflughäfen zählen rund 16,4 Mio. Passagiere (-2,6%)\"",
+        "type": "media",
+        "url": "https://www.austrianwings.info/2026/08/erstes-halbjahr-2026-oesterreichs-verkehrsflughaefen-zaehlen-rund-164-mio-passagiere-26"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der Flughafen Wien-Schwechat fertigte im Juli und August 2026 rund 6,3 Millionen Passagiere ab, ein Rückgang von 5,8 Prozent gegenüber dem Vorjahressommer.",
+        "status": "supported",
+        "note": "Basiert auf einem ORF-Bericht, der laut Byline auch Agenturmaterial einbindet.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Im August 2026 wurden rund 3,17 Millionen Passagiere gezählt, ein Rückgang von 6,9 Prozent gegenüber dem Vorjahr.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Bei Flugverbindungen in den Nahen und Mittleren Osten gingen die Passagierzahlen um knapp 13 Prozent zurück.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Als Gründe für den Rückgang nennt der Flughafen ein reduziertes Angebot von Billigfluglinien wie Ryanair und Wizz Air sowie weniger Nahost-Verbindungen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Flughafen-Verantwortliche fordern laut Kurier eine Halbierung der Ticketsteuer, nachdem die Passagierzahlen um rund 2 Millionen gesunken seien.",
+        "status": "partial",
+        "note": "Nur durch die Kurier-Schlagzeile und Kurzzusammenfassung belegt, kein Volltext gelesen; Zeitraum, Berechnungsbasis und genauer Urheber der Forderung sind unklar.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Während das Passagieraufkommen am Standort Wien von Jänner bis August 2026 um 4 Prozent auf rund 20,6 Millionen sank, stieg es in der gesamten Flughafen-Wien-Gruppe (inklusive Malta und Košice) im selben Zeitraum um 1,1 Prozent auf knapp 29 Millionen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Hauptreisezeit am Flughafen Wien-Schwechat ist mit spürbar weniger Passagieren zu Ende gegangen als im Vorjahr. Laut einem Bericht von noe.ORF.at wurden im Juli und August 2026 insgesamt rund 6,3 Millionen Menschen abgefertigt – ein Rückgang von 5,8 Prozent gegenüber dem Vorjahressommer. Besonders deutlich fiel der Einbruch im August aus: Mit rund 3,17 Millionen Passagieren lag das Aufkommen um 6,9 Prozent unter dem Vorjahreswert. Parallel dazu berichtete der Kurier unter dem Titel \"Flughafen-Chefs schlagen Alarm\" von einem Rückgang um rund 2 Millionen Passagiere und einer Forderung der Flughafenverantwortlichen an die Regierung, die Ticketsteuer zu halbieren."
+      },
+      {
+        "heading": "Die Zahlen im Detail",
+        "markdown": "Besonders stark gingen laut dem ORF-Bericht die Passagierzahlen bei Flügen in den Nahen und Mittleren Osten zurück – um knapp 13 Prozent. Auch Verbindungen nach Ost- und Westeuropa verzeichneten weniger Reisende. Zulegen konnten hingegen Strecken nach Afrika und in den Fernen Osten. Als Ursachen für den Gesamtrückgang nennt der Flughafen unter anderem die reduzierten Flugverbindungen infolge der Situation im Nahen Osten sowie ein geringeres Angebot von Billigfluglinien: Ryanair und Wizz Air haben ihre Kapazitäten in Wien-Schwechat zuletzt zurückgefahren. Innerhalb der gesamten Flughafen-Wien-Gruppe, zu der neben Wien auch die Flughäfen Malta und Košice zählen, verlief die Entwicklung uneinheitlich: Während Wien im August ein Minus verzeichnete, stiegen die Passagierzahlen in Malta um 12,3 Prozent und in Košice um 18,8 Prozent. Insgesamt zählte die Gruppe im August rund 4,5 Millionen Reisende, 1,7 Prozent weniger als im Vorjahr. Von Jänner bis August wurden in Wien rund 20,6 Millionen Passagiere gezählt, ein Minus von vier Prozent – während die gesamte Gruppe mit knapp 29 Millionen Reisenden im selben Zeitraum ein Plus von 1,1 Prozent verbuchte. Trotz der rückläufigen Zahlen blieb das Aufkommen an einzelnen Tagen hoch: Der stärkste Reisetag des Sommers war der 1. August mit mehr als 110.000 Passagieren."
+      },
+      {
+        "heading": "Forderung nach niedrigerer Ticketsteuer",
+        "markdown": "Der Kurier berichtet, Flughafen-Verantwortliche würden angesichts der sinkenden Passagierzahlen eine Halbierung der Ticketsteuer fordern. Aus der vorliegenden Kurzzusammenfassung geht jedoch nicht hervor, wer genau diese Forderung erhoben hat, in welchem Rahmen dies geschah und auf welchen Zeitraum sich die genannten \"2 Millionen Passagiere weniger\" beziehen. Eine solche Forderung würde sich in eine bereits länger laufende Debatte einfügen: Der Verband der österreichischen Verkehrsflughäfen (AÖV) hatte laut einem Bericht von Austrian Wings bereits im Sommer 2026 nach einem Passagierrückgang von 2,6 Prozent an den sechs heimischen Verkehrsflughäfen im ersten Halbjahr eine Senkung der Flugabgabe gefordert und ein von der Regierung angekündigtes Förderpaket von 30 Millionen Euro pro Jahr für die Doppelbudgets 2027/28 als ersten Schritt begrüßt, der nun für eine Abgabensenkung genutzt werden solle. Ob die im Kurier zitierte Forderung nach einer \"Halbierung\" der Ticketsteuer mit dieser älteren Position identisch ist oder eine neue, konkretere Zuspitzung darstellt, lässt sich aus den vorliegenden Quellen nicht abschließend beurteilen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt, auf welche Berechnungsgrundlage sich die Kurier-Zahl von rund 2 Millionen Passagieren weniger stützt und ob sie sich auf den Sommer, das laufende Jahr oder einen anderen Zeitraum bezieht. Ebenso unklar ist, welche Institution oder Personen konkret hinter der Forderung nach einer Ticketsteuer-Halbierung stehen und ob es dazu bereits eine Reaktion von Regierung oder Finanzministerium gibt. Auch der genaue Grad einer solchen Halbierung – bezogen auf welchen bestehenden Steuersatz – ist aus den vorliegenden Quellen nicht ersichtlich."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Rückgang bei Wien-Schwechat reiht sich in einen bereits breiter dokumentierten Trend ein: Österreichs Verkehrsflughäfen verzeichneten laut Branchenangaben im ersten Halbjahr 2026 insgesamt einen Passagierrückgang von 2,6 Prozent, während europäische Flughäfen im selben Zeitraum im Schnitt wuchsen. Auch beim Flughafen Linz, dessen Eigentümerstruktur sich laut einem eigenen Artikel dieser Seite zuletzt änderte, wurde vermerkt, dass schwächelnde Passagierzahlen und eine von der FPÖ geforderte strategische Neuausrichtung den weiteren Kurs beeinflussen könnten. Ob und wie stark hohe Abgaben tatsächlich Ursache für die Verlagerung von Fluglinien wie Ryanair und Wizz Air in Richtung anderer Standorte sind, bleibt Gegenstand der politischen Debatte, die sich aus den hier vorliegenden Quellen nicht abschließend beurteilen lässt."
+      }
+    ],
+    "bodyKompakt": "Am Flughafen Wien-Schwechat ist die Zahl der Passagiere im Sommer 2026 deutlich gesunken. Laut einem Bericht von noe.ORF.at wurden im Juli und August rund 6,3 Millionen Menschen abgefertigt, 5,8 Prozent weniger als im Vorjahr. Im August allein lag das Minus bei 6,9 Prozent, bei Nahost-Verbindungen sogar bei knapp 13 Prozent. Als Ursachen nennt der Flughafen reduzierte Angebote von Billigfluglinien wie Ryanair und Wizz Air sowie die Situation im Nahen Osten. Innerhalb der Flughafen-Wien-Gruppe entwickelten sich Malta und Košice gegenläufig positiv.\n\nEin Kurier-Bericht spricht zusätzlich von rund 2 Millionen Passagieren weniger und einer Forderung von Flughafen-Verantwortlichen an die Regierung, die Ticketsteuer zu halbieren. Wer genau diese Forderung erhoben hat und auf welchen Zeitraum sich die genannte Zahl bezieht, lässt sich aus der vorliegenden Kurzmeldung nicht klären. Die Forderung passt zu einer bereits länger laufenden Debatte: Der Flughafenverband AÖV hatte schon im Sommer 2026 wegen sinkender Passagierzahlen eine Senkung der Flugabgabe verlangt.\n\nOffen bleibt vor allem, wie die Regierung auf eine mögliche neue Forderung reagiert und wie sich die Entwicklung auf Streckenangebot und Standort mittelfristig auswirkt.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-15T18:07:44.189Z"
+}
