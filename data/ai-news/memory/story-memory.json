@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T18:25:41.931Z",
+  "updatedAt": "2026-09-15T20:24:27.595Z",
   "stories": {
     "ukraine-raffinerien-angriff-russland-juli-2026": {
       "canonicalTitle": "Ukraine und Russland griffen einander mehrfach an: Raffinerien, Wildberries, Kiew, Slowjansk, Sumy, ein Feriengelände in Saporischschja, eine schwere Angriffswelle Ende Juli 2026, neue tödliche Angriffe auf Saporischschja und Cherson Anfang August 2026, ein von Selenskyj als Drohnen-„Safari“ angeprangertes Video aus Cherson, neue tödliche Angriffe auf Sumy und Balaklija und ein Frachtschiff vor Odessa am 6. August 2026 sowie am 7. August 2026 ein brennendes Wildberries-Lager in Jekaterinburg, tödliche Raketenangriffe auf Isjum und ein getroffenes Fußballstadion in Odessa, am 10. August 2026 von Russland gemeldete, von der Ukraine nicht bestätigte Geländegewinne in der Region Donezk sowie neue Bombenangriffe auf Sumy, und am 17. August 2026 neue tödliche Drohnenangriffe auf Saporischschja und Odessa sowie von Russland gemeldete Angriffe auf zwei Frachtschiffe bei Odessa und Mykolajiw",
@@ -18408,9 +18408,9 @@
       "doNotRedraftBefore": "2026-09-13T12:07:32.597Z",
       "doNotUpdateBefore": "2026-09-12T18:07:32.597Z",
       "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-13T14:07:29.106Z"
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-15T20:07:27.271Z"
     },
     "schweden-parlamentswahl-mitte-links-vorne-september-2026": {
       "canonicalTitle": "Schweden-Wahl: Mitte-links-Lager liegt nach Auszählung knapp vor Rechtsblock",
@@ -18593,11 +18593,12 @@
       "doNotUpdateBefore": "2026-09-14T18:07:32.240Z",
       "echoPublishers": {
         "apa": "2026-09-15T10:07:38.299Z",
-        "kleinezeitung": "2026-09-15T18:07:51.427Z"
+        "kleinezeitung": "2026-09-15T18:07:51.427Z",
+        "orf": "2026-09-15T20:07:29.312Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-15T08:07:30.796Z"
+      "resonanceMeasuredAt": "2026-09-15T20:07:27.271Z"
     },
     "regierung-neue-ki-strategie-september-2026": {
       "canonicalTitle": "Stocker beauftragt Pröll mit neuer KI-Strategie für Österreich",
@@ -19744,6 +19745,120 @@
         "Vergleich mit Vorjahren oder historischer Trend bei Schulweglängen"
       ],
       "sensitivity": "low"
+    },
+    "kennedy-center-schliessung-ankuendigung-trump-september-2026": {
+      "canonicalTitle": "Kennedy Center: Trump kündigt sofortige Schließung an, Umbau bleibt an Gerichtsurteil geknüpft",
+      "slug": "kennedy-center-schliessung-ankuendigung-trump-september-2026",
+      "firstSeenAt": "2026-09-15T20:07:27.271Z",
+      "lastUpdatedAt": "2026-09-15T20:07:27.271Z",
+      "status": "published",
+      "articlePath": "src/content/articles/kennedy-center-schliessung-ankuendigung-trump-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-15/kennedy-center-schliessung-ankuendigung-trump-september-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3442290",
+        "https://www.derstandard.at/story/3000000339956/trump-k252ndigt-sofortige-schlie223ung-des-kennedy-centers-an",
+        "https://www.diepresse.com/41266236/trump-will-kennedy-center-umgehend-schliessen",
+        "https://kurier.at/politik/ausland/trump-kuendigt-sofortige-schliessung-des-kennedy-centers-an/403191030",
+        "https://www.kleinezeitung.at/artikel/41266246/trump-kuendigt-sofortige-schliessung-des-kennedy-centers-an",
+        "https://orf.at/stories/3442105",
+        "https://www.cp24.com/news/world/2026/09/15/kennedy-center-board-votes-to-close-over-financial-woes-trump-branding-dispute-ap-sources/",
+        "https://www.npr.org/2026/07/08/nx-s1-5886099/appeals-court-denies-president-trumps-request-to-halt-removing-his-name-from-the-kennedy-center"
+      ],
+      "openQuestions": [
+        "Wann entscheidet der US Court of Appeals for the D.C. Circuit in der Hauptsache über die vom Verwaltungsrat beschlossene Umbenennung des Kennedy Centers?",
+        "Wird die angekündigte sofortige Schließung tatsächlich umgesetzt, obwohl laut Trumps eigener Ankündigung die Bauarbeiten erst nach dem Berufungsurteil beginnen sollen?",
+        "Ging der Ankündigung, wie internationale Agenturmeldungen berichten, ein Beschluss des Verwaltungsrats wegen drohender finanzieller Notlage voraus?",
+        "Welche konkreten Sicherheitsmängel meint Trump mit seiner Begründung für die Schließung?",
+        "Äußert sich die Leitung des Kennedy Centers offiziell zu Ablauf, Zeitplan und Auswirkungen der angekündigten Schließung auf Veranstaltungen und Beschäftigte?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-16T20:07:27.271Z",
+      "doNotUpdateBefore": "2026-09-16T02:07:27.271Z",
+      "pendingOutcome": "Entscheidung des US Court of Appeals for the D.C. Circuit in der Hauptsache zur Umbenennung des Kennedy Centers sowie die tatsächliche Umsetzung der angekündigten sofortigen Schließung.",
+      "pendingOutcomeUntil": "2026-09-17T20:07:27.271Z",
+      "echoPublishers": {
+        "orf": "2026-09-15T20:07:29.312Z",
+        "derstandard": "2026-09-15T20:07:33.168Z",
+        "diepresse": "2026-09-15T20:07:31.708Z",
+        "kurier": "2026-09-15T20:07:31.287Z",
+        "kleinezeitung": "2026-09-15T20:07:33.682Z"
+      },
+      "resonanceLevel": 5,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-15T20:07:27.271Z"
+    },
+    "kuenstler-kindesmissbrauchsverdacht-wien-september-2026": {
+      "canonicalTitle": "Staatsanwaltschaft Wien ermittelt gegen bekannten heimischen Künstler wegen Missbrauchsverdachts",
+      "slug": "kuenstler-kindesmissbrauchsverdacht-wien-september-2026",
+      "firstSeenAt": "2026-09-15T20:07:27.271Z",
+      "lastUpdatedAt": "2026-09-15T20:07:27.271Z",
+      "status": "published",
+      "articlePath": "src/content/articles/kuenstler-kindesmissbrauchsverdacht-wien-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-15/kuenstler-kindesmissbrauchsverdacht-wien-september-2026.json",
+      "sourceUrls": [
+        "https://www.derstandard.at/story/3000000339952/bekannter-heimischer-k252nstler-unter-kindesmissbrauchsverdacht",
+        "https://kurier.at/chronik/oesterreich/kindesmissbrauch-tv-star-kuenstler-ermittlungen/403191027",
+        "https://www.kleinezeitung.at/artikel/41266192/bekannter-heimischer-kuenstler-soll-stieftochter-missbraucht-haben"
+      ],
+      "openQuestions": [
+        "Wer ist der beschuldigte Künstler, und wird sein Name im Zuge eines möglichen Verfahrensfortgangs öffentlich?",
+        "Treffen die berichteten Vorwürfe zu, wonach die Mutter des mutmaßlichen Opfers den Beschuldigten erpresst haben soll?",
+        "Wurde bei einer Hausdurchsuchung tatsächlich Bildmaterial sichergestellt, und in welchem Umfang?",
+        "Wie ist der aktuelle Stand des Ermittlungsverfahrens, und kommt es zu einer Anklage?",
+        "In welchem genauen Zeitraum sollen sich die mutmaßlichen Taten zugetragen haben?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-16T20:07:27.271Z",
+      "doNotUpdateBefore": "2026-09-16T02:07:27.271Z",
+      "pendingOutcome": "Ausgang des Ermittlungsverfahrens der Staatsanwaltschaft Wien (etwa Anklageerhebung oder Einstellung).",
+      "pendingOutcomeUntil": "2026-09-17T20:07:27.271Z",
+      "echoPublishers": {
+        "derstandard": "2026-09-15T20:07:30.759Z",
+        "kurier": "2026-09-15T20:07:31.513Z",
+        "kleinezeitung": "2026-09-15T20:07:33.399Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-15T20:07:27.271Z"
+    },
+    "musk-klage-apple-fallen-openai-september-2026": {
+      "canonicalTitle": "Musk lässt Wettbewerbsklage gegen Apple fallen – Verfahren gegen OpenAI läuft weiter",
+      "slug": "musk-klage-apple-fallen-openai-september-2026",
+      "firstSeenAt": "2026-09-15T20:07:27.271Z",
+      "lastUpdatedAt": "2026-09-15T20:07:27.271Z",
+      "status": "published",
+      "articlePath": "src/content/articles/musk-klage-apple-fallen-openai-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-15/musk-klage-apple-fallen-openai-september-2026.json",
+      "sourceUrls": [
+        "https://www.heise.de/news/Grok-nicht-gehypet-Musk-laesst-Klage-gegen-Apple-fallen-11454459.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.kleinezeitung.at/artikel/41263275/musk-laesst-wettbewerbsklage-gegen-apple-fallen",
+        "https://www.diepresse.com/41263306/musk-laesst-wettbewerbsklage-gegen-apple-fallen",
+        "https://www.derstandard.at/story/3000000339809/musk-l228sst-wettbewerbsklage-gegen-apple-fallen",
+        "https://futurezone.at/b2b/elon-musk-wettbewerbsklage-apple-openai-chatbot-grok-ki-monopol/403190815",
+        "https://www.golem.de/news/grok-musk-laesst-klage-gegen-apple-fallen-2609-213024.html",
+        "https://www.courtlistener.com/docket/71191818/x-corp-v-apple-inc/"
+      ],
+      "openQuestions": [
+        "Welche Bedingungen haben Musks Firmen und Apple bei der Einigung vereinbart – etwa eine Änderung der App-Store-Praxis oder eine Zahlung?",
+        "Warum hat Musk gerade jetzt entschieden, nur die Klage gegen Apple fallen zu lassen?",
+        "Wie geht das Verfahren gegen die OpenAI-Gruppe konkret weiter, und wie reagiert OpenAI öffentlich auf die Fortführung?",
+        "Wie entwickelt sich die separate Gegenklage OpenAIs gegen Musk wegen mutmaßlicher Rufschädigung weiter?",
+        "Nimmt Apple selbst öffentlich Stellung zur Einigung oder zu den ursprünglichen Vorwürfen?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-09-16T20:07:27.271Z",
+      "doNotUpdateBefore": "2026-09-16T02:07:27.271Z",
+      "echoPublishers": {
+        "heise": "2026-09-15T20:07:32.781Z",
+        "kleinezeitung": "2026-09-15T02:07:52.942Z",
+        "diepresse": "2026-09-15T04:07:37.381Z",
+        "derstandard": "2026-09-15T06:07:32.338Z",
+        "futurezone": "2026-09-15T08:07:34.859Z",
+        "golem": "2026-09-15T10:07:40.514Z"
+      },
+      "resonanceLevel": 5,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-15T20:07:27.271Z"
     }
   }
 }
