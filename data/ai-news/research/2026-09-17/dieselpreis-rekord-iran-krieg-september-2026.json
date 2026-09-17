@@ -1,0 +1,241 @@
+{
+  "cluster": {
+    "id": "cluster-20260917-252d730a",
+    "title": "Inflation stieg im August auf 3,2 Prozent",
+    "items": [
+      {
+        "itemId": "ee245020c801909faca0202994ffa66e87c53d485ff27c6f8240ab7d47ace3ab",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Inflation stieg im August auf 3,2 Prozent",
+        "url": "https://orf.at/stories/3442416",
+        "publishedAt": "2026-09-17T07:34:03.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "aaa078c609639b525ad2e4ac80244206010af5cb3297e441afd46a4f9680dfac",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Inflation im August auf 3,2 Prozent gestiegen",
+        "url": "https://www.diepresse.com/41269514/inflation-im-august-auf-3-2-prozent-gestiegen",
+        "summary": "Diesel, Heizöl und Benzin kosteten im August um 26,3 Prozent mehr als im Vorjahresmonat.",
+        "publishedAt": "2026-09-17T07:34:27.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "78ffeed706fe2d605b2f46f7d4bee1082e4e3a4184089c75800d82d46fee5de2",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "Inflation im August auf 3,2 Prozent gestiegen",
+        "url": "https://www.diepresse.com/41269514/inflation-im-august-auf-3-2-prozent-gestiegen",
+        "summary": "Diesel, Heizöl und Benzin kosteten im August um 26,3 Prozent mehr als im Vorjahresmonat.",
+        "publishedAt": "2026-09-17T07:34:27.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "6a697ee86dba1ae6c9db3b255177742914214312b48d29e86ec1d3e8e2a8e79d",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Inflation stieg im August auf 3,2 Prozent: Spritpreis befeuert Teuerung",
+        "url": "https://kurier.at/wirtschaft/inflation-gestiegen-august-2026-spritpreis/403191270",
+        "summary": "Die Inflationsrate ist im August in Österreich auf 3,2 Prozent. Dieselpreis steigt auf höchsten Wert seit März 2026.",
+        "publishedAt": "2026-09-17T07:18:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "6833200bf09d2dbac7375ae7a289366fd7a41fcde39a8743f6aa93c85e4d27d8",
+        "sourceId": "kurier_wirtschaft",
+        "sourceType": "media",
+        "title": "Inflation stieg im August auf 3,2 Prozent: Spritpreis befeuert Teuerung",
+        "url": "https://kurier.at/wirtschaft/inflation-gestiegen-august-2026-spritpreis/403191270",
+        "summary": "Die Inflationsrate ist im August in Österreich auf 3,2 Prozent, Preise für Diesel, Heizöl und Benzin um 26,3 Prozent höher als im August 2025.",
+        "publishedAt": "2026-09-17T07:18:00.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 1,
+  "triage": {
+    "action": "update_story",
+    "reason": "Bestätigung und Details zum bereits publizierten August-Inflationsbericht (3,2%, Dieselpreis-Rekord). Die Berichterstattung von ORF, Presse und Kurier zum gleichen Ereignis rechtfertigt Update statt neuer Artikel.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": 2,
+    "relatedSlug": "inflation-oesterreich-august-2026-3-2-prozent",
+    "possibleClaims": [
+      "Inflationsrate August 2026: 3,2% (Juli: 2,8%)",
+      "Treibstoffpreise +26,3% Jahresabstand (Aug. 2025 → 2026)",
+      "Dieselpreis 2,268 €/L neuer Höchstwert seit März 2026",
+      "Superbenzin 1,959 €/L, 14 Cent unter Juni-2022-Rekordhoch",
+      "Dienstleistungsbereich bleibt Inflations-Haupttreiber",
+      "Mehrwertsteuer-Senkung Grundnahrungsmittel (10% → 4,9%) wirkt bremsend"
+    ],
+    "missingSources": [
+      "Direktlink zu Statistik-Austria-Originaldaten (HVPI)",
+      "Verlinkung E-Control-Daten zu Dieselpreis-Trend und -Vergleich",
+      "Reaktion/Stellungnahme von Wirtschaftspolitikern zur Inflationsentwicklung"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "dieselpreis-rekord-iran-krieg-september-2026",
+    "title": "Dieselpreis auf Rekordhoch: Iran-Krieg treibt Spritpreise weiter an",
+    "description": "Der Dieselpreis in Österreich ist auf den höchsten Stand seit März 2026 gestiegen. Die endgültigen Zahlen bestätigen die August-Inflation von 3,2 Prozent – während Medienberichte den neuen Preisschub mit dem Krieg zwischen Iran und den USA in Verbindung bringen.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "medium",
+    "confidenceNote": "Die Bestätigung der August-Inflationsrate (3,2 Prozent) sowie der Dieselpreis-Höchststand stützen sich auf Statistik Austria bzw. E-Control-Daten, die über mehrere Medien übereinstimmend wiedergegeben werden. Der ursächliche Zusammenhang mit dem Krieg zwischen Iran und den USA sowie die genannten Kostenschätzungen (rund 50 Cent Preisanstieg, 1,1 Mrd. Euro Mehrkosten) stammen dagegen nur aus einzelnen Medienberichten ohne erkennbare Primärquelle und werden daher zurückhaltender eingestuft.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Für die Inflationsbestätigung liegt mit der Statistik-Austria-Schnellschätzung ein offizielles Dokument vor; die detaillierte August-Publikation vom 17.9. selbst wurde nicht direkt eingesehen. Die Diesel- und Benzinpreise stammen laut Medienberichten von E-Control- bzw. ÖAMTC-Daten, aber nur aus zweiter Hand über Medienartikel. Die Verknüpfung mit dem Iran-Krieg und die genannten Milliarden-Mehrkosten sind ausschließlich medienseitig belegt, eine amtliche oder behördliche Quelle dazu wurde nicht gefunden.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Verknüpfung von Kriegsereignissen im Nahen Osten mit heimischen Tankstellenpreisen birgt Risiko einer zugespitzten Kausal-Erzählung („Krieg macht Tanken teurer\"), obwohl die genauen Übertragungswege (Rohölpreis, Raffineriekapazitäten, Wechselkurs) komplexer sind, als es einzelne Medienberichte darstellen. Zahlen zu Mehrkosten und Cent-Anstiegen werden daher als Medienangaben gekennzeichnet, nicht als gesicherte Fakten.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Der Dieselpreis in Österreich ist laut E-Control-Daten auf 2,268 Euro je Liter gestiegen – der höchste Stand seit März 2026.",
+        "kind": "fact"
+      },
+      {
+        "text": "Statistik Austria hat mit der detaillierten August-Auswertung den bereits aus der Schnellschätzung bekannten Inflationswert von 3,2 Prozent bestätigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Treibstoffpreise lagen im August 2026 um 26,3 Prozent über dem Vorjahreswert; Superbenzin notierte bei 1,959 Euro je Liter, nahe dem bisherigen Rekord vom Juni 2022.",
+        "kind": "fact"
+      },
+      {
+        "text": "Mehrere Medien bringen den neuen Preisschub mit der Zuspitzung des Kriegs zwischen Iran und den USA sowie einem auf über 108 US-Dollar je Barrel gestiegenen Brent-Ölpreis in Verbindung – eine primärquellenseitige Bestätigung der kolportierten Mehrkosten liegt nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob sich der aktuelle Dieselpreis-Rekord bereits auf die September-Inflation auswirkt, lässt sich anhand der vorliegenden Daten noch nicht beurteilen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie stark schlägt sich der aktuelle Dieselpreis-Rekord auf die Inflationsrate im September nieder?",
+      "Bestätigen offizielle Stellen wie E-Control oder die OMV die in Medienberichten genannten Mehrkosten von rund 1,1 Milliarden Euro für Diesel seit Beginn des Kriegs zwischen Iran und den USA?",
+      "Setzt die Bundesregierung angesichts des neuerlichen Preisschubs zusätzliche Maßnahmen um, wie sie von ÖGB und Grünen bereits gefordert wurden?",
+      "Wie entwickelt sich der Brent-Ölpreis weiter, sollte sich der Konflikt zwischen Iran und den USA weiter zuspitzen oder entspannen?"
+    ],
+    "sources": [
+      {
+        "id": "orf",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3442416"
+      },
+      {
+        "id": "diepresse",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41269514/inflation-im-august-auf-3-2-prozent-gestiegen"
+      },
+      {
+        "id": "kurier",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/inflation-gestiegen-august-2026-spritpreis/403191270"
+      },
+      {
+        "id": "statistikaustria",
+        "name": "Statistik Austria (Schnellschätzung VPI August 2026)",
+        "type": "official",
+        "url": "https://www.statistik.at/fileadmin/announcement/2026/08/20260901VPIFlashEstimateAugust2026.pdf"
+      },
+      {
+        "id": "sn",
+        "name": "Salzburger Nachrichten (SN.at)",
+        "type": "media",
+        "url": "https://www.sn.at/wirtschaft/oesterreich/iran-krieg-kommt-oesterreich-bei-oel-und-gas-teuer-zu-stehen-art-670058"
+      },
+      {
+        "id": "meinbezirk",
+        "name": "MeinBezirk.at",
+        "type": "media",
+        "url": "https://www.meinbezirk.at/c-wirtschaft/iran-krieg-treibt-spritpreise-zum-teil-auf-rekordniveau_a8893573"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Der Dieselpreis in Österreich stieg laut E-Control-Daten auf durchschnittlich 2,268 Euro je Liter – den höchsten Wert seit März 2026.",
+        "status": "supported",
+        "note": "Übereinstimmend von ORF, Die Presse und Kurier unter Berufung auf E-Control-Daten berichtet.",
+        "sourceIds": [
+          "orf",
+          "diepresse",
+          "kurier"
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Superbenzin notierte laut ÖAMTC-Aussendung bei 1,959 Euro je Liter, rund 14 Cent unter dem bisherigen Rekord vom Juni 2022.",
+        "status": "supported",
+        "note": "Von ORF unter Berufung auf eine ÖAMTC-Aussendung berichtet; die Aussendung selbst wurde nicht direkt eingesehen.",
+        "sourceIds": [
+          "orf"
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Statistik Austria hat mit den detaillierten August-Daten den Wert von 3,2 Prozent Inflation bestätigt, der zuvor bereits in der Schnellschätzung Anfang September ausgewiesen worden war.",
+        "status": "supported",
+        "note": "Schnellschätzung liegt als offizielles Dokument vor; die Bestätigung durch die detaillierte Publikation vom 17.9. wird von ORF und Die Presse übereinstimmend berichtet.",
+        "sourceIds": [
+          "orf",
+          "diepresse",
+          "statistikaustria"
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Die Treibstoffpreise lagen im August 2026 um 26,3 Prozent über dem Wert vom August 2025.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "orf",
+          "diepresse",
+          "kurier"
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Der Preisschub bei Diesel und Benzin wird laut Medienberichten mit der Zuspitzung des Kriegs zwischen Iran und den USA sowie einem auf über 108 US-Dollar je Barrel gestiegenen Brent-Ölpreis in Verbindung gebracht.",
+        "status": "partial",
+        "note": "Nur durch einzelne Medienberichte (SN.at, MeinBezirk.at) belegt, keine amtliche oder unternehmensseitige Primärquelle gefunden; konservativ als 'partial' eingestuft, da geopolitisch-kausale Zuschreibung.",
+        "sourceIds": [
+          "sn",
+          "meinbezirk"
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "Seit Beginn des Kriegs zwischen Iran und den USA seien die Spritpreise laut Medienberichten um rund 50 Cent je Liter gestiegen, für Diesel sollen sich dadurch Mehrkosten von rund 1,1 Milliarden Euro (ohne Mehrwertsteuer) aufsummiert haben.",
+        "status": "unclear",
+        "note": "Nur aus einem Medienbericht (MeinBezirk.at) übernommen, keine unabhängige Bestätigung oder Primärquelle gefunden; Zahl wird als Medienangabe, nicht als gesicherter Fakt behandelt.",
+        "sourceIds": [
+          "meinbezirk"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Dieselpreis auf höchstem Stand seit März",
+        "markdown": "Der Dieselpreis in Österreich hat einen neuen Höchststand erreicht: Er stieg laut Daten der Regulierungsbehörde E-Control auf durchschnittlich 2,268 Euro je Liter – so hoch wie zuletzt im März 2026. Superbenzin notierte laut einer Aussendung des ÖAMTC bei 1,959 Euro je Liter und liegt damit nur noch rund 14 Cent unter dem bisherigen Rekord vom Juni 2022. Damit setzt sich eine Entwicklung fort, die bereits die August-Inflation geprägt hatte: Treibstoffe verteuerten sich im Jahresabstand um 26,3 Prozent, deutlich stärker als jede andere Warengruppe.\n\nGleichzeitig hat Statistik Austria mit der Veröffentlichung der detaillierten August-Zahlen den bereits aus der Schnellschätzung bekannten Wert bestätigt: Die Inflationsrate lag im August bei 3,2 Prozent, nach 2,8 Prozent im Juli. Der zuvor nur vorläufig ausgewiesene Wert gilt damit als amtlich festgeschrieben."
+      },
+      {
+        "heading": "Medienberichte verweisen auf Kriegsgeschehen im Nahen Osten",
+        "markdown": "Für den neuerlichen Preisschub bei Diesel und Benzin nennen mehrere Medien einen Zusammenhang mit der wieder angespannten Lage im Krieg zwischen Iran und den USA: Der Rohölpreis der Sorte Brent sei demnach zuletzt erstmals seit Mai wieder über 108 US-Dollar je Barrel gestiegen. Berichten zufolge hätten sich die Spritpreise seit Beginn des Konflikts um rund 50 Cent je Liter erhöht, für Diesel soll sich dadurch – ohne Mehrwertsteuer gerechnet – ein Mehrkostenvolumen von rund 1,1 Milliarden Euro aufsummiert haben.\n\nDiese Angaben stammen bislang ausschließlich aus einzelnen Medienberichten; eine amtliche Bestätigung etwa durch E-Control, die Ölwirtschaft oder eine wirtschaftspolitische Stelle liegt nicht vor. Sie sind daher als Berichtslage und nicht als gesicherte Fakten zu verstehen. In den offiziellen August-Inflationsdaten selbst sind die jüngsten Höchststände bei Diesel, Heizöl und Benzin laut Statistik Austria ohnehin noch gar nicht abgebildet – ihre Wirkung auf die Teuerungsrate würde frühestens in den September-Zahlen sichtbar."
+      },
+      {
+        "heading": "Vorgeschichte",
+        "markdown": "Wie im bisherigen Bericht zur August-Inflation dargestellt, war der Anstieg auf 3,2 Prozent bereits Anfang September als Schnellschätzung bekannt geworden, getragen von teureren Dienstleistungen und Energiepreisen sowie gedämpft durch die im Juli gesenkte Mehrwertsteuer auf Grundnahrungsmittel. Offen war dort unter anderem, wie stark sich Energiepreis-Entwicklungen am Persischen Golf mittelfristig auf die heimische Teuerung auswirken – ein Punkt, zu dem der aktuelle Dieselpreis-Rekord und seine mediale Verknüpfung mit dem Iran-Krieg nun erste, noch unbestätigte Anhaltspunkte liefern."
+      }
+    ],
+    "bodyKompakt": "Der Dieselpreis in Österreich ist auf 2,268 Euro je Liter gestiegen – den höchsten Stand seit März 2026, wie E-Control-Daten zeigen. Superbenzin liegt bei 1,959 Euro je Liter und nähert sich damit dem Rekord vom Juni 2022. Parallel dazu hat Statistik Austria mit der detaillierten August-Auswertung die bereits bekannte Inflationsrate von 3,2 Prozent amtlich bestätigt, nach 2,8 Prozent im Juli. Treibstoffe verteuerten sich im Jahresabstand um 26,3 Prozent und blieben damit der stärkste Preistreiber unter den Warengruppen.\n\nFür den neuen Preisschub verweisen mehrere Medien auf die wieder angespannte Lage im Krieg zwischen Iran und den USA: Der Brent-Ölpreis sei erstmals seit Mai wieder über 108 US-Dollar je Barrel gestiegen, die Spritpreise seit Kriegsbeginn um rund 50 Cent je Liter geklettert, mit geschätzten Mehrkosten von rund 1,1 Milliarden Euro allein bei Diesel. Diese Zahlen stammen bislang ausschließlich aus einzelnen Medienberichten, eine amtliche Bestätigung fehlt.\n\nWie im bisherigen Bericht zur August-Inflation dargestellt, war der 3,2-Prozent-Wert bereits als Schnellschätzung bekannt; offen blieb dort, wie stark sich Energiepreise am Persischen Golf auf die heimische Teuerung durchschlagen. Der aktuelle Dieselpreis-Rekord liefert dazu erste, noch unbestätigte Hinweise – ob sich der Effekt bereits in der September-Inflation niederschlägt, ist offen, da die jüngsten Höchststände in den August-Daten selbst noch nicht abgebildet sind.",
+    "updateNote": null,
+    "pendingOutcome": "Ob sich der aktuelle Dieselpreis-Rekord und die kolportierte Verbindung zum Krieg zwischen Iran und den USA in der September-Inflation niederschlagen und ob sich die genannten Mehrkosten-Schätzungen amtlich bestätigen lassen, ist derzeit offen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-17T08:07:34.580Z"
+}
