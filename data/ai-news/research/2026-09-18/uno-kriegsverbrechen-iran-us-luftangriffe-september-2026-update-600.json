@@ -1,0 +1,316 @@
+{
+  "cluster": {
+    "id": "cluster-20260918-ff70e686",
+    "title": "Weißes Haus kritisierte UNO-Bericht über US-Kriegsverbrechen",
+    "items": [
+      {
+        "itemId": "143e6af4ea97aaf49af63bab48df7c183c669a512300a78b89e9f6bce644f809",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Weißes Haus kritisierte UNO-Bericht über US-Kriegsverbrechen",
+        "url": "https://orf.at/stories/3442498",
+        "publishedAt": "2026-09-18T04:16:28.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "a5cfd888e2e9e4fcc54edd78a3709193b88986c055d1b31856f196b5dfd63697",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Weißes Haus kritisierte UN-Bericht über US-Kriegsverbrechen im Iran",
+        "url": "https://www.derstandard.at/story/3000000340312/wei223es-haus-kritisierte-un-bericht-252ber-us-kriegsverbrechen",
+        "summary": "Es gibt laut UN-Mission die begründete Annahme, dass die USA für zwei Militärschläge gegen eine Schule und eine Sportstätte im Iran im Februar verantwortlich sind",
+        "publishedAt": "2026-09-18T04:08:29.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "a5d97a50df234cf8f79cd9f6b9d10bf8b7e2d387e20735ce22306c0c38cd0d0a",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Weißes Haus kritisierte UN-Bericht über US-Kriegsverbrechen",
+        "url": "https://www.diepresse.com/41272637/weisses-haus-kritisierte-un-bericht-ueber-us-kriegsverbrechen",
+        "summary": "Der Iran sei laut Sprecherin des Weißen Hauses die einzige Partei, die Kriegsverbrechen begangen habe. Das Pentagon selbst teilte mit, dass „die Untersuchung noch andauert“.",
+        "publishedAt": "2026-09-18T04:28:50.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster dokumentiert die offizielle Reaktion des Weißen Hauses auf den UNO-Untersuchungsbericht zu möglichen US-Kriegsverbrechen im Iran. Dies beantwortet direkt die erste offene Frage der Related Story (\"Wie reagieren die US-Regierung und die iranische Führung offiziell...\"). Die Aussagen sind über drei deutschsprachige Medien (ORF, Der Standard, Die Presse) bezeugt; ORF und Der Standard verwenden erkennbar denselben Agenturtext (Syndikations-Rabatt: 2 unabhängige Häuser). Die neue Wendung ist eine unmittelbare diplomatische Reaktion, kein eigenständiges Ereignis – gehört also in den bestehenden Artikel integriert, nicht als neue Geschichte.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 2,
+    "relatedSlug": "uno-kriegsverbrechen-iran-us-luftangriffe-september-2026",
+    "possibleClaims": [
+      "Das Weiße Haus kritisierte einen UNO-Untersuchungsbericht, der den USA mögliche Kriegsverbrechen im Iran vorwirft",
+      "Sprecherin Anna Kelly sagte, das UNO-Gremium habe 'nichts für die Menschenrechte erreicht'",
+      "Kelly bestritt Kriegsverbrechen durch die USA und sagte, der Iran sei die einzige Partei in dem Konflikt, die solche begangen habe",
+      "Das Pentagon lehnte eine Stellungnahme zu dem Bericht ab",
+      "Der UN-Bericht untersucht zwei Luftangriffe von Februar gegen eine Schule und eine Sportstätte im Iran",
+      "Nach iranischen Angaben wurden beim Schulangriff mehr als 160 Schulkinder getötet",
+      "Bei dem Angriff auf ein Sportzentrum in Lamerd wurden laut Bericht 22 Zivilisten getötet oder verletzt"
+    ],
+    "missingSources": [
+      "Vollständige offizielle Stellungnahme des Weißen Hauses (nur Sprecherin-Zitate)",
+      "Text des UNO-Untersuchungsberichts selbst",
+      "Offizielle Reaktion der iranischen Führung auf die Gegenvorwürfe",
+      "Unabhängige Bestätigung der Opferzahlen (160+ Schulkinder, 22 Sportzentrum-Opfer)",
+      "Verifikation der verwendeten Waffen und ihrer Herkunft"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "uno-kriegsverbrechen-iran-us-luftangriffe-september-2026",
+    "title": "Weißes Haus weist UNO-Bericht über mögliche US-Kriegsverbrechen im Iran zurück",
+    "description": "Eine unabhängige UN-Kommission attestiert zwei US-Luftangriffen auf eine Schule und einen Sportkomplex im Iran hinreichende Gründe für Kriegsverbrechen und wirft der iranischen Führung Verbrechen gegen die Menschlichkeit vor. Das Weiße Haus weist den Bericht zurück, das Pentagon verweist auf eine eigene, laufende Untersuchung.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die UNO selbst hat den ursprünglichen Bericht über eine offizielle Pressemitteilung ihres Menschenrechtsbüros veröffentlicht. Die Reaktion des Weißen Hauses ist über drei österreichische Medien (ORF, Der Standard, Die Presse) sowie den US-Sender CNBC übereinstimmend bezeugt; die Pentagon-Aussage lässt sich zusätzlich über einen Bericht von The Hill einordnen, der den scheinbaren Widerspruch zwischen den österreichischen Medien auflöst.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die zentralen Aussagen zum UN-Bericht stützen sich auf die offizielle OHCHR-Pressemitteilung sowie auf eine eigene, offizielle Stellungnahme des US-Zentralkommandos CENTCOM – direkt eingesehene Erklärungen der beteiligten Institutionen, aber nicht der vollständige Kommissionsbericht selbst. Die Reaktion des Weißen Hauses und des Pentagon ist dagegen ausschließlich über Medienzitate von Sprecherinnen und Sprechern belegt, ohne eine direkt eingesehene offizielle Erklärung des Weißen Hauses oder Verteidigungsministeriums.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Zum Vorwurf gegen die USA liegen nun sowohl die CENTCOM-Erklärung als auch eine scharfe Zurückweisung durch die Sprecherin des Weißen Hauses vor, die den Iran als alleinigen Kriegsverbrechen-Verursacher im Konflikt bezeichnet – eine Einschätzung, die dem Bericht direkt widerspricht, aber im Artikel klar als Position der US-Regierung gekennzeichnet wird. Zum Vorwurf gegen die iranische Führung fehlt weiterhin jede offizielle iranische Reaktion in den vorliegenden Quellen.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Eine unabhängige UN-Untersuchungskommission (Fact-Finding Mission) sieht hinreichende Gründe für die Annahme, dass zwei US-Luftangriffe im Iran im Februar 2026 Kriegsverbrechen darstellen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Betroffen sind ein Angriff auf eine Mädchenschule in Minab mit laut Kommission mindestens 157 Toten (offizielle iranische Angabe: 168) sowie ein Angriff auf einen Sportkomplex in Lamerd mit 22 Toten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das US-Zentralkommando CENTCOM hatte einen eigenen Angriff auf Lamerd bereits im März 2026 offiziell bestritten und die dortige Explosion einer iranischen Rakete zugeschrieben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Kommission wirft zugleich iranischen Sicherheitskräften Verbrechen gegen die Menschlichkeit bei der Niederschlagung von Massenprotesten vor, mit laut einer zitierten Menschenrechtsorganisation mindestens 221 getöteten Kindern.",
+        "kind": "fact"
+      },
+      {
+        "text": "Das Weiße Haus wies den Bericht über Sprecherin Anna Kelly scharf zurück und bezeichnete den Iran als einzige Partei im Konflikt, die Kriegsverbrechen begangen habe; das US-Verteidigungsministerium lehnte eine Stellungnahme zum UN-Bericht ab und verwies auf eine eigene, noch laufende Untersuchung der Vorfälle.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie die iranische Führung offiziell auf den Bericht und die Zurückweisung durch das Weiße Haus reagiert, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie reagiert die iranische Führung offiziell auf den UN-Bericht und auf die Zurückweisung durch das Weiße Haus?",
+      "Welche der divergierenden Opferzahlen für den Schulangriff in Minab (157, 168, oder laut OHCHR-Mitteilung rund 150) ist zutreffend, und wie viele der Getöteten waren Kinder?",
+      "Um welche Menschenrechtsorganisation handelt es sich, auf die sich die Kommission bei der Zahl von mindestens 221 getöteten Kindern beruft?",
+      "Wie geht der UNO-Menschenrechtsrat mit dem Bericht weiter um, und welche rechtlichen oder diplomatischen Konsequenzen könnten folgen?",
+      "Lässt sich der Streit über die bei Lamerd eingesetzte Munition – US-Präzisionsrakete laut Kommission versus iranische Rakete laut CENTCOM – unabhängig aufklären?",
+      "Zu welchem Ergebnis kommt die laut Pentagon noch laufende eigene US-Untersuchung der beiden Luftangriffe, und wird sie veröffentlicht?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "OHCHR (UN-Menschenrechtsbüro), Pressemitteilung zum Fact-Finding-Mission-Bericht",
+        "type": "official",
+        "url": "https://www.ohchr.org/en/press-releases/2026/09/iran-civilians-trapped-between-extreme-state-repression-and-violations"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3442420"
+      },
+      {
+        "id": "src3",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000340194/un-bericht-sieht-moegliche-us-kriegsverbrechen-im-iran"
+      },
+      {
+        "id": "src4",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41269724/uno-bericht-sieht-moegliche-us-kriegsverbrechen-im-iran"
+      },
+      {
+        "id": "src5",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41269771/uno-bericht-sieht-moegliche-us-kriegsverbrechen-im-iran"
+      },
+      {
+        "id": "src6",
+        "name": "NBC News",
+        "type": "media",
+        "url": "https://www.nbcnews.com/world/iran/un-mission-finds-grounds-believe-us-committed-war-crimes-iran-rcna598283"
+      },
+      {
+        "id": "src7",
+        "name": "U.S. Central Command (CENTCOM), offizielle Erklärung",
+        "type": "official",
+        "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4448978/centcom-refutes-media-claims-of-us-strikes-in-lamerd-iran/"
+      },
+      {
+        "id": "src8",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3442498"
+      },
+      {
+        "id": "src9",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000340312/wei223es-haus-kritisierte-un-bericht-252ber-us-kriegsverbrechen"
+      },
+      {
+        "id": "src10",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41272637/weisses-haus-kritisierte-un-bericht-ueber-us-kriegsverbrechen"
+      },
+      {
+        "id": "src11",
+        "name": "CNBC",
+        "type": "media",
+        "url": "https://www.cnbc.com/2026/09/18/us-iran-war-trump-hormuz.html"
+      },
+      {
+        "id": "src12",
+        "name": "The Hill",
+        "type": "media",
+        "url": "https://thehill.com/policy/defense/6096072-un-accuses-us-iranian-war-crimes/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Eine unabhängige UN-Untersuchungskommission (Independent International Fact-Finding Mission on Iran) sieht hinreichende Gründe für die Annahme, dass zwei US-Luftangriffe auf den Iran im Februar 2026 Kriegsverbrechen darstellen.",
+        "status": "supported",
+        "note": "Von der UNO selbst über eine offizielle Pressemitteilung verkündet und von mehreren voneinander unabhängigen österreichischen sowie US-amerikanischen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Beim Angriff auf eine Mädchenschule in Minab wurden nach offiziellen iranischen Angaben 168, nach Zählung der Kommission mindestens 157 Menschen getötet; eine OHCHR-Mitteilung spricht von mehr als 150 Toten, darunter rund 120 Mädchen und Buben.",
+        "status": "partial",
+        "note": "Die drei genannten Zahlen stammen aus unterschiedlichen Quellen (iranische Behörden, UN-Kommission, OHCHR-Zusammenfassung) und lassen sich mit den vorliegenden Quellen nicht auf einen einzigen, abschließenden Wert zusammenführen.",
+        "sourceIds": [
+          "src2",
+          "src1",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Beim Angriff auf einen Sportkomplex in Lamerd (Provinz Fars) wurden nach offiziellen Angaben 22 Menschen getötet; die Kommission geht von US-Munition mit Wolfram-Splittern aus, während das US-Zentralkommando CENTCOM in einer eigenen Erklärung vom März 2026 jeden Angriff seiner Streitkräfte auf Lamerd bestritt und die Explosion einer iranischen Rakete zuschrieb.",
+        "status": "contradicted",
+        "note": "Hier stehen sich die Einschätzung der UN-Kommission und eine offizielle, direkt eingesehene Gegendarstellung des US-Militärs unvereinbar gegenüber; eine unabhängige Klärung liegt in den vorliegenden Quellen nicht vor.",
+        "sourceIds": [
+          "src2",
+          "src1",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Kommission wirft der iranischen Regierung zudem Verbrechen gegen die Menschlichkeit im Umgang mit der eigenen Bevölkerung vor.",
+        "status": "supported",
+        "note": "Von der OHCHR-Pressemitteilung selbst getragen und von mehreren unabhängigen Medien übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Laut Bericht schossen iranische Sicherheitskräfte bei der Niederschlagung der Massenproteste Anfang 2026 sowohl mit scharfer Munition als auch mit Luftgewehren teils gezielt auf Augenpartien; unter Berufung auf eine nicht näher genannte Menschenrechtsorganisation nennt der Bericht mindestens 221 getötete Kinder.",
+        "status": "partial",
+        "note": "Die Zahl stammt laut Bericht von einer Drittorganisation, die in den vorliegenden Quellen nicht namentlich genannt wird, und lässt sich damit nicht unabhängig einordnen.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Anfragen der Kommission an das US-Militär zu beiden Luftangriffen blieben laut Bericht unbeantwortet.",
+        "status": "unclear",
+        "note": "Dies betrifft offenbar den formellen Anfrageweg der Kommission; unabhängig davon hatte sich CENTCOM bereits im März 2026 öffentlich zu Medienberichten über Lamerd geäußert, was sich mit dieser Aussage nicht restlos deckt.",
+        "sourceIds": [
+          "src2"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Das Weiße Haus kritisierte den UN-Bericht scharf: Sprecherin Anna Kelly erklärte, der UNO-Menschenrechtsrat habe 'nichts für die Menschenrechte erreicht', und bezeichnete den Iran als einzige Partei im Konflikt, die Kriegsverbrechen begangen habe.",
+        "status": "supported",
+        "note": "Von drei österreichischen Medien sowie vom US-Sender CNBC übereinstimmend wiedergegeben; ORF und Der Standard nutzen dabei erkennbar denselben Agenturtext, Die Presse und CNBC berichten eigenständig. Eine direkt eingesehene offizielle Erklärung des Weißen Hauses liegt nicht vor, nur Medienzitate der Sprecherin.",
+        "sourceIds": [
+          "src8",
+          "src9",
+          "src10",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Das US-Verteidigungsministerium lehnte eine Stellungnahme zu dem UN-Bericht ab und verwies zugleich darauf, dass eine eigene, separate Untersuchung der beiden Luftangriffe noch andauere.",
+        "status": "supported",
+        "note": "ORF und Der Standard berichteten zunächst nur von der Ablehnung einer Stellungnahme, Die Presse nur vom Verweis auf die laufende Untersuchung; ein zusätzlich eingesehener Bericht von The Hill führt beide Angaben zusammen und lässt sie als denselben Vorgang erscheinen, ohne dass eine wörtliche Originalaussage des Pentagon direkt eingesehen wurde.",
+        "sourceIds": [
+          "src8",
+          "src9",
+          "src10",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Ein Vertreter des US-Außenministeriums warf dem UNO-Menschenrechtsrat vor, 'antiamerikanische Rhetorik und Antisemitismus' zu verbreiten und repressive Regime zu beschönigen.",
+        "status": "partial",
+        "note": "Nur über eine einzige eingesehene Quelle (CNBC) belegt; eine unabhängige Bestätigung dieser Aussage liegt nicht vor.",
+        "sourceIds": [
+          "src11"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Eine unabhängige Untersuchungskommission der Vereinten Nationen für den Iran hat einen Bericht vorgelegt, der dem UNO-Menschenrechtsrat in Genf zur Beratung übergeben werden soll. Darin kommt die Kommission laut einer Pressemitteilung des UN-Menschenrechtsbüros OHCHR zu dem Schluss, dass zwei US-Luftangriffe aus der frühen Phase des Kriegs zwischen den USA, Israel und dem Iran im Februar 2026 als Kriegsverbrechen eingestuft werden könnten. Gleichzeitig wirft die Kommission der iranischen Führung Verbrechen gegen die Menschlichkeit im Vorgehen gegen die eigene Bevölkerung vor. Über den Bericht berichteten am 17. September 2026 unter anderem ORF, Der Standard, Die Presse und die Kleine Zeitung übereinstimmend. Einen Tag später reagierte das Weiße Haus mit einer scharfen Zurückweisung des Berichts."
+      },
+      {
+        "heading": "Die zwei untersuchten Luftangriffe",
+        "markdown": "Im Zentrum des Berichts stehen zwei Vorfälle. Bei einem Angriff auf eine Mädchenschule in Minab im Süden des Landes wurden nach offiziellen iranischen Angaben 168 Schülerinnen getötet, die Kommission selbst spricht unter Berufung auf unabhängige Berichte von mindestens 157 Toten; eine OHCHR-Zusammenfassung nennt wiederum mehr als 150 Getötete, darunter rund 120 Mädchen und Buben. Die Kommission wirft den USA vor, den Angriff im Bewusstsein eines erheblichen Risikos für ein ziviles Ziel angeordnet und dabei fahrlässig gehandelt zu haben. Beim zweiten Vorfall, einem Angriff auf einen Sportkomplex im Ort Lamerd in der Provinz Fars, wurden nach offiziellen Angaben 22 Menschen getötet. Die Kommission geht davon aus, dass dabei eine Rakete mit Wolfram-Schrapnellen über bewohntem Gebiet detonierte. Das US-Zentralkommando CENTCOM hatte bereits im März 2026 in einer eigenen Erklärung bestritten, an jenem Tag Ziele in Lamerd angegriffen zu haben, und die Explosion stattdessen einer iranischen Rakete zugeschrieben. Zu beiden Vorfällen blieben laut Bericht Anfragen der Kommission an das US-Militär unbeantwortet."
+      },
+      {
+        "heading": "Reaktion des Weißen Hauses und des Pentagon",
+        "markdown": "Das Weiße Haus reagierte mit deutlicher Kritik auf den Bericht. Sprecherin Anna Kelly erklärte laut übereinstimmenden Medienberichten, der UNO-Menschenrechtsrat habe „nichts für die Menschenrechte erreicht“, und bezeichnete den Iran als die einzige Partei im aktuellen Konflikt, die Kriegsverbrechen begangen habe. Ein Vertreter des US-Außenministeriums warf dem Rat laut einem Bericht des US-Senders CNBC zudem vor, antiamerikanische Rhetorik und Antisemitismus zu verbreiten und repressive Regime zu beschönigen – diese Aussage liegt bislang nur über eine einzige eingesehene Quelle vor. Das US-Verteidigungsministerium selbst lehnte eine Stellungnahme zu dem Bericht der Kommission ab, verwies dabei aber zugleich auf eine eigene, separate Untersuchung der beiden Luftangriffe, die nach eigenen Angaben noch andauere. Damit lassen sich zunächst widersprüchlich wirkende Formulierungen österreichischer Medien – „lehnte eine Stellungnahme ab“ einerseits, „die Untersuchung dauert an“ andererseits – offenbar auf ein und dieselbe Pentagon-Aussage zurückführen. Eine offizielle iranische Reaktion auf den Bericht oder auf die Zurückweisung durch das Weiße Haus liegt in den vorliegenden Quellen weiterhin nicht vor."
+      },
+      {
+        "heading": "Vorwürfe gegen Irans Sicherheitskräfte",
+        "markdown": "Der Bericht richtet sich nicht nur gegen die USA. Die Kommission dokumentiert nach eigenen Angaben schwere Menschenrechtsverstöße iranischer Sicherheitskräfte im Zuge der Niederschlagung von Massenprotesten Anfang 2026 sowie bei der anschließenden Verfolgung Demonstrierender durch die Justiz. Sicherheitskräfte hätten demnach sowohl mit scharfer Munition von Dächern auf Protestierende geschossen als auch mit Luftgewehren teils gezielt auf Augenpartien gezielt. Unter Berufung auf eine Menschenrechtsorganisation, die im vorliegenden Bericht nicht namentlich genannt wird, spricht die Kommission von mindestens 221 getöteten Kindern im Zuge der Proteste."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Mehrere Details lassen sich aus den vorliegenden Quellen nicht abschließend klären. Die Opferzahlen zum Schulangriff in Minab schwanken je nach Quelle zwischen rund 150 und 168 – welche Zahl zutrifft und wie viele der Getöteten Kinder waren, bleibt offen. Beim Angriff auf Lamerd stehen sich die Einschätzung der Kommission und die offizielle Gegendarstellung von CENTCOM unvereinbar gegenüber, ohne dass eine unabhängige Prüfung der eingesetzten Munition vorliegt. Auch die Identität der von der Kommission zitierten Menschenrechtsorganisation zur Zahl von 221 getöteten Kindern bleibt unbenannt. Zum eigenen, laut Pentagon noch laufenden US-Untersuchungsverfahren zu den beiden Luftangriffen liegen bislang keine Ergebnisse oder ein Veröffentlichungstermin vor. Und schließlich fehlt in den vorliegenden Quellen jede offizielle Reaktion der iranischen Regierung – weder auf die gegen sie erhobenen Vorwürfe der Verbrechen gegen die Menschlichkeit noch auf die Zurückweisung des Berichts durch das Weiße Haus."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Bericht reiht sich in eine Serie von UN-Untersuchungen zu mutmaßlichen Kriegsverbrechen in aktuellen Konflikten ein – „Neue Nachrichten“ hat im Juli 2026 bereits über einen Bericht des UN-Menschenrechtsbüros zu möglichen Kriegsverbrechen Israels im Libanon berichtet. Die nun untersuchten Luftangriffe fallen zudem in die Frühphase jenes Kriegs zwischen den USA, Israel und dem Iran rund um die Straße von Hormus, der im weiteren Verlauf des Jahres auch zu den in „Neue Nachrichten“ beschriebenen Öl- und Gaspreisausschlägen beigetragen hat. Der aktuelle Bericht bewertet ausdrücklich nur zwei von mehreren Vorfällen des Kriegs und trifft keine abschließende juristische Feststellung – die Einstufung als Kriegsverbrechen ist eine Einschätzung der Kommission, keine gerichtliche Entscheidung. Die scharfe Zurückweisung durch das Weiße Haus zeigt zugleich, dass die US-Regierung dem Bericht politisch keine Legitimität zuerkennt und die Verantwortung für Kriegsverbrechen im Konflikt allein dem Iran zuschreibt – eine Position, die dem Kommissionsbefund direkt entgegensteht, ohne ihn mit eigenen, öffentlich zugänglichen Belegen zu widerlegen."
+      }
+    ],
+    "bodyKompakt": "Eine unabhängige UN-Untersuchungskommission für den Iran sieht in einem Bericht an den UNO-Menschenrechtsrat in Genf hinreichende Gründe für die Annahme, dass zwei US-Luftangriffe aus dem Februar 2026 Kriegsverbrechen darstellen: ein Angriff auf eine Mädchenschule in Minab mit je nach Quelle rund 150 bis 168 Toten sowie ein Angriff auf einen Sportkomplex im Ort Lamerd mit 22 Toten, bei dem laut Kommission Munition mit Wolfram-Splittern zum Einsatz kam. Das US-Zentralkommando CENTCOM hatte einen eigenen Angriff auf Lamerd bereits im März 2026 offiziell bestritten und die Explosion einer iranischen Rakete zugeschrieben – ein Widerspruch, der in den vorliegenden Quellen ungeklärt bleibt.\n\nDas Weiße Haus wies den Bericht über Sprecherin Anna Kelly scharf zurück: Der UNO-Menschenrechtsrat habe „nichts für die Menschenrechte erreicht“, der Iran sei die einzige Partei im Konflikt, die Kriegsverbrechen begangen habe. Das US-Verteidigungsministerium lehnte eine Stellungnahme zu dem Bericht ab und verwies auf eine eigene, noch laufende Untersuchung der beiden Luftangriffe. Eine offizielle iranische Reaktion auf den Bericht oder auf die Zurückweisung durch das Weiße Haus liegt bislang nicht vor.\n\nGleichzeitig wirft die Kommission iranischen Sicherheitskräften Verbrechen gegen die Menschlichkeit bei der Niederschlagung von Massenprotesten Anfang 2026 vor, mit laut einer nicht näher genannten Menschenrechtsorganisation mindestens 221 getöteten Kindern. Wie der UNO-Menschenrechtsrat mit dem Bericht weiter umgeht und wie Iran offiziell reagiert, ist offen.",
+    "updateNote": "Ergänzt um die Reaktion des Weißen Hauses (Sprecherin Anna Kelly weist den Bericht zurück und macht allein den Iran für Kriegsverbrechen im Konflikt verantwortlich) sowie die Pentagon-Reaktion, die auf eine eigene, laufende Untersuchung verweist.",
+    "pendingOutcome": "Offen bleibt die offizielle Reaktion der iranischen Führung auf den Bericht und auf die Zurückweisung durch das Weiße Haus sowie der Ausgang der laut Pentagon noch laufenden eigenen US-Untersuchung der beiden Luftangriffe."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-18T06:08:07.332Z"
+}
