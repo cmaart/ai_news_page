@@ -1,0 +1,257 @@
+{
+  "cluster": {
+    "id": "cluster-20260918-7cbfd728",
+    "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+    "items": [
+      {
+        "itemId": "0f25198b75650761df82dc6a57cdd8b72ab17afc8480db8f270bd0b262b76517",
+        "sourceId": "theverge",
+        "sourceType": "media",
+        "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+        "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor in human history,\" and that it made a \"complete mockery of the idea of fair use.\"\nMany of the most eye-catching quotes from the document come from Microsoft's Director of Applied Science, Brent Hecht. ",
+        "publishedAt": "2026-09-18T21:07:24.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "55f0974d3a6e15f23068402f6bbae4877139e48a578aa94f6c236df00d12c197",
+        "sourceId": "techcrunch",
+        "sourceType": "media",
+        "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+        "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent",
+        "isNew": false
+      },
+      {
+        "itemId": "4ae575a04acf678e906673d12af074534e2b9a783d7924f142d27dd1320e078f",
+        "sourceId": "techcrunch",
+        "sourceType": "media",
+        "title": "Google, Nvidia and Anthropic want Emerald AI to find space on the grid for more data centers",
+        "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
+        "isNew": false
+      },
+      {
+        "itemId": "f653b192579c436490aeb2344aeb335a36fd3a43c21f70f46fc25f548b686eb2",
+        "sourceId": "theverge",
+        "sourceType": "media",
+        "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+        "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+        "isNew": false
+      },
+      {
+        "itemId": "7f18841991d9d7a9038acb6c7c06cd5db1283480b32083353a035f4fd63be37d",
+        "sourceId": "techcrunch",
+        "sourceType": "media",
+        "title": "Crusoe raises $3.9B to build massive data centers and small modular “AI factories”",
+        "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories",
+        "isNew": false
+      },
+      {
+        "itemId": "9faf14170836718fbb93e178511262ecdbe66ec8c7a31f8428283e9b68e9c510",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "OpenAI, Anthropic und Google: Das Wettrennen, das niemand wirklich stoppen will [premium]",
+        "url": "https://www.diepresse.com/41272730/openai-anthropic-und-google-das-wettrennen-das-niemand-wirklich-stoppen-will",
+        "isNew": false
+      },
+      {
+        "itemId": "4a0a0359e9b62032efc50fff0e18698cdd5bc03f8769cb210e09d097bae74a5e",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "OpenAI, Anthropic und Google: Das Wettrennen, das niemand wirklich stoppen will [premium]",
+        "url": "https://www.diepresse.com/41272730/openai-anthropic-und-google-das-wettrennen-das-niemand-wirklich-stoppen-will",
+        "isNew": false
+      },
+      {
+        "itemId": "578debe7981f183d8dcc9ad04ef0d7bdb3a06593fd64dc791245ef61d7ed6890",
+        "sourceId": "theverge",
+        "sourceType": "media",
+        "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+        "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Unsealed court documents in NYT litigation against OpenAI and Microsoft constitute independently newsworthy disclosure with substantive claims about corporate knowledge of AI scraping harms. Multiple credible sources reporting on verified legal filing excerpts (not mere allegations). Significant for EU AI policy context and publisher/creator rights, despite US litigation setting. Distinct narrative from regulation-focused Amodei story; not a continuation of existing articles.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "OpenAI and Microsoft internal documentation warned of a 'doom loop' from their AI training and data scraping practices that would damage both the companies' models and the broader web",
+      "Microsoft Director of Applied Science characterized the data harvesting for AI training as the 'largest theft of labor in human history'",
+      "Internal Microsoft documents stated their AI content strategy made a 'complete mockery of the idea of fair use'",
+      "Satya Nadella acknowledged in internal communications that AI chatbots have essentially replaced search and removed the necessity for users to visit original source websites",
+      "Microsoft documented an unsustainable 'content supply chain' dynamic where their LLM business threatens the 'economic foundations' of its essential content suppliers",
+      "OpenAI did not implement adequate safeguards to detect or remove paywalled content from its training data, despite leadership awareness of fair use concerns",
+      "OpenAI leadership prioritized commercial profit potential over addressing known harms to publishers and content creators",
+      "'Google Zero'—the replacement of search engine traffic with direct AI-generated answers—is now an observable real-world phenomenon diminishing publisher traffic"
+    ],
+    "missingSources": [
+      "Verified link to the unsealed court filing with specific docket reference and date of release",
+      "Complete official statements from OpenAI and Microsoft in response to the document disclosures (beyond the defensive statements The Verge quoted)",
+      "Legal analysis: What are the substantive legal implications of these internal admissions for copyright/fair use doctrine and the ongoing NYT case?",
+      "Quantified evidence for 'Google Zero' claims—actual traffic data from publishers showing measurable decline attributable to AI search replacement",
+      "Impact assessment: Which European and Austrian publishers are affected, and by what metrics can the harm be measured?"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "openai-microsoft-doom-loop-nyt-klage-september-2026",
+    "title": "Entsiegelte Gerichtsdokumente: OpenAI und Microsoft wussten intern von drohendem „Doom Loop“ fürs Web",
+    "description": "Neu veröffentlichte, zuvor versiegelte Unterlagen aus dem Rechtsstreit der New York Times gegen Microsoft und OpenAI zeigen, dass Führungskräfte beider Konzerne früh vor Schäden ihrer KI-Datenstrategie am offenen Web warnten – ein Microsoft-Manager sprach intern vom „größten Arbeitsdiebstahl der Menschheitsgeschichte“.",
+    "topic": "technologie",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die zentralen Zitate aus den entsiegelten Dokumenten werden von zahlreichen voneinander unabhängigen Redaktionen (u. a. The Verge, TechCrunch, Tom's Hardware) übereinstimmend wiedergegeben, was nach unserer Einstufung als bestätigt gilt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Wir haben die eigentlichen Gerichtsunterlagen nicht selbst eingesehen, sondern stützen uns auf mehrere Medienberichte, die daraus zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stammt überwiegend aus einer Klageschrift der Gegenseite; Microsofts Distanzierung ist zwar dokumentiert, eine ausführliche inhaltliche Erwiderung von OpenAI fehlt bislang.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Im Rechtsstreit der New York Times gegen Microsoft und OpenAI wurden zuvor versiegelte interne Unternehmensdokumente veröffentlicht, laut denen beide Konzerne früh vor Schäden ihrer KI-Datenstrategie am offenen Web gewarnt haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Microsofts Director of Applied Science, Brent Hecht, bezeichnete das Scraping von Daten fürs KI-Training intern als „größten Arbeitsdiebstahl der Menschheitsgeschichte“ und warnte vor einem selbstschädigenden „Doom Loop“ für Modelle und Web.",
+        "kind": "fact"
+      },
+      {
+        "text": "Microsoft distanzierte sich offiziell von Hechts Aussagen und bezeichnete sie als dessen individuelle, nicht die Unternehmensposition widerspiegelnde Einschätzung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie stark Klickzahlen zu Verlags-Websites nach Einführung KI-generierter Zusammenfassungen tatsächlich zurückgingen, wird in Medienberichten unterschiedlich beziffert und ist nicht abschließend geklärt.",
+        "kind": "open"
+      },
+      {
+        "text": "Welche rechtlichen Konsequenzen die veröffentlichten Zitate für den laufenden Rechtsstreit haben, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche Auswirkungen haben die veröffentlichten Zitate auf den weiteren Verlauf des Verfahrens New York Times gegen Microsoft und OpenAI?",
+      "Wird OpenAI sich im Detail und offiziell zu den im Dokument zitierten Aussagen äußern?",
+      "Wie hoch war der tatsächliche Rückgang der Klickzahlen auf Verlags-Websites nach Einführung KI-gestützter Zusammenfassungen – Medienberichte nennen unterschiedliche Prozentwerte?",
+      "Welche weiteren Passagen enthält das rund 92-seitige Dokument, die bislang nicht öffentlich zitiert wurden?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "The Verge",
+        "type": "media",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero"
+      },
+      {
+        "id": "src2",
+        "name": "TechCrunch",
+        "type": "media",
+        "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
+      },
+      {
+        "id": "src3",
+        "name": "Tom's Hardware",
+        "type": "media",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit"
+      },
+      {
+        "id": "src4",
+        "name": "404 Media",
+        "type": "media",
+        "url": "https://www.404media.co/doom-loop-openai-and-microsoft-admits-llms-are-destroying-the-web-and-built-on-theft/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Am 17./18. September 2026 wurden im Rechtsstreit der New York Times gegen Microsoft und OpenAI zuvor versiegelte interne Unternehmensdokumente veröffentlicht, die frühe Warnungen vor Schäden der KI-Datennutzung am Web belegen sollen.",
+        "status": "supported",
+        "note": "Von mehreren voneinander unabhängigen Medien übereinstimmend berichtet; die eigentliche Gerichtsakte wurde von uns nicht selbst eingesehen.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Microsofts Director of Applied Science, Brent Hecht, bezeichnete die Datenübernahme fürs KI-Training in einem internen Dokument als „largest theft of labor in human history“ und warnte vor einem drohenden „doom loop“ für Modelle und Web.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Ein internes Microsoft-Dokument beschrieb die eigene KI-Inhaltsstrategie als Bedrohung für die „wirtschaftlichen Grundlagen“ der eigenen „Content-Lieferkette“.",
+        "status": "supported",
+        "note": "Direkt aus dem von The Verge zitierten Dokumentenauszug übernommen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Laut Medienberichten sollen Klickzahlen von Bing-Nutzern zu Verlags-Websites nach Einführung KI-generierter Zusammenfassungen um teils über 90 Prozent zurückgegangen sein, unter Berufung auf eidesstattliche Aussagen von Microsoft-Chef Satya Nadella.",
+        "status": "partial",
+        "note": "Die genannten Prozentwerte schwanken zwischen Berichten; wir haben die zugrunde liegende Aussage nicht selbst eingesehen.",
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Microsoft distanzierte sich über einen Sprecher von Hechts Aussagen und bezeichnete sie als dessen individuelle, nicht die Unternehmensposition widerspiegelnde Einschätzung.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Ein OpenAI-Vertreter räumte laut den zitierten Gerichtsunterlagen ein, keine Kenntnis von gezielten Maßnahmen zur Erkennung oder Entfernung von paywall-geschützten Inhalten aus den Trainingsdaten zu haben.",
+        "status": "partial",
+        "note": "Einzelangabe aus einer Quelle, keine unabhängige Zweitbestätigung gefunden.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Im Rechtsstreit der New York Times gegen Microsoft und OpenAI sind zuvor versiegelte interne Unternehmensdokumente öffentlich geworden. Sie sollen zeigen, dass beide Konzerne bereits früh intern davor gewarnt haben, dass ihre Praxis, Web-Inhalte für das Training von KI-Modellen zu nutzen, dem offenen Web und letztlich auch dem eigenen Geschäft schaden könnte. Die Klage der New York Times gegen die beiden Unternehmen läuft bereits seit Ende 2023 vor einem New Yorker Bundesgericht; die nun zitierten Passagen stammen aus einem rund 92-seitigen Schriftsatz der Klägerseite.\n\nIm Zentrum der Berichterstattung steht Brent Hecht, Microsofts Director of Applied Science. Ihm zufolge betreibe die Branche mit dem Scraping von Trainingsdaten den „größten Arbeitsdiebstahl der Menschheitsgeschichte“, und Microsofts rechtliche Verteidigung mache „eine komplette Farce aus dem Konzept von Fair Use“. Ein internes Microsoft-Papier, das Hecht zugeschrieben wird, warnt zudem, die eigene KI-Inhaltsstrategie habe einen „Doom Loop“ ausgelöst, der gleichzeitig die Leistungsfähigkeit der eigenen Modelle und das gesamte Web schädige."
+      },
+      {
+        "heading": "Was die Dokumente zeigen",
+        "markdown": "Laut den zitierten Auszügen wird in einem internen Microsoft-Dokument festgehalten, es sei „höchst ungewöhnlich, dass ein Endprodukt die wirtschaftlichen Grundlagen seiner wesentlichen Zulieferer bedroht“ – genau das habe man mit dem eigenen LLM-Geschäft gegenüber der „Content-Lieferkette“ geschaffen. Auch Microsoft-Chef Satya Nadella wird zitiert, wonach Chatbots die klassische Suche im Wesentlichen ersetzt und die Notwendigkeit beseitigt hätten, direkt zur Quelle zu gehen.\n\nMehrere Medien berichten zudem übereinstimmend, dass in Gerichtsunterlagen von deutlich gesunkenen Klickzahlen auf Bing zu den Websites der Klägerinnen die Rede sei, nachdem KI-generierte Zusammenfassungen eingeführt wurden – teils wird ein Rückgang von über 90 Prozent genannt. Die genauen Zahlen variieren jedoch zwischen den Berichten, weshalb wir sie hier nur als Berichtslage und nicht als gesicherten Einzelwert wiedergeben. Zur Frage bezahlpflichtiger Inhalte wird ein OpenAI-Vertreter zitiert, wonach ihm keine gezielten Maßnahmen bekannt gewesen seien, um durch Paywalls geschützte Inhalte aus den Trainingsdaten zu erkennen oder zu entfernen – dies, obwohl Nadella an anderer Stelle erklärt haben soll, alles hinter einer Paywall müsse lizenziert werden."
+      },
+      {
+        "heading": "Reaktionen der Unternehmen",
+        "markdown": "Microsoft hat sich von Hechts Formulierungen offiziell distanziert. Ein Unternehmenssprecher erklärte gegenüber The Verge, die Aussagen spiegelten „die individuelle Perspektive eines einzelnen Mitarbeiters“ wider, seien „keine juristische Analyse“ und repräsentierten nicht die Position des Unternehmens. In einem separaten Schriftsatz habe ein weiterer Microsoft-Manager Hechts Rolle als bewusst gegensätzlich beschrieben: Er vertrete „abweichende, akademische und zukunftsgerichtete Ansichten“ darüber, wie Daten-Ökosysteme für KI funktionieren sollten, und spreche nicht für Microsoft.\n\nEine ausführliche inhaltliche Stellungnahme von OpenAI zu den zitierten Passagen liegt uns über die Presseberichterstattung hinaus nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie sich die veröffentlichten Zitate konkret auf den weiteren Verlauf des Verfahrens auswirken – etwa ob sie als Beleg für eine bewusste Umgehung von Urheberrechtsschutz gewertet werden könnten. Ebenso unklar bleibt, welche weiteren Passagen der rund 92-seitige Schriftsatz enthält, die bislang nicht öffentlich zitiert wurden, und ob OpenAI sich noch im Detail äußern wird. Die exakte Größenordnung des berichteten Rückgangs der Klickzahlen auf Verlags-Websites lässt sich aus der vorliegenden Berichterstattung nicht abschließend beziffern, da einzelne Medien unterschiedliche Prozentwerte nennen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine wachsende Zahl von Rechtsstreitigkeiten zwischen Verlagen und KI-Unternehmen über die Nutzung urheberrechtlich geschützter Inhalte für das Training von Sprachmodellen ein. Bemerkenswert an den nun zitierten Dokumenten ist weniger der Vorwurf selbst – der seit Jahren von Verlegern erhoben wird –, sondern dass er dieser Darstellung zufolge in ähnlicher Form intern auch von Führungskräften der beklagten Unternehmen geteilt worden sein soll. Für die Debatte um das Phänomen sinkender Verweis-Traffic von KI-Suchfunktionen zu Ursprungsseiten, oft als „Google Zero“ bezeichnet, liefern die Dokumente damit zusätzlichen Diskussionsstoff – unabhängig vom juristischen Ausgang des Verfahrens."
+      }
+    ],
+    "bodyKompakt": "Im Rechtsstreit der New York Times gegen Microsoft und OpenAI sind zuvor versiegelte interne Unternehmensdokumente öffentlich geworden. Sie sollen zeigen, dass beide Konzerne früh vor Schäden ihrer KI-Datenstrategie am offenen Web gewarnt haben. Microsofts Director of Applied Science, Brent Hecht, bezeichnete das Scraping von Trainingsdaten intern als „größten Arbeitsdiebstahl der Menschheitsgeschichte“ und warnte, die eigene KI-Inhaltsstrategie habe einen selbstschädigenden „Doom Loop“ für Modelle und Web ausgelöst.\n\nLaut den zitierten Auszügen hielt ein internes Microsoft-Papier fest, das eigene LLM-Geschäft bedrohe die wirtschaftlichen Grundlagen seiner „Content-Lieferkette“. Auch Konzernchef Satya Nadella wird zitiert, wonach Chatbots die klassische Suche im Wesentlichen ersetzt hätten. Mehrere Medien berichten zudem von stark gesunkenen Klickzahlen zu Verlags-Websites nach Einführung KI-generierter Zusammenfassungen, wobei genannte Prozentwerte zwischen den Berichten variieren.\n\nMicrosoft distanzierte sich offiziell von Hechts Aussagen und nannte sie dessen individuelle, nicht die Unternehmensposition widerspiegelnde Einschätzung. Eine ausführliche inhaltliche Reaktion von OpenAI liegt bislang nicht vor. Offen bleibt, welche weiteren Passagen der rund 92-seitige Schriftsatz enthält und wie sich die Zitate auf den Ausgang des Verfahrens auswirken.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-19T22:07:35.642Z"
+}
