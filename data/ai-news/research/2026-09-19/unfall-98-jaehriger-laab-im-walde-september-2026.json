@@ -1,0 +1,208 @@
+{
+  "cluster": {
+    "id": "cluster-20260919-0e6af51a",
+    "title": "98-jähriger Autolenker bei Unfall gestorben",
+    "items": [
+      {
+        "itemId": "c531555d5a4db6cf7a702a18ad8bd6be452eb248b788ca3e8585ce93163005d5",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "98-jähriger Autolenker bei Unfall gestorben",
+        "url": "https://noe.orf.at/stories/3371832",
+        "summary": "Ein 98-jähriger Mann aus dem Bezirk Mödling ist am Freitagnachmittag bei einem Verkehrsunfall in Laab im Walde (Bezirk Mödling) gestorben. Er war mit seinem Auto gegen einen Baum geprallt.",
+        "publishedAt": "2026-09-19T12:01:32.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "bb73d121a359c745c2a8a1616202bf87aafdd9b1796c7f13ed22126bd85ac769",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "98-Jähriger in NÖ nach Unfall verstorben",
+        "url": "https://kurier.at/chronik/niederoesterreich/unfall-polizei-autolenker-laab-im-walde-tot/403191950",
+        "isNew": false
+      },
+      {
+        "itemId": "8b7b569d558552cd11ba62341e193dad3cedb97da48c28093abb4c34ad72f622",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "98-Jähriger in NÖ nach Unfall verstorben",
+        "url": "https://kurier.at/chronik/niederoesterreich/unfall-polizei-autolenker-laab-im-walde-tot/403191950",
+        "isNew": false
+      },
+      {
+        "itemId": "765c121b9e384e497c62b7728df1c670d8a581d8731e3c80ae0e45e1f809bdf7",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "98-jähriger Autofahrer bei Unfall in Niederösterreich verstorben",
+        "url": "https://www.kleinezeitung.at/artikel/41276405/98-jaehriger-autofahrer-bei-unfall-in-niederoesterreich-verstorben",
+        "isNew": false
+      },
+      {
+        "itemId": "12d3165c7c9e7e55c4627cfbbccaf99d3c1a0b0ca6423a08f50c06daf8b8ae45",
+        "sourceId": "kleinezeitung_oesterreich",
+        "sourceType": "media",
+        "title": "98-jähriger Autofahrer bei Unfall in Niederösterreich verstorben",
+        "url": "https://www.kleinezeitung.at/artikel/41276405/98-jaehriger-autofahrer-bei-unfall-in-niederoesterreich-verstorben",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Verkehrsunfall mit Todesfall hat klare österreichische Regionalrelevanz (Niederösterreich). Mehrere etablierte österreichische Medienquellen (ORF, Kurier, Kleine Zeitung) berichten unabhängig und konkret über das Ereignis. Fulltext enthält spezifische Fakten: Ort (Laab im Walde, B13), Zeit (~14:30 Uhr, 19.09.2026), Hergang (Abkommen nach Linkskurve, Baumprallt) und Rettungseinsatz (4 Feuerwehren). Keine der relatedStories passt (unterschiedliche Unfalltypen und Orte). Eigenständiger Artikel ohne Update-Bezug gerechtfertigt.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "98-jähriger Autolenker aus Bezirk Mödling bei Unfall in Laab im Walde gestorben",
+      "Unfall ereignete sich auf B13 nach Linkskurve am 19.09.2026 gegen 14:30 Uhr",
+      "Fahrer kam aus unbekannter Ursache von Fahrbahn ab und prallte gegen Baum",
+      "Fahrer war in Fahrzeug eingeklemmt und musste von Feuerwehr befreit werden",
+      "Vier Feuerwehren, Rettungsteam des Roten Kreuzes und Polizei im Einsatz"
+    ],
+    "missingSources": [
+      "Offizielle Polizeimeldung/Bericht zu Unfallursache und genauen Umständen",
+      "Details zur Fahrtauglichkeit oder Gesundheit des 98-Jährigen",
+      "Technischer Zustandsbericht zum Fahrzeug",
+      "Aussage der zuständigen Straßenbauinstitution zu Fahrbahnzustand"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "unfall-98-jaehriger-laab-im-walde-september-2026",
+    "title": "98-jähriger Autolenker in Niederösterreich bei Unfall gestorben",
+    "description": "Ein 98-jähriger Mann aus dem Bezirk Mödling ist bei einem Verkehrsunfall in Laab im Walde ums Leben gekommen, nachdem sein Auto auf der B13 von der Fahrbahn abgekommen und gegen einen Baum geprallt war.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Drei voneinander unabhängige österreichische Medien (ORF, Kurier, Kleine Zeitung) berichten übereinstimmend über Ort, Zeit und Kernablauf des tödlichen Unfalls.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine eigene Polizei- oder Behördenmeldung eingesehen; alle Angaben stammen aus Medienberichten, die sich ihrerseits auf Polizeiangaben berufen.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um eine unstrittige Unfallmeldung ohne widerstreitende Parteien oder Perspektiven, die eine Gegendarstellung erfordern würden.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Ein 98-jähriger Mann aus dem Bezirk Mödling ist am Freitagnachmittag bei einem Unfall in Laab im Walde gestorben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Sein Auto kam auf der B13 nach einer Linkskurve von der Fahrbahn ab und prallte gegen einen Baum.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Lenker wurde im Fahrzeug eingeklemmt und von der Feuerwehr befreit, konnte aber nur noch tot geborgen werden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Warum der Mann von der Fahrbahn abkam, ist nach den vorliegenden Berichten nicht geklärt.",
+        "kind": "open"
+      },
+      {
+        "text": "Die genaue Zahl der eingesetzten Feuerwehren stützt sich bislang nur auf eine einzelne Quelle.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Warum kam der Lenker von der Fahrbahn ab – gesundheitlicher Notfall, technischer Defekt oder andere Ursache?",
+      "Liegt eine offizielle Polizeimeldung mit weiteren Detailangaben zum Unfallhergang vor?",
+      "Wie ist der Zustand von Fahrzeug und Fahrbahn an der Unfallstelle offiziell dokumentiert?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Niederösterreich",
+        "type": "media",
+        "url": "https://noe.orf.at/stories/3371832"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/niederoesterreich/unfall-polizei-autolenker-laab-im-walde-tot/403191950"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41276405/98-jaehriger-autofahrer-bei-unfall-in-niederoesterreich-verstorben"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein 98-jähriger Mann aus dem Bezirk Mödling ist bei einem Verkehrsunfall in Laab im Walde (Bezirk Mödling) gestorben.",
+        "status": "supported",
+        "note": "Drei unabhängige Medien berichten übereinstimmend.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Pkw kam am Freitagnachmittag auf der B13 nahe Wolfsgraben nach einer Linkskurve von der Fahrbahn ab und prallte gegen einen Baum.",
+        "status": "supported",
+        "note": "Von ORF und Kurier mit übereinstimmenden Details (Streckenführung, Zeitpunkt) geschildert.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Ursache dafür, dass der Wagen von der Fahrbahn abkam, ist nach Angaben der Polizei bislang unbekannt bzw. ungeklärt.",
+        "status": "supported",
+        "note": "Beide Quellen zitieren die Polizei übereinstimmend mit dieser Einschätzung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der Lenker war im Fahrzeug eingeklemmt, wurde von der Feuerwehr befreit und konnte nur noch tot geborgen werden.",
+        "status": "supported",
+        "note": "Von ORF und Kurier übereinstimmend geschildert.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Vier namentlich genannte Feuerwehren, das Rettungsteam des Roten Kreuzes und die Polizei waren im Einsatz.",
+        "status": "partial",
+        "note": "Diese Detailangabe zur Zahl und den Namen der Feuerwehren stammt nur aus einer einzelnen Quelle.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Ein 98-jähriger Mann aus dem Bezirk Mödling ist am Freitagnachmittag, den 19. September 2026, bei einem Verkehrsunfall in Laab im Walde im Bezirk Mödling gestorben. Er war mit seinem Auto auf der B13 unterwegs, als sein Fahrzeug von der Fahrbahn abkam und gegen einen Baum prallte. Trotz eines umgehend eingeleiteten Rettungseinsatzes konnte der Mann nicht mehr gerettet werden."
+      },
+      {
+        "heading": "Zum Unfallhergang",
+        "markdown": "Nach übereinstimmenden Angaben von ORF und Kurier war der Mann von Wolfsgraben kommend in Richtung Laab im Walde unterwegs, als er kurz nach einer Linkskurve aus bislang unbekannter Ursache von der Fahrbahn abkam und gegen einen Baum prallte. Der Kurier nennt als Unfallzeit rund 14.30 Uhr. Der Lenker wurde im Fahrzeug eingeklemmt und musste von der Feuerwehr mithilfe hydraulischer Rettungsgeräte befreit werden. Trotz sofort eingeleiteter Rettungsmaßnahmen konnte die alarmierte Ärztin am Unfallort nur noch den Tod des Mannes feststellen. Laut Kurier waren die Feuerwehren Wolfsgraben, Breitenfurt, Laab im Walde und Tullnerbach gemeinsam mit dem Rettungsteam des Roten Kreuzes und der Polizei im Einsatz; diese Detailangabe zur Zahl der beteiligten Feuerwehren stützt sich bislang nur auf eine einzelne Quelle."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Warum der Mann von der Fahrbahn abkam, ist nach den vorliegenden Berichten nicht geklärt – sowohl ORF als auch Kurier sprechen ausdrücklich von einer bislang unbekannten beziehungsweise ungeklärten Ursache. Ob gesundheitliche Gründe, ein technischer Defekt am Fahrzeug oder äußere Umstände wie Fahrbahn- oder Sichtverhältnisse eine Rolle spielten, lässt sich aus den ausgewerteten Quellen nicht beantworten. Eine offizielle Polizeimeldung mit weiteren Detailangaben zum Unfallhergang liegt nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Tödliche Alleinunfälle mit älteren Lenkerinnen und Lenkern werfen regelmäßig Fragen zur Fahrtauglichkeit im hohen Alter auf. Die vorliegenden Berichte enthalten dazu jedoch keine Angaben, weshalb Spekulationen ohne belastbare Grundlage unterbleiben. Wie bei anderen von „Neue Nachrichten“ zuletzt dokumentierten tödlichen Verkehrsunfällen, etwa jenem auf der A1 bei Oed-Öhling im Juli 2026, bleibt auch hier die genaue Unfallursache offen, solange keine offizielle Untersuchung öffentlich vorliegt."
+      }
+    ],
+    "bodyKompakt": "Ein 98-jähriger Mann aus dem Bezirk Mödling ist am Freitagnachmittag, den 19. September 2026, bei einem Verkehrsunfall in Laab im Walde (Bezirk Mödling) gestorben. Nach übereinstimmenden Medienberichten war er mit seinem Auto auf der B13 von Wolfsgraben kommend unterwegs, als er kurz nach einer Linkskurve aus bislang unbekannter Ursache von der Fahrbahn abkam und gegen einen Baum prallte.\n\nDer Lenker wurde im Fahrzeug eingeklemmt und musste von der Feuerwehr mit hydraulischen Rettungsgeräten befreit werden. Trotz sofort eingeleiteter Rettungsmaßnahmen konnte die alarmierte Ärztin nur noch den Tod des Mannes feststellen. Laut Kurier waren vier Feuerwehren, das Rettungsteam des Roten Kreuzes und die Polizei im Einsatz.\n\nWarum der Mann von der Fahrbahn abkam, ist bislang nicht geklärt. Weder gesundheitliche Ursachen noch ein technischer Defekt sind durch die vorliegenden Quellen belegt oder ausgeschlossen; eine offizielle Polizeimeldung mit weiteren Details liegt nicht vor.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-19T12:07:33.511Z"
+}

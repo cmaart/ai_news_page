@@ -1,186 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19T10:19:59.258Z",
+  "updatedAt": "2026-09-19T12:19:44.206Z",
   "entries": [
-    {
-      "clusterId": "cluster-20260919-16f3d11f",
-      "title": "Zwölf Steirer bei Berufs-WM in Shanghai",
-      "score": 0.9,
-      "items": [
-        {
-          "itemId": "06930a1693d98aed1c2a4f5695b08372a4137798c412561a71d412958ca6eece",
-          "sourceId": "orf_oesterreich",
-          "sourceType": "media",
-          "title": "Zwölf Steirer bei Berufs-WM in Shanghai",
-          "url": "https://steiermark.orf.at/stories/3371811",
-          "summary": "Zwölf junge Steirerinnen und Steirer sind bei den Berufsweltmeisterschaften (WorldSkills) in Shanghai dabei. Das österreichische Team – bestehend aus insgesamt 48 Fachkräften – ist bereits in China gelandet und hofft bis nächsten Sonntag auf Medaillen.",
-          "publishedAt": "2026-09-19T08:46:36.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "387c66e9fce1db606a01c0701e14a119ead4c0e1673655458dbe92dd0478afd2",
-          "sourceId": "orf_steiermark",
-          "sourceType": "media",
-          "title": "Zwölf Steirer bei Berufs-WM in Shanghai",
-          "url": "https://steiermark.orf.at/stories/3371811",
-          "summary": "Zwölf junge Steirerinnen und Steirer sind bei den Berufsweltmeisterschaften (WorldSkills) in Shanghai dabei. Das österreichische Team – bestehend aus insgesamt 48 Fachkräften – ist bereits in China gelandet und hofft bis nächsten Sonntag auf Medaillen.",
-          "publishedAt": "2026-09-19T08:46:36.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "bc9604a9af4bd1181ecae77402e6bca7919e7eaaeb40141dd21029e8f0346b13",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "Von Schladming nach Shanghai – und dort bei der Berufs-WM dabei",
-          "url": "https://www.kleinezeitung.at/artikel/41268497/von-schladming-nach-shanghai-und-dort-bei-der-berufs-wm-dabei",
-          "isNew": false
-        },
-        {
-          "itemId": "4f5f3f06a46b6df4ae4e72c78e326927fdb43925520f07f63bf0305511efdc27",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "Von Schladming nach Shanghai – und dort bei der Berufs-WM dabei",
-          "url": "https://www.kleinezeitung.at/artikel/41268497/von-schladming-nach-shanghai-und-dort-bei-der-berufs-wm-dabei",
-          "isNew": false
-        },
-        {
-          "itemId": "d86222c28e0a0b5420d4e7ce736d59675d44ec0bc7cc914e63d0e132c1464b0c",
-          "sourceId": "kleinezeitung_steiermark",
-          "sourceType": "media",
-          "title": "Von Schladming nach Shanghai – und dort bei der Berufs-WM dabei",
-          "url": "https://www.kleinezeitung.at/artikel/41268497/von-schladming-nach-shanghai-und-dort-bei-der-berufs-wm-dabei",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-09-19T10:08:07.636Z"
-    },
-    {
-      "clusterId": "cluster-20260919-e1b6ba63",
-      "title": "Fehlkonfiguration im Test: Gemini greift auf drei echte Firmen zu",
-      "score": 0.9,
-      "items": [
-        {
-          "itemId": "9aeec2df43fa9b28c54ab4aedbc3fda0ebddb360a326277b26d6ce49dc9024b1",
-          "sourceId": "heise_news",
-          "sourceType": "media",
-          "title": "Fehlkonfiguration im Test: Gemini greift auf drei echte Firmen zu",
-          "url": "https://www.heise.de/news/Fehlkonfiguration-im-Test-Gemini-greift-auf-drei-echte-Firmen-zu-11459067.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-          "summary": "Eine Fehlkonfiguration gab Gemini in einem Cybertest Internetzugang. Die KI griff auf Systeme dreier Firmen zu und brach laut Google jeweils ab.",
-          "publishedAt": "2026-09-19T10:02:00.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "7a9527cce0c7f106c4c5ac43cfdedf2076f01f8077e3105e5ed977591165c3c7",
-          "sourceId": "golem_news",
-          "sourceType": "media",
-          "title": "Google best�tigt: KI-Modell Gemini knackt drei echte Firmen",
-          "url": "https://www.golem.de/news/google-bestaetigt-ki-modell-gemini-knackt-drei-echte-firmen-2609-213241.html",
-          "summary": "Bei einem Sicherheitstest sollte Googles KI eigentlich nur fiktive Firmen angreifen. Stattdessen ist sie bei drei echten Unternehmen eingebrochen. (Gemini, Google)",
-          "publishedAt": "2026-09-19T09:48:02.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "0817855fb5f3417ec678a04a63a3882ec9b1e873e301dfe38d25f8735b0a97f5",
-          "sourceId": "thedecoder",
-          "sourceType": "media",
-          "title": "Auch Googles Gemini hackte bei Sicherheitstest versehentlich drei echte Unternehmen",
-          "url": "https://the-decoder.de/auch-googles-gemini-hackte-bei-sicherheitstest-versehentlich-drei-echte-unternehmen",
-          "summary": "Googles KI-Modell Gemini hackte während eines Sicherheitstests der Firma Irregular drei reale Unternehmen, es erriet Passwörter und fand Zugangsdaten in öffentlichen Quellen. Ursache war eine fehlerhafte Testumgebung mit aktivem Internetzugang. Dieselbe Firma löste identische Vorfälle auch bei OpenAI, Anthropic und Meta aus.\nDer Artikel Auch Googles Gemini hackte bei Sicherheitstest versehentlich drei echte Unternehmen erschien zuerst auf The Decoder.",
-          "publishedAt": "2026-09-19T09:25:03.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "b8f1f3842422bef2ab8903d1fab52f53b3f93bd542e8b4ac34658e39a7361e99",
-          "sourceId": "kurier_home",
-          "sourceType": "media",
-          "title": "Nächster KI-Angriff: Google-KI Gemini hackte bei Test drei Unternehmen",
-          "url": "https://kurier.at/wirtschaft/google-ki-gemini-hackte-bei-test-drei-unternehmen-bericht/403191735",
-          "isNew": false
-        },
-        {
-          "itemId": "0b9a768ff59878369bc2f383c273ef4012c4c2d35ae710115379aead2e7a97b5",
-          "sourceId": "kurier_wirtschaft",
-          "sourceType": "media",
-          "title": "Nächster KI-Angriff: Google-KI Gemini hackte bei Test drei Unternehmen",
-          "url": "https://kurier.at/wirtschaft/google-ki-gemini-hackte-bei-test-drei-unternehmen-bericht/403191735",
-          "isNew": false
-        },
-        {
-          "itemId": "f93d28059771be56fec69eb0853e9840488d46dd1e633f0795e32e89824eb2dd",
-          "sourceId": "orf_news",
-          "sourceType": "media",
-          "title": "Googles KI Gemini hackte ebenfalls andere Unternehmen",
-          "url": "https://orf.at/stories/3442622",
-          "isNew": false
-        },
-        {
-          "itemId": "d25db4e25910cd424f04b87f5330e3320fb12d5b8b1ee307052d39a331a7ebd0",
-          "sourceId": "derstandard_newsroom",
-          "sourceType": "media",
-          "title": "Google-KI Gemini hackte bei Test drei Unternehmen",
-          "url": "https://www.derstandard.at/story/3000000340464/google-ki-gemini-hackte-bei-test-drei-unternehmen-bericht",
-          "isNew": false
-        },
-        {
-          "itemId": "2ba574e914bc83d5d3578e5066d7ca642aa59908dc32b9ce1e702fad2643d417",
-          "sourceId": "derstandard_web",
-          "sourceType": "media",
-          "title": "Google-KI Gemini hackte bei Test drei Unternehmen",
-          "url": "https://www.derstandard.at/story/3000000340464/google-ki-gemini-hackte-bei-test-drei-unternehmen-bericht",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-09-19T10:08:07.636Z"
-    },
-    {
-      "clusterId": "cluster-20260919-a73eaa26",
-      "title": "Pakistan: Bereits über 30 Tote nach Angriff auf Polizeiwache",
-      "score": 0.85,
-      "items": [
-        {
-          "itemId": "a9f4aa4498d9d73072ee2286dea487cebd64d094100f99fa28f5bb9717200347",
-          "sourceId": "orf_news",
-          "sourceType": "media",
-          "title": "Pakistan: Bereits über 30 Tote nach Angriff auf Polizeiwache",
-          "url": "https://orf.at/stories/3442626",
-          "publishedAt": "2026-09-19T07:12:23.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "189bfb70a0464b7a3017a19b52428b6b1955ddd4b4f388c81027b3722420bdcb",
-          "sourceId": "derstandard_newsroom",
-          "sourceType": "media",
-          "title": "Angriff auf Polizeiwache in Pakistan: Zahl der Toten auf 31 gestiegen",
-          "url": "https://www.derstandard.at/story/3000000340460/angriff-auf-polizeiwache-in-pakistan-zahl-der-toten-auf-31-gestiegen",
-          "isNew": false
-        },
-        {
-          "itemId": "32d14ccfd8954a0565e4bee1b4809fbd4bfd6e4656931ef4820858b3c5f4eb70",
-          "sourceId": "derstandard_international",
-          "sourceType": "media",
-          "title": "Angriff auf Polizeiwache in Pakistan: Zahl der Toten auf 31 gestiegen",
-          "url": "https://www.derstandard.at/story/3000000340460/angriff-auf-polizeiwache-in-pakistan-zahl-der-toten-auf-31-gestiegen",
-          "isNew": false
-        },
-        {
-          "itemId": "fa669238e9e6e3bc9bf06e052f344f1fe49baba80afc626dfdf0e61e8dee0a56",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "Angriff auf Polizeiwache in Pakistan: Bereits 31 Todesopfer",
-          "url": "https://www.kleinezeitung.at/artikel/41276195/angriff-auf-polizeiwache-in-pakistan-bereits-31-todesopfer",
-          "isNew": false
-        },
-        {
-          "itemId": "13db3cb6944b2b0abb4082aadd42b02c506c478011a9c783b68c810a24f9f6a9",
-          "sourceId": "kleinezeitung_politik",
-          "sourceType": "media",
-          "title": "Angriff auf Polizeiwache in Pakistan: Bereits 31 Todesopfer",
-          "url": "https://www.kleinezeitung.at/artikel/41276195/angriff-auf-polizeiwache-in-pakistan-bereits-31-todesopfer",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-09-19T08:07:35.594Z"
-    },
     {
       "clusterId": "cluster-20260919-ae8fa734",
       "title": "Behörden in Saudi-Arabien rufen Luftalarm in Riad aus",
@@ -233,66 +54,6 @@
         }
       ],
       "queuedAt": "2026-09-19T08:07:35.594Z"
-    },
-    {
-      "clusterId": "cluster-20260919-58de222d",
-      "title": "Neos wollen höhere Studiengebühren",
-      "score": 0.85,
-      "items": [
-        {
-          "itemId": "43dc5b935a4ad07eb8d13509593144f21494cb6d01b7bda64c37235338c9ffcb",
-          "sourceId": "derstandard_newsroom",
-          "sourceType": "media",
-          "title": "Neos wollen höhere Studiengebühren",
-          "url": "https://www.derstandard.at/story/3000000340472/hochschulstrategie-neos-wollen-h246here-geb252hren-und-studienleistung",
-          "summary": "Die Neos legen ihre Hochschulstrategie 2040 vor: Studierende sollen künftig mehr ECTS-Punkte vorweisen müssen, für Drittstaatsangehörige sollen sich die Gebühren mehr als verdreifachen",
-          "publishedAt": "2026-09-19T08:47:27.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "56d5df8ee1053904a191573420b6367452adda019a50b42f9a8b098c541e1562",
-          "sourceId": "derstandard_inland",
-          "sourceType": "media",
-          "title": "Neos wollen höhere Studiengebühren",
-          "url": "https://www.derstandard.at/story/3000000340472/hochschulstrategie-neos-wollen-h246here-geb252hren-und-studienleistung",
-          "summary": "Die Neos legen ihre Hochschulstrategie 2040 vor: Studierende sollen künftig mehr ECTS-Punkte vorweisen müssen, für Drittstaatsangehörige sollen sich die Gebühren mehr als verdreifachen",
-          "publishedAt": "2026-09-19T08:47:27.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "d5b03c3a6b67b06989921d5f1d574fdb4d5417647940744f5ca3e98ffa5d9d30",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "NEOS für höhere Studiengebühren und Mindeststudienleistung",
-          "url": "https://www.kleinezeitung.at/artikel/41275914/neos-fuer-hoehere-studiengebuehren-und-mindeststudienleistung",
-          "isNew": false
-        },
-        {
-          "itemId": "02bece976893c0125b50e8adfc05c9c6f1d33a441dc3f9fe33c95b3531f792bd",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "NEOS für höhere Studiengebühren und Mindeststudienleistung",
-          "url": "https://www.kleinezeitung.at/artikel/41275914/neos-fuer-hoehere-studiengebuehren-und-mindeststudienleistung",
-          "isNew": false
-        },
-        {
-          "itemId": "4154abc139bef334803b7766e8f5fbdd51b41b25dbbac88976c6e70ca2a5c395",
-          "sourceId": "kleinezeitung_politik",
-          "sourceType": "media",
-          "title": "NEOS für höhere Studiengebühren und Mindeststudienleistung",
-          "url": "https://www.kleinezeitung.at/artikel/41275914/neos-fuer-hoehere-studiengebuehren-und-mindeststudienleistung",
-          "isNew": false
-        },
-        {
-          "itemId": "ffedc4396c899cb384a262d899843b344343ba95197eaff5007ccddd40035f26",
-          "sourceId": "orf_news",
-          "sourceType": "media",
-          "title": "NEOS will höhere Unigebühren und mehr Studienleistung",
-          "url": "https://orf.at/stories/3442629",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-09-19T10:08:07.636Z"
     },
     {
       "clusterId": "cluster-20260919-a489cdf3",
@@ -410,72 +171,257 @@
       "queuedAt": "2026-09-19T08:07:35.594Z"
     },
     {
-      "clusterId": "cluster-20260919-802ca6e4",
-      "title": "Kollision mit Pkw: Biker schwer verletzt",
-      "score": 0.8,
+      "clusterId": "cluster-20260919-e9049185",
+      "title": "Grönland, Dänemark, USA: Einigung erzielt, Vertrauen erschüttert",
+      "score": 0.85,
       "items": [
         {
-          "itemId": "fcc15d8e4ad713ab8d80d62efd339169bbd202bf3e0a5157490051133338046e",
-          "sourceId": "orf_oesterreich",
+          "itemId": "3e4ceff03d14b9bb8293035d4e212862598c3b1c4154c19022a4f2c49c1cc6f9",
+          "sourceId": "derstandard_newsroom",
           "sourceType": "media",
-          "title": "Kollision mit Pkw: Biker schwer verletzt",
-          "url": "https://steiermark.orf.at/stories/3371816",
-          "summary": "Ein 57-jähriger Motorradfahrer ist am Freitag bei einer Kollision mit einem Pkw in Halbenrain (Bezirk Südoststeiermark) schwer verletzt worden. Der Pkw-Lenker dürfte den Biker beim Abbiegen übersehen haben.",
-          "publishedAt": "2026-09-19T09:42:48.000Z",
+          "title": "Grönland, Dänemark, USA: Einigung erzielt, Vertrauen erschüttert",
+          "url": "https://www.derstandard.at/story/3000000340465/groenland-daenemark-usa-einigung-erzielt-vertrauen-erschuettert",
+          "summary": "Mit der Ausweitung vorhandener US-Militärbefugnisse auch im Fall einer Unabhängigkeit Grönlands scheint eine Lösung gefunden. Doch der Konflikt hat die Beziehungen nachhaltig beschädigt",
+          "publishedAt": "2026-09-19T10:59:55.000Z",
           "isNew": true
         },
         {
-          "itemId": "49f1b6ca78e8aa9ededdb23206c71ad2e52b4ffbc3d61ded7110215b91254357",
-          "sourceId": "orf_steiermark",
+          "itemId": "4874afe0c866d73e849ae9ed691d2ae93494ec0e8f00d4d543cabd70032bfb4c",
+          "sourceId": "derstandard_international",
           "sourceType": "media",
-          "title": "Kollision mit Pkw: Biker schwer verletzt",
-          "url": "https://steiermark.orf.at/stories/3371816",
-          "summary": "Ein 57-jähriger Motorradfahrer ist am Freitag bei einer Kollision mit einem Pkw in Halbenrain (Bezirk Südoststeiermark) schwer verletzt worden. Der Pkw-Lenker dürfte den Biker beim Abbiegen übersehen haben.",
-          "publishedAt": "2026-09-19T09:42:48.000Z",
+          "title": "Grönland, Dänemark, USA: Einigung erzielt, Vertrauen erschüttert",
+          "url": "https://www.derstandard.at/story/3000000340465/groenland-daenemark-usa-einigung-erzielt-vertrauen-erschuettert",
+          "summary": "Mit der Ausweitung vorhandener US-Militärbefugnisse auch im Fall einer Unabhängigkeit Grönlands scheint eine Lösung gefunden. Doch der Konflikt hat die Beziehungen nachhaltig beschädigt",
+          "publishedAt": "2026-09-19T10:59:55.000Z",
           "isNew": true
         },
         {
-          "itemId": "d28386cefbc1a29260b4930f35125b0274b8e023042c3ba57b8fe988ceec22cb",
-          "sourceId": "orf_oesterreich",
+          "itemId": "799645c810334578f61fae3e22269aa59f088e8515c234da72beb66f02e7a70b",
+          "sourceId": "orf_news",
           "sourceType": "media",
-          "title": "82-jähriger Biker bei Kollision tödlich verletzt",
-          "url": "https://steiermark.orf.at/stories/3371785",
+          "title": "Trump verkündet Einigung mit Dänemark über Grönland",
+          "url": "https://orf.at/stories/3442618",
           "isNew": false
         },
         {
-          "itemId": "acfb269584ffea3e1d1d83f7c9993b5bd30d85bcb183018de34be9c5c0de5a81",
-          "sourceId": "orf_steiermark",
+          "itemId": "74e65d1a5234d6ebcc9cdac64c52e316c9e56b56ee0c544b81ec136c5ce61f9c",
+          "sourceId": "orf_news",
           "sourceType": "media",
-          "title": "82-jähriger Biker bei Kollision tödlich verletzt",
-          "url": "https://steiermark.orf.at/stories/3371785",
+          "title": "USA und Dänemark einigen sich zu Grönland",
+          "url": "https://orf.at/stories/3442617",
           "isNew": false
         },
         {
-          "itemId": "4a74d0608c9127eece682de051133f1bfa85863ade4ade65e77bf3f323ebef9e",
-          "sourceId": "kleinezeitung_home",
+          "itemId": "d27975bf24bb9aa12125e824b5e9cf6a727b4e49be1ebc128f0819f1d616ec36",
+          "sourceId": "derstandard_newsroom",
           "sourceType": "media",
-          "title": "Halbenrain: Motorradfahrer (57) bei Kollision schwer verletzt",
-          "url": "https://www.kleinezeitung.at/artikel/41276211/halbenrain-motorradfahrer-57-bei-kollision-schwer-verletzt",
+          "title": "USA, Dänemark und Grönland geben Einigung bekannt",
+          "url": "https://www.derstandard.at/story/3000000340461/vor-abkommen-252ber-gr246nland-trump-traum-geht-in-erf252llung",
           "isNew": false
         },
         {
-          "itemId": "9ee55b3c01170e86395905e44157ac7d971670640ae0bc2c246d23e2a322247b",
-          "sourceId": "kleinezeitung_oesterreich",
+          "itemId": "09a31b9075444b24a2c11b6cb92e14ace5d5607ce8e746375c4a238fb7aeac70",
+          "sourceId": "derstandard_international",
           "sourceType": "media",
-          "title": "Halbenrain: Motorradfahrer (57) bei Kollision schwer verletzt",
-          "url": "https://www.kleinezeitung.at/artikel/41276211/halbenrain-motorradfahrer-57-bei-kollision-schwer-verletzt",
+          "title": "USA, Dänemark und Grönland geben Einigung bekannt",
+          "url": "https://www.derstandard.at/story/3000000340461/vor-abkommen-252ber-gr246nland-trump-traum-geht-in-erf252llung",
           "isNew": false
         },
         {
-          "itemId": "3af524cadab62fb264fb993db19aedc34d3cce55948313e5e802b4b83ae40281",
-          "sourceId": "kleinezeitung_steiermark",
+          "itemId": "7e2636aff209fce7fd19427f6a2dfcb3f0d1e80c2af70954693a4a04c0ccefaa",
+          "sourceId": "kurier_home",
           "sourceType": "media",
-          "title": "Halbenrain: Motorradfahrer (57) bei Kollision schwer verletzt",
-          "url": "https://www.kleinezeitung.at/artikel/41276211/halbenrain-motorradfahrer-57-bei-kollision-schwer-verletzt",
+          "title": "Dänemark und USA verkünden Durchbruch im Grönland-Streit",
+          "url": "https://kurier.at/politik/ausland/daenemark-und-usa-verkuenden-durchbruch-im-groenland-streit/403191733",
+          "isNew": false
+        },
+        {
+          "itemId": "fbd34629da047f8db933c6848e646f04010825c4f61a504e6101a1de5997a378",
+          "sourceId": "kurier_politik",
+          "sourceType": "media",
+          "title": "Dänemark und USA verkünden Durchbruch im Grönland-Streit",
+          "url": "https://kurier.at/politik/ausland/daenemark-und-usa-verkuenden-durchbruch-im-groenland-streit/403191733",
           "isNew": false
         }
       ],
-      "queuedAt": "2026-09-19T10:08:07.636Z"
+      "queuedAt": "2026-09-19T12:07:33.511Z"
+    },
+    {
+      "clusterId": "cluster-20260919-07d57344",
+      "title": "Doppel bringt Österreich im Davis Cup gegen Belgien 2:1 in Führung",
+      "score": 0.85,
+      "items": [
+        {
+          "itemId": "c6b609e8f534fe2ad3ae8bda46d60f058cca04c9c20c47632349b741736ea649",
+          "sourceId": "derstandard_sport",
+          "sourceType": "media",
+          "title": "Doppel bringt Österreich im Davis Cup gegen Belgien 2:1 in Führung",
+          "url": "https://www.derstandard.at/story/3000000340484/tennis-214sterreich-f252hrt-im-davis-cup-gegen-belgien-21",
+          "summary": "Das neuformierte ÖTV-Doppel Lucas Miedler/Neil Oberleitner gewann im Wiener Prater nach 1:53 Stunden. Ein Sieg im anschließenden Einzel würde das Viertelfinale fixieren",
+          "publishedAt": "2026-09-19T11:47:51.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "d321bbce17833548060b9a8a22798ca92f69ce30511ab96885d8b66ed1b9e5b5",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Davis Cup: Nach dem Doppel hat Österreich den ersten Matchball",
+          "url": "https://kurier.at/sport/tennis/tennis-davis-cup-oesterreich-belgien-doppel-miedler-oberleitner/403192078",
+          "summary": "Lucas Miedler und Debütant Neil Oberleitner besiegen Gille/Vliegen in zwei Sätzen und stellen auf 2:1 gegen Belgien.",
+          "publishedAt": "2026-09-19T11:09:34.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "1e79bb6799ad0b1f46d88bfec53924324ed10db803ca938f7c3ceeb81965edc5",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "So startet Österreich in das Davis-Cup-Duell gegen Belgien",
+          "url": "https://kurier.at/sport/tennis/tennis-davis-cup-oesterreich-belgien-auslosung/403191376",
+          "isNew": false
+        },
+        {
+          "itemId": "c35f3824bebc5715fe5e8a96beaa9518741bad9f96d1f2934d7c6f9b535f1cd2",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Davis Cup: Österreich gegen Belgien um das Ticket nach Bologna",
+          "url": "https://kurier.at/sport/tennis/oesterreich-davis-cup-wien-prater-tennis/403191371",
+          "isNew": false
+        },
+        {
+          "itemId": "63f324795573d7aa4bbf352a94a15aa1e0431beaa0f1a8e35785e65c47ff1f3c",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Nach dem ersten Davis-Cup-Tag steht es 1:1 zwischen Österreich und Belgien",
+          "url": "https://www.derstandard.at/story/3000000340421/rodionov-stellt-im-davis-cup-gegen-belgien-auf-10",
+          "isNew": false
+        },
+        {
+          "itemId": "e1d8b5b59675f70077e0e42f9b9041c8dc3c87308910fc4e2f9939db52296781",
+          "sourceId": "orf_sport",
+          "sourceType": "media",
+          "title": "Stand und Stream des Davis-Cup-Doppels",
+          "url": "https://sport.orf.at/stories/3162551",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-09-19T12:07:33.511Z"
+    },
+    {
+      "clusterId": "cluster-20260919-94f28a2d",
+      "title": "NEOS fordern Verdoppelung der Studiengebühren",
+      "score": 0.85,
+      "items": [
+        {
+          "itemId": "9cb91350a959acc6566dfd8f5cfc2629dd3f380e731b6873d322292b614463f6",
+          "sourceId": "diepresse_home",
+          "sourceType": "media",
+          "title": "NEOS fordern Verdoppelung der Studiengebühren",
+          "url": "https://www.diepresse.com/41276706/neos-fordern-verdoppelung-der-studiengebuehren",
+          "summary": "Die NEOS fordern für die Hochschulstrategie 2040 zudem eine höhere Mindeststudienleistung.",
+          "publishedAt": "2026-09-19T11:50:26.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "5da7ea24b4d8185ad2e887e50ba382e5a144e631049d9dcf3747c6b4512ef464",
+          "sourceId": "diepresse_politik",
+          "sourceType": "media",
+          "title": "NEOS fordern Verdoppelung der Studiengebühren",
+          "url": "https://www.diepresse.com/41276706/neos-fordern-verdoppelung-der-studiengebuehren",
+          "summary": "Die NEOS fordern für die Hochschulstrategie 2040 zudem eine höhere Mindeststudienleistung.",
+          "publishedAt": "2026-09-19T11:50:26.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "d5b03c3a6b67b06989921d5f1d574fdb4d5417647940744f5ca3e98ffa5d9d30",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "NEOS für höhere Studiengebühren und Mindeststudienleistung",
+          "url": "https://www.kleinezeitung.at/artikel/41275914/neos-fuer-hoehere-studiengebuehren-und-mindeststudienleistung",
+          "isNew": false
+        },
+        {
+          "itemId": "02bece976893c0125b50e8adfc05c9c6f1d33a441dc3f9fe33c95b3531f792bd",
+          "sourceId": "kleinezeitung_oesterreich",
+          "sourceType": "media",
+          "title": "NEOS für höhere Studiengebühren und Mindeststudienleistung",
+          "url": "https://www.kleinezeitung.at/artikel/41275914/neos-fuer-hoehere-studiengebuehren-und-mindeststudienleistung",
+          "isNew": false
+        },
+        {
+          "itemId": "4154abc139bef334803b7766e8f5fbdd51b41b25dbbac88976c6e70ca2a5c395",
+          "sourceId": "kleinezeitung_politik",
+          "sourceType": "media",
+          "title": "NEOS für höhere Studiengebühren und Mindeststudienleistung",
+          "url": "https://www.kleinezeitung.at/artikel/41275914/neos-fuer-hoehere-studiengebuehren-und-mindeststudienleistung",
+          "isNew": false
+        },
+        {
+          "itemId": "b8d6a494f4dee0b129c9d2364e96675a80dd0e1ab1ee71a66cb898d22f67772e",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "700 Euro pro Semester: Neos wollen Studiengebühren verdoppeln",
+          "url": "https://kurier.at/politik/inland/universitaet-neos-gebuehren-studienleistung/403191737",
+          "isNew": false
+        },
+        {
+          "itemId": "431c0924e61419ca500bff9cd98f476769410779231c7e5285702b61cd89ced4",
+          "sourceId": "kurier_politik",
+          "sourceType": "media",
+          "title": "700 Euro pro Semester: Neos wollen Studiengebühren verdoppeln",
+          "url": "https://kurier.at/politik/inland/universitaet-neos-gebuehren-studienleistung/403191737",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-09-19T12:07:33.511Z"
+    },
+    {
+      "clusterId": "cluster-20260919-a73eaa26",
+      "title": "Pakistan: Bereits über 30 Tote nach Angriff auf Polizeiwache",
+      "score": 0.85,
+      "items": [
+        {
+          "itemId": "a9f4aa4498d9d73072ee2286dea487cebd64d094100f99fa28f5bb9717200347",
+          "sourceId": "orf_news",
+          "sourceType": "media",
+          "title": "Pakistan: Bereits über 30 Tote nach Angriff auf Polizeiwache",
+          "url": "https://orf.at/stories/3442626",
+          "publishedAt": "2026-09-19T07:12:23.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "189bfb70a0464b7a3017a19b52428b6b1955ddd4b4f388c81027b3722420bdcb",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "Angriff auf Polizeiwache in Pakistan: Zahl der Toten auf 31 gestiegen",
+          "url": "https://www.derstandard.at/story/3000000340460/angriff-auf-polizeiwache-in-pakistan-zahl-der-toten-auf-31-gestiegen",
+          "isNew": false
+        },
+        {
+          "itemId": "32d14ccfd8954a0565e4bee1b4809fbd4bfd6e4656931ef4820858b3c5f4eb70",
+          "sourceId": "derstandard_international",
+          "sourceType": "media",
+          "title": "Angriff auf Polizeiwache in Pakistan: Zahl der Toten auf 31 gestiegen",
+          "url": "https://www.derstandard.at/story/3000000340460/angriff-auf-polizeiwache-in-pakistan-zahl-der-toten-auf-31-gestiegen",
+          "isNew": false
+        },
+        {
+          "itemId": "fa669238e9e6e3bc9bf06e052f344f1fe49baba80afc626dfdf0e61e8dee0a56",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Angriff auf Polizeiwache in Pakistan: Bereits 31 Todesopfer",
+          "url": "https://www.kleinezeitung.at/artikel/41276195/angriff-auf-polizeiwache-in-pakistan-bereits-31-todesopfer",
+          "isNew": false
+        },
+        {
+          "itemId": "13db3cb6944b2b0abb4082aadd42b02c506c478011a9c783b68c810a24f9f6a9",
+          "sourceId": "kleinezeitung_politik",
+          "sourceType": "media",
+          "title": "Angriff auf Polizeiwache in Pakistan: Bereits 31 Todesopfer",
+          "url": "https://www.kleinezeitung.at/artikel/41276195/angriff-auf-polizeiwache-in-pakistan-bereits-31-todesopfer",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-09-19T08:07:35.594Z"
     },
     {
       "clusterId": "cluster-20260919-31358aa7",
@@ -862,6 +808,90 @@
       "queuedAt": "2026-09-18T18:07:32.685Z"
     },
     {
+      "clusterId": "cluster-20260919-e4312f27",
+      "title": "CNN: KI-Fehler führte beinahe zu US-Militäreinsatz",
+      "score": 0.75,
+      "items": [
+        {
+          "itemId": "ef29040811eb7eb98f2c737120b5d7cb41778519eee9353f8e7ec2307e84c1c5",
+          "sourceId": "orf_news",
+          "sourceType": "media",
+          "title": "CNN: KI-Fehler führte beinahe zu US-Militäreinsatz",
+          "url": "https://orf.at/stories/3442653",
+          "publishedAt": "2026-09-19T10:49:34.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "687729db447079409bc08bfae7c10007ccf125242b5ee5cbd84036009c9a5f92",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "CNN: KI-Fehler löste beinahe US-Militäreinsatz aus",
+          "url": "https://www.kleinezeitung.at/artikel/41276827/cnn-ki-fehler-loeste-beinahe-us-militaereinsatz-aus",
+          "summary": "Ein mithilfe von Künstlicher Intelligenz (KI) erstellter, fehlerhafter US-Geheimdienstbericht hätte laut dem Sender CNN fast dazu geführt, dass das US-Militär inmitten des Iran-Kriegs ein chinesisches Schiff stürmte. CNN zitierte am Freitag (Ortszeit) mit dem Vorfall vertraute Kreise. Demnach warnte der Bericht vor einer angeblichen Ladung des Schiffes mit Komponenten für Atomwaffen. Die Informationen seien \"komplett falsch\" gewesen und hätten \"fast einen Krieg verursacht\".",
+          "publishedAt": "2026-09-19T12:05:26.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "d42abdd1b581e711d53f24de9cfb0e917e32d128e7cd8038b93b4df4894cbd4b",
+          "sourceId": "kleinezeitung_politik",
+          "sourceType": "media",
+          "title": "CNN: KI-Fehler löste beinahe US-Militäreinsatz aus",
+          "url": "https://www.kleinezeitung.at/artikel/41276827/cnn-ki-fehler-loeste-beinahe-us-militaereinsatz-aus",
+          "summary": "Ein mithilfe von Künstlicher Intelligenz (KI) erstellter, fehlerhafter US-Geheimdienstbericht hätte laut dem Sender CNN fast dazu geführt, dass das US-Militär inmitten des Iran-Kriegs ein chinesisches Schiff stürmte. CNN zitierte am Freitag (Ortszeit) mit dem Vorfall vertraute Kreise. Demnach warnte der Bericht vor einer angeblichen Ladung des Schiffes mit Komponenten für Atomwaffen. Die Informationen seien \"komplett falsch\" gewesen und hätten \"fast einen Krieg verursacht\".",
+          "publishedAt": "2026-09-19T12:05:26.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-09-19T12:07:33.511Z"
+    },
+    {
+      "clusterId": "cluster-20260919-42895da4",
+      "title": "191. Münchner Oktoberfest ist eröffnet",
+      "score": 0.75,
+      "items": [
+        {
+          "itemId": "2c893afe772afb303a3c2f440ef652b030d18c60307dcf9c07ec11720dd7feab",
+          "sourceId": "orf_news",
+          "sourceType": "media",
+          "title": "191. Münchner Oktoberfest ist eröffnet",
+          "url": "https://orf.at/stories/3442650",
+          "publishedAt": "2026-09-19T10:13:15.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "f3abf063bfc4c9947922a742d79f387d8a57c556cb9ada0104459eaa1862dd87",
+          "sourceId": "derstandard_panorama",
+          "sourceType": "media",
+          "title": "\"O'zapft is\": Münchner Oktoberfest ist eröffnet",
+          "url": "https://www.derstandard.at/story/3000000340478/m252nchner-oktoberfest-ist-er246ffnet",
+          "summary": "Mit einem neuen Sicherheitskonzept sollen die Besucherströme auf dem Festgelände beobachtet und gesteuert werden",
+          "publishedAt": "2026-09-19T10:34:17.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "be62d1d4d334bb46ff90e91117e98e6727b96be6fee8dbcebf3f255ea28b1842",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "„Oans, zwoa, drei gsuffa“: Münchner Oktoberfest ist eröffnet",
+          "url": "https://kurier.at/chronik/welt/muenchner-oktoberfest-ist-eroeffnet/403192079",
+          "summary": "Zehntausende stürmten in Dirndl und Lederhose die Theresienwiese. Der Preis für eine Maß Bier? Im Schnitt 15,61 Euro.",
+          "publishedAt": "2026-09-19T10:46:51.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "ba8604754a9157ab9082045711c6ee811ce4cf6b904215e1a4c6e55376a16751",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "„Oans, zwoa, drei gsuffa“: Münchner Oktoberfest ist eröffnet",
+          "url": "https://kurier.at/chronik/welt/muenchner-oktoberfest-ist-eroeffnet/403192079",
+          "summary": "Zehntausende stürmten in Dirndl und Lederhose die Theresienwiese. Der Preis für eine Maß Bier? Im Schnitt 15,61 Euro.",
+          "publishedAt": "2026-09-19T10:46:51.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-09-19T12:07:33.511Z"
+    },
+    {
       "clusterId": "cluster-20260918-cfac9701",
       "title": "WKO-Betriebsrat zieht wegen Gehaltserhöhung vor OGH",
       "score": 0.75,
@@ -895,18 +925,38 @@
       "queuedAt": "2026-09-18T16:07:31.296Z"
     },
     {
-      "clusterId": "cluster-20260919-e698a9e9",
-      "title": "Jorge Martín holt sich Spielberg-Pole, KTM-Pilot Acosta Dritter",
+      "clusterId": "cluster-20260919-af059f87",
+      "title": "Martin startet in Spielberg von der Pole Position, KTM-Pilot Acosta Dritter",
       "score": 0.725,
       "items": [
         {
-          "itemId": "41382f2fa02e32181f31b569e0b3b90a5e71eef865c316f2a8191f65e3c3831f",
-          "sourceId": "derstandard_sport",
+          "itemId": "7044d11c5eb8623c2804eaf2283b46e6023833ffc4568a9f645a484e6773454c",
+          "sourceId": "kleinezeitung_home",
           "sourceType": "media",
-          "title": "Jorge Martín holt sich Spielberg-Pole, KTM-Pilot Acosta Dritter",
-          "url": "https://www.derstandard.at/story/3000000340476/motorrad-martin-holte-sich-spielberg-pole-ktm-pilot-acosta-dritter",
-          "summary": "Aprilia-Pilot Martín war im Qualifying 15 Tausendstelsekunden schneller als WM-Leader Marc Márquez auf seiner Ducati",
-          "publishedAt": "2026-09-19T10:03:34.000Z",
+          "title": "Martin startet in Spielberg von der Pole Position, KTM-Pilot Acosta Dritter",
+          "url": "https://www.kleinezeitung.at/artikel/41276604/martin-startet-in-spielberg-von-der-pole-position-ktm-pilot-acosta",
+          "summary": "Jorge Martin (Aprilia) schnappte sich am Samstag in Spielberg knapp vor Marc Marquez (Ducati) die Pole Position im Qualifying der MotoGP. Pedro Acosta (KTM) wurde Dritter.",
+          "publishedAt": "2026-09-19T10:28:54.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "d875ef973bea2b80878ce3c72d0eddf495a152011b20d8e2d04113732cd2c1d8",
+          "sourceId": "kleinezeitung_oesterreich",
+          "sourceType": "media",
+          "title": "Martin startet in Spielberg von der Pole Position, KTM-Pilot Acosta Dritter",
+          "url": "https://www.kleinezeitung.at/artikel/41276604/martin-startet-in-spielberg-von-der-pole-position-ktm-pilot-acosta",
+          "summary": "Jorge Martin (Aprilia) schnappte sich am Samstag in Spielberg knapp vor Marc Marquez (Ducati) die Pole Position im Qualifying der MotoGP. Pedro Acosta (KTM) wurde Dritter.",
+          "publishedAt": "2026-09-19T10:28:54.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "dc6766925125925459c8a1f81056a5ec752721291efb5c652c4a6c27b5062940",
+          "sourceId": "kleinezeitung_steiermark",
+          "sourceType": "media",
+          "title": "Martin startet in Spielberg von der Pole Position, KTM-Pilot Acosta Dritter",
+          "url": "https://www.kleinezeitung.at/artikel/41276604/martin-startet-in-spielberg-von-der-pole-position-ktm-pilot-acosta",
+          "summary": "Jorge Martin (Aprilia) schnappte sich am Samstag in Spielberg knapp vor Marc Marquez (Ducati) die Pole Position im Qualifying der MotoGP. Pedro Acosta (KTM) wurde Dritter.",
+          "publishedAt": "2026-09-19T10:28:54.000Z",
           "isNew": true
         },
         {
@@ -948,9 +998,153 @@
           "title": "KTM-Pilot Acosta mit Trainingsbestzeit in Spielberg",
           "url": "https://www.kleinezeitung.at/artikel/41275338/ktm-pilot-acosta-mit-trainingsbestzeit-in-spielberg",
           "isNew": false
+        },
+        {
+          "itemId": "41382f2fa02e32181f31b569e0b3b90a5e71eef865c316f2a8191f65e3c3831f",
+          "sourceId": "derstandard_sport",
+          "sourceType": "media",
+          "title": "Jorge Martín holt sich Spielberg-Pole, KTM-Pilot Acosta Dritter",
+          "url": "https://www.derstandard.at/story/3000000340476/motorrad-martin-holte-sich-spielberg-pole-ktm-pilot-acosta-dritter",
+          "isNew": false
         }
       ],
-      "queuedAt": "2026-09-19T10:08:07.636Z"
+      "queuedAt": "2026-09-19T12:07:33.511Z"
+    },
+    {
+      "clusterId": "cluster-20260919-f0253d55",
+      "title": "Pkw-Lenker durchbricht bei Unfall Hauswand",
+      "score": 0.7,
+      "items": [
+        {
+          "itemId": "f52e1962bdc4bd7287d923e4f0d1cf7219d30ce3254a0f4bed92315a5b9b2020",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Pkw-Lenker durchbricht bei Unfall Hauswand",
+          "url": "https://steiermark.orf.at/stories/3371833",
+          "summary": "Ein 19-jähriger Pkw-Lenker hat Sonntagfrüh eine Hauswand in Brodersdorf im Bezirk Graz-Umgebung durchbrochen und blieb teilweise mit dem Wagen in einer Wohnung stecken. Der schlafende Bewohner im Nebenzimmer blieb unverletzt. Das Gebäude ist einsturzgefährdet.",
+          "publishedAt": "2026-09-19T11:25:22.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "d040e533a5b24d186fe25212e39e0fa0ecce3260261b834dbb5164981a7731dd",
+          "sourceId": "orf_steiermark",
+          "sourceType": "media",
+          "title": "Pkw-Lenker durchbricht bei Unfall Hauswand",
+          "url": "https://steiermark.orf.at/stories/3371833",
+          "summary": "Ein 19-jähriger Pkw-Lenker hat Sonntagfrüh eine Hauswand in Brodersdorf im Bezirk Graz-Umgebung durchbrochen und blieb teilweise mit dem Wagen in einer Wohnung stecken. Der schlafende Bewohner im Nebenzimmer blieb unverletzt. Das Gebäude ist einsturzgefährdet.",
+          "publishedAt": "2026-09-19T11:25:22.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "d54d2fa54711d1c1042d7783c9e99ae131ab4995e60a7ef2ed1452dd4d766222",
+          "sourceId": "kurier_home",
+          "sourceType": "media",
+          "title": "Pkw-Lenker starb nach Unfall auf A1 in Salzburg",
+          "url": "https://kurier.at/chronik/salzburg/pkw-lenker-verkehrsunfall-westautobahn-salzburg/403191988",
+          "isNew": false
+        },
+        {
+          "itemId": "1b2d5af675e5ff3bbc5abbfcbc9df22a8d895c6fcee607518404e311ac0c6b95",
+          "sourceId": "kurier_chronik",
+          "sourceType": "media",
+          "title": "Pkw-Lenker starb nach Unfall auf A1 in Salzburg",
+          "url": "https://kurier.at/chronik/salzburg/pkw-lenker-verkehrsunfall-westautobahn-salzburg/403191988",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-09-19T12:07:33.511Z"
+    },
+    {
+      "clusterId": "cluster-20260919-ce557338",
+      "title": "Auto überschlug sich: Eine Verletzte",
+      "score": 0.7,
+      "items": [
+        {
+          "itemId": "fde4c4f28dad307e25fbdd7b0486e8296581cd48c9e428bbd749002c20b9b424",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Auto überschlug sich: Eine Verletzte",
+          "url": "https://kaernten.orf.at/stories/3371839",
+          "summary": "Eine 70-jährige Autofahrerin ist am Samstag bei einem Unfall auf der Grafensteiner Straße (L 107) verletzt worden. Der Pkw überschlug sich ohne Beteiligung anderer Verkehrsteilnehmer und kam in Dachlage neben der Fahrbahn zum Stillstand. Die Frau wurde mit dem Rettungshubschrauber ins UKH Klagenfurt geflogen.",
+          "publishedAt": "2026-09-19T11:02:06.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "c1aadd0a4aa1a76f6bfd36041c95af6ab765170b4c547eeeb0642daa8f83fa67",
+          "sourceId": "orf_kaernten",
+          "sourceType": "media",
+          "title": "Auto überschlug sich: Eine Verletzte",
+          "url": "https://kaernten.orf.at/stories/3371839",
+          "summary": "Eine 70-jährige Autofahrerin ist am Samstag bei einem Unfall auf der Grafensteiner Straße (L 107) verletzt worden. Der Pkw überschlug sich ohne Beteiligung anderer Verkehrsteilnehmer und kam in Dachlage neben der Fahrbahn zum Stillstand. Die Frau wurde mit dem Rettungshubschrauber ins UKH Klagenfurt geflogen.",
+          "publishedAt": "2026-09-19T11:02:06.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "8eaada895a3d619e9c4e1ee231cc06eb86f103878bf7c12e3840b31ed724a9bf",
+          "sourceId": "kleinezeitung_home",
+          "sourceType": "media",
+          "title": "Pensionistin verletzt: Mit dem Auto in Grafenstein überschlagen",
+          "url": "https://www.kleinezeitung.at/artikel/41276627/pensionistin-verletzt-mit-dem-auto-in-grafenstein-ueberschlagen",
+          "summary": "Bei einem Verkehrsunfall in Grafenstein verlor eine 70-jährige Frau die Kontrolle über ihr Auto und überschlug sich. Sie wurde ins UKH Klagenfurt geflogen.",
+          "publishedAt": "2026-09-19T10:52:37.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "b0e6731038c7f4f4ff736bb60ad4dd4183e47744e24bac162be2d31f13513641",
+          "sourceId": "kleinezeitung_oesterreich",
+          "sourceType": "media",
+          "title": "Pensionistin verletzt: Mit dem Auto in Grafenstein überschlagen",
+          "url": "https://www.kleinezeitung.at/artikel/41276627/pensionistin-verletzt-mit-dem-auto-in-grafenstein-ueberschlagen",
+          "summary": "Bei einem Verkehrsunfall in Grafenstein verlor eine 70-jährige Frau die Kontrolle über ihr Auto und überschlug sich. Sie wurde ins UKH Klagenfurt geflogen.",
+          "publishedAt": "2026-09-19T10:52:37.000Z",
+          "isNew": true
+        }
+      ],
+      "queuedAt": "2026-09-19T12:07:33.511Z"
+    },
+    {
+      "clusterId": "cluster-20260919-eef49178",
+      "title": "FPÖ-Politiker Walch postet Liste mit Vornamen von Schulkindern und fordert \"Remigration\"",
+      "score": 0.7,
+      "items": [
+        {
+          "itemId": "a49db3bc4d026cacbbca54309dc8dfb234591a1dfc0a09f1da38922c125b1d2d",
+          "sourceId": "derstandard_newsroom",
+          "sourceType": "media",
+          "title": "FPÖ-Politiker Walch postet Liste mit Vornamen von Schulkindern und fordert \"Remigration\"",
+          "url": "https://www.derstandard.at/story/3000000340477/fpoe-politiker-walch-postet-liste-mit-vornamen-von-schulkindern-und-fordert-remigration",
+          "summary": "\"Zur Minderheit in unserer eigenen Stadt\" zu werden, sei \"Realität, wenn wir nicht endlich mit der Remigration beginnen\", schrieb der Abgeordnete. Grüne und SPÖ kritisieren \"Rassismus in Reinform\" sowie \"Deportationsfantasien\"",
+          "publishedAt": "2026-09-19T11:19:32.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "12fb83719d7c5d07f230de17dc2602f8065b28c642e98485fb72e699ddf2a841",
+          "sourceId": "derstandard_inland",
+          "sourceType": "media",
+          "title": "FPÖ-Politiker Walch postet Liste mit Vornamen von Schulkindern und fordert \"Remigration\"",
+          "url": "https://www.derstandard.at/story/3000000340477/fpoe-politiker-walch-postet-liste-mit-vornamen-von-schulkindern-und-fordert-remigration",
+          "summary": "\"Zur Minderheit in unserer eigenen Stadt\" zu werden, sei \"Realität, wenn wir nicht endlich mit der Remigration beginnen\", schrieb der Abgeordnete. Grüne und SPÖ kritisieren \"Rassismus in Reinform\" sowie \"Deportationsfantasien\"",
+          "publishedAt": "2026-09-19T11:19:32.000Z",
+          "isNew": true
+        },
+        {
+          "itemId": "acdebf8afaa331c825fcfe3a8a680efa66e4b61ca2ad602047917c06933378c6",
+          "sourceId": "orf_oesterreich",
+          "sourceType": "media",
+          "title": "Rassismusvorwurf an FPÖ-Politiker Walch",
+          "url": "https://tirol.orf.at/stories/3371787",
+          "isNew": false
+        },
+        {
+          "itemId": "efe925036c3153ce520e2b6e84ba55020498266e9eb1791ba5ee413ed7361ca9",
+          "sourceId": "orf_tirol",
+          "sourceType": "media",
+          "title": "Rassismusvorwurf an FPÖ-Politiker Walch",
+          "url": "https://tirol.orf.at/stories/3371787",
+          "isNew": false
+        }
+      ],
+      "queuedAt": "2026-09-19T12:07:33.511Z"
     },
     {
       "clusterId": "cluster-20260919-87eb10a5",
@@ -1039,140 +1233,6 @@
         }
       ],
       "queuedAt": "2026-09-19T10:08:07.636Z"
-    },
-    {
-      "clusterId": "cluster-20260919-7fc24681",
-      "title": "SPÖ drängt auf Aktionsplan gegen „Homo-Hasser“",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "0f7782180b3f7fa5905a84bf7d4dd97ce02778ace0954ec8501eb856a2f1fc8b",
-          "sourceId": "orf_news",
-          "sourceType": "media",
-          "title": "SPÖ drängt auf Aktionsplan gegen „Homo-Hasser“",
-          "url": "https://orf.at/stories/3442630",
-          "publishedAt": "2026-09-19T07:43:25.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "23c702970922bf34310492e9f1eb2922b103b87b4a1b9be7f696d29f6ee24585",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "SPÖ drängt auf Aktionsplan gegen \"Homo-Hasser\"",
-          "url": "https://www.kleinezeitung.at/artikel/41275918/spoe-draengt-auf-aktionsplan-gegen-homo-hasser",
-          "isNew": false
-        },
-        {
-          "itemId": "0b3f6f3de2a11c9ed7a59e8e2922e470a7aca356facc83b7472fbcaad6181ac6",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "SPÖ drängt auf Aktionsplan gegen \"Homo-Hasser\"",
-          "url": "https://www.kleinezeitung.at/artikel/41275918/spoe-draengt-auf-aktionsplan-gegen-homo-hasser",
-          "isNew": false
-        },
-        {
-          "itemId": "3f4daa948c53ed417ee9155ed48cea7b85d6067bfce4a3cfe6fffd796c148cd8",
-          "sourceId": "kleinezeitung_politik",
-          "sourceType": "media",
-          "title": "SPÖ drängt auf Aktionsplan gegen \"Homo-Hasser\"",
-          "url": "https://www.kleinezeitung.at/artikel/41275918/spoe-draengt-auf-aktionsplan-gegen-homo-hasser",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-09-19T08:07:35.594Z"
-    },
-    {
-      "clusterId": "cluster-20260919-1934484f",
-      "title": "Armutskonferenz übt Kritik an Entwurf für Sozialhilfe",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "772498da723fbe806abec39567c0dfe2b959f603db1d4077bc176e4bcdceaff7",
-          "sourceId": "orf_news",
-          "sourceType": "media",
-          "title": "Armutskonferenz übt Kritik an Entwurf für Sozialhilfe",
-          "url": "https://orf.at/stories/3442625",
-          "publishedAt": "2026-09-19T07:04:15.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "1abf72c08b7b2bb25f4507ba187c04514b73a15bfbb269d8abfb726e9bebfc97",
-          "sourceId": "kleinezeitung_home",
-          "sourceType": "media",
-          "title": "Armutskonferenz kritisiert neuen Sozialhilfe-Entwurf",
-          "url": "https://www.kleinezeitung.at/artikel/41275913/armutskonferenz-kritisiert-neuen-sozialhilfe-entwurf",
-          "isNew": false
-        },
-        {
-          "itemId": "e4e09b3eae30420f1c590e702b3395fce914f81d83bee6a0c247f9baca40761e",
-          "sourceId": "kleinezeitung_oesterreich",
-          "sourceType": "media",
-          "title": "Armutskonferenz kritisiert neuen Sozialhilfe-Entwurf",
-          "url": "https://www.kleinezeitung.at/artikel/41275913/armutskonferenz-kritisiert-neuen-sozialhilfe-entwurf",
-          "isNew": false
-        },
-        {
-          "itemId": "254b929b0c2eaa48d507474f9be50f0b9b0459e2ca4ebe27b1af8a3366ea99eb",
-          "sourceId": "kleinezeitung_politik",
-          "sourceType": "media",
-          "title": "Armutskonferenz kritisiert neuen Sozialhilfe-Entwurf",
-          "url": "https://www.kleinezeitung.at/artikel/41275913/armutskonferenz-kritisiert-neuen-sozialhilfe-entwurf",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-09-19T08:07:35.594Z"
-    },
-    {
-      "clusterId": "cluster-20260919-bce5ee09",
-      "title": "Drittl: Café Florianihof wurde zur Brasserie – mit toller Küche",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "e0527d0a38e724a731d440f7cf865ca61bd6cad9f130aa0a7efe08c21ba58cdc",
-          "sourceId": "derstandard_newsroom",
-          "sourceType": "media",
-          "title": "Drittl: Café Florianihof wurde zur Brasserie – mit toller Küche",
-          "url": "https://www.derstandard.at/story/3000000340041/drittl-cafe-florianihof-wurde-zur-brasserie-mit-toller-kueche",
-          "summary": "Fünf junge Gastronomen kochen ein altes Café zur begehrten Adresse hoch.  Der Umbau zur Brasserie ist auch gelungen",
-          "publishedAt": "2026-09-19T04:00:00.000Z",
-          "isNew": true
-        },
-        {
-          "itemId": "0c8c7fc22d73245b5dc6114cf157378427128757590dda151aef7355aa5a7eff",
-          "sourceId": "profil_home",
-          "sourceType": "media",
-          "title": "Restaurant „Das Drittl“: Du bist nicht mehr im Café Florianihof!",
-          "url": "https://www.profil.at/gesellschaft/wiener-cafe-florianihof-wurde-von-gastro-projekt-das-drittl-neu-uebernommen/403190747",
-          "isNew": false
-        },
-        {
-          "itemId": "15afe577d5bf5c54fdf2df583632197d1baa8fe221ba9f225cfbc0b508a60e36",
-          "sourceId": "profil_gesellschaft",
-          "sourceType": "media",
-          "title": "Restaurant „Das Drittl“: Du bist nicht mehr im Café Florianihof!",
-          "url": "https://www.profil.at/gesellschaft/wiener-cafe-florianihof-wurde-von-gastro-projekt-das-drittl-neu-uebernommen/403190747",
-          "isNew": false
-        }
-      ],
-      "queuedAt": "2026-09-19T04:07:30.149Z"
-    },
-    {
-      "clusterId": "cluster-20260919-b74eac50",
-      "title": "Gold aus Venezuela könnte übersiedeln",
-      "score": 0.7,
-      "items": [
-        {
-          "itemId": "845b1e0f4263f092b42bd878df00201faa9e92f00521a0cb9fabf860677fb32d",
-          "sourceId": "orf_news",
-          "sourceType": "media",
-          "title": "Gold aus Venezuela könnte übersiedeln",
-          "url": "https://orf.at/stories/3442531",
-          "summary": "Mehr als 30 Tonnen Gold aus Venezuela liegen laut Schätzungen in den Tresoren der Bank of England (BoE) in London. Allerdings konnte das südamerikanische Land bisher nicht darauf zugreifen. Nun könnte das Gold im Wert von geschätzten 3,5 Milliarden Euro übersiedeln: in die Federal Reserve (Fed) nach New York. Hintergrund ist ein jahrelanger Rechtsstreit.",
-          "publishedAt": "2026-09-18T22:45:06.000Z",
-          "isNew": true
-        }
-      ],
-      "queuedAt": "2026-09-19T00:07:32.781Z"
     }
   ]
 }
