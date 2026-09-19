@@ -1,0 +1,217 @@
+{
+  "cluster": {
+    "id": "cluster-20260918-4c40df50",
+    "title": "Euro-Office: Die freie Alternative zu Microsoft Office bekommt eine Desktop-Version",
+    "items": [
+      {
+        "itemId": "477c2e3eeb579c0cfc3c198f92097acb2187a50ba4f87f3380407aeb37b35ee3",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Euro-Office: Die freie Alternative zu Microsoft Office bekommt eine Desktop-Version",
+        "url": "https://www.derstandard.at/story/3000000340385/euro-office-die-freie-alternative-zu-microsoft-office-bekommt-eine-desktop-version",
+        "summary": "Der Client soll die bisherige Online-Version ergänzen und funktioniert auch offline. Vorstellung im Rahmen der Verfügbarkeit von Nextcloud Hub 26 Summer, Download folgt aber erst",
+        "publishedAt": "2026-09-18T13:00:09.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "f52ad80da9259fff51d3d4efb21d572a832d261c3fe0dae6bb31cb63d0db150e",
+        "sourceId": "derstandard_web",
+        "sourceType": "media",
+        "title": "Euro-Office: Die freie Alternative zu Microsoft Office bekommt eine Desktop-Version",
+        "url": "https://www.derstandard.at/story/3000000340385/euro-office-die-freie-alternative-zu-microsoft-office-bekommt-eine-desktop-version",
+        "summary": "Der Client soll die bisherige Online-Version ergänzen und funktioniert auch offline. Vorstellung im Rahmen der Verfügbarkeit von Nextcloud Hub 26 Summer, Download folgt aber erst",
+        "publishedAt": "2026-09-18T13:00:09.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "f6b65d108aef86bd4d8a07c76543bd74c212d6cf178fd667f5dc51360e87e7d1",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Euro-Office kommt auf den Desktop",
+        "url": "https://www.heise.de/news/Euro-Office-erhaelt-Desktop-App-11456058.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "isNew": false
+      },
+      {
+        "itemId": "f4c96739a27327f6673cb3f6f36ffad9298f6f7f26564cbf4f39de2edbe2be43",
+        "sourceId": "golem_news",
+        "sourceType": "media",
+        "title": "Microsoft-Alternative: Euro-Office bekommt Desktop-Client",
+        "url": "https://www.golem.de/news/microsoft-alternative-euro-office-bekommt-desktop-client-2609-213134.html",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle Tech-Nachricht mit Multi-Source-Verankerung (derstandard.at, heise.de, golem.de); EU-Initiative mit moderater Bedeutung für Österreich. Nextcloud Hub 26 Summer ist verfügbar, Desktop-Client-Ankündigung erfolgt aus mehreren unabhängigen Quellen mit technischen Details (Plattformen, Funktionen, Formate). Kein direkter Österreich-Bezug, aber EU-Tech-Policy-Relevanz (Alternative zu US-Software) rechtfertigt draft_article statt monitor.",
+    "sensitivity": "low",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Euro-Office ist eine von Nextcloud, Ionos und weiteren Partnern entwickelte quelloffene Office-Suite",
+      "Euro-Office ist ein Fork von OnlyOffice, der im Frühjahr 2026 gestartet und erstmals im Juni 2026 veröffentlicht wurde",
+      "Mit Nextcloud Hub 26 Summer kommt eine dedizierte Desktop-Anwendung für Euro-Office hinzu",
+      "Der Desktop-Client ermöglicht die Bearbeitung von Textdokumenten, Tabellen und Präsentationen lokal sowie die Verbindung mit einer Nextcloud-Instanz",
+      "Euro-Office läuft auf Windows, Linux und macOS und funktioniert auch ohne Internetverbindung",
+      "Die Office-Suite unterstützt Microsoft-Formate (DOCX, XLSX, PPTX) sowie OpenDocument-Formate (ODT, ODS, ODP)",
+      "Nextcloud positioniert Euro-Office als Alternative zu Microsoft Office mit Fokus auf Datenkontrolle und Hosting-Unabhängigkeit",
+      "Der Download des Euro-Office Desktop-Clients folgt laut Nextcloud in den kommenden Wochen",
+      "Nextcloud bietet Euro-Office parallel zu Collabora Online als zweite Office-Option in Hub 26"
+    ],
+    "missingSources": [
+      "Genaues Verfügbarkeitsdatum oder konkrete Timeline für die Desktop-Client-Veröffentlichung",
+      "Stellungnahmen von Ionos oder anderen Partnern zur Desktop-Version und deren Strategie",
+      "Nutzerzahlen oder Marktakzeptanz von Euro-Office seit Juni 2026",
+      "Vergleichende Analyse zu anderen Microsoft-Office-Alternativen (LibreOffice, OnlyOffice, WPS Office)",
+      "Reaktionen von Konkurrenten (Microsoft, Collabora, Canonical für OnlyOffice)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "euro-office-desktop-client-nextcloud-hub-26-summer",
+    "title": "Nextcloud kündigt Desktop-Version der offenen Office-Suite Euro-Office an",
+    "description": "Mit dem Release von Nextcloud Hub 26 Summer bekommt die quelloffene Microsoft-Office-Alternative Euro-Office eine eigenständige Desktop-Anwendung für Windows, Linux und macOS. Der Download soll laut Nextcloud in den kommenden Wochen folgen.",
+    "topic": "technologie",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Nextcloud hat die Desktop-Version in einer eigenen Ankündigung zum Hub-26-Summer-Release verkündet, und drei voneinander unabhängige Medien (derStandard, heise, Golem) stimmen in den technischen Kerndetails überein.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die offizielle Nextcloud-Pressemitteilung wurde über Suchergebnisse mit konkreten Inhalten (Plattformliste, Funktionsumfang) eingesehen, jedoch nicht als vollständiger Volltext abgerufen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich überwiegend auf Nextclouds eigene Ankündigung; unabhängige Einschätzungen zu Marktchancen oder Reaktionen von Microsoft, Collabora oder anderen Konkurrenten liegen nicht vor.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Nextcloud hat im Rahmen des Updates Hub 26 Summer eine eigenständige Desktop-Anwendung für die quelloffene Office-Suite Euro-Office angekündigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Client soll auf Windows, Linux und macOS laufen, auch offline funktionieren und sich bei Bedarf mit einer Nextcloud-Instanz synchronisieren.",
+        "kind": "fact"
+      },
+      {
+        "text": "Euro-Office ist ein im Frühjahr 2026 gestarteter, im Juni 2026 erstmals veröffentlichter Fork von OnlyOffice, entwickelt von Nextcloud, Ionos und weiteren Partnern.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein konkretes Download-Datum für den Desktop-Client nennt Nextcloud bislang nicht, nur einen Zeitraum von „den kommenden Wochen“.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie sich Euro-Office am Markt gegenüber Microsoft Office, LibreOffice oder Collabora Online schlägt, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wann genau wird der Euro-Office-Desktop-Client tatsächlich zum Download bereitstehen?",
+      "Wie reagieren Microsoft, Collabora oder andere Anbieter auf die Ankündigung?",
+      "Wie hoch sind Nutzerzahlen und Marktakzeptanz von Euro-Office seit dem Start im Juni 2026?",
+      "Äußert sich Ionos als Mitentwickler eigenständig zur Desktop-Strategie von Euro-Office?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "derStandard.at",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000340385/euro-office-die-freie-alternative-zu-microsoft-office-bekommt-eine-desktop-version"
+      },
+      {
+        "id": "src2",
+        "name": "heise online",
+        "type": "media",
+        "url": "https://www.heise.de/news/Euro-Office-erhaelt-Desktop-App-11456058.html"
+      },
+      {
+        "id": "src3",
+        "name": "Golem.de",
+        "type": "media",
+        "url": "https://www.golem.de/news/microsoft-alternative-euro-office-bekommt-desktop-client-2609-213134.html"
+      },
+      {
+        "id": "src4",
+        "name": "Nextcloud (offizielle Ankündigung Hub 26 Summer)",
+        "type": "official",
+        "url": "https://nextcloud.com/blog/press_releases/hub-26-summer/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Nextcloud hat mit dem Release Hub 26 Summer eine dedizierte Desktop-Anwendung für die quelloffene Office-Suite Euro-Office angekündigt, die die bisherige Browser-Version ergänzt.",
+        "status": "supported",
+        "note": "Von Nextcloud selbst verkündet und durch drei unabhängige Medien bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Desktop-Client soll auf Windows, Linux und macOS laufen, offline nutzbar sein und lokale Dokumentbearbeitung mit Cloud-Synchronisation über eine Nextcloud-Instanz verbinden.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Euro-Office ist eine von Nextcloud, Ionos und weiteren Partnern entwickelte quelloffene Office-Suite, die im Frühjahr 2026 als Fork von OnlyOffice startete und im Juni 2026 erstmals erschien.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Ein konkretes Verfügbarkeitsdatum für den Desktop-Client nennt Nextcloud bislang nicht; das Unternehmen kündigt den Download „in den kommenden Wochen“ an.",
+        "status": "partial",
+        "note": "Zeitpunkt bleibt vage, kein fixes Datum genannt.",
+        "sourceIds": [
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Der veröffentlichte Quellcode enthält laut Bericht bereits Build- und Paketierungswege für Windows und Linux, darunter ZIP-Archive und Installer.",
+        "status": "partial",
+        "note": "Stützt sich auf eine einzelne Medienquelle, keine unabhängige Bestätigung.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Nextcloud hat zum Release seines Sammelupdates Hub 26 Summer eine eigenständige Desktop-Anwendung für die quelloffene Office-Suite Euro-Office angekündigt. Bislang lief Euro-Office ausschließlich im Browser als Teil der Nextcloud-Kollaborationsplattform. Künftig sollen Nutzerinnen und Nutzer Textdokumente, Tabellen und Präsentationen auch in einem lokalen Programm bearbeiten können, das weiterhin mit einer Nextcloud-Instanz verbunden bleibt. Hub 26 Summer selbst steht bereits zur Verfügung, der Download der angekündigten Euro-Office-Desktop-Programme soll laut Nextcloud aber erst in den kommenden Wochen folgen."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Desktop-Client soll auf Windows, Linux und macOS laufen und auch ohne Internetverbindung nutzbar sein. Ist eine Cloud-Anbindung vorhanden, ermöglicht sie Synchronisation und gemeinsame Bearbeitung von Dateien. Nextcloud positioniert Euro-Office als Alternative zu Microsoft Office und betont dabei die Kontrolle über Hosting und Software als Vorteil gegenüber US-Anbietern. Die Suite ist mit den Office-Open-XML-Formaten DOCX, XLSX und PPTX kompatibel und unterstützt zudem die OpenDocument-Formate ODT, ODS und ODP. Euro-Office selbst ist kein komplett neues Projekt: Es handelt sich um einen im Frühjahr 2026 gestarteten Fork von OnlyOffice, entwickelt von Nextcloud gemeinsam mit Ionos und weiteren Partnern, der im Juni 2026 erstmals erschien. In Nextcloud existiert Euro-Office parallel zur bereits länger etablierten Suite Collabora Online, die weiterhin als zweite Office-Option erhalten bleibt. Neben der Office-Anwendung baut Nextcloud in Hub 26 Summer auch die Arbeitsbereiche für Projektgruppen aus: Die neue Funktion Nextcloud Teams stellt Teams einen gemeinsamen Bereich mit Dateien, Aufgaben und Wissensressourcen bereit, und bei Nextcloud Tables kommen relationale Spalten sowie ein Import für Tabellenstrukturen hinzu."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Ein konkretes Datum für die Veröffentlichung des Desktop-Clients nennt Nextcloud bislang nicht — lediglich den vagen Zeitraum „in den kommenden Wochen“. Offen ist damit auch, ob dieser Zeitplan eingehalten wird. Ebenfalls unklar ist, wie sich Euro-Office seit seinem Start im Juni 2026 am Markt geschlagen hat und wie sich die neue Desktop-Version gegenüber etablierten Alternativen wie Microsoft Office, LibreOffice oder der parallel angebotenen Collabora-Online-Suite behaupten kann. Eigenständige Stellungnahmen von Mitentwickler Ionos zur Desktop-Strategie liegen nicht vor, ebenso wenig Reaktionen von Konkurrenten."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Ankündigung fällt in eine Zeit, in der in der EU verstärkt über digitale Souveränität und Alternativen zu US-amerikanischer Software diskutiert wird. Euro-Office wird von seinen Entwicklern explizit als europäisches Gegenstück zu Microsoft Office positioniert, mit Betonung auf Kontrolle über Hosting und Daten. Ob dieser Anspruch über die technische Ankündigung hinaus auch zu einer breiteren Nutzung in Unternehmen oder Behörden führt, lässt sich anhand der bisherigen Berichterstattung nicht beurteilen — dazu fehlen unabhängige Marktzahlen und Einschätzungen."
+      }
+    ],
+    "bodyKompakt": "Nextcloud hat mit dem Release seines Sammelupdates Hub 26 Summer eine eigenständige Desktop-Anwendung für die quelloffene Office-Suite Euro-Office angekündigt. Bislang lief Euro-Office nur im Browser; künftig sollen Nutzerinnen und Nutzer Textdokumente, Tabellen und Präsentationen auch lokal auf Windows, Linux oder macOS bearbeiten können, auch offline, mit optionaler Synchronisation über eine Nextcloud-Instanz. Unterstützt werden sowohl Microsoft-Formate wie DOCX, XLSX und PPTX als auch OpenDocument-Formate.\n\nEuro-Office ist ein im Frühjahr 2026 gestarteter Fork von OnlyOffice, entwickelt von Nextcloud gemeinsam mit Ionos und weiteren Partnern, der im Juni 2026 erstmals erschien und seither parallel zur etablierten Suite Collabora Online angeboten wird. Nextcloud positioniert das Projekt als europäische Alternative zu Microsoft Office mit Fokus auf Kontrolle über Hosting und Daten.\n\nEin konkretes Download-Datum für den Desktop-Client nennt Nextcloud bislang nicht, nur den Zeitraum „in den kommenden Wochen“. Offen bleiben zudem Marktakzeptanz und Nutzerzahlen von Euro-Office sowie mögliche Reaktionen von Konkurrenten wie Microsoft oder Collabora.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-19T02:07:33.308Z"
+}
