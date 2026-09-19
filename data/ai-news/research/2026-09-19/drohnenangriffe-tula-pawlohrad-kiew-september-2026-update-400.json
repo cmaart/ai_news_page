@@ -1,0 +1,377 @@
+{
+  "cluster": {
+    "id": "cluster-20260917-0288f2ac",
+    "title": "Wieder schwere russische Raketenangriffe auf Kiew",
+    "items": [
+      {
+        "itemId": "66f3e703f5cbd4f8979e6b26e1c22d92fa98f6a4015fbfd3dfc7a2c79dc49b2a",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Wieder schwere russische Raketenangriffe auf Kiew",
+        "url": "https://orf.at/stories/3442400",
+        "publishedAt": "2026-09-17T04:38:13.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "2a58076e59b07c8889c4f157a98098c804fc604ccd9b288f6a2b2c144ee81771",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Mehrere Verletzte bei schweren russischen Raketenangriffen auf Kiew",
+        "url": "https://www.diepresse.com/41269259/mehrere-verletzte-bei-schweren-russischen-raketenangriffen-auf-kiew",
+        "summary": "Auch die Städte Dnipro, Saporischschja und Odessa wurden mit ballistischen Raketen beschossen.",
+        "publishedAt": "2026-09-17T04:18:24.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "dfb41c298c57f6f4170e09c13e8b9491a1db04c768615323a3f9a4b2a668b0fe",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Wieder schwere russische Raketenangriffe auf Kiew",
+        "url": "https://www.kleinezeitung.at/artikel/41269230/wieder-schwere-russische-raketenangriffe-auf-kiew",
+        "isNew": false
+      },
+      {
+        "itemId": "0869319c36e5193b14b6fa122905011981497415479899c7b7000cf388453fa6",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Wieder schwere russische Raketenangriffe auf Kiew",
+        "url": "https://www.kleinezeitung.at/artikel/41269230/wieder-schwere-russische-raketenangriffe-auf-kiew",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "update_story",
+    "reason": "Neue Angriffswelle im laufenden Konflikt (17. September 2026) mit breiter österreichischer Berichterstattung. ORF und Die Presse berichten substanziell über Raketenangiffe (Zirkon-Typ, ballistisch) auf Kiew sowie Dnipro, Saporiszszja und Odessa, mit konkreten Opferzahlen, Schadensangaben und ukrainischen Gegenschlägen. Gehört als Update zur bestehenden September-Story, da gleiches Ereignisfeld und Zeitfenster.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": 1,
+    "relatedSlug": "drohnenangriffe-tula-pawlohrad-kiew-september-2026",
+    "possibleClaims": [
+      "Russland setzte bis zu sechs umfunktionierte Zirkon-Antischiffsraketen auf Kiew ein",
+      "18 Verletzte in Kiew, darunter zwei Kinder (ORF-Angabe)",
+      "Bürogebäude und Wohnhaus in Kiew beschädigt",
+      "Dnipro und Saporiszszja wurden mit ballistischen Raketen angegriffen",
+      "3 Verletzte in Odessa, darunter ein Kind; 19-stöckiges Wohnhaus getroffen",
+      "Ziviles Schiff unter Tanzaniens-Flagge getroffen; Kapitän getötet",
+      "Ukraine griff Ölraffinerie in Jaroslawl an",
+      "Ukraine griff Militärflugplatz in Rostow an",
+      "Gouverneur von Jaroslawl bestätigt Raffinerie-Schaden, Feuer gelöscht, 65 Drohnen abgewehrt, keine Toten"
+    ],
+    "missingSources": [
+      "Klärung der Opferzahlen-Diskrepanz in Kiew: 18 Verletzte (ORF) vs. 12 Verletzte (Die Presse)",
+      "Unabhängige oder russische Bestätigung der Verletzten- und Tötungszahlen",
+      "Details zum angegriffenen Schiff (Name, Flagge, Route, Besatzung)",
+      "Russische Stellungnahme zu den Raketenangriffen auf Kiew und weitere Städte",
+      "Unabhängige oder ukrainische Bestätigung der behaupteten Gegenschläge auf Jaroslawl und Rostow",
+      "Verifizierung der 65 abgewehrten Drohnen durch unabhängige Quelle"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "drohnenangriffe-tula-pawlohrad-kiew-september-2026",
+    "title": "Ukrainische Drohnen töten zwei Menschen in russischer Region Tula, neue russische Raketenangriffe treffen Kiew, Dnipro, Saporischschja und Odessa",
+    "description": "Nach ukrainischen Drohnen- und Raketenangriffen auf russisches Gebiet und einem tödlichen russischen Angriff auf ein Einkaufszentrum in Pawlohrad hat Russland in der Nacht auf 17. September 2026 erneut Kiew, Dnipro, Saporischschja und Odessa mit ballistischen Raketen angegriffen; die Ukraine meldet Gegenangriffe auf eine Raffinerie in Jaroslawl und einen Militärflugplatz bei Rostow.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Die Kernfakten der neuen Angriffswelle vom 17. September (Raketenbeschuss von Kiew, Dnipro, Saporischschja, Odessa) werden von mehreren unabhängigen österreichischen und deutschen Medien (ORF, Die Presse, dpa) übereinstimmend berichtet und gelten als gut belegt. Details wie der Raketentyp, die genaue Opferzahl in Kiew (Angaben schwankten im Tagesverlauf zwischen elf und 18) sowie sämtliche Angaben zu den behaupteten ukrainischen Gegenangriffen auf Jaroslawl und Rostow beruhen dagegen jeweils nur auf einer Konfliktseite oder auf Telegram-Kanälen und sind unabhängig nicht überprüft. Für die älteren Ereignisse (Tula, Saratow, Wolgograd, Pawlohrad) gilt weiterhin: russische Regionalangaben ohne unabhängige Bestätigung, ukrainische Angaben zu Pawlohrad und Kiew dagegen mehrfach unabhängig gestützt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Keine der zugrunde liegenden Aussagen – Telegram-Posts von Gouverneuren und militärnahen Kanälen, Äußerungen Selenskyjs, Angaben Klitschkos, des russischen Verteidigungsministeriums oder der ukrainischen Hafenbehörde – wurde direkt eingesehen, sondern nur über Medienberichte (ORF, Die Presse, dpa/onvista, t-online, heftig.de).",
+    "framingRisk": "medium",
+    "framingRiskNote": "Zu den Angriffen auf russisches Gebiet (Tula, Jaroslawl, Rostow) liegt jeweils nur die russische Darstellung des Schadens vor, während die Angaben zu den ukrainischen Angriffen selbst von ukrainischer Seite stammen – eine russische Reaktion auf die ukrainischen Angriffsbehauptungen fehlt. Umgekehrt beruhen die Angaben zu den russischen Angriffen auf die Ukraine (Kiew, Dnipro, Saporischschja, Odessa, das getroffene Schiff) auf ukrainischen Behörden und Medien, eine russische Stellungnahme zu diesen Angriffen liegt nicht vor, nur zur Fracht des getroffenen Schiffes.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Nach ukrainischen Drohnen- und Raketenangriffen meldete der Gouverneur der russischen Region Tula, Dmitri Miljajew, mindestens zwei Tote und drei Verletzte; auch ein Logistikzentrum des Onlinehändlers Ozon in Saratow und Ziele in der Region Wolgograd wurden getroffen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei einem russischen Drohnenangriff auf ein Einkaufszentrum im ukrainischen Pawlohrad wurden nach Angaben von Präsident Wolodymyr Selenskyj mindestens vier Menschen getötet und mehr als 60 verletzt; die Staatsanwaltschaft der Region Dnipropetrowsk prüft ein mögliches Kriegsverbrechen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bereits zuvor waren bei russischen Angriffen auf Kiew mindestens fünf Menschen getötet und mindestens 35 verletzt worden, unter anderem wurden mehrere Wohnhäuser getroffen.",
+        "kind": "fact"
+      },
+      {
+        "text": "In der Nacht auf 17. September 2026 griff Russland Kiew, Dnipro, Saporischschja und Odessa erneut mit ballistischen Raketen an; in Kiew wurden laut Bürgermeister Klitschko im Tagesverlauf mindestens 18 Menschen verletzt, in Odessa drei, jeweils darunter Kinder, ein Büro- und mehrere Wohngebäude wurden beschädigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Bei einem russischen Drohnenangriff auf ein ziviles, unter tansanischer Flagge fahrendes Schiff im Schwarzen Meer wurde der Kapitän getötet, weitere Besatzungsmitglieder verletzt; Russlands Verteidigungsministerium erklärte unbestätigt, das Schiff habe Fracht für die ukrainischen Streitkräfte transportiert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Präsident Selenskyj meldete ukrainische Gegenangriffe auf eine Ölraffinerie in Jaroslawl und einen Militärflugplatz bei Rostow; der Gouverneur von Jaroslawl bestätigte Schäden und einen gelöschten Brand, nannte aber keine Toten oder Verletzten.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine unabhängige, nicht-russische Bestätigung der von russischen Behörden gemeldeten Opferzahlen in Tula, Saratow und Wolgograd liegt weiterhin nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob die ukrainischen Angaben zu den Treffern auf die Raffinerie Jaroslawl und den Militärflugplatz Rostow unabhängig bestätigt werden, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Bestätigt eine ukrainische oder sonstige unabhängige Stelle die von russischen Behörden gemeldeten Opferzahlen in Tula, Saratow und Wolgograd?",
+      "Wie hoch ist der tatsächliche Schaden am Ozon-Logistikzentrum in Saratow, und wurde der Betrieb dort eingestellt?",
+      "Lässt sich die vom russischen Verteidigungsministerium genannte Gesamtzahl von 777 abgefangenen Drohnen unabhängig überprüfen?",
+      "Zu welchem Ergebnis kommen die Ermittlungen der Staatsanwaltschaft Dnipropetrowsk zum möglichen Kriegsverbrechen in Pawlohrad?",
+      "Steigt die Zahl der Toten oder Verletzten in Pawlohrad oder Tula über die zuletzt gemeldeten Werte hinaus?",
+      "Gibt es eine russische Stellungnahme zum Angriff auf Pawlohrad?",
+      "Wie hoch war die tatsächliche, abschließende Zahl der Verletzten in Kiew am 17. September 2026 – frühe Meldungen schwankten zwischen elf und 18?",
+      "Werden die ukrainischen Angaben zu den Treffern auf die Ölraffinerie Jaroslawl und den Militärflugplatz Rostow sowie zu den beschädigten Flugzeugen und Hubschraubern unabhängig, etwa durch Satellitenbilder, bestätigt?",
+      "Transportierte das am 17. September getroffene Schiff tatsächlich Fracht für die ukrainischen Streitkräfte, wie von Russlands Verteidigungsministerium behauptet, oder handelte es sich um zivile Ladung?",
+      "Um welches Schiff (Name, Reederei, Besatzungsgröße) handelte es sich bei dem am 17. September getroffenen, unter tansanischer Flagge fahrenden Frachter genau?",
+      "Gibt es eine russische Stellungnahme zu den Raketenangriffen auf Kiew, Dnipro, Saporischschja und Odessa vom 17. September 2026?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kleine Zeitung: Zwei Tote in Russland nach ukrainischen Angriffen",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41251921/zwei-tote-in-russland-nach-ukrainischen-angriffen"
+      },
+      {
+        "id": "src2",
+        "name": "SN.at: Zwei Tote in Russland nach ukrainischen Angriffen",
+        "type": "media",
+        "url": "https://www.sn.at/politik/weltpolitik/zwei-tote-in-russland-nach-ukrainischen-angriffen-art-672396"
+      },
+      {
+        "id": "src3",
+        "name": "ORF: Tote und Verletzte bei russischen Angriffen",
+        "type": "media",
+        "url": "https://orf.at/stories/3441602"
+      },
+      {
+        "id": "src4",
+        "name": "Der Standard: Fünf Tote nach russischen Angriffen auf Kyjiw",
+        "type": "media",
+        "url": "https://www.derstandard.at/jetzt/livebericht/3000000338992/fuenf-tote-nach-russischen-angriffen-auf-kiew"
+      },
+      {
+        "id": "src5",
+        "name": "Abendzeitung München: Tote nach russischem Drohnenangriff auf Pawlohrad",
+        "type": "media",
+        "url": "https://www.abendzeitung-muenchen.de/politik/tote-nach-russischem-drohnenangriff-auf-pawlohrad-art-1157605"
+      },
+      {
+        "id": "src6",
+        "name": "finanzen.at: ROUNDUP – Tote nach russischem Drohnenangriff auf Pawlohrad",
+        "type": "agency",
+        "url": "https://www.finanzen.at/nachrichten/aktien/roundup-tote-nach-russischem-drohnenangriff-auf-pawlohrad-1036537486"
+      },
+      {
+        "id": "src7",
+        "name": "ORF: Wieder schwere russische Raketenangriffe auf Kiew",
+        "type": "media",
+        "url": "https://orf.at/stories/3442400"
+      },
+      {
+        "id": "src8",
+        "name": "Die Presse: Mehrere Verletzte bei schweren russischen Raketenangriffen auf Kiew",
+        "type": "media",
+        "url": "https://www.diepresse.com/41269259/mehrere-verletzte-bei-schweren-russischen-raketenangriffen-auf-kiew"
+      },
+      {
+        "id": "src9",
+        "name": "Kleine Zeitung: Wieder schwere russische Raketenangriffe auf Kiew",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41269230/wieder-schwere-russische-raketenangriffe-auf-kiew"
+      },
+      {
+        "id": "src10",
+        "name": "onvista (dpa): ROUNDUP – Schwerer russischer Raketenangriff auf Kiew",
+        "type": "agency",
+        "url": "https://www.onvista.de/news/2026/09-17-roundup-schwerer-russischer-raketenangriff-auf-kiew-0-10-26554287"
+      },
+      {
+        "id": "src11",
+        "name": "t-online: Ukraine-Krieg: Russische Drohne trifft ziviles Schiff – Kapitän tot",
+        "type": "media",
+        "url": "https://www.t-online.de/nachrichten/ukraine/id_101433960/ukraine-krieg-aktuell-ukraine-greift-russischen-fligplatz-an.html"
+      },
+      {
+        "id": "src12",
+        "name": "heftig.de: Sechs russische Flugzeuge zerstört – Ukraine meldet einen der schwersten Angriffe des Jahres",
+        "type": "media",
+        "url": "https://www.heftig.de/sechs-russische-flugzeuge-zerstoert-ukraine-meldet-einen-der-schwersten-angriffe-des-jahres/62601472642955"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ukrainische Drohnenangriffe haben in der russischen Region Tula mindestens zwei Menschen getötet und drei weitere verletzt.",
+        "status": "supported",
+        "note": "Von Gouverneur Miljajew via Telegram gemeldet und von mehreren österreichischen Medien wortgleich verbreitet, was auf eine gemeinsame Agenturmeldung hindeutet; eine ukrainische oder unabhängige Bestätigung fehlt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Über der Region Tula wurden 26 Drohnen abgeschossen, das russische Verteidigungsministerium meldete den Abfang von insgesamt 777 Drohnen in derselben Nacht.",
+        "status": "partial",
+        "note": "Ausschließlich russische Militärangaben, unabhängig nicht überprüfbar.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Ein Logistikzentrum des Onlinehändlers Ozon in Saratow sowie Ziele in der Region Wolgograd wurden von ukrainischer Seite angegriffen, in Wolgograd wurden laut russischen Angaben zwei Menschen verletzt.",
+        "status": "partial",
+        "note": "Beruht auf russischen Regionalangaben ohne unabhängige Bestätigung des Schadensausmaßes.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Bei russischen Angriffen auf Kiew wurden mindestens fünf Menschen getötet und mindestens 35 verletzt, mehrere Wohnhäuser wurden beschädigt.",
+        "status": "supported",
+        "note": "Von ukrainischen Behörden gemeldet und von zwei unabhängigen österreichischen Medien (ORF, Der Standard) übereinstimmend berichtet.",
+        "sourceIds": [
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Bei einem russischen Drohnenangriff auf ein Einkaufszentrum in Pawlohrad wurden mindestens vier Menschen getötet und mehr als 60 verletzt; die Staatsanwaltschaft ermittelt wegen eines möglichen Kriegsverbrechens.",
+        "status": "supported",
+        "note": "Von Präsident Selenskyj öffentlich mitgeteilt und über eine erkennbare Agenturmeldung (dpa) von mehreren deutschen Medien getragen.",
+        "sourceIds": [
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Bei einem Drohnenangriff auf einen Zug in der Region Sumy wurden zehn Menschen verletzt, an einem Grenzübergang zu Moldau wurden nach Behördenangaben zwei Zivilisten getötet.",
+        "status": "unclear",
+        "note": "Nur von einer einzigen Quelle (ORF, gestützt auf ukrainische Regionalbehörden) berichtet.",
+        "sourceIds": [
+          "src3"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Russland griff Kiew in der Nacht auf 17. September 2026 erneut mit ballistischen Raketen an, laut militärnahen Telegram-Kanälen darunter bis zu sechs umfunktionierte Anti-Schiffs-Raketen vom Typ Zirkon; dabei wurden unter anderem ein Bürogebäude und ein Wohnhaus beschädigt.",
+        "status": "supported",
+        "note": "Von ORF, Die Presse und einer dpa-gestützten Meldung (onvista) übereinstimmend berichtet; die Angabe zum Raketentyp Zirkon stützt sich auf militärnahe Telegram-Kanäle, nicht auf eine offizielle ukrainische oder russische Bestätigung.",
+        "sourceIds": [
+          "src7",
+          "src8",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Die Zahl der Verletzten in Kiew wurde im Tagesverlauf laut Bürgermeister Vitali Klitschko und der Militärverwaltung von zunächst mindestens elf auf mindestens 18 nach oben korrigiert; unter den Verletzten war mindestens ein Kind.",
+        "status": "partial",
+        "note": "Frühere Meldungen nannten elf beziehungsweise zwölf Verletzte, spätere Meldungen 18; die Abweichung dürfte auf unterschiedliche Erhebungszeitpunkte im Tagesverlauf zurückgehen, ist aber nicht abschließend geklärt.",
+        "sourceIds": [
+          "src7",
+          "src8",
+          "src10"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Auch die Großstädte Dnipro und Saporischschja wurden nach Angaben der ukrainischen Luftstreitkräfte in derselben Nacht mit ballistischen Raketen angegriffen; in der Hafenstadt Odessa wurden laut Behörden drei Menschen verletzt, darunter ein Kind, ein 19-stöckiges Wohnhaus wurde getroffen.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen österreichischen Medien (ORF, Die Presse) übereinstimmend berichtet, beruht aber letztlich auf ukrainischen Behördenangaben.",
+        "sourceIds": [
+          "src7",
+          "src8"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Bei einem russischen Drohnenangriff auf ein ziviles, unter tansanischer Flagge fahrendes Schiff im Schwarzen Meer wurde der Kapitän getötet, weitere Besatzungsmitglieder wurden verletzt.",
+        "status": "supported",
+        "note": "Von der ukrainischen Hafenbehörde gemeldet und von zwei unabhängigen Medien (ORF, t-online/dpa) aufgegriffen; eine russische Bestätigung des Vorfalls an sich liegt nicht vor.",
+        "sourceIds": [
+          "src7",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Russlands Verteidigungsministerium erklärte, das getroffene Schiff habe eine für die Versorgung der ukrainischen Streitkräfte bestimmte Ladung transportiert.",
+        "status": "unclear",
+        "note": "Ausschließlich russische Eigenangabe ohne unabhängige Überprüfung, von ukrainischer Seite nicht bestätigt.",
+        "sourceIds": [
+          "src7"
+        ]
+      },
+      {
+        "id": "claim12",
+        "text": "Präsident Wolodymyr Selenskyj bestätigte ukrainische Gegenangriffe auf Ziele in Russland in derselben Nacht: Laut eigenen Angaben trafen ukrainische Dienste die Ölraffinerie Jaroslawl sowie einen Militärflugplatz bei Rostow, wobei mehrere Flugzeuge und Hubschrauber beschädigt worden seien.",
+        "status": "partial",
+        "note": "Ausschließlich ukrainische Eigenangaben zu einem Angriff auf gegnerisches Gebiet, unabhängig nicht überprüfbar; genannte Flugzeugtypen und -zahlen variieren leicht zwischen Berichten.",
+        "sourceIds": [
+          "src7",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim13",
+        "text": "Der Gouverneur der russischen Region Jaroslawl, Michail Jewrajew, bestätigte auf Telegram Schäden an der Raffinerie und einen zwischenzeitlichen Brand, sprach von einem großen Angriff mit 65 abgewehrten Drohnen und erklärte, es habe keine Toten oder Verletzten gegeben.",
+        "status": "partial",
+        "note": "Einzige Quelle ist die russische Regionalverwaltung selbst, eine unabhängige Bestätigung fehlt.",
+        "sourceIds": [
+          "src7"
+        ]
+      },
+      {
+        "id": "claim14",
+        "text": "Laut Berichten von Telegram-Kanälen griff die Ukraine zudem mit Kampfdrohnen Ziele in Rostow und Jaroslawl an; mehrere russische Flughäfen mussten laut der Luftfahrtbehörde Rosawiazija den Betrieb zeitweise einschränken.",
+        "status": "unclear",
+        "note": "Nur von einer Quelle (Die Presse) berichtet, gestützt auf Telegram-Kanäle und eine russische Behördenangabe; keine unabhängige Bestätigung.",
+        "sourceIds": [
+          "src8"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Krieg zwischen Russland und der Ukraine geht mit wiederkehrenden schweren Angriffswellen auf beiden Seiten der Front weiter. Nach einer Serie ukrainischer Drohnen- und Raketenangriffe auf russisches Gebiet um die Region Tula und einem russischen Drohnenangriff auf ein Einkaufszentrum in der ukrainischen Stadt Pawlohrad Mitte September hat Russland in der Nacht auf 17. September 2026 erneut mit ballistischen Raketen die Hauptstadt Kiew sowie Dnipro, Saporischschja und die Hafenstadt Odessa angegriffen. Die Ukraine meldete ihrerseits Gegenangriffe auf eine Ölraffinerie in Jaroslawl und einen Militärflugplatz bei Rostow."
+      },
+      {
+        "heading": "Angriffe auf russisches Gebiet (Mitte September)",
+        "markdown": "Laut Gouverneur Miljajew wurden bei ukrainischen Angriffen auf die südlich von Moskau gelegene Region Tula 26 Drohnen abgeschossen, mindestens zwei Menschen kamen dabei ums Leben, drei wurden verletzt. Getroffen wurde außerdem ein Logistikzentrum des Internethändlers Ozon in Saratow an der Wolga; auch in der Region Wolgograd griff das ukrainische Militär nach russischen Angaben Ziele mit Raketen an, wobei zwei Menschen in der Regionalhauptstadt verletzt worden sein sollen. Das russische Verteidigungsministerium erklärte, in derselben Nacht seien landesweit 777 ukrainische Drohnen abgefangen worden. Alle diese Angaben stammen von russischen Behörden und Militärstellen; eine ukrainische Stellungnahme dazu liegt bislang nicht vor, ebenso wenig eine unabhängige Überprüfung der genannten Zahlen."
+      },
+      {
+        "heading": "Angriffe auf die Ukraine (Anfang bis Mitte September)",
+        "markdown": "Auf ukrainischer Seite hatte es zuvor mehrere folgenreiche russische Angriffe gegeben. In Kiew wurden nach einer nächtlichen Serie von Attacken mindestens fünf Menschen getötet und mindestens 35 verletzt, mehrere Wohnhäuser wurden beschädigt. Im selben Zeitraum wurde laut örtlichen Behörden ein Mensch bei einem Luftangriff auf die Hafenstadt Mykolajiw getötet, und an einem Grenzübergang zu Moldau in der Region Odessa kamen nach Angaben von Gouverneur Oleh Kiper zwei Zivilisten ums Leben. In der Region Sumy wurden zehn Menschen in einem Regionalzug durch einen Drohnenangriff verletzt, zudem fiel laut dem Energiekonzern DTEK ein Wärmekraftwerk komplett aus. Kurz darauf traf ein russischer Drohnenangriff ein Einkaufszentrum in der südostukrainischen Stadt Pawlohrad, rund 80 Kilometer von der Front entfernt: Nach Angaben Selenskyjs starben mindestens vier Menschen, mehr als 60 wurden verletzt, mehrere Geschäfte und Fahrzeuge wurden beschädigt. Die Staatsanwaltschaft der Region Dnipropetrowsk leitete Ermittlungen wegen eines möglichen Kriegsverbrechens ein."
+      },
+      {
+        "heading": "Neue Angriffswelle auf Kiew, Dnipro, Saporischschja und Odessa (17. September)",
+        "markdown": "Nach einigen ruhigeren Nächten griff Russland in der Nacht auf 17. September 2026 erneut mit ballistischen Raketen an. Gegen Kiew wurden nach Angaben militärnaher Telegram-Kanäle bis zu sechs umfunktionierte Anti-Schiffs-Raketen vom Typ Zirkon eingesetzt. Bürgermeister Vitali Klitschko berichtete von Schäden an einem Bürogebäude und einem Wohnhaus; die Zahl der Verletzten wurde im Tagesverlauf mehrfach nach oben korrigiert, von zunächst mindestens elf auf zuletzt mindestens 18, darunter Kinder. Auch die Großstädte Dnipro und Saporischschja wurden nach Angaben der ukrainischen Luftstreitkräfte mit ballistischen Raketen angegriffen. In der Hafenstadt Odessa wurden laut Behörden drei Menschen verletzt, darunter ein Kind, ein 19-stöckiges Wohnhaus wurde getroffen. Zudem wurde nach ukrainischen Angaben ein ziviles, unter tansanischer Flagge fahrendes Schiff im Schwarzen Meer von einer Drohne getroffen; der Kapitän starb, weitere Besatzungsmitglieder wurden verletzt. Russlands Verteidigungsministerium erklärte unbestätigt, das Schiff habe Fracht für die ukrainischen Streitkräfte transportiert.\n\nPräsident Selenskyj bestätigte für dieselbe Nacht ukrainische Gegenangriffe auf russisches Gebiet: Getroffen worden seien eine Ölraffinerie in Jaroslawl sowie ein Militärflugplatz bei Rostow, wobei mehrere Flugzeuge und Hubschrauber beschädigt worden seien. Der Gouverneur der Region Jaroslawl, Michail Jewrajew, bestätigte auf Telegram Schäden an der Raffinerie und einen Brand, der habe gelöscht werden können; er sprach von einem großen Angriff mit 65 abgewehrten Drohnen und nannte keine Toten oder Verletzten. Laut Berichten von Telegram-Kanälen soll die Ukraine zudem mit Kampfdrohnen weitere Ziele in Rostow und Jaroslawl angegriffen haben, wonach mehrere russische Flughäfen den Betrieb zeitweise einschränken mussten."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Zu den Vorfällen auf russischem Gebiet gibt es weiterhin ausschließlich Angaben russischer Regionalgouverneure und des russischen Verteidigungsministeriums; wie belastbar diese Zahlen sind und ob die Ukraine sich dazu äußert, bleibt offen. Unklar ist auch das genaue Schadensausmaß am Ozon-Logistikzentrum in Saratow. Zum Angriff auf Pawlohrad liegt weiterhin keine russische Stellungnahme vor, und der Ausgang der Ermittlungen der Staatsanwaltschaft Dnipropetrowsk ist offen. Bei der Angriffswelle vom 17. September ist die endgültige Zahl der Verletzten in Kiew nicht abschließend geklärt, da Meldungen im Tagesverlauf schwankten. Ob die ukrainischen Angaben zu den Treffern auf die Raffinerie Jaroslawl und den Militärflugplatz Rostow unabhängig bestätigt werden, ist ebenso offen wie die Frage, ob das getroffene Schiff tatsächlich militärische Fracht transportierte, wie Russland behauptet, oder zivile Ladung."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Ereignisse reihen sich in ein seit Wochen anhaltendes Muster wechselseitiger Angriffe ein, über das auch in früheren Artikeln von „Neue Nachrichten“ berichtet wurde – etwa zu Angriffswellen auf Kiew, Dnipro und Odessa Anfang September, zu einem Drohnenangriff auf einen Zug bei Odessa im August sowie zur Berliner Zuordnung des Leipzig-Drohnenvorfalls zu Russland. Wie schon in jenen Fällen liegen auch diesmal die Angaben zu Opferzahlen überwiegend einseitig vor: Für Angriffe auf russisches Gebiet sprechen ausschließlich russische Stellen, für Angriffe auf ukrainisches Gebiet ausschließlich ukrainische Stellen. Eine gegenseitige Bestätigung oder unabhängige Überprüfung findet in aller Regel nicht statt. Neu an der Welle vom 17. September ist, dass die Kernfakten zu den Angriffen auf Kiew, Dnipro, Saporischschja und Odessa diesmal von mehreren unabhängigen Medien deckungsgleich berichtet wurden – anders als bei den rein russischen Regionalangaben zu Tula, Jaroslawl und Rostow, die weiterhin unbestätigt bleiben."
+      }
+    ],
+    "bodyKompakt": "Der Krieg zwischen Russland und der Ukraine ist mit mehreren neuen Angriffswellen weitergegangen. Nach ukrainischen Drohnen- und Raketenangriffen auf russisches Gebiet meldete der Gouverneur der Region Tula, Dmitri Miljajew, mindestens zwei Tote und drei Verletzte; getroffen wurden zudem ein Logistikzentrum des Onlinehändlers Ozon in Saratow und Ziele in der Region Wolgograd. Auf ukrainischer Seite waren zuvor bei russischen Angriffen auf Kiew mindestens fünf Menschen getötet und mindestens 35 verletzt worden, kurz darauf tötete ein russischer Drohnenangriff auf ein Einkaufszentrum in Pawlohrad nach Angaben von Präsident Selenskyj mindestens vier Menschen und verletzte mehr als 60; die Staatsanwaltschaft Dnipropetrowsk ermittelt wegen eines möglichen Kriegsverbrechens.\n\nIn der Nacht auf 17. September 2026 griff Russland erneut mit ballistischen Raketen an – diesmal Kiew, Dnipro, Saporischschja und Odessa. Laut militärnahen Telegram-Kanälen wurden gegen Kiew bis zu sechs umfunktionierte Zirkon-Raketen eingesetzt; die Zahl der Verletzten in der Hauptstadt wurde im Tagesverlauf von elf auf mindestens 18 nach oben korrigiert, in Odessa wurden drei Menschen verletzt und ein 19-stöckiges Wohnhaus getroffen. Ein ziviles Schiff unter tansanischer Flagge wurde von einer Drohne getroffen, der Kapitän starb. Die Ukraine meldete im Gegenzug Angriffe auf eine Ölraffinerie in Jaroslawl und einen Militärflugplatz bei Rostow; der Gouverneur von Jaroslawl bestätigte Schäden und einen gelöschten Brand, nannte aber keine Opfer.\n\nWährend die Kernfakten der jüngsten Angriffswelle auf ukrainische Städte von mehreren unabhängigen Medien übereinstimmend berichtet werden, beruhen die Angaben zu Angriffen auf russisches Gebiet – Tula ebenso wie Jaroslawl und Rostow – weiterhin ausschließlich auf russischen beziehungsweise ukrainischen Eigenangaben ohne wechselseitige oder unabhängige Bestätigung. Auch der Ausgang der Ermittlungen zu Pawlohrad und die endgültige Opferzahl in Kiew stehen noch aus.",
+    "updateNote": "Ergänzt um die neue russische Raketenangriffswelle auf Kiew, Dnipro, Saporischschja und Odessa in der Nacht auf 17. September 2026, den Drohnenangriff auf ein ziviles Schiff im Schwarzen Meer sowie die von der Ukraine gemeldeten Gegenangriffe auf eine Ölraffinerie in Jaroslawl und einen Militärflugplatz bei Rostow.",
+    "pendingOutcome": "Die endgültige Opferzahl in Kiew vom 17. September, eine unabhängige Bestätigung der ukrainischen Angaben zu Jaroslawl und Rostow sowie der Ausgang der Ermittlungen zum möglichen Kriegsverbrechen in Pawlohrad stehen noch aus."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-19T04:07:30.149Z"
+}
