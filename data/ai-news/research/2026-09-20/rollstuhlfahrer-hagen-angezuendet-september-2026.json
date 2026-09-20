@@ -1,0 +1,192 @@
+{
+  "cluster": {
+    "id": "cluster-20260920-6c0a98ca",
+    "title": "Rollstuhlfahrer in Deutschland angezündet und schwer verletzt",
+    "items": [
+      {
+        "itemId": "0e1bbf21452e54807fa851d68ea12e46daa55f3c51ddcf598742436db5a4cc0d",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Rollstuhlfahrer in Deutschland angezündet und schwer verletzt",
+        "url": "https://www.diepresse.com/41277671/rollstuhlfahrer-in-deutschland-angezuendet-und-schwer-verletzt",
+        "summary": "Passanten löschten das Feuer und verständigten die Polizei. Der Mann wurde mit schweren Verletzungen in eine Spezialklinik gebracht.",
+        "publishedAt": "2026-09-20T07:29:13.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "a92330ee429e50c3c37485013816c81125c28866ec635aac5d224f5e9c5fcb6f",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Rollstuhlfahrer in Deutschland angezündet: 18-Jährige in Haft",
+        "url": "https://www.kleinezeitung.at/artikel/41277988/rollstuhlfahrer-in-deutschland-angezuendet-18-jaehrige-in-haft",
+        "summary": "Ein 67-jähriger Mann im Rollstuhl wurde im deutschen Hagen angezündet und dabei schwer verletzt. Tatverdächtig ist eine Teenagerin – sie sitzt in U-Haft.",
+        "publishedAt": "2026-09-20T07:54:34.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.75,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle neue Nachricht mit aktuellem Ermittlungsstand: 18-Jährige in U-Haft wegen versuchten Mordes an 67-jährigem Rollstuhlfahrer in Hagen. Zwei unabhängige österreichische Portale berichten, Quellen sind Staatsanwaltschaft und Polizei. Hohes Sicherheitsrisiko (Gewaltkriminalität gegen vulnerable Person, Minderjährige Tatverdächtige, laufendes Strafverfahren) – Sensibilität high. Keine bestehende verwandte Story zur Aktualisierung vorhanden.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "18-jährige wegen versuchten Mordes in Untersuchungshaft",
+      "Opfer: 67-jähriger Rollstuhlfahrer, wird mit brennbarer Flüssigkeit übergossen und angezündet",
+      "Vorfall am Donnerstag, 18.09.2026, in Hagen (Nordrhein-Westfalen)",
+      "Tatverdächtige und Opfer kannten sich flüchtig, Streit vorgelagert",
+      "Opfer schwebt in Lebensgefahr, in Spezialklinik behandelt",
+      "Passanten löschten das Feuer, verständigten Polizei",
+      "Tatverdächtige zunächst geflüchtet, später in Münster festgenommen",
+      "Mordkommission ermittelt"
+    ],
+    "missingSources": [
+      "Direktes Statement oder Originalerklärung der Staatsanwaltschaft Hagen (bisher nur via österreichische Medien zitiert)",
+      "Konkreter Hintergrund/Konflikthintergrund zwischen Opfer und Tatverdächtiger",
+      "Aktuelle Gesundheitsprognose des Opfers über 'Lebensgefahr' hinaus",
+      "Sekundärquellen zur Verifizierung der Polizeimitteilung (z.B. deutsche Nachrichtenportale)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "rollstuhlfahrer-hagen-angezuendet-september-2026",
+    "title": "Rollstuhlfahrer in Deutschland angezündet: 18-Jährige in Untersuchungshaft",
+    "description": "In Hagen (Nordrhein-Westfalen) wurde ein 67-jähriger Rollstuhlfahrer nach einem Streit mit brennbarer Flüssigkeit übergossen und angezündet. Eine 18-Jährige sitzt wegen des Verdachts des versuchten Tötungsdelikts in Untersuchungshaft, das Opfer schwebte laut Behördenangaben in Lebensgefahr.",
+    "topic": "gesellschaft",
+    "country": "de",
+    "confidence": "high",
+    "confidenceNote": "Staatsanwaltschaft und Polizei Hagen haben den Vorfall und die Festnahme in einer gemeinsamen Presseerklärung selbst bestätigt, zusätzlich liegt eine APA/AFP-Agenturmeldung vor und zwei österreichische Medien berichten übereinstimmend.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die gemeinsame Presseerklärung von Staatsanwaltschaft und Polizei Hagen wurde über den offiziellen Verteiler eingesehen, aber nicht im Rahmen eines direkten Behörden-Interviews oder Gerichtsdokuments zusätzlich geprüft.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich bislang ausschließlich auf die Version von Staatsanwaltschaft und Polizei; eine Stellungnahme der Verdächtigen oder ihrer Verteidigung liegt naturgemäß im frühen Ermittlungsstadium nicht vor.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Ein 67-jähriger Rollstuhlfahrer wurde am Donnerstagabend in Hagen (Nordrhein-Westfalen) nach einem Streit mit brennbarer Flüssigkeit übergossen und angezündet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine 18-Jährige, die den Mann flüchtig kannte, sitzt wegen des Verdachts des versuchten Tötungsdelikts in Untersuchungshaft.",
+        "kind": "fact"
+      },
+      {
+        "text": "Passanten löschten das Feuer und alarmierten die Polizei; die zunächst geflüchtete Verdächtige wurde später in Münster festgenommen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der 67-Jährige schwebte laut Behördenangaben in Lebensgefahr und wurde in eine Spezialklinik gebracht.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der genaue Hintergrund des vorausgegangenen Streits sowie der aktuelle Gesundheitszustand des Opfers sind offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was war der genaue Hintergrund des Streits zwischen dem 67-Jährigen und der 18-Jährigen?",
+      "Wie geht es dem Opfer aktuell gesundheitlich, nachdem es zunächst in Lebensgefahr schwebte?",
+      "Welches Motiv nehmen die Ermittler an?",
+      "Wie geht das Ermittlungsverfahren gegen die 18-Jährige weiter, insbesondere im Hinblick auf eine mögliche Anklage?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Die Presse (APA/AFP)",
+        "type": "media",
+        "url": "https://www.diepresse.com/41277671/rollstuhlfahrer-in-deutschland-angezuendet-und-schwer-verletzt"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41277988/rollstuhlfahrer-in-deutschland-angezuendet-18-jaehrige-in-haft"
+      },
+      {
+        "id": "src3",
+        "name": "Gemeinsame Presseerklärung der Staatsanwaltschaft und Polizei Hagen",
+        "type": "official",
+        "url": "https://www.presseportal.de/blaulicht/pm/30835/6354798"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Eine 18-Jährige befindet sich wegen des Verdachts eines versuchten Tötungsdelikts (versuchter Mord) an einem 67-jährigen Rollstuhlfahrer in Untersuchungshaft.",
+        "status": "supported",
+        "note": "Von Staatsanwaltschaft und Polizei Hagen in einer gemeinsamen Presseerklärung selbst bestätigt, zusätzlich durch zwei Medien wiedergegeben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Der Vorfall ereignete sich am Donnerstagabend in einer Grünanlage im Hagener Stadtteil Helfe.",
+        "status": "supported",
+        "note": "Ort und Zeitpunkt stammen aus der offiziellen Presseerklärung der ermittelnden Behörden.",
+        "sourceIds": [
+          "src3",
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Dem Vorwurf der Ermittler zufolge übergoss die 18-Jährige den ihr flüchtig bekannten 67-Jährigen nach einem verbalen Streit mit einer brennbaren Flüssigkeit und setzte ihn in Brand.",
+        "status": "supported",
+        "note": "Dies ist die offizielle Darstellung der Staatsanwaltschaft und Polizei Hagen; die strafrechtliche Schuld ist damit nicht festgestellt, das Verfahren läuft.",
+        "sourceIds": [
+          "src3",
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Der 67-Jährige schwebte nach der Tat laut Behördenangaben in Lebensgefahr und wurde in eine Spezialklinik gebracht.",
+        "status": "supported",
+        "sourceIds": [
+          "src1",
+          "src3"
+        ],
+        "note": null
+      },
+      {
+        "id": "claim5",
+        "text": "Passanten löschten das Feuer und verständigten die Polizei; die zunächst geflüchtete Verdächtige wurde später in Münster festgenommen.",
+        "status": "supported",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ],
+        "note": null
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In Hagen (Nordrhein-Westfalen) ist ein 67-jähriger Rollstuhlfahrer am Donnerstagabend schwer verletzt worden. Laut der gemeinsamen Presseerklärung von Staatsanwaltschaft und Polizei Hagen kam es in einer Grünanlage im Stadtteil Helfe zu einem verbalen Streit zwischen dem Mann und einer 18-Jährigen, die ihn flüchtig kannte. Dem Vorwurf der Ermittler zufolge übergoss die junge Frau den Mann anschließend mit einer brennbaren Flüssigkeit und setzte ihn in Brand. Passantinnen und Passanten löschten das Feuer und alarmierten die Polizei. Der 67-Jährige wurde mit schweren, laut Behördenangaben lebensgefährlichen Verletzungen in eine Spezialklinik gebracht."
+      },
+      {
+        "heading": "Ermittlungsstand",
+        "markdown": "Die Tatverdächtige flüchtete zunächst vom Ort des Geschehens, wurde jedoch im Zuge der Fahndung in Münster festgenommen. Eine eigens eingerichtete Mordkommission der Polizei Hagen ermittelt gemeinsam mit der Staatsanwaltschaft wegen des Verdachts eines versuchten Tötungsdelikts. Gegen die 18-Jährige wurde Haftbefehl erlassen, sie sitzt in Untersuchungshaft. Zum genauen Stand des Verfahrens, etwa zu einer möglichen Anklage, liegen bislang keine weiteren Angaben vor."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Grundlage dieses Berichts ist in erster Linie die gemeinsame Presseerklärung von Staatsanwaltschaft und Polizei Hagen, in der die ermittelnden Behörden Vorfall, Festnahme und Ermittlungsstand aus eigener Verantwortung mitteilen. Ergänzend liegt eine Agenturmeldung von APA/AFP vor, die über Die Presse verbreitet wurde, sowie ein eigenständiger Bericht der Kleinen Zeitung. Alle Angaben zu Kernpunkten wie Festnahme, Tatort und Gesundheitszustand des Opfers stimmen zwischen diesen Quellen überein. Eine Einschätzung der Verdächtigen selbst oder ihrer Verteidigung liegt naturgemäß im aktuellen frühen Ermittlungsstadium nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, was dem Streit zwischen dem 67-Jährigen und der 18-Jährigen konkret vorausging und welches Motiv die Ermittler hinter der Tat vermuten. Auch der aktuelle Gesundheitszustand des Opfers über die ursprüngliche Einstufung als lebensgefährlich hinaus ist nicht bekannt. Wie es rechtlich mit der Verdächtigen weitergeht – etwa ob und wann Anklage erhoben wird –, ist derzeit ebenfalls nicht absehbar. Aus Rücksicht auf die Betroffenen und weil es sich um ein laufendes Ermittlungsverfahren gegen eine junge Erwachsene handelt, werden in diesem Artikel bewusst keine Namen oder weiteren identifizierenden Details genannt."
+      }
+    ],
+    "bodyKompakt": "In Hagen (Nordrhein-Westfalen) ist ein 67-jähriger Rollstuhlfahrer am Donnerstagabend schwer verletzt worden. Laut einer gemeinsamen Presseerklärung von Staatsanwaltschaft und Polizei Hagen kam es zuvor zu einem Streit zwischen dem Mann und einer 18-Jährigen, die ihn flüchtig kannte. Dem Vorwurf der Ermittler zufolge übergoss sie ihn mit einer brennbaren Flüssigkeit und zündete ihn an. Passanten löschten das Feuer und alarmierten die Polizei; der Mann kam mit laut Behördenangaben lebensgefährlichen Verletzungen in eine Spezialklinik.\n\nDie zunächst geflüchtete Tatverdächtige wurde später in Münster festgenommen. Eine Mordkommission ermittelt wegen des Verdachts eines versuchten Tötungsdelikts, gegen die 18-Jährige wurde Haftbefehl erlassen, sie sitzt in Untersuchungshaft.\n\nOffen bleiben der genaue Hintergrund des Streits, ein mögliches Motiv sowie der aktuelle Gesundheitszustand des Opfers. Auf Namen und weitere identifizierende Details wird angesichts des laufenden Verfahrens verzichtet.",
+    "updateNote": null,
+    "pendingOutcome": "Weiterer Gesundheitszustand des 67-jährigen Opfers sowie Fortgang des Ermittlungsverfahrens gegen die 18-Jährige, etwa eine mögliche Anklageerhebung."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-20T22:07:28.678Z"
+}
