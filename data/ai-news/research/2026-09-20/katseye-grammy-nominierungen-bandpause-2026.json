@@ -1,0 +1,224 @@
+{
+  "cluster": {
+    "id": "cluster-20260919-f3ab5fb8",
+    "title": "Welterfolg mit Rissen",
+    "items": [
+      {
+        "itemId": "822f00087e9ccc1cce314f16c8fc5fd115df00bb813b1550290287ce37f7031e",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Welterfolg mit Rissen",
+        "url": "https://orf.at/stories/3442133",
+        "summary": "Sie sind sechs junge Frauen aus vier Ländern, die innerhalb von zwei Jahren auf die Grammy-Bühne aufgestiegen sind: Katseye gilt als derzeit größte Girlgroup der Gegenwart – und als Labor für die Zukunft der Popmusik. Ihre „Wildworld Tour“ durch Europa ist gerade zu Ende gegangen, nun touren sie in den USA weiter. Doch hinter dem Erfolg zeigen sich auch Schattenseiten: Zwei Mitglieder befinden sich in einer temporären Auszeit, die Band spricht offen über Hassnachrichten.",
+        "publishedAt": "2026-09-19T18:41:17.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.75,
+  "triage": {
+    "action": "research_note",
+    "reason": "Kultur-Großereignis (Grammy-Nominierungen, Billboard #1, global ausverkaufte Tourneen) — jedoch erfordert die Ausnahme-Regel für draft_article ohne Österreich-Bezug ≥2 unabhängige Portale. Im Cluster nur ORF sichtbar. Artikel ist substanziell mit Hintergrund-Analyse (HYBE-Strategie, Besetzung, Musikstil), aber Verifizierung der Angaben und Recherche zu breiterer Berichterstattung sollten vor draft_article-Entscheidung erfolgen.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Katseye erreichte Platz 1 der Billboard 200",
+      "Katseye erhielt zwei Grammy-Nominierungen 2026",
+      "Gruppe besteht aus sechs Frauen aus mindestens vier Ländern",
+      "Wildworld Tour in Europa vollständig ausverkauft",
+      "USA-Tour vollständig ausverkauft",
+      "Zwei Mitglieder befinden sich in temporärer Auszeit",
+      "Band spricht offen über Hassnachrichten und mentale Gesundheit",
+      "Katseye ist Fusion von K-Pop-Maschinerie (HYBE) und US-Mainstream (Geffen Records)"
+    ],
+    "missingSources": [
+      "Verifizierung der Billboard 200 #1-Position",
+      "Verifizierung der Grammy-Nominierungen 2026",
+      "Quellen für Hassnachrichten- und Auszeit-Details",
+      "Recherche zu breiterer Berichterstattung (Syndikats-Check)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "katseye-grammy-nominierungen-bandpause-2026",
+    "title": "Katseye: Grammy-Nominierungen und erste Nummer eins, während Mitglieder pausieren",
+    "description": "Die sechsköpfige Popgruppe Katseye hat mit der EP „Wild“ erstmals Platz eins der Billboard-200-Charts erreicht und zwei Grammy-Nominierungen für 2026 erhalten – parallel dazu legen mehrere Mitglieder zeitweise Pausen ein.",
+    "topic": "kultur",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die harten Fakten – Chart-Erfolg, Grammy-Nominierungen und ausverkaufte Tourdaten – sind durch mehrere voneinander unabhängige Medien sowie offizielle Seiten der Recording Academy und von Billboard belegt; Details zu Mitglieder-Auszeiten und Hassnachrichten stützen sich dagegen nur auf einzelne bzw. spekulative Berichte.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die Grammy-Nominierungen sind über die offizielle Recording-Academy-Seite und der Chart-Erfolg über Billboards eigene Chart-Berichterstattung bestätigt; zu den Hintergründen der Bandpausen liegt keine Primärquelle von Band oder Label vor.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Zum kommerziellen Erfolg gibt es breite, übereinstimmende Berichterstattung; zur Bandpause und möglichen Ursachen kommen bislang vor allem Fan-Spekulation und Medienanalysen zu Wort, eine Stellungnahme von Band oder Label fehlt in den vorliegenden Quellen weitgehend.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Katseye erreichte mit der EP „Wild“ im Sommer 2026 erstmals Platz eins der Billboard-200-Album-Charts.",
+        "kind": "fact"
+      },
+      {
+        "text": "Für die Grammy-Verleihung 2026 erhielt die Gruppe zwei Nominierungen, darunter „Best New Artist“.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Europa-Etappe der „Wildworld Tour“ sowie die anschließende US-Tour sind ausverkauft.",
+        "kind": "fact"
+      },
+      {
+        "text": "Mindestens ein Mitglied, Manon Bannerman, befindet sich seit Februar 2026 in einer als „temporär“ bezeichneten Auszeit von der Gruppe.",
+        "kind": "fact"
+      },
+      {
+        "text": "Unklar bleibt, wie viele Mitglieder aktuell tatsächlich pausieren und welche genauen Gründe dahinterstehen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche genauen gesundheitlichen oder persönlichen Gründe stehen hinter der Auszeit von Manon Bannerman und möglichen weiteren Mitgliederpausen?",
+      "Wie viele Mitglieder sind aktuell zeitgleich inaktiv, und wie wirkt sich das auf laufende Auftritte aus?",
+      "Welche konkreten Inhalte umfassen die von der Band erwähnten Hassnachrichten, und gibt es eine Reaktion von Label oder Management darauf?",
+      "Wann und in welcher Form kehren pausierende Mitglieder zur Gruppe zurück?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at – „Welterfolg mit Rissen“",
+        "type": "media",
+        "url": "https://orf.at/stories/3442133"
+      },
+      {
+        "id": "src2",
+        "name": "Billboard – KATSEYE Achieves First No. 1 Album on Billboard 200 With 'WILD'",
+        "type": "primary",
+        "url": "https://www.billboard.com/music/chart-beat/katseye-wild-number-one-billboard-200-albums-chart-1236322567/"
+      },
+      {
+        "id": "src3",
+        "name": "Grammy.com – KATSEYE Grammy Awards and Nominations",
+        "type": "official",
+        "url": "https://www.grammy.com/artists/katseye/61556/"
+      },
+      {
+        "id": "src4",
+        "name": "The Hollywood Reporter – KATSEYE Scores Two Grammy Nominations Including Best New Artist",
+        "type": "media",
+        "url": "https://www.hollywoodreporter.com/music/music-news/katseye-grammy-nominations-best-new-artist-1236421077/"
+      },
+      {
+        "id": "src5",
+        "name": "Yahoo Entertainment – Why Katseye's Manon Is Taking a Temporary Hiatus From the Group",
+        "type": "media",
+        "url": "https://www.yahoo.com/entertainment/music/articles/why-katseye-manon-taking-temporary-153600383.html"
+      },
+      {
+        "id": "src6",
+        "name": "Rolling Stone Philippines – How KATSEYE Can Bounce Back After Member Hiatus and 'WILD' Backlash",
+        "type": "media",
+        "url": "https://rollingstonephilippines.com/music/pop/katseye-bounce-back-member-hiatus-wild-backlash/"
+      },
+      {
+        "id": "src7",
+        "name": "Yahoo Entertainment – KATSEYE Announces Sold-Out World Tour, Sweeps AMA Categories",
+        "type": "media",
+        "url": "https://www.yahoo.com/entertainment/music/articles/katseye-announces-sold-world-tour-211910455.html"
+      },
+      {
+        "id": "src8",
+        "name": "Slate – Katseye has never been bigger—or more divisive",
+        "type": "media",
+        "url": "https://slate.com/culture/2026/08/katseye-manon-hootie-frutti-sophia-megan-hiatus-wild.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Katseye erreichte mit der EP „Wild“ erstmals Platz eins der Billboard-200-Album-Charts.",
+        "status": "supported",
+        "note": "Von Billboard selbst als Chart-Ergebnis veröffentlicht und von ORF sowie weiteren Medien unabhängig bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Katseye erhielt für die Grammy-Verleihung 2026 zwei Nominierungen, darunter „Best New Artist“ und „Best Pop Duo/Group Performance“ für den Song „Gabriela“.",
+        "status": "supported",
+        "note": "Über die offizielle Grammy-Seite und mehrere unabhängige Medien bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Europa-Etappe der „Wildworld Tour“ sowie die anschließende US-Tour sind ausverkauft.",
+        "status": "supported",
+        "note": "Von ORF sowie unabhängig von weiteren Medien berichtet.",
+        "sourceIds": [
+          "src1",
+          "src7"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Bandmitglied Manon Bannerman befindet sich seit Februar 2026 in einer von HYBE x Geffen als „temporär“ bezeichneten Auszeit von der Gruppe.",
+        "status": "supported",
+        "note": "Von mehreren voneinander unabhängigen Medien berichtet.",
+        "sourceIds": [
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Band spricht öffentlich über an sie gerichtete Hassnachrichten.",
+        "status": "partial",
+        "note": "Bislang nur laut ORF-Bericht; keine unabhängige Zweitquelle mit dieser konkreten Angabe gefunden.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Neben Bannerman legten im Lauf des Jahres 2026 offenbar auch weitere Mitglieder zeitweise Pausen ein, was Spekulationen und eine öffentliche Debatte über den Umgang mit Schwarzen Frauen im K-Pop-Betrieb auslöste.",
+        "status": "unclear",
+        "note": "Beruht auf Medienanalysen und Fan-Beobachtungen, nicht auf offizieller Bestätigung durch Band oder Label.",
+        "sourceIds": [
+          "src6",
+          "src8"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Katseye hat sich innerhalb von rund zwei Jahren von einer YouTube-Castingshow zu einer der kommerziell erfolgreichsten Girlgroups der Gegenwart entwickelt. Die sechs Mitglieder Manon Bannerman, Daniela Avanzini, Yoonchae Jeung, Sophia Laforteza, Lara Raj und Megan Skiendiel wurden 2024 aus rund 120.000 Bewerberinnen zusammengestellt – ein gemeinsames Projekt des südkoreanischen Unterhaltungskonzerns Hybe und des US-Labels Geffen Records. Im Sommer 2026 erreichte die Gruppe mit ihrer EP „Wild“ erstmals Platz eins der Billboard-200-Album-Charts. Parallel dazu erhielt Katseye zwei Nominierungen für die Grammy-Verleihung 2026, unter anderem in der Kategorie „Best New Artist“. Die Europa-Etappe der „Wildworld Tour“ ist ebenso ausverkauft wie die anschließende Tour durch die USA und Mexiko."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Chart-Erfolg lässt sich direkt bei Billboard nachvollziehen: „Wild“ kam laut eigenen Angaben des Branchenmagazins auf rund 170.000 Einheiten in der ersten Woche und markierte damit die größte Chartwoche eines reinen Frauen-Ensembles, seit Billboard die Charts 2014 nach Einheiten berechnet. Die Grammy-Nominierungen für „Best New Artist“ und „Best Pop Duo/Group Performance“ für den Song „Gabriela“ sind auf der offiziellen Seite der Recording Academy gelistet und wurden unter anderem vom Hollywood Reporter bestätigt. Auch der Ausverkauf der Tour ist durch mehrere voneinander unabhängige Medien belegt: Die Europa-Shows in Städten wie Dublin, London, Paris, Köln oder Kopenhagen waren laut übereinstimmenden Berichten teils innerhalb einer Stunde ausverkauft, die US-Tour zog mit zusätzlichen Terminen nach."
+      },
+      {
+        "heading": "Schattenseiten: Auszeiten und Kritik",
+        "markdown": "Neben dem kommerziellen Erfolg berichten mehrere Medien von Spannungen innerhalb der Gruppe. Mitglied Manon Bannerman befindet sich seit Februar 2026 in einer von HYBE x Geffen als „temporär“ bezeichneten Auszeit, offiziell zur Erholung. In den Monaten danach fielen laut Medienberichten zeitweise auch weitere Mitglieder bei Auftritten und Terminen aus, was unter Fans zu Spekulationen über die tatsächlichen Gründe führte. Ein Teil der Berichterstattung verknüpft die Debatte mit Fragen zum Umgang mit Schwarzen Frauen im K-Pop-Betrieb – dies bleibt allerdings Gegenstand von Medienanalysen und Fan-Diskussionen, nicht von offiziellen Stellungnahmen. Laut ORF spricht die Band zudem offen über an sie gerichtete Hassnachrichten; eine zweite, unabhängige Quelle mit dieser konkreten Formulierung liegt derzeit nicht vor."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie viele Mitglieder aktuell tatsächlich gleichzeitig pausieren und ob sich daraus Folgen für laufende Live-Termine ergeben. Ebenso ungeklärt sind die genauen Hintergründe der Auszeiten – gesundheitliche, persönliche oder mit dem Label verbundene Gründe werden in verschiedenen Berichten unterschiedlich gewichtet, ohne dass Band oder Management dazu eine ausführliche eigene Erklärung vorgelegt hätten. Auch der genaue Umfang und Inhalt der von der Band erwähnten Hassnachrichten ist aus den vorliegenden Quellen nicht näher bekannt."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Katseye gilt in der Musikbranche als Testfall dafür, ob sich die durchgetaktete K-Pop-Produktionslogik mit US-amerikanischem Mainstream-Pop verbinden lässt. Der wirtschaftliche Erfolg – Nummer-eins-Album, Grammy-Nominierungen, ausverkaufte Arenen – bestätigt diesen Ansatz vorerst. Gleichzeitig zeigen die Berichte über Mitgliederpausen und Online-Anfeindungen, dass der internationale, aus vier Kontinenten zusammengesetzte Ansatz der Gruppe auch neue Reibungspunkte erzeugt, etwa bei Fragen zu Belastung, Diversität und öffentlichem Druck auf einzelne Mitglieder."
+      }
+    ],
+    "bodyKompakt": "Katseye hat sich innerhalb von rund zwei Jahren von einer YouTube-Castingshow zu einer der erfolgreichsten Girlgroups der Gegenwart entwickelt. Die sechs Mitglieder aus vier Ländern erreichten im Sommer 2026 mit der EP „Wild“ erstmals Platz eins der Billboard-200-Charts und erhielten zwei Nominierungen für die Grammy-Verleihung 2026, darunter „Best New Artist“. Die Europa-Etappe der „Wildworld Tour“ und die anschließende US-Tour sind ausverkauft – Belege dafür liefern Billboard, die Recording Academy und mehrere unabhängige Medien.\n\nParallel zum Erfolg berichten Medien von Spannungen: Mitglied Manon Bannerman befindet sich seit Februar 2026 in einer offiziell als „temporär“ bezeichneten Auszeit, weitere Mitglieder fielen zeitweise bei Terminen aus. Laut ORF spricht die Band offen über Hassnachrichten; eine zweite Quelle mit dieser genauen Angabe fehlt bislang. Ein Teil der Berichterstattung bringt die Auszeiten zudem mit einer Debatte über den Umgang mit Schwarzen Frauen im K-Pop-Betrieb in Verbindung.\n\nOffen bleibt, wie viele Mitglieder aktuell tatsächlich pausieren, welche genauen Gründe dahinterstehen und ob und wann eine Rückkehr erfolgt. Weder Band noch Label haben dazu bislang eine ausführliche eigene Erklärung vorgelegt.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-20T02:07:33.153Z"
+}
