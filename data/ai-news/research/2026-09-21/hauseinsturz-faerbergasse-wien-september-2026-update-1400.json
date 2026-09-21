@@ -1,0 +1,218 @@
+{
+  "cluster": {
+    "id": "cluster-20260921-aa25f273",
+    "title": "Teilweiser Hauseinsturz in Wiener City - Drei Verletzte",
+    "items": [
+      {
+        "itemId": "3a9475605efeffa777312d576706191bc5eb59dc3d758486fc02387058f4b9db",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Teilweiser Hauseinsturz in Wiener City - Drei Verletzte",
+        "url": "https://kurier.at/video/kurier-news/teilweiser-hauseinsturz-in-wiener-city-drei-verletzte/403192439",
+        "summary": "KURIER News vom 21.09.2026",
+        "publishedAt": "2026-09-21T13:16:32.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "878057821eb033c09cae9fbbc2718d7e34c03d23373d25a8eb0bd0800be3ef9e",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Teilweiser Hauseinsturz in Wiener City: Frau schwer verletzt, aber stabil",
+        "url": "https://www.derstandard.at/story/3000000340595/teilweiser-hauseinsturz-in-wiener-city-frau-schwer-verletzt",
+        "isNew": false
+      },
+      {
+        "itemId": "acb03138ef7821322e96efebe1e54078201b8f79b21cd0deda8331ed00f84ad7",
+        "sourceId": "derstandard_panorama",
+        "sourceType": "media",
+        "title": "Teilweiser Hauseinsturz in Wiener City: Frau schwer verletzt, aber stabil",
+        "url": "https://www.derstandard.at/story/3000000340595/teilweiser-hauseinsturz-in-wiener-city-frau-schwer-verletzt",
+        "isNew": false
+      },
+      {
+        "itemId": "395ae9df7249cc8d2327311a2cc49d0e1cccfd8834520dd0a42738d9ea1b8339",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Teilweiser Hauseinsturz in Wiener City: Frau schwer verletzt",
+        "url": "https://www.diepresse.com/41280874/teilweiser-hauseinsturz-in-wiener-city-frau-schwer-verletzt",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "update_story",
+    "reason": "Der Cluster ist die fortlaufende Berichterstattung zum bereits publizierten Artikel über den Hauseinsturz in der Färbergasse. Vier Medienportale (orf, derstandard, diepresse, kurier) berichten vom gleichen Ereignis aus Sonntagabend. Dies ist keine neue Story, sondern eine Aktualisierung der bestehenden publizierten Geschichte.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": 4,
+    "relatedSlug": "hauseinsturz-faerbergasse-wien-september-2026",
+    "possibleClaims": [
+      "Teileinsturz eines Hauses in der Färbergasse nahe Wipplinger Straße in der Wiener Innenstadt",
+      "Vorfall ereignete sich am Sonntagabend",
+      "Eine Frau wurde schwer verletzt",
+      "Die verletzte Frau ist stabil",
+      "Insgesamt drei Personen wurden verletzt"
+    ],
+    "missingSources": [
+      "Exakte Namen und Alter der verletzten Personen (Excerpt nennt nur eine Frau, ohne weitere Personalien)",
+      "Technische Ursache oder Auslöser des Teileinsturzes",
+      "Identität und Gesundheitszustand der beiden weiteren verletzten Personen",
+      "Aktueller Stand und Ergebnisse der polizeilichen Ermittlungen wegen fahrlässiger Gemeingefährdung",
+      "Stellungnahme des Hauseigentümers oder Bauträgers zur Verantwortung"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "hauseinsturz-faerbergasse-wien-september-2026",
+    "title": "Haus in Wiener Innenstadt teilweise eingestürzt: 57-Jährige schwer verletzt",
+    "description": "In der Färbergasse in der Wiener Innenstadt sind am Sonntagabend in drei Geschoßen die Decken eingebrochen. Eine 57-jährige Frau stürzte aus dem dritten Stock ab und wurde erst nach Stunden aus dem Trümmerkegel befreit.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Vier unabhängige österreichische Medien (ORF, Der Standard, Die Presse, Kurier) berichten übereinstimmend über Einsturz, Ort, Zeitpunkt und die schwer verletzte Frau; der ORF-Bericht stützt sich zudem erkennbar auch auf Agenturmaterial. Eine erneute Recherche bestätigt lediglich die bereits bekannten Kernfakten, ohne neue Substanz zu liefern.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde weiterhin keine offizielle Aussendung von Polizei, Feuerwehr oder Stadt Wien direkt eingesehen, sondern nur Zitate von Einsatzkräfte-Sprechern, wie sie in Medienberichten wiedergegeben werden.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Darstellung stützt sich ausschließlich auf Angaben von Polizei-, Feuerwehr- und Rettungssprechern; eine Stellungnahme des Hauseigentümers oder der beteiligten Baufirma zu den vorausgegangenen Bauarbeiten fehlt weiterhin.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "In der Wiener Färbergasse ist am Sonntagabend, dem 20. September 2026, ein Haus teilweise eingestürzt, in drei Geschoßen brachen die Decken ein.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine 57-jährige Frau stürzte dabei aus dem dritten Stock ab, wurde schwer verletzt und erst nach mehreren Stunden aus dem Trümmerkegel befreit.",
+        "kind": "fact"
+      },
+      {
+        "text": "Zwei weitere Personen wurden aus dem Haus gerettet, Nachbarhäuser wurden vorsorglich evakuiert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Polizei ermittelt wegen des Verdachts der fahrlässigen Gemeingefährdung; im Haus hatten zuvor Bauarbeiten stattgefunden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleiben die genaue Unglücksursache, der aktuelle Gesundheitszustand der Frau und der Ausgang der Ermittlungen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Was hat den Teileinsturz technisch ausgelöst, und besteht ein direkter Zusammenhang mit den vorangegangenen Bauarbeiten?",
+      "Wie ist der aktuelle Gesundheitszustand der 57-jährigen Frau – einige Medien sprechen in Überschriften weiterhin von einem stabilen Zustand, ohne dies im Artikeltext näher zu belegen?",
+      "Wer sind die beiden weiteren geretteten Personen, und wie geht es ihnen?",
+      "Trägt der Bauträger oder Hauseigentümer eine Verantwortung für den Einsturz, und äußert er sich dazu?",
+      "Zu welchem Ergebnis kommen die polizeilichen Ermittlungen wegen fahrlässiger Gemeingefährdung?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3371988"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000340595/teilweiser-hauseinsturz-in-wiener-city-frau-schwer-verletzt"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41280874/teilweiser-hauseinsturz-in-wiener-city-frau-schwer-verletzt"
+      },
+      {
+        "id": "src4",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/wien/wien-feuerwehr-einsatz-deckeneinsturz-innere-stadt/403192310"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Am Sonntagabend, dem 20. September 2026, ist ein Haus in der Wiener Färbergasse teilweise eingestürzt, gegen 22.30 Uhr brachen in drei Geschoßen die Decken ein.",
+        "status": "supported",
+        "note": "Vier unabhängige Medien berichten übereinstimmend über Ort, Zeitpunkt und Ablauf.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Eine 57-jährige Frau stürzte aus dem dritten Stock ab, wurde schwer verletzt und erst nach mehreren Stunden aus dem Trümmerkegel befreit.",
+        "status": "supported",
+        "note": "ORF und Der Standard schildern die Rettung unabhängig voneinander mit übereinstimmenden Details und O-Ton der Einsatzkräfte-Sprecher.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Zwei weitere Personen wurden aus dem Haus geborgen, einer von ihnen rettete sich beim Absturz mit dem einbrechenden Boden an ein Fenster.",
+        "status": "partial",
+        "note": "Detail stammt primär aus dem ORF-Bericht; die Presse-Kurzfassung übernimmt nahezu identischen Wortlaut, was auf gemeinsames Agenturmaterial statt auf eine zweite unabhängige Bestätigung hindeutet.",
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Aus vorsorglich evakuierten Nachbarhäusern wurden 14 weitere Personen ins Freie gebracht.",
+        "status": "partial",
+        "note": "Nur im ORF-Bericht mit dieser Zahl belegt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Polizei ermittelt wegen des Verdachts der fahrlässigen Gemeingefährdung; im Haus hatten zuvor Bauarbeiten stattgefunden.",
+        "status": "partial",
+        "note": "Beruht auf einer Einzelquelle mit Zitat einer Polizeisprecherin; ein belegter Kausalzusammenhang zwischen Bauarbeiten und Einsturz wird darin nicht hergestellt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Einsatzkräfte mussten sich aus dem dritten Stock abseilen, um zur eingeschlossenen Frau zu gelangen.",
+        "status": "partial",
+        "note": "Nur im Der-Standard-Bericht mit Zitat des Feuerwehrsprechers belegt.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In der Wiener Innenstadt ist am Sonntagabend, dem 20. September 2026, ein Haus in der Färbergasse teilweise eingestürzt. Gegen 22.30 Uhr brachen in drei Geschoßen die Decken ein. Eine 57-jährige Frau wurde dabei schwer verletzt, als sie aus dem dritten Stock in die Tiefe stürzte. Sie landete im Trümmerkegel des einstürzenden Gebäudeteils, wurde teilweise verschüttet und war für die Einsatzkräfte zunächst nicht erreichbar. Feuerwehr, Rettung und Polizei standen die gesamte Nacht im Großeinsatz."
+      },
+      {
+        "heading": "Die Rettung aus dem Trümmerkegel",
+        "markdown": "Nach Angaben von Feuerwehrsprecher Martin Hofbauer mussten sich Einsatzkräfte aus dem dritten Stock abseilen, um zur eingeschlossenen Frau zu gelangen. Der Schutt wurde unter schwierigen Bedingungen vorsichtig weggeräumt und angehoben; laut Hofbauer dauerte es mehrere Stunden, die Frau zu befreien. Auch Daniel Melcher, Sprecher der Wiener Berufsrettung, bestätigte den langwierigen Bergungseinsatz. Laut Der Standard war der Einsatz im einsturzgefährdeten Gebäude für die Kräfte selbst fordernd, teilweise habe eine Gefährdung der Einsatzkräfte bestanden. Zwei weitere Personen wurden laut ORF-Bericht aus dem Haus geborgen: Ein Mann stürzte mit dem einbrechenden Boden ebenfalls in die Tiefe, konnte sich aber an einem Fenster festhalten, bis er von der Feuerwehr gerettet wurde. Eine dritte Person befand sich in einem vom Einsturz nicht direkt betroffenen Gebäudeteil. Parallel zur Rettungsaktion wurden aus Vorsicht die Nachbarhäuser evakuiert, weil zunächst unklar war, ob dort ebenfalls Einsturzgefahr bestand – laut ORF wurden 14 weitere Personen ins Freie gebracht."
+      },
+      {
+        "heading": "Ermittlungen und Vorgeschichte",
+        "markdown": "Die Polizei ermittelt wegen des Verdachts der fahrlässigen Gemeingefährdung. Wie Polizeisprecherin Julia Schick laut ORF mitteilte, hatten im Haus zuvor Bauarbeiten stattgefunden – einen belegten Zusammenhang mit dem Einsturz benannte sie damit noch nicht ausdrücklich. Für Feuerwehr und Rettung waren die Arbeiten am Morgen danach abgeschlossen, die Polizei setzte ihre Ermittlungen fort."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist bislang, was den Einsturz technisch ausgelöst hat und ob die vorangegangenen Bauarbeiten tatsächlich die Ursache waren. Auch der aktuelle Gesundheitszustand der 57-jährigen Frau ist nach den vorliegenden Quellen nicht abschließend verifiziert: Auch in der jüngsten Berichterstattung sprechen manche Medien weiterhin nur in Überschriften von einem stabilen Zustand, ohne dies im Artikeltext eigenständig zu belegen. Ebenso unklar sind Identität und Befinden der beiden anderen geretteten Personen, eine mögliche Verantwortung von Bauunternehmen oder Hauseigentümer sowie der Fortgang der polizeilichen Ermittlungen."
+      }
+    ],
+    "bodyKompakt": "In der Wiener Innenstadt ist am Sonntagabend, dem 20. September 2026, ein Haus in der Färbergasse teilweise eingestürzt. Gegen 22.30 Uhr brachen in drei Geschoßen die Decken ein, eine 57-jährige Frau stürzte aus dem dritten Stock ab und wurde schwer verletzt. Sie landete im Trümmerkegel, wurde teilweise verschüttet und war zunächst nicht erreichbar.\n\nEinsatzkräfte mussten sich laut Feuerwehr abseilen, um zu ihr zu gelangen, und brauchten mehrere Stunden, um sie aus dem Schutt zu befreien. Zwei weitere Personen wurden aus dem Haus gerettet, einer von ihnen hielt sich an einem Fenster fest, bis die Feuerwehr ihn barg. Aus Vorsicht wurden Nachbarhäuser evakuiert, aus denen laut ORF 14 weitere Menschen ins Freie gebracht wurden.\n\nDie Polizei ermittelt wegen fahrlässiger Gemeingefährdung; im Haus hatten zuvor Bauarbeiten stattgefunden. Offen bleiben die genaue Unglücksursache, der aktuelle Gesundheitszustand der Frau und der Ausgang der Ermittlungen.",
+    "updateNote": null,
+    "pendingOutcome": "Unglücksursache, Zusammenhang mit den vorangegangenen Bauarbeiten, Ausgang der polizeilichen Ermittlungen wegen fahrlässiger Gemeingefährdung sowie eine eigenständig belegte Bestätigung des Gesundheitszustands der 57-Jährigen sind weiterhin offen; die aktuelle Berichterstattung wiederholt im Wesentlichen die bereits bekannten Fakten."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-21T14:07:43.365Z"
+}

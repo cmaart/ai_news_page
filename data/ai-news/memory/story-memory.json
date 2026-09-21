@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T12:29:34.883Z",
+  "updatedAt": "2026-09-21T14:21:52.934Z",
   "stories": {
     "ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026": {
       "canonicalTitle": "Ungarns AKW Paks wieder mit voller Leistung am Netz – Netzbetreiber hebt Krisenmodus auf",
@@ -1238,34 +1238,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-25T12:07:35.496Z"
-    },
-    "eu-uebergewinnsteuer-oelkonzerne-august-2026": {
-      "canonicalTitle": "Sechs EU-Finanzminister fordern Übergewinnsteuer für Ölkonzerne",
-      "slug": "eu-uebergewinnsteuer-oelkonzerne-august-2026",
-      "firstSeenAt": "2026-08-22T14:07:32.197Z",
-      "lastUpdatedAt": "2026-08-22T14:07:32.197Z",
-      "status": "published",
-      "articlePath": "src/content/articles/eu-uebergewinnsteuer-oelkonzerne-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-22/eu-uebergewinnsteuer-oelkonzerne-august-2026.json",
-      "sourceUrls": [
-        "https://kurier.at/politik/ausland/eu-minister-uebergewinnsteuer-spoe-markus-marterbauer/403185689",
-        "https://orf.at/stories/3439902",
-        "https://www.heise.de/news/EU-Finanzminister-fordern-Uebergewinnsteuer-fuer-Mineraloelkonzerne-11422787.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-      ],
-      "openQuestions": [
-        "Wird das Thema Übergewinnsteuer auf die Tagesordnung der EU-Finanzminister-Tagung Mitte September in Dublin gesetzt, und mit welchem Ergebnis?",
-        "Wie reagieren die betroffenen Ölkonzerne auf die Vorwürfe, von kriegsbedingt hohen Preisen übermäßig zu profitieren?",
-        "Liegt eine unabhängige Analyse vor, wie hoch die tatsächlichen Übergewinne der Raffinerien ausfallen?",
-        "Unterstützen weitere EU-Staaten oder die EU-Kommission den Vorstoß, nachdem ein ähnlicher Vorschlag laut Rechercheergebnissen zuvor von der Kommission abgelehnt worden sein soll?",
-        "Wie positioniert sich die österreichische Regierungskoalition insgesamt zur Übergewinnsteuer-Forderung Marterbauers?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-08-23T14:07:32.197Z",
-      "doNotUpdateBefore": "2026-08-22T20:07:32.197Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-23T12:07:36.761Z"
     },
     "trump-ballsaal-supreme-court-stay-august-2026": {
       "canonicalTitle": "Oberster Gerichtshof erlaubt Weiterbau von Trumps Ballsaal – Klage laut Mehrheit ohne Klagebefugnis",
@@ -15509,10 +15481,12 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-20T08:07:35.594Z",
       "doNotUpdateBefore": "2026-09-19T14:07:35.594Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-20T08:07:37.588Z"
+      "echoPublishers": {
+        "kurier": "2026-09-21T14:07:47.980Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-21T14:07:43.365Z"
     },
     "musk-klage-apple-fallen-openai-september-2026": {
       "canonicalTitle": "Musk lässt Wettbewerbsklage gegen Apple fallen – Verfahren gegen OpenAI läuft weiter",
@@ -17838,13 +17812,13 @@
       "resonanceMeasuredAt": "2026-09-19T22:07:35.642Z"
     },
     "trump-hausverbot-cnn-msnow-politico-september-2026": {
-      "canonicalTitle": "Trump verhängt Hausverbot für CNN, MS NOW und Politico – CNN, Politico und Journalistenverband wehren sich",
+      "canonicalTitle": "Trump verhängt Hausverbot für CNN, MS NOW und Politico – Medien klagen gegen die US-Regierung",
       "slug": "trump-hausverbot-cnn-msnow-politico-september-2026",
       "firstSeenAt": "2026-09-18T20:07:31.160Z",
-      "lastUpdatedAt": "2026-09-19T08:07:35.594Z",
+      "lastUpdatedAt": "2026-09-21T14:07:43.365Z",
       "status": "published",
       "articlePath": "src/content/articles/trump-hausverbot-cnn-msnow-politico-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-19/trump-hausverbot-cnn-msnow-politico-september-2026-update-800.json",
+      "researchPath": "data/ai-news/research/2026-09-21/trump-hausverbot-cnn-msnow-politico-september-2026-update-1400.json",
       "sourceUrls": [
         "https://orf.at/stories/3442611",
         "https://www.derstandard.at/story/3000000340454/trump-untersagt-sendern-cnn-msnow-und-politico-zutritt-zum-weissen-haus",
@@ -17858,20 +17832,27 @@
         "https://www.diepresse.com/41275771/hausverbot-fuer-cnn-trump-verbietet-us-medien-zutritt-zum-weissen-haus",
         "https://orf.at/stories/3442613",
         "https://whca.press/2026/09/18/statement-on-white-house-position-on-cnn-msnow-and-politico/",
-        "https://www.axios.com/2026/09/18/trump-ban-cnn-ms-now-politico-white-house"
+        "https://www.axios.com/2026/09/18/trump-ban-cnn-ms-now-politico-white-house",
+        "https://www.derstandard.at/story/3000000340686/cnn-und-andere-medien-verklagen-us-regierung",
+        "https://orf.at/stories/3442805",
+        "https://www.kleinezeitung.at/artikel/41283336/pressefreiheit-cnn-und-andere-medien-verklagen-us-regierung",
+        "https://www.cnn.com/2026/09/21/politics/cnn-politico-msnow-sue-white-house-access",
+        "https://www.hollywoodreporter.com/news/politics-news/cnn-ms-now-sue-white-house-revoking-press-credentials-1236706836/",
+        "https://www.cnbc.com/2026/09/21/trump-lawsuit-white-house-ban-ms-now-cnn-politico.html"
       ],
       "openQuestions": [
-        "Leiten CNN oder Politico nach ihrer öffentlichen Kritik auch tatsächlich rechtliche Schritte gegen das Hausverbot ein, etwa unter Berufung auf den ersten Verfassungszusatz?",
-        "Äußern sich MS NOW und der National Press Club noch eigenständig und offiziell zu dem Verbot?",
-        "Welche weiteren Medien wird Trump wie angekündigt benennen?",
-        "Nimmt das Weiße Haus offiziell und über Trumps Social-Media-Beitrag hinaus Stellung zur Begründung?",
-        "Wie wird das Verbot in der Praxis durchgesetzt, nachdem CNN- und MS-NOW-Teams laut eigenen Berichten am Freitagnachmittag zunächst weiterhin Zugang zum Weißen Haus hatten?",
-        "Was war der konkrete Anlass für Trumps Ankündigung, den er selbst nicht benannt hat?",
-        "Bestätigt sich die von internationalen Medien berichtete Zusatzbegründung zu MS NOW (Umbenennung von MSNBC) unabhängig?"
+        "Wie entscheidet das zuständige Bundesbezirksgericht in Washington, D.C. über den Eilantrag von CNN, MS NOW und Politico, und kommt es – wie von internationalen Medien berichtet – bereits in den kommenden Tagen zu einer Anhörung?",
+        "Gibt das Weiße Haus oder das US-Justizministerium über Trumps Reaktion auf Truth Social hinaus eine offizielle, im gerichtlichen Verfahren vorgebrachte Stellungnahme ab?",
+        "Äußert sich der National Press Club noch eigenständig und offiziell zu dem Hausverbot?",
+        "Welche weiteren Medien wird Trump wie ursprünglich angekündigt noch benennen?",
+        "Bestätigt sich die von internationalen Medien berichtete Zusatzbegründung zu MS NOW (Umbenennung von MSNBC) unabhängig, und wird sie im gerichtlichen Verfahren eine Rolle spielen?",
+        "Wie wirkt sich die Klage praktisch auf den Zugang der drei Redaktionen zum Weißen Haus aus, solange keine gerichtliche Entscheidung vorliegt?"
       ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-09-20T08:07:35.594Z",
-      "doNotUpdateBefore": "2026-09-19T14:07:35.594Z",
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-22T14:07:43.365Z",
+      "doNotUpdateBefore": "2026-09-21T20:07:43.365Z",
+      "pendingOutcome": "Entscheidung des zuständigen Bundesbezirksgerichts in Washington, D.C. über den Eilantrag von CNN, MS NOW und Politico sowie eine mögliche offizielle Stellungnahme des Weißen Hauses oder des Justizministeriums im Verfahren.",
+      "pendingOutcomeUntil": "2026-09-23T14:07:43.365Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18197,8 +18178,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-20T12:07:33.511Z",
       "doNotUpdateBefore": "2026-09-19T18:07:33.511Z",
-      "pendingOutcome": "Medaillenspiegel und Abschneiden des österreichischen Teams nach Ende der Wettbewerbe und der Siegerehrung am 27. September 2026.",
-      "pendingOutcomeUntil": "2026-09-21T12:07:33.511Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18292,8 +18271,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-21T16:07:31.817Z",
       "doNotUpdateBefore": "2026-09-20T22:07:31.817Z",
-      "pendingOutcome": "Beschluss des Wiener Kurzzeitvermietungsregistergesetzes (WKVRG) durch den Wiener Landtag, angekündigt für November 2026.",
-      "pendingOutcomeUntil": "2026-09-21T14:07:31.313Z",
       "echoPublishers": {
         "derstandard": "2026-09-20T16:07:35.321Z",
         "apa": "2026-09-21T10:07:37.228Z"
@@ -18525,7 +18502,13 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-20T22:07:35.642Z",
       "doNotUpdateBefore": "2026-09-20T04:07:35.642Z",
-      "echoPublishers": {}
+      "echoPublishers": {
+        "arstechnica": "2026-09-21T14:07:48.824Z",
+        "theverge": "2026-09-21T14:07:48.851Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-21T14:07:43.365Z"
     },
     "messerstich-wollzeile-wien-september-2026": {
       "canonicalTitle": "Wien: Mann nach Messerstich in der Innenstadt lebensgefährlich verletzt, Verdächtiger gefasst",
@@ -18626,12 +18609,11 @@
       "pendingOutcome": "Ob das Gesetzespaket zur Aktivpension samt Familienbeihilfe-Neuregelung am 23. September 2026 wie im Sozialausschuss beschlossen final vom Nationalrat verabschiedet wird oder es noch Abänderungsanträge gibt, ist offen.",
       "pendingOutcomeUntil": "2026-09-22T00:07:29.673Z",
       "echoPublishers": {
-        "diepresse": "2026-09-21T04:07:40.822Z",
-        "apa": "2026-09-20T12:07:40.847Z"
+        "diepresse": "2026-09-21T04:07:40.822Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-21T04:07:35.926Z"
+      "resonanceMeasuredAt": "2026-09-21T14:07:43.365Z"
     },
     "lancet-studie-impfquoten-eu-oesterreich-september-2026": {
       "canonicalTitle": "Neue Lancet-Studie: Kinderimpfquoten seit Corona in 16 EU-Ländern rückläufig, Österreich mit gemischter Bilanz",
@@ -18915,8 +18897,8 @@
         "diepresse": "2026-09-21T10:07:37.418Z",
         "orf": "2026-09-21T08:07:37.308Z",
         "kleinezeitung": "2026-09-21T10:07:38.937Z",
-        "derstandard": "2026-09-20T20:07:41.861Z",
-        "kurier": "2026-09-21T10:07:37.553Z"
+        "derstandard": "2026-09-21T14:07:49.962Z",
+        "kurier": "2026-09-21T14:07:47.732Z"
       },
       "resonanceLevel": 5,
       "resonanceSource": "triage",
@@ -19011,16 +18993,10 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-21T12:07:36.284Z",
       "doNotUpdateBefore": "2026-09-20T18:07:36.284Z",
-      "echoPublishers": {
-        "orf": "2026-09-20T12:07:38.373Z",
-        "derstandard": "2026-09-20T12:07:41.973Z",
-        "diepresse": "2026-09-20T12:07:41.374Z",
-        "kurier": "2026-09-20T12:07:41.381Z",
-        "kleinezeitung": "2026-09-20T12:07:43.579Z"
-      },
-      "resonanceLevel": 5,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-21T02:07:35.140Z"
+      "resonanceMeasuredAt": "2026-09-21T14:07:43.365Z"
     },
     "westjordanland-gewalt-jom-kippur-september-2026": {
       "canonicalTitle": "Neue Gewalt im Westjordanland: Israelisches Militär tötet Palästinenser, Israeli stirbt durch Schüsse",
@@ -19049,8 +19025,6 @@
       "pendingOutcome": "Weiterentwicklung der Lage im Westjordanland über die Jom-Kippur-Feiertage, Ergebnis der Fahndung nach dem gesuchten Schützen sowie eine mögliche unabhängige Bestätigung des von WAFA gemeldeten Siedlerangriffs bleiben abzuwarten.",
       "pendingOutcomeUntil": "2026-09-22T12:07:36.284Z",
       "echoPublishers": {
-        "orf": "2026-09-20T12:07:38.373Z",
-        "kleinezeitung": "2026-09-20T12:07:43.498Z",
         "derstandard": "2026-09-20T20:07:41.861Z"
       },
       "resonanceLevel": 3,
@@ -19084,9 +19058,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-21T14:07:35.888Z",
       "doNotUpdateBefore": "2026-09-20T20:07:35.888Z",
-      "echoPublishers": {
-        "derstandard": "2026-09-20T14:07:39.713Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-20T20:07:36.506Z"
@@ -19277,14 +19249,13 @@
       "pendingOutcomeUntil": "2026-09-22T20:07:36.506Z",
       "echoPublishers": {
         "orf": "2026-09-20T20:07:38.737Z",
-        "derstandard": "2026-09-20T14:07:42.870Z",
         "diepresse": "2026-09-20T16:07:35.963Z",
         "kurier": "2026-09-20T16:07:35.839Z",
         "kleinezeitung": "2026-09-20T18:07:42.005Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-21T10:07:33.158Z"
+      "resonanceMeasuredAt": "2026-09-21T14:07:43.365Z"
     },
     "salzburg-oevp-schnoell-ruecktritt-mayer-nachfolge-september-2026": {
       "canonicalTitle": "Salzburgs ÖVP-Vize Schnöll tritt zurück: Mayer übernimmt Finanzen, Verkehr und Gesundheit",
@@ -19363,9 +19334,7 @@
       "doNotUpdateBefore": "2026-09-21T16:07:33.158Z",
       "pendingOutcome": "Amtlich bestätigte Endergebnisse und die endgültige Sitzverteilung in der neuen Duma, laut Wahlkommission frühestens ab 25. September erwartet, sowie mögliche Stellungnahmen zu den Manipulationsvorwürfen stehen noch aus.",
       "pendingOutcomeUntil": "2026-09-22T22:07:28.678Z",
-      "echoPublishers": {
-        "kurier": "2026-09-20T14:07:40.375Z"
-      }
+      "echoPublishers": {}
     },
     "rollstuhlfahrer-hagen-angezuendet-september-2026": {
       "canonicalTitle": "Rollstuhlfahrer in Deutschland angezündet: 18-Jährige in Untersuchungshaft",
@@ -19424,9 +19393,7 @@
       "doNotUpdateBefore": "2026-09-21T06:07:30.420Z",
       "pendingOutcome": "Offizielle Reaktion der US-Regierung auf die sieben Bedingungen und mögliche Bekanntgabe der übrigen vier, bislang nicht genannten Punkte.",
       "pendingOutcomeUntil": "2026-09-23T00:07:30.420Z",
-      "echoPublishers": {
-        "diepresse": "2026-09-20T12:07:41.374Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-21T10:07:33.158Z"
@@ -19510,9 +19477,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-22T02:07:35.140Z",
       "doNotUpdateBefore": "2026-09-21T08:07:35.140Z",
-      "echoPublishers": {
-        "orf": "2026-09-20T14:07:39.824Z"
-      }
+      "echoPublishers": {}
     },
     "belvedere-erika-giovanna-klien-retrospektive-2026": {
       "canonicalTitle": "Belvedere zeigt große Retrospektive zu Erika Giovanna Klien",
@@ -19616,31 +19581,34 @@
       "canonicalTitle": "Haus in Wiener Innenstadt teilweise eingestürzt: 57-Jährige schwer verletzt",
       "slug": "hauseinsturz-faerbergasse-wien-september-2026",
       "firstSeenAt": "2026-09-21T08:07:35.520Z",
-      "lastUpdatedAt": "2026-09-21T08:07:35.520Z",
+      "lastUpdatedAt": "2026-09-21T14:07:43.365Z",
       "status": "published",
       "articlePath": "src/content/articles/hauseinsturz-faerbergasse-wien-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-21/hauseinsturz-faerbergasse-wien-september-2026.json",
+      "researchPath": "data/ai-news/research/2026-09-21/hauseinsturz-faerbergasse-wien-september-2026-update-1400.json",
       "sourceUrls": [
         "https://wien.orf.at/stories/3371988",
         "https://www.derstandard.at/story/3000000340595/teilweiser-hauseinsturz-in-wiener-city-frau-schwer-verletzt",
         "https://www.diepresse.com/41280874/teilweiser-hauseinsturz-in-wiener-city-frau-schwer-verletzt",
-        "https://kurier.at/chronik/wien/wien-feuerwehr-einsatz-deckeneinsturz-innere-stadt/403192310"
+        "https://kurier.at/chronik/wien/wien-feuerwehr-einsatz-deckeneinsturz-innere-stadt/403192310",
+        "https://kurier.at/video/kurier-news/teilweiser-hauseinsturz-in-wiener-city-drei-verletzte/403192439"
       ],
       "openQuestions": [
         "Was hat den Teileinsturz technisch ausgelöst, und besteht ein direkter Zusammenhang mit den vorangegangenen Bauarbeiten?",
-        "Wie ist der aktuelle Gesundheitszustand der 57-jährigen Frau – einige Medien sprechen in Überschriften von einem stabilen Zustand, ohne dies im Artikeltext näher zu belegen?",
+        "Wie ist der aktuelle Gesundheitszustand der 57-jährigen Frau – einige Medien sprechen in Überschriften weiterhin von einem stabilen Zustand, ohne dies im Artikeltext näher zu belegen?",
         "Wer sind die beiden weiteren geretteten Personen, und wie geht es ihnen?",
         "Trägt der Bauträger oder Hauseigentümer eine Verantwortung für den Einsturz, und äußert er sich dazu?",
         "Zu welchem Ergebnis kommen die polizeilichen Ermittlungen wegen fahrlässiger Gemeingefährdung?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-09-22T08:07:35.520Z",
-      "doNotUpdateBefore": "2026-09-21T14:07:35.520Z",
+      "doNotRedraftBefore": "2026-09-22T14:07:43.365Z",
+      "doNotUpdateBefore": "2026-09-21T20:07:43.365Z",
+      "pendingOutcome": "Unglücksursache, Zusammenhang mit den vorangegangenen Bauarbeiten, Ausgang der polizeilichen Ermittlungen wegen fahrlässiger Gemeingefährdung sowie eine eigenständig belegte Bestätigung des Gesundheitszustands der 57-Jährigen sind weiterhin offen; die aktuelle Berichterstattung wiederholt im Wesentlichen die bereits bekannten Fakten.",
+      "pendingOutcomeUntil": "2026-09-23T14:07:43.365Z",
       "echoPublishers": {
         "orf": "2026-09-21T08:07:37.578Z",
         "derstandard": "2026-09-21T08:07:38.000Z",
         "diepresse": "2026-09-21T08:07:38.283Z",
-        "kurier": "2026-09-21T08:07:38.409Z"
+        "kurier": "2026-09-21T14:07:47.668Z"
       },
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
@@ -19720,6 +19688,36 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-21T10:07:33.158Z"
+    },
+    "gunkl-strafrahmen-experten-einordnung-september-2026": {
+      "canonicalTitle": "Fall Gunkl: Warum Paal laut Experten mit milderer Strafe rechnen könnte als die beiden Frauen",
+      "slug": "gunkl-strafrahmen-experten-einordnung-september-2026",
+      "firstSeenAt": "2026-09-21T14:07:43.365Z",
+      "lastUpdatedAt": "2026-09-21T14:07:43.365Z",
+      "status": "published",
+      "articlePath": "src/content/articles/gunkl-strafrahmen-experten-einordnung-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-21/gunkl-strafrahmen-experten-einordnung-september-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/wien/gunkl-kindesmissbrauch-erpressung-schweigegeld-2/403191319",
+        "https://www.derstandard.at/story/3000000340158/kindesmissbrauch-was-wir-bisher-ueber-den-fall-guenther-paal-alias-gunkl-wissen",
+        "https://www.diepresse.com/41269405/causa-gunkl-warum-nur-die-frauen-in-u-haft-sind-und-ihnen-eine-strengere-strafe-droht",
+        "https://www.ots.at/presseaussendung/OTS_20260917_OTS0163/fpoe-hafenecker-orf-verharmlost-kindesmissbrauchsskandal-um-sein-urgestein-guenther-paal-und-sorgt-fuer-skandal-widerlichster-art",
+        "https://www.diepresse.com/41272757/fpoe-wir-sind-die-neuen-schutzherren-fuer-juedische-interessenlagen",
+        "https://www.heute.at/s/fall-gunkl-frauen-droht-hoehere-strafe-als-guenther-paal-120253815"
+      ],
+      "openQuestions": [
+        "Bestätigt sich die von Strafrechtsexperte Birklbauer skizzierte Straferwartung nach der Verhandlung am 22. Oktober 2026, oder weicht das tatsächliche Urteil davon ab?",
+        "Auf welche konkreten Haftgründe (etwa Verdunkelungs- oder Wiederholungsgefahr) stützt sich die Untersuchungshaft der beiden Frauen tatsächlich?",
+        "Gibt es eine Stellungnahme der Verteidigung der beiden Frauen zur rechtlichen Einordnung als schwere Erpressung?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-22T14:07:43.365Z",
+      "doNotUpdateBefore": "2026-09-21T20:07:43.365Z",
+      "pendingOutcome": "Ausgang der Verhandlung am 22. Oktober 2026 vor dem Wiener Landesgericht, insbesondere ob sich die von Birklbauer skizzierte Straferwartung für Paal und die beiden mitangeklagten Frauen bestätigt.",
+      "pendingOutcomeUntil": "2026-09-23T14:07:43.365Z",
+      "echoPublishers": {
+        "kurier": "2026-09-21T14:07:47.980Z"
+      }
     }
   }
 }
