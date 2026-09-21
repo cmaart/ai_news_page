@@ -1,0 +1,225 @@
+{
+  "cluster": {
+    "id": "cluster-20260920-02091824",
+    "title": "Der Iran stellt den USA sieben Bedingungen für Frieden [premium]",
+    "items": [
+      {
+        "itemId": "0ce47280e07fdfe4cfe00fcda533d512d6031e5b77303705163f5cec9da6f596",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Der Iran stellt den USA sieben Bedingungen für Frieden [premium]",
+        "url": "https://www.diepresse.com/41278544/der-iran-stellt-den-usa-sieben-bedingungen-fuer-frieden",
+        "summary": "Teheran will „kämpfen und verhandeln“ – unter den alten Voraussetzungen, die sich mit der letzten Grundsatzvereinbarung decken. Nehmen die USA diese an, wäre es für die Regierung Trumps eine Niederlage. Die Angriffe der Houthis erreichen die saudische Hauptstadt.",
+        "publishedAt": "2026-09-20T11:39:53.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "5d4ce3cb27ee17b7b00539ecc5c3f476dd3966ce2cd8aede14a269426b9aa57c",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Iran stellt weiter Bedingungen für Öffnung von Hormuz-Straße",
+        "url": "https://www.kleinezeitung.at/artikel/41277667/iran-stellt-weiter-bedingungen-fuer-oeffnung-von-hormuz-strasse",
+        "isNew": false
+      },
+      {
+        "itemId": "00b01a07e3101bc7165692c302dff91b5c69ad6fd8b4123ea9b439a217b31321",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Iran stellt weiter Bedingungen für Öffnung von Hormuz-Straße",
+        "url": "https://www.kleinezeitung.at/artikel/41277667/iran-stellt-weiter-bedingungen-fuer-oeffnung-von-hormuz-strasse",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.75,
+  "triage": {
+    "action": "update_story",
+    "reason": "Formale, öffentliche Veröffentlichung von Irans siebenpunktigen Bedingungskatalog zur Wiederöffnung der Straße von Hormuz durch Sicherheitsratschef Rezaei und Parlamentspräsident Ghalibaf — ein Kerndetail, das offene Frage aus us-angriffswelle-iran-juli-2026 beantwortet. Bedingungen inhaltlich bekannt (Juni-Grundsatzeinigung), aber Veröffentlichung mit Signal innerer Einigung und Houthi-Begleitaktion ist substantiell. Zwei unabhängige österreichische Portale (Die Presse mit Korrespondentenbericht, Kleine Zeitung).",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": 2,
+    "relatedSlug": "us-angriffswelle-iran-juli-2026",
+    "possibleClaims": [
+      "Iran stellt sieben Bedingungen für Frieden mit USA",
+      "Bedingungen entsprechen Juni-Grundsatzeinigung: Einstellung aller Gefechte, Freigabe iranischer Auslandsguthaben, Aufhebung US-Seeblockade",
+      "Sicherheitsrat und Parlament bekunden innenpolitische Einigkeit über Position",
+      "Straße von Hormuz wird erst nach Erfüllung aller Bedingungen durch USA geöffnet",
+      "Trump droht Iran mit ‚Auslöschung' oder wirtschaftlicher Vernichtung",
+      "Houthis führen Angriff auf Riad durch"
+    ],
+    "missingSources": [
+      "Offizielle Reaktion US-Außenministerium oder Nationale Sicherheitsrates",
+      "Vollständige Liste aller sieben Bedingungen (nur 3–4 explizit benannt)",
+      "Unabhängige Bestätigung Houthi-Angriff auf Riad",
+      "Stellungnahmen Saudi-Arabien, VAE oder EU"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "iran-sieben-bedingungen-hormus-september-2026",
+    "title": "Iran-Konflikt: Teheran übermittelt USA sieben Bedingungen für Kriegsende – Straße von Hormus bleibt geschlossen, Houthi-Rakete erreicht Riad",
+    "description": "Irans Sicherheitsratssekretär Rezaei hat über Katar sieben Bedingungen für ein Ende des Kriegs mit den USA übermittelt, Parlamentspräsident Ghalibaf hält die Straße von Hormus bis zu deren Erfüllung geschlossen. Zeitgleich fing Saudi-Arabien eine Houthi-Rakete über Riad ab.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Die Existenz des Sieben-Punkte-Forderungspakets, die drei genannten Einzelbedingungen, Ghalibafs Parlamentsrede und der abgefangene Houthi-Angriff auf Riad sind durch mehrere voneinander unabhängige Medien in Österreich und international sowie durch eine saudische Bestätigung belegt. Die restlichen vier Bedingungen, der genaue Wortlaut von Trumps Drohung sowie jede offizielle US-Reaktion sind dagegen nur einfach oder gar nicht belegt.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Keine eigene Einsicht in ein offizielles iranisches oder US-amerikanisches Dokument. Die Aussagen stammen aus einem Al-Jazeera-Interview und einer Parlamentsrede, beides nur über Medienberichte zugänglich; eine Stellungnahme des US-Außenministeriums oder des Weißen Hauses liegt nicht vor.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Kriegsrhetorik beider Seiten („auslöschen“, „entscheidender Krieg“) lädt zu Zuspitzung ein. Der Artikel hält Ankündigungen, Drohungen und bestätigte Ereignisse auseinander und vermeidet, unbestätigte Details als gesichert darzustellen.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Irans Sicherheitsratssekretär Mohsen Rezaei hat über den Vermittler Katar sieben Bedingungen für ein Ende des Kriegs mit den USA an Washington übermittelt; eine Antwort der US-Regierung steht noch aus.",
+        "kind": "fact"
+      },
+      {
+        "text": "Von den sieben Bedingungen sind bislang drei öffentlich benannt: Einstellung der Kämpfe an allen Fronten, Freigabe eingefrorener iranischer Auslandsguthaben und Aufhebung der US-Seeblockade iranischer Häfen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Parlamentspräsident Mohammad Bagher Ghalibaf bekräftigte im Parlament, die Straße von Hormus werde erst geöffnet, wenn Iran seine Bedingungen erfüllt sieht und die USA ihre Zusagen umgesetzt haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Saudi-Arabien bestätigte einen von der Luftabwehr abgefangenen Raketenangriff der jemenitischen Houthi-Miliz auf Riad – laut Berichten der erste Luftalarm in der saudischen Hauptstadt seit der Eskalation im Juli; Verletzte wurden keine gemeldet.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut einem Bericht drohte Trump, Iran „auszulöschen“ oder wirtschaftlich „verrotten“ zu lassen, sollte keine Einigung zustande kommen; eine unabhängige Bestätigung des genauen Wortlauts liegt nicht vor.",
+        "kind": "open"
+      },
+      {
+        "text": "Welche vier der sieben Bedingungen noch nicht genannt wurden und ob bzw. wie die US-Regierung offiziell auf das Forderungspaket reagiert, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche vier der sieben von Iran übermittelten Bedingungen sind noch nicht öffentlich benannt worden?",
+      "Reagiert die US-Regierung offiziell auf das iranische Forderungspaket, und nimmt Trump es an, lehnt er es ab oder ignoriert er es?",
+      "Wie verhält sich dieses neue Sieben-Punkte-Paket zu dem im August von der iranischen Meerengen-Behörde PGSA genannten Vierpunkte-Katalog (Ende der US-Drohungen, Aufhebung der Seeblockade, Truppenabzug, Kriegsentschädigung) – deckt es sich, ersetzt es ihn, oder bestehen beide parallel?",
+      "Setzt Iran seine von Ghalibaf skizzierte Doppelstrategie aus Kämpfen und Verhandeln tatsächlich um, oder verschiebt sich das Gewicht in den kommenden Wochen eindeutig in eine der beiden Richtungen?",
+      "Bekennen sich die Houthi offiziell und im Detail zu dem Angriff auf Riad, und wie reagiert Saudi-Arabien über die bloße Abwehrbestätigung hinaus – etwa mit eigenen Vergeltungsschritten?",
+      "Setzt Trump die angedeutete Drohung einer weiteren Großoffensive gegen Iran um, oder mündet der Vorstoß Teherans doch in neue Verhandlungen?"
+    ],
+    "sources": [
+      {
+        "id": "diepresse",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41278544/der-iran-stellt-den-usa-sieben-bedingungen-fuer-frieden"
+      },
+      {
+        "id": "kleinezeitung",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41277667/iran-stellt-weiter-bedingungen-fuer-oeffnung-von-hormuz-strasse"
+      },
+      {
+        "id": "alarabiya",
+        "name": "Al Arabiya English",
+        "type": "media",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/09/20/iran-s-ghalibaf-says-strait-of-hormuz-will-remain-closed-until-conditions-are-met"
+      },
+      {
+        "id": "aljazeera_riad",
+        "name": "Al Jazeera",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh"
+      },
+      {
+        "id": "npr_riad",
+        "name": "NPR",
+        "type": "media",
+        "url": "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Iran hat der US-Regierung über den Vermittler Katar sieben Bedingungen für ein Ende des Kriegs übermittelt und wartet auf eine Antwort aus Washington.",
+        "status": "supported",
+        "note": "Von einem österreichischen Korrespondentenbericht sowie mehreren voneinander unabhängigen internationalen Medien übereinstimmend berichtet; Rezaei äußerte sich dazu auf X und in einem Al-Jazeera-Interview.",
+        "sourceIds": [
+          "diepresse",
+          "kleinezeitung",
+          "alarabiya"
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Von den sieben Bedingungen wurden bislang drei genannt: Einstellung der Kämpfe an allen Fronten, Freigabe eingefrorener iranischer Auslandsguthaben und Aufhebung der US-Seeblockade iranischer Häfen.",
+        "status": "supported",
+        "note": "Die übrigen vier Bedingungen wurden nach Angaben Rezaeis bewusst nicht offengelegt.",
+        "sourceIds": [
+          "diepresse",
+          "kleinezeitung"
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Parlamentspräsident Ghalibaf erklärte im Parlament, die Straße von Hormus bleibe erst geschlossen, bis Iran seine Bedingungen erfüllt sieht und die USA ihre Zusagen umgesetzt haben, und beschrieb die iranische Linie als gleichzeitiges Kämpfen und Verhandeln.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "diepresse",
+          "alarabiya"
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Die Houthi-Miliz feuerte eine Rakete auf Riad ab, die von der saudischen Luftabwehr abgefangen wurde; Saudi-Arabien bestätigte den Vorfall offiziell, Verletzte wurden nicht gemeldet.",
+        "status": "supported",
+        "note": "Von saudischer Seite selbst bestätigt und von mehreren unabhängigen internationalen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "aljazeera_riad",
+          "npr_riad"
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "US-Präsident Trump drohte, Iran „auszulöschen“ oder wirtschaftlich „verrotten“ zu lassen, sollte keine Einigung erzielt werden.",
+        "status": "partial",
+        "note": "Nur durch einen einzelnen Bericht belegt, der sich auf ein Fox-Interview beruft; keine unabhängige Bestätigung des genauen Wortlauts.",
+        "sourceIds": [
+          "diepresse"
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "Eine offizielle Reaktion der US-Regierung (Außenministerium oder Weißes Haus) auf das iranische Sieben-Punkte-Paket liegt bislang nicht vor.",
+        "status": "unclear",
+        "note": "Abwesenheit einer Reaktion lässt sich aus der vorliegenden Quellenlage nur als aktueller Stand, nicht als endgültig feststellen.",
+        "sourceIds": [
+          "diepresse"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Teheran legt sich fest: sieben Bedingungen, drei genannt",
+        "markdown": "Der Iran hat der US-Regierung erstmals ein konkretes, siebenteiliges Forderungspaket für ein Ende des Kriegs übermittelt. Mohsen Rezaei, Sekretär des Obersten Nationalen Sicherheitsrates, teilte mit, Teheran habe die Bedingungen über den Vermittler Katar an Washington weitergeleitet und warte nun auf eine Antwort von Präsident Trump. Öffentlich genannt hat Rezaei bislang nur drei der sieben Punkte: eine Einstellung der Kämpfe an allen Fronten, die Freigabe eingefrorener iranischer Auslandsguthaben und die Aufhebung der US-Seeblockade iranischer Häfen. Die übrigen vier Bedingungen behielt er sich vor – ein Signal, dass Iran sich taktischen Spielraum offenhalten will, ohne die eigene Verhandlungsposition vollständig preiszugeben."
+      },
+      {
+        "heading": "Ghalibaf: „Kämpfen und verhandeln“ zugleich",
+        "markdown": "Parlamentspräsident Mohammad Bagher Ghalibaf bekräftigte die Linie kurz darauf im Parlament: Die Straße von Hormus bleibe geschlossen, bis Iran seine Bedingungen erfüllt sieht und die USA ihre Zusagen tatsächlich umsetzen. Er beschrieb die iranische Strategie als Doppelstrategie aus militärischem Druck und Verhandlungsbereitschaft – man müsse „sinnvoll und entschlossen kämpfen und mit Autorität und Vernunft zum richtigen Zeitpunkt verhandeln“. Dass sowohl der Sicherheitsrat als auch das Parlament nahezu zeitgleich dieselbe Position vertraten, liest sich als demonstrative Geschlossenheit der iranischen Führung nach innen wie nach außen."
+      },
+      {
+        "heading": "Houthi-Rakete erreicht Riad",
+        "markdown": "Parallel dazu eskalierte die von Iran unterstützte Houthi-Miliz aus dem Jemen: Sie feuerte eine ballistische Rakete auf die saudische Hauptstadt Riad ab, die von der saudischen Luftabwehr abgefangen wurde. Saudi-Arabien bestätigte den Vorfall offiziell, Verletzte oder Schäden wurden nicht gemeldet. Berichten zufolge war es der erste Luftalarm in Riad seit der Eskalation der Kämpfe zwischen der von Saudi-Arabien geführten Koalition und den Houthi im Juli. Der Angriff fällt zeitlich mit Teherans diplomatischem Vorstoß zusammen und unterstreicht, dass Iran und seine Verbündeten Druckmittel auch abseits der direkten Front gegen die USA einsetzen."
+      },
+      {
+        "heading": "Trump droht, offizielle US-Antwort steht aus",
+        "markdown": "Laut einem Bericht sagte Trump dem Sender Fox, Iran solle sich „benehmen“, und stellte in Aussicht, das Land entweder „auszulöschen“, wirtschaftlich „verrotten“ zu lassen oder eine Vereinbarung mit Teheran zu schließen. Eine unabhängige Bestätigung dieses genauen Wortlauts liegt nicht vor, ebenso wenig eine offizielle Stellungnahme des US-Außenministeriums oder des Weißen Hauses zu den sieben iranischen Bedingungen. Sollte Washington die iranischen Forderungen tatsächlich akzeptieren, wäre dies – anders als von der US-Regierung bislang öffentlich verfolgt, die auf militärischen und wirtschaftlichen Druck setzt – politisch ein Entgegenkommen gegenüber Teheran."
+      },
+      {
+        "heading": "Vorgeschichte",
+        "markdown": "Der Streit um die Straße von Hormus und ein mögliches Übergangsabkommen zwischen den USA, Iran und Oman ist seit Monaten offen, wie im bisherigen Bericht dargestellt: Dort ging es zuletzt um einen iranischen Parlamentsgesetzentwurf zum Schiffsverbot, eine separat verhandelte zivile Route mit Oman und ein von Trump ausgesprochenes Ultimatum zur „sehr baldigen“ Öffnung der Meerenge. Die jetzt öffentlich gemachten sieben Bedingungen sind davon zu unterscheiden: Sie kommen erstmals gebündelt von der Sicherheitsratsspitze und dem Parlamentspräsidenten selbst und beantworten damit einen Teil der offenen Frage, wie Iran auf Trumps Ultimatum reagiert – nämlich nicht mit einer Öffnung der Straße, sondern mit einem eigenen, formalisierten Forderungskatalog."
+      }
+    ],
+    "bodyKompakt": "Iran hat der US-Regierung erstmals ein konkretes, siebenteiliges Forderungspaket für ein Kriegsende übermittelt. Sicherheitsratssekretär Mohsen Rezaei erklärte, Teheran habe die Bedingungen über den Vermittler Katar an Washington weitergeleitet und warte auf eine Antwort Trumps; öffentlich genannt sind bislang drei Punkte – Einstellung der Kämpfe an allen Fronten, Freigabe eingefrorener iranischer Auslandsguthaben und Aufhebung der US-Seeblockade iranischer Häfen. Parlamentspräsident Ghalibaf bekräftigte im Parlament, die Straße von Hormus bleibe erst offen, wenn Iran seine Bedingungen erfüllt sieht und die USA ihre Zusagen umsetzen; er beschrieb die iranische Linie als gleichzeitiges Kämpfen und Verhandeln.\n\nZeitgleich griff die von Iran unterstützte Houthi-Miliz aus dem Jemen mit einer ballistischen Rakete die saudische Hauptstadt Riad an. Saudi-Arabien bestätigte den Angriff offiziell, die Rakete wurde von der Luftabwehr abgefangen, Verletzte wurden keine gemeldet – laut Berichten der erste Luftalarm in Riad seit der Eskalation im Juli. Laut einem Bericht drohte US-Präsident Trump im Gegenzug, Iran „auszulöschen“ oder wirtschaftlich „verrotten“ zu lassen, sollte keine Einigung zustande kommen; eine unabhängige Bestätigung dieses Wortlauts sowie eine offizielle US-Reaktion auf die sieben Bedingungen liegen bislang nicht vor.\n\nDer Streit um die Straße von Hormus ist seit Monaten offen, wie im bisherigen Bericht dargestellt. Neu ist, dass Iran nun erstmals gebündelt über Sicherheitsrat und Parlament reagiert – nicht mit einer Öffnung der Meerenge, wie von Trump gefordert, sondern mit einem eigenen, formalisierten Forderungskatalog, von dem vier Punkte weiterhin unbekannt sind.",
+    "updateNote": null,
+    "pendingOutcome": "Offizielle Reaktion der US-Regierung auf die sieben Bedingungen und mögliche Bekanntgabe der übrigen vier, bislang nicht genannten Punkte."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-21T00:07:30.420Z"
+}
