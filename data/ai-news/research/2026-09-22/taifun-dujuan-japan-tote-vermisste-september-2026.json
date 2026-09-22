@@ -1,0 +1,219 @@
+{
+  "cluster": {
+    "id": "cluster-20260922-e0154b80",
+    "title": "Zwei Tote in Japan durch Taifun \"Dujuan\"",
+    "items": [
+      {
+        "itemId": "3ac93f634cf0e330971dbfc24f8ca48ea364dbd62acb3390ca1904160e65d4dd",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Zwei Tote in Japan durch Taifun \"Dujuan\"",
+        "url": "https://www.kleinezeitung.at/artikel/41284819/zwei-tote-in-japan-durch-taifun-dujuan",
+        "summary": "In Japan haben mindestens zwei Menschen durch den Taifun \"Dujuan\" ihr Leben verloren. Vier Menschen galten im Großraum der Hauptstadt Tokio als vermisst, berichtete der japanische Fernsehsender NHK. Zwar herrsche dort inzwischen vielerorts wieder sonniges Wetter, der Boden sei aber durch die starken Regenfälle noch aufgeweicht und berge die Gefahr weiterer Erdrutsche.",
+        "publishedAt": "2026-09-22T00:19:15.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "00f3480762dac23158166fd92620557ad83cb1cff882e906fae14902ab32cbba",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Taifun „Dujuan“ bewegt sich auf Japan zu, 275 Flügen gestrichen",
+        "url": "https://kurier.at/chronik/welt/japan-taifun-dujuan-fluege/403192331",
+        "isNew": false
+      },
+      {
+        "itemId": "0003a6b8cf9f1e618cccf0ca3bbbc2f65a4f22e80e8999b782fb04034a77a96c",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Taifun bewegt sich auf Japan zu: Hunderte Flüge gestrichen",
+        "url": "https://orf.at/stories/3442803",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Neuer Taifun 'Dujuan' mit Todesfällen (min. 2), vier Vermissten und bedeutenden Schäden (275+ Flugausfälle, 4000+ stromlose Haushalte, Tokyo Game Show geschlossen) in Japan. Breit berichtet in österreichischen Medien (Kleine Zeitung, Kurier, ORF). Eigenständiges, zeitaktuelles Ereignis — nicht Fortsetzung der bestehenden Taifun-Artikel (Saudel/Bavi betrafen China/Philippinen/Taiwan).",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Mindestens zwei Menschen sind durch Taifun 'Dujuan' in Japan gestorben",
+      "Vier Menschen galten im Großraum Tokio als vermisst",
+      "Taifun 'Dujuan' erreichte Windgeschwindigkeiten von 144 km/h",
+      "Mindestens 275 Flüge wurden in Japan gestrichen",
+      "Mehr als 4.000 Haushalte in Chiba waren ohne Strom",
+      "Die Niederschlagsmenge könnte den Durchschnittswert für den gesamten September übersteigen",
+      "Die Tokyo Game Show schloss einen Tag früher als geplant",
+      "Das Gelände in betroffenen Regionen ist durch Regenfälle aufgeweicht und birgt Gefahr weiterer Erdrutsche"
+    ],
+    "missingSources": [
+      "NHK-Originalberichte (nur indirekt via Kleine Zeitung zitiert)",
+      "Unabhängige Bestätigung der genauen Todesfallzahl durch mehrere japanische Quellen",
+      "Aktueller Status und Verbleib der vier vermissten Personen",
+      "Detaillierte Schadensbilanzen und finanzielle Auswirkungen",
+      "Offizielle Behördenerklärungen japanischer Stellen zur Gesamtsituation"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "taifun-dujuan-japan-tote-vermisste-september-2026",
+    "title": "Taifun „Dujuan“: Mindestens zwei Tote und vier Vermisste in Japan",
+    "description": "Der Taifun „Dujuan“ hat im Großraum Tokio mindestens zwei Todesopfer gefordert, vier Menschen gelten als vermisst. Hunderte Flüge wurden gestrichen, tausende Haushalte waren ohne Strom.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Mehrere voneinander unabhängige Medien – darunter österreichische Zeitungen unter Berufung auf Agenturen sowie internationale Häuser wie Al Jazeera – stimmen in den Kernpunkten (mindestens zwei Tote, vier Vermisste laut NHK) überein.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Es wurde keine japanische Behörde, keine Wetterbehörde und kein NHK-Originalbericht direkt eingesehen, sondern ausschließlich Medienberichte, die sich ihrerseits auf NHK berufen.",
+    "framingRisk": "low",
+    "framingRiskNote": "Bei einem Naturereignis ohne Streitparteien liefern mehrere unabhängige Redaktionen ein konsistentes Bild, eine einseitige Darstellung ist nicht erkennbar.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Der Taifun „Dujuan“ hat im Großraum Tokio mindestens zwei Menschen das Leben gekostet, vier weitere galten laut dem japanischen Sender NHK als vermisst.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der Sturm führte zu mindestens 275 gestrichenen Flügen, Zugausfällen und Stromausfällen bei tausenden Haushalten in der Region Chiba.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Tokyo Game Show schloss einen Tag früher als geplant, weitere Veranstaltungen wurden abgesagt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Aufgeweichte Böden bergen laut Berichten weiterhin die Gefahr zusätzlicher Erdrutsche.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen ist, ob die vier Vermissten noch gefunden werden und ob die Zahl der Todesopfer weiter steigt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Werden die vier vermissten Personen im Großraum Tokio noch lebend gefunden?",
+      "Steigt die Zahl der Todesopfer, sobald das Schicksal aller Vermissten geklärt ist?",
+      "Wie hoch ist die exakte Windgeschwindigkeit des Taifuns – Angaben schwanken zwischen rund 130 und 144 km/h?",
+      "Wie viele Flüge und Haushalte waren landesweit tatsächlich betroffen, über die in einzelnen Berichten genannten Regionalzahlen hinaus?",
+      "Wie hoch ist der Gesamtsachschaden durch Überschwemmungen und Erdrutsche in den betroffenen Präfekturen?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41284819/zwei-tote-in-japan-durch-taifun-dujuan"
+      },
+      {
+        "id": "src2",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/welt/japan-taifun-dujuan-fluege/403192331"
+      },
+      {
+        "id": "src3",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3442803"
+      },
+      {
+        "id": "src4",
+        "name": "Al Jazeera",
+        "type": "media",
+        "url": "https://www.aljazeera.com/news/2026/9/22/typhoon-dujuan-hits-japan-with-deadly-floods-travel-chaos-near-tokyo"
+      },
+      {
+        "id": "src5",
+        "name": "The Japan Times",
+        "type": "media",
+        "url": "https://www.japantimes.co.jp/news/2026/09/21/japan/typhoon-dujuan-japan/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Mindestens zwei Menschen sind in Japan infolge des Taifuns „Dujuan“ gestorben.",
+        "status": "supported",
+        "note": "Von Kleine Zeitung unter Berufung auf NHK gemeldet und unabhängig durch Al Jazeera bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Vier Menschen galten im Großraum Tokio als vermisst.",
+        "status": "supported",
+        "note": "Laut NHK-Berichterstattung, wiedergegeben von Kleine Zeitung und Al Jazeera.",
+        "sourceIds": [
+          "src1",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Taifun erreichte Windgeschwindigkeiten von rund 130 bis 144 km/h.",
+        "status": "partial",
+        "note": "Kurier nennt 144 km/h, andere internationale Berichte rund 130 km/h mit Böen bis 194 km/h – die genaue Messgrundlage bleibt unklar.",
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Mindestens 275 Flüge wurden in Japan gestrichen, mehr als 4.000 Haushalte in Chiba waren ohne Strom.",
+        "status": "partial",
+        "note": "Konkrete Zahlen stammen aus einer einzelnen Quelle (Kurier); andere Berichte sprechen allgemeiner von Hunderten Flugausfällen und größeren, teils abweichenden Betroffenenzahlen bei Stromausfällen.",
+        "sourceIds": [
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die Tokyo Game Show schloss einen Tag früher als geplant, ein Freiluft-Musikfestival und ein Baseballspiel wurden abgesagt.",
+        "status": "supported",
+        "note": "Von Kurier berichtet und durch internationale Berichterstattung zu abgesagten Veranstaltungen bestätigt.",
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der durch die Regenfälle aufgeweichte Boden birgt weiterhin die Gefahr weiterer Erdrutsche.",
+        "status": "supported",
+        "note": "Laut Kleine Zeitung unter Berufung auf NHK.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Taifun „Dujuan“ hat im Großraum der japanischen Hauptstadt Tokio mindestens zwei Menschenleben gefordert. Vier weitere Personen galten nach Angaben des japanischen Fernsehsenders NHK als vermisst. Der Sturm war zuvor mit hoher Geschwindigkeit auf die Region zugezogen und hatte bereits im Vorfeld zu Warnungen der Wetterbehörde vor Rekordregen, heftigem Wind und Erdrutschen geführt. Inzwischen herrscht in weiten Teilen der Region wieder sonniges Wetter, der Boden ist durch die vorangegangenen starken Regenfälle jedoch weiterhin aufgeweicht und birgt laut Berichten die Gefahr zusätzlicher Erdrutsche."
+      },
+      {
+        "heading": "Schäden und Einschränkungen",
+        "markdown": "Der Taifun führte zu erheblichen Störungen im Luft- und Bahnverkehr. Nach Angaben des Kurier wurden mindestens 275 Flüge gestrichen, japanische Fluglinien strichen sowohl Inlands- als auch Auslandsverbindungen. In Teilen Tokios und der Umgebung wurde der Zugverkehr auf einzelnen Strecken eingestellt. Mehr als 4.000 Haushalte in der Präfektur Chiba waren zeitweise ohne Strom. Der Sturm traf auch den Veranstaltungskalender: Die Tokyo Game Show, eine der größten Videospielmessen der Welt, schloss ihre Tore einen Tag früher als geplant, ein Freiluft-Musikfestival sowie ein Baseballspiel wurden abgesagt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, ob die vier vermissten Personen gefunden werden und ob die Zahl der Todesopfer im Zuge weiterer Aufräum- und Sucharbeiten noch steigt. Zur genauen Windgeschwindigkeit des Taifuns gibt es leicht abweichende Angaben zwischen rund 130 und 144 Kilometern pro Stunde, je nach Quelle und Messzeitpunkt. Auch die Reichweite der Stromausfälle und Flugausfälle wird in einzelnen Berichten unterschiedlich beziffert, eine einheitliche, offizielle Gesamtbilanz japanischer Behörden liegt in den vorliegenden Quellen nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "„Dujuan“ reiht sich in eine Serie von Taifunen ein, die die Region im September 2026 getroffen haben; zuletzt hatten „Saudel“ und „Bavi“ vor allem in China und auf den Philippinen schwere Schäden und Todesopfer verursacht. Mit „Dujuan“ verlagert sich das Sturmgeschehen nun direkt auf Japan und den dicht besiedelten Großraum Tokio, wo bereits vergleichsweise geringe zusätzliche Regenmengen wegen des aufgeweichten Bodens ein erhöhtes Erdrutschrisiko bedeuten."
+      }
+    ],
+    "bodyKompakt": "Der Taifun „Dujuan“ hat im Großraum Tokio mindestens zwei Menschenleben gefordert, vier weitere Personen galten nach Angaben des Senders NHK als vermisst. Der Sturm hatte zuvor starke Regenfälle und heftigen Wind gebracht, wie die Wetterbehörde im Vorfeld gewarnt hatte. Inzwischen ist es in weiten Teilen der Region wieder sonnig, der Boden bleibt durch die Regenfälle jedoch aufgeweicht und birgt Gefahr für weitere Erdrutsche.\n\nDer Taifun störte zudem den Alltag erheblich: Mindestens 275 Flüge wurden gestrichen, der Zugverkehr war auf einzelnen Strecken eingestellt, und mehr als 4.000 Haushalte in der Präfektur Chiba waren zeitweise ohne Strom. Die Tokyo Game Show schloss einen Tag früher als geplant, ein Musikfestival und ein Baseballspiel wurden abgesagt.\n\nOffen bleibt, ob die vier Vermissten noch gefunden werden und ob die Zahl der Todesopfer weiter steigt. Auch zu Windgeschwindigkeit und genauem Ausmaß der Stromausfälle gibt es je nach Quelle leicht abweichende Angaben.",
+    "updateNote": null,
+    "pendingOutcome": "Ob die vier im Großraum Tokio vermissten Personen gefunden werden und ob die Zahl der Todesopfer durch weitere Erdrutsche noch steigt."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-22T02:07:38.020Z"
+}
