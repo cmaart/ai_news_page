@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T12:22:29.964Z",
+  "updatedAt": "2026-09-24T14:21:41.844Z",
   "stories": {
     "ungarn-akw-paks-abschaltung-donau-niedrigwasser-august-2026": {
       "canonicalTitle": "Ungarns AKW Paks wieder mit voller Leistung am Netz – Netzbetreiber hebt Krisenmodus auf",
@@ -1333,33 +1333,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-16T06:07:34.983Z"
-    },
-    "bundesheer-modernisierte-panzer-ulan-leopard-august-2026": {
-      "canonicalTitle": "Bundesheer erhält erste modernisierte „Leopard“- und „Ulan“-Panzer",
-      "slug": "bundesheer-modernisierte-panzer-ulan-leopard-august-2026",
-      "firstSeenAt": "2026-08-25T14:07:43.889Z",
-      "lastUpdatedAt": "2026-08-25T14:07:43.889Z",
-      "status": "published",
-      "articlePath": "src/content/articles/bundesheer-modernisierte-panzer-ulan-leopard-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-25/bundesheer-modernisierte-panzer-ulan-leopard-august-2026.json",
-      "sourceUrls": [
-        "https://www.diepresse.com/41202750/ulan-und-leopard-modernisierte-panzer-an-das-bundesheer-uebergeben",
-        "https://www.ots.at/presseaussendung/OTS_20260825_OTS0080/bundesheer-modernisierte-panzer-staerken-oesterreichs-landesverteidigung",
-        "https://www.kleinezeitung.at/artikel/41202647/erste-modernisierte-panzer-sind-beim-bundesheer-angekommen"
-      ],
-      "openQuestions": [
-        "Was genau meint die Kleine Zeitung mit der Aussage, die Panzertruppe habe schon 'vor dem Aus' gestanden?",
-        "Wie viele der 170 Fahrzeuge sind bereits modernisiert, und nach welchem konkreten Zeitplan folgen die restlichen bis 2029?",
-        "Gibt es politische Reaktionen, etwa aus der Opposition, zum Investitionsvolumen von rund 765 Millionen Euro?",
-        "Welche zusätzlichen Details enthält die Presseaussendung des Bundesheers, die über die Medienberichte hinausgehen?"
-      ],
-      "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-08-26T14:07:43.889Z",
-      "doNotUpdateBefore": "2026-08-25T20:07:43.889Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-26T16:07:38.757Z"
     },
     "manner-halbjahresverlust-2026": {
       "canonicalTitle": "Süßwarenhersteller Manner rutschte im ersten Halbjahr 2026 in die roten Zahlen",
@@ -10182,10 +10155,14 @@
       "doNotUpdateBefore": "2026-09-24T10:07:31.703Z",
       "pendingOutcome": "Parlamentarische Billigung des Abkommens durch Folketing und Inatsisartut, die Reaktion der grönländischen Bevölkerung sowie die Verifizierung eines vollständigen, offiziell autorisierten Vertragstexts stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-09-26T04:07:31.703Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-23T02:07:33.430Z"
+      "echoPublishers": {
+        "diepresse": "2026-09-24T14:07:40.210Z",
+        "kleinezeitung": "2026-09-24T14:07:42.394Z",
+        "derstandard": "2026-09-24T12:07:39.440Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-24T14:07:36.997Z"
     },
     "oevp-orf-bundesbudget-positionspapier-september-2026": {
       "canonicalTitle": "ÖVP schlägt Finanzierung des ORF aus dem Bundesbudget vor – Zukunftsforum endet mit Reformvorschlägen, Finanzierung bleibt offen",
@@ -15797,7 +15774,7 @@
       "pendingOutcomeUntil": "2026-09-25T20:07:36.989Z",
       "echoPublishers": {
         "kleinezeitung": "2026-09-23T20:07:43.872Z",
-        "orf": "2026-09-24T04:07:34.014Z",
+        "orf": "2026-09-24T14:07:39.212Z",
         "derstandard": "2026-09-24T06:07:37.389Z",
         "diepresse": "2026-09-24T06:07:37.956Z",
         "apa": "2026-09-23T16:07:30.815Z",
@@ -18067,13 +18044,13 @@
         "orf": "2026-09-23T20:07:39.588Z",
         "derstandard": "2026-09-23T16:07:31.887Z",
         "diepresse": "2026-09-24T10:07:40.278Z",
-        "kurier": "2026-09-24T10:07:39.690Z",
+        "kurier": "2026-09-24T14:07:40.102Z",
         "kleinezeitung": "2026-09-24T10:07:42.171Z",
-        "apa": "2026-09-24T08:07:36.960Z"
+        "apa": "2026-09-24T10:07:39.156Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 3,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-24T08:07:33.669Z"
+      "resonanceMeasuredAt": "2026-09-24T14:07:36.997Z"
     },
     "schuesse-schule-turgutlu-tuerkei-september-2026": {
       "canonicalTitle": "Schüsse vor Schule in der Türkei: Zahlreiche Verletzte, Jugendlicher festgenommen",
@@ -18248,7 +18225,7 @@
       "pendingOutcome": "Ob und in welcher Form die US-Regierung tatsächlich einen Diesel-Exportstopp beschließt und wie EU-Kommission sowie österreichische Bundesregierung darauf reagieren, ist weiterhin offen; die aktuell recherchierten Quellen (zu Taiwan/China-USA-Beziehungen) betreffen dieses Thema nicht.",
       "pendingOutcomeUntil": "2026-09-25T06:07:33.238Z",
       "echoPublishers": {
-        "diepresse": "2026-09-24T10:07:40.278Z"
+        "diepresse": "2026-09-24T14:07:40.210Z"
       },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18437,9 +18414,6 @@
       "pendingOutcome": "Der EZB-Rat entscheidet voraussichtlich Ende 2026 abschließend über das Design der neuen Euro-Banknoten; welches der beiden Themen sich durchsetzt und welche konkreten Sicherheitsmerkmale kommen, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-09-25T12:07:33.172Z",
       "echoPublishers": {
-        "orf": "2026-09-23T12:07:35.294Z",
-        "diepresse": "2026-09-23T12:07:37.464Z",
-        "kurier": "2026-09-23T12:07:37.472Z",
         "kleinezeitung": "2026-09-24T06:07:39.066Z"
       },
       "resonanceLevel": 5,
@@ -18475,9 +18449,6 @@
       "pendingOutcome": "Ergebnis der Ermittlungen der Staatsanwaltschaft gegen die Mitarbeiterin, einschließlich der Frage, ob es zu einer Anklage kommt.",
       "pendingOutcomeUntil": "2026-09-25T12:07:33.172Z",
       "echoPublishers": {
-        "orf": "2026-09-23T12:07:35.701Z",
-        "derstandard": "2026-09-23T12:07:36.907Z",
-        "diepresse": "2026-09-23T12:07:37.464Z",
         "kurier": "2026-09-23T16:07:31.071Z",
         "kleinezeitung": "2026-09-23T16:07:32.825Z"
       },
@@ -18512,14 +18483,10 @@
       "doNotUpdateBefore": "2026-09-23T18:07:33.172Z",
       "pendingOutcome": "Fortsetzung der vertagten Verhandlung und Urteil des Schöffensenats am Landesgericht Wien.",
       "pendingOutcomeUntil": "2026-09-25T12:07:33.172Z",
-      "echoPublishers": {
-        "derstandard": "2026-09-23T12:07:39.291Z",
-        "diepresse": "2026-09-23T12:07:37.464Z",
-        "kurier": "2026-09-23T12:07:37.488Z"
-      },
-      "resonanceLevel": 3,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-24T10:07:35.474Z"
+      "resonanceMeasuredAt": "2026-09-24T14:07:36.997Z"
     },
     "christine-lavant-preis-freudenthaler-oktober-2026": {
       "canonicalTitle": "Laura Freudenthaler erhält den Christine-Lavant-Preis 2026",
@@ -18547,7 +18514,6 @@
       "doNotRedraftBefore": "2026-09-25T08:07:33.669Z",
       "doNotUpdateBefore": "2026-09-24T14:07:33.669Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-09-23T12:07:39.667Z",
         "apa": "2026-09-24T08:07:36.964Z"
       },
       "resonanceLevel": 4,
@@ -18645,12 +18611,11 @@
       "doNotRedraftBefore": "2026-09-24T16:07:28.178Z",
       "doNotUpdateBefore": "2026-09-23T22:07:28.178Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-09-23T16:07:32.825Z",
-        "apa": "2026-09-23T12:07:36.973Z"
+        "kleinezeitung": "2026-09-23T16:07:32.825Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-24T12:07:32.084Z"
+      "resonanceMeasuredAt": "2026-09-24T14:07:36.997Z"
     },
     "lange-nacht-der-museen-kaernten-oktober-2026": {
       "canonicalTitle": "ORF-Lange Nacht der Museen: 78 Kärntner Kulturinstitutionen öffnen am 3. Oktober",
@@ -18686,7 +18651,7 @@
       "pendingOutcome": "Verlauf, Besucherzahlen und Programmdurchführung der ORF-Langen Nacht der Museen am 3. Oktober 2026.",
       "pendingOutcomeUntil": "2026-09-25T18:07:35.013Z",
       "echoPublishers": {
-        "orf": "2026-09-23T18:07:38.271Z",
+        "orf": "2026-09-24T14:07:39.896Z",
         "apa": "2026-09-23T16:07:30.796Z",
         "kleinezeitung": "2026-09-23T16:07:32.782Z"
       },
@@ -18853,13 +18818,11 @@
       "doNotRedraftBefore": "2026-09-24T22:07:38.506Z",
       "doNotUpdateBefore": "2026-09-24T04:07:38.506Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-09-23T16:07:32.782Z",
-        "orf": "2026-09-23T12:07:36.231Z",
-        "derstandard": "2026-09-23T12:07:38.703Z"
+        "kleinezeitung": "2026-09-23T16:07:32.782Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-24T12:07:32.084Z"
+      "resonanceMeasuredAt": "2026-09-24T14:07:36.997Z"
     },
     "eltern-kind-pass-erweiterung-digitale-verschiebung-oktober-2026": {
       "canonicalTitle": "Eltern-Kind-Pass wird ab Oktober ausgeweitet, elektronische Version erst 2027",
@@ -18924,7 +18887,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-24T00:07:36.506Z"
+      "resonanceMeasuredAt": "2026-09-24T14:07:36.997Z"
     },
     "kreml-versorgungsengpaesse-oleschky-september-2026": {
       "canonicalTitle": "Kreml räumt Versorgungsengpässe in besetzter Stadt Oleschky ein",
@@ -19004,28 +18967,44 @@
       "echoPublishers": {}
     },
     "meinl-reisinger-van-der-bellen-israel-kritik-september-2026": {
-      "canonicalTitle": "Meinl-Reisinger stellt sich hinter Van der Bellens Israel-Kritik",
+      "canonicalTitle": "Meinl-Reisinger stellt sich hinter Van der Bellens Israel-Kritik – FPÖ attackiert beide scharf",
       "slug": "meinl-reisinger-van-der-bellen-israel-kritik-september-2026",
       "firstSeenAt": "2026-09-24T04:07:31.703Z",
-      "lastUpdatedAt": "2026-09-24T04:07:31.703Z",
+      "lastUpdatedAt": "2026-09-24T14:07:36.997Z",
       "status": "published",
       "articlePath": "src/content/articles/meinl-reisinger-van-der-bellen-israel-kritik-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-24/meinl-reisinger-van-der-bellen-israel-kritik-september-2026.json",
+      "researchPath": "data/ai-news/research/2026-09-24/meinl-reisinger-van-der-bellen-israel-kritik-september-2026-update-1400.json",
       "sourceUrls": [
         "https://www.diepresse.com/41291629/meinl-reisinger-verteidigt-van-der-bellen-donald-trump-empfaengt-xi-jinping-openai-ki-hackt-australien",
         "https://orf.at/stories/3443058",
         "https://www.diepresse.com/41291520/meinl-reisinger-verteidigt-van-der-bellen-verstehe-aufregung-nicht-ganz",
-        "https://www.kleinezeitung.at/artikel/41291471/meinl-reisinger-zu-israels-kritik-verstehe-aufregung-nicht"
+        "https://www.kleinezeitung.at/artikel/41291471/meinl-reisinger-zu-israels-kritik-verstehe-aufregung-nicht",
+        "https://kurier.at/video/aktuelle-videos/nach-israel-kritik-meinl-reisinger-stellt-sich-hinter-van-der-bellen/403193190",
+        "https://orf.at/stories/3442937",
+        "https://www.derstandard.at/story/3000000340908/uno-van-der-bellen-wirft-israel-kriegsverbrechen-vor",
+        "https://www.diepresse.com/41287796/van-der-bellen-wirft-israel-kriegsverbrechen-vor",
+        "https://kurier.at/politik/ausland/uno-van-der-bellen-israel-kriegsverbrechen-vorwurf-gaza/403192788",
+        "https://www.kleinezeitung.at/artikel/41287792/uno-van-der-bellen-wirft-israel-kriegsverbrechen-vor",
+        "https://www.diepresse.com/41287868/van-der-bellen-wirft-israel-kriegsverbrechen-vor-und-legt-sich-im-ki-streit-mit-den-usa-an",
+        "https://www.derstandard.at/story/3000000340940/israels-kriegsverbrechen-trump-und-irankrieg-hitzige-debatten-bei-un-generaldebatte",
+        "https://www.ots.at/presseaussendung/OTS_20260923_OTS0104/fpoe-schuch-gubik-zu-meinl-reisinger-wer-kritik-aussperrt-hat-den-politischen-diskurs-nicht-verstanden",
+        "https://www.diepresse.com/41291618/trump-empfaengt-xi-mit-protokollbruch-in-den-usa",
+        "https://kurier.at/politik/inland/meinl-reisinger-israel-kritik-van-der-bellen-kriegsverbrechen/403193028",
+        "https://www.kleinezeitung.at/artikel/41291639/trump-empfaengt-xi-mit-protokollbruch-in-den-usa",
+        "https://www.ots.at/presseaussendung/OTS_20260924_OTS0102/fpoe-fuerst-zu-van-der-bellen-wir-brauchen-keinen-kriegstreiber-und-islamistenversteher-in-der-hofburg"
       ],
       "openQuestions": [
-        "Wie reagiert die israelische Regierung offiziell auf die Aussagen von Van der Bellen und Meinl-Reisinger?",
-        "Äußert sich das Bundeskanzleramt gesondert zu Van der Bellens UN-Rede?",
+        "Gibt es über Außenminister Saars X-Reaktion hinaus eine offizielle Stellungnahme der israelischen Regierung oder des Büros von Ministerpräsident Netanjahu?",
+        "Äußert sich das Bundeskanzleramt gesondert zu Van der Bellens UN-Rede und zur Kritik der FPÖ?",
         "Gibt es Reaktionen anderer EU-Staaten auf die Kritik-Wortmeldungen gegen Israel bei der UNO-Generaldebatte?",
-        "Wie will Österreich seine Rolle im UNO-Sicherheitsrat 2027/28 konkret nutzen, um, wie von Meinl-Reisinger angekündigt, „Akzente zu setzen“?"
+        "Wie will Österreich seine Rolle im UNO-Sicherheitsrat 2027/28 konkret nutzen, um, wie von Meinl-Reisinger angekündigt, „Akzente zu setzen“?",
+        "Hat Meinl-Reisinger die Kommentarfunktion auf ihrer offiziellen Facebook-Seite tatsächlich deaktiviert, wie von der FPÖ behauptet?"
       ],
       "sensitivity": "high",
-      "doNotRedraftBefore": "2026-09-25T04:07:31.703Z",
-      "doNotUpdateBefore": "2026-09-24T10:07:31.703Z",
+      "doNotRedraftBefore": "2026-09-25T14:07:36.997Z",
+      "doNotUpdateBefore": "2026-09-24T20:07:36.997Z",
+      "pendingOutcome": "Offizielle Stellungnahme der israelischen Regierung bzw. des Büros von Ministerpräsident Netanjahu, Reaktion des Bundeskanzleramts sowie mögliche Bestätigung/Dementi des FPÖ-Vorwurfs zur Facebook-Kommentarfunktion abwarten.",
+      "pendingOutcomeUntil": "2026-09-26T14:07:36.997Z",
       "echoPublishers": {
         "diepresse": "2026-09-24T04:07:36.019Z",
         "orf": "2026-09-23T20:07:39.588Z",
@@ -19057,21 +19036,19 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-25T04:07:31.703Z",
       "doNotUpdateBefore": "2026-09-24T10:07:31.703Z",
-      "echoPublishers": {
-        "kurier": "2026-09-23T12:07:37.446Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-24T08:07:33.669Z"
     },
     "openai-agent-australien-medicare-portal-september-2026": {
-      "canonicalTitle": "OpenAI-Agent drang in australisches Gesundheitsportal ein – Regierung erfuhr erst drei Monate später",
+      "canonicalTitle": "OpenAI-Agent drang in australisches Gesundheitsportal ein – Forscher dokumentieren Muster aus mindestens vier Vorfällen seit Mai 2026",
       "slug": "openai-agent-australien-medicare-portal-september-2026",
       "firstSeenAt": "2026-09-24T08:07:33.669Z",
-      "lastUpdatedAt": "2026-09-24T08:07:33.669Z",
+      "lastUpdatedAt": "2026-09-24T14:07:36.997Z",
       "status": "published",
       "articlePath": "src/content/articles/openai-agent-australien-medicare-portal-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-24/openai-agent-australien-medicare-portal-september-2026.json",
+      "researchPath": "data/ai-news/research/2026-09-24/openai-agent-australien-medicare-portal-september-2026-update-1400.json",
       "sourceUrls": [
         "https://www.diepresse.com/41291772/openai-agent-hackt-australisches-gesundheitsportal-regierung-erfaehrt-erst-monate-spaeter-davon",
         "https://kurier.at/wirtschaft/australien-zugriff-openai-ki-behoerdenseite/403193034",
@@ -19079,19 +19056,23 @@
         "https://orf.at/stories/3443077",
         "https://www.kleinezeitung.at/artikel/41291651/ki-agent-drang-auf-website-der-australischen-regierung-ein",
         "https://www.heise.de/news/OpenAI-Agent-knackt-australisches-Regierungsportal-11463920.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-        "https://www.heise.de/news/OpenAI-Agent-knackt-australisches-Regierungsportal-11463920.html"
+        "https://www.heise.de/news/OpenAI-Agent-knackt-australisches-Regierungsportal-11463920.html",
+        "https://the-decoder.de/openai-agenten-attackierten-schon-vor-hugging-face-behoerden-und-uni-webseiten",
+        "https://transluce.org/agent-activity"
       ],
       "openQuestions": [
         "Welche weiteren australischen Regierungssysteme könnten von dem Vorfall betroffen sein?",
         "Welche konkrete Sicherheitslücke nutzte der Agent, um an den Schutzvorkehrungen der Website vorbeizukommen?",
         "Wird OpenAI für den Vorfall behördlich sanktioniert oder zur Rechenschaft gezogen?",
         "Was ergibt die von der Australian Signals Directorate geführte technische Untersuchung?",
-        "Lässt sich unabhängig bestätigen, dass tatsächlich keine individuellen Patientendaten abgerufen wurden?"
+        "Lässt sich unabhängig bestätigen, dass tatsächlich keine individuellen Patientendaten abgerufen wurden?",
+        "Bestätigen unabhängige Analysen das von Transluce anhand von urlquery.net-Daten vermutete Muster, wonach ähnliche Agentenaktivitäten bereits ab November 2025 begannen?",
+        "Wie reagieren die University of New Mexico und Data USA selbst auf die gegen sie gerichteten Angriffsversuche?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-09-25T08:07:33.669Z",
-      "doNotUpdateBefore": "2026-09-24T14:07:33.669Z",
-      "pendingOutcome": "Ergebnis der laufenden australischen Untersuchung, ob und welche weiteren Regierungswebsites von ähnlichen Zugriffen betroffen sind.",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-25T14:07:36.997Z",
+      "doNotUpdateBefore": "2026-09-24T20:07:36.997Z",
+      "pendingOutcome": "Ergebnisse der laufenden australischen Untersuchung zu weiteren betroffenen Systemen sowie eine unabhängige Bestätigung von OpenAIs Angaben zu Patientendaten und zur Reichweite des Vorfall-Musters stehen noch aus.",
       "pendingOutcomeUntil": "2026-09-26T08:07:33.669Z",
       "echoPublishers": {
         "diepresse": "2026-09-24T10:07:40.278Z",
@@ -19102,7 +19083,8 @@
         "heise": "2026-09-24T06:07:38.571Z",
         "golem": "2026-09-24T10:07:41.683Z",
         "derstandard": "2026-09-24T08:07:36.763Z",
-        "theverge": "2026-09-24T12:07:37.887Z"
+        "theverge": "2026-09-24T12:07:37.887Z",
+        "thedecoder": "2026-09-24T14:07:41.694Z"
       },
       "resonanceLevel": 5,
       "resonanceSource": "zaehlung",
@@ -19236,6 +19218,44 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-24T12:07:32.084Z"
+    },
+    "sechsjaehrige-volksschule-schulversuch-2027": {
+      "canonicalTitle": "Wiederkehr startet Schulversuch zur sechsjährigen Volksschule ab 2027/28",
+      "slug": "sechsjaehrige-volksschule-schulversuch-2027",
+      "firstSeenAt": "2026-09-24T14:07:36.997Z",
+      "lastUpdatedAt": "2026-09-24T14:07:36.997Z",
+      "status": "published",
+      "articlePath": "src/content/articles/sechsjaehrige-volksschule-schulversuch-2027.mdx",
+      "researchPath": "data/ai-news/research/2026-09-24/sechsjaehrige-volksschule-schulversuch-2027.json",
+      "sourceUrls": [
+        "https://www.diepresse.com/41291748/sechs-jahre-in-der-volksschule-wiederkehr-startet-schulversuch",
+        "https://www.ots.at/presseaussendung/OTS_20260922_OTS0143/aviso-pk-vorstellung-schulversuch-sechsjaehrige-volksschule-mit-bildungsminister-christoph-wiederkehr",
+        "https://www.ots.at/presseaussendung/OTS_20260924_OTS0126/ak-zum-schulversuch-sechsjaehrige-volksschule-gerechtere-schule-geht-besser",
+        "https://www.diepresse.com/41291748/wiederkehr-startet-testballon-fuer-sechs-jahre-volksschule",
+        "https://www.kleinezeitung.at/artikel/41292779/wiederkehr-solo-bei-sechsjaehriger-volksschule",
+        "https://orf.at/stories/3428659/",
+        "https://www.ots.at/presseaussendung/OTS_20260924_OTS0142/fpoe-brueckl-sechsjaehrige-volksschule-ist-ein-ideologischer-kniefall-vor-der-mittelmaessigkeit"
+      ],
+      "openQuestions": [
+        "Wie viele und welche Schulen melden sich bis zum Stichtag 16. Oktober 2026 tatsächlich, und welche Standorte werden am Ende ausgewählt?",
+        "Wie hoch sind die Kosten des Schulversuchs, und aus welchem Budget werden sie finanziert?",
+        "Wie positioniert sich die ÖVP als Koalitionspartner offiziell und im Detail zu dieser konkreten Ankündigung?",
+        "Wie bewerten Elternvertretungen, Schülervertretungen und Lehrergewerkschaften das Vorhaben inhaltlich?",
+        "Auf welcher rechtlichen Grundlage läuft der Schulversuch, und wie lange ist er angesetzt bzw. wann wird er evaluiert?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-09-25T14:07:36.997Z",
+      "doNotUpdateBefore": "2026-09-24T20:07:36.997Z",
+      "pendingOutcome": "Auswahl der teilnehmenden Schulstandorte nach Ablauf der Anmeldefrist am 16. Oktober 2026.",
+      "pendingOutcomeUntil": "2026-09-26T14:07:36.997Z",
+      "echoPublishers": {
+        "diepresse": "2026-09-24T14:07:40.303Z",
+        "apa": "2026-09-24T12:07:36.265Z",
+        "kleinezeitung": "2026-09-24T12:07:38.489Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-24T14:07:36.997Z"
     }
   }
 }
