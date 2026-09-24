@@ -1,0 +1,193 @@
+{
+  "cluster": {
+    "id": "cluster-20260922-b587fbaf",
+    "title": "Neuzulassungen in EU: Neuer Rekord bei E-Auto-Anteil",
+    "items": [
+      {
+        "itemId": "0775a2d6180c1866e4baa62c44000cfc10a7d9f4177e4f1c2f2f955bbe281431",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Neuzulassungen in EU: Neuer Rekord bei E-Auto-Anteil",
+        "url": "https://orf.at/stories/3442886",
+        "publishedAt": "2026-09-22T07:38:30.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "1bc12e1b4e4b4e38b48201375517644bde0cfa2a22dd395df7fa0df8de4a5d5f",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Anteil von E-Autos bei Neuzulassungen in der EU erreicht Rekord",
+        "url": "https://www.kleinezeitung.at/artikel/41285326/anteil-von-e-autos-bei-neuzulassungen-in-der-eu-erreicht-rekord",
+        "summary": "Pkw mit reinem Elektroantrieb erreichten zuletzt einen Anteil von 17,3 Prozent bei den Auto-Neuzulassungen. Weitere 42,4 Prozent der neu zugelassenen Pkw waren Hybridfahrzeuge.",
+        "publishedAt": "2026-09-22T07:41:47.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Konkrete Statistiken zu Elektroauto-Neuzulassungsrekord in der EU (17,3%, 2025) aus zwei österreichischen Medienportalen mit Primärquellen-Attribution (Eurostat, deutsches Statistisches Bundesamt). Zeigt aussagekräftigen 10-Jahres-Trend (2015: 0,4%) und Ländervergleiche; keine bestehende Story zur Fortsetzung — eigenständige neue Berichterstattung zur europäischen Mobilitätswende.",
+    "sensitivity": "low",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "E-Auto-Anteil bei Neuzulassungen in EU 2025: 17,3% (Rekord)",
+      "Hybridfahrzeuge: 42,4% Anteil 2025",
+      "Benziner: 27,3%, Diesel: 9,8%",
+      "Trend über zehn Jahre: 2015 = 0,4% E-Auto-Anteil",
+      "Dänemark EU-führend: 67,8% E-Auto-Anteil",
+      "Niederlande: 40,2%, Malta: 37,6%",
+      "Kroatien niedrigster Anteil: 1,9%, Slowakei: 4,7%, Bulgarien: 4,9%",
+      "Norwegen (außerhalb EU): 95% E-Auto-Anteil bei Neuzulassungen",
+      "Länder-Unterschiede durch Ladenetz-Investitionen und Förderpolitik getrieben"
+    ],
+    "missingSources": [
+      "Direkte Eurostat-Datenbank-Quelle für Leserverifizierung",
+      "Konkrete Fördermaßnahmen einzelner Länder (z.B. Steuervergünstigungen Dänemark vs. Regulierungsbarrieren Kroatien)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "e-auto-anteil-eu-neuzulassungen-rekord-2025",
+    "title": "E-Autos erreichen mit 17,3 Prozent Rekordanteil an EU-Neuzulassungen 2025",
+    "description": "Der Anteil rein batterieelektrischer Pkw an den Neuzulassungen in der EU ist 2025 laut Eurostat-Daten auf 17,3 Prozent gestiegen – ein neuer Höchststand mit weiterhin sehr großen Unterschieden zwischen den Mitgliedstaaten.",
+    "topic": "wirtschaft",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Die zentralen Zahlen stammen aus einer offiziellen Pressemitteilung des Statistischen Bundesamts, die sich auf Eurostat-Ergebnisse stützt, und decken sich mit zwei unabhängigen Medienberichten – das ergibt eine hohe Verlässlichkeit für die Kernaussage.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Die Angaben wurden über eine direkt eingesehene offizielle Pressemitteilung des Statistischen Bundesamts bestätigt, die Eurostat-Ergebnisse wiedergibt; die Eurostat-Rohdatenbank selbst wurde nicht abgerufen, daher gilt die Primärquellenstärke als mittel statt stark.",
+    "framingRisk": "low",
+    "framingRiskNote": "Es handelt sich um eine deskriptive amtliche Statistik ohne gegensätzliche Parteien oder Interessen; eine Einschätzung der Autoindustrie zu den Zahlen fehlt allerdings in den vorliegenden Quellen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Der Anteil rein batterieelektrischer Pkw an den EU-Neuzulassungen stieg 2025 auf 17,3 Prozent (rund 1,9 Mio. Fahrzeuge) – ein neuer Rekord.",
+        "kind": "fact"
+      },
+      {
+        "text": "Hybridfahrzeuge bildeten mit 42,4 Prozent die größte Gruppe, gefolgt von Benzinern (27,3 Prozent) und Diesel-Pkw (9,8 Prozent).",
+        "kind": "fact"
+      },
+      {
+        "text": "Binnen zehn Jahren stieg der E-Auto-Anteil von 0,4 Prozent (2015) auf 17,3 Prozent (2025).",
+        "kind": "fact"
+      },
+      {
+        "text": "Dänemark führt EU-weit mit 67,8 Prozent, Kroatien bildet mit 1,9 Prozent das Schlusslicht; außerhalb der EU liegt Norwegen bei rund 95 Prozent.",
+        "kind": "fact"
+      },
+      {
+        "text": "Welche konkreten Förder- und Infrastrukturmaßnahmen die großen Länderunterschiede im Detail erklären, bleibt in den Quellen offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Welche konkreten Förder- oder Ladeinfrastruktur-Maßnahmen erklären den großen Vorsprung Dänemarks und Norwegens gegenüber Schlusslichtern wie Kroatien im Detail?",
+      "Wie reagieren die europäische Autoindustrie und Branchenverbände wie ACEA auf die aktuellen Zulassungszahlen?",
+      "Setzt sich der Aufwärtstrend 2026 in ähnlichem Tempo fort?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at: „Neuzulassungen in EU: Neuer Rekord bei E-Auto-Anteil“",
+        "type": "media",
+        "url": "https://orf.at/stories/3442886"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung: „Anteil von E-Autos bei Neuzulassungen in der EU erreicht Rekord“",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41285326/anteil-von-e-autos-bei-neuzulassungen-in-der-eu-erreicht-rekord"
+      },
+      {
+        "id": "src3",
+        "name": "Statistisches Bundesamt (Destatis): „17,3 % der Pkw-Neuzulassungen in der EU im Jahr 2025 waren E-Autos“",
+        "type": "official",
+        "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_39_p002.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der Anteil rein batterieelektrischer Pkw an den Neuzulassungen in der EU stieg 2025 auf 17,3 Prozent – ein neuer Höchststand.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Weitere 42,4 Prozent der neu zugelassenen Pkw waren Hybridfahrzeuge, 27,3 Prozent reine Benziner und 9,8 Prozent reine Dieselfahrzeuge.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der E-Auto-Anteil an den EU-Neuzulassungen lag 2015 erst bei 0,4 Prozent.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Dänemark verzeichnete 2025 mit 67,8 Prozent den höchsten E-Auto-Anteil in der EU, vor den Niederlanden (40,2 Prozent) und Malta (37,6 Prozent); Kroatien (1,9 Prozent), die Slowakei (4,7 Prozent) und Bulgarien (4,9 Prozent) bildeten die Schlusslichter.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Norwegen, das nicht zur EU gehört, kam 2025 auf einen E-Auto-Anteil von rund 95 Prozent an den Neuzulassungen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Anteil rein batterieelektrischer Pkw an den Neuzulassungen in der Europäischen Union ist 2025 auf ein Rekordniveau gestiegen. Nach Ergebnissen der europäischen Statistikbehörde Eurostat, die das deutsche Statistische Bundesamt veröffentlicht hat, erreichten reine E-Autos einen Anteil von 17,3 Prozent an allen neu zugelassenen Pkw in der EU – umgerechnet rund 1,9 Millionen Fahrzeuge. Damit war rechnerisch gut jeder sechste neu zugelassene Pkw in der EU ein Elektroauto, mehr als je zuvor."
+      },
+      {
+        "heading": "Die Zahlen im Detail",
+        "markdown": "Auf reine Elektroautos folgten Hybridfahrzeuge mit einem Anteil von 42,4 Prozent, der größten Gruppe unter den Antriebsarten. Reine Benziner kamen auf 27,3 Prozent, reine Dieselfahrzeuge auf 9,8 Prozent. Andere Antriebsarten wie Flüssig- oder Erdgas spielten den Angaben zufolge nur eine untergeordnete Rolle. Zwischen den EU-Mitgliedstaaten fiel der E-Auto-Anteil sehr unterschiedlich aus: Dänemark lag mit 67,8 Prozent an der Spitze, vor den Niederlanden (40,2 Prozent) und Malta (37,6 Prozent). Am unteren Ende der Skala rangierten Kroatien (1,9 Prozent), die Slowakei (4,7 Prozent) und Bulgarien (4,9 Prozent). Deutschland selbst kam laut dem Statistischen Bundesamt auf einen Anteil von 19,1 Prozent und lag damit leicht über dem EU-Durchschnitt. Europaweit den höchsten Anteil verzeichnete mit rund 95 Prozent das nicht der EU angehörende Norwegen."
+      },
+      {
+        "heading": "Der Zehnjahrestrend",
+        "markdown": "Der Vergleich mit früheren Jahren zeigt die Dynamik der Entwicklung: 2015 lag der Anteil reiner Elektroautos an den EU-Neuzulassungen erst bei 0,4 Prozent. Innerhalb eines Jahrzehnts hat sich der Marktanteil damit vervielfacht. Als Gründe für die weiterhin großen Unterschiede zwischen den Mitgliedstaaten nennen die Quellen unter anderem unterschiedlich starke Investitionen in Ladeinfrastruktur sowie unterschiedliche nationale Förderpolitik – Details zu einzelnen Förderprogrammen liegen in den ausgewerteten Quellen aber nicht vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die neuen Zulassungszahlen ergänzen ein Bild, das sich bereits in anderen Auswertungen abzeichnete: Wie berichtet kam ein Bericht des International Council on Clean Transportation (ICCT) kürzlich zu dem Schluss, dass batteriebetriebene E-Autos in der EU 2025 im laufenden Betrieb rund ein Drittel günstiger waren als Benziner, während sich die Anschaffungskosten in den größten Fahrzeugsegmenten inzwischen angeglichen haben. Die aktuellen Eurostat-Zahlen liefern dazu die Zulassungsseite: Der Trend zu mehr Elektroautos setzt sich demnach ungebrochen fort, wenn auch mit sehr unterschiedlichem Tempo je nach Land."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen bleibt in den vorliegenden Quellen, welche konkreten Förder- oder Infrastrukturmaßnahmen den großen Vorsprung von Ländern wie Dänemark oder Norwegen gegenüber Schlusslichtern wie Kroatien im Detail erklären. Auch eine Einschätzung der europäischen Autoindustrie oder von Branchenverbänden zu den Zahlen liegt bislang nicht vor. Unklar ist zudem, ob sich der Aufwärtstrend 2026 in ähnlichem Tempo fortsetzt."
+      }
+    ],
+    "bodyKompakt": "Der Anteil rein batterieelektrischer Pkw an den Neuzulassungen in der EU ist 2025 auf ein Rekordniveau gestiegen: Nach Eurostat-Daten, veröffentlicht vom deutschen Statistischen Bundesamt, erreichten E-Autos einen Anteil von 17,3 Prozent an allen neu zugelassenen Pkw – rund 1,9 Millionen Fahrzeuge und damit mehr als je zuvor. Hybridfahrzeuge kamen auf 42,4 Prozent, reine Benziner auf 27,3 Prozent und Diesel-Pkw auf 9,8 Prozent.\n\nZwischen den EU-Ländern bleiben die Unterschiede groß: Dänemark führt mit 67,8 Prozent vor den Niederlanden (40,2) und Malta (37,6), während Kroatien (1,9), die Slowakei (4,7) und Bulgarien (4,9) die Schlusslichter bilden. Das nicht der EU angehörende Norwegen liegt mit rund 95 Prozent europaweit an der Spitze. Vor zehn Jahren, 2015, lag der EU-Anteil erst bei 0,4 Prozent.\n\nAls Gründe für die Länderunterschiede nennen die Quellen unterschiedliche Investitionen in Ladeinfrastruktur und Förderpolitik, ohne dies im Detail auszuführen. Wie eine unabhängige Auswertung des ICCT kürzlich zeigte, sind E-Autos im laufenden Betrieb inzwischen deutlich günstiger als Benziner.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-24T02:07:32.830Z"
+}
