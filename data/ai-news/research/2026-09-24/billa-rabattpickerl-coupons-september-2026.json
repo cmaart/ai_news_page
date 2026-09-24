@@ -1,0 +1,205 @@
+{
+  "cluster": {
+    "id": "cluster-20260923-a85f15a0",
+    "title": "Neuerung bei Billa: Coupons statt Rabattpickerl - keine Mehrfachverwendung mehr",
+    "items": [
+      {
+        "itemId": "7b670fed00b699e5a6dc1a1fbdd54a1d8bc324ae7ddbf3f0ab99c05764395315",
+        "sourceId": "kurier_wirtschaft",
+        "sourceType": "media",
+        "title": "Neuerung bei Billa: Coupons statt Rabattpickerl - keine Mehrfachverwendung mehr",
+        "url": "https://kurier.at/wirtschaft/billa-rabattmarkerl-coupons-rabattpickerl-rewe/403192810",
+        "summary": "Statt Pickerl gibt es bei Billa künftig nur noch Coupons. Bei Billa spricht man von einer Vereinfachung für die Kunden.",
+        "publishedAt": "2026-09-23T09:08:47.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "9e1857925658d052985c38b03411d614a797941bbda61cef10c5a498c6741121",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Kein mehrfaches Verwenden mehr möglich: Billa stellt Rabattpickerl ein",
+        "url": "https://www.derstandard.at/story/3000000340915/kein-mehrfaches-verwenden-mehr-moeglich-billa-stellt-rabattpickerl-ein",
+        "isNew": false
+      },
+      {
+        "itemId": "4766c33d2b9be6e08350758c26474ce8d2fe772edfafb0904b5ca8d98d28c76d",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "Kein mehrfaches Verwenden mehr möglich: Billa stellt Rabattpickerl ein",
+        "url": "https://www.derstandard.at/story/3000000340915/kein-mehrfaches-verwenden-mehr-moeglich-billa-stellt-rabattpickerl-ein",
+        "isNew": false
+      },
+      {
+        "itemId": "ed6425eadc03d4a55c48720e97aec165f4d5fcf6f4102059c9dd1a25e7ad99f1",
+        "sourceId": "diepresse_home",
+        "sourceType": "media",
+        "title": "Billa stellt Rabattpickerl ein",
+        "url": "https://www.diepresse.com/41287886/billa-stellt-rabattpickerl-ein",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzielle Nachricht zu konkreter Geschäftsänderung bei Österreichs größtem Einzelhandelkonzern. Mehrfach berichtet (Kurier, Der Standard, Die Presse) mit direktem Statement des REWE-Pressesprechers Paul Pöttschacher. Konkrete operative Details verfügbar: Startdatum 24.09.2026, Funktionsweise, Limits, Ausnahmen. Österreich-Relevanz für Millionen Konsumenten. Newsworthiness 2 wegen Ankündigungs-/Nischencharakter (keine Marktdisruption, keine breiten Konsequenzen), aber dennoch publikationswürdig. Keine verwandten Stories identifiziert (relatedStories sind false positives).",
+    "sensitivity": "low",
+    "newsworthiness": 2,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Billa ersetzt ab 24. September 2026 Rabattpickerl durch abreißbare Coupons",
+      "Coupons gewähren 25 Prozent Rabatt auf einzelne Produkte",
+      "Mehrfachverwendung (Ablösen und erneutes Aufkleben) ist nicht mehr möglich",
+      "Bis zu 3 Coupons können pro Einkauf eingesetzt werden",
+      "Rabatt wird automatisch auf die teuersten Produkte angewendet",
+      "Coupons sind nur in gedruckter Form (Flugblätter, Tageszeitungen) verfügbar, nicht digital",
+      "REWE begründet Änderung mit Kundenwunsch nach Vereinfachung und Automatisierung"
+    ],
+    "missingSources": [
+      "Kundenreaktionen und erstes Feedback nach Einführung",
+      "Rabattsysteme bei Konkurrenten (Merkur, Interspar, Hofer)",
+      "Kontext: Ist dies Reaktion auf Verbraucherbeschwerden oder interne Optimierung?",
+      "Marktforschung: Wie viele Kunden nutzten Mehrfach-Verwendung bislang?"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "billa-rabattpickerl-coupons-september-2026",
+    "title": "Billa ersetzt Rabattpickerl durch Abreiß-Coupons ohne Mehrfachverwendung",
+    "description": "Der Rewe-Konzern stellt bei Billa und Billa Plus ab 24. September die bekannten 25-Prozent-Rabattpickerl ein und führt stattdessen Coupons zum Abreißen ein, die einmalig an der Kassa abgegeben werden müssen.",
+    "topic": "wirtschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Mehrere österreichische Medien (Kurier, Der Standard, Die Presse) berichten übereinstimmend über dieselbe Umstellung, und ein Rewe-Pressesprecher bestätigt die Änderung mit eigenen Aussagen gegenüber mehreren Redaktionen – das entspricht einer Bestätigung durch das handelnde Unternehmen selbst.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine selbst gelesene Presseaussendung oder offizielle Rewe-Mitteilung zu dieser konkreten Umstellung vor, nur über Medien wiedergegebene Sprecher-Zitate.",
+    "framingRisk": "medium",
+    "framingRiskNote": "In der Berichterstattung kommt praktisch nur die Unternehmensperspektive über den Rewe-Pressesprecher vor; eine unabhängige Kundinnen- oder Konsumentenschutz-Einschätzung zur Umstellung fehlt in den vorliegenden Quellen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Billa und Billa Plus ersetzen ab 24. September 2026 die bisherigen 25-Prozent-Rabattpickerl durch Coupons zum Abreißen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Coupons müssen an der Kassa abgegeben werden, gelten automatisch für das teuerste betroffene Produkt und sind pro Einkauf bis zu dreimal einsetzbar.",
+        "kind": "fact"
+      },
+      {
+        "text": "Eine Mehrfachverwendung wie bisher beim Ablösen und erneuten Aufkleben der Pickerl ist damit nicht mehr möglich.",
+        "kind": "fact"
+      },
+      {
+        "text": "Rewe begründet die Umstellung mit dem Kundenwunsch nach Vereinfachung; digitale Varianten wurden laut Unternehmen zuvor getestet, aber schlechter angenommen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen ist, wie Kundinnen und Kunden auf den Wegfall der Mehrfachnutzung reagieren und welche Produkte und Marken konkret ausgenommen bleiben.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie reagieren Kundinnen und Kunden, die Pickerl bislang mehrfach verwendet haben, auf die Umstellung?",
+      "Welche Marken und „Immer-Clever-Preis“-Produkte sind im Detail von den neuen Coupons ausgenommen?",
+      "Gibt es eine offizielle Presseaussendung von Rewe/Billa zur Umstellung, oder wurde sie ausschließlich über Medieninterviews kommuniziert?",
+      "Reagieren Mitbewerber wie Spar, Hofer oder Lidl mit eigenen Anpassungen ihrer Rabattsysteme?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/wirtschaft/billa-rabattmarkerl-coupons-rabattpickerl-rewe/403192810"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000340915/kein-mehrfaches-verwenden-mehr-moeglich-billa-stellt-rabattpickerl-ein"
+      },
+      {
+        "id": "src3",
+        "name": "Die Presse",
+        "type": "media",
+        "url": "https://www.diepresse.com/41287886/billa-stellt-rabattpickerl-ein"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Billa und Billa Plus ersetzen ab 24. September 2026 die bisherigen Rabattpickerl durch Abreiß-Coupons.",
+        "status": "supported",
+        "note": "Übereinstimmend von Kurier, Der Standard und Die Presse berichtet, bestätigt durch Rewe-Sprecher Paul Pöttschacher.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die Coupons gelten automatisch für das teuerste berechtigte Produkt im Einkauf und können bis zu dreimal pro Einkauf eingesetzt werden.",
+        "status": "supported",
+        "note": "Direkt aus dem im Kurier wiedergegebenen Sprecher-Statement, keine zweite unabhängige Detailquelle für die genaue Obergrenze vorhanden.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Eine Mehrfachverwendung der Coupons – wie bisher das Ablösen und erneute Aufkleben der Pickerl – ist künftig nicht mehr möglich, da die Coupons an der Kassa abgegeben werden müssen.",
+        "status": "supported",
+        "note": "Von Kurier und Der Standard übereinstimmend berichtet, auch im Titel von Der Standard hervorgehoben.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Coupons sind nur in gedruckter Form erhältlich und funktionieren unabhängig von Jö-Bonuskarte oder Jö-App.",
+        "status": "partial",
+        "note": "Nur im Kurier-Zitat des Rewe-Sprechers dokumentiert, keine zweite Quelle bestätigt dieses Detail eigenständig.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Rewe begründet die Umstellung mit dem Kundenwunsch nach Vereinfachung und Automatisierung an der Kassa.",
+        "status": "supported",
+        "note": "Direktes Zitat des Rewe-Pressesprechers Paul Pöttschacher gegenüber dem Kurier.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Rewe-Konzern stellt bei seinen österreichischen Supermarktketten Billa und Billa Plus das bekannte Rabattpickerl-System um. Ab 24. September 2026 gibt es die bisherigen 25-Prozent-Sticker aus den Flugblättern nicht mehr – an ihre Stelle treten Coupons zum Abreißen, die weiterhin Flugblättern und Tageszeitungen beiliegen. Die Änderung betrifft potenziell Millionen Kundinnen und Kunden, die die Rabatt-Sticker bislang auf beliebige Produkte im Geschäft klebten, um sie günstiger zu bekommen."
+      },
+      {
+        "heading": "Wie das neue System funktioniert",
+        "markdown": "Statt einen Sticker auf ein Produkt zu kleben, geben Kundinnen und Kunden den Coupon künftig an der Kassa ab. Der Rabatt von 25 Prozent wird dabei automatisch für das teuerste berechtigte Produkt im Einkaufswagen gewährt, pro Einkauf sind laut dem im Kurier wiedergegebenen Rewe-Statement bis zu drei Coupons einsetzbar. Der wesentliche Unterschied zum bisherigen System: Eine Mehrfachverwendung, bei der Kundinnen und Kunden den Sticker nach dem Bezahlen wieder ablösten und beim nächsten Einkauf erneut verwendeten, ist damit nicht mehr möglich, weil der Coupon an der Kassa abgegeben werden muss. Wie schon beim Pickerl-System bleiben laut den Berichten zahlreiche Marken sowie Produkte der „Immer-Clever-Preis“-Aktion von der Rabattaktion ausgenommen. Die Coupons sind ausschließlich in gedruckter Form erhältlich und unabhängig von der Jö-Bonuskarte oder der Jö-App nutzbar."
+      },
+      {
+        "heading": "Wie Rewe die Änderung begründet",
+        "markdown": "Rewe-Pressesprecher Paul Pöttschacher erklärte gegenüber dem Kurier, der Ablauf an der Kassa werde für Kundinnen und Kunden dadurch einfacher: „Wir haben den Kundenwunsch nach Vereinfachung und Automatisierung gehört. Künftig müssen Kunden nicht mehr überlegen, wo sie ihr Pickerl hinkleben.“ Dass die bisherige Mehrfachnutzung wegfällt, wertet er nach eigenen Angaben nicht als Verschlechterung, da eine solche Mehrfachverwendung „auch bei den Pickerl nie so vorgesehen“ gewesen sei. Laut Kurier hatte das Unternehmen zuvor auch digitale Varianten der Rabattaktion getestet, das Kundenfeedback habe aber eine bevorzugt haptische Nutzung gezeigt – ein Grund, warum die neuen Coupons weiterhin nur gedruckt ausgegeben werden."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Aus den vorliegenden Quellen lässt sich nicht ableiten, wie Kundinnen und Kunden auf den Wegfall der Mehrfachnutzung tatsächlich reagieren, und welche Marken und Produkte im Detail von der neuen Coupon-Regelung ausgenommen sind. Auch eine eigene, offiziell zugängliche Presseaussendung von Rewe oder Billa zu dieser konkreten Umstellung liegt nicht vor – die Sprecher-Aussagen sind ausschließlich über Medienberichte dokumentiert. Ob Mitbewerber wie Spar, Hofer oder Lidl auf die Umstellung mit eigenen Anpassungen ihrer Rabattsysteme reagieren, ist ebenfalls offen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Umstellung reiht sich in eine Serie von Anpassungen ein, mit denen heimische Supermarktketten in den vergangenen Jahren auf die Teuerung und den Preiswettbewerb reagiert haben – von Rabattpickerl-Aktionen bis zu Tiefpreisgarantien. Laut Kurier sind Preise und Rabattaktionen für Konsumentinnen und Konsumenten in Österreich in den vergangenen Jahren insgesamt wichtiger geworden. Die aktuelle Änderung betrifft zunächst nur die technische Abwicklung der Rabattaktion bei Billa, nicht die grundsätzliche Höhe des Rabatts von 25 Prozent."
+      }
+    ],
+    "bodyKompakt": "Der Rewe-Konzern stellt bei Billa und Billa Plus ab 24. September 2026 sein Rabattsystem um: Statt der bisherigen 25-Prozent-Rabattpickerl aus den Flugblättern gibt es künftig Coupons zum Abreißen, die an der Kassa abgegeben werden. Der Rabatt gilt automatisch für das teuerste berechtigte Produkt im Einkauf, pro Einkauf sind bis zu drei Coupons einsetzbar. Anders als beim Pickerl ist eine Mehrfachverwendung – also das Ablösen und erneute Aufkleben nach dem Bezahlen – künftig nicht mehr möglich, weil der Coupon einmalig abgegeben werden muss.\n\nRewe-Pressesprecher Paul Pöttschacher begründet die Änderung gegenüber dem Kurier mit dem Kundenwunsch nach Vereinfachung und Automatisierung an der Kassa. Digitale Varianten habe man zuvor getestet, das Feedback habe aber eine bevorzugt haptische Nutzung der Coupons gezeigt. Wie bisher bleiben laut Berichten zahlreiche Marken und „Immer-Clever-Preis“-Produkte von der Aktion ausgenommen.\n\nOffen bleibt, wie Kundinnen und Kunden auf den Wegfall der Mehrfachnutzung reagieren, welche Produkte im Detail ausgenommen sind und ob Mitbewerber ihre eigenen Rabattsysteme anpassen. Eine eigene Presseaussendung von Rewe zu dieser konkreten Umstellung liegt nicht vor; die Angaben stammen aus Sprecher-Zitaten in mehreren Medien.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-24T04:07:31.703Z"
+}
