@@ -1,0 +1,383 @@
+{
+  "cluster": {
+    "id": "cluster-20260925-0d012d76",
+    "title": "Muse leakt Systemdateien: Metas KI-Agent gibt auf Anfrage sein Dateisystem aus",
+    "items": [
+      {
+        "itemId": "224f3ab9ff5394371f4aa783f2defeb9ddfa5ff6b8a7e864571fbd22778399aa",
+        "sourceId": "golem_news",
+        "sourceType": "media",
+        "title": "Muse leakt Systemdateien: Metas KI-Agent gibt auf Anfrage sein Dateisystem aus",
+        "url": "https://www.golem.de/news/muse-leakt-systemdateien-metas-ki-agent-gibt-auf-anfrage-sein-dateisystem-aus-2609-213429.html",
+        "summary": "Ein Entwickler hat Metas KI-Agent Muse 6,8 GByte an Daten aus seiner Betriebsumgebung entlockt. Laut Meta ist das ein erwartetes Verhalten. (KI, Ubuntu)",
+        "publishedAt": "2026-09-25T08:50:02.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e398de584c11d80b32120aac8c294214e5874ac19c482b7dbd6cf719fe3f581a",
+        "sourceId": "derstandard_web",
+        "sourceType": "media",
+        "title": "Du kommst hier nicht rein: Amazon verweigert Metas KI-Agent Muse den Zutritt zu seinem Onlineshop",
+        "url": "https://www.derstandard.at/story/3000000340807/du-kommst-hier-nicht-rein-amazon-verweigert-metas-ki-agent-muse-den-zutritt-zu-seinem-onlineshop",
+        "isNew": false
+      },
+      {
+        "itemId": "422b0129d60d7e4a4311e8a86f18814a1bbf045f84eee4a85ec7edd64c4e65bb",
+        "sourceId": "thedecoder",
+        "sourceType": "media",
+        "title": "Metas neuer KI-Agent Muse zieht in einer Woche 50.000 Nutzer und Plagiatsvorwürfe an",
+        "url": "https://the-decoder.de/metas-neuer-ki-agent-muse-zieht-50-000-nutzer-in-einer-woche-und-plagiatsvorwuerfe-an",
+        "isNew": false
+      },
+      {
+        "itemId": "3a7ba3c1386c6c756fa5c27ce35bfaad502c1934997a4d67b25751c02ad01e3f",
+        "sourceId": "thedecoder",
+        "sourceType": "media",
+        "title": "Metas neuer KI-Agent Muse zieht in einer Woche 500.000 Nutzer und Plagiatsvorwürfe an",
+        "url": "https://the-decoder.de/metas-neuer-ki-agent-muse-zieht-in-einer-woche-500-000-nutzer-und-plagiatsvorwuerfe-an",
+        "isNew": false
+      },
+      {
+        "itemId": "b628764becf06ed5db24ad42f0d39030b5450983ea46de51e23dbcdb13e380a8",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Tamagotchi trifft KI-Agent: Meta kündigt KI-Gadget Muse Charm an",
+        "url": "https://www.heise.de/news/Tamagotchi-trifft-KI-Agent-Meta-kuendigt-KI-Gadget-Muse-Charm-an-11463998.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "isNew": false
+      },
+      {
+        "itemId": "21bfcce133a351f83312b1d31582733ebdcc864003a576e8f8483918366ed930",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Comeback des Tamagotchi: Meta präsentiert Hardware für KI-Agenten Muse",
+        "url": "https://www.derstandard.at/story/3000000341105/comeback-des-tamagotchi-meta-praesentiert-hardware-fuer-ki-agenten-muse",
+        "isNew": false
+      },
+      {
+        "itemId": "9d70d33fccdf27775b5834f5b196b7aba01b1c6eb30e84e6e59cf4b5116284af",
+        "sourceId": "derstandard_web",
+        "sourceType": "media",
+        "title": "Comeback des Tamagotchi: Meta präsentiert Hardware für KI-Agenten Muse",
+        "url": "https://www.derstandard.at/story/3000000341105/comeback-des-tamagotchi-meta-praesentiert-hardware-fuer-ki-agenten-muse",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.9,
+  "triage": {
+    "action": "update_story",
+    "reason": "Neue Sicherheits- und Widerstands-Aspekte zur bereits veröffentlichten Muse-Story: Datenleck (6,8 GByte), Amazon-Blockade und Plagiats-Verdacht erweitern den bestehenden Artikel substanziell. Quellenlage teilweise dünn (Titel + Snippets), aber Medienecho breit (Golem, Der Standard, The Decoder, Heise). Hardware-Ankündigung (Muse Charm) war bereits in related Story bekannt.",
+    "sensitivity": "medium",
+    "newsworthiness": 4,
+    "resonance": 4,
+    "relatedSlug": "meta-muse-openclaw-vergleich-september-2026",
+    "possibleClaims": [
+      "Ein Entwickler hat 6,8 GByte Daten aus Muses Betriebsumgebung entlockt",
+      "Meta sagt, das ist erwartetes Verhalten",
+      "Amazon blockiert Muse künftig",
+      "Muse erreichte 50.000–500.000 Nutzer in einer Woche",
+      "Es gibt Plagiats-Vorwürfe gegen Muse"
+    ],
+    "missingSources": [
+      "Technische Details des Datenlecks: Methode, Art der 6,8 GByte Daten",
+      "Amazons Begründung für die Blockade (nur Bloomberg-Bericht zitiert)",
+      "Metas offizielle Nutzerzahlen (The Decoder-Angaben möglicherweise Schätzungen)",
+      "Konkrete Plagiatsverdachtsargumente und deren Quellenbelege"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "meta-muse-openclaw-vergleich-september-2026",
+    "title": "Meta-KI-Agent Muse: OpenClaw-Vorbild bestätigt, dazu Datenleck und Amazon-Sperre",
+    "description": "Metas KI-Agent Muse geriet nach dem Start wegen OpenClaw-Ähnlichkeiten in die Kritik. Nun kamen ein 6,8-GByte-Datenleck aus der Betriebsumgebung des Agenten und eine Sperre durch Amazons Onlineshop hinzu, während Berichte über die Nutzerzahlen der ersten Woche voneinander abweichen.",
+    "topic": "technologie",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Dass Meta Muse und das Wearable Muse Charm vorgestellt hat, dass Nat Friedman die OpenClaw-Inspiration einräumte, dass ein Entwickler 6,8 GByte Betriebsumgebungsdaten aus Muse extrahieren konnte und dass Amazon den Agenten aus seinem Onlineshop aussperrt, ist jeweils durch Aussagen der handelnden Institutionen selbst sowie mehrere unabhängige Medien übereinstimmend belegt. Die genaue Nutzerzahl der ersten Woche bleibt wegen widersprüchlicher Angaben unklar.",
+    "primarySourceStrength": "medium",
+    "sourceStrengthNote": "Nat Friedmans Aussagen zur OpenClaw-Inspiration und zum Datenleck stammen direkt aus seinen eigenen Beiträgen auf X, ergänzt um den eigenen technischen Bericht des Entwicklers, der das Datenleck auslöste. Zum Amazon-Vorfall liegt keine offizielle Stellungnahme von Amazon oder Meta vor, sondern nur eine von Bloomberg zuerst berichtete und seither vielfach übernommene Darstellung; die Nutzerzahlen stammen aus Medienberichten, nicht aus offiziellen Meta-Angaben.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Metas Perspektive ist über Aussagen von Nat Friedman und einem Firmensprecher direkt vertreten. Amazons Sichtweise zum Shop-Zugriff ist dagegen nur aus einem Bloomberg-Bericht bekannt, eine eigene Stellungnahme Metas zum Amazon-Streit liegt nicht vor. Die Nutzerzahlen-Diskrepanz (50.000 vs. 500.000) könnte je nach übernommener Quelle ein verzerrtes Bild von Muses Erfolg oder Misserfolg erzeugen.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Meta hat mit Muse einen KI-Agenten vorgestellt und beim Entwicklerevent Meta Connect 2026 zusätzlich das Tamagotchi-ähnliche Wearable Muse Charm angekündigt, dessen Marktstart laut Berichten für Dezember 2026 geplant ist.",
+        "kind": "fact"
+      },
+      {
+        "text": "Nat Friedman von Metas Superintelligence Labs räumte ein, dass Muse zwar komplett neu programmiert wurde, aber stark vom Open-Source-Projekt OpenClaw inspiriert ist – bis hin zu identischen Dateinamen und ähnlichen Formulierungen im Persönlichkeitsdokument.",
+        "kind": "fact"
+      },
+      {
+        "text": "Ein Softwareentwickler brachte Muse mit minimalem Aufwand dazu, rund 6,8 GByte an Daten aus seiner internen Betriebsumgebung preiszugeben, darunter Ubuntu-Systemdateien und interne Dokumentation; Meta bezeichnete das Verhalten als beabsichtigt und nicht als Sicherheitslücke.",
+        "kind": "fact"
+      },
+      {
+        "text": "Amazon sperrt Muse den Zugriff auf seinen Onlineshop, nachdem Meta einer Aufforderung zur Entfernung des Agenten nicht nachgekommen sein soll.",
+        "kind": "fact"
+      },
+      {
+        "text": "Berichte zur Nutzerzahl von Muse in der ersten Woche widersprechen sich: Während mehrere Quellen rund 500.000 Nutzerinnen und Nutzer nennen, spricht eine deutschsprachige Quelle von 50.000.",
+        "kind": "open"
+      },
+      {
+        "text": "Ein Endpreis für den Muse Charm sowie eine unabhängige Sicherheitsbewertung von Muse liegen weiterhin nicht vor.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie belastbar ist die kursierende Nutzerzahl von rund 500.000 Personen in der ersten Woche, und warum weicht eine Quelle mit 50.000 davon so stark ab?",
+      "Nimmt Meta als Reaktion auf das Datenleck technische Änderungen an Muses Betriebsumgebung vor, und wie bewerten unabhängige Sicherheitsexpertinnen und -experten das Risiko für Nutzerdaten?",
+      "Wie geht der Streit zwischen Amazon und Meta um den Shop-Zugriff von Muse weiter, und äußert sich Meta offiziell dazu?",
+      "Birgt Muse dieselben Sicherheitsrisiken, die Kritikerinnen und Kritiker dem Ursprungsprojekt OpenClaw zuschreiben?",
+      "Zu welchem Preis und in welchen Märkten außerhalb der USA wird der Muse Charm ab Dezember 2026 verkauft?",
+      "Wie fundiert ist die in Medienberichten genannte Bewertung von 2,5 Milliarden US-Dollar für die konkurrierende Plattform Instinct?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "The Verge: \"Muse sure looks a lot like OpenClaw\"",
+        "type": "media",
+        "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike"
+      },
+      {
+        "id": "src2",
+        "name": "TechCrunch: \"Meta's Muse Charm looks like a Tamagotchi, but it's tapping into a much newer trend\"",
+        "type": "media",
+        "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend"
+      },
+      {
+        "id": "src3",
+        "name": "TechCrunch: \"Meta admits Muse's likeness to OpenClaw isn't a coincidence\"",
+        "type": "media",
+        "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence"
+      },
+      {
+        "id": "src4",
+        "name": "TechCrunch: \"Meta made a Tamagotchi-like wearable for its Muse AI agent\"",
+        "type": "media",
+        "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent"
+      },
+      {
+        "id": "src5",
+        "name": "Nat Friedman, Beitrag auf X",
+        "type": "primary",
+        "url": "https://x.com/natfriedman/status/2102103707936768130"
+      },
+      {
+        "id": "src6",
+        "name": "Meta: \"Everything We Announced at Meta Connect 2026\"",
+        "type": "official",
+        "url": "https://www.meta.com/blog/meta-connect-2026-everything-we-announced/"
+      },
+      {
+        "id": "src7",
+        "name": "Der Standard: \"Comeback des Tamagotchi: Meta präsentiert Hardware für KI-Agenten Muse\"",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000341105/comeback-des-tamagotchi-meta-praesentiert-hardware-fuer-ki-agenten-muse"
+      },
+      {
+        "id": "src8",
+        "name": "heise online: \"Tamagotchi trifft KI-Agent: Meta kündigt KI-Gadget Muse Charm an\"",
+        "type": "media",
+        "url": "https://www.heise.de/news/Tamagotchi-trifft-KI-Agent-Meta-kuendigt-KI-Gadget-Muse-Charm-an-11463998.html"
+      },
+      {
+        "id": "src9",
+        "name": "Die Presse: \"KI-Anhänger Muse Charme: Meta erfindet das Tamagotchi neu\"",
+        "type": "media",
+        "url": "https://www.diepresse.com/41291626/ki-anhaenger-muse-charme-meta-erfindet-das-tamagotchi-neu"
+      },
+      {
+        "id": "src10",
+        "name": "CNBC: \"Mark Zuckerberg debuts $1,299 Meta VR Glasses and Muse Charm pendant as part of AI agent push\"",
+        "type": "media",
+        "url": "https://www.cnbc.com/2026/09/23/mark-zuckerberg-1299-meta-vr-glasses-ai-agent.html"
+      },
+      {
+        "id": "src11",
+        "name": "Golem: \"Muse leakt Systemdateien: Metas KI-Agent gibt auf Anfrage sein Dateisystem aus\"",
+        "type": "media",
+        "url": "https://www.golem.de/news/muse-leakt-systemdateien-metas-ki-agent-gibt-auf-anfrage-sein-dateisystem-aus-2609-213429.html"
+      },
+      {
+        "id": "src12",
+        "name": "Mouse (Entwickler-Blog): \"I asked Meta's Muse for its filesystem and it sent me 6.8 GB\"",
+        "type": "primary",
+        "url": "https://mouse.dev/blog/muse-runtime-export/"
+      },
+      {
+        "id": "src13",
+        "name": "Bloomberg: \"Amazon Blocks Meta's Muse AI Agent From Its Retail Site\"",
+        "type": "media",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-21/amazon-blocks-meta-s-muse-ai-agent-from-its-retail-site"
+      },
+      {
+        "id": "src14",
+        "name": "Der Standard: \"Du kommst hier nicht rein: Amazon verweigert Metas KI-Agent Muse den Zutritt zu seinem Onlineshop\"",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000340807/du-kommst-hier-nicht-rein-amazon-verweigert-metas-ki-agent-muse-den-zutritt-zu-seinem-onlineshop"
+      },
+      {
+        "id": "src15",
+        "name": "The Decoder: \"Meta's AI agent Muse draws 500,000 users in a week along with claims it copied OpenClaw\"",
+        "type": "media",
+        "url": "https://the-decoder.com/metas-ai-agent-muse-draws-500000-users-in-a-week-along-with-claims-it-copied-openclaw/"
+      },
+      {
+        "id": "src16",
+        "name": "The Decoder (DE): \"Metas neuer KI-Agent Muse zieht in einer Woche 50.000 Nutzer und Plagiatsvorwürfe an\"",
+        "type": "media",
+        "url": "https://the-decoder.de/metas-neuer-ki-agent-muse-zieht-50-000-nutzer-in-einer-woche-und-plagiatsvorwuerfe-an/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Muse erreichte laut einer Apptopia-Schätzung rund 600.000 tägliche aktive Nutzer in den USA.",
+        "status": "partial",
+        "note": "Die Zahl stammt aus einer externen Analystenschätzung, nicht aus offiziellen Meta-Angaben, und lässt sich nicht eindeutig mit der später berichteten Gesamtzahl von rund 500.000 Nutzern in Woche eins abgleichen, da unklar ist, ob beide Zahlen dieselbe Nutzergruppe (täglich aktiv vs. insgesamt) meinen.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Nat Friedman von Metas Superintelligence Labs erklärte, Muse sei komplett neu programmiert worden, aber stark als Produkt von OpenClaw inspiriert.",
+        "status": "supported",
+        "note": "Direkte Aussage des zuständigen Meta-Managers auf X, zusätzlich von mehreren Medien übereinstimmend wiedergegeben.",
+        "sourceIds": [
+          "src5",
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Meta kündigte beim Entwicklerevent Meta Connect 2026 mit dem Muse Charm ein Tamagotchi-ähnliches, anhängerartiges Wearable für den KI-Agenten an.",
+        "status": "supported",
+        "note": "Von Meta selbst offiziell angekündigt und von zahlreichen unabhängigen Medien in mehreren Ländern übereinstimmend berichtet.",
+        "sourceIds": [
+          "src6",
+          "src2",
+          "src4",
+          "src7",
+          "src8",
+          "src9"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Muse verwendet laut Berichten dieselben Dateinamen wie OpenClaw (etwa SOUL.md) und enthält ähnliche Formulierungen im Dokument, das Persönlichkeit und Tonfall des Agenten festlegt.",
+        "status": "supported",
+        "note": "Von mehreren Medien übereinstimmend beschrieben und von Nat Friedman in seiner eigenen Stellungnahme im Kern bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src3",
+          "src5"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Die konkurrierende KI-Agenten-Plattform Instinct soll bei einer Bewertung von 2,5 Milliarden US-Dollar Kapital einsammeln.",
+        "status": "partial",
+        "note": "Bislang nur von einer einzelnen Quelle berichtet, keine unabhängige Bestätigung vorliegend.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Der Marktstart des Muse Charm ist Berichten zufolge für Dezember 2026 geplant, einen Endpreis hat Meta bislang nicht genannt.",
+        "status": "partial",
+        "note": "Zeitangabe und fehlender Preis stammen aus Medienberichten über Zuckerbergs Aussagen, nicht aus einer schriftlichen Meta-Mitteilung mit Preis.",
+        "sourceIds": [
+          "src10"
+        ]
+      },
+      {
+        "id": "claim7",
+        "text": "Ein Softwareentwickler brachte Muse mit minimalem Aufwand dazu, rund 6,8 GByte an Daten aus seiner internen Betriebsumgebung preiszugeben, darunter Ubuntu-Systemdateien, interne Dokumentation und Konfigurationsskripte.",
+        "status": "supported",
+        "note": "Der auslösende Entwickler beschrieb den Vorgang in einem eigenen technischen Bericht; mehrere unabhängige Medien berichten übereinstimmend darüber, zudem soll ein weiterer Entwickler die Reproduktion bestätigt haben.",
+        "sourceIds": [
+          "src12",
+          "src11"
+        ]
+      },
+      {
+        "id": "claim8",
+        "text": "Meta bezeichnete die Preisgabe der Betriebsumgebungsdaten durch Muse als beabsichtigtes Verhalten und nicht als Sicherheitslücke; ein zuständiger Manager verwies darauf, dass jede Nutzerin und jeder Nutzer eine eigene, isolierte virtuelle Maschine erhält.",
+        "status": "supported",
+        "note": "Aussage von Meta über einen Mitarbeiter der Superintelligence Labs auf X sowie über einen Firmensprecher gegenüber Medien; von mehreren Quellen inhaltlich übereinstimmend wiedergegeben, der genaue Wortlaut einzelner Zitate variiert je nach Quelle.",
+        "sourceIds": [
+          "src11",
+          "src12"
+        ]
+      },
+      {
+        "id": "claim9",
+        "text": "Amazon sperrt den Zugriff von Muse auf seinen Onlineshop, nachdem Meta einer Aufforderung Amazons zur Entfernung des Agenten nicht nachgekommen sein soll.",
+        "status": "supported",
+        "note": "Zuerst von Bloomberg berichtet, seither von zahlreichen weiteren Medien übereinstimmend übernommen; eine offizielle gemeinsame Stellungnahme beider Unternehmen liegt nicht vor.",
+        "sourceIds": [
+          "src13",
+          "src14"
+        ]
+      },
+      {
+        "id": "claim10",
+        "text": "Amazon begründet die Sperre damit, dass Meta die Shopping-Nutzung durch Muse nicht angekündigt habe, der Agent sich beim Browsen nicht zu erkennen gebe und möglicherweise Kundendaten speichere.",
+        "status": "partial",
+        "note": "Dies ist Amazons eigene Darstellung, wiedergegeben über einen einzelnen Medienbericht (Bloomberg); eine unabhängige Prüfung oder Metas Gegendarstellung dazu liegt nicht vor.",
+        "sourceIds": [
+          "src13"
+        ]
+      },
+      {
+        "id": "claim11",
+        "text": "Berichte zur Nutzerzahl von Muse in der ersten Woche widersprechen sich: Mehrere Quellen nennen rund 500.000 Nutzerinnen und Nutzer, eine deutschsprachige Quelle spricht dagegen von 50.000.",
+        "status": "unclear",
+        "note": "Die Diskrepanz zwischen deutscher und englischer Fassung derselben Quelle deutet auf einen Zahlendreher oder Übersetzungsfehler hin, lässt sich aber ohne offizielle Meta-Zahlen nicht auflösen.",
+        "sourceIds": [
+          "src15",
+          "src16"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Meta hat mit Muse einen KI-Agenten für Konsumentinnen und Konsumenten lanciert, der rasch in den App-Store-Charts nach oben kletterte. Laut einer Schätzung des Analysehauses Apptopia, zitiert vom Fachmedium The Verge, erreichte die App rund 600.000 tägliche aktive Nutzer in den USA. Zur Gesamtzahl der Nutzerinnen und Nutzer in der ersten Woche kursieren widersprüchliche Angaben: Mehrere Medien nennen rund 500.000, eine deutschsprachige Quelle dagegen nur 50.000 – möglicherweise ein Zahlendreher zwischen einer deutschen und einer englischen Fassung desselben Berichts, ohne dass sich das anhand offizieller Meta-Zahlen klären ließe. Beim hauseigenen Entwicklerevent Meta Connect 2026 legte der Konzern nach: Zusätzlich zur Software kündigte Meta mit dem \"Muse Charm\" ein kleines, anhängerartiges Wearable an, über das Nutzerinnen und Nutzer unterwegs mit ihrem KI-Agenten kommunizieren können sollen. Der Marktstart ist Berichten zufolge für Dezember 2026 vorgesehen, ein Endpreis wurde von Meta bislang nicht genannt."
+      },
+      {
+        "heading": "Die OpenClaw-Frage",
+        "markdown": "Parallel zum Erfolg von Muse häuften sich in sozialen Netzwerken Vorwürfe, das Produkt sei im Kern eine Kopie des Open-Source-Projekts OpenClaw – einer erst rund zehn Monate zuvor veröffentlichten Software, die von einer einzelnen Entwicklerperson gebaut wurde und Nutzerinnen und Nutzer über Messaging-Dienste wie WhatsApp, Telegram oder Slack mit einem KI-Agenten kommunizieren ließ. Kritikerinnen und Kritiker verwiesen unter anderem darauf, dass zentrale Dateien in Muse dieselben Namen tragen wie bei OpenClaw, etwa \"SOUL.md\", und dass das Dokument, das Persönlichkeit und Tonfall des Agenten festlegt, in Teilen sehr ähnlich formuliert ist. Nat Friedman, bei Metas Superintelligence Labs für das Produkt zuständig, bestätigte auf der Plattform X, dass Muse zwar komplett neu programmiert worden sei, aber \"eindeutig stark als Produkt\" von OpenClaw inspiriert sei. Nach eigenen Angaben kaufte er, nachdem er OpenClaw im Jänner erstmals genutzt hatte, für sein Team hunderte Mac-Mini-Rechner an. Warum Muse dieselben Dateinamen und ähnliche Formulierungen übernommen habe, begründete Friedman damit, sein Team habe eingeschätzt, dass OpenClaw-Schöpfer Peter Steinberger diese Punkte \"genau richtig\" gelöst habe."
+      },
+      {
+        "heading": "Datenleck: 6,8 GByte aus der Betriebsumgebung",
+        "markdown": "Rund zwei Wochen nach dem Start geriet Muse wegen eines weiteren Vorfalls in die Kritik: Ein Softwareentwickler beschrieb in einem eigenen technischen Bericht, wie er den Agenten mit vergleichsweise geringem Aufwand dazu brachte, seine gesamte Betriebsumgebung zu archivieren und zum Download bereitzustellen – rund 6,8 GByte an Daten, darunter Ubuntu-Systemdateien, interne Dokumentation und Konfigurationsskripte der Container-Umgebung. Einem weiteren Entwickler zufolge ließ sich der Vorgang ohne größere Schwierigkeiten nachstellen. Nat Friedman erklärte auf X, es handle sich um erwartetes beziehungsweise beabsichtigtes Verhalten und nicht um eine Sicherheitslücke: Jede Nutzerin und jeder Nutzer erhalte eine eigene, isolierte virtuelle Linux-Maschine, deren Export keinen Zugriff auf Metas zugrunde liegende Infrastruktur oder auf Daten anderer Nutzer erlaube. Berichten zufolge stufte auch Metas Bug-Bounty-Programm eine entsprechende Meldung als nicht anwendbar ein. Unklar bleibt, ob diese Einordnung als \"beabsichtigt\" auch für sensiblere Inhalte gilt, die in einer solchen virtuellen Maschine anfallen können, und ob Meta als Reaktion Anpassungen an der Zugänglichkeit dieser Daten vornimmt."
+      },
+      {
+        "heading": "Amazon sperrt Muse aus seinem Onlineshop",
+        "markdown": "Zu den Sicherheitsfragen kommt ein Streit um den Zugriff auf fremde Plattformen hinzu: Wie zuerst Bloomberg berichtete, blockiert Amazon den Zugriff von Muse auf seinen Onlineshop, nachdem Meta einer Aufforderung zur Entfernung des Agenten nicht nachgekommen sein soll. Nutzerinnen und Nutzer, die versuchen, über Muse bei Amazon einzukaufen, sollen laut diesem Bericht auf Hinweise stoßen, wonach die Nutzung gegen Amazons Nutzungsbedingungen verstoße. Amazon begründet den Schritt laut Bloomberg damit, dass Meta die geplante Shopping-Nutzung durch Muse nicht angekündigt habe, der Agent sich beim Browsen nicht als solcher zu erkennen gebe und dabei möglicherweise Kundendaten erfasse und speichere – ein aus Amazons Sicht mögliches Datenschutz- und Sicherheitsrisiko. Eine eigene Stellungnahme Metas zu diesem konkreten Vorwurf liegt bislang nicht vor. Der Fall reiht sich in eine wachsende Spannung zwischen E-Commerce-Anbietern und KI-Firmen darüber ein, wer den Zugang zu Onlinemarktplätzen kontrolliert, wenn Einkaufs-Agenten zunehmend eigenständig handeln."
+      },
+      {
+        "heading": "Ein Wearable im Zeichen von Bag Charms und Retro-Tech",
+        "markdown": "Optisch erinnert der Muse Charm an ein Tamagotchi, das digitale Spielzeugtier aus den späten 1990er- und frühen 2000er-Jahren. Laut einer Einordnung von TechCrunch trifft die Form aber auch einen aktuelleren Trend: Junge Nutzerinnen und Nutzer der Generation Z hängen bereits seit einiger Zeit dekorative Anhänger an Taschen und Schlüsselbunde, von Lippenpflege-Etuis bis zum inzwischen abgeflauten Labubu-Boom. Auch das Umfunktionieren älterer Apple Watches zu Anhängern über Ketten oder Clips gehört laut diesem Bericht zu diesem Umfeld. Muse selbst lässt sich zudem als individuell gestaltbarer Avatar personalisieren, was die Parallele zum Wunsch nach persönlichem Ausdruck über Gadgets zusätzlich unterstreicht."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offiziell bestätigte Nutzerzahlen von Meta selbst liegen weiterhin nicht vor – zu den kursierenden Schätzungen zwischen 50.000 und 600.000 Nutzerinnen und Nutzern gibt es keine belastbare, einheitliche Angabe. Ob Muse dieselben Sicherheitsrisiken birgt, die Kritikerinnen und Kritiker OpenClaw wegen dessen offenem Zugriff auf persönliche Rechner und Konten zuschreiben, ist bislang nicht unabhängig geprüft; auch eine unabhängige Sicherheitsbewertung des Datenlecks selbst steht aus. Wie sich der Streit zwischen Amazon und Meta um den Shop-Zugriff weiterentwickelt und ob Meta dazu offiziell Stellung nimmt, ist offen. Auch Preis und genaue Verfügbarkeit des Muse Charm außerhalb der USA stehen noch nicht fest. Und zur ebenfalls in diesem Zusammenhang genannten Plattform Instinct, deren Gründerin oder Gründer angeblich bei einer Bewertung von 2,5 Milliarden US-Dollar Kapital einsammelt, liegt bislang nur eine einzelne Quelle vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall zeigt, wie stark ein einzelnes Open-Source-Projekt binnen weniger Monate eine ganze Produktkategorie geprägt haben dürfte – und wie viele offene Baustellen ein derart schnell auf den Markt gebrachter KI-Agent mit sich bringt. OpenClaw, ursprünglich als Ein-Personen-Wochenendprojekt entstanden, gilt Berichten zufolge als Vorbild sowohl für Metas kommerziellen Agenten Muse als auch für die separat entwickelte Plattform Instinct. Dass ein Großkonzern wie Meta offen einräumt, sich derart eng an einem kleinen Open-Source-Projekt orientiert zu haben, ist ungewöhnlich und wirft Fragen zu Softwareherkunft und geistigem Eigentum auf. Das Datenleck und der Streit mit Amazon zeigen zusätzlich, dass ein Agent, der eigenständig auf fremden Plattformen agiert und Zugriff auf eine vollwertige virtuelle Betriebsumgebung erhält, neue Reibungsflächen schafft – bei Plattformbetreibern, die die Kontrolle über ihre eigenen Shops behalten wollen, ebenso wie bei Sicherheitsforschenden, die prüfen, was ein solcher Agent preisgeben kann. Ob sich der neue Hardware-Anhänger am Markt durchsetzt, bleibt unterdessen offen: Frühere KI-Gadgets wie AI Pin, Rabbit oder Friend-Pendant erreichten trotz Aufmerksamkeit keinen dauerhaften kommerziellen Erfolg, wie Medienberichte zum Muse Charm anmerken."
+      }
+    ],
+    "bodyKompakt": "Meta hat mit Muse einen KI-Agenten vorgestellt, der laut einer Apptopia-Schätzung rund 600.000 tägliche aktive Nutzer in den USA erreichte; zur Gesamtnutzerzahl der ersten Woche kursieren widersprüchliche Angaben zwischen 50.000 und 500.000. Beim Entwicklerevent Meta Connect 2026 kündigte der Konzern zusätzlich den Muse Charm an, ein Tamagotchi-ähnliches Wearable, dessen Marktstart Berichten zufolge für Dezember 2026 geplant ist, ohne dass bereits ein Endpreis feststeht.\n\nParallel dazu häuften sich Vorwürfe, Muse sei im Kern eine Kopie des Open-Source-Projekts OpenClaw. Nat Friedman von Metas Superintelligence Labs bestätigte auf X, dass Muse zwar neu programmiert wurde, aber stark von OpenClaw inspiriert sei – erkennbar etwa an identischen Dateinamen und ähnlichen Formulierungen im Persönlichkeitsdokument des Agenten. Rund zwei Wochen nach dem Start kam ein Sicherheitsvorfall hinzu: Ein Entwickler brachte Muse dazu, 6,8 GByte an Systemdateien aus seiner Betriebsumgebung preiszugeben. Meta bezeichnete dies als beabsichtigtes Verhalten und verwies auf isolierte virtuelle Maschinen pro Nutzer.\n\nZusätzlich blockiert Amazon laut Bloomberg den Zugriff von Muse auf seinen Onlineshop, nachdem Meta einer Aufforderung zur Entfernung nicht nachgekommen sein soll – Amazon wirft dem Agenten unter anderem vor, sich beim Browsen nicht zu erkennen zu geben und Kundendaten zu erfassen.",
+    "updateNote": "Ergänzt um ein bei Muse entdecktes Datenleck (6,8 GByte Betriebsumgebungsdaten, von Meta als beabsichtigtes Verhalten eingestuft), Amazons Sperre von Muse im eigenen Onlineshop sowie einen Hinweis auf widersprüchliche Angaben zur Nutzerzahl der ersten Woche (50.000 vs. 500.000).",
+    "pendingOutcome": "Offen sind der weitere Verlauf des Streits zwischen Amazon und Meta um den Shop-Zugriff, mögliche Sicherheitsanpassungen bei Muse als Reaktion auf das Datenleck sowie eine Klärung der widersprüchlichen Nutzerzahlen der ersten Woche."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-25T10:07:35.812Z"
+}
