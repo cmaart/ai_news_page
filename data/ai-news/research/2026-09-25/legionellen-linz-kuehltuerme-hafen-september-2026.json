@@ -1,0 +1,228 @@
+{
+  "cluster": {
+    "id": "cluster-20260924-08b007e0",
+    "title": "Weitere kontaminierte Kühltürme in Linz",
+    "items": [
+      {
+        "itemId": "938d8e948a05f3ca057694c58d27de6e4607b7a06337801aa2c46883a30ad817",
+        "sourceId": "orf_oesterreich",
+        "sourceType": "media",
+        "title": "Weitere kontaminierte Kühltürme in Linz",
+        "url": "https://ooe.orf.at/stories/3372512",
+        "summary": "In Linz wurden nach einem Legionellenausbruch weitere kontaminierte Kühltürme im Industriegebiet gefunden. Bisher sind 32 Personen erkrankt, drei verstarben. Die Staatsanwaltschaft ermittelt wegen fahrlässiger Tötung gegen unbekannt.",
+        "publishedAt": "2026-09-24T12:42:36.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "df94b935d82b3c320cf397665738e07a17e96731b367b23c8d9535b18f14101b",
+        "sourceId": "orf_ooe",
+        "sourceType": "media",
+        "title": "Weitere kontaminierte Kühltürme in Linz",
+        "url": "https://ooe.orf.at/stories/3372512",
+        "summary": "In Linz wurden nach einem Legionellenausbruch weitere kontaminierte Kühltürme im Industriegebiet gefunden. Bisher sind 32 Personen erkrankt, drei verstarben. Die Staatsanwaltschaft ermittelt wegen fahrlässiger Tötung gegen unbekannt.",
+        "publishedAt": "2026-09-24T12:42:36.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "9b79f464090e001821e89025a65a3833299b2d0a0a3ed437a032aef62561d4d9",
+        "sourceId": "derstandard_inland",
+        "sourceType": "media",
+        "title": "Legionellen in Linz: Weitere kontaminierte Kühltürme gefunden",
+        "url": "https://www.derstandard.at/story/3000000341179/legionellen-in-linz-weitere-kontaminierte-k252hlt252rme-gefunden",
+        "summary": "Dieses Mal wurden Kontaminierungen im Linzer Industriegebiet-Hafen festgestellt. Seit Anfang September wurden keine weiteren Erkrankungen gemeldet",
+        "publishedAt": "2026-09-24T12:35:27.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "e45f6d744c011efb31e8c91610048ab91abb6d73e0a49e931520b7299e8775a9",
+        "sourceId": "kurier_chronik",
+        "sourceType": "media",
+        "title": "Legionellen in Linz: Weitere kontaminierte Kühltürme gefunden",
+        "url": "https://kurier.at/chronik/oberoesterreich/legionellen-linz-kontamination-kuehltuerme-fund/403193179",
+        "summary": "Bisher war bekannt, dass der Bakterienstamm eines Patienten mit jenem, der in Kühltürmen der Linz AG an der Wiener Straße gefunden wurde, identisch ist.",
+        "publishedAt": "2026-09-24T12:38:18.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substantive public health story with regional relevance for Austria. Multiple independent media sources (ORF, Der Standard, Kurier) reporting on new findings in ongoing Legionella situation: additional contaminated cooling towers discovered in Linz industrial harbor, active criminal investigation for negligent homicide, no new cases since early September. Fulltext excerpts confirm factual substance and concrete details. No matching related story in provided list; treating as continuation piece without linked predecessor. High sensitivity due to deaths, criminal charges, and health emergency context.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "32 people infected with Legionella in Linz area",
+      "3 deaths from Legionella outbreak",
+      "Further contaminated cooling towers found in Linz industrial harbor",
+      "Newly identified cooling towers do not belong to Linz AG",
+      "All affected cooling systems have been cleaned and disinfected",
+      "Since early September no new Legionella cases reported",
+      "Prosecutor's office investigating for negligent homicide",
+      "Bacterial strain matching confirmed between one patient and Linz AG cooling tower",
+      "Source tracing difficult; only 1 of 4 sequenced patient isolates matched Linz AG tower strain"
+    ],
+    "missingSources": [
+      "Precise timeline and starting date of mid-July outbreak",
+      "Identity and operational details of companies/owners of newly identified towers",
+      "Quantified contamination levels (bacterial counts, extent of spread)",
+      "Expert analysis on transmission risk and public health measures",
+      "Timeline and substance of criminal investigation (prosecutor statements, next steps)",
+      "Comprehensive epidemiological tracing showing infection sources for all cases"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "legionellen-linz-kuehltuerme-hafen-september-2026",
+    "title": "Legionellen-Ausbruch in Linz: Weitere kontaminierte Kühltürme im Hafengebiet entdeckt",
+    "description": "Im Linzer Industriegebiet-Hafen sind weitere mit Legionellen belastete Kühltürme aufgetaucht, die nicht der Linz AG gehören. Die Staatsanwaltschaft ermittelt wegen fahrlässiger Tötung, nachdem im Zuge des Ausbruchs 32 Menschen erkrankten und drei starben.",
+    "topic": "gesellschaft",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Drei voneinander unabhängig recherchierende Medien (ORF, Der Standard, Kurier) berichten übereinstimmend über dieselbe Presseaussendung von Land Oberösterreich, Stadt Linz und Ages, die ihr eigenes Handeln (Fund, Reinigung der Anlagen) verkündet – das gilt als bestätigt.",
+    "primarySourceStrength": "none",
+    "sourceStrengthNote": "Die zugrunde liegende Presseaussendung von Land Oberösterreich, Stadt Linz und Ages selbst wurde nicht direkt eingesehen, nur über Medienberichte referenziert, die eine konkrete URL dazu nicht nennen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Alle drei Quellen geben im Wesentlichen dieselbe behördliche Darstellung wieder; eine Stellungnahme der Eigentümer der neu gefundenen Kühltürme oder unabhängiger Fachleute zu dieser Meldung fehlt.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Im Linzer Industriegebiet-Hafen wurden weitere mit Legionellen kontaminierte Kühltürme identifiziert, die nicht der Linz AG gehören.",
+        "kind": "fact"
+      },
+      {
+        "text": "Insgesamt sind im Zuge des Ausbruchs bislang 32 Menschen erkrankt, drei sind gestorben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Staatsanwaltschaft Linz ermittelt gegen unbekannt wegen fahrlässiger Tötung.",
+        "kind": "fact"
+      },
+      {
+        "text": "Seit Anfang September wurden keine weiteren Erkrankungsfälle gemeldet, die betroffenen Anlagen wurden gereinigt und desinfiziert.",
+        "kind": "fact"
+      },
+      {
+        "text": "Offen bleibt unter anderem, wem die neu entdeckten Kühltürme gehören und wie sich die Infektionsquelle bei den übrigen Erkrankten lückenlos nachvollziehen lässt.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wem gehören die neu identifizierten Kühltürme im Industriegebiet-Hafen, und welche Rolle spielte der Betrieb bislang in den Ermittlungen?",
+      "Wie genau verlief der zeitliche Ablauf des Ausbruchs seit Mitte Juli, und wann wurden die Proben aus dem Hafengebiet genau gezogen?",
+      "Wie weit sind die staatsanwaltschaftlichen Ermittlungen wegen fahrlässiger Tötung fortgeschritten, und welche nächsten Schritte sind geplant?",
+      "Wie lässt sich die Infektionsquelle bei den drei Erkrankten klären, deren Bakterienstamm nicht mit dem der Linz-AG-Kühltürme übereinstimmt?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Oberösterreich",
+        "type": "media",
+        "url": "https://ooe.orf.at/stories/3372512"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000341179/legionellen-in-linz-weitere-kontaminierte-k252hlt252rme-gefunden"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/chronik/oberoesterreich/legionellen-linz-kontamination-kuehltuerme-fund/403193179"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Im Zusammenhang mit dem Legionellenausbruch in Linz sind bislang 32 Personen erkrankt, drei davon gestorben.",
+        "status": "supported",
+        "note": "Übereinstimmend von allen drei Medien berichtet, unter Berufung auf Land Oberösterreich, Stadt Linz und Ages.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Im Linzer Industriegebiet-Hafen wurden weitere kontaminierte Kühltürme identifiziert, die nicht der Linz AG gehören.",
+        "status": "supported",
+        "note": "Kernaussage aller drei Quellen; ORF-Volltext präzisiert die Lage im Hafengebiet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Alle betroffenen Kühlanlagen wurden mittlerweile gereinigt und desinfiziert.",
+        "status": "supported",
+        "note": "Vom Linzer Gesundheitsdirektor laut ORF-Volltext bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Staatsanwaltschaft Linz ermittelt gegen unbekannte Täter wegen fahrlässiger Tötung.",
+        "status": "supported",
+        "note": "Von allen drei Medien berichtet; die Stadt Linz hat den Sachverhalt an die Justiz übergeben.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Seit Anfang September wurden in Linz keine weiteren Legionellen-Erkrankungsfälle gemeldet.",
+        "status": "supported",
+        "note": "Von ORF und Der Standard übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Von vier sequenzierten Humanisolaten stimmte nur eines mit dem Bakterienstamm der Linz-AG-Kühltürme überein, bei den übrigen drei Erkrankten ließ sich keine eindeutige Verbindung herstellen.",
+        "status": "partial",
+        "note": "Dieses Detail zur Schwierigkeit der Quellensuche findet sich nur im ORF-Volltext, nicht in den anderen beiden Cluster-Quellen bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Im Zusammenhang mit dem Legionellenausbruch im Großraum Linz wurden weitere kontaminierte Kühltürme entdeckt. Sie befinden sich im Linzer Industriegebiet-Hafen und gehören, anders als die zuvor identifizierte Anlage an der Wiener Straße, nicht der Linz AG. Insgesamt sind im Zuge des Ausbruchs, der laut Berichten Mitte Juli begann, bislang 32 Personen erkrankt, drei von ihnen sind gestorben. Die neu gefundenen Anlagen wurden nach Angaben der Behörden bereits gereinigt und desinfiziert."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Suche nach den genauen Infektionsquellen gestaltet sich laut übereinstimmenden Berichten schwierig. Nur bei vier erkrankten Personen ließ sich der Erreger aus einer menschlichen Probe sequenzieren – ein sogenanntes Humanisolat. Lediglich in einem Fall stimmte der nachgewiesene Bakterienstamm mit jenem in den Kühltürmen der Linz AG überein, bei den übrigen drei Personen konnte keine eindeutige Verbindung zu einer bestimmten Anlage hergestellt werden. Seit Anfang September sind laut Land Oberösterreich, Stadt Linz und Ages keine neuen Erkrankungsfälle mehr aufgetreten, was auf eine vorläufige Stabilisierung der Lage hindeutet."
+      },
+      {
+        "heading": "Ermittlungen der Staatsanwaltschaft",
+        "markdown": "Die Stadt Linz hat den bisherigen Sachverhalt an die Justiz weitergegeben. Die Staatsanwaltschaft Linz hat daraufhin Ermittlungen wegen fahrlässiger Tötung gegen unbekannte Täter eingeleitet. Berichte zu konkreten Verdächtigen oder einem bestimmten Betrieb als Beschuldigtem liegen bislang nicht vor – die Ermittlungen richten sich ausdrücklich gegen unbekannt."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wem die neu identifizierten Kühltürme im Hafengebiet gehören und welche Rolle der jeweilige Betrieb im weiteren Verfahren spielen könnte. Auch der genaue zeitliche Ablauf des Ausbruchs seit Mitte Juli sowie das Ausmaß der Kontamination sind aus den vorliegenden Berichten nicht im Detail ersichtlich. Ebenso unklar bleibt, wie die Behörden bei den drei Erkrankten ohne eindeutigen Bakterienstamm-Abgleich weiter nach der Infektionsquelle suchen wollen, und welchen Stand die staatsanwaltschaftlichen Ermittlungen konkret haben."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fund weiterer kontaminierter Anlagen zeigt, dass die behördliche Suche nach Infektionsquellen auch rund zwei Monate nach Beginn des Ausbruchs andauert, obwohl seit Anfang September keine neuen Erkrankungen mehr gemeldet wurden. Die Kombination aus einer laufenden Gefahrenabwehr durch Reinigung und Desinfektion sowie einem parallel laufenden strafrechtlichen Ermittlungsverfahren wegen fahrlässiger Tötung macht deutlich, dass sowohl die gesundheitliche als auch die rechtliche Aufarbeitung des Falls noch nicht abgeschlossen ist."
+      }
+    ],
+    "bodyKompakt": "Im Zusammenhang mit dem Legionellenausbruch im Großraum Linz wurden weitere kontaminierte Kühltürme entdeckt, diesmal im Industriegebiet-Hafen. Sie gehören, anders als eine zuvor identifizierte Anlage an der Wiener Straße, nicht der Linz AG. Insgesamt sind bislang 32 Personen erkrankt, drei sind gestorben. Die neu gefundenen Anlagen wurden nach Behördenangaben bereits gereinigt und desinfiziert.\n\nDie Suche nach den genauen Infektionsquellen gestaltet sich schwierig: Nur bei vier Erkrankten ließ sich der Erreger aus einer menschlichen Probe sequenzieren, nur einmal stimmte der Stamm mit jenem der Linz-AG-Kühltürme überein. Seit Anfang September wurden keine neuen Fälle mehr gemeldet.\n\nDie Stadt Linz hat den Sachverhalt an die Justiz übergeben, die Staatsanwaltschaft Linz ermittelt wegen fahrlässiger Tötung gegen unbekannte Täter. Wem die neuen Kühltürme gehören und wie weit die Ermittlungen fortgeschritten sind, ist aus den vorliegenden Berichten nicht ersichtlich.",
+    "updateNote": null,
+    "pendingOutcome": null
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-25T00:07:34.503Z"
+}
