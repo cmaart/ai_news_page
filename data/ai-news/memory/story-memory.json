@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26T00:19:14.947Z",
+  "updatedAt": "2026-09-26T02:20:26.244Z",
   "stories": {
     "auszeit-wg-wien-gericht-anhaltung-august-2026": {
       "canonicalTitle": "„Auszeit-WG“: Stadt Wien veröffentlicht Konzept und gibt dabei irrtümlich Adresse preis, Gerichtsverfahren zu Freiheitsbeschränkungen weiter nicht rechtskräftig",
@@ -1470,34 +1470,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-28T10:07:42.566Z"
-    },
-    "oeffentliche-beschaffung-neuausrichtung-hattmannsdorfer-august-2026": {
-      "canonicalTitle": "Regierung will öffentliche Beschaffung von 67 Milliarden Euro auf Europa ausrichten",
-      "slug": "oeffentliche-beschaffung-neuausrichtung-hattmannsdorfer-august-2026",
-      "firstSeenAt": "2026-08-27T02:07:32.012Z",
-      "lastUpdatedAt": "2026-08-27T02:07:32.012Z",
-      "status": "published",
-      "articlePath": "src/content/articles/oeffentliche-beschaffung-neuausrichtung-hattmannsdorfer-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-27/oeffentliche-beschaffung-neuausrichtung-hattmannsdorfer-august-2026.json",
-      "sourceUrls": [
-        "https://www.kleinezeitung.at/artikel/41205611/67-milliarden-euro-regierung-will-staatsauftraege-neu-ausrichten",
-        "https://www.diepresse.com/41204040/67-milliarden-euro-regierung-will-staatsauftraege-neu-ausrichten-doch-das-koennte-teurer-werden",
-        "https://orf.at/stories/3440288",
-        "https://www.sn.at/wirtschaft/oesterreich/oeffentliche-vergaben-sollen-austro-europaeischer-werden-art-669626"
-      ],
-      "openQuestions": [
-        "Wie hoch werden die Mehrkosten durch stärkere „Made in Europe“-Kriterien in der öffentlichen Beschaffung konkret ausfallen?",
-        "Welche genauen Änderungen im Vergabe- und Förderrecht sind für den angekündigten Leitfaden vorgesehen, und wann liegt er vor?",
-        "Wie reagieren Bundesländer, Wirtschaftsverbände und Opposition auf die angekündigte Neuausrichtung?",
-        "Wie groß ist der tatsächliche Anteil chinesischer und anderer außereuropäischer Zulieferer entlang der Lieferketten bei aktuellen österreichischen Vergaben?"
-      ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-08-28T02:07:32.012Z",
-      "doNotUpdateBefore": "2026-08-27T08:07:32.012Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-30T04:07:28.061Z"
     },
     "quetschies-zucker-studie-baby-nahrung-august-2026": {
       "canonicalTitle": "Britische Studie: Viele Baby-Quetschbeutel enthalten mehr Zucker als Muttermilch",
@@ -16415,8 +16387,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-25T20:07:32.610Z",
       "doNotUpdateBefore": "2026-09-25T02:07:32.610Z",
-      "pendingOutcome": "Offen bleiben insbesondere: ob Peseschkian tatsächlich aus New York nach Teheran zurückfliegen konnte oder die USA die Betankung verweigerten, ob es zu einem direkten Treffen zwischen Trump und Peseschkian kam, wie Iran offiziell auf das Sieben-Punkte-Paket, die Flugblockade-Ankündigung und Netanyahus UN-Rede reagiert, sowie ob und wann es zu einem Abkommen zwischen den USA und Iran kommt.",
-      "pendingOutcomeUntil": "2026-09-26T00:07:36.506Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -17968,8 +17938,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-25T00:07:36.506Z",
       "doNotUpdateBefore": "2026-09-24T06:07:36.506Z",
-      "pendingOutcome": "Offen ist, ob Israel und die Hamas dem Wiederaufbauplan zustimmen, welche Staaten die 2,45 Milliarden Dollar finanzieren und ob die Verhandlungen zwischen Friedensrat und Israel trotz der bevorstehenden israelischen Wahl vorankommen.",
-      "pendingOutcomeUntil": "2026-09-26T00:07:36.506Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -19103,11 +19071,13 @@
       "pendingOutcomeUntil": "2026-09-27T20:07:31.112Z",
       "echoPublishers": {
         "derstandard": "2026-09-25T20:07:35.576Z",
-        "kurier": "2026-09-25T22:07:31.540Z"
+        "kurier": "2026-09-25T22:07:31.540Z",
+        "orf": "2026-09-26T02:07:31.642Z",
+        "kleinezeitung": "2026-09-26T02:07:33.775Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-25T20:07:31.112Z"
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-26T02:07:30.181Z"
     },
     "putin-kein-kampf-mit-europa-september-2026": {
       "canonicalTitle": "Putin: Russland bereite sich nicht auf einen Kampf mit Europa vor",
@@ -19371,6 +19341,104 @@
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-26T00:07:34.144Z"
+    },
+    "google-project-suncatcher-ki-chips-weltraum-test-oktober-2026": {
+      "canonicalTitle": "Google schickt vier KI-Chips ins All: Testsatellit für Project Suncatcher startet am 1. Oktober",
+      "slug": "google-project-suncatcher-ki-chips-weltraum-test-oktober-2026",
+      "firstSeenAt": "2026-09-26T02:07:30.181Z",
+      "lastUpdatedAt": "2026-09-26T02:07:30.181Z",
+      "status": "published",
+      "articlePath": "src/content/articles/google-project-suncatcher-ki-chips-weltraum-test-oktober-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-26/google-project-suncatcher-ki-chips-weltraum-test-oktober-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/wirtschaft/rechenzentren-google-all-ki-chips/403193274",
+        "https://www.heise.de/news/Rechenzentren-im-All-Google-will-Satellit-mit-vier-KI-Beschleunigern-starten-11464879.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://www.diepresse.com/41294902/rechenzentren-im-all-google-schickt-ki-chips-in-den-orbit",
+        "https://blog.google/innovation-and-ai/technology/research/google-project-suncatcher/",
+        "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+      ],
+      "openQuestions": [
+        "Verläuft der für 1. Oktober 2026 geplante Start mit der SpaceX-Rakete wie vorgesehen, und funktioniert der Satellit im All wie erwartet?",
+        "Welche konkrete Rolle übernimmt der als Baupartner genannte Satellitenbetreiber Planet bei Bau und Betrieb des Satelliten?",
+        "Wie belastbar erweist sich das neu entwickelte Kühlsystem im realen Dauerbetrieb über die geplante fünfjährige Einsatzzeit?",
+        "Werden die für 2027 angekündigten Laserverbindungs-Testsatelliten tatsächlich wie geplant gestartet?",
+        "Wie wirtschaftlich sind Weltraum-Rechenzentren angesichts der bislang sehr geringen Testleistung von rund einem Kilowatt im Vergleich zu terrestrischen Anlagen tatsächlich?",
+        "Wie reagieren Konkurrenten wie Amazon und SpaceX konkret auf die ersten Testergebnisse von Google?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-09-27T02:07:30.181Z",
+      "doNotUpdateBefore": "2026-09-26T08:07:30.181Z",
+      "pendingOutcome": "Ergebnis des für 1. Oktober 2026 geplanten Satellitenstarts sowie erste Testdaten zu Strahlung und Kühlung aus dem tatsächlichen Orbitbetrieb.",
+      "pendingOutcomeUntil": "2026-09-28T02:07:30.181Z",
+      "echoPublishers": {
+        "kurier": "2026-09-25T08:07:35.234Z",
+        "diepresse": "2026-09-25T06:07:32.216Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-26T02:07:30.181Z"
+    },
+    "messerattacke-radfeld-september-2026": {
+      "canonicalTitle": "Messerattacke in Radfeld: Mann bei Streit auf Parkplatz schwer verletzt",
+      "slug": "messerattacke-radfeld-september-2026",
+      "firstSeenAt": "2026-09-26T02:07:30.181Z",
+      "lastUpdatedAt": "2026-09-26T02:07:30.181Z",
+      "status": "published",
+      "articlePath": "src/content/articles/messerattacke-radfeld-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-26/messerattacke-radfeld-september-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/tirol/gewaltdelikt-radfeld-verletzter-polizei-festnahme/403193480",
+        "https://tirol.orf.at/stories/3372588"
+      ],
+      "openQuestions": [
+        "Was war der genaue Hintergrund und das Motiv der Auseinandersetzung?",
+        "Wie wird die Tat strafrechtlich qualifiziert, und wird Anklage erhoben?",
+        "Wie ist der aktuelle Gesundheitszustand des Opfers nach der Operation?",
+        "Wie hat sich der Beschuldigte bei seiner für Freitag angekündigten Einvernahme geäußert?",
+        "Worin genau bestehen die von der Polizei angedeuteten familiären Streitigkeiten?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-27T02:07:30.181Z",
+      "doNotUpdateBefore": "2026-09-26T08:07:30.181Z",
+      "pendingOutcome": "Ergebnis der angekündigten Einvernahme des Beschuldigten sowie mögliche strafrechtliche Qualifikation der Tat durch die Staatsanwaltschaft.",
+      "pendingOutcomeUntil": "2026-09-28T02:07:30.181Z",
+      "echoPublishers": {
+        "kurier": "2026-09-25T12:07:46.420Z",
+        "orf": "2026-09-25T08:07:34.965Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-26T02:07:30.181Z"
+    },
+    "graz-oeverseepark-kind-mutter-teich-rettung-september-2026": {
+      "canonicalTitle": "Grazer Passant rettet Kind und Mutter aus Teich im Oeverseepark",
+      "slug": "graz-oeverseepark-kind-mutter-teich-rettung-september-2026",
+      "firstSeenAt": "2026-09-26T02:07:30.181Z",
+      "lastUpdatedAt": "2026-09-26T02:07:30.181Z",
+      "status": "published",
+      "articlePath": "src/content/articles/graz-oeverseepark-kind-mutter-teich-rettung-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-26/graz-oeverseepark-kind-mutter-teich-rettung-september-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/steiermark/bub-graz-teich-rettung-passant/403193309",
+        "https://www.diepresse.com/41295263/bub-stuerzt-in-grazer-teich-passant-rettet-kind-und-mutter",
+        "https://www.kleinezeitung.at/artikel/41295086/bub-2-stuerzte-in-grazer-teich-auch-mama-beinahe-ertrunken"
+      ],
+      "openQuestions": [
+        "Wer ist der Passant, der Kind und Mutter aus dem Teich gezogen hat, und wurde er behördlich oder öffentlich gewürdigt?",
+        "Gab es bei Mutter oder Kind einen Spitalsaufenthalt oder weitere medizinische Nachsorge?",
+        "Zieht der Vorfall Konsequenzen für die Absicherung des Teichs im Oeverseepark nach sich, etwa zusätzliche Warnhinweise oder bauliche Maßnahmen?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-27T02:07:30.181Z",
+      "doNotUpdateBefore": "2026-09-26T08:07:30.181Z",
+      "echoPublishers": {
+        "kurier": "2026-09-25T10:07:40.134Z",
+        "diepresse": "2026-09-25T08:07:35.698Z",
+        "kleinezeitung": "2026-09-25T08:07:37.405Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-26T02:07:30.181Z"
     }
   }
 }
