@@ -1,0 +1,182 @@
+{
+  "cluster": {
+    "id": "cluster-20260926-a41cb301",
+    "title": "Meta droht wegen Cambridge Analytica neue Milliardenstrafe",
+    "items": [
+      {
+        "itemId": "ae97aa3c49b75b022d9808d9c30925413820d277dfa401773890a9616c76c2f8",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Meta droht wegen Cambridge Analytica neue Milliardenstrafe",
+        "url": "https://www.heise.de/news/Meta-droht-wegen-Cambridge-Analytica-neue-Milliardenstrafe-11467008.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "summary": "Der Skandal um Cambridge Analytica erschütterte einst das Vertrauen in Facebook. Im Nachgang führt der Fall nun zu einem neuen Urteil gegen den Meta-Konzern.",
+        "publishedAt": "2026-09-26T13:18:00.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "86bfb7678d90f81ecf7127dfb93c72db9539f08585c6f8c9424d64c80d7eb586",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Cambridge-Analytica-Skandal: Meta verlor Prozess",
+        "url": "https://orf.at/stories/3443285",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substantielles neues Ereignis: Geschworenengericht in New Mexico (Santa Fe) spricht Meta schuldig, Datenschutz-Täuschung in Cambridge-Analytica-Affäre zu belegen; Geldbuße bis zu Milliarden-Höhe droht. Breite Berichterstattung (Heise, ORF) mit konkreten Zahlen (bis zu 5.000 USD pro Verstoß, 1,3–2,1 Mio. Verstöße). Sachlich unterscheidet sich dieses Verfahren vom Jugendschutz-Vergleich Aug. 2026 (andere Vorwürfe, anderer Prozesstyp). Relevanz für internationale Datenschutz- und Meta-Regulierungsdebatte.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Geschworenengericht in Santa Fe, New Mexico, entschied am 25. September 2026, dass Meta Nutzer über Datenschutz täuschte.",
+      "Pro Datenschutz-Verstoß droht Meta eine Strafe von bis zu 5.000 US-Dollar.",
+      "Die Geschworenen fanden Meta bei den meisten der 34 Anklage-Punkte haftbar mit insgesamt 1,3 bis 2,1 Millionen festgestellten Verstößen.",
+      "Der Cambridge-Analytica-Skandal 2018 betraf etwa 87 Millionen Facebook-Nutzer.",
+      "Meta zahlte nach dem Cambridge-Analytica-Skandal etwa 6 Milliarden Dollar an die US-Regierung.",
+      "Whistleblower-Berichte enthüllten, dass prominente Accounts heimlich von Inhaltsregeln ausgenommen wurden."
+    ],
+    "missingSources": [
+      "Offizielle Gerichtsentscheidung oder Pressemitteilung des New Mexico District Court",
+      "Vollständige Meta-Stellungnahme (nur Reaktion zitiert)",
+      "Expertenprognose für konkrete Höhe der Geldbuße",
+      "Details der Geschworenen-Begründung zu den 34 Anklage-Punkten",
+      "Vergleich zu vorherigen Meta-Settlements (FTC 2019, Jugendschutz 2026)"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "meta-cambridge-analytica-geschworenenurteil-september-2026",
+    "title": "Cambridge-Analytica-Affäre: Geschworenengericht befindet Meta wegen Datenschutz-Täuschung für haftbar",
+    "description": "Ein Geschworenengericht in Santa Fe, New Mexico, hat Meta im Zusammenhang mit dem Cambridge-Analytica-Skandal für haftbar befunden, Nutzer über den Schutz ihrer Daten getäuscht zu haben. Dem Konzern droht nun eine Geldbuße in Milliardenhöhe, über deren genaue Summe ein Richter noch entscheiden muss.",
+    "topic": "technologie",
+    "country": "int",
+    "confidence": "medium",
+    "confidenceNote": "Zwei voneinander unabhängige Medien (Heise, ORF) berichten übereinstimmend über den Geschworenenspruch, keines davon ist jedoch die Gerichtsentscheidung selbst oder eine Agenturmeldung mit Primärquellenbezug.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine selbst gelesene Gerichtsentscheidung oder offizielle Mitteilung vor, nur Medienberichte, die sich teils auf Bloomberg und US-Medien stützen.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Metas Gegenposition ist nur über eine kurze, von Heise wiedergegebene Stellungnahme bekannt, nicht über eine direkt eingesehene Quelle.",
+    "sensitivity": "medium",
+    "summary": [
+      {
+        "text": "Ein Geschworenengericht in Santa Fe, New Mexico, hat Meta für haftbar befunden, Nutzer im Zuge der Cambridge-Analytica-Affäre über den Schutz ihrer Daten getäuscht zu haben.",
+        "kind": "fact"
+      },
+      {
+        "text": "Pro festgestelltem Verstoß droht eine Strafe von bis zu 5.000 US-Dollar; laut Berichten wurden bei den meisten der 34 Fragen jeweils 1,3 bis 2,1 Millionen Verstöße festgestellt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die konkrete Höhe der Geldbuße muss noch der zuständige Richter festlegen.",
+        "kind": "open"
+      },
+      {
+        "text": "Meta kündigte an, die Entscheidung nicht zu akzeptieren und sich weiter gegen die Vorwürfe zu verteidigen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der zugrundeliegende Skandal betraf 2018 rund 87 Millionen Facebook-Nutzerkonten und führte bereits zu einer rund sechs Milliarden Dollar schweren Einigung mit der US-Regierung.",
+        "kind": "fact"
+      }
+    ],
+    "openQuestions": [
+      "Wie hoch wird die vom Richter letztlich festgesetzte Geldstrafe ausfallen, und wann ist mit dieser Entscheidung zu rechnen?",
+      "Wird Meta gegen das Urteil Berufung einlegen, und mit welcher Begründung im Detail?",
+      "Welche genauen Inhalte hatten die 34 dem Geschworenengericht vorgelegten Fragen, und wie began deten die Geschworenen ihre Haftbarkeits-Entscheidung im Detail?",
+      "Wie verhält sich dieses New-Mexico-Verfahren rechtlich und zeitlich zum separaten Jugendschutz-Vergleich vom August 2026 sowie zu weiteren laufenden Meta-Verfahren?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "heise online",
+        "type": "media",
+        "url": "https://www.heise.de/news/Meta-droht-wegen-Cambridge-Analytica-neue-Milliardenstrafe-11467008.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3443285"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Ein Geschworenengericht in Santa Fe, New Mexico, entschied, dass Meta Nutzer über den Schutz ihrer Daten und die Redefreiheit auf der Plattform getäuscht hat.",
+        "status": "supported",
+        "note": "Von zwei unabhängigen Medien (Heise, ORF) übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Pro festgestelltem Verstoß droht Meta eine Strafe von bis zu 5.000 US-Dollar, wobei die Geschworenen bei den meisten der 34 gestellten Fragen jeweils 1,3 bis 2,1 Millionen Verstöße feststellten.",
+        "status": "partial",
+        "note": "Beruht laut Heise auf einem Bloomberg-Bericht aus dem Gerichtssaal; nicht durch eine zweite unabhängige Quelle mit denselben Details bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Der Cambridge-Analytica-Skandal von 2018 betraf die Daten von rund 87 Millionen Facebook-Nutzerkonten.",
+        "status": "supported",
+        "note": "Von beiden Quellen übereinstimmend genannt.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Meta zahlte im Nachgang des Skandals rund sechs Milliarden Dollar an die US-Regierung, um Ermittlungen beizulegen.",
+        "status": "partial",
+        "note": "Nur von einer Quelle genannt, nicht durch eine zweite bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Meta erklärte, mit der Entscheidung der Geschworenen nicht einverstanden zu sein und sich weiter gegen die Vorwürfe verteidigen zu wollen.",
+        "status": "supported",
+        "note": "Von Heise als Stellungnahme des Unternehmens wiedergegeben.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Ein Geschworenengericht im US-Bundesstaat New Mexico hat Meta in einem Zivilprozess für haftbar befunden, Facebook-Nutzerinnen und -Nutzer über den Schutz ihrer Daten getäuscht zu haben. Die Jury im Bundesstaatsgericht in Santa Fe entschied nach Angaben von US-Medien, dass der Konzern irreführende Angaben darüber gemacht hatte, wie persönliche Nutzerdaten mit Anwendungen von Drittanbietern geteilt wurden. Der Fall geht auf eine Klage zurück, die New Mexico 2021 im Nachgang des Cambridge-Analytica-Skandals eingebracht hatte, wobei neben Datenschutz auch Fragen der Meinungsfreiheit auf der Plattform eine Rolle spielten."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Sowohl heise online als auch ORF.at berichten übereinstimmend, dass die Geschworenen Meta bei der überwiegenden Mehrheit der insgesamt 34 verhandelten Fragen für haftbar hielten. Laut einem von heise zitierten Bloomberg-Bericht aus dem Gerichtssaal geht es dabei um jeweils 1,3 bis 2,1 Millionen festgestellte Verstöße, für die eine Strafe von bis zu 5.000 US-Dollar pro Verstoß möglich ist – daraus ergäbe sich rechnerisch ein potenziell sehr hoher Gesamtbetrag, dessen endgültige Höhe aber erst der zuständige Richter, laut ORF Francis Mathew, festlegen muss. Meta selbst reagierte laut heise mit dem Hinweis, man sei mit der Entscheidung nicht einverstanden und berufe sich auf verfassungsrechtlich geschützte Rechte, die Plattform im Sinne der Nutzer zu betreiben."
+      },
+      {
+        "heading": "Vorgeschichte des Falls",
+        "markdown": "Der Skandal um die inzwischen aufgelöste britische Beratungsfirma Cambridge Analytica wurde im März 2018 bekannt. Medien in Großbritannien und den USA deckten damals auf, dass die Firma Daten von rund 87 Millionen Facebook-Nutzerkonten ausgewertet hatte, ohne dass die Betroffenen zugestimmt hatten – gewonnen unter anderem über eine als harmlose Umfrage getarnte App eines Datenforschers. Die Daten sollen laut den Quellen auch von Wahlkampfberatern genutzt worden sein, um die US-Präsidentschaftswahl 2016 sowie das Brexit-Referendum im selben Jahr zu beeinflussen. Meta zahlte im Zuge der Aufarbeitung bereits rund sechs Milliarden Dollar an die US-Regierung, um behördliche Ermittlungen beizulegen. Auslöser für das nun entschiedene New-Mexico-Verfahren waren laut heise zusätzliche Enthüllungen, wonach prominente Accounts in einem Whistleblower-Bericht zufolge heimlich von sonst geltenden Plattformregeln ausgenommen worden seien."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist vor allem die konkrete Höhe der Geldstrafe, die erst der zuständige Richter festsetzen muss – die in Medienberichten genannten Zahlen zu Verstößen und Strafrahmen lassen zwar eine Größenordnung erahnen, ergeben aber noch kein rechtskräftiges Urteil über eine Summe. Auch die genauen Inhalte der 34 verhandelten Fragen und die detaillierte Begründung der Geschworenen liegen bislang nicht in einer selbst eingesehenen Quelle vor. Unklar ist zudem, ob und wie Meta gegen die Entscheidung vorgehen wird und wie sich dieses Verfahren zu anderen, zeitlich nahen Meta-Rechtsstreitigkeiten verhält, etwa dem im August 2026 verglichenen Jugendschutz-Verfahren mehrerer US-Bundesstaaten."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine längere Serie rechtlicher Auseinandersetzungen ein, die Meta seit dem Bekanntwerden der Cambridge-Analytica-Affäre 2018 begleiten. Anders als bei dem kürzlich verglichenen Jugendschutz-Verfahren, bei dem sich der Konzern außergerichtlich auf eine Zahlung einigte, ist das New-Mexico-Verfahren durch ein Geschworenenurteil entschieden worden – der nächste Schritt liegt nun bei der Festlegung der Strafhöhe durch den Richter. Für eine abschließende Einordnung der finanziellen und rechtlichen Tragweite fehlen bislang sowohl die gerichtliche Entscheidung selbst als auch eine ausführlichere Stellungnahme des Konzerns."
+      }
+    ],
+    "bodyKompakt": "Ein Geschworenengericht im US-Bundesstaat New Mexico hat Meta in einem Zivilprozess für haftbar befunden, Facebook-Nutzerinnen und -Nutzer über den Schutz ihrer Daten getäuscht zu haben. Die Jury in Santa Fe entschied laut übereinstimmenden Medienberichten, dass der Konzern bei der überwiegenden Mehrheit der 34 verhandelten Fragen haftbar sei – mit jeweils 1,3 bis 2,1 Millionen festgestellten Verstößen, für die eine Strafe von bis zu 5.000 US-Dollar pro Verstoß möglich ist. Die endgültige Höhe der Geldbuße muss aber erst der zuständige Richter festlegen.\n\nDer zugrundeliegende Cambridge-Analytica-Skandal war 2018 bekannt geworden: Die Daten von rund 87 Millionen Facebook-Nutzerkonten waren ohne Zustimmung ausgewertet und unter anderem im US-Wahlkampf 2016 sowie beim Brexit-Referendum genutzt worden. Meta zahlte damals bereits rund sechs Milliarden Dollar an die US-Regierung. Das nun entschiedene Verfahren geht auf eine 2021 von New Mexico eingebrachte Klage zurück und betraf zusätzlich Vorwürfe zur Meinungsfreiheit auf der Plattform.\n\nMeta erklärte, mit der Entscheidung nicht einverstanden zu sein und sich weiter gegen die Vorwürfe verteidigen zu wollen. Offen bleiben die konkrete Strafhöhe, mögliche Rechtsmittel des Konzerns sowie Details der Geschworenen-Begründung.",
+    "updateNote": null,
+    "pendingOutcome": "Die endgültige Höhe der vom Richter festzusetzenden Geldstrafe gegen Meta."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-26T22:07:30.728Z"
+}
