@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26T12:20:57.281Z",
+  "updatedAt": "2026-09-26T14:21:39.600Z",
   "stories": {
     "auszeit-wg-wien-gericht-anhaltung-august-2026": {
       "canonicalTitle": "„Auszeit-WG“: Stadt Wien veröffentlicht Konzept und gibt dabei irrtümlich Adresse preis, Gerichtsverfahren zu Freiheitsbeschränkungen weiter nicht rechtskräftig",
@@ -1539,65 +1539,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-08-29T14:07:33.824Z"
-    },
-    "mord-jennifer-scharinger-urteil-august-2026": {
-      "canonicalTitle": "Lebenslange Haft für Mord an Jennifer Scharinger",
-      "slug": "mord-jennifer-scharinger-urteil-august-2026",
-      "firstSeenAt": "2026-08-27T14:07:32.843Z",
-      "lastUpdatedAt": "2026-08-27T14:07:32.843Z",
-      "status": "published",
-      "articlePath": "src/content/articles/mord-jennifer-scharinger-urteil-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-27/mord-jennifer-scharinger-urteil-august-2026.json",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000336756/lebenslange-haft-fuer-mord-an-jennifer-scharinger",
-        "https://www.diepresse.com/41206885/lebenslange-haft-im-mordfall-jennifer-scharinger-angeklagter-habe-ihr-den-hals-zugedrueckt",
-        "https://www.derstandard.at/story/3000000337079/strafgericht-verhandelt-mordfall-der-2018-verschwundenen-jennifer-scharinger",
-        "https://kurier.at/chronik/wien/jennifer-scharinger-prozess-live-ticker/403186498",
-        "https://www.justiz.gv.at/sta-wien/staatsanwaltschaft-wien/medienstelle/pressemitteilungen/staatsanwaltschaft-wien-erhebt-anklage-im-mordfall-jennifer-scharinger.12e2.de.html"
-      ],
-      "openQuestions": [
-        "Legen Verteidigung oder Staatsanwaltschaft Rechtsmittel gegen das nicht rechtskräftige Urteil ein?",
-        "Wie ist die widersprüchliche Angabe zur Vorgeschichte des Verurteilten zu bewerten – eine Quelle bezeichnet ihn als unbescholten, was zum geschilderten Ermittlungsverlauf über Chatnachrichten zur Leichenentsorgung nicht ohne Weiteres passt?",
-        "Was ergab das psychiatrische Sachverständigengutachten im Detail, insbesondere zur Rückfallsgefahr?",
-        "Wie reagierte die Familie von Jennifer Scharinger auf das Urteil?",
-        "Liegt der vollständige Urteilstext des Straflandesgerichts Wien inzwischen vor?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-28T14:07:32.843Z",
-      "doNotUpdateBefore": "2026-08-27T20:07:32.843Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-28T14:07:40.524Z"
-    },
-    "zwoelfjaehrige-vomp-attacke-august-2026": {
-      "canonicalTitle": "Zwölfjährige in Tirol von zwei Mädchen attackiert – eine Verdächtige gefasst",
-      "slug": "zwoelfjaehrige-vomp-attacke-august-2026",
-      "firstSeenAt": "2026-08-27T14:07:32.843Z",
-      "lastUpdatedAt": "2026-08-27T14:07:32.843Z",
-      "status": "published",
-      "articlePath": "src/content/articles/zwoelfjaehrige-vomp-attacke-august-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-27/zwoelfjaehrige-vomp-attacke-august-2026.json",
-      "sourceUrls": [
-        "https://www.kleinezeitung.at/artikel/41208275/zwoelfjaehrige-in-tirol-von-teenagerinnen-brutal-attackiert",
-        "https://tirol.orf.at/stories/3368651",
-        "https://www.derstandard.at/story/3000000337219/zw246lfj228hrige-in-tirol-von-teenagern-brutal-attackiert",
-        "https://kurier.at/chronik/tirol/zwoelfjaehrige-tirol-attacke-teenager/403186655",
-        "https://www.tt.com/artikel/30940996/gegen-den-kopf-getreten-und-mit-messer-bedroht-maedchen-maltraetierten-zwoelfjaehrige-in-vomp"
-      ],
-      "openQuestions": [
-        "Wo befindet sich die mutmaßliche 13-jährige Komplizin, und wann wird sie vernommen?",
-        "Was genau war der konkrete Auslöser des vermuteten Racheakts?",
-        "Welche jugendstrafrechtlichen Schritte sind angesichts des Alters der Verdächtigen vorgesehen?",
-        "Worauf stützt sich die vom Kurier berichtete Angabe zur Herkunft der Verdächtigen, und warum nennen andere Medien sie nicht?"
-      ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-08-28T14:07:32.843Z",
-      "doNotUpdateBefore": "2026-08-27T20:07:32.843Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-28T14:07:40.524Z"
     },
     "gewalttat-schule-gosen-neu-zittau-brandenburg-august-2026": {
       "canonicalTitle": "Zwei Tote nach Gewalttat an Schule bei Berlin – Verdächtiger festgenommen",
@@ -15269,10 +15210,13 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-20T20:07:35.134Z",
       "doNotUpdateBefore": "2026-09-20T02:07:35.134Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "orf": "2026-09-26T14:07:32.723Z",
+        "kleinezeitung": "2026-09-26T14:07:36.925Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-20T08:07:37.588Z"
+      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
     },
     "neos-studiengebuehren-hochschulstrategie-2040": {
       "canonicalTitle": "NEOS fordern Verdoppelung der Studiengebühren für Hochschulstrategie 2040",
@@ -16970,7 +16914,6 @@
       "pendingOutcome": "Eine direkte Reaktion aus dem Büro von Ministerpräsident Netanjahu, eine Stellungnahme der Präsidentschaftskanzlei zu Rosens Mamdani-Kritik sowie die weitere Entwicklung der berichteten FPÖ-Annäherung an Likud stehen weiterhin aus.",
       "pendingOutcomeUntil": "2026-09-27T08:07:32.776Z",
       "echoPublishers": {
-        "derstandard": "2026-09-25T12:07:46.312Z",
         "diepresse": "2026-09-26T08:07:34.486Z",
         "kurier": "2026-09-25T14:07:36.016Z",
         "kleinezeitung": "2026-09-25T16:08:12.057Z",
@@ -17214,9 +17157,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-24T22:07:38.506Z",
       "doNotUpdateBefore": "2026-09-24T04:07:38.506Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-09-25T12:07:48.269Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-25T00:07:34.503Z"
@@ -18242,10 +18183,8 @@
       "pendingOutcome": "Wie sich der Amazon-Streit um den Shop-Zugriff entwickelt, ob eine unabhängige Sicherheitsbewertung der vollen Dateisystem-Freigabe erfolgt, ob Meta jemals eigene Nutzerzahlen veröffentlicht und wann Preis sowie Marktstart von Muse Charm und Smart-Glasses-Integration konkret werden, bleibt offen.",
       "pendingOutcomeUntil": "2026-09-27T10:07:35.812Z",
       "echoPublishers": {
-        "theverge": "2026-09-25T18:07:40.772Z",
+        "theverge": "2026-09-26T14:07:35.615Z",
         "techcrunch": "2026-09-25T22:07:32.182Z",
-        "heise": "2026-09-25T12:07:47.576Z",
-        "thedecoder": "2026-09-25T12:07:48.508Z",
         "arstechnica": "2026-09-25T20:07:35.766Z"
       },
       "resonanceLevel": 5,
@@ -18277,14 +18216,10 @@
       "doNotUpdateBefore": "2026-09-25T02:07:32.610Z",
       "pendingOutcome": "Ergebnis der laufenden Sozialplan-Verhandlungen zwischen Ardo und dem Betriebsrat sowie eine mögliche Festlegung des neuen Vertriebsstandorts in der Region Wien.",
       "pendingOutcomeUntil": "2026-09-26T20:07:32.610Z",
-      "echoPublishers": {
-        "derstandard": "2026-09-25T12:07:48.067Z",
-        "kurier": "2026-09-25T12:07:45.975Z",
-        "apa": "2026-09-25T12:07:45.491Z"
-      },
-      "resonanceLevel": 5,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-25T12:07:42.337Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
     },
     "netanyahu-uno-rede-voelkermord-vorwurf-september-2026": {
       "canonicalTitle": "Netanyahu nennt Völkermord-Vorwurf bei UNO-Rede „größte Lüge des Jahrhunderts“",
@@ -18571,12 +18506,10 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-26T08:07:32.776Z",
       "doNotUpdateBefore": "2026-09-25T14:07:32.776Z",
-      "echoPublishers": {
-        "orf": "2026-09-25T12:07:44.440Z"
-      },
-      "resonanceLevel": 5,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-25T12:07:42.337Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
     },
     "senioren-bewegungsmangel-meduni-studie-2026": {
       "canonicalTitle": "Nur rund 30 Prozent der Senioren in Österreich sind ausreichend körperlich aktiv",
@@ -18616,15 +18549,16 @@
       "canonicalTitle": "Bogner-Strauß tritt nach acht Jahren als Chefin der ÖVP-Frauen zurück",
       "slug": "bogner-strauss-ruecktritt-oevp-frauen-september-2026",
       "firstSeenAt": "2026-09-25T10:07:35.812Z",
-      "lastUpdatedAt": "2026-09-25T10:07:35.812Z",
+      "lastUpdatedAt": "2026-09-26T14:07:30.933Z",
       "status": "published",
       "articlePath": "src/content/articles/bogner-strauss-ruecktritt-oevp-frauen-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-25/bogner-strauss-ruecktritt-oevp-frauen-september-2026.json",
+      "researchPath": "data/ai-news/research/2026-09-26/bogner-strauss-ruecktritt-oevp-frauen-september-2026-update-1400.json",
       "sourceUrls": [
         "https://www.derstandard.at/story/3000000341371/214vp-bogner-strau223-zieht-sich-als-frauenchefin-zur252ck",
         "https://www.ots.at/presseaussendung/OTS_20260925_OTS0056/bogner-strauss-legt-bundesleitung-der-oevp-frauen-zurueck",
         "https://kurier.at/politik/inland/bogner-strauss-oevp-frauenchefin-falkner-ruecktritt/403193416",
-        "https://www.kleinezeitung.at/artikel/41295689/bogner-strauss-zieht-sich-als-oevp-frauenchefin-zurueck"
+        "https://www.kleinezeitung.at/artikel/41295689/bogner-strauss-zieht-sich-als-oevp-frauenchefin-zurueck",
+        "https://www.kleinezeitung.at/artikel/41298457/jay-z-frau-zieht-vergewaltigungsvorwurf-zurueck"
       ],
       "openQuestions": [
         "Wann genau findet der von Falkner angekündigte Bundestag zur Wahl einer neuen Bundesleiterin statt?",
@@ -18633,9 +18567,9 @@
         "Was genau war der unmittelbare Anlass für den Zeitpunkt des Rücktritts?"
       ],
       "sensitivity": "low",
-      "doNotRedraftBefore": "2026-09-26T10:07:35.812Z",
-      "doNotUpdateBefore": "2026-09-25T16:07:35.812Z",
-      "pendingOutcome": "Wahl einer neuen ÖVP-Frauen-Bundesleiterin beim von Falkner angekündigten Bundestag.",
+      "doNotRedraftBefore": "2026-09-27T14:07:30.933Z",
+      "doNotUpdateBefore": "2026-09-26T20:07:30.933Z",
+      "pendingOutcome": "Wer die Nachfolge als Bundesleiterin der ÖVP-Frauen antritt und wann der von Falkner angekündigte Bundestag zur Wahl stattfindet, ist weiterhin offen.",
       "pendingOutcomeUntil": "2026-09-27T10:07:35.812Z",
       "echoPublishers": {
         "apa": "2026-09-25T14:07:35.428Z",
@@ -18668,9 +18602,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-26T10:07:35.812Z",
       "doNotUpdateBefore": "2026-09-25T16:07:35.812Z",
-      "echoPublishers": {
-        "kurier": "2026-09-25T12:07:45.961Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-26T12:07:30.303Z"
@@ -18709,13 +18641,13 @@
       "resonanceMeasuredAt": "2026-09-26T12:07:30.303Z"
     },
     "spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026": {
-      "canonicalTitle": "Zeiler macht Kandidatur offiziell: Doskozil lehnt weiteren \"linken\" SPÖ-Chef explizit ab, Babler hüllt sich zunächst in Schweigen",
+      "canonicalTitle": "Zeiler macht Kandidatur offiziell: Babler sieht „klaren Auftrag“ und will bleiben, Doskozil bleibt ablehnend",
       "slug": "spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026",
       "firstSeenAt": "2026-09-25T18:07:34.282Z",
-      "lastUpdatedAt": "2026-09-26T06:07:30.588Z",
+      "lastUpdatedAt": "2026-09-26T14:07:30.933Z",
       "status": "published",
       "articlePath": "src/content/articles/spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-26/spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026-update-600.json",
+      "researchPath": "data/ai-news/research/2026-09-26/spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026-update-1400.json",
       "sourceUrls": [
         "https://kurier.at/politik/inland/gerhard-zeiler-spoe-analyse-andreas-babler/403193667",
         "https://orf.at/stories/3443237",
@@ -18731,35 +18663,46 @@
         "https://www.diepresse.com/41297949/zeiler-will-spoe-chef-werden-babler-laedt-zum-afterwork-drink",
         "https://www.diepresse.com/41296492/kampfansage-an-andreas-babler-wer-ist-gerhard-zeiler",
         "https://www.oe24.at/a/das-sagt-die-spoe-zentrale-zu-zeilers-kampfansage-900118412",
-        "https://www.derstandard.at/story/3000000341440/zeiler-fordert-babler-heraus-steht-die-spoe-vor-einem-internen-wahlkampf"
+        "https://www.derstandard.at/story/3000000341440/zeiler-fordert-babler-heraus-steht-die-spoe-vor-einem-internen-wahlkampf",
+        "https://www.diepresse.com/41299210/hans-niessl-gerhard-zeiler-ist-musterbeispiel-fuer-aufstieg-durch-leistung",
+        "https://www.diepresse.com/41296492/gerhard-zeiler-ein-sir-mit-faible-fuer-die-spoe",
+        "https://www.diepresse.com/41295624/vorsitzwechsel-in-der-spoe-pelinka-kuendigt-an-zeiler-wird-sich-in-den-naechsten-tagen-deklarieren",
+        "https://www.kleinezeitung.at/artikel/41295881/vorsitzwechsel-in-der-spoe-pelinka-kuendigt-an-zeiler-wird-sich-in-den",
+        "https://www.kleinezeitung.at/artikel/41297673/der-millionaer-zeiler-passt-in-das-aufstiegsversprechen-der-spoe",
+        "https://www.derstandard.at/story/3000000341429/gegen-vermoegenssteuern-skeptisch-zur-neutralitaet-fuer-sonntagsoeffnung-womit-zeiler-in-der-spoe-anecken-koennte",
+        "https://www.kleinezeitung.at/artikel/41298666/babler-gibt-erstes-statement-ab",
+        "https://orf.at/stories/3443317",
+        "https://www.derstandard.at/story/3000000341479/babler-will-spoe-chef-bleiben-und-sieht-klaren-auftrag-der-partei-fuer-sich",
+        "https://kurier.at/politik/inland/spoe-andreas-babler-gerhard-zeiler/403194066"
       ],
       "openQuestions": [
-        "Gelingt es Zeiler oder seinen Unterstützern, die statutarisch nötigen zehn Prozent der SPÖ-Mitglieder für einen Mitgliederentscheid zu mobilisieren?",
-        "Wie positioniert sich Andreas Babler inhaltlich und öffentlich zu Zeilers Kandidatur, über die Einladung zum informellen Journalistentreffen hinaus?",
-        "Für welche programmatischen Positionen steht Gerhard Zeiler konkret, abseits der Ankündigung, Parteichef werden zu wollen?",
+        "Gelingt es Zeiler oder seinen Unterstützern, die für eine vorgezogene Vorsitzwahl nötigen rund 12.500 Unterschriften von SPÖ-Mitgliedern zu sammeln?",
+        "Wie positioniert sich Andreas Babler inhaltlich zu Zeilers Ideen und zur Neuausrichtung der Partei, über die Bekräftigung seines Amtsanspruchs hinaus?",
+        "Für welche konkreten programmatischen Positionen steht Gerhard Zeiler tatsächlich, und wie reagiert die SPÖ auf die laut Standard kolportierten Positionen zu Vermögenssteuer, Neutralität und Sonntagsöffnung?",
         "Teilen weitere Landesparteichefs Doskozils explizite Ablehnung eines weiteren \"linken\" Kandidaten, oder bleibt das eine Einzelposition?",
         "Welches Institut hat die kolportierte Umfragezahl von rund 16 Prozent erhoben, und wann genau?",
         "Um welche Person handelt es sich bei dem von der \"Kleinen Zeitung\" zitierten früheren Kärntner SPÖ-Parteichef, und was hat er konkret gesagt?",
         "Ist die von der \"Kleinen Zeitung\" berichtete Skepsis in der steirischen SPÖ eine breitere innerparteiliche Stimmung oder eine Einzelmeinung?",
-        "Kommt es angesichts der gemischten Länderreaktionen überhaupt zu einer formellen Gegenkandidatur, oder bleibt es bei der öffentlichen Ansage?"
+        "Kommt es beim für Oktober 2026 angekündigten Treffen zwischen Doskozil und Zeiler zu einer Annäherung, oder vertieft sich der Konflikt?",
+        "Kommt es angesichts der gemischten Länderreaktionen überhaupt zu einer formellen Gegenkandidatur, oder bleibt es bei der öffentlichen Ansage?",
+        "Entscheidet sich die Partei im Streitfall für eine Mitgliederbefragung oder einen Sonderparteitag mit Kampfabstimmung?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-09-27T06:07:30.588Z",
-      "doNotUpdateBefore": "2026-09-26T12:07:30.588Z",
-      "pendingOutcome": "Ausgang der parteiinternen Auseinandersetzung um den SPÖ-Vorsitz (mögliche Mitgliederbefragung, inhaltliche Reaktion Bablers, Positionierung weiterer Landesparteien) bleibt offen und wird weiterverfolgt.",
+      "doNotRedraftBefore": "2026-09-27T14:07:30.933Z",
+      "doNotUpdateBefore": "2026-09-26T20:07:30.933Z",
+      "pendingOutcome": "Offen bleibt, ob Zeiler die für eine vorgezogene Vorsitzwahl nötigen rund 12.500 Mitgliederunterschriften mobilisieren kann, ob es zu einer formellen Gegenkandidatur kommt und wie sich das für Oktober 2026 angekündigte Treffen zwischen Doskozil und Zeiler auf den innerparteilichen Konflikt auswirkt.",
       "pendingOutcomeUntil": "2026-09-27T18:07:34.282Z",
       "echoPublishers": {
         "kurier": "2026-09-26T12:07:32.388Z",
         "orf": "2026-09-26T12:07:31.746Z",
         "derstandard": "2026-09-26T12:07:31.887Z",
-        "diepresse": "2026-09-26T12:07:32.411Z",
+        "diepresse": "2026-09-26T14:07:34.492Z",
         "kleinezeitung": "2026-09-26T10:07:35.924Z",
-        "apa": "2026-09-25T16:08:10.113Z",
-        "profil": "2026-09-25T12:07:46.952Z"
+        "apa": "2026-09-25T16:08:10.113Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 5,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-26T12:07:30.303Z"
+      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
     },
     "red-bull-dosenwerk-baruth-widerstand-september-2026": {
       "canonicalTitle": "Grüne Liga Brandenburg kündigt neue Klage gegen Red-Bull-Dosenwerk bei Berlin an",
@@ -19089,14 +19032,10 @@
       "doNotUpdateBefore": "2026-09-26T06:07:34.144Z",
       "pendingOutcome": "Ergebnis der angekündigten Untersuchung des gesamten Tierbestands des betroffenen Betriebs im Bezirk Bregenz.",
       "pendingOutcomeUntil": "2026-09-28T00:07:34.144Z",
-      "echoPublishers": {
-        "orf": "2026-09-25T12:07:45.397Z",
-        "derstandard": "2026-09-25T12:07:48.067Z",
-        "kurier": "2026-09-25T12:07:46.420Z"
-      },
-      "resonanceLevel": 3,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-26T00:07:34.144Z"
+      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
     },
     "walsterben-patagonien-september-2026": {
       "canonicalTitle": "Hunderte Walkälber in Patagonien verendet – Bakterielle Infektion als wahrscheinliche Ursache vermutet",
@@ -19183,9 +19122,7 @@
       "doNotUpdateBefore": "2026-09-26T08:07:30.181Z",
       "pendingOutcome": "Ergebnis der angekündigten Einvernahme des Beschuldigten sowie mögliche strafrechtliche Qualifikation der Tat durch die Staatsanwaltschaft.",
       "pendingOutcomeUntil": "2026-09-28T02:07:30.181Z",
-      "echoPublishers": {
-        "kurier": "2026-09-25T12:07:46.420Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-26T10:07:30.721Z"
@@ -19341,12 +19278,11 @@
       "pendingOutcomeUntil": "2026-09-28T06:07:30.588Z",
       "echoPublishers": {
         "orf": "2026-09-26T06:07:32.626Z",
-        "kurier": "2026-09-25T12:07:46.420Z",
         "derstandard": "2026-09-25T14:07:37.115Z"
       },
-      "resonanceLevel": 3,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-26T06:07:30.588Z"
+      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
     },
     "ki-im-elak-bundesverwaltung-september-2026": {
       "canonicalTitle": "KI hält Einzug in den elektronischen Akt der Bundesverwaltung",
@@ -19409,13 +19345,12 @@
       "doNotUpdateBefore": "2026-09-26T14:07:30.788Z",
       "echoPublishers": {
         "kurier": "2026-09-26T06:07:33.514Z",
-        "apa": "2026-09-25T12:07:45.491Z",
         "orf": "2026-09-25T18:07:37.460Z",
         "derstandard": "2026-09-25T18:07:42.245Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-26T08:07:30.788Z"
+      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
     },
     "openai-ki-agenten-nutzerbilder-datenpanne-september-2026": {
       "canonicalTitle": "OpenAI räumt ein: KI-Agenten veröffentlichten 53 Nutzerbilder und griffen auf US-Regierungsseiten zu",
@@ -19514,11 +19449,12 @@
       "doNotUpdateBefore": "2026-09-26T18:07:30.303Z",
       "echoPublishers": {
         "orf": "2026-09-26T12:07:31.786Z",
-        "kleinezeitung": "2026-09-26T12:07:34.281Z"
+        "kleinezeitung": "2026-09-26T12:07:34.281Z",
+        "diepresse": "2026-09-26T14:07:34.346Z"
       },
-      "resonanceLevel": 2,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-26T12:07:30.303Z"
+      "resonanceLevel": 3,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
     },
     "justiz-protestwoche-oktober-2026": {
       "canonicalTitle": "Österreichs Justiz kündigt fünftägige Protestwoche gegen Personalmangel an",
@@ -19554,6 +19490,40 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-26T12:07:30.303Z"
+    },
+    "bauer-staatliche-aufsicht-religionsunterricht-september-2026": {
+      "canonicalTitle": "Integrationsministerin Bauer fordert stärkere staatliche Aufsicht über Religionsunterricht",
+      "slug": "bauer-staatliche-aufsicht-religionsunterricht-september-2026",
+      "firstSeenAt": "2026-09-26T14:07:30.933Z",
+      "lastUpdatedAt": "2026-09-26T14:07:30.933Z",
+      "status": "published",
+      "articlePath": "src/content/articles/bauer-staatliche-aufsicht-religionsunterricht-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-26/bauer-staatliche-aufsicht-religionsunterricht-september-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3443320",
+        "https://www.derstandard.at/story/3000000341482/bauer-will-staerkere-staatliche-aufsicht-ueber-religionsunterricht",
+        "https://kurier.at/politik/inland/bauer-oevp-staatliche-aufsicht-religionsunterricht/403194096",
+        "https://www.kleinezeitung.at/artikel/41298748/bauer-will-staatliche-aufsicht-fuer-religionsunterricht"
+      ],
+      "openQuestions": [
+        "In welcher konkreten gesetzlichen Form und mit welchem Zeitplan will die Regierung die angekündigte „religionsunabhängige Schulaufsicht“ umsetzen?",
+        "Wie viele Eltern melden ihre Kinder tatsächlich vom Religionsunterricht ab, und aus welchen Gründen – gibt es dazu belastbare Daten?",
+        "Wie positionieren sich die Religionsgesellschaften selbst, etwa die Islamische Glaubensgemeinschaft sowie die katholische und evangelische Kirche, zu Bauers Vorstoß?",
+        "Wie reagieren Lehrer-, Schulleitungs- und Elternverbände auf die geplante Ausweitung staatlicher Kontrolle?",
+        "Gibt es eine öffentlich zugängliche, vollständige Aussendung des Integrationsministeriums oder ein konkretes Reformpapier zu diesem Vorhaben?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-27T14:07:30.933Z",
+      "doNotUpdateBefore": "2026-09-26T20:07:30.933Z",
+      "echoPublishers": {
+        "orf": "2026-09-26T14:07:32.723Z",
+        "derstandard": "2026-09-26T12:07:31.887Z",
+        "kurier": "2026-09-26T12:07:32.388Z",
+        "kleinezeitung": "2026-09-26T12:07:34.281Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
     }
   }
 }
