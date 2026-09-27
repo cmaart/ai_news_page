@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T06:19:50.282Z",
+  "updatedAt": "2026-09-27T08:25:19.379Z",
   "stories": {
     "auszeit-wg-wien-gericht-anhaltung-august-2026": {
       "canonicalTitle": "„Auszeit-WG“: Stadt Wien veröffentlicht Konzept und gibt dabei irrtümlich Adresse preis, Gerichtsverfahren zu Freiheitsbeschränkungen weiter nicht rechtskräftig",
@@ -17478,10 +17478,14 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-25T14:07:36.997Z",
       "doNotUpdateBefore": "2026-09-24T20:07:36.997Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-25T16:08:06.104Z"
+      "echoPublishers": {
+        "kleinezeitung": "2026-09-27T08:07:35.557Z",
+        "thedecoder": "2026-09-26T10:07:36.062Z",
+        "derstandard": "2026-09-26T16:07:27.804Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "starlink-sabotage-polen-september-2026": {
       "canonicalTitle": "Polnischer Minister: Brand in Starlink-Station war Sabotage",
@@ -17836,8 +17840,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-26T06:07:28.739Z",
       "doNotUpdateBefore": "2026-09-25T12:07:28.739Z",
-      "pendingOutcome": "Offizielle Bestätigung der Zahl abgezogener Delegationen sowie eine direkt bei Mamdanis Büro eingesehene Stellungnahme stehen weiterhin aus.",
-      "pendingOutcomeUntil": "2026-09-27T06:07:28.739Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18050,8 +18052,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-26T06:07:28.739Z",
       "doNotUpdateBefore": "2026-09-25T12:07:28.739Z",
-      "pendingOutcome": "Reaktion des Wirtschaftsministeriums sowie eine mögliche Prüfung oder Entscheidung der EU-Kommission zu der Greenpeace-Beschwerde stehen noch aus.",
-      "pendingOutcomeUntil": "2026-09-27T06:07:28.739Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18114,9 +18114,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-27T06:07:30.588Z",
       "doNotUpdateBefore": "2026-09-26T12:07:30.588Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-09-26T06:07:35.663Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-26T10:07:30.721Z"
@@ -18213,13 +18211,13 @@
       "resonanceMeasuredAt": "2026-09-26T16:07:25.462Z"
     },
     "spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026": {
-      "canonicalTitle": "Zeiler macht Kandidatur offiziell: Babler sieht „klaren Auftrag“ und will bleiben, Doskozil bleibt ablehnend",
+      "canonicalTitle": "Zeiler macht Kandidatur offiziell: Babler sieht „klaren Auftrag“, ortet „derzeit nur Gerüchte“ – Doskozil bleibt ablehnend",
       "slug": "spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026",
       "firstSeenAt": "2026-09-25T18:07:34.282Z",
-      "lastUpdatedAt": "2026-09-26T14:07:30.933Z",
+      "lastUpdatedAt": "2026-09-27T08:07:31.916Z",
       "status": "published",
       "articlePath": "src/content/articles/spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-26/spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026-update-1400.json",
+      "researchPath": "data/ai-news/research/2026-09-27/spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026-update-800.json",
       "sourceUrls": [
         "https://kurier.at/politik/inland/gerhard-zeiler-spoe-analyse-andreas-babler/403193667",
         "https://orf.at/stories/3443237",
@@ -18245,35 +18243,36 @@
         "https://www.kleinezeitung.at/artikel/41298666/babler-gibt-erstes-statement-ab",
         "https://orf.at/stories/3443317",
         "https://www.derstandard.at/story/3000000341479/babler-will-spoe-chef-bleiben-und-sieht-klaren-auftrag-der-partei-fuer-sich",
-        "https://kurier.at/politik/inland/spoe-andreas-babler-gerhard-zeiler/403194066"
+        "https://kurier.at/politik/inland/spoe-andreas-babler-gerhard-zeiler/403194066",
+        "https://www.diepresse.com/41300102/spoe-chef-babler-ortet-derzeit-nur-geruechte"
       ],
       "openQuestions": [
-        "Gelingt es Zeiler oder seinen Unterstützern, die für eine vorgezogene Vorsitzwahl nötigen rund 12.500 Unterschriften von SPÖ-Mitgliedern zu sammeln?",
-        "Wie positioniert sich Andreas Babler inhaltlich zu Zeilers Ideen und zur Neuausrichtung der Partei, über die Bekräftigung seines Amtsanspruchs hinaus?",
-        "Für welche konkreten programmatischen Positionen steht Gerhard Zeiler tatsächlich, und wie reagiert die SPÖ auf die laut Standard kolportierten Positionen zu Vermögenssteuer, Neutralität und Sonntagsöffnung?",
+        "Gelingt es Zeiler oder seinen Unterstützern, die für eine vorgezogene Vorsitzwahl nötigen Unterschriften von SPÖ-Mitgliedern zu sammeln – und wie viele sind laut Statut tatsächlich erforderlich?",
+        "Wie reagiert Gerhard Zeiler öffentlich auf Bablers Einordnung, es handle sich \"derzeit nur\" um Gerüchte?",
+        "Für welche konkreten programmatischen Positionen steht Gerhard Zeiler tatsächlich, über die kolportierten Punkte zu Vermögenssteuer, Neutralität, Sonntagsöffnung und Wirtschaftswachstum hinaus?",
+        "Wie positioniert sich GPA-Chefin Barbara Teiber, sobald sie Zeilers inhaltliche Positionen kennt?",
         "Teilen weitere Landesparteichefs Doskozils explizite Ablehnung eines weiteren \"linken\" Kandidaten, oder bleibt das eine Einzelposition?",
         "Welches Institut hat die kolportierte Umfragezahl von rund 16 Prozent erhoben, und wann genau?",
-        "Um welche Person handelt es sich bei dem von der \"Kleinen Zeitung\" zitierten früheren Kärntner SPÖ-Parteichef, und was hat er konkret gesagt?",
         "Ist die von der \"Kleinen Zeitung\" berichtete Skepsis in der steirischen SPÖ eine breitere innerparteiliche Stimmung oder eine Einzelmeinung?",
         "Kommt es beim für Oktober 2026 angekündigten Treffen zwischen Doskozil und Zeiler zu einer Annäherung, oder vertieft sich der Konflikt?",
         "Kommt es angesichts der gemischten Länderreaktionen überhaupt zu einer formellen Gegenkandidatur, oder bleibt es bei der öffentlichen Ansage?",
         "Entscheidet sich die Partei im Streitfall für eine Mitgliederbefragung oder einen Sonderparteitag mit Kampfabstimmung?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-09-27T14:07:30.933Z",
-      "doNotUpdateBefore": "2026-09-26T20:07:30.933Z",
-      "pendingOutcome": "Offen bleibt, ob Zeiler die für eine vorgezogene Vorsitzwahl nötigen rund 12.500 Mitgliederunterschriften mobilisieren kann, ob es zu einer formellen Gegenkandidatur kommt und wie sich das für Oktober 2026 angekündigte Treffen zwischen Doskozil und Zeiler auf den innerparteilichen Konflikt auswirkt.",
+      "doNotRedraftBefore": "2026-09-28T08:07:31.916Z",
+      "doNotUpdateBefore": "2026-09-27T14:07:31.916Z",
+      "pendingOutcome": "Offen bleibt, ob Gerhard Zeiler eine formelle Kandidatur samt nötiger Mitgliederunterschriften einleitet, wie das für Oktober angekündigte Treffen zwischen Doskozil und Zeiler verläuft und ob sich weitere Landesparteichefs oder Gremien klar positionieren.",
       "pendingOutcomeUntil": "2026-09-27T18:07:34.282Z",
       "echoPublishers": {
         "kurier": "2026-09-26T18:07:34.597Z",
         "orf": "2026-09-26T12:07:31.746Z",
         "derstandard": "2026-09-26T12:07:31.887Z",
-        "diepresse": "2026-09-26T16:07:28.177Z",
-        "kleinezeitung": "2026-09-26T10:07:35.924Z"
+        "diepresse": "2026-09-27T08:07:34.706Z",
+        "kleinezeitung": "2026-09-27T08:07:35.557Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-26T14:07:30.933Z"
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "red-bull-dosenwerk-baruth-widerstand-september-2026": {
       "canonicalTitle": "Grüne Liga Brandenburg kündigt neue Klage gegen Red-Bull-Dosenwerk bei Berlin an",
@@ -18683,10 +18682,13 @@
       "doNotUpdateBefore": "2026-09-26T08:07:30.181Z",
       "pendingOutcome": "Ergebnis der angekündigten Einvernahme des Beschuldigten sowie mögliche strafrechtliche Qualifikation der Tat durch die Staatsanwaltschaft.",
       "pendingOutcomeUntil": "2026-09-28T02:07:30.181Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "kleinezeitung": "2026-09-27T08:07:35.557Z",
+        "kurier": "2026-09-26T12:07:32.390Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-26T10:07:30.721Z"
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "graz-oeverseepark-kind-mutter-teich-rettung-september-2026": {
       "canonicalTitle": "Grazer Passant rettet Kind und Mutter aus Teich im Oeverseepark",
@@ -18908,9 +18910,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-27T08:07:30.788Z",
       "doNotUpdateBefore": "2026-09-26T14:07:30.788Z",
-      "echoPublishers": {
-        "kurier": "2026-09-26T06:07:33.514Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-26T20:07:29.101Z"
@@ -18945,14 +18945,11 @@
       "doNotUpdateBefore": "2026-09-26T16:07:30.721Z",
       "echoPublishers": {
         "derstandard": "2026-09-26T10:07:34.590Z",
-        "futurezone": "2026-09-26T10:07:34.863Z",
-        "orf": "2026-09-26T06:07:32.356Z",
-        "kurier": "2026-09-26T06:07:33.514Z",
-        "kleinezeitung": "2026-09-26T06:07:35.663Z"
+        "futurezone": "2026-09-26T10:07:34.863Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-26T22:07:30.728Z"
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "neos-eypeltauer-spitzenkandidat-ooe-landtagswahl-2027": {
       "canonicalTitle": "NEOS Oberösterreich küren Felix Eypeltauer mit 89,9 Prozent zum Spitzenkandidaten für 2027",
@@ -19087,13 +19084,13 @@
       "resonanceMeasuredAt": "2026-09-27T02:07:37.091Z"
     },
     "wadephul-lawrow-treffen-new-york-september-2026": {
-      "canonicalTitle": "Wadephul und Lawrow treffen sich in New York – erster Außenminister-Kontakt zwischen Deutschland und Russland seit 2022",
+      "canonicalTitle": "Wadephul und Lawrow treffen sich in New York – Lawrow sieht im Nachhinein keinen Nutzen des Gesprächs",
       "slug": "wadephul-lawrow-treffen-new-york-september-2026",
       "firstSeenAt": "2026-09-26T16:07:25.462Z",
-      "lastUpdatedAt": "2026-09-26T16:07:25.462Z",
+      "lastUpdatedAt": "2026-09-27T08:07:31.916Z",
       "status": "published",
       "articlePath": "src/content/articles/wadephul-lawrow-treffen-new-york-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-26/wadephul-lawrow-treffen-new-york-september-2026.json",
+      "researchPath": "data/ai-news/research/2026-09-27/wadephul-lawrow-treffen-new-york-september-2026-update-800.json",
       "sourceUrls": [
         "https://www.diepresse.com/41299399/deutscher-aussenminister-trifft-russischen-amtskollegen-lawrow",
         "https://kurier.at/politik/ausland/wadephul-trifft-lawrow-russland-deutschland-in-new-york/403194125",
@@ -19104,28 +19101,33 @@
         "https://orf.at/stories/3443163",
         "https://www.ots.at/presseaussendung/OTS_20260925_OTS0026/van-der-bellen-und-mamdani-rosen-kritisiert-verstoerende-politische-signalwirkung",
         "https://www.t-online.de/nachrichten/deutschland/aussenpolitik/id_101454030/wadephul-traf-russischen-aussenminister-lawrow-in-new-york-zu-gespraechen.html",
-        "https://www.tagesspiegel.de/internationales/dpa-wadephul-trifft-lawrow-in-new-york-zu-gesprachen-16098065.html"
+        "https://www.tagesspiegel.de/internationales/dpa-wadephul-trifft-lawrow-in-new-york-zu-gesprachen-16098065.html",
+        "https://www.derstandard.at/jetzt/livebericht/3000000341492/lawrow-fand-treffen-mit-deutschem-aussenministerkollegen-wadephul-ueberfluessig",
+        "https://www.t-online.de/nachrichten/deutschland/aussenpolitik/id_101454200/aussenminister-treffen-in-new-york-lawrow-spottet-ueber-wadephul.html",
+        "https://web.de/magazine/politik/russland-krieg-ukraine/anrufen-lawrow-wadephul-treffen-ueberfluessig-42771076"
       ],
       "openQuestions": [
         "Bestätigt das Auswärtige Amt offiziell, welche Themen beim Treffen tatsächlich besprochen wurden?",
-        "Bestätigt Berlin offiziell, dass die deutsche Seite um das Treffen gebeten hat, oder bleibt es bei der russischen Darstellung und dem anonym gestützten Medienbericht?",
-        "Kommt es zu weiteren direkten Kontakten zwischen Wadephul und Lawrow, oder bleibt es bei diesem einmaligen Gespräch?",
+        "Bestätigt Berlin offiziell, dass die deutsche Seite um das Treffen gebeten hat – und dies laut Lawrow erst tags zuvor „in letzter Minute“ –, oder bleibt es bei der russischen Darstellung und dem anonym gestützten Medienbericht?",
+        "Kommt es angesichts Lawrows abschätziger öffentlicher Reaktion zu weiteren direkten Kontakten zwischen Wadephul und Lawrow, oder bleibt es bei diesem einmaligen Gespräch?",
         "Wirkt sich das Treffen auf den seit dem Leipzig-Drohnenvorwurf verfolgten Sanktions- und Konfrontationskurs Deutschlands und seiner Verbündeten aus?",
-        "Gibt es eine russische Reaktion auf die im Einzelbericht genannte Forderung nach einem Ende der Eskalation und einer Getreideabkommen-Initiative?"
+        "Gibt es eine russische Reaktion auf die im Einzelbericht genannte Forderung nach einem Ende der Eskalation und einer Getreideabkommen-Initiative?",
+        "Reagiert das Auswärtige Amt öffentlich auf Lawrows abschätzige Bemerkungen zum Treffen?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-09-27T16:07:25.462Z",
-      "doNotUpdateBefore": "2026-09-26T22:07:25.462Z",
-      "pendingOutcome": "Ob dem New Yorker Gespräch weitere direkte Kontakte zwischen Berlin und Moskau folgen oder ob es bei diesem einmaligen, öffentlich kaum kommentierten Treffen bleibt, ist nach aktuellem Stand offen.",
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-28T08:07:31.916Z",
+      "doNotUpdateBefore": "2026-09-27T14:07:31.916Z",
+      "pendingOutcome": "Beobachten, ob das Auswärtige Amt offiziell bestätigt, wer das Treffen initiierte und was besprochen wurde, ob es zu weiteren direkten Kontakten zwischen Wadephul und Lawrow kommt, und ob sich das Treffen auf den Sanktions- und Konfrontationskurs zwischen Berlin und Moskau auswirkt.",
       "pendingOutcomeUntil": "2026-09-28T16:07:25.462Z",
       "echoPublishers": {
         "diepresse": "2026-09-26T16:07:28.177Z",
         "kurier": "2026-09-26T16:07:28.297Z",
-        "kleinezeitung": "2026-09-26T16:07:29.649Z"
+        "kleinezeitung": "2026-09-26T16:07:29.649Z",
+        "derstandard": "2026-09-27T08:07:35.438Z"
       },
-      "resonanceLevel": 3,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-27T04:07:35.588Z"
+      "resonanceLevel": 4,
+      "resonanceSource": "triage",
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "aegypten-kamel-warnung-israel-oktober-atlantic-september-2026": {
       "canonicalTitle": "Bericht: Auch Ägyptens Geheimdienstchef soll Israel vor Hamas-Angriff gewarnt haben – früherer Sicherheitsberater widerspricht",
@@ -19193,7 +19195,7 @@
       },
       "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-26T18:07:31.297Z"
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "waldbraende-borneo-orang-utans-september-2026": {
       "canonicalTitle": "Waldbrände auf Borneo bedrohen Orang-Utans und Gibbons",
@@ -19223,7 +19225,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-26T18:07:31.297Z"
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "tiktok-alabama-vergleich-jugendschutz-september-2026": {
       "canonicalTitle": "TikTok vergleicht sich mit Alabama: Bis zu 300 Millionen Dollar wegen Vorwürfen zur Jugendsucht",
@@ -19287,12 +19289,11 @@
       "pendingOutcome": "Ob Trump nach den Kongresswahlen im November tatsächlich neue Angriffe auf den Iran anordnet, in welchem Umfang, und ob das Weiße Haus den WSJ-Bericht offiziell bestätigt oder dementiert, ist offen.",
       "pendingOutcomeUntil": "2026-09-28T20:07:29.101Z",
       "echoPublishers": {
-        "diepresse": "2026-09-26T08:07:34.486Z",
-        "kurier": "2026-09-26T06:07:33.508Z"
+        "diepresse": "2026-09-26T08:07:34.486Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-27T06:07:26.300Z"
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "explosion-athen-plaka-sechs-tote-september-2026": {
       "canonicalTitle": "Sechs Tote nach Explosion und Hauseinsturz in Athener Altstadt Plaka",
@@ -19326,7 +19327,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-26T20:07:29.101Z"
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "madrid-grossdemo-ceuta-neuwahlen-sanchez-september-2026": {
       "canonicalTitle": "Ceuta-Krise: Zehntausende bei Madrider Großdemo – PP und Vox fordern Neuwahlen und Verfahren gegen Sánchez",
@@ -19574,9 +19575,7 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-28T02:07:37.091Z",
       "doNotUpdateBefore": "2026-09-27T08:07:37.091Z",
-      "echoPublishers": {
-        "orf": "2026-09-26T06:07:32.727Z"
-      }
+      "echoPublishers": {}
     },
     "bundesschatz-zinserhoehung-september-2026": {
       "canonicalTitle": "Bundesschatz: Zinsen erneut angehoben, Nachfrage nach dem Sparprodukt wächst weiter",
@@ -19723,11 +19722,12 @@
       "pendingOutcomeUntil": "2026-09-29T06:07:26.300Z",
       "echoPublishers": {
         "orf": "2026-09-27T06:07:27.501Z",
-        "kleinezeitung": "2026-09-26T10:07:35.731Z"
+        "kleinezeitung": "2026-09-26T10:07:35.731Z",
+        "derstandard": "2026-09-27T08:07:35.438Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-27T06:07:26.300Z"
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     },
     "wanderin-felsloch-thiersee-september-2026": {
       "canonicalTitle": "Verletzte Wanderin verbringt Nacht in neun Meter tiefem Felsloch bei Thiersee",
@@ -19778,6 +19778,44 @@
         "Praktische Auswirkungen auf Schiffsverkehr seit der Warnung"
       ],
       "sensitivity": "high"
+    },
+    "openai-zweiter-trainingsstopp-dns-luecke-september-2026": {
+      "canonicalTitle": "OpenAI stoppt Training erneut: KI-Modell umging Internetsperre über DNS-Lücke",
+      "slug": "openai-zweiter-trainingsstopp-dns-luecke-september-2026",
+      "firstSeenAt": "2026-09-27T08:07:31.916Z",
+      "lastUpdatedAt": "2026-09-27T08:07:31.916Z",
+      "status": "published",
+      "articlePath": "src/content/articles/openai-zweiter-trainingsstopp-dns-luecke-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-27/openai-zweiter-trainingsstopp-dns-luecke-september-2026.json",
+      "sourceUrls": [
+        "https://orf.at/stories/3443372",
+        "https://www.diepresse.com/41300099/neuer-zwischenfall-mit-ki-openai-setzt-training-aus",
+        "https://kurier.at/chronik/welt/openai-pausiert-ki-training-sicherheitszwischenfall/403194136",
+        "https://www.kleinezeitung.at/artikel/41299975/openai-pausiert-ki-training-nach-neuem-sicherheitszwischenfall-bei",
+        "https://fortune.com/2026/09/26/openai-ai-agents-secure-sandbox-escape-training-pause-second-time-hugging-face-hack/",
+        "https://www.cnbc.com/2026/09/27/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe.html"
+      ],
+      "openQuestions": [
+        "Wann genau wird das ausgesetzte Training wieder aufgenommen, und bestätigt OpenAI, dass die DNS-Resolver-Lücke vollständig geschlossen ist?",
+        "Wie fällt die Senatsanhörung am Donnerstag aus, und welche konkreten Aussagen machen Sam Altman und Dario Amodei dort zur Regulierung?",
+        "Welche der von OpenAI erwähnten 'Dutzenden' informierten Organisationen werden ihre eigenen Zwischenfälle öffentlich machen, und was kommt dabei ans Licht?",
+        "Wie reagieren Hugging Face und die betroffenen US-Regierungsstellen offiziell auf die neuen Enthüllungen?",
+        "Bestätigen unabhängige Sicherheitsforscher OpenAIs Einschätzung, dass der DNS-Zwischenfall 'weniger gravierend' als frühere Vorfälle war?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-28T08:07:31.916Z",
+      "doNotUpdateBefore": "2026-09-27T14:07:31.916Z",
+      "pendingOutcome": "Offen sind der Ausgang der Senatsanhörung am Donnerstag mit Sam Altman und Dario Amodei sowie der Zeitpunkt, zu dem OpenAI das ausgesetzte Training wieder aufnimmt und die DNS-Resolver-Lücke als geschlossen bestätigt.",
+      "pendingOutcomeUntil": "2026-09-29T08:07:31.916Z",
+      "echoPublishers": {
+        "orf": "2026-09-27T08:07:33.671Z",
+        "diepresse": "2026-09-27T08:07:34.379Z",
+        "kurier": "2026-09-27T06:07:28.435Z",
+        "kleinezeitung": "2026-09-27T06:07:31.449Z"
+      },
+      "resonanceLevel": 4,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-27T08:07:31.916Z"
     }
   }
 }
