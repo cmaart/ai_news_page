@@ -1,0 +1,210 @@
+{
+  "cluster": {
+    "id": "cluster-20260927-6577dd68",
+    "title": "Südafrika: 27 Tote bei zwei Schusswaffenangriffen",
+    "items": [
+      {
+        "itemId": "a63d402a85b5612eb5b3f667018f612bf16da3208a7f823284fed61217ae7df8",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Südafrika: 27 Tote bei zwei Schusswaffenangriffen",
+        "url": "https://orf.at/stories/3443380",
+        "publishedAt": "2026-09-27T07:11:24.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "7259e5a6577a808c1b31f68346fb1a0d0eab132218375cf48b408454dc0b7cbe",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Dutzende Tote bei zwei Schusswaffenangriffen in Südafrika",
+        "url": "https://www.kleinezeitung.at/artikel/41300307/dutzende-tote-bei-zwei-schusswaffenangriffen-in-suedafrika",
+        "summary": "In Südafrika haben Bewaffnete bei zwei separaten Schusswaffenangriffen insgesamt 27 Menschen getötet und zahlreiche weitere Menschen verletzt. In einer Bar westlich von Johannesburg seien 17 Menschen getötet und 15 weitere verletzt worden, teilte die Polizei am Sonntag mit. Die acht Täter seien mit Sturmgewehren bewaffnet gewesen. Sie hätten auch \"einige Gäste durchsucht und deren Mobiltelefone an sich genommen\". Danach seien sie in zwei Fahrzeugen vom Tatort geflohen.",
+        "publishedAt": "2026-09-27T07:39:31.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.8,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Gewaltereignis mit 27 Todesfällen in zwei koordinierten Schusswaffenangriffen, dokumentiert mit konkreten Orts-, Täter- und Opferzahlen. Gute Quellenlage (ORF und Kleine Zeitung mit Volltext-Auszügen und Details). Keine passende bestehende Story vorhanden (relatedSlug = null). Trotz fehlenden direkten Österreich-Bezugs ist es ein substantielles internationales Gewaltereignis mit Berichterstattung in mehreren europäischen Medien — publikationsreif für eine europäische News-Site.",
+    "sensitivity": "high",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "27 Menschen wurden bei zwei separaten Schusswaffenangriffen in Südafrika getötet",
+      "In einer Bar westlich von Johannesburg wurden 17 Menschen getötet und 15 verletzt",
+      "Acht bewaffnete Täter mit Sturmgewehren führten den Überfall auf die Bar durch",
+      "Täter durchsuchten Gäste und entwendeten deren Mobiltelefone",
+      "Täter setzten zwei Fahrzeuge in Brand und flohen in zwei Fahrzeugen",
+      "In einem Nachtclub in einem Township nahe Kapstadt wurden 10 Menschen getötet und 11 verletzt",
+      "Die Motive für beide Angriffe waren zunächst unklar",
+      "Südafrika hat eine der weltweit höchsten Mordraten mit etwa 60 Morden pro Tag"
+    ],
+    "missingSources": [
+      "Identifikation und Verhaftung der acht Täter",
+      "Ermittlungsergebnisse zum Motiv (Bandenrivalität oder andere Hintergründe)",
+      "Zeitliche Abfolge und operative Koordination zwischen den zwei Angriffen",
+      "Offizielle endgültige Opferzahlen durch südafrikanische Polizei",
+      "Gesundheitszustand der Schwerverletzten"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "suedafrika-schusswaffenangriffe-johannesburg-kapstadt-september-2026",
+    "title": "Südafrika: 27 Tote bei zwei Schusswaffenangriffen nahe Johannesburg und Kapstadt",
+    "description": "Bewaffnete töteten am Wochenende in einer Bar westlich von Johannesburg 17 und in einem Nachtclub nahe Kapstadt zehn Menschen. Die Hintergründe der beiden Angriffe sind weiter unklar.",
+    "topic": "gesellschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Die südafrikanische Polizei hat die Kernzahlen zu beiden Angriffen (17 bzw. 10 Tote) selbst mitgeteilt, und mehrere voneinander unabhängige internationale Medien geben diese Angaben übereinstimmend wieder.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine Polizeimitteilung oder Behördenseite direkt eingesehen, sondern ausschließlich Medienberichte, die die südafrikanische Polizei zitieren.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Bislang liegt nur die Darstellung der Polizei vor; da noch niemand festgenommen wurde, fehlt zwangsläufig jede Täterperspektive oder unabhängige Ermittlungsbestätigung.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Bei zwei separaten Schusswaffenangriffen in Südafrika wurden am Wochenende insgesamt 27 Menschen getötet.",
+        "kind": "fact"
+      },
+      {
+        "text": "In einer Bar im Township Wedela westlich von Johannesburg starben 17 Menschen, 15 weitere wurden verletzt; die acht Täter waren laut Polizei mit Sturmgewehren bewaffnet.",
+        "kind": "fact"
+      },
+      {
+        "text": "In einem Nachtclub im Township Lwandle nahe Kapstadt wurden zehn Menschen getötet und elf verletzt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wer die Täter sind, ob sie festgenommen wurden und welches Motiv hinter den Angriffen steckt, ist bislang unbekannt.",
+        "kind": "open"
+      },
+      {
+        "text": "Ob zwischen den beiden Angriffen ein Zusammenhang besteht, ist offen.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wer sind die Täter, und kommt es zu Festnahmen?",
+      "Welches Motiv hatten die Angreifer – etwa Bandenrivalität, wie in Südafrika bei solchen Taten häufig?",
+      "Besteht ein Zusammenhang zwischen dem Angriff in Wedela und jenem in Lwandle, oder handelt es sich um unabhängige Taten?",
+      "Wie hat sich der Gesundheitszustand der insgesamt rund 26 Verletzten seither entwickelt?",
+      "Werden die vorläufigen Opferzahlen (17 und 10 Tote) von der Polizei noch nach oben oder unten korrigiert?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3443380"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41300307/dutzende-tote-bei-zwei-schusswaffenangriffen-in-suedafrika"
+      },
+      {
+        "id": "src3",
+        "name": "CNN",
+        "type": "media",
+        "url": "https://www.cnn.com/2026/09/27/africa/south-africa-shooting-tavern-intl-hnk"
+      },
+      {
+        "id": "src4",
+        "name": "Euronews",
+        "type": "media",
+        "url": "https://www.euronews.com/2026/09/27/two-mass-shootings-in-south-africa-leave-at-least-27-dead"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Bei zwei separaten Schusswaffenangriffen in Südafrika wurden insgesamt 27 Menschen getötet.",
+        "status": "supported",
+        "note": "Von der Polizei mitgeteilt und von mehreren unabhängigen Medien übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "In einer Bar im Township Wedela westlich von Johannesburg töteten acht mit Sturmgewehren bewaffnete Männer 17 Menschen und verletzten 15 weitere.",
+        "status": "supported",
+        "note": "Ortsname Wedela laut CNN unter Berufung auf den South African Police Service; Opferzahlen von ORF und Kleine Zeitung bestätigt.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "In einem Nachtclub im Township Lwandle nahe Kapstadt wurden zehn Menschen getötet und elf verletzt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Die Täter durchsuchten in der Bar bei Johannesburg einige Gäste, nahmen ihnen Mobiltelefone ab, setzten zwei Fahrzeuge in Brand und flohen in zwei anderen Wagen.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Bislang wurden in keinem der beiden Fälle Verdächtige festgenommen, das Motiv ist unklar.",
+        "status": "partial",
+        "note": "Laut CNN gab es zum Zeitpunkt der Berichterstattung keine Festnahmen; ob sich das seither geändert hat, ist unbekannt.",
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Südafrika zählt mit rund 60 Morden pro Tag zu den Ländern mit einer der höchsten Mordraten weltweit.",
+        "status": "partial",
+        "note": "Nur von ORF unter Berufung auf Agenturen beziffert, nicht durch eine eigenständig geprüfte Statistik bestätigt.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "In Südafrika sind am Wochenende bei zwei voneinander getrennten Schusswaffenangriffen mindestens 27 Menschen getötet worden. Der schwerere der beiden Vorfälle ereignete sich am Samstagabend (Ortszeit) in einer Bar im Township Wedela westlich von Johannesburg: Acht mit Sturmgewehren bewaffnete Männer eröffneten dort das Feuer, töteten 17 Menschen und verletzten 15 weitere. Nach Polizeiangaben durchsuchten die Täter zudem einige Gäste und nahmen ihnen die Mobiltelefone ab, bevor sie zwei Fahrzeuge am Tatort in Brand setzten und in zwei anderen Autos flohen.\n\nWenige Stunden später, in der Nacht auf Sonntag, stürmten Bewaffnete einen Nachtclub im Township Lwandle nahe Kapstadt und schossen auf die Gäste. Dabei wurden zehn Menschen getötet und elf weitere verletzt."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Die Kernzahlen zu beiden Angriffen stammen von der südafrikanischen Polizei und wurden von ihr am Sonntag öffentlich mitgeteilt. ORF.at berichtete unter Berufung auf Agenturen, die Kleine Zeitung meldete dieselben Eckdaten. Internationale Medien wie CNN und Euronews bestätigen unabhängig voneinander Ort, Ablauf und Opferzahlen und benennen zusätzlich die Townships Wedela und Lwandle als Tatorte. Damit stützen sich die zentralen Fakten – Zahl der Toten und Verletzten, Tatorte, Vorgehen der Täter – auf eine amtliche Verlautbarung, die durch mehrere voneinander unabhängige Redaktionen übereinstimmend wiedergegeben wird."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist bislang, wer die Täter sind und welches Motiv den beiden Angriffen zugrunde liegt. Nach den vorliegenden Berichten waren zum Zeitpunkt der Meldungen keine Festnahmen erfolgt. Auch ob zwischen dem Angriff in Wedela und jenem in Lwandle ein Zusammenhang besteht oder ob es sich um zwei unabhängige Taten handelt, ist nicht geklärt. Unklar ist zudem, wie sich der Zustand der insgesamt rund 26 Verletzten seither entwickelt hat und ob sich die vorläufigen Opferzahlen noch verändern."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "In Südafrika sind Schusswaffen weit verbreitet, sowohl legal als auch illegal, und Angriffe mit mehreren Toten kommen wiederholt vor. Laut ORF-Berichterstattung unter Berufung auf Agenturen zählt das Land mit rund 62 Millionen Einwohnenden zu jenen mit einer der höchsten Mordraten weltweit; oft spielt dabei Rivalität zwischen kriminellen Banden eine Rolle. Ob dies auch bei den beiden aktuellen Angriffen zutrifft, ist nach derzeitigem Berichtsstand nicht bestätigt – die Ermittlungen zu Tätern und Motiv laufen noch."
+      }
+    ],
+    "bodyKompakt": "In Südafrika sind am Wochenende bei zwei getrennten Schusswaffenangriffen mindestens 27 Menschen getötet worden. Am Samstagabend eröffneten acht mit Sturmgewehren bewaffnete Männer in einer Bar im Township Wedela westlich von Johannesburg das Feuer, töteten 17 Menschen und verletzten 15 weitere. Sie durchsuchten laut Polizei einige Gäste, nahmen ihnen Mobiltelefone ab und flohen nach einer Brandlegung an zwei Fahrzeugen in zwei anderen Wagen.\n\nWenige Stunden später stürmten Bewaffnete einen Nachtclub im Township Lwandle nahe Kapstadt und schossen auf die Gäste. Dort starben zehn Menschen, elf wurden verletzt. Die Zahlen stammen von der südafrikanischen Polizei und werden von mehreren internationalen Medien übereinstimmend wiedergegeben.\n\nWer für die Taten verantwortlich ist und welches Motiv dahintersteckt, ist bislang unklar. Festnahmen gab es nach bisherigem Berichtsstand keine, ein möglicher Zusammenhang zwischen den beiden Angriffen ist ebenso wenig geklärt wie der aktuelle Gesundheitszustand der Verletzten.",
+    "updateNote": null,
+    "pendingOutcome": "Ergebnisse der Ermittlungen zu Tätern und Motiv beider Angriffe, einschließlich möglicher Festnahmen."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-28T02:07:30.964Z"
+}
