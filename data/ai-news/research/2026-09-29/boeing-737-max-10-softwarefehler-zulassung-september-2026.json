@@ -1,0 +1,219 @@
+{
+  "cluster": {
+    "id": "cluster-20260929-96481a37",
+    "title": "Pannen nehmen kein Ende: Neues Problem stoppt Zulassung der Boeing 737 Max 10",
+    "items": [
+      {
+        "itemId": "5f7b8db71f83a2d3f1282139f6ec80542fa03c6432fce95b08b9f8c6b34aaa2e",
+        "sourceId": "golem_news",
+        "sourceType": "media",
+        "title": "Pannen nehmen kein Ende: Neues Problem stoppt Zulassung der Boeing 737 Max 10",
+        "url": "https://www.golem.de/news/pannen-nehmen-kein-ende-neues-problem-stoppt-zulassung-der-boeing-737-max-10-2609-213522.html",
+        "summary": "Boeing hat sich Hoffnungen gemacht, bald die Zulassung f�r die gr��te Variante der 737 Max zu bekommen. Daraus wird erst einmal nichts. (Boeing, Flugzeug)",
+        "publishedAt": "2026-09-29T09:13:02.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "5f587872cce8c9d9c23d45be6777b2f3efbfb0f641a3af79a71ce77d0a26b52d",
+        "sourceId": "futurezone_home",
+        "sourceType": "media",
+        "title": "Boeing bestätigt neuen Software-Fehler in 737 MAX",
+        "url": "https://futurezone.at/digital-life/boeing-software-fehler-737-max-vnav-bug-faa/403194244",
+        "isNew": false
+      },
+      {
+        "itemId": "0893f108d73d54df00d4ea648c0ad1193e2bd0b5420f4e70a89fee3c13307f88",
+        "sourceId": "derstandard_wirtschaft",
+        "sourceType": "media",
+        "title": "Softwarefehler verzögert Zulassung neuer Boeing-Variante",
+        "url": "https://www.derstandard.at/story/3000000341766/softwarefehler-verzoegert-zulassung-neuer-boeing-variante",
+        "isNew": false
+      },
+      {
+        "itemId": "d8c78cdd8a0702022c8808d55e3debddd4751d059e27ebd1a7f216791f7e413d",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "Softwarefehler: Zulassung neuer Boeing-Variante verzögert",
+        "url": "https://orf.at/stories/3443564",
+        "isNew": false
+      },
+      {
+        "itemId": "1b5211ae3731a6e5caa5c253b6736f7c93cd352bec9cc5bd4bac62bdbd4b65f4",
+        "sourceId": "heise_news",
+        "sourceType": "media",
+        "title": "Boeing 737 Max 10: Software-Fehler bremst Zertifizierung aus",
+        "url": "https://www.heise.de/news/Software-Problem-verzoegert-Zulassung-neuer-Boeing-Variante-11469088.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.85,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Boeing bestätigt neuen Softwarefehler in der 737 MAX, der die Zulassung der Variante Max 10 verzögert. Breit bestätigte Story über mindestens 5 deutschsprachige Medienquellen (Golem, futurezone.at, derstandard.at, orf.at, heise.de) mit Österreich-Bezug. Neuer eigenständiger Nachrichtenwert: zusätzliches Regulierungsproblem in laufender Boeing-Max-Problematik. Fulltext-Excerpt enthält nur Cookie-Banner, aber Quellenlage breit genug für Artikel.",
+    "sensitivity": "medium",
+    "newsworthiness": 3,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Boeing hat einen neuen Softwarefehler in der 737 MAX bestätigt",
+      "Der Fehler verzögert die FAA-Zulassung der Boeing 737 Max 10",
+      "Das Fehler-Thema betrifft das VNAV-System (vertikale Navigation)",
+      "Die Zulassung wird sich weiter verzögern"
+    ],
+    "missingSources": [
+      "Boeing-Offizialstellung zum technischen Fehler und Behebungsplan",
+      "FAA-Stellungnahme zur neuen Zeitleiste für Max-10-Zulassung",
+      "Statement von betroffenen Airlines oder Leasingunternehmen",
+      "Technische Details zum Fehler und geplanter Reparatur",
+      "Auswirkungen auf bisherige Max-10-Bestellungen und Lieferketten"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "boeing-737-max-10-softwarefehler-zulassung-september-2026",
+    "title": "Boeing 737 Max 10: Neuer Softwarefehler verzögert FAA-Zulassung",
+    "description": "Ein neu bestätigter Fehler in der Flugcomputer-Software der Boeing-737-MAX-Reihe bremst die für die kommenden Wochen erwartete Zertifizierung der größten Variante, der 737 Max 10, durch die US-Luftfahrtbehörde FAA aus.",
+    "topic": "wirtschaft",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kernvorgang – Softwarefehler bestätigt, FAA verzögert Max-10-Zulassung – wird von mindestens fünf unabhängigen deutschsprachigen Redaktionen sowie einem internationalen Wirtschaftsmedium übereinstimmend berichtet.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es wurde keine FAA- oder Boeing-Originalmitteilung direkt eingesehen, sondern nur deren Wiedergabe in Medienberichten.",
+    "framingRisk": "medium",
+    "framingRiskNote": "In den Berichten kommen im Wesentlichen nur Boeing und die FAA über zitierte Aussagen zu Wort; Einschätzungen von Fluggesellschaften, Leasinggebern oder unabhängigen Luftfahrt-Sicherheitsexperten fehlen in den vorliegenden Quellen.",
+    "sensitivity": "low",
+    "summary": [
+      {
+        "text": "Boeing hat einen neuen Softwarefehler im Flugmanagementcomputer der 737-MAX-Baureihe bestätigt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die US-Luftfahrtbehörde FAA verzögert deshalb die eigentlich für die kommenden Wochen erwartete Zulassung der größten Variante, der 737 Max 10.",
+        "kind": "fact"
+      },
+      {
+        "text": "Laut übereinstimmenden Berichten betrifft der Fehler die automatische vertikale Navigation (VNAV) nach einem Durchstart.",
+        "kind": "fact"
+      },
+      {
+        "text": "Unklar ist, ob die FAA den Fehler letztlich als sicherheitsrelevant einstuft und wie lange sich die Zertifizierung dadurch konkret verschiebt.",
+        "kind": "open"
+      },
+      {
+        "text": "Details zu einer dauerhaften Softwarelösung und deren Zeitrahmen stützen sich bislang nur auf einzelne Berichte.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lange verzögert sich die Zulassung der 737 Max 10 konkret, und zu welchem Ergebnis kommt das von der FAA einberufene Corrective Action Review Board?",
+      "Stuft die FAA den Fehler letztlich als sicherheitsrelevant ein oder nicht?",
+      "Wann genau wurde Boeing erstmals über den Fehler informiert, und trifft die berichtete Zeitangabe (Ende 2024) zu?",
+      "Welche Übergangsverfahren führt Boeing für Piloten bis zu einer dauerhaften Softwarelösung ein, und hält der berichtete Zeitrahmen bis 2028 tatsächlich?",
+      "Wie wirkt sich die Verzögerung auf bestehende Bestellungen und Auslieferungspläne der Fluggesellschaften aus?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Golem.de",
+        "type": "media",
+        "url": "https://www.golem.de/news/pannen-nehmen-kein-ende-neues-problem-stoppt-zulassung-der-boeing-737-max-10-2609-213522.html"
+      },
+      {
+        "id": "src2",
+        "name": "futurezone.at",
+        "type": "media",
+        "url": "https://futurezone.at/digital-life/boeing-software-fehler-737-max-vnav-bug-faa/403194244"
+      },
+      {
+        "id": "src3",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000341766/softwarefehler-verzoegert-zulassung-neuer-boeing-variante"
+      },
+      {
+        "id": "src4",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3443564"
+      },
+      {
+        "id": "src5",
+        "name": "heise online",
+        "type": "media",
+        "url": "https://www.heise.de/news/Software-Problem-verzoegert-Zulassung-neuer-Boeing-Variante-11469088.html"
+      },
+      {
+        "id": "src6",
+        "name": "CNBC",
+        "type": "media",
+        "url": "https://www.cnbc.com/2026/09/28/faa-boeing-737-max-10-certification-delay-software-issue.html"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Boeing hat einen Softwarefehler in der Flugcomputer-Software (FMC) der 737-MAX-Baureihe bestätigt, der laut übereinstimmenden Berichten die automatische vertikale Navigation (VNAV) nach einem Durchstart beeinträchtigen kann.",
+        "status": "supported",
+        "note": "Wird von mehreren unabhängigen Quellen mit übereinstimmenden technischen Details berichtet.",
+        "sourceIds": [
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Die FAA verzögert wegen des Fehlers die Zulassung der Boeing 737 Max 10 und hat dafür ein Corrective Action Review Board einberufen, das prüfen soll, ob ein sicherheitsrelevantes Problem vorliegt.",
+        "status": "supported",
+        "note": "Von mehreren unabhängigen Medien übereinstimmend berichtet, unter Berufung auf eine Aussage der FAA.",
+        "sourceIds": [
+          "src3",
+          "src4",
+          "src5",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Boeing hatte gehofft, die Zulassung der größten Max-Variante noch in den kommenden Wochen zu erhalten, bevor der Fehler bekannt wurde.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src6"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Boeing arbeitet an einer dauerhaften Softwarelösung, deren Fertigstellung laut einem Bericht bis 2028 dauern könnte, während bis dahin Übergangsverfahren für Piloten vorgesehen sind.",
+        "status": "partial",
+        "note": "Zeitangabe bis 2028 stammt bislang nur aus einer Quelle und ist nicht durch eine zweite Redaktion unabhängig bestätigt.",
+        "sourceIds": [
+          "src6"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Boeing muss einen weiteren Rückschlag bei der Zertifizierung seiner 737-MAX-Familie hinnehmen. Wie mehrere Medien übereinstimmend berichten, hat der Flugzeughersteller einen neuen Softwarefehler in der Flugcomputer-Software der Baureihe bestätigt. Die US-Luftfahrtbehörde FAA verzögert deshalb die Zulassung der 737 Max 10 – jener Variante, die als letzte der Max-Familie noch auf ihre Zertifizierung wartet und laut Berichten eigentlich in den kommenden Wochen hätte erfolgen sollen.\n\nBoeing hatte sich demnach bereits Hoffnungen auf eine baldige Freigabe gemacht. Der nun aufgetauchte Fehler durchkreuzt diesen Zeitplan zumindest vorläufig."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Der Fehler betrifft laut übereinstimmenden Berichten die automatische vertikale Navigation (VNAV) des Flugmanagementcomputers: Nach einem Durchstart – also einem abgebrochenen Landeanflug – kann die automatisierte Flugführung in bestimmten Situationen ausfallen. Berichten zufolge steckt der Fehler in einer von GE Aerospace zugelieferten Softwareversion des Flugmanagementcomputers.\n\nDie FAA hat als Reaktion darauf ein sogenanntes Corrective Action Review Board einberufen, das klären soll, ob es sich um ein sicherheitsrelevantes Problem handelt. Bis zu einer Klärung wird die Zulassung der Max 10 nicht erteilt. Boeing selbst erklärte laut Berichten, an einer dauerhaften Softwarelösung zu arbeiten und in der Zwischenzeit Verfahrensanweisungen für Piloten vorzusehen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der neue Softwarefehler reiht sich in eine längere Serie technischer und regulatorischer Probleme der 737-MAX-Familie ein. Wie berichtet, hatte die FAA erst im September 2026 eine Rissprüfung an rund 471 in den USA registrierten Max-Maschinen angeordnet, und bereits im Juli 2026 eine Inspektionspflicht wegen möglicherweise falsch montierter Sitzverriegelungen vorgeschlagen. Der jetzige Fall betrifft erstmals gezielt die noch nicht zugelassene Max-10-Variante und damit unmittelbar Boeings Zeitplan für die Auslieferung der größten Max-Baureihe."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist, wie lange sich die Zulassung der Max 10 durch die Prüfung tatsächlich verzögert und ob die FAA den Fehler letztlich als sicherheitsrelevant einstuft. Auch der in einem Bericht genannte Zeitpunkt, zu dem Boeing erstmals über den Fehler informiert worden sein soll, ist bislang nur über eine einzelne Quelle bekannt und nicht unabhängig bestätigt. Ebenso wenig lässt sich aus den vorliegenden Quellen ableiten, wie sich die Verzögerung auf bestehende Bestellungen und Lieferpläne der Fluggesellschaften auswirkt."
+      }
+    ],
+    "bodyKompakt": "Boeing hat einen neuen Softwarefehler in der Flugcomputer-Software seiner 737-MAX-Baureihe bestätigt. Die US-Luftfahrtbehörde FAA verzögert deshalb die Zulassung der 737 Max 10 – der letzten noch nicht zertifizierten und größten Variante der Modellreihe –, die eigentlich in den kommenden Wochen erwartet worden war.\n\nLaut übereinstimmenden Berichten betrifft der Fehler die automatische vertikale Navigation (VNAV) nach einem Durchstart und steckt in einer von GE Aerospace zugelieferten Software des Flugmanagementcomputers. Die FAA hat ein Corrective Action Review Board einberufen, um zu klären, ob ein sicherheitsrelevantes Problem vorliegt. Boeing erklärte, an einer dauerhaften Lösung zu arbeiten und bis dahin Verfahrensanweisungen für Piloten vorzusehen.\n\nDer Fall reiht sich in eine Serie technischer und regulatorischer Probleme der Max-Familie ein, zu denen zuletzt auch eine FAA-Rissprüfung und eine Inspektionspflicht wegen Sitzverriegelungen zählten. Offen bleibt, wie lange sich die Max-10-Zulassung dadurch konkret verschiebt und wie die FAA-Prüfung ausgeht.",
+    "updateNote": null,
+    "pendingOutcome": "Ergebnis der FAA-Prüfung durch das Corrective Action Review Board und die daraus folgende Entscheidung über die Zulassung der Boeing 737 Max 10."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-29T22:07:29.192Z"
+}
