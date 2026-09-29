@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T12:22:30.386Z",
+  "updatedAt": "2026-09-29T14:24:34.689Z",
   "stories": {
     "auszeit-wg-wien-gericht-anhaltung-august-2026": {
       "canonicalTitle": "„Auszeit-WG“: Stadt Wien veröffentlicht Konzept und gibt dabei irrtümlich Adresse preis, Gerichtsverfahren zu Freiheitsbeschränkungen weiter nicht rechtskräftig",
@@ -1630,35 +1630,6 @@
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-02T04:07:33.563Z"
-    },
-    "wiener-linien-e-scooter-verbot-september-2026": {
-      "canonicalTitle": "Wiener Linien verbieten E-Scooter künftig in Bus und Straßenbahn",
-      "slug": "wiener-linien-e-scooter-verbot-september-2026",
-      "firstSeenAt": "2026-08-30T14:07:32.190Z",
-      "lastUpdatedAt": "2026-08-30T14:07:32.190Z",
-      "status": "published",
-      "articlePath": "src/content/articles/wiener-linien-e-scooter-verbot-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-08-30/wiener-linien-e-scooter-verbot-september-2026.json",
-      "sourceUrls": [
-        "https://www.derstandard.at/story/3000000337605/wiener-linien-verbannen-e-scooter-aus-bus-und-strassenbahn",
-        "https://www.diepresse.com/41215007/wiener-linien-schraenken-mitnahme-von-e-scootern-ein",
-        "https://kurier.at/chronik/wien/neue-regeln-wiener-linien-wien-e-scooter-oeffi/403187368",
-        "https://blog.wienerlinien.at/9-dinge-die-ihr-zu-e-scootern-den-oeffis-wissen-muesst/",
-        "https://wien.orf.at/stories/3369060"
-      ],
-      "openQuestions": [
-        "Wie reagieren E-Scooter-Verleihunternehmen wie Tier, Lime oder Bolt auf die neuen Mitnahmeregeln?",
-        "Auf welcher Datenbasis stützen die Wiener Linien die Einschätzung, dass E-Scooter Fahrgastwechsel und Sicherheit stärker beeinträchtigen als andere Gepäckstücke?",
-        "Wie wird die Einhaltung der neuen Regeln praktisch kontrolliert, und wie hoch ist der erwartete Kontrollaufwand?",
-        "Gibt es eine formale Presseaussendung oder Verordnung der Wiener Linien mit dem vollständigen Wortlaut der neuen Beförderungsbedingungen?"
-      ],
-      "sensitivity": "low",
-      "doNotRedraftBefore": "2026-08-31T14:07:32.190Z",
-      "doNotUpdateBefore": "2026-08-30T20:07:32.190Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
-      "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-08-31T14:07:42.067Z"
     },
     "faehre-nordzypern-gekentert-august-2026": {
       "canonicalTitle": "Fähre vor Nordzypern gekentert: mindestens acht Tote, Kapitän festgenommen",
@@ -4069,10 +4040,13 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-04T16:07:38.103Z",
       "doNotUpdateBefore": "2026-09-03T22:07:38.103Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "diepresse": "2026-09-29T14:07:37.774Z",
+        "apa": "2026-09-29T12:07:39.407Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-04T20:07:31.381Z"
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     },
     "vaterland-pawlikowski-kinostart-september-2026": {
       "canonicalTitle": "„Vaterland“: Pawlikowskis Film über Thomas und Erika Mann startet in Österreichs Kinos",
@@ -16082,7 +16056,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-26T14:07:32.080Z",
       "doNotUpdateBefore": "2026-09-25T20:07:32.080Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kurier": "2026-09-29T14:07:37.477Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-26T16:07:25.462Z"
@@ -16157,8 +16133,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-28T12:07:35.399Z",
       "doNotUpdateBefore": "2026-09-27T18:07:35.399Z",
-      "pendingOutcome": "Offen sind der Ausgang der Senatsanhörung vom 1. Oktober 2026 (inklusive der Frage, ob Altman und Amodei tatsächlich erscheinen) sowie das Ergebnis der angekündigten Prüfung, ob der OpenAI-Zugriff gegen australisches Recht verstößt; zudem bleibt unklar, ob sich die bislang nur schlagzeilenartig bekannten weiteren Sicherheitsvorfälle bestätigen lassen.",
-      "pendingOutcomeUntil": "2026-09-29T12:07:35.399Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -16844,9 +16818,7 @@
       "doNotUpdateBefore": "2026-09-28T14:07:31.939Z",
       "pendingOutcome": "Der Termin des ÖVP-Frauen-Bundestags zur formalen Wahl Tanners sowie mögliche Gegenkandidaturen sind weiterhin offen und werden bei Bekanntwerden nachrecherchiert.",
       "pendingOutcomeUntil": "2026-09-29T20:07:31.728Z",
-      "echoPublishers": {
-        "diepresse": "2026-09-28T12:07:35.093Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-29T08:07:38.629Z"
@@ -16910,13 +16882,13 @@
       "resonanceMeasuredAt": "2026-09-26T16:07:25.462Z"
     },
     "spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026": {
-      "canonicalTitle": "Babler oder Zeiler? Kärntner SPÖ fordert Bundespartei zum Handeln auf – Babler bleibt bei „klarem Auftrag“",
+      "canonicalTitle": "Babler oder Zeiler? Tiroler SPÖ fordert Parteitag oder Mitgliederbefragung – Babler bleibt bei „klarem Auftrag“",
       "slug": "spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026",
       "firstSeenAt": "2026-09-25T18:07:34.282Z",
-      "lastUpdatedAt": "2026-09-28T16:07:32.342Z",
+      "lastUpdatedAt": "2026-09-29T14:07:33.970Z",
       "status": "published",
       "articlePath": "src/content/articles/spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-28/spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026-update-1600.json",
+      "researchPath": "data/ai-news/research/2026-09-29/spoe-zeiler-kandidatur-bestaetigt-babler-reaktion-september-2026-update-1400.json",
       "sourceUrls": [
         "https://kurier.at/politik/inland/gerhard-zeiler-spoe-analyse-andreas-babler/403193667",
         "https://orf.at/stories/3443237",
@@ -16958,37 +16930,52 @@
         "https://www.kleinezeitung.at/artikel/41306506/babler-oder-zeiler-kaerntner-spoe-fordert-bundespartei-zum-handeln-auf",
         "https://www.kleinezeitung.at/artikel/41299806/zeiler-statt-babler-spoe-vor-existenzieller-richtungsentscheidung",
         "https://www.kleinezeitung.at/artikel/41300582/spoe-granden-sympathisieren-mit-zeiler-babler-bleibt-dabei-das-sind",
-        "https://steiermark.orf.at/stories/3372972"
+        "https://steiermark.orf.at/stories/3372972",
+        "https://www.diepresse.com/41307513/moldau-braucht-einen-wie-milei-ich-bin-anhaenger-der-oesterreichischen-schule",
+        "https://www.diepresse.com/41302480/zeiler-selbsterklaerend-in-der-zib-2-ich-bin-kein-klassenkaempfer",
+        "https://www.derstandard.at/story/3000000341616/babler-oder-zeiler-spoe-abgeordnete-ich-bin-sicher-nicht-fuer-den-einen-oder-anderen",
+        "https://www.diepresse.com/41302480/zeiler-in-der-zib-2-ich-bin-kein-klassenkaempfer",
+        "https://www.ots.at/presseaussendung/OTS_20260928_OTS0137/oesterreich-braucht-rasch-hybridkraftwerke-aus-wind-pv-und-batterien-potenzial-fuer-effiziente-netznutzung-sichern",
+        "https://www.diepresse.com/41303115/babler-oder-zeiler-oesterreichs-sportpolitik-braucht-glaubwuerdigkeit",
+        "https://www.diepresse.com/41307369/zeiler-gegen-babler-tiroler-spoe-chef-wohlgemuth-fordert-parteitag-oder-mitgliederbefragung",
+        "https://www.diepresse.com/41283355/florian-boesch-ich-bin-eine-wertvolle-zumutung",
+        "https://www.nachrichten.at/politik/innenpolitik/erster-tv-auftritt-von-zeiler-in-der-zib2-ich-bin-kein-marxist-und-kein-klassenkaempfer;art385,4216362",
+        "https://www.sn.at/politik/innenpolitik/gerhard-zeiler-ich-bin-kein-marxist-ich-bin-kein-klassenkaempfer-art-675261",
+        "https://www.sn.at/politik/innenpolitik/uneinigkeit-in-laendern-in-sp-fuehrungsdebatte-art-675535",
+        "https://www.tt.com/artikel/30943076/babler-vs-zeiler-fernpass-wohnen-das-war-der-chat-mit-tirols-spoe-chef-wohlgemuth",
+        "https://www.heute.at/s/dann-muss-man-gehen-zeiler-stichelt-gegen-babler-120258178"
       ],
       "openQuestions": [
         "Gelingt es Zeiler oder seinen Unterstützern, die für eine vorgezogene Vorsitzwahl nötigen Unterschriften von SPÖ-Mitgliedern zu sammeln – und wie viele sind laut Statut tatsächlich erforderlich?",
         "Kommt es zu dem von Niessl angekündigten Oktober-Treffen zwischen Doskozil und Zeiler tatsächlich, nachdem Doskozils Büro einen fixen Termin dementiert hat?",
-        "Wie reagiert Gerhard Zeiler öffentlich auf Bablers Einordnung, es handle sich \"derzeit nur\" um Gerüchte?",
-        "Welche konkreten Zahlen, Fristen oder Umsetzungsschritte stehen hinter den drei in der ZiB 2 genannten Zielen Zeilers (Lebenshaltungskosten, Bildung/Gesundheit, Förderungen), über die kursorische Nennung hinaus?",
+        "Wie reagiert die Bundespartei auf die Forderungen aus Kärnten und Tirol nach einem außerordentlichen Parteitag beziehungsweise einem Treffen aller Landeschefs?",
+        "Welche konkreten Zahlen, Fristen oder Umsetzungsschritte stehen hinter den drei in der ZiB 2 genannten Zielen Zeilers, über die kursorische Nennung hinaus?",
         "Wie und wann will Zeiler die von ihm selbst als \"langen Prozess\" beschriebene Unterstützung im Parteivorstand oder über eine Mitgliederbefragung tatsächlich mobilisieren?",
         "Wie positioniert sich GPA-Chefin Barbara Teiber, sobald sie Zeilers inhaltliche Positionen kennt?",
         "Bleiben die Unterstützungsäußerungen von Voves, Ambrozy und Niessl auf ehemalige Funktionäre beschränkt, oder positionieren sich auch amtierende SPÖ-Spitzenfunktionäre öffentlich für Zeiler?",
-        "Welches Institut hat die kolportierte Umfragezahl von rund 16 Prozent erhoben, und wann genau – und wie verhält sie sich zu den Einschätzungen von Zeiler (rund 15 Prozent) und dem Kärntner Landesgeschäftsführer Pototschnig (ebenfalls \"15 Prozent\")?",
-        "Folgt die Bundespartei der Kärntner Forderung, alle Landeschefs an einen Tisch zu holen, und wenn ja, mit welchem Zeitplan?",
-        "Wird nach der Kärntner Landesparteivorstands-Sitzung ein verbindliches Verfahren zur etwaigen Vorsitzwahl eingeleitet – und auf welchem statutarischen Weg?",
-        "Ist die von Kleiner Zeitung und ORF Steiermark berichtete Zurückhaltung bzw. der Ruf nach \"Geschlossenheit und Ruhe\" in der steirischen SPÖ eine breitere innerparteiliche Stimmung oder eine Einzelmeinung (etwa von Pensionistenverbands-Chef Stanzer)?",
+        "Welches Institut hat die kolportierten Umfragezahlen von rund 15 bis 16 Prozent erhoben, und wann genau?",
+        "Wird nach den Landesparteivorstands-Sitzungen in Kärnten und Tirol ein verbindliches Verfahren zur etwaigen Vorsitzwahl eingeleitet – und auf welchem statutarischen Weg?",
+        "Ist die von Kleiner Zeitung und ORF Steiermark berichtete Zurückhaltung bzw. der Ruf nach \"Geschlossenheit und Ruhe\" in der steirischen SPÖ eine breitere innerparteiliche Stimmung oder eine Einzelmeinung?",
         "Kommt es angesichts der gemischten Länderreaktionen überhaupt zu einer formellen Gegenkandidatur, oder bleibt es bei der öffentlichen Ansage?",
         "Entscheidet sich die Partei im Streitfall für eine Mitgliederbefragung oder einen Sonderparteitag mit Kampfabstimmung?",
-        "Bestätigt eine zweite Quelle Zeilers Aussagen zu 'Wirtschaft entfesseln', 'Sumoringer' und 'kein Marxist' aus dem ZiB-2-Interview?"
+        "Bestätigt sich der bislang nur über eine einzelne Quelle bekannte Fußballtrainer-Vergleich Zeilers gegen Babler durch weitere Medien?",
+        "Ist die im Parlament beobachtete Zurückhaltung von SPÖ-Abgeordneten repräsentativ für die gesamte Fraktion, oder äußern sich einzelne Abgeordnete inzwischen doch öffentlich zur Führungsfrage?"
       ],
       "sensitivity": "medium",
-      "doNotRedraftBefore": "2026-09-29T16:07:32.342Z",
-      "doNotUpdateBefore": "2026-09-28T22:07:32.342Z",
-      "pendingOutcome": "Offen bleibt, ob die Bundespartei dem Kärntner Appell nach einem Treffen aller Landeschefs folgt, ob und wann ein Verfahren zur Wahl des Bundesparteivorsitzes eingeleitet wird, ob das angekündigte Doskozil-Zeiler-Treffen im Oktober stattfindet und ob Zeiler die für eine Gegenkandidatur nötige Unterstützung mobilisieren kann.",
+      "doNotRedraftBefore": "2026-09-30T14:07:33.970Z",
+      "doNotUpdateBefore": "2026-09-29T20:07:33.970Z",
+      "pendingOutcome": "Der Ausgang der SPÖ-Vorsitzdebatte bleibt offen: ob Zeiler eine formelle Kandidatur mit den nötigen Unterschriften einleitet, ob und wann das angekündigte Doskozil-Zeiler-Treffen sowie ein von Kärnten und Tirol gefordertes Verfahren (Landeschefs-Treffen, Parteitag oder Mitgliederbefragung) zustande kommen und wie die Bundespartei sowie die übrigen Landesparteien sich letztlich positionieren.",
       "pendingOutcomeUntil": "2026-09-29T22:07:36.994Z",
       "echoPublishers": {
         "kurier": "2026-09-29T12:07:39.886Z",
-        "diepresse": "2026-09-29T10:07:37.906Z",
-        "kleinezeitung": "2026-09-29T00:07:39.420Z"
+        "diepresse": "2026-09-29T14:07:37.873Z",
+        "kleinezeitung": "2026-09-29T10:07:39.708Z",
+        "apa": "2026-09-29T14:07:36.973Z",
+        "orf": "2026-09-29T12:07:39.240Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-28T18:07:55.577Z"
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     },
     "red-bull-dosenwerk-baruth-widerstand-september-2026": {
       "canonicalTitle": "Grüne Liga Brandenburg kündigt neue Klage gegen Red-Bull-Dosenwerk bei Berlin an",
@@ -18147,10 +18134,13 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-28T02:07:37.091Z",
       "doNotUpdateBefore": "2026-09-27T08:07:37.091Z",
-      "echoPublishers": {},
-      "resonanceLevel": 1,
+      "echoPublishers": {
+        "theverge": "2026-09-29T14:07:38.312Z",
+        "techcrunch": "2026-09-29T14:07:38.397Z"
+      },
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-27T16:07:37.277Z"
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     },
     "kickboxen-doppel-wm-gold-kaernten-jesolo-september-2026": {
       "canonicalTitle": "Kärntner Kickboxer Platzner und Grentner holen Doppel-Weltmeistertitel in Jesolo",
@@ -18437,9 +18427,9 @@
         "heise": "2026-09-29T08:07:43.884Z",
         "golem": "2026-09-29T12:07:41.628Z"
       },
-      "resonanceLevel": 5,
+      "resonanceLevel": 4,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-29T08:07:38.629Z"
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     },
     "e-scooter-unfall-tulln-stahltor-september-2026": {
       "canonicalTitle": "18-Jähriger prallt mit E-Scooter bei Tempo 115 gegen Stahltor in Tulln",
@@ -18523,8 +18513,6 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-28T12:07:35.399Z",
       "doNotUpdateBefore": "2026-09-27T18:07:35.399Z",
-      "pendingOutcome": "Die offizielle, endgültige Festlegung der neuen Spritsparvorgaben durch das US-Verkehrsministerium, die für Montag, den 28. September 2026, angekündigt war.",
-      "pendingOutcomeUntil": "2026-09-29T12:07:35.399Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18561,8 +18549,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-29T10:07:31.361Z",
       "doNotUpdateBefore": "2026-09-28T16:07:31.361Z",
-      "pendingOutcome": "Offen bleiben die exakte Opferzahl in Nepal (Abweichung zwischen rund 23 und mindestens 27), das Schicksal der nach dem Himlung-Lawinenabgang weiterhin Vermissten sowie das Gesamtschadensausmaß in beiden Ländern.",
-      "pendingOutcomeUntil": "2026-09-29T14:07:33.374Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -19172,14 +19158,10 @@
       "doNotUpdateBefore": "2026-09-28T18:07:31.489Z",
       "pendingOutcome": "Ausgang der laufenden Fahndung nach dem gestohlenen Hubschrauber – etwa Auffinden der Maschine, Festnahme von Verdächtigen oder Fortschritte der grenzüberschreitenden Ermittlungen mit Kroatien.",
       "pendingOutcomeUntil": "2026-09-30T12:07:31.489Z",
-      "echoPublishers": {
-        "kleinezeitung": "2026-09-28T12:07:36.246Z",
-        "derstandard": "2026-09-28T14:07:33.490Z",
-        "diepresse": "2026-09-28T14:07:31.697Z"
-      },
-      "resonanceLevel": 5,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-28T14:07:27.960Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     },
     "erste-bank-vbv-george-pensionsreform-september-2026": {
       "canonicalTitle": "Betriebliche Altersvorsorge: Erste Bank und VBV verknüpfen Onlineportale George und Meine VBV",
@@ -19206,9 +19188,7 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-29T12:07:31.489Z",
       "doNotUpdateBefore": "2026-09-28T18:07:31.489Z",
-      "echoPublishers": {
-        "profil": "2026-09-28T12:07:35.101Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-29T12:07:35.083Z"
@@ -19267,8 +19247,6 @@
       "doNotRedraftBefore": "2026-09-29T14:07:27.960Z",
       "doNotUpdateBefore": "2026-09-28T20:07:27.960Z",
       "echoPublishers": {
-        "diepresse": "2026-09-28T14:07:31.697Z",
-        "kurier": "2026-09-28T14:07:31.423Z",
         "derstandard": "2026-09-28T16:07:35.801Z"
       },
       "resonanceLevel": 4,
@@ -19298,15 +19276,10 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-29T14:07:27.960Z",
       "doNotUpdateBefore": "2026-09-28T20:07:27.960Z",
-      "echoPublishers": {
-        "orf": "2026-09-28T14:07:29.784Z",
-        "derstandard": "2026-09-28T14:07:31.725Z",
-        "diepresse": "2026-09-28T14:07:31.917Z",
-        "kurier": "2026-09-28T14:07:31.381Z"
-      },
-      "resonanceLevel": 4,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-29T02:07:31.880Z"
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     },
     "dobrindt-eralp-strafanzeige-september-2026": {
       "canonicalTitle": "„Na doch“: Die Linke zeigt deutschen Innenminister Dobrindt an",
@@ -19335,13 +19308,10 @@
       "doNotUpdateBefore": "2026-09-28T20:07:27.960Z",
       "pendingOutcome": "Entscheidung der Staatsanwaltschaft, ob wegen der Anzeige gegen Dobrindt ein Ermittlungsverfahren eingeleitet wird.",
       "pendingOutcomeUntil": "2026-09-30T14:07:27.960Z",
-      "echoPublishers": {
-        "diepresse": "2026-09-28T14:07:31.697Z",
-        "kleinezeitung": "2026-09-28T14:07:33.138Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-29T06:07:39.092Z"
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     },
     "eu-abgeordnete-deepfake-studie-september-2026": {
       "canonicalTitle": "147 EU-Parlamentarier auf Deepfake-Webseiten identifiziert – auch Lena Schilling betroffen",
@@ -19405,7 +19375,6 @@
       "doNotUpdateBefore": "2026-09-29T12:07:39.092Z",
       "echoPublishers": {
         "orf": "2026-09-29T06:07:41.527Z",
-        "kurier": "2026-09-28T14:07:31.423Z",
         "diepresse": "2026-09-29T06:07:42.628Z"
       },
       "resonanceLevel": 2,
@@ -19641,7 +19610,7 @@
       },
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-29T02:07:31.880Z"
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     },
     "spacex-starship-erster-orbitalflug-september-2026": {
       "canonicalTitle": "SpaceX-Rakete Starship erreicht erstmals die Erdumlaufbahn",
@@ -19674,8 +19643,6 @@
       "echoPublishers": {
         "kleinezeitung": "2026-09-29T00:07:39.380Z",
         "derstandard": "2026-09-29T06:07:44.163Z",
-        "orf": "2026-09-28T14:07:29.784Z",
-        "techcrunch": "2026-09-28T14:07:32.489Z",
         "golem": "2026-09-28T16:07:37.324Z",
         "heise": "2026-09-28T20:07:36.750Z",
         "diepresse": "2026-09-29T06:07:42.632Z",
@@ -19882,11 +19849,12 @@
       "doNotUpdateBefore": "2026-09-29T18:07:35.083Z",
       "echoPublishers": {
         "derstandard": "2026-09-29T12:07:40.178Z",
-        "diepresse": "2026-09-29T12:07:40.259Z"
+        "diepresse": "2026-09-29T12:07:40.259Z",
+        "apa": "2026-09-29T14:07:36.970Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-29T12:07:35.083Z"
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     },
     "waffenregister-anstieg-september-2026": {
       "canonicalTitle": "Zahl der registrierten Schusswaffen in Österreich binnen eines Jahres um über 42.000 gestiegen",
@@ -19952,6 +19920,73 @@
       "resonanceLevel": 4,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-29T12:07:35.083Z"
+    },
+    "radfahrer-inlineskater-kollision-seiersberg-pirka-september-2026": {
+      "canonicalTitle": "Radfahrer nach Kollision mit Inlineskater in Seiersberg-Pirka lebensgefährlich verletzt",
+      "slug": "radfahrer-inlineskater-kollision-seiersberg-pirka-september-2026",
+      "firstSeenAt": "2026-09-29T14:07:33.970Z",
+      "lastUpdatedAt": "2026-09-29T14:07:33.970Z",
+      "status": "published",
+      "articlePath": "src/content/articles/radfahrer-inlineskater-kollision-seiersberg-pirka-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-29/radfahrer-inlineskater-kollision-seiersberg-pirka-september-2026.json",
+      "sourceUrls": [
+        "https://steiermark.orf.at/stories/3373157",
+        "https://kurier.at/chronik/steiermark/seiersberg-pirka-radfahrer-kollision-inlineskater-lebensgefahr/403194614",
+        "https://www.kleinezeitung.at/artikel/41308740/radfahrer-72-nach-zusammenstoss-mit-inline-skater-in-lebensgefahr"
+      ],
+      "openQuestions": [
+        "Zu welchem Ergebnis kommen die laufenden polizeilichen Ermittlungen zum genauen Unfallhergang?",
+        "Wie ist der aktuelle Gesundheitszustand des schwerverletzten Radfahrers?",
+        "Welche Rolle könnten Geschwindigkeit, Sichtverhältnisse oder die Streckenführung des Radwegs gespielt haben?",
+        "Kann sich der Radfahrer inzwischen selbst zum Hergang äußern?"
+      ],
+      "sensitivity": "high",
+      "doNotRedraftBefore": "2026-09-30T14:07:33.970Z",
+      "doNotUpdateBefore": "2026-09-29T20:07:33.970Z",
+      "pendingOutcome": "Ergebnis der polizeilichen Ermittlungen zum genauen Unfallhergang sowie der weitere Gesundheitszustand des lebensgefährlich verletzten Radfahrers.",
+      "pendingOutcomeUntil": "2026-10-01T14:07:33.970Z",
+      "echoPublishers": {
+        "orf": "2026-09-29T14:07:36.445Z",
+        "kurier": "2026-09-29T14:07:37.925Z",
+        "kleinezeitung": "2026-09-29T12:07:41.747Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
+    },
+    "vodosek-amtsuebergabe-festakt-29-september-2026": {
+      "canonicalTitle": "Vodosek als Generalstabschef angelobt: Festakt beantwortet offene Fragen zum Zeitpunkt",
+      "slug": "vodosek-amtsuebergabe-festakt-29-september-2026",
+      "firstSeenAt": "2026-09-29T14:07:33.970Z",
+      "lastUpdatedAt": "2026-09-29T14:07:33.970Z",
+      "status": "published",
+      "articlePath": "src/content/articles/vodosek-amtsuebergabe-festakt-29-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-29/vodosek-amtsuebergabe-festakt-29-september-2026.json",
+      "sourceUrls": [
+        "https://www.ots.at/presseaussendung/OTS_20260929_OTS0124/ofenauer-mit-harald-vodosek-uebernimmt-fuehrungspersoenlichkeit-mit-hoher-expertise-funktion-des-generalstabschefs",
+        "https://www.diepresse.com/41308943/bundesheer-vodosek-uebernimmt-als-neuer-generalstabschef",
+        "https://kurier.at/politik/inland/bundesheer-militaer-harald-vodosek-klauda-tanner/403194593",
+        "https://www.diepresse.com/41302233/harald-vodosek-rueckt-an-die-spitze-des-bundesheeres"
+      ],
+      "openQuestions": [
+        "Wer waren die fünf im Auswahlverfahren unterlegenen Bewerber um den Posten des Generalstabschefs?",
+        "Wie kommentiert der scheidende Generalstabschef Rudolf Striedinger selbst seinen Abschied und den Übergang?",
+        "Gibt es Reaktionen von Oppositionsparteien oder der Personalvertretung des Bundesheeres auf Auswahlentscheidung und Amtsübergabe?",
+        "Mit welchem konkreten Zeitplan will die Regierung das Verteidigungsbudget auf zwei Prozent des BIP anheben?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-30T14:07:33.970Z",
+      "doNotUpdateBefore": "2026-09-29T20:07:33.970Z",
+      "pendingOutcome": "Ob und in welchem Zeitraum die von Bundeskanzler Stocker in Aussicht gestellte Erhöhung des Verteidigungsbudgets auf zwei Prozent des BIP tatsächlich umgesetzt wird, ist offen.",
+      "pendingOutcomeUntil": "2026-10-01T14:07:33.970Z",
+      "echoPublishers": {
+        "apa": "2026-09-29T12:07:39.407Z",
+        "diepresse": "2026-09-29T12:07:40.207Z",
+        "kurier": "2026-09-29T12:07:39.896Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
     }
   }
 }
