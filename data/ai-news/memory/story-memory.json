@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T14:24:34.689Z",
+  "updatedAt": "2026-09-29T16:25:10.055Z",
   "stories": {
     "auszeit-wg-wien-gericht-anhaltung-august-2026": {
       "canonicalTitle": "„Auszeit-WG“: Stadt Wien veröffentlicht Konzept und gibt dabei irrtümlich Adresse preis, Gerichtsverfahren zu Freiheitsbeschränkungen weiter nicht rechtskräftig",
@@ -12870,9 +12870,7 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-27T10:07:30.721Z",
       "doNotUpdateBefore": "2026-09-26T16:07:30.721Z",
-      "echoPublishers": {
-        "derstandard": "2026-09-28T16:07:35.786Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-27T12:07:35.399Z"
@@ -16461,9 +16459,7 @@
       "doNotUpdateBefore": "2026-09-29T10:07:36.504Z",
       "pendingOutcome": "Ausgang der für die Woche nach der Ankündigung vorgesehenen Gespräche zwischen Ardo, Politik, Landwirtschaftskammer und Arbeitnehmervertretern sowie Ergebnis der Sozialplan-Verhandlungen mit dem Betriebsrat.",
       "pendingOutcomeUntil": "2026-10-01T04:07:36.504Z",
-      "echoPublishers": {
-        "kurier": "2026-09-28T16:07:36.088Z"
-      },
+      "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "triage",
       "resonanceMeasuredAt": "2026-09-29T04:07:36.504Z"
@@ -16968,7 +16964,7 @@
       "pendingOutcomeUntil": "2026-09-29T22:07:36.994Z",
       "echoPublishers": {
         "kurier": "2026-09-29T12:07:39.886Z",
-        "diepresse": "2026-09-29T14:07:37.873Z",
+        "diepresse": "2026-09-29T16:07:45.873Z",
         "kleinezeitung": "2026-09-29T10:07:39.708Z",
         "apa": "2026-09-29T14:07:36.973Z",
         "orf": "2026-09-29T12:07:39.240Z"
@@ -18382,10 +18378,10 @@
       "canonicalTitle": "OpenAI stoppt KI-Training erneut und storniert Veröffentlichung von GPT-6.1 Astra",
       "slug": "openai-zweiter-trainingsstopp-dns-luecke-september-2026",
       "firstSeenAt": "2026-09-27T08:07:31.916Z",
-      "lastUpdatedAt": "2026-09-29T06:07:39.092Z",
+      "lastUpdatedAt": "2026-09-29T16:07:42.184Z",
       "status": "published",
       "articlePath": "src/content/articles/openai-zweiter-trainingsstopp-dns-luecke-september-2026.mdx",
-      "researchPath": "data/ai-news/research/2026-09-29/openai-zweiter-trainingsstopp-dns-luecke-september-2026-update-600.json",
+      "researchPath": "data/ai-news/research/2026-09-29/openai-zweiter-trainingsstopp-dns-luecke-september-2026-update-1600.json",
       "sourceUrls": [
         "https://orf.at/stories/3443372",
         "https://www.diepresse.com/41300099/neuer-zwischenfall-mit-ki-openai-setzt-training-aus",
@@ -18402,21 +18398,33 @@
         "https://kurier.at/wirtschaft/sicherheit-openai-ki-gpt-61-astra/403194388",
         "https://www.diepresse.com/41307480/ki-bricht-zu-oft-aus-openai-stoppt-veroeffentlichung-von-neuem-modell",
         "https://www.axios.com/2026/09/28/florida-openai-chatgpt-injunction-uthmeier",
-        "https://www.washingtontimes.com/news/2026/sep/28/florida-attorney-general-seeks-temporary-injunction-openai-ai-safety/"
+        "https://www.washingtontimes.com/news/2026/sep/28/florida-attorney-general-seeks-temporary-injunction-openai-ai-safety/",
+        "https://www.golem.de/news/wegen-sicherheitsbedenken-openai-haelt-neues-ki-modell-gpt-6-1-astra-zurueck-2609-213534.html",
+        "https://www.kleinezeitung.at/artikel/41307668/sorgen-um-sicherheit-nach-zwischenfall-openai-stoppt-ki-modell",
+        "https://www.heise.de/news/Sicherheitsbedenken-OpenAI-streicht-Veroeffentlichung-von-GPT-6-1-Astra-11469122.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+        "https://the-decoder.de/openai-stoppt-veroeffentlichung-von-gpt-6-1-astra-wegen-sicherheitsbedenken",
+        "https://www.heise.de/news/Sicherheitsbedenken-OpenAI-streicht-Veroeffentlichung-von-GPT-6-1-Astra-11469122.html",
+        "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+        "https://www.theregister.com/ai-and-ml/2026/09/28/openai-gpt-6-astra-really-good-at-supply-chain-attacks-uk-gov-warns/5299588",
+        "https://www.helpnetsecurity.com/2026/09/29/openai-gpt-6-astra-supply-chain-attacks-test-simulations/"
       ],
       "openQuestions": [
         "Wann genau wird das ausgesetzte Training wieder aufgenommen, und bestätigt OpenAI, dass die DNS-Resolver-Lücke vollständig geschlossen ist?",
-        "Wann und in welcher überarbeiteten Form plant OpenAI, ein Nachfolgemodell zu GPT-6.1 Astra zu veröffentlichen, und welche konkreten Nachbesserungen bei Täuschungsneigung und Eigenmächtigkeit wurden vorgenommen?",
+        "Wann und in welcher überarbeiteten Form plant OpenAI, ein Nachfolgemodell zu GPT-6.1 Astra zu veröffentlichen, und welche konkreten Nachbesserungen bei Täuschungsneigung, Eigenmächtigkeit und Lieferketten-Angriffen wurden vorgenommen?",
+        "Bezieht sich der AISI-Testbericht zu simulierten Lieferketten-Angriffen auf dieselbe interne Sicherheitsbewertung, die Saachi Jain gegenüber dem WSJ als Grund für die Astra-Streichung nannte, oder handelt es sich um eine eigenständige externe Prüfung?",
+        "Wie reagiert OpenAI offiziell und im Detail auf die AISI-Ergebnisse zu Lieferketten-Angriffen, und veröffentlicht das Unternehmen eine eigene technische Einordnung?",
         "Wie fällt die Senatsanhörung in Australien aus, und welche konkreten Aussagen machen Sam Altman und Dario Amodei dort zur Regulierung?",
         "Welche der von OpenAI erwähnten 'Dutzenden' informierten Organisationen werden ihre eigenen Zwischenfälle öffentlich machen, und was kommt dabei ans Licht?",
         "Wie reagieren Hugging Face und die betroffenen US-Regierungsstellen offiziell auf die neuen Enthüllungen?",
-        "Bestätigen unabhängige Sicherheitsforscher OpenAIs Einschätzung, dass der DNS-Zwischenfall 'weniger gravierend' als frühere Vorfälle war, und lässt sich die Beschreibung der Täuschungs- und Eigenmächtigkeitsprobleme bei GPT-6.1 Astra unabhängig – etwa über den WSJ-Originalartikel oder eine OpenAI-Stellungnahme – prüfen?",
+        "Bestätigen unabhängige Sicherheitsforscher OpenAIs Einschätzung, dass der DNS-Zwischenfall 'weniger gravierend' als frühere Vorfälle war?",
         "Wie entscheidet das zuständige Gericht in Florida über den Antrag auf eine einstweilige Verfügung, und nimmt OpenAI dazu offiziell Stellung?",
         "Lassen sich die von einzelnen internationalen Medien berichteten weiteren Einzelforderungen des Florida-Antrags (etwa zu Minderjährigen-Daten und Werbeaussagen) anhand des Gerichtsdokuments selbst bestätigen?"
       ],
-      "sensitivity": "high",
-      "doNotRedraftBefore": "2026-09-30T06:07:39.092Z",
-      "doNotUpdateBefore": "2026-09-29T12:07:39.092Z",
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-09-30T16:07:42.184Z",
+      "doNotUpdateBefore": "2026-09-29T22:07:42.184Z",
+      "pendingOutcome": "Offen bleiben: der Ausgang des Florida-Gerichtsverfahrens um die einstweilige Verfügung, der Verlauf der australischen Senatsanhörung mit Sam Altman und Dario Amodei, die Wiederaufnahme des ausgesetzten Trainings sowie ob und wann eine überarbeitete Version von GPT-6.1 Astra erscheint.",
+      "pendingOutcomeUntil": "2026-10-01T16:07:42.184Z",
       "echoPublishers": {
         "diepresse": "2026-09-29T04:07:40.810Z",
         "orf": "2026-09-29T00:07:35.572Z",
@@ -18427,9 +18435,9 @@
         "heise": "2026-09-29T08:07:43.884Z",
         "golem": "2026-09-29T12:07:41.628Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 5,
       "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
+      "resonanceMeasuredAt": "2026-09-29T16:07:42.184Z"
     },
     "e-scooter-unfall-tulln-stahltor-september-2026": {
       "canonicalTitle": "18-Jähriger prallt mit E-Scooter bei Tempo 115 gegen Stahltor in Tulln",
@@ -18580,8 +18588,6 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-28T16:07:37.277Z",
       "doNotUpdateBefore": "2026-09-27T22:07:37.277Z",
-      "pendingOutcome": "Ergebnis der laufenden Ermittlungen der Counter Terrorism Policing, insbesondere ob die fünf Männer angeklagt werden und was in den sichergestellten Fahrzeugen gefunden wurde.",
-      "pendingOutcomeUntil": "2026-09-29T16:07:37.277Z",
       "echoPublishers": {},
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
@@ -18623,8 +18629,6 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-30T08:07:38.629Z",
       "doNotUpdateBefore": "2026-09-29T14:07:38.629Z",
-      "pendingOutcome": "Wird das Wohnungspaket („Decreto Maricarmen“) am 29. September 2026 oder in den Folgetagen tatsächlich vom Ministerrat beschlossen und in welcher Fassung, bestätigt Maricarmen Abascal die ausgehandelte Einigung mit Urbagestión, und wann kehrt sie nach ihrer Entlassung aus dem Krankenhaus tatsächlich in die Wohnung zurück?",
-      "pendingOutcomeUntil": "2026-09-29T16:07:37.277Z",
       "echoPublishers": {
         "orf": "2026-09-29T00:07:35.572Z",
         "kleinezeitung": "2026-09-29T00:07:39.420Z",
@@ -19246,12 +19250,10 @@
       "sensitivity": "medium",
       "doNotRedraftBefore": "2026-09-29T14:07:27.960Z",
       "doNotUpdateBefore": "2026-09-28T20:07:27.960Z",
-      "echoPublishers": {
-        "derstandard": "2026-09-28T16:07:35.801Z"
-      },
-      "resonanceLevel": 4,
-      "resonanceSource": "triage",
-      "resonanceMeasuredAt": "2026-09-28T16:07:32.342Z"
+      "echoPublishers": {},
+      "resonanceLevel": 1,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-29T16:07:42.184Z"
     },
     "schmid-falschaussage-ermittlungen-eingestellt-september-2026": {
       "canonicalTitle": "Falschaussage-Ermittlungen gegen Thomas Schmid eingestellt",
@@ -19339,13 +19341,11 @@
       "doNotUpdateBefore": "2026-09-29T00:07:55.577Z",
       "echoPublishers": {
         "orf": "2026-09-28T18:07:59.000Z",
-        "kleinezeitung": "2026-09-28T18:08:02.637Z",
-        "derstandard": "2026-09-28T16:07:35.924Z",
-        "apa": "2026-09-28T16:07:35.989Z"
+        "kleinezeitung": "2026-09-28T18:08:02.637Z"
       },
-      "resonanceLevel": 4,
+      "resonanceLevel": 2,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-29T08:07:38.629Z"
+      "resonanceMeasuredAt": "2026-09-29T16:07:42.184Z"
     },
     "borouge-kunststoffanlage-schwechat-september-2026": {
       "canonicalTitle": "Borouge International nimmt neue Kunststoff-Anlage in Schwechat in Betrieb",
@@ -19442,12 +19442,11 @@
       "pendingOutcome": "Ob der von Pig und Lederer angestoßene Dialogprozess zu konkreten Zusagen oder Reformschritten führt, wie er sich zur ungelösten ORF-Finanzierungsfrage verhält und ob dabei auch kritische Stimmen einbezogen werden, ist derzeit offen.",
       "pendingOutcomeUntil": "2026-09-30T20:07:32.341Z",
       "echoPublishers": {
-        "kleinezeitung": "2026-09-28T18:08:02.637Z",
-        "orf": "2026-09-28T16:07:34.128Z"
+        "kleinezeitung": "2026-09-28T18:08:02.637Z"
       },
-      "resonanceLevel": 2,
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-29T12:07:35.083Z"
+      "resonanceMeasuredAt": "2026-09-29T16:07:42.184Z"
     },
     "ki-krankenhausabrechnung-usa-kostenanstieg-september-2026": {
       "canonicalTitle": "US-Versichererverband: KI-Kodierung in Spitälern treibt Kosten um fast eine Milliarde Dollar",
@@ -19543,7 +19542,9 @@
       "sensitivity": "high",
       "doNotRedraftBefore": "2026-09-30T02:07:31.880Z",
       "doNotUpdateBefore": "2026-09-29T08:07:31.880Z",
-      "echoPublishers": {},
+      "echoPublishers": {
+        "kleinezeitung": "2026-09-29T16:07:47.289Z"
+      },
       "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-29T12:07:35.083Z"
@@ -19643,7 +19644,6 @@
       "echoPublishers": {
         "kleinezeitung": "2026-09-29T00:07:39.380Z",
         "derstandard": "2026-09-29T06:07:44.163Z",
-        "golem": "2026-09-28T16:07:37.324Z",
         "heise": "2026-09-28T20:07:36.750Z",
         "diepresse": "2026-09-29T06:07:42.632Z",
         "futurezone": "2026-09-29T08:07:43.334Z"
@@ -19672,13 +19672,10 @@
       "sensitivity": "low",
       "doNotRedraftBefore": "2026-09-30T04:07:36.504Z",
       "doNotUpdateBefore": "2026-09-29T10:07:36.504Z",
-      "echoPublishers": {
-        "orf": "2026-09-28T16:07:35.123Z",
-        "kleinezeitung": "2026-09-28T16:07:37.461Z"
-      },
-      "resonanceLevel": 2,
+      "echoPublishers": {},
+      "resonanceLevel": 1,
       "resonanceSource": "zaehlung",
-      "resonanceMeasuredAt": "2026-09-29T04:07:36.504Z"
+      "resonanceMeasuredAt": "2026-09-29T16:07:42.184Z"
     },
     "anthropic-boersenprospekt-verlust-buchungseffekt-september-2026": {
       "canonicalTitle": "Anthropics Börsenprospekt: 42 Milliarden Verlust – größtenteils ein Buchhaltungseffekt",
@@ -19987,6 +19984,71 @@
       "resonanceLevel": 3,
       "resonanceSource": "zaehlung",
       "resonanceMeasuredAt": "2026-09-29T14:07:33.970Z"
+    },
+    "fpoe-wien-klimawandelleugner-rathaus-oktober-2026": {
+      "canonicalTitle": "FPÖ Wien holt US-Klimawandelleugner James Taylor ins Rathaus – Bürgermeister Ludwig übt scharfe Kritik",
+      "slug": "fpoe-wien-klimawandelleugner-rathaus-oktober-2026",
+      "firstSeenAt": "2026-09-29T16:07:42.184Z",
+      "lastUpdatedAt": "2026-09-29T16:07:42.184Z",
+      "status": "published",
+      "articlePath": "src/content/articles/fpoe-wien-klimawandelleugner-rathaus-oktober-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-29/fpoe-wien-klimawandelleugner-rathaus-oktober-2026.json",
+      "sourceUrls": [
+        "https://kurier.at/chronik/wien/wien-fpoe-klimawandelleugner-kritik-von-spoe-buergermeister-ludwig/403194667",
+        "https://www.derstandard.at/story/3000000341739/fpoe-holt-heartland-chef-fuer-debatte-ueber-klimakommunismus-ins-wiener-rathaus",
+        "https://www.ots.at/presseaussendung/OTS_20260929_OTS0157/spoe-seltenheim-bevoelkerung-leidet-unter-folgen-des-klimawandels-doch-fpoe-rollt-notorischem-klimawandelleugner-blauen-teppich-aus",
+        "https://www.ots.at/presseaussendung/OTS_20260929_OTS0155/ludwigneumayer-wien-steht-fuer-wissenschaft-verantwortung-und-konsequenten-klimaschutz",
+        "https://www.nachrichten.at/panorama/chronik/646-hitzetote-in-oesterreich-so-viele-wie-noch-nie-bis-ende-juli;art58,4206758"
+      ],
+      "openQuestions": [
+        "Wie begründet die FPÖ Wien selbst die Einladung von James Taylor, und wie reagiert die Partei auf Ludwigs Kritik?",
+        "Woher stammt die Schätzung von 14 bis 17 Milliarden Euro an europaweiten Hitzeschäden in der Landwirtschaft?",
+        "Bestätigt eine weitere, vom Standard unabhängige Quelle die Verbindung des Heartland Institute zur Tabakindustrie?",
+        "Findet die Podiumsdiskussion am 6. Oktober 2026 wie angekündigt statt, und wie verläuft sie?",
+        "Wie reagieren ÖVP, Grüne und Neos auf die Wiener FPÖ-Veranstaltung?"
+      ],
+      "sensitivity": "medium",
+      "doNotRedraftBefore": "2026-09-30T16:07:42.184Z",
+      "doNotUpdateBefore": "2026-09-29T22:07:42.184Z",
+      "pendingOutcome": "Ob die Podiumsdiskussion am 6. Oktober 2026 im Wiener Rathaus wie angekündigt stattfindet und wie sie verläuft.",
+      "pendingOutcomeUntil": "2026-10-01T16:07:42.184Z",
+      "echoPublishers": {
+        "kurier": "2026-09-29T16:07:45.849Z",
+        "derstandard": "2026-09-29T10:07:38.857Z",
+        "apa": "2026-09-29T14:07:36.973Z"
+      },
+      "resonanceLevel": 3,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-29T16:07:42.184Z"
+    },
+    "gradwohl-sanierungsplan-melk-september-2026": {
+      "canonicalTitle": "Sanierungsplan für insolvente Gradwohl GmbH in Melk angenommen",
+      "slug": "gradwohl-sanierungsplan-melk-september-2026",
+      "firstSeenAt": "2026-09-29T16:07:42.184Z",
+      "lastUpdatedAt": "2026-09-29T16:07:42.184Z",
+      "status": "published",
+      "articlePath": "src/content/articles/gradwohl-sanierungsplan-melk-september-2026.mdx",
+      "researchPath": "data/ai-news/research/2026-09-29/gradwohl-sanierungsplan-melk-september-2026.json",
+      "sourceUrls": [
+        "https://noe.orf.at/stories/3373111",
+        "https://kurier.at/chronik/niederoesterreich/sanierungsplan-fuer-gradwohl-gmbh-in-melk-angenommen/403194573"
+      ],
+      "openQuestions": [
+        "Wie bewerten Betriebsrat oder Arbeitnehmervertretung die neuerliche Restrukturierung und den Stellenabbau?",
+        "Wie positionieren sich einzelne Gläubigergruppen (Hausbank, Lieferanten, Beschäftigte) zum angenommenen Plan?",
+        "Wie stellt sich die Marktlage für Kunststoff-Tiefzieh- und Spritzgussteile 2026 dar, vor deren Hintergrund die künftige Fokussierung steht?",
+        "Wie plausibel ist eine dauerhafte Sanierung nach der Schließung der Drucksparte, verglichen mit der gescheiterten ersten Sanierung 2022/2023?"
+      ],
+      "sensitivity": "low",
+      "doNotRedraftBefore": "2026-09-30T16:07:42.184Z",
+      "doNotUpdateBefore": "2026-09-29T22:07:42.184Z",
+      "echoPublishers": {
+        "orf": "2026-09-29T12:07:38.954Z",
+        "kurier": "2026-09-29T12:07:39.939Z"
+      },
+      "resonanceLevel": 2,
+      "resonanceSource": "zaehlung",
+      "resonanceMeasuredAt": "2026-09-29T16:07:42.184Z"
     }
   }
 }
