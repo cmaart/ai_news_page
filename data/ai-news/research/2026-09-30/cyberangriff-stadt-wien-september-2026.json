@@ -1,0 +1,231 @@
+{
+  "cluster": {
+    "id": "cluster-20260930-fb3010d8",
+    "title": "Cyberangriff auf Stadt Wien",
+    "items": [
+      {
+        "itemId": "3741318a7d26a29987c641f6b18d809eee9b143e0d99027f7cca07a6420f8c41",
+        "sourceId": "orf_wien",
+        "sourceType": "media",
+        "title": "Cyberangriff auf Stadt Wien",
+        "url": "https://wien.orf.at/stories/3373234",
+        "summary": "Die Stadt Wien ist Opfer einer Cyberattacke geworden. Unbekannte haben sich Zugriff auf die EDV verschafft und rund 26.000 interne Dokumente gestohlen. Darunter Daten von 6.000 Personen. Hinweise, dass sie veröffentlicht worden sind, gibt es nicht.",
+        "publishedAt": "2026-09-30T04:48:52.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "27626ea1319b3b01c3958847cf87f1d7ef3ea28071e39759f4800c3b8b74831a",
+        "sourceId": "derstandard_newsroom",
+        "sourceType": "media",
+        "title": "Rund 26.000 interne Dokumente bei Cyberangriff auf Stadt Wien kopiert",
+        "url": "https://www.derstandard.at/story/3000000341974/cyberangriff-auf-stadt-wien-rund-26000-interne-dokumente-kopiert",
+        "summary": "Unbekannte haben sich Zugriff auf die EDV verschafft und rund 26.000 interne Dokumente gestohlen. Darunter Daten von 6000 Personen. Hinweise, dass sie veröffentlicht worden sind, gibt es nicht",
+        "publishedAt": "2026-09-30T05:10:23.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "3b4941e75259771517669880c93b311da5622dc7b2c4322ca1905b6ff6deaf53",
+        "sourceId": "derstandard_web",
+        "sourceType": "media",
+        "title": "Rund 26.000 interne Dokumente bei Cyberangriff auf Stadt Wien kopiert",
+        "url": "https://www.derstandard.at/story/3000000341974/cyberangriff-auf-stadt-wien-rund-26000-interne-dokumente-kopiert",
+        "summary": "Unbekannte haben sich Zugriff auf die EDV verschafft und rund 26.000 interne Dokumente gestohlen. Darunter Daten von 6000 Personen. Hinweise, dass sie veröffentlicht worden sind, gibt es nicht",
+        "publishedAt": "2026-09-30T05:10:23.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "f25b4d1628b07d0c68d4097d6d504b3462723cd3a3069f077f8ebfe820896474",
+        "sourceId": "kurier_home",
+        "sourceType": "media",
+        "title": "Cyberangriff auf Stadt Wien: Hacker kopierten 26.000 Dokumente",
+        "url": "https://kurier.at/politik/inland/cyberangriff-stadt-wien-dokumente-kopiert/403194709",
+        "summary": "Von der Cyberattacke waren Daten von fast 6.000 Personen betroffen. Die Inhalte wurden offenbar bisher nicht veröffentlicht.",
+        "publishedAt": "2026-09-30T05:17:43.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "4180e5f424c67c6d28b0ed1e4fa0eceb795eae9fd0fb76c7d4cd5bf3bb2b2cc2",
+        "sourceId": "kurier_politik",
+        "sourceType": "media",
+        "title": "Cyberangriff auf Stadt Wien: Hacker kopierten 26.000 Dokumente",
+        "url": "https://kurier.at/politik/inland/cyberangriff-stadt-wien-dokumente-kopiert/403194709",
+        "summary": "Von der Cyberattacke waren Daten von fast 6.000 Personen betroffen. Die Inhalte wurden offenbar bisher nicht veröffentlicht.",
+        "publishedAt": "2026-09-30T05:17:43.000Z",
+        "isNew": true
+      }
+    ]
+  },
+  "clusterScore": 0.9,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substantielle Breaking News über Cyberangriff auf zentrale Infrastruktur (Wien-Stadtverwaltung). Breite Medienabdeckung (ORF Wien, Der Standard, Kurier), konkrete und überprüfbare Fakten mit Details aus Originalquelle (CIO Himpele, CERT, DSN). Hohe öffentliche Relevanz für Österreich und Wien: 6.000 betroffene Personen (u. a. Magistratsbeschäftigte, Bürger), personenbezogene Daten teilweise sensibel (Krankenstandstage, IBANs). Kein Bezug zu bestehender veröffentlichter Story. Echtes Nachrichtenereignis, nicht PR/Ankündigung.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Cyberangriff auf Stadt Wien am 9. September 2026 entdeckt",
+      "26.000 interne Dokumente gestohlen",
+      "Daten von 6.000 Personen betroffen (ca. 2.000 Magistratsbeschäftigte, ca. 2.900 Bürger, ca. 800 Auftragnehmer)",
+      "Sicherheitslücke wurde über Darknet-Forum zum Kauf angeboten",
+      "KI-gestützte Scan-Tools als Angriffsmechanismus vermutet",
+      "Täter erlangten keine Kontrolle über Systeme oder Benutzerkonten",
+      "Keine Datenveröffentlichung oder Erpressung nachgewiesen",
+      "Teilweise sensible Daten betroffen (Krankenstandstage, IBAN-Nummern)"
+    ],
+    "missingSources": [
+      "Offizielle Stellungnahme der österreichischen Datenschutzbehörde",
+      "Betroffenenverbände oder Gewerkschaften zu Sicherheitskultur in der Stadtverwaltung",
+      "Technische Details zur identifizierten Schwachstelle (CVE, Patch-Status)",
+      "Zeitpunkt und Methode der Benachrichtigung betroffener Personen",
+      "Vergleichbarkeit mit anderen Cyberangriffen auf öffentliche Institutionen in Österreich"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "cyberangriff-stadt-wien-september-2026",
+    "title": "Cyberangriff auf Stadt Wien: Unbekannte kopieren rund 26.000 interne Dokumente",
+    "description": "Bei einem Cyberangriff auf die Stadt Wien haben Unbekannte Zugriff auf eine interne Dokumentationsplattform erlangt und rund 26.000 Dokumente kopiert, darunter Daten von etwa 6.000 Personen. Hinweise auf eine Veröffentlichung der Daten gibt es laut Stadt bislang nicht.",
+    "topic": "politik",
+    "country": "at",
+    "confidence": "high",
+    "confidenceNote": "Der städtische IT-Chef Klemens Himpele hat den Vorfall selbst gegenüber der APA bestätigt, und mehrere voneinander unabhängige Medien (ORF Wien, Der Standard, Kurier) berichten übereinstimmend über Kernfakten und Zahlen.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Es liegt keine selbst gelesene offizielle Stadt- oder Behördenmitteilung vor, nur Medienberichte, die Aussagen des CIO über die Nachrichtenagentur APA wiedergeben.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die gesamte Darstellung stützt sich auf die Version der Stadt Wien selbst; eine unabhängige technische Einschätzung, eine Stellungnahme der Datenschutzbehörde oder eine Version der Angreifer fehlen bislang.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Die Stadt Wien wurde Opfer eines Cyberangriffs: Unbekannte verschafften sich Zugriff auf eine interne Dokumentationsplattform und kopierten rund 26.000 Dokumente.",
+        "kind": "fact"
+      },
+      {
+        "text": "Betroffen sind Daten von rund 6.000 Personen – etwa 2.000 Magistratsbeschäftigte, rund 2.900 Bürgerinnen und Bürger sowie mehr als 800 Auftragnehmer der Stadt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Die Sicherheitslücke wurde laut Stadt identifiziert und geschlossen; Hinweise auf eine Veröffentlichung der Daten oder eine Erpressung gibt es bislang nicht.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wer hinter dem Angriff steckt und ob tatsächlich eine automatisierte Scan-Software zum Einsatz kam, ist offen.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie die Datenschutzbehörde den Vorfall bewertet und welche Konsequenzen daraus folgen, ist noch unklar.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wer steckt hinter dem Angriff und wie professionell bzw. gezielt war er organisiert?",
+      "Wurde tatsächlich eine spezielle Scan-KI eingesetzt, oder handelt es sich um eine noch unbestätigte Vermutung der Stadt?",
+      "In wie vielen Fällen wurden tatsächlich besonders sensible Daten wie Krankenstandstage oder IBAN-Nummern kopiert?",
+      "Wie bewertet die Datenschutzbehörde den Vorfall, und werden Konsequenzen für die Stadt Wien gezogen?",
+      "Wie und wann genau werden die rund 6.000 betroffenen Personen im Detail informiert?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "ORF Wien",
+        "type": "media",
+        "url": "https://wien.orf.at/stories/3373234"
+      },
+      {
+        "id": "src2",
+        "name": "Der Standard",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000341974/cyberangriff-auf-stadt-wien-rund-26000-interne-dokumente-kopiert"
+      },
+      {
+        "id": "src3",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/inland/cyberangriff-stadt-wien-dokumente-kopiert/403194709"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die Stadt Wien erhielt am 9. September 2026 über das Computer Emergency Response Team (CERT) den ersten Hinweis auf den Cyberangriff, nachdem Zugang zu einer Systemschwachstelle zuvor in einem Onlineforum zum Kauf angeboten worden sein soll.",
+        "status": "supported",
+        "note": "Datum und Ablauf stammen aus dem direkten Zitat des städtischen CIO Klemens Himpele, wiedergegeben von ORF Wien und Der Standard.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Unbekannte kopierten rund 26.000 interne Dokumente (etwa 9 Gigabyte) von einer internen Dokumentationsplattform der Stadt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Von dem Datenabfluss betroffen sind rund 6.000 Personen, darunter etwa 2.000 Magistratsbeschäftigte, rund 2.900 Bürgerinnen und Bürger sowie mehr als 800 Auftragnehmer der Stadt.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src3"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Neben Namen und E-Mail-Adressen könnten in einigen Fällen auch sensiblere Daten wie Krankenstandstage oder IBAN-Nummern kopiert worden sein.",
+        "status": "partial",
+        "note": "ORF Wien formuliert dies selbst als Vermutung („dürften auch … dupliziert worden sein“), eine abschließende Bestätigung fehlt.",
+        "sourceIds": [
+          "src1"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Nach derzeitigem Wissensstand der Stadt wurden die kopierten Daten nicht veröffentlicht, und es gab keine Erpressung.",
+        "status": "partial",
+        "note": "Beruht auf der aktuellen Einschätzung der Stadt selbst; eine unabhängige Bestätigung liegt nicht vor, und der Wissensstand kann sich ändern.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "Als Angriffsmechanismus wird eine spezielle Scan-Software vermutet, ein Phishing-Angriff wird derzeit ausgeschlossen; die Täter erlangten laut Stadt keine Kontrolle über Systeme oder Benutzerkonten.",
+        "status": "unclear",
+        "note": "Im Originalbericht selbst als Vermutung gekennzeichnet, keine technische Verifizierung durch Dritte bekannt.",
+        "sourceIds": [
+          "src1"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Stadt Wien ist Opfer eines Cyberangriffs geworden. Laut Angaben des städtischen Chief Information Officer (CIO) Klemens Himpele erhielt das Rathaus die erste Information über den Vorfall am 9. September 2026 über das österreichische Computer Emergency Response Team (CERT). Zuvor soll auf einem Onlineforum der Zugang zu einer Schwachstelle im städtischen System zum Kauf angeboten worden sein. Die Lücke wurde in der Folge in Zusammenarbeit mit der Direktion Staatsschutz und Nachrichtendienst (DSN) identifiziert und geschlossen.\n\nEine Analyse ergab, dass sich der oder die Täter Einblick in eine interne Dokumentationsplattform der Stadt verschafft haben, auf der unter anderem Informationen zu Schulungen und Projektdokumentationen gespeichert waren. Diese Inhalte wurden kopiert."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "Insgesamt wurden rund 26.000 Dokumente mit einem Volumen von etwa neun Gigabyte vervielfältigt. Darin enthalten waren Daten von fast 6.000 Personen: rund 2.000 Magistratsbeschäftigte, etwa 2.900 Bürgerinnen und Bürger sowie mehr als 800 Auftragnehmerinnen und Auftragnehmer der Stadt. Großteils handelte es sich um Namen und E-Mail-Adressen, in einigen Fällen dürften nach Angaben der Stadt auch sensiblere Daten wie Krankenstandstage oder IBAN-Nummern betroffen sein.\n\nAls möglichen Angriffsweg vermutet die Stadt den Einsatz einer spezialisierten Scan-Software, die gezielt nach solchen Sicherheitslücken für einen sogenannten Data Breach sucht. Ein Phishing-Angriff werde derzeit ausgeschlossen. Nach Darstellung Himpeles habe es zu keinem Zeitpunkt einen direkten Zugriff auf die städtische IT oder die Kontrolle über Systeme und Benutzerkonten gegeben. Der Vorfall wurde bei der Datenschutzbehörde gemeldet, die betroffenen Personen werden informiert. „Wir können uns nur entschuldigen“, wird Himpele zitiert. Nach derzeitigem Wissensstand der Stadt sind die entwendeten Informationen nicht veröffentlicht worden, eine Erpressung habe es nicht gegeben."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Offen ist bislang, wer hinter dem Angriff steckt und wie die Täter tatsächlich vorgegangen sind – die Vermutung einer speziellen Scan-Software stammt von der Stadt selbst und ist nicht unabhängig verifiziert. Auch in welchem Umfang tatsächlich besonders sensible Daten wie Krankenstandstage oder IBAN-Nummern kopiert wurden, ist noch nicht abschließend beziffert. Wie die Datenschutzbehörde den Vorfall bewertet und ob daraus Konsequenzen für die Stadt folgen, ist derzeit ebenfalls unbekannt. Auch technische Details zur konkret identifizierten Schwachstelle liegen bislang nicht öffentlich vor."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Der Fall reiht sich in eine Serie von Cyberangriffen auf öffentliche Institutionen ein, betrifft mit der Wiener Stadtverwaltung aber eine besonders große und sensible Verwaltungseinheit. Die Stadt betont, Datensicherheit habe hohen Stellenwert und es gebe entsprechende Vorkehrungen – wie sich im vorliegenden Fall zeigt, konnte eine Sicherheitslücke dennoch ausgenutzt werden, bevor sie über einen externen Hinweis bekannt wurde. Eine Einordnung im Vergleich zu anderen Vorfällen dieser Art in Österreich ist auf Basis der vorliegenden Quellen nicht möglich."
+      }
+    ],
+    "bodyKompakt": "Die Stadt Wien ist Opfer eines Cyberangriffs geworden. Laut dem städtischen IT-Chef Klemens Himpele erhielt das Rathaus am 9. September 2026 über das Computer Emergency Response Team (CERT) den ersten Hinweis, nachdem Zugang zu einer Systemschwachstelle zuvor in einem Onlineforum angeboten worden sein soll. Die Lücke wurde gemeinsam mit der Direktion Staatsschutz und Nachrichtendienst identifiziert und geschlossen.\n\nUnbekannte verschafften sich Zugriff auf eine interne Dokumentationsplattform und kopierten rund 26.000 Dokumente mit etwa neun Gigabyte Volumen. Betroffen sind Daten von rund 6.000 Personen – Magistratsbeschäftigte, Bürgerinnen und Bürger sowie Auftragnehmer der Stadt –, größtenteils Namen und E-Mail-Adressen, in Einzelfällen möglicherweise auch Krankenstandstage oder IBAN-Nummern. Als Angriffsweg vermutet die Stadt eine spezielle Scan-Software, Phishing schließt sie aus.\n\nNach derzeitigem Wissensstand wurden die Daten nicht veröffentlicht, eine Erpressung gab es nicht. Der Vorfall wurde der Datenschutzbehörde gemeldet, Betroffene werden informiert. Wer hinter dem Angriff steckt und wie die Datenschutzbehörde den Fall bewertet, ist offen.",
+    "updateNote": null,
+    "pendingOutcome": "Ergebnis der Meldung bei der Datenschutzbehörde sowie mögliche neue Erkenntnisse zu Urhebern und tatsächlichem Umfang des Datenabflusses."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-30T06:07:35.708Z"
+}

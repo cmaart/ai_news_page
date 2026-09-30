@@ -1,0 +1,211 @@
+{
+  "cluster": {
+    "id": "cluster-20260930-b6ebf469",
+    "title": "Supreme Court erlaubt vorerst Abschiebungen in Drittländer",
+    "items": [
+      {
+        "itemId": "0ace721b3ccaa83527dc3fcf90b5091cb9656be6fc7468a886fa5e7702a00272",
+        "sourceId": "derstandard_international",
+        "sourceType": "media",
+        "title": "Supreme Court erlaubt vorerst Abschiebungen in Drittländer",
+        "url": "https://www.derstandard.at/story/3000000341981/supreme-court-erlaubt-vorerst-abschiebungen-in-drittlaender",
+        "summary": "Der Oberste Gerichtshof erlaubt der Regierung von Donald Trump, Menschen in Drittstaaten abzuschieben. Ein Urteil aus unterer Instanz wurde vorerst ausgesetzt",
+        "publishedAt": "2026-09-30T05:46:40.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "1f092f1bf9776e2732a7b42ba77c45ed2ddfbda3de9c1c07ba3a6aa9976b1e27",
+        "sourceId": "orf_news",
+        "sourceType": "media",
+        "title": "US-Supreme Court erlaubt Abschiebungen in Drittstaaten",
+        "url": "https://orf.at/stories/3443640",
+        "isNew": false
+      },
+      {
+        "itemId": "95664ad1de4cdb2a1f8b1b70eaf8ac900822cbef94cb44137a24007d5e05fcd6",
+        "sourceId": "kleinezeitung_home",
+        "sourceType": "media",
+        "title": "Supreme Court erlaubt vorerst Abschiebungen in Drittländer",
+        "url": "https://www.kleinezeitung.at/artikel/41310524/supreme-court-erlaubt-vorerst-abschiebungen-in-drittlaender",
+        "isNew": false
+      },
+      {
+        "itemId": "0cf825219e9a2f598ca79b1e704b5b987d698bc7792020326ba14bbce145509d",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "Supreme Court erlaubt vorerst Abschiebungen in Drittländer",
+        "url": "https://www.kleinezeitung.at/artikel/41310524/supreme-court-erlaubt-vorerst-abschiebungen-in-drittlaender",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 0.95,
+  "triage": {
+    "action": "draft_article",
+    "reason": "Substanzreiche Supreme-Court-Entscheidung zu US-Migrationspolitik mit breiter österreichischer Berichterstattung (orf.at, derstandard.at, kleinezeitung.at). Keine der relatedStories passt (unterschiedliche Supreme-Court-Fälle: Ballsaal-Bau, Briefwahl, Strafprozess). Eigenständige neue Story: Kernfakt ist klare gerichtliche Wendung mit Millionen-Impact (25.000+ Migranten betroffen), Dezember-Termin für Hauptverhandlung gibt Entwicklungspotenzial.",
+    "sensitivity": "high",
+    "newsworthiness": 4,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "Supreme Court der USA gab der Trump-Regierung einen Eilantrag statt und setzte damit das Urteil eines Bundesrichters aus",
+      "Die Praxis der Abschiebung in Drittstaaten ist vorerst wieder erlaubt",
+      "Über 25.000 Migranten wurden seit 2025 in 29 Länder abgeschoben",
+      "Ein Bundesrichter in Boston hatte die Praxis im Februar als verfassungswidrig gestoppt (Recht auf ordentliches Verfahren)",
+      "Im Dezember 2026 findet eine Hauptverhandlung mit endgültigem Urteil statt",
+      "Nur die 3 liberalen Richter des 9-köpfigen, konservativ dominierten Gerichts stimmten dagegen",
+      "Zielländer: Mexiko, Südsudan, Uganda, Liberia und weitere"
+    ],
+    "missingSources": [
+      "Volltext oder Kernpassagen der Supreme-Court-Entscheidung selbst",
+      "Detaillierte Begründung der Mehrheit (über Medienberichte vermittelt)",
+      "Offizielle Reaktion der Trump-Administration",
+      "Statements von Bürgerrechtsgruppen/Klägern zum Urteil",
+      "Einordnung durch Migrationsjustiz-Experten"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "supreme-court-drittstaaten-abschiebungen-september-2026",
+    "title": "US-Supreme-Court erlaubt Trump-Regierung vorerst wieder Abschiebungen in Drittstaaten",
+    "description": "Der Oberste Gerichtshof der USA hat einem Eilantrag der Trump-Regierung stattgegeben und ein Urteil eines Bundesrichters ausgesetzt, das Abschiebungen ohne vorherige Anhörung in Drittstaaten gestoppt hatte. Im Dezember soll eine Hauptverhandlung über die Sache selbst folgen.",
+    "topic": "politik",
+    "country": "int",
+    "confidence": "high",
+    "confidenceNote": "Der Kernvorgang – Eilentscheidung des Supreme Court zugunsten der Regierung, Aussetzung des Bundesrichter-Urteils, Dezember-Termin – wird von mehreren voneinander unabhängigen Medien (ORF, DER STANDARD, SCOTUSblog) übereinstimmend berichtet.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Der Wortlaut der unsignierten Gerichtsentscheidung selbst wurde nicht eingesehen, nur Medien- und Fachblog-Berichte darüber.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Die Position der Regierung ist über ein zitiertes Eilantrags-Argument greifbar, die Position der Kläger und betroffenen Migranten wird dagegen nur indirekt über die Einschätzung des ausgesetzten Richterurteils und der abweichenden Richterinnen wiedergegeben.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Der Supreme Court der USA hat einem Eilantrag der Trump-Regierung stattgegeben und damit ein Urteil eines Bundesrichters vorerst außer Kraft gesetzt, das Abschiebungen von Migranten in Drittstaaten ohne vorherige Anhörung gestoppt hatte.",
+        "kind": "fact"
+      },
+      {
+        "text": "Abschiebungen in Länder, die nicht das eigentliche Zielland der Betroffenen sind, dürfen damit vorerst fortgesetzt werden.",
+        "kind": "fact"
+      },
+      {
+        "text": "Im Dezember 2026 will sich das Gericht in einer Hauptverhandlung inhaltlich mit dem Fall befassen und ein endgültiges Urteil fällen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Wie viele Menschen seit Einführung der Praxis tatsächlich betroffen waren und welche Länder konkret als Ziele dienten, stützt sich bislang nur auf eine Quelle unter Berufung auf Menschenrechtsgruppen.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie die schriftliche Mehrheitsbegründung des Gerichts im Detail argumentiert, ist öffentlich nur in Kurzform bekannt – die Entscheidung erging unsigniert und ohne ausführliche Begründung.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wie lautet die inhaltliche Begründung der Mehrheit des Supreme Court im Detail, über die bislang nur eine unsignierte Kurzentscheidung vorliegt?",
+      "Wie viele Menschen wurden seit Einführung der Praxis tatsächlich in Drittstaaten abgeschoben, und lässt sich die von Menschenrechtsgruppen genannte Zahl von über 25.000 unabhängig bestätigen?",
+      "Wie fällt das endgültige Urteil des Supreme Court nach der für Dezember 2026 angesetzten Hauptverhandlung aus?",
+      "Wie reagieren die ursprünglichen Kläger und Bürgerrechtsgruppen konkret auf die Eilentscheidung, und mit welcher Argumentation gehen sie in die Hauptverhandlung?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "DER STANDARD",
+        "type": "media",
+        "url": "https://www.derstandard.at/story/3000000341981/supreme-court-erlaubt-vorerst-abschiebungen-in-drittlaender"
+      },
+      {
+        "id": "src2",
+        "name": "ORF.at",
+        "type": "media",
+        "url": "https://orf.at/stories/3443640"
+      },
+      {
+        "id": "src3",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41310524/supreme-court-erlaubt-vorerst-abschiebungen-in-drittlaender"
+      },
+      {
+        "id": "src4",
+        "name": "SCOTUSblog",
+        "type": "media",
+        "url": "https://www.scotusblog.com/2026/09/supreme-court-to-hear-argument-on-trump-administrations-deportation-of-immigrants-to-third-party/"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Der Supreme Court hat einem Eilantrag der Trump-Regierung stattgegeben und damit das Urteil eines Bundesrichters, der Abschiebungen in Drittstaaten ohne vorherige Anhörung gestoppt hatte, vorerst außer Kraft gesetzt.",
+        "status": "supported",
+        "note": "Von drei voneinander unabhängigen Quellen übereinstimmend berichtet.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "Für Dezember 2026 hat der Supreme Court eine mündliche Hauptverhandlung angesetzt, in der er inhaltlich über den Fall entscheiden will.",
+        "status": "supported",
+        "note": null,
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "Die Richterinnen Sonia Sotomayor, Elena Kagan und Ketanji Brown Jackson hätten den Eilantrag der Regierung abgelehnt.",
+        "status": "supported",
+        "note": "ORF spricht allgemein von den drei liberalen Richtern des Gerichts, SCOTUSblog nennt sie namentlich – beide Angaben decken sich.",
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "Ein Bundesrichter hatte die Abschiebepraxis zuvor gestoppt, weil sie gegen das verfassungsrechtlich verankerte Recht auf ein ordentliches Verfahren verstoße.",
+        "status": "partial",
+        "note": "Nur ORF nennt Zeitpunkt (Februar) und Ort (Boston) des ursprünglichen Urteils; SCOTUSblog bestätigt lediglich, dass ein Bezirksrichter eine entsprechende Anordnung erlassen hatte, ohne diese Details zu wiederholen.",
+        "sourceIds": [
+          "src2",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "Menschenrechtsgruppen zufolge wurden seit Einführung der Praxis im Vorjahr mehr als 25.000 Migranten in 29 Länder abgeschoben, die meisten nach Mexiko, weitere Zielländer sollen unter anderem der Südsudan, Uganda und Liberia gewesen sein.",
+        "status": "unclear",
+        "note": "Nur bei einer einzigen Quelle genannt und dort selbst als Angabe von Menschenrechtsgruppen ausgewiesen, nicht als eigenständig verifizierte Zahl.",
+        "sourceIds": [
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Der Oberste Gerichtshof der USA hat der Regierung von Präsident Donald Trump vorerst wieder erlaubt, Migrantinnen und Migranten in Drittstaaten abzuschieben – also in Länder, die nicht ihr eigentliches Herkunfts- oder Zielland sind. Das Gericht gab damit einem Eilantrag des Justizministeriums statt und setzte ein Urteil eines Bundesrichters aus, der diese Praxis zuvor für rechtswidrig erklärt hatte. Die Aussetzung gilt vorerst nur für die Dauer des laufenden Verfahrens: Im Dezember 2026 will sich der Supreme Court in einer Hauptverhandlung inhaltlich mit dem Fall befassen und danach ein endgültiges Urteil fällen."
+      },
+      {
+        "heading": "Was die Quellen zeigen",
+        "markdown": "ORF.at und DER STANDARD berichten übereinstimmend, dass die Entscheidung Teil eines von Trump vorangetriebenen Kurses gegen illegale Einwanderung ist. Ein Bundesrichter hatte die Praxis laut ORF im Februar 2026 gestoppt, nachdem Bürgerrechtsgruppen eine Sammelklage eingereicht hatten – mit der Begründung, das Vorgehen verletze das verfassungsrechtlich verankerte Recht auf ein ordentliches Verfahren, weil Betroffenen keine Möglichkeit blieb, auf drohende Gefahren im Zielland hinzuweisen. Das auf US-Rechtsberichterstattung spezialisierte Fachblog SCOTUSblog bestätigt unabhängig davon den Kern des Vorgangs: eine unsignierte, kurze Anordnung des Gerichts, die den Weg für die Fortsetzung der Abschiebungen freimacht, sowie die für Dezember angesetzte Hauptverhandlung. Laut SCOTUSblog sollen sich zudem die Richterinnen Sonia Sotomayor, Elena Kagan und Ketanji Brown Jackson gegen den Eilantrag der Regierung ausgesprochen haben – das deckt sich mit der Angabe von ORF.at, wonach die drei liberalen Richter des neunköpfigen, konservativ dominierten Gerichts dagegen stimmten."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Der genaue Wortlaut der Mehrheitsbegründung liegt bislang nicht öffentlich vor – die Entscheidung erging als knappe, unsignierte Anordnung ohne ausführliche Erläuterung. Auch die von ORF.at unter Berufung auf Menschenrechtsgruppen genannte Zahl von mehr als 25.000 abgeschobenen Personen in 29 Länder seit Einführung der Praxis im Vorjahr stammt aus einer einzigen Quelle und ist von dieser selbst als Angabe Dritter gekennzeichnet – eine unabhängige Bestätigung dieser Zahl liegt nicht vor. Offen ist zudem, wie sich die ursprünglichen Kläger und Bürgerrechtsgruppen konkret zu der Eilentscheidung äußern und mit welcher Argumentation sie in die für Dezember angesetzte Hauptverhandlung gehen."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Die Entscheidung ist vorläufig: Der Supreme Court hat nicht über die inhaltliche Rechtmäßigkeit der Abschiebepraxis geurteilt, sondern lediglich den Vollzug des unteren Gerichtsurteils bis zur Hauptverhandlung im Dezember ausgesetzt. Damit reiht sich der Fall in eine Serie von Eilentscheidungen des Gerichts zu Vorhaben der Trump-Regierung ein, bei denen zunächst nur über vorläufige Fragen – etwa die Aussetzung einer unteren Instanz – entschieden wurde, während die eigentliche rechtliche Bewertung erst später erfolgt. Wie diese endgültige Bewertung ausfällt, ist offen."
+      }
+    ],
+    "bodyKompakt": "Der Oberste Gerichtshof der USA hat der Regierung von Präsident Donald Trump vorerst wieder erlaubt, Migrantinnen und Migranten in Drittstaaten abzuschieben. Das Gericht gab damit einem Eilantrag des Justizministeriums statt und setzte ein Urteil eines Bundesrichters aus, der die Praxis zuvor als Verstoß gegen das Recht auf ein ordentliches Verfahren gestoppt hatte. Für Dezember 2026 ist eine Hauptverhandlung angesetzt, in der der Supreme Court inhaltlich über den Fall entscheiden will.\n\nORF.at, DER STANDARD und das auf US-Rechtsberichterstattung spezialisierte Fachblog SCOTUSblog berichten übereinstimmend über den Kernvorgang, einschließlich der unsignierten Kurzentscheidung des Gerichts und des Dezember-Termins. Laut übereinstimmenden Angaben sprachen sich die Richterinnen Sonia Sotomayor, Elena Kagan und Ketanji Brown Jackson gegen den Eilantrag der Regierung aus.\n\nOffen bleibt die ausführliche Begründung der Mehrheit, die bislang nicht öffentlich vorliegt. Auch eine von Menschenrechtsgruppen genannte Zahl von mehr als 25.000 bereits abgeschobenen Personen in 29 Länder stammt aus nur einer Quelle und ist nicht unabhängig bestätigt. Wie die Kläger auf die Eilentscheidung reagieren und wie der Supreme Court im Dezember letztlich urteilt, ist derzeit unklar.",
+    "updateNote": null,
+    "pendingOutcome": "Endgültiges Urteil des Supreme Court nach der für Dezember 2026 angesetzten mündlichen Hauptverhandlung zur inhaltlichen Rechtmäßigkeit der Abschiebepraxis."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-30T06:07:35.708Z"
+}
