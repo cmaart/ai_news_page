@@ -1,0 +1,222 @@
+{
+  "cluster": {
+    "id": "cluster-20260930-896ba62e",
+    "title": "IFA stellt fünf geförderte Wohngebäude in Graz fertig – 25,45 Millionen Euro privates Kapital investiert",
+    "items": [
+      {
+        "itemId": "bcea8cab5be735a4a4f493c0472662a3b53a8dd95f06fb6dabcdf567c6ceb1d5",
+        "sourceId": "apa_ots_wirtschaft",
+        "sourceType": "press_release_wire",
+        "title": "IFA stellt fünf geförderte Wohngebäude in Graz fertig – 25,45 Millionen Euro privates Kapital investiert",
+        "url": "https://www.ots.at/presseaussendung/OTS_20260930_OTS0042/ifa-stellt-fuenf-gefoerderte-wohngebaeude-in-graz-fertig-2545-millionen-euro-privates-kapital-investiert",
+        "summary": "Alle 58 Wohnungen sind bereits vermietet – hohe Nachfrage unterstreicht Bedeutung von privaten Investments für leistbaren Wohnraum.",
+        "publishedAt": "2026-09-30T07:00:46.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "7f7b670c83653dcccffde4d45aff18496d393f36dd5b5d0a49f65cd0630f8ba6",
+        "sourceId": "apa_ots_chronik",
+        "sourceType": "press_release_wire",
+        "title": "IFA stellt fünf geförderte Wohngebäude in Graz fertig – 25,45 Millionen Euro privates Kapital investiert",
+        "url": "https://www.ots.at/presseaussendung/OTS_20260930_OTS0042/ifa-stellt-fuenf-gefoerderte-wohngebaeude-in-graz-fertig-2545-millionen-euro-privates-kapital-investiert",
+        "summary": "Alle 58 Wohnungen sind bereits vermietet – hohe Nachfrage unterstreicht Bedeutung von privaten Investments für leistbaren Wohnraum.",
+        "publishedAt": "2026-09-30T07:00:46.000Z",
+        "isNew": true
+      },
+      {
+        "itemId": "f501e289b74d8a36428be66069296ac3a1ba56a00c3a08e3abc25a619ddc9b45",
+        "sourceId": "diepresse_wirtschaft",
+        "sourceType": "media",
+        "title": "Soravia investiert 170 Millionen Euro am Traunsee [premium]",
+        "url": "https://www.diepresse.com/41296346/soravia-investiert-170-millionen-euro-am-traunsee",
+        "isNew": false
+      },
+      {
+        "itemId": "4156490fa63af66f945e2b23c4d8d29505b722594b3f4bc219ee97c4da6c6011",
+        "sourceId": "kleinezeitung_politik",
+        "sourceType": "media",
+        "title": "EU stellt mehr als 700 Millionen Euro für Krisenhilfe weltweit bereit",
+        "url": "https://www.kleinezeitung.at/artikel/41299968/eu-stellt-mehr-als-700-millionen-euro-fuer-krisenhilfe-weltweit-bereit",
+        "isNew": false
+      }
+    ]
+  },
+  "clusterScore": 1,
+  "triage": {
+    "action": "research_note",
+    "reason": "Reine Presseaussendung (APA-OTS Wire Service) über abgeschlossenes Wohnbauprojekt ohne unabhängige redaktionelle Zweitquelle. Fakten konkret (58 Wohnungen, 25,45 Mio. Euro, vollvermietet), aber Quellenlage zu dünn. Recherche mit lokalen Medien und Graz Stadtverwaltung erforderlich. (Weitere Items im Cluster sind inkoherent: Soravia-Projekt Gmunden und EU-Krisenhilfe sind separate Stories.)",
+    "sensitivity": "low",
+    "newsworthiness": 2,
+    "resonance": null,
+    "relatedSlug": null,
+    "possibleClaims": [
+      "IFA hat fünf geförderte Wohngebäude in Graz fertiggestellt",
+      "Die Gebäude enthalten 58 Wohnungen",
+      "Investitionsvolumen: 25,45 Millionen Euro privates Kapital",
+      "Alle 58 Wohnungen sind bereits vermietet",
+      "Hohe Nachfrage nach leistbarem Wohnraum"
+    ],
+    "missingSources": [
+      "Unabhängiger redaktioneller Bericht",
+      "Statements von Graz Stadtverwaltung oder Wohnbaupolitik",
+      "Detaillierte Mietpreise und Ausstattungsinformationen",
+      "Reaktionen von Mieterorganisationen oder Wohnbauverbänden"
+    ]
+  },
+  "draft": {
+    "slugSuggestion": "eu-krisenhilfe-700-millionen-september-2026",
+    "title": "EU kündigt fast 710 Millionen Euro für weltweite Krisenhilfe an",
+    "description": "Die EU-Kommission hat laut Ankündigung von Ursula von der Leyen ein Hilfspaket von knapp 710 Millionen Euro für Vertriebene in Afrika sowie für Krisenregionen im Nahen Osten und in der Ukraine geschnürt.",
+    "topic": "politik",
+    "country": "eu",
+    "confidence": "high",
+    "confidenceNote": "Die Ankündigung stammt von der handelnden Institution selbst (von der Leyen für die EU-Kommission), eine passende Pressemitteilung ist im offiziellen Presscorner der Kommission auffindbar, zusätzlich berichten mehrere Medien übereinstimmend darüber. Eine erneute Recherche nach dem Stand der Budgetzustimmung und weiteren Medienberichten hat keine neuen Fakten ergeben.",
+    "primarySourceStrength": "weak",
+    "sourceStrengthNote": "Die Existenz einer offiziellen Kommissions-Pressemitteilung wurde per Suche bestätigt, der Volltext wurde aber nicht abgerufen — die Darstellung stützt sich im Kern auf Medienberichte, die die Kommissionsangaben wiedergeben.",
+    "framingRisk": "medium",
+    "framingRiskNote": "Es liegt ausschließlich die Selbstdarstellung der EU-Kommission vor; Reaktionen von Hilfsorganisationen, Empfängerstaaten oder Kritik an der Mittelverwendung fehlen in den vorliegenden Quellen weiterhin komplett.",
+    "sensitivity": "high",
+    "summary": [
+      {
+        "text": "Die EU-Kommission hat laut eigener Ankündigung ein Hilfspaket von fast 710 Millionen Euro für weltweite Krisenhilfe geschnürt.",
+        "kind": "fact"
+      },
+      {
+        "text": "Der größte Einzelposten mit 380 Millionen Euro soll laut Kommissionsangaben in migrationsbezogene Maßnahmen in Ländern südlich der Sahara fließen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Weitere Mittel sind laut Kommissionsangaben für Palästina und den Libanon (103 Mio. Euro), die Ukraine (52 Mio. Euro) sowie die Ebola-Reaktion in der Demokratischen Republik Kongo (7,5 Mio. Euro) vorgesehen.",
+        "kind": "fact"
+      },
+      {
+        "text": "Für 252 Millionen Euro der geplanten humanitären Hilfe steht die endgültige Zustimmung der zuständigen EU-Budgetbehörde weiterhin aus.",
+        "kind": "open"
+      },
+      {
+        "text": "Wie und bis wann die Gelder konkret ausgezahlt werden und wie Hilfsorganisationen die Ankündigung bewerten, ist aus den vorliegenden Quellen weiterhin nicht ersichtlich.",
+        "kind": "open"
+      }
+    ],
+    "openQuestions": [
+      "Wann genau erhält die noch ausstehende Zustimmung der EU-Budgetbehörde zu den 252 Millionen Euro ihren Abschluss?",
+      "Nach welchem Zeitplan sollen die einzelnen Teilbeträge tatsächlich ausgezahlt werden?",
+      "Wie reagieren humanitäre Organisationen und NGOs vor Ort auf das Paket?",
+      "Sind die migrationsbezogenen Mittel an Bedingungen wie Rückkehr- oder Reintegrationsauflagen geknüpft, und wie werden diese konkret umgesetzt?",
+      "Erfolgte die Ankündigung, wie von manchen internationalen Medien berichtet, über einen Social-Media-Post oder, wie österreichische Medien schreiben, per Videobotschaft für das Global Citizen Festival?"
+    ],
+    "sources": [
+      {
+        "id": "src1",
+        "name": "Kurier",
+        "type": "media",
+        "url": "https://kurier.at/politik/ausland/eu-700-millionen-euro-krisenhilfe-weltweit/403194135"
+      },
+      {
+        "id": "src2",
+        "name": "Kleine Zeitung",
+        "type": "media",
+        "url": "https://www.kleinezeitung.at/artikel/41299968/eu-stellt-mehr-als-700-millionen-euro-fuer-krisenhilfe-weltweit-bereit"
+      },
+      {
+        "id": "src3",
+        "name": "ORF",
+        "type": "media",
+        "url": "https://orf.at/stories/3443360"
+      },
+      {
+        "id": "src4",
+        "name": "Europäische Kommission (Presscorner)",
+        "type": "official",
+        "url": "https://ec.europa.eu/commission/presscorner/detail/de/ip_26_1985"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim1",
+        "text": "Die EU-Kommission stellt fast 710 Millionen Euro für weltweite Krisenhilfe bereit.",
+        "status": "supported",
+        "note": "Von der Institution selbst angekündigt, passende offizielle Pressemitteilung existiert laut Suche, mehrere Medien berichten übereinstimmend.",
+        "sourceIds": [
+          "src1",
+          "src2",
+          "src3",
+          "src4"
+        ]
+      },
+      {
+        "id": "claim2",
+        "text": "380 Millionen Euro sollen laut Kommissionsangaben in migrationsbezogene Maßnahmen in Subsahara-Afrika fließen, u. a. Schutz von Migrantinnen und Migranten sowie Unterstützung freiwilliger Rückkehr.",
+        "status": "partial",
+        "note": "Sensibles Migrationsthema, Angaben stammen aus Medienwiedergabe der Kommissionsdarstellung, keine unabhängige Prüfung der Umsetzung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim3",
+        "text": "252 Millionen Euro sind für humanitäre Soforthilfe vorgesehen, wobei die finale Zustimmung der zuständigen EU-Budgetbehörde weiterhin aussteht.",
+        "status": "partial",
+        "note": "Von den Quellen selbst als noch nicht final bestätigt dargestellt; eine erneute Recherche Ende September 2026 ergab keinen Hinweis auf eine inzwischen erfolgte Zustimmung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim4",
+        "text": "103 Millionen Euro sollen an schutzbedürftige Bevölkerungsgruppen in Palästina und im Libanon gehen.",
+        "status": "partial",
+        "note": "Kriegskontext, Angabe beruht auf Kommissionsformulierung laut Medienbericht, keine Einzelbestätigung durch dritte Quelle.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim5",
+        "text": "52 Millionen Euro sollen humanitäre Hilfe und Wintervorbereitung in der Ukraine unterstützen.",
+        "status": "partial",
+        "note": "Kriegskontext, einzelquellenbasiert über Medienwiedergabe der Kommissionsangaben.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      },
+      {
+        "id": "claim6",
+        "text": "7,5 Millionen Euro sollen die Reaktion auf die Ebola-Krise in der Demokratischen Republik Kongo unterstützen.",
+        "status": "partial",
+        "note": "Gesundheitsthema, Angabe stammt aus Medienwiedergabe der Kommissionsdarstellung.",
+        "sourceIds": [
+          "src1",
+          "src2"
+        ]
+      }
+    ],
+    "body": [
+      {
+        "heading": "Was passiert ist",
+        "markdown": "Die Europäische Kommission hat laut übereinstimmenden Medienberichten ein neues Hilfspaket von fast 710 Millionen Euro für weltweite Krisenhilfe angekündigt. EU-Kommissionspräsidentin Ursula von der Leyen teilte dies mit, nachdem das Global Citizen Festival in New York wegen Sturmwetters abgesagt worden war — die Ankündigung sei ursprünglich für eine Videobotschaft zu dieser Veranstaltung vorgesehen gewesen. „Konflikte, extreme Wetterereignisse und steigende Lebenshaltungskosten bringen das Leben vieler Menschen auf der ganzen Welt aus dem Gleichgewicht“, wird von der Leyen in den Berichten zitiert. Eine Pressemitteilung der Kommission zu dieser Ankündigung lässt sich über den offiziellen Presscorner der EU nachweisen, was die institutionelle Urheberschaft der Ankündigung stützt."
+      },
+      {
+        "heading": "Wie sich die Mittel aufteilen",
+        "markdown": "Laut Kommissionsangaben, die von mehreren Medien wiedergegeben werden, sollen 380 Millionen Euro in migrationsbezogene Maßnahmen in Ländern südlich der Sahara fließen — im Mittelpunkt stünden der Schutz besonders schutzbedürftiger Migrantinnen und Migranten, die Unterstützung freiwilliger Rückkehr und Reintegration sowie die Reaktion auf Vertreibung. 252 Millionen Euro sind für Menschen und Gemeinschaften vorgesehen, die etwa wegen Konflikten, Vertreibung, Epidemien oder Naturkatastrophen dringend Hilfe benötigen; dafür steht laut den Berichten die finale Zustimmung der zuständigen EU-Budgetbehörde weiterhin aus. Davon sollen 97 Millionen Euro in Subsahara-Afrika helfen, den Bedarf durch Konflikte, Ernährungsunsicherheit, Mangelernährung und Klimafolgen zu decken. Weitere 103 Millionen Euro sollen an schutzbedürftige Bevölkerungsgruppen in Palästina und im Libanon gehen, wo laut Kommissionsdarstellung anhaltende Kampfhandlungen und großflächige Vertreibung eine akute humanitäre Notlage verursachen. In der Ukraine sollen 52 Millionen Euro humanitäre Hilfe und Notfallvorsorge unterstützen, etwa Vorbereitung auf den Winter, Unterkünfte und Soforthilfe im Energiebereich. Für die Demokratische Republik Kongo sind 7,5 Millionen Euro zur Unterstützung der Reaktion auf die Ebola-Krise und zur langfristigen Stärkung der Vorsorge vorgesehen."
+      },
+      {
+        "heading": "Was unklar bleibt",
+        "markdown": "Aus den vorliegenden Quellen geht nicht hervor, nach welchem konkreten Zeitplan die einzelnen Teilbeträge tatsächlich ausgezahlt werden sollen. Auch bleibt offen, wann genau die noch ausstehende Zustimmung der EU-Budgetbehörde zu den 252 Millionen Euro erfolgen soll — eine erneute Recherche Ende September 2026 hat dazu keine neuen Informationen ergeben. Reaktionen von humanitären Organisationen oder NGOs auf das Paket finden sich in den gesichteten Berichten weiterhin nicht, ebenso wenig Angaben dazu, ob die migrationsbezogenen Mittel an konkrete Bedingungen geknüpft sind. Auch der genaue Anlass der Ankündigung wird nicht einheitlich beschrieben: Während österreichische Medien von einer Videobotschaft für das abgesagte Global Citizen Festival sprechen, nennen internationale Berichte auch einen Social-Media-Post der Kommissionspräsidentin im Umfeld der UN-Generalversammlung in New York."
+      },
+      {
+        "heading": "Einordnung",
+        "markdown": "Das Hilfspaket reiht sich in eine Reihe von EU-Ankündigungen zur humanitären Unterstützung ein und verknüpft mehrere Krisenherde, die die europäische Politik seit Jahren beschäftigen: Vertreibung und Migration in Afrika, die Kriege im Nahen Osten und in der Ukraine sowie gesundheitliche Notlagen wie die Ebola-Ausbrüche im Kongo. Dass ein erheblicher Teil der Mittel — 380 Millionen Euro — ausdrücklich migrationsbezogenen Maßnahmen zugeordnet wird, fällt in eine Zeit, in der die EU-Migrationspolitik innenpolitisch intensiv diskutiert wird. Eine unabhängige Bewertung, wie wirksam oder ausreichend das Paket im Verhältnis zum tatsächlichen Bedarf ist, liegt in den gesichteten Quellen weiterhin nicht vor."
+      }
+    ],
+    "bodyKompakt": "Die Europäische Kommission hat laut übereinstimmenden Medienberichten ein Hilfspaket von fast 710 Millionen Euro für weltweite Krisenhilfe angekündigt. Kommissionspräsidentin Ursula von der Leyen teilte dies mit, nachdem das Global Citizen Festival in New York wegen Sturmwetters abgesagt worden war. Eine passende Pressemitteilung der Kommission lässt sich über deren offiziellen Presscorner nachweisen.\n\nLaut Kommissionsangaben sollen 380 Millionen Euro in migrationsbezogene Maßnahmen in Ländern südlich der Sahara fließen, etwa Schutz von Migrantinnen und Migranten sowie Unterstützung freiwilliger Rückkehr. 252 Millionen Euro sind für allgemeine humanitäre Nothilfe vorgesehen, wobei die Zustimmung der zuständigen EU-Budgetbehörde weiterhin aussteht. Weitere Beträge betreffen Palästina und den Libanon (103 Mio. Euro), die Ukraine (52 Mio. Euro) sowie die Ebola-Reaktion im Kongo (7,5 Mio. Euro).\n\nOffen bleiben der genaue Auszahlungsplan, der Zeitpunkt der ausstehenden Budgetzustimmung sowie Reaktionen von Hilfsorganisationen. Auch der Anlass der Ankündigung wird in den Berichten nicht einheitlich beschrieben.",
+    "updateNote": null,
+    "pendingOutcome": "Offen bleibt, ob und wann die zuständige EU-Budgetbehörde die ausstehenden 252 Millionen Euro endgültig freigibt und nach welchem Zeitplan die Auszahlung der Gesamtsumme erfolgt; auch Reaktionen von Hilfsorganisationen liegen weiterhin nicht vor."
+  },
+  "webSearchUsed": 1,
+  "createdAt": "2026-09-30T08:07:31.148Z"
+}
